@@ -9,8 +9,8 @@ import wx
 from urllib.request import Request, urlopen
 import urllib.request, urllib.parse, urllib.error
 
-#from reportlab.pdfgen import canvas  
-#from reportlab.lib.units import cm  
+#from reportlab.pdfgen import canvas
+#from reportlab.lib.units import cm
 
 import CompMngr_Heatsheet
 
@@ -34,38 +34,38 @@ class HelloFrame(wx.Frame):
         st.SetFont(font)
 
         st_adiv = wx.StaticText(pnl, label="Divisions", pos=(10, 55))
-        st_adiv.SetFont(font)           
+        st_adiv.SetFont(font)
 
         st_dnc = wx.StaticText(pnl, label="Dancers", pos=(10, 85))
-        st_dnc.SetFont(font)   
+        st_dnc.SetFont(font)
 
         st_cpl = wx.StaticText(pnl, label="Couples", pos=(10, 115))
-        st_cpl.SetFont(font)         
+        st_cpl.SetFont(font)
 
-                                # Create the controls associated with the labels
+        # Create the controls associated with the labels
         self.comp_name = wx.TextCtrl(pnl, value="Open a Competition Heatsheet File", style=wx.TE_READONLY, pos=(125,28), size=(300, 24))
         self.divisions = wx.Choice(pnl, pos=(125,58), size=(100, 24))
         self.dancers = wx.Choice(pnl, pos=(125,88), size=(300, 24))
         self.couples = wx.Choice(pnl, pos=(125,118), size=(300, 24))
 
-                                # separate the labels/controls from the report section of the GUI
+        # separate the labels/controls from the report section of the GUI
         wx.StaticLine(pnl, pos=(10, 150), size=(580, 3), style=wx.LI_HORIZONTAL)
 
-                                # Create a label for the report section
+        # Create a label for the report section
         st_cpl = wx.StaticText(pnl, label="Report", pos=(10, 155))
-        st_cpl.SetFont(font)  
+        st_cpl.SetFont(font)
 
-                                # Use a ListCtrl widget for the report information
-        self.list_ctrl = wx.ListCtrl(pnl, wx.ID_ANY, pos = (10,185), size=(960, 400), 
-                                     style=wx.LC_REPORT | wx.LC_HRULES | wx.LC_VRULES) 
+        # Use a ListCtrl widget for the report information
+        self.list_ctrl = wx.ListCtrl(pnl, wx.ID_ANY, pos = (10,185), size=(960, 400),
+                                     style=wx.LC_REPORT | wx.LC_HRULES | wx.LC_VRULES)
 
-                                # create the columns for the report
+        # create the columns for the report
         self.list_ctrl.AppendColumn("Category", format=wx.LIST_FORMAT_CENTER, width=80)
         self.list_ctrl.AppendColumn("Number", format=wx.LIST_FORMAT_CENTER, width=90)
         self.list_ctrl.AppendColumn("Time", format=wx.LIST_FORMAT_CENTER, width=150)
         self.list_ctrl.AppendColumn("Dancers", format=wx.LIST_FORMAT_CENTER, width=280)
         self.list_ctrl.AppendColumn("Shirt", format=wx.LIST_FORMAT_CENTER, width=60)
-        self.list_ctrl.AppendColumn("Info", format=wx.LIST_FORMAT_CENTER, width=300)         
+        self.list_ctrl.AppendColumn("Info", format=wx.LIST_FORMAT_CENTER, width=300)
 
         wx.StaticLine(pnl, pos=(10, 500), size=(580, 3), style=wx.LI_HORIZONTAL)
 
@@ -90,7 +90,7 @@ class HelloFrame(wx.Frame):
         self.ID_VIEW_FILTER_DIV = 101
         self.ID_VIEW_FILTER_DANCER = 102
         self.ID_VIEW_FILTER_COUPLE = 103
-        self.ID_VIEW_FILTER_CLEAR = 104    
+        self.ID_VIEW_FILTER_CLEAR = 104
         self.ID_VIEW_HEATLIST_DANCER = 110
         self.ID_VIEW_HEATLIST_COUPLE = 111
         self.ID_VIEW_MINIPROG_DANCER = 120
@@ -109,44 +109,44 @@ class HelloFrame(wx.Frame):
         # Now a View Menu for filtering data and generating reports
         self.viewMenu = wx.Menu()
 
-        filtDivItem = self.viewMenu.Append(self.ID_VIEW_FILTER_DIV, "Filter by Division", 
+        filtDivItem = self.viewMenu.Append(self.ID_VIEW_FILTER_DIV, "Filter by Division",
                                            "View Dancers and Couples in a specific division")
         filtDivItem.Enable(False)
-        filtDcrItem = self.viewMenu.Append(self.ID_VIEW_FILTER_DANCER, "Filter by Dancer", 
+        filtDcrItem = self.viewMenu.Append(self.ID_VIEW_FILTER_DANCER, "Filter by Dancer",
                                            "View Divisions and Couples for a specific dancer")
         filtDcrItem.Enable(False)
-        filtCplItem = self.viewMenu.Append(self.ID_VIEW_FILTER_COUPLE, "Filter by Couple", 
+        filtCplItem = self.viewMenu.Append(self.ID_VIEW_FILTER_COUPLE, "Filter by Couple",
                                            "View Divisions and Dancers for a specific couple")
         filtCplItem.Enable(False)
-        filtClrItem = self.viewMenu.Append(self.ID_VIEW_FILTER_CLEAR, "Clear all Filters", 
+        filtClrItem = self.viewMenu.Append(self.ID_VIEW_FILTER_CLEAR, "Clear all Filters",
                                            "Show all Divisions, Dancers, and Couples")
         filtClrItem.Enable(False)
         self.viewMenu.AppendSeparator()
 
-        heatDcrItem = self.viewMenu.Append(self.ID_VIEW_HEATLIST_DANCER, "Heat List for Dancer", 
+        heatDcrItem = self.viewMenu.Append(self.ID_VIEW_HEATLIST_DANCER, "Heat List for Dancer",
                                            "View the Heat Information for the selected dancer")
         heatDcrItem.Enable(False)
 
-        heatCplItem = self.viewMenu.Append(self.ID_VIEW_HEATLIST_COUPLE, "Heat List for Couple", 
+        heatCplItem = self.viewMenu.Append(self.ID_VIEW_HEATLIST_COUPLE, "Heat List for Couple",
                                            "View the Heat Information for the selected couple")
-        heatCplItem.Enable(False)     
+        heatCplItem.Enable(False)
 
         self.viewMenu.AppendSeparator()
 
-        progDcrItem = self.viewMenu.Append(self.ID_VIEW_MINIPROG_DANCER, "Mini-Program for Dancer", 
+        progDcrItem = self.viewMenu.Append(self.ID_VIEW_MINIPROG_DANCER, "Mini-Program for Dancer",
                                            "View a mini-program for the selected dancer")
         progDcrItem.Enable(False)
 
-        progCplItem = self.viewMenu.Append(self.ID_VIEW_MINIPROG_COUPLE, "Mini-Program for Couple", 
+        progCplItem = self.viewMenu.Append(self.ID_VIEW_MINIPROG_COUPLE, "Mini-Program for Couple",
                                            "View a mini-program for the selected couple")
-        progCplItem.Enable(False)        
+        progCplItem.Enable(False)
 
         self.viewMenu.AppendSeparator()
 
-        compSoloItem = self.viewMenu.Append(self.ID_VIEW_COMP_SOLOS, "All Solos in Comp", 
+        compSoloItem = self.viewMenu.Append(self.ID_VIEW_COMP_SOLOS, "All Solos in Comp",
                                             "View all the solos in this competition.")
-        compSoloItem.Enable(False)          
-        compFormItem = self.viewMenu.Append(self.ID_VIEW_COMP_FORMATIONS, "All Formations in Comp", 
+        compSoloItem.Enable(False)
+        compFormItem = self.viewMenu.Append(self.ID_VIEW_COMP_FORMATIONS, "All Formations in Comp",
                                             "View all the formations in this competition.")
         compFormItem.Enable(False)
         self.viewMenu.AppendSeparator()
@@ -179,16 +179,16 @@ class HelloFrame(wx.Frame):
         self.Bind(wx.EVT_MENU, self.OnFilterByCouple, filtCplItem)
         self.Bind(wx.EVT_MENU, self.OnClearAllFilters, filtClrItem)
         self.Bind(wx.EVT_MENU, self.OnHeatlistForDancer, heatDcrItem)
-        self.Bind(wx.EVT_MENU, self.OnHeatlistForCouple, heatCplItem)  
+        self.Bind(wx.EVT_MENU, self.OnHeatlistForCouple, heatCplItem)
         self.Bind(wx.EVT_MENU, self.OnMiniProgForDancer, progDcrItem)
-        self.Bind(wx.EVT_MENU, self.OnMiniProgForCouple, progCplItem)        
-        self.Bind(wx.EVT_MENU, self.OnCompSolos, compSoloItem)        
-        self.Bind(wx.EVT_MENU, self.OnCompFormations, compFormItem)   
+        self.Bind(wx.EVT_MENU, self.OnMiniProgForCouple, progCplItem)
+        self.Bind(wx.EVT_MENU, self.OnCompSolos, compSoloItem)
+        self.Bind(wx.EVT_MENU, self.OnCompFormations, compFormItem)
         self.Bind(wx.EVT_MENU, self.OnAbout, aboutItem)
 
 
-    # these methods populate the controls with a list of age divisions, 
-    # dancer names, or couple names. 
+    # these methods populate the controls with a list of age divisions,
+    # dancer names, or couple names.
     def SetDivisionControl(self, division_list):
         self.divisions.Clear()
         self.divisions.Set(division_list)
@@ -208,21 +208,21 @@ class HelloFrame(wx.Frame):
     def ResetAllControls(self):
         self.SetDivisionControl(self.heatsheet.age_divisions)
         self.SetDancerControl(self.heatsheet.dancer_name_list())
-        self.SetCoupleControl(self.heatsheet.couple_name_list())      
+        self.SetCoupleControl(self.heatsheet.couple_name_list())
 
     # This method is called once a heatsheet has been loaded.
     # It loads the name of the current competition, populates the controls
-    # for the age divisions, dancers, and couples, and enables the menu items 
-    def postOpenProcess(self):        
+    # for the age divisions, dancers, and couples, and enables the menu items
+    def postOpenProcess(self):
         self.comp_name.ChangeValue(self.heatsheet.comp_name)
         self.ResetAllControls()
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DIV, True)
-        self.viewMenu.Enable(self.ID_VIEW_FILTER_DANCER, True)  
+        self.viewMenu.Enable(self.ID_VIEW_FILTER_DANCER, True)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_COUPLE, True)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_CLEAR, True)
-        self.viewMenu.Enable(self.ID_VIEW_HEATLIST_DANCER, True)  
-        self.viewMenu.Enable(self.ID_VIEW_HEATLIST_COUPLE, True)  
-        self.viewMenu.Enable(self.ID_VIEW_MINIPROG_DANCER, True)  
+        self.viewMenu.Enable(self.ID_VIEW_HEATLIST_DANCER, True)
+        self.viewMenu.Enable(self.ID_VIEW_HEATLIST_COUPLE, True)
+        self.viewMenu.Enable(self.ID_VIEW_MINIPROG_DANCER, True)
         self.viewMenu.Enable(self.ID_VIEW_MINIPROG_COUPLE, True)
         if len(self.heatsheet.solos) > 0:
             self.viewMenu.Enable(self.ID_VIEW_COMP_SOLOS, True)
@@ -257,12 +257,12 @@ class HelloFrame(wx.Frame):
 
             output_file = open(filename, "wb")
             for line in webpage:
-                line = line.decode("1252") 
+                line = line.decode("1252")
                 line = line.encode("utf-8")
                 output_file.write(line)
 
-            webpage.close()    
-            output_file.close() 
+            webpage.close()
+            output_file.close()
             self.heatsheet.process(filename)
             self.postOpenProcess()
 
@@ -294,13 +294,13 @@ class HelloFrame(wx.Frame):
     def OnFilterByCouple(self, event):
         index = self.couples.GetSelection()
         couple_name = self.couples.GetString(index)
-        couple = self.heatsheet.find_couple(couple_name)        
+        couple = self.heatsheet.find_couple(couple_name)
         self.SetDivisionControl(couple.age_divisions)
         self.SetDancerControl([couple.name1, couple.name2])
         self.SetStatusText("Generate heat list or mini-program for selected couple")
 
     def OnHeatlistForDancer(self, event):
-        self.list_ctrl.DeleteAllItems()    
+        self.list_ctrl.DeleteAllItems()
         index = self.dancers.GetSelection()
         dancer_name = self.dancers.GetString(index)
         heat_list = self.heatsheet.find_heats_for_dancer(dancer_name)
@@ -308,14 +308,14 @@ class HelloFrame(wx.Frame):
             data = h.info_list(dancer_name)
             self.list_ctrl.Append(data)
 
-        #title = "Heat List For " + dancer_name  
-        #c = canvas.Canvas("hello.pdf")  
-        #c.drawString(1*cm, 10*cm, title)  
-        #c.showPage()  
-        #c.save()           
+        #title = "Heat List For " + dancer_name
+        #c = canvas.Canvas("hello.pdf")
+        #c.drawString(1*cm, 10*cm, title)
+        #c.showPage()
+        #c.save()
 
     def OnHeatlistForCouple(self, event):
-        self.list_ctrl.DeleteAllItems()    
+        self.list_ctrl.DeleteAllItems()
         index = self.couples.GetSelection()
         couple_name = self.couples.GetString(index)
         selected_couple = self.heatsheet.find_couple(couple_name)
@@ -325,12 +325,12 @@ class HelloFrame(wx.Frame):
                 self.list_ctrl.Append(data)
 
     def OnMiniProgForDancer(self, event):
-        self.list_ctrl.DeleteAllItems()    
+        self.list_ctrl.DeleteAllItems()
         index = self.dancers.GetSelection()
         dancer_name = self.dancers.GetString(index)
         heat_list = self.heatsheet.find_heats_for_dancer(dancer_name)
         for h in heat_list:
-            if h.category == "Formation": 
+            if h.category == "Formation":
                 competitors = self.heatsheet.list_of_dancers_in_heat(h)
             else:
                 competitors = self.heatsheet.list_of_couples_in_heat(h)
@@ -340,7 +340,7 @@ class HelloFrame(wx.Frame):
 
 
     def OnMiniProgForCouple(self, event):
-        self.list_ctrl.DeleteAllItems()    
+        self.list_ctrl.DeleteAllItems()
         index = self.couples.GetSelection()
         couple_name = self.couples.GetString(index)
         selected_couple = self.heatsheet.find_couple(couple_name)
@@ -352,17 +352,17 @@ class HelloFrame(wx.Frame):
                 self.list_ctrl.Append(h.dummy_info())
 
     def OnClearAllFilters(self, event):
-        self.ResetAllControls()  
+        self.ResetAllControls()
 
 
     def OnCompSolos(self, event):
-        self.list_ctrl.DeleteAllItems()    
+        self.list_ctrl.DeleteAllItems()
         for s in self.heatsheet.solos:
             self.list_ctrl.Append(s.info_list())
         self.list_ctrl.Append(s.dummy_info())
 
     def OnCompFormations(self, event):
-        self.list_ctrl.DeleteAllItems()    
+        self.list_ctrl.DeleteAllItems()
         for f in self.heatsheet.formations:
             self.list_ctrl.Append(f.info_list())
         self.list_ctrl.Append(f.dummy_info())
