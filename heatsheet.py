@@ -51,7 +51,9 @@ class HelloFrame(wx.Frame):
         self.divisions = wx.Choice(pnl, pos=(125,58), size=(100, 24))
         self.dancers = wx.Choice(pnl, pos=(125,88), size=(300, 24))
         self.couples = wx.Choice(pnl, pos=(125,118), size=(300, 24))
-        self.heat_selection = wx.SpinCtrl(pnl, pos=(500,55), size=(60,24), min=1, max=1, initial=1)
+        self.heat_selection = wx.SpinCtrl(pnl, pos=(500,55), size=(60,24),
+                                        min=1, max=1, initial=1)
+        self.Bind(wx.EVT_SPINCTRL, self.OnHeatSelection, self.heat_selection)
 
         # separate the labels/controls from the report section of the GUI
         wx.StaticLine(pnl, pos=(10, 150), size=(580, 3), style=wx.LI_HORIZONTAL)
