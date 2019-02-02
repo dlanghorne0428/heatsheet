@@ -81,10 +81,11 @@ class HelloFrame(wx.Frame):
 
         # and a status bar
         self.CreateStatusBar()
-        self.SetStatusText("Choose File->Open to open a heatsheet file")
 
         # declare a heatsheet object
         self.heatsheet = CompMngr_Heatsheet.CompMngrHeatsheet()
+        self.preOpenProcess()
+
 
     def makeMenuBar(self):
         '''
@@ -107,60 +108,44 @@ class HelloFrame(wx.Frame):
         self.ID_VIEW_COMP_FORMATIONS = 131
 
         # Make a file menu with Open, Open URL, Close, and Exit items
-        fileMenu = wx.Menu()
-        openItem = fileMenu.Append(wx.ID_OPEN)
-        openUrlItem = fileMenu.Append(self.ID_FILE_OPEN_URL, "Open URL...")
-        fileMenu.AppendSeparator()
-        closeItem = fileMenu.Append(wx.ID_CLOSE)
-        exitItem = fileMenu.Append(wx.ID_EXIT)
+        self.fileMenu = wx.Menu()
+        openItem = self.fileMenu.Append(wx.ID_OPEN)
+        openUrlItem = self.fileMenu.Append(self.ID_FILE_OPEN_URL, "Open URL...")
+        self.fileMenu.AppendSeparator()
+        closeItem = self.fileMenu.Append(wx.ID_CLOSE)
+        exitItem = self.fileMenu.Append(wx.ID_EXIT)
 
         # Now a View Menu for filtering data and generating reports
         self.viewMenu = wx.Menu()
 
         filtDivItem = self.viewMenu.Append(self.ID_VIEW_FILTER_DIV, "Filter by Division",
                                            "View Dancers and Couples in a specific division")
-        filtDivItem.Enable(False)
         filtDcrItem = self.viewMenu.Append(self.ID_VIEW_FILTER_DANCER, "Filter by Dancer",
                                            "View Divisions and Couples for a specific dancer")
-        filtDcrItem.Enable(False)
         filtCplItem = self.viewMenu.Append(self.ID_VIEW_FILTER_COUPLE, "Filter by Couple",
                                            "View Divisions and Dancers for a specific couple")
-        filtCplItem.Enable(False)
         filtClrItem = self.viewMenu.Append(self.ID_VIEW_FILTER_CLEAR, "Clear all Filters",
                                            "Show all Divisions, Dancers, and Couples")
-        filtClrItem.Enable(False)
         self.viewMenu.AppendSeparator()
 
         heatSelItem = self.viewMenu.Append(self.ID_VIEW_HEAT_SELECTED, "Selected Heat",
                                            "View the participants in the selected heat")
-        heatSelItem.Enable(False)
-
         heatDcrItem = self.viewMenu.Append(self.ID_VIEW_HEATLIST_DANCER, "Heat List for Dancer",
                                            "View the Heat Information for the selected dancer")
-        heatDcrItem.Enable(False)
-
         heatCplItem = self.viewMenu.Append(self.ID_VIEW_HEATLIST_COUPLE, "Heat List for Couple",
                                            "View the Heat Information for the selected couple")
-        heatCplItem.Enable(False)
-
         self.viewMenu.AppendSeparator()
 
         progDcrItem = self.viewMenu.Append(self.ID_VIEW_MINIPROG_DANCER, "Mini-Program for Dancer",
                                            "View a mini-program for the selected dancer")
-        progDcrItem.Enable(False)
-
         progCplItem = self.viewMenu.Append(self.ID_VIEW_MINIPROG_COUPLE, "Mini-Program for Couple",
                                            "View a mini-program for the selected couple")
-        progCplItem.Enable(False)
-
         self.viewMenu.AppendSeparator()
 
         compSoloItem = self.viewMenu.Append(self.ID_VIEW_COMP_SOLOS, "All Solos in Comp",
                                             "View all the solos in this competition.")
-        compSoloItem.Enable(False)
         compFormItem = self.viewMenu.Append(self.ID_VIEW_COMP_FORMATIONS, "All Formations in Comp",
                                             "View all the formations in this competition.")
-        compFormItem.Enable(False)
         self.viewMenu.AppendSeparator()
 
         # Now a help menu for the about item
@@ -172,7 +157,7 @@ class HelloFrame(wx.Frame):
         # platforms that support it those letters are underlined and can be
         # triggered from the keyboard.
         menuBar = wx.MenuBar()
-        menuBar.Append(fileMenu, "&File")
+        menuBar.Append(self.fileMenu, "&File")
         menuBar.Append(self.viewMenu, "&View")
         menuBar.Append(helpMenu, "&Help")
 
@@ -217,18 +202,58 @@ class HelloFrame(wx.Frame):
         self.couples.Set(couple_list)
         self.couples.SetSelection(0)
 
-    # this method resets each of the controls by removing all filtering
+    #
     def ResetAllControls(self):
+        '''
+        This method resets each of the controls by removing all filtering and deleting the report
+        '''
         self.SetDivisionControl(self.heatsheet.age_divisions)
         self.SetDancerControl(self.heatsheet.dancer_name_list())
         self.SetCoupleControl(self.heatsheet.couple_name_list())
+        self.list_ctrl.DeleteAllItems()
 
-    # This method is called once a heatsheet has been loaded.
-    # It loads the name of the current competition, populates the controls
-    # for the age divisions, dancers, and couples, and enables the menu items
+
+    def preOpenProcess(self):
+        '''
+        This method is called before a heatsheet has been opened, or after it
+        has been closed. It clears the name of the current competition,
+        resets the controls for the age divisions, dancers, and couples,
+        and disables the menu items, except for File->Open.
+        '''
+
+        self.comp_name.ChangeValue("Open a Competition Heatsheet File")
+        self.ResetAllControls()
+        self.fileMenu.Enable(wx.ID_OPEN, True)
+        self.fileMenu.Enable(self.ID_FILE_OPEN_URL, True)
+        self.fileMenu.Enable(wx.ID_CLOSE, False)
+        self.viewMenu.Enable(self.ID_VIEW_FILTER_DIV, False)
+        self.viewMenu.Enable(self.ID_VIEW_FILTER_DANCER, False)
+        self.viewMenu.Enable(self.ID_VIEW_FILTER_COUPLE, False)
+        self.viewMenu.Enable(self.ID_VIEW_FILTER_CLEAR, False)
+        self.viewMenu.Enable(self.ID_VIEW_HEAT_SELECTED, False)
+        self.viewMenu.Enable(self.ID_VIEW_HEATLIST_DANCER, False)
+        self.viewMenu.Enable(self.ID_VIEW_HEATLIST_COUPLE, False)
+        self.viewMenu.Enable(self.ID_VIEW_MINIPROG_DANCER, False)
+        self.viewMenu.Enable(self.ID_VIEW_MINIPROG_COUPLE, False)
+        self.viewMenu.Enable(self.ID_VIEW_COMP_SOLOS, False)
+        self.viewMenu.Enable(self.ID_VIEW_COMP_FORMATIONS, False)
+        self.heat_selection.SetMax(1)
+        self.SetStatusText("Choose File->Open to open a heatsheet file")
+
+
     def postOpenProcess(self):
+        '''
+        This method is called once a heatsheet has been loaded.
+        It loads the name of the current competition, populates the controls
+        for the age divisions, dancers, and couples, and enables the appropriate
+        menu items.
+        '''
+
         self.comp_name.ChangeValue(self.heatsheet.comp_name)
         self.ResetAllControls()
+        self.fileMenu.Enable(wx.ID_OPEN, False)
+        self.fileMenu.Enable(self.ID_FILE_OPEN_URL, False)
+        self.fileMenu.Enable(wx.ID_CLOSE, True)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DIV, True)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DANCER, True)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_COUPLE, True)
@@ -252,8 +277,10 @@ class HelloFrame(wx.Frame):
 
 
     def OnOpen(self, event):
-        '''Launch a file dialog, open a heatsheet file, and process it'''
-        # create the dialog
+        '''
+        Launch a file dialog, open a heatsheet file, and process it
+        '''
+
         fd = wx.FileDialog(self, "Open a Heatsheet File", "./data", "")
         if fd.ShowModal() == wx.ID_OK:
             filename = fd.GetPath()
@@ -261,6 +288,12 @@ class HelloFrame(wx.Frame):
             self.postOpenProcess()
 
     def OnOpenURL(self, event):
+        '''
+        Launch a text dialog to get a URL from the user.
+        Open that webpage and process the heatsheet.
+        Save the webpage as an HTML file for future use.
+        '''
+        
         text_dialog = wx.TextEntryDialog(self, "Enter the website URL of a competition heatsheet")
         if text_dialog.ShowModal() == wx.ID_OK:
             url = text_dialog.GetValue()
@@ -283,8 +316,11 @@ class HelloFrame(wx.Frame):
 
 
     def OnClose(self, event):
-        """Close the competition file and reset all the controls."""
-        wx.MessageBox("This is where we will close the comp file")
+        '''
+        Re-initalize the competition file and reset all the controls.
+        '''
+        self.heatsheet = CompMngr_Heatsheet.CompMngrHeatsheet()
+        self.preOpenProcess()
 
 
     def OnAbout(self, event):
