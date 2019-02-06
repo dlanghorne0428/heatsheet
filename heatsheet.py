@@ -110,6 +110,8 @@ class HelloFrame(wx.Frame):
         openItem = self.fileMenu.Append(wx.ID_OPEN)
         openUrlItem = self.fileMenu.Append(self.ID_FILE_OPEN_URL, "Open URL...")
         self.fileMenu.AppendSeparator()
+        saveAsItem = self.fileMenu.Append(wx.ID_SAVEAS)
+        self.fileMenu.AppendSeparator()
         closeItem = self.fileMenu.Append(wx.ID_CLOSE)
         exitItem = self.fileMenu.Append(wx.ID_EXIT)
 
@@ -167,6 +169,7 @@ class HelloFrame(wx.Frame):
         # activated then the associated handler function will be called.
         self.Bind(wx.EVT_MENU, self.OnClose, closeItem)
         self.Bind(wx.EVT_MENU, self.OnOpen,  openItem)
+        self.Bind(wx.EVT_MENU, self.OnSaveAs, saveAsItem)
         self.Bind(wx.EVT_MENU, self.OnOpenURL, openUrlItem)
         self.Bind(wx.EVT_MENU, self.OnExit,  exitItem)
         self.Bind(wx.EVT_MENU, self.OnFilterByDivision, filtDivItem)
@@ -271,35 +274,43 @@ class HelloFrame(wx.Frame):
 
 
     def GenerateReport(self, heading_text):
-        from yattag import Doc
-        doc, tag, text = Doc().tagtext()
+        fd = wx.FileDialog(self, "Save the Report to a file", "./report",
+                            wildcard="*.htm", style=wx.FD_SAVE)
+        if fd.ShowModal() == wx.ID_OK:
+            filename = fd.GetPath()
+            from yattag import Doc
+            doc, tag, text = Doc().tagtext()
 
-        doc.asis('<!DOCTYPE html>')
-        with tag('html'):
-            with tag('body'):
-                with tag('h1'):
-                    text(heading_text)
-                with tag('h2'):
-                    text(self.heatsheet.comp_name)
-                with tag('table'):
-                    with tag('tr'):
-                        for c in range(self.list_ctrl.GetColumnCount()):
-                            with tag('th'):
-                                text(self.list_ctrl.GetColumn(c).GetText())
-                    for r in range(self.list_ctrl.ItemCount):
+            doc.asis('<!DOCTYPE html>')
+            with tag('html'):
+                with tag('body'):
+                    with tag('h1'):
+                        text(heading_text)
+                    with tag('h2'):
+                        text(self.heatsheet.comp_name)
+                    with tag('table'):
                         with tag('tr'):
                             for c in range(self.list_ctrl.GetColumnCount()):
-                                with tag('td'):
-                                    text(self.list_ctrl.GetItem(r, c).GetText())
+                                with tag('th'):
+                                    text(self.list_ctrl.GetColumn(c).GetText())
+                        for r in range(self.list_ctrl.ItemCount):
+                            with tag('tr'):
+                                for c in range(self.list_ctrl.GetColumnCount()):
+                                    with tag('td'):
+                                        text(self.list_ctrl.GetItem(r, c).GetText())
 
-        #print(doc.getvalue())
-        html_file = open("report.htm","w")
-        html_file.write(doc.getvalue())
-        html_file.close()
+            #print(doc.getvalue())
+            html_file = open(filename,"w")
+            html_file.write(doc.getvalue())
+            html_file.close()
 
     def OnExit(self, event):
         """Close the frame, terminating the application."""
         self.Close(True)
+
+
+    def OnSaveAs(self, event):
+        self.GenerateReport(self.report_title)
 
 
     def OnOpen(self, event):
@@ -405,7 +416,7 @@ class HelloFrame(wx.Frame):
             data = h.info_list(dancer_name)
             self.list_ctrl.Append(data)
         self.report_title = "Heat List for " + dancer_name
-        self.GenerateReport(self.report_title)
+        #self.GenerateReport(self.report_title)
 
     def OnHeatlistForCouple(self, event):
         self.list_ctrl.DeleteAllItems()
@@ -430,6 +441,7 @@ class HelloFrame(wx.Frame):
                 competitors = self.heatsheet.list_of_couples_in_heat(h)
             for c in competitors:
                 self.list_ctrl.Append(c)
+            self.list_ctrl.Append(h.dummy_info())
         self.report_title = "Mini-Program for " + dancer_name
 
 
@@ -443,7 +455,9 @@ class HelloFrame(wx.Frame):
                 competitors = self.heatsheet.list_of_couples_in_heat(h)
                 for c in competitors:
                     self.list_ctrl.Append(c)
+                self.list_ctrl.Append(h.dummy_info())
             self.report_title = "Mini-Program for " + couple_name
+
 
     def OnClearAllFilters(self, event):
         self.ResetAllControls()
@@ -459,7 +473,7 @@ class HelloFrame(wx.Frame):
         self.list_ctrl.DeleteAllItems()
         for f in self.heatsheet.formations:
             self.list_ctrl.Append(f.info_list())
-        self.report_title = "List of Formations"           
+        self.report_title = "List of Formations"
 
 
 
