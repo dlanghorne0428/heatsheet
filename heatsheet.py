@@ -283,6 +283,10 @@ class HelloFrame(wx.Frame):
 
             doc.asis('<!DOCTYPE html>')
             with tag('html'):
+                with tag('head'):
+                    with tag('style'):
+                        text('table {border-collapse: collapse;}')
+                        text('table,td,th {border :thin solid black;}')
                 with tag('body'):
                     with tag('h1'):
                         text(heading_text)
