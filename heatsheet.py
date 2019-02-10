@@ -60,6 +60,10 @@ class HelloFrame(wx.Frame):
         st_cpl = wx.StaticText(pnl, label="Report", pos=(10, 155))
         st_cpl.SetFont(font)
 
+        # Creata a button to save the current report
+        self.butt_save = wx.Button(pnl, id=wx.ID_SAVEAS, pos=(125, 160))
+        self.Bind(wx.EVT_BUTTON, self.OnSaveAs, self.butt_save)
+
         # Use a ListCtrl widget for the report information
         self.list_ctrl = wx.ListCtrl(pnl, wx.ID_ANY, pos = (10,185), size=(960, 400),
                                      style=wx.LC_REPORT | wx.LC_HRULES | wx.LC_VRULES)
@@ -275,7 +279,7 @@ class HelloFrame(wx.Frame):
 
     def GenerateReport(self, heading_text):
         fd = wx.FileDialog(self, "Save the Report to a file", "./report",
-                            wildcard="*.htm", style=wx.FD_SAVE)
+                            wildcard="HTML files (*.htm)|*.htm", style=wx.FD_SAVE)
         if fd.ShowModal() == wx.ID_OK:
             filename = fd.GetPath()
             from yattag import Doc
