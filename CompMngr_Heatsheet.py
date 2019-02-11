@@ -296,8 +296,8 @@ class CompMngrHeatsheet():
         # open the file and loop through all the lines
         fhand = open(filename,encoding="utf-8")
         for line in fhand:
-            # if we see the line that says "size=6", extract the name of the competition
-            if 'size="6"' in line:
+            # if we see the line that says "size="", extract the name of the competition
+            if 'size=' in line:
                 self.comp_name = self.get_comp_name(line.strip())
             # A line with "Entries For" indicates the start of a new dancer's heat information
             if "Entries for" in line:
