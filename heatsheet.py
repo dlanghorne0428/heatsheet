@@ -279,7 +279,8 @@ class HelloFrame(wx.Frame):
 
     def GenerateReport(self, heading_text):
         fd = wx.FileDialog(self, "Save the Report to a file", "./report",
-                            wildcard="HTML files (*.htm)|*.htm", style=wx.FD_SAVE)
+                            wildcard="HTML files (*.htm)|*.htm",
+                            style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
         if fd.ShowModal() == wx.ID_OK:
             filename = fd.GetPath()
             from yattag import Doc
