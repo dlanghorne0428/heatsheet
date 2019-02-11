@@ -12,7 +12,11 @@ class Heat():
         if len(line) > 0:           # if line is not empty, parse it to obtain other properites
             fields = line.split("<td>")
             heat_time = fields[1].split("</td>")[0]
-            self.time = heat_time.replace("<br>", "\n")
+            if "<br>" in heat_time:
+                # TO DO: maybe store later rounds as separate heats?
+                self.time = heat_time.split("<br>")[0]  # truncate "Later rounds"
+            else:
+                self.time = heat_time
             self.shirt_number = fields[2].split("</td>")[0]
             self.info = fields[4].split("</td>")[0]
             start_pos = fields[3].find(category) + len(category) + 1
