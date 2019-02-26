@@ -106,8 +106,9 @@ class HelloFrame(wx.Frame):
         self.ID_VIEW_HEATLIST_COUPLE = 112
         self.ID_VIEW_MINIPROG_DANCER = 120
         self.ID_VIEW_MINIPROG_COUPLE = 121
-        self.ID_VIEW_COMP_SOLOS = 130
-        self.ID_VIEW_COMP_FORMATIONS = 131
+        self.ID_VIEW_COMP_PRO_HEATS = 130
+        self.ID_VIEW_COMP_SOLOS = 131
+        self.ID_VIEW_COMP_FORMATIONS = 132
 
         # Make a file menu with Open, Open URL, Close, and Exit items
         self.fileMenu = wx.Menu()
@@ -146,10 +147,13 @@ class HelloFrame(wx.Frame):
                                            "View a mini-program for the selected couple")
         self.viewMenu.AppendSeparator()
 
+        compProItem = self.viewMenu.Append(self.ID_VIEW_COMP_PRO_HEATS, "All Pro Heats in Comp",
+                                            "View a mini-program with all pro heats in this competition.")
         compSoloItem = self.viewMenu.Append(self.ID_VIEW_COMP_SOLOS, "All Solos in Comp",
                                             "View all the solos in this competition.")
         compFormItem = self.viewMenu.Append(self.ID_VIEW_COMP_FORMATIONS, "All Formations in Comp",
                                             "View all the formations in this competition.")
+
         self.viewMenu.AppendSeparator()
 
         # Now a help menu for the about item
@@ -185,6 +189,7 @@ class HelloFrame(wx.Frame):
         self.Bind(wx.EVT_MENU, self.OnHeatlistForCouple, heatCplItem)
         self.Bind(wx.EVT_MENU, self.OnMiniProgForDancer, progDcrItem)
         self.Bind(wx.EVT_MENU, self.OnMiniProgForCouple, progCplItem)
+        self.Bind(wx.EVT_MENU, self.OnCompProHeats, compProItem)
         self.Bind(wx.EVT_MENU, self.OnCompSolos, compSoloItem)
         self.Bind(wx.EVT_MENU, self.OnCompFormations, compFormItem)
         self.Bind(wx.EVT_MENU, self.OnAbout, aboutItem)
@@ -241,6 +246,7 @@ class HelloFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_HEATLIST_COUPLE, False)
         self.viewMenu.Enable(self.ID_VIEW_MINIPROG_DANCER, False)
         self.viewMenu.Enable(self.ID_VIEW_MINIPROG_COUPLE, False)
+        self.viewMenu.Enable(self.ID_VIEW_COMP_PRO_HEATS, False)
         self.viewMenu.Enable(self.ID_VIEW_COMP_SOLOS, False)
         self.viewMenu.Enable(self.ID_VIEW_COMP_FORMATIONS, False)
         self.heat_selection.SetMax(1)
@@ -269,6 +275,8 @@ class HelloFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_HEATLIST_COUPLE, True)
         self.viewMenu.Enable(self.ID_VIEW_MINIPROG_DANCER, True)
         self.viewMenu.Enable(self.ID_VIEW_MINIPROG_COUPLE, True)
+        if self.heatsheet.max_pro_heat_num > 0:
+            self.viewMenu.Enable(self.ID_VIEW_COMP_PRO_HEATS, True)
         if len(self.heatsheet.solos) > 0:
             self.viewMenu.Enable(self.ID_VIEW_COMP_SOLOS, True)
         if len(self.heatsheet.formations) > 0:
@@ -470,6 +478,18 @@ class HelloFrame(wx.Frame):
 
     def OnClearAllFilters(self, event):
         self.ResetAllControls()
+
+
+    def OnCompProHeats(self, event):
+        self.list_ctrl.DeleteAllItems()
+        self.report_title = "All Pro Heats"
+        for num in range(1, self.heatsheet.max_pro_heat_num + 1):
+            h = CompMngr_Heatsheet.Heat("Pro heat", number=num)
+            competitors = self.heatsheet.list_of_couples_in_heat(h)
+            if len(competitors) > 0:
+                for c in competitors:
+                    self.list_ctrl.Append(c)
+                self.list_ctrl.Append(h.dummy_info())
 
 
     def OnCompSolos(self, event):
