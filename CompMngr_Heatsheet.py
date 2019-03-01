@@ -4,9 +4,10 @@ import string
 
 # this class stores heat information for a particular couple or dancer
 class Heat():
-    def __init__(self, category, line="", dancer="", partner="", number=0):
+    def __init__(self, category, line="", dancer="", scoresheet_code = 0, partner="", number=0):
         self.category = category    # heat, solo, pro heat, formation
         self.dancer = dancer
+        self.scoresheet_code = scoresheet_code
         self.partner = partner      # partner may be none for a member of a formation
         self.heat_number = number
         if len(line) > 0:           # if line is not empty, parse it to obtain other properites
@@ -84,10 +85,17 @@ class Heat():
 
 # this class stores information about a dancer that is in the competition
 class Dancer():
-    def __init__(self, name):
-        self.name = name;
-        self.heats = list()             # stores the heats for this dancer
-        self.age_divisions = list()     # which age divisions this dancer competes in
+    def __init__(self, line):
+        # find the dancer's name
+        start_pos = 8
+        end_pos = line.find("</td>")
+        self.name = line[start_pos:end_pos]
+        # find the code number that can be used to grab their results from a scoresheet
+        start_pos = line.find("TABLE_CODE_") + len("TABLE_CODE_")
+        end_pos = line.find("'", start_pos)
+        self.scoresheet_code = line[start_pos:end_pos]
+        self.heats = list()
+        self.age_divisions = list()
 
     # this method adds the age division, d, to the list of age divisions
     # that this dancer is competing in
@@ -198,6 +206,7 @@ class CompMngrHeatsheet():
             l.append(d.name)
         return l
 
+
     # this method returns a list of couple names in this competition
     def couple_name_list(self):
         l = list()
@@ -221,6 +230,7 @@ class CompMngrHeatsheet():
             if c.name1 == dancer_name or c.name2 == dancer_name:
                 l.append(c.pair_name)
         return l
+    
 
     ############### HEAT ROUTINES  ######################################################
     # the following methods deal with heats and their participants
@@ -251,6 +261,26 @@ class CompMngrHeatsheet():
                     output_list.append(ht.info_list())
                     break
         return output_list
+    
+    
+    def heat_report(self, heat):
+        report = dict()
+        report["category"] = heat.category
+        report["number"] = heat.heat_number
+        report["entries"] = list()
+        for c in self.couples:
+            for ht in c.heats:
+                if heat == ht:
+                    entry = dict()
+                    entry["dancer"] = ht.dancer
+                    entry["code"] = ht.scoresheet_code
+                    entry["partner"] = ht.partner
+                    entry["shirt"] = ht.shirt_number
+                    if len(report["entries"]) == 0:
+                        report["info"] = ht.info
+                    report["entries"].append(entry)
+                    
+        return report
 
     ############### AGE DIVISION ROUTINES  ###############################################
     # the following methods deal with age divisions
@@ -296,13 +326,20 @@ class CompMngrHeatsheet():
         # open the file and loop through all the lines
         fhand = open(filename,encoding="utf-8")
         for line in fhand:
+            # look for TABLE_CODE to find the name of each dancer entered in the competition
+            if "Show entries" in line:
+                dancer = Dancer(line.strip())
+                self.dancers.append(dancer)
             # if we see the line that says "size="", extract the name of the competition
             if 'size=' in line:
                 self.comp_name = self.get_comp_name(line.strip())
             # A line with "Entries For" indicates the start of a new dancer's heat information
             if "Entries for" in line:
-                dancer = Dancer(self.get_dancer_name(line.strip()))
-                self.dancers.append(dancer)
+                dancer_name = self.get_dancer_name(line.strip())
+                for d in self.dancers:
+                    if d.name == dancer_name:
+                        dancer = d
+                        break
             # A line with "With " indicates the start of a new partner for the current dancer
             if "With " in line:
                 partner = self.get_dancer_name(line.strip(), line.find("With ") + 5)
@@ -334,7 +371,7 @@ class CompMngrHeatsheet():
             if "Heat " in line:
                 if couple is not None:
                     # turn this line into a heat object and add it to the couple and dancer
-                    heat_obj = Heat("Heat", line, dancer.name, partner)
+                    heat_obj = Heat("Heat", line, dancer.name, dancer.scoresheet_code, partner)
                     if heat_obj.heat_number > self.max_heat_num:
                         self.max_heat_num = heat_obj.heat_number
                     couple.add_heat(heat_obj)
@@ -344,7 +381,7 @@ class CompMngrHeatsheet():
             if "Solo " in line:
                 if couple is not None:
                     # turn this line into a heat object and add it to the couple and dancer
-                    solo_obj = Heat("Solo", line, dancer.name, partner)
+                    solo_obj = Heat("Solo", line, dancer.name, dancer.scoresheet_code, partner)
                     couple.add_heat(solo_obj)
                     dancer.add_heat(solo_obj)
                     # add this solo to the list of solos for the comp
@@ -355,7 +392,7 @@ class CompMngrHeatsheet():
             if "Pro heat " in line:
                 if couple is not None:
                     # turn that heat info into an object and add it to the couple
-                    pro_heat = Heat("Pro heat", line, dancer.name, partner)
+                    pro_heat = Heat("Pro heat", line, dancer.name, dancer.scoresheet_code, partner)
                     if pro_heat.heat_number > self.max_pro_heat_num:
                         self.max_pro_heat_num = pro_heat.heat_number
                     couple.add_heat(pro_heat)
@@ -364,7 +401,7 @@ class CompMngrHeatsheet():
             if "Formation" in line:
                 if dancer is not None:
                     # turn that heat info into an object and add it to the couple
-                    form_heat = Heat("Formation", line, dancer.name, "")
+                    form_heat = Heat("Formation", line, dancer.name, dancer.scoresheet_code, "")
                     dancer.add_heat(form_heat)
                     self.formations.append(form_heat)
 

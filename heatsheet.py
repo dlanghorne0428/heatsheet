@@ -490,6 +490,10 @@ class HelloFrame(wx.Frame):
                 for c in competitors:
                     self.list_ctrl.Append(c)
                 self.list_ctrl.Append(h.dummy_info())
+                
+            # TODO: Call the scoresheet with this heat report    
+            report = self.heatsheet.heat_report(h)
+            print(report)
 
 
     def OnCompSolos(self, event):
