@@ -11,6 +11,7 @@ import urllib.request, urllib.parse, urllib.error
 import yattag
 
 import CompMngr_Heatsheet
+import CompMngrScoresheet
 
 class HelloFrame(wx.Frame):
     '''
@@ -86,6 +87,7 @@ class HelloFrame(wx.Frame):
 
         # declare a heatsheet object
         self.heatsheet = CompMngr_Heatsheet.CompMngrHeatsheet()
+        self.scoresheet = CompMngrScoresheet.CompMngrScoresheet()
         self.preOpenProcess()
 
 
@@ -490,11 +492,15 @@ class HelloFrame(wx.Frame):
                 for c in competitors:
                     self.list_ctrl.Append(c)
                 self.list_ctrl.Append(h.dummy_info())
-                
-            # TODO: Call the scoresheet with this heat report    
-            report = self.heatsheet.heat_report(h)
-            print(report)
 
+
+        # For now, open the scoresheet and get results here
+        # eventually move to its own method
+#        scoresheet = self.scoresheet.open_scoresheet("http://www.compmngr.com/snowball2019/SnowBall2019_ScoresheetsByPerson.htm")
+        scoresheet = self.scoresheet.open_scoresheet_from_file("data/2019/Snow_Ball/Scoresheets_Per_Person.htm")
+        h = CompMngr_Heatsheet.Heat("Pro heat", number=11)
+        report = self.heatsheet.heat_report(h)
+        self.scoresheet.perform_request_for_results(report)
 
     def OnCompSolos(self, event):
         self.list_ctrl.DeleteAllItems()
