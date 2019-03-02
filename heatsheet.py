@@ -498,9 +498,13 @@ class HelloFrame(wx.Frame):
         # eventually move to its own method
 #        scoresheet = self.scoresheet.open_scoresheet("http://www.compmngr.com/snowball2019/SnowBall2019_ScoresheetsByPerson.htm")
         scoresheet = self.scoresheet.open_scoresheet_from_file("data/2019/Snow_Ball/Scoresheets_Per_Person.htm")
-        h = CompMngr_Heatsheet.Heat("Pro heat", number=11)
-        report = self.heatsheet.heat_report(h)
-        self.scoresheet.perform_request_for_results(report)
+        for num in range(1, self.heatsheet.max_pro_heat_num + 1):
+            h = CompMngr_Heatsheet.Heat("Pro heat", number=num)
+            report = self.heatsheet.heat_report(h)
+            if len(report["entries"]) > 0:
+                self.scoresheet.perform_request_for_results(report)
+                for e in report["entries"]:
+                    print(e)
 
     def OnCompSolos(self, event):
         self.list_ctrl.DeleteAllItems()

@@ -276,6 +276,7 @@ class CompMngrHeatsheet():
                     entry["code"] = ht.scoresheet_code
                     entry["partner"] = ht.partner
                     entry["shirt"] = ht.shirt_number
+                    entry["result"] = None
                     if len(report["entries"]) == 0:
                         report["info"] = ht.info
                     report["entries"].append(entry)

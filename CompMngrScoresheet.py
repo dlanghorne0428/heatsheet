@@ -53,12 +53,13 @@ class CompMngrScoresheet():
         name = line[start_pos:end_pos]
         return name    
 
-    def process_results(self):
+    def process_results(self, heat_report):
         lines = self.result_file.text.splitlines()
-        heat_string = "Pro heat 11:"
-        # these should be state variables
+        heat_string = heat_report["category"] + " " + str(heat_report["number"]) + ":"
+        # these are state variables
         looking_for_result_column = False
         looking_for_competitors = False
+        result = None
  
         for line in lines:
             if looking_for_result_column:
@@ -77,37 +78,51 @@ class CompMngrScoresheet():
                         current_competitor = self.get_table_data(line)
                         count += 1
                     elif count == result_column:
-                        result_place = int(self.get_table_data(line))
-                        print(current_competitor, result_place)
+                        # need to check for parenthesis, as the result could include a tiebreaker rule
+                        result_place = int(self.get_table_data(line).split('(')[0])
+                        for e in heat_report["entries"]:
+                            if current_competitor.startswith(e["shirt"]):
+                                e["result"] = result_place
+                                # print(current_competitor, e, result_place)
+                                break
                         count = 0
                     else:
                         count += 1
                 elif "</table>" in line:
-                    print("End of results")
+                    looking_for_competitors = False
                     break;
-        #
-            elif heat_string in line and "Quarter-final" in line:
-                print("Quarter-finalist")
-            elif heat_string in line and "Semi-final" in line:
-                print("Semi-finalist")
-            elif heat_string in line and "Final" in line:
-                print("Finalist")
-            elif "Final summary" in line and "<p>" in line:
-                print(heat_string)
-                looking_for_result_column = True    
                 
+            elif heat_string in line and "Quarter-final" in line and "<p>" in line:
+                result = "quarters"
+            elif heat_string in line and "Semi-final" in line and "<p>" in line:
+                result = "Semis"
+            elif heat_string in line and "Final" in line and "<p>" in line:
+                result = "Finals"
+            elif result == "Finals" and "Final summary" in line and "<p>" in line:
+                looking_for_result_column = True    
+        
+        return result
+
 
     def perform_request_for_results(self, heat_report):
         print(heat_report["category"], heat_report["number"], heat_report["info"])
-        entry = heat_report["entries"][0]
-        search_string = entry["code"] + "=" + entry["dancer"]
-        print(search_string)
-        self.payload["PERSON_LIST"] = search_string #"381=Baumgartner, Katt"
-        #print(self.payload)
+        for entry in heat_report["entries"]:
+            if entry["result"] is None:
+                search_string = entry["code"] + "=" + entry["dancer"]
+                #print(search_string)
+                self.payload["PERSON_LIST"] = search_string #"381=Baumgartner, Katt"
+                #print(self.payload)
 
-        self.result_file = requests.post(self.url, data = self.payload)
-        #print(self.result_file.text)
-        self.process_results()
+                self.result_file = requests.post(self.url, data = self.payload)
+                #print(self.result_file.text)
+                result = self.process_results(heat_report)
+                # print(result)
+                if result != "Finals":
+                    entry["result"] = result
+        
+#        print("-----")            
+#        for e in heat_report["entries"]:
+#            print(e)        
 
 
 
