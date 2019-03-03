@@ -12,7 +12,7 @@ class CompMngrScoresheet():
         for f in fields:
             if "action=" in f:
                 self.url = f[len("action=")+1:-1]
-                print(self.url)
+#                print(self.url)
         
     def find_payload_field(self, line):
         key = None
@@ -45,7 +45,8 @@ class CompMngrScoresheet():
             if "<form" in line:
                 self.find_url(line)
             if "<input" in line:
-                self.find_payload_field(line)    
+                self.find_payload_field(line)
+        print(self.payload["COMP_NAME"])
             
     def get_table_data(self, line):
         start_pos = line.find("<td>") + len("<td>")
@@ -119,10 +120,10 @@ class CompMngrScoresheet():
                 # print(result)
                 if result != "Finals":
                     entry["result"] = result
-        
-#        print("-----")            
-#        for e in heat_report["entries"]:
-#            print(e)        
+                 
+        for e in heat_report["entries"]:
+            print(e["dancer"] + " and " + e["partner"] + '\t' + str(e["result"]))  
+        print()
 
 
 
