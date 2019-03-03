@@ -33,22 +33,23 @@ class Heat():
 
     # return the heat information as a list of strings
     def info_list(self, dancer=None):
-        results = list()
-        results.append(self.category)
-        results.append(str(self.heat_number) + " " + self.extra)
-        results.append(self.time)
+        info = list()
+        info.append(self.category)
+        info.append(str(self.heat_number) + " " + self.extra)
+        info.append(self.time)
+        info.append(self.info)        
+        info.append(self.shirt_number)
 
-        # make this logic better
         dancer_info = ""
         if len(self.partner) > 0:
             dancer_info = self.dancer + " and " + self.partner
         else:
             dancer_info = self.dancer
+        info.append(dancer_info)
 
-        results.append(dancer_info)
-        results.append(self.shirt_number)
-        results.append(self.info)
-        return results
+        # placeholder for results
+        info.append("---")
+        return info
 
     # return a blank set of heat information
     def dummy_info(self):
