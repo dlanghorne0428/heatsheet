@@ -58,24 +58,34 @@ class HelloFrame(wx.Frame):
         wx.StaticLine(pnl, pos=(10, 150), size=(580, 3), style=wx.LI_HORIZONTAL)
 
         # Create a label for the report section
-        st_cpl = wx.StaticText(pnl, label="Report", pos=(10, 155))
-        st_cpl.SetFont(font)
+        st_rpt = wx.StaticText(pnl, label="Report", pos=(10, 155))
+        st_rpt.SetFont(font)
 
         # Creata a button to save the current report
         self.butt_save = wx.Button(pnl, id=wx.ID_SAVEAS, pos=(125, 160))
         self.Bind(wx.EVT_BUTTON, self.OnSaveAs, self.butt_save)
+        
+        # Create a label for grabbing the results
+        st_rslt = wx.StaticText(pnl, label="Results", pos=(710, 155))
+        st_rslt.SetFont(font)
+    
+        # Creata a button to save the current report
+        self.butt_rlst = wx.Button(pnl, label="Get Results", pos=(825, 160))
+        self.Bind(wx.EVT_BUTTON, self.OnGetResults, self.butt_rlst)  
+        self.butt_rlst.Disable()
 
         # Use a ListCtrl widget for the report information
-        self.list_ctrl = wx.ListCtrl(pnl, wx.ID_ANY, pos = (10,185), size=(960, 400),
+        self.list_ctrl = wx.ListCtrl(pnl, wx.ID_ANY, pos = (10,185), size=(1024, 400),
                                      style=wx.LC_REPORT | wx.LC_HRULES | wx.LC_VRULES)
 
         # create the columns for the report
         self.list_ctrl.AppendColumn("Category", format=wx.LIST_FORMAT_CENTER, width=80)
-        self.list_ctrl.AppendColumn("Number", format=wx.LIST_FORMAT_CENTER, width=90)
-        self.list_ctrl.AppendColumn("Time", format=wx.LIST_FORMAT_CENTER, width=150)
-        self.list_ctrl.AppendColumn("Dancers", format=wx.LIST_FORMAT_CENTER, width=280)
-        self.list_ctrl.AppendColumn("Shirt", format=wx.LIST_FORMAT_CENTER, width=60)
-        self.list_ctrl.AppendColumn("Info", format=wx.LIST_FORMAT_CENTER, width=300)
+        self.list_ctrl.AppendColumn("Heat #", format=wx.LIST_FORMAT_CENTER, width=72)
+        self.list_ctrl.AppendColumn("Time", format=wx.LIST_FORMAT_LEFT, width=140)
+        self.list_ctrl.AppendColumn("Info", format=wx.LIST_FORMAT_LEFT, width=300)
+        self.list_ctrl.AppendColumn("Shirt #", format=wx.LIST_FORMAT_CENTER, width=60)      
+        self.list_ctrl.AppendColumn("Dancers", format=wx.LIST_FORMAT_LEFT, width=290)
+        self.list_ctrl.AppendColumn("Results", format=wx.LIST_FORMAT_CENTER, width=72)
 
         wx.StaticLine(pnl, pos=(10, 500), size=(580, 3), style=wx.LI_HORIZONTAL)
 
@@ -339,6 +349,7 @@ class HelloFrame(wx.Frame):
 
         fd = wx.FileDialog(self, "Open a Heatsheet File", "./data", "")
         if fd.ShowModal() == wx.ID_OK:
+            #TODO: Save folder for results
             filename = fd.GetPath()
             self.heatsheet.process(filename)
             self.postOpenProcess()
@@ -492,19 +503,27 @@ class HelloFrame(wx.Frame):
                 for c in competitors:
                     self.list_ctrl.Append(c)
                 self.list_ctrl.Append(h.dummy_info())
+        self.butt_rlst.Enable()
 
-
-        # For now, open the scoresheet and get results here
-        # eventually move to its own method
-#        scoresheet = self.scoresheet.open_scoresheet("http://www.compmngr.com/snowball2019/SnowBall2019_ScoresheetsByPerson.htm")
-        scoresheet = self.scoresheet.open_scoresheet_from_file("data/2019/Snow_Ball/Scoresheets_Per_Person.htm")
-        for num in range(1, self.heatsheet.max_pro_heat_num + 1):
-            h = CompMngr_Heatsheet.Heat("Pro heat", number=num)
-            report = self.heatsheet.heat_report(h)
-            if len(report["entries"]) > 0:
-                self.scoresheet.perform_request_for_results(report)
-                for e in report["entries"]:
-                    print(e)
+    def OnGetResults(self, event):
+        fd = wx.FileDialog(self, "Open a Scoresheet File", "./data", "")
+        if fd.ShowModal() == wx.ID_OK:
+            filename = fd.GetPath()        
+            # scoresheet = self.scoresheet.open_scoresheet("http://www.compmngr.com/snowball2019/SnowBall2019_ScoresheetsByPerson.htm")
+            scoresheet = self.scoresheet.open_scoresheet_from_file(filename)        
+            item_index = 0
+            Time_and_Results_Column = 6
+            for num in range(1, self.heatsheet.max_pro_heat_num + 1):
+                h = CompMngr_Heatsheet.Heat("Pro heat", number=num)
+                report = self.heatsheet.heat_report(h)
+                if len(report["entries"]) > 0:
+                    self.scoresheet.perform_request_for_results(report)
+                    for e in report["entries"]:
+                        self.list_ctrl.SetItem(item_index, Time_and_Results_Column, str(e["result"]))
+                        item_index += 1
+                        # print(e)
+                    item_index += 1  # get past line that separates the events
+                    
 
     def OnCompSolos(self, event):
         self.list_ctrl.DeleteAllItems()
@@ -525,6 +544,6 @@ if __name__ == '__main__':
     # When this module is run (not imported) then create the app, the
     # frame, show it, and start the event loop.
     app = wx.App()
-    frm = HelloFrame(None, title='Ballroom Competition Heatsheet Analysis', size=(960, 600))
+    frm = HelloFrame(None, title='Ballroom Competition Heatsheet Analysis', size=(1024, 600))
     frm.Show()
     app.MainLoop()
