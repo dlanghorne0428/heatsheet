@@ -68,13 +68,16 @@ class HelloFrame(wx.Frame):
         self.Bind(wx.EVT_BUTTON, self.OnSaveAs, self.butt_save)
         
         # Create a label for grabbing the results
-        st_rslt = wx.StaticText(pnl, label="Results", pos=(710, 155))
+        st_rslt = wx.StaticText(pnl, label="Results", pos=(850, 105))
         st_rslt.SetFont(font)
     
-        # Creata a button to save the current report
-        self.butt_rlst = wx.Button(pnl, label="Get Results", pos=(825, 160))
-        self.Bind(wx.EVT_BUTTON, self.OnGetResults, self.butt_rlst)  
-        self.butt_rlst.Disable()
+        # Creata a button to get the results from a file
+        self.butt_rslt = wx.Button(pnl, label="Get Results", pos=(850, 135))
+        self.Bind(wx.EVT_BUTTON, self.OnGetResults, self.butt_rslt)  
+        
+        # Creata a button to get the results from a file
+        self.butt_rslt_url = wx.Button(pnl, label="Get Results From URL", pos=(850, 160))
+        self.Bind(wx.EVT_BUTTON, self.OnGetResultsFromURL, self.butt_rslt_url)          
 
         # Use a ListCtrl widget for the report information
         self.list_ctrl = wx.ListCtrl(pnl, wx.ID_ANY, pos = (10,185), size=(1024, 400),
@@ -234,6 +237,8 @@ class HelloFrame(wx.Frame):
         self.SetDivisionControl(self.heatsheet.age_divisions)
         self.SetDancerControl(self.heatsheet.dancer_name_list())
         self.SetCoupleControl(self.heatsheet.couple_name_list())
+        self.butt_rslt.Disable()
+        self.butt_rslt_url.Disable()
         self.heat_cat.Clear()
         self.list_ctrl.DeleteAllItems()
         self.report_title = ""
@@ -531,26 +536,59 @@ class HelloFrame(wx.Frame):
                 for c in competitors:
                     self.list_ctrl.Append(c)
                 self.list_ctrl.Append(h.dummy_info())
-        self.butt_rlst.Enable()
+        self.butt_rslt.Enable()
+        self.butt_rslt_url.Enable()
+        
+    def ProcessScoresheet(self, filename):
+        scoresheet = self.scoresheet.open_scoresheet_from_file(filename)        
+        item_index = 0
+        Time_and_Results_Column = 6
+        for num in range(1, self.heatsheet.max_pro_heat_num + 1):
+            h = CompMngr_Heatsheet.Heat("Pro heat", number=num)
+            report = self.heatsheet.heat_report(h)
+            if len(report["entries"]) > 0:
+                self.scoresheet.perform_request_for_results(report)
+                for e in report["entries"]:
+                    self.list_ctrl.SetItem(item_index, Time_and_Results_Column, str(e["result"]))
+                    item_index += 1
+                    # print(e)
+                item_index += 1  # get past line that separates the events        
+        
 
     def OnGetResults(self, event):
         fd = wx.FileDialog(self, "Open a Scoresheet File", self.folder_name, "")
         if fd.ShowModal() == wx.ID_OK:
-            filename = fd.GetPath()        
-            scoresheet = self.scoresheet.open_scoresheet_from_file(filename)        
-            item_index = 0
-            Time_and_Results_Column = 6
-            for num in range(1, self.heatsheet.max_pro_heat_num + 1):
-                h = CompMngr_Heatsheet.Heat("Pro heat", number=num)
-                report = self.heatsheet.heat_report(h)
-                if len(report["entries"]) > 0:
-                    self.scoresheet.perform_request_for_results(report)
-                    for e in report["entries"]:
-                        self.list_ctrl.SetItem(item_index, Time_and_Results_Column, str(e["result"]))
-                        item_index += 1
-                        # print(e)
-                    item_index += 1  # get past line that separates the events
+            filename = fd.GetPath()
+            self.ProcessScoresheet(filename)
+
                     
+    def OnGetResultsFromURL(self, event):
+        text_dialog = wx.TextEntryDialog(self, "Enter the website URL of a competition scoresheet")
+        if text_dialog.ShowModal() == wx.ID_OK:
+            url = text_dialog.GetValue()
+            pathname = urllib.parse.urlparse(url).path
+            split_path = pathname.split("/")
+            filename = split_path[len(split_path)-1]
+            req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            webpage = urlopen(req)
+
+            fd = wx.FileDialog(self, "Save the Scoresheet to a file", 
+                               defaultDir = "./data",
+                               defaultFile = filename,
+                               style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
+            
+            if fd.ShowModal() == wx.ID_OK:
+                output_filename = fd.GetPath()
+                output_file = open(output_filename, "wb")
+                for line in webpage:
+                    line = line.decode("1252")
+                    line = line.encode("utf-8")
+                    output_file.write(line)
+                output_file.close()
+                self.ProcessScoresheet(output_filename)
+            
+            webpage.close()                    
+
 
     def OnCompSolos(self, event):
         self.list_ctrl.DeleteAllItems()
