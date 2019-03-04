@@ -6,6 +6,11 @@ class CompMngrScoresheet():
     def __init__(self):
         self.payload = dict()
         self.url = ""
+        self.point_values = {
+           "Open": [0, 20, 15, 12, 9, 7, 5, 3, 3, 3, 3, 3],
+           "Rising Star": [0, 10, 7, 5, 3, 2, 1, 1, 1, 1, 1],
+           "Novice": [0,  5, 4, 3, 2, 1, 1, 1, 1, 1, 1]
+           }
            
     def find_url(self, line): 
         fields = line.split()
@@ -57,10 +62,19 @@ class CompMngrScoresheet():
     def process_results(self, heat_report):
         lines = self.result_file.text.splitlines()
         heat_string = heat_report["category"] + " " + str(heat_report["number"]) + ":"
+        
         if "(" in heat_report["info"] and ")" in heat_report["info"]:
             event = "Multi-Dance"
         else:
             event = "Single Dance"
+            
+        if "Open" in heat_report["info"]:
+            level = "Open"
+        elif "Novice" in heat_report["info"]:
+            level = "Novice"
+        else:
+            level = "Rising Star"
+            
         # these are state variables
         looking_for_result_column = False
         looking_for_competitors = False
@@ -88,6 +102,7 @@ class CompMngrScoresheet():
                         for e in heat_report["entries"]:
                             if current_competitor.startswith(e["shirt"]):
                                 e["result"] = result_place
+                                e["points"] = self.point_values[level][result_place]
                                 break
                         count = 0
                     else:
@@ -116,19 +131,17 @@ class CompMngrScoresheet():
         for entry in heat_report["entries"]:
             if entry["result"] is None:
                 search_string = entry["code"] + "=" + entry["dancer"]
-                #print(search_string)
-                self.payload["PERSON_LIST"] = search_string #"381=Baumgartner, Katt"
-                #print(self.payload)
+                self.payload["PERSON_LIST"] = search_string 
 
                 self.result_file = requests.post(self.url, data = self.payload)
-                #print(self.result_file.text)
                 result = self.process_results(heat_report)
-                # print(result)
                 if result != "Finals":
                     entry["result"] = result
                  
         for e in heat_report["entries"]:
-            print(e["dancer"] + " and " + e["partner"] + '\t' + str(e["result"]))  
+            if e["result"] is not None:
+                print(e["dancer"] + " and " + e["partner"] + '\t' + str(e["result"]) + "\t" + str(e["points"]))  
+                
         print()
 
 
