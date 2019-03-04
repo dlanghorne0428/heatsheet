@@ -50,7 +50,9 @@ class HelloFrame(wx.Frame):
         self.divisions = wx.Choice(pnl, pos=(125,58), size=(100, 24))
         self.dancers = wx.Choice(pnl, pos=(125,88), size=(300, 24))
         self.couples = wx.Choice(pnl, pos=(125,118), size=(300, 24))
-        self.heat_selection = wx.SpinCtrl(pnl, pos=(500,55), size=(60,24),
+        self.heat_cat = wx.Choice(pnl, pos=(500, 55), size=(100,24))
+        self.Bind(wx.EVT_CHOICE, self.OnHeatSelection, self.heat_cat)
+        self.heat_selection = wx.SpinCtrl(pnl, pos=(625,55), size=(60,24),
                                         min=1, max=1, initial=1)
         self.Bind(wx.EVT_SPINCTRL, self.OnHeatSelection, self.heat_selection)
 
@@ -232,6 +234,7 @@ class HelloFrame(wx.Frame):
         self.SetDivisionControl(self.heatsheet.age_divisions)
         self.SetDancerControl(self.heatsheet.dancer_name_list())
         self.SetCoupleControl(self.heatsheet.couple_name_list())
+        self.heat_cat.Clear()
         self.list_ctrl.DeleteAllItems()
         self.report_title = ""
 
@@ -288,12 +291,17 @@ class HelloFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_HEATLIST_COUPLE, True)
         self.viewMenu.Enable(self.ID_VIEW_MINIPROG_DANCER, True)
         self.viewMenu.Enable(self.ID_VIEW_MINIPROG_COUPLE, True)
+        self.heat_cat.Append("Heat")
         if self.heatsheet.max_pro_heat_num > 0:
             self.viewMenu.Enable(self.ID_VIEW_COMP_PRO_HEATS, True)
+            self.heat_cat.Append("Pro heat")
         if len(self.heatsheet.solos) > 0:
             self.viewMenu.Enable(self.ID_VIEW_COMP_SOLOS, True)
+            self.heat_cat.Append("Solo")
         if len(self.heatsheet.formations) > 0:
             self.viewMenu.Enable(self.ID_VIEW_COMP_FORMATIONS, True)
+            self.heat_cat.Append("Formation")        
+        self.heat_cat.SetSelection(0)    # default to Heat
         self.heat_selection.SetMax(self.heatsheet.max_heat_num)
         self.SetStatusText("Select a Division, Dancer, or Couple")
 
@@ -412,10 +420,6 @@ class HelloFrame(wx.Frame):
     def OnFilterByDivision(self, event):
         index = self.divisions.GetSelection()
         division = self.divisions.GetString(index)
-        if division == "Pro":
-            self.heat_selection.SetMax(self.heatsheet.max_pro_heat_num)
-        else:
-            self.heat_selection.SetMax(self.heatsheet.max_heat_num)
         self.SetDancerControl(self.heatsheet.find_dancers_in_age_division(division))
         self.SetCoupleControl(self.heatsheet.find_couples_in_age_division(division))
 
@@ -436,19 +440,30 @@ class HelloFrame(wx.Frame):
 
     def OnHeatSelection(self, event):
         self.list_ctrl.DeleteAllItems()
-        heat_num = self.heat_selection.GetValue()
-        index = self.divisions.GetSelection()
-        division = self.divisions.GetString(index)
-        if division == "Pro":
-            h = CompMngr_Heatsheet.Heat("Pro heat", number=heat_num)
-            self.report_title = "Pro Heat " + str(heat_num)
+        index = self.heat_cat.GetSelection()
+        category = self.heat_cat.GetString(index)
+        if category == "Pro heat":
+            self.heat_selection.SetMax(self.heatsheet.max_pro_heat_num)
+        elif category == "Heat":
+            self.heat_selection.SetMax(self.heatsheet.max_heat_num)    
+        elif category == "Solo":
+            self.heat_selection.SetMax(self.heatsheet.max_solo_num)
         else:
-            h = CompMngr_Heatsheet.Heat("Heat", number=heat_num)
-            self.report_title = "Heat " + str(heat_num)
-        # TODO: what about solos or formations?
-        competitors = self.heatsheet.list_of_couples_in_heat(h)
-        for c in competitors:
-            self.list_ctrl.Append(c)
+            self.heat_selection.SetMax(self.heatsheet.max_formation_num)
+            
+        heat_num = self.heat_selection.GetValue()
+
+        h = CompMngr_Heatsheet.Heat(category, number=heat_num)
+        self.report_title = category + " " + str(heat_num)
+
+        if category == "Formation":
+            dancers = self.heatsheet.list_of_dancers_in_heat(h)
+            for d in dancers: 
+                self.list_ctrl.Append(d)
+        else:
+            competitors = self.heatsheet.list_of_couples_in_heat(h)
+            for c in competitors:
+                self.list_ctrl.Append(c)
 
     def OnHeatlistForDancer(self, event):
         self.list_ctrl.DeleteAllItems()
