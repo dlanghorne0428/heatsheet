@@ -57,6 +57,10 @@ class CompMngrScoresheet():
     def process_results(self, heat_report):
         lines = self.result_file.text.splitlines()
         heat_string = heat_report["category"] + " " + str(heat_report["number"]) + ":"
+        if "(" in heat_report["info"] and ")" in heat_report["info"]:
+            event = "Multi-Dance"
+        else:
+            event = "Single Dance"
         # these are state variables
         looking_for_result_column = False
         looking_for_competitors = False
@@ -84,7 +88,6 @@ class CompMngrScoresheet():
                         for e in heat_report["entries"]:
                             if current_competitor.startswith(e["shirt"]):
                                 e["result"] = result_place
-                                # print(current_competitor, e, result_place)
                                 break
                         count = 0
                     else:
@@ -99,8 +102,11 @@ class CompMngrScoresheet():
                 result = "Semis"
             elif heat_string in line and "Final" in line and "<p>" in line:
                 result = "Finals"
+                if event == "Single Dance":
+                    looking_for_result_column = True
             elif result == "Finals" and "Final summary" in line and "<p>" in line:
-                looking_for_result_column = True    
+                if event == "Multi-Dance":
+                    looking_for_result_column = True    
         
         return result
 
