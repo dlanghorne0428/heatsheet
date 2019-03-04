@@ -162,8 +162,10 @@ class CompMngrHeatsheet():
         self.solos = list()     # store a list of the solo performances (as heat objects)
         self.formations = list()    # store a list of the formation performances (as heat objects)
         self.age_divisions = ["* ALL *"]   # store a list of the age divisions
-        self.max_heat_num = 0;     # store the largest heat number in the comp
-        self.max_pro_heat_num = 0; # store the largest pro heat number in the comp
+        self.max_heat_num = 0      # store the largest heat number in the comp
+        self.max_pro_heat_num = 0  # store the largest pro heat number in the comp
+        self.max_solo_num = 0      # store the largest solo number in the comp
+        self.max_formation_num = 0 # store the largest formation number in the comp
 
     ############### EXTRACTION ROUTINES  #################################################
     # the following methods extract specific data items from lines in the CompMngr file
@@ -384,6 +386,8 @@ class CompMngrHeatsheet():
                 if couple is not None:
                     # turn this line into a heat object and add it to the couple and dancer
                     solo_obj = Heat("Solo", line, dancer.name, dancer.scoresheet_code, partner)
+                    if solo_obj.heat_number > self.max_solo_num:
+                        self.max_solo_num = solo_obj.heat_number                    
                     couple.add_heat(solo_obj)
                     dancer.add_heat(solo_obj)
                     # add this solo to the list of solos for the comp
@@ -404,6 +408,8 @@ class CompMngrHeatsheet():
                 if dancer is not None:
                     # turn that heat info into an object and add it to the couple
                     form_heat = Heat("Formation", line, dancer.name, dancer.scoresheet_code, "")
+                    if form_heat.heat_number > self.max_formation_num:
+                        self.max_formation_num = form_heat.heat_number                    
                     dancer.add_heat(form_heat)
                     self.formations.append(form_heat)
 
