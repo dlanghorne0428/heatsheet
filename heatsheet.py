@@ -262,6 +262,7 @@ class HelloFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_COMP_SOLOS, False)
         self.viewMenu.Enable(self.ID_VIEW_COMP_FORMATIONS, False)
         self.heat_selection.SetMax(1)
+        self.folder_name = "./data"
         self.SetStatusText("Choose File->Open to open a heatsheet file")
 
 
@@ -351,6 +352,10 @@ class HelloFrame(wx.Frame):
         if fd.ShowModal() == wx.ID_OK:
             #TODO: Save folder for results
             filename = fd.GetPath()
+            split_path = filename.split("/")
+            name_length = len(split_path[-1])
+            folder_length = len(filename) - name_length
+            self.folder_name = filename[0:folder_length]
             self.heatsheet.process(filename)
             self.postOpenProcess()
 
@@ -366,19 +371,27 @@ class HelloFrame(wx.Frame):
             url = text_dialog.GetValue()
             pathname = urllib.parse.urlparse(url).path
             split_path = pathname.split("/")
-            filename = "./data/" + split_path[len(split_path)-1]
+            filename = split_path[len(split_path)-1]
             req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
             webpage = urlopen(req)
 
-            output_file = open(filename, "wb")
-            for line in webpage:
-                line = line.decode("1252")
-                line = line.encode("utf-8")
-                output_file.write(line)
 
+            fd = wx.FileDialog(self, "Save the Heatsheet to a file", 
+                               defaultDir = "./data",
+                               defaultFile = filename,
+                               style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
+            
+            if fd.ShowModal() == wx.ID_OK:
+                output_filename = fd.GetPath()
+                output_file = open(output_filename, "wb")
+                for line in webpage:
+                    line = line.decode("1252")
+                    line = line.encode("utf-8")
+                    output_file.write(line)
+                output_file.close()
+            
             webpage.close()
-            output_file.close()
-            self.heatsheet.process(filename)
+            self.heatsheet.process(output_filename)
             self.postOpenProcess()
 
 
@@ -506,10 +519,9 @@ class HelloFrame(wx.Frame):
         self.butt_rlst.Enable()
 
     def OnGetResults(self, event):
-        fd = wx.FileDialog(self, "Open a Scoresheet File", "./data", "")
+        fd = wx.FileDialog(self, "Open a Scoresheet File", self.folder_name, "")
         if fd.ShowModal() == wx.ID_OK:
             filename = fd.GetPath()        
-            # scoresheet = self.scoresheet.open_scoresheet("http://www.compmngr.com/snowball2019/SnowBall2019_ScoresheetsByPerson.htm")
             scoresheet = self.scoresheet.open_scoresheet_from_file(filename)        
             item_index = 0
             Time_and_Results_Column = 6
