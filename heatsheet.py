@@ -570,7 +570,7 @@ class HelloFrame(wx.Frame):
                     line = line.encode("utf-8")
                     output_file.write(line)
                 output_file.close()
-                self.ProcessScoresheet(output_file)
+                self.ProcessScoresheet(output_filename)
             
             webpage.close()                    
 
