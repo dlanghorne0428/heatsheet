@@ -7,10 +7,22 @@ class CompMngrScoresheet():
         self.payload = dict()
         self.url = ""
         self.point_values = {
-           "Open": [0, 20, 15, 12, 9, 7, 5, 3, 3, 3, 3, 3],
-           "Rising Star": [0, 10, 7, 5, 3, 2, 1, 1, 1, 1, 1],
-           "Novice": [0,  5, 4, 3, 2, 1, 1, 1, 1, 1, 1]
+           "Open": {
+               "F": [0, 20, 15, 12,  9,  7,  4, 3, 2],
+               "S": [0, 30, 24, 20, 16, 12,  9, 7, 5, 3, 0],
+               "Q": [0, 40, 32, 25, 20, 15, 12, 9, 7, 5, 3]
+            },
+           "Rising Star": {
+               "F": [0, 10,  7,  5,  3,  2,  1, 1, 1],
+               "S": [0, 20, 15, 12,  9,  7,  4, 3, 2, 2, 0],
+               "Q": [0, 30, 24, 20, 16, 12,  9, 7, 5, 3, 2]
+               },
+           "Novice": {
+               "F": [0,  5,  4,  3,  2,  1,  1, 1, 1],
+               "S": [0, 10,  8,  6,  4,  3,  2, 1, 1, 1, 0],
+               "Q": [0, 15, 12, 10,  8,  6,  5, 4, 3, 2, 1]
            }
+        }
            
     def find_url(self, line): 
         fields = line.split()
@@ -30,20 +42,8 @@ class CompMngrScoresheet():
         value = line[start_pos:end_pos]
         self.payload[key] = value
             
-            
-    def open_scoresheet(self, url):
-        r = requests.get(url)
-        line_list = r.text.splitlines()
-        for line in line_list:
-            if "<form" in line:
-                self.find_url(line)
-            if "<input" in line:
-                self.find_payload_field(line)
                 
-        # should save the file 
-        
-                
-    def open_scoresheet_from_file(self, filename):
+    def open_scoresheet_from_file(self, filename, output_filename):
         # open the file and loop through all the lines
         fhand = open(filename,encoding="utf-8")
         for line in fhand:
@@ -51,7 +51,13 @@ class CompMngrScoresheet():
                 self.find_url(line)
             if "<input" in line:
                 self.find_payload_field(line)
-        print(self.payload["COMP_NAME"])
+        
+        self.output_file = open(output_filename, "w")
+        
+        
+    def close_output_file(self):
+        self.output_file.close()
+        
             
     def get_table_data(self, line):
         start_pos = line.find("<td>") + len("<td>")
@@ -68,13 +74,7 @@ class CompMngrScoresheet():
         else:
             event = "Single Dance"
             
-        if "Open" in heat_report["info"]:
-            level = "Open"
-        elif "Novice" in heat_report["info"]:
-            level = "Novice"
-        else:
-            level = "Rising Star"
-            
+        level = heat_report["level"] 
         # these are state variables
         looking_for_result_column = False
         looking_for_competitors = False
@@ -102,7 +102,8 @@ class CompMngrScoresheet():
                         for e in heat_report["entries"]:
                             if current_competitor.startswith(e["shirt"]):
                                 e["result"] = result_place
-                                e["points"] = self.point_values[level][result_place]
+                                r = heat_report["rounds"]
+                                e["points"] = self.point_values[level][r][result_place]
                                 break
                         count = 0
                     else:
@@ -127,7 +128,10 @@ class CompMngrScoresheet():
 
 
     def perform_request_for_results(self, heat_report):
-        print(heat_report["category"], heat_report["number"], heat_report["info"])
+        self.output_file.write(self.payload["COMP_NAME"] + "\n")
+        self.output_file.write(heat_report["category"] + " " + str(heat_report["number"]) + " " + heat_report["info"] + "\n")
+        level = heat_report["level"]
+        rounds = heat_report["rounds"]
         for entry in heat_report["entries"]:
             if entry["result"] is None:
                 search_string = entry["code"] + "=" + entry["dancer"]
@@ -137,14 +141,20 @@ class CompMngrScoresheet():
                 result = self.process_results(heat_report)
                 if result != "Finals":
                     entry["result"] = result
+
+                    if result == "Semis":
+                        entry["points"] = self.point_values[level][rounds][-2]
+                    else:
+                        entry["points"] = self.point_values[level][rounds][-1]                   
                  
+
+
+
         for e in heat_report["entries"]:
             if e["result"] is not None:
-                print(e["dancer"] + " and " + e["partner"] + '\t' + str(e["result"]) + "\t" + str(e["points"]))  
-                
-        print()
-
-
+                self.output_file.write(e["dancer"] + " and " + e["partner"] + '\t' + str(e["result"]) + "\t" + str(e["points"]) + "\n")  
+        
+        self.output_file.write("\n")
 
 
 

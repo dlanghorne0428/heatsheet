@@ -13,6 +13,13 @@ import yattag
 import CompMngr_Heatsheet
 import CompMngrScoresheet
 
+def get_folder_name(filename):
+    split_path = filename.split("/")
+    name_length = len(split_path[-1])
+    folder_length = len(filename) - name_length
+    return filename[0:folder_length]
+
+
 class HelloFrame(wx.Frame):
     '''
     The main frame for the application
@@ -84,12 +91,12 @@ class HelloFrame(wx.Frame):
                                      style=wx.LC_REPORT | wx.LC_HRULES | wx.LC_VRULES)
 
         # create the columns for the report
-        self.list_ctrl.AppendColumn("Category", format=wx.LIST_FORMAT_CENTER, width=80)
+        self.list_ctrl.AppendColumn("Category", format=wx.LIST_FORMAT_CENTER, width=72)
         self.list_ctrl.AppendColumn("Heat #", format=wx.LIST_FORMAT_CENTER, width=72)
-        self.list_ctrl.AppendColumn("Time", format=wx.LIST_FORMAT_LEFT, width=140)
-        self.list_ctrl.AppendColumn("Info", format=wx.LIST_FORMAT_LEFT, width=300)
+        self.list_ctrl.AppendColumn("Time", format=wx.LIST_FORMAT_LEFT, width=160)
+        self.list_ctrl.AppendColumn("Info", format=wx.LIST_FORMAT_LEFT, width=288)
         self.list_ctrl.AppendColumn("Shirt #", format=wx.LIST_FORMAT_CENTER, width=60)      
-        self.list_ctrl.AppendColumn("Dancers", format=wx.LIST_FORMAT_LEFT, width=290)
+        self.list_ctrl.AppendColumn("Dancers", format=wx.LIST_FORMAT_LEFT, width=288)
         self.list_ctrl.AppendColumn("Results", format=wx.LIST_FORMAT_CENTER, width=72)
 
         wx.StaticLine(pnl, pos=(10, 500), size=(580, 3), style=wx.LI_HORIZONTAL)
@@ -363,12 +370,8 @@ class HelloFrame(wx.Frame):
 
         fd = wx.FileDialog(self, "Open a Heatsheet File", "./data", "")
         if fd.ShowModal() == wx.ID_OK:
-            #TODO: Save folder for results
             filename = fd.GetPath()
-            split_path = filename.split("/")
-            name_length = len(split_path[-1])
-            folder_length = len(filename) - name_length
-            self.folder_name = filename[0:folder_length]
+            self.folder_name = get_folder_name(filename)
             self.heatsheet.process(filename)
             self.postOpenProcess()
 
@@ -396,6 +399,7 @@ class HelloFrame(wx.Frame):
             
             if fd.ShowModal() == wx.ID_OK:
                 output_filename = fd.GetPath()
+                self.folder_name = get_folder_name(output_filename)
                 output_file = open(output_filename, "wb")
                 for line in webpage:
                     line = line.decode("1252")
@@ -540,7 +544,8 @@ class HelloFrame(wx.Frame):
         self.butt_rslt_url.Enable()
         
     def ProcessScoresheet(self, filename):
-        scoresheet = self.scoresheet.open_scoresheet_from_file(filename)        
+        output_filename = self.folder_name + "/results.txt"
+        self.scoresheet.open_scoresheet_from_file(filename, output_filename)        
         item_index = 0
         Time_and_Results_Column = 6
         for num in range(1, self.heatsheet.max_pro_heat_num + 1):
@@ -551,9 +556,8 @@ class HelloFrame(wx.Frame):
                 for e in report["entries"]:
                     self.list_ctrl.SetItem(item_index, Time_and_Results_Column, str(e["result"]))
                     item_index += 1
-                    # print(e)
                 item_index += 1  # get past line that separates the events        
-        
+        self.scoresheet.close_output_file()
 
     def OnGetResults(self, event):
         fd = wx.FileDialog(self, "Open a Scoresheet File", self.folder_name, "")
