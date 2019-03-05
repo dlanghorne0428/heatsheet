@@ -14,10 +14,15 @@ class Heat():
             fields = line.split("<td>")
             heat_time = fields[1].split("</td>")[0]
             if "<br>" in heat_time:
-                # TO DO: maybe store later rounds as separate heats?
-                self.time = heat_time.split("<br>")[0]  # truncate "Later rounds"
+                time_fields = heat_time.split("<br>")
+                if len(time_fields) == 4:
+                    self.rounds = "Q"  # start with quarter-final
+                else:
+                    self.rounds = "S"  # start with semi-final
+                self.time = time_fields[0] + "-" + self.rounds  # truncate "Later rounds" from time string
             else:
                 self.time = heat_time
+                self.rounds = "F"      # final only
             self.shirt_number = fields[2].split("</td>")[0]
             self.info = fields[4].split("</td>")[0]
             start_pos = fields[3].find(category) + len(category) + 1
@@ -30,6 +35,7 @@ class Heat():
             # anything non-digit is extra information, like ballroom assignment
             num_chars = len("</td>")
             self.extra = fields[3][i:-num_chars]
+            self.extra = self.extra.replace("Ballroom ", "")
 
     # return the heat information as a list of strings
     def info_list(self, dancer=None):
@@ -50,6 +56,18 @@ class Heat():
         # placeholder for results
         info.append("---")
         return info
+    
+    def level(self):
+        if self.category == "Pro heat":
+            if "Rising Star" in self.info:
+                level = "Rising Star"
+            elif "Novice" in self.info:
+                level = "Novice"
+            else:
+                level = "Open"   
+        else: # TODO: consider amateurs 
+            level = "None"
+        return level
 
     # return a blank set of heat information
     def dummy_info(self):
@@ -280,8 +298,11 @@ class CompMngrHeatsheet():
                     entry["partner"] = ht.partner
                     entry["shirt"] = ht.shirt_number
                     entry["result"] = None
+                    entry["points"] = 0
                     if len(report["entries"]) == 0:
                         report["info"] = ht.info
+                        report["rounds"] = ht.rounds
+                        report["level"]= ht.level()
                     report["entries"].append(entry)
                     
         return report
