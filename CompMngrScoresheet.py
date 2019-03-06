@@ -95,16 +95,35 @@ class CompMngrScoresheet():
                 if "<td>" in line:
                     if count == 0:
                         current_competitor = self.get_table_data(line)
+                        found = False
                         count += 1
                     elif count == result_column:
                         # need to check for parenthesis, as the result could include a tiebreaker rule
                         result_place = int(self.get_table_data(line).split('(')[0])
+                        r = heat_report["rounds"]
                         for e in heat_report["entries"]:
                             if current_competitor.startswith(e["shirt"]):
                                 e["result"] = result_place
-                                r = heat_report["rounds"]
                                 e["points"] = self.point_values[level][r][result_place]
+                                found = True
                                 break
+                        if not found:    # could use else: here? 
+                            entrant_fields = current_competitor.split()
+                            if len(entrant_fields) != 2:
+                                print("Error", entrant_fields)
+                            else:
+                                late_entry = dict()
+                                couple_names = entrant_fields[1].split("/")
+                                if len(couple_names) != 2:
+                                    print("Error", couple_names)
+                                else:
+                                    late_entry["dancer"] = min(couple_names)
+                                    late_entry["partner"] = max(couple_names)
+                                    late_entry["code"] = "LATE"
+                                    late_entry["shirt"] = entrant_fields[0]
+                                    late_entry["result"] = result_place
+                                    late_entry["points"] = self.point_values[level][r][result_place]
+                                    heat_report["entries"].append(late_entry)
                         count = 0
                     else:
                         count += 1

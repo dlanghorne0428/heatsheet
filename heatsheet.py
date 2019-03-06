@@ -554,8 +554,11 @@ class HelloFrame(wx.Frame):
             if len(report["entries"]) > 0:
                 self.scoresheet.perform_request_for_results(report)
                 for e in report["entries"]:
-                    self.list_ctrl.SetItem(item_index, Time_and_Results_Column, str(e["result"]))
-                    item_index += 1
+                    if e["code"] == "LATE":
+                        pass   # TODO: consider inserting the late entry into the report?
+                    else:
+                        self.list_ctrl.SetItem(item_index, Time_and_Results_Column, str(e["result"]))
+                        item_index += 1
                 item_index += 1  # get past line that separates the events        
         self.scoresheet.close_output_file()
 
