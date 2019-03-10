@@ -347,6 +347,7 @@ class CompMngrHeatsheet():
     def process(self, filename):
         dancer = None       # variables for the current dancer
         couple = None       # and the current couple
+        dancer_index = 0
 
         # open the file and loop through all the lines
         fhand = open(filename,encoding="utf-8")
@@ -361,10 +362,14 @@ class CompMngrHeatsheet():
             # A line with "Entries For" indicates the start of a new dancer's heat information
             if "Entries for" in line:
                 dancer_name = self.get_dancer_name(line.strip())
-                for d in self.dancers:
-                    if d.name == dancer_name:
-                        dancer = d
-                        break
+                if dancer_name == self.dancers[dancer_index].name:
+                    dancer = self.dancers[dancer_index]
+                    dancer_index += 1
+                else:  # search for dancer name
+                    for d in self.dancers:
+                        if d.name == dancer_name:
+                            dancer = d
+                            break
             # A line with "With " indicates the start of a new partner for the current dancer
             if "With " in line:
                 partner = self.get_dancer_name(line.strip(), line.find("With ") + 5)
