@@ -554,8 +554,22 @@ class HelloFrame(wx.Frame):
             if len(report["entries"]) > 0:
                 self.scoresheet.perform_request_for_results(report)
                 for e in report["entries"]:
+                    if e["code"] == "LATE":
+                        curr_item = self.list_ctrl.GetItem(item_index, 0)
+                        self.list_ctrl.InsertItem(curr_item)  
+                        self.list_ctrl.SetItem(item_index, 0, h.category)
+                        self.list_ctrl.SetItem(item_index, 1, str(h.heat_number))
+                        t = self.list_ctrl.GetItemText(item_index - 1, 2)
+                        self.list_ctrl.SetItem(item_index, 2, t)
+                        t = self.list_ctrl.GetItemText(item_index - 1, 3)
+                        self.list_ctrl.SetItem(item_index, 3, t)        
+                        self.list_ctrl.SetItem(item_index, 4, e["shirt"])
+                        couple_names = e["dancer"] + " and " + e["partner"]
+                        self.list_ctrl.SetItem(item_index, 5, couple_names)
+                        
                     self.list_ctrl.SetItem(item_index, Time_and_Results_Column, str(e["result"]))
                     item_index += 1
+
                 item_index += 1  # get past line that separates the events        
         self.scoresheet.close_output_file()
 
