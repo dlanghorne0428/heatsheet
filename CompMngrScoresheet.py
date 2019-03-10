@@ -23,26 +23,26 @@ class CompMngrScoresheet():
                "Q": [0, 15, 12, 10,  8,  6,  5, 4, 3, 3, 1]
            }
         }
-           
-    def find_url(self, line): 
+
+    def find_url(self, line):
         fields = line.split()
         for f in fields:
             if "action=" in f:
                 self.url = f[len("action=")+1:-1]
 #                print(self.url)
-        
+
     def find_payload_field(self, line):
         key = None
         value = None
         start_pos = line.find("name=") + len("name=") + 1
-        end_pos = line.find('"', start_pos)  # add 1 to get past first quote 
+        end_pos = line.find('"', start_pos)  # add 1 to get past first quote
         key = line[start_pos:end_pos]
         start_pos = line.find("value=") + len("value=") + 1
-        end_pos = line.find('"', start_pos)  # add 1 to get past first quote 
+        end_pos = line.find('"', start_pos)  # add 1 to get past first quote
         value = line[start_pos:end_pos]
         self.payload[key] = value
-            
-                
+
+
     def open_scoresheet_from_file(self, filename, output_filename):
         # open the file and loop through all the lines
         fhand = open(filename,encoding="utf-8")
@@ -51,38 +51,60 @@ class CompMngrScoresheet():
                 self.find_url(line)
             if "<input" in line:
                 self.find_payload_field(line)
-        
+
         self.output_file = open(output_filename, "w")
-        
-        
+
+
     def close_output_file(self):
         self.output_file.close()
-        
-            
+
+
     def get_table_data(self, line):
         start_pos = line.find("<td>") + len("<td>")
         end_pos = line.find("<", start_pos)
         name = line[start_pos:end_pos]
-        return name 
+        return name
+
+    def get_shirt_number(self, competitor):
+        fields = competitor.split()
+        if len(fields) != 2:
+            print("error", fields)
+        return fields[0]
+
+    def get_couple_names(self, competitor):
+        couple_names = []
+        entrant_fields = competitor.split()
+        if len(entrant_fields) != 2:
+            print("Error", entrant_fields)
+        else:
+            couple_names = entrant_fields[1].split("/")
+            if len(couple_names) != 2:
+                print("Error", couple_names)
+        return couple_names
         
+    def swap_couple_names(self, entry):
+        temp = entry["dancer"]
+        entry["dancer"] = entry["partner"]
+        entry["partner"] = temp
+
 
     def process_results(self, heat_report, rounds):
         lines = self.result_file.text.splitlines()
         heat_string = heat_report["category"] + " " + str(heat_report["number"]) + ":"
-        
+
         if "(" in heat_report["info"] and ")" in heat_report["info"]:
             event = "Multi-Dance"
         else:
             event = "Single Dance"
-            
-        level = heat_report["level"] 
+
+        level = heat_report["level"]
         # these are state variables
         looking_for_recall_column = False
         looking_for_result_column = False
         looking_for_eliminations = False
         looking_for_finalists = False
         result = None
- 
+
         for line in lines:
             if looking_for_result_column:
                 if "<tr>" in line:
@@ -104,7 +126,7 @@ class CompMngrScoresheet():
                     count = 0
                 elif "<td>" in line:
                     count += 1
-                    
+
             elif looking_for_eliminations:
                 if "<td>" in line:
                     if count == 0:
@@ -115,71 +137,61 @@ class CompMngrScoresheet():
                         if self.get_table_data(line) != "Recall":
                             for e in heat_report["entries"]:
                                 if current_competitor.startswith(e["shirt"]):
+                                    couple_names = self.get_couple_names(current_competitor)
+                                    if e["dancer"].startswith(couple_names[1]):
+                                        self.swap_couple_names(e)
                                     e["result"] = result
                                     e["points"] = self.point_values[level][rounds][result_index]
                                     break
                             else:
-                                entrant_fields = current_competitor.split()
-                                if len(entrant_fields) != 2:
-                                    print("Error", entrant_fields)
-                                else:
-                                    late_entry = dict()
-                                    couple_names = entrant_fields[1].split("/")
-                                    if len(couple_names) != 2:
-                                        print("Error", couple_names)
-                                    else:
-                                        late_entry["dancer"] = min(couple_names)
-                                        late_entry["partner"] = max(couple_names)
-                                        late_entry["code"] = "LATE"
-                                        late_entry["shirt"] = entrant_fields[0]
-                                        late_entry["result"] = result
-                                        late_entry["points"] = self.point_values[level][rounds][result_index]
-                                        heat_report["entries"].append(late_entry)   
+                                late_entry = dict()
+                                late_entry["shirt"] = self.get_shirt_number(current_competitor)
+                                couple_names = self.get_couple_names(current_competitor)    
+                                late_entry["dancer"] = couple_names[0] 
+                                late_entry["partner"] = couple_names[1] 
+                                late_entry["code"] = "LATE"
+                                late_entry["result"] = result
+                                late_entry["points"] = self.point_values[level][rounds][result_index]
+                                heat_report["entries"].append(late_entry)
                         count = 0
                     else:
                         count += 1
                 elif "</table>" in line:
                     looking_for_eliminations = False
-                            
+
             elif looking_for_finalists:
                 if "<td>" in line:
                     if count == 0:
                         current_competitor = self.get_table_data(line)
-                        found = False
                         count += 1
                     elif count == result_column:
                         # need to check for parenthesis, as the result could include a tiebreaker rule
                         result_place = int(self.get_table_data(line).split('(')[0])
                         for e in heat_report["entries"]:
                             if current_competitor.startswith(e["shirt"]):
+                                couple_names = self.get_couple_names(current_competitor)
+                                if e["dancer"].startswith(couple_names[1]):
+                                    self.swap_couple_names(e)
                                 e["result"] = result_place
                                 e["points"] = self.point_values[level][rounds][result_place]
-                                found = True
                                 break
-                        if not found:    # could use else: here? 
-                            entrant_fields = current_competitor.split()
-                            if len(entrant_fields) != 2:
-                                print("Error", entrant_fields)
-                            else:
-                                late_entry = dict()
-                                couple_names = entrant_fields[1].split("/")
-                                if len(couple_names) != 2:
-                                    print("Error", couple_names)
-                                else:
-                                    late_entry["dancer"] = min(couple_names)
-                                    late_entry["partner"] = max(couple_names)
-                                    late_entry["code"] = "LATE"
-                                    late_entry["shirt"] = entrant_fields[0]
-                                    late_entry["result"] = result_place
-                                    late_entry["points"] = self.point_values[level][rounds][result_place]
-                                    heat_report["entries"].append(late_entry)
+                        else:    # this runs when competitor not found in heat
+                            late_entry = dict()
+                            late_entry["shirt"] = self.get_shirt_number(current_competitor)
+                            couple_names = self.get_couple_names(current_competitor)
+                            late_entry["dancer"] = couple_names[0] 
+                            late_entry["partner"] = couple_names[1]
+                            late_entry["code"] = "LATE"
+                            late_entry["result"] = result_place
+                            late_entry["points"] = self.point_values[level][rounds][result_place]
+                            heat_report["entries"].append(late_entry)
                         count = 0
                     else:
                         count += 1
                 elif "</table>" in line:
                     looking_for_finalists = False
                     break;
-                
+
             elif heat_string in line and "Quarter-final" in line and "<p>" in line:
                 result = "quarters"
                 result_index = -1
@@ -194,8 +206,8 @@ class CompMngrScoresheet():
                     looking_for_result_column = True
             elif result == "Finals" and "Final summary" in line and "<p>" in line:
                 if event == "Multi-Dance":
-                    looking_for_result_column = True    
-        
+                    looking_for_result_column = True
+
         return result
 
 
@@ -207,7 +219,7 @@ class CompMngrScoresheet():
         for entry in heat_report["entries"]:
             if entry["result"] is None:
                 search_string = entry["code"] + "=" + entry["dancer"]
-                self.payload["PERSON_LIST"] = search_string 
+                self.payload["PERSON_LIST"] = search_string
 
                 self.result_file = requests.post(self.url, data = self.payload)
                 result = self.process_results(heat_report, rounds)
@@ -217,9 +229,6 @@ class CompMngrScoresheet():
 
         for e in heat_report["entries"]:
             if e["result"] is not None:
-                self.output_file.write(e["dancer"] + " and " + e["partner"] + '\t' + str(e["result"]) + "\t" + str(e["points"]) + "\n")  
-        
+                self.output_file.write(e["dancer"] + " and " + e["partner"] + '\t' + str(e["result"]) + "\t" + str(e["points"]) + "\n")
+
         self.output_file.write("\n")
-
-
-
