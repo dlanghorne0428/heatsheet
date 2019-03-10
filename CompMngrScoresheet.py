@@ -63,7 +63,8 @@ class CompMngrScoresheet():
         start_pos = line.find("<td>") + len("<td>")
         end_pos = line.find("<", start_pos)
         name = line[start_pos:end_pos]
-        return name    
+        return name 
+    
 
     def process_results(self, heat_report):
         lines = self.result_file.text.splitlines()
@@ -77,7 +78,7 @@ class CompMngrScoresheet():
         level = heat_report["level"] 
         # these are state variables
         looking_for_result_column = False
-        looking_for_competitors = False
+        looking_for_finalists = False
         result = None
  
         for line in lines:
@@ -86,12 +87,12 @@ class CompMngrScoresheet():
                     count = 0
                 elif "<td>" in line and "Result" in line:
                     result_column = count
-                    looking_for_competitors = True
+                    looking_for_finalists = True
                     looking_for_result_column = False
                     count = 0
                 elif "<td>" in line:
                     count += 1
-            elif looking_for_competitors:
+            elif looking_for_finalists:
                 if "<td>" in line:
                     if count == 0:
                         current_competitor = self.get_table_data(line)
@@ -128,7 +129,7 @@ class CompMngrScoresheet():
                     else:
                         count += 1
                 elif "</table>" in line:
-                    looking_for_competitors = False
+                    looking_for_finalists = False
                     break;
                 
             elif heat_string in line and "Quarter-final" in line and "<p>" in line:
