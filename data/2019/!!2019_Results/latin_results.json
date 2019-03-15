@@ -12,7 +12,7 @@
         "comp_name": "City Lights Open",
         "level": "Open",
         "place": "4",
-        "points": "9"
+        "points": 9
       }
     ],
     "total_pts": 9,
@@ -37,7 +37,7 @@
         "comp_name": "City Lights Open",
         "level": "Open",
         "place": "2",
-        "points": "15"
+        "points": 15
       }
     ],
     "total_pts": 15,
@@ -50,7 +50,7 @@
         "comp_name": "City Lights Open",
         "level": "Open",
         "place": "1",
-        "points": "20"
+        "points": 20
       }
     ],
     "total_pts": 20,
@@ -64,15 +64,35 @@
   },
   {
     "name": "Chopenko, Dmitrii and Khrapak, Valeria",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      }
+    ],
+    "total_pts": 12,
+    "avg_pts": 12.0
   },
   {
     "name": "Coco, Fabio and Harrington, Nicole",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5
+      },
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 9,
+    "avg_pts": 4.5
   },
   {
     "name": "Dai, Jason Chao and Litvak, Alina",
@@ -93,7 +113,7 @@
         "comp_name": "City Lights Open",
         "level": "Open",
         "place": "5",
-        "points": "7"
+        "points": 7
       }
     ],
     "total_pts": 7,
@@ -119,15 +139,41 @@
   },
   {
     "name": "Fulvi, Daniele and Criscione, Veronica",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "3",
+        "points": 5
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "4",
+        "points": 5
+      }
+    ],
+    "total_pts": 10,
+    "avg_pts": 5.0
   },
   {
     "name": "Gelashvili, Levan and Kolman, Lily",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "6",
+        "points": 9
+      }
+    ],
+    "total_pts": 16,
+    "avg_pts": 8.0
   },
   {
     "name": "Gilin, Alon and Oblakova, Anna",
@@ -136,10 +182,29 @@
     "avg_pts": 0
   },
   {
-    "name": "Goncharov, Dymytrii and Lutsenko, Tatyana",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "name": "Goncharov, Dymytrii and Lutsenko, Tetiana",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "6",
+        "points": 4
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "2",
+        "points": 10
+      }
+    ],
+    "total_pts": 24,
+    "avg_pts": 8.0
   },
   {
     "name": "Gunnarsson, Gunnar and Doshoris, Marika",
@@ -161,9 +226,22 @@
   },
   {
     "name": "Horvath-Krol, Dariusz and Zosin, Alisa",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3
+      },
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 7,
+    "avg_pts": 3.5
   },
   {
     "name": "Italyankin, Roman and Bokova, Alexandra",
@@ -172,11 +250,23 @@
         "comp_name": "City Lights Open",
         "level": "Open",
         "place": "3",
-        "points": "12"
+        "points": 12
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "2",
+        "points": 10
       }
     ],
-    "total_pts": 12,
-    "avg_pts": 12.0
+    "total_pts": 42,
+    "avg_pts": 14.0
   },
   {
     "name": "Jenkins, Dylan and Jenkins, Nora",
@@ -186,9 +276,22 @@
   },
   {
     "name": "Kora, Iurii and Hryn, Alisa",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "4",
+        "points": 3
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "5",
+        "points": 3
+      }
+    ],
+    "total_pts": 6,
+    "avg_pts": 3.0
   },
   {
     "name": "Kazlauskas, Jonas and Ilo, Kathleen",
@@ -215,11 +318,23 @@
         "comp_name": "City Lights Open",
         "level": "Open",
         "place": "7",
-        "points": "3"
+        "points": 3
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "5",
+        "points": 2
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "6",
+        "points": 2
       }
     ],
-    "total_pts": 3,
-    "avg_pts": 3.0
+    "total_pts": 7,
+    "avg_pts": 2.3333333333333335
   },
   {
     "name": "Kazlouski, Andrei and Sigvaldadottir, Asta",
@@ -235,9 +350,16 @@
   },
   {
     "name": "Kudashev, Ivan and Ksusha",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 24
+      }
+    ],
+    "total_pts": 24,
+    "avg_pts": 24.0
   },
   {
     "name": "Larina and Trillo",
@@ -271,9 +393,16 @@
   },
   {
     "name": "Minaev, Aleksei and Minaeva, Elena",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 4,
+    "avg_pts": 4.0
   },
   {
     "name": "Ogawa, Maiko and Kato, Yuya",
@@ -283,9 +412,22 @@
   },
   {
     "name": "Osai, Malachi and Chan, Freda",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "4",
+        "points": 16
+      }
+    ],
+    "total_pts": 26,
+    "avg_pts": 13.0
   },
   {
     "name": "Pashkov, Pasha and Karagach, Daniella",
@@ -295,9 +437,16 @@
   },
   {
     "name": "Pavlovic, Nenad and Kogan, Vivienne",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 2
+      }
+    ],
+    "total_pts": 2,
+    "avg_pts": 2.0
   },
   {
     "name": "Modrzynski, Przemyslaw and Zybura, Magdalena",
@@ -306,13 +455,13 @@
         "comp_name": "City Lights Open",
         "level": "Rising Star",
         "place": "1",
-        "points": "10"
+        "points": 10
       },
       {
         "comp_name": "City Lights Open",
         "level": "Open",
         "place": "6",
-        "points": "4"
+        "points": 4
       }
     ],
     "total_pts": 14,
@@ -332,9 +481,16 @@
   },
   {
     "name": "Nabiullin, Alexandr and Ryabova, Valeriya",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "5",
+        "points": 12
+      }
+    ],
+    "total_pts": 12,
+    "avg_pts": 12.0
   },
   {
     "name": "Pan, Jian Hui and Wang, Ji",
@@ -362,9 +518,34 @@
   },
   {
     "name": "Shipilov, Aleksei and Mitina, Julia",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 20
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "5",
+        "points": 7
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "3",
+        "points": 7
+      }
+    ],
+    "total_pts": 41,
+    "avg_pts": 10.25
   },
   {
     "name": "Solomakha, Dmitriy and Sevillano, Gabriela",
@@ -374,9 +555,16 @@
   },
   {
     "name": "Spirov, Rangel and Chernyavska, Veronika",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "2",
+        "points": 15
+      }
+    ],
+    "total_pts": 15,
+    "avg_pts": 15.0
   },
   {
     "name": "Shevelev, Kirill and Sheveleva, Valeriia",
@@ -386,15 +574,29 @@
   },
   {
     "name": "Stoynov, Simeon and Stoynova, Kora",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "4",
+        "points": 9
+      }
+    ],
+    "total_pts": 9,
+    "avg_pts": 9.0
   },
   {
     "name": "Tarnavskyy, Artur and Danilova, Anastasiya",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 30
+      }
+    ],
+    "total_pts": 30,
+    "avg_pts": 30.0
   },
   {
     "name": "Voloshko, Andrii and Kyrylenko, Kateryna",

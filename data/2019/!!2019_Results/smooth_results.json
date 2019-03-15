@@ -1,15 +1,65 @@
 [
   {
     "name": "Afonkin, Igor and Anderson, Meghan",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 30
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "2",
+        "points": 32
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "2",
+        "points": 24
+      }
+    ],
+    "total_pts": 106,
+    "avg_pts": 26.5
   },
   {
     "name": "Bonev, Aleksandar and Aidasheva, Olga",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 9
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 9
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "4",
+        "points": 9
+      }
+    ],
+    "total_pts": 33,
+    "avg_pts": 8.25
   },
   {
     "name": "Donelan, Dustin and Anderson, Georgietta",
@@ -25,9 +75,22 @@
   },
   {
     "name": "Arndtson, Cody and Becker, Paris",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "quarters",
+        "points": 2
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 5,
+    "avg_pts": 2.5
   },
   {
     "name": "Astashenia, Yurii and Astashenia, Elena",
@@ -37,9 +100,22 @@
   },
   {
     "name": "Azarov, Mykhailo and Makarenko, Tetyana",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 9
+      },
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      }
+    ],
+    "total_pts": 21,
+    "avg_pts": 10.5
   },
   {
     "name": "Barabash, Volodymyr and Rudenco, Yulia",
@@ -54,13 +130,13 @@
         "comp_name": "City Lights Open",
         "level": "Rising Star",
         "place": "4",
-        "points": "3"
+        "points": 3
       },
       {
         "comp_name": "City Lights Open",
         "level": "Open",
         "place": "5",
-        "points": "7"
+        "points": 7
       }
     ],
     "total_pts": 10,
@@ -74,15 +150,47 @@
   },
   {
     "name": "Zavialov, Dmitrii and Baumgartner, Katt",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "5",
+        "points": 15
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 15
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "3",
+        "points": 20
+      }
+    ],
+    "total_pts": 50,
+    "avg_pts": 16.666666666666668
   },
   {
     "name": "Wysocky, Patrick and Beetz, Alexis",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 5
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 8,
+    "avg_pts": 4.0
   },
   {
     "name": "Samchynskyy, Sergiy and Besarab, Yuliya",
@@ -92,21 +200,54 @@
   },
   {
     "name": "Zappia, Enzo and Betts, Stephanie",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "4",
+        "points": 20
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 20.0
   },
   {
     "name": "Parks, Anthony and Blunt, Sophia",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Rising Star",
+        "place": "semis",
+        "points": 3
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "semis",
+        "points": 5
+      }
+    ],
+    "total_pts": 8,
+    "avg_pts": 4.0
   },
   {
     "name": "Pickering, Martin and Botes, Natalie",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 4
+      },
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "4",
+        "points": 9
+      }
+    ],
+    "total_pts": 13,
+    "avg_pts": 6.5
   },
   {
     "name": "Martinez, Juan and Bottinelli, Elayna",
@@ -122,9 +263,28 @@
   },
   {
     "name": "Cegelski, Rane and Larson, Sarah",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Novice",
+        "place": "3",
+        "points": 3
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "quarters",
+        "points": 2
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 8,
+    "avg_pts": 2.6666666666666665
   },
   {
     "name": "Cheremukhin, Nick and Viktorija",
@@ -140,9 +300,22 @@
   },
   {
     "name": "Clark, Gage and Nicole, Randi",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Rising Star",
+        "place": "semis",
+        "points": 3
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "semis",
+        "points": 5
+      }
+    ],
+    "total_pts": 8,
+    "avg_pts": 4.0
   },
   {
     "name": "Clark, Jarod and Maughan, Angela",
@@ -152,9 +325,22 @@
   },
   {
     "name": "Steffes, Jake and Cole, Jaclyn",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Novice",
+        "place": "5",
+        "points": 1
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "quarters",
+        "points": 2
+      }
+    ],
+    "total_pts": 3,
+    "avg_pts": 1.5
   },
   {
     "name": "Pigotskyy, Oleksiy and Crandall, Natalie",
@@ -163,11 +349,17 @@
         "comp_name": "City Lights Open",
         "level": "Open",
         "place": "1",
-        "points": "20"
+        "points": 20
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "1",
+        "points": 40
       }
     ],
-    "total_pts": 20,
-    "avg_pts": 20.0
+    "total_pts": 60,
+    "avg_pts": 30.0
   },
   {
     "name": "Cromwell, Robbie and Trimble, Ruth",
@@ -177,9 +369,16 @@
   },
   {
     "name": "Rasmussen, Matthew and Daigle, Kayla",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Novice",
+        "place": "6",
+        "points": 1
+      }
+    ],
+    "total_pts": 1,
+    "avg_pts": 1.0
   },
   {
     "name": "Dawson, Staz and Gonyea, Jacklyn",
@@ -195,9 +394,16 @@
   },
   {
     "name": "Santapaola, Christopher and DeView, Rachel",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      }
+    ],
+    "total_pts": 2,
+    "avg_pts": 2.0
   },
   {
     "name": "Kralev, Nikolay and DiBacco Daniells, Julianne",
@@ -219,21 +425,54 @@
   },
   {
     "name": "Doroshenko, Roman and Savushkina, Iryna",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 12
+      }
+    ],
+    "total_pts": 12,
+    "avg_pts": 12.0
   },
   {
     "name": "McKerlie, Mike and Drake, Anya",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Rising Star",
+        "place": "semis",
+        "points": 3
+      }
+    ],
+    "total_pts": 3,
+    "avg_pts": 3.0
   },
   {
     "name": "Hutton, Colton and Eden, Cassandra",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Novice",
+        "place": "4",
+        "points": 2
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "quarters",
+        "points": 2
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 7,
+    "avg_pts": 2.3333333333333335
   },
   {
     "name": "Proper, William and Elliott, Jennifer",
@@ -243,15 +482,41 @@
   },
   {
     "name": "Elser, David and Krug, Elizabeth",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 7
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "5",
+        "points": 12
+      }
+    ],
+    "total_pts": 19,
+    "avg_pts": 9.5
   },
   {
     "name": "Haklin, Nick and Ford, Sarah",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 12
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      }
+    ],
+    "total_pts": 18,
+    "avg_pts": 9.0
   },
   {
     "name": "Mora, Leo and Garced, Christina",
@@ -261,27 +526,73 @@
   },
   {
     "name": "Scalzi, Anthony and Gilday, Zhenia",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      },
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "5",
+        "points": 7
+      }
+    ],
+    "total_pts": 9,
+    "avg_pts": 4.5
   },
   {
     "name": "Greer, Aaron and Greer, Victoria",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 5
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "6",
+        "points": 9
+      }
+    ],
+    "total_pts": 14,
+    "avg_pts": 7.0
   },
   {
     "name": "McGurn, Rob and Gurry, Laura",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      },
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "6",
+        "points": 4
+      }
+    ],
+    "total_pts": 6,
+    "avg_pts": 3.0
   },
   {
     "name": "Guthrie, Trevor and Guthrie, Emily",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 12
+      }
+    ],
+    "total_pts": 12,
+    "avg_pts": 12.0
   },
   {
     "name": "Guzman, Ray and Perez, Angela",
@@ -296,17 +607,29 @@
         "comp_name": "City Lights Open",
         "level": "Rising Star",
         "place": "3",
-        "points": "5"
+        "points": 5
       },
       {
         "comp_name": "City Lights Open",
         "level": "Open",
         "place": "4",
-        "points": "9"
+        "points": 9
+      },
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 15
+      },
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 15
       }
     ],
-    "total_pts": 14,
-    "avg_pts": 7.0
+    "total_pts": 44,
+    "avg_pts": 11.0
   },
   {
     "name": "Stowell, Aaron and Hofreiter, Brie",
@@ -316,9 +639,22 @@
   },
   {
     "name": "Holzworth, John and Wooding, Nicole",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 5
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      }
+    ],
+    "total_pts": 11,
+    "avg_pts": 5.5
   },
   {
     "name": "Pilipenchuk, Nikolai and Hudson, Sarika",
@@ -334,9 +670,22 @@
   },
   {
     "name": "Kempainen, Chris and Inveen, Bonnie",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "quarters",
+        "points": 2
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 5,
+    "avg_pts": 2.5
   },
   {
     "name": "McElyea, Drew and Jones, Shannon",
@@ -346,15 +695,29 @@
   },
   {
     "name": "Karchev, Nikolay and Tarnowska, Ania",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "3",
+        "points": 25
+      }
+    ],
+    "total_pts": 25,
+    "avg_pts": 25.0
   },
   {
     "name": "Kenner, Ryan and Kenner, Laura",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 7
+      }
+    ],
+    "total_pts": 7,
+    "avg_pts": 7.0
   },
   {
     "name": "Kenney, Kia and Lightner, Christian",
@@ -376,9 +739,22 @@
   },
   {
     "name": "Koogle, Scott and Wailes, Faith",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 5
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 8,
+    "avg_pts": 4.0
   },
   {
     "name": "Kostianets, Slava and Kostianets, Valeriia",
@@ -388,9 +764,16 @@
   },
   {
     "name": "Pohybil, Dmytro and Kushnir, Alona",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 20
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 20.0
   },
   {
     "name": "Sydorenko, Ilia and Kuts, Tetyana",
@@ -411,29 +794,55 @@
         "comp_name": "City Lights Open",
         "level": "Rising Star",
         "place": "2",
-        "points": "7"
+        "points": 7
       },
       {
         "comp_name": "City Lights Open",
         "level": "Open",
         "place": "3",
-        "points": "12"
+        "points": 12
       }
     ],
-    "total_pts": 19,
-    "avg_pts": 9.5
+    "total_pts": 38,
+    "avg_pts": 19.0
   },
   {
     "name": "Welch, Ben and Lyons, Rae",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 5
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 8,
+    "avg_pts": 4.0
   },
   {
     "name": "Moon, David and Mancini, Jessica",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 16
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      }
+    ],
+    "total_pts": 22,
+    "avg_pts": 11.0
   },
   {
     "name": "Popov, Vladimir and Marie, Erin",
@@ -448,17 +857,17 @@
         "comp_name": "City Lights Open",
         "level": "Rising Star",
         "place": "1",
-        "points": "10"
+        "points": 10
       },
       {
         "comp_name": "City Lights Open",
         "level": "Open",
         "place": "2",
-        "points": "15"
+        "points": 15
       }
     ],
-    "total_pts": 25,
-    "avg_pts": 12.5
+    "total_pts": 50,
+    "avg_pts": 25.0
   },
   {
     "name": "Merenkov, Artem and Voilokova, Tatiana",
@@ -468,27 +877,85 @@
   },
   {
     "name": "Merz, Timmy and Strashnikova, Diana",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Novice",
+        "place": "1",
+        "points": 5
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 5
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      }
+    ],
+    "total_pts": 16,
+    "avg_pts": 5.333333333333333
   },
   {
     "name": "Sovetov, Ivan and Mkrtchian, Valeria",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 40,
+    "avg_pts": 20.0
   },
   {
     "name": "Morth, Jay and Trinidad, Samantha",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 5
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      }
+    ],
+    "total_pts": 11,
+    "avg_pts": 5.5
   },
   {
     "name": "Nalyvaychuk, Vladyslav and Nalyvaychuk, Brianna",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 24
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "6",
+        "points": 12
+      }
+    ],
+    "total_pts": 36,
+    "avg_pts": 18.0
   },
   {
     "name": "Novikov, Yegor and Smirnova, Alexandra",
@@ -498,15 +965,47 @@
   },
   {
     "name": "Perpich, Brandon and Perpich, Kristen",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Rising Star",
+        "place": "semis",
+        "points": 3
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "semis",
+        "points": 5
+      }
+    ],
+    "total_pts": 8,
+    "avg_pts": 4.0
   },
   {
     "name": "Wallock, Doug and Peterson, Grace",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Novice",
+        "place": "2",
+        "points": 4
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "quarters",
+        "points": 2
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 9,
+    "avg_pts": 3.0
   },
   {
     "name": "Schiller, Tyler and Reyes, Rhenell",
@@ -515,7 +1014,7 @@
         "comp_name": "City Lights Open",
         "level": "Rising Star",
         "place": "5",
-        "points": "2"
+        "points": 2
       }
     ],
     "total_pts": 2,
@@ -547,9 +1046,16 @@
   },
   {
     "name": "Serbulenco, Vladimir and Strancaric, Ivana",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      }
+    ],
+    "total_pts": 2,
+    "avg_pts": 2.0
   },
   {
     "name": "Stockton, Andrew and Smith, Rachel",
@@ -559,9 +1065,22 @@
   },
   {
     "name": "Travis, Todd and Whitesell, Leslie",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Rising Star",
+        "place": "semis",
+        "points": 3
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "semis",
+        "points": 5
+      }
+    ],
+    "total_pts": 8,
+    "avg_pts": 4.0
   },
   {
     "name": "Tuft, Jaimee and Tuft, Travis",
@@ -571,9 +1090,16 @@
   },
   {
     "name": "Vukosavljevic, Aleksandar and Nevena Urosevic",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "1",
+        "points": 30
+      }
+    ],
+    "total_pts": 30,
+    "avg_pts": 30.0
   },
   {
     "name": "Wiatrowski, Radek and Zhenia",

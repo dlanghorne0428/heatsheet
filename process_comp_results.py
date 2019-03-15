@@ -1,6 +1,8 @@
 # prepare JSON files for each dance style
 import json
 
+from comp_results_file import Comp_Results_File
+
 def event_level(e):
     if "Rising Star" in e:
         level = "Rising Star"
@@ -29,7 +31,7 @@ class RankingDataFile():
                     i["results"].append(result)
                     i["total_pts"] += int(result["points"])
                     i["avg_pts"] = i["total_pts"] / len(i["results"])
-                    print(i)
+                    #print(i)
                 break
         else:
             for i in self.info:
@@ -42,10 +44,10 @@ class RankingDataFile():
                             i["results"].append(result)
                             i["total_pts"] += int(result["points"])
                             i["avg_pts"] = i["total_pts"] / len(i["results"])
-                            print(i)
+                            #print(i)
                         break
             else:
-                print("Could not find", couple)
+                print("COULD NOT FIND:", couple, result)
                 
     def save(self):
         fp = open(self.filename, "w", encoding="utf-8")
@@ -59,16 +61,13 @@ standard_couples = RankingDataFile("data/2019/!!2019_Results/standard_results.js
 latin_couples = RankingDataFile("data/2019/!!2019_Results/latin_results.json")
 showdance_couples = RankingDataFile("data/2019/!!2019_Results/cabaret_showdance_results.json")
 
-fp = open("data/2019//City_Lights/results.txt", encoding="utf-8")
+comp_results = Comp_Results_File("data/2019/Nashville_Starz/results.txt")
+comp_name = comp_results.get_comp_name()
+heats = comp_results.get_heats()
 
-while True:
+for h in heats:
 
-    comp_name = fp.readline().strip()
-    print(comp_name)
-    if comp_name == "No more events":
-        break
-
-    event_name = fp.readline().strip()
+    event_name = h["title"]
     print(event_name)
     level = event_level(event_name)
 
@@ -88,19 +87,15 @@ while True:
         print("-----SHOWDANCE / CABARET -------", level)
         couples = showdance_couples
 
-    while True:
-        entry = fp.readline().strip()
-        if len(entry) == 0:
-            break;
-        else:
-            fields = entry.split("\t")
-            couple = fields[0]
-            result = dict()
-            result["comp_name"] = comp_name
-            result["level"] = level
-            result["place"] = fields[1]
-            result["points"] = fields[2]
-            couples.add_result_to_couple(couple, result)
+    for entry in h["entries"]:
+        couple = entry["couple"]
+        result = dict()
+        result["comp_name"] = comp_name
+        result["level"] = level
+        result["place"] = entry["place"]
+        result["points"] = entry["points"]
+        #print(couple, result)
+        couples.add_result_to_couple(couple, result)
 
 smooth_couples.save()
 rhythm_couples.save()
@@ -108,5 +103,5 @@ standard_couples.save()
 latin_couples.save()
 showdance_couples.save()
 
-fp.close()
+comp_results.close()
 

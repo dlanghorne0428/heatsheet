@@ -1,103 +1,420 @@
-Eastern US Dancesport Championships
-Pro heat 1 EUSDC Professional Exhibition
-Azarov, Mykhailo and Makarenko, Tetyana	2	15
-Batih, Nazar and Cantley, Mariko	1	20
-Golubev, Valerii and Golubeva, Margarita	4	9
-Mkrtchian, Valeria and Sovetov, Ivan	3	12
-
-Eastern US Dancesport Championships
-Pro heat 2 EUSDC Pro Rising Star American Smooth (W/T/F/VW)
-Azarov, Mykhailo and Makarenko, Tetyana	4	9
-Botes, Natalie and Pickering, Martin	6	4
-DeView, Rachel and Santapaola, Christopher	Semis	2
-Doroshenko, Roman and Savushkina, Iryna	3	12
-Gilday, Zhenia and Scalzi, Anthony	Semis	2
-Gurry, Laura and McGurn, Rob	Semis	2
-Hannigan, Dave and Kosheleva, Yulia	2	15
-Kenner, Laura and Kenner, Ryan	5	7
-Mkrtchian, Valeria and Sovetov, Ivan	1	20
-Serbulenco, Vladimir and Strancaric, Ivana	Semis	2
-
-Eastern US Dancesport Championships
-Pro heat 3 EUSDC Pro Rising Star Int'l Latin (C/S/R/PD/J)
-Chan, Freda and Osai, Malachi	1	10
-Coco, Fabio and Harrington, Nicole	3	5
-Gelashvili, Levan and Kolman, Lily	2	7
-Horvath-Krol, Dariusz and Zosin, Alisa	4	3
-Kogan, Vivienne and Pavlovic, Nenad	5	2
-
-Eastern US Dancesport Championships
-Pro heat 4 EUSDC Pro Open American Rhythm (C/R/SW/B/M)
-Azarov, Mykhailo and Makarenko, Tetyana	Semis	4
-Baker, Amy and Escolme, Andrew	2	24
-Bennett, Kemar and Nicol, Jessica	5	12
-Briones, Jessa Mae and Cortes, Alberto	3	20
-Divovic, Muhidin and Novak, Ashley	Semis	4
-Golubev, Valerii and Golubeva, Margarita	Semis	4
-Jones, Lucas and O'Hara, Alexandra	Semis	4
-Martinez, Theo and Wain, Kelly	Semis	4
-Mkrtchian, Valeria and Sovetov, Ivan	Semis	4
-Nikishkin, Dmitry and Shvets-Nikishkin, Olena	1	30
-Shiller, Artem and Shiller, Ginny Ray	6	9
-Tyrnova, Vitalija and Vasicek, Tomas	4	16
-
-Eastern US Dancesport Championships
-Pro heat 5 EUSDC Pro Open Int'l Ballroom (W/T/VW/F/Q)
-Anufriiev, Mykhailo and Vietrynska, Anna	6	4
-Batih, Nazar and Cantley, Mariko	1	20
-Begunov, Andrey and Demidova, Anna	2	15
-Conte, Riccardo and Filippi, Eleonora	5	7
-Izyumov, Sergey and Zaver, Oksana	4	9
-Minaev, Aleksei and Minaeva, Elena	3	12
-
-Eastern US Dancesport Championships
-Pro heat 6 EUSDC Professional Cabaret
-Azarov, Mykhailo and Makarenko, Tetyana	1	20
-Golubev, Valerii and Golubeva, Margarita	2	15
-Mkrtchian, Valeria and Sovetov, Ivan	3	12
-
-Eastern US Dancesport Championships
-Pro heat 7 EUSDC Pro Rising Star American Rhythm (C/R/SW/B/M)
-Azarov, Mykhailo and Makarenko, Tetyana	7	3
-Bennett, Kemar and Nicol, Jessica	4	9
-Burke, Daniel and Dragasevic, Ivana	Semis	2
-Caskie, Jenna and Germain, Zachary	Semis	2
-DeView, Rachel and Santapaola, Christopher	Semis	2
-Golubev, Valerii and Golubeva, Margarita	Semis	2
-Jones, Lucas and O'Hara, Alexandra	Semis	2
-Lozada, Mae and Sese, Kristian	3	12
-Mitina, Julia and Shipilov, Aleksei	1	20
-Mkrtchian, Valeria and Sovetov, Ivan	5	7
-Shiller, Artem and Shiller, Ginny Ray	6	4
-Speer, Catherine and Wright, Harrison	Semis	2
-Tyrnova, Vitalija and Vasicek, Tomas	2	15
-
-Eastern US Dancesport Championships
-Pro heat 8 EUSDC Pro Rising Star Int'l Ballroom (W/T/VW/F/Q)
-Anufriiev, Mykhailo and Vietrynska, Anna	4	3
-Belmeha, Artem and Shevchenko, Anna	1	10
-Bilozorov, Anton and Filip, Samanta	5	2
-Izyumov, Sergey and Zaver, Oksana	2	7
-Minaev, Aleksei and Minaeva, Elena	3	5
-
-Eastern US Dancesport Championships
-Pro heat 9 EUSDC Pro Open Int'l Latin (C/S/R/PD/J)
-., Ksusha and Kudashev, Ivan	2	24
-Chan, Freda and Osai, Malachi	4	16
-Coco, Fabio and Harrington, Nicole	Semis	4
-Danilova, Anastasia and Tarnavskyy, Artur	1	30
-Gelashvili, Levan and Kolman, Lily	6	9
-Horvath-Krol, Dariusz and Zosin, Alisa	Semis	4
-Minaev, Aleksei and Minaeva, Elena	Semis	4
-Mitina, Julia and Shipilov, Aleksei	3	20
-Nabiullin, Alexandr and Ryabova, Valeriya	5	12
-
-Eastern US Dancesport Championships
-Pro heat 10 EUSDC Pro Open American Smooth (W/T/F/VW)
-Azarov, Mykhailo and Makarenko, Tetyana	3	12
-Botes, Natalie and Pickering, Martin	4	9
-Gilday, Zhenia and Scalzi, Anthony	5	7
-Gurry, Laura and McGurn, Rob	6	4
-Hannigan, Dave and Kosheleva, Yulia	2	15
-Mkrtchian, Valeria and Sovetov, Ivan	1	20
-
+{
+  "comp name": "Eastern US Dancesport Championships",
+  "heats": [
+    {
+      "title": "EUSDC Professional Exhibition",
+      "entries": [
+        {
+          "couple": "Azarov, Mykhailo and Makarenko, Tetyana",
+          "place": "2",
+          "points": 15
+        },
+        {
+          "couple": "Batih, Nazar and Cantley, Mariko",
+          "place": "1",
+          "points": 20
+        },
+        {
+          "couple": "Golubev, Valerii and Golubeva, Margarita",
+          "place": "4",
+          "points": 9
+        },
+        {
+          "couple": "Sovetov, Ivan and Mkrtchian, Valeria",
+          "place": "3",
+          "points": 12
+        }
+      ]
+    },
+    {
+      "title": "EUSDC Pro Rising Star American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Azarov, Mykhailo and Makarenko, Tetyana",
+          "place": "4",
+          "points": 9
+        },
+        {
+          "couple": "Pickering, Martin and Botes, Natalie",
+          "place": "6",
+          "points": 4
+        },
+        {
+          "couple": "Santapaola, Christopher and DeView, Rachel",
+          "place": "Semis",
+          "points": 2
+        },
+        {
+          "couple": "Doroshenko, Roman and Savushkina, Iryna",
+          "place": "3",
+          "points": 12
+        },
+        {
+          "couple": "Scalzi, Anthony and Gilday, Zhenia",
+          "place": "Semis",
+          "points": 2
+        },
+        {
+          "couple": "McGurn, Rob and Gurry, Laura",
+          "place": "Semis",
+          "points": 2
+        },
+        {
+          "couple": "Hannigan, Dave and Kosheleva, Yulia",
+          "place": "2",
+          "points": 15
+        },
+        {
+          "couple": "Kenner, Ryan and Kenner, Laura",
+          "place": "5",
+          "points": 7
+        },
+        {
+          "couple": "Sovetov, Ivan and Mkrtchian, Valeria",
+          "place": "1",
+          "points": 20
+        },
+        {
+          "couple": "Serbulenco, Vladimir and Strancaric, Ivana",
+          "place": "Semis",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "title": "EUSDC Pro Rising Star Int'l Latin (C/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Osai, Malachi and Chan, Freda",
+          "place": "1",
+          "points": 10
+        },
+        {
+          "couple": "Coco, Fabio and Harrington, Nicole",
+          "place": "3",
+          "points": 5
+        },
+        {
+          "couple": "Gelashvili, Levan and Kolman, Lily",
+          "place": "2",
+          "points": 7
+        },
+        {
+          "couple": "Horvath-Krol, Dariusz and Zosin, Alisa",
+          "place": "4",
+          "points": 3
+        },
+        {
+          "couple": "Pavlovic, Nenad and Kogan, Vivienne",
+          "place": "5",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "title": "EUSDC Pro Open American Rhythm (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Azarov, Mykhailo and Makarenko, Tetyana",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Escolme, Andrew and Baker, Amy",
+          "place": "2",
+          "points": 24
+        },
+        {
+          "couple": "Bennett, Kemar and Nicol, Jessica",
+          "place": "5",
+          "points": 12
+        },
+        {
+          "couple": "Cortes, Alberto and Briones, Jessa Mae",
+          "place": "3",
+          "points": 20
+        },
+        {
+          "couple": "Divovic, Muhidin and Novak, Ashley",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Golubev, Valerii and Golubeva, Margarita",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Jones, Lucas and O'Hara, Alexandra",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Martinez, Theo and Wain, Kelly",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Sovetov, Ivan and Mkrtchian, Valeria",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Nikishkin, Dmitry and Shvets-Nikishkin, Olena",
+          "place": "1",
+          "points": 30
+        },
+        {
+          "couple": "Shiller, Ginny Ray and Shiller, Artem",
+          "place": "6",
+          "points": 9
+        },
+        {
+          "couple": "Vasicek, Tomas and Tyrnova, Vitalija",
+          "place": "4",
+          "points": 16
+        }
+      ]
+    },
+    {
+      "title": "EUSDC Pro Open Int'l Ballroom (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Anufriiev, Mykhailo and Vietrynska, Anna",
+          "place": "6",
+          "points": 4
+        },
+        {
+          "couple": "Batih, Nazar and Cantley, Mariko",
+          "place": "1",
+          "points": 20
+        },
+        {
+          "couple": "Begunov, Andrey and Demidova, Anna",
+          "place": "2",
+          "points": 15
+        },
+        {
+          "couple": "Conte, Riccardo and Filippi, Eleonora",
+          "place": "5",
+          "points": 7
+        },
+        {
+          "couple": "Izyumov, Sergey and Zaver, Oksana",
+          "place": "4",
+          "points": 9
+        },
+        {
+          "couple": "Minaev, Aleksei and Minaeva, Elena",
+          "place": "3",
+          "points": 12
+        }
+      ]
+    },
+    {
+      "title": "EUSDC Professional Cabaret",
+      "entries": [
+        {
+          "couple": "Azarov, Mykhailo and Makarenko, Tetyana",
+          "place": "1",
+          "points": 20
+        },
+        {
+          "couple": "Golubev, Valerii and Golubeva, Margarita",
+          "place": "2",
+          "points": 15
+        },
+        {
+          "couple": "Sovetov, Ivan and Mkrtchian, Valeria",
+          "place": "3",
+          "points": 12
+        }
+      ]
+    },
+    {
+      "title": "EUSDC Pro Rising Star American Rhythm (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Azarov, Mykhailo and Makarenko, Tetyana",
+          "place": "7",
+          "points": 3
+        },
+        {
+          "couple": "Bennett, Kemar and Nicol, Jessica",
+          "place": "4",
+          "points": 9
+        },
+        {
+          "couple": "Burke, Daniel and Dragasevic, Ivana",
+          "place": "Semis",
+          "points": 2
+        },
+        {
+          "couple": "Germain, Zachary and Caskie, Jenna",
+          "place": "Semis",
+          "points": 2
+        },
+        {
+          "couple": "Santapaola, Christopher and DeView, Rachel",
+          "place": "Semis",
+          "points": 2
+        },
+        {
+          "couple": "Golubev, Valerii and Golubeva, Margarita",
+          "place": "Semis",
+          "points": 2
+        },
+        {
+          "couple": "Jones, Lucas and O'Hara, Alexandra",
+          "place": "Semis",
+          "points": 2
+        },
+        {
+          "couple": "Sese, Kristian and Lozada, Mae",
+          "place": "3",
+          "points": 12
+        },
+        {
+          "couple": "Shipilov, Aleksei and Mitina, Julia",
+          "place": "1",
+          "points": 20
+        },
+        {
+          "couple": "Sovetov, Ivan and Mkrtchian, Valeria",
+          "place": "5",
+          "points": 7
+        },
+        {
+          "couple": "Shiller, Ginny Ray and Shiller, Artem",
+          "place": "6",
+          "points": 4
+        },
+        {
+          "couple": "Wright, Harrison and Speer, Catherine",
+          "place": "Semis",
+          "points": 2
+        },
+        {
+          "couple": "Vasicek, Tomas and Tyrnova, Vitalija",
+          "place": "2",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "EUSDC Pro Rising Star Int'l Ballroom (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Anufriiev, Mykhailo and Vietrynska, Anna",
+          "place": "4",
+          "points": 3
+        },
+        {
+          "couple": "Belmeha, Artem and Shevchenko, Anna",
+          "place": "1",
+          "points": 10
+        },
+        {
+          "couple": "Bilozorov, Anton and Filip, Samanta",
+          "place": "5",
+          "points": 2
+        },
+        {
+          "couple": "Izyumov, Sergey and Zaver, Oksana",
+          "place": "2",
+          "points": 7
+        },
+        {
+          "couple": "Minaev, Aleksei and Minaeva, Elena",
+          "place": "3",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "title": "EUSDC Pro Open Int'l Latin (C/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Kudashev, Ivan and ., Ksusha",
+          "place": "2",
+          "points": 24
+        },
+        {
+          "couple": "Osai, Malachi and Chan, Freda",
+          "place": "4",
+          "points": 16
+        },
+        {
+          "couple": "Coco, Fabio and Harrington, Nicole",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Tarnavskyy, Artur and Danilova, Anastasia",
+          "place": "1",
+          "points": 30
+        },
+        {
+          "couple": "Gelashvili, Levan and Kolman, Lily",
+          "place": "6",
+          "points": 9
+        },
+        {
+          "couple": "Horvath-Krol, Dariusz and Zosin, Alisa",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Minaev, Aleksei and Minaeva, Elena",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Shipilov, Aleksei and Mitina, Julia",
+          "place": "3",
+          "points": 20
+        },
+        {
+          "couple": "Nabiullin, Alexandr and Ryabova, Valeriya",
+          "place": "5",
+          "points": 12
+        }
+      ]
+    },
+    {
+      "title": "EUSDC Pro Open American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Azarov, Mykhailo and Makarenko, Tetyana",
+          "place": "3",
+          "points": 12
+        },
+        {
+          "couple": "Pickering, Martin and Botes, Natalie",
+          "place": "4",
+          "points": 9
+        },
+        {
+          "couple": "Scalzi, Anthony and Gilday, Zhenia",
+          "place": "5",
+          "points": 7
+        },
+        {
+          "couple": "McGurn, Rob and Gurry, Laura",
+          "place": "6",
+          "points": 4
+        },
+        {
+          "couple": "Hannigan, Dave and Kosheleva, Yulia",
+          "place": "2",
+          "points": 15
+        },
+        {
+          "couple": "Sovetov, Ivan and Mkrtchian, Valeria",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    }
+  ]
+}

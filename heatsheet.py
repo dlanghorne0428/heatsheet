@@ -5,6 +5,7 @@
 #	          - wxPython is used for the GUI
 #####################################################
 
+import os.path
 import wx
 from urllib.request import Request, urlopen
 import urllib.request, urllib.parse, urllib.error
@@ -14,10 +15,7 @@ import CompMngr_Heatsheet
 import CompMngrScoresheet
 
 def get_folder_name(filename):
-    split_path = filename.split("/")
-    name_length = len(split_path[-1])
-    folder_length = len(filename) - name_length
-    return filename[0:folder_length]
+    return os.path.dirname(filename)
 
 
 class HelloFrame(wx.Frame):
@@ -544,15 +542,15 @@ class HelloFrame(wx.Frame):
         self.butt_rslt_url.Enable()
         
     def ProcessScoresheet(self, filename):
-        output_filename = self.folder_name + "/results.txt"
-        self.scoresheet.open_scoresheet_from_file(filename, output_filename)        
+        #output_filename = self.folder_name + "/results.txt"
+        self.scoresheet.open_scoresheet_from_file(filename)        
         item_index = 0
         Time_and_Results_Column = 6
         for num in range(1, self.heatsheet.max_pro_heat_num + 1):
             h = CompMngr_Heatsheet.Heat("Pro heat", number=num)
             report = self.heatsheet.heat_report(h)
             if len(report["entries"]) > 0:
-                self.scoresheet.perform_request_for_results(report)
+                self.scoresheet.determine_heat_results(report)
                 for e in report["entries"]:
                     if e["code"] == "LATE":
                         curr_item = self.list_ctrl.GetItem(item_index, 0)
@@ -571,7 +569,7 @@ class HelloFrame(wx.Frame):
                     item_index += 1
 
                 item_index += 1  # get past line that separates the events        
-        self.scoresheet.close_output_file()
+        self.scoresheet.close()
 
     def OnGetResults(self, event):
         fd = wx.FileDialog(self, "Open a Scoresheet File", self.folder_name, "")

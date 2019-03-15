@@ -19,16 +19,41 @@
         "level": "Open",
         "place": "5",
         "points": "7"
+      },
+      {
+        "comp_name": "City Lights Open",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "City Lights Open",
+        "level": "Open",
+        "place": "5",
+        "points": 7
       }
     ],
-    "total_pts": 17,
+    "total_pts": 34,
     "avg_pts": 8.5
   },
   {
     "name": "Anufriiev, Mykhailo and Vietrynska, Anna",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "6",
+        "points": 4
+      },
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3
+      }
+    ],
+    "total_pts": 7,
+    "avg_pts": 3.5
   },
   {
     "name": "Pavlyuk, Mechyslav and Arnold, Gemma",
@@ -43,7 +68,7 @@
         "comp_name": "City Lights Open",
         "level": "Open",
         "place": "3",
-        "points": "12"
+        "points": 12
       }
     ],
     "total_pts": 12,
@@ -69,21 +94,42 @@
   },
   {
     "name": "Batih, Nazar and Cantley, Mariko",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 20.0
   },
   {
     "name": "Begunov, Andrey and Demidova, Anna",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 15
+      }
+    ],
+    "total_pts": 15,
+    "avg_pts": 15.0
   },
   {
     "name": "Belmeha, Artem and Shevchenko, Anna",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 10,
+    "avg_pts": 10.0
   },
   {
     "name": "Berkey, Kent and Ota, Yuko",
@@ -98,7 +144,7 @@
         "comp_name": "City Lights Open",
         "level": "Open",
         "place": "2",
-        "points": "15"
+        "points": 15
       }
     ],
     "total_pts": 15,
@@ -106,9 +152,16 @@
   },
   {
     "name": "Bilozorov, Anton and Filip, Samanta",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 2
+      }
+    ],
+    "total_pts": 2,
+    "avg_pts": 2.0
   },
   {
     "name": "Mykhailov, Andrii and Bohachova, Anna",
@@ -123,13 +176,13 @@
         "comp_name": "City Lights Open",
         "level": "Rising Star",
         "place": "3",
-        "points": "5"
+        "points": 5
       },
       {
         "comp_name": "City Lights Open",
         "level": "Open",
         "place": "7",
-        "points": "3"
+        "points": 3
       }
     ],
     "total_pts": 8,
@@ -142,7 +195,7 @@
         "comp_name": "City Lights Open",
         "level": "Open",
         "place": "4",
-        "points": "9"
+        "points": 9
       }
     ],
     "total_pts": 9,
@@ -150,9 +203,16 @@
   },
   {
     "name": "Conte, Riccardo and Filippi, Eleonora",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "5",
+        "points": 7
+      }
+    ],
+    "total_pts": 7,
+    "avg_pts": 7.0
   },
   {
     "name": "Cromwell, Robbie and Trimble, Ruth",
@@ -162,9 +222,22 @@
   },
   {
     "name": "Davis, Brogen and Davis, Katherine",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      }
+    ],
+    "total_pts": 19,
+    "avg_pts": 9.5
   },
   {
     "name": "Di Brino, Stefano and Di Brino, Bianka",
@@ -191,7 +264,7 @@
         "comp_name": "City Lights Open",
         "level": "Open",
         "place": "1",
-        "points": "20"
+        "points": 20
       }
     ],
     "total_pts": 20,
@@ -210,10 +283,29 @@
     "avg_pts": 0
   },
   {
-    "name": "Goncharov, Dymytrii and Lutsenko, Tatyana",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "name": "Goncharov, Dymytrii and Lutsenko, Tetiana",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "2",
+        "points": 15
+      }
+    ],
+    "total_pts": 37,
+    "avg_pts": 12.333333333333334
   },
   {
     "name": "Tonizzo, Richard and Hansen, Claire",
@@ -241,9 +333,22 @@
   },
   {
     "name": "Izyumov, Sergey and Zaver, Oksana",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "4",
+        "points": 9
+      },
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      }
+    ],
+    "total_pts": 16,
+    "avg_pts": 8.0
   },
   {
     "name": "Kantin, Anthony and Marshall, Elise",
@@ -295,9 +400,28 @@
   },
   {
     "name": "Minaev, Aleksei and Minaeva, Elena",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      },
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 37,
+    "avg_pts": 12.333333333333334
   },
   {
     "name": "Nemiro, Robert and Miner-Voigt, Lydia",
@@ -313,9 +437,21 @@
         "level": "Open",
         "place": "6",
         "points": "4"
+      },
+      {
+        "comp_name": "City Lights Open",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "City Lights Open",
+        "level": "Open",
+        "place": "6",
+        "points": 4
       }
     ],
-    "total_pts": 11,
+    "total_pts": 22,
     "avg_pts": 5.5
   },
   {
@@ -338,9 +474,16 @@
   },
   {
     "name": "Wills, Woodrow and Petkova, Neli",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "2",
+        "points": 15
+      }
+    ],
+    "total_pts": 15,
+    "avg_pts": 15.0
   },
   {
     "name": "Shakhov, Vladislav and Popova, Ekaterina",
@@ -374,9 +517,16 @@
   },
   {
     "name": "Stoynov, Simeon and Stoynova, Kora",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 20.0
   },
   {
     "name": "Teleha, Oleg and Michelle",
@@ -389,5 +539,24 @@
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
+  },
+  {
+    "name": "Dudin, Danila and Zhigulskaya, Varvara",
+    "results": [
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "4",
+        "points": 9
+      }
+    ],
+    "total_pts": 14,
+    "avg_pts": 7.0
   }
 ]

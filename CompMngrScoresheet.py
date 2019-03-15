@@ -1,4 +1,6 @@
+import os.path
 import requests
+from comp_results_file import Comp_Results_File, Heat_Result, Entry_Result
 
 # This class parses the scoresheet and extract results of the competition
 class CompMngrScoresheet():
@@ -43,7 +45,6 @@ class CompMngrScoresheet():
         self.payload[key] = value
 
 
-    def open_scoresheet_from_file(self, filename, output_filename):
         # open the file and loop through all the lines
         fhand = open(filename,encoding="utf-8")
         for line in fhand:
@@ -51,11 +52,14 @@ class CompMngrScoresheet():
                 self.find_url(line)
             if "<input" in line:
                 self.find_payload_field(line)
+        fhand.close()
+        
+        output_filename = os.path.dirname(filename) + "/results.txt"
+        self.output_file = Comp_Results_File(output_filename, "w")
+        self.output_file.save_comp_name(self.payload["COMP_NAME"])
 
-        self.output_file = open(output_filename, "w")
 
-
-    def close_output_file(self):
+    def close(self):
         self.output_file.close()
 
 
@@ -211,10 +215,9 @@ class CompMngrScoresheet():
         return result
 
 
-    def perform_request_for_results(self, heat_report):
-        self.output_file.write(self.payload["COMP_NAME"] + "\n")
-        self.output_file.write(heat_report["category"] + " " + str(heat_report["number"]) + " " + heat_report["info"] + "\n")
-        level = heat_report["level"]
+    def determine_heat_results(self, heat_report):
+        #self.output_file.save_heat_title(heat_report["category"] + " " + str(heat_report["number"]) + " " + heat_report["info"])\
+        #level = heat_report["level"]
         rounds = heat_report["rounds"]
         for entry in heat_report["entries"]:
             if entry["result"] is None:
@@ -226,9 +229,16 @@ class CompMngrScoresheet():
                 # if this competitor made the finals, we are done with this heat
                 if result == "Finals":
                     break
-
+                
+        heat_result = Heat_Result()
+        heat_result.set_title(heat_report["info"])
         for e in heat_report["entries"]:
             if e["result"] is not None:
-                self.output_file.write(e["dancer"] + " and " + e["partner"] + '\t' + str(e["result"]) + "\t" + str(e["points"]) + "\n")
+                ent_result = Entry_Result()
+                ent_result.set_couple(e["dancer"] + " and " + e["partner"])
+                ent_result.set_place(str(e["result"]))
+                ent_result.set_points(e["points"])
+                heat_result.set_next_entry(ent_result.entry)
+        
+        self.output_file.save_heat(heat_result.heat)
 
-        self.output_file.write("\n")
