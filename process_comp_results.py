@@ -12,6 +12,7 @@ def event_level(e):
         level = "Open"
     return level
 
+
 def get_first_name(couple_names):
     if "," in couple_names:
         f = couple_names.split(",")[0]
@@ -51,8 +52,31 @@ class RankingDataFile():
                         break
             else:
                 print("COULD NOT FIND:", couple, result)
+    
+    
+    
+    def swap_couples(self, i, j):
+        temp = self.info[i]
+        self.info[i] = self.info[j]
+        self.info[j] = temp;        
+    
+    
+    def sort_couples(self):
+        i = 1
+        while i < len(self.info):
+            j = i
+            # sort list in descending order of average points
+            while j > 0 and self.info[j-1]["avg_pts"] < self.info[j]["avg_pts"]:
+                self.swap_couples(j, j-1)
+                j = j - 1
+            i = i + 1
+
+        for entry in self.info:
+            print(entry["name"], entry["avg_pts"])
+        
                 
     def save(self):
+        self.sort_couples()
         fp = open(self.filename, "w", encoding="utf-8")
         json.dump(self.info, fp, indent=2)
         fp.close()
