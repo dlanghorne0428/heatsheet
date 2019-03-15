@@ -80,11 +80,18 @@ class CompMngrScoresheet():
         couple_names = []
         entrant_fields = competitor.split()
         if len(entrant_fields) != 2:
-            print("Error", entrant_fields)
+            print("Split on Space Error", entrant_fields)
+            i = 0
+            while i < len(competitor):
+                if competitor[i].isalpha():
+                    break
+                else:
+                    i += 1
+            couple_names = competitor[i:].split("/")
         else:
             couple_names = entrant_fields[1].split("/")
             if len(couple_names) != 2:
-                print("Error", couple_names)
+                print("Split on Slash Error", couple_names)
         return couple_names
         
     def swap_couple_names(self, entry):

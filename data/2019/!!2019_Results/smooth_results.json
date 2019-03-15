@@ -25,10 +25,34 @@
         "level": "Open",
         "place": "2",
         "points": 24
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 30
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "5",
+        "points": 15
       }
     ],
-    "total_pts": 106,
-    "avg_pts": 26.5
+    "total_pts": 177,
+    "avg_pts": 22.12
   },
   {
     "name": "Bonev, Aleksandar and Aidasheva, Olga",
@@ -56,22 +80,96 @@
         "level": "Open",
         "place": "4",
         "points": 9
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 1
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      },
+      {
+        "comp_name": "Maryland Dancesport",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3
+      },
+      {
+        "comp_name": "Maryland Dancesport",
+        "level": "Open",
+        "place": "5",
+        "points": 7
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Open",
+        "place": "3",
+        "points": 20
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Open",
+        "place": "4",
+        "points": 16
       }
     ],
-    "total_pts": 33,
-    "avg_pts": 8.25
+    "total_pts": 98,
+    "avg_pts": 8.17
   },
   {
     "name": "Donelan, Dustin and Anderson, Georgietta",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "quarters",
+        "points": 2
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 2
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 8,
+    "avg_pts": 2.67
   },
   {
     "name": "Antipin, Maksim and Antipin, Angela",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Maryland Dancesport",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 2
+      }
+    ],
+    "total_pts": 2,
+    "avg_pts": 2.0
   },
   {
     "name": "Arndtson, Cody and Becker, Paris",
@@ -87,16 +185,35 @@
         "level": "Open",
         "place": "quarters",
         "points": 3
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Rising Star",
+        "place": "7",
+        "points": 1
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
       }
     ],
-    "total_pts": 5,
+    "total_pts": 10,
     "avg_pts": 2.5
   },
   {
     "name": "Astashenia, Yurii and Astashenia, Elena",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      }
+    ],
+    "total_pts": 2,
+    "avg_pts": 2.0
   },
   {
     "name": "Azarov, Mykhailo and Makarenko, Tetyana",
@@ -119,9 +236,34 @@
   },
   {
     "name": "Barabash, Volodymyr and Rudenco, Yulia",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Platinum Dancesport Classic",
+        "level": "Open",
+        "place": "3",
+        "points": 20
+      },
+      {
+        "comp_name": "Platinum Dancesport Classic",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "First Coast Classic Dancesport Championships",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "First Coast Classic Dancesport Championships",
+        "level": "Open",
+        "place": "4",
+        "points": 16
+      }
+    ],
+    "total_pts": 53,
+    "avg_pts": 13.25
   },
   {
     "name": "Barney, Alan and Rund, Megan",
@@ -137,16 +279,53 @@
         "level": "Open",
         "place": "5",
         "points": 7
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "quarters",
+        "points": 2
       }
     ],
-    "total_pts": 10,
-    "avg_pts": 5.0
+    "total_pts": 18,
+    "avg_pts": 3.6
   },
   {
     "name": "Shtefil, Shandor and Barsukov, Aleksandra",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Platinum Dancesport Classic",
+        "level": "Open",
+        "place": "5",
+        "points": 12
+      },
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 19,
+    "avg_pts": 6.33
   },
   {
     "name": "Zavialov, Dmitrii and Baumgartner, Katt",
@@ -168,10 +347,46 @@
         "level": "Open",
         "place": "3",
         "points": 20
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "4",
+        "points": 16
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 12
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      },
+      {
+        "comp_name": "First Coast Classic Dancesport Championships",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "First Coast Classic Dancesport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 20
       }
     ],
-    "total_pts": 50,
-    "avg_pts": 16.666666666666668
+    "total_pts": 124,
+    "avg_pts": 13.78
   },
   {
     "name": "Wysocky, Patrick and Beetz, Alexis",
@@ -187,16 +402,41 @@
         "level": "Open",
         "place": "quarters",
         "points": 3
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 1
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
       }
     ],
-    "total_pts": 8,
-    "avg_pts": 4.0
+    "total_pts": 13,
+    "avg_pts": 3.25
   },
   {
     "name": "Samchynskyy, Sergiy and Besarab, Yuliya",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "3",
+        "points": 20
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "3",
+        "points": 25
+      }
+    ],
+    "total_pts": 45,
+    "avg_pts": 22.5
   },
   {
     "name": "Zappia, Enzo and Betts, Stephanie",
@@ -206,10 +446,34 @@
         "level": "Open",
         "place": "4",
         "points": 20
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 20
+      },
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "5",
+        "points": 12
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "6",
+        "points": 12
       }
     ],
-    "total_pts": 20,
-    "avg_pts": 20.0
+    "total_pts": 70,
+    "avg_pts": 14.0
   },
   {
     "name": "Parks, Anthony and Blunt, Sophia",
@@ -251,15 +515,47 @@
   },
   {
     "name": "Martinez, Juan and Bottinelli, Elayna",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Platinum Dancesport Classic",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 2
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 2
+      },
+      {
+        "comp_name": "First Coast Classic Dancesport Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 1
+      }
+    ],
+    "total_pts": 5,
+    "avg_pts": 1.67
   },
   {
     "name": "Bryant, Jeffrey and Bracken, Rachel",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 1
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 4,
+    "avg_pts": 2.0
   },
   {
     "name": "Cegelski, Rane and Larson, Sarah",
@@ -288,15 +584,53 @@
   },
   {
     "name": "Cheremukhin, Nick and Viktorija",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "1",
+        "points": 30
+      }
+    ],
+    "total_pts": 30,
+    "avg_pts": 30.0
   },
   {
-    "name": "Choi, Michael and Kleyman, Viktoriya",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "name": "Choi, Michael and Kleyman, Viktoria",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "5",
+        "points": 12
+      },
+      {
+        "comp_name": "Platinum Dancesport Classic",
+        "level": "Open",
+        "place": "2",
+        "points": 24
+      },
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "6",
+        "points": 9
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "6",
+        "points": 12
+      }
+    ],
+    "total_pts": 63,
+    "avg_pts": 12.6
   },
   {
     "name": "Clark, Gage and Nicole, Randi",
@@ -312,16 +646,29 @@
         "level": "Open",
         "place": "semis",
         "points": 5
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Open",
+        "place": "5",
+        "points": 12
       }
     ],
-    "total_pts": 8,
-    "avg_pts": 4.0
+    "total_pts": 20,
+    "avg_pts": 6.67
   },
   {
     "name": "Clark, Jarod and Maughan, Angela",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      }
+    ],
+    "total_pts": 2,
+    "avg_pts": 2.0
   },
   {
     "name": "Steffes, Jake and Cole, Jaclyn",
@@ -356,16 +703,53 @@
         "level": "Open",
         "place": "1",
         "points": 40
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Open",
+        "place": "4",
+        "points": 16
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "4",
+        "points": 20
       }
     ],
-    "total_pts": 60,
-    "avg_pts": 30.0
+    "total_pts": 96,
+    "avg_pts": 24.0
   },
   {
     "name": "Cromwell, Robbie and Trimble, Ruth",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "California Open",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "quarters",
+        "points": 2
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 11,
+    "avg_pts": 2.75
   },
   {
     "name": "Rasmussen, Matthew and Daigle, Kayla",
@@ -382,15 +766,65 @@
   },
   {
     "name": "Dawson, Staz and Gonyea, Jacklyn",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Open",
+        "place": "6",
+        "points": 9
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 19,
+    "avg_pts": 4.75
   },
   {
     "name": "Malkhasyan, Roman and Detkina, Galina",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Platinum Dancesport Classic",
+        "level": "Open",
+        "place": "1",
+        "points": 30
+      },
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "2",
+        "points": 24
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "2",
+        "points": 32
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 32
+      }
+    ],
+    "total_pts": 118,
+    "avg_pts": 29.5
   },
   {
     "name": "Santapaola, Christopher and DeView, Rachel",
@@ -407,21 +841,102 @@
   },
   {
     "name": "Kralev, Nikolay and DiBacco Daniells, Julianne",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 7
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 5
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      }
+    ],
+    "total_pts": 29,
+    "avg_pts": 4.83
   },
   {
     "name": "Dogoter, Igor and Gorshkova, Natalia",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 9
+      }
+    ],
+    "total_pts": 9,
+    "avg_pts": 9.0
   },
   {
     "name": "Don, Jang and Don, Adele",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 24
+      },
+      {
+        "comp_name": "Maryland Dancesport",
+        "level": "Open",
+        "place": "2",
+        "points": 15
+      },
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "4",
+        "points": 16
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "6",
+        "points": 12
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "5",
+        "points": 15
+      },
+      {
+        "comp_name": "First Coast Classic Dancesport Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 24
+      }
+    ],
+    "total_pts": 106,
+    "avg_pts": 17.67
   },
   {
     "name": "Doroshenko, Roman and Savushkina, Iryna",
@@ -431,10 +946,28 @@
         "level": "Rising Star",
         "place": "3",
         "points": 12
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5
+      },
+      {
+        "comp_name": "Maryland Dancesport",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
       }
     ],
-    "total_pts": 12,
-    "avg_pts": 12.0
+    "total_pts": 24,
+    "avg_pts": 6.0
   },
   {
     "name": "McKerlie, Mike and Drake, Anya",
@@ -469,16 +1002,47 @@
         "level": "Open",
         "place": "quarters",
         "points": 3
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
       }
     ],
-    "total_pts": 7,
-    "avg_pts": 2.3333333333333335
+    "total_pts": 14,
+    "avg_pts": 2.8
   },
   {
     "name": "Proper, William and Elliott, Jennifer",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "First Coast Classic Dancesport Championships",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3
+      }
+    ],
+    "total_pts": 13,
+    "avg_pts": 4.33
   },
   {
     "name": "Elser, David and Krug, Elizabeth",
@@ -494,10 +1058,22 @@
         "level": "Open",
         "place": "5",
         "points": 12
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 5
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
       }
     ],
-    "total_pts": 19,
-    "avg_pts": 9.5
+    "total_pts": 27,
+    "avg_pts": 6.75
   },
   {
     "name": "Haklin, Nick and Ford, Sarah",
@@ -513,16 +1089,89 @@
         "level": "Open",
         "place": "Semis",
         "points": 6
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Open",
+        "place": "2",
+        "points": 24
       }
     ],
-    "total_pts": 18,
-    "avg_pts": 9.0
+    "total_pts": 52,
+    "avg_pts": 13.0
   },
   {
     "name": "Mora, Leo and Garced, Christina",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "6",
+        "points": 9
+      },
+      {
+        "comp_name": "Platinum Dancesport Classic",
+        "level": "Open",
+        "place": "4",
+        "points": 16
+      },
+      {
+        "comp_name": "Platinum Dancesport Classic",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Rising Star",
+        "place": "8",
+        "points": 2
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      }
+    ],
+    "total_pts": 71,
+    "avg_pts": 7.1
   },
   {
     "name": "Scalzi, Anthony and Gilday, Zhenia",
@@ -589,16 +1238,78 @@
         "level": "Rising Star",
         "place": "3",
         "points": 12
+      },
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5
+      },
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Rising Star",
+        "place": "7",
+        "points": 3
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
       }
     ],
-    "total_pts": 12,
-    "avg_pts": 12.0
+    "total_pts": 38,
+    "avg_pts": 5.43
   },
   {
     "name": "Guzman, Ray and Perez, Angela",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "quarters",
+        "points": 2
+      }
+    ],
+    "total_pts": 2,
+    "avg_pts": 2.0
+  },
+  {
+    "name": "Pohl, Zachary and Freilich, Ariel",
+    "results": [
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Open",
+        "place": "6",
+        "points": 9
+      }
+    ],
+    "total_pts": 12,
+    "avg_pts": 6.0
   },
   {
     "name": "Hannigan, Dave and Kosheleva, Yulia",
@@ -633,9 +1344,40 @@
   },
   {
     "name": "Stowell, Aaron and Hofreiter, Brie",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Platinum Dancesport Classic",
+        "level": "Open",
+        "place": "6",
+        "points": 9
+      },
+      {
+        "comp_name": "Platinum Dancesport Classic",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 1
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      },
+      {
+        "comp_name": "First Coast Classic Dancesport Championships",
+        "level": "Open",
+        "place": "6",
+        "points": 9
+      }
+    ],
+    "total_pts": 28,
+    "avg_pts": 5.6
   },
   {
     "name": "Holzworth, John and Wooding, Nicole",
@@ -651,22 +1393,90 @@
         "level": "Open",
         "place": "Semis",
         "points": 6
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 5
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Open",
+        "place": "2",
+        "points": 24
       }
     ],
-    "total_pts": 11,
-    "avg_pts": 5.5
+    "total_pts": 53,
+    "avg_pts": 8.83
   },
   {
     "name": "Pilipenchuk, Nikolai and Hudson, Sarika",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "California Open",
+        "level": "Open",
+        "place": "3",
+        "points": 20
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "5",
+        "points": 15
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "4",
+        "points": 20
+      },
+      {
+        "comp_name": "First Coast Classic Dancesport Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 30
+      }
+    ],
+    "total_pts": 85,
+    "avg_pts": 21.25
   },
   {
-    "name": "Miller, Drew and Humphery, Krista",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "name": "Miller, Drew and Humphrey, Krista",
+    "results": [
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 9
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      }
+    ],
+    "total_pts": 18,
+    "avg_pts": 6.0
   },
   {
     "name": "Kempainen, Chris and Inveen, Bonnie",
@@ -689,9 +1499,16 @@
   },
   {
     "name": "McElyea, Drew and Jones, Shannon",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 3,
+    "avg_pts": 3.0
   },
   {
     "name": "Karchev, Nikolay and Tarnowska, Ania",
@@ -701,10 +1518,16 @@
         "level": "Open",
         "place": "3",
         "points": 25
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Open",
+        "place": "1",
+        "points": 30
       }
     ],
-    "total_pts": 25,
-    "avg_pts": 25.0
+    "total_pts": 55,
+    "avg_pts": 27.5
   },
   {
     "name": "Kenner, Ryan and Kenner, Laura",
@@ -720,22 +1543,73 @@
     "avg_pts": 7.0
   },
   {
-    "name": "Kenney, Kia and Lightner, Christian",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "name": "Lightner, Christian and Kenney, Kia",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 9,
+    "avg_pts": 3.0
   },
   {
     "name": "Lebedev, Pavel and Khayrulina, Dinara",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 7
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      },
+      {
+        "comp_name": "First Coast Classic Dancesport Championships",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5
+      }
+    ],
+    "total_pts": 18,
+    "avg_pts": 6.0
   },
   {
     "name": "Wlodzimierz, Pawel and Koltuniuk, Justyna",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 2
+      },
+      {
+        "comp_name": "Platinum Dancesport Classic",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5
+      }
+    ],
+    "total_pts": 7,
+    "avg_pts": 3.5
   },
   {
     "name": "Koogle, Scott and Wailes, Faith",
@@ -758,9 +1632,22 @@
   },
   {
     "name": "Kostianets, Slava and Kostianets, Valeriia",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "California Open",
+        "level": "Open",
+        "place": "2",
+        "points": 24
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 25
+      }
+    ],
+    "total_pts": 49,
+    "avg_pts": 24.5
   },
   {
     "name": "Pohybil, Dmytro and Kushnir, Alona",
@@ -770,22 +1657,72 @@
         "level": "Rising Star",
         "place": "3",
         "points": 20
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Open",
+        "place": "3",
+        "points": 20
       }
     ],
-    "total_pts": 20,
+    "total_pts": 40,
     "avg_pts": 20.0
   },
   {
     "name": "Sydorenko, Ilia and Kuts, Tetyana",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "California Open",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 9
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 20
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      }
+    ],
+    "total_pts": 39,
+    "avg_pts": 9.75
   },
   {
     "name": "Kuzmenko, Dmitriy and Kuzmenko, Andrea",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 2
+      },
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      },
+      {
+        "comp_name": "First Coast Classic Dancesport Championships",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 1
+      }
+    ],
+    "total_pts": 7,
+    "avg_pts": 2.33
   },
   {
     "name": "Leonov, Maksim and Zhuchenko, Anastasia",
@@ -801,10 +1738,34 @@
         "level": "Open",
         "place": "3",
         "points": 12
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Open",
+        "place": "6",
+        "points": 9
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 12
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 16
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
       }
     ],
-    "total_pts": 38,
-    "avg_pts": 19.0
+    "total_pts": 81,
+    "avg_pts": 13.5
   },
   {
     "name": "Welch, Ben and Lyons, Rae",
@@ -846,9 +1807,16 @@
   },
   {
     "name": "Popov, Vladimir and Marie, Erin",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Open",
+        "place": "1",
+        "points": 30
+      }
+    ],
+    "total_pts": 30,
+    "avg_pts": 30.0
   },
   {
     "name": "McCann, Stephen and McCann, Elisa",
@@ -864,16 +1832,65 @@
         "level": "Open",
         "place": "2",
         "points": 15
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Open",
+        "place": "5",
+        "points": 12
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 15
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
       }
     ],
-    "total_pts": 50,
-    "avg_pts": 25.0
+    "total_pts": 103,
+    "avg_pts": 17.17
   },
   {
     "name": "Merenkov, Artem and Voilokova, Tatiana",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      },
+      {
+        "comp_name": "First Coast Classic Dancesport Championships",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 2
+      },
+      {
+        "comp_name": "First Coast Classic Dancesport Championships",
+        "level": "Open",
+        "place": "5",
+        "points": 12
+      }
+    ],
+    "total_pts": 28,
+    "avg_pts": 7.0
   },
   {
     "name": "Merz, Timmy and Strashnikova, Diana",
@@ -895,10 +1912,22 @@
         "level": "Open",
         "place": "Semis",
         "points": 6
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 5
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
       }
     ],
-    "total_pts": 16,
-    "avg_pts": 5.333333333333333
+    "total_pts": 24,
+    "avg_pts": 4.8
   },
   {
     "name": "Sovetov, Ivan and Mkrtchian, Valeria",
@@ -914,10 +1943,16 @@
         "level": "Open",
         "place": "1",
         "points": 20
+      },
+      {
+        "comp_name": "Maryland Dancesport",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
       }
     ],
-    "total_pts": 40,
-    "avg_pts": 20.0
+    "total_pts": 47,
+    "avg_pts": 15.67
   },
   {
     "name": "Morth, Jay and Trinidad, Samantha",
@@ -933,10 +1968,34 @@
         "level": "Open",
         "place": "Semis",
         "points": 6
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Open",
+        "place": "4",
+        "points": 16
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Open",
+        "place": "5",
+        "points": 12
       }
     ],
-    "total_pts": 11,
-    "avg_pts": 5.5
+    "total_pts": 49,
+    "avg_pts": 8.17
   },
   {
     "name": "Nalyvaychuk, Vladyslav and Nalyvaychuk, Brianna",
@@ -952,16 +2011,35 @@
         "level": "Open",
         "place": "6",
         "points": 12
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 12
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
       }
     ],
-    "total_pts": 36,
-    "avg_pts": 18.0
+    "total_pts": 51,
+    "avg_pts": 12.75
   },
   {
     "name": "Novikov, Yegor and Smirnova, Alexandra",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "2",
+        "points": 32
+      }
+    ],
+    "total_pts": 32,
+    "avg_pts": 32.0
   },
   {
     "name": "Perpich, Brandon and Perpich, Kristen",
@@ -1002,10 +2080,22 @@
         "level": "Open",
         "place": "quarters",
         "points": 3
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "quarters",
+        "points": 2
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
       }
     ],
-    "total_pts": 9,
-    "avg_pts": 3.0
+    "total_pts": 14,
+    "avg_pts": 2.8
   },
   {
     "name": "Schiller, Tyler and Reyes, Rhenell",
@@ -1021,28 +2111,117 @@
     "avg_pts": 2.0
   },
   {
+    "name": "Kulpin and Kulpina",
+    "results": [
+      {
+        "comp_name": "First Coast Classic Dancesport Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 1
+      }
+    ],
+    "total_pts": 1,
+    "avg_pts": 1.0
+  },
+  {
     "name": "Rohan, Valentyn and Rohan, Olha",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 2
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 6,
+    "avg_pts": 3.0
   },
   {
     "name": "Rozenfeld, Evgenii and Shumakher, Maria",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Maryland Dancesport",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Maryland Dancesport",
+        "level": "Open",
+        "place": "4",
+        "points": 9
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 4
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      }
+    ],
+    "total_pts": 32,
+    "avg_pts": 6.4
   },
   {
     "name": "Safonov, Vadim and Safonova, Alina",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 5,
+    "avg_pts": 2.5
   },
   {
     "name": "Sinitsa, Max and Seliverstova, Tatiana",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "California Open",
+        "level": "Open",
+        "place": "1",
+        "points": 30
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "1",
+        "points": 40
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "1",
+        "points": 40
+      }
+    ],
+    "total_pts": 110,
+    "avg_pts": 36.67
   },
   {
     "name": "Serbulenco, Vladimir and Strancaric, Ivana",
@@ -1059,9 +2238,16 @@
   },
   {
     "name": "Stockton, Andrew and Smith, Rachel",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 1
+      }
+    ],
+    "total_pts": 1,
+    "avg_pts": 1.0
   },
   {
     "name": "Travis, Todd and Whitesell, Leslie",
@@ -1083,34 +2269,160 @@
     "avg_pts": 4.0
   },
   {
-    "name": "Tuft, Jaimee and Tuft, Travis",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "name": "Tuft, Travis and Tuft, Jaimee",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 30
+      },
+      {
+        "comp_name": "Maryland Dancesport",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 40
+      }
+    ],
+    "total_pts": 90,
+    "avg_pts": 30.0
   },
   {
-    "name": "Vukosavljevic, Aleksandar and Nevena Urosevic",
+    "name": "Vukosavljevic, Aleksandar and Urosevic, Nevena",
     "results": [
       {
         "comp_name": "Nashville Starz",
         "level": "Open",
         "place": "1",
         "points": 30
+      },
+      {
+        "comp_name": "Maryland Dancesport",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "4",
+        "points": 20
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "3",
+        "points": 25
       }
     ],
-    "total_pts": 30,
-    "avg_pts": 30.0
+    "total_pts": 87,
+    "avg_pts": 21.75
   },
   {
     "name": "Wiatrowski, Radek and Zhenia",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      }
+    ],
+    "total_pts": 10,
+    "avg_pts": 5.0
   },
   {
     "name": "Zhyvkov, Tykhon and Zhyvkov, Yana",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "California Open",
+        "level": "Open",
+        "place": "6",
+        "points": 9
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 15
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 24
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      }
+    ],
+    "total_pts": 54,
+    "avg_pts": 13.5
+  },
+  {
+    "name": "Gullett and Petersen",
+    "results": [
+      {
+        "comp_name": "California Open",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 4
+      }
+    ],
+    "total_pts": 8,
+    "avg_pts": 4.0
+  },
+  {
+    "name": "Ryan and Phillips",
+    "results": [
+      {
+        "comp_name": "California Open",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      }
+    ],
+    "total_pts": 6,
+    "avg_pts": 3.0
+  },
+  {
+    "name": "Callahan and Callahan",
+    "results": [
+      {
+        "comp_name": "California Open",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      }
+    ],
+    "total_pts": 2,
+    "avg_pts": 2.0
   }
 ]

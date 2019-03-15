@@ -1,99 +1,410 @@
-Golden Star Dancesport Championships
-Pro heat 1 Open Professional American Rhythm (C/R/SW/B/M)
-Escolme, Andrew and Baker, Amy	3	20
-Cortes, Alberto and Briones, Jessa Mae	2	24
-Burazer, Kristijan and Burazer, Anja	4	16
-Germain, Zachary and Caskie, Jenna	Semis	4
-Don, Jang and Don, Adel	5	12
-Gavrilov, Andrei and Haung, Mengqi	Semis	4
-Sannoh and Sadovnikova	Semis	4
-Shiller and Shiller	Semis	4
-Solano and Tang	Semis	4
-Stefanovic and Mikryukova	Semis	4
-Nikishkin and Nikishkin	1	30
-Sese and Lozada	6	9
-
-Golden Star Dancesport Championships
-Pro heat 2 Rising Star International Latin (C/S/R/P/J)
-Escolme, Andrew and Baker, Amy	1	20
-Osai, Malachi and Chan, Freda	2	15
-Wang, Howard and Hsieh, Doris	3	12
-Shvetsov and LinSong	4	9
-Trillo and Larina	6	4
-Tanaskovic and Roffle	5	7
-
-Golden Star Dancesport Championships
-Pro heat 3 Rising Star American Smooth (W/T/F/VW)
-Kralev, Nikolay and ., Julianne	4	3
-Bonev, Aleksandar and Aidasheva, Olga	6	1
-Zavialov, Dmitrii and Baumgartner, Katt	1	10
-Doroshenko, Roman and Savushkina, Iryna	3	5
-Mora, Leo and Garced, Christina	2	7
-Wlodzimierz and Koltuniuk	5	2
-
-Golden Star Dancesport Championships
-Pro heat 4 Open Professional International Ballroom (W/T/VW/F/Q)
-Anufriiev, Mykhailo and Vietrynska, Anna	Semis	4
-Begunov, Andrey and Demidova, Anna	3	20
-Belmeha, Artem and Shevchenko, Anna	Semis	4
-Bilozorov, Anton and Samanta, Filip	Semis	4
-Homm, Rudy and Kanevskaya, Katya	1	30
-Izyumov, Sergey and Zaver, Oksana	6	9
-Skriptsov and Skriptsova	Semis	4
-Minaev and Minaeva	4	16
-Pedrinelli and Kovalcikova	2	24
-Stoynov and Stoynova	5	12
-
-Golden Star Dancesport Championships
-Pro heat 5 Rising Star American Rhythm (C/R/SW/B/M)
-., Adrian and Prall, Kristen	Semis	2
-Antonelli, Vincent and Falciano, Stephanie	Semis	2
-Arkhipenko, Maxim and Moffitt, Zahara Diego	Semis	2
-Logan, Bryan and Benitez, Jessica	Semis	2
-Germain, Zachary and Caskie, Jenna	5	7
-Gavrilov, Andrei and Haung, Mengqi	2	15
-Sannoh and Sadovnikova	Semis	2
-Sese and Lozada	1	20
-Shiller and Shiller	4	9
-Solano and Tang	6	4
-Stefanovic and Mikryukova	3	12
-
-Golden Star Dancesport Championships
-Pro heat 6 Rising Star International Ballroom (W/T/VW/F/Q)
-Anufriiev, Mykhailo and Vietrynska, Anna	5	7
-Belmeha, Artem and Shevchenko, Anna	3	12
-Gayenko, Igor and Schuchynska, Olga	2	15
-Pollock and Noelle	Semis	2
-Wlodzimierz and Koltuniuk	Semis	2
-Minaev and Minaeva	1	20
-Skriptsov and Skriptsova	4	9
-Spano and Romano	6	4
-
-Golden Star Dancesport Championships
-Pro heat 7 Professional Exhibition Showcase
-Antonelli, Vincent and Falciano, Stephanie	2	15
-Tuft and Tuft	1	20
-
-Golden Star Dancesport Championships
-Pro heat 8 Open Professional International Latin (C/S/R/P/J)
-Osai, Malachi and Chan, Freda	6	9
-Spirov, Rangel and Chernyavska, Veronika	3	20
-Tarnavskyy, Artur and Danilova, Anastasia	1	30
-Wang, Howard and Hsieh, Doris	Semis	4
-Shvetsov and LinSong	Semis	4
-Mulyavka and Roaba	2	24
-Nabiullin and Ryabova	5	12
-Stoynov and Stoynova	4	16
-
-Golden Star Dancesport Championships
-Pro heat 9 Open Professional American Smooth (W/T/F/VW)
-Kralev, Nikolay and ., Julianne	Semis	4
-Bonev, Aleksandar and Aidasheva, Olga	Semis	4
-Zavialov, Dmitrii and Baumgartner, Katt	4	16
-Zappia, Enzo and Betts, Stephanie	3	20
-Choi, Michael and Kleyman, Viktoriya	5	12
-Don, Jang and Don, Adel	2	24
-Mora, Leo and Garced, Christina	6	9
-Lightner and Kenney	Semis	4
-Tuft and Tuft	1	30
-
+{
+  "comp name": "Golden Star Dancesport Championships",
+  "heats": [
+    {
+      "title": "Open Professional American Rhythm (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Escolme, Andrew and Baker, Amy",
+          "place": "3",
+          "points": 20
+        },
+        {
+          "couple": "Cortes, Alberto and Briones, Jessa Mae",
+          "place": "2",
+          "points": 24
+        },
+        {
+          "couple": "Burazer, Kristijan and Burazer, Anja",
+          "place": "4",
+          "points": 16
+        },
+        {
+          "couple": "Germain, Zachary and Caskie, Jenna",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Don, Jang and Don, Adel",
+          "place": "5",
+          "points": 12
+        },
+        {
+          "couple": "Gavrilov, Andrei and Haung, Mengqi",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Sannoh and Sadovnikova",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Shiller and Shiller",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Solano and Tang",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Stefanovic and Mikryukova",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Nikishkin and Nikishkin",
+          "place": "1",
+          "points": 30
+        },
+        {
+          "couple": "Sese and Lozada",
+          "place": "6",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "title": "Rising Star International Latin (C/S/R/P/J)",
+      "entries": [
+        {
+          "couple": "Escolme, Andrew and Baker, Amy",
+          "place": "1",
+          "points": 20
+        },
+        {
+          "couple": "Osai, Malachi and Chan, Freda",
+          "place": "2",
+          "points": 15
+        },
+        {
+          "couple": "Wang, Howard and Hsieh, Doris",
+          "place": "3",
+          "points": 12
+        },
+        {
+          "couple": "Shvetsov and LinSong",
+          "place": "4",
+          "points": 9
+        },
+        {
+          "couple": "Trillo and Larina",
+          "place": "6",
+          "points": 4
+        },
+        {
+          "couple": "Tanaskovic and Roffle",
+          "place": "5",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "title": "Rising Star American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Kralev, Nikolay and ., Julianne",
+          "place": "4",
+          "points": 3
+        },
+        {
+          "couple": "Bonev, Aleksandar and Aidasheva, Olga",
+          "place": "6",
+          "points": 1
+        },
+        {
+          "couple": "Zavialov, Dmitrii and Baumgartner, Katt",
+          "place": "1",
+          "points": 10
+        },
+        {
+          "couple": "Doroshenko, Roman and Savushkina, Iryna",
+          "place": "3",
+          "points": 5
+        },
+        {
+          "couple": "Mora, Leo and Garced, Christina",
+          "place": "2",
+          "points": 7
+        },
+        {
+          "couple": "Wlodzimierz and Koltuniuk",
+          "place": "5",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "title": "Open Professional International Ballroom (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Anufriiev, Mykhailo and Vietrynska, Anna",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Begunov, Andrey and Demidova, Anna",
+          "place": "3",
+          "points": 20
+        },
+        {
+          "couple": "Belmeha, Artem and Shevchenko, Anna",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Bilozorov, Anton and Samanta, Filip",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Homm, Rudy and Kanevskaya, Katya",
+          "place": "1",
+          "points": 30
+        },
+        {
+          "couple": "Izyumov, Sergey and Zaver, Oksana",
+          "place": "6",
+          "points": 9
+        },
+        {
+          "couple": "Skriptsov and Skriptsova",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Minaev and Minaeva",
+          "place": "4",
+          "points": 16
+        },
+        {
+          "couple": "Pedrinelli and Kovalcikova",
+          "place": "2",
+          "points": 24
+        },
+        {
+          "couple": "Stoynov and Stoynova",
+          "place": "5",
+          "points": 12
+        }
+      ]
+    },
+    {
+      "title": "Rising Star American Rhythm (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "., Adrian and Prall, Kristen",
+          "place": "Semis",
+          "points": 2
+        },
+        {
+          "couple": "Antonelli, Vincent and Falciano, Stephanie",
+          "place": "Semis",
+          "points": 2
+        },
+        {
+          "couple": "Arkhipenko, Maxim and Moffitt, Zahara Diego",
+          "place": "Semis",
+          "points": 2
+        },
+        {
+          "couple": "Logan, Bryan and Benitez, Jessica",
+          "place": "Semis",
+          "points": 2
+        },
+        {
+          "couple": "Germain, Zachary and Caskie, Jenna",
+          "place": "5",
+          "points": 7
+        },
+        {
+          "couple": "Gavrilov, Andrei and Haung, Mengqi",
+          "place": "2",
+          "points": 15
+        },
+        {
+          "couple": "Sannoh and Sadovnikova",
+          "place": "Semis",
+          "points": 2
+        },
+        {
+          "couple": "Sese and Lozada",
+          "place": "1",
+          "points": 20
+        },
+        {
+          "couple": "Shiller and Shiller",
+          "place": "4",
+          "points": 9
+        },
+        {
+          "couple": "Solano and Tang",
+          "place": "6",
+          "points": 4
+        },
+        {
+          "couple": "Stefanovic and Mikryukova",
+          "place": "3",
+          "points": 12
+        }
+      ]
+    },
+    {
+      "title": "Rising Star International Ballroom (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Anufriiev, Mykhailo and Vietrynska, Anna",
+          "place": "5",
+          "points": 7
+        },
+        {
+          "couple": "Belmeha, Artem and Shevchenko, Anna",
+          "place": "3",
+          "points": 12
+        },
+        {
+          "couple": "Gayenko, Igor and Schuchynska, Olga",
+          "place": "2",
+          "points": 15
+        },
+        {
+          "couple": "Pollock and Noelle",
+          "place": "Semis",
+          "points": 2
+        },
+        {
+          "couple": "Wlodzimierz and Koltuniuk",
+          "place": "Semis",
+          "points": 2
+        },
+        {
+          "couple": "Minaev and Minaeva",
+          "place": "1",
+          "points": 20
+        },
+        {
+          "couple": "Skriptsov and Skriptsova",
+          "place": "4",
+          "points": 9
+        },
+        {
+          "couple": "Spano and Romano",
+          "place": "6",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "title": "Professional Exhibition Showcase",
+      "entries": [
+        {
+          "couple": "Antonelli, Vincent and Falciano, Stephanie",
+          "place": "2",
+          "points": 15
+        },
+        {
+          "couple": "Tuft and Tuft",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "title": "Open Professional International Latin (C/S/R/P/J)",
+      "entries": [
+        {
+          "couple": "Osai, Malachi and Chan, Freda",
+          "place": "6",
+          "points": 9
+        },
+        {
+          "couple": "Spirov, Rangel and Chernyavska, Veronika",
+          "place": "3",
+          "points": 20
+        },
+        {
+          "couple": "Tarnavskyy, Artur and Danilova, Anastasia",
+          "place": "1",
+          "points": 30
+        },
+        {
+          "couple": "Wang, Howard and Hsieh, Doris",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Shvetsov and LinSong",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Mulyavka and Roaba",
+          "place": "2",
+          "points": 24
+        },
+        {
+          "couple": "Nabiullin and Ryabova",
+          "place": "5",
+          "points": 12
+        },
+        {
+          "couple": "Stoynov and Stoynova",
+          "place": "4",
+          "points": 16
+        }
+      ]
+    },
+    {
+      "title": "Open Professional American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Kralev, Nikolay and ., Julianne",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Bonev, Aleksandar and Aidasheva, Olga",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Zavialov, Dmitrii and Baumgartner, Katt",
+          "place": "4",
+          "points": 16
+        },
+        {
+          "couple": "Zappia, Enzo and Betts, Stephanie",
+          "place": "3",
+          "points": 20
+        },
+        {
+          "couple": "Choi, Michael and Kleyman, Viktoriya",
+          "place": "5",
+          "points": 12
+        },
+        {
+          "couple": "Don, Jang and Don, Adel",
+          "place": "2",
+          "points": 24
+        },
+        {
+          "couple": "Mora, Leo and Garced, Christina",
+          "place": "6",
+          "points": 9
+        },
+        {
+          "couple": "Lightner and Kenney",
+          "place": "Semis",
+          "points": 4
+        },
+        {
+          "couple": "Tuft and Tuft",
+          "place": "1",
+          "points": 30
+        }
+      ]
+    }
+  ]
+}
