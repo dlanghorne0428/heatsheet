@@ -45,6 +45,7 @@ class CompMngrScoresheet():
         self.payload[key] = value
 
 
+    def open_scoresheet_from_file(self, filename):
         # open the file and loop through all the lines
         fhand = open(filename,encoding="utf-8")
         for line in fhand:
