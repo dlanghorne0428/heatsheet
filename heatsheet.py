@@ -562,9 +562,9 @@ class HelloFrame(wx.Frame):
                         t = self.list_ctrl.GetItemText(item_index - 1, 3)
                         self.list_ctrl.SetItem(item_index, 3, t)        
                         self.list_ctrl.SetItem(item_index, 4, e["shirt"])
-                        couple_names = e["dancer"] + " and " + e["partner"]
-                        self.list_ctrl.SetItem(item_index, 5, couple_names)
                         
+                    couple_names = e["dancer"] + " and " + e["partner"]
+                    self.list_ctrl.SetItem(item_index, 5, couple_names)    
                     self.list_ctrl.SetItem(item_index, Time_and_Results_Column, str(e["result"]))
                     item_index += 1
 

@@ -6,10 +6,10 @@ from comp_results_file import Comp_Results_File, Heat_Result, Entry_Result
 ''' This routine switches the names of a couple to match the scoresheet.
     In a pro heat the male dancer is listed first. 
 '''
-def swap_names(name1, name2):
-    temp = name1
-    name1 = name2
-    name2 = temp
+def swap_names(e):
+    temp = e["dancer"]
+    e["dancer"] = e["partner"]
+    e["partner"] = temp
     
 
 # This class parses the scoresheet and extract results of the competition
@@ -246,7 +246,7 @@ class CompMngrScoresheet():
                                     # scoresheet indicates which one is the leader (male). 
                                     # Swap the heatsheet names if necessary.
                                     if e["dancer"].startswith(couple_names[1]):
-                                        swap_names(e["dancer"], e["partner"])
+                                        swap_names(e)
                                         
                                     # If the couple was not recalled, their result is the round 
                                     # in which they were eliminated
@@ -302,7 +302,7 @@ class CompMngrScoresheet():
                             if current_competitor.startswith(e["shirt"]):
                                 couple_names = self.get_couple_names(current_competitor)
                                 if e["dancer"].startswith(couple_names[1]):
-                                    swap_names(e["dancer"], e["partner"])
+                                    swap_names(e)
                                 e["result"] = result_place
                                 e["points"] = self.point_values[level][rounds][result_place]
                                 break
