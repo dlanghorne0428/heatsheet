@@ -406,8 +406,8 @@ class CompMngrScoresheet():
                 ent_result.set_couple(e["dancer"] + " and " + e["partner"])
                 ent_result.set_place(str(e["result"]))
                 ent_result.set_points(e["points"])
-                heat_result.set_next_entry(ent_result.entry)
+                heat_result.set_next_entry(ent_result)
         
         # the structure of heat results is built, write it to the output file
-        self.output_file.save_heat(heat_result.heat)
+        self.output_file.save_heat(heat_result)
 
