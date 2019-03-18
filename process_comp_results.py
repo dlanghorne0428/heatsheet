@@ -1,7 +1,16 @@
-# prepare JSON files for each dance style
+
 import json
+from operator import itemgetter
 
 from comp_results_file import Comp_Results_File
+
+Dance_Styles = [
+    "American Rhythm",
+    "American Smooth", 
+    "International Ballroom",
+    "International Latin",
+    "Showdance / Cabaret / Theater Arts"
+    ]
 
 def event_level(e):
     if "Rising Star" in e:
@@ -35,11 +44,35 @@ class RankingDataFile():
         self.filename = filename
         fp = open(filename, encoding="utf-8")
         self.info = json.load(fp)
-        # TODO: sort by name in ascending order after opening the file.
-        #self.sort_couples("name")
+        # Sort by name in ascending order after opening the file.
+        self.sort_couples()
         fp.close()
+        
+        
+    def add_result_to_couple(self, index, result):
+        couple = self.info[index]
+        # make sure this is a new result
+        if result not in couple["results"]:
+            couple["results"].append(result)
+            couple["total_pts"] += int(result["points"])
+            couple["avg_pts"] = round(i["total_pts"] / len(i["results"]), 2)  
+            
+    
+    def find_couple_by_last_name(self, couple_name):
+        couple_last_name = get_last_name(couple_name)
+        index = -1
+        for i in self.info:
+            index += 1
+            db_last_name = get_last_name(i["name"])
+            # search for the couple, using last names only
+            if db_last_name == couple_last_name:
+                # exit loop after couple found, let user determine match
+                return index
+        else:        
+            return -1    
+        
 
-    def add_result_to_couple(self, couple, result):
+    def find_couple(self, couple_name):
         ''' 
         This routine searches the data for the specified couple.
         If the couple is found, and the result is not in their list, it
@@ -48,81 +81,47 @@ class RankingDataFile():
         If this is a new couple, an error message is printed.
         #TODO: support adding new couples when this becomes part of the GUI app
         '''
+        index = -1
         for i in self.info:
+            index += 1
             # search for the couple, using the entire string
-            if i["name"] == couple:
-                
-                # couple found, make sure this is a new result
-                if result not in i["results"]:
-                    i["results"].append(result)
-                    i["total_pts"] += int(result["points"])
-                    i["avg_pts"] = round(i["total_pts"] / len(i["results"]), 2)
-                
+            if i["name"] == couple_name:
                 # exit loop after couple found
-                break
-        else:
-            # couple was not found, search again using only the dancer's last name
-            # possible reasons for not matching entire string: 
-            #    married couples may be out of order 
-            #    maiden name may be used 
-            #    slight misspelling of names
-            c_dancer = get_last_name(couple)
-            for i in self.info:
-                i_dancer = get_last_name(i["name"])
-                
-                # if the last name matches, ask the user if this looks like the right couple
-                # TODO: make this a GUI input
-                if i_dancer == c_dancer:
-                    response = input("Match " + i["name"] + " with " + couple + " (y/n)? ")
-                    if response.upper() == 'Y':
-                        
-                        # make sure this is a new result before adding it.
-                        if result not in i["results"]:
-                            i["results"].append(result)
-                            i["total_pts"] += int(result["points"])
-                            i["avg_pts"] = round(i["total_pts"] / len(i["results"]), 2)
+                return index
+        else:        
+            return -1
+    
+    
+    def format_item_as_columns(self, index):
+        '''
+        This method returns the data for the couple at the specified index as a list.
+        It is meant to be called by the GUI.
+        '''
+        info_list = [index+1]  # first column is the index
+        info_list.append(self.info[index]["name"])  # then the name
+        info_list.append(len(self.info[index]["results"])) # then how many events
+        info_list.append(self.info[index]["total_pts"])  # then total points
+        info_list.append(self.info[index]["avg_pts"])  # last is average points - the ranking
+        return info_list
+        
+        
+    def length(self):
+        '''This method returns the number of couples in the Ranking Data.'''
+        return len(self.info)
+    
+    
+    def get_name_at_index(self, index):
+        return self.info[index]["name"]
+    
 
-                        # exit loop, once user confirms a match
-                        break
-            else:
-                # still not found, print an error message
-                print("COULD NOT FIND:", couple, result)
-    
-    
-    def swap_couples(self, i, j):
-        ''' This method supports sorting the data structure by swapping two entries.'''
-        temp = self.info[i]
-        self.info[i] = self.info[j]
-        self.info[j] = temp;        
-    
-    def less_than(self, i, j, mode="points"):
-        ''' This method supports sorting the data structure by comparing two entries.'''
-        if mode.upper() == "NAME":
-            return self.info[i]["name"] < self.info[j]["name"]
-        else:
-            return self.info[i]["avg_pts"] < self.info[j]["avg_pts"]
-    
-    
-    def sort_couples(self, mode="points"):
-        '''This method performs an insertion sort on the couples.'''
-        # TODO: provide option to sort in ascending order
-        i = 1
-        while i < len(self.info):
-            j = i
-            # sort list in descending order of average points
-            while j > 0 and self.less_than(j-1, j, mode):
-                self.swap_couples(j, j-1)
-                j = j - 1
-            i = i + 1
-            
-        # print the sorted list to the console
-        for entry in self.info:
-            print(entry["name"], entry["avg_pts"])
+    def sort_couples(self, key="name", reverse=False):
+        '''This method sorts the couples by the selected key.'''    
+        self.info.sort(key=itemgetter(key), reverse=reverse)
         
                 
     def save(self):
         ''' This method sorts the data, writes it to the file, and closes the file.''' 
-        self.sort_couples()
+        self.sort_couples(key="avg_pts", reverse=True)
         fp = open(self.filename, "w", encoding="utf-8")
         json.dump(self.info, fp, indent=2)
         fp.close()
