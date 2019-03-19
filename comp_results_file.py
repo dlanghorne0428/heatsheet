@@ -1,4 +1,5 @@
 import json
+from operator import itemgetter
 
 ''' This module writes the results of a competition to a JSON file.
     There are three classes: 
@@ -32,6 +33,11 @@ class Entry_Result():
     def set_points(self, p):
         self.entry["points"] = p
         
+    def format_as_columns(self):
+        info_list = [self.entry["couple"]]
+        info_list.append(self.entry["place"])
+        return info_list
+        
 
 class Heat_Result():
     ''' This class is basically a simple dictionary.
@@ -42,6 +48,9 @@ class Heat_Result():
         self.heat = dict()
         self.heat["title"] = "Unknown Heat"
         self.heat["entries"] = []
+        
+    def sort_entries(self):
+        self.heat["entries"].sort(key=itemgetter("place"))
         
     def set_title(self, title):
         self.heat["title"] = title
@@ -80,6 +89,7 @@ class Comp_Results_File():
     
     def save_heat(self, h):
         ''' add a set of heat results to the structure.'''
+        h.sort_entries()
         self.info["heats"].append(h.heat)
         
     def get_heats(self):
