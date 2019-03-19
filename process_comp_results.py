@@ -55,7 +55,7 @@ class RankingDataFile():
         if result not in couple["results"]:
             couple["results"].append(result)
             couple["total_pts"] += int(result["points"])
-            couple["avg_pts"] = round(i["total_pts"] / len(i["results"]), 2)  
+            couple["avg_pts"] = round(couple["total_pts"] / len(couple["results"]), 2)  
             
     
     def find_couple_by_last_name(self, couple_name):
