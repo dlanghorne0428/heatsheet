@@ -9,8 +9,17 @@
 import wx
 #import yattag
 
-from process_comp_results import Dance_Styles, RankingDataFile, event_level
+from process_comp_results import RankingDataFile, event_level
 from comp_results_file import Comp_Results_File
+
+
+Dance_Styles = [
+    "American Rhythm",
+    "American Smooth", 
+    "International Ballroom",
+    "International Latin",
+    "Showdance / Cabaret / Theater Arts"
+    ]
 
 
 class AppFrame(wx.Frame):
