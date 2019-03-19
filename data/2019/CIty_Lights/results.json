@@ -5,14 +5,9 @@
       "title": "Professional Rising Star Smooth  (W/T/F/VW)",
       "entries": [
         {
-          "couple": "Barney, Alan and Rund, Megan",
-          "place": "4",
-          "points": 3
-        },
-        {
-          "couple": "Hannigan, Dave and Kosheleva, Yulia",
-          "place": "3",
-          "points": 5
+          "couple": "McCann, Stephen and McCann, Elisa",
+          "place": "1",
+          "points": 10
         },
         {
           "couple": "Leonov, Maksim and Zhuchenko, Anastasia",
@@ -20,12 +15,17 @@
           "points": 7
         },
         {
-          "couple": "McCann, Elisa and McCann, Stephen",
-          "place": "1",
-          "points": 10
+          "couple": "Hannigan, Dave and Kosheleva, Yulia",
+          "place": "3",
+          "points": 5
         },
         {
-          "couple": "Reyes, Rhenell and Schiller, Tyler",
+          "couple": "Barney, Alan and Rund, Megan",
+          "place": "4",
+          "points": 3
+        },
+        {
+          "couple": "Schiller, Tyler and Reyes, Rhenell",
           "place": "5",
           "points": 2
         }
@@ -45,19 +45,19 @@
       "title": "Professional Rising Star Ballroom  (W/T/VW/F/QS)",
       "entries": [
         {
-          "couple": "., Michelle and Teleha, Oleh",
-          "place": "3",
-          "points": 5
-        },
-        {
           "couple": "Alitto, Oreste and Belozerova, Valeriia",
           "place": "1",
           "points": 10
         },
         {
-          "couple": "Miner-Voigt, Lydia and Nemiro, Robert",
+          "couple": "Nemiro, Robert and Miner-Voigt, Lydia",
           "place": "2",
           "points": 7
+        },
+        {
+          "couple": "Teleha, Oleh and ., Michelle",
+          "place": "3",
+          "points": 5
         }
       ]
     },
@@ -65,12 +65,12 @@
       "title": "Professional Rising Star Rhythm (C/R/SW/B/M)",
       "entries": [
         {
-          "couple": "Babagay, Jeremy and Vazquez, Helen",
-          "place": "5",
-          "points": 2
+          "couple": "Pierce, Aaron and Stavrica, Ksenia",
+          "place": "1",
+          "points": 10
         },
         {
-          "couple": "Fisher, Hadas and Grijalva, Luis",
+          "couple": "Grijalva, Luis and Fisher, Hadas",
           "place": "2",
           "points": 7
         },
@@ -80,14 +80,14 @@
           "points": 5
         },
         {
-          "couple": "Pierce, Aaron and Stavrica, Ksenia",
-          "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Reyes, Rhenell and Schiller, Tyler",
+          "couple": "Schiller, Tyler and Reyes, Rhenell",
           "place": "4",
           "points": 3
+        },
+        {
+          "couple": "Babagay, Jeremy and Vazquez, Helen",
+          "place": "5",
+          "points": 2
         }
       ]
     },
@@ -95,19 +95,9 @@
       "title": "Professional Open Rhythm (C/R/SW/B/M)",
       "entries": [
         {
-          "couple": "Babagay, Jeremy and Vazquez, Helen",
-          "place": "5",
-          "points": 7
-        },
-        {
-          "couple": "Crandall, Natalie and Pigotskyy, Oleksiy",
+          "couple": "Pigotskyy, Oleksiy and Crandall, Natalie",
           "place": "1",
           "points": 20
-        },
-        {
-          "couple": "Katona, Zsolt and Potys, Timea",
-          "place": "4",
-          "points": 9
         },
         {
           "couple": "Lockhart, Ryan and Newman, Danelle",
@@ -118,6 +108,16 @@
           "couple": "Pierce, Aaron and Stavrica, Ksenia",
           "place": "3",
           "points": 12
+        },
+        {
+          "couple": "Katona, Zsolt and Potys, Timea",
+          "place": "4",
+          "points": 9
+        },
+        {
+          "couple": "Babagay, Jeremy and Vazquez, Helen",
+          "place": "5",
+          "points": 7
         }
       ]
     },
@@ -125,19 +125,14 @@
       "title": "Professional Open Ballroom (W/T/VW/F/QS)",
       "entries": [
         {
-          "couple": "., Anastasia and Fung, Victor",
+          "couple": "Fung, Victor and ., Anastasia",
           "place": "1",
           "points": 20
         },
         {
-          "couple": "., Michelle and Teleha, Oleh",
-          "place": "7",
-          "points": 3
-        },
-        {
-          "couple": "Alitto, Oreste and Belozerova, Valeriia",
-          "place": "5",
-          "points": 7
+          "couple": "Bieliei, Liliia and Bieliei, Iaroslav",
+          "place": "2",
+          "points": 15
         },
         {
           "couple": "Averkov, Serhiy and Barna, Olena",
@@ -145,19 +140,24 @@
           "points": 12
         },
         {
-          "couple": "Bieliei, Iaroslav and Bieliei, Liliia",
-          "place": "2",
-          "points": 15
-        },
-        {
-          "couple": "Cletova, Xenia and Sterban, Radu",
+          "couple": "Sterban, Radu and Cletova, Xenia",
           "place": "4",
           "points": 9
         },
         {
-          "couple": "Miner-Voigt, Lydia and Nemiro, Robert",
+          "couple": "Alitto, Oreste and Belozerova, Valeriia",
+          "place": "5",
+          "points": 7
+        },
+        {
+          "couple": "Nemiro, Robert and Miner-Voigt, Lydia",
           "place": "6",
           "points": 4
+        },
+        {
+          "couple": "Teleha, Oleh and ., Michelle",
+          "place": "7",
+          "points": 3
         }
       ]
     },
@@ -165,24 +165,24 @@
       "title": "Professional Open Latin (C/S/R/PD/J)",
       "entries": [
         {
-          "couple": "Alisauskas, Lukas and Alisauskas, Simona",
-          "place": "4",
-          "points": 9
-        },
-        {
-          "couple": "Bertini, Francesco and Bertini, Sabrina",
-          "place": "2",
-          "points": 15
-        },
-        {
           "couple": "Bilopukhov, Mykhailo and Shchypilina, Anastasiia",
           "place": "1",
           "points": 20
         },
         {
-          "couple": "Bokova, Alexandra and Italyankin, Roman",
+          "couple": "Bertini, Sabrina and Bertini, Francesco",
+          "place": "2",
+          "points": 15
+        },
+        {
+          "couple": "Italyankin, Roman and Bokova, Alexandra",
           "place": "3",
           "points": 12
+        },
+        {
+          "couple": "Alisauskas, Simona and Alisauskas, Lukas",
+          "place": "4",
+          "points": 9
         },
         {
           "couple": "Diallo, Umario and Marie, Tessa",
@@ -190,14 +190,14 @@
           "points": 7
         },
         {
-          "couple": "Katona, Zsolt and Potys, Timea",
-          "place": "7",
-          "points": 3
-        },
-        {
           "couple": "Modrzynski, Przemyslaw and Zybura, Magdalena",
           "place": "6",
           "points": 4
+        },
+        {
+          "couple": "Katona, Zsolt and Potys, Timea",
+          "place": "7",
+          "points": 3
         }
       ]
     },
@@ -205,19 +205,14 @@
       "title": "Professional Open Smooth (W/T/F/VW)",
       "entries": [
         {
-          "couple": "Barney, Alan and Rund, Megan",
-          "place": "5",
-          "points": 7
-        },
-        {
-          "couple": "Crandall, Natalie and Pigotskyy, Oleksiy",
+          "couple": "Pigotskyy, Oleksiy and Crandall, Natalie",
           "place": "1",
           "points": 20
         },
         {
-          "couple": "Hannigan, Dave and Kosheleva, Yulia",
-          "place": "4",
-          "points": 9
+          "couple": "McCann, Stephen and McCann, Elisa",
+          "place": "2",
+          "points": 15
         },
         {
           "couple": "Leonov, Maksim and Zhuchenko, Anastasia",
@@ -225,9 +220,14 @@
           "points": 12
         },
         {
-          "couple": "McCann, Elisa and McCann, Stephen",
-          "place": "2",
-          "points": 15
+          "couple": "Hannigan, Dave and Kosheleva, Yulia",
+          "place": "4",
+          "points": 9
+        },
+        {
+          "couple": "Barney, Alan and Rund, Megan",
+          "place": "5",
+          "points": 7
         }
       ]
     }
