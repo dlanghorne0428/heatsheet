@@ -69,20 +69,21 @@ class RankingDataFile():
             couple["avg_pts"] = round(couple["total_pts"] / len(couple["results"]), 2)  
             
     
-    def find_couple_by_last_name(self, couple_name):
+    def find_couple_by_last_name(self, couple_name, start=0):
         ''' 
         This routine searches the list for the specified couple 
         based on last name only.
         '''
         couple_last_name = get_last_name(couple_name)
-        index = -1
-        for i in self.info:
-            index += 1
-            db_last_name = get_last_name(i["name"])
+        index = start
+        while index < len(self.info):
+            db_last_name = get_last_name(self.info[index]["name"])
             # search for the couple, using last names only
             if db_last_name == couple_last_name:
                 # exit loop after couple found, let user determine match
                 return index
+            else:
+                index += 1
         else:        
             return -1    
         
@@ -126,10 +127,29 @@ class RankingDataFile():
         '''This method returns the name of the couple at the specified index.'''
         return self.info[index]["name"]
     
+    def get_list_of_names(self):
+        '''This method returns a list of all the couple names in the data.'''
+        name_list = []
+        i = 0
+        while i < len(self.info):
+            name_list.append(self.get_name_at_index(i))
+            i += 1
+        return name_list
+            
 
     def sort_couples(self, key="name", reverse=False):
         '''This method sorts the couples by the selected key.'''    
         self.info.sort(key=itemgetter(key), reverse=reverse)
+
+
+    def add_couple(self, couple_name, result):
+        new_item = dict()
+        new_item["name"] = couple_name
+        new_item["results"] = []
+        new_item["results"].append(result)
+        new_item["total_pts"] = result["points"]
+        new_item["avg_pts"] = result["points"]
+        self.info.append(new_item)
         
                 
     def save(self):
