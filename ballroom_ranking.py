@@ -9,7 +9,7 @@
 import wx
 #import yattag
 
-from process_comp_results import RankingDataFile, event_level
+from season_ranking import RankingDataFile, event_level
 from comp_results_file import Comp_Results_File
 
 
@@ -171,8 +171,6 @@ class AppFrame(wx.Frame):
 
 
     def PreOpenProcess(self):
-        # populate the style control
-        self.SetStyleControl(Dance_Styles)  
         # set the state of the menu items
         self.fileMenu.Enable(wx.ID_OPEN, True)
         self.fileMenu.Enable(wx.ID_SAVE, False)
@@ -181,10 +179,12 @@ class AppFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_SORT_NAME, False)
         self.viewMenu.Enable(self.ID_VIEW_SORT_TOTAL_PTS, False)
         self.viewMenu.Enable(self.ID_VIEW_SORT_AVG_PTS, False) 
+        self.styles.Disable()
         self.butt_add_rslt.Disable()
         
     def PostOpenProcess(self):
         # populate the style control
+        self.styles.Enable()
         self.SetStyleControl(Dance_Styles)  
         # set the state of the menu items
         self.fileMenu.Enable(wx.ID_OPEN, False)
@@ -258,13 +258,100 @@ class AppFrame(wx.Frame):
         self.heat_name.ChangeValue(h["title"])
         self.SetStylePerHeatTitle(h["title"])
         entries = h["entries"]
-        self.SetHeatResultsCtrl(entries)   
+        self.SetHeatResultsCtrl(entries)  
+        
+        
+    def Highlight_Entry(self, index, focus=False):
+        self.list_ctrl.Select(index)
+        if focus:
+            self.list_ctrl.Focus(db_index)        
 
+
+    def Setup_For_Next_Heat(self):
+        # populate the next heat - if there is one
+        self.current_heat_idx += 1
+        if self.current_heat_idx < len(self.heat_results):
+            self.Display_Heat_Results(self.heat_results[self.current_heat_idx])
+        else:
+            # clear the competition name
+            self.comp_name.ChangeValue("--Competition Name--")
+            self.heat_name.ChangeValue("--Heat Name--")
+            self.butt_add_rslt.Disable()
+            self.heat_list_ctrl.DeleteAllItems()
+            
+        self.butt_add_rslt.SetLabel("Add Results to DB")
+ 
+ 
+    def Build_Result(self, entry, level):
+        result = dict()
+        result["comp_name"] = self.comp_name.GetValue()
+        result["level"] = level 
+        result["place"] = entry["place"]
+        result["points"] = entry["points"]  
+        return result
+    
+    
+    def Handle_No_Match_Couple(self, couple, result):
+        '''
+        This routine is called when the couple's entire name was not found in the 
+        ranking database. 
+        '''
+        db_index = 0
+        while db_index > -1:            
+            # if not found, search again by last name only. 
+            db_index = self.current_couples.find_couple_by_last_name(couple, start=db_index)
+            if db_index > -1:
+                # if found this time, ask user if this is a match
+                db_name = self.current_couples.get_name_at_index(db_index)
+                message = couple + "\n\t with \n" + db_name
+                md = wx.MessageDialog(self, message, caption="Match?", style=wx.YES_NO)
+                if md.ShowModal() == wx.ID_YES:
+                    self.current_couples.add_result_to_couple(db_index, result)
+                    self.Highlight_Entry(db_index, result["place"] == 1)
+                    break
+                else:
+                    db_index += 1  # try to find another match 
+
+        else:
+            # if match not found again, try to match manually
+            message = "Search the list of couples for\n\n\t" + couple + ".\n\nSelect a matching couple and Press OK.\nTo add them as a new couple, Press Cancel."
+            self.current_couples.sort_couples()
+            names = self.current_couples.get_list_of_names()
+            md = wx.SingleChoiceDialog(self, message, caption="Find a Match", choices=names)
+            if md.ShowModal() == wx.ID_OK:
+                db_index = md.GetSelection() 
+                self.current_couples.add_result_to_couple(db_index, result)           
+            else: # add the couple to the database
+                self.current_couples.add_couple(couple, result) 
+            self.current_couples.sort_couples(key="avg_pts", reverse=True)
+    
+        
+    def Process_Heat(self):
+        # loop through the entries in the current heat
+        h = self.heat_results[self.current_heat_idx]
+        entries = h["entries"]
+        for entry in entries: 
+            # extract the couple's name from the entry
+            couple = entry["couple"]
+            # build a result dictionary with the comp name, level, placement, and points
+            result = self.Build_Result(entry, event_level(h["title"]))
+            # search for the couple in the database
+            db_index = self.current_couples.find_couple(couple)
+            # if found, add this result to the couple's spot in the database
+            if db_index > -1:
+                self.current_couples.add_result_to_couple(db_index, result)
+                self.Highlight_Entry(db_index, result["place"] == 1)
+            else:
+                self.Handle_No_Match_Couple(couple, result)
+
+        # after all the heat entries added, change button text
+        self.butt_add_rslt.SetLabel("Show Next Heat")        
+        
     
     def OnOpen(self, event):
         '''Launch a file dialog, open a heatsheet file, and process it.'''
 
-        dd = wx.DirDialog(self, "Open the Folder containing the Ranking Database", "./data")
+        dd = wx.DirDialog(self, "Open the Folder containing the Ranking Database", "./data/2019/!!2019_Results")
         if dd.ShowModal() == wx.ID_OK:
             folder_name = dd.GetPath()
             # open the five ranking files
@@ -299,60 +386,9 @@ class AppFrame(wx.Frame):
           - Show Next Heat
         '''
         if self.butt_add_rslt.GetLabel() == "Add Results to DB":
-            # loop through the entries in the current heat
-            h = self.heat_results[self.current_heat_idx]
-            entries = h["entries"]
-            for entry in entries: 
-                # extract the couple's name from the entry
-                couple = entry["couple"]
-                # build a result dictionary with the comp name, level, placement, and points
-                result = dict()
-                result["comp_name"] = self.comp_name.GetValue()
-                result["level"] = event_level(h["title"])
-                result["place"] = entry["place"]
-                result["points"] = entry["points"]
-                # search for the couple in the database
-                db_index = self.current_couples.find_couple(couple)
-                # if found, add this result to the couple's spot in the database
-                if db_index > -1:
-                    self.current_couples.add_result_to_couple(db_index, result)
-                    self.list_ctrl.Select(db_index)
-                    if result["place"] == "1":
-                        self.list_ctrl.Focus(db_index)
-                else:
-                    # if not found, search again by last name only. 
-                    db_index = self.current_couples.find_couple_by_last_name(couple)
-                    if db_index > -1:
-                        # if found this time, ask user if this is a match
-                        db_name = self.current_couples.get_name_at_index(db_index)
-                        message = couple + "\n\t with \n" + db_name
-                        md = wx.MessageDialog(self, message, caption="Match?", style=wx.YES_NO)
-                        if md.ShowModal() == wx.YES:
-                            self.current_couples.add_result_to_couple(db_index, result)
-                        self.list_ctrl.Select(db_index)
-                            # TODO: may need to try this multiple times
-                    else:
-                        # if not found again, it's an Error
-                        # TODO: may need to add these to an error file. 
-                        message = "Could not find " + couple
-                        md = wx.MessageDialog(self, message, caption="Error", style=wx.OK)
-                        md.ShowModal()
-
-            # after all the heat entries added, change button text
-            self.butt_add_rslt.SetLabel("Show Next Heat")
+            self.Process_Heat()
         else:
-            # populate the next heat - if there is one
-            self.current_heat_idx += 1
-            if self.current_heat_idx < len(self.heat_results):
-                self.Display_Heat_Results(self.heat_results[self.current_heat_idx])
-            else:
-                # clear the competition name
-                self.comp_name.ChangeValue("--Competition Name--")
-                self.heat_name.ChangeValue("--Heat Name--")
-                self.butt_add_rslt.Disable()
-                self.heat_list_ctrl.DeleteAllItems()
-                
-            self.butt_add_rslt.SetLabel("Add Results to DB")
+            self.Setup_For_Next_Heat()
         
         
     def OnAddCompResults(self, event):
