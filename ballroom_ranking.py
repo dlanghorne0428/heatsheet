@@ -171,8 +171,6 @@ class AppFrame(wx.Frame):
 
 
     def PreOpenProcess(self):
-        # populate the style control
-        self.SetStyleControl(Dance_Styles)  
         # set the state of the menu items
         self.fileMenu.Enable(wx.ID_OPEN, True)
         self.fileMenu.Enable(wx.ID_SAVE, False)
@@ -181,10 +179,12 @@ class AppFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_SORT_NAME, False)
         self.viewMenu.Enable(self.ID_VIEW_SORT_TOTAL_PTS, False)
         self.viewMenu.Enable(self.ID_VIEW_SORT_AVG_PTS, False) 
+        self.styles.Disable()
         self.butt_add_rslt.Disable()
         
     def PostOpenProcess(self):
         # populate the style control
+        self.styles.Enable()
         self.SetStyleControl(Dance_Styles)  
         # set the state of the menu items
         self.fileMenu.Enable(wx.ID_OPEN, False)
