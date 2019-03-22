@@ -13,6 +13,7 @@ import yattag
 
 import CompMngr_Heatsheet
 import CompMngrScoresheet
+from season_ranking import RankingDataFile
 
 def get_folder_name(filename):
     return os.path.dirname(filename)
@@ -73,9 +74,14 @@ class HelloFrame(wx.Frame):
         self.Bind(wx.EVT_BUTTON, self.OnSaveAs, self.butt_save)
         
         # Create a label for grabbing the results
-        st_rslt = wx.StaticText(pnl, label="Results", pos=(850, 105))
+        st_rslt = wx.StaticText(pnl, label="Results", pos=(850, 80))
         st_rslt.SetFont(font)
     
+        # Creata a button to get the rankings
+        self.butt_rank = wx.Button(pnl, label="Get Rankings", pos=(850, 110))
+        self.Bind(wx.EVT_BUTTON, self.OnGetRankings, self.butt_rank)  
+
+
         # Creata a button to get the results from a file
         self.butt_rslt = wx.Button(pnl, label="Get Results", pos=(850, 135))
         self.Bind(wx.EVT_BUTTON, self.OnGetResults, self.butt_rslt)  
@@ -247,6 +253,7 @@ class HelloFrame(wx.Frame):
         self.SetCoupleControl(self.heatsheet.couple_name_list())
         self.butt_rslt.Disable()
         self.butt_rslt_url.Disable()
+        self.butt_rank.Disable()
         self.heat_cat.Clear()
         self.heat_selection.SetMax(1)
         self.list_ctrl.DeleteAllItems()
@@ -612,15 +619,23 @@ class HelloFrame(wx.Frame):
                     self.list_ctrl.Append(c)
                 self.list_ctrl.Append(h.dummy_info())
                 
-        # enable the buttons that process the results. 
+        # enable the buttons that process the results and get rankings
         self.butt_rslt.Enable()
         self.butt_rslt_url.Enable()
+        self.butt_rank.Enable()
+        
+    
+    def ChangeColumnTitle(self, col_index, title):
+        col_title = self.list_ctrl.GetColumn(col_index)
+        col_title.SetText(title)
+        self.list_ctrl.SetColumn(col_index, col_title)        
         
         
     def ProcessScoresheet(self, filename):
         '''This method processes the scoresheet for a competition.'''
         item_index = 0
-        Time_and_Results_Column = 6  
+        Results_Column = 6  
+        self.ChangeColumnTitle(Results_Column, "Result")
         
         # open the file
         self.scoresheet.open_scoresheet_from_file(filename)        
@@ -653,12 +668,30 @@ class HelloFrame(wx.Frame):
                     # for all couples, update the names and add the result to the GUI
                     couple_names = e["dancer"] + " and " + e["partner"]
                     self.list_ctrl.SetItem(item_index, 5, couple_names)    
-                    self.list_ctrl.SetItem(item_index, Time_and_Results_Column, str(e["result"]))
+                    self.list_ctrl.SetItem(item_index, Results_Column, str(e["result"]))
                     item_index += 1
 
                 item_index += 1  # get past line that separates the events        
         self.scoresheet.close()
         
+    def find_matching_couple_in_ranking(self, c):
+        index = -1
+        attempt = 0
+        while index == -1:
+            attempt += 1
+            if attempt == 1:
+                couple_names = c["dancer"] + " and " + c["partner"]
+                index = self.current_couples.find_couple(couple_names)
+            elif attempt == 2:
+                couple_names = c["partner"] + " and " +  c["dancer"]
+                index = self.current_couples.find_couple(couple_names)
+            elif attempt == 3:
+                index = self.current_couples.find_couple_by_last_name(couple_names)
+            else:
+                break
+        
+        return index
+    
 
     def OnGetResults(self, event):
         '''This method processes the competition results from a file.'''
@@ -666,6 +699,51 @@ class HelloFrame(wx.Frame):
         if fd.ShowModal() == wx.ID_OK:
             filename = fd.GetPath()
             self.ProcessScoresheet(filename)
+            
+            
+    def OnGetRankings(self, event):
+        Ranking_Column = 6  
+        self.ChangeColumnTitle(Ranking_Column, "Ranking")
+        item_index = 0
+        folder_name = "./data/2019/!!2019_Results"
+        
+        # open the five ranking files
+        self.smooth_couples = RankingDataFile(folder_name + "/smooth_results.json")
+        self.rhythm_couples = RankingDataFile(folder_name + "/rhythm_results.json")
+        self.standard_couples = RankingDataFile(folder_name + "/standard_results.json")
+        self.latin_couples = RankingDataFile(folder_name + "/latin_results.json")
+        self.showdance_couples = RankingDataFile(folder_name + "/cabaret_showdance_results.json")         
+
+        # loop through all the pro heats
+        for num in range(1, self.heatsheet.max_pro_heat_num + 1):
+            h = CompMngr_Heatsheet.Heat("Pro heat", number=num)
+            
+            # get a heat report with the entries form the heatsheet
+            report = self.heatsheet.heat_report(h)
+            if len(report["entries"]) > 0:
+                
+                # find the style of this heat
+                if "Smooth" in report["info"]:
+                    self.current_couples = self.smooth_couples
+                elif "Rhythm" in report["info"]:
+                    self.current_couples = self.rhythm_couples
+                elif "Latin" in report["info"]:
+                    self.current_couples = self.latin_couples
+                elif "Standard" in report["info"] or "Ballroom" in report["info"]:
+                    self.current_couples = self.standard_couples      
+                else:
+                    self.current_couples = self.showdance_couples
+                    
+                self.current_couples.sort_couples(key="avg_pts", reverse=True)
+                for e in report["entries"]:
+                    index = self.find_matching_couple_in_ranking(e)
+                    rank = self.current_couples.find_highest_rank(index)
+                    if rank == "0":
+                        self.list_ctrl.SetItem(item_index,Ranking_Column, "Unknown")
+                    else:
+                        self.list_ctrl.SetItem(item_index, Ranking_Column, rank)                     
+                    item_index += 1
+                item_index += 1
 
                     
     def OnGetResultsFromURL(self, event):
