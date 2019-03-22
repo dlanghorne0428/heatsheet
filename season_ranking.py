@@ -69,6 +69,28 @@ class RankingDataFile():
             couple["avg_pts"] = round(couple["total_pts"] / len(couple["results"]), 2)  
             
     
+    def find_highest_rank(self, index):
+        '''
+        This routine is called on a list of couples sorted by ranking.
+        It starts at the given index and moves upward in the list to 
+        see if the couple at that index is tied with any couples listed above.
+        If ties are found, it returns the highest index as a string, with a
+        T- prefix to indicate a tie.
+        '''
+        tie_found = False
+        while index > 0:
+            if self.info[index-1]["avg_pts"] == self.info[index]["avg_pts"]:
+                tie_found = True
+                index -= 1
+            else:
+                break;
+        # add one to the zero-based index to obtain the ranking
+        if tie_found:
+            return "T-" + str(index+1)
+        else:
+            return str(index+1)
+
+    
     def find_couple_by_last_name(self, couple_name, start=0):
         ''' 
         This routine searches the list for the specified couple 
