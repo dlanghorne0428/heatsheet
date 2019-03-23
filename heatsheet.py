@@ -7,8 +7,8 @@
 
 import os.path
 import wx
-from urllib.request import Request, urlopen
-import urllib.request, urllib.parse, urllib.error
+import requests
+import urllib.parse, urllib.error
 import yattag
 
 import CompMngr_Heatsheet
@@ -413,8 +413,7 @@ class HelloFrame(wx.Frame):
             split_path = pathname.split("/")
             # extract the filename to save it locally
             filename = split_path[len(split_path)-1]
-            req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-            webpage = urlopen(req)
+            response = requests.get(url)
 
             # prompt the user to save the file, 
             # use the data folder and extracted filename as defaults
@@ -430,13 +429,9 @@ class HelloFrame(wx.Frame):
                 self.folder_name = get_folder_name(output_filename)
                 # open the file and convert the webpage to UTF-8 text
                 output_file = open(output_filename, "wb")
-                for line in webpage:
-                    line = line.decode("1252")
-                    line = line.encode("utf-8")
-                    output_file.write(line)
+                encoded_text = response.text.encode()
+                output_file.write(encoded_text)
                 output_file.close()
-            
-            webpage.close()
             
             # now that the data from the URL is saved to a file, process it
             self.heatsheet.process(output_filename)
@@ -674,6 +669,48 @@ class HelloFrame(wx.Frame):
                 item_index += 1  # get past line that separates the events        
         self.scoresheet.close()
         
+    
+    def OnGetResults(self, event):
+        '''This method processes the competition results from a file.'''
+        fd = wx.FileDialog(self, "Open a Scoresheet File", self.folder_name, "")
+        if fd.ShowModal() == wx.ID_OK:
+            filename = fd.GetPath()
+            self.ProcessScoresheet(filename)
+            
+            
+    def OnGetResultsFromURL(self, event):
+        '''
+        This method obtains the competition results from a URL, saves the data to a file,
+        then processes the results from that file.
+        '''
+ 
+        # prompt the user to enter a URL and extract the filename portion
+        text_dialog = wx.TextEntryDialog(self, "Enter the website URL of a competition scoresheet")
+        if text_dialog.ShowModal() == wx.ID_OK:
+            url = text_dialog.GetValue()
+            pathname = urllib.parse.urlparse(url).path
+            split_path = pathname.split("/")
+            filename = split_path[len(split_path)-1]
+            response = requests.get(url)
+
+            # ask the user to save the file, using the extracted filename as the default
+            fd = wx.FileDialog(self, "Save the Scoresheet to a file", 
+                               defaultDir = "./data",
+                               defaultFile = filename,
+                               style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
+            
+            # decode the HTML data obtained from the web and convert to UTF-8
+            if fd.ShowModal() == wx.ID_OK:
+                output_filename = fd.GetPath()
+                output_file = open(output_filename, "wb")
+                encoded_text = response.text.encode()
+                output_file.write(encoded_text)
+                output_file.close()
+                
+                # process the results from the file
+                self.ProcessScoresheet(output_filename)
+
+
     def find_matching_couple_in_ranking(self, c):
         index = -1
         attempt = 0
@@ -692,15 +729,7 @@ class HelloFrame(wx.Frame):
         
         return index
     
-
-    def OnGetResults(self, event):
-        '''This method processes the competition results from a file.'''
-        fd = wx.FileDialog(self, "Open a Scoresheet File", self.folder_name, "")
-        if fd.ShowModal() == wx.ID_OK:
-            filename = fd.GetPath()
-            self.ProcessScoresheet(filename)
-            
-            
+    
     def OnGetRankings(self, event):
         Ranking_Column = 6  
         self.ChangeColumnTitle(Ranking_Column, "Ranking")
@@ -746,44 +775,6 @@ class HelloFrame(wx.Frame):
                 item_index += 1
 
                     
-    def OnGetResultsFromURL(self, event):
-        '''
-        This method obtains the competition results from a URL, saves the data to a file,
-        then processes the results from that file.
-        '''
- 
-        # prompt the user to enter a URL and extract the filename portion
-        text_dialog = wx.TextEntryDialog(self, "Enter the website URL of a competition scoresheet")
-        if text_dialog.ShowModal() == wx.ID_OK:
-            url = text_dialog.GetValue()
-            pathname = urllib.parse.urlparse(url).path
-            split_path = pathname.split("/")
-            filename = split_path[len(split_path)-1]
-            req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-            webpage = urlopen(req)
-
-            # ask the user to save the file, using the extracted filename as the default
-            fd = wx.FileDialog(self, "Save the Scoresheet to a file", 
-                               defaultDir = "./data",
-                               defaultFile = filename,
-                               style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
-            
-            # decode the HTML data obtained from the web and convert to UTF-8
-            if fd.ShowModal() == wx.ID_OK:
-                output_filename = fd.GetPath()
-                output_file = open(output_filename, "wb")
-                for line in webpage:
-                    line = line.decode("1252")
-                    line = line.encode("utf-8")
-                    output_file.write(line)
-                output_file.close()
-                
-                # process the results from the file
-                self.ProcessScoresheet(output_filename)
-            
-            webpage.close()                    
-
-
     def OnCompSolos(self, event):
         '''This method generates a list of all the solos in the competition.'''
         self.list_ctrl.DeleteAllItems()
