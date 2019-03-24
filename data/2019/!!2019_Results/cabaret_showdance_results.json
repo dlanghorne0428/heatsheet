@@ -88,10 +88,41 @@
         "level": "Open",
         "place": "1",
         "points": 20
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "2",
+        "points": 15
       }
     ],
-    "total_pts": 55,
-    "avg_pts": 18.33
+    "total_pts": 70,
+    "avg_pts": 17.5
+  },
+  {
+    "name": "Tuft, Jaimee and Tuft, Travis",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 52,
+    "avg_pts": 17.33
   },
   {
     "name": "Haklin, Nick and Ford, Sarah",
@@ -111,38 +142,6 @@
     ],
     "total_pts": 32,
     "avg_pts": 16.0
-  },
-  {
-    "name": "Tuft, Jaimee and Tuft, Travis",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "level": "Open",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Open",
-        "place": "3",
-        "points": 12
-      }
-    ],
-    "total_pts": 32,
-    "avg_pts": 16.0
-  },
-  {
-    "name": "Antonelli, Vincent and Falciano, Stephanie",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "level": "Open",
-        "place": "2",
-        "points": 15
-      }
-    ],
-    "total_pts": 15,
-    "avg_pts": 15.0
   },
   {
     "name": "Bazylev, Alexei and Splender, Darya",
@@ -240,25 +239,6 @@
     "avg_pts": 14.0
   },
   {
-    "name": "Kudashev, Ivan and Ksusha",
-    "results": [
-      {
-        "comp_name": "Platinum Dancesport Classic",
-        "level": "Open",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "Superstars Dancesport",
-        "level": "Open",
-        "place": "5",
-        "points": 7
-      }
-    ],
-    "total_pts": 27,
-    "avg_pts": 13.5
-  },
-  {
     "name": "Puzhevich, Igor and Puzhevich, Anastasia",
     "results": [
       {
@@ -276,6 +256,31 @@
     ],
     "total_pts": 27,
     "avg_pts": 13.5
+  },
+  {
+    "name": "Kudashev, Ivan and Ksusha",
+    "results": [
+      {
+        "comp_name": "Platinum Dancesport Classic",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "5",
+        "points": 7
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      }
+    ],
+    "total_pts": 39,
+    "avg_pts": 13.0
   },
   {
     "name": "Golubev, Valerii and Golubeva, Margarita",
@@ -348,6 +353,25 @@
     "avg_pts": 12.0
   },
   {
+    "name": "Antonelli, Vincent and Falciano, Stephanie",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 15
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "5",
+        "points": 7
+      }
+    ],
+    "total_pts": 22,
+    "avg_pts": 11.0
+  },
+  {
     "name": "Zhukovskyi, Nikita and Boiko, Angelina",
     "results": [
       {
@@ -355,10 +379,16 @@
         "level": "Open",
         "place": "3",
         "points": 12
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "4",
+        "points": 9
       }
     ],
-    "total_pts": 12,
-    "avg_pts": 12.0
+    "total_pts": 21,
+    "avg_pts": 10.5
   },
   {
     "name": "Romero, Alexis and Yang, Yu-Wen",
@@ -393,6 +423,19 @@
     "avg_pts": 9.5
   },
   {
+    "name": "Austin III, James and Monroe, Violet",
+    "results": [
+      {
+        "comp_name": "First Coast Classic Dancesport Championships",
+        "level": "Open",
+        "place": "4",
+        "points": 9
+      }
+    ],
+    "total_pts": 9,
+    "avg_pts": 9.0
+  },
+  {
     "name": "Black, Jamie and Elliott, Samantha",
     "results": [
       {
@@ -410,19 +453,6 @@
     "results": [
       {
         "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Open",
-        "place": "4",
-        "points": 9
-      }
-    ],
-    "total_pts": 9,
-    "avg_pts": 9.0
-  },
-  {
-    "name": "Austin III, James and Monroe, Violet",
-    "results": [
-      {
-        "comp_name": "First Coast Classic Dancesport Championships",
         "level": "Open",
         "place": "4",
         "points": 9

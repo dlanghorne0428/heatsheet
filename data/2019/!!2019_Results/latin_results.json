@@ -26,6 +26,25 @@
     "avg_pts": 32.0
   },
   {
+    "name": "Maletin, Ilya and Maier, Polina",
+    "results": [
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "4",
+        "points": 20
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "1",
+        "points": 40
+      }
+    ],
+    "total_pts": 60,
+    "avg_pts": 30.0
+  },
+  {
     "name": "Likhachev, Evgeny and Levina, Maria",
     "results": [
       {
@@ -70,10 +89,16 @@
         "level": "Open",
         "place": "6",
         "points": 12
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "3",
+        "points": 25
       }
     ],
-    "total_pts": 116,
-    "avg_pts": 23.2
+    "total_pts": 141,
+    "avg_pts": 23.5
   },
   {
     "name": "Bilopukhov, Mykhailo and Shchypilina, Anastasiia",
@@ -176,6 +201,25 @@
     "avg_pts": 21.67
   },
   {
+    "name": "Karaulov, Alexey and Karaulov, Vlada",
+    "results": [
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "7",
+        "points": 9
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "2",
+        "points": 32
+      }
+    ],
+    "total_pts": 41,
+    "avg_pts": 20.5
+  },
+  {
     "name": "Altukhov, Sasha and Murillo, Cheyenne",
     "results": [
       {
@@ -195,19 +239,6 @@
         "comp_name": "Golden Star Dancesport Championships",
         "level": "Rising Star",
         "place": "1",
-        "points": 20
-      }
-    ],
-    "total_pts": 20,
-    "avg_pts": 20.0
-  },
-  {
-    "name": "Maletin, Ilya and Maier, Polina",
-    "results": [
-      {
-        "comp_name": "2019 New York Dance Festival 2019",
-        "level": "Open",
-        "place": "4",
         "points": 20
       }
     ],
@@ -246,10 +277,16 @@
         "level": "Open",
         "place": "2",
         "points": 24
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "5",
+        "points": 15
       }
     ],
-    "total_pts": 94,
-    "avg_pts": 18.8
+    "total_pts": 109,
+    "avg_pts": 18.17
   },
   {
     "name": "Kazlauskas, Jonas and Ilo, Kathleen",
@@ -382,6 +419,25 @@
     "avg_pts": 13.25
   },
   {
+    "name": "Malakhov, Nikita and Vlasova, Nadezda",
+    "results": [
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "4",
+        "points": 20
+      }
+    ],
+    "total_pts": 26,
+    "avg_pts": 13.0
+  },
+  {
     "name": "Voloshko, Andrii and Kyrylenko, Kateryna",
     "results": [
       {
@@ -462,10 +518,16 @@
         "level": "Open",
         "place": "3",
         "points": 20
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 12
       }
     ],
-    "total_pts": 127,
-    "avg_pts": 12.7
+    "total_pts": 139,
+    "avg_pts": 12.64
   },
   {
     "name": "Stoynov, Simeon and Stoynova, Kora",
@@ -485,6 +547,43 @@
     ],
     "total_pts": 25,
     "avg_pts": 12.5
+  },
+  {
+    "name": "Diallo, Umario and Marie, Tessa",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "level": "Open",
+        "place": "5",
+        "points": 7
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 20
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "6",
+        "points": 12
+      }
+    ],
+    "total_pts": 62,
+    "avg_pts": 12.4
   },
   {
     "name": "Barov, Dmitry and Meller, Joanna",
@@ -537,49 +636,6 @@
     "avg_pts": 12.0
   },
   {
-    "name": "Osai, Malachi and Chan, Freda",
-    "results": [
-      {
-        "comp_name": "Eastern US Dancesport Championships",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "Eastern US Dancesport Championships",
-        "level": "Open",
-        "place": "4",
-        "points": 16
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 15
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "level": "Open",
-        "place": "6",
-        "points": 9
-      },
-      {
-        "comp_name": "2019 New York Dance Festival 2019",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 12
-      },
-      {
-        "comp_name": "2019 New York Dance Festival 2019",
-        "level": "Open",
-        "place": "quarters",
-        "points": 3
-      }
-    ],
-    "total_pts": 65,
-    "avg_pts": 10.83
-  },
-  {
     "name": "Alekseev, Aleksei and Derevleva, Ekaterina",
     "results": [
       {
@@ -623,59 +679,77 @@
     "avg_pts": 10.5
   },
   {
-    "name": "Nabiullin, Alexandr and Ryabova, Valeriya",
+    "name": "Hustiuc, Daniel and Li, Jessica",
     "results": [
       {
-        "comp_name": "Eastern US Dancesport Championships",
-        "level": "Open",
-        "place": "5",
-        "points": 12
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "level": "Open",
-        "place": "5",
-        "points": 12
-      },
-      {
-        "comp_name": "Maryland Dancesport",
-        "level": "Open",
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Rising Star",
         "place": "2",
         "points": 15
       },
       {
-        "comp_name": "2019 New York Dance Festival 2019",
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
         "level": "Open",
-        "place": "quarters",
-        "points": 3
+        "place": "Semis",
+        "points": 6
       }
     ],
-    "total_pts": 42,
+    "total_pts": 21,
     "avg_pts": 10.5
   },
   {
-    "name": "Diallo, Umario and Marie, Tessa",
+    "name": "Osai, Malachi and Chan, Freda",
     "results": [
       {
-        "comp_name": "City Lights Open",
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Eastern US Dancesport Championships",
         "level": "Open",
-        "place": "5",
-        "points": 7
+        "place": "4",
+        "points": 16
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 15
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "6",
+        "points": 9
       },
       {
         "comp_name": "2019 New York Dance Festival 2019",
         "level": "Rising Star",
-        "place": "3",
-        "points": 20
+        "place": "5",
+        "points": 12
       },
       {
         "comp_name": "2019 New York Dance Festival 2019",
         "level": "Open",
         "place": "quarters",
         "points": 3
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 9
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
       }
     ],
-    "total_pts": 30,
+    "total_pts": 80,
     "avg_pts": 10.0
   },
   {
@@ -704,42 +778,41 @@
     "avg_pts": 9.67
   },
   {
-    "name": "Karaulov, Alexey and Karaulov, Vlada",
+    "name": "Nabiullin, Alexandr and Ryabova, Valeriya",
     "results": [
       {
-        "comp_name": "2019 New York Dance Festival 2019",
+        "comp_name": "Eastern US Dancesport Championships",
         "level": "Open",
-        "place": "7",
-        "points": 9
-      }
-    ],
-    "total_pts": 9,
-    "avg_pts": 9.0
-  },
-  {
-    "name": "Shvetsov, Artur and LinSong, Phoenix",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 9
+        "place": "5",
+        "points": 12
       },
       {
         "comp_name": "Golden Star Dancesport Championships",
         "level": "Open",
-        "place": "Semis",
-        "points": 4
+        "place": "5",
+        "points": 12
       },
       {
         "comp_name": "Maryland Dancesport",
         "level": "Open",
-        "place": "3",
-        "points": 12
+        "place": "2",
+        "points": 15
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
       }
     ],
-    "total_pts": 25,
-    "avg_pts": 8.333333333333334
+    "total_pts": 48,
+    "avg_pts": 9.6
   },
   {
     "name": "Kulpin and Kulpina",
@@ -758,31 +831,6 @@
       }
     ],
     "total_pts": 16,
-    "avg_pts": 8.0
-  },
-  {
-    "name": "Goncharov, Dymytrii and Lutsenko, Tetiana",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "6",
-        "points": 4
-      },
-      {
-        "comp_name": "Nashville Starz",
-        "level": "Open",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "Nashville Starz",
-        "level": "Open",
-        "place": "2",
-        "points": 10
-      }
-    ],
-    "total_pts": 24,
     "avg_pts": 8.0
   },
   {
@@ -923,6 +971,37 @@
     "avg_pts": 7.0
   },
   {
+    "name": "Goncharov, Dymytrii and Lutsenko, Tetiana",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "6",
+        "points": 4
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "2",
+        "points": 10
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 27,
+    "avg_pts": 6.75
+  },
+  {
     "name": "Elkin, Bozhidar and Dumanova, Elena",
     "results": [
       {
@@ -1016,25 +1095,6 @@
     "avg_pts": 6.2
   },
   {
-    "name": "Davies, Jake and Kalinina, Alyona",
-    "results": [
-      {
-        "comp_name": "2019 New York Dance Festival 2019",
-        "level": "Open",
-        "place": "quarters",
-        "points": 3
-      },
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Open",
-        "place": "6",
-        "points": 9
-      }
-    ],
-    "total_pts": 12,
-    "avg_pts": 6.0
-  },
-  {
     "name": "Gelashvili, Levan and Kolman, Lily",
     "results": [
       {
@@ -1060,9 +1120,47 @@
         "level": "Open",
         "place": "quarters",
         "points": 3
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 7
       }
     ],
-    "total_pts": 24,
+    "total_pts": 31,
+    "avg_pts": 6.2
+  },
+  {
+    "name": "Chibishev, Ihor and Zhosan, Diana",
+    "results": [
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      }
+    ],
+    "total_pts": 6,
+    "avg_pts": 6
+  },
+  {
+    "name": "Davies, Jake and Kalinina, Alyona",
+    "results": [
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "6",
+        "points": 9
+      }
+    ],
+    "total_pts": 12,
     "avg_pts": 6.0
   },
   {
@@ -1110,16 +1208,40 @@
     "avg_pts": 6.0
   },
   {
-    "name": "Malakhov, Nikita and Vlasova, Nadezda",
+    "name": "Shvetsov, Artur and LinSong, Phoenix",
     "results": [
       {
-        "comp_name": "2019 New York Dance Festival 2019",
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 9
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
         "level": "Open",
         "place": "Semis",
-        "points": 6
+        "points": 4
+      },
+      {
+        "comp_name": "Maryland Dancesport",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
       }
     ],
-    "total_pts": 6,
+    "total_pts": 30,
     "avg_pts": 6.0
   },
   {
@@ -1151,6 +1273,25 @@
       }
     ],
     "total_pts": 22,
+    "avg_pts": 5.5
+  },
+  {
+    "name": "Savich, Stanislav and Prosser, Nicole",
+    "results": [
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 5
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      }
+    ],
+    "total_pts": 11,
     "avg_pts": 5.5
   },
   {
@@ -1204,29 +1345,22 @@
     "avg_pts": 5.25
   },
   {
-    "name": "Dai, Jason Chao and Litvak, Alina",
+    "name": "Solomakha, Dmitriy and Sevillano, Gabriela",
     "results": [
       {
-        "comp_name": "2019 New York Dance Festival 2019",
-        "level": "Rising Star",
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
         "place": "Semis",
-        "points": 5
-      }
-    ],
-    "total_pts": 5,
-    "avg_pts": 5.0
-  },
-  {
-    "name": "Savich, Stanislav and Prosser, Nicole",
-    "results": [
+        "points": 4
+      },
       {
-        "comp_name": "2019 New York Dance Festival 2019",
-        "level": "Rising Star",
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
         "place": "Semis",
-        "points": 5
+        "points": 6
       }
     ],
-    "total_pts": 5,
+    "total_pts": 10,
     "avg_pts": 5.0
   },
   {
@@ -1242,6 +1376,25 @@
         "comp_name": "Eastern US Dancesport Championships",
         "level": "Open",
         "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 9,
+    "avg_pts": 4.5
+  },
+  {
+    "name": "Dai, Jason Chao and Litvak, Alina",
+    "results": [
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 5
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Rising Star",
+        "place": "6",
         "points": 4
       }
     ],
@@ -1336,32 +1489,6 @@
     "avg_pts": 4.0
   },
   {
-    "name": "Trillo, Manuel and Larina, Tatyana",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "level": "Rising Star",
-        "place": "6",
-        "points": 4
-      }
-    ],
-    "total_pts": 4,
-    "avg_pts": 4.0
-  },
-  {
-    "name": "Solomakha, Dmitriy and Sevillano, Gabriela",
-    "results": [
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Open",
-        "place": "Semis",
-        "points": 4
-      }
-    ],
-    "total_pts": 4,
-    "avg_pts": 4.0
-  },
-  {
     "name": "Liu, Liang and Wang, Xiyue",
     "results": [
       {
@@ -1394,6 +1521,19 @@
     "avg_pts": 4.0
   },
   {
+    "name": "Trillo, Manuel and Larina, Tatyana",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 4
+      }
+    ],
+    "total_pts": 4,
+    "avg_pts": 4.0
+  },
+  {
     "name": "Horvath-Krol, Dariusz and Zosin, Alisa",
     "results": [
       {
@@ -1407,10 +1547,35 @@
         "level": "Open",
         "place": "Semis",
         "points": 4
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
       }
     ],
-    "total_pts": 7,
-    "avg_pts": 3.5
+    "total_pts": 12,
+    "avg_pts": 3.0
+  },
+  {
+    "name": "Petrosyan, Erik and Taryan, Margarita",
+    "results": [
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 3,
+    "avg_pts": 3.0
   },
   {
     "name": "Tozik, Vitalii and Downey, Angelica",
@@ -1439,17 +1604,36 @@
     "avg_pts": 3.0
   },
   {
-    "name": "Petrosyan, Erik and Taryan, Margarita",
+    "name": "Matakov, Vesko and Mariscal, Andrea",
     "results": [
       {
-        "comp_name": "2019 New York Dance Festival 2019",
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
         "level": "Open",
         "place": "quarters",
         "points": 3
       }
     ],
     "total_pts": 3,
-    "avg_pts": 3.0
+    "avg_pts": 3
+  },
+  {
+    "name": "Grant and Wadsworth",
+    "results": [
+      {
+        "comp_name": "California Open",
+        "level": "Rising Star",
+        "place": "7",
+        "points": 1
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 5,
+    "avg_pts": 2.5
   },
   {
     "name": "Guzovskyi, Mykyta and Serbina, Ekaterina",
@@ -1465,9 +1649,21 @@
         "level": "Open",
         "place": "quarters",
         "points": 3
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
       }
     ],
-    "total_pts": 5,
+    "total_pts": 10,
     "avg_pts": 2.5
   },
   {
@@ -1509,44 +1705,12 @@
     "avg_pts": 2.5
   },
   {
-    "name": "Grant and Wadsworth",
-    "results": [
-      {
-        "comp_name": "California Open",
-        "level": "Rising Star",
-        "place": "7",
-        "points": 1
-      },
-      {
-        "comp_name": "California Open",
-        "level": "Open",
-        "place": "Semis",
-        "points": 4
-      }
-    ],
-    "total_pts": 5,
-    "avg_pts": 2.5
-  },
-  {
     "name": "Ly, Han and Li, Crystal",
     "results": [
       {
         "comp_name": "2019 New York Dance Festival 2019",
         "level": "Rising Star",
         "place": "quarters",
-        "points": 2
-      }
-    ],
-    "total_pts": 2,
-    "avg_pts": 2.0
-  },
-  {
-    "name": "Pavlovic, Nenad and Kogan, Vivienne",
-    "results": [
-      {
-        "comp_name": "Eastern US Dancesport Championships",
-        "level": "Rising Star",
-        "place": "5",
         "points": 2
       }
     ],
@@ -1564,6 +1728,25 @@
       }
     ],
     "total_pts": 2,
+    "avg_pts": 2.0
+  },
+  {
+    "name": "Pavlovic, Nenad and Kogan, Vivienne",
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 2
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      }
+    ],
+    "total_pts": 4,
     "avg_pts": 2.0
   },
   {

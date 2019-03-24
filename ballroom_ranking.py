@@ -264,7 +264,7 @@ class AppFrame(wx.Frame):
     def Highlight_Entry(self, index, focus=False):
         self.list_ctrl.Select(index)
         if focus:
-            self.list_ctrl.Focus(db_index)        
+            self.list_ctrl.Focus(index)        
 
 
     def Setup_For_Next_Heat(self):
@@ -291,7 +291,7 @@ class AppFrame(wx.Frame):
         return result
     
     
-    def Handle_No_Match_Couple(self, couple, result):
+    def Handle_No_Match_Couple(self, entry, result):
         '''
         This routine is called when the couple's entire name was not found in the 
         ranking database. 
@@ -299,30 +299,35 @@ class AppFrame(wx.Frame):
         db_index = 0
         while db_index > -1:            
             # if not found, search again by last name only. 
-            db_index = self.current_couples.find_couple_by_last_name(couple, start=db_index)
+            db_index = self.current_couples.find_couple_by_last_name(entry["couple"], start=db_index)
             if db_index > -1:
                 # if found this time, ask user if this is a match
                 db_name = self.current_couples.get_name_at_index(db_index)
-                message = couple + "\n\t with \n" + db_name
+                message = entry["couple"] + "\n\t with \n" + db_name
                 md = wx.MessageDialog(self, message, caption="Match?", style=wx.YES_NO)
                 if md.ShowModal() == wx.ID_YES:
+                    # if user says yes, add the result and update the entry name
                     self.current_couples.add_result_to_couple(db_index, result)
-                    self.Highlight_Entry(db_index, result["place"] == 1)
+                    entry["couple"] = db_name
                     break
                 else:
                     db_index += 1  # try to find another match 
 
         else:
             # if match not found again, try to match manually
-            message = "Search the list of couples for\n\n\t" + couple + ".\n\nSelect a matching couple and Press OK.\nTo add them as a new couple, Press Cancel."
+            message = "Search the list of couples for\n\n\t" + entry["couple"] + ".\n\nSelect a matching couple and Press OK.\nTo add them as a new couple, Press Cancel."
+            # sort the couples by name to assist in finding a match
             self.current_couples.sort_couples()
             names = self.current_couples.get_list_of_names()
             md = wx.SingleChoiceDialog(self, message, caption="Find a Match", choices=names)
             if md.ShowModal() == wx.ID_OK:
+                # if user finds a match, add the result and update the entry name
                 db_index = md.GetSelection() 
-                self.current_couples.add_result_to_couple(db_index, result)           
+                self.current_couples.add_result_to_couple(db_index, result)  
+                entry["couple"] = names[db_index]
             else: # add the couple to the database
-                self.current_couples.add_couple(couple, result) 
+                self.current_couples.add_couple(entry["couple"], result) 
+            # re-sort by ranking
             self.current_couples.sort_couples(key="avg_pts", reverse=True)
     
         
@@ -340,11 +345,19 @@ class AppFrame(wx.Frame):
             # if found, add this result to the couple's spot in the database
             if db_index > -1:
                 self.current_couples.add_result_to_couple(db_index, result)
-                self.Highlight_Entry(db_index, result["place"] == 1)
             else:
-                self.Handle_No_Match_Couple(couple, result)
+                self.Handle_No_Match_Couple(entry, result)
 
-        # after all the heat entries added, change button text
+        # after all the heat entries added, re-display sorted list
+        self.current_couples.sort_couples(key="avg_pts", reverse=True)
+        self.SetListControl(self.current_couples)
+        # highlight all the entries from this heat, showing their new ranking
+        first_time = True
+        for entry in entries:
+            db_index = self.current_couples.find_couple(entry["couple"])
+            self.Highlight_Entry(db_index, first_time)
+            first_time = False
+        # change button text for next action
         self.butt_add_rslt.SetLabel("Show Next Heat")        
         
     
