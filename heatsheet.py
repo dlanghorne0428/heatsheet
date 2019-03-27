@@ -621,6 +621,9 @@ class HelloFrame(wx.Frame):
         
     
     def ChangeColumnTitle(self, col_index, title):
+        '''
+        This method changes the title of a specific column of the list control.
+        '''
         col_title = self.list_ctrl.GetColumn(col_index)
         col_title.SetText(title)
         self.list_ctrl.SetColumn(col_index, col_title)        
@@ -712,6 +715,11 @@ class HelloFrame(wx.Frame):
 
 
     def find_matching_couple_in_ranking(self, c):
+        '''
+        This method attempts to find the couple in the current ranking database.
+        If found, the entry index of the couple is returned.
+        If not found, -1 is returned.
+        '''
         index = -1
         attempt = 0
         while index == -1:
@@ -724,6 +732,9 @@ class HelloFrame(wx.Frame):
                 index = self.current_couples.find_couple(couple_names)
             elif attempt == 3:
                 index = self.current_couples.find_couple_by_last_name(couple_names)
+            elif attempt == 4:
+                couple_names = c["dancer"] + " and " + c["partner"]
+                index = self.current_couples.find_couple_by_last_name(couple_names)            
             else:
                 break
         
@@ -731,6 +742,11 @@ class HelloFrame(wx.Frame):
     
     
     def OnGetRankings(self, event):
+        ''' 
+        This method populates the list control in the GUI with the ranking values
+        of the current couples in all the pro heats.
+        '''
+        Name_Column = 5
         Ranking_Column = 6  
         self.ChangeColumnTitle(Ranking_Column, "Ranking")
         item_index = 0
@@ -748,10 +764,10 @@ class HelloFrame(wx.Frame):
             h = CompMngr_Heatsheet.Heat("Pro heat", number=num)
             
             # get a heat report with the entries form the heatsheet
-            report = self.heatsheet.heat_report(h)
+            report = self.heatsheet.heat_report(h, sorted=True)
             if len(report["entries"]) > 0:
                 
-                # find the style of this heat
+                # find the style of this heat and sort the appropriate ranking database
                 if "Smooth" in report["info"]:
                     self.current_couples = self.smooth_couples
                 elif "Rhythm" in report["info"]:
@@ -764,13 +780,21 @@ class HelloFrame(wx.Frame):
                     self.current_couples = self.showdance_couples
                     
                 self.current_couples.sort_couples(key="avg_pts", reverse=True)
+                
+                # for each entry in the current heat
                 for e in report["entries"]:
+                    # find the couple in the database and get the name as stored in the database
                     index = self.find_matching_couple_in_ranking(e)
+                    db_name = self.current_couples.get_name_at_index(index)
+                    # get the ranking for the couple, which may include ties.
                     rank = self.current_couples.find_highest_rank(index)
                     if rank == "0":
-                        self.list_ctrl.SetItem(item_index,Ranking_Column, "Unknown")
+                        # couple not found in the ranking database
+                        self.list_ctrl.SetItem(item_index, Ranking_Column, "Unknown")
                     else:
-                        self.list_ctrl.SetItem(item_index, Ranking_Column, rank)                     
+                        # update the ranking and the couple name in the GUI
+                        self.list_ctrl.SetItem(item_index, Ranking_Column, rank)
+                        self.list_ctrl.SetItem(item_index, Name_Column, db_name)
                     item_index += 1
                 item_index += 1
 
