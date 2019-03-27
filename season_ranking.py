@@ -165,6 +165,7 @@ class RankingDataFile():
 
 
     def add_couple(self, couple_name, result):
+        '''This routine adds a new couple to the database with their first result'''
         new_item = dict()
         new_item["name"] = couple_name
         new_item["results"] = []

@@ -12,12 +12,13 @@ import wx
 from season_ranking import RankingDataFile, event_level
 from comp_results_file import Comp_Results_File
 
-
+''' These are the separate dance styles being ranked '''
 Dance_Styles = [
     "American Rhythm",
     "American Smooth", 
     "International Ballroom",
     "International Latin",
+    # showdance, theater arts, and cabaret are lumped together
     "Showdance / Cabaret / Theater Arts"
     ]
 
@@ -171,6 +172,9 @@ class AppFrame(wx.Frame):
 
 
     def PreOpenProcess(self):
+        '''
+        This method is called before the ranking database has been opened.
+        '''
         # set the state of the menu items
         self.fileMenu.Enable(wx.ID_OPEN, True)
         self.fileMenu.Enable(wx.ID_SAVE, False)
@@ -182,7 +186,11 @@ class AppFrame(wx.Frame):
         self.styles.Disable()
         self.butt_add_rslt.Disable()
         
+        
     def PostOpenProcess(self):
+        '''
+        This method is called after the ranking database has been opened.
+        '''    
         # populate the style control
         self.styles.Enable()
         self.SetStyleControl(Dance_Styles)  
@@ -195,6 +203,7 @@ class AppFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_SORT_TOTAL_PTS, True)
         self.viewMenu.Enable(self.ID_VIEW_SORT_AVG_PTS, True)   
         
+        
     def SetStyleControl(self, dance_style_list):
         ''' This method populates the GUI with a list of dancer names.'''
         self.styles.Clear()
@@ -203,6 +212,10 @@ class AppFrame(wx.Frame):
         
         
     def SetListControl(self, couple_list):
+        '''
+        This routine populates the list control with the rankings for
+        the current style.
+        '''
         self.list_ctrl.DeleteAllItems()
         for i in range(couple_list.length()):
             couple_item = couple_list.format_item_as_columns(i)
@@ -210,6 +223,10 @@ class AppFrame(wx.Frame):
      
      
     def DisplayCouplesForStyle(self, index):
+        '''
+        This routine selects the correct ranking database for the 
+        specific style of dance, and then updates the GUI
+        '''
         if index == 0:
             self.current_couples = self.rhythm_couples
         elif index == 1:
@@ -221,11 +238,16 @@ class AppFrame(wx.Frame):
         else:
             self.current_couples = self.showdance_couples
         
+        # sort the couples in order of their ranking
         self.current_couples.sort_couples(key="avg_pts", reverse=True)
         self.SetListControl(self.current_couples)
         
         
     def SetHeatResultsCtrl(self, entry_list):
+        '''
+        This method populates the results for a singe heat on
+        the right side of the GUI.
+        '''
         self.heat_list_ctrl.DeleteAllItems()
         for e in entry_list:
             entry_item = [e["couple"]]
@@ -234,11 +256,20 @@ class AppFrame(wx.Frame):
      
         
     def OnStyleSelection(self, event):
+        '''
+        When the user selects a dance style from the GUI, this 
+        method calls the routine to display the list of couples from
+        the appropriate ranking database.
+        '''
         index = self.styles.GetSelection()
         self.DisplayCouplesForStyle(index)
 
         
     def SetStylePerHeatTitle(self, title):
+        ''' 
+        Based on the heat title, this method selects the proper ranking
+        database and updates the GUI
+        '''
         if "Smooth" in title:
             index = 1
         elif "Rhythm" in title:
@@ -250,11 +281,17 @@ class AppFrame(wx.Frame):
         else:
             index = 4
         
+        # make sure the GUI style selection matches the list of couples
         self.styles.SetSelection(index)
         self.DisplayCouplesForStyle(index)
 
 
     def Display_Heat_Results(self, h):
+        '''
+        For the given heat, this method extracts the title and then
+        calls other methods to update the GUI based on the style of
+        the heat and the results of that heat.
+        '''
         self.heat_name.ChangeValue(h["title"])
         self.SetStylePerHeatTitle(h["title"])
         entries = h["entries"]
@@ -262,12 +299,21 @@ class AppFrame(wx.Frame):
         
         
     def Highlight_Entry(self, index, focus=False):
+        '''
+        This method highlighs a couple in the ranking listCtrl
+        based on the selected index, and optionally focuses the
+        listCtrl on that item.
+        '''
         self.list_ctrl.Select(index)
         if focus:
             self.list_ctrl.Focus(index)        
 
 
     def Setup_For_Next_Heat(self):
+        '''
+        This method updates the GUI with the results of the next heat.
+        If this was the last heat of this comp, the GUI is updated to reflect that.
+        '''
         # populate the next heat - if there is one
         self.current_heat_idx += 1
         if self.current_heat_idx < len(self.heat_results):
@@ -283,6 +329,11 @@ class AppFrame(wx.Frame):
  
  
     def Build_Result(self, entry, level):
+        '''
+        This method build a result object based on the entry and the 
+        level of the heat. This result will be added to the couple's record
+        in the ranking database.
+        '''
         result = dict()
         result["comp_name"] = self.comp_name.GetValue()
         result["level"] = level 
@@ -315,9 +366,11 @@ class AppFrame(wx.Frame):
 
         else:
             # if match not found again, try to match manually
-            message = "Search the list of couples for\n\n\t" + entry["couple"] + ".\n\nSelect a matching couple and Press OK.\nTo add them as a new couple, Press Cancel."
+            message = "Search the list of couples for\n\n\t" + entry["couple"] + \
+                      ".\n\nSelect a matching couple and Press OK.\nTo add them as a new couple, Press Cancel."
             # sort the couples by name to assist in finding a match
             self.current_couples.sort_couples()
+            # Build a dialog with the names of the existing couples
             names = self.current_couples.get_list_of_names()
             md = wx.SingleChoiceDialog(self, message, caption="Find a Match", choices=names)
             if md.ShowModal() == wx.ID_OK:
@@ -332,6 +385,10 @@ class AppFrame(wx.Frame):
     
         
     def Process_Heat(self):
+        '''
+        This method processes the results of a single heat and adds those 
+        results to the appopriate ranking database.
+        '''
         # loop through the entries in the current heat
         h = self.heat_results[self.current_heat_idx]
         entries = h["entries"]
@@ -379,14 +436,17 @@ class AppFrame(wx.Frame):
            
 
     def OnSortByAvg(self, event):
+        ''' This method is called from the menu to sort the current couples by ranking.'''
         self.current_couples.sort_couples("avg_pts", True)
         self.SetListControl(self.current_couples)
         
     def OnSortByName(self, event):
+        ''' This method is called from the menu to sort the current couples by name.'''
         self.current_couples.sort_couples("name", False)
         self.SetListControl(self.current_couples)    
 
     def OnSortByTotal(self, event):
+        ''' This method is called from the menu to sort the current couples by total points.'''
         self.current_couples.sort_couples("total_pts", True)
         self.SetListControl(self.current_couples)   
         
@@ -405,6 +465,12 @@ class AppFrame(wx.Frame):
         
         
     def OnAddCompResults(self, event):
+        '''
+        This method is called from the menu to add the results of a competition to
+        the group of ranking databases 
+        '''
+        
+        # ask the user to select a competition. 
         dd = wx.DirDialog(self, "Open the Folder containing the Competition Results", "./data")
         if dd.ShowModal() == wx.ID_OK:
             folder_name = dd.GetPath()   
@@ -422,6 +488,7 @@ class AppFrame(wx.Frame):
      
      
     def OnSave(self, event):
+        '''This method is called to save the updated ranking databases.'''
         self.smooth_couples.save()
         self.rhythm_couples.save()
         self.standard_couples.save()
