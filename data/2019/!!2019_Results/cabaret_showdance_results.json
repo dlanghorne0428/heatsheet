@@ -157,6 +157,19 @@
     "avg_pts": 15.0
   },
   {
+    "name": "Gore, Gerard and Grohoske, Ellie",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "2",
+        "points": 15
+      }
+    ],
+    "total_pts": 15,
+    "avg_pts": 15.0
+  },
+  {
     "name": "Smith, Craig and Harvey, Andrea",
     "results": [
       {
@@ -193,6 +206,25 @@
     ],
     "total_pts": 15,
     "avg_pts": 15.0
+  },
+  {
+    "name": "Black, Jamie and Elliott, Samantha",
+    "results": [
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "4",
+        "points": 9
+      },
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 29,
+    "avg_pts": 14.5
   },
   {
     "name": "Merz, Timmy and Strashnikova, Diana",
@@ -233,10 +265,16 @@
         "level": "Open",
         "place": "2",
         "points": 15
+      },
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "3",
+        "points": 12
       }
     ],
-    "total_pts": 42,
-    "avg_pts": 14.0
+    "total_pts": 54,
+    "avg_pts": 13.5
   },
   {
     "name": "Puzhevich, Igor and Puzhevich, Anastasia",
@@ -258,31 +296,6 @@
     "avg_pts": 13.5
   },
   {
-    "name": "Kudashev, Ivan and Ksusha",
-    "results": [
-      {
-        "comp_name": "Platinum Dancesport Classic",
-        "level": "Open",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "Superstars Dancesport",
-        "level": "Open",
-        "place": "5",
-        "points": 7
-      },
-      {
-        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
-        "level": "Open",
-        "place": "3",
-        "points": 12
-      }
-    ],
-    "total_pts": 39,
-    "avg_pts": 13.0
-  },
-  {
     "name": "Golubev, Valerii and Golubeva, Margarita",
     "results": [
       {
@@ -302,6 +315,31 @@
         "level": "Open",
         "place": "2",
         "points": 15
+      }
+    ],
+    "total_pts": 39,
+    "avg_pts": 13.0
+  },
+  {
+    "name": "Kudashev, Ivan and Ksusha",
+    "results": [
+      {
+        "comp_name": "Platinum Dancesport Classic",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "5",
+        "points": 7
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "3",
+        "points": 12
       }
     ],
     "total_pts": 39,
@@ -391,6 +429,19 @@
     "avg_pts": 10.5
   },
   {
+    "name": "Ballard, Vince and Perez, Tania",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 10,
+    "avg_pts": 10.0
+  },
+  {
     "name": "Romero, Alexis and Yang, Yu-Wen",
     "results": [
       {
@@ -436,10 +487,10 @@
     "avg_pts": 9.0
   },
   {
-    "name": "Black, Jamie and Elliott, Samantha",
+    "name": "Dombrowik, Douglas and Fox, Angel",
     "results": [
       {
-        "comp_name": "Superstars Dancesport",
+        "comp_name": "Heritage Classic Ballroom Championships",
         "level": "Open",
         "place": "4",
         "points": 9
@@ -449,10 +500,10 @@
     "avg_pts": 9.0
   },
   {
-    "name": "Dombrowik, Douglas and Fox, Angel",
+    "name": "Thomas, Joel and Barakat, Samantha",
     "results": [
       {
-        "comp_name": "Heritage Classic Ballroom Championships",
+        "comp_name": "Music City Invitational",
         "level": "Open",
         "place": "4",
         "points": 9
@@ -479,6 +530,19 @@
     ],
     "total_pts": 16,
     "avg_pts": 8.0
+  },
+  {
+    "name": "Sanderson, Dan and Hicks, Kristin",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "2",
+        "points": 7
+      }
+    ],
+    "total_pts": 7,
+    "avg_pts": 7.0
   },
   {
     "name": "Wills, Woodrow and Petkova, Neli",
