@@ -127,6 +127,13 @@ class AppFrame(wx.Frame):
         self.editMenu = wx.Menu()
         addCompItem = self.editMenu.Append(self.ID_EDIT_ADD_COMP, "Add Competition Results",
                                            "Add the results from a single competition to the database")
+        self.editMenu.AppendSeparator()
+        findItem = self.editMenu.Append(wx.ID_FIND, "Find Couple Name\tCTRL-F",
+                                        "Search for a couple by name")
+        replItem = self.editMenu.Append(wx.ID_REPLACE, "Replace Couple Name",
+                                        "Update the name of a couple")
+        addItem = self.editMenu.Append(wx.ID_ADD, "Add New Couple", 
+                                       "Add a new couple to the current ranking database")
         
         # Now a View Menu for filtering data and generating reports
         self.viewMenu = wx.Menu()
@@ -138,7 +145,6 @@ class AppFrame(wx.Frame):
         sortAvgItem = self.viewMenu.Append(self.ID_VIEW_SORT_AVG_PTS, "Sort by Ranking",
                                            "Sort the Couples by their average points per event")
         self.viewMenu.AppendSeparator()
-
 
         # Now a help menu for the about item
         helpMenu = wx.Menu()
@@ -168,6 +174,11 @@ class AppFrame(wx.Frame):
         self.Bind(wx.EVT_MENU, self.OnSortByName, sortNameItem)
         self.Bind(wx.EVT_MENU, self.OnSortByTotal, sortTotalItem) 
         self.Bind(wx.EVT_MENU, self.OnAddCompResults, addCompItem)
+        self.Bind(wx.EVT_MENU, self.OnFindSetup, findItem)
+        self.Bind(wx.EVT_FIND, self.OnFind)
+        self.Bind(wx.EVT_MENU, self.OnReplaceSetup, replItem)
+        self.Bind(wx.EVT_FIND_REPLACE, self.OnReplace)
+        self.Bind(wx.EVT_MENU, self.OnAddNewCouple, addItem)
         self.Bind(wx.EVT_MENU, self.OnAbout, aboutItem)
 
 
@@ -180,6 +191,9 @@ class AppFrame(wx.Frame):
         self.fileMenu.Enable(wx.ID_SAVE, False)
         self.fileMenu.Enable(wx.ID_CLOSE, False)
         self.editMenu.Enable(self.ID_EDIT_ADD_COMP, False)
+        self.editMenu.Enable(wx.ID_FIND, False)
+        self.editMenu.Enable(wx.ID_REPLACE, False)
+        self.editMenu.Enable(wx.ID_ADD, False)
         self.viewMenu.Enable(self.ID_VIEW_SORT_NAME, False)
         self.viewMenu.Enable(self.ID_VIEW_SORT_TOTAL_PTS, False)
         self.viewMenu.Enable(self.ID_VIEW_SORT_AVG_PTS, False) 
@@ -199,6 +213,9 @@ class AppFrame(wx.Frame):
         self.fileMenu.Enable(wx.ID_SAVE, True)
         self.fileMenu.Enable(wx.ID_CLOSE, True)
         self.editMenu.Enable(self.ID_EDIT_ADD_COMP, True)
+        self.editMenu.Enable(wx.ID_FIND, True)
+        self.editMenu.Enable(wx.ID_REPLACE, True)   
+        self.editMenu.Enable(wx.ID_ADD, True)
         self.viewMenu.Enable(self.ID_VIEW_SORT_NAME, True)
         self.viewMenu.Enable(self.ID_VIEW_SORT_TOTAL_PTS, True)
         self.viewMenu.Enable(self.ID_VIEW_SORT_AVG_PTS, True)   
@@ -241,6 +258,7 @@ class AppFrame(wx.Frame):
         # sort the couples in order of their ranking
         self.current_couples.sort_couples(key="avg_pts", reverse=True)
         self.SetListControl(self.current_couples)
+        self.last_find_index = -1
         
         
     def SetHeatResultsCtrl(self, entry_list):
@@ -298,13 +316,13 @@ class AppFrame(wx.Frame):
         self.SetHeatResultsCtrl(entries)  
         
         
-    def Highlight_Entry(self, index, focus=False):
+    def Highlight_Entry(self, index, select=True, focus=False):
         '''
         This method highlighs a couple in the ranking listCtrl
         based on the selected index, and optionally focuses the
         listCtrl on that item.
         '''
-        self.list_ctrl.Select(index)
+        self.list_ctrl.Select(index, select)
         if focus:
             self.list_ctrl.Focus(index)        
 
@@ -412,7 +430,7 @@ class AppFrame(wx.Frame):
         first_time = True
         for entry in entries:
             db_index = self.current_couples.find_couple(entry["couple"])
-            self.Highlight_Entry(db_index, first_time)
+            self.Highlight_Entry(db_index, focus=first_time)
             first_time = False
         # change button text for next action
         self.butt_add_rslt.SetLabel("Show Next Heat")        
@@ -487,6 +505,102 @@ class AppFrame(wx.Frame):
             self.butt_add_rslt.Enable()
      
      
+    def OnFind(self, event):
+        '''
+        This method processes the find event from the Find or FindReplace dialog.
+        '''
+        # get the string from the dialog and search for it.
+        # for now, assume the last name is entered - TODO, make a more general search
+        fstring = self.fr_data.GetFindString()
+        index = self.current_couples.find_couple_by_last_name(fstring)
+        if index == -1:
+            # if not found, display error dialog
+            md = wx.MessageDialog(self, "Couple Not Found", caption="Error", style=wx.OK)
+            md.ShowModal()
+        else:
+            # if found, remove highlighting from previous entry
+            if self.last_find_index > -1:
+                self.Highlight_Entry(self.last_find_index, select=False)
+            # highlight the entry that was found and remember the index
+            self.Highlight_Entry(index, focus=True)
+            self.last_find_index = index
+            
+
+    def OnReplace(self, event):
+        ''' This method processes the replace event from the FindReplace dialog.'''        
+        Name_Column = 1
+        # get the find and replace strings and search for the find string
+        rstring = self.fr_data.GetReplaceString()
+        fstring = self.fr_data.GetFindString()
+        index = self.current_couples.find_couple_by_last_name(fstring)
+        if index == -1:
+            # if the find string not found, display error
+            md = wx.MessageDialog(self, "Couple Not Found", caption="Error", style=wx.OK)
+            md.ShowModal()
+        else:
+            # if find string found, clear previous highlighting
+            if self.last_find_index > -1:
+                self.Highlight_Entry(self.last_find_index, select=False)
+            # highlight the modified entry and remember the index
+            self.Highlight_Entry(index, focus=True)
+            self.last_find_index = index
+            # get the full name at this index from the list
+            curr_string = self.list_ctrl.GetItem(index, Name_Column).GetText()
+            # prompt the user to make sure they want to replace
+            message = "Replace " + curr_string + "\nwith " + rstring
+            md = wx.MessageDialog(self, message, "Are You Sure?", style=wx.YES_NO)
+            if md.ShowModal() == wx.ID_YES:            
+                # set the name of this index to the replace string from the dialog
+                # update both the GUI and the database object
+                self.list_ctrl.SetItem(index, Name_Column, rstring)
+                self.current_couples.set_name_at_index(index, rstring)
+
+
+    def OnFindSetup(self, event):
+        '''
+        This method is called from the menu to find a couple by last name.
+        '''
+        self.last_find_index = -1
+        self.fr_data = wx.FindReplaceData()
+        self.fr_data.SetFlags(wx.FR_DOWN)
+        self.fr_dia = wx.FindReplaceDialog(self.list_ctrl, self.fr_data, "Find Couple")
+        self.fr_dia.Show()
+        
+
+    def OnReplaceSetup(self, event):
+        '''
+        This method is called from the menu to replace/update a couple's name.
+        '''
+        if self.list_ctrl.GetSelectedItemCount() == 1:
+            index = self.list_ctrl.GetNextSelected(-1)
+            self.last_find_index = index
+            self.fr_data = wx.FindReplaceData()
+            self.fr_data.SetFindString(self.current_couples.get_name_at_index(index))
+            self.fr_data.SetReplaceString(self.current_couples.get_name_at_index(index))
+            self.fr_data.SetFlags(wx.FR_DOWN)
+            self.fr_dia = wx.FindReplaceDialog(self.list_ctrl, self.fr_data, "Replace Couple Name", wx.FR_REPLACEDIALOG)
+            self.fr_dia.Show()
+        else:
+            md = wx.MessageDialog(self, "Please select a couple from the list.", caption="Error", style=wx.OK)
+            md.ShowModal()            
+            
+    
+    def OnAddNewCouple(self, event):
+        '''This method is called from the menu to add a new couple name to the current dance style ranking.'''
+        # prompt the user to enter the names of a couple
+        text_dialog = wx.TextEntryDialog(self, "Enter the couple name in this format:\nLast, First and Last, First")
+        if text_dialog.ShowModal() == wx.ID_OK: 
+            # get the name and the current style of dance
+            name = text_dialog.GetValue()
+            current_style = self.styles.GetString(self.styles.GetSelection())
+            # verify that the user wants to add this couple to the current style
+            message = "Add " + name + " to\n" + current_style + "?"
+            md = wx.MessageDialog(self, message, "Are You Sure?", style=wx.YES_NO)
+            if md.ShowModal() == wx.ID_YES:
+                # use None to indicate there are no results for this new couple
+                self.current_couples.add_couple(name, None)
+            
+    
     def OnSave(self, event):
         '''This method is called to save the updated ranking databases.'''
         self.smooth_couples.save()

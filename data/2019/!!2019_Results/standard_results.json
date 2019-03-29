@@ -791,7 +791,7 @@
     "avg_pts": 8.2
   },
   {
-    "name": "Kozun and Pyrgiel",
+    "name": "Kozun, Artur and Pyrgiel, Monika",
     "results": [
       {
         "comp_name": "First Coast Classic Dancesport Championships",
@@ -1109,6 +1109,19 @@
     "avg_pts": 5.4
   },
   {
+    "name": "Dawson, Staz and Gonyea, Jacklyn",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "1",
+        "points": 5
+      }
+    ],
+    "total_pts": 5,
+    "avg_pts": 5.0
+  },
+  {
     "name": "Montagnese, Bradley and Tania, Trigili",
     "results": [
       {
@@ -1289,6 +1302,25 @@
     "avg_pts": 3.67
   },
   {
+    "name": "Pavlyuk, Mechyslav and Arnold, Gemma",
+    "results": [
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 7,
+    "avg_pts": 3.5
+  },
+  {
     "name": "Teleha, Oleg and Brecker, Michelle",
     "results": [
       {
@@ -1320,25 +1352,6 @@
     "avg_pts": 3.5
   },
   {
-    "name": "Pavlyuk, Mechyslav and Arnold, Gemma",
-    "results": [
-      {
-        "comp_name": "2019 New York Dance Festival 2019",
-        "level": "Open",
-        "place": "quarters",
-        "points": 3
-      },
-      {
-        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
-        "level": "Open",
-        "place": "Semis",
-        "points": 4
-      }
-    ],
-    "total_pts": 7,
-    "avg_pts": 3.5
-  },
-  {
     "name": "Berkey, Kent and Ota, Yuko",
     "results": [
       {
@@ -1362,6 +1375,19 @@
     ],
     "total_pts": 10,
     "avg_pts": 3.33
+  },
+  {
+    "name": "Stockton, Andrew and Smith, Rachel",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "2",
+        "points": 3
+      }
+    ],
+    "total_pts": 3,
+    "avg_pts": 3.0
   },
   {
     "name": "Wojciechewski, Oskar and Holody, Karolina",
@@ -1408,6 +1434,19 @@
     "avg_pts": 2.5
   },
   {
+    "name": "Lipford, Stephen and Collins, Shayne",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "3",
+        "points": 2
+      }
+    ],
+    "total_pts": 2,
+    "avg_pts": 2.0
+  },
+  {
     "name": "Pollock, Ira and Sun, Noelle",
     "results": [
       {
@@ -1438,5 +1477,18 @@
     ],
     "total_pts": 4,
     "avg_pts": 2.0
+  },
+  {
+    "name": "Hoffman, Ian and Houska, Melissa",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "4",
+        "points": 1
+      }
+    ],
+    "total_pts": 1,
+    "avg_pts": 1.0
   }
 ]
