@@ -149,6 +149,12 @@ class RankingDataFile():
         '''This method returns the name of the couple at the specified index.'''
         return self.info[index]["name"]
     
+    
+    def set_name_at_index(self, index, new_name):
+        '''This method updates the name of the couple at the specified index.'''
+        self.info[index]["name"] = new_name
+    
+
     def get_list_of_names(self):
         '''This method returns a list of all the couple names in the data.'''
         name_list = []
@@ -164,14 +170,18 @@ class RankingDataFile():
         self.info.sort(key=itemgetter(key), reverse=reverse)
 
 
-    def add_couple(self, couple_name, result):
+    def add_couple(self, couple_name, result=None):
         '''This routine adds a new couple to the database with their first result'''
         new_item = dict()
         new_item["name"] = couple_name
         new_item["results"] = []
-        new_item["results"].append(result)
-        new_item["total_pts"] = result["points"]
-        new_item["avg_pts"] = result["points"]
+        if result is not None:
+            new_item["results"].append(result)
+            new_item["total_pts"] = result["points"]
+            new_item["avg_pts"] = result["points"]
+        else:
+            new_item["total_pts"] = 0
+            new_item["avg_pts"] = 0
         self.info.append(new_item)
         
                 
