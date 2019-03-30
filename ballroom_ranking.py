@@ -199,6 +199,7 @@ class AppFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_SORT_AVG_PTS, False) 
         self.styles.Disable()
         self.butt_add_rslt.Disable()
+        self.unsaved_updates = False
         
         
     def PostOpenProcess(self):
@@ -377,6 +378,7 @@ class AppFrame(wx.Frame):
                 if md.ShowModal() == wx.ID_YES:
                     # if user says yes, add the result and update the entry name
                     self.current_couples.add_result_to_couple(db_index, result)
+                    self.unsaved_updates = True
                     entry["couple"] = db_name
                     break
                 else:
@@ -395,9 +397,11 @@ class AppFrame(wx.Frame):
                 # if user finds a match, add the result and update the entry name
                 db_index = md.GetSelection() 
                 self.current_couples.add_result_to_couple(db_index, result)  
+                self.unsaved_updates = True
                 entry["couple"] = names[db_index]
             else: # add the couple to the database
                 self.current_couples.add_couple(entry["couple"], result) 
+                self.unsaved_updates = True
             # re-sort by ranking
             self.current_couples.sort_couples(key="avg_pts", reverse=True)
     
@@ -420,6 +424,7 @@ class AppFrame(wx.Frame):
             # if found, add this result to the couple's spot in the database
             if db_index > -1:
                 self.current_couples.add_result_to_couple(db_index, result)
+                self.unsaved_updates = True
             else:
                 self.Handle_No_Match_Couple(entry, result)
 
@@ -554,6 +559,7 @@ class AppFrame(wx.Frame):
                 # update both the GUI and the database object
                 self.list_ctrl.SetItem(index, Name_Column, rstring)
                 self.current_couples.set_name_at_index(index, rstring)
+                self.unsaved_updates = True
 
 
     def OnFindSetup(self, event):
@@ -599,6 +605,7 @@ class AppFrame(wx.Frame):
             if md.ShowModal() == wx.ID_YES:
                 # use None to indicate there are no results for this new couple
                 self.current_couples.add_couple(name, None)
+                self.unsaved_updates = True
             
     
     def OnSave(self, event):
@@ -607,18 +614,24 @@ class AppFrame(wx.Frame):
         self.rhythm_couples.save()
         self.standard_couples.save()
         self.latin_couples.save()
-        self.showdance_couples.save()         
+        self.showdance_couples.save()  
+        self.unsaved_updates = False
          
 
     def OnAbout(self, event):
         '''Display an About Dialog'''
-        wx.MessageBox("Version 1.0",
+        wx.MessageBox("Version 1.01",
                       "Ballroom Competition Ranking Database",
                       wx.OK|wx.ICON_INFORMATION)
         
 
     def OnExit(self, event):
-        '''Close the frame, terminating the application.'''
+        '''If there are unsaved updates, make sure the user wants to close the application'''
+        if self.unsaved_updates:
+            message = "You have not saved the ranking database.\nExit Anyway?"
+            md = wx.MessageDialog(self, message, "Are You Sure?", style=wx.YES_NO | wx.NO_DEFAULT)
+            if md.ShowModal() == wx.ID_NO:
+                return
         self.Close(True)
 
 
