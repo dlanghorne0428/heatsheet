@@ -446,7 +446,7 @@ class HelloFrame(wx.Frame):
 
     def OnAbout(self, event):
         '''Display an About Dialog'''
-        wx.MessageBox("Version 1.0",
+        wx.MessageBox("Version 1.01",
                       "Analyze Heatsheet",
                       wx.OK|wx.ICON_INFORMATION)
         
