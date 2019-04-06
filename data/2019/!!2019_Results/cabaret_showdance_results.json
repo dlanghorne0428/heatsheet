@@ -19,9 +19,15 @@
         "level": "Open",
         "place": "1",
         "points": 20
+      },
+      {
+        "comp_name": "Windy City Open",
+        "level": "Open",
+        "place": "1",
+        "points": 20
       }
     ],
-    "total_pts": 60,
+    "total_pts": 80,
     "avg_pts": 20.0
   },
   {
@@ -50,22 +56,15 @@
         "level": "Open",
         "place": "1",
         "points": 20
-      }
-    ],
-    "total_pts": 80,
-    "avg_pts": 20.0
-  },
-  {
-    "name": "Pohl, Zachary and Freilich, Ariel",
-    "results": [
+      },
       {
-        "comp_name": "St Louis Star Ball Championships ",
+        "comp_name": "Michigan Dance Challenge",
         "level": "Open",
         "place": "1",
         "points": 20
       }
     ],
-    "total_pts": 20,
+    "total_pts": 100,
     "avg_pts": 20.0
   },
   {
@@ -125,23 +124,29 @@
     "avg_pts": 17.33
   },
   {
-    "name": "Haklin, Nick and Ford, Sarah",
+    "name": "Pohl, Zachary and Freilich, Ariel",
     "results": [
       {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "3",
-        "points": 12
-      },
-      {
-        "comp_name": "Indiana Challenge - Add web page option",
+        "comp_name": "St Louis Star Ball Championships ",
         "level": "Open",
         "place": "1",
         "points": 20
+      },
+      {
+        "comp_name": "Windy City Open",
+        "level": "Open",
+        "place": "2",
+        "points": 15
+      },
+      {
+        "comp_name": "Michigan Dance Challenge",
+        "level": "Open",
+        "place": "3",
+        "points": 12
       }
     ],
-    "total_pts": 32,
-    "avg_pts": 16.0
+    "total_pts": 47,
+    "avg_pts": 15.67
   },
   {
     "name": "Bazylev, Alexei and Splender, Darya",
@@ -161,6 +166,19 @@
     "results": [
       {
         "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "2",
+        "points": 15
+      }
+    ],
+    "total_pts": 15,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Sinitsa, Max and Seliverstova, Tatiana",
+    "results": [
+      {
+        "comp_name": "Michigan Dance Challenge",
         "level": "Open",
         "place": "2",
         "points": 15
@@ -206,6 +224,31 @@
     ],
     "total_pts": 15,
     "avg_pts": 15.0
+  },
+  {
+    "name": "Haklin, Nick and Ford, Sarah",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Windy City Open",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      }
+    ],
+    "total_pts": 44,
+    "avg_pts": 14.67
   },
   {
     "name": "Black, Jamie and Elliott, Samantha",
@@ -487,6 +530,19 @@
     "avg_pts": 9.0
   },
   {
+    "name": "Bertini, Francesco and Bertini, Sabrina",
+    "results": [
+      {
+        "comp_name": "Michigan Dance Challenge",
+        "level": "Open",
+        "place": "4",
+        "points": 9
+      }
+    ],
+    "total_pts": 9,
+    "avg_pts": 9.0
+  },
+  {
     "name": "Dombrowik, Douglas and Fox, Angel",
     "results": [
       {
@@ -556,6 +612,19 @@
     ],
     "total_pts": 7,
     "avg_pts": 7.0
+  },
+  {
+    "name": "Levit, Sharone and Kolarova, Milena",
+    "results": [
+      {
+        "comp_name": "Michigan Dance Challenge",
+        "level": "Open",
+        "place": "5",
+        "points": 7
+      }
+    ],
+    "total_pts": 7,
+    "avg_pts": 7
   },
   {
     "name": "Kantin, Anthony and Ventura, Lisa",
