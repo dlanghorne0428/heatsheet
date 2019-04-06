@@ -3,6 +3,7 @@ import requests
 from couple import Couple
 from dancer import Dancer
 from heat import Heat
+from heatlist import Heatlist
 
 
 def get_name(line):
@@ -35,9 +36,16 @@ class NdcaPremHeat(Heat):
                 index += 1
             self.heat_number = int(number_string[:index])
             self.extra = number_string[index:]
-            print(self.number, self.extra)
         start_pos = cols[3].find("-desc") + len("-desc") + 2
         self.info = cols[3][start_pos:]
+        if "Professional" in self.info:
+            self.category = "Pro heat"
+        elif "Formation" in self.info:
+            self.category = "Formation"
+        elif "Solo Star" in self.info:
+            self.category = "Heat"
+        elif "Solo" in self.info:
+            self.category = "Solo"        
         self.dancer = dancer.name
         self.code = dancer.code
         self.partner = partner
@@ -56,27 +64,15 @@ class NdcaPremDancer(Dancer):
         self.code = fields[0][pos+1:-1]
         
 
-class NdcaPremHeatlist():
+class NdcaPremHeatlist(Heatlist):
     
     def __init__(self):
-        self.dancers = list()
-        self.couples = list()
-        self.max_heat_num = 0
-        self.max_pro_heat_num = 0
+        super().__init__()
         
     # look for an age division on the given line. Return it or None if no age division found
     def get_age_division(self, line):
-        prefixes = ("L-", "G-", "AC-", "Professional", "Amateur", "Youth")  # valid prefixes for division
-        return_val = None
-        for p in prefixes:
-            start_pos = line.find(p)
-            if start_pos == -1:                 # if prefix not found, try another one
-                continue
-            else:
-                end_pos = line.find(" ",start_pos)  # if prefix found, look for blank that follows division
-                return_val = line[start_pos:end_pos]  # return the division string
-                break
-        return return_val    
+        prefixes = ("L-", "G-", "AC-", "Professional", "AM/AM", "Amateur", "Youth", "MF-", "M/F")  # valid prefixes for division
+        return super().get_age_division(line, prefixes)
     
         
     def get_heats_for_dancer(self, dancer, heat_data):
@@ -111,7 +107,6 @@ class NdcaPremHeatlist():
                         dancer.add_age_division(age)
                         couple.add_age_division(age)
                         if age == "Professional":
-                            h.set_category(age)
                             self.max_pro_heat_num = max(h.heat_number, self.max_pro_heat_num)
                         else:
                             self.max_heat_num = max(h.heat_number, self.max_heat_num)
@@ -121,7 +116,8 @@ class NdcaPremHeatlist():
                 row_index += 1
     
         else:
-            print("Error parsing heat data")    
+            print("Error parsing heat data")   
+            
         
     def open(self, comp_id):
         url = "http://www.ndcapremier.com/scripts/competitors.asp?cyi=" + comp_id
@@ -130,17 +126,24 @@ class NdcaPremHeatlist():
         for c in range(len(competitors) - 1):     
             d = NdcaPremDancer(competitors[c])
             print(d.name, d.code)
-    
-            url = "http://ndcapremier.com/scripts/heatlists.asp?cyi=" + comp_id + "&id=" + d.code + "&type=competitor"
-            response = requests.get(url)
-            self.get_heats_for_dancer(d, response.text)
-            self.dancers.append(d)
-            
-            for h in d.heats:
-                print(h.info_list())
+            try:
+                code_num = int(d.code)
+                url = "http://ndcapremier.com/scripts/heatlists.asp?cyi=" + comp_id + "&id=" + d.code + "&type=competitor"
+                response = requests.get(url)
+                self.get_heats_for_dancer(d, response.text)
+                self.dancers.append(d)
 
-#            print(d.age_divisions)
-#            print("Max Pro Heat #:", self.max_pro_heat_num, "Max Heat #:", self.max_heat_num)
+                for h in d.heats:
+                    if h.category == "Formation" or h.category == "Solo":
+                        print(h.info_list())
+                if len(d.age_divisions) == 0:
+                    print(d.name, d.age_divisions)
+                    
+                # print("Max Pro Heat #:", self.max_pro_heat_num, "Max Heat #:", self.max_heat_num)
+                
+            except:
+                print("Invalid competitor", d.name, d.code)
+
             
 
 heat_list = NdcaPremHeatlist()
