@@ -33,7 +33,24 @@ class Heat():
 
         # placeholder for results
         info.append("---")
-        return info        
+        return info      
+    
+    def level(self):
+        if self.category == "Pro heat":
+            if "Rising Star" in self.info:
+                level = "Rising Star"
+            elif "Novice" in self.info:
+                level = "Novice"
+            else:
+                level = "Open"   
+        else: # TODO: consider amateurs 
+            level = "None"
+        return level
+
+    # return a blank set of heat information
+    def dummy_info(self):
+        result = ("-----", "-----", "-----", "-----", "-----", "-----")
+        return result    
     
     # override < operator to sort heats by time
     def __lt__(self, h):
