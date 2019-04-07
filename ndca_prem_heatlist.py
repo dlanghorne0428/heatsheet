@@ -19,36 +19,41 @@ def get_partner(line):
 
 
 class NdcaPremHeat(Heat):
-    def __init__(self, line, dancer, partner=None):
+    def __init__(self, line="", dancer=None, partner=None, category="", number=0):
         super().__init__()
-        cols = line.split("</td>")
-        start_pos = cols[0].find("-sess") + len("-sess") + 2
-        self.session = cols[0][start_pos:]
-        start_pos = cols[2].find("-time") + len("-time") + 2
-        self.time = cols[2][start_pos:]
-        start_pos = cols[1].find("-heat") + len("-heat") + 2      
-        number_string = cols[1][start_pos:]
-        try:
-            self.heat_number = int(number_string)
-        except:
-            index = 0
-            while number_string[index].isdigit():
-                index += 1
-            self.heat_number = int(number_string[:index])
-            self.extra = number_string[index:]
-        start_pos = cols[3].find("-desc") + len("-desc") + 2
-        self.info = cols[3][start_pos:]
-        if "Professional" in self.info:
-            self.category = "Pro heat"
-        elif "Formation" in self.info:
-            self.category = "Formation"
-        elif "Solo Star" in self.info:
-            self.category = "Heat"
-        elif "Solo" in self.info:
-            self.category = "Solo"        
-        self.dancer = dancer.name
-        self.code = dancer.code
-        self.partner = partner
+        if len(category) > 0:
+            self.category = category
+        if number != 0:
+            self.heat_number = number
+        if len(line) > 0:
+            cols = line.split("</td>")
+            start_pos = cols[0].find("-sess") + len("-sess") + 2
+            self.session = cols[0][start_pos:]
+            start_pos = cols[2].find("-time") + len("-time") + 2
+            self.time = cols[2][start_pos:]
+            start_pos = cols[1].find("-heat") + len("-heat") + 2      
+            number_string = cols[1][start_pos:]
+            try:
+                self.heat_number = int(number_string)
+            except:
+                index = 0
+                while number_string[index].isdigit():
+                    index += 1
+                self.heat_number = int(number_string[:index])
+                self.extra = number_string[index:]
+            start_pos = cols[3].find("-desc") + len("-desc") + 2
+            self.info = cols[3][start_pos:]
+            if "Professional" in self.info:
+                self.category = "Pro heat"
+            elif "Formation" in self.info:
+                self.category = "Formation"
+            elif "Solo Star" in self.info:
+                self.category = "Heat"
+            elif "Solo" in self.info:
+                self.category = "Solo"        
+            self.dancer = dancer.name
+            self.code = dancer.code
+            self.partner = partner
         
     
 class NdcaPremDancer(Dancer):
@@ -102,8 +107,14 @@ class NdcaPremHeatlist(Heatlist):
                         self.couples.append(couple)                    
                 elif "heatlist-sess" in rows[row_index]:
                     h = NdcaPremHeat(rows[row_index], dancer, partner)
+                    if h.category == "Formation":
+                        self.formations.append(h)
+                    elif h.category == "Solo":
+                        if h not in self.solos:
+                            self.solos.append(h)
                     age = self.get_age_division(h.info)
                     if age is not None:
+                        self.add_age_division(age)
                         dancer.add_age_division(age)
                         couple.add_age_division(age)
                         if age == "Professional":
@@ -119,13 +130,16 @@ class NdcaPremHeatlist(Heatlist):
             print("Error parsing heat data")   
             
         
-    def open(self, comp_id):
+    def open(self):
+        #TODO: extract comp name and comp_id from URL
+        self.comp_name = "The Ball at the San Francisco Open Dancesport Championships"
+        comp_id = "748"
         url = "http://www.ndcapremier.com/scripts/competitors.asp?cyi=" + comp_id
         response = requests.get(url)
         competitors = response.text.split("</a>")
         for c in range(len(competitors) - 1):     
             d = NdcaPremDancer(competitors[c])
-            print(d.name, d.code)
+            #print(d.name, d.code)
             try:
                 code_num = int(d.code)
                 url = "http://ndcapremier.com/scripts/heatlists.asp?cyi=" + comp_id + "&id=" + d.code + "&type=competitor"
@@ -133,11 +147,11 @@ class NdcaPremHeatlist(Heatlist):
                 self.get_heats_for_dancer(d, response.text)
                 self.dancers.append(d)
 
-                for h in d.heats:
-                    if h.category == "Formation" or h.category == "Solo":
-                        print(h.info_list())
-                if len(d.age_divisions) == 0:
-                    print(d.name, d.age_divisions)
+               # for h in d.heats:
+               #     if h.category == "Formation" or h.category == "Solo":
+               #         print(h.info_list())
+               # if len(d.age_divisions) == 0:
+           #         print(d.name, d.age_divisions)
                     
                 # print("Max Pro Heat #:", self.max_pro_heat_num, "Max Heat #:", self.max_heat_num)
                 
@@ -145,6 +159,7 @@ class NdcaPremHeatlist(Heatlist):
                 print("Invalid competitor", d.name, d.code)
 
             
-
-heat_list = NdcaPremHeatlist()
-heat_list.open("748")
+'''Main program'''
+if __name__ == '__main__':
+    heat_list = NdcaPremHeatlist()
+    heat_list.open("748")
