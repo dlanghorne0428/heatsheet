@@ -71,8 +71,6 @@ class Heat():
         else: # use the session numbers to determine order
             return self.session < h.session    
         
-    # override == operator to compare time and number
+    # override == operator to compare category and number
     def __eq__(self, h):
-        return (self.session == h.session) and \
-               (self.time == h.time) and \
-               (self.heat_number == h.heat_number)   
+        return (self.category == h.category) and (self.heat_number == h.heat_number)   
