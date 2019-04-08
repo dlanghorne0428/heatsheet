@@ -448,9 +448,17 @@ class HelloFrame(wx.Frame):
 
 
     def OnOpenNDCA(self, event):
-        self.heatsheet = NdcaPremHeatlist()
-        self.heatsheet.open()
-        self.postOpenProcess()
+        '''
+        Launch a text dialog to get a URL from the user.
+        Open that webpage and process the heatsheet.
+        '''
+        # prompt the user for a URL
+        text_dialog = wx.TextEntryDialog(self, "Enter the URL for a heat list from NDCA Premier")
+        if text_dialog.ShowModal() == wx.ID_OK:
+            url = text_dialog.GetValue() 
+            self.heatsheet = NdcaPremHeatlist()    
+            self.heatsheet.open(url)
+            self.postOpenProcess()
         
     
     def OnClose(self, event):
@@ -518,7 +526,7 @@ class HelloFrame(wx.Frame):
         if type(self.heatsheet) is CompMngrHeatsheet:
             h = CompMngrHeat(category=category, number=heat_num)
         else:
-            h = NdcaPremHeat(category="category", number=heat_num)        
+            h = NdcaPremHeat(category=category, number=heat_num)        
         self.report_title = category + " " + str(heat_num)
 
         # Formations are individual dancers, all other categories are couples.
