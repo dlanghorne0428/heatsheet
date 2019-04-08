@@ -74,6 +74,21 @@ class NdcaPremHeatlist(Heatlist):
     def __init__(self):
         super().__init__()
         
+        
+    def get_comp_name(self, comp_id):
+        url = "http://www.ndcapremier.com/scripts/compyears.asp?cyi=" + comp_id
+        response = requests.get(url)
+        lines = response.text.splitlines()
+        for l in lines:
+            start_pos = l.find("<comp_name>")
+            if start_pos > -1:
+                start_pos += len("<comp_name>")
+                end_pos = l.find("</comp_name>")
+                comp_name = l[start_pos:end_pos]
+                break
+        return comp_name
+    
+        
     # look for an age division on the given line. Return it or None if no age division found
     def get_age_division(self, line):
         prefixes = ("L-", "G-", "AC-", "Professional", "AM/AM", "Amateur", "Youth", "MF-", "M/F")  # valid prefixes for division
@@ -103,15 +118,16 @@ class NdcaPremHeatlist(Heatlist):
                             break
                     # if this actually is a new couple, add them to the couples list
                     if new_couple:
-                        # print("--->", couple.pair_name)
                         self.couples.append(couple)                    
                 elif "heatlist-sess" in rows[row_index]:
                     h = NdcaPremHeat(rows[row_index], dancer, partner)
                     if h.category == "Formation":
                         self.formations.append(h)
+                        self.max_formation_num = max(h.heat_number, self.max_formation_num)
                     elif h.category == "Solo":
                         if h not in self.solos:
                             self.solos.append(h)
+                            self.max_solo_num = max(h.heat_number, self.max_solo_num)
                     age = self.get_age_division(h.info)
                     if age is not None:
                         self.add_age_division(age)
@@ -130,10 +146,11 @@ class NdcaPremHeatlist(Heatlist):
             print("Error parsing heat data")   
             
         
-    def open(self):
-        #TODO: extract comp name and comp_id from URL
-        self.comp_name = "The Ball at the San Francisco Open Dancesport Championships"
-        comp_id = "748"
+    def open(self, url):
+        #extract comp name and comp_id from URL
+        start_pos = url.find("cyi=") + len("cyi=")
+        comp_id = url[start_pos:]
+        self.comp_name = self.get_comp_name(comp_id)
         url = "http://www.ndcapremier.com/scripts/competitors.asp?cyi=" + comp_id
         response = requests.get(url)
         competitors = response.text.split("</a>")
@@ -146,20 +163,16 @@ class NdcaPremHeatlist(Heatlist):
                 response = requests.get(url)
                 self.get_heats_for_dancer(d, response.text)
                 self.dancers.append(d)
-
-               # for h in d.heats:
-               #     if h.category == "Formation" or h.category == "Solo":
-               #         print(h.info_list())
-               # if len(d.age_divisions) == 0:
-           #         print(d.name, d.age_divisions)
-                    
-                # print("Max Pro Heat #:", self.max_pro_heat_num, "Max Heat #:", self.max_heat_num)
                 
             except:
                 print("Invalid competitor", d.name, d.code)
+        
+        self.formations.sort()
+        self.solos.sort()
+        self.age_divisions.sort()        
 
             
 '''Main program'''
 if __name__ == '__main__':
     heat_list = NdcaPremHeatlist()
-    heat_list.open("748")
+    heat_list.open("http://www.ndcapremier.com/heatlists.htm?cyi=748")
