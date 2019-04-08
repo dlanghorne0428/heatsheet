@@ -11,7 +11,8 @@ import requests
 import urllib.parse, urllib.error
 import yattag
 
-import CompMngr_Heatsheet
+from ndca_prem_heatlist import NdcaPremHeatlist, NdcaPremHeat
+from CompMngr_Heatsheet import CompMngrHeatsheet, CompMngrHeat
 import CompMngrScoresheet
 from season_ranking import RankingDataFile
 
@@ -110,7 +111,7 @@ class HelloFrame(wx.Frame):
         self.CreateStatusBar()
 
         # declare a heatsheet object and a scoresheet object
-        self.heatsheet = CompMngr_Heatsheet.CompMngrHeatsheet()
+        self.heatsheet = None
         self.scoresheet = CompMngrScoresheet.CompMngrScoresheet()
         self.preOpenProcess()
 
@@ -123,6 +124,7 @@ class HelloFrame(wx.Frame):
         '''
 
         self.ID_FILE_OPEN_URL = 90
+        self.ID_FILE_OPEN_NDCA = 91
         self.ID_VIEW_FILTER_DIV = 101
         self.ID_VIEW_FILTER_DANCER = 102
         self.ID_VIEW_FILTER_COUPLE = 103
@@ -140,6 +142,7 @@ class HelloFrame(wx.Frame):
         self.fileMenu = wx.Menu()
         openItem = self.fileMenu.Append(wx.ID_OPEN)
         openUrlItem = self.fileMenu.Append(self.ID_FILE_OPEN_URL, "Open URL...")
+        openNdcaItem = self.fileMenu.Append(self.ID_FILE_OPEN_NDCA, "Open URL from NDCA Premier")
         self.fileMenu.AppendSeparator()
         saveAsItem = self.fileMenu.Append(wx.ID_SAVEAS)
         self.fileMenu.AppendSeparator()
@@ -205,6 +208,7 @@ class HelloFrame(wx.Frame):
         self.Bind(wx.EVT_MENU, self.OnOpen,  openItem)
         self.Bind(wx.EVT_MENU, self.OnSaveAs, saveAsItem)
         self.Bind(wx.EVT_MENU, self.OnOpenURL, openUrlItem)
+        self.Bind(wx.EVT_MENU, self.OnOpenNDCA, openNdcaItem)
         self.Bind(wx.EVT_MENU, self.OnExit,  exitItem)
         self.Bind(wx.EVT_MENU, self.OnFilterByDivision, filtDivItem)
         self.Bind(wx.EVT_MENU, self.OnFilterByDancer, filtDcrItem)
@@ -248,9 +252,10 @@ class HelloFrame(wx.Frame):
         The result buttons are disabled.
         The heat category and heat information is cleared
         '''
-        self.SetDivisionControl(self.heatsheet.age_divisions)
-        self.SetDancerControl(self.heatsheet.dancer_name_list())
-        self.SetCoupleControl(self.heatsheet.couple_name_list())
+        if self.heatsheet is not None:
+            self.SetDivisionControl(self.heatsheet.age_divisions)
+            self.SetDancerControl(self.heatsheet.dancer_name_list())
+            self.SetCoupleControl(self.heatsheet.couple_name_list())
         self.butt_rslt.Disable()
         self.butt_rslt_url.Disable()
         self.butt_rank.Disable()
@@ -273,6 +278,7 @@ class HelloFrame(wx.Frame):
         self.ResetAllControls()
         self.fileMenu.Enable(wx.ID_OPEN, True)
         self.fileMenu.Enable(self.ID_FILE_OPEN_URL, True)
+        self.fileMenu.Enable(self.ID_FILE_OPEN_NDCA, True)
         self.fileMenu.Enable(wx.ID_CLOSE, False)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DIV, False)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DANCER, False)
@@ -303,6 +309,7 @@ class HelloFrame(wx.Frame):
         self.ResetAllControls()
         self.fileMenu.Enable(wx.ID_OPEN, False)
         self.fileMenu.Enable(self.ID_FILE_OPEN_URL, False)
+        self.fileMenu.Enable(self.ID_FILE_OPEN_NDCA, False)
         self.fileMenu.Enable(wx.ID_CLOSE, True)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DIV, True)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DANCER, True)
@@ -394,6 +401,7 @@ class HelloFrame(wx.Frame):
             filename = fd.GetPath()
             # save the current folder name for other files
             self.folder_name = get_folder_name(filename)
+            self.heatsheet = CompMngrHeatsheet()
             self.heatsheet.process(filename)
             self.postOpenProcess()
             
@@ -434,13 +442,28 @@ class HelloFrame(wx.Frame):
                 output_file.close()
             
             # now that the data from the URL is saved to a file, process it
+            self.heatsheet = CompMngrHeatsheet()
             self.heatsheet.process(output_filename)
             self.postOpenProcess()
 
 
+    def OnOpenNDCA(self, event):
+        '''
+        Launch a text dialog to get a URL from the user.
+        Open that webpage and process the heatsheet.
+        '''
+        # prompt the user for a URL
+        text_dialog = wx.TextEntryDialog(self, "Enter the URL for a heat list from NDCA Premier")
+        if text_dialog.ShowModal() == wx.ID_OK:
+            url = text_dialog.GetValue() 
+            self.heatsheet = NdcaPremHeatlist()    
+            self.heatsheet.open(url)
+            self.postOpenProcess()
+        
+    
     def OnClose(self, event):
         ''' Re-initalize the competition file and reset all the controls.'''
-        self.heatsheet = CompMngr_Heatsheet.CompMngrHeatsheet()
+#       self.heatsheet = CompMngr_Heatsheet.CompMngrHeatsheet()
         self.preOpenProcess()
 
 
@@ -500,7 +523,10 @@ class HelloFrame(wx.Frame):
         heat_num = self.heat_selection.GetValue()
 
         # create a heat object based on category and number
-        h = CompMngr_Heatsheet.Heat(category, number=heat_num)
+        if type(self.heatsheet) is CompMngrHeatsheet:
+            h = CompMngrHeat(category=category, number=heat_num)
+        else:
+            h = NdcaPremHeat(category=category, number=heat_num)        
         self.report_title = category + " " + str(heat_num)
 
         # Formations are individual dancers, all other categories are couples.
@@ -524,7 +550,8 @@ class HelloFrame(wx.Frame):
         
         # populate the GUI with this heat information
         for h in heat_list:
-            data = h.info_list(dancer_name)
+#            data = h.info_list(dancer_name)
+            data = h.info_list()
             self.list_ctrl.Append(data)
         self.report_title = "Heat List for " + dancer_name
 
@@ -607,7 +634,11 @@ class HelloFrame(wx.Frame):
         
         # for each pro heat, find the couples and populate the GUI
         for num in range(1, self.heatsheet.max_pro_heat_num + 1):
-            h = CompMngr_Heatsheet.Heat("Pro heat", number=num)
+            if type(self.heatsheet) is CompMngrHeatsheet:
+                h = CompMngrHeat(category="Pro heat", number=num)
+            else:
+                h = NdcaPremHeat(category="Pro heat", number=num)
+                
             competitors = self.heatsheet.list_of_couples_in_heat(h)
             if len(competitors) > 0:
                 for c in competitors:
@@ -640,7 +671,11 @@ class HelloFrame(wx.Frame):
 
         # loop through all the pro heats
         for num in range(1, self.heatsheet.max_pro_heat_num + 1):
-            h = CompMngr_Heatsheet.Heat("Pro heat", number=num)
+            if type(self.heatsheet) is CompMngrHeatsheet:
+                h = CompMngrHeat(category="Pro heat", number=num)
+            else:
+                h = NdcaPremHeat(category="Pro heat", number=num)            
+            # h = CompMngr_Heatsheet.Heat(category="Pro heat", number=num)
             
             # get a heat report with the entries form the heatsheet
             report = self.heatsheet.heat_report(h)
@@ -761,7 +796,11 @@ class HelloFrame(wx.Frame):
 
         # loop through all the pro heats
         for num in range(1, self.heatsheet.max_pro_heat_num + 1):
-            h = CompMngr_Heatsheet.Heat("Pro heat", number=num)
+            if type(self.heatsheet) is CompMngrHeatsheet:
+                h = CompMngrHeat(category="Pro heat", number=num)
+            else:
+                h = NdcaPremHeat(category="Pro heat", number=num)            
+            #h = CompMngr_Heatsheet.Heat("Pro heat", number=num)
             
             # get a heat report with the entries form the heatsheet
             report = self.heatsheet.heat_report(h, sorted=True)
