@@ -566,10 +566,22 @@
         "level": "Open",
         "place": "5",
         "points": 12
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "2",
+        "points": 15
       }
     ],
-    "total_pts": 151,
-    "avg_pts": 12.58
+    "total_pts": 176,
+    "avg_pts": 12.57
   },
   {
     "name": "Stoynov, Simeon and Stoynova, Kora",
@@ -659,25 +671,6 @@
     "avg_pts": 12.25
   },
   {
-    "name": "Gilin, Alon and Oblakova, Anna",
-    "results": [
-      {
-        "comp_name": "2019 New York Dance Festival 2019",
-        "level": "Open",
-        "place": "Semis",
-        "points": 6
-      },
-      {
-        "comp_name": "Michigan Dance Challenge",
-        "level": "Open",
-        "place": "4",
-        "points": 16
-      }
-    ],
-    "total_pts": 22,
-    "avg_pts": 11.0
-  },
-  {
     "name": "Alekseev, Aleksei and Derevleva, Ekaterina",
     "results": [
       {
@@ -715,10 +708,35 @@
         "level": "Open",
         "place": "2",
         "points": 15
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "1",
+        "points": 20
       }
     ],
-    "total_pts": 63,
-    "avg_pts": 10.5
+    "total_pts": 83,
+    "avg_pts": 11.86
+  },
+  {
+    "name": "Gilin, Alon and Oblakova, Anna",
+    "results": [
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      },
+      {
+        "comp_name": "Michigan Dance Challenge",
+        "level": "Open",
+        "place": "4",
+        "points": 16
+      }
+    ],
+    "total_pts": 22,
+    "avg_pts": 11.0
   },
   {
     "name": "Hustiuc, Daniel and Li, Jessica",
@@ -795,6 +813,43 @@
     "avg_pts": 10.0
   },
   {
+    "name": "Chopenko, Dmitrii and Khrapak, Valeria",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      },
+      {
+        "comp_name": "Windy City Open",
+        "level": "Open",
+        "place": "5",
+        "points": 7
+      },
+      {
+        "comp_name": "Michigan Dance Challenge",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      }
+    ],
+    "total_pts": 50,
+    "avg_pts": 10.0
+  },
+  {
     "name": "Nabiullin, Alexandr and Ryabova, Valeriya",
     "results": [
       {
@@ -830,37 +885,6 @@
     ],
     "total_pts": 48,
     "avg_pts": 9.6
-  },
-  {
-    "name": "Chopenko, Dmitrii and Khrapak, Valeria",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "3",
-        "points": 12
-      },
-      {
-        "comp_name": "St Louis Star Ball Championships ",
-        "level": "Open",
-        "place": "3",
-        "points": 12
-      },
-      {
-        "comp_name": "Windy City Open",
-        "level": "Open",
-        "place": "5",
-        "points": 7
-      },
-      {
-        "comp_name": "Michigan Dance Challenge",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 7
-      }
-    ],
-    "total_pts": 38,
-    "avg_pts": 9.5
   },
   {
     "name": "Drobotov, Roman and Kazbekova, Liya",
@@ -1099,6 +1123,49 @@
     "avg_pts": 7.0
   },
   {
+    "name": "Kora, Iurii and Hryn, Alisa",
+    "results": [
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "4",
+        "points": 3
+      },
+      {
+        "comp_name": "Nashville Starz",
+        "level": "Open",
+        "place": "5",
+        "points": 3
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Open",
+        "place": "4",
+        "points": 9
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "4",
+        "points": 9
+      }
+    ],
+    "total_pts": 41,
+    "avg_pts": 6.83
+  },
+  {
     "name": "Goncharov, Dymytrii and Lutsenko, Tetiana",
     "results": [
       {
@@ -1128,37 +1195,6 @@
     ],
     "total_pts": 27,
     "avg_pts": 6.75
-  },
-  {
-    "name": "Kora, Iurii and Hryn, Alisa",
-    "results": [
-      {
-        "comp_name": "Nashville Starz",
-        "level": "Open",
-        "place": "4",
-        "points": 3
-      },
-      {
-        "comp_name": "Nashville Starz",
-        "level": "Open",
-        "place": "5",
-        "points": 3
-      },
-      {
-        "comp_name": "St Louis Star Ball Championships ",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "St Louis Star Ball Championships ",
-        "level": "Open",
-        "place": "4",
-        "points": 9
-      }
-    ],
-    "total_pts": 25,
-    "avg_pts": 6.25
   },
   {
     "name": "Gelashvili, Levan and Kolman, Lily",
@@ -1661,6 +1697,19 @@
     "avg_pts": 4.0
   },
   {
+    "name": "Anufriiev, Mykhailo and Veitrynska, Anna",
+    "results": [
+      {
+        "comp_name": "Michigan Dance Challenge",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3
+      }
+    ],
+    "total_pts": 3,
+    "avg_pts": 3.0
+  },
+  {
     "name": "Horvath-Krol, Dariusz and Zosin, Alisa",
     "results": [
       {
@@ -1737,19 +1786,6 @@
         "comp_name": "2019 New York Dance Festival 2019",
         "level": "Open",
         "place": "quarters",
-        "points": 3
-      }
-    ],
-    "total_pts": 3,
-    "avg_pts": 3.0
-  },
-  {
-    "name": "Anufriiev, Mykhailo and Veitrynska, Anna",
-    "results": [
-      {
-        "comp_name": "Michigan Dance Challenge",
-        "level": "Rising Star",
-        "place": "4",
         "points": 3
       }
     ],

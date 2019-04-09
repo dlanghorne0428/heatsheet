@@ -311,6 +311,25 @@
     "avg_pts": 22.5
   },
   {
+    "name": "Shapoval, Sergei and Popovich, Mila",
+    "results": [
+      {
+        "comp_name": "Windy City Open",
+        "level": "Open",
+        "place": "5",
+        "points": 15
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "1",
+        "points": 30
+      }
+    ],
+    "total_pts": 45,
+    "avg_pts": 22.5
+  },
+  {
     "name": "Vukosavljevic, Aleksandar and Urosevic, Nevena",
     "results": [
       {
@@ -582,23 +601,22 @@
         "level": "Open",
         "place": "6",
         "points": 12
-      }
-    ],
-    "total_pts": 181,
-    "avg_pts": 15.08
-  },
-  {
-    "name": "Shapoval, Sergei and Popovich, Mila",
-    "results": [
+      },
       {
-        "comp_name": "Windy City Open",
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
         "level": "Open",
-        "place": "5",
-        "points": 15
+        "place": "2",
+        "points": 24
       }
     ],
-    "total_pts": 15,
-    "avg_pts": 15.0
+    "total_pts": 215,
+    "avg_pts": 15.36
   },
   {
     "name": "Zappia, Enzo and Betts, Stephanie",
@@ -743,10 +761,16 @@
         "level": "Open",
         "place": "Semis",
         "points": 6
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "5",
+        "points": 12
       }
     ],
-    "total_pts": 53,
-    "avg_pts": 13.25
+    "total_pts": 65,
+    "avg_pts": 13.0
   },
   {
     "name": "Nalyvaychuk, Vladyslav and Nalyvaychuk, Brianna",
@@ -928,6 +952,55 @@
     "avg_pts": 12.0
   },
   {
+    "name": "Haklin, Nick and Ford, Sarah",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 12
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Open",
+        "place": "2",
+        "points": 24
+      },
+      {
+        "comp_name": "Windy City Open",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 4
+      },
+      {
+        "comp_name": "Windy City Open",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "4",
+        "points": 16
+      }
+    ],
+    "total_pts": 78,
+    "avg_pts": 11.14
+  },
+  {
     "name": "Hannigan, Dave and Kosheleva, Yulia",
     "results": [
       {
@@ -997,49 +1070,6 @@
     "avg_pts": 10.5
   },
   {
-    "name": "Haklin, Nick and Ford, Sarah",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 12
-      },
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "Semis",
-        "points": 6
-      },
-      {
-        "comp_name": "Indiana Challenge - Add web page option",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "Indiana Challenge - Add web page option",
-        "level": "Open",
-        "place": "2",
-        "points": 24
-      },
-      {
-        "comp_name": "Windy City Open",
-        "level": "Rising Star",
-        "place": "6",
-        "points": 4
-      },
-      {
-        "comp_name": "Windy City Open",
-        "level": "Open",
-        "place": "Semis",
-        "points": 6
-      }
-    ],
-    "total_pts": 62,
-    "avg_pts": 10.33
-  },
-  {
     "name": "Sydorenko, Ilia and Kuts, Tetyana",
     "results": [
       {
@@ -1065,6 +1095,37 @@
         "level": "Open",
         "place": "Semis",
         "points": 6
+      }
+    ],
+    "total_pts": 39,
+    "avg_pts": 9.75
+  },
+  {
+    "name": "Shtefil, Shandor and Barsukov, Aleksandra",
+    "results": [
+      {
+        "comp_name": "Platinum Dancesport Classic",
+        "level": "Open",
+        "place": "5",
+        "points": 12
+      },
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "3",
+        "points": 20
       }
     ],
     "total_pts": 39,
@@ -1274,10 +1335,22 @@
         "level": "Open",
         "place": "quarters",
         "points": 3
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "6",
+        "points": 9
       }
     ],
-    "total_pts": 103,
-    "avg_pts": 7.36
+    "total_pts": 119,
+    "avg_pts": 7.44
   },
   {
     "name": "Lebedev, Pavel and Khayrulina, Dinara",
@@ -1624,31 +1697,6 @@
     "avg_pts": 6.5
   },
   {
-    "name": "Shtefil, Shandor and Barsukov, Aleksandra",
-    "results": [
-      {
-        "comp_name": "Platinum Dancesport Classic",
-        "level": "Open",
-        "place": "5",
-        "points": 12
-      },
-      {
-        "comp_name": "Superstars Dancesport",
-        "level": "Open",
-        "place": "Semis",
-        "points": 4
-      },
-      {
-        "comp_name": "2019 New York Dance Festival 2019",
-        "level": "Open",
-        "place": "quarters",
-        "points": 3
-      }
-    ],
-    "total_pts": 19,
-    "avg_pts": 6.33
-  },
-  {
     "name": "Doroshenko, Roman and Savushkina, Iryna",
     "results": [
       {
@@ -1723,6 +1771,19 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Levit, Sharone and Kolarova, Milena",
+    "results": [
+      {
+        "comp_name": "Michigan Dance Challenge",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      }
+    ],
+    "total_pts": 6,
+    "avg_pts": 6
+  },
+  {
     "name": "Miller, Drew and Humphrey, Krista",
     "results": [
       {
@@ -1746,19 +1807,6 @@
     ],
     "total_pts": 18,
     "avg_pts": 6.0
-  },
-  {
-    "name": "Levit, Sharone and Kolarova, Milena",
-    "results": [
-      {
-        "comp_name": "Michigan Dance Challenge",
-        "level": "Open",
-        "place": "Semis",
-        "points": 6
-      }
-    ],
-    "total_pts": 6,
-    "avg_pts": 6
   },
   {
     "name": "Stowell, Aaron and Hofreiter, Brie",
@@ -2085,6 +2133,25 @@
     "avg_pts": 4.71
   },
   {
+    "name": "Davis, Steven and Davidson, Elizabeth",
+    "results": [
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 9,
+    "avg_pts": 4.5
+  },
+  {
     "name": "Pickering, Martin and Botes, Natalie",
     "results": [
       {
@@ -2373,6 +2440,25 @@
     "avg_pts": 3.5
   },
   {
+    "name": "Lundt, Michael and Ilic-Lundt, Amanda",
+    "results": [
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 7,
+    "avg_pts": 3.5
+  },
+  {
     "name": "McGurn, Rob and Gurry, Laura",
     "results": [
       {
@@ -2580,6 +2666,25 @@
     "avg_pts": 3.0
   },
   {
+    "name": "Wilson, Jacob and Jacobs, Karen",
+    "results": [
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 2
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 6,
+    "avg_pts": 3.0
+  },
+  {
     "name": "Wallock, Doug and Peterson, Grace",
     "results": [
       {
@@ -2753,6 +2858,63 @@
     "avg_pts": 2.5
   },
   {
+    "name": "Blain, Daniel and Blain, Mariel",
+    "results": [
+      {
+        "comp_name": "Michigan Dance Challenge",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      },
+      {
+        "comp_name": "Michigan Dance Challenge",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 5,
+    "avg_pts": 2.5
+  },
+  {
+    "name": "Blizzard, Aaron and Lu, Jenny",
+    "results": [
+      {
+        "comp_name": "Michigan Dance Challenge",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      },
+      {
+        "comp_name": "Michigan Dance Challenge",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 5,
+    "avg_pts": 2.5
+  },
+  {
+    "name": "Carpenter, Kevin and Sanders, Janique",
+    "results": [
+      {
+        "comp_name": "Michigan Dance Challenge",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2
+      },
+      {
+        "comp_name": "Michigan Dance Challenge",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      }
+    ],
+    "total_pts": 5,
+    "avg_pts": 2.5
+  },
+  {
     "name": "Cegelski, Rane and Larson, Sarah",
     "results": [
       {
@@ -2822,57 +2984,38 @@
     "avg_pts": 2.5
   },
   {
-    "name": "Blain, Daniel and Blain, Mariel",
+    "name": "Curtis, Michael and Mertens, Emily",
     "results": [
       {
-        "comp_name": "Michigan Dance Challenge",
+        "comp_name": "Indianapolis Open DanceSport",
         "level": "Rising Star",
-        "place": "Semis",
-        "points": 2
+        "place": "6",
+        "points": 1
       },
       {
-        "comp_name": "Michigan Dance Challenge",
+        "comp_name": "Indianapolis Open DanceSport",
         "level": "Open",
-        "place": "quarters",
-        "points": 3
+        "place": "Semis",
+        "points": 4
       }
     ],
     "total_pts": 5,
     "avg_pts": 2.5
   },
   {
-    "name": "Blizzard, Aaron and Lu, Jenny",
+    "name": "Aromas, Gil and Rupley, Andrea",
     "results": [
       {
-        "comp_name": "Michigan Dance Challenge",
+        "comp_name": "Indianapolis Open DanceSport",
         "level": "Rising Star",
-        "place": "Semis",
-        "points": 2
+        "place": "7",
+        "points": 1
       },
       {
-        "comp_name": "Michigan Dance Challenge",
+        "comp_name": "Indianapolis Open DanceSport",
         "level": "Open",
-        "place": "quarters",
-        "points": 3
-      }
-    ],
-    "total_pts": 5,
-    "avg_pts": 2.5
-  },
-  {
-    "name": "Carpenter, Kevin and Sanders, Janique",
-    "results": [
-      {
-        "comp_name": "Michigan Dance Challenge",
-        "level": "Rising Star",
         "place": "Semis",
-        "points": 2
-      },
-      {
-        "comp_name": "Michigan Dance Challenge",
-        "level": "Open",
-        "place": "quarters",
-        "points": 3
+        "points": 4
       }
     ],
     "total_pts": 5,

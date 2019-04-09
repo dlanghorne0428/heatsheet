@@ -124,6 +124,25 @@
     "avg_pts": 17.33
   },
   {
+    "name": "Tsorokean, Alyenendrov and Wheeler, Maria",
+    "results": [
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 32,
+    "avg_pts": 16.0
+  },
+  {
     "name": "Pohl, Zachary and Freilich, Ariel",
     "results": [
       {
@@ -245,10 +264,16 @@
         "level": "Open",
         "place": "3",
         "points": 12
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "2",
+        "points": 15
       }
     ],
-    "total_pts": 44,
-    "avg_pts": 14.67
+    "total_pts": 59,
+    "avg_pts": 14.75
   },
   {
     "name": "Black, Jamie and Elliott, Samantha",
@@ -421,17 +446,17 @@
     "avg_pts": 12.0
   },
   {
-    "name": "Tsorokean, Alyenendrov and Wheeler, Maria",
+    "name": "Lundt, Michael and Ilic-Lundt, Amanda",
     "results": [
       {
-        "comp_name": "Superstars Dancesport",
+        "comp_name": "Indianapolis Open DanceSport",
         "level": "Open",
         "place": "3",
         "points": 12
       }
     ],
     "total_pts": 12,
-    "avg_pts": 12.0
+    "avg_pts": 12
   },
   {
     "name": "Antonelli, Vincent and Falciano, Stephanie",
@@ -588,6 +613,19 @@
     "avg_pts": 8.0
   },
   {
+    "name": "Levit, Sharone and Kolarova, Milena",
+    "results": [
+      {
+        "comp_name": "Michigan Dance Challenge",
+        "level": "Open",
+        "place": "5",
+        "points": 7
+      }
+    ],
+    "total_pts": 7,
+    "avg_pts": 7
+  },
+  {
     "name": "Sanderson, Dan and Hicks, Kristin",
     "results": [
       {
@@ -612,19 +650,6 @@
     ],
     "total_pts": 7,
     "avg_pts": 7.0
-  },
-  {
-    "name": "Levit, Sharone and Kolarova, Milena",
-    "results": [
-      {
-        "comp_name": "Michigan Dance Challenge",
-        "level": "Open",
-        "place": "5",
-        "points": 7
-      }
-    ],
-    "total_pts": 7,
-    "avg_pts": 7
   },
   {
     "name": "Kantin, Anthony and Ventura, Lisa",
