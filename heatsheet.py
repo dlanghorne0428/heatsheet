@@ -12,6 +12,7 @@ import urllib.parse, urllib.error
 import yattag
 
 from ndca_prem_heatlist import NdcaPremHeatlist, NdcaPremHeat
+from ndca_prem_results import NdcaPremResults
 from CompMngr_Heatsheet import CompMngrHeatsheet, CompMngrHeat
 import CompMngrScoresheet
 from season_ranking import RankingDataFile
@@ -75,21 +76,25 @@ class HelloFrame(wx.Frame):
         self.Bind(wx.EVT_BUTTON, self.OnSaveAs, self.butt_save)
         
         # Create a label for grabbing the results
-        st_rslt = wx.StaticText(pnl, label="Results", pos=(850, 80))
+        st_rslt = wx.StaticText(pnl, label="Results", pos=(850, 55))
         st_rslt.SetFont(font)
     
         # Creata a button to get the rankings
-        self.butt_rank = wx.Button(pnl, label="Get Rankings", pos=(850, 110))
+        self.butt_rank = wx.Button(pnl, label="Get Rankings", pos=(850, 85))
         self.Bind(wx.EVT_BUTTON, self.OnGetRankings, self.butt_rank)  
 
 
         # Creata a button to get the results from a file
-        self.butt_rslt = wx.Button(pnl, label="Get Results", pos=(850, 135))
+        self.butt_rslt = wx.Button(pnl, label="Get Results", pos=(850, 110))
         self.Bind(wx.EVT_BUTTON, self.OnGetResults, self.butt_rslt)  
         
         # Creata a button to get the results from a URL
-        self.butt_rslt_url = wx.Button(pnl, label="Get Results From URL", pos=(850, 160))
+        self.butt_rslt_url = wx.Button(pnl, label="Get Results From URL", pos=(850, 135))
         self.Bind(wx.EVT_BUTTON, self.OnGetResultsFromURL, self.butt_rslt_url)          
+
+        # Creata a button to get the results from NDCA Premier
+        self.butt_rslt_url = wx.Button(pnl, label="Get Results - NDCA Premier", pos=(800, 160))
+        self.Bind(wx.EVT_BUTTON, self.OnGetResultsFromNdca, self.butt_rslt_ndca)  
 
         # Use a ListCtrl widget for the report information
         self.list_ctrl = wx.ListCtrl(pnl, wx.ID_ANY, pos = (10,185), size=(1024, 400),
@@ -112,7 +117,7 @@ class HelloFrame(wx.Frame):
 
         # declare a heatsheet object and a scoresheet object
         self.heatsheet = None
-        self.scoresheet = CompMngrScoresheet.CompMngrScoresheet()
+        self.scoresheet = None
         self.preOpenProcess()
 
 
@@ -713,6 +718,7 @@ class HelloFrame(wx.Frame):
         fd = wx.FileDialog(self, "Open a Scoresheet File", self.folder_name, "")
         if fd.ShowModal() == wx.ID_OK:
             filename = fd.GetPath()
+            self.scoresheet = CompMngrScoresheet.CompMngrScoresheet()            
             self.ProcessScoresheet(filename)
             
             
@@ -746,7 +752,23 @@ class HelloFrame(wx.Frame):
                 output_file.close()
                 
                 # process the results from the file
+                self.scoresheet = CompMngrScoresheet.CompMngrScoresheet()                
                 self.ProcessScoresheet(output_filename)
+
+
+    def OnGetResultsFromNdca(self, event):
+        '''
+        This method obtains the competition results from NdcaPremier.com
+        '''
+ 
+        # prompt the user to enter a URL 
+        text_dialog = wx.TextEntryDialog(self, "Enter the URL for results at NDCA Premier")
+        if text_dialog.ShowModal() == wx.ID_OK:
+            url = text_dialog.GetValue()
+            self.scoresheet = NdcaPremResults()
+            
+
+
 
 
     def find_matching_couple_in_ranking(self, c):
