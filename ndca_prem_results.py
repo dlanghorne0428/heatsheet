@@ -40,12 +40,17 @@ class NdcaPremResults():
         looking_for_result_column = False
         looking_for_finalists = False
         process_finalists = False
-        url = "http://www.ndcapremier.com/scripts/results.asp?cyi=" + self.comp_id + "&event=" + event_id
+        looking_for_semifinal = False
+        url = "http://www.ndcapremier.com/scripts/results.asp?cyi=" + self.comp_id + "&event=" + event_id\
+        # this should be based on event id
+        num_dances = 5   
+        
         response = requests.get(url)
         lines = response.text.splitlines()
         i = 0
         while i < len(lines):  #        for l in lines:
             l = lines[i]
+            #print(l)
             if looking_for_final_round:
                 if 'class="roundHeader"' in l:
                     print(l)
@@ -86,10 +91,24 @@ class NdcaPremResults():
                 for f in self.finalists:
                     fields = f.split("</td>")
                     print(fields[0], fields[col_count-1]) 
+                process_finalists = False
+                looking_for_semifinal = True
+            elif looking_for_semifinal:
+                if 'class="roundHeader"' in l:
+                    print("Found semi-final")
+                    looking_for_semifinal = False
+                    looking_for_final_dance = False
+                    dance_count = 0
+                else:
+                    i += 1            
+            else:
+                if 'class="danceHeader"' in l:
+                    print(l)
+                    dance_count += 1
+                if dance_count == num_dances:
+                    print(l)
                 i += 1
                     
-                
-                
                 
     
     
@@ -98,6 +117,8 @@ class NdcaPremResults():
             if e.name == event_name:
                 print("Found", e.name)
                 self.process_scoresheet_for_event(e.id)
+#            else:
+#                print(e.name)
                 
 
     def open(self, url):
@@ -129,4 +150,13 @@ class NdcaPremResults():
 if __name__ == '__main__':
     results = NdcaPremResults()
     results.open("http://www.ndcapremier.com/results.htm?cyi=748")
-    results.determine_heat_results("Professional Rising Star Events Amer. Smooth (W,T,F,VW)")
+#    results.determine_heat_results("Professional Rising Star Events Amer. Smooth (W,T,F,VW)")
+#    results.determine_heat_results("Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)")
+#    results.determine_heat_results("Professional Rising Star Events Int'l Ballroom (W,T,VW,F,Q)")
+#    results.determine_heat_results("Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)")
+     # this heat had a semi final
+    results.determine_heat_results("Professional Open Championships  Int'l Ballroom Championship (W,T,VW,F,Q)")
+#    results.determine_heat_results("Professional Open Championships  Amer. Rhythm Championship (CC,R,SW,B,M)")
+#    results.determine_heat_results("Professional Open Championships  Int'l Latin Championship (CC,S,R,PD,J)")	    
+#    results.determine_heat_results("Professional Open Championships  Amer. Smooth Championship (W,T,F,VW)")	
+#    results.determine_heat_results("Professional Open Championships  Show Dance Championship (SD)")  
