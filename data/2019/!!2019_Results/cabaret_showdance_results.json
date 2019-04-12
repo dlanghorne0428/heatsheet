@@ -1,36 +1,5 @@
 [
   {
-    "name": "Batih, Nazar and Cantley, Mariko",
-    "results": [
-      {
-        "comp_name": "Eastern US Dancesport Championships",
-        "level": "Open",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "Maryland Dancesport",
-        "level": "Open",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "First Coast Classic Dancesport Championships",
-        "level": "Open",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "Windy City Open",
-        "level": "Open",
-        "place": "1",
-        "points": 20
-      }
-    ],
-    "total_pts": 80,
-    "avg_pts": 20.0
-  },
-  {
     "name": "Jensen, Shane and Jensen, Shannon",
     "results": [
       {
@@ -62,10 +31,53 @@
         "level": "Open",
         "place": "1",
         "points": 20
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 20
       }
     ],
-    "total_pts": 100,
+    "total_pts": 120,
     "avg_pts": 20.0
+  },
+  {
+    "name": "Batih, Nazar and Cantley, Mariko",
+    "results": [
+      {
+        "comp_name": "Eastern US Dancesport Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Maryland Dancesport",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "First Coast Classic Dancesport Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Windy City Open",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 16
+      }
+    ],
+    "total_pts": 96,
+    "avg_pts": 19.2
   },
   {
     "name": "Azarov, Mykhailo and Makarenko, Tetyana",
@@ -427,6 +439,19 @@
     "avg_pts": 12.0
   },
   {
+    "name": "Lundt, Michael and Ilic-Lundt, Amanda",
+    "results": [
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      }
+    ],
+    "total_pts": 12,
+    "avg_pts": 12
+  },
+  {
     "name": "Sovetov, Ivan and Mkrtchian, Valeria",
     "results": [
       {
@@ -446,10 +471,10 @@
     "avg_pts": 12.0
   },
   {
-    "name": "Lundt, Michael and Ilic-Lundt, Amanda",
+    "name": "Nunez, Tony and Kashkina, Ksenia",
     "results": [
       {
-        "comp_name": "Indianapolis Open DanceSport",
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
         "level": "Open",
         "place": "3",
         "points": 12
