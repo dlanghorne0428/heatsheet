@@ -154,7 +154,10 @@ class NdcaPremHeatlist(Heatlist):
         url = "http://www.ndcapremier.com/scripts/competitors.asp?cyi=" + comp_id
         response = requests.get(url)
         competitors = response.text.split("</a>")
-        for c in range(len(competitors) - 1):     
+        for c in range(len(competitors) - 1): 
+            if 'class="team"' in c: 
+                print(c)
+                continue
             d = NdcaPremDancer(competitors[c])
             #print(d.name, d.code)
             try:
