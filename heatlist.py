@@ -102,33 +102,7 @@ class Heatlist():
         output_list.sort(key=itemgetter(shirt_number_col))
         return output_list
     
-    # given a heat, this method returns a heat report, which is a dictionary, 
-    # containing heat information, including a list of entries. 
-    # This list can optionally be sorted by shirt number
-    def heat_report(self, heat, sorted=False):
-        report = dict()
-        report["category"] = heat.category
-        report["number"] = heat.heat_number
-        report["entries"] = list()
-        for c in self.couples:
-            for ht in c.heats:
-                if heat == ht:
-                    entry = dict()
-                    entry["dancer"] = ht.dancer
-                    entry["code"] = ht.code
-                    entry["partner"] = ht.partner
-                    entry["shirt"] = ht.shirt_number
-                    entry["result"] = None
-                    entry["points"] = 0
-                    if len(report["entries"]) == 0:
-                        report["info"] = ht.info
-                        report["rounds"] = ht.rounds
-                        report["level"]= ht.level()
-                    report["entries"].append(entry)
-        
-        if sorted:
-            report["entries"].sort(key=itemgetter("shirt"))
-        return report
+
 
     ############### AGE DIVISION ROUTINES  ###############################################
     # the following methods deal with age divisions

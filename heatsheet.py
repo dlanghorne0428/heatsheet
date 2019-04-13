@@ -680,18 +680,18 @@ class HelloFrame(wx.Frame):
                 h = CompMngrHeat(category="Pro heat", number=num)
             else:
                 h = NdcaPremHeat(category="Pro heat", number=num)            
-            # h = CompMngr_Heatsheet.Heat(category="Pro heat", number=num)
             
             # get a heat report with the entries form the heatsheet
-            report = self.heatsheet.heat_report(h)
-            if len(report["entries"]) > 0:
+            report = self.heatsheet.build_heat_report(h)
+            if report.length() > 0:
                 
                 # get the results of this heat
                 self.scoresheet.determine_heat_results(report)
-                for e in report["entries"]:
+                for index in range(report.length()):
+                    e = report.entry(index)
                     
                     # if there is a late entry, add that info to the GUI
-                    if e["code"] == "LATE":
+                    if e.code == "LATE":
                         curr_item = self.list_ctrl.GetItem(item_index, 0)
                         self.list_ctrl.InsertItem(curr_item)  
                         self.list_ctrl.SetItem(item_index, 0, h.category)
@@ -700,13 +700,13 @@ class HelloFrame(wx.Frame):
                         self.list_ctrl.SetItem(item_index, 2, t)
                         t = self.list_ctrl.GetItemText(item_index - 1, 3)
                         self.list_ctrl.SetItem(item_index, 3, t)        
-                        self.list_ctrl.SetItem(item_index, 4, e["shirt"])
+                        self.list_ctrl.SetItem(item_index, 4, e.shirt_number)
                     
                     # the names may have been re-ordered by processing the scoresheet
                     # for all couples, update the names and add the result to the GUI
-                    couple_names = e["dancer"] + " and " + e["partner"]
+                    couple_names = e.dancer + " and " + e.partner
                     self.list_ctrl.SetItem(item_index, 5, couple_names)    
-                    self.list_ctrl.SetItem(item_index, Results_Column, str(e["result"]))
+                    self.list_ctrl.SetItem(item_index, Results_Column, str(e.result))
                     item_index += 1
 
                 item_index += 1  # get past line that separates the events        
@@ -782,15 +782,15 @@ class HelloFrame(wx.Frame):
         while index == -1:
             attempt += 1
             if attempt == 1:
-                couple_names = c["dancer"] + " and " + c["partner"]
+                couple_names = c.dancer + " and " + c.partner
                 index = self.current_couples.find_couple(couple_names)
             elif attempt == 2:
-                couple_names = c["partner"] + " and " +  c["dancer"]
+                couple_names = c.partner + " and " +  c.dancer
                 index = self.current_couples.find_couple(couple_names)
             elif attempt == 3:
                 index = self.current_couples.find_couple_by_last_name(couple_names)
             elif attempt == 4:
-                couple_names = c["dancer"] + " and " + c["partner"]
+                couple_names = c.dancer + " and " + c.partner
                 index = self.current_couples.find_couple_by_last_name(couple_names)            
             else:
                 break
@@ -822,20 +822,19 @@ class HelloFrame(wx.Frame):
                 h = CompMngrHeat(category="Pro heat", number=num)
             else:
                 h = NdcaPremHeat(category="Pro heat", number=num)            
-            #h = CompMngr_Heatsheet.Heat("Pro heat", number=num)
             
             # get a heat report with the entries form the heatsheet
-            report = self.heatsheet.heat_report(h, sorted=True)
-            if len(report["entries"]) > 0:
+            report = self.heatsheet.build_heat_report(h, sorted=True)
+            if report.length() > 0:
                 
                 # find the style of this heat and sort the appropriate ranking database
-                if "Smooth" in report["info"]:
+                if "Smooth" in report.description():
                     self.current_couples = self.smooth_couples
-                elif "Rhythm" in report["info"]:
+                elif "Rhythm" in report.description():
                     self.current_couples = self.rhythm_couples
-                elif "Latin" in report["info"]:
+                elif "Latin" in report.description():
                     self.current_couples = self.latin_couples
-                elif "Standard" in report["info"] or "Ballroom" in report["info"]:
+                elif "Standard" in report.description() or "Ballroom" in report.description():
                     self.current_couples = self.standard_couples      
                 else:
                     self.current_couples = self.showdance_couples
@@ -843,7 +842,8 @@ class HelloFrame(wx.Frame):
                 self.current_couples.sort_couples(key="avg_pts", reverse=True)
                 
                 # for each entry in the current heat
-                for e in report["entries"]:
+                for i in range(report.length()):
+                    e = report.entry(i)
                     # find the couple in the database and get the name as stored in the database
                     index = self.find_matching_couple_in_ranking(e)
                     db_name = self.current_couples.get_name_at_index(index)
