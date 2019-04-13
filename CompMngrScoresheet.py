@@ -1,6 +1,7 @@
 import os.path
 import requests
 from comp_results_file import Comp_Results_File, Heat_Result, Entry_Result
+from calc_points import calc_points
 
 
 ''' This routine switches the names of a couple to match the scoresheet.
@@ -27,31 +28,7 @@ class CompMngrScoresheet():
         
         # the URL will contain the address of the server.
         self.url = ""
-        
-        '''the point value arrays are used to award points based on the
-           level of the event (Open, Rising Star, Novice) and the number
-           of rounds (Final only, Semi-Final, and Quarter-Final).
-           Extra points are awarded for events that had prelim rounds.
-           Currently, the program only processes professional heats.
-        '''
-        
-        self.point_values = {
-           "Open": {
-               "F": [0, 20, 15, 12,  9,  7,  4, 3, 2],
-               "S": [0, 30, 24, 20, 16, 12,  9, 7, 5, 4, 0],
-               "Q": [0, 40, 32, 25, 20, 15, 12, 9, 7, 6, 3]
-            },
-           "Rising Star": {
-               "F": [0, 10,  7,  5,  3,  2,  1, 1, 1],
-               "S": [0, 20, 15, 12,  9,  7,  4, 3, 2, 2, 0],
-               "Q": [0, 30, 24, 20, 16, 12,  9, 7, 5, 5, 2]
-               },
-           "Novice": {
-               "F": [0,  5,  4,  3,  2,  1,  1, 1, 1],
-               "S": [0, 10,  8,  6,  4,  3,  2, 1, 1, 1, 0],
-               "Q": [0, 15, 12, 10,  8,  6,  5, 4, 3, 3, 1]
-           }
-        }
+    
 
     ''' In the Comp Manager scoresheet HTML file format, the URL can be found
         on a line containing the key 'action='
@@ -156,7 +133,7 @@ class CompMngrScoresheet():
        It is the scoresheet results for a single dancer.
        We use this to extract the results of the heat we are interested in 
     '''
-    def process_response(self, heat_report, rounds):
+    def process_response(self, heat_report):
         # Build the string to find the results for the heat we want.
         # For example: Pro Heat 5:
         # need the colon directly after the number, to distinguish 5 from 51, etc.
@@ -210,6 +187,7 @@ class CompMngrScoresheet():
                     count = 0
                 elif "<td>" in line and "Recall" in line:
                     recall_column = count
+                    accum_column = recall_column - 1
                     looking_for_eliminations = True
                     looking_for_recall_column = False
                     count = 0
@@ -227,6 +205,12 @@ class CompMngrScoresheet():
                         current_competitor = self.get_table_data(line)
                         count += 1
                         
+                    elif count == accum_column:
+                        try:
+                            accum = int(self.get_table_data(line))
+                        except:
+                            accum = 0
+                        count += 1
                     elif count == recall_column:
                         # If the data indicates the couple was recalled, we can ignore them, 
                         # as we will get their results in the next round. 
@@ -253,7 +237,7 @@ class CompMngrScoresheet():
                                     e["result"] = result
                                     
                                     # Lookup their points, and exit the loop 
-                                    e["points"] = self.point_values[level][rounds][result_index]
+                                    e["points"] = calc_points(level, result_index, rounds=heat_report["rounds"], accum=accum)
                                     break
                                 
                             # If we get here, we didn't find an entry on the heatsheet that matches
@@ -266,7 +250,7 @@ class CompMngrScoresheet():
                                 late_entry["dancer"] = couple_names[0] 
                                 late_entry["partner"] = couple_names[1] 
                                 late_entry["result"] = result
-                                late_entry["points"] = self.point_values[level][rounds][result_index]
+                                late_entry["points"] = calc_points(level, result_index, rounds=heat_report["rounds"], accum=accum)
                                 
                                 # Add that structure back to the heat report to show it on the GUI.
                                 # Use the code field to indicate that this was a late entry.
@@ -286,6 +270,7 @@ class CompMngrScoresheet():
             
             # When we are looking for finalists, the logic is similar to looking for eliminations
             elif looking_for_finalists:
+                num_competitors = len(heat_report["entries"])
                 if "<td>" in line:
                     if count == 0:
                         current_competitor = self.get_table_data(line)
@@ -304,7 +289,7 @@ class CompMngrScoresheet():
                                 if e["dancer"].startswith(couple_names[1]):
                                     swap_names(e)
                                 e["result"] = result_place
-                                e["points"] = self.point_values[level][rounds][result_place]
+                                e["points"] = calc_points(level, result_place, num_competitors=num_competitors, rounds=heat_report["rounds"])
                                 break
                             
                         else:    # this code runs when competitor not found in heat
@@ -314,7 +299,7 @@ class CompMngrScoresheet():
                             late_entry["dancer"] = couple_names[0] 
                             late_entry["partner"] = couple_names[1]
                             late_entry["result"] = result_place
-                            late_entry["points"] = self.point_values[level][rounds][result_place]
+                            late_entry["points"] = calc_points(level, result_place, num_competitors=num_competitors, rounds=heat_report["rounds"])
                             late_entry["code"] = "LATE"                            
                             heat_report["entries"].append(late_entry)
                         
@@ -335,12 +320,15 @@ class CompMngrScoresheet():
             elif heat_string in line and "Quarter-final" in line and "<p>" in line:
                 result = "quarters"    # indicate which round we are in
                 result_index = -1      # use this to pull values from the points table
+                heat_report["rounds"] = "Q"
                 looking_for_recall_column = True  # enter the next state
                 
             # If this check is true, we found Semi-final results for this heat            
             elif heat_string in line and "Semi-final" in line and "<p>" in line:
                 result = "Semis"
                 result_index = -2
+                if heat_report["rounds"] == "F":
+                    heat_report["rounds"] = "S"
                 looking_for_recall_column = True
             
             # If this check is true, we found the Final results for this heat
@@ -364,9 +352,8 @@ class CompMngrScoresheet():
        A heat report is passed in with the entries from the heatsheet.
     '''
     def determine_heat_results(self, heat_report):
-        # save the rounds info to award extra points if the heat had a semi-final
-        # or quarter-final
-        rounds = heat_report["rounds"]
+        # don't assume the heatlist was correct 
+        heat_report["rounds"] = "F"
         
         # loop through the entries in the heat
         for entry in heat_report["entries"]:
@@ -383,7 +370,7 @@ class CompMngrScoresheet():
                 self.response = requests.post(self.url, data = self.payload)
                 
                 # process the returned scoresheet
-                result = self.process_response(heat_report, rounds)
+                result = self.process_response(heat_report)
                 
                 # if this competitor made the finals, quit looping because
                 # we have all the results for this heat
