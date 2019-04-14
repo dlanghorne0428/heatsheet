@@ -21,6 +21,14 @@ class Heat():
     def set_category(self, cat):
         self.category = cat
         
+    def swap_names(self):
+        ''' This routine switches the names of a couple to match the scoresheet.
+            In a pro heat the male dancer is listed first. 
+        '''    
+        temp = self.dancer
+        self.dancer = self.partner
+        self.partner = temp    
+        
     def info_list(self):
         summary = list()
         summary.append(self.category)
