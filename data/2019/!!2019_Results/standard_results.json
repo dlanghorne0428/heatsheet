@@ -13,6 +13,25 @@
     "avg_pts": 40.0
   },
   {
+    "name": "Fung, Victor and Muravyeva, Anastasia",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "1",
+        "points": 30
+      }
+    ],
+    "total_pts": 50,
+    "avg_pts": 25.0
+  },
+  {
     "name": "Bieliei, Iaroslav and Biellei, Liliia",
     "results": [
       {
@@ -50,29 +69,16 @@
         "level": "Open",
         "place": "1",
         "points": 30
-      }
-    ],
-    "total_pts": 151,
-    "avg_pts": 25.17
-  },
-  {
-    "name": "Fung, Victor and Muravyeva, Anastasia",
-    "results": [
+      },
       {
-        "comp_name": "City Lights Open",
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
         "level": "Open",
         "place": "1",
         "points": 20
-      },
-      {
-        "comp_name": "Superstars Dancesport",
-        "level": "Open",
-        "place": "1",
-        "points": 30
       }
     ],
-    "total_pts": 50,
-    "avg_pts": 25.0
+    "total_pts": 171,
+    "avg_pts": 24.43
   },
   {
     "name": "Homm, Rudy and Kanevskaya, Katia",
@@ -112,23 +118,16 @@
         "level": "Open",
         "place": "2",
         "points": 24
-      }
-    ],
-    "total_pts": 149,
-    "avg_pts": 24.83
-  },
-  {
-    "name": "Shakhov, Vladislav and Popova, Ekaterina",
-    "results": [
+      },
       {
-        "comp_name": "Heritage Classic Ballroom Championships",
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
         "level": "Open",
         "place": "2",
-        "points": 24
+        "points": 16
       }
     ],
-    "total_pts": 24,
-    "avg_pts": 24.0
+    "total_pts": 165,
+    "avg_pts": 23.57
   },
   {
     "name": "Mykhailov, Andrii and Bohachova, Anna",
@@ -185,6 +184,25 @@
     ],
     "total_pts": 56,
     "avg_pts": 18.67
+  },
+  {
+    "name": "Shakhov, Vladislav and Popova, Ekaterina",
+    "results": [
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 24
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      }
+    ],
+    "total_pts": 36,
+    "avg_pts": 18.0
   },
   {
     "name": "Radvan, Cristian and Kudeldo, Kristina",
@@ -399,19 +417,6 @@
     "avg_pts": 15.0
   },
   {
-    "name": "Wills, Woodrow and Petkova, Neli",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "2",
-        "points": 15
-      }
-    ],
-    "total_pts": 15,
-    "avg_pts": 15.0
-  },
-  {
     "name": "Minaev, Aleksei and Minaeva, Elena",
     "results": [
       {
@@ -597,6 +602,25 @@
     "avg_pts": 11.33
   },
   {
+    "name": "Wills, Woodrow and Petkova, Neli",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "2",
+        "points": 15
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 10.0
+  },
+  {
     "name": "Dudin, Danila and Zhigulskaya, Varvara",
     "results": [
       {
@@ -639,43 +663,6 @@
     ],
     "total_pts": 19,
     "avg_pts": 9.5
-  },
-  {
-    "name": "Alitto, Oreste and Belozerova, Valeriia",
-    "results": [
-      {
-        "comp_name": "City Lights Open",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "City Lights Open",
-        "level": "Open",
-        "place": "5",
-        "points": 7
-      },
-      {
-        "comp_name": "California Open",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "California Open",
-        "level": "Open",
-        "place": "4",
-        "points": 9
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10
-      }
-    ],
-    "total_pts": 46,
-    "avg_pts": 9.2
   },
   {
     "name": "Belmeha, Artem and Shevchenko, Anna",
@@ -727,6 +714,55 @@
     "avg_pts": 9.14
   },
   {
+    "name": "Alitto, Oreste and Belozerova, Valeriia",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "City Lights Open",
+        "level": "Open",
+        "place": "5",
+        "points": 7
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Open",
+        "place": "4",
+        "points": 9
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "5",
+        "points": 7
+      }
+    ],
+    "total_pts": 63,
+    "avg_pts": 9.0
+  },
+  {
     "name": "Mayorov, Evgeniy and Lisovskaya, Olga",
     "results": [
       {
@@ -747,9 +783,15 @@
         "level": "Open",
         "place": "4",
         "points": 9
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "4",
+        "points": 9
       }
     ],
-    "total_pts": 9,
+    "total_pts": 18,
     "avg_pts": 9.0
   },
   {
@@ -1051,10 +1093,22 @@
         "level": "Open",
         "place": "Semis",
         "points": 4
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "6",
+        "points": 4
       }
     ],
-    "total_pts": 25,
-    "avg_pts": 6.25
+    "total_pts": 36,
+    "avg_pts": 6.0
   },
   {
     "name": "Spencer, Alina and Spencer, Alex",
@@ -1138,37 +1192,6 @@
     "avg_pts": 5.5
   },
   {
-    "name": "Nemiro, Robert and Miner-Voigt, Lydia",
-    "results": [
-      {
-        "comp_name": "City Lights Open",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 7
-      },
-      {
-        "comp_name": "City Lights Open",
-        "level": "Open",
-        "place": "6",
-        "points": 4
-      },
-      {
-        "comp_name": "City Lights Open",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 7
-      },
-      {
-        "comp_name": "City Lights Open",
-        "level": "Open",
-        "place": "6",
-        "points": 4
-      }
-    ],
-    "total_pts": 22,
-    "avg_pts": 5.5
-  },
-  {
     "name": "Anufriiev, Mykhailo and Vietrynska, Anna",
     "results": [
       {
@@ -1240,6 +1263,43 @@
     ],
     "total_pts": 57,
     "avg_pts": 5.18
+  },
+  {
+    "name": "Nemiro, Robert and Miner-Voigt, Lydia",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "City Lights Open",
+        "level": "Open",
+        "place": "6",
+        "points": 4
+      },
+      {
+        "comp_name": "City Lights Open",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "City Lights Open",
+        "level": "Open",
+        "place": "6",
+        "points": 4
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3
+      }
+    ],
+    "total_pts": 25,
+    "avg_pts": 5.0
   },
   {
     "name": "Dawson, Staz and Gonyea, Jacklyn",
@@ -1379,37 +1439,6 @@
     "avg_pts": 4.25
   },
   {
-    "name": "Cromwell, Robbie and Trimble, Ruth",
-    "results": [
-      {
-        "comp_name": "California Open",
-        "level": "Rising Star",
-        "place": "3",
-        "points": 5
-      },
-      {
-        "comp_name": "California Open",
-        "level": "Open",
-        "place": "6",
-        "points": 4
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 3
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Open",
-        "place": "Semis",
-        "points": 4
-      }
-    ],
-    "total_pts": 16,
-    "avg_pts": 4.0
-  },
-  {
     "name": "Solomakha, Dmitriy and Sevillano, Gabriela",
     "results": [
       {
@@ -1452,6 +1481,43 @@
     ],
     "total_pts": 11,
     "avg_pts": 3.67
+  },
+  {
+    "name": "Cromwell, Robbie and Trimble, Ruth",
+    "results": [
+      {
+        "comp_name": "California Open",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Open",
+        "place": "6",
+        "points": 4
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 2
+      }
+    ],
+    "total_pts": 18,
+    "avg_pts": 3.6
   },
   {
     "name": "Pavlyuk, Mechyslav and Arnold, Gemma",

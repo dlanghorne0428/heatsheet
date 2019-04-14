@@ -7,10 +7,16 @@
         "level": "Open",
         "place": "1",
         "points": 40
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 24
       }
     ],
-    "total_pts": 40,
-    "avg_pts": 40.0
+    "total_pts": 64,
+    "avg_pts": 32.0
   },
   {
     "name": "Gunnarsson, Gunnar and Doshoris, Marika",
@@ -49,6 +55,19 @@
     ],
     "total_pts": 90,
     "avg_pts": 30.0
+  },
+  {
+    "name": "Bager, Troels and Jeliazkova, Ina",
+    "results": [
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 30
+      }
+    ],
+    "total_pts": 30,
+    "avg_pts": 30
   },
   {
     "name": "Likhachev, Evgeny and Levina, Maria",
@@ -238,23 +257,16 @@
         "level": "Open",
         "place": "2",
         "points": 32
-      }
-    ],
-    "total_pts": 41,
-    "avg_pts": 20.5
-  },
-  {
-    "name": "Altukhov, Sasha and Murillo, Cheyenne",
-    "results": [
+      },
       {
-        "comp_name": "Superstars Dancesport",
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
         "level": "Open",
         "place": "3",
         "points": 20
       }
     ],
-    "total_pts": 20,
-    "avg_pts": 20.0
+    "total_pts": 61,
+    "avg_pts": 20.33
   },
   {
     "name": "Escolme, Andrew and Baker, Amy",
@@ -375,10 +387,35 @@
         "level": "Open",
         "place": "2",
         "points": 15
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "5",
+        "points": 12
       }
     ],
-    "total_pts": 112,
-    "avg_pts": 16.0
+    "total_pts": 124,
+    "avg_pts": 15.5
+  },
+  {
+    "name": "Altukhov, Sasha and Murillo, Cheyenne",
+    "results": [
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "3",
+        "points": 20
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "6",
+        "points": 9
+      }
+    ],
+    "total_pts": 29,
+    "avg_pts": 14.5
   },
   {
     "name": "Alisauskas, Lukas and Alisauskas, Simona",
@@ -412,28 +449,15 @@
         "level": "Open",
         "place": "Semis",
         "points": 6
-      }
-    ],
-    "total_pts": 71,
-    "avg_pts": 14.2
-  },
-  {
-    "name": "Malakhov, Nikita and Vlasova, Nadezda",
-    "results": [
-      {
-        "comp_name": "2019 New York Dance Festival 2019",
-        "level": "Open",
-        "place": "Semis",
-        "points": 6
       },
       {
-        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
         "level": "Open",
-        "place": "4",
-        "points": 20
+        "place": "7",
+        "points": 7
       }
     ],
-    "total_pts": 26,
+    "total_pts": 78,
     "avg_pts": 13.0
   },
   {
@@ -491,6 +515,31 @@
     ],
     "total_pts": 26,
     "avg_pts": 13.0
+  },
+  {
+    "name": "Gilin, Alon and Oblakova, Anna",
+    "results": [
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      },
+      {
+        "comp_name": "Michigan Dance Challenge",
+        "level": "Open",
+        "place": "4",
+        "points": 16
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "4",
+        "points": 16
+      }
+    ],
+    "total_pts": 38,
+    "avg_pts": 12.67
   },
   {
     "name": "Shipilov, Aleksei and Mitina, Julia",
@@ -640,37 +689,6 @@
     "avg_pts": 12.4
   },
   {
-    "name": "Barov, Dmitry and Meller, Joanna",
-    "results": [
-      {
-        "comp_name": "Superstars Dancesport",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "Superstars Dancesport",
-        "level": "Open",
-        "place": "6",
-        "points": 9
-      },
-      {
-        "comp_name": "2019 New York Dance Festival 2019",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 24
-      },
-      {
-        "comp_name": "2019 New York Dance Festival 2019",
-        "level": "Open",
-        "place": "Semis",
-        "points": 6
-      }
-    ],
-    "total_pts": 49,
-    "avg_pts": 12.25
-  },
-  {
     "name": "Alekseev, Aleksei and Derevleva, Ekaterina",
     "results": [
       {
@@ -720,8 +738,26 @@
     "avg_pts": 11.86
   },
   {
-    "name": "Gilin, Alon and Oblakova, Anna",
+    "name": "Barov, Dmitry and Meller, Joanna",
     "results": [
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Superstars Dancesport",
+        "level": "Open",
+        "place": "6",
+        "points": 9
+      },
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 24
+      },
       {
         "comp_name": "2019 New York Dance Festival 2019",
         "level": "Open",
@@ -729,14 +765,14 @@
         "points": 6
       },
       {
-        "comp_name": "Michigan Dance Challenge",
-        "level": "Open",
-        "place": "4",
-        "points": 16
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5
       }
     ],
-    "total_pts": 22,
-    "avg_pts": 11.0
+    "total_pts": 54,
+    "avg_pts": 10.8
   },
   {
     "name": "Hustiuc, Daniel and Li, Jessica",
@@ -756,6 +792,68 @@
     ],
     "total_pts": 21,
     "avg_pts": 10.5
+  },
+  {
+    "name": "Chopenko, Dmitrii and Khrapak, Valeria",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      },
+      {
+        "comp_name": "St Louis Star Ball Championships ",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      },
+      {
+        "comp_name": "Windy City Open",
+        "level": "Open",
+        "place": "5",
+        "points": 7
+      },
+      {
+        "comp_name": "Michigan Dance Challenge",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      }
+    ],
+    "total_pts": 50,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Malakhov, Nikita and Vlasova, Nadezda",
+    "results": [
+      {
+        "comp_name": "2019 New York Dance Festival 2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6
+      },
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "4",
+        "points": 20
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 30,
+    "avg_pts": 10.0
   },
   {
     "name": "Osai, Malachi and Chan, Freda",
@@ -810,43 +908,6 @@
       }
     ],
     "total_pts": 80,
-    "avg_pts": 10.0
-  },
-  {
-    "name": "Chopenko, Dmitrii and Khrapak, Valeria",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "3",
-        "points": 12
-      },
-      {
-        "comp_name": "St Louis Star Ball Championships ",
-        "level": "Open",
-        "place": "3",
-        "points": 12
-      },
-      {
-        "comp_name": "Windy City Open",
-        "level": "Open",
-        "place": "5",
-        "points": 7
-      },
-      {
-        "comp_name": "Michigan Dance Challenge",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 7
-      },
-      {
-        "comp_name": "Indianapolis Open DanceSport",
-        "level": "Open",
-        "place": "3",
-        "points": 12
-      }
-    ],
-    "total_pts": 50,
     "avg_pts": 10.0
   },
   {
@@ -912,10 +973,16 @@
         "level": "Open",
         "place": "4",
         "points": 9
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
       }
     ],
-    "total_pts": 34,
-    "avg_pts": 8.5
+    "total_pts": 44,
+    "avg_pts": 8.8
   },
   {
     "name": "Minaev, Aleksei and Minaeva, Elena",
@@ -1005,49 +1072,6 @@
     "avg_pts": 7.8
   },
   {
-    "name": "Modrzynski, Przemyslaw and Zybura, Magdalena",
-    "results": [
-      {
-        "comp_name": "City Lights Open",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "City Lights Open",
-        "level": "Open",
-        "place": "6",
-        "points": 4
-      },
-      {
-        "comp_name": "California Open",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 3
-      },
-      {
-        "comp_name": "California Open",
-        "level": "Open",
-        "place": "6",
-        "points": 9
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 7
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Open",
-        "place": "3",
-        "points": 12
-      }
-    ],
-    "total_pts": 45,
-    "avg_pts": 7.5
-  },
-  {
     "name": "Jenkins, Dylan and Jenkins, Nora",
     "results": [
       {
@@ -1107,6 +1131,61 @@
       }
     ],
     "total_pts": 14,
+    "avg_pts": 7.0
+  },
+  {
+    "name": "Modrzynski, Przemyslaw and Zybura, Magdalena",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "City Lights Open",
+        "level": "Open",
+        "place": "6",
+        "points": 4
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3
+      },
+      {
+        "comp_name": "California Open",
+        "level": "Open",
+        "place": "6",
+        "points": 9
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 56,
     "avg_pts": 7.0
   },
   {
@@ -1621,6 +1700,32 @@
     "avg_pts": 4.2
   },
   {
+    "name": "Davis, Jake and Kalinina, Alyona",
+    "results": [
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 4,
+    "avg_pts": 4
+  },
+  {
+    "name": "Elgueta, Italo and Shreiber, Robyn",
+    "results": [
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 4,
+    "avg_pts": 4
+  },
+  {
     "name": "Hopwood, Joseph and Hawley, Alexandra",
     "results": [
       {
@@ -1697,6 +1802,25 @@
     "avg_pts": 4.0
   },
   {
+    "name": "Matakov, Vesko and Mariscal, Andrea",
+    "results": [
+      {
+        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
+        "level": "Open",
+        "place": "quarters",
+        "points": 3
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 7,
+    "avg_pts": 3.5
+  },
+  {
     "name": "Anufriiev, Mykhailo and Veitrynska, Anna",
     "results": [
       {
@@ -1741,19 +1865,6 @@
     "avg_pts": 3.0
   },
   {
-    "name": "Matakov, Vesko and Mariscal, Andrea",
-    "results": [
-      {
-        "comp_name": "TRI-STATE DanceSport CHAMPIONSHIPS",
-        "level": "Open",
-        "place": "quarters",
-        "points": 3
-      }
-    ],
-    "total_pts": 3,
-    "avg_pts": 3
-  },
-  {
     "name": "Petrosyan, Erik and Taryan, Margarita",
     "results": [
       {
@@ -1793,7 +1904,7 @@
     "avg_pts": 3.0
   },
   {
-    "name": "Grant and Wadsworth",
+    "name": "Grant, Rhett and Wadsworth, Shelby",
     "results": [
       {
         "comp_name": "California Open",
@@ -1806,10 +1917,22 @@
         "level": "Open",
         "place": "Semis",
         "points": 4
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
       }
     ],
-    "total_pts": 5,
-    "avg_pts": 2.5
+    "total_pts": 12,
+    "avg_pts": 3.0
   },
   {
     "name": "Guzovskyi, Mykyta and Serbina, Ekaterina",
@@ -1862,6 +1985,25 @@
     "avg_pts": 2.5
   },
   {
+    "name": "Seawright, Jordan and Novak, Tjasa",
+    "results": [
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 1
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4
+      }
+    ],
+    "total_pts": 5,
+    "avg_pts": 2.5
+  },
+  {
     "name": "Williams, Moses and DuPuy, Christina",
     "results": [
       {
@@ -1905,6 +2047,19 @@
     ],
     "total_pts": 2,
     "avg_pts": 2.0
+  },
+  {
+    "name": "Panchenko, Sergei and Zakrevskaia, Natalia",
+    "results": [
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 2
+      }
+    ],
+    "total_pts": 2,
+    "avg_pts": 2
   },
   {
     "name": "Pavlovic, Nenad and Kogan, Vivienne",

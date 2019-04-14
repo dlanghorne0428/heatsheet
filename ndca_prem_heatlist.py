@@ -2,7 +2,7 @@ import requests
 
 from couple import Couple
 from dancer import Dancer
-from heat import Heat
+from heat import Heat, Heat_Report
 from heatlist import Heatlist
 
 
@@ -45,6 +45,7 @@ class NdcaPremHeat(Heat):
             self.info = cols[3][start_pos:]
             if "Professional" in self.info:
                 self.category = "Pro heat"
+                self.set_level()
             elif "Formation" in self.info:
                 self.category = "Formation"
             elif "Solo Star" in self.info:
@@ -145,6 +146,21 @@ class NdcaPremHeatlist(Heatlist):
         else:
             print("Error parsing heat data")   
             
+            
+    # given a heat, this method returns a heat report, which is a list of 
+    # all entries in the heat. This list can optionally be sorted by shirt number
+    def build_heat_report(self, heat, heat_name_only=False, sorted=False):
+        report = Heat_Report()
+        for c in self.couples:
+            for ht in c.heats:
+                if heat == ht:
+                    report.append(ht)
+                    if heat_name_only:
+                        return report
+        if sorted:
+            report.sort()
+        return report    
+            
         
     def open(self, url):
         #extract comp name and comp_id from URL
@@ -154,7 +170,10 @@ class NdcaPremHeatlist(Heatlist):
         url = "http://www.ndcapremier.com/scripts/competitors.asp?cyi=" + comp_id
         response = requests.get(url)
         competitors = response.text.split("</a>")
-        for c in range(len(competitors) - 1):     
+        for c in range(len(competitors) - 1): 
+            if 'class="team"' in competitors[c]: 
+                #print(c)
+                continue
             d = NdcaPremDancer(competitors[c])
             #print(d.name, d.code)
             try:
