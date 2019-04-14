@@ -1,17 +1,8 @@
 import os.path
 import requests
-from comp_results_file import Comp_Results_File, Heat_Result, Entry_Result
+#from comp_results_file import Comp_Results_File, Heat_Result, Entry_Result
 from calc_points import calc_points
 
-
-''' This routine switches the names of a couple to match the scoresheet.
-    In a pro heat the male dancer is listed first. 
-'''
-def swap_names(e):
-    temp = e.dancer
-    e.dancer = e.partner
-    e.partner = temp
-    
 
 # This class parses the scoresheet and extract results of the competition
 class CompMngrScoresheet():
@@ -57,7 +48,7 @@ class CompMngrScoresheet():
     '''This routine opens a scoresheet from the given filename.
        The scoresheet has been saved to a file by the calling routine.
     '''
-    def open_scoresheet_from_file(self, filename):
+    def open(self, filename):
         # open the file and loop through all the lines
         fhand = open(filename,encoding="utf-8")
         for line in fhand:
@@ -72,15 +63,16 @@ class CompMngrScoresheet():
         
         # Open an output file to save the results of all pro heats
         # in this competition.
-        output_filename = os.path.dirname(filename) + "/results.json"
-        self.output_file = Comp_Results_File(output_filename, "w")
+        #output_filename = os.path.dirname(filename) + "/results.json"
+        #self.output_file = Comp_Results_File(output_filename, "w")
         
         # save the competition name at the top of that output file
-        self.output_file.save_comp_name(self.payload["COMP_NAME"])
+        #self.output_file.save_comp_name(self.payload["COMP_NAME"])
 
     '''This routine closes the output file once processing is complete'''
     def close(self):
-        self.output_file.close()
+        pass
+        #self.output_file.close()
 
     '''In the scoresheet results for a competitor, the data we want
        is stored in table cells. Find the <td> tags to extract the data
@@ -231,7 +223,7 @@ class CompMngrScoresheet():
                                     # scoresheet indicates which one is the leader (male). 
                                     # Swap the heatsheet names if necessary.
                                     if e.dancer.startswith(couple_names[1]):
-                                        swap_names(e)
+                                        e.swap_names()
                                         
                                     # If the couple was not recalled, their result is the round 
                                     # in which they were eliminated
@@ -289,7 +281,7 @@ class CompMngrScoresheet():
                             if current_competitor.startswith(e.shirt_number):
                                 couple_names = self.get_couple_names(current_competitor)
                                 if e.dancer.startswith(couple_names[1]):
-                                    swap_names(e)
+                                    e.swap_names()
                                 e.result = result_place
                                 #e.points = calc_points(level, result_place, num_competitors=num_competitors, rounds=heat_report.rounds())
                                 break
@@ -392,25 +384,4 @@ class CompMngrScoresheet():
                 if result == "Finals":
                     break
         
-        # build the information we want to write to our output file        
-        heat_result = Heat_Result()
-        
-        # get the title of the heat
-        heat_result.set_title(heat_report.description())
-        
-        # for each entry in the heat
-        for index in range(heat_report.length()):
-            e = heat_report.entry(index)
-            # If there is no result, the entry was on the heatsheet but
-            # did not show up in the scoresheet, so don't put them in the output 
-            if e.result is not None:
-                ent_result = Entry_Result()
-                # Write out the couple names, their placement, and the points
-                ent_result.set_couple(e.dancer + " and " + e.partner)
-                ent_result.set_place(str(e.result))
-                ent_result.set_points(e.points)
-                heat_result.set_next_entry(ent_result)
-        
-        # the structure of heat results is built, write it to the output file
-        self.output_file.save_heat(heat_result)
 
