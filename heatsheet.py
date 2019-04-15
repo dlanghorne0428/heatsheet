@@ -13,6 +13,7 @@ import yattag
 
 from ndca_prem_heatlist import NdcaPremHeatlist, NdcaPremHeat
 from ndca_prem_results import NdcaPremResults
+from comp_organizer_heatlist import CompOrgHeatlist, CompOrgHeat
 from CompMngr_Heatsheet import CompMngrHeatsheet, CompMngrHeat
 from comp_results_file import Comp_Results_File, Heat_Result, Entry_Result
 import CompMngrScoresheet
@@ -132,6 +133,7 @@ class HelloFrame(wx.Frame):
 
         self.ID_FILE_OPEN_URL = 90
         self.ID_FILE_OPEN_NDCA = 91
+        self.ID_FILE_OPEN_CO = 92 
         self.ID_VIEW_FILTER_DIV = 101
         self.ID_VIEW_FILTER_DANCER = 102
         self.ID_VIEW_FILTER_COUPLE = 103
@@ -150,6 +152,7 @@ class HelloFrame(wx.Frame):
         openItem = self.fileMenu.Append(wx.ID_OPEN)
         openUrlItem = self.fileMenu.Append(self.ID_FILE_OPEN_URL, "Open URL...")
         openNdcaItem = self.fileMenu.Append(self.ID_FILE_OPEN_NDCA, "Open URL from NDCA Premier")
+        openCompOrgItem = self.fileMenu.Append(self.ID_FILE_OPEN_CO, "Open URL from a CompOrganizer site")
         self.fileMenu.AppendSeparator()
         saveAsItem = self.fileMenu.Append(wx.ID_SAVEAS)
         self.fileMenu.AppendSeparator()
@@ -216,6 +219,7 @@ class HelloFrame(wx.Frame):
         self.Bind(wx.EVT_MENU, self.OnSaveAs, saveAsItem)
         self.Bind(wx.EVT_MENU, self.OnOpenURL, openUrlItem)
         self.Bind(wx.EVT_MENU, self.OnOpenNDCA, openNdcaItem)
+        self.Bind(wx.EVT_MENU, self.OnOpenCompOrg, openCompOrgItem)
         self.Bind(wx.EVT_MENU, self.OnExit,  exitItem)
         self.Bind(wx.EVT_MENU, self.OnFilterByDivision, filtDivItem)
         self.Bind(wx.EVT_MENU, self.OnFilterByDancer, filtDcrItem)
@@ -287,6 +291,7 @@ class HelloFrame(wx.Frame):
         self.fileMenu.Enable(wx.ID_OPEN, True)
         self.fileMenu.Enable(self.ID_FILE_OPEN_URL, True)
         self.fileMenu.Enable(self.ID_FILE_OPEN_NDCA, True)
+        self.fileMenu.Enable(self.ID_FILE_OPEN_CO, True)
         self.fileMenu.Enable(wx.ID_CLOSE, False)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DIV, False)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DANCER, False)
@@ -318,6 +323,7 @@ class HelloFrame(wx.Frame):
         self.fileMenu.Enable(wx.ID_OPEN, False)
         self.fileMenu.Enable(self.ID_FILE_OPEN_URL, False)
         self.fileMenu.Enable(self.ID_FILE_OPEN_NDCA, False)
+        self.fileMenu.Enable(self.ID_FILE_OPEN_CO, False)
         self.fileMenu.Enable(wx.ID_CLOSE, True)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DIV, True)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DANCER, True)
@@ -469,6 +475,19 @@ class HelloFrame(wx.Frame):
             self.postOpenProcess()
         
     
+    def OnOpenCompOrg(self, event):
+        '''
+        Launch a text dialog to get a URL from the user.
+        Open that webpage and process the heatsheet.
+        '''
+        # prompt the user for a URL
+        text_dialog = wx.TextEntryDialog(self, "Enter the URL for a Comp Organizer heat list")
+        if text_dialog.ShowModal() == wx.ID_OK:
+            url = text_dialog.GetValue() 
+            self.heatsheet = CompOrgHeatlist()    
+            self.heatsheet.open(url)
+            self.postOpenProcess()
+            
     def OnClose(self, event):
         ''' Re-initalize the competition file and reset all the controls.'''
         self.heatsheet = None
