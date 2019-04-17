@@ -14,6 +14,7 @@ import yattag
 from ndca_prem_heatlist import NdcaPremHeatlist, NdcaPremHeat
 from ndca_prem_results import NdcaPremResults
 from comp_organizer_heatlist import CompOrgHeatlist, CompOrgHeat
+from comp_organizer_results import CompOrgResults
 from CompMngr_Heatsheet import CompMngrHeatsheet, CompMngrHeat
 from comp_results_file import Comp_Results_File, Heat_Result, Entry_Result
 import CompMngrScoresheet
@@ -78,23 +79,27 @@ class HelloFrame(wx.Frame):
         self.Bind(wx.EVT_BUTTON, self.OnSaveAs, self.butt_save)
         
         # Create a label for grabbing the results
-        st_rslt = wx.StaticText(pnl, label="Results", pos=(825, 55))
+        st_rslt = wx.StaticText(pnl, label="Results", pos=(825, 30))
         st_rslt.SetFont(font)
     
-        # Creata a button to get the rankings
-        self.butt_rank = wx.Button(pnl, label="Get Rankings", pos=(825, 85))
+        # Create a button to get the rankings
+        self.butt_rank = wx.Button(pnl, label="Get Rankings", pos=(825, 60))
         self.Bind(wx.EVT_BUTTON, self.OnGetRankings, self.butt_rank)  
 
 
-        # Creata a button to get the results from a file
-        self.butt_rslt = wx.Button(pnl, label="Get Results", pos=(825, 110))
+        # Create a button to get the results from a file
+        self.butt_rslt = wx.Button(pnl, label="Get Results", pos=(825, 85))
         self.Bind(wx.EVT_BUTTON, self.OnGetResults, self.butt_rslt)  
         
-        # Creata a button to get the results from a URL
-        self.butt_rslt_url = wx.Button(pnl, label="Get Results From URL", pos=(825, 135))
+        # Create a button to get the results from a Comp_Mngr URL
+        self.butt_rslt_url = wx.Button(pnl, label="Get Results From URL", pos=(825, 110))
         self.Bind(wx.EVT_BUTTON, self.OnGetResultsFromURL, self.butt_rslt_url)          
 
-        # Creata a button to get the results from NDCA Premier
+        # Create a button to get the results from a Comp_Organizer URL
+        self.butt_rslt_co = wx.Button(pnl, label="Get Results - CompOrganizer", pos=(825, 135))
+        self.Bind(wx.EVT_BUTTON, self.OnGetResultsFromCompOrg, self.butt_rslt_co)  
+        
+        # Create a button to get the results from NDCA Premier
         self.butt_rslt_ndca = wx.Button(pnl, label="Get Results - NDCA Premier", pos=(825, 160))
         self.Bind(wx.EVT_BUTTON, self.OnGetResultsFromNdca, self.butt_rslt_ndca)  
 
@@ -269,6 +274,7 @@ class HelloFrame(wx.Frame):
             self.SetCoupleControl(self.heatsheet.couple_name_list())
         self.butt_rslt.Disable()
         self.butt_rslt_url.Disable()
+        self.butt_rslt_co.Disable()
         self.butt_rslt_ndca.Disable()
         self.butt_rank.Disable()
         self.heat_cat.Clear()
@@ -553,6 +559,8 @@ class HelloFrame(wx.Frame):
         # create a heat object based on category and number
         if type(self.heatsheet) is CompMngrHeatsheet:
             h = CompMngrHeat(category=category, number=heat_num)
+        elif type(self.heatsheet) is CompOrgHeatlist:
+            h = CompOrgHeat(category=category, number=heat_num)
         else:
             h = NdcaPremHeat(category=category, number=heat_num)        
         self.report_title = category + " " + str(heat_num)
@@ -664,6 +672,8 @@ class HelloFrame(wx.Frame):
         for num in range(1, self.heatsheet.max_pro_heat_num + 1):
             if type(self.heatsheet) is CompMngrHeatsheet:
                 h = CompMngrHeat(category="Pro heat", number=num)
+            elif type(self.heatsheet) is CompOrgHeat:
+                h = CompOrgHeat(category="Pro heat", number=num)
             else:
                 h = NdcaPremHeat(category="Pro heat", number=num)
                 
@@ -677,6 +687,7 @@ class HelloFrame(wx.Frame):
         self.butt_rslt.Enable()
         self.butt_rslt_url.Enable()
         self.butt_rslt_ndca.Enable()
+        self.butt_rslt_co.Enable()
         self.butt_rank.Enable()
         
     
@@ -709,11 +720,13 @@ class HelloFrame(wx.Frame):
         for num in range(1, self.heatsheet.max_pro_heat_num + 1):
             if type(self.heatsheet) is CompMngrHeatsheet:
                 h = CompMngrHeat(category="Pro heat", number=num)
-                # get a heat report with the entries form the heatsheet
-                report = self.heatsheet.build_heat_report(h)            
+            elif type(self.heatsheet) is CompOrgHeatlist:
+                h = CompOrgHeat(category="Pro heat", number = num)
             else:
-                h = NdcaPremHeat(category="Pro heat", number=num)
-                report = self.heatsheet.build_heat_report(h)  
+                h = NdcaPremHeat(category="Pro heat", number=num) 
+                
+            # get a heat report with the entries from the heatsheet
+            report = self.heatsheet.build_heat_report(h, sorted=True)   
             
             if report.length() > 0:
                 
@@ -815,6 +828,30 @@ class HelloFrame(wx.Frame):
                 self.ProcessScoresheet(output_filename, results_filename)
 
 
+    def OnGetResultsFromCompOrg(self, event):
+        '''
+        This method obtains the competition results from a site based on CompOrganizer.com
+        '''
+ 
+        # prompt the user to enter a URL 
+        text_dialog = wx.TextEntryDialog(self, "Enter the URL for results in CompOrganizer format")
+        if text_dialog.ShowModal() == wx.ID_OK:
+            url = text_dialog.GetValue()
+            self.scoresheet = CompOrgResults()
+            
+            # Ask the user to specify an output file to save the results 
+            # of all pro heats in this comp, using results.json as the default
+            fd = wx.FileDialog(self, "Save the Results to a file", 
+                                      defaultDir = "./data",
+                                      defaultFile = "results.json",
+                                      style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
+        
+            # Open the output file and process the scoresheet
+            if fd.ShowModal() == wx.ID_OK:
+                output_filename = fd.GetPath()
+                self.ProcessScoresheet(url, output_filename)
+                
+                
     def OnGetResultsFromNdca(self, event):
         '''
         This method obtains the competition results from NdcaPremier.com
@@ -826,22 +863,18 @@ class HelloFrame(wx.Frame):
             url = text_dialog.GetValue()
             self.scoresheet = NdcaPremResults()
             
-            # Open an output file to save the results of all pro heats
-            # in this competition.
-            # ask the user to save the file, using the extracted filename as the default
+            # Ask the user to specify an output file to save the results 
+            # of all pro heats in this comp, using results.json as the default
             fd = wx.FileDialog(self, "Save the Results to a file", 
                                       defaultDir = "./data",
                                       defaultFile = "results.json",
                                       style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
         
-            # decode the HTML data obtained from the web and convert to UTF-8
+            # Open the output file and process the scoresheet
             if fd.ShowModal() == wx.ID_OK:
                 output_filename = fd.GetPath()
                 self.ProcessScoresheet(url, output_filename)
             
-
-
-
 
     def find_matching_couple_in_ranking(self, c):
         '''
@@ -892,6 +925,8 @@ class HelloFrame(wx.Frame):
         for num in range(1, self.heatsheet.max_pro_heat_num + 1):
             if type(self.heatsheet) is CompMngrHeatsheet:
                 h = CompMngrHeat(category="Pro heat", number=num)
+            elif type(self.heatsheet) is CompOrgHeat:
+                h = CompOrgHeat(category="Pro heat", number=num)
             else:
                 h = NdcaPremHeat(category="Pro heat", number=num)            
             

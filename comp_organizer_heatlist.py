@@ -47,8 +47,17 @@ class CompOrgHeat(Heat):
                     self.heat_number = int(number_string[index:end_index])
                     self.extra = number_string[end_index:]
             start_pos = items[item_index+2].find("-time") + len("-time") + 2
-            self.time = items[item_index+2][start_pos:] 
-            start_pos = items[item_index+3].find("-numb") + len("-numb") + 2
+            heat_time = items[item_index+2][start_pos:] 
+            if "<br>" in heat_time:
+                time_fields = heat_time.split("<br>")
+                if len(time_fields) == 4:
+                    self.rounds = "Q"  # start with quarter-final
+                else:
+                    self.rounds = "S"  # start with semi-final            
+                self.time = time_fields[0] + "-" + self.rounds  # truncate "Later rounds" from time string
+            else:
+                self.time = heat_time + "-" + self.rounds
+
             self.shirt_number = items[item_index+3][start_pos:]             
             start_pos = items[item_index+4].find("-desc") + len("-desc") + 2
             self.info = items[item_index+4][start_pos:]
@@ -181,13 +190,12 @@ class CompOrgHeatlist(Heatlist):
                 # var cmid = "beachbash2019";
                 # extract the name from between the quotes
                 self.comp_name = l.split('= "')[1][:-2]
-                print(comp_name)
+                print(self.comp_name)
                 break
-        # TODO: need to build this URL
-        end_pos = url.find("/pages")
-        
-        
-        base_url = url[:end_pos] + "/scripts/heatlist_scrape.php?comp=" + comp_name
+
+        end_pos = url.find("/pages")        
+
+        base_url = url[:end_pos] + "/scripts/heatlist_scrape.php?comp=" + self.comp_name
         print(base_url)
         response = requests.get(base_url)
         competitors = response.text.split("},")
