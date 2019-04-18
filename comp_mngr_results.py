@@ -1,11 +1,10 @@
 import os.path
 import requests
-#from comp_results_file import Comp_Results_File, Heat_Result, Entry_Result
 from calc_points import calc_points
 
 
-# This class parses the scoresheet and extract results of the competition
-class CompMngrScoresheet():
+# This class parses a Comp_Mngr scoresheet and extract results of the competition
+class CompMngrResults():
 
     def __init__(self):
         ''' Initialize the scoresheet class.
@@ -61,18 +60,6 @@ class CompMngrScoresheet():
                 
         fhand.close()
         
-        # Open an output file to save the results of all pro heats
-        # in this competition.
-        #output_filename = os.path.dirname(filename) + "/results.json"
-        #self.output_file = Comp_Results_File(output_filename, "w")
-        
-        # save the competition name at the top of that output file
-        #self.output_file.save_comp_name(self.payload["COMP_NAME"])
-
-    '''This routine closes the output file once processing is complete'''
-    def close(self):
-        pass
-        #self.output_file.close()
 
     '''In the scoresheet results for a competitor, the data we want
        is stored in table cells. Find the <td> tags to extract the data
@@ -354,10 +341,11 @@ class CompMngrScoresheet():
         # and the calling routine will have to try another dancer to get those.
         return result
 
-    '''This routine extracts the results for a given heat. 
-       A heat report is passed in with the entries from the heatsheet.
-    '''
+
     def determine_heat_results(self, heat_report):
+        '''This routine extracts the results for a given heat. 
+           A heat report is passed in with the entries from the heatsheet.
+        '''    
         # don't assume the heatlist was correct 
         heat_report.set_rounds("F")
         
