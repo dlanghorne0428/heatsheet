@@ -1,6 +1,5 @@
 import os.path
 import requests
-#from comp_results_file import Comp_Results_File, Heat_Result, Entry_Result
 from calc_points import calc_points
 
 
@@ -68,11 +67,6 @@ class CompOrgResults():
         self.base_url = url[:end_pos] + "/co/scripts/results_scrape2.php?comp=" + self.comp_name
         print(self.base_url)        
         
-
-    '''This routine closes the output file once processing is complete'''
-    def close(self):
-        pass
-        #self.output_file.close()
 
     '''In the scoresheet results for a competitor, the data we want
        is stored in table cells. Find the <td> tags to extract the data
