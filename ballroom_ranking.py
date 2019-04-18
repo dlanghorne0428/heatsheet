@@ -134,6 +134,9 @@ class AppFrame(wx.Frame):
                                         "Update the name of a couple")
         addItem = self.editMenu.Append(wx.ID_ADD, "Add New Couple", 
                                        "Add a new couple to the current ranking database")
+        self.editMenu.AppendSeparator()
+        clearItem = self.editMenu.Append(wx.ID_CLEAR, "Clear All Results", 
+                                           "Clear all results from the current ranking database")
         
         # Now a View Menu for filtering data and generating reports
         self.viewMenu = wx.Menu()
@@ -179,6 +182,7 @@ class AppFrame(wx.Frame):
         self.Bind(wx.EVT_MENU, self.OnReplaceSetup, replItem)
         self.Bind(wx.EVT_FIND_REPLACE, self.OnReplace)
         self.Bind(wx.EVT_MENU, self.OnAddNewCouple, addItem)
+        self.Bind(wx.EVT_MENU, self.OnClearAllResults, clearItem)    
         self.Bind(wx.EVT_MENU, self.OnAbout, aboutItem)
 
 
@@ -553,7 +557,7 @@ class AppFrame(wx.Frame):
             curr_string = self.list_ctrl.GetItem(index, Name_Column).GetText()
             # prompt the user to make sure they want to replace
             message = "Replace " + curr_string + "\nwith " + rstring
-            md = wx.MessageDialog(self, message, "Are You Sure?", style=wx.YES_NO)
+            md = wx.MessageDialog(self, message, "Are You Sure?", style=wx.YES_NO | wx.NO_DEFAULT)
             if md.ShowModal() == wx.ID_YES:            
                 # set the name of this index to the replace string from the dialog
                 # update both the GUI and the database object
@@ -591,8 +595,31 @@ class AppFrame(wx.Frame):
             md.ShowModal()            
             
     
-    def OnAddNewCouple(self, event):
+    def OnClearAllResults(self, event):
         '''This method is called from the menu to add a new couple name to the current dance style ranking.'''
+        # alert the user
+        message = "This will remove all competition results from the ranking database!\nContinue?"
+        md = wx.MessageDialog(self, message, "Warning!", style=wx.YES_NO | wx.NO_DEFAULT)
+        if md.ShowModal() == wx.ID_YES:
+            # get the name and the current style of dance
+            message = "Do you want to delete all competition results?"
+            md = wx.MessageDialog(self, message, "Are You Sure?", style=wx.YES_NO | wx.NO_DEFAULT)
+            if md.ShowModal() == wx.ID_YES:
+                for index in range(self.smooth_couples.length()):
+                    self.smooth_couples.delete_all_results_from_couple(index)
+                for index in range(self.rhythm_couples.length()):
+                    self.rhythm_couples.delete_all_results_from_couple(index)                
+                for index in range(self.standard_couples.length()):
+                    self.standard_couples.delete_all_results_from_couple(index)
+                for index in range(self.latin_couples.length()):
+                    self.latin_couples.delete_all_results_from_couple(index)
+                for index in range(self.showdance_couples.length()):
+                    self.showdance_couples.delete_all_results_from_couple(index)                
+                self.unsaved_updates = True
+
+
+    def OnAddNewCouple(self, event):
+        '''This method is used to remove all results from the ranking databases. The couple names are maintained.'''
         # prompt the user to enter the names of a couple
         text_dialog = wx.TextEntryDialog(self, "Enter the couple name in this format:\nLast, First and Last, First")
         if text_dialog.ShowModal() == wx.ID_OK: 
@@ -601,12 +628,12 @@ class AppFrame(wx.Frame):
             current_style = self.styles.GetString(self.styles.GetSelection())
             # verify that the user wants to add this couple to the current style
             message = "Add " + name + " to\n" + current_style + "?"
-            md = wx.MessageDialog(self, message, "Are You Sure?", style=wx.YES_NO)
+            md = wx.MessageDialog(self, message, "Are You Sure?", style=wx.YES_NO | wx.NO_DEFAULT)
             if md.ShowModal() == wx.ID_YES:
                 # use None to indicate there are no results for this new couple
                 self.current_couples.add_couple(name, None)
                 self.unsaved_updates = True
-            
+                    
     
     def OnSave(self, event):
         '''This method is called to save the updated ranking databases.'''
