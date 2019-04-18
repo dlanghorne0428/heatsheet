@@ -68,6 +68,13 @@ class RankingDataFile():
             couple["total_pts"] += int(result["points"])
             couple["avg_pts"] = round(couple["total_pts"] / len(couple["results"]), 2)  
             
+          
+    def delete_all_results_from_couple(self, index):
+        couple = self.info[index]
+        couple["results"] = list()
+        couple["total_pts"] = 0
+        couple["avg_pts"] = 0
+        
     
     def find_highest_rank(self, index):
         '''
