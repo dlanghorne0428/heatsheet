@@ -1,6 +1,8 @@
 import json
 from operator import itemgetter
 
+from heat import Heat, Heat_Report
+
 ''' This module writes the results of a competition to a JSON file.
     There are three classes: 
     Comp_Result: the results for the entire competition.
@@ -61,7 +63,7 @@ class Heat_Result():
 
 class Comp_Results_File():
     ''' Here is the class for the Comp_Results_File
-        It supports reading and writing of the Comp Results
+        It supports reading and writing of the results for a single competition.
     '''
     def __init__(self, filename, mode="r"):
         self.filename = filename
@@ -86,11 +88,29 @@ class Comp_Results_File():
     def get_comp_name(self):
         ''' return the name of the competition.'''
         return self.info["comp name"]
-    
-    def save_heat(self, h):
+        
+    def save_heat(self, heat_report):
         ''' add a set of heat results to the structure.'''
-        h.sort_entries()
-        self.info["heats"].append(h.heat)
+        heat_result = Heat_Result()
+        
+        # get the title of the heat
+        heat_result.set_title(heat_report.description())
+        
+        # for each entry in the heat
+        for index in range(heat_report.length()):
+            e = heat_report.entry(index)
+            # If there is no result, the entry was on the heatsheet but
+            # did not show up in the scoresheet, so don't put them in the output 
+            if e.result is not None:
+                ent_result = Entry_Result()
+                # Write out the couple names, their placement, and the points
+                ent_result.set_couple(e.dancer + " and " + e.partner)
+                ent_result.set_place(str(e.result))
+                ent_result.set_points(e.points)
+                heat_result.set_next_entry(ent_result)
+        
+        heat_result.sort_entries()
+        self.info["heats"].append(heat_result.heat)
         
     def get_heats(self):
         ''' return all the heat results.'''
