@@ -65,7 +65,8 @@ class RankingDataFile():
         # make sure this is a new result
         if result not in couple["results"]:
             couple["results"].append(result)
-            couple["total_pts"] += int(result["points"])
+            couple["total_pts"] += result["points"]
+            couple["total_pts"] = round(couple["total_pts"], 2)
             couple["avg_pts"] = round(couple["total_pts"] / len(couple["results"]), 2)  
             
           
