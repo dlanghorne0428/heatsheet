@@ -1,24 +1,24 @@
 {
-  "comp name": "Windy City Open",
+  "comp name": "The Windy City Open",
   "heats": [
     {
-      "title": "Cabaret",
+      "title": "Professional Cabaret",
       "entries": [
         {
-          "couple": "Batin, Nazar and Cantley, Mariko",
+          "couple": "Batih and Cantley",
           "place": "1",
-          "points": 20
+          "points": 20.0
         },
         {
           "couple": "Pohl and Freilich",
-          "place": "2",
-          "points": 15
-        },   
+          "place": "1",
+          "points": 12.0
+        },
         {
           "couple": "Haklin and Ford",
-          "place": "3",
-          "points": 12
-        } 
+          "place": "1",
+          "points": 6.0
+        }
       ]
     },
     {
@@ -27,82 +27,82 @@
         {
           "couple": "Kaliuzhnyi, Vitalii and Barrington, Talia",
           "place": "1",
-          "points": 20
+          "points": 20.0
         },
         {
           "couple": "Nalyvaychuk, Vladyslav and Nalyvaychuk, Brianna",
           "place": "2",
-          "points": 15
+          "points": 16.0
         },
         {
           "couple": "Lebedev, Pavel and Khayrulina, Dinara",
           "place": "3",
-          "points": 12
+          "points": 13.0
         },
         {
           "couple": "Rozenfeld, Evgenii and Shumakher, Mariia",
           "place": "4",
-          "points": 9
+          "points": 10.0
         },
         {
           "couple": "Pohybil, Dmytro and Kushnir, Alona",
           "place": "5",
-          "points": 7
+          "points": 8.0
         },
         {
           "couple": "Haklin, Nick and Ford, Sarah",
           "place": "6",
-          "points": 4
+          "points": 6.0
         },
         {
           "couple": "Elser, David and Krug, Elizabeth",
           "place": "7",
-          "points": 3
+          "points": 5.0
         },
         {
           "couple": "Camarata, Michelle and Camarata, Kevin",
           "place": "8",
-          "points": 2
+          "points": 5.0
         },
         {
           "couple": "Bonev, Aleksandar and Aidasheva, Olga",
           "place": "Semis",
-          "points": 2
-        },
-        {
-          "couple": "Pickering, Martin and Botes, Natalie",
-          "place": "Semis",
-          "points": 2
+          "points": 2.4
         },
         {
           "couple": "Cegelski, Rane and Larson, Sarah",
           "place": "Semis",
-          "points": 2
-        },
-        {
-          "couple": "Pohl, Zachary and Freilich, Ariel",
-          "place": "Semis",
-          "points": 2
+          "points": 2.4
         },
         {
           "couple": "Leonard, Charles and Mirazliieva, Kamilla",
           "place": "Semis",
-          "points": 2
-        },
-        {
-          "couple": "Welch, Benjamin and Lyons, Rae",
-          "place": "Semis",
-          "points": 2
+          "points": 2.4
         },
         {
           "couple": "Morth, Jay and Trinidad, Samantha",
           "place": "Semis",
-          "points": 2
+          "points": 3.8
+        },
+        {
+          "couple": "Pickering, Martin and Botes, Natalie",
+          "place": "Semis",
+          "points": 2.4
+        },
+        {
+          "couple": "Pohl, Zachary and Freilich, Ariel",
+          "place": "Semis",
+          "points": 2.4
         },
         {
           "couple": "Romero, Brandon and Tomasini, Anna",
           "place": "Semis",
-          "points": 2
+          "points": 2.8
+        },
+        {
+          "couple": "Welch, Benjamin and Lyons, Rae",
+          "place": "Semis",
+          "points": 2.4
         }
       ]
     },
@@ -112,17 +112,17 @@
         {
           "couple": "Drobotov, Roman and Kazbekova, Liya",
           "place": "1",
-          "points": 10
+          "points": 10.0
         },
         {
           "couple": "Fulvi, Daniele and Criscione, Veronica",
           "place": "2",
-          "points": 7
+          "points": 6.0
         },
         {
           "couple": "Vaitkus, Domas and Pav, Serena",
           "place": "3",
-          "points": 5
+          "points": 3.0
         }
       ]
     },
@@ -132,57 +132,57 @@
         {
           "couple": "Nikishkin, Dmitry and Shvets-Nikishkin, Olena",
           "place": "1",
-          "points": 30
+          "points": 30.0
         },
         {
           "couple": "Velednitsky, Ilya and Ilchenko, Mariya",
           "place": "2",
-          "points": 24
+          "points": 24.0
         },
         {
           "couple": "DeSoto, Iryna and DeSoto, Aaron",
           "place": "3",
-          "points": 20
+          "points": 19.5
         },
         {
           "couple": "Sese, Kristian and Lozada, Mae",
           "place": "4",
-          "points": 16
+          "points": 15.0
         },
         {
           "couple": "Vasicek, Tomas and Tyrnova, Vitalija",
           "place": "5",
-          "points": 12
+          "points": 12.0
         },
         {
           "couple": "Makhaye, Senzo and Strojek, Agnieszka",
           "place": "6",
-          "points": 9
+          "points": 9.0
         },
         {
           "couple": "Aleman, Caleb and Hinds, Jamie",
           "place": "Semis",
-          "points": 4
+          "points": 3.6
         },
         {
           "couple": "Belbin, Andrew and Scully, Erin",
           "place": "Semis",
-          "points": 4
+          "points": 3.6
         },
         {
           "couple": "Rasmussen, Matthew and Daigle, Kayla",
           "place": "Semis",
-          "points": 4
-        },
-        {
-          "couple": "Zarek., Alexander and Kharchenko, Oleksandra",
-          "place": "Semis",
-          "points": 4
+          "points": 3.6
         },
         {
           "couple": "Rodriguez, Nicolas and Struk, Paulina",
           "place": "Semis",
-          "points": 4
+          "points": 6.0
+        },
+        {
+          "couple": "Zarek., Alexander and Kharchenko, Oleksandra",
+          "place": "Semis",
+          "points": 7.5
         }
       ]
     },
@@ -192,27 +192,27 @@
         {
           "couple": "Pappacena, Emanuele and Lazzari Pappacena, Francesca",
           "place": "1",
-          "points": 20
+          "points": 20.0
         },
         {
           "couple": "Batih, Nazar and Cantley, Mariko",
           "place": "2",
-          "points": 15
+          "points": 16.0
         },
         {
           "couple": "Minaev, Aleksei and Minaeva, Elena",
           "place": "3",
-          "points": 12
+          "points": 13.0
         },
         {
           "couple": "Kozun, Artur and Pyrgiel, Monika",
           "place": "4",
-          "points": 9
+          "points": 10.0
         },
         {
           "couple": "Teleha, Oleg and Brecker, Michelle",
           "place": "5",
-          "points": 7
+          "points": 8.0
         }
       ]
     },
@@ -222,62 +222,62 @@
         {
           "couple": "Sese, Kristian and Lozada, Mae",
           "place": "1",
-          "points": 20
+          "points": 20.0
         },
         {
           "couple": "Vasicek, Tomas and Tyrnova, Vitalija",
           "place": "2",
-          "points": 15
+          "points": 16.0
         },
         {
           "couple": "Makhaye, Senzo and Strojek, Agnieszka",
           "place": "3",
-          "points": 12
+          "points": 13.0
         },
         {
           "couple": "Zarek., Alexander and Kharchenko, Oleksandra",
           "place": "4",
-          "points": 9
+          "points": 10.0
         },
         {
           "couple": "Nyemchek, David and Wilder, Maysen",
           "place": "5",
-          "points": 7
+          "points": 8.0
         },
         {
           "couple": "Nunez, Antonio and Kashkina, Ksenia",
           "place": "6",
-          "points": 4
+          "points": 6.0
         },
         {
           "couple": "Caneo, Victor and Vaysfeld, Julia",
           "place": "7",
-          "points": 3
+          "points": 5.0
         },
         {
           "couple": "Aleman, Caleb and Hinds, Jamie",
           "place": "Semis",
-          "points": 2
+          "points": 2.4
         },
         {
           "couple": "Belbin, Andrew and Scully, Erin",
           "place": "Semis",
-          "points": 2
-        },
-        {
-          "couple": "Rasmussen, Matthew and Daigle, Kayla",
-          "place": "Semis",
-          "points": 2
+          "points": 2.4
         },
         {
           "couple": "Dawson, Staz and Gonyea, Jacklyn",
           "place": "Semis",
-          "points": 2
+          "points": 2.4
+        },
+        {
+          "couple": "Rasmussen, Matthew and Daigle, Kayla",
+          "place": "Semis",
+          "points": 2.4
         },
         {
           "couple": "Rodriguez, Nicolas and Struk, Paulina",
           "place": "Semis",
-          "points": 2
+          "points": 3.8
         }
       ]
     },
@@ -287,12 +287,12 @@
         {
           "couple": "Kozun, Artur and Pyrgiel, Monika",
           "place": "1",
-          "points": 10
+          "points": 10.0
         },
         {
           "couple": "Teleha, Oleg and Brecker, Michelle",
           "place": "2",
-          "points": 7
+          "points": 5.0
         }
       ]
     },
@@ -302,97 +302,97 @@
         {
           "couple": "Afonkin, Igor and Anderson, Meghan",
           "place": "1",
-          "points": 40
+          "points": 40.0
         },
         {
           "couple": "Karchev, Nikolay and Tarnowska, Anna",
           "place": "2",
-          "points": 32
+          "points": 32.0
         },
         {
           "couple": "Kaliuzhnyi, Vitalii and Barrington, Talia",
           "place": "3",
-          "points": 25
+          "points": 26.0
         },
         {
           "couple": "Popov, Vladimir and Marie, Erin",
           "place": "4",
-          "points": 20
+          "points": 20.0
         },
         {
           "couple": "Shapoval, Sergei and Popovich, Mila",
           "place": "5",
-          "points": 15
+          "points": 16.0
         },
         {
           "couple": "Nalyvaychuk, Vladyslav and Nalyvaychuk, Brianna",
           "place": "6",
-          "points": 12
+          "points": 12.0
         },
         {
           "couple": "Camarata, Michelle and Camarata, Kevin",
           "place": "Semis",
-          "points": 6
+          "points": 4.8
         },
         {
           "couple": "Elser, David and Krug, Elizabeth",
           "place": "Semis",
-          "points": 6
+          "points": 4.8
         },
         {
           "couple": "Haklin, Nick and Ford, Sarah",
           "place": "Semis",
-          "points": 6
+          "points": 4.8
         },
         {
           "couple": "Lebedev, Pavel and Khayrulina, Dinara",
           "place": "Semis",
-          "points": 6
-        },
-        {
-          "couple": "Pohybil, Dmytro and Kushnir, Alona",
-          "place": "Semis",
-          "points": 6
+          "points": 10.0
         },
         {
           "couple": "Rozenfeld, Evgenii and Shumakher, Mariia",
           "place": "Semis",
-          "points": 6
+          "points": 10.0
+        },
+        {
+          "couple": "Pohybil, Dmytro and Kushnir, Alona",
+          "place": "Semis",
+          "points": 7.2
         },
         {
           "couple": "Bonev, Aleksandar and Aidasheva, Olga",
           "place": "quarters",
-          "points": 3
-        },
-        {
-          "couple": "Pickering, Martin and Botes, Natalie",
-          "place": "quarters",
-          "points": 3
+          "points": 4.0
         },
         {
           "couple": "Dawson, Staz and Gonyea, Jacklyn",
           "place": "quarters",
-          "points": 3
-        },
-        {
-          "couple": "Nunez, Antonio and Kashkina, Ksenia",
-          "place": "quarters",
-          "points": 3
+          "points": 1.6
         },
         {
           "couple": "Leonard, Charles and Mirazliieva, Kamilla",
           "place": "quarters",
-          "points": 3
-        },
-        {
-          "couple": "Welch, Benjamin and Lyons, Rae",
-          "place": "quarters",
-          "points": 3
+          "points": 4.0
         },
         {
           "couple": "Morth, Jay and Trinidad, Samantha",
           "place": "quarters",
-          "points": 3
+          "points": 4.0
+        },
+        {
+          "couple": "Nunez, Antonio and Kashkina, Ksenia",
+          "place": "quarters",
+          "points": 4.0
+        },
+        {
+          "couple": "Pickering, Martin and Botes, Natalie",
+          "place": "quarters",
+          "points": 4.0
+        },
+        {
+          "couple": "Welch, Benjamin and Lyons, Rae",
+          "place": "quarters",
+          "points": 2.0
         }
       ]
     },
@@ -402,32 +402,32 @@
         {
           "couple": "Mulyavka, Ivan and Rooba, Karin",
           "place": "1",
-          "points": 20
+          "points": 20.0
         },
         {
           "couple": "Italyankin, Roman and Bokova, Alexandra",
           "place": "2",
-          "points": 15
+          "points": 16.0
         },
         {
           "couple": "Spirov, Rangel and Chernyavska, Veronika",
           "place": "3",
-          "points": 12
+          "points": 13.0
         },
         {
           "couple": "Drobotov, Roman and Kazbekova, Liya",
           "place": "4",
-          "points": 9
+          "points": 10.0
         },
         {
           "couple": "Chopenko, Dmitrii and Khrapak, Valeria",
           "place": "5",
-          "points": 7
+          "points": 8.0
         },
         {
           "couple": "Fulvi, Daniele and Criscione, Veronica",
           "place": "6",
-          "points": 4
+          "points": 6.0
         }
       ]
     }

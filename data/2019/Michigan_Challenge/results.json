@@ -1,5 +1,5 @@
 {
-  "comp name": "Michigan Dance Challenge",
+  "comp name": "Michigan DanceSport Challenge",
   "heats": [
     {
       "title": "Professional Rising Star Rhythm (CC/R/SW/B/M)",
@@ -7,47 +7,47 @@
         {
           "couple": "Pierce, Aaron and Stavrica, Ksenia",
           "place": "1",
-          "points": 20
+          "points": 20.0
         },
         {
           "couple": "Shiller, Ginny Ray and Shiller, Artem",
           "place": "2",
-          "points": 15
+          "points": 16.0
         },
         {
           "couple": "Wayne, Christopher and Evan, Mallory",
           "place": "3",
-          "points": 12
+          "points": 13.0
         },
         {
           "couple": "Chen, Jonathan and Simanekova, Juanita",
           "place": "4",
-          "points": 9
+          "points": 10.0
         },
         {
           "couple": "Nunez, Antonio and Kashkina, Ksenia",
           "place": "5",
-          "points": 7
+          "points": 8.0
         },
         {
           "couple": "Evans, Enoch and Gordeeva, Anastasia",
           "place": "6",
-          "points": 4
-        },
-        {
-          "couple": "Blain, Daniel and Blain, Mariel",
-          "place": "Semis",
-          "points": 2
-        },
-        {
-          "couple": "Carpenter, Kevin and Lickona, Monica",
-          "place": "Semis",
-          "points": 2
+          "points": 6.0
         },
         {
           "couple": "Munson, Todd and Hotz, Ricci-Lee",
           "place": "Semis",
-          "points": 2
+          "points": 4.8
+        },
+        {
+          "couple": "Blain, Mariel and Blain, Daniel",
+          "place": "Semis",
+          "points": 2.4
+        },
+        {
+          "couple": "Carpenter, Kevin and Lickona, Monica",
+          "place": "Semis",
+          "points": 2.4
         }
       ]
     },
@@ -57,17 +57,17 @@
         {
           "couple": "Anufriiev, Mykhailo and Vietrynska, Anna",
           "place": "1",
-          "points": 10
+          "points": 10.0
         },
         {
           "couple": "Esposito, Vincenzo and Matsubara, Yo",
           "place": "2",
-          "points": 7
+          "points": 6.0
         },
         {
           "couple": "Berkey, Kent and Ota, Yuko",
           "place": "3",
-          "points": 5
+          "points": 3.0
         }
       ]
     },
@@ -77,72 +77,72 @@
         {
           "couple": "Afonkin, Igor and Anderson, Meghan",
           "place": "1",
-          "points": 20
+          "points": 20.0
         },
         {
           "couple": "Zavialov, Dmitrii and Baumgartner, Katt",
           "place": "2",
-          "points": 15
+          "points": 16.0
         },
         {
           "couple": "Zhyvkov, Yana and Zhyvkov, Tykhon",
           "place": "3",
-          "points": 12
+          "points": 13.0
         },
         {
           "couple": "Derry, Patrick and Trutneva, Anastasia",
           "place": "4",
-          "points": 9
+          "points": 10.0
         },
         {
           "couple": "Mora, Leo and Garced, Christina",
           "place": "5",
-          "points": 7
+          "points": 8.0
         },
         {
           "couple": "Nunez, Antonio and Kashkina, Ksenia",
           "place": "6",
-          "points": 4
+          "points": 6.0
         },
         {
           "couple": "Merz, Timmy and Strashnikova, Deannah",
           "place": "7",
-          "points": 3
+          "points": 5.0
         },
         {
           "couple": "Barney, Alan and Rund, Megan",
           "place": "Semis",
-          "points": 2
+          "points": 3.2
         },
         {
           "couple": "Blain, Mariel and Blain, Daniel",
           "place": "Semis",
-          "points": 2
-        },
-        {
-          "couple": "Blizzard, Aaron and Lu, Jenny",
-          "place": "Semis",
-          "points": 2
-        },
-        {
-          "couple": "Carpenter, Kevin and Sanders, Janique",
-          "place": "Semis",
-          "points": 2
+          "points": 2.4
         },
         {
           "couple": "Clark, Gage and Nicole, Randi",
           "place": "Semis",
-          "points": 2
-        },
-        {
-          "couple": "Hutton, Colton and Eden, Cassandra",
-          "place": "Semis",
-          "points": 2
+          "points": 2.4
         },
         {
           "couple": "Kempainen, Chris and Inveen, Bonnie",
           "place": "Semis",
-          "points": 2
+          "points": 2.4
+        },
+        {
+          "couple": "Hutton, Colton and Eden, Cassandra",
+          "place": "Semis",
+          "points": 2.4
+        },
+        {
+          "couple": "Blizzard, Aaron and Lu, Jenny",
+          "place": "Semis",
+          "points": 2.4
+        },
+        {
+          "couple": "Carpenter, Kevin and Sanders, Janique",
+          "place": "Semis",
+          "points": 2.4
         }
       ]
     },
@@ -152,22 +152,22 @@
         {
           "couple": "Elkin, Bozhidar and Dumanova, Elena",
           "place": "1",
-          "points": 10
+          "points": 10.0
         },
         {
           "couple": "Chopenko, Dmitrii and Khrapak, Valeria",
           "place": "2",
-          "points": 7
+          "points": 7.0
         },
         {
           "couple": "Shvetsov, Artur and Linsong, Phoenix",
           "place": "3",
-          "points": 5
+          "points": 5.0
         },
         {
           "couple": "Anufriiev, Mykhailo and Vietrynska, Anna",
           "place": "4",
-          "points": 3
+          "points": 3.0
         }
       ]
     },
@@ -177,72 +177,72 @@
         {
           "couple": "Nikishkin, Dmitry and Shvets-Nikishkin, Olena",
           "place": "1",
-          "points": 40
+          "points": 40.0
         },
         {
           "couple": "Velednitsky, Ilya and Ilchenko, Mariya",
           "place": "2",
-          "points": 32
+          "points": 32.0
         },
         {
           "couple": "Burazer, Kristijan and Burazer, Anja",
           "place": "3",
-          "points": 25
+          "points": 26.0
         },
         {
           "couple": "Kondov, Toshko and Dobson, Kristen",
           "place": "4",
-          "points": 20
+          "points": 20.0
         },
         {
           "couple": "Shipilov, Aleksei and Mitina, Julia",
           "place": "5",
-          "points": 15
+          "points": 16.0
         },
         {
           "couple": "Papi, Riccardo and Moretti, Sabrina",
           "place": "6",
-          "points": 12
-        },
-        {
-          "couple": "Chen, Jonathan and Simanekova, Juanita",
-          "place": "Semis",
-          "points": 6
-        },
-        {
-          "couple": "Wayne, Christopher and Evan, Mallory",
-          "place": "Semis",
-          "points": 6
+          "points": 12.0
         },
         {
           "couple": "Pierce, Aaron and Stavrica, Ksenia",
           "place": "Semis",
-          "points": 6
+          "points": 4.8
+        },
+        {
+          "couple": "Chen, Jonathan and Simanekova, Juanita",
+          "place": "Semis",
+          "points": 4.8
         },
         {
           "couple": "Shiller, Ginny Ray and Shiller, Artem",
           "place": "Semis",
-          "points": 6
+          "points": 4.8
         },
         {
-          "couple": "Blain, Daniel and Blain, Mariel",
-          "place": "quarters",
-          "points": 3
-        },
-        {
-          "couple": "Carpenter, Kevin and Lickona, Monica",
-          "place": "quarters",
-          "points": 3
-        },
-        {
-          "couple": "Evans, Enoch and Gordeeva, Anastasia",
-          "place": "quarters",
-          "points": 3
+          "couple": "Wayne, Christopher and Evan, Mallory",
+          "place": "Semis",
+          "points": 4.8
         },
         {
           "couple": "Munson, Todd and Hotz, Ricci-Lee",
           "place": "quarters",
-          "points": 3
+          "points": 3.2
+        },
+        {
+          "couple": "Blain, Mariel and Blain, Daniel",
+          "place": "quarters",
+          "points": 0.4
+        },
+        {
+          "couple": "Evans, Enoch and Gordeeva, Anastasia",
+          "place": "quarters",
+          "points": 4.0
+        },
+        {
+          "couple": "Carpenter, Kevin and Lickona, Monica",
+          "place": "quarters",
+          "points": 0.4
         }
       ]
     },
@@ -252,27 +252,27 @@
         {
           "couple": "Mykhailov, Andrii and Bohachova, Anna",
           "place": "1",
-          "points": 20
+          "points": 20.0
         },
         {
           "couple": "Tonizzo, Richard and Hansen, Claire",
           "place": "2",
-          "points": 15
+          "points": 16.0
         },
         {
           "couple": "Minaev, Aleksei and Minaeva, Elena",
           "place": "3",
-          "points": 12
+          "points": 13.0
         },
         {
           "couple": "Anufriiev, Mykhailo and Vietrynska, Anna",
           "place": "4",
-          "points": 9
+          "points": 10.0
         },
         {
           "couple": "Berkey, Kent and Ota, Yuko",
           "place": "5",
-          "points": 7
+          "points": 8.0
         }
       ]
     },
@@ -282,27 +282,27 @@
         {
           "couple": "Jensen, Shannon and Jensen, Shane",
           "place": "1",
-          "points": 20
+          "points": 20.0
         },
         {
           "couple": "Sinitsa, Max and Seliverstova, Tatiana",
           "place": "2",
-          "points": 15
+          "points": 16.0
         },
         {
           "couple": "Pohl, Zachary and Freilich, Ariel",
           "place": "3",
-          "points": 12
+          "points": 13.0
         },
         {
           "couple": "Bertini, Francesco and Manzi Bertini, Sabrina",
           "place": "4",
-          "points": 9
+          "points": 10.0
         },
         {
           "couple": "Levit, Sharone and Kolarova, Milena",
           "place": "5",
-          "points": 7
+          "points": 8.0
         }
       ]
     },
@@ -312,87 +312,87 @@
         {
           "couple": "Sinitsa, Max and Seliverstova, Tatiana",
           "place": "1",
-          "points": 40
+          "points": 40.0
         },
         {
           "couple": "Samchynskyy, Sergiy and Besarab, Yuliya",
           "place": "2",
-          "points": 32
+          "points": 32.0
         },
         {
           "couple": "Vukosaljevic, Aleksandar and ., Nevena",
           "place": "3",
-          "points": 25
+          "points": 26.0
         },
         {
           "couple": "Zappia, Enzo and Betts, Stephanie",
           "place": "4",
-          "points": 20
+          "points": 20.0
         },
         {
           "couple": "Zhyvkov, Yana and Zhyvkov, Tykhon",
           "place": "5",
-          "points": 15
+          "points": 16.0
         },
         {
           "couple": "Zavialov, Dmitrii and Baumgartner, Katt",
           "place": "6",
-          "points": 12
+          "points": 12.0
         },
         {
           "couple": "Barney, Alan and Rund, Megan",
           "place": "Semis",
-          "points": 6
+          "points": 4.8
         },
         {
           "couple": "Derry, Patrick and Trutneva, Anastasia",
           "place": "Semis",
-          "points": 6
+          "points": 4.8
         },
         {
           "couple": "Pohl, Zachary and Freilich, Ariel",
           "place": "Semis",
-          "points": 6
+          "points": 4.8
         },
         {
           "couple": "Mora, Leo and Garced, Christina",
           "place": "Semis",
-          "points": 6
-        },
-        {
-          "couple": "Levit, Sharone and Kolarova, Milena",
-          "place": "Semis",
-          "points": 6
+          "points": 4.8
         },
         {
           "couple": "Merz, Timmy and Strashnikova, Deannah",
           "place": "Semis",
-          "points": 6
+          "points": 4.8
+        },
+        {
+          "couple": "Levit, Sharone and Kolarova, Milena",
+          "place": "Semis",
+          "points": 5.2
         },
         {
           "couple": "Blain, Mariel and Blain, Daniel",
           "place": "quarters",
-          "points": 3
-        },
-        {
-          "couple": "Blizzard, Aaron and Lu, Jenny",
-          "place": "quarters",
-          "points": 3
-        },
-        {
-          "couple": "Carpenter, Kevin and Sanders, Janique",
-          "place": "quarters",
-          "points": 3
+          "points": 2.4
         },
         {
           "couple": "Clark, Gage and Nicole, Randi",
           "place": "quarters",
-          "points": 3
+          "points": 4.0
         },
         {
           "couple": "Hutton, Colton and Eden, Cassandra",
           "place": "quarters",
-          "points": 3
+          "points": 0.8
+        },
+        {
+          "couple": "Blizzard, Aaron and Lu, Jenny",
+          "place": "quarters",
+          "points": 2.0
+        },
+        {
+          "couple": "Carpenter, Kevin and Sanders, Janique",
+          "place": "quarters",
+          "points": 0.4
         }
       ]
     },
@@ -402,42 +402,42 @@
         {
           "couple": "Maletin, Ilya and Mayer, Polina",
           "place": "1",
-          "points": 30
+          "points": 30.0
         },
         {
           "couple": "Tarnavskyy, Artur and Danilova, Anastasia",
           "place": "2",
-          "points": 24
+          "points": 24.0
         },
         {
           "couple": "Bertini, Francesco and Manzi Bertini, Sabrina",
           "place": "3",
-          "points": 20
+          "points": 19.5
         },
         {
           "couple": "Gilin and Oblakova",
           "place": "4",
-          "points": 16
+          "points": 15.0
         },
         {
           "couple": "Shipilov, Aleksei and Mitina, Julia",
           "place": "5",
-          "points": 12
+          "points": 12.0
         },
         {
           "couple": "Elkin, Bozhidar and Dumanova, Elena",
           "place": "6",
-          "points": 9
-        },
-        {
-          "couple": "Shvetsov, Artur and Linsong, Phoenix",
-          "place": "Semis",
-          "points": 4
+          "points": 9.0
         },
         {
           "couple": "Minaev, Aleksei and Minaeva, Elena",
           "place": "Semis",
-          "points": 4
+          "points": 3.6
+        },
+        {
+          "couple": "Shvetsov, Artur and Linsong, Phoenix",
+          "place": "Semis",
+          "points": 3.6
         }
       ]
     }
