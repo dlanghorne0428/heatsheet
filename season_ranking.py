@@ -173,9 +173,12 @@ class RankingDataFile():
         return name_list
             
 
-    def sort_couples(self, key="name", reverse=False):
-        '''This method sorts the couples by the selected key.'''    
-        self.info.sort(key=itemgetter(key), reverse=reverse)
+    def sort_couples(self, key1="name", key2=None, reverse=False):
+        '''This method sorts the couples by the selected key.'''  
+        if key2 is None:
+            self.info.sort(key=itemgetter(key1), reverse=reverse)
+        else:
+            self.info.sort(key=itemgetter(key1, key2), reverse=reverse)
 
 
     def add_couple(self, couple_name, result=None):
