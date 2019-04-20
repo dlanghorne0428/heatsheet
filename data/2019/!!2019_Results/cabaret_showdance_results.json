@@ -1,93 +1,762 @@
 [
   {
-    "name": "Alekseev, Alex and Derevleva, Ekaterina",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Antonelli, Vincent and Falciano, Stephanie",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Arndtson, Cody and Becker, Paris",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Austin III, James and Monroe, Violet",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Azarov, Mykhailo and Makarenko, Tetyana",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Ballard, Vince and Perez, Tania",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 20.0
+  },
+  {
+    "name": "Fumagalli, Davide and Macaluso, Debora",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 20.0
+  },
+  {
+    "name": "Jensen, Shane and Jensen, Shannon",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 120.0,
+    "avg_pts": 20.0
+  },
+  {
+    "name": "Sepulveda, Clifton and Martinez, Mar",
+    "results": [
+      {
+        "comp_name": "beachbash2019",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 20
   },
   {
     "name": "Batih, Nazar and Cantley, Mariko",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 16
+      }
+    ],
+    "total_pts": 96.0,
+    "avg_pts": 19.2
   },
   {
-    "name": "Bazylev, Alexei and Splender, Darya",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "name": "Tuft, Jaimee and Tuft, Travis",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 73.0,
+    "avg_pts": 18.25
   },
   {
-    "name": "Bertini, Francesco and Bertini, Sabrina",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "name": "Azarov, Mykhailo and Makarenko, Tetyana",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 14.0
+      }
+    ],
+    "total_pts": 84.0,
+    "avg_pts": 16.8
   },
   {
-    "name": "Black, Jamie and Elliott, Samantha",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "name": "Tsorokean, Alyenendrov and Wheeler, Maria",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 33.0,
+    "avg_pts": 16.5
   },
   {
-    "name": "Brochetti, Justin and Casali, Britta",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "name": "Sinitsa, Max and Seliverstova, Tatiana",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 16.0,
+    "avg_pts": 16.0
+  },
+  {
+    "name": "Smith, Craig and Harvey, Andrea",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 48.0,
+    "avg_pts": 16.0
+  },
+  {
+    "name": "Stoynov, Simeon and Stoynova, Kora",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 16.0,
+    "avg_pts": 16.0
   },
   {
     "name": "Dawson, Staz and Gonyea, Jacklyn",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "level": "Open",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 60.0,
+    "avg_pts": 15.0
   },
   {
-    "name": "Dombrowik, Douglas and Fox, Angel",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "name": "Merz, Timmy and Strashnikova, Diana",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 30.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Pohl, Zachary and Freilich, Ariel",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "level": "Open",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 45.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Kudashev, Ivan and Ksusha",
+    "results": [
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 41.0,
+    "avg_pts": 13.67
   },
   {
     "name": "Garcia, Uriel and Rowe, Vera",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 13.0,
+    "avg_pts": 13.0
+  },
+  {
+    "name": "Haklin, Nick and Ford, Sarah",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "level": "Open",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 51.0,
+    "avg_pts": 12.75
+  },
+  {
+    "name": "Bazylev, Alexei and Splender, Darya",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
+    "name": "Nunez, Tony and Kashkina, Ksenia",
+    "results": [
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 12
+      }
+    ],
+    "total_pts": 12,
+    "avg_pts": 12.0
+  },
+  {
+    "name": "Slisarenko, Taras and Konieva, Anastasiia",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "level": "Open",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
+    "name": "Austin III, James and Monroe, Violet",
+    "results": [
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Bertini, Francesco and Bertini, Sabrina",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Black, Jamie and Elliott, Samantha",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Dombrowik, Douglas and Fox, Angel",
+    "results": [
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
   },
   {
     "name": "Golubev, Valerii and Golubeva, Margarita",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "4",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Open",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 30.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Romero, Alexis and Yang, Yu-Wen",
+    "results": [
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 10,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Sanderson, Dan and Hicks, Kristin",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "2",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Alekseev, Alex and Derevleva, Ekaterina",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Open",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 18.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Antonelli, Vincent and Falciano, Stephanie",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 18.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Levit, Sharone and Kolarova, Milena",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 8.0,
+    "avg_pts": 8.0
+  },
+  {
+    "name": "Puzhevich, Igor and Puzhevich, Anastasia",
+    "results": [
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Open",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Open",
+        "place": "3",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 16.0,
+    "avg_pts": 8.0
+  },
+  {
+    "name": "Wills, Woodrow and Petkova, Neli",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 8.0,
+    "avg_pts": 8.0
+  },
+  {
+    "name": "Sovetov, Ivan and Mkrtchian, Valeria",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "3",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 22.0,
+    "avg_pts": 7.33
+  },
+  {
+    "name": "Zhukovskyi, Nikita and Boiko, Angelina",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Open",
+        "place": "3",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "level": "Open",
+        "place": "4",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 22.0,
+    "avg_pts": 7.33
+  },
+  {
+    "name": "Kantin, Anthony and Ventura, Lisa",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "8",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 13.0,
+    "avg_pts": 6.5
+  },
+  {
+    "name": "Arndtson, Cody and Becker, Paris",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "level": "Open",
+        "place": "3",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Brouwer, Nathan and Weiner, Dena Anne",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "level": "Open",
+        "place": "3",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Lundt, Michael and Ilic-Lundt, Amanda",
+    "results": [
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "3",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Brochetti, Justin and Casali, Britta",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "7",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 5.0,
+    "avg_pts": 5.0
   },
   {
     "name": "Gore, Gerard and Grohoske, Ellie",
@@ -96,127 +765,7 @@
     "avg_pts": 0
   },
   {
-    "name": "Haklin, Nick and Ford, Sarah",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Jensen, Shane and Jensen, Shannon",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Kantin, Anthony and Ventura, Lisa",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Kudashev, Ivan and Ksusha",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Levit, Sharone and Kolarova, Milena",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Lundt, Michael and Ilic-Lundt, Amanda",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Merz, Timmy and Strashnikova, Diana",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Nunez, Tony and Kashkina, Ksenia",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Pohl, Zachary and Freilich, Ariel",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Puzhevich, Igor and Puzhevich, Anastasia",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Romero, Alexis and Yang, Yu-Wen",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Sanderson, Dan and Hicks, Kristin",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Sinitsa, Max and Seliverstova, Tatiana",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Smith, Craig and Harvey, Andrea",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Sovetov, Ivan and Mkrtchian, Valeria",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Stoynov, Simeon and Stoynova, Kora",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Thomas, Joel and Barakat, Samantha",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Tsorokean, Alyenendrov and Wheeler, Maria",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Tuft, Jaimee and Tuft, Travis",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Wills, Woodrow and Petkova, Neli",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Zhukovskyi, Nikita and Boiko, Angelina",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
