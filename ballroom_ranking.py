@@ -261,7 +261,7 @@ class AppFrame(wx.Frame):
             self.current_couples = self.showdance_couples
         
         # sort the couples in order of their ranking
-        self.current_couples.sort_couples(key="avg_pts", reverse=True)
+        self.current_couples.sort_couples(key1="avg_pts", key2="total_pts", reverse=True)
         self.SetListControl(self.current_couples)
         self.last_find_index = -1
         
@@ -407,7 +407,7 @@ class AppFrame(wx.Frame):
                 self.current_couples.add_couple(entry["couple"], result) 
                 self.unsaved_updates = True
             # re-sort by ranking
-            self.current_couples.sort_couples(key="avg_pts", reverse=True)
+            self.current_couples.sort_couples(key1="avg_pts", key2="total_pts", reverse=True)
     
         
     def Process_Heat(self):
@@ -433,7 +433,7 @@ class AppFrame(wx.Frame):
                 self.Handle_No_Match_Couple(entry, result)
 
         # after all the heat entries added, re-display sorted list
-        self.current_couples.sort_couples(key="avg_pts", reverse=True)
+        self.current_couples.sort_couples(key1="avg_pts", key2="total_pts", reverse=True)
         self.SetListControl(self.current_couples)
         # highlight all the entries from this heat, showing their new ranking
         first_time = True
@@ -464,17 +464,17 @@ class AppFrame(wx.Frame):
 
     def OnSortByAvg(self, event):
         ''' This method is called from the menu to sort the current couples by ranking.'''
-        self.current_couples.sort_couples("avg_pts", True)
+        self.current_couples.sort_couples(key1="avg_pts", key2="total_pts", reverse=True)
         self.SetListControl(self.current_couples)
         
     def OnSortByName(self, event):
         ''' This method is called from the menu to sort the current couples by name.'''
-        self.current_couples.sort_couples("name", False)
+        self.current_couples.sort_couples()
         self.SetListControl(self.current_couples)    
 
     def OnSortByTotal(self, event):
         ''' This method is called from the menu to sort the current couples by total points.'''
-        self.current_couples.sort_couples("total_pts", True)
+        self.current_couples.sort_couples(key1="total_pts", key2="avg_pts", reverse=True)       
         self.SetListControl(self.current_couples)   
         
         
