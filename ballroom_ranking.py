@@ -111,7 +111,9 @@ class AppFrame(wx.Frame):
         This method builds a set of menus and binds handlers to be called
         when the menu item is selected.
         '''
-        self.ID_FILE_EXPORT = 95
+        self.ID_FILE_EXPORT_ALL = 95
+        self.ID_FILE_EXPORT_HIGH = 96
+        self.ID_FILE_EXPORT_TOP_10 = 97
         self.ID_EDIT_ADD_COMP = 100
         self.ID_VIEW_SORT_NAME = 110
         self.ID_VIEW_SORT_TOTAL_PTS = 111
@@ -121,8 +123,14 @@ class AppFrame(wx.Frame):
         self.fileMenu = wx.Menu()
         openItem = self.fileMenu.Append(wx.ID_OPEN)
         saveItem = self.fileMenu.Append(wx.ID_SAVE)
-        exportItem = self.fileMenu.Append(self.ID_FILE_EXPORT, "Export", 
-                                          "Export the rankings to an HTML file")
+        self.exportSubMenu = wx.Menu()
+        exportAllItem = self.exportSubMenu.Append(self.ID_FILE_EXPORT_ALL, "All Couples", 
+                                          "Export all the rankings to an HTML file")
+        exportHiItem = self.exportSubMenu.Append(self.ID_FILE_EXPORT_HIGH, "High Scoring Couples", 
+                                                 "Export couples with avg score > 10 to an HTML file")          
+        exportTenItem = self.exportSubMenu.Append(self.ID_FILE_EXPORT_TOP_10, "Top Ten Couples", 
+                                                 "Export top 10 couples for each style to an HTML file") 
+        self.fileMenu.AppendSubMenu(self.exportSubMenu, "Export", help="Export rankings to an HTML file")
         closeItem = self.fileMenu.Append(wx.ID_CLOSE)
         exitItem = self.fileMenu.Append(wx.ID_EXIT)
 
@@ -174,7 +182,9 @@ class AppFrame(wx.Frame):
         # activated then the associated handler function will be called.
         self.Bind(wx.EVT_MENU, self.OnOpen,  openItem)
         self.Bind(wx.EVT_MENU, self.OnSave, saveItem)
-        self.Bind(wx.EVT_MENU, self.OnExport, exportItem)
+        self.Bind(wx.EVT_MENU, self.OnExportAll, exportAllItem)
+        self.Bind(wx.EVT_MENU, self.OnExportHighScoringCouples, exportHiItem)
+        self.Bind(wx.EVT_MENU, self.OnExportTopTen, exportTenItem)
         self.Bind(wx.EVT_MENU, self.OnExit, closeItem)
         self.Bind(wx.EVT_MENU, self.OnExit,  exitItem)
         self.Bind(wx.EVT_MENU, self.OnSortByAvg, sortAvgItem)
@@ -198,7 +208,9 @@ class AppFrame(wx.Frame):
         self.fileMenu.Enable(wx.ID_OPEN, True)
         self.fileMenu.Enable(wx.ID_SAVE, False)
         self.fileMenu.Enable(wx.ID_CLOSE, False)
-        self.fileMenu.Enable(self.ID_FILE_EXPORT, False)
+        self.fileMenu.Enable(self.ID_FILE_EXPORT_ALL, False)
+        self.fileMenu.Enable(self.ID_FILE_EXPORT_HIGH, False)
+        self.fileMenu.Enable(self.ID_FILE_EXPORT_TOP_10, False)
         self.editMenu.Enable(self.ID_EDIT_ADD_COMP, False)
         self.editMenu.Enable(wx.ID_FIND, False)
         self.editMenu.Enable(wx.ID_REPLACE, False)
@@ -222,7 +234,9 @@ class AppFrame(wx.Frame):
         self.fileMenu.Enable(wx.ID_OPEN, False)
         self.fileMenu.Enable(wx.ID_SAVE, True)
         self.fileMenu.Enable(wx.ID_CLOSE, True)
-        self.fileMenu.Enable(self.ID_FILE_EXPORT, True)
+        self.fileMenu.Enable(self.ID_FILE_EXPORT_ALL, True)
+        self.fileMenu.Enable(self.ID_FILE_EXPORT_HIGH, True)
+        self.fileMenu.Enable(self.ID_FILE_EXPORT_TOP_10, True)
         self.editMenu.Enable(self.ID_EDIT_ADD_COMP, True)
         self.editMenu.Enable(wx.ID_FIND, True)
         self.editMenu.Enable(wx.ID_REPLACE, True)   
@@ -651,7 +665,7 @@ class AppFrame(wx.Frame):
         self.unsaved_updates = False
 
 
-    def OnExport(self, event):
+    def Export_Rankings(self, criteria="All"):
         from datetime import date
         curr_date = date.today()
 
@@ -696,22 +710,42 @@ class AppFrame(wx.Frame):
                                 with tag('th'):
                                     text(self.list_ctrl.GetColumn(c).GetText())
                         for r in range(self.list_ctrl.ItemCount):
-                            if float(self.list_ctrl.GetItem(r, c).GetText()) < 10.0:
-                                break;
+                            if criteria.startswith("High"):
+                                if float(self.list_ctrl.GetItem(r, c).GetText()) < 10.0:
+                                    break;
+                            elif criteria.startswith("Top"):
+                                if r >= 10:
+                                    break;
                             with tag('tr'):
                                 for c in range(self.list_ctrl.GetColumnCount()):
                                     with tag('td'):
                                         text(self.list_ctrl.GetItem(r, c).GetText())
 
         # once the structure is built, write it to a file
-        filename = "./data/" + str(curr_date.year) +"/!!Rankings/" + str(curr_date) + ".htm"
+        filename = "./data/" + str(curr_date.year) +"/!!Rankings/" + str(curr_date) + "_" + criteria + ".htm"
         html_file = open(filename,"w")
         html_file.write(doc.getvalue())
         html_file.close()
         
         # restore the GUI to the original style prior to the export
         self.styles.SetSelection(curr_style_index)
-        self.DisplayCouplesForStyle(curr_style_index)  # rhythm        
+        self.DisplayCouplesForStyle(curr_style_index)
+        
+        message = "Rankings written to " + filename
+        md = wx.MessageDialog(self, message, "Export Complete", style=wx.OK)
+        md.ShowModal()
+        
+    
+    def OnExportAll(self, event):
+        self.Export_Rankings()
+        
+    
+    def OnExportHighScoringCouples(self, event):
+        self.Export_Rankings(criteria="High_Ranking")
+        
+        
+    def OnExportTopTen(self, event):
+        self.Export_Rankings(criteria="Top 10")
 
 
     def OnAbout(self, event):
