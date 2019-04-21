@@ -7,7 +7,7 @@
 #####################################################
 
 import wx
-#import yattag
+import yattag
 
 from season_ranking import RankingDataFile, event_level
 from comp_results_file import Comp_Results_File
@@ -20,7 +20,7 @@ Dance_Styles = [
     "International Latin",
     # showdance, theater arts, and cabaret are lumped together
     "Showdance / Cabaret / Theater Arts"
-    ]
+]
 
 
 class AppFrame(wx.Frame):
@@ -34,7 +34,7 @@ class AppFrame(wx.Frame):
 
         # create a panel in the frame
         pnl = wx.Panel(self)
-        
+
         # Create the label for the database section
         st = wx.StaticText(pnl, label="Database", pos=(240, 25))
         font = st.GetFont()
@@ -48,15 +48,15 @@ class AppFrame(wx.Frame):
 
         self.styles = wx.Choice(pnl, pos=(210,58), size=(250, 24))
         self.Bind(wx.EVT_CHOICE, self.OnStyleSelection, self.styles)
- 
+
         # separate the labels/controls from the report section of the GUI
         wx.StaticLine(pnl, pos=(10, 88), size=(580, 3), style=wx.LI_HORIZONTAL) 
         wx.StaticLine(pnl, pos=(610, 10), size=(3, 580), style=wx.LI_VERTICAL)
-    
+
         # Create a label for the report section
         st_db = wx.StaticText(pnl, label="Couples", pos=(240, 95))
         st_db.SetFont(font)        
-      
+
 
         # Use a ListCtrl widget for the report information
         self.list_ctrl = wx.ListCtrl(pnl, wx.ID_ANY, pos = (10,125), size=(580, 400),
@@ -68,11 +68,11 @@ class AppFrame(wx.Frame):
         self.list_ctrl.AppendColumn("Events", format=wx.LIST_FORMAT_CENTER, width=60)
         self.list_ctrl.AppendColumn("Total Pts", format=wx.LIST_FORMAT_CENTER, width=80)
         self.list_ctrl.AppendColumn("Avg Pts", format=wx.LIST_FORMAT_CENTER, width=80)
-        
+
         # Create the label for the comp results section
         st_res = wx.StaticText(pnl, label="New Results", pos=(740, 25))
         st_res.SetFont(font)
-        
+
         # Create a label and the text control for comp name
         st_comp_name = wx.StaticText(pnl, label="Competition", pos=(740, 55))
         st_comp_name.SetFont(font)
@@ -82,15 +82,15 @@ class AppFrame(wx.Frame):
         st_heat_name = wx.StaticText(pnl, label="Heat", pos=(770, 115))
         st_heat_name.SetFont(font)
         self.heat_name = wx.TextCtrl(pnl, value="--Heat Name --", style=wx.TE_READONLY, pos=(640, 145), size=(300, 24))
-      
+
         # Use a ListCtrl widget for the heat results
         st_heat_results = wx.StaticText(pnl, label="Heat Results", pos=(730, 175))
         st_heat_results.SetFont(font)        
         self.heat_list_ctrl = wx.ListCtrl(pnl, wx.ID_ANY, pos = (640,205), size=(360, 320),
-                                         style=wx.LC_REPORT | wx.LC_HRULES | wx.LC_VRULES)           
+                                          style=wx.LC_REPORT | wx.LC_HRULES | wx.LC_VRULES)           
         self.heat_list_ctrl.AppendColumn("Couple", format=wx.LIST_FORMAT_LEFT, width=288)
         self.heat_list_ctrl.AppendColumn("Place", format=wx.LIST_FORMAT_CENTER, width=72) 
-        
+
         # Creata a button to add the heat results to the database
         self.butt_add_rslt = wx.Button(pnl, label="Add Results to DB", pos=(740, 530))
         self.Bind(wx.EVT_BUTTON, self.OnAddHeatResults, self.butt_add_rslt)            
@@ -111,6 +111,9 @@ class AppFrame(wx.Frame):
         This method builds a set of menus and binds handlers to be called
         when the menu item is selected.
         '''
+        self.ID_FILE_EXPORT_ALL = 95
+        self.ID_FILE_EXPORT_HIGH = 96
+        self.ID_FILE_EXPORT_TOP_10 = 97
         self.ID_EDIT_ADD_COMP = 100
         self.ID_VIEW_SORT_NAME = 110
         self.ID_VIEW_SORT_TOTAL_PTS = 111
@@ -120,6 +123,14 @@ class AppFrame(wx.Frame):
         self.fileMenu = wx.Menu()
         openItem = self.fileMenu.Append(wx.ID_OPEN)
         saveItem = self.fileMenu.Append(wx.ID_SAVE)
+        self.exportSubMenu = wx.Menu()
+        exportAllItem = self.exportSubMenu.Append(self.ID_FILE_EXPORT_ALL, "All Couples", 
+                                          "Export all the rankings to an HTML file")
+        exportHiItem = self.exportSubMenu.Append(self.ID_FILE_EXPORT_HIGH, "High Scoring Couples", 
+                                                 "Export couples with avg score > 10 to an HTML file")          
+        exportTenItem = self.exportSubMenu.Append(self.ID_FILE_EXPORT_TOP_10, "Top Ten Couples", 
+                                                 "Export top 10 couples for each style to an HTML file") 
+        self.fileMenu.AppendSubMenu(self.exportSubMenu, "Export", help="Export rankings to an HTML file")
         closeItem = self.fileMenu.Append(wx.ID_CLOSE)
         exitItem = self.fileMenu.Append(wx.ID_EXIT)
 
@@ -136,15 +147,15 @@ class AppFrame(wx.Frame):
                                        "Add a new couple to the current ranking database")
         self.editMenu.AppendSeparator()
         clearItem = self.editMenu.Append(wx.ID_CLEAR, "Clear All Results", 
-                                           "Clear all results from the current ranking database")
-        
+                                         "Clear all results from the current ranking database")
+
         # Now a View Menu for filtering data and generating reports
         self.viewMenu = wx.Menu()
 
         sortNameItem = self.viewMenu.Append(self.ID_VIEW_SORT_NAME, "Sort by Name",
-                                           "Sort the Couples by last name of lead dancer")
+                                            "Sort the Couples by last name of lead dancer")
         sortTotalItem = self.viewMenu.Append(self.ID_VIEW_SORT_TOTAL_PTS, "Sort by Total Points",
-                                           "Sort the Couples by their total points earned")
+                                             "Sort the Couples by their total points earned")
         sortAvgItem = self.viewMenu.Append(self.ID_VIEW_SORT_AVG_PTS, "Sort by Ranking",
                                            "Sort the Couples by their average points per event")
         self.viewMenu.AppendSeparator()
@@ -171,6 +182,9 @@ class AppFrame(wx.Frame):
         # activated then the associated handler function will be called.
         self.Bind(wx.EVT_MENU, self.OnOpen,  openItem)
         self.Bind(wx.EVT_MENU, self.OnSave, saveItem)
+        self.Bind(wx.EVT_MENU, self.OnExportAll, exportAllItem)
+        self.Bind(wx.EVT_MENU, self.OnExportHighScoringCouples, exportHiItem)
+        self.Bind(wx.EVT_MENU, self.OnExportTopTen, exportTenItem)
         self.Bind(wx.EVT_MENU, self.OnExit, closeItem)
         self.Bind(wx.EVT_MENU, self.OnExit,  exitItem)
         self.Bind(wx.EVT_MENU, self.OnSortByAvg, sortAvgItem)
@@ -194,6 +208,9 @@ class AppFrame(wx.Frame):
         self.fileMenu.Enable(wx.ID_OPEN, True)
         self.fileMenu.Enable(wx.ID_SAVE, False)
         self.fileMenu.Enable(wx.ID_CLOSE, False)
+        self.fileMenu.Enable(self.ID_FILE_EXPORT_ALL, False)
+        self.fileMenu.Enable(self.ID_FILE_EXPORT_HIGH, False)
+        self.fileMenu.Enable(self.ID_FILE_EXPORT_TOP_10, False)
         self.editMenu.Enable(self.ID_EDIT_ADD_COMP, False)
         self.editMenu.Enable(wx.ID_FIND, False)
         self.editMenu.Enable(wx.ID_REPLACE, False)
@@ -204,8 +221,8 @@ class AppFrame(wx.Frame):
         self.styles.Disable()
         self.butt_add_rslt.Disable()
         self.unsaved_updates = False
-        
-        
+
+
     def PostOpenProcess(self):
         '''
         This method is called after the ranking database has been opened.
@@ -217,6 +234,9 @@ class AppFrame(wx.Frame):
         self.fileMenu.Enable(wx.ID_OPEN, False)
         self.fileMenu.Enable(wx.ID_SAVE, True)
         self.fileMenu.Enable(wx.ID_CLOSE, True)
+        self.fileMenu.Enable(self.ID_FILE_EXPORT_ALL, True)
+        self.fileMenu.Enable(self.ID_FILE_EXPORT_HIGH, True)
+        self.fileMenu.Enable(self.ID_FILE_EXPORT_TOP_10, True)
         self.editMenu.Enable(self.ID_EDIT_ADD_COMP, True)
         self.editMenu.Enable(wx.ID_FIND, True)
         self.editMenu.Enable(wx.ID_REPLACE, True)   
@@ -224,15 +244,15 @@ class AppFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_SORT_NAME, True)
         self.viewMenu.Enable(self.ID_VIEW_SORT_TOTAL_PTS, True)
         self.viewMenu.Enable(self.ID_VIEW_SORT_AVG_PTS, True)   
-        
-        
+
+
     def SetStyleControl(self, dance_style_list):
         ''' This method populates the GUI with a list of dancer names.'''
         self.styles.Clear()
         self.styles.Set(dance_style_list)
         self.styles.SetSelection(1)
-        
-        
+
+
     def SetListControl(self, couple_list):
         '''
         This routine populates the list control with the rankings for
@@ -242,8 +262,8 @@ class AppFrame(wx.Frame):
         for i in range(couple_list.length()):
             couple_item = couple_list.format_item_as_columns(i)
             self.list_ctrl.Append(couple_item)
-     
-     
+
+
     def DisplayCouplesForStyle(self, index):
         '''
         This routine selects the correct ranking database for the 
@@ -259,13 +279,13 @@ class AppFrame(wx.Frame):
             self.current_couples = self.latin_couples
         else:
             self.current_couples = self.showdance_couples
-        
+
         # sort the couples in order of their ranking
         self.current_couples.sort_couples(key1="avg_pts", key2="total_pts", reverse=True)
         self.SetListControl(self.current_couples)
         self.last_find_index = -1
-        
-        
+
+
     def SetHeatResultsCtrl(self, entry_list):
         '''
         This method populates the results for a singe heat on
@@ -276,8 +296,8 @@ class AppFrame(wx.Frame):
             entry_item = [e["couple"]]
             entry_item.append(e["place"])
             self.heat_list_ctrl.Append(entry_item)
-     
-        
+
+
     def OnStyleSelection(self, event):
         '''
         When the user selects a dance style from the GUI, this 
@@ -287,7 +307,7 @@ class AppFrame(wx.Frame):
         index = self.styles.GetSelection()
         self.DisplayCouplesForStyle(index)
 
-        
+
     def SetStylePerHeatTitle(self, title):
         ''' 
         Based on the heat title, this method selects the proper ranking
@@ -303,7 +323,7 @@ class AppFrame(wx.Frame):
             index = 2      
         else:
             index = 4
-        
+
         # make sure the GUI style selection matches the list of couples
         self.styles.SetSelection(index)
         self.DisplayCouplesForStyle(index)
@@ -319,8 +339,8 @@ class AppFrame(wx.Frame):
         self.SetStylePerHeatTitle(h["title"])
         entries = h["entries"]
         self.SetHeatResultsCtrl(entries)  
-        
-        
+
+
     def Highlight_Entry(self, index, select=True, focus=False):
         '''
         This method highlighs a couple in the ranking listCtrl
@@ -347,10 +367,10 @@ class AppFrame(wx.Frame):
             self.heat_name.ChangeValue("--Heat Name--")
             self.butt_add_rslt.Disable()
             self.heat_list_ctrl.DeleteAllItems()
-            
+
         self.butt_add_rslt.SetLabel("Add Results to DB")
- 
- 
+
+
     def Build_Result(self, entry, level):
         '''
         This method build a result object based on the entry and the 
@@ -363,8 +383,8 @@ class AppFrame(wx.Frame):
         result["place"] = entry["place"]
         result["points"] = entry["points"]  
         return result
-    
-    
+
+
     def Handle_No_Match_Couple(self, entry, result):
         '''
         This routine is called when the couple's entire name was not found in the 
@@ -391,7 +411,7 @@ class AppFrame(wx.Frame):
         else:
             # if match not found again, try to match manually
             message = "Search the list of couples for\n\n\t" + entry["couple"] + \
-                      ".\n\nSelect a matching couple and Press OK.\nTo add them as a new couple, Press Cancel."
+                ".\n\nSelect a matching couple and Press OK.\nTo add them as a new couple, Press Cancel."
             # sort the couples by name to assist in finding a match
             self.current_couples.sort_couples()
             # Build a dialog with the names of the existing couples
@@ -408,8 +428,8 @@ class AppFrame(wx.Frame):
                 self.unsaved_updates = True
             # re-sort by ranking
             self.current_couples.sort_couples(key1="avg_pts", key2="total_pts", reverse=True)
-    
-        
+
+
     def Process_Heat(self):
         '''
         This method processes the results of a single heat and adds those 
@@ -443,8 +463,8 @@ class AppFrame(wx.Frame):
             first_time = False
         # change button text for next action
         self.butt_add_rslt.SetLabel("Show Next Heat")        
-        
-    
+
+
     def OnOpen(self, event):
         '''Launch a file dialog, open a heatsheet file, and process it.'''
 
@@ -460,13 +480,13 @@ class AppFrame(wx.Frame):
             self.current_couples = self.smooth_couples
             self.SetListControl(self.current_couples)
             self.PostOpenProcess()
-           
+
 
     def OnSortByAvg(self, event):
         ''' This method is called from the menu to sort the current couples by ranking.'''
         self.current_couples.sort_couples(key1="avg_pts", key2="total_pts", reverse=True)
         self.SetListControl(self.current_couples)
-        
+
     def OnSortByName(self, event):
         ''' This method is called from the menu to sort the current couples by name.'''
         self.current_couples.sort_couples()
@@ -476,8 +496,8 @@ class AppFrame(wx.Frame):
         ''' This method is called from the menu to sort the current couples by total points.'''
         self.current_couples.sort_couples(key1="total_pts", key2="avg_pts", reverse=True)       
         self.SetListControl(self.current_couples)   
-        
-        
+
+
     def OnAddHeatResults(self, event):
         '''
         This method handles the button clicks associated with the Comp Results.
@@ -489,14 +509,14 @@ class AppFrame(wx.Frame):
             self.Process_Heat()
         else:
             self.Setup_For_Next_Heat()
-        
-        
+
+
     def OnAddCompResults(self, event):
         '''
         This method is called from the menu to add the results of a competition to
         the group of ranking databases 
         '''
-        
+
         # ask the user to select a competition. 
         dd = wx.DirDialog(self, "Open the Folder containing the Competition Results", "./data")
         if dd.ShowModal() == wx.ID_OK:
@@ -512,8 +532,8 @@ class AppFrame(wx.Frame):
             self.Display_Heat_Results(self.heat_results[0])
             # enable the button to add the heat results
             self.butt_add_rslt.Enable()
-     
-     
+
+
     def OnFind(self, event):
         '''
         This method processes the find event from the Find or FindReplace dialog.
@@ -533,7 +553,7 @@ class AppFrame(wx.Frame):
             # highlight the entry that was found and remember the index
             self.Highlight_Entry(index, focus=True)
             self.last_find_index = index
-            
+
 
     def OnReplace(self, event):
         ''' This method processes the replace event from the FindReplace dialog.'''        
@@ -575,7 +595,7 @@ class AppFrame(wx.Frame):
         self.fr_data.SetFlags(wx.FR_DOWN)
         self.fr_dia = wx.FindReplaceDialog(self.list_ctrl, self.fr_data, "Find Couple")
         self.fr_dia.Show()
-        
+
 
     def OnReplaceSetup(self, event):
         '''
@@ -593,8 +613,8 @@ class AppFrame(wx.Frame):
         else:
             md = wx.MessageDialog(self, "Please select a couple from the list.", caption="Error", style=wx.OK)
             md.ShowModal()            
-            
-    
+
+
     def OnClearAllResults(self, event):
         '''This method is called from the menu to add a new couple name to the current dance style ranking.'''
         # alert the user
@@ -633,8 +653,8 @@ class AppFrame(wx.Frame):
                 # use None to indicate there are no results for this new couple
                 self.current_couples.add_couple(name, None)
                 self.unsaved_updates = True
-                    
-    
+
+
     def OnSave(self, event):
         '''This method is called to save the updated ranking databases.'''
         self.smooth_couples.save()
@@ -643,14 +663,97 @@ class AppFrame(wx.Frame):
         self.latin_couples.save()
         self.showdance_couples.save()  
         self.unsaved_updates = False
-         
+
+
+    def Export_Rankings(self, criteria="All"):
+        from datetime import date
+        curr_date = date.today()
+
+        from yattag import Doc
+        doc, tag, text = Doc().tagtext()
+        
+        curr_style_index = self.styles.GetSelection()
+
+        # use the yattag package to create a report as HTML
+        doc.asis('<!DOCTYPE html>')
+        with tag('html'):
+            with tag('head'):
+                with tag('style'):
+                    text('table {border-collapse: collapse;}')
+                    text('table,td,th {border :thin solid black;}')
+            with tag('body'):
+
+                # use the specified text and comp name as the headings
+                with tag('h1'):
+                    text("US Dancesport Rankings")
+                with tag('h2'):
+                    text(str(curr_date))
+                with tag('h3'):
+                    text("Dance Styles")
+                with tag('ul'):
+                    for index in range(len(Dance_Styles)):
+                        href_attr = "#Style_" + str(index)
+                        with tag('li'):
+                            with tag('a', href=href_attr):
+                                text(Dance_Styles[index])
+
+                for index in range(len(Dance_Styles)):
+                    self.styles.SetSelection(index)
+                    self.DisplayCouplesForStyle(index)  
+                    id_attr = "Style_" + str(index)
+                    with tag('h3', id=id_attr):
+                        text(Dance_Styles[index])
+                    # turn the GUI list control into an HTML table
+                    with tag('table'):
+                        with tag('tr'):
+                            for c in range(self.list_ctrl.GetColumnCount()):
+                                with tag('th'):
+                                    text(self.list_ctrl.GetColumn(c).GetText())
+                        for r in range(self.list_ctrl.ItemCount):
+                            if criteria.startswith("High"):
+                                if float(self.list_ctrl.GetItem(r, c).GetText()) < 10.0:
+                                    break;
+                            elif criteria.startswith("Top"):
+                                if r >= 10:
+                                    break;
+                            with tag('tr'):
+                                for c in range(self.list_ctrl.GetColumnCount()):
+                                    with tag('td'):
+                                        text(self.list_ctrl.GetItem(r, c).GetText())
+
+        # once the structure is built, write it to a file
+        filename = "./data/" + str(curr_date.year) +"/!!Rankings/" + str(curr_date) + "_" + criteria + ".htm"
+        html_file = open(filename,"w")
+        html_file.write(doc.getvalue())
+        html_file.close()
+        
+        # restore the GUI to the original style prior to the export
+        self.styles.SetSelection(curr_style_index)
+        self.DisplayCouplesForStyle(curr_style_index)
+        
+        message = "Rankings written to " + filename
+        md = wx.MessageDialog(self, message, "Export Complete", style=wx.OK)
+        md.ShowModal()
+        
+    
+    def OnExportAll(self, event):
+        self.Export_Rankings()
+        
+    
+    def OnExportHighScoringCouples(self, event):
+        self.Export_Rankings(criteria="High_Ranking")
+        
+        
+    def OnExportTopTen(self, event):
+        self.Export_Rankings(criteria="Top 10")
+
 
     def OnAbout(self, event):
         '''Display an About Dialog'''
         wx.MessageBox("Version 1.01",
                       "Ballroom Competition Ranking Database",
                       wx.OK|wx.ICON_INFORMATION)
-        
+
 
     def OnExit(self, event):
         '''If there are unsaved updates, make sure the user wants to close the application'''
