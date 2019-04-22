@@ -121,6 +121,10 @@ class HelloFrame(wx.Frame):
 
         # and a status bar
         self.CreateStatusBar()
+        
+        # create a timer
+        self.timer = wx.Timer(self)
+        self.Bind(wx.EVT_TIMER, self.Continue_Processing, self.timer)        
 
         # declare a heatlist, scoresheet, and result_file object
         self.heatlist = None
@@ -272,6 +276,11 @@ class HelloFrame(wx.Frame):
             self.SetDivisionControl(self.heatlist.age_divisions)
             self.SetDancerControl(self.heatlist.dancer_name_list())
             self.SetCoupleControl(self.heatlist.couple_name_list())
+        else:
+            self.divisions.Clear()
+            self.dancers.Clear()
+            self.couples.Clear()
+            
         self.butt_rslt.Disable()
         self.butt_rslt_url.Disable()
         self.butt_rslt_co.Disable()
@@ -467,6 +476,15 @@ class HelloFrame(wx.Frame):
             self.postOpenProcess()
 
 
+    def Initialize_Timer_and_ProgressBar(self):
+        '''Create a timer and progress bar to inform progress of long open process'''
+        self.progress_bar = wx.ProgressDialog("Reading", "Reading list of dancers", 
+                                                      maximum=len(self.heatlist.dancers))
+        self.SetStatusText("Reading data for " + str(len(self.heatlist.dancers)) + " dancers.")
+        self.timer_event_count = 0
+        self.timer.StartOnce(5) 
+        
+        
     def OnOpenNDCA(self, event):
         '''
         Launch a text dialog to get a URL from the user.
@@ -478,7 +496,7 @@ class HelloFrame(wx.Frame):
             url = text_dialog.GetValue() 
             self.heatlist = NdcaPremHeatlist()    
             self.heatlist.open(url)
-            self.postOpenProcess()
+            self.Initialize_Timer_and_ProgressBar()
         
     
     def OnOpenCompOrg(self, event):
@@ -492,9 +510,26 @@ class HelloFrame(wx.Frame):
             url = text_dialog.GetValue() 
             self.heatlist = CompOrgHeatlist()    
             self.heatlist.open(url)
+            self.Initialize_Timer_and_ProgressBar()
+            
+
+    def Continue_Processing(self, event):
+        '''
+        This method is controlled by the timer. It updates the progress bar and
+        asks the heatsheet to load the next dancer.
+        If no more dancers, perform cleanup processing.
+        '''
+        if self.timer_event_count < len(self.heatlist.dancers):
+            the_name = self.heatlist.get_next_dancer(self.timer_event_count)
+            self.progress_bar.Update(self.timer_event_count, the_name)
+            self.timer_event_count += 1
+            self.timer.StartOnce(5)
+        else:
+            self.heatlist.complete_processing()
+            self.progress_bar.Update(self.timer_event_count, "Completed")  
             self.postOpenProcess()
             
-            
+       
     def OnClose(self, event):
         ''' Re-initalize the competition file and reset all the controls.'''
         self.heatlist = None
