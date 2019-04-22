@@ -108,30 +108,6 @@ class CompMngrHeatlist(Heatlist):
         name = line[start_pos:end_pos]
         return name
 
-    ############### DANCER / COUPLE ROUTINES  ###########################################
-    # the following methods deal with dancers and couples in the competition
-    #####################################################################################
-
-
-    ############### HEAT ROUTINES  ######################################################
-    # the following methods deal with heats and their participants
-    #####################################################################################
-    # given a heat, this method returns a heat report, which is a list of 
-    # all entries in the heat. This list can optionally be sorted by shirt number
-    def build_heat_report(self, heat, sorted=False):
-        report = Heat_Report()
-        for c in self.couples:
-            for ht in c.heats:
-                if heat == ht:
-                    report.append(ht)
-        if sorted:
-            report.sort()
-        return report
-
-    ############### AGE DIVISION ROUTINES  ###############################################
-    # the following methods deal with age divisions
-    ######################################################################################
-
 
     ################# READING THE HEATLIST HTML FILE ################################
     # this routine processes the HTML data file in CompMngr heatlist format

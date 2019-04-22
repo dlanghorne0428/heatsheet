@@ -102,7 +102,17 @@ class Heatlist():
         output_list.sort(key=itemgetter(shirt_number_col))
         return output_list
     
-
+    # given a heat, this method returns a heat report, which is a list of 
+    # all entries in the heat. This list can optionally be sorted by shirt number
+    def build_heat_report(self, heat, sorted=False):
+        report = Heat_Report()
+        for c in self.couples:
+            for ht in c.heats:
+                if heat == ht:
+                    report.append(ht)
+        if sorted:
+            report.sort()
+        return report
 
     ############### AGE DIVISION ROUTINES  ###############################################
     # the following methods deal with age divisions
