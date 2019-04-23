@@ -198,7 +198,7 @@ class RankingDataFile():
                 
     def save(self):
         ''' This method sorts the data, writes it to the file, and closes the file.''' 
-        self.sort_couples(key="avg_pts", reverse=True)
+        self.sort_couples(key1="avg_pts", key2="total_pts", reverse=True)
         fp = open(self.filename, "w", encoding="utf-8")
         json.dump(self.info, fp, indent=2)
         fp.close()

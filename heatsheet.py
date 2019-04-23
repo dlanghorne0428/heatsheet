@@ -958,7 +958,7 @@ class HelloFrame(wx.Frame):
                 else:
                     self.current_couples = self.showdance_couples
                     
-                self.current_couples.sort_couples(key="avg_pts", reverse=True)
+                self.current_couples.sort_couples(key1="avg_pts", key2="total_pts", reverse=True)
                 
                 # for each entry in the current heat
                 for i in range(report.length()):
