@@ -1,31 +1,5 @@
 [
   {
-    "name": "Ballard, Vince and Perez, Tania",
-    "results": [
-      {
-        "comp_name": "Music City Invitational",
-        "level": "Open",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 20.0,
-    "avg_pts": 20.0
-  },
-  {
-    "name": "Fumagalli, Davide and Macaluso, Debora",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "level": "Open",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 20.0,
-    "avg_pts": 20.0
-  },
-  {
     "name": "Jensen, Shane and Jensen, Shannon",
     "results": [
       {
@@ -63,9 +37,41 @@
         "level": "Open",
         "place": "1",
         "points": 20
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 120.0,
+    "total_pts": 140.0,
+    "avg_pts": 20.0
+  },
+  {
+    "name": "Ballard, Vince and Perez, Tania",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 20.0
+  },
+  {
+    "name": "Fumagalli, Davide and Macaluso, Debora",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 20.0,
     "avg_pts": 20.0
   },
   {
@@ -219,6 +225,19 @@
     "avg_pts": 16.0
   },
   {
+    "name": "Stoynov, Simeon and Stoynova, Kora",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 16.0,
+    "avg_pts": 16.0
+  },
+  {
     "name": "Smith, Craig and Harvey, Andrea",
     "results": [
       {
@@ -238,23 +257,16 @@
         "level": "Open",
         "place": "2",
         "points": 16.0
-      }
-    ],
-    "total_pts": 48.0,
-    "avg_pts": 16.0
-  },
-  {
-    "name": "Stoynov, Simeon and Stoynova, Kora",
-    "results": [
+      },
       {
-        "comp_name": "The Snow Ball",
+        "comp_name": "New Orleans Open",
         "level": "Open",
         "place": "2",
-        "points": 16.0
+        "points": 12.0
       }
     ],
-    "total_pts": 16.0,
-    "avg_pts": 16.0
+    "total_pts": 60.0,
+    "avg_pts": 15.0
   },
   {
     "name": "Dawson, Staz and Gonyea, Jacklyn",
@@ -288,25 +300,6 @@
     "avg_pts": 15.0
   },
   {
-    "name": "Merz, Timmy and Strashnikova, Diana",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Open",
-        "place": "1",
-        "points": 20
-      }
-    ],
-    "total_pts": 30.0,
-    "avg_pts": 15.0
-  },
-  {
     "name": "Pohl, Zachary and Freilich, Ariel",
     "results": [
       {
@@ -329,6 +322,25 @@
       }
     ],
     "total_pts": 45.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Merz, Timmy and Strashnikova, Diana",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 30.0,
     "avg_pts": 15.0
   },
   {
@@ -440,6 +452,50 @@
     "avg_pts": 12.0
   },
   {
+    "name": "Golubev, Valerii and Golubeva, Margarita",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "4",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Open",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 30.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Black, Jamie and Elliott, Samantha",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 10.0
+  },
+  {
     "name": "Austin III, James and Monroe, Violet",
     "results": [
       {
@@ -463,63 +519,6 @@
       }
     ],
     "total_pts": 10.0,
-    "avg_pts": 10.0
-  },
-  {
-    "name": "Black, Jamie and Elliott, Samantha",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Open",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "level": "Open",
-        "place": "3",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 20.0,
-    "avg_pts": 10.0
-  },
-  {
-    "name": "Dombrowik, Douglas and Fox, Angel",
-    "results": [
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Open",
-        "place": "4",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 10.0,
-    "avg_pts": 10.0
-  },
-  {
-    "name": "Golubev, Valerii and Golubeva, Margarita",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Open",
-        "place": "4",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Open",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Open",
-        "place": "2",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 30.0,
     "avg_pts": 10.0
   },
   {
@@ -587,16 +586,22 @@
     "avg_pts": 9.0
   },
   {
-    "name": "Levit, Sharone and Kolarova, Milena",
+    "name": "Dombrowik, Douglas and Fox, Angel",
     "results": [
       {
-        "comp_name": "Michigan DanceSport Challenge",
+        "comp_name": "Heritage Classic Ballroom Championships",
         "level": "Open",
-        "place": "5",
-        "points": 8.0
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Open",
+        "place": "3",
+        "points": 6.0
       }
     ],
-    "total_pts": 8.0,
+    "total_pts": 16.0,
     "avg_pts": 8.0
   },
   {
@@ -616,6 +621,19 @@
       }
     ],
     "total_pts": 16.0,
+    "avg_pts": 8.0
+  },
+  {
+    "name": "Levit, Sharone and Kolarova, Milena",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 8.0,
     "avg_pts": 8.0
   },
   {
