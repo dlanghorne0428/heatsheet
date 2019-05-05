@@ -49,9 +49,15 @@
         "level": "Open",
         "place": "1",
         "points": 20.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 160.0,
+    "total_pts": 180.0,
     "avg_pts": 20.0
   },
   {
@@ -218,32 +224,6 @@
     "avg_pts": 16.5
   },
   {
-    "name": "Sinitsa, Max and Seliverstova, Tatiana",
-    "results": [
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "level": "Open",
-        "place": "2",
-        "points": 16.0
-      }
-    ],
-    "total_pts": 16.0,
-    "avg_pts": 16.0
-  },
-  {
-    "name": "Stoynov, Simeon and Stoynova, Kora",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "2",
-        "points": 16.0
-      }
-    ],
-    "total_pts": 16.0,
-    "avg_pts": 16.0
-  },
-  {
     "name": "Kudashev, Ivan and Ksusha",
     "results": [
       {
@@ -269,10 +249,42 @@
         "level": "Open",
         "place": "1",
         "points": 20.0
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 61.0,
-    "avg_pts": 15.25
+    "total_pts": 81.0,
+    "avg_pts": 16.2
+  },
+  {
+    "name": "Sinitsa, Max and Seliverstova, Tatiana",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 16.0,
+    "avg_pts": 16.0
+  },
+  {
+    "name": "Stoynov, Simeon and Stoynova, Kora",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 16.0,
+    "avg_pts": 16.0
   },
   {
     "name": "Dawson, Staz and Gonyea, Jacklyn",
@@ -337,6 +349,25 @@
     "avg_pts": 15.0
   },
   {
+    "name": "Merz, Timmy and Strashnikova, Diana",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 30.0,
+    "avg_pts": 15.0
+  },
+  {
     "name": "Pohl, Zachary and Freilich, Ariel",
     "results": [
       {
@@ -356,29 +387,16 @@
         "level": "Open",
         "place": "1",
         "points": 12.0
-      }
-    ],
-    "total_pts": 45.0,
-    "avg_pts": 15.0
-  },
-  {
-    "name": "Merz, Timmy and Strashnikova, Diana",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "4",
-        "points": 10.0
       },
       {
-        "comp_name": "Vegas Open Dance Challenge",
+        "comp_name": "Emerald Ball",
         "level": "Open",
-        "place": "1",
-        "points": 20
+        "place": "2",
+        "points": 12.0
       }
     ],
-    "total_pts": 30.0,
-    "avg_pts": 15.0
+    "total_pts": 57.0,
+    "avg_pts": 14.25
   },
   {
     "name": "Garcia, Uriel and Rowe, Vera",
@@ -534,6 +552,19 @@
     "avg_pts": 10.0
   },
   {
+    "name": "Izyumov, Sergey and Zaver, Oksana",
+    "results": [
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Open",
+        "place": "2",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
+  },
+  {
     "name": "Katashinskiy, Marina and Katashinskiy, Artemiy",
     "results": [
       {
@@ -573,10 +604,10 @@
     "avg_pts": 10.0
   },
   {
-    "name": "Izyumov, Sergey and Zaver, Oksana",
+    "name": "Roa, Edwin and Jimenez, Lorin",
     "results": [
       {
-        "comp_name": "wisconsin19[martin cawston]",
+        "comp_name": "Washington Open Dancesport Competition",
         "level": "Open",
         "place": "2",
         "points": 10.0
@@ -624,25 +655,6 @@
     "avg_pts": 9.0
   },
   {
-    "name": "Dombrowik, Douglas and Fox, Angel",
-    "results": [
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Open",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Open",
-        "place": "3",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 16.0,
-    "avg_pts": 8.0
-  },
-  {
     "name": "Puzhevich, Igor and Puzhevich, Anastasia",
     "results": [
       {
@@ -686,6 +698,31 @@
     ],
     "total_pts": 8.0,
     "avg_pts": 8.0
+  },
+  {
+    "name": "Dombrowik, Douglas and Fox, Angel",
+    "results": [
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Open",
+        "place": "3",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "level": "Open",
+        "place": "3",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 22.0,
+    "avg_pts": 7.33
   },
   {
     "name": "Sovetov, Ivan and Mkrtchian, Valeria",
