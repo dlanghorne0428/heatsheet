@@ -43,9 +43,15 @@
         "level": "Open",
         "place": "1",
         "points": 20.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 140.0,
+    "total_pts": 160.0,
     "avg_pts": 20.0
   },
   {
@@ -238,35 +244,35 @@
     "avg_pts": 16.0
   },
   {
-    "name": "Smith, Craig and Harvey, Andrea",
+    "name": "Kudashev, Ivan and Ksusha",
     "results": [
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
       {
         "comp_name": "Florida Superstars",
         "level": "Open",
-        "place": "2",
-        "points": 16.0
+        "place": "5",
+        "points": 8.0
       },
       {
-        "comp_name": "Heritage Classic Ballroom Championships",
+        "comp_name": "2019 Tri-State DanceSport Championships",
         "level": "Open",
-        "place": "2",
-        "points": 16.0
+        "place": "3",
+        "points": 13.0
       },
       {
-        "comp_name": "2019 First Coast Classic",
+        "comp_name": "2019 Miami Vibe",
         "level": "Open",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Open",
-        "place": "2",
-        "points": 12.0
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 60.0,
-    "avg_pts": 15.0
+    "total_pts": 61.0,
+    "avg_pts": 15.25
   },
   {
     "name": "Dawson, Staz and Gonyea, Jacklyn",
@@ -294,6 +300,37 @@
         "level": "Open",
         "place": "1",
         "points": 20
+      }
+    ],
+    "total_pts": 60.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Smith, Craig and Harvey, Andrea",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Open",
+        "place": "2",
+        "points": 12.0
       }
     ],
     "total_pts": 60.0,
@@ -342,31 +379,6 @@
     ],
     "total_pts": 30.0,
     "avg_pts": 15.0
-  },
-  {
-    "name": "Kudashev, Ivan and Ksusha",
-    "results": [
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "level": "Open",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Open",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Open",
-        "place": "3",
-        "points": 13.0
-      }
-    ],
-    "total_pts": 41.0,
-    "avg_pts": 13.67
   },
   {
     "name": "Garcia, Uriel and Rowe, Vera",
@@ -522,6 +534,19 @@
     "avg_pts": 10.0
   },
   {
+    "name": "Katashinskiy, Marina and Katashinskiy, Artemiy",
+    "results": [
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Open",
+        "place": "2",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
+  },
+  {
     "name": "Romero, Alexis and Yang, Yu-Wen",
     "results": [
       {
@@ -539,6 +564,19 @@
     "results": [
       {
         "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "2",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Izyumov, Sergey and Zaver, Oksana",
+    "results": [
+      {
+        "comp_name": "wisconsin19[martin cawston]",
         "level": "Open",
         "place": "2",
         "points": 10.0

@@ -32,6 +32,25 @@
     "avg_pts": 32.0
   },
   {
+    "name": "Bager, Troels and Jeliazkova, Ina",
+    "results": [
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Open",
+        "place": "1",
+        "points": 30.0
+      }
+    ],
+    "total_pts": 60.0,
+    "avg_pts": 30.0
+  },
+  {
     "name": "Maletin, Ilya and Maier, Polina",
     "results": [
       {
@@ -51,29 +70,16 @@
         "level": "Open",
         "place": "1",
         "points": 30.0
-      }
-    ],
-    "total_pts": 90.0,
-    "avg_pts": 30.0
-  },
-  {
-    "name": "Bager, Troels and Jeliazkova, Ina",
-    "results": [
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "level": "Open",
-        "place": "1",
-        "points": 30.0
       },
       {
-        "comp_name": "New Orleans Open",
+        "comp_name": "2019 Miami Vibe",
         "level": "Open",
         "place": "1",
-        "points": 30.0
+        "points": 20.0
       }
     ],
-    "total_pts": 60.0,
-    "avg_pts": 30.0
+    "total_pts": 110.0,
+    "avg_pts": 27.5
   },
   {
     "name": "Likhachev, Evgeny and Levina, Maria",
@@ -144,10 +150,16 @@
         "level": "Open",
         "place": "2",
         "points": 24.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 212.0,
-    "avg_pts": 23.56
+    "total_pts": 232.0,
+    "avg_pts": 23.2
   },
   {
     "name": "Bertini, Francesco and Bertini, Sabrina",
@@ -206,6 +218,31 @@
     "avg_pts": 23.0
   },
   {
+    "name": "Karaulov, Alexey and Karaulov, Vlada",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Open",
+        "place": "7",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 32.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 19.5
+      }
+    ],
+    "total_pts": 61.5,
+    "avg_pts": 20.5
+  },
+  {
     "name": "Mulyavka, Ivan and Rooba, Karin",
     "results": [
       {
@@ -243,35 +280,16 @@
         "level": "Open",
         "place": "1",
         "points": 20.0
-      }
-    ],
-    "total_pts": 124.0,
-    "avg_pts": 20.67
-  },
-  {
-    "name": "Karaulov, Alexey and Karaulov, Vlada",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Open",
-        "place": "7",
-        "points": 10.0
       },
       {
-        "comp_name": "2019 Tri-State DanceSport Championships",
+        "comp_name": "2019 Miami Vibe",
         "level": "Open",
         "place": "2",
-        "points": 32.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "level": "Open",
-        "place": "3",
-        "points": 19.5
+        "points": 16.0
       }
     ],
-    "total_pts": 61.5,
-    "avg_pts": 20.5
+    "total_pts": 140.0,
+    "avg_pts": 20.0
   },
   {
     "name": "Pashkov, Pasha and Karagach, Daniella",
@@ -310,49 +328,6 @@
     ],
     "total_pts": 35.0,
     "avg_pts": 17.5
-  },
-  {
-    "name": "Kudashev, Ivan and Ksusha",
-    "results": [
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "level": "Open",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Open",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Open",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Open",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Open",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Open",
-        "place": "5",
-        "points": 16.0
-      }
-    ],
-    "total_pts": 94.8,
-    "avg_pts": 15.8
   },
   {
     "name": "Italyankin, Roman and Bokova, Alexandra",
@@ -410,10 +385,65 @@
         "level": "Open",
         "place": "Semis",
         "points": 3.6
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Open",
+        "place": "2",
+        "points": 14.0
       }
     ],
-    "total_pts": 140.1,
-    "avg_pts": 15.57
+    "total_pts": 154.1,
+    "avg_pts": 15.41
+  },
+  {
+    "name": "Kudashev, Ivan and Ksusha",
+    "results": [
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "5",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 104.8,
+    "avg_pts": 14.97
   },
   {
     "name": "Malakhov, Nikita and Vlasova, Nadezda",
@@ -441,10 +471,16 @@
         "level": "Open",
         "place": "2",
         "points": 24.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
       }
     ],
-    "total_pts": 58.3,
-    "avg_pts": 14.57
+    "total_pts": 71.3,
+    "avg_pts": 14.26
   },
   {
     "name": "Alisauskas, Lukas and Alisauskas, Simona",
@@ -502,49 +538,6 @@
     "avg_pts": 13.91
   },
   {
-    "name": "Spirov, Rangel and Chernyavska, Veronika",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "level": "Open",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Open",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "level": "Open",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "level": "Open",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Open",
-        "place": "4",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 81.5,
-    "avg_pts": 13.58
-  },
-  {
     "name": "Diallo, Umario and Marie, Tessa",
     "results": [
       {
@@ -586,6 +579,55 @@
     ],
     "total_pts": 78.5,
     "avg_pts": 13.08
+  },
+  {
+    "name": "Spirov, Rangel and Chernyavska, Veronika",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "level": "Open",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Open",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Open",
+        "place": "3",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 91.5,
+    "avg_pts": 13.07
   },
   {
     "name": "Shipilov, Aleksei and Mitina, Julia",
@@ -963,10 +1005,16 @@
         "level": "Open",
         "place": "3",
         "points": 19.5
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
       }
     ],
-    "total_pts": 63.5,
-    "avg_pts": 10.58
+    "total_pts": 71.5,
+    "avg_pts": 10.21
   },
   {
     "name": "Escolme, Andrew and Baker, Amy",
@@ -1346,6 +1394,25 @@
     "avg_pts": 8.1
   },
   {
+    "name": "Angelo, Miguel and Santos, Daniela",
+    "results": [
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Open",
+        "place": "6",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 16.0,
+    "avg_pts": 8.0
+  },
+  {
     "name": "Minaev, Aleksei and Minaeva, Elena",
     "results": [
       {
@@ -1377,10 +1444,22 @@
         "level": "Open",
         "place": "Semis",
         "points": 3.6
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Open",
+        "place": "4",
+        "points": 6.0
       }
     ],
-    "total_pts": 39.1,
-    "avg_pts": 7.82
+    "total_pts": 55.1,
+    "avg_pts": 7.87
   },
   {
     "name": "Savich, Stanislav and Prosser, Nicole",
@@ -1795,6 +1874,25 @@
     ],
     "total_pts": 11.2,
     "avg_pts": 5.6
+  },
+  {
+    "name": "Katashinskiy, Artemiy and Katashinskiy, Marina",
+    "results": [
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Open",
+        "place": "7",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 11.0,
+    "avg_pts": 5.5
   },
   {
     "name": "Khudoliy, Ivan and Seleznova, Alisa",
@@ -2354,6 +2452,19 @@
     "results": [
       {
         "comp_name": "The Windy City Open",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
+  },
+  {
+    "name": "Kantin, Anthony and Kantin, Elise",
+    "results": [
+      {
+        "comp_name": "2019 Miami Vibe",
         "level": "Rising Star",
         "place": "3",
         "points": 3.0
