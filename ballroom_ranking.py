@@ -68,6 +68,10 @@ class AppFrame(wx.Frame):
         self.list_ctrl.AppendColumn("Events", format=wx.LIST_FORMAT_CENTER, width=60)
         self.list_ctrl.AppendColumn("Total Pts", format=wx.LIST_FORMAT_CENTER, width=80)
         self.list_ctrl.AppendColumn("Avg Pts", format=wx.LIST_FORMAT_CENTER, width=80)
+        
+        '''self.Bind(wx.EVT_LIST_ITEM_SELECTED, self.OnCoupleSelected, self.list_ctrl)
+        self.selectedCoupleIndex = -1
+        '''
 
         # Create the label for the comp results section
         st_res = wx.StaticText(pnl, label="New Results", pos=(740, 25))
@@ -118,6 +122,7 @@ class AppFrame(wx.Frame):
         self.ID_VIEW_SORT_NAME = 110
         self.ID_VIEW_SORT_TOTAL_PTS = 111
         self.ID_VIEW_SORT_AVG_PTS = 112
+        self.ID_VIEW_COUPLE_HISTORY = 120
 
         # Make a file menu with Open, Save, Close, and Exit items
         self.fileMenu = wx.Menu()
@@ -159,6 +164,9 @@ class AppFrame(wx.Frame):
         sortAvgItem = self.viewMenu.Append(self.ID_VIEW_SORT_AVG_PTS, "Sort by Ranking",
                                            "Sort the Couples by their average points per event")
         self.viewMenu.AppendSeparator()
+        viewHistoryItem = self.viewMenu.Append(self.ID_VIEW_COUPLE_HISTORY, "Result History for Couple", 
+                                               "View the results for this couple from previous competitions")
+        self.viewMenu.AppendSeparator()
 
         # Now a help menu for the about item
         helpMenu = wx.Menu()
@@ -189,7 +197,8 @@ class AppFrame(wx.Frame):
         self.Bind(wx.EVT_MENU, self.OnExit,  exitItem)
         self.Bind(wx.EVT_MENU, self.OnSortByAvg, sortAvgItem)
         self.Bind(wx.EVT_MENU, self.OnSortByName, sortNameItem)
-        self.Bind(wx.EVT_MENU, self.OnSortByTotal, sortTotalItem) 
+        self.Bind(wx.EVT_MENU, self.OnSortByTotal, sortTotalItem)
+        self.Bind(wx.EVT_MENU, self.OnViewCoupleHistory, viewHistoryItem)
         self.Bind(wx.EVT_MENU, self.OnAddCompResults, addCompItem)
         self.Bind(wx.EVT_MENU, self.OnFindSetup, findItem)
         self.Bind(wx.EVT_FIND, self.OnFind)
@@ -218,6 +227,7 @@ class AppFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_SORT_NAME, False)
         self.viewMenu.Enable(self.ID_VIEW_SORT_TOTAL_PTS, False)
         self.viewMenu.Enable(self.ID_VIEW_SORT_AVG_PTS, False) 
+        self.viewMenu.Enable(self.ID_VIEW_COUPLE_HISTORY, False) 
         self.styles.Disable()
         self.butt_add_rslt.Disable()
         self.unsaved_updates = False
@@ -244,6 +254,7 @@ class AppFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_SORT_NAME, True)
         self.viewMenu.Enable(self.ID_VIEW_SORT_TOTAL_PTS, True)
         self.viewMenu.Enable(self.ID_VIEW_SORT_AVG_PTS, True)   
+        self.viewMenu.Enable(self.ID_VIEW_COUPLE_HISTORY, True) 
 
 
     def SetStyleControl(self, dance_style_list):
@@ -259,6 +270,7 @@ class AppFrame(wx.Frame):
         the current style.
         '''
         self.list_ctrl.DeleteAllItems()
+        self.selectedCoupleIndex = -1
         for i in range(couple_list.length()):
             couple_item = couple_list.format_item_as_columns(i)
             self.list_ctrl.Append(couple_item)
@@ -329,6 +341,12 @@ class AppFrame(wx.Frame):
         self.DisplayCouplesForStyle(index)
 
 
+    '''    
+    def OnCoupleSelected(self, event):   
+       self.selectedCoupleIndex = event.GetIndex()  
+    '''
+
+    
     def Display_Heat_Results(self, h):
         '''
         For the given heat, this method extracts the title and then
@@ -496,7 +514,17 @@ class AppFrame(wx.Frame):
         ''' This method is called from the menu to sort the current couples by total points.'''
         self.current_couples.sort_couples(key1="total_pts", key2="avg_pts", reverse=True)       
         self.SetListControl(self.current_couples)   
-
+        
+    
+    def OnViewCoupleHistory(self, event):
+        if self.list_ctrl.GetSelectedItemCount() == 1:
+            index = self.list_ctrl.GetNextSelected(-1)
+            current_couple = self.current_couples.get_couple_at_index(index)
+            for r in current_couple["results"]:
+                print(r["comp_name"], r["level"], r["place"])
+        else:
+            md = wx.MessageDialog(self, "Please select a couple from the list.", caption="Error", style=wx.OK)
+            md.ShowModal()   
 
     def OnAddHeatResults(self, event):
         '''

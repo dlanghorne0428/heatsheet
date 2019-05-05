@@ -152,6 +152,8 @@ class RankingDataFile():
         '''This method returns the number of couples in the Ranking Data.'''
         return len(self.info)
     
+    def get_couple_at_index(self, index):
+        return self.info[index]
     
     def get_name_at_index(self, index):
         '''This method returns the name of the couple at the specified index.'''
