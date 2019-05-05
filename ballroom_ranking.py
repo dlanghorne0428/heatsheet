@@ -9,7 +9,7 @@
 import wx
 import yattag
 
-from season_ranking import RankingDataFile, event_level
+from season_ranking import RankingDataFile, event_level, get_last_name
 from comp_results_file import Comp_Results_File
 
 ''' These are the separate dance styles being ranked '''
@@ -68,14 +68,10 @@ class AppFrame(wx.Frame):
         self.list_ctrl.AppendColumn("Events", format=wx.LIST_FORMAT_CENTER, width=60)
         self.list_ctrl.AppendColumn("Total Pts", format=wx.LIST_FORMAT_CENTER, width=80)
         self.list_ctrl.AppendColumn("Avg Pts", format=wx.LIST_FORMAT_CENTER, width=80)
-        
-        '''self.Bind(wx.EVT_LIST_ITEM_SELECTED, self.OnCoupleSelected, self.list_ctrl)
-        self.selectedCoupleIndex = -1
-        '''
 
         # Create the label for the comp results section
-        st_res = wx.StaticText(pnl, label="New Results", pos=(740, 25))
-        st_res.SetFont(font)
+        self.st_res = wx.StaticText(pnl, label="New Results", pos=(740, 25))
+        self.st_res.SetFont(font)
 
         # Create a label and the text control for comp name
         st_comp_name = wx.StaticText(pnl, label="Competition", pos=(740, 55))
@@ -270,7 +266,6 @@ class AppFrame(wx.Frame):
         the current style.
         '''
         self.list_ctrl.DeleteAllItems()
-        self.selectedCoupleIndex = -1
         for i in range(couple_list.length()):
             couple_item = couple_list.format_item_as_columns(i)
             self.list_ctrl.Append(couple_item)
@@ -320,11 +315,8 @@ class AppFrame(wx.Frame):
         self.DisplayCouplesForStyle(index)
 
 
-    def SetStylePerHeatTitle(self, title):
-        ''' 
-        Based on the heat title, this method selects the proper ranking
-        database and updates the GUI
-        '''
+    def GetStyleFromHeatTitle(self, title):
+        '''This method determines the dance style from the heat title. '''
         if "Smooth" in title:
             index = 1
         elif "Rhythm" in title:
@@ -335,16 +327,20 @@ class AppFrame(wx.Frame):
             index = 2      
         else:
             index = 4
+            
+        return index
+    
+
+    def SetStylePerHeatTitle(self, title):
+        ''' 
+        Based on the heat title, this method selects the proper ranking
+        database and updates the GUI
+        '''
+        index = self.GetStyleFromHeatTitle(title)
 
         # make sure the GUI style selection matches the list of couples
         self.styles.SetSelection(index)
         self.DisplayCouplesForStyle(index)
-
-
-    '''    
-    def OnCoupleSelected(self, event):   
-       self.selectedCoupleIndex = event.GetIndex()  
-    '''
 
     
     def Display_Heat_Results(self, h):
@@ -387,8 +383,47 @@ class AppFrame(wx.Frame):
             self.heat_list_ctrl.DeleteAllItems()
 
         self.butt_add_rslt.SetLabel("Add Results to DB")
+        
+    
+    def Matching_Heat(self, couple_level, heat_title):
+        couple_style_index = self.styles.GetSelection()
+        heat_style_index = self.GetStyleFromHeatTitle(heat_title)
+        heat_level = event_level(heat_title)
+        if couple_style_index == heat_style_index and couple_level == heat_level:
+            return True
+        else:
+            return False
+        
 
+    def Show_Comp_Result(self):
+        if self.couple_history_index < len(self.couple_result_history):
+            result = self.couple_result_history[self.couple_history_index]
+            self.comp_name.ChangeValue(result["comp_name"])
+            filename = self.folder_name + "/comp_results/" + result["comp_name"] + ".json"
+            comp_data = Comp_Results_File(filename)
+            heat_data = comp_data.get_heats()
+            for h in heat_data:
+                if self.Matching_Heat(result["level"], h["title"]):
+                    self.heat_name.ChangeValue(h["title"])
+                    self.SetHeatResultsCtrl(h["entries"])
+                    for i in range(len(h["entries"])):
+                        e = h["entries"][i]
+                        if get_last_name(e["couple"]) == self.couple_last_name:
+                            self.heat_list_ctrl.Select(i)
+                            break
+                    self.butt_add_rslt.SetLabel("Show Next Result")
+                    self.butt_add_rslt.Enable()
+                    self.couple_history_index += 1
+                    break
+        else:
+            # clear the competition name
+            self.comp_name.ChangeValue("--Competition Name--")
+            self.heat_name.ChangeValue("--Heat Name--")
+            self.st_res.SetLabel("New Results")
+            self.butt_add_rslt.Disable()
+            self.heat_list_ctrl.DeleteAllItems()        
 
+        
     def Build_Result(self, entry, level):
         '''
         This method build a result object based on the entry and the 
@@ -488,13 +523,13 @@ class AppFrame(wx.Frame):
 
         dd = wx.DirDialog(self, "Open the Folder containing the Ranking Database", "./data/2019/!!2019_Results")
         if dd.ShowModal() == wx.ID_OK:
-            folder_name = dd.GetPath()
+            self.folder_name = dd.GetPath()
             # open the five ranking files
-            self.smooth_couples = RankingDataFile(folder_name + "/smooth_results.json")
-            self.rhythm_couples = RankingDataFile(folder_name + "/rhythm_results.json")
-            self.standard_couples = RankingDataFile(folder_name + "/standard_results.json")
-            self.latin_couples = RankingDataFile(folder_name + "/latin_results.json")
-            self.showdance_couples = RankingDataFile(folder_name + "/cabaret_showdance_results.json") 
+            self.smooth_couples = RankingDataFile(self.folder_name + "/smooth_results.json")
+            self.rhythm_couples = RankingDataFile(self.folder_name + "/rhythm_results.json")
+            self.standard_couples = RankingDataFile(self.folder_name + "/standard_results.json")
+            self.latin_couples = RankingDataFile(self.folder_name + "/latin_results.json")
+            self.showdance_couples = RankingDataFile(self.folder_name + "/cabaret_showdance_results.json") 
             self.current_couples = self.smooth_couples
             self.SetListControl(self.current_couples)
             self.PostOpenProcess()
@@ -520,8 +555,11 @@ class AppFrame(wx.Frame):
         if self.list_ctrl.GetSelectedItemCount() == 1:
             index = self.list_ctrl.GetNextSelected(-1)
             current_couple = self.current_couples.get_couple_at_index(index)
-            for r in current_couple["results"]:
-                print(r["comp_name"], r["level"], r["place"])
+            self.couple_last_name = get_last_name(current_couple["name"])
+            self.couple_result_history = current_couple["results"]
+            self.couple_history_index = 0
+            self.st_res.SetLabel("Prev Results")
+            self.Show_Comp_Result()
         else:
             md = wx.MessageDialog(self, "Please select a couple from the list.", caption="Error", style=wx.OK)
             md.ShowModal()   
@@ -529,14 +567,18 @@ class AppFrame(wx.Frame):
     def OnAddHeatResults(self, event):
         '''
         This method handles the button clicks associated with the Comp Results.
-        There are two states associated with the button:
+        There are three states associated with the button:
           - Add Results to DB
           - Show Next Heat
+          - Show Next Result
         '''
-        if self.butt_add_rslt.GetLabel() == "Add Results to DB":
+        lab_text = self.butt_add_rslt.GetLabel()
+        if lab_text == "Add Results to DB":
             self.Process_Heat()
-        else:
+        elif lab_text == "Show Next Heat":
             self.Setup_For_Next_Heat()
+        else:
+            self.Show_Comp_Result()
 
 
     def OnAddCompResults(self, event):
