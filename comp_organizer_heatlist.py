@@ -15,7 +15,8 @@ def get_partner(line):
     '''This method searches for the partner's name on the given line.'''
     if "class='partner'" in line:
         start_pos = line.find("with ") + len("with ")
-        return line[start_pos:-1]
+        return line[start_pos:]
+        #return line[start_pos:-1]
     else:
         return None
 
@@ -261,5 +262,5 @@ class CompOrgHeatlist(Heatlist):
 '''Main program'''
 if __name__ == '__main__':
     heat_list = CompOrgHeatlist()
-    heat_list.open("https://www.californiaopen.com/pages/heat_list/Default.asp")
-    #heat_list.open("https://www.ballroombeachbash.com/pages/heatlists/Default.asp")
+    #heat_list.open("https://www.californiaopen.com/pages/heat_list/Default.asp")
+    heat_list.open("https://www.ballroombeachbash.com/pages/heatlists/Default.asp")

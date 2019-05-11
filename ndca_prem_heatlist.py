@@ -44,15 +44,19 @@ class NdcaPremHeat(Heat):
             # find the heat number and convert to integer
             start_pos = cols[1].find("-heat") + len("-heat") + 2      
             number_string = cols[1][start_pos:]
-            try:
-                self.heat_number = int(number_string)
-            except:
-                # extract non-digit info into the extra property
-                index = 0
-                while number_string[index].isdigit():
-                    index += 1
-                self.heat_number = int(number_string[:index])
-                self.extra = number_string[index:]
+            if len(number_string) == 0:
+                self.heat_number = 0
+                self.extra = ""
+            else:
+                try:
+                    self.heat_number = int(number_string)
+                except:
+                    # extract non-digit info into the extra property
+                    index = 0
+                    while number_string[index].isdigit():
+                        index += 1
+                        self.heat_number = int(number_string[:index])
+                        self.extra = number_string[index:]
                 
             # find the heat description information    
             start_pos = cols[3].find("-desc") + len("-desc") + 2
