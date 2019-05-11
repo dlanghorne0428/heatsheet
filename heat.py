@@ -1,5 +1,11 @@
 import copy
 
+def is_multi_dance(s):
+    if "(" in s and ")" in s:
+        return True
+    else:   
+        return False;
+
 class Heat():
     def __init__(self):
         self.category = "Heat"
@@ -63,7 +69,7 @@ class Heat():
         else: # TODO: consider amateurs 
             self.level = "None"
 #        return level
-
+   
     # return a blank set of heat information
     def dummy_info(self):
         result = ("-----", "-----", "-----", "-----", "-----", "-----")
@@ -126,11 +132,7 @@ class Heat_Report():
         return self.entries[0].level
     
     def multi_dance(self):
-        d = self.description()
-        if "(" in d and ")" in d:
-            return True
-        else:
-            return False
+        return is_multi_dance(self.description())
         
     def rounds(self):
         return self.entries[0].rounds

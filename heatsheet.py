@@ -19,6 +19,7 @@ from comp_mngr_heatlist import CompMngrHeatlist, CompMngrHeat
 from comp_mngr_results import CompMngrResults
 from comp_results_file import Comp_Results_File
 from season_ranking import RankingDataFile
+from heat import is_multi_dance
 
 def get_folder_name(filename):
     return os.path.dirname(filename)
@@ -155,6 +156,7 @@ class HelloFrame(wx.Frame):
         self.ID_VIEW_COMP_PRO_HEATS = 130
         self.ID_VIEW_COMP_SOLOS = 131
         self.ID_VIEW_COMP_FORMATIONS = 132
+        self.ID_VIEW_COMP_MULTI_DANCES = 133
 
         # Make a file menu with Open, Open URL, Save As, Close, and Exit items
         self.fileMenu = wx.Menu()
@@ -201,6 +203,9 @@ class HelloFrame(wx.Frame):
                                             "View all the solos in this competition.")
         compFormItem = self.viewMenu.Append(self.ID_VIEW_COMP_FORMATIONS, "All Formations in Comp",
                                             "View all the formations in this competition.")
+        compMultiItem = self.viewMenu.Append(self.ID_VIEW_COMP_MULTI_DANCES, "All Multi-Dance Heat in Comp",
+                                             "View all the multi-dance heats in this competition.")        
+        
 
         self.viewMenu.AppendSeparator()
 
@@ -242,6 +247,7 @@ class HelloFrame(wx.Frame):
         self.Bind(wx.EVT_MENU, self.OnCompProHeats, compProItem)
         self.Bind(wx.EVT_MENU, self.OnCompSolos, compSoloItem)
         self.Bind(wx.EVT_MENU, self.OnCompFormations, compFormItem)
+        self.Bind(wx.EVT_MENU, self.OnMultiDanceHeats, compMultiItem)
         self.Bind(wx.EVT_MENU, self.OnAbout, aboutItem)
 
 
@@ -320,6 +326,7 @@ class HelloFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_COMP_PRO_HEATS, False)
         self.viewMenu.Enable(self.ID_VIEW_COMP_SOLOS, False)
         self.viewMenu.Enable(self.ID_VIEW_COMP_FORMATIONS, False)
+        self.viewMenu.Enable(self.ID_VIEW_COMP_MULTI_DANCES, False)
         self.folder_name = "./data"
         self.SetStatusText("Choose File->Open to open a heatlist file")
 
@@ -359,6 +366,7 @@ class HelloFrame(wx.Frame):
         if len(self.heatlist.formations) > 0:
             self.viewMenu.Enable(self.ID_VIEW_COMP_FORMATIONS, True)
             self.heat_cat.Append("Formation")        
+        self.viewMenu.Enable(self.ID_VIEW_COMP_MULTI_DANCES, True)
         self.heat_cat.SetSelection(0)    # default to Heat
         self.heat_selection.SetMax(self.heatlist.max_heat_num)
         self.SetStatusText("Select a Division, Dancer, or Couple")
@@ -725,6 +733,35 @@ class HelloFrame(wx.Frame):
         self.butt_rslt_ndca.Enable()
         self.butt_rslt_co.Enable()
         self.butt_rank.Enable()
+ 
+ 
+    def OnMultiDanceHeats(self, event):
+        '''This method generates a mini-program for all the pro heats.'''
+        self.list_ctrl.DeleteAllItems()
+        self.report_title = "All Multi Dance Heats (non-pro)"
+        
+        # for each pro heat, find the couples and populate the GUI
+        for num in range(1, self.heatlist.max_heat_num + 1):
+            if type(self.heatlist) is CompMngrHeatlist:
+                h = CompMngrHeat(category="Heat", number=num)
+            elif type(self.heatlist) is CompOrgHeat:
+                h = CompOrgHeat(category="Heat", number=num)
+            else:
+                h = NdcaPremHeat(category="Heat", number=num)
+                
+            competitors = self.heatlist.list_of_couples_in_heat(h)                   
+            if len(competitors) > 0:
+                if is_multi_dance(competitors[0][3]): 
+                    for c in competitors:
+                        self.list_ctrl.Append(c)
+                    self.list_ctrl.Append(h.dummy_info())
+                
+        # enable the buttons that process the results and get rankings
+        self.butt_rslt.Enable()
+        #self.butt_rslt_url.Enable()
+        #self.butt_rslt_ndca.Enable()
+        #self.butt_rslt_co.Enable()
+        #self.butt_rank.Enable() 
         
     
     def ChangeColumnTitle(self, col_index, title):
