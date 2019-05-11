@@ -758,9 +758,9 @@ class HelloFrame(wx.Frame):
                 
         # enable the buttons that process the results and get rankings
         self.butt_rslt.Enable()
-        #self.butt_rslt_url.Enable()
-        #self.butt_rslt_ndca.Enable()
-        #self.butt_rslt_co.Enable()
+        self.butt_rslt_url.Enable()
+        self.butt_rslt_ndca.Enable()
+        self.butt_rslt_co.Enable()
         #self.butt_rank.Enable() 
         
     
@@ -784,21 +784,28 @@ class HelloFrame(wx.Frame):
         self.results_file = Comp_Results_File(results_filename, "w")
     
         # save the competition name at the top of that output file
-        self.results_file.save_comp_name(self.heatlist.comp_name)        
+        self.results_file.save_comp_name(self.heatlist.comp_name)  
+        
+        if "pro-am" in results_filename:
+            max_heat = self.heatlist.max_heat_num
+            heat_category = "Heat"
+        else:
+            max_heat = self.heatlist.max_pro_heat_num
+            heat_category = "Pro heat"
 
-        # loop through all the pro heats
-        for num in range(1, self.heatlist.max_pro_heat_num + 1):
+        # loop through all the heats
+        for num in range(1, max_heat + 1):
             if type(self.heatlist) is CompMngrHeatlist:
-                h = CompMngrHeat(category="Pro heat", number=num)
+                h = CompMngrHeat(category=heat_category, number=num)
             elif type(self.heatlist) is CompOrgHeatlist:
-                h = CompOrgHeat(category="Pro heat", number = num)
+                h = CompOrgHeat(category=heat_category, number=num)
             else:
-                h = NdcaPremHeat(category="Pro heat", number=num) 
+                h = NdcaPremHeat(category=heat_category, number=num) 
                 
             # get a heat report with the entries from the heatlist
             report = self.heatlist.build_heat_report(h, sorted=True)   
             
-            if report.length() > 0:
+            if report.length() > 0 and (heat_category == "Pro heat" or report.multi_dance()):
                 
                 # get the results of this heat
                 self.scoresheet.determine_heat_results(report)
@@ -838,7 +845,10 @@ class HelloFrame(wx.Frame):
         if fd.ShowModal() == wx.ID_OK:
             filename = fd.GetPath()
             self.scoresheet = CompMngrResults()
-            results_filename = os.path.dirname(filename) + "/results.json"
+            if "non-pro" in self.report_title:
+                results_filename = os.path.dirname(filename) + "/pro-am_results.json"
+            else:
+                results_filename = os.path.dirname(filename) + "/results.json"
             self.ProcessScoresheet(filename, results_filename)
             
             
@@ -881,18 +891,22 @@ class HelloFrame(wx.Frame):
         '''
         This method obtains the competition results from a site based on CompOrganizer.com
         '''
- 
         # prompt the user to enter a URL 
         text_dialog = wx.TextEntryDialog(self, "Enter the URL for results in CompOrganizer format")
         if text_dialog.ShowModal() == wx.ID_OK:
             url = text_dialog.GetValue()
             self.scoresheet = CompOrgResults()
             
+            if "non-pro" in self.report_title:
+                default_filename = "pro-am_results.json"
+            else:
+                default_filename = "results.json" 
+                
             # Ask the user to specify an output file to save the results 
             # of all pro heats in this comp, using results.json as the default
             fd = wx.FileDialog(self, "Save the Results to a file", 
                                       defaultDir = "./data",
-                                      defaultFile = "results.json",
+                                      defaultFile = default_filename,
                                       style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
         
             # Open the output file and process the scoresheet
@@ -904,19 +918,23 @@ class HelloFrame(wx.Frame):
     def OnGetResultsFromNdca(self, event):
         '''
         This method obtains the competition results from NdcaPremier.com
-        '''
- 
+        ''' 
         # prompt the user to enter a URL 
         text_dialog = wx.TextEntryDialog(self, "Enter the URL for results at NDCA Premier")
         if text_dialog.ShowModal() == wx.ID_OK:
             url = text_dialog.GetValue()
             self.scoresheet = NdcaPremResults()
             
+            if "non-pro" in self.report_title:
+                default_filename = "pro-am_results.json"
+            else:
+                default_filename = "results.json"            
+            
             # Ask the user to specify an output file to save the results 
             # of all pro heats in this comp, using results.json as the default
             fd = wx.FileDialog(self, "Save the Results to a file", 
                                       defaultDir = "./data",
-                                      defaultFile = "results.json",
+                                      defaultFile = default_filename,
                                       style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
         
             # Open the output file and process the scoresheet

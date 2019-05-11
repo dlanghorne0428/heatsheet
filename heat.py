@@ -68,7 +68,7 @@ class Heat():
                 self.level = "Open"   
         else: # TODO: consider amateurs 
             self.level = "None"
-#        return level
+
    
     # return a blank set of heat information
     def dummy_info(self):

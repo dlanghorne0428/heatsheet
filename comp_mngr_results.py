@@ -325,7 +325,7 @@ class CompMngrResults():
                 looking_for_recall_column = True
             
             # If this check is true, we found the Final results for this heat
-            elif heat_string in line and "Final" in line and "<p>" in line:
+            elif heat_string in line and "<p>" in line:   # and "Final" in line:
                 result = "Finals"
                 # if this is a single dance event, we can look for the results now
                 if event == "Single Dance":
@@ -369,7 +369,7 @@ class CompMngrResults():
                 
                 # if this competitor made the finals, quit looping because
                 # we have all the results for this heat
-                if result == "Finals":
-                    break
+                #if result == "Finals":
+                #    break
         
 
