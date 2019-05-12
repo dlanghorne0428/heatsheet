@@ -65,13 +65,13 @@ class NdcaPremHeat(Heat):
             # set the category and level if necessary
             if "Professional" in self.info:
                 self.category = "Pro heat"
-                self.set_level()
             elif "Formation" in self.info:
                 self.category = "Formation"
             elif "Solo Star" in self.info:
                 self.category = "Heat"
             elif "Solo" in self.info:
                 self.category = "Solo"
+            self.set_level()
                 
             # save the dancer name, scoresheet code, and partner name
             self.dancer = dancer.name
