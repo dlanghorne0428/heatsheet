@@ -217,8 +217,8 @@ class NdcaPremResults():
                 end_pos = cat_link.find('">', start_pos)
                 category = cat_link[start_pos:end_pos]
                 # this limits the result processing to pro events
-                if "Professional" in category:
-                    self.categories.append(category)
+                #if "Professional" in category:
+                self.categories.append(category)
         for cat in self.categories:
             url = "http://www.ndcapremier.com/scripts/event_list.asp?cyi=" + self.comp_id + "&cat=" + cat
             response = requests.get(url)
