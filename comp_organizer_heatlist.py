@@ -15,7 +15,9 @@ def get_partner(line):
     '''This method searches for the partner's name on the given line.'''
     if "class='partner'" in line:
         start_pos = line.find("with ") + len("with ")
-        return line[start_pos:]
+        substr = line[start_pos:]
+        stripped = substr.strip()
+        return stripped
         #return line[start_pos:-1]
     else:
         return None
@@ -80,7 +82,6 @@ class CompOrgHeat(Heat):
             # update the heat category and level if necessary
             if "Professional" in self.info:
                 self.category = "Pro heat"
-                self.set_level()
             elif "Formation" in self.info:
                 self.category = "Formation"
                 print("Formation")
@@ -89,6 +90,7 @@ class CompOrgHeat(Heat):
                 print("Solo Star")
             elif "Solo" in self.info:
                 self.category = "Solo"  
+            self.set_level()
             
             # save dancer name, scoresheet code, and partner name
             self.dancer = dancer.name
