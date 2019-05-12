@@ -236,31 +236,6 @@
     "avg_pts": 22.5
   },
   {
-    "name": "Karaulov, Alexey and Karaulov, Vlada",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Open",
-        "place": "7",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Open",
-        "place": "2",
-        "points": 32.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "level": "Open",
-        "place": "3",
-        "points": 19.5
-      }
-    ],
-    "total_pts": 61.5,
-    "avg_pts": 20.5
-  },
-  {
     "name": "Mulyavka, Ivan and Rooba, Karin",
     "results": [
       {
@@ -304,10 +279,41 @@
         "level": "Open",
         "place": "2",
         "points": 16.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "1",
+        "points": 30.0
       }
     ],
-    "total_pts": 140.0,
-    "avg_pts": 20.0
+    "total_pts": 170.0,
+    "avg_pts": 21.25
+  },
+  {
+    "name": "Karaulov, Alexey and Karaulov, Vlada",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Open",
+        "place": "7",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 32.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 19.5
+      }
+    ],
+    "total_pts": 61.5,
+    "avg_pts": 20.5
   },
   {
     "name": "Pashkov, Pasha and Karagach, Daniella",
@@ -346,61 +352,6 @@
     ],
     "total_pts": 35.0,
     "avg_pts": 17.5
-  },
-  {
-    "name": "Kudashev, Ivan and Ksusha",
-    "results": [
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "level": "Open",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Open",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Open",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Open",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Open",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Open",
-        "place": "5",
-        "points": 16.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "level": "Open",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "level": "Open",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 124.8,
-    "avg_pts": 15.6
   },
   {
     "name": "Italyankin, Roman and Bokova, Alexandra",
@@ -470,10 +421,84 @@
         "level": "Open",
         "place": "5",
         "points": 12.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "2",
+        "points": 24.0
       }
     ],
-    "total_pts": 166.1,
-    "avg_pts": 15.1
+    "total_pts": 190.1,
+    "avg_pts": 15.84
+  },
+  {
+    "name": "Kudashev, Ivan and Ksusha",
+    "results": [
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "5",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 124.8,
+    "avg_pts": 15.6
+  },
+  {
+    "name": "Bezukladnikov, Egor and Savikurki, Taina",
+    "results": [
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "4",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
   },
   {
     "name": "Malakhov, Nikita and Vlasova, Nadezda",
@@ -720,6 +745,37 @@
     "avg_pts": 13.07
   },
   {
+    "name": "Stoynov, Simeon and Stoynova, Kora",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6.3
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 51.3,
+    "avg_pts": 12.82
+  },
+  {
     "name": "Gilin, Alon and Oblakova, Anna",
     "results": [
       {
@@ -749,6 +805,19 @@
     ],
     "total_pts": 49.8,
     "avg_pts": 12.45
+  },
+  {
+    "name": "Kapitannikov, Maksim and Nesterova, Elena",
+    "results": [
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
   },
   {
     "name": "Drobotov, Roman and Kazbekova, Liya",
@@ -1061,31 +1130,6 @@
     ],
     "total_pts": 84.5,
     "avg_pts": 10.56
-  },
-  {
-    "name": "Stoynov, Simeon and Stoynova, Kora",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "level": "Open",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "level": "Open",
-        "place": "Semis",
-        "points": 6.3
-      }
-    ],
-    "total_pts": 31.3,
-    "avg_pts": 10.43
   },
   {
     "name": "Hustiuc, Daniel and Li, Jessica",
@@ -1408,6 +1452,67 @@
     "avg_pts": 8.4
   },
   {
+    "name": "Minaev, Aleksei and Minaeva, Elena",
+    "results": [
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Open",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Open",
+        "place": "4",
+        "points": 6.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "5",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 75.1,
+    "avg_pts": 8.34
+  },
+  {
     "name": "Davies, Jake and Kalinina, Alyona",
     "results": [
       {
@@ -1502,53 +1607,83 @@
     "avg_pts": 8.0
   },
   {
-    "name": "Minaev, Aleksei and Minaeva, Elena",
+    "name": "Fulvi, Daniele and Criscione, Veronica",
     "results": [
       {
         "comp_name": "Nashville Starz Dance Spectacular",
-        "level": "Open",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Open",
-        "place": "Semis",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Indiana Challenge - Add web page option",
         "level": "Rising Star",
-        "place": "1",
-        "points": 10
+        "place": "3",
+        "points": 6.5
       },
       {
-        "comp_name": "Indiana Challenge - Add web page option",
+        "comp_name": "Nashville Starz Dance Spectacular",
         "level": "Open",
-        "place": "2",
+        "place": "4",
         "points": 10.0
       },
       {
-        "comp_name": "Michigan DanceSport Challenge",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
+        "comp_name": "Maryland DanceSport Championships",
         "level": "Rising Star",
-        "place": "1",
-        "points": 10
+        "place": "2",
+        "points": 5.0
       },
       {
-        "comp_name": "wisconsin19[martin cawston]",
+        "comp_name": "Maryland DanceSport Championships",
         "level": "Open",
         "place": "4",
         "points": 6.0
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "level": "Open",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "3",
+        "points": 19.5
       }
     ],
-    "total_pts": 55.1,
-    "avg_pts": 7.87
+    "total_pts": 93.8,
+    "avg_pts": 7.82
   },
   {
     "name": "Kamniev, Oleksandr and Kamnieva, Kateryna",
@@ -1626,73 +1761,6 @@
     "avg_pts": 6.7
   },
   {
-    "name": "Fulvi, Daniele and Criscione, Veronica",
-    "results": [
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "level": "Rising Star",
-        "place": "3",
-        "points": 6.5
-      },
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "level": "Open",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "level": "Open",
-        "place": "4",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Rising Star",
-        "place": "3",
-        "points": 5.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 6.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "level": "Open",
-        "place": "6",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "level": "Open",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "level": "Open",
-        "place": "4",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 64.3,
-    "avg_pts": 6.43
-  },
-  {
     "name": "Kora, Iurii and Hryn, Alisa",
     "results": [
       {
@@ -1730,10 +1798,22 @@
         "level": "Open",
         "place": "4",
         "points": 6.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "6",
+        "points": 9.0
       }
     ],
-    "total_pts": 38.0,
-    "avg_pts": 6.33
+    "total_pts": 53.5,
+    "avg_pts": 6.69
   },
   {
     "name": "Davis, Jake and Kalinina, Alyona",
@@ -1891,61 +1971,6 @@
     "avg_pts": 5.75
   },
   {
-    "name": "Jenkins, Dylan and Jenkins, Nora",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Open",
-        "place": "7",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Open",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 45.6,
-    "avg_pts": 5.7
-  },
-  {
     "name": "Shvetsov, Artur and LinSong, Phoenix",
     "results": [
       {
@@ -2037,6 +2062,73 @@
     ],
     "total_pts": 11.0,
     "avg_pts": 5.5
+  },
+  {
+    "name": "Jenkins, Dylan and Jenkins, Nora",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "7",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 54.2,
+    "avg_pts": 5.42
   },
   {
     "name": "Khudoliy, Ivan and Seleznova, Alisa",
@@ -2144,6 +2236,43 @@
     "avg_pts": 5.25
   },
   {
+    "name": "Katona, Zsolt and Potys, Timea",
+    "results": [
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "City Lights Ball",
+        "level": "Open",
+        "place": "7",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Open",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "3",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 26.0,
+    "avg_pts": 5.2
+  },
+  {
     "name": "Wang, Howard and Hsieh, Doris",
     "results": [
       {
@@ -2173,37 +2302,6 @@
     ],
     "total_pts": 20.6,
     "avg_pts": 5.15
-  },
-  {
-    "name": "Katona, Zsolt and Potys, Timea",
-    "results": [
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "City Lights Ball",
-        "level": "Open",
-        "place": "7",
-        "points": 5.0
-      },
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "level": "Open",
-        "place": "6",
-        "points": 6.0
-      },
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "level": "Rising Star",
-        "place": "3",
-        "points": 5.0
-      }
-    ],
-    "total_pts": 20.0,
-    "avg_pts": 5.0
   },
   {
     "name": "Chibishev, Ihor and Zhosan, Diana",
@@ -2502,6 +2600,31 @@
     "avg_pts": 3.6
   },
   {
+    "name": "Kantin, Anthony and Kantin, Elise",
+    "results": [
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 3.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 10.6,
+    "avg_pts": 3.53
+  },
+  {
     "name": "Pavlovic, Nenad and Kogan, Vivienne",
     "results": [
       {
@@ -2558,19 +2681,6 @@
         "comp_name": "Michigan DanceSport Challenge",
         "level": "Rising Star",
         "place": "4",
-        "points": 3.0
-      }
-    ],
-    "total_pts": 3.0,
-    "avg_pts": 3.0
-  },
-  {
-    "name": "Kantin, Anthony and Kantin, Elise",
-    "results": [
-      {
-        "comp_name": "2019 Miami Vibe",
-        "level": "Rising Star",
-        "place": "3",
         "points": 3.0
       }
     ],

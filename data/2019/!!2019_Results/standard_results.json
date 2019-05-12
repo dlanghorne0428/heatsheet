@@ -203,6 +203,32 @@
     "avg_pts": 20.1
   },
   {
+    "name": "Bezukladnikov, Egor and Savikurki, Taina",
+    "results": [
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 20.0
+  },
+  {
+    "name": "Colac, Igor and Milotti, Roxane",
+    "results": [
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 20.0
+  },
+  {
     "name": "Pedrinelli, Oscar and Kovalcikova, Lenka",
     "results": [
       {
@@ -603,10 +629,16 @@
         "level": "Open",
         "place": "3",
         "points": 10.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
       }
     ],
-    "total_pts": 166.5,
-    "avg_pts": 12.81
+    "total_pts": 182.5,
+    "avg_pts": 13.04
   },
   {
     "name": "Batih, Nazar and Cantley, Mariko",
@@ -683,10 +715,16 @@
         "level": "Open",
         "place": "quarters",
         "points": 4.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "2",
+        "points": 14.0
       }
     ],
-    "total_pts": 36.0,
-    "avg_pts": 12.0
+    "total_pts": 50.0,
+    "avg_pts": 12.5
   },
   {
     "name": "Katashinskiy, Artemiy and Katashinskiy, Marina",
@@ -847,6 +885,25 @@
       }
     ],
     "total_pts": 30.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Rivers, Jason and Davis, Jennifer",
+    "results": [
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "3",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 20.0,
     "avg_pts": 10.0
   },
   {
@@ -1090,43 +1147,6 @@
     "avg_pts": 9.03
   },
   {
-    "name": "Averkov, Serhiy and Barna, Olena",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "level": "Open",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Open",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Open",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.9
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "level": "Open",
-        "place": "Semis",
-        "points": 7.6
-      }
-    ],
-    "total_pts": 44.3,
-    "avg_pts": 8.86
-  },
-  {
     "name": "Conte, Riccardo and Filippi, Eleonora",
     "results": [
       {
@@ -1182,10 +1202,59 @@
         "level": "Open",
         "place": "3",
         "points": 13.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
       }
     ],
-    "total_pts": 74.5,
-    "avg_pts": 8.28
+    "total_pts": 97.5,
+    "avg_pts": 8.86
+  },
+  {
+    "name": "Averkov, Serhiy and Barna, Olena",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.9
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "level": "Open",
+        "place": "Semis",
+        "points": 7.6
+      }
+    ],
+    "total_pts": 44.3,
+    "avg_pts": 8.86
   },
   {
     "name": "Davis, Brogen and Davis, Katherine",
@@ -1278,6 +1347,37 @@
       }
     ],
     "total_pts": 45.0,
+    "avg_pts": 7.5
+  },
+  {
+    "name": "Spencer, Alexander and Spencer, Alina",
+    "results": [
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 30.0,
     "avg_pts": 7.5
   },
   {
@@ -1503,25 +1603,6 @@
     ],
     "total_pts": 13.5,
     "avg_pts": 6.75
-  },
-  {
-    "name": "Spencer, Alina and Spencer, Alex",
-    "results": [
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Rising Star",
-        "place": "3",
-        "points": 5.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Open",
-        "place": "5",
-        "points": 8.0
-      }
-    ],
-    "total_pts": 13.0,
-    "avg_pts": 6.5
   },
   {
     "name": "Dudin, Danila and Zhigulskaya, Varvara",
@@ -1937,6 +2018,55 @@
     "avg_pts": 4.73
   },
   {
+    "name": "Kantin, Anthony and Kantin, Elise",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "7",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Open",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 5.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 33.0,
+    "avg_pts": 4.71
+  },
+  {
     "name": "Levin, Ivan and Levin, Maria",
     "results": [
       {
@@ -1981,43 +2111,6 @@
     "avg_pts": 4.6
   },
   {
-    "name": "Kantin, Anthony and Kantin, Elise",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Open",
-        "place": "7",
-        "points": 5.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 3.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Open",
-        "place": "6",
-        "points": 6.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 5.0
-      }
-    ],
-    "total_pts": 22.0,
-    "avg_pts": 4.4
-  },
-  {
     "name": "Cromwell, Robbie and Trimble, Ruth",
     "results": [
       {
@@ -2049,10 +2142,22 @@
         "level": "Rising Star",
         "place": "5",
         "points": 4.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "4",
+        "points": 6.0
       }
     ],
-    "total_pts": 19.6,
-    "avg_pts": 3.92
+    "total_pts": 30.6,
+    "avg_pts": 4.37
   },
   {
     "name": "Li, Yue and Lin, Shiau-chian",
@@ -2072,19 +2177,6 @@
     ],
     "total_pts": 7.6,
     "avg_pts": 3.8
-  },
-  {
-    "name": "Hoffman, Ian and Houska, Melissa",
-    "results": [
-      {
-        "comp_name": "Music City Invitational",
-        "level": "Open",
-        "place": "4",
-        "points": 3.0
-      }
-    ],
-    "total_pts": 3.0,
-    "avg_pts": 3.0
   },
   {
     "name": "Bilozorov, Anton and Filip, Samanta",
@@ -2112,10 +2204,29 @@
         "level": "Open",
         "place": "quarters",
         "points": 0.4
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5.0
       }
     ],
-    "total_pts": 10.5,
-    "avg_pts": 2.62
+    "total_pts": 15.5,
+    "avg_pts": 3.1
+  },
+  {
+    "name": "Hoffman, Ian and Houska, Melissa",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "4",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
   },
   {
     "name": "Pollock, Ira and Sun, Noelle",

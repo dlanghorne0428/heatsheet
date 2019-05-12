@@ -234,10 +234,16 @@
         "level": "Open",
         "place": "Semis",
         "points": 4.8
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "2",
+        "points": 24.0
       }
     ],
-    "total_pts": 92.8,
-    "avg_pts": 23.2
+    "total_pts": 116.8,
+    "avg_pts": 23.36
   },
   {
     "name": "Afonkin, Igor and Anderson, Meghan",
@@ -521,43 +527,6 @@
     "avg_pts": 19.57
   },
   {
-    "name": "Kostianets, Slava and Kostianets, Valeriia",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "level": "Open",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Open",
-        "place": "3",
-        "points": 26.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "level": "Open",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "level": "Open",
-        "place": "6",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "level": "Open",
-        "place": "7",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 85.0,
-    "avg_pts": 17.0
-  },
-  {
     "name": "Pilipenchuk, Nikolai and Hudson, Sarika",
     "results": [
       {
@@ -607,10 +576,72 @@
         "level": "Open",
         "place": "Semis",
         "points": 10.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "1",
+        "points": 30.0
       }
     ],
-    "total_pts": 132.5,
-    "avg_pts": 16.56
+    "total_pts": 162.5,
+    "avg_pts": 18.06
+  },
+  {
+    "name": "Zakrzewski, Mariusz and Ray, Lynnsay",
+    "results": [
+      {
+        "comp_name": "Emerald Ball",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "1",
+        "points": 30.0
+      }
+    ],
+    "total_pts": 34.8,
+    "avg_pts": 17.4
+  },
+  {
+    "name": "Kostianets, Slava and Kostianets, Valeriia",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "level": "Open",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 26.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "level": "Open",
+        "place": "6",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "level": "Open",
+        "place": "7",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 85.0,
+    "avg_pts": 17.0
   },
   {
     "name": "Don, Jang and Don, Adele",
@@ -666,6 +697,73 @@
     ],
     "total_pts": 121.2,
     "avg_pts": 15.15
+  },
+  {
+    "name": "Zappia, Enzo and Betts, Stephanie",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "4",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 8.8
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "6",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Open",
+        "place": "4",
+        "points": 20.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Open",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "2",
+        "points": 24.0
+      }
+    ],
+    "total_pts": 150.6,
+    "avg_pts": 15.06
   },
   {
     "name": "Johnson, Dusty and Grohoske, Ellie",
@@ -759,97 +857,6 @@
     ],
     "total_pts": 71.0,
     "avg_pts": 14.2
-  },
-  {
-    "name": "McCann, Stephen and McCann, Elisa",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "City Lights Ball",
-        "level": "Open",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "caopen19",
-        "level": "Open",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "caopen19",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Open",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "level": "Open",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "level": "Open",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "level": "Open",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "level": "Open",
-        "place": "quarters",
-        "points": 4.0
-      }
-    ],
-    "total_pts": 197.1,
-    "avg_pts": 14.08
   },
   {
     "name": "Zavialov, Dmitrii and Baumgartner, Katt",
@@ -973,71 +980,113 @@
         "level": "Open",
         "place": "quarters",
         "points": 4.0
-      }
-    ],
-    "total_pts": 281.3,
-    "avg_pts": 14.07
-  },
-  {
-    "name": "Zappia, Enzo and Betts, Stephanie",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "4",
-        "points": 20.0
       },
       {
-        "comp_name": "Golden Star Dancesport Championships",
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "atlopen19",
         "level": "Open",
         "place": "3",
         "points": 19.5
+      }
+    ],
+    "total_pts": 310.8,
+    "avg_pts": 14.13
+  },
+  {
+    "name": "McCann, Stephen and McCann, Elisa",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
       },
       {
-        "comp_name": "Florida Superstars",
+        "comp_name": "City Lights Ball",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "caopen19",
         "level": "Open",
         "place": "5",
         "points": 12.0
       },
       {
+        "comp_name": "caopen19",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 16.0
+      },
+      {
         "comp_name": "NYDF 2019",
         "level": "Open",
         "place": "Semis",
-        "points": 8.8
+        "points": 4.8
       },
       {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Open",
-        "place": "6",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "level": "Open",
-        "place": "4",
-        "points": 20.0
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
       },
       {
         "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
         "level": "Open",
-        "place": "4",
-        "points": 10.0
+        "place": "5",
+        "points": 8.0
       },
       {
-        "comp_name": "New Orleans Open",
+        "comp_name": "beachbash2019",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
         "level": "Open",
         "place": "3",
         "points": 19.5
       },
       {
         "comp_name": "Emerald Ball",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "Emerald Ball",
         "level": "Open",
-        "place": "Semis",
-        "points": 4.8
+        "place": "quarters",
+        "points": 4.0
       }
     ],
-    "total_pts": 126.6,
-    "avg_pts": 14.07
+    "total_pts": 197.1,
+    "avg_pts": 14.08
   },
   {
     "name": "Pohybil, Dmytro and Kushnir, Alona",
@@ -1254,10 +1303,60 @@
         "level": "Open",
         "place": "quarters",
         "points": 4.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "4",
+        "points": 15.0
       }
     ],
-    "total_pts": 101.3,
-    "avg_pts": 12.66
+    "total_pts": 116.3,
+    "avg_pts": 12.92
+  },
+  {
+    "name": "Campbell, Kyle and Campbell, Christina",
+    "results": [
+      {
+        "comp_name": "beachbash2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "3",
+        "points": 19.5
+      }
+    ],
+    "total_pts": 37.9,
+    "avg_pts": 12.63
+  },
+  {
+    "name": "Rivers, Jason and Davis, Jennifer",
+    "results": [
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "5",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 25.0,
+    "avg_pts": 12.5
   },
   {
     "name": "Barabash, Volodymyr and Rudenco, Yulia",
@@ -1637,19 +1736,6 @@
     "avg_pts": 9.0
   },
   {
-    "name": "Kyle, Roland and Ruffell, Lexi",
-    "results": [
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "level": "Open",
-        "place": "6",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 9.0,
-    "avg_pts": 9.0
-  },
-  {
     "name": "Leonov, Maksim and Zhuchenko, Anastasia",
     "results": [
       {
@@ -1715,6 +1801,85 @@
     ],
     "total_pts": 88.8,
     "avg_pts": 8.88
+  },
+  {
+    "name": "Holzworth, John and Wooding, Nicole",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 6.6
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "level": "Open",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "beachbash2019",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 0.8
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "level": "Rising Star",
+        "place": "quarters",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "4",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 104.3,
+    "avg_pts": 8.69
   },
   {
     "name": "Clark, Jarod and Maughan, Angela",
@@ -2223,49 +2388,6 @@
     "avg_pts": 7.98
   },
   {
-    "name": "Dawson, Staz and Gonyea, Jacklyn",
-    "results": [
-      {
-        "comp_name": "Indiana Challenge - Add web page option",
-        "level": "Open",
-        "place": "6",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Open",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "Music City Invitational",
-        "level": "Open",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "level": "Open",
-        "place": "quarters",
-        "points": 1.6
-      }
-    ],
-    "total_pts": 47.7,
-    "avg_pts": 7.95
-  },
-  {
     "name": "Morth, Jay and Trinidad, Samantha",
     "results": [
       {
@@ -2333,25 +2455,6 @@
     "avg_pts": 7.75
   },
   {
-    "name": "Greer, Aaron and Greer, Victoria",
-    "results": [
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "level": "Rising Star",
-        "place": "6",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "level": "Open",
-        "place": "6",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 15.0,
-    "avg_pts": 7.5
-  },
-  {
     "name": "Derry, Patrick and Trutneva, Anastasia",
     "results": [
       {
@@ -2408,71 +2511,53 @@
     "avg_pts": 7.36
   },
   {
-    "name": "Holzworth, John and Wooding, Nicole",
+    "name": "Dawson, Staz and Gonyea, Jacklyn",
     "results": [
       {
-        "comp_name": "The Snow Ball",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 6.6
-      },
-      {
-        "comp_name": "The Snow Ball",
+        "comp_name": "Indiana Challenge - Add web page option",
         "level": "Open",
-        "place": "Semis",
-        "points": 4.8
+        "place": "6",
+        "points": 9.0
       },
       {
-        "comp_name": "Vegas Open Dance Challenge",
+        "comp_name": "Heritage Classic Ballroom Championships",
         "level": "Rising Star",
-        "place": "Semis",
-        "points": 3.6
+        "place": "4",
+        "points": 10.0
       },
       {
-        "comp_name": "Vegas Open Dance Challenge",
+        "comp_name": "Heritage Classic Ballroom Championships",
         "level": "Open",
         "place": "quarters",
         "points": 4.0
       },
       {
         "comp_name": "St. Louis Star Ball Championship",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
         "level": "Open",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "level": "Rising Star",
-        "place": "3",
-        "points": 6.5
-      },
-      {
-        "comp_name": "beachbash2019",
-        "level": "Rising Star",
         "place": "Semis",
-        "points": 6.0
+        "points": 3.6
       },
       {
-        "comp_name": "beachbash2019",
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "The Windy City Open",
         "level": "Open",
         "place": "quarters",
-        "points": 0.8
+        "points": 1.6
       },
       {
-        "comp_name": "Emerald Ball",
-        "level": "Rising Star",
-        "place": "quarters",
-        "points": 3.0
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
       }
     ],
-    "total_pts": 69.3,
-    "avg_pts": 6.93
+    "total_pts": 51.3,
+    "avg_pts": 7.33
   },
   {
     "name": "Guthrie, Trevor and Guthrie, Emily",
@@ -2554,10 +2639,102 @@
         "level": "Open",
         "place": "quarters",
         "points": 0.4
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "5",
+        "points": 12.0
       }
     ],
-    "total_pts": 86.1,
-    "avg_pts": 6.62
+    "total_pts": 106.1,
+    "avg_pts": 7.07
+  },
+  {
+    "name": "Kyle, Roland and Ruffell, Lexi",
+    "results": [
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "level": "Open",
+        "place": "6",
+        "points": 9.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "Semis",
+        "points": 5.1
+      }
+    ],
+    "total_pts": 19.1,
+    "avg_pts": 6.37
+  },
+  {
+    "name": "Pickering, Martin and Botes, Natalie",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "level": "Open",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Open",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "6",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 50.5,
+    "avg_pts": 6.31
   },
   {
     "name": "Elser, David and Krug, Elizabeth",
@@ -2647,53 +2824,16 @@
         "level": "Open",
         "place": "Semis",
         "points": 5.4
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4.5
       }
     ],
-    "total_pts": 22.9,
-    "avg_pts": 5.72
-  },
-  {
-    "name": "Pickering, Martin and Botes, Natalie",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Rising Star",
-        "place": "6",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Open",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "level": "Open",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "level": "Open",
-        "place": "Semis",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 33.5,
-    "avg_pts": 5.58
+    "total_pts": 27.4,
+    "avg_pts": 5.48
   },
   {
     "name": "Stowell, Aaron and Hofreiter, Brie",
@@ -2768,6 +2908,37 @@
     ],
     "total_pts": 21.6,
     "avg_pts": 5.4
+  },
+  {
+    "name": "Greer, Aaron and Greer, Victoria",
+    "results": [
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "level": "Open",
+        "place": "6",
+        "points": 9.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "7",
+        "points": 2.5
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 21.1,
+    "avg_pts": 5.28
   },
   {
     "name": "Wlodzimierz, Pawel and Koltuniuk, Justyna",
@@ -2968,17 +3139,65 @@
     "avg_pts": 5.1
   },
   {
-    "name": "Zakrzewski, Mariusz and Ray, Lynnsay",
+    "name": "Merz, Timmy and Strashnikova, Diana",
     "results": [
       {
-        "comp_name": "Emerald Ball",
+        "comp_name": "The Snow Ball",
+        "level": "Novice",
+        "place": "1",
+        "points": 5.0
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "The Snow Ball",
         "level": "Open",
         "place": "Semis",
         "points": 4.8
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "quarters",
+        "points": 1.6
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Rising Star",
+        "place": "7",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "6",
+        "points": 9.0
       }
     ],
-    "total_pts": 4.8,
-    "avg_pts": 4.8
+    "total_pts": 43.9,
+    "avg_pts": 4.88
   },
   {
     "name": "Pohl, Zachary and Freilich, Ariel",
@@ -3049,25 +3268,6 @@
     "avg_pts": 4.5
   },
   {
-    "name": "Wayne, Christopher and Evan, Mallory",
-    "results": [
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "level": "Open",
-        "place": "Semis",
-        "points": 5.4
-      }
-    ],
-    "total_pts": 9.0,
-    "avg_pts": 4.5
-  },
-  {
     "name": "Camarata, Kevin and Camarata, Michelle",
     "results": [
       {
@@ -3128,352 +3328,6 @@
     ],
     "total_pts": 8.6,
     "avg_pts": 4.3
-  },
-  {
-    "name": "Scalzi, Anthony and Gilday, Zhenia",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Open",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Rising Star",
-        "place": "7",
-        "points": 2.5
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 16.5,
-    "avg_pts": 4.12
-  },
-  {
-    "name": "Merz, Timmy and Strashnikova, Diana",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Novice",
-        "place": "1",
-        "points": 5.0
-      },
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Open",
-        "place": "quarters",
-        "points": 1.6
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "level": "Rising Star",
-        "place": "7",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "level": "Open",
-        "place": "Semis",
-        "points": 4.8
-      }
-    ],
-    "total_pts": 28.4,
-    "avg_pts": 4.06
-  },
-  {
-    "name": "McGurn, Rob and Gurry, Laura",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Open",
-        "place": "6",
-        "points": 6.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 12.0,
-    "avg_pts": 4.0
-  },
-  {
-    "name": "Antipin, Maksim and Antipin, Angela",
-    "results": [
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 4.0
-      }
-    ],
-    "total_pts": 4.0,
-    "avg_pts": 4.0
-  },
-  {
-    "name": "Hernandez, Daniel and Gonzalez, Kyara",
-    "results": [
-      {
-        "comp_name": "2019 Miami Vibe",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 4.0
-      }
-    ],
-    "total_pts": 4.0,
-    "avg_pts": 4.0
-  },
-  {
-    "name": "Schiller, Tyler and Reyes, Rhenell",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 4.0
-      }
-    ],
-    "total_pts": 4.0,
-    "avg_pts": 4.0
-  },
-  {
-    "name": "Serbulenco, Vladimir and Strancaric, Ivana",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 5.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Rising Star",
-        "place": "6",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 11.6,
-    "avg_pts": 3.87
-  },
-  {
-    "name": "Donelan, Dustin and Anderson, Georgietta",
-    "results": [
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Rising Star",
-        "place": "quarters",
-        "points": 3.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "level": "Open",
-        "place": "Semis",
-        "points": 5.1
-      },
-      {
-        "comp_name": "beachbash2019",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 22.9,
-    "avg_pts": 3.82
-  },
-  {
-    "name": "Rohan, Valentyn and Rohan, Olha",
-    "results": [
-      {
-        "comp_name": "Indiana Challenge - Add web page option",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Indiana Challenge - Add web page option",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 7.6,
-    "avg_pts": 3.8
-  },
-  {
-    "name": "Nunez, Antonio and Kashkina, Ksenia",
-    "results": [
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "level": "Rising Star",
-        "place": "6",
-        "points": 6.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "level": "Open",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "beachbash2019",
-        "level": "Open",
-        "place": "quarters",
-        "points": 0.4
-      }
-    ],
-    "total_pts": 18.0,
-    "avg_pts": 3.6
-  },
-  {
-    "name": "Cunningham, Ben and Miller, Rachel",
-    "results": [
-      {
-        "comp_name": "Music City Invitational",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 3.6,
-    "avg_pts": 3.6
-  },
-  {
-    "name": "Gore, Gerard and Barakat, Samantha",
-    "results": [
-      {
-        "comp_name": "Music City Invitational",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 3.6,
-    "avg_pts": 3.6
-  },
-  {
-    "name": "Jackson, Ryan and Logan, Emily",
-    "results": [
-      {
-        "comp_name": "Music City Invitational",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 3.6,
-    "avg_pts": 3.6
-  },
-  {
-    "name": "Lipford, Stephen and Collins, Shayne",
-    "results": [
-      {
-        "comp_name": "Music City Invitational",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 3.6,
-    "avg_pts": 3.6
-  },
-  {
-    "name": "Seigler, Justin and Petersen, Lynda",
-    "results": [
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 3.6,
-    "avg_pts": 3.6
-  },
-  {
-    "name": "Whitmer, Daniel and Treto, Laura",
-    "results": [
-      {
-        "comp_name": "Music City Invitational",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 3.6,
-    "avg_pts": 3.6
   },
   {
     "name": "Barney, Alan and Rund, Megan",
@@ -3543,10 +3397,461 @@
         "level": "Open",
         "place": "quarters",
         "points": 0.4
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4.8
       }
     ],
-    "total_pts": 38.8,
-    "avg_pts": 3.53
+    "total_pts": 53.6,
+    "avg_pts": 4.12
+  },
+  {
+    "name": "Scalzi, Anthony and Gilday, Zhenia",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Rising Star",
+        "place": "7",
+        "points": 2.5
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 16.5,
+    "avg_pts": 4.12
+  },
+  {
+    "name": "Welch, Ben and Lyons, Rae",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "level": "Open",
+        "place": "quarters",
+        "points": 2.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "7",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 32.7,
+    "avg_pts": 4.09
+  },
+  {
+    "name": "McGurn, Rob and Gurry, Laura",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 4.0
+  },
+  {
+    "name": "Antipin, Maksim and Antipin, Angela",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 4.0,
+    "avg_pts": 4.0
+  },
+  {
+    "name": "Hernandez, Daniel and Gonzalez, Kyara",
+    "results": [
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 4.0,
+    "avg_pts": 4.0
+  },
+  {
+    "name": "Krasnyanskiy, Dmitry and Frances, Esther",
+    "results": [
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 4.0,
+    "avg_pts": 4.0
+  },
+  {
+    "name": "Schiller, Tyler and Reyes, Rhenell",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 4.0,
+    "avg_pts": 4.0
+  },
+  {
+    "name": "Wayne, Christopher and Evan, Mallory",
+    "results": [
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Open",
+        "place": "Semis",
+        "points": 5.4
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 3.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 15.6,
+    "avg_pts": 3.9
+  },
+  {
+    "name": "Serbulenco, Vladimir and Strancaric, Ivana",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 11.6,
+    "avg_pts": 3.87
+  },
+  {
+    "name": "Rohan, Valentyn and Rohan, Olha",
+    "results": [
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 7.6,
+    "avg_pts": 3.8
+  },
+  {
+    "name": "Donelan, Dustin and Anderson, Georgietta",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "quarters",
+        "points": 3.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "level": "Open",
+        "place": "Semis",
+        "points": 5.1
+      },
+      {
+        "comp_name": "beachbash2019",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 29.5,
+    "avg_pts": 3.69
+  },
+  {
+    "name": "Nunez, Antonio and Kashkina, Ksenia",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "level": "Open",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "beachbash2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 0.4
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "Semis",
+        "points": 5.1
+      }
+    ],
+    "total_pts": 25.5,
+    "avg_pts": 3.64
+  },
+  {
+    "name": "Jackson, Ryan and Logan, Emily",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 7.2,
+    "avg_pts": 3.6
+  },
+  {
+    "name": "Cunningham, Ben and Miller, Rachel",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 3.6,
+    "avg_pts": 3.6
+  },
+  {
+    "name": "Gore, Gerard and Barakat, Samantha",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 3.6,
+    "avg_pts": 3.6
+  },
+  {
+    "name": "Lipford, Stephen and Collins, Shayne",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 3.6,
+    "avg_pts": 3.6
+  },
+  {
+    "name": "Seigler, Justin and Petersen, Lynda",
+    "results": [
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 3.6,
+    "avg_pts": 3.6
+  },
+  {
+    "name": "Whitmer, Daniel and Treto, Laura",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 3.6,
+    "avg_pts": 3.6
+  },
+  {
+    "name": "Fielder, Gentry and Tice, Lisa",
+    "results": [
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 3.6,
+    "avg_pts": 3.6
   },
   {
     "name": "Koogle, Scott and Wailes, Faith",
@@ -3728,49 +4033,6 @@
     ],
     "total_pts": 6.6,
     "avg_pts": 3.3
-  },
-  {
-    "name": "Welch, Ben and Lyons, Rae",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "level": "Open",
-        "place": "quarters",
-        "points": 2.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 19.2,
-    "avg_pts": 3.2
   },
   {
     "name": "Romero, Brandon and Tomasini, Anna",
@@ -4087,6 +4349,55 @@
     "avg_pts": 2.59
   },
   {
+    "name": "Cromwell, Robbie and Trimble, Ruth",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "caopen19",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "quarters",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "quarters",
+        "points": 0.4
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Rising Star",
+        "place": "7",
+        "points": 2.5
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 17.9,
+    "avg_pts": 2.56
+  },
+  {
     "name": "Blain, Daniel and Blain, Mariel",
     "results": [
       {
@@ -4143,25 +4454,61 @@
     "avg_pts": 2.5
   },
   {
+    "name": "Wallock, Doug and Peterson, Grace",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Novice",
+        "place": "2",
+        "points": 4.0
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "quarters",
+        "points": 3.0
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "quarters",
+        "points": 1.6
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "quarters",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "quarters",
+        "points": 0.4
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 17.4,
+    "avg_pts": 2.49
+  },
+  {
     "name": "Astashenia, Yurii and Astashenia, Elena",
     "results": [
       {
         "comp_name": "NYDF 2019",
         "level": "Rising Star",
         "place": "Semis",
-        "points": 2.4
-      }
-    ],
-    "total_pts": 2.4,
-    "avg_pts": 2.4
-  },
-  {
-    "name": "Campbell, Kyle and Campbell, Christina",
-    "results": [
-      {
-        "comp_name": "beachbash2019",
-        "level": "Open",
-        "place": "quarters",
         "points": 2.4
       }
     ],
@@ -4206,80 +4553,6 @@
     ],
     "total_pts": 2.4,
     "avg_pts": 2.4
-  },
-  {
-    "name": "Cromwell, Robbie and Trimble, Ruth",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "caopen19",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Rising Star",
-        "place": "quarters",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Open",
-        "place": "quarters",
-        "points": 0.4
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "level": "Rising Star",
-        "place": "7",
-        "points": 2.5
-      }
-    ],
-    "total_pts": 11.9,
-    "avg_pts": 2.38
-  },
-  {
-    "name": "Wallock, Doug and Peterson, Grace",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Novice",
-        "place": "2",
-        "points": 4.0
-      },
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Rising Star",
-        "place": "quarters",
-        "points": 3.0
-      },
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "quarters",
-        "points": 1.6
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Rising Star",
-        "place": "quarters",
-        "points": 2.4
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Open",
-        "place": "quarters",
-        "points": 0.4
-      }
-    ],
-    "total_pts": 11.4,
-    "avg_pts": 2.28
   },
   {
     "name": "Blizzard, Aaron and Lu, Jenny",
