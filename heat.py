@@ -68,6 +68,10 @@ class Heat():
                 self.level = "Open"   
         else: # TODO: consider amateurs 
             self.level = "None"
+            
+            
+    def multi_dance(self):
+        return is_multi_dance(self.info)
 
    
     # return a blank set of heat information
@@ -76,7 +80,8 @@ class Heat():
         return result    
     
     # override < operator to sort heats by time. 
-    # If times are the same, sort by shirt number
+    # If times are the same, sort by info. 
+    # If info is the same, sort by shirt number
     def __lt__(self, h):
         # if session numbers are the same, consider AM vs. PM
         if self.session == h.session:
@@ -92,7 +97,10 @@ class Heat():
             else:  # if we get to here, either both times are in the 12:xx hour or both are in
                    # some other hour, just sort the times.
                 if self.time == h.time:
-                    return self.shirt_number < h.shirt_number
+                    if self.info == h.info:
+                        return self.shirt_number < h.shirt_number
+                    else:
+                        return self.info < h.info
                 else:
                     return self.time < h.time
         else: # use the session numbers to determine order
@@ -119,8 +127,8 @@ class Heat_Report():
     def entry(self, index):
         return self.entries[index]
     
-    def description(self):
-        return self.entries[0].info
+    def description(self, index = 0):
+        return self.entries[index].info
     
     def category(self):
         return self.entries[0].category
