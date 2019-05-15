@@ -196,10 +196,13 @@ class CompOrgHeatlist(Heatlist):
                         self.max_pro_heat_num = max(h.heat_number, self.max_pro_heat_num)
                     else:
                         self.max_heat_num = max(h.heat_number, self.max_heat_num)
+                        if h.multi_dance():
+                            self.add_multi_dance_heat(h.heat_number)                       
                 
                 # add this heat to both the dancer and couple objects
                 dancer.add_heat(h)
                 couple.add_heat(h)
+             
             else:
                 # try the next item
                 item_index += 1  
@@ -221,7 +224,8 @@ class CompOrgHeatlist(Heatlist):
         '''
         self.formations.sort()
         self.solos.sort()
-        self.age_divisions.sort()    
+        self.age_divisions.sort()   
+        self.multi_dance_heat_numbers.sort()
         
         
     def open(self, url):
