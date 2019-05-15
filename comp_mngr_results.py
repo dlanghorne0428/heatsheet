@@ -196,22 +196,31 @@ class CompMngrResults():
                         # If the couple was not recalled, we need to capture those results
                         if self.get_table_data(line) != "Recall":
                             
+                            # extract the couple names from the scoresheet
+                            couple_names = self.get_couple_names(current_competitor)                            
+                            
                             # try to find this couple from the scoresheet in the original heat report
                             for index in range(heat_report.length()):
                                 e = heat_report.entry(index)
                                 
                                 # Use the shirt number to determine if we have a match
-                                if current_competitor.startswith(e.shirt_number):
+                                #if current_competitor.startswith(e.shirt_number):
                                     
-                                    # extract the couple names from the scoresheet
-                                    couple_names = self.get_couple_names(current_competitor)
-                                    
-                                    # The heatsheet names are in alphabetical order, but the 
-                                    # scoresheet indicates which one is the leader (male). 
-                                    # Swap the heatsheet names if necessary.
-                                    if e.dancer.startswith(couple_names[1]):
-                                        e.swap_names()
-                                        
+                                if e.dancer.startswith(couple_names[0]):
+                                    # If the couple was not recalled, their result is the round 
+                                    # in which they were eliminated
+                                    e.result = result
+                                                           
+                                    # Lookup their points, and exit the loop 
+                                    e.points = calc_points(level, result_index, rounds=heat_report.rounds(), accum=accum)
+                                    break                                    
+                                                       
+                                # The heatsheet names are in alphabetical order, but the 
+                                # scoresheet indicates which one is the leader (male). 
+                                # Swap the heatsheet names if necessary.
+                                elif e.dancer.startswith(couple_names[1]):
+                                    e.swap_names()
+                             
                                     # If the couple was not recalled, their result is the round 
                                     # in which they were eliminated
                                     e.result = result
@@ -262,15 +271,18 @@ class CompMngrResults():
                         # For example: 3(R11) means they finished in 3rd place. 
                         result_place = int(self.get_table_data(line).split('(')[0])
                         
+                        couple_names = self.get_couple_names(current_competitor)
+                        
                         # loop through all entries on the heatsheet to find a match
                         for index in range(num_competitors):
                             e = heat_report.entry(index)
-                            if current_competitor.startswith(e.shirt_number):
-                                couple_names = self.get_couple_names(current_competitor)
-                                if e.dancer.startswith(couple_names[1]):
-                                    e.swap_names()
+                            #if current_competitor.startswith(e.shirt_number):
+                            if e.dancer.startswith(couple_names[0]):
                                 e.result = result_place
-                                #e.points = calc_points(level, result_place, num_competitors=num_competitors, rounds=heat_report.rounds())
+                                break                                
+                            elif e.dancer.startswith(couple_names[1]):
+                                e.swap_names()
+                                e.result = result_place
                                 break
                             
                         else:    # this code runs when competitor not found in heat
