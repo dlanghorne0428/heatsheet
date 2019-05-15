@@ -10,11 +10,13 @@ class Heatlist():
         self.couples = list()   # store a list of the couples competing
         self.solos = list()     # store a list of the solo performances (as heat objects)
         self.formations = list()    # store a list of the formation performances (as heat objects)
+        self.multi_dance_heat_numbers = list()  # store a list of multi dance non-pro heat (as integers)
         self.age_divisions = ["* ALL *"]   # store a list of the age divisions
         self.max_heat_num = 0      # store the largest heat number in the comp
         self.max_pro_heat_num = 0  # store the largest pro heat number in the comp
         self.max_solo_num = 0      # store the largest solo number in the comp
         self.max_formation_num = 0 # store the largest formation number in the comp
+
 
     ############### EXTRACTION ROUTINES  #################################################
     # the following methods extract specific data items from lines in the CompMngr file
@@ -92,15 +94,18 @@ class Heatlist():
 
     # given a heat, this method returns a list of couples in that heat
     # sorted by the shirt number
-    def list_of_couples_in_heat(self, heat):
-        shirt_number_col = 4
+    def list_of_couples_in_heat(self, heat, sortby="shirt"):
+        if sortby == "info":
+            sort_col = 3
+        else:
+            sort_col = 4    # shirt number column
         output_list = list()
         for c in self.couples:
             for ht in c.heats:
                 if heat == ht:
                     output_list.append(ht.info_list())
                     break
-        output_list.sort(key=itemgetter(shirt_number_col))
+        output_list.sort(key=itemgetter(sort_col))
         return output_list
     
     # given a heat, this method returns a heat report, which is a list of 
@@ -114,6 +119,11 @@ class Heatlist():
         if sorted:
             report.sort()
         return report
+    
+    # add to list of non-pro multi dance heats
+    def add_multi_dance_heat(self, num):
+        if num not in self.multi_dance_heat_numbers:
+            self.multi_dance_heat_numbers.append(num)        
 
     ############### AGE DIVISION ROUTINES  ###############################################
     # the following methods deal with age divisions
