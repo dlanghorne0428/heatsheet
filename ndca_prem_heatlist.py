@@ -187,11 +187,13 @@ class NdcaPremHeatlist(Heatlist):
                             self.max_pro_heat_num = max(h.heat_number, self.max_pro_heat_num)
                         else:
                             self.max_heat_num = max(h.heat_number, self.max_heat_num)
+                            if h.multi_dance():
+                                self.add_multi_dance_heat(h.heat_number)                        
                     
                     # save heat object to both the dancer and couple
                     dancer.add_heat(h)
                     couple.add_heat(h)
-                
+
                 # go to the next row    
                 row_index += 1
     
@@ -215,7 +217,8 @@ class NdcaPremHeatlist(Heatlist):
         '''    
         self.formations.sort()
         self.solos.sort()
-        self.age_divisions.sort()       
+        self.age_divisions.sort()    
+        self.multi_dance_heat_numbers.sort()
     
         
     def open(self, url):
