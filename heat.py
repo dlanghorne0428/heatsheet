@@ -136,6 +136,9 @@ class Heat_Report():
     def heat_number(self):
         return self.entries[0].heat_number
     
+    def extra(self, index = 0):
+        return self.entries[index].extra
+    
     def level(self):
         return self.entries[0].level
     
@@ -148,8 +151,11 @@ class Heat_Report():
     def set_rounds(self, r):
         self.entries[0].rounds = r
         
-    def build_late_entry(self):
-        e = copy.deepcopy(self.entries[-1])
+    def build_late_entry(self, entry=None):
+        if entry is None:
+            e = copy.deepcopy(self.entries[-1])
+        else:
+            e = copy.deepcopy(entry)
         # null out certain fields 
         e.shirt_number = "???"
         e.result = None
