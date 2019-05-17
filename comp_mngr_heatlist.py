@@ -74,18 +74,8 @@ class CompMngrDancer(Dancer):
 class CompMngrHeatlist(Heatlist):
 
     def __init__(self):
-        # store the name of the comp,
-        self.comp_name = "--Click Open to load a HeatList File--"
-        self.dancers = list()   # store a list of the individual dancers competing
-        self.couples = list()   # store a list of the couples competing
-        self.solos = list()     # store a list of the solo performances (as heat objects)
-        self.formations = list()    # store a list of the formation performances (as heat objects)
-        self.age_divisions = ["* ALL *"]   # store a list of the age divisions
-        self.max_heat_num = 0      # store the largest heat number in the comp
-        self.max_pro_heat_num = 0  # store the largest pro heat number in the comp
-        self.max_solo_num = 0      # store the largest solo number in the comp
-        self.max_formation_num = 0 # store the largest formation number in the comp
-
+        super().__init__()
+        
     ############### EXTRACTION ROUTINES  #################################################
     # the following methods extract specific data items from lines in the CompMngr file
     ######################################################################################
@@ -157,6 +147,7 @@ class CompMngrHeatlist(Heatlist):
                             break
                     # if this actually is a new couple, add them to the couples list
                     if new_couple:
+                        print(couple.pair_name)
                         self.couples.append(couple)
 
             # Look for age divisions
@@ -174,6 +165,8 @@ class CompMngrHeatlist(Heatlist):
                     heat_obj = CompMngrHeat("Heat", line, dancer.name, dancer.code, partner)
                     if heat_obj.heat_number > self.max_heat_num:
                         self.max_heat_num = heat_obj.heat_number
+                    if heat_obj.multi_dance():
+                        self.add_multi_dance_heat(heat_obj.heat_number)
                     couple.add_heat(heat_obj)
                     dancer.add_heat(heat_obj)
 
@@ -212,7 +205,7 @@ class CompMngrHeatlist(Heatlist):
 
         # close the file and sort the lists
         fhand.close()
-#        self.couples.sort()
         self.formations.sort()
         self.solos.sort()
         self.age_divisions.sort()
+        self.multi_dance_heat_numbers.sort()

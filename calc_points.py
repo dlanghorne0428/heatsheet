@@ -14,6 +14,8 @@ max_point_values = {
 
 def calc_points(level, placement, num_competitors = 6, rounds = "F", accum = 0):
     
+    if level == "None":
+        level = "Rising Star"
     max_pts = max_point_values[level][rounds]
     place = placement - 1
     if num_competitors >= 5:

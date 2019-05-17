@@ -15,7 +15,9 @@ def get_partner(line):
     '''This method searches for the partner's name on the given line.'''
     if "class='partner'" in line:
         start_pos = line.find("with ") + len("with ")
-        return line[start_pos:]
+        substr = line[start_pos:]
+        stripped = substr.strip()
+        return stripped
         #return line[start_pos:-1]
     else:
         return None
@@ -80,7 +82,6 @@ class CompOrgHeat(Heat):
             # update the heat category and level if necessary
             if "Professional" in self.info:
                 self.category = "Pro heat"
-                self.set_level()
             elif "Formation" in self.info:
                 self.category = "Formation"
                 print("Formation")
@@ -89,6 +90,7 @@ class CompOrgHeat(Heat):
                 print("Solo Star")
             elif "Solo" in self.info:
                 self.category = "Solo"  
+            self.set_level()
             
             # save dancer name, scoresheet code, and partner name
             self.dancer = dancer.name
@@ -194,10 +196,13 @@ class CompOrgHeatlist(Heatlist):
                         self.max_pro_heat_num = max(h.heat_number, self.max_pro_heat_num)
                     else:
                         self.max_heat_num = max(h.heat_number, self.max_heat_num)
+                        if h.multi_dance():
+                            self.add_multi_dance_heat(h.heat_number)                       
                 
                 # add this heat to both the dancer and couple objects
                 dancer.add_heat(h)
                 couple.add_heat(h)
+             
             else:
                 # try the next item
                 item_index += 1  
@@ -219,7 +224,8 @@ class CompOrgHeatlist(Heatlist):
         '''
         self.formations.sort()
         self.solos.sort()
-        self.age_divisions.sort()    
+        self.age_divisions.sort()   
+        self.multi_dance_heat_numbers.sort()
         
         
     def open(self, url):

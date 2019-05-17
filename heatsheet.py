@@ -11,6 +11,8 @@ import requests
 import urllib.parse, urllib.error
 import yattag
 
+from enum import Enum
+
 from ndca_prem_heatlist import NdcaPremHeatlist, NdcaPremHeat
 from ndca_prem_results import NdcaPremResults
 from comp_organizer_heatlist import CompOrgHeatlist, CompOrgHeat
@@ -19,10 +21,16 @@ from comp_mngr_heatlist import CompMngrHeatlist, CompMngrHeat
 from comp_mngr_results import CompMngrResults
 from comp_results_file import Comp_Results_File
 from season_ranking import RankingDataFile
+from heat import is_multi_dance
+
 
 def get_folder_name(filename):
     return os.path.dirname(filename)
 
+
+class TimerState(Enum):
+    READ_DANCER = 1
+    READ_RESULTS = 2
 
 class HelloFrame(wx.Frame):
     '''
@@ -125,6 +133,7 @@ class HelloFrame(wx.Frame):
         # create a timer
         self.timer = wx.Timer(self)
         self.Bind(wx.EVT_TIMER, self.Continue_Processing, self.timer)        
+        self.timer_state = None
 
         # declare a heatlist, scoresheet, and result_file object
         self.heatlist = None
@@ -155,13 +164,14 @@ class HelloFrame(wx.Frame):
         self.ID_VIEW_COMP_PRO_HEATS = 130
         self.ID_VIEW_COMP_SOLOS = 131
         self.ID_VIEW_COMP_FORMATIONS = 132
+        self.ID_VIEW_COMP_MULTI_DANCES = 133
 
         # Make a file menu with Open, Open URL, Save As, Close, and Exit items
         self.fileMenu = wx.Menu()
         openItem = self.fileMenu.Append(wx.ID_OPEN)
         openUrlItem = self.fileMenu.Append(self.ID_FILE_OPEN_URL, "Open URL...")
-        openNdcaItem = self.fileMenu.Append(self.ID_FILE_OPEN_NDCA, "Open URL from NDCA Premier")
         openCompOrgItem = self.fileMenu.Append(self.ID_FILE_OPEN_CO, "Open URL from a CompOrganizer site")
+        openNdcaItem = self.fileMenu.Append(self.ID_FILE_OPEN_NDCA, "Open URL from NDCA Premier")
         self.fileMenu.AppendSeparator()
         saveAsItem = self.fileMenu.Append(wx.ID_SAVEAS)
         self.fileMenu.AppendSeparator()
@@ -201,6 +211,9 @@ class HelloFrame(wx.Frame):
                                             "View all the solos in this competition.")
         compFormItem = self.viewMenu.Append(self.ID_VIEW_COMP_FORMATIONS, "All Formations in Comp",
                                             "View all the formations in this competition.")
+        compMultiItem = self.viewMenu.Append(self.ID_VIEW_COMP_MULTI_DANCES, "All Multi-Dance Heat in Comp",
+                                             "View all the multi-dance heats in this competition.")        
+        
 
         self.viewMenu.AppendSeparator()
 
@@ -242,6 +255,7 @@ class HelloFrame(wx.Frame):
         self.Bind(wx.EVT_MENU, self.OnCompProHeats, compProItem)
         self.Bind(wx.EVT_MENU, self.OnCompSolos, compSoloItem)
         self.Bind(wx.EVT_MENU, self.OnCompFormations, compFormItem)
+        self.Bind(wx.EVT_MENU, self.OnMultiDanceHeats, compMultiItem)
         self.Bind(wx.EVT_MENU, self.OnAbout, aboutItem)
 
 
@@ -320,6 +334,7 @@ class HelloFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_COMP_PRO_HEATS, False)
         self.viewMenu.Enable(self.ID_VIEW_COMP_SOLOS, False)
         self.viewMenu.Enable(self.ID_VIEW_COMP_FORMATIONS, False)
+        self.viewMenu.Enable(self.ID_VIEW_COMP_MULTI_DANCES, False)
         self.folder_name = "./data"
         self.SetStatusText("Choose File->Open to open a heatlist file")
 
@@ -359,6 +374,7 @@ class HelloFrame(wx.Frame):
         if len(self.heatlist.formations) > 0:
             self.viewMenu.Enable(self.ID_VIEW_COMP_FORMATIONS, True)
             self.heat_cat.Append("Formation")        
+        self.viewMenu.Enable(self.ID_VIEW_COMP_MULTI_DANCES, True)
         self.heat_cat.SetSelection(0)    # default to Heat
         self.heat_selection.SetMax(self.heatlist.max_heat_num)
         self.SetStatusText("Select a Division, Dancer, or Couple")
@@ -478,9 +494,17 @@ class HelloFrame(wx.Frame):
 
     def Initialize_Timer_and_ProgressBar(self):
         '''Create a timer and progress bar to inform progress of long open process'''
-        self.progress_bar = wx.ProgressDialog("Reading", "Reading list of dancers", 
-                                                      maximum=len(self.heatlist.dancers))
-        self.SetStatusText("Reading data for " + str(len(self.heatlist.dancers)) + " dancers.")
+        if self.timer_state == TimerState.READ_DANCER:
+            title = "Reading data for " + str(len(self.heatlist.dancers)) + " dancers."
+            message = "Reading list of dancers"
+            max_length = len(self.heatlist.dancers)
+        else:   # READ_RESULTS
+            max_length = len(self.heat_numbers)
+            title = "Reading results for " + str(max_length) + " heats."
+            message = "Reading results"
+            
+        self.progress_bar = wx.ProgressDialog(title, message, maximum=max_length)
+        self.SetStatusText(title)
         self.timer_event_count = 0
         self.timer.StartOnce(5) 
         
@@ -496,6 +520,7 @@ class HelloFrame(wx.Frame):
             url = text_dialog.GetValue() 
             self.heatlist = NdcaPremHeatlist()    
             self.heatlist.open(url)
+            self.timer_state = TimerState.READ_DANCER
             self.Initialize_Timer_and_ProgressBar()
         
     
@@ -510,15 +535,16 @@ class HelloFrame(wx.Frame):
             url = text_dialog.GetValue() 
             self.heatlist = CompOrgHeatlist()    
             self.heatlist.open(url)
+            self.timer_state = TimerState.READ_DANCER
             self.Initialize_Timer_and_ProgressBar()
             
 
-    def Continue_Processing(self, event):
+    def Try_Next_Dancer(self):
         '''
         This method is controlled by the timer. It updates the progress bar and
         asks the heatsheet to load the next dancer.
         If no more dancers, perform cleanup processing.
-        '''
+        '''        
         if self.timer_event_count < len(self.heatlist.dancers):
             the_name = self.heatlist.get_next_dancer(self.timer_event_count)
             self.progress_bar.Update(self.timer_event_count, the_name)
@@ -527,9 +553,28 @@ class HelloFrame(wx.Frame):
         else:
             self.heatlist.complete_processing()
             self.progress_bar.Update(self.timer_event_count, "Completed")  
-            self.postOpenProcess()
+            self.postOpenProcess()  
             
-       
+    
+    def Try_Next_Result(self):
+        if self.timer_event_count < len(self.heat_numbers):
+            heat_number = self.heat_numbers[self.timer_event_count]
+            self.progress_bar.Update(self.timer_event_count, "Processing heat " + str(heat_number))
+            self.Process_Result(heat_number)
+            self.timer_event_count += 1
+            self.timer.StartOnce(5)
+        else:
+            self.progress_bar.Update(self.timer_event_count, "Completed")  
+            self.results_file.close()
+            
+
+    def Continue_Processing(self, event):
+        if self.timer_state == TimerState.READ_DANCER:
+            self.Try_Next_Dancer()
+        else:  # READ_RESULTS
+            self.Try_Next_Result()
+            
+
     def OnClose(self, event):
         ''' Re-initalize the competition file and reset all the controls.'''
         self.heatlist = None
@@ -725,6 +770,37 @@ class HelloFrame(wx.Frame):
         self.butt_rslt_ndca.Enable()
         self.butt_rslt_co.Enable()
         self.butt_rank.Enable()
+ 
+ 
+    def OnMultiDanceHeats(self, event):
+        '''This method generates a mini-program for all the pro heats.'''
+        self.list_ctrl.DeleteAllItems()
+        self.report_title = "All Multi Dance Heats (non-pro)"
+        
+        # for each non-pro multi-dance heat, find the couples and populate the GUI
+        for num in self.heatlist.multi_dance_heat_numbers:
+            if type(self.heatlist) is CompMngrHeatlist:
+                h = CompMngrHeat(category="Heat", number=num)
+            elif type(self.heatlist) is CompOrgHeat:
+                h = CompOrgHeat(category="Heat", number=num)
+            else:
+                h = NdcaPremHeat(category="Heat", number=num)
+                
+            competitors = self.heatlist.list_of_couples_in_heat(h, sortby="info")                   
+            if len(competitors) > 0:
+                for c in competitors:
+                    if is_multi_dance(c[3]): 
+                        self.list_ctrl.Append(c)
+                self.list_ctrl.Append(h.dummy_info())
+                    
+        print("Item Count:", self.list_ctrl.GetItemCount())
+                
+        # enable the buttons that process the results and get rankings
+        self.butt_rslt.Enable()
+        self.butt_rslt_url.Enable()
+        self.butt_rslt_ndca.Enable()
+        self.butt_rslt_co.Enable()
+        #self.butt_rank.Enable() 
         
     
     def ChangeColumnTitle(self, col_index, title):
@@ -735,11 +811,60 @@ class HelloFrame(wx.Frame):
         col_title.SetText(title)
         self.list_ctrl.SetColumn(col_index, col_title)        
         
+    
+    def Process_Result(self, num):
+        Results_Column = 6 
+        if type(self.heatlist) is CompMngrHeatlist:
+            h = CompMngrHeat(category=self.heat_category, number=num)
+        elif type(self.heatlist) is CompOrgHeatlist:
+            h = CompOrgHeat(category=self.heat_category, number=num)
+        else:
+            h = NdcaPremHeat(category=self.heat_category, number=num) 
+        
+        if "Multi Dance" in self.report_title: 
+            multi = True
+        else:
+            multi = False
+        # get a heat report with the entries from the heatlist
+        report = self.heatlist.build_heat_report(h, sorted=True, multi_dance_only=multi)   
+        
+        if report.length() > 0:
+            
+            # get the results of this heat
+            print("Processing", report.heat_number())
+            self.scoresheet.determine_heat_results(report)
+            for index in range(report.length()):
+                e = report.entry(index)
+                
+                # if there is a late entry, add that info to the GUI
+                if e.code == "LATE":
+                    curr_item = self.list_ctrl.GetItem(self.item_index, 0)
+                    self.list_ctrl.InsertItem(curr_item)  
+                    self.list_ctrl.SetItem(self.item_index, 0, h.category)
+                    self.list_ctrl.SetItem(self.item_index, 1, str(h.heat_number) + e.extra)
+                    t = self.list_ctrl.GetItemText(self.item_index - 1, 2)
+                    self.list_ctrl.SetItem(self.item_index, 2, t)
+                    self.list_ctrl.SetItem(self.item_index, 3, e.info)        
+                    self.list_ctrl.SetItem(self.item_index, 4, e.shirt_number)
+                
+                # the names may have been re-ordered by processing the scoresheet
+                # for all couples, update the names and add the result to the GUI
+                couple_names = e.dancer + " and " + e.partner
+                self.list_ctrl.SetItem(self.item_index, 5, couple_names)    
+                self.list_ctrl.SetItem(self.item_index, Results_Column, str(e.result))
+                self.item_index += 1
+
+            self.list_ctrl.Focus(self.item_index)
+            self.item_index += 1  # get past line that separates the events  
+            
+            # write the heat report to the output file
+            self.results_file.save_heat(report)
+       
         
     def ProcessScoresheet(self, source_location, results_filename):
         '''This method processes the scoresheet for a competition.'''
-        item_index = 0
-        Results_Column = 6  
+        self.item_index = 0
+        Results_Column = 6   # this should be based on the list_ctrl layout somehow
         self.ChangeColumnTitle(Results_Column, "Result")
         
         # open the scoresheet and results file
@@ -747,61 +872,29 @@ class HelloFrame(wx.Frame):
         self.results_file = Comp_Results_File(results_filename, "w")
     
         # save the competition name at the top of that output file
-        self.results_file.save_comp_name(self.heatlist.comp_name)        
-
-        # loop through all the pro heats
-        for num in range(1, self.heatlist.max_pro_heat_num + 1):
-            if type(self.heatlist) is CompMngrHeatlist:
-                h = CompMngrHeat(category="Pro heat", number=num)
-            elif type(self.heatlist) is CompOrgHeatlist:
-                h = CompOrgHeat(category="Pro heat", number = num)
-            else:
-                h = NdcaPremHeat(category="Pro heat", number=num) 
-                
-            # get a heat report with the entries from the heatlist
-            report = self.heatlist.build_heat_report(h, sorted=True)   
-            
-            if report.length() > 0:
-                
-                # get the results of this heat
-                self.scoresheet.determine_heat_results(report)
-                for index in range(report.length()):
-                    e = report.entry(index)
-                    
-                    # if there is a late entry, add that info to the GUI
-                    if e.code == "LATE":
-                        curr_item = self.list_ctrl.GetItem(item_index, 0)
-                        self.list_ctrl.InsertItem(curr_item)  
-                        self.list_ctrl.SetItem(item_index, 0, h.category)
-                        self.list_ctrl.SetItem(item_index, 1, str(h.heat_number))
-                        t = self.list_ctrl.GetItemText(item_index - 1, 2)
-                        self.list_ctrl.SetItem(item_index, 2, t)
-                        t = self.list_ctrl.GetItemText(item_index - 1, 3)
-                        self.list_ctrl.SetItem(item_index, 3, t)        
-                        self.list_ctrl.SetItem(item_index, 4, e.shirt_number)
-                    
-                    # the names may have been re-ordered by processing the scoresheet
-                    # for all couples, update the names and add the result to the GUI
-                    couple_names = e.dancer + " and " + e.partner
-                    self.list_ctrl.SetItem(item_index, 5, couple_names)    
-                    self.list_ctrl.SetItem(item_index, Results_Column, str(e.result))
-                    item_index += 1
-
-                item_index += 1  # get past line that separates the events  
-                
-                # write the heat report to the output file
-                self.results_file.save_heat(report)
-
-        self.results_file.close()
+        self.results_file.save_comp_name(self.heatlist.comp_name)  
         
-    
+        if "pro-am" in results_filename:
+            self.heat_numbers = self.heatlist.multi_dance_heat_numbers
+            self.heat_category = "Heat"
+        else:
+            self.heat_numbers = range(1, self.heatlist.max_pro_heat_num + 1)
+            self.heat_category = "Pro heat"
+            
+        self.timer_state = TimerState.READ_RESULTS
+        self.Initialize_Timer_and_ProgressBar()
+
+
     def OnGetResults(self, event):
         '''This method processes the competition results from a file.'''
         fd = wx.FileDialog(self, "Open a Scoresheet File", self.folder_name, "")
         if fd.ShowModal() == wx.ID_OK:
             filename = fd.GetPath()
             self.scoresheet = CompMngrResults()
-            results_filename = os.path.dirname(filename) + "/results.json"
+            if "non-pro" in self.report_title:
+                results_filename = os.path.dirname(filename) + "/pro-am_results.json"
+            else:
+                results_filename = os.path.dirname(filename) + "/results.json"
             self.ProcessScoresheet(filename, results_filename)
             
             
@@ -844,18 +937,22 @@ class HelloFrame(wx.Frame):
         '''
         This method obtains the competition results from a site based on CompOrganizer.com
         '''
- 
         # prompt the user to enter a URL 
         text_dialog = wx.TextEntryDialog(self, "Enter the URL for results in CompOrganizer format")
         if text_dialog.ShowModal() == wx.ID_OK:
             url = text_dialog.GetValue()
             self.scoresheet = CompOrgResults()
             
+            if "non-pro" in self.report_title:
+                default_filename = "pro-am_results.json"
+            else:
+                default_filename = "results.json" 
+                
             # Ask the user to specify an output file to save the results 
             # of all pro heats in this comp, using results.json as the default
             fd = wx.FileDialog(self, "Save the Results to a file", 
                                       defaultDir = "./data",
-                                      defaultFile = "results.json",
+                                      defaultFile = default_filename,
                                       style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
         
             # Open the output file and process the scoresheet
@@ -867,19 +964,23 @@ class HelloFrame(wx.Frame):
     def OnGetResultsFromNdca(self, event):
         '''
         This method obtains the competition results from NdcaPremier.com
-        '''
- 
+        ''' 
         # prompt the user to enter a URL 
         text_dialog = wx.TextEntryDialog(self, "Enter the URL for results at NDCA Premier")
         if text_dialog.ShowModal() == wx.ID_OK:
             url = text_dialog.GetValue()
             self.scoresheet = NdcaPremResults()
             
+            if "non-pro" in self.report_title:
+                default_filename = "pro-am_results.json"
+            else:
+                default_filename = "results.json"            
+            
             # Ask the user to specify an output file to save the results 
             # of all pro heats in this comp, using results.json as the default
             fd = wx.FileDialog(self, "Save the Results to a file", 
                                       defaultDir = "./data",
-                                      defaultFile = "results.json",
+                                      defaultFile = default_filename,
                                       style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
         
             # Open the output file and process the scoresheet

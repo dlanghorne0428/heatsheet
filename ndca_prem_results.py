@@ -196,11 +196,14 @@ class NdcaPremResults():
     
     
     def determine_heat_results(self, heat_report):
-        event_name = heat_report.description()
-        for e in self.events:
-            if e.name == event_name:
-#                print("Found", e.name)
-                self.process_scoresheet_for_event(heat_report, e.id)
+        event_names = list()
+        for index in range(heat_report.length()):
+            if heat_report.description(index) not in event_names:
+                event_names.append(heat_report.description(index))
+        for event_name in event_names:
+            for e in self.events:
+                if e.name == event_name:
+                    self.process_scoresheet_for_event(heat_report, e.id)
                 
 
     def open(self, url):
@@ -217,8 +220,8 @@ class NdcaPremResults():
                 end_pos = cat_link.find('">', start_pos)
                 category = cat_link[start_pos:end_pos]
                 # this limits the result processing to pro events
-                if "Professional" in category:
-                    self.categories.append(category)
+                #if "Professional" in category:
+                self.categories.append(category)
         for cat in self.categories:
             url = "http://www.ndcapremier.com/scripts/event_list.asp?cyi=" + self.comp_id + "&cat=" + cat
             response = requests.get(url)

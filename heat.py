@@ -1,5 +1,11 @@
 import copy
 
+def is_multi_dance(s):
+    if "(" in s and ")" in s:
+        return True
+    else:   
+        return False;
+
 class Heat():
     def __init__(self):
         self.category = "Heat"
@@ -62,15 +68,20 @@ class Heat():
                 self.level = "Open"   
         else: # TODO: consider amateurs 
             self.level = "None"
-#        return level
+            
+            
+    def multi_dance(self):
+        return is_multi_dance(self.info)
 
+   
     # return a blank set of heat information
     def dummy_info(self):
         result = ("-----", "-----", "-----", "-----", "-----", "-----")
         return result    
     
     # override < operator to sort heats by time. 
-    # If times are the same, sort by shirt number
+    # If times are the same, sort by info. 
+    # If info is the same, sort by shirt number
     def __lt__(self, h):
         # if session numbers are the same, consider AM vs. PM
         if self.session == h.session:
@@ -86,7 +97,10 @@ class Heat():
             else:  # if we get to here, either both times are in the 12:xx hour or both are in
                    # some other hour, just sort the times.
                 if self.time == h.time:
-                    return self.shirt_number < h.shirt_number
+                    if self.info == h.info:
+                        return self.shirt_number < h.shirt_number
+                    else:
+                        return self.info < h.info
                 else:
                     return self.time < h.time
         else: # use the session numbers to determine order
@@ -113,8 +127,8 @@ class Heat_Report():
     def entry(self, index):
         return self.entries[index]
     
-    def description(self):
-        return self.entries[0].info
+    def description(self, index = 0):
+        return self.entries[index].info
     
     def category(self):
         return self.entries[0].category
@@ -122,15 +136,14 @@ class Heat_Report():
     def heat_number(self):
         return self.entries[0].heat_number
     
+    def extra(self, index = 0):
+        return self.entries[index].extra
+    
     def level(self):
         return self.entries[0].level
     
     def multi_dance(self):
-        d = self.description()
-        if "(" in d and ")" in d:
-            return True
-        else:
-            return False
+        return is_multi_dance(self.description())
         
     def rounds(self):
         return self.entries[0].rounds
@@ -138,8 +151,11 @@ class Heat_Report():
     def set_rounds(self, r):
         self.entries[0].rounds = r
         
-    def build_late_entry(self):
-        e = copy.deepcopy(self.entries[-1])
+    def build_late_entry(self, entry=None):
+        if entry is None:
+            e = copy.deepcopy(self.entries[-1])
+        else:
+            e = copy.deepcopy(entry)
         # null out certain fields 
         e.shirt_number = "???"
         e.result = None
