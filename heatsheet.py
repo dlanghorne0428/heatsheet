@@ -731,7 +731,7 @@ class HelloFrame(wx.Frame):
             for h in selected_couple.heats:
                 
                 # find all the couples in that heat and populate the GUI
-                competitors = self.heatlist.list_of_couples_in_heat(h)
+                competitors = self.heatlist.list_of_couples_in_heat(h, sortby="info")
                 for c in competitors:
                     self.list_ctrl.Append(c)
                 self.list_ctrl.Append(h.dummy_info())
@@ -885,16 +885,24 @@ class HelloFrame(wx.Frame):
         self.Initialize_Timer_and_ProgressBar()
 
 
+    def Build_Filename_For_Results(self, pathname):
+        comp_name = self.heatlist.comp_name
+        if len(pathname) > 0:
+            pathname = pathname + "/"
+        if "non-pro" in self.report_title:
+            results_filename = pathname + comp_name +"_pro-am_results.json"
+        else:
+            results_filename = pathname + comp_name +"_results.json"
+        return results_filename
+        
+
     def OnGetResults(self, event):
         '''This method processes the competition results from a file.'''
         fd = wx.FileDialog(self, "Open a Scoresheet File", self.folder_name, "")
         if fd.ShowModal() == wx.ID_OK:
             filename = fd.GetPath()
             self.scoresheet = CompMngrResults()
-            if "non-pro" in self.report_title:
-                results_filename = os.path.dirname(filename) + "/pro-am_results.json"
-            else:
-                results_filename = os.path.dirname(filename) + "/results.json"
+            results_filename = self.Build_Filename_For_Results(os.path.dirname(filename))
             self.ProcessScoresheet(filename, results_filename)
             
             
@@ -929,7 +937,7 @@ class HelloFrame(wx.Frame):
                 
                 # process the results from the file
                 self.scoresheet = CompMngrResults()
-                results_filename = os.path.dirname(output_filename) + "/results.json"                
+                results_filename = self.Build_Filename_For_Results(os.path.dirname(outputfilename))            
                 self.ProcessScoresheet(output_filename, results_filename)
 
 
@@ -943,10 +951,12 @@ class HelloFrame(wx.Frame):
             url = text_dialog.GetValue()
             self.scoresheet = CompOrgResults()
             
-            if "non-pro" in self.report_title:
-                default_filename = "pro-am_results.json"
-            else:
-                default_filename = "results.json" 
+            #if "non-pro" in self.report_title:
+            #    default_filename = "pro-am_results.json"
+            #else:
+            #    default_filename = "results.json" 
+            # 
+            default_filename = self.Build_Filename_For_Results("")
                 
             # Ask the user to specify an output file to save the results 
             # of all pro heats in this comp, using results.json as the default
@@ -971,10 +981,12 @@ class HelloFrame(wx.Frame):
             url = text_dialog.GetValue()
             self.scoresheet = NdcaPremResults()
             
-            if "non-pro" in self.report_title:
-                default_filename = "pro-am_results.json"
-            else:
-                default_filename = "results.json"            
+            #if "non-pro" in self.report_title:
+            #    default_filename = "pro-am_results.json"
+            #else:
+            #    default_filename = "results.json" 
+            
+            default_filename = self.Build_Filename_For_Results("")
             
             # Ask the user to specify an output file to save the results 
             # of all pro heats in this comp, using results.json as the default
