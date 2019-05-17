@@ -110,12 +110,16 @@ class Heatlist():
     
     # given a heat, this method returns a heat report, which is a list of 
     # all entries in the heat. This list can optionally be sorted by shirt number
-    def build_heat_report(self, heat, sorted=False):
+    def build_heat_report(self, heat, sorted=False, multi_dance_only=False):
         report = Heat_Report()
         for c in self.couples:
             for ht in c.heats:
                 if heat == ht:
-                    report.append(ht)
+                    if multi_dance_only:
+                        if ht.multi_dance():
+                            report.append(ht)
+                    else:
+                        report.append(ht)
         if sorted:
             report.sort()
         return report
