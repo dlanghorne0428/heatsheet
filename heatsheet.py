@@ -789,8 +789,8 @@ class HelloFrame(wx.Frame):
             competitors = self.heatlist.list_of_couples_in_heat(h, sortby="info")                   
             if len(competitors) > 0:
                 for c in competitors:
-                    #if is_multi_dance(c[3]): 
-                    self.list_ctrl.Append(c)
+                    if is_multi_dance(c[3]): 
+                        self.list_ctrl.Append(c)
                 self.list_ctrl.Append(h.dummy_info())
                     
         print("Item Count:", self.list_ctrl.GetItemCount())
@@ -820,9 +820,13 @@ class HelloFrame(wx.Frame):
             h = CompOrgHeat(category=self.heat_category, number=num)
         else:
             h = NdcaPremHeat(category=self.heat_category, number=num) 
-            
+        
+        if "Multi Dance" in self.report_title: 
+            multi = True
+        else:
+            multi = False
         # get a heat report with the entries from the heatlist
-        report = self.heatlist.build_heat_report(h, sorted=True)   
+        report = self.heatlist.build_heat_report(h, sorted=True, multi_dance_only=multi)   
         
         if report.length() > 0:
             
@@ -837,11 +841,10 @@ class HelloFrame(wx.Frame):
                     curr_item = self.list_ctrl.GetItem(self.item_index, 0)
                     self.list_ctrl.InsertItem(curr_item)  
                     self.list_ctrl.SetItem(self.item_index, 0, h.category)
-                    self.list_ctrl.SetItem(self.item_index, 1, str(h.heat_number))
+                    self.list_ctrl.SetItem(self.item_index, 1, str(h.heat_number) + e.extra)
                     t = self.list_ctrl.GetItemText(self.item_index - 1, 2)
                     self.list_ctrl.SetItem(self.item_index, 2, t)
-                    t = self.list_ctrl.GetItemText(self.item_index - 1, 3)
-                    self.list_ctrl.SetItem(self.item_index, 3, t)        
+                    self.list_ctrl.SetItem(self.item_index, 3, e.info)        
                     self.list_ctrl.SetItem(self.item_index, 4, e.shirt_number)
                 
                 # the names may have been re-ordered by processing the scoresheet
