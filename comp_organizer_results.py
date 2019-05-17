@@ -119,11 +119,14 @@ class CompOrgResults():
        It is the scoresheet results for a single dancer.
        We use this to extract the results of the heat we are interested in 
     '''
-    def process_response(self, heat_report):
+    def process_response(self, heat_report, entry):
         # Build the string to find the results for the heat we want.
         # For example: Pro Heat 5:
         # need the colon directly after the number, to distinguish 5 from 51, etc.
-        heat_string = heat_report.category() + " " + str(heat_report.heat_number()) + ":"
+        if len(entry.extra) == 1:
+            heat_string = heat_report.category() + " " + str(heat_report.heat_number()) + entry.extra + ":"
+        else:
+            heat_string = heat_report.category() + " " + str(heat_report.heat_number()) + ":"
 
         # If there are parenthesis in the heat info, the heat has multiple dances
         # For example (W/T/F). 
@@ -238,7 +241,7 @@ class CompOrgResults():
                             # this line on the scoresheet. This is the dreaded late entry. 
                             else:
                                 # Build a structure for the late entry couple with the results
-                                late_entry = heat_report.build_late_entry()
+                                late_entry = heat_report.build_late_entry(entry)
                                 late_entry.shirt_number = self.get_shirt_number(current_competitor)
                                 couple_names = self.get_couple_names(current_competitor)    
                                 late_entry.dancer = couple_names[0] 
@@ -292,7 +295,7 @@ class CompOrgResults():
                                 break
                             
                         else:    # this code runs when competitor not found in heat
-                            late_entry = heat_report.build_late_entry()
+                            late_entry = heat_report.build_late_entry(entry)
                             late_entry.shirt_number = self.get_shirt_number(current_competitor)
                             couple_names = self.get_couple_names(current_competitor)
                             late_entry.dancer = couple_names[0] 
@@ -372,7 +375,7 @@ class CompOrgResults():
                 self.response = requests.get(url)
                 
                 # process the returned scoresheet
-                result = self.process_response(heat_report)
+                result = self.process_response(heat_report, entry)
                 
                 # if this competitor made the finals, quit looping because
                 # we have all the results for this heat
