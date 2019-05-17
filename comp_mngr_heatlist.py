@@ -147,7 +147,6 @@ class CompMngrHeatlist(Heatlist):
                             break
                     # if this actually is a new couple, add them to the couples list
                     if new_couple:
-                        print(couple.pair_name)
                         self.couples.append(couple)
 
             # Look for age divisions
