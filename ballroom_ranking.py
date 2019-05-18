@@ -8,6 +8,7 @@
 
 import wx
 import yattag
+from datetime import date
 
 from season_ranking import RankingDataFile, event_level, get_last_name
 from comp_results_file import Comp_Results_File
@@ -100,6 +101,9 @@ class AppFrame(wx.Frame):
 
         # and a status bar
         self.CreateStatusBar()
+        
+        # save the current date
+        self.curr_date = date.today()
 
         # set default state of menu items and buttons
         self.PreOpenProcess()
@@ -399,7 +403,8 @@ class AppFrame(wx.Frame):
         if self.couple_history_index < len(self.couple_result_history):
             result = self.couple_result_history[self.couple_history_index]
             self.comp_name.ChangeValue(result["comp_name"])
-            filename = self.folder_name + "/comp_results/" + result["comp_name"] + ".json"
+            # TODO: Deal with pro-am results
+            filename = self.folder_name + "/Comps/" + result["comp_name"] + "/pro_results.json"
             comp_data = Comp_Results_File(filename)
             heat_data = comp_data.get_heats()
             for h in heat_data:
@@ -521,18 +526,20 @@ class AppFrame(wx.Frame):
     def OnOpen(self, event):
         '''Launch a file dialog, open a heatsheet file, and process it.'''
 
-        dd = wx.DirDialog(self, "Open the Folder containing the Ranking Database", "./data/2019/!!2019_Results")
-        if dd.ShowModal() == wx.ID_OK:
-            self.folder_name = dd.GetPath()
-            # open the five ranking files
-            self.smooth_couples = RankingDataFile(self.folder_name + "/smooth_results.json")
-            self.rhythm_couples = RankingDataFile(self.folder_name + "/rhythm_results.json")
-            self.standard_couples = RankingDataFile(self.folder_name + "/standard_results.json")
-            self.latin_couples = RankingDataFile(self.folder_name + "/latin_results.json")
-            self.showdance_couples = RankingDataFile(self.folder_name + "/cabaret_showdance_results.json") 
-            self.current_couples = self.smooth_couples
-            self.SetListControl(self.current_couples)
-            self.PostOpenProcess()
+        #dd = wx.DirDialog(self, "Open the Folder containing the Ranking Database", "./data/2019/Rankings")
+        #if dd.ShowModal() == wx.ID_OK:
+        #    self.folder_name = dd.GetPath()
+        self.folder_name = "./data/" + str(self.curr_date.year)
+        
+        # open the five ranking files
+        self.smooth_couples = RankingDataFile(self.folder_name + "/Rankings/smooth_rankings.json")
+        self.rhythm_couples = RankingDataFile(self.folder_name + "/Rankings/rhythm_rankings.json")
+        self.standard_couples = RankingDataFile(self.folder_name + "/Rankings/standard_rankings.json")
+        self.latin_couples = RankingDataFile(self.folder_name + "/Rankings/latin_rankings.json")
+        self.showdance_couples = RankingDataFile(self.folder_name + "/Rankings/cabaret_showdance_rankings.json") 
+        self.current_couples = self.smooth_couples
+        self.SetListControl(self.current_couples)
+        self.PostOpenProcess()
 
 
     def OnSortByAvg(self, event):
@@ -588,11 +595,11 @@ class AppFrame(wx.Frame):
         '''
 
         # ask the user to select a competition. 
-        dd = wx.DirDialog(self, "Open the Folder containing the Competition Results", "./data")
+        dd = wx.DirDialog(self, "Open the Folder containing the Competition Results", self.folder_name + "/Comps")
         if dd.ShowModal() == wx.ID_OK:
             folder_name = dd.GetPath()   
-            # open the results file
-            self.comp_results = Comp_Results_File(folder_name + "/results.json")
+            # open the results file: TODO: deal with pro-am results
+            self.comp_results = Comp_Results_File(folder_name + "/pro_results.json")  
             # populate the competition name
             self.comp_name.ChangeValue(self.comp_results.get_comp_name())
             # get the heat results
@@ -736,8 +743,7 @@ class AppFrame(wx.Frame):
 
 
     def Export_Rankings(self, criteria="All"):
-        from datetime import date
-        curr_date = date.today()
+
 
         from yattag import Doc
         doc, tag, text = Doc().tagtext()
@@ -757,7 +763,7 @@ class AppFrame(wx.Frame):
                 with tag('h1'):
                     text("US Dancesport Rankings")
                 with tag('h2'):
-                    text(str(curr_date))
+                    text(str(self.curr_date))
                 with tag('h3'):
                     text("Dance Styles")
                 with tag('ul'):
@@ -792,7 +798,7 @@ class AppFrame(wx.Frame):
                                         text(self.list_ctrl.GetItem(r, c).GetText())
 
         # once the structure is built, write it to a file
-        filename = "./data/" + str(curr_date.year) +"/!!Rankings/" + str(curr_date) + "_" + criteria + ".htm"
+        filename =  self.folder_name + "/Rankings/Weekly/" + str(curr_date) + "_" + criteria + ".htm"
         html_file = open(filename,"w")
         html_file.write(doc.getvalue())
         html_file.close()
