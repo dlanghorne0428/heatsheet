@@ -5,13 +5,14 @@
 #	          - wxPython is used for the GUI
 #####################################################
 
-import os.path
+import os, os.path
 import wx
 import requests
 import urllib.parse, urllib.error
 import yattag
 
 from enum import Enum
+from datetime import date
 
 from ndca_prem_heatlist import NdcaPremHeatlist, NdcaPremHeat
 from ndca_prem_results import NdcaPremResults
@@ -26,6 +27,9 @@ from heat import is_multi_dance
 
 def get_folder_name(filename):
     return os.path.dirname(filename)
+
+def get_file_name(filename):
+    return os.path.basename(filename)
 
 
 class TimerState(Enum):
@@ -134,6 +138,9 @@ class HelloFrame(wx.Frame):
         self.timer = wx.Timer(self)
         self.Bind(wx.EVT_TIMER, self.Continue_Processing, self.timer)        
         self.timer_state = None
+        
+        # save the current date
+        self.curr_date = date.today()        
 
         # declare a heatlist, scoresheet, and result_file object
         self.heatlist = None
@@ -465,32 +472,32 @@ class HelloFrame(wx.Frame):
             pathname = urllib.parse.urlparse(url).path
             split_path = pathname.split("/")
             # extract the filename to save it locally
-            filename = split_path[len(split_path)-1]
+            filename_from_url = split_path[len(split_path)-1]
             response = requests.get(url)
 
-            # prompt the user to save the file, 
-            # use the data folder and extracted filename as defaults
-            fd = wx.FileDialog(self, "Save the Heatlist to a file", 
-                               defaultDir = "./data",
-                               defaultFile = filename,
-                               style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
-            
-            if fd.ShowModal() == wx.ID_OK:
-                # get the filename from the user
-                output_filename = fd.GetPath()
-                # extract the selected folder for future use
-                self.folder_name = get_folder_name(output_filename)
-                # open the file and convert the webpage to UTF-8 text
-                output_file = open(output_filename, "wb")
-                encoded_text = response.text.encode()
-                output_file.write(encoded_text)
-                output_file.close()
+            # determine path to temporary filename
+            default_path = "./data/" + str(curr_date.year) + "/Comps"
+            default_filename = default_path +"/" + filename_from_url
+            output_file = open(default_filename, "wb")
+            encoded_text = response.text.encode()
+            output_file.write(encoded_text)
+            output_file.close()
             
             # now that the data from the URL is saved to a file, process it
             self.heatlist = CompMngrHeatlist()
-            self.heatlist.process(output_filename)
+            self.heatlist.process(default_filename) 
+            
+            # create a folder name and filename based on the name of the competition
+            new_folder_name = default_path + "/" + self.heatlist.comp_name
+            new_file_name = new_folder_name + "/" + filename_from_url
+            
+            # create the folder and move the file there
+            if not os.path.exists(new_folder_name):
+                os.makedirs(new_folder_name)
+            os.replace(default_filename, new_file_name)
+            self.folder_name = get_folder_name(new_file_name)        
+            
             self.postOpenProcess()
-
 
     def Initialize_Timer_and_ProgressBar(self):
         '''Create a timer and progress bar to inform progress of long open process'''
@@ -522,7 +529,7 @@ class HelloFrame(wx.Frame):
             self.heatlist.open(url)
             self.timer_state = TimerState.READ_DANCER
             self.Initialize_Timer_and_ProgressBar()
-        
+                     
     
     def OnOpenCompOrg(self, event):
         '''
@@ -537,7 +544,7 @@ class HelloFrame(wx.Frame):
             self.heatlist.open(url)
             self.timer_state = TimerState.READ_DANCER
             self.Initialize_Timer_and_ProgressBar()
-            
+                
 
     def Try_Next_Dancer(self):
         '''
@@ -552,16 +559,21 @@ class HelloFrame(wx.Frame):
             self.timer.StartOnce(5)
         else:
             self.heatlist.complete_processing()
-            self.progress_bar.Update(self.timer_event_count, "Completed")  
+            self.progress_bar.Update(self.timer_event_count, "Completed")
+            # determine folder location for this comp
+            default_path = "./data/" + str(self.curr_date.year) + "/Comps"  
+            self.folder_name = default_path + "/" + self.heatlist.comp_name
+            if not os.path.exists(self.folder_name):
+                os.makedirs(self.folder_name)   
             self.postOpenProcess()  
             
     
     def Try_Next_Result(self):
         if self.timer_event_count < len(self.heat_numbers):
             heat_number = self.heat_numbers[self.timer_event_count]
-            self.progress_bar.Update(self.timer_event_count, "Processing heat " + str(heat_number))
             self.Process_Result(heat_number)
             self.timer_event_count += 1
+            self.progress_bar.Update(self.timer_event_count, "Processing heat " + str(heat_number))    
             self.timer.StartOnce(5)
         else:
             self.progress_bar.Update(self.timer_event_count, "Completed")  
@@ -886,13 +898,13 @@ class HelloFrame(wx.Frame):
 
 
     def Build_Filename_For_Results(self, pathname):
-        comp_name = self.heatlist.comp_name
+        #comp_name = self.heatlist.comp_name
         if len(pathname) > 0:
             pathname = pathname + "/"
         if "non-pro" in self.report_title:
-            results_filename = pathname + comp_name +"_pro-am_results.json"
+            results_filename = pathname + "pro-am_results.json"
         else:
-            results_filename = pathname + comp_name +"_results.json"
+            results_filename = pathname + "pro_results.json"
         return results_filename
         
 
@@ -923,7 +935,7 @@ class HelloFrame(wx.Frame):
 
             # ask the user to save the file, using the extracted filename as the default
             fd = wx.FileDialog(self, "Save the Scoresheet to a file", 
-                               defaultDir = "./data",
+                               defaultDir = self.folder_name,
                                defaultFile = filename,
                                style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
             
@@ -937,7 +949,7 @@ class HelloFrame(wx.Frame):
                 
                 # process the results from the file
                 self.scoresheet = CompMngrResults()
-                results_filename = self.Build_Filename_For_Results(os.path.dirname(outputfilename))            
+                results_filename = self.Build_Filename_For_Results(os.path.dirname(output_filename))            
                 self.ProcessScoresheet(output_filename, results_filename)
 
 
@@ -951,17 +963,12 @@ class HelloFrame(wx.Frame):
             url = text_dialog.GetValue()
             self.scoresheet = CompOrgResults()
             
-            #if "non-pro" in self.report_title:
-            #    default_filename = "pro-am_results.json"
-            #else:
-            #    default_filename = "results.json" 
-            # 
             default_filename = self.Build_Filename_For_Results("")
                 
             # Ask the user to specify an output file to save the results 
             # of all pro heats in this comp, using results.json as the default
             fd = wx.FileDialog(self, "Save the Results to a file", 
-                                      defaultDir = "./data",
+                                      defaultDir = self.folder_name,
                                       defaultFile = default_filename,
                                       style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
         
@@ -981,17 +988,12 @@ class HelloFrame(wx.Frame):
             url = text_dialog.GetValue()
             self.scoresheet = NdcaPremResults()
             
-            #if "non-pro" in self.report_title:
-            #    default_filename = "pro-am_results.json"
-            #else:
-            #    default_filename = "results.json" 
-            
             default_filename = self.Build_Filename_For_Results("")
             
             # Ask the user to specify an output file to save the results 
             # of all pro heats in this comp, using results.json as the default
             fd = wx.FileDialog(self, "Save the Results to a file", 
-                                      defaultDir = "./data",
+                                      defaultDir = self.folder_name,
                                       defaultFile = default_filename,
                                       style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT)
         
@@ -1037,14 +1039,14 @@ class HelloFrame(wx.Frame):
         Ranking_Column = 6  
         self.ChangeColumnTitle(Ranking_Column, "Ranking")
         item_index = 0
-        folder_name = "./data/2019/!!2019_Results"
+        folder_name = "./data/" + str(self.curr_date.year) + "/Rankings" 
         
         # open the five ranking files
-        self.smooth_couples = RankingDataFile(folder_name + "/smooth_results.json")
-        self.rhythm_couples = RankingDataFile(folder_name + "/rhythm_results.json")
-        self.standard_couples = RankingDataFile(folder_name + "/standard_results.json")
-        self.latin_couples = RankingDataFile(folder_name + "/latin_results.json")
-        self.showdance_couples = RankingDataFile(folder_name + "/cabaret_showdance_results.json")         
+        self.smooth_couples = RankingDataFile(folder_name + "/smooth_rankings.json")
+        self.rhythm_couples = RankingDataFile(folder_name + "/rhythm_rankings.json")
+        self.standard_couples = RankingDataFile(folder_name + "/standard_rankings.json")
+        self.latin_couples = RankingDataFile(folder_name + "/latin_rankings.json")
+        self.showdance_couples = RankingDataFile(folder_name + "/cabaret_showdance_rankings.json")         
 
         # loop through all the pro heats
         for num in range(1, self.heatlist.max_pro_heat_num + 1):
