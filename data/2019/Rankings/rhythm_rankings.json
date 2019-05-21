@@ -37,9 +37,15 @@
         "level": "Open",
         "place": "1",
         "points": 40.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Open",
+        "place": "1",
+        "points": 30.0
       }
     ],
-    "total_pts": 180.0,
+    "total_pts": 210.0,
     "avg_pts": 30.0
   },
   {
@@ -134,10 +140,16 @@
         "level": "Open",
         "place": "1",
         "points": 20.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 414.0,
-    "avg_pts": 27.6
+    "total_pts": 434.0,
+    "avg_pts": 27.12
   },
   {
     "name": "Jaksevicius, Danas and Haraguchi, Yuki",
@@ -294,10 +306,16 @@
         "level": "Open",
         "place": "1",
         "points": 30.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Open",
+        "place": "2",
+        "points": 24.0
       }
     ],
-    "total_pts": 178.5,
-    "avg_pts": 22.31
+    "total_pts": 202.5,
+    "avg_pts": 22.5
   },
   {
     "name": "Escolme, Andrew and Baker, Amy",
@@ -570,10 +588,16 @@
         "level": "Open",
         "place": "2",
         "points": 16.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 277.0,
-    "avg_pts": 17.31
+    "total_pts": 297.0,
+    "avg_pts": 17.47
   },
   {
     "name": "Ubillus, Kevin and Lareto, Milagros",
@@ -613,10 +637,16 @@
         "level": "Open",
         "place": "Semis",
         "points": 6.4
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Open",
+        "place": "3",
+        "points": 19.5
       }
     ],
-    "total_pts": 92.9,
-    "avg_pts": 15.48
+    "total_pts": 112.4,
+    "avg_pts": 16.06
   },
   {
     "name": "Burazer, Kristijan and Burazer, Anja",
@@ -863,10 +893,16 @@
         "level": "Open",
         "place": "quarters",
         "points": 4.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
       }
     ],
-    "total_pts": 165.8,
-    "avg_pts": 13.82
+    "total_pts": 178.8,
+    "avg_pts": 13.75
   },
   {
     "name": "Lockhart, Ryan and Newman, Danelle",
@@ -937,10 +973,16 @@
         "level": "Open",
         "place": "Semis",
         "points": 4.8
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Open",
+        "place": "4",
+        "points": 15.0
       }
     ],
-    "total_pts": 38.8,
-    "avg_pts": 12.93
+    "total_pts": 53.8,
+    "avg_pts": 13.45
   },
   {
     "name": "Wayne, Christopher and Evan, Mallory",
@@ -1254,6 +1296,49 @@
     "avg_pts": 11.77
   },
   {
+    "name": "Abdullin, Ilya and Jerjomina, Anastasija",
+    "results": [
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "6",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "level": "Open",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 70.4,
+    "avg_pts": 11.73
+  },
+  {
     "name": "Pierce, Aaron and Stavrica, Ksenia",
     "results": [
       {
@@ -1339,62 +1424,6 @@
     "avg_pts": 11.45
   },
   {
-    "name": "Abdullin, Ilya and Jerjomina, Anastasija",
-    "results": [
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Open",
-        "place": "6",
-        "points": 9.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Open",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "level": "Open",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "level": "Open",
-        "place": "quarters",
-        "points": 4.0
-      }
-    ],
-    "total_pts": 54.4,
-    "avg_pts": 10.88
-  },
-  {
-    "name": "Ustymovych, Igor and Santiago, Briana",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "level": "Open",
-        "place": "6",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Open",
-        "place": "5",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 21.0,
-    "avg_pts": 10.5
-  },
-  {
     "name": "Puzhevich, Igor and Puzhevich, Anastasia",
     "results": [
       {
@@ -1426,10 +1455,41 @@
         "level": "Open",
         "place": "4",
         "points": 10.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Open",
+        "place": "5",
+        "points": 12.0
       }
     ],
-    "total_pts": 52.0,
-    "avg_pts": 10.4
+    "total_pts": 74.0,
+    "avg_pts": 10.57
+  },
+  {
+    "name": "Ustymovych, Igor and Santiago, Briana",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "level": "Open",
+        "place": "6",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "5",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 21.0,
+    "avg_pts": 10.5
   },
   {
     "name": "Stefanovic, Vuk and Mikryukova, Larisa",
@@ -1714,56 +1774,6 @@
     "avg_pts": 9.67
   },
   {
-    "name": "Zarek, Alexander and Kharchenko, Oleksandra",
-    "results": [
-      {
-        "comp_name": "The Windy City Open",
-        "level": "Open",
-        "place": "Semis",
-        "points": 7.5
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "level": "Open",
-        "place": "quarters",
-        "points": 4.0
-      }
-    ],
-    "total_pts": 37.5,
-    "avg_pts": 9.38
-  },
-  {
-    "name": "Jackson, Ryan and Logan, Emily",
-    "results": [
-      {
-        "comp_name": "Music City Invitational",
-        "level": "Open",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 18.6,
-    "avg_pts": 9.3
-  },
-  {
     "name": "Shiller, Artem and Shiller, Ginny Ray",
     "results": [
       {
@@ -1873,10 +1883,72 @@
         "level": "Open",
         "place": "quarters",
         "points": 1.6
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
       }
     ],
-    "total_pts": 162.1,
-    "avg_pts": 9.01
+    "total_pts": 188.1,
+    "avg_pts": 9.4
+  },
+  {
+    "name": "Zarek, Alexander and Kharchenko, Oleksandra",
+    "results": [
+      {
+        "comp_name": "The Windy City Open",
+        "level": "Open",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "level": "Open",
+        "place": "quarters",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 37.5,
+    "avg_pts": 9.38
+  },
+  {
+    "name": "Jackson, Ryan and Logan, Emily",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 18.6,
+    "avg_pts": 9.3
   },
   {
     "name": "Sovetov, Ivan and Mkrtchian, Valeria",
@@ -2077,23 +2149,35 @@
     "avg_pts": 7.5
   },
   {
-    "name": "Kuzmenko, Dmitriy and Kuzmenko, Andrea",
+    "name": "Azarov, Mykhailo and Makarenko, Tetyana",
     "results": [
       {
-        "comp_name": "2019 First Coast Classic",
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Rising Star",
+        "place": "7",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "level": "Open",
+        "place": "6",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
         "level": "Rising Star",
         "place": "2",
         "points": 8.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "level": "Rising Star",
-        "place": "3",
-        "points": 6.5
       }
     ],
-    "total_pts": 14.5,
-    "avg_pts": 7.25
+    "total_pts": 29.5,
+    "avg_pts": 7.38
   },
   {
     "name": "Gartchev, Ivan and Boresow, Leah",
@@ -2115,29 +2199,53 @@
     "avg_pts": 7.2
   },
   {
-    "name": "Azarov, Mykhailo and Makarenko, Tetyana",
+    "name": "Cunningham, Charles and Elcoro, Evgeniia",
     "results": [
       {
-        "comp_name": "Eastern United States DanceSport Championship",
+        "comp_name": "2019 First Coast Classic",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
         "level": "Open",
         "place": "Semis",
         "points": 7.5
       },
       {
-        "comp_name": "Eastern United States DanceSport Championship",
+        "comp_name": "Philadelphia Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
         "level": "Rising Star",
-        "place": "7",
+        "place": "4",
         "points": 5.0
       },
       {
-        "comp_name": "Philadelphia Dancesport Championships",
+        "comp_name": "2019 Miami Vibe",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
         "level": "Open",
         "place": "6",
         "points": 9.0
       }
     ],
-    "total_pts": 21.5,
-    "avg_pts": 7.17
+    "total_pts": 49.6,
+    "avg_pts": 7.09
   },
   {
     "name": "Borges, Israel and Cardenas, Natalie",
@@ -2214,6 +2322,25 @@
     "avg_pts": 7.0
   },
   {
+    "name": "Reyes, Felix and Perry-Tran, Nghi",
+    "results": [
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 14.0,
+    "avg_pts": 7.0
+  },
+  {
     "name": "Rodriguez, Nicolas and Struk, Paulina",
     "results": [
       {
@@ -2267,43 +2394,6 @@
     ],
     "total_pts": 54.8,
     "avg_pts": 6.85
-  },
-  {
-    "name": "Cunningham, Charles and Elcoro, Evgeniia",
-    "results": [
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Open",
-        "place": "Semis",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "level": "Open",
-        "place": "5",
-        "points": 8.0
-      }
-    ],
-    "total_pts": 34.1,
-    "avg_pts": 6.82
   },
   {
     "name": "Moon, David and Mancini, Jessica",
@@ -2522,6 +2612,37 @@
     "avg_pts": 6.1
   },
   {
+    "name": "Kuzmenko, Dmitriy and Kuzmenko, Andrea",
+    "results": [
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 24.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Babagay, Jeremy and Vazquez, Helen",
     "results": [
       {
@@ -2589,6 +2710,86 @@
     ],
     "total_pts": 29.6,
     "avg_pts": 5.92
+  },
+  {
+    "name": "Golubev, Valerii and Golubeva, Margarita",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.6
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.8
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 7.2
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 29.2,
+    "avg_pts": 5.84
+  },
+  {
+    "name": "Solano, Julius and Tang, Emily",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 34.2,
+    "avg_pts": 5.7
   },
   {
     "name": "Aleman, Caleb and Hinds, Jamie",
@@ -2702,19 +2903,25 @@
     "avg_pts": 5.25
   },
   {
-    "name": "Solano, Julius and Tang, Emily",
+    "name": "Arkhipenko, Maxim and Diego-Moffitt, Zahara",
     "results": [
       {
         "comp_name": "Golden Star Dancesport Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 5.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 3.2
+      },
+      {
+        "comp_name": "NYDF 2019",
         "level": "Open",
         "place": "Semis",
         "points": 3.6
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "level": "Rising Star",
-        "place": "6",
-        "points": 6.0
       },
       {
         "comp_name": "2019 Tri-State DanceSport Championships",
@@ -2723,20 +2930,14 @@
         "points": 3.6
       },
       {
-        "comp_name": "Philadelphia Dancesport Championships",
+        "comp_name": "American Star Ball Championships",
         "level": "Rising Star",
-        "place": "Semis",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "level": "Open",
-        "place": "5",
-        "points": 8.0
+        "place": "4",
+        "points": 10.0
       }
     ],
-    "total_pts": 26.2,
-    "avg_pts": 5.24
+    "total_pts": 25.4,
+    "avg_pts": 5.08
   },
   {
     "name": "Bradford, Joshua and Lopez, Karen",
@@ -2858,43 +3059,6 @@
     "avg_pts": 4.57
   },
   {
-    "name": "Germain, Zachary and Caskie, Jenna",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 3.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 21.8,
-    "avg_pts": 4.36
-  },
-  {
     "name": "Pozo, Cristian and Pasalano, Devyn",
     "results": [
       {
@@ -2938,10 +3102,59 @@
         "level": "Open",
         "place": "Semis",
         "points": 4.5
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 5.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Open",
+        "place": "6",
+        "points": 6.0
       }
     ],
-    "total_pts": 29.0,
-    "avg_pts": 4.14
+    "total_pts": 40.0,
+    "avg_pts": 4.44
+  },
+  {
+    "name": "Germain, Zachary and Caskie, Jenna",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 21.8,
+    "avg_pts": 4.36
   },
   {
     "name": "Dominguez, Oliver and Lerma, Georgina",
@@ -2991,37 +3204,6 @@
     ],
     "total_pts": 28.4,
     "avg_pts": 4.06
-  },
-  {
-    "name": "Golubev, Valerii and Golubeva, Margarita",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 2.6
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 2.8
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 7.2
-      }
-    ],
-    "total_pts": 16.2,
-    "avg_pts": 4.05
   },
   {
     "name": "Munson, Todd and Hotz, Ricci-Lee",
@@ -3196,37 +3378,6 @@
     "avg_pts": 3.85
   },
   {
-    "name": "Arkhipenko, Maxim and Diego-Moffitt, Zahara",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 5.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 3.2
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 15.4,
-    "avg_pts": 3.85
-  },
-  {
     "name": "McLain and Williams",
     "results": [
       {
@@ -3304,6 +3455,43 @@
     "avg_pts": 3.6
   },
   {
+    "name": "Napoleon, Hugues and Grob, Ashley",
+    "results": [
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 17.6,
+    "avg_pts": 3.52
+  },
+  {
     "name": "Kumar, Ramphis and Levina, Jenny",
     "results": [
       {
@@ -3329,10 +3517,22 @@
         "level": "Rising Star",
         "place": "6",
         "points": 3.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
       }
     ],
-    "total_pts": 14.0,
-    "avg_pts": 3.5
+    "total_pts": 20.6,
+    "avg_pts": 3.43
   },
   {
     "name": "Martinez, Theo and Wain, Kelly",
@@ -3360,31 +3560,6 @@
     "avg_pts": 3.4
   },
   {
-    "name": "Napoleon, Hugues and Grob, Ashley",
-    "results": [
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 4.0
-      }
-    ],
-    "total_pts": 10.0,
-    "avg_pts": 3.33
-  },
-  {
     "name": "Divovic, Muhidin and Novak, Ashley",
     "results": [
       {
@@ -3407,25 +3582,6 @@
       }
     ],
     "total_pts": 9.6,
-    "avg_pts": 3.2
-  },
-  {
-    "name": "Antonelli, Vincent and Falciano, Stephanie",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 3.4
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Rising Star",
-        "place": "quarters",
-        "points": 3.0
-      }
-    ],
-    "total_pts": 6.4,
     "avg_pts": 3.2
   },
   {
@@ -3458,6 +3614,31 @@
     ],
     "total_pts": 12.6,
     "avg_pts": 3.15
+  },
+  {
+    "name": "Antonelli, Vincent and Falciano, Stephanie",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 3.4
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Rising Star",
+        "place": "quarters",
+        "points": 3.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.8
+      }
+    ],
+    "total_pts": 9.2,
+    "avg_pts": 3.07
   },
   {
     "name": "Arndtson, Cody and Becker, Paris",
@@ -3684,6 +3865,19 @@
     "avg_pts": 2.56
   },
   {
+    "name": "Brann, James and Iurman, Vanessa",
+    "results": [
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Rising Star",
+        "place": "7",
+        "points": 2.5
+      }
+    ],
+    "total_pts": 2.5,
+    "avg_pts": 2.5
+  },
+  {
     "name": "Kibel, Mitchel and Camozzi, Sacha",
     "results": [
       {
@@ -3726,6 +3920,19 @@
     "results": [
       {
         "comp_name": "Emerald Ball",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      }
+    ],
+    "total_pts": 2.4,
+    "avg_pts": 2.4
+  },
+  {
+    "name": "Flores, Jayson and Bradley, Krystal",
+    "results": [
+      {
+        "comp_name": "American Star Ball Championships",
         "level": "Rising Star",
         "place": "Semis",
         "points": 2.4
