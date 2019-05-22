@@ -476,7 +476,7 @@ class HelloFrame(wx.Frame):
             response = requests.get(url)
 
             # determine path to temporary filename
-            default_path = "./data/" + str(curr_date.year) + "/Comps"
+            default_path = "./data/" + str(self.curr_date.year) + "/Comps"
             default_filename = default_path +"/" + filename_from_url
             output_file = open(default_filename, "wb")
             encoded_text = response.text.encode()
@@ -800,12 +800,15 @@ class HelloFrame(wx.Frame):
                 
             competitors = self.heatlist.list_of_couples_in_heat(h, sortby="info")                   
             if len(competitors) > 0:
+                multi_dance_entry_found = False
                 for c in competitors:
                     if is_multi_dance(c[3]): 
+                        multi_dance_entry_found = True
                         self.list_ctrl.Append(c)
-                self.list_ctrl.Append(h.dummy_info())
+                if multi_dance_entry_found:
+                    self.list_ctrl.Append(h.dummy_info())
                     
-        print("Item Count:", self.list_ctrl.GetItemCount())
+            #print("Item Count:", self.list_ctrl.GetItemCount())
                 
         # enable the buttons that process the results and get rankings
         self.butt_rslt.Enable()
@@ -862,6 +865,7 @@ class HelloFrame(wx.Frame):
                 # the names may have been re-ordered by processing the scoresheet
                 # for all couples, update the names and add the result to the GUI
                 couple_names = e.dancer + " and " + e.partner
+                self.list_ctrl.SetItem(self.item_index, 3, e.info)    
                 self.list_ctrl.SetItem(self.item_index, 5, couple_names)    
                 self.list_ctrl.SetItem(self.item_index, Results_Column, str(e.result))
                 self.item_index += 1
