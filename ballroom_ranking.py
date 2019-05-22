@@ -798,7 +798,7 @@ class AppFrame(wx.Frame):
                                         text(self.list_ctrl.GetItem(r, c).GetText())
 
         # once the structure is built, write it to a file
-        filename =  self.folder_name + "/Rankings/Weekly/" + str(curr_date) + "_" + criteria + ".htm"
+        filename =  self.folder_name + "/Rankings/Weekly/" + str(self.curr_date) + "_" + criteria + ".htm"
         html_file = open(filename,"w")
         html_file.write(doc.getvalue())
         html_file.close()
