@@ -79,6 +79,12 @@ class CompMngrResults():
         if len(fields) != 2:
             print("error", fields)
         return fields[0]
+    
+    
+    def get_heat_info(self, line, heat_string):
+        start_pos = line.find(heat_string) + len(heat_string)
+        remaining_text = line[start_pos:]
+        return remaining_text.strip()
 
     '''The scoresheet results list the shirt number of the couple,
        followed by a space, then the couple names. This routine
@@ -120,6 +126,8 @@ class CompMngrResults():
             heat_string = heat_report.category() + " " + str(heat_report.heat_number()) + entry.extra + ":"
         else:
             heat_string = heat_report.category() + " " + str(heat_report.heat_number()) + ":"
+            
+        heat_info_from_scoresheet = None
 
         # If there are parenthesis in the heat info, the heat has multiple dances
         # For example (W/T/F). 
@@ -204,15 +212,14 @@ class CompMngrResults():
                             
                             # try to find this couple from the scoresheet in the original heat report
                             for index in range(heat_report.length()):
-                                e = heat_report.entry(index)
-                                
-                                # Use the shirt number to determine if we have a match
-                                #if current_competitor.startswith(e.shirt_number):
+                                e = heat_report.entry(index)                                                           
                                     
                                 if e.dancer.startswith(couple_names[0]):
                                     # If the couple was not recalled, their result is the round 
                                     # in which they were eliminated
                                     e.result = result
+                                    
+                                    e.info = heat_info_from_scoresheet
                                                            
                                     # Lookup their points, and exit the loop 
                                     e.points = calc_points(level, result_index, rounds=heat_report.rounds(), accum=accum)
@@ -227,6 +234,7 @@ class CompMngrResults():
                                     # If the couple was not recalled, their result is the round 
                                     # in which they were eliminated
                                     e.result = result
+                                    e.info = heat_info_from_scoresheet
                                     
                                     # Lookup their points, and exit the loop 
                                     e.points = calc_points(level, result_index, rounds=heat_report.rounds(), accum=accum)
@@ -241,6 +249,7 @@ class CompMngrResults():
                                 couple_names = self.get_couple_names(current_competitor)    
                                 late_entry.dancer = couple_names[0] 
                                 late_entry.partner = couple_names[1]
+                                late_entry.info = heat_info_from_scoresheet
                                 late_entry.result = result
                                 late_entry.points = calc_points(level, result_index, rounds=heat_report.rounds(), accum=accum)
                                 
@@ -278,14 +287,16 @@ class CompMngrResults():
                         
                         # loop through all entries on the heatsheet to find a match
                         for index in range(num_competitors):
-                            e = heat_report.entry(index)
-                            #if current_competitor.startswith(e.shirt_number):
+                            e = heat_report.entry(index)  
+
                             if e.dancer.startswith(couple_names[0]):
                                 e.result = result_place
+                                e.info = heat_info_from_scoresheet
                                 break                                
                             elif e.dancer.startswith(couple_names[1]):
                                 e.swap_names()
                                 e.result = result_place
+                                e.info = heat_info_from_scoresheet
                                 break
                             
                         else:    # this code runs when competitor not found in heat
@@ -295,7 +306,7 @@ class CompMngrResults():
                             late_entry.dancer = couple_names[0] 
                             late_entry.partner = couple_names[1]
                             late_entry.result = result_place
-                            #late_entry.points = calc_points(level, result_place, num_competitors=num_competitors, rounds=heat_report.rounds())
+                            late_entry.info = heat_info_from_scoresheet
                             late_entry.code = "LATE"                            
                             heat_report.append(late_entry)
                         
@@ -329,6 +340,8 @@ class CompMngrResults():
                 result = "quarters"    # indicate which round we are in
                 result_index = -1      # use this to pull values from the points table
                 heat_report.set_rounds("Q")
+                if heat_info_from_scoresheet is None:
+                    heat_info_from_scoresheet = self.get_heat_info(line, heat_string)
                 looking_for_recall_column = True  # enter the next state
                 
             # If this check is true, we found Semi-final results for this heat            
@@ -337,11 +350,15 @@ class CompMngrResults():
                 result_index = -2
                 if heat_report.rounds() == "F":
                     heat_report.set_rounds("S")
+                if heat_info_from_scoresheet is None:
+                    heat_info_from_scoresheet = self.get_heat_info(line, heat_string)                
                 looking_for_recall_column = True
             
             # If this check is true, we found the Final results for this heat
             elif heat_string in line and "<p>" in line:   # and "Final" in line:
                 result = "Finals"
+                if heat_info_from_scoresheet is None:
+                    heat_info_from_scoresheet = self.get_heat_info(line, heat_string)                
                 # if this is a single dance event, we can look for the results now
                 if event == "Single Dance":
                     looking_for_result_column = True
@@ -357,7 +374,7 @@ class CompMngrResults():
         return result
 
 
-    def determine_heat_results(self, heat_report):
+    def determine_heat_results(self, heat_report, sorted=True):
         '''This routine extracts the results for a given heat. 
            A heat report is passed in with the entries from the heatsheet.
         '''    
@@ -382,9 +399,7 @@ class CompMngrResults():
                 # process the returned scoresheet
                 result = self.process_response(heat_report, entry)
                 
-                # if this competitor made the finals, quit looping because
-                # we have all the results for this heat
-                #if result == "Finals":
-                #    break
+        if sorted:
+            heat_report.sort()
         
 

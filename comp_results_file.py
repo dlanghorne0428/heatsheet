@@ -51,6 +51,9 @@ class Heat_Result():
         self.heat["title"] = "Unknown Heat"
         self.heat["entries"] = []
         
+    def length(self):
+        return len(self.heat["entries"])
+        
     def sort_entries(self):
         self.heat["entries"].sort(key=itemgetter("place"))
         
@@ -90,17 +93,21 @@ class Comp_Results_File():
         return self.info["comp name"]
         
     def save_heat(self, heat_report):
-        ''' add a set of heat results to the structure.'''
+        ''' add a set of heat results to the structure.'''        
+        index = 0 
+        current_info = heat_report.description()
         heat_result = Heat_Result()
+        heat_result.set_title(current_info)
         
-        # get the title of the heat
-        heat_result.set_title(heat_report.description())
-        
-        # for each entry in the heat
-        for index in range(heat_report.length()):
+        while index < heat_report.length():
             e = heat_report.entry(index)
-            # If there is no result, the entry was on the heatsheet but
-            # did not show up in the scoresheet, so don't put them in the output 
+            if e.info != current_info:
+                if heat_result.length() > 0:
+                    heat_result.sort_entries()
+                    self.info["heats"].append(heat_result.heat)
+                heat_result = Heat_Result()
+                current_info = e.info
+                heat_result.set_title(current_info)
             if e.result is not None:
                 ent_result = Entry_Result()
                 # Write out the couple names, their placement, and the points
@@ -108,9 +115,12 @@ class Comp_Results_File():
                 ent_result.set_place(str(e.result))
                 ent_result.set_points(e.points)
                 heat_result.set_next_entry(ent_result)
-        
-        heat_result.sort_entries()
-        self.info["heats"].append(heat_result.heat)
+            index += 1
+            
+        if heat_result.length() > 0:        
+            heat_result.sort_entries()
+            self.info["heats"].append(heat_result.heat)        
+            
         
     def get_heats(self):
         ''' return all the heat results.'''
