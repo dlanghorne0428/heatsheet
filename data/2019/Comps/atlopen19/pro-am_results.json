@@ -145,14 +145,19 @@
           "points": 10.0
         },
         {
-          "couple": "Miretsky, Natalia and Obreja, Sorin",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Bauer, Kaline and Jones, Rex",
           "place": "2",
           "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-PT2 American Smooth Challenge (W/T/FT)",
+      "entries": [
+        {
+          "couple": "Miretsky, Natalia and Obreja, Sorin",
+          "place": "1",
+          "points": 10.0
         }
       ]
     },
@@ -177,7 +182,7 @@
       ]
     },
     {
-      "title": "G-C Closed Bronze Dancesport Series American Smooth (W/T/FT/VW)",
+      "title": "L-C Closed Bronze Dancesport Series American Smooth (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Hasty, Lisa and Batters, Christjohn",
@@ -247,7 +252,7 @@
       ]
     },
     {
-      "title": "G-C Closed American Smooth Bronze Best of the Best & Scholarship (W/T/F)",
+      "title": "L-C Closed American Smooth Bronze Best of the Best & Scholarship (W/T/F) Semi-final",
       "entries": [
         {
           "couple": "Hasty, Lisa and Batters, Christjohn",
@@ -302,7 +307,7 @@
       ]
     },
     {
-      "title": "L-B Closed American Smooth Bronze Best of the Best & Scholarship (W/T/F)",
+      "title": "L-B Closed American Smooth Bronze Best of the Best & Scholarship (W/T/F) Semi-final",
       "entries": [
         {
           "couple": "Sarnat, Stefanie and Muller, Jari",
@@ -352,7 +357,7 @@
       ]
     },
     {
-      "title": "G-S1 Closed Bronze GLOBAL American Smooth 3 dance Scholarship (W/T/F)",
+      "title": "L-S1 Closed Bronze GLOBAL American Smooth 3 dance Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Traugott, Tom and Archer, Shalene",
@@ -382,7 +387,7 @@
       ]
     },
     {
-      "title": "G-S2 Closed Bronze GLOBAL American Smooth 3 dance Scholarship (W/T/F)",
+      "title": "L-S2 Closed Bronze GLOBAL American Smooth 3 dance Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Wantz, Grove and Vasilyev, Sergey",
@@ -430,14 +435,19 @@
           "points": 10.0
         },
         {
-          "couple": "Best, Diana and Anatoliy, Alosha",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Kelley, Austin and Talley, Alexandria",
           "place": "2",
           "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-SR1 American Smooth Challenge (W/T/FT)",
+      "entries": [
+        {
+          "couple": "Best, Diana and Anatoliy, Alosha",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Wolfsohn, Cynthia and Zagrean, Alex",
@@ -520,19 +530,9 @@
           "points": 10.0
         },
         {
-          "couple": "Rollings, Erica and Trent, Jeff",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Tams, Sabrina and Batters, Christjohn",
           "place": "2",
           "points": 6.0
-        },
-        {
-          "couple": "Blackwell, Amy and Skrypnyk, Oleg",
-          "place": "2",
-          "points": 8.0
         },
         {
           "couple": "Katz, Hanna and Maccarrone, Simone",
@@ -542,22 +542,27 @@
       ]
     },
     {
-      "title": "G-C Closed Silver Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
+      "title": "L-B Closed Silver Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
+      "entries": [
+        {
+          "couple": "Rollings, Erica and Trent, Jeff",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Blackwell, Amy and Skrypnyk, Oleg",
+          "place": "2",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed Silver Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
       "entries": [
         {
           "couple": "Russo, Cheryle and Tilford, Josh",
           "place": "1",
           "points": 10.0
-        },
-        {
-          "couple": "Morehead, Dawn and Simakov, Yuriy",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Quintana, Nick and Pruitt, Natalie",
-          "place": "2",
-          "points": 8.0
         },
         {
           "couple": "Adamczyk, Darcy and Dahl, Gary",
@@ -570,14 +575,29 @@
           "points": 5.0
         },
         {
-          "couple": "Barr, Marty and Baker, Brian",
-          "place": "3",
-          "points": 6.5
-        },
-        {
           "couple": "Rollings, Erica and Trent, Jeff",
           "place": "4",
           "points": 3.0
+        }
+      ]
+    },
+    {
+      "title": "L-C1 Closed Silver Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
+      "entries": [
+        {
+          "couple": "Morehead, Dawn and Simakov, Yuriy",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Quintana, Nick and Pruitt, Natalie",
+          "place": "2",
+          "points": 8.0
+        },
+        {
+          "couple": "Barr, Marty and Baker, Brian",
+          "place": "3",
+          "points": 6.5
         }
       ]
     },
@@ -590,29 +610,44 @@
           "points": 10.0
         },
         {
+          "couple": "Blackwell, Amy and Skrypnyk, Oleg",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-B Open Silver Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
+      "entries": [
+        {
           "couple": "Desjardins, Annick and Simakov, Yuriy",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C Open Silver Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
+      "entries": [
         {
           "couple": "Adamczyk, Darcy and Dahl, Gary",
           "place": "1",
           "points": 10.0
         },
         {
-          "couple": "Keating, Carolyn and Zappia, Enzo",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Blackwell, Amy and Skrypnyk, Oleg",
-          "place": "2",
-          "points": 5.0
-        },
-        {
           "couple": "Sauke, Kimberly and Zappia, Enzo",
           "place": "2",
           "points": 8.0
+        }
+      ]
+    },
+    {
+      "title": "L-C1 Open Silver Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
+      "entries": [
+        {
+          "couple": "Keating, Carolyn and Zappia, Enzo",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Chauvin, Vicki and Barranco, Brandon",
@@ -622,13 +657,18 @@
       ]
     },
     {
-      "title": "G-C Closed Silver Dancesport Series American Smooth (W/T/FT/VW)",
+      "title": "L-A Open Gold Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
       "entries": [
         {
           "couple": "Rifu, Miwa and Walker, Peter",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed Silver Dancesport Series American Smooth (W/T/FT/VW)",
+      "entries": [
         {
           "couple": "Adamczyk, Darcy and Dahl, Gary",
           "place": "1",
@@ -670,34 +710,49 @@
           "points": 10.0
         },
         {
+          "couple": "Divertie, Gavin and Divirtie, Vicky",
+          "place": "2",
+          "points": 6.0
+        },
+        {
+          "couple": "Reynolds, Kelly and Reynolds, Steven",
+          "place": "3",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "title": "G-S1 Gentlemen Open Senior Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
+      "entries": [
+        {
           "couple": "Quintana, Nick and Pruitt, Natalie",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-B Open Gold Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
+      "entries": [
         {
           "couple": "Rifu, Miwa and Walker, Peter",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C1 Open Gold Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
+      "entries": [
         {
           "couple": "Best, Diana and Anatoliy, Alosha",
           "place": "1",
           "points": 10.0
         },
         {
-          "couple": "Divertie, Gavin and Divirtie, Vicky",
-          "place": "2",
-          "points": 6.0
-        },
-        {
           "couple": "Wolfsohn, Cynthia and Zagrean, Alex",
           "place": "2",
           "points": 8.0
-        },
-        {
-          "couple": "Reynolds, Kelly and Reynolds, Steven",
-          "place": "3",
-          "points": 3.0
         }
       ]
     },
@@ -710,14 +765,19 @@
           "points": 10.0
         },
         {
-          "couple": "Shanahan, Lynn and Mosteika, Darius",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Shafer, Eleanor and Tsyhankov, Sasha",
           "place": "2",
           "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-C Open Dancesport Series American Smooth (W/T/FT/VW)",
+      "entries": [
+        {
+          "couple": "Shanahan, Lynn and Mosteika, Darius",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Kaplan, Meredith and Vasilyev, Sergey",
@@ -750,24 +810,29 @@
           "points": 10.0
         },
         {
-          "couple": "Courtney, Jennifer and Walker, Peter",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Bugler, Courtney and Batters, Christjohn",
           "place": "2",
           "points": 6.0
         },
         {
-          "couple": "Lvoff, Mariana and Kosarev, Vladimir",
-          "place": "2",
-          "points": 8.0
-        },
-        {
           "couple": "Katz, Hanna and Maccarrone, Simone",
           "place": "3",
           "points": 3.0
+        }
+      ]
+    },
+    {
+      "title": "L-B Open Dancesport Series American Smooth (W/T/FT/VW)",
+      "entries": [
+        {
+          "couple": "Courtney, Jennifer and Walker, Peter",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Lvoff, Mariana and Kosarev, Vladimir",
+          "place": "2",
+          "points": 8.0
         },
         {
           "couple": "Desjardins, Annick and Simakov, Yuriy",
@@ -777,7 +842,7 @@
       ]
     },
     {
-      "title": "G-C Closed American Smooth Silver Best of the Best & Scholarship (W/T/F/VW)",
+      "title": "L-C Closed American Smooth Silver Best of the Best & Scholarship (W/T/F/VW) Semi-final",
       "entries": [
         {
           "couple": "Adamczyk, Darcy and Dahl, Gary",
@@ -810,6 +875,11 @@
           "points": 6.0
         },
         {
+          "couple": "Weiss, Robin and Walker, Peter",
+          "place": "Semis",
+          "points": 2.4
+        },
+        {
           "couple": "Walters, Rick and Spencer, Alina",
           "place": "Semis",
           "points": 2.4
@@ -818,24 +888,14 @@
           "couple": "Fukunaga, Ed and Judd, Shelley",
           "place": "Semis",
           "points": 2.4
-        },
-        {
-          "couple": "Weiss, Robin and Walker, Peter",
-          "place": "Semis",
-          "points": 2.4
         }
       ]
     },
     {
-      "title": "G-S1 Closed Silver GLOBAL American Smooth 3 dance Scholarship (W/T/F)",
+      "title": "L-A Closed American Smooth Silver Best of the Best & Scholarship (W/T/F/VW)",
       "entries": [
         {
           "couple": "Shafer, Eleanor and Tsyhankov, Sasha",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Morehead, Dawn and Simakov, Yuriy",
           "place": "1",
           "points": 10.0
         },
@@ -845,14 +905,24 @@
           "points": 8.0
         },
         {
-          "couple": "Hajjar, Denise and Walker, Peter",
-          "place": "2",
-          "points": 8.0
-        },
-        {
           "couple": "Katz, Hanna and Maccarrone, Simone",
           "place": "3",
           "points": 6.5
+        }
+      ]
+    },
+    {
+      "title": "L-S1 Closed Silver GLOBAL American Smooth 3 dance Scholarship (W/T/F)",
+      "entries": [
+        {
+          "couple": "Morehead, Dawn and Simakov, Yuriy",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Hajjar, Denise and Walker, Peter",
+          "place": "2",
+          "points": 8.0
         },
         {
           "couple": "Barr, Marty and Baker, Brian",
@@ -880,29 +950,39 @@
           "points": 10.0
         },
         {
+          "couple": "Bugler, Courtney and Batters, Christjohn",
+          "place": "2",
+          "points": 6.0
+        },
+        {
+          "couple": "Blackwell, Amy and Skrypnyk, Oleg",
+          "place": "3",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed American Smooth Gold Best of the Best & Scholarship (W/T/F/VW)",
+      "entries": [
+        {
           "couple": "Grana, Robie and Folker, Ian",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-S2 Closed Silver GLOBAL American Smooth 3 dance Scholarship (W/T/F)",
+      "entries": [
         {
           "couple": "Keating, Carolyn and Zappia, Enzo",
           "place": "1",
           "points": 10.0
         },
         {
-          "couple": "Bugler, Courtney and Batters, Christjohn",
-          "place": "2",
-          "points": 6.0
-        },
-        {
           "couple": "Morehead, Dawn and Simakov, Yuriy",
           "place": "2",
           "points": 8.0
-        },
-        {
-          "couple": "Blackwell, Amy and Skrypnyk, Oleg",
-          "place": "3",
-          "points": 3.0
         },
         {
           "couple": "Parker, Penny and Muller, Jari",
@@ -955,11 +1035,6 @@
           "points": 10.0
         },
         {
-          "couple": "Keating, Carolyn and Zappia, Enzo",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Shafer, Eleanor and Tsyhankov, Sasha",
           "place": "2",
           "points": 6.0
@@ -972,7 +1047,17 @@
       ]
     },
     {
-      "title": "G-S1 Open GLOBAL American Smooth 4 dance Scholarship (W/T/F/VW)",
+      "title": "L-S2 Open GLOBAL American Smooth 4 dance Scholarship (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Keating, Carolyn and Zappia, Enzo",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-B Open American Smooth Open Best of the Best & Scholarship (W/T/F/VW)",
       "entries": [
         {
           "couple": "Rifu, Miwa and Walker, Peter",
@@ -980,14 +1065,19 @@
           "points": 10.0
         },
         {
-          "couple": "Best, Diana and Anatoliy, Alosha",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Lvoff, Mariana and Kosarev, Vladimir",
           "place": "2",
           "points": 8.0
+        }
+      ]
+    },
+    {
+      "title": "L-S1 Open GLOBAL American Smooth 4 dance Scholarship (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Best, Diana and Anatoliy, Alosha",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Grana, Robie and Folker, Ian",
@@ -1022,7 +1112,7 @@
       ]
     },
     {
-      "title": "G-B Closed Bronze Pro/Am 3-Dance Challenge American Rhythm (C/R/SW)",
+      "title": "L-B Closed Bronze Pro/Am 3-Dance Challenge American Rhythm (C/R/SW) Semi-final",
       "entries": [
         {
           "couple": "Seman, Liz and Pylyay, Ihor",
@@ -1055,11 +1145,6 @@
           "points": 6.0
         },
         {
-          "couple": "Rushing, Carl and Romaguera, Kirstyn",
-          "place": "Semis",
-          "points": 2.4
-        },
-        {
           "couple": "Mittoo, Pamela and Spencer, David",
           "place": "Semis",
           "points": 2.4
@@ -1068,11 +1153,16 @@
           "couple": "Bahrambeigian, Kathy and Avanzini, Rafael",
           "place": "Semis",
           "points": 2.4
+        },
+        {
+          "couple": "Rushing, Carl and Romaguera, Kirstyn",
+          "place": "Semis",
+          "points": 2.4
         }
       ]
     },
     {
-      "title": "G-C Closed Bronze Pro/Am 3-Dance Challenge American Rhythm (C/R/SW)",
+      "title": "L-C Closed Bronze Pro/Am 3-Dance Challenge American Rhythm (C/R/SW) Semi-final",
       "entries": [
         {
           "couple": "Belinfante, Lita and DeLa Cruz, Melbin",
@@ -1105,11 +1195,6 @@
           "points": 6.0
         },
         {
-          "couple": "Traugott, Tom and Archer, Shalene",
-          "place": "Semis",
-          "points": 2.4
-        },
-        {
           "couple": "Habibi, Sharon and Moraes, Aghali",
           "place": "Semis",
           "points": 2.4
@@ -1121,6 +1206,11 @@
         },
         {
           "couple": "Pope, Lynette and Baker, Brian",
+          "place": "Semis",
+          "points": 2.4
+        },
+        {
+          "couple": "Traugott, Tom and Archer, Shalene",
           "place": "Semis",
           "points": 2.4
         }
@@ -1180,11 +1270,6 @@
           "points": 10.0
         },
         {
-          "couple": "Page, William and Dingle, Bianca",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Traugott, Tom and Archer, Shalene",
           "place": "2",
           "points": 6.0
@@ -1193,6 +1278,16 @@
           "couple": "Jackson, Robert and Asgarova, Gulnara",
           "place": "3",
           "points": 3.0
+        }
+      ]
+    },
+    {
+      "title": "G-PT1 American Rhythm Challenge (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Page, William and Dingle, Bianca",
+          "place": "1",
+          "points": 10.0
         }
       ]
     },
@@ -1212,13 +1307,18 @@
       ]
     },
     {
-      "title": "G-PT2 American Rhythm Challenge (C/R/SW)",
+      "title": "L-JR2 American Rhythm Challenge (C/R/SW)",
       "entries": [
         {
           "couple": "Larson, Sienna and Rodriquez, Nicolas",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-PT2 American Rhythm Challenge (C/R/SW)",
+      "entries": [
         {
           "couple": "Miretsky, Natalia and Obreja, Sorin",
           "place": "1",
@@ -1237,7 +1337,7 @@
       ]
     },
     {
-      "title": "L-C1 Open Bronze Pro/Am 3-Dance Challenge American Rhythm (C/R/SW)",
+      "title": "L-C1 Open Bronze Pro/Am 3-Dance Challenge American Rhythm (C/R/SW) Final",
       "entries": [
         {
           "couple": "Pack, Becca and DeLa Cruz, Melbin",
@@ -1247,7 +1347,7 @@
       ]
     },
     {
-      "title": "G-C Open Bronze Pro/Am 3-Dance Challenge American Rhythm (C/R/SW)",
+      "title": "L-A Closed Bronze Pro/Am 3-Dance Challenge American Rhythm (C/R/SW)",
       "entries": [
         {
           "couple": "Prigoda, Sylvia and Tsyhankov, Sasha",
@@ -1255,14 +1355,19 @@
           "points": 10.0
         },
         {
-          "couple": "Belinfante, Lita and DeLa Cruz, Melbin",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Bauer, Kaline and Jones, Rex",
           "place": "2",
           "points": 8.0
+        }
+      ]
+    },
+    {
+      "title": "L-C Open Bronze Pro/Am 3-Dance Challenge American Rhythm (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Belinfante, Lita and DeLa Cruz, Melbin",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Taylor, Sherry and Avanzini, Rafael",
@@ -1307,7 +1412,7 @@
       ]
     },
     {
-      "title": "G-C Closed Bronze Dancesport Series American Rhythm (C/R/SW/B)",
+      "title": "L-C Closed Bronze Dancesport Series American Rhythm (C/R/SW/B)",
       "entries": [
         {
           "couple": "Kelley, Amy and Jones, Rex",
@@ -1358,7 +1463,12 @@
           "couple": "Prigoda, Sylvia and Tsyhankov, Sasha",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-B Closed Bronze Dancesport Series American Rhythm (C/R/SW/B)",
+      "entries": [
         {
           "couple": "Price, Kristina and DeLa Cruz, Melbin",
           "place": "1",
@@ -1398,24 +1508,14 @@
           "couple": "Page, Jonathan and Page, Mariana",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-A Closed Silver Pro/Am 3-Dance Challenge American Rhythm (C/R/SW)",
+      "entries": [
         {
           "couple": "Shafer, Eleanor and Tsyhankov, Sasha",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Blackwell, Amy and Skrypnyk, Oleg",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Russo, Cheryle and Tilford, Josh",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Morehead, Dawn and Simakov, Yuriy",
           "place": "1",
           "points": 10.0
         },
@@ -1432,13 +1532,48 @@
       ]
     },
     {
-      "title": "L-B Open Silver Pro/Am 3-Dance Challenge American Rhythm (C/R/SW)",
+      "title": "L-B Closed Silver Pro/Am 3-Dance Challenge American Rhythm (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Blackwell, Amy and Skrypnyk, Oleg",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed Silver Pro/Am 3-Dance Challenge American Rhythm (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Russo, Cheryle and Tilford, Josh",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-C1 Closed Silver Pro/Am 3-Dance Challenge American Rhythm (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Morehead, Dawn and Simakov, Yuriy",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-B Open Silver Pro/Am 3-Dance Challenge American Rhythm (C/R/SW) Final",
       "entries": [
         {
           "couple": "Desjardins, Annick and Simakov, Yuriy",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C1 Open Silver Pro/Am 3-Dance Challenge American Rhythm (C/R/SW) Final",
+      "entries": [
         {
           "couple": "Chauvin, Vicki and Barranco, Brandon",
           "place": "1",
@@ -1447,18 +1582,28 @@
       ]
     },
     {
-      "title": "L-B Closed Gold Pro/Am 3-Dance Challenge American Rhythm (C/R/SW)",
+      "title": "L-B Closed Gold Pro/Am 3-Dance Challenge American Rhythm (C/R/SW) Final",
       "entries": [
         {
           "couple": "Van Beuren, Kim and Avanzini, Rafael",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed Gold Pro/Am 3-Dance Challenge American Rhythm (C/R/SW) Final",
+      "entries": [
         {
           "couple": "Ortega, Ana and Kosarev, Vladimir",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C1 Closed Gold Pro/Am 3-Dance Challenge American Rhythm (C/R/SW) Final",
+      "entries": [
         {
           "couple": "McLeod, Leslie and DeLa Cruz, Melbin",
           "place": "1",
@@ -1473,12 +1618,22 @@
           "couple": "Page, Jonathan and Page, Mariana",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "G-C Gentlemen Closed Silver Pro/Am 3-Dance Challenge American Rhythm (C/R/SW)",
+      "entries": [
         {
           "couple": "Wicklund, Bruce and Marie, Vonnie",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-SR1 American Rhythm Challenge (C/R/SW)",
+      "entries": [
         {
           "couple": "Best, Diana and Anatoliy, Alosha",
           "place": "1",
@@ -1510,29 +1665,44 @@
           "points": 10.0
         },
         {
+          "couple": "Katz, Hanna and Maccarrone, Simone",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-B Closed Silver Dancesport Series American Rhythm (C/R/SW/B)",
+      "entries": [
+        {
           "couple": "Blackwell, Amy and Skrypnyk, Oleg",
           "place": "1",
           "points": 10.0
         },
         {
+          "couple": "Tams, Sabrina and Batters, Christjohn",
+          "place": "2",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed Silver Dancesport Series American Rhythm (C/R/SW/B)",
+      "entries": [
+        {
           "couple": "Russo, Cheryle and Tilford, Josh",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C1 Open Gold Pro/Am 3-Dance Challenge American Rhythm (C/R/SW)",
+      "entries": [
         {
           "couple": "Best, Diana and Anatoliy, Alosha",
           "place": "1",
           "points": 10.0
-        },
-        {
-          "couple": "Katz, Hanna and Maccarrone, Simone",
-          "place": "2",
-          "points": 5.0
-        },
-        {
-          "couple": "Tams, Sabrina and Batters, Christjohn",
-          "place": "2",
-          "points": 7.0
         },
         {
           "couple": "McLeod, Leslie and DeLa Cruz, Melbin",
@@ -1565,24 +1735,29 @@
           "points": 10.0
         },
         {
-          "couple": "Lvoff, Mariana and Kosarev, Vladimir",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Shafer, Eleanor and Tsyhankov, Sasha",
           "place": "2",
           "points": 6.0
         },
         {
-          "couple": "Bugler, Courtney and Batters, Christjohn",
-          "place": "2",
-          "points": 8.0
-        },
-        {
           "couple": "Newman, Dominique and Wayne, Christopher",
           "place": "3",
           "points": 3.0
+        }
+      ]
+    },
+    {
+      "title": "L-B Open Dancesport Series American Rhythm (C/R/SW/B/MA)",
+      "entries": [
+        {
+          "couple": "Lvoff, Mariana and Kosarev, Vladimir",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Bugler, Courtney and Batters, Christjohn",
+          "place": "2",
+          "points": 8.0
         },
         {
           "couple": "Van Beuren, Kim and Avanzini, Rafael",
@@ -1597,7 +1772,7 @@
       ]
     },
     {
-      "title": "G-C Closed American Rhythm Bronze Best of the Best & Scholarship (C/R/SW)",
+      "title": "L-C Closed American Rhythm Bronze Best of the Best & Scholarship (C/R/SW) Semi-final",
       "entries": [
         {
           "couple": "Kelley, Amy and Jones, Rex",
@@ -1647,7 +1822,7 @@
       ]
     },
     {
-      "title": "L-B Closed American Rhythm Bronze Best of the Best & Scholarship (C/R/SW)",
+      "title": "L-B Closed American Rhythm Bronze Best of the Best & Scholarship (C/R/SW) Semi-final",
       "entries": [
         {
           "couple": "Seman, Liz and Pylyay, Ihor",
@@ -1692,7 +1867,7 @@
       ]
     },
     {
-      "title": "L-S1 Closed Bronze GLOBAL American Rhythm 3 dance Scholarship (C/R/SW)",
+      "title": "L-S1 Closed Bronze GLOBAL American Rhythm 3 dance Scholarship (C/R/SW) Final",
       "entries": [
         {
           "couple": "Pack, Becca and DeLa Cruz, Melbin",
@@ -1722,13 +1897,18 @@
       ]
     },
     {
-      "title": "L-S1 Closed Silver GLOBAL American Rhythm 3 dance Scholarship (C/R/SW)",
+      "title": "L-S1 Closed Silver GLOBAL American Rhythm 3 dance Scholarship (C/R/SW) Final",
       "entries": [
         {
           "couple": "Grana, Robie and Folker, Ian",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-S2 Closed Bronze GLOBAL American Rhythm 3 dance Scholarship (C/R/SW) Final",
+      "entries": [
         {
           "couple": "Hinz, Martha and Jones, Rex",
           "place": "1",
@@ -1763,7 +1943,12 @@
           "couple": "Prigoda, Sylvia and Tsyhankov, Sasha",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed American Rhythm Silver Best of the Best & Scholarship (C/R/SW/B)",
+      "entries": [
         {
           "couple": "Grana, Robie and Folker, Ian",
           "place": "1",
@@ -1785,14 +1970,19 @@
           "points": 10.0
         },
         {
-          "couple": "Best, Diana and Anatoliy, Alosha",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Blackwell, Amy and Skrypnyk, Oleg",
           "place": "2",
           "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-S1 Open GLOBAL American Rhythm 4 dance Scholarship (C/R/SW/B)",
+      "entries": [
+        {
+          "couple": "Best, Diana and Anatoliy, Alosha",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Oxman, Shari and Balasanyan, Hayk",
@@ -1820,24 +2010,29 @@
           "points": 10.0
         },
         {
-          "couple": "Best, Diana and Anatoliy, Alosha",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Bugler, Courtney and Batters, Christjohn",
           "place": "2",
           "points": 6.0
         },
         {
-          "couple": "Oxman, Shari and Balasanyan, Hayk",
-          "place": "2",
-          "points": 8.0
-        },
-        {
           "couple": "Van Beuren, Kim and Avanzini, Rafael",
           "place": "3",
           "points": 3.0
+        }
+      ]
+    },
+    {
+      "title": "L-C Open American Rhythm Open Best of the Best & Scholarship (C/R/SW/B/MA)",
+      "entries": [
+        {
+          "couple": "Best, Diana and Anatoliy, Alosha",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Oxman, Shari and Balasanyan, Hayk",
+          "place": "2",
+          "points": 8.0
         }
       ]
     },
@@ -1850,24 +2045,19 @@
           "points": 10.0
         },
         {
-          "couple": "Fuentes, Maria and Bennett, Kemar",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Van Beuren, Kim and Avanzini, Rafael",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Ortega, Ana and Kosarev, Vladimir",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Page, Jonathan and Page, Mariana",
           "place": "2",
           "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-A Open American Rhythm Open Best of the Best & Scholarship (C/R/SW/B/MA)",
+      "entries": [
+        {
+          "couple": "Fuentes, Maria and Bennett, Kemar",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Shafer, Eleanor and Tsyhankov, Sasha",
@@ -1882,7 +2072,27 @@
       ]
     },
     {
-      "title": "G-C Closed Bronze Pro/Am 3-Dance Challenge International Ballroom (W/T/QS)",
+      "title": "L-B Closed American Rhythm Gold Best of the Best & Scholarship (C/R/SW/B/MA)",
+      "entries": [
+        {
+          "couple": "Van Beuren, Kim and Avanzini, Rafael",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed American Rhythm Gold Best of the Best & Scholarship (C/R/SW/B/MA)",
+      "entries": [
+        {
+          "couple": "Ortega, Ana and Kosarev, Vladimir",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed Bronze Pro/Am 3-Dance Challenge International Ballroom (W/T/QS)",
       "entries": [
         {
           "couple": "Ballard, Susan and Vdovichenko, Vitaliy",
@@ -1922,15 +2132,20 @@
       ]
     },
     {
-      "title": "G-C1 Closed Bronze Pro/Am 3-Dance Challenge International Ballroom (W/T/QS)",
+      "title": "L-A Closed Bronze Pro/Am 3-Dance Challenge International Ballroom (W/T/QS)",
+      "entries": [
+        {
+          "couple": "Wright, Erin and Trent, Jeff",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-C1 Closed Bronze Pro/Am 3-Dance Challenge International Ballroom (W/T/QS)",
       "entries": [
         {
           "couple": "Ogawa, Mitsuji and Chorbadzhieva, Angelina",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Wright, Erin and Trent, Jeff",
           "place": "1",
           "points": 10.0
         },
@@ -1952,7 +2167,7 @@
       ]
     },
     {
-      "title": "A-PT2 Solo Star Closed Bronze Amateur International Ballroom (W/QS)",
+      "title": "L-B Closed Bronze Pro/Am 3-Dance Challenge International Ballroom (W/T/QS)",
       "entries": [
         {
           "couple": "Rollings, Erica and Trent, Jeff",
@@ -2005,24 +2220,34 @@
           "points": 10.0
         },
         {
-          "couple": "Ogawa, Mitsuji and Chorbadzhieva, Angelina",
-          "place": "1",
-          "points": 10.0
-        },
+          "couple": "Snyder, Jim and Cooper, Katya",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-A Closed Bronze Dancesport Series International Ballroom (W/T/F/QS)",
+      "entries": [
         {
           "couple": "Wright, Erin and Trent, Jeff",
           "place": "1",
           "points": 10.0
         },
         {
-          "couple": "Snyder, Jim and Cooper, Katya",
-          "place": "2",
-          "points": 5.0
-        },
-        {
           "couple": "Prigoda, Sylvia and Gorianskyi, Oleg",
           "place": "2",
           "points": 8.0
+        }
+      ]
+    },
+    {
+      "title": "L-S1 Closed Bronze GLOBAL International Ballroom 3 dance Scholarship (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Ogawa, Mitsuji and Chorbadzhieva, Angelina",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Carty, Chandra and Folker, Ian",
@@ -2032,7 +2257,7 @@
       ]
     },
     {
-      "title": "G-C Closed International Ballroom Bronze Best of the Best & Scholarship (W/T/Q)",
+      "title": "L-C Closed International Ballroom Bronze Best of the Best & Scholarship (W/T/Q)",
       "entries": [
         {
           "couple": "Ballard, Susan and Vdovichenko, Vitaliy",
@@ -2073,7 +2298,12 @@
           "couple": "Wright, Erin and Trent, Jeff",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-B Closed International Ballroom Bronze Best of the Best & Scholarship (W/T/Q)",
+      "entries": [
         {
           "couple": "Russo, Cheryle and Tilford, Josh",
           "place": "1",
@@ -2092,15 +2322,10 @@
       ]
     },
     {
-      "title": "G-C1 Closed Silver Pro/Am 3-Dance Challenge International Ballroom (W/T/QS)",
+      "title": "L-C Open Silver Pro/Am 3-Dance Challenge International Ballroom (W/T/QS)",
       "entries": [
         {
           "couple": "Swatty, JoAnn and Richmond, Jim",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Abraham, Sheila and Vasilyev, Sergey",
           "place": "1",
           "points": 10.0
         },
@@ -2110,14 +2335,24 @@
           "points": 8.0
         },
         {
-          "couple": "Miller, Andrea and Reinbold, Martin",
-          "place": "2",
-          "points": 8.0
-        },
-        {
           "couple": "Yang, Lisa and Smit, Izak",
           "place": "3",
           "points": 6.5
+        }
+      ]
+    },
+    {
+      "title": "L-C1 Closed Silver Pro/Am 3-Dance Challenge International Ballroom (W/T/QS)",
+      "entries": [
+        {
+          "couple": "Abraham, Sheila and Vasilyev, Sergey",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Miller, Andrea and Reinbold, Martin",
+          "place": "2",
+          "points": 8.0
         },
         {
           "couple": "Stafford, Bonnie and Vdovichenko, Vitaliy",
@@ -2143,24 +2378,14 @@
           "couple": "Hsu, Linda and Richmond, Jim",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed Silver Pro/Am 3-Dance Challenge International Ballroom (W/T/QS)",
+      "entries": [
         {
           "couple": "Adamczyk, Darcy and Dahl, Gary",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Sarangaya, Susana and Kuzmin, Pavel",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Wolfsohn, Cynthia and Zagrean, Alex",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Best, Diana and Gorianskyi, Oleg",
           "place": "1",
           "points": 10.0
         },
@@ -2177,13 +2402,48 @@
       ]
     },
     {
+      "title": "L-C Open Gold Pro/Am 3-Dance Challenge International Ballroom (W/T/QS)",
+      "entries": [
+        {
+          "couple": "Sarangaya, Susana and Kuzmin, Pavel",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-C1 Open Gold Pro/Am 3-Dance Challenge International Ballroom (W/T/QS)",
+      "entries": [
+        {
+          "couple": "Wolfsohn, Cynthia and Zagrean, Alex",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-C1 Open Silver Pro/Am 3-Dance Challenge International Ballroom (W/T/QS)",
+      "entries": [
+        {
+          "couple": "Best, Diana and Gorianskyi, Oleg",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
       "title": "AC- Amateur Senior Ballroom (W/T/FT/QS)",
       "entries": [
         {
           "couple": "Wang, Ming and Yang, Chenhua",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed Silver Dancesport Series International Ballroom (W/T/F/QS)",
+      "entries": [
         {
           "couple": "Kaplan, Meredith and Vasilyev, Sergey",
           "place": "1",
@@ -2215,14 +2475,19 @@
           "points": 10.0
         },
         {
-          "couple": "Wolfsohn, Cynthia and Zagrean, Alex",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Pratico, Bob and Kark, Alyssa",
           "place": "2",
           "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-SR1 International Ballroom Challenge (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Wolfsohn, Cynthia and Zagrean, Alex",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Stafford, Bonnie and Vdovichenko, Vitaliy",
@@ -2242,20 +2507,20 @@
       ]
     },
     {
-      "title": "G-C Open Dancesport Series International Ballroom (W/T/VW/F/QS)",
+      "title": "L-B Open Dancesport Series International Ballroom (W/T/VW/F/QS)",
       "entries": [
         {
           "couple": "Kajiwara, Kay and Maleckis, Robertas",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C Open Dancesport Series International Ballroom (W/T/VW/F/QS)",
+      "entries": [
         {
           "couple": "Matsumoto, Kako and Issaev, Basil",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Wixson, Elisabeth and Vdovichenko, Vitaliy",
           "place": "1",
           "points": 10.0
         },
@@ -2263,11 +2528,6 @@
           "couple": "Wang, Ming and Archer, Shalene",
           "place": "2",
           "points": 7.0
-        },
-        {
-          "couple": "Wappel, Vy and Daniells, Paul",
-          "place": "2",
-          "points": 8.0
         },
         {
           "couple": "Sarangaya, Susana and Kuzmin, Pavel",
@@ -2282,30 +2542,35 @@
       ]
     },
     {
-      "title": "AC-JR1 International Ballroom Challenge (W/T/Q)",
+      "title": "L-SR2 International Ballroom Challenge (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Wixson, Elisabeth and Vdovichenko, Vitaliy",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Wappel, Vy and Daniells, Paul",
+          "place": "2",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "title": "AC-JR1 International Ballroom Challenge (W/T/Q) Final",
       "entries": [
         {
           "couple": "Zhao, Larry and Liu, Yulia",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "AC-JR2 International Ballroom Challenge (W/T/Q) Final",
+      "entries": [
         {
           "couple": "Greenberg, Evan and Simanovich, Victoria",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Lesesne, Christopher and Krivosheev, Anastasia",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Clemens, Austin and Penatzer, Katerina",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Grigorian, Anna and Reinbold, Martin",
           "place": "1",
           "points": 10.0
         },
@@ -2313,6 +2578,36 @@
           "couple": "Melnichenko, Steven and Rutter, Chloe",
           "place": "2",
           "points": 6.0
+        }
+      ]
+    },
+    {
+      "title": "AC-PT1 International Ballroom Challenge (W/T/Q) Final",
+      "entries": [
+        {
+          "couple": "Lesesne, Christopher and Krivosheev, Anastasia",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "AC-PT2 International Ballroom Challenge (W/T/Q) Final",
+      "entries": [
+        {
+          "couple": "Clemens, Austin and Penatzer, Katerina",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-JR1 International Ballroom Challenge (W/T/Q) Final",
+      "entries": [
+        {
+          "couple": "Grigorian, Anna and Reinbold, Martin",
+          "place": "1",
+          "points": 10.0
         }
       ]
     },
@@ -2347,20 +2642,10 @@
       ]
     },
     {
-      "title": "G-S1 Open GLOBAL International Ballroom 4 dance Scholarship (W/T/F/Q)",
+      "title": "L-S1 Open GLOBAL International Ballroom 4 dance Scholarship (W/T/F/Q)",
       "entries": [
         {
           "couple": "Wolfsohn, Cynthia and Zagrean, Alex",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Miller, Andrea and Reinbold, Martin",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Wappel, Vy and Daniells, Paul",
           "place": "1",
           "points": 10.0
         },
@@ -2370,19 +2655,39 @@
           "points": 6.0
         },
         {
+          "couple": "Pratico, Bob and Kark, Alyssa",
+          "place": "3",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "title": "L-S2 Closed Silver GLOBAL International Ballroom 3 dance Scholarship (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Miller, Andrea and Reinbold, Martin",
+          "place": "1",
+          "points": 10.0
+        },
+        {
           "couple": "Wixson, Elisabeth and Vdovichenko, Vitaliy",
           "place": "2",
           "points": 8.0
+        }
+      ]
+    },
+    {
+      "title": "L-S2 Open GLOBAL International Ballroom 4 dance Scholarship (W/T/F/Q)",
+      "entries": [
+        {
+          "couple": "Wappel, Vy and Daniells, Paul",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Parker, Penny and Muller, Jari",
           "place": "2",
           "points": 8.0
-        },
-        {
-          "couple": "Pratico, Bob and Kark, Alyssa",
-          "place": "3",
-          "points": 3.0
         }
       ]
     },
@@ -2417,18 +2722,28 @@
       ]
     },
     {
-      "title": "G-C Open International Ballroom Open Best of the Best & Scholarship (W/T/VW/F/Q)",
+      "title": "L-B Closed International Ballroom Gold Best of the Best & Scholarship (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "DiCarlo, Letizia and Drobny, Mario",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed International Ballroom Gold Best of the Best & Scholarship (W/T/VW/F/Q)",
+      "entries": [
         {
           "couple": "Best, Diana and Gorianskyi, Oleg",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C Open International Ballroom Open Best of the Best & Scholarship (W/T/VW/F/Q)",
+      "entries": [
         {
           "couple": "Simsic, Janet and Stefano, Andrea",
           "place": "1",
@@ -2458,12 +2773,22 @@
           "couple": "Shafer, Eleanor and Gorianskyi, Oleg",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-B Closed International Ballroom Silver Best of the Best & Scholarship (W/T/F/Q)",
+      "entries": [
         {
           "couple": "Sarnat, Stefanie and Muller, Jari",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-B Open International Ballroom Open Best of the Best & Scholarship (W/T/VW/F/Q)",
+      "entries": [
         {
           "couple": "Bradford, Jill and Stefano, Andrea",
           "place": "1",
@@ -2487,7 +2812,7 @@
       ]
     },
     {
-      "title": "A-PT2 Solo Star Closed Bronze Amateur International Latin (C/R)",
+      "title": "L-C Closed Bronze Pro/Am 3-Dance Challenge International Latin (C/S/R)",
       "entries": [
         {
           "couple": "Russo, Cheryle and Tilford, Josh",
@@ -2512,18 +2837,8 @@
       ]
     },
     {
-      "title": "G-C1 Closed Bronze Pro/Am 3-Dance Challenge International Latin (C/S/R)",
+      "title": "L-A Closed Bronze Pro/Am 3-Dance Challenge International Latin (C/S/R)",
       "entries": [
-        {
-          "couple": "Manafi, Nooshin and Chen, Jonathan",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Barr, Marty and Baker, Brian",
-          "place": "1",
-          "points": 10.0
-        },
         {
           "couple": "Pope and Archer",
           "place": "1",
@@ -2533,11 +2848,31 @@
           "couple": "Wright, Erin and Trent, Jeff",
           "place": "2",
           "points": 8.0
+        }
+      ]
+    },
+    {
+      "title": "L-B Closed Bronze Pro/Am 3-Dance Challenge International Latin (C/S/R)",
+      "entries": [
+        {
+          "couple": "Manafi, Nooshin and Chen, Jonathan",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Horneff, Lauren and Robatsenko, Vlad",
           "place": "2",
           "points": 8.0
+        }
+      ]
+    },
+    {
+      "title": "L-C1 Closed Bronze Pro/Am 3-Dance Challenge International Latin (C/S/R)",
+      "entries": [
+        {
+          "couple": "Barr, Marty and Baker, Brian",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Ogawa, Machiko and Maccarrone, Simone",
@@ -2558,22 +2893,42 @@
           "couple": "Zherdetski, Julia and ",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "G-C Gentlemen Closed Bronze Pro/Am 3-Dance Challenge International Latin (C/S/R)",
+      "entries": [
         {
           "couple": "Snyder, Jim and Cooper, Katya",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-B Closed Bronze Dancesport Series International Latin (C/S/R/J)",
+      "entries": [
         {
           "couple": "Horneff, Lauren and Robatsenko, Vlad",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-B Open Bronze Pro/Am 3-Dance Challenge International Latin (C/S/R)",
+      "entries": [
         {
           "couple": "Barkey, Shannon and Maleshko, Max",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed Bronze Dancesport Series International Latin (C/S/R/J)",
+      "entries": [
         {
           "couple": "Russo, Cheryle and Tilford, Josh",
           "place": "1",
@@ -2587,37 +2942,12 @@
       ]
     },
     {
-      "title": "G-C1 Closed Silver Pro/Am 3-Dance Challenge International Latin (C/S/R)",
+      "title": "L-A Closed Silver Pro/Am 3-Dance Challenge International Latin (C/S/R)",
       "entries": [
         {
           "couple": "Ellmer, Chelsey and Klyukin, Yergeny",
           "place": "1",
           "points": 10.0
-        },
-        {
-          "couple": "Prata, Aura and Mulyavka, Ivan",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Cirault, Lisele and Senken, David",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Kaplan, Beth and Bartashevich, Genya",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Zherdetski, Julia and Robatsenko, Vlad",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Chen, Hsin-Chu and Cooper, Katya",
-          "place": "2",
-          "points": 5.0
         },
         {
           "couple": "Rhode, Jamie and Wayne, Christopher",
@@ -2627,18 +2957,73 @@
       ]
     },
     {
-      "title": "A-PT2 Solo Star Closed Gold Amateur International Latin (C/S/R)",
+      "title": "L-A Open Silver Pro/Am 3-Dance Challenge International Latin (C/S/R)",
+      "entries": [
+        {
+          "couple": "Prata, Aura and Mulyavka, Ivan",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed Silver Pro/Am 3-Dance Challenge International Latin (C/S/R)",
+      "entries": [
+        {
+          "couple": "Cirault, Lisele and Senken, David",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-C1 Closed Silver Pro/Am 3-Dance Challenge International Latin (C/S/R)",
+      "entries": [
+        {
+          "couple": "Kaplan, Beth and Bartashevich, Genya",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Chen, Hsin-Chu and Cooper, Katya",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-PT2 International Latin Challenge (C/S/R)",
+      "entries": [
+        {
+          "couple": "Zherdetski, Julia and Robatsenko, Vlad",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "A-PT2 Solo Star Closed Gold Amateur International Latin (C/S/R) Final",
       "entries": [
         {
           "couple": "Zherdetski, Julia and ",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "AC-PT1 International Latin Challenge (C/S/R) Final",
+      "entries": [
         {
           "couple": "Lesesne, Christopher and Krivosheev, Anastasia",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-SR1 International Latin Challenge (C/S/R) Final",
+      "entries": [
         {
           "couple": "Stafford, Bonnie and Vdovichenko, Vitaliy",
           "place": "1",
@@ -2652,23 +3037,38 @@
       ]
     },
     {
-      "title": "L-A Closed Silver Dancesport Series International Latin (C/S/R/J)",
+      "title": "L-A Closed Silver Dancesport Series International Latin (C/S/R/J) Final",
       "entries": [
         {
           "couple": "Ellmer, Chelsey and Klyukin, Yergeny",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-A Open Dancesport Series International Latin (C/S/R/PD/J) Final",
+      "entries": [
         {
           "couple": "Cordaro, Alex and Maleckis, Robertas",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-A Open Gold Pro/Am 3-Dance Challenge International Latin (C/S/R) Final",
+      "entries": [
         {
           "couple": "Prata, Aura and Mulyavka, Ivan",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C1 Open Gold Pro/Am 3-Dance Challenge International Latin (C/S/R) Final",
+      "entries": [
         {
           "couple": "Stafford, Bonnie and Vdovichenko, Vitaliy",
           "place": "1",
@@ -2683,19 +3083,24 @@
           "couple": "Wang, Ming and Yang, Chenhua",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-B Open Dancesport Series International Latin (C/S/R/PD/J)",
+      "entries": [
         {
           "couple": "Gintautiene, Victoria and Maleckis, Robertas",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C Open Dancesport Series International Latin (C/S/R/PD/J)",
+      "entries": [
         {
           "couple": "Bennington, Andrea and Mulyavka, Ivan",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Wixson, Elisabeth and Vdovichenko, Vitaliy",
           "place": "1",
           "points": 10.0
         },
@@ -2707,25 +3112,30 @@
       ]
     },
     {
+      "title": "L-SR2 International Latin Challenge (C/S/R)",
+      "entries": [
+        {
+          "couple": "Wixson, Elisabeth and Vdovichenko, Vitaliy",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
       "title": "AC-JR1 International Latin Challenge (C/S/R)",
       "entries": [
         {
           "couple": "Zhao, Larry and Liu, Yulia",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "AC-JR2 International Latin Challenge (C/S/R)",
+      "entries": [
         {
           "couple": "Greenberg, Evan and Simanovich, Victoria",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Polunin, Natan and Gorokhov, Lily",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Zherdetski, Julia and Robatsenko, Vlad",
           "place": "1",
           "points": 10.0
         },
@@ -2733,11 +3143,31 @@
           "couple": "Melnichenko, Steven and Rutter, Chloe",
           "place": "2",
           "points": 6.0
+        }
+      ]
+    },
+    {
+      "title": "AC-PT2 International Latin Challenge (C/S/R)",
+      "entries": [
+        {
+          "couple": "Polunin, Natan and Gorokhov, Lily",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Clemens, Austin and Penatzer, Katerina",
           "place": "2",
           "points": 8.0
+        }
+      ]
+    },
+    {
+      "title": "L-JR1 International Latin Challenge (C/S/R)",
+      "entries": [
+        {
+          "couple": "Zherdetski, Julia and Robatsenko, Vlad",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Dade, Makenna and Maccarrone, Simone",
@@ -2747,25 +3177,20 @@
       ]
     },
     {
-      "title": "G-A Closed International Latin Bronze Best of the Best & Scholarship (C/S/R)",
+      "title": "G-A Closed International Latin Bronze Best of the Best & Scholarship (C/S/R) Final",
       "entries": [
         {
           "couple": "Pope, Rand and Archer, Shalene",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-B Closed International Latin Bronze Best of the Best & Scholarship (C/S/R)",
+      "entries": [
         {
           "couple": "Barkey, Shannon and Maleshko, Max",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Kaplan, Beth and Bartashevich, Genya",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Wixson, Elisabeth and Vdovichenko, Vitaliy",
           "place": "1",
           "points": 10.0
         },
@@ -2778,6 +3203,26 @@
           "couple": "Manafi, Nooshin and Chen, Jonathan",
           "place": "3",
           "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-S1 Closed Silver GLOBAL International Latin 3 dance Scholarship (C/S/R) Final",
+      "entries": [
+        {
+          "couple": "Kaplan, Beth and Bartashevich, Genya",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-S2 Closed Silver GLOBAL International Latin 3 dance Scholarship (C/S/R) Final",
+      "entries": [
+        {
+          "couple": "Wixson, Elisabeth and Vdovichenko, Vitaliy",
+          "place": "1",
+          "points": 10.0
         }
       ]
     },
@@ -2790,24 +3235,29 @@
           "points": 10.0
         },
         {
-          "couple": "Barr, Marty and Baker, Brian",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Russo, Cheryle and Tilford, Josh",
           "place": "2",
           "points": 6.0
         },
         {
-          "couple": "Ogawa, Machiko and Maccarrone, Simone",
-          "place": "2",
-          "points": 8.0
-        },
-        {
           "couple": "Manafi, Nooshin and Chen, Jonathan",
           "place": "3",
           "points": 3.0
+        }
+      ]
+    },
+    {
+      "title": "L-S1 Closed Bronze GLOBAL International Latin 3 dance Scholarship (C/S/R)",
+      "entries": [
+        {
+          "couple": "Barr, Marty and Baker, Brian",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Ogawa, Machiko and Maccarrone, Simone",
+          "place": "2",
+          "points": 8.0
         }
       ]
     },
@@ -2820,14 +3270,19 @@
           "points": 10.0
         },
         {
-          "couple": "DiCarlo, Letizia and Drobny, Mario",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Rhode, Jamie and Wayne, Christopher",
           "place": "2",
           "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-B Open International Latin Open Best of the Best & Scholarship (C/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "DiCarlo, Letizia and Drobny, Mario",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Gintautiene, Victoria and Maleckis, Robertas",
@@ -2850,14 +3305,19 @@
           "points": 10.0
         },
         {
-          "couple": "Switzer, Sara and Balasanyan, Hayk",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Cirault, Lisele and Senken, David",
           "place": "2",
           "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-S1 Open GLOBAL International Latin 4 dance Scholarship (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Switzer, Sara and Balasanyan, Hayk",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Caracciolo, Dianne and Klyukin, Yergeny",
@@ -2885,19 +3345,29 @@
           "points": 10.0
         },
         {
+          "couple": "Lucius, Bailey and Senken, David",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-B Closed International Latin Gold Best of the Best & Scholarship (C/S/R/PD/J) Final",
+      "entries": [
+        {
           "couple": "DiCarlo, Letizia and Drobny, Mario",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C Open International Latin Open Best of the Best & Scholarship (C/S/R/PD/J)",
+      "entries": [
         {
           "couple": "Bennington, Andrea and Mulyavka, Ivan",
           "place": "1",
           "points": 10.0
-        },
-        {
-          "couple": "Lucius, Bailey and Senken, David",
-          "place": "2",
-          "points": 5.0
         },
         {
           "couple": "Switzer, Sara and Balasanyan, Hayk",
@@ -2917,7 +3387,7 @@
       ]
     },
     {
-      "title": "AC- Amateur Open Championship Ballroom (W/T/VW/FT/QS)",
+      "title": "AC- Amateur Open Championship Ballroom (W/T/VW/FT/QS) Final",
       "entries": [
         {
           "couple": "Wang, Ming and Yang, Chenhua",
@@ -2927,7 +3397,7 @@
       ]
     },
     {
-      "title": "AC- Amateur Open Championship Latin (C/S/R/PD/J)",
+      "title": "AC- Amateur Open Championship Latin (C/S/R/PD/J) Final",
       "entries": [
         {
           "couple": "Alico, Junis and Rakitska, Deniter",
