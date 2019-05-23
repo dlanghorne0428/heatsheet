@@ -846,7 +846,7 @@ class HelloFrame(wx.Frame):
         if report.length() > 0:
             
             # get the results of this heat
-            print("Processing", report.heat_number())
+#            print("Processing", report.heat_number())
             self.scoresheet.determine_heat_results(report)
             for index in range(report.length()):
                 e = report.entry(index)
@@ -855,17 +855,15 @@ class HelloFrame(wx.Frame):
                 if e.code == "LATE":
                     curr_item = self.list_ctrl.GetItem(self.item_index, 0)
                     self.list_ctrl.InsertItem(curr_item)  
-                    self.list_ctrl.SetItem(self.item_index, 0, h.category)
-                    self.list_ctrl.SetItem(self.item_index, 1, str(h.heat_number) + e.extra)
-                    t = self.list_ctrl.GetItemText(self.item_index - 1, 2)
-                    self.list_ctrl.SetItem(self.item_index, 2, t)
-                    self.list_ctrl.SetItem(self.item_index, 3, e.info)        
-                    self.list_ctrl.SetItem(self.item_index, 4, e.shirt_number)
-                
+                    
+                # for all couples, update the info from the heat report on the GUI
+                self.list_ctrl.SetItem(self.item_index, 0, e.category)
+                self.list_ctrl.SetItem(self.item_index, 1, str(e.heat_number) + e.extra)
+                self.list_ctrl.SetItem(self.item_index, 2, e.time)
                 # the names may have been re-ordered by processing the scoresheet
-                # for all couples, update the names and add the result to the GUI
                 couple_names = e.dancer + " and " + e.partner
-                self.list_ctrl.SetItem(self.item_index, 3, e.info)    
+                self.list_ctrl.SetItem(self.item_index, 3, e.info)   
+                self.list_ctrl.SetItem(self.item_index, 4, e.shirt_number)
                 self.list_ctrl.SetItem(self.item_index, 5, couple_names)    
                 self.list_ctrl.SetItem(self.item_index, Results_Column, str(e.result))
                 self.item_index += 1
