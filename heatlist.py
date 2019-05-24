@@ -1,5 +1,5 @@
 from operator import itemgetter
-from heat import Heat, Heat_Report
+from heat import Heat, Heat_Report, dance_style, non_pro_heat_level
 
 class Heatlist():
 
@@ -10,6 +10,7 @@ class Heatlist():
         self.couples = list()   # store a list of the couples competing
         self.solos = list()     # store a list of the solo performances (as heat objects)
         self.formations = list()    # store a list of the formation performances (as heat objects)
+        self.event_titles = list() 
         self.multi_dance_heat_numbers = list()  # store a list of multi dance non-pro heat (as integers)
         self.age_divisions = ["* ALL *"]   # store a list of the age divisions
         self.max_heat_num = 0      # store the largest heat number in the comp
@@ -127,7 +128,18 @@ class Heatlist():
     # add to list of non-pro multi dance heats
     def add_multi_dance_heat(self, num):
         if num not in self.multi_dance_heat_numbers:
-            self.multi_dance_heat_numbers.append(num)        
+            self.multi_dance_heat_numbers.append(num)  
+            
+    def add_event(self, info):
+        if info not in self.event_titles:
+            self.event_titles.append(info)
+            
+    def write_event_list_to_file(self, folder_name):
+        filename = folder_name + "/events.txt"
+        f = open(filename, "w")
+        for title in self.event_titles:
+            f.write(dance_style(title) + "," + non_pro_heat_level(title) + "," + title  + "\n")
+        f.close()
 
     ############### AGE DIVISION ROUTINES  ###############################################
     # the following methods deal with age divisions
