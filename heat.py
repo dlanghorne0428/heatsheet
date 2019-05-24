@@ -5,6 +5,51 @@ def is_multi_dance(s):
         return True
     else:   
         return False;
+    
+def dance_style(s):
+    if "Smooth" in s:
+        return "Smooth"
+    elif "Rhythm" in s:
+        return "Rhythm"
+    elif "Latin" in s:
+        return "Latin"
+    elif "Standard" in s or "Ballroom" in s:
+        return "Standard"  
+    elif "Nightclub" in s:
+        return "Nightclub"
+    elif "Country" in s:
+        return "Country"
+    else:
+        return "Unknown"
+    
+def pro_heat_level(info):
+    if "Rising Star" in info:
+        return "Rising Star"
+    elif "Novice" in info:
+        return "Novice"
+    else:
+        return "Open"  
+    
+def non_pro_heat_level(info):
+    if "Newcomer" in info:
+        return "Newcomer"
+    elif "Novice" in info:
+        return "Novice"
+    elif "Bronze" in info:
+        return "Bronze"
+    elif "Silver" in info:
+        return "Silver"
+    elif "Gold" in info:
+        return "Gold"
+    elif "Pre-Champ" in info:
+        return "Pre-Champ"
+    elif "Open" in info or "Scholarship" in info:
+        return "Open-Gold"  
+    elif "Championship" in info:
+        return "Championship"    
+    else:
+        return "Other"    
+    
 
 class Heat():
     def __init__(self):
@@ -60,15 +105,10 @@ class Heat():
     
     def set_level(self):
         if self.category == "Pro heat":
-            if "Rising Star" in self.info:
-                self.level = "Rising Star"
-            elif "Novice" in self.info:
-                self.level = "Novice"
-            else:
-                self.level = "Open"   
-        else: # TODO: consider amateurs 
-            self.level = "None"
-            
+            self.level = pro_heat_level(self.info)  
+        else:  
+            self.level = non_pro_heat_level(self.info)
+
             
     def multi_dance(self):
         return is_multi_dance(self.info)
