@@ -197,7 +197,8 @@ class CompOrgHeatlist(Heatlist):
                     else:
                         self.max_heat_num = max(h.heat_number, self.max_heat_num)
                         if h.multi_dance():
-                            self.add_multi_dance_heat(h.heat_number)                       
+                            self.add_multi_dance_heat(h.heat_number)
+                            self.add_event(h.info)
                 
                 # add this heat to both the dancer and couple objects
                 dancer.add_heat(h)
