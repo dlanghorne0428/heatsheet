@@ -12,6 +12,7 @@ from datetime import date
 
 from season_ranking import RankingDataFile, event_level, get_last_name
 from comp_results_file import Comp_Results_File
+from heat import dance_style
 
 ''' These are the separate dance styles being ranked '''
 Dance_Styles = [
@@ -321,13 +322,14 @@ class AppFrame(wx.Frame):
 
     def GetStyleFromHeatTitle(self, title):
         '''This method determines the dance style from the heat title. '''
-        if "Smooth" in title:
+        style = dance_style(title)
+        if "Smooth" == style:
             index = 1
-        elif "Rhythm" in title:
+        elif "Rhythm" == style:
             index = 0
-        elif "Latin" in title:
+        elif "Latin" == style:
             index = 3
-        elif "Standard" in title or "Ballroom" in title:
+        elif "Standard" == style:
             index = 2      
         else:
             index = 4
