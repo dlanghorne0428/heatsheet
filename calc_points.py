@@ -8,18 +8,20 @@ Currently, the program only processes professional heats.
 
 max_point_values = {
     # these are values for pro rankings
-    "Open":        {"F": 20, "S": 30, "Q": 40},
-    "Rising Star": {"F": 10, "S": 20, "Q": 30},
-    "Novice":      {"F":  5, "S": 10, "Q": 15},
+    "Open":         {"F": 20, "S": 30, "Q": 40},
+    "Rising Star":  {"F": 10, "S": 20, "Q": 30},
+    "Novice":       {"F":  5, "S": 10, "Q": 15},
     # these are values for pro/am rankings
-    "Newcomer":    {"F":  5, "S": 10, "Q": 15},
-    "Bronze":      {"F": 10, "S": 20, "Q": 30},
-    "Silver":      {"F": 20, "S": 30, "Q": 40},
-    "Gold":        {"F": 30, "S": 40, "Q": 50},
-    "Open-Gold":   {"F": 30, "S": 40, "Q": 50},
+    "Newcomer":     {"F":  5, "S": 10, "Q": 15},
+    "Bronze":       {"F": 10, "S": 20, "Q": 30},
+    "Silver":       {"F": 15, "S": 25, "Q": 35},
+    "Gold":         {"F": 20, "S": 30, "Q": 40},
+    "Open-Gold":    {"F": 25, "S": 35, "Q": 45},
     # these are values for amateur rankings
-    "Pre-Champ":   {"F": 20, "S": 30, "Q": 40},
-    "Championship": {"F": 30, "S": 40, "Q": 50}
+    "Pre-Champ":    {"F": 15, "S": 25, "Q": 35},
+    "Championship": {"F": 25, "S": 35, "Q": 45}, 
+    # if no clue
+    "Other":        {"F": 10, "S": 20, "Q": 30}
 }
 
 def calc_points(level, placement, num_competitors = 6, rounds = "F", accum = 0):
