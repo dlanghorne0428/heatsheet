@@ -81,9 +81,13 @@ class CompMngrResults():
         return fields[0]
     
     
-    def get_heat_info(self, line, heat_string):
+    def get_heat_info(self, line, heat_string, trailer):
         start_pos = line.find(heat_string) + len(heat_string)
-        remaining_text = line[start_pos:]
+        end_pos = line.find(trailer)
+        if end_pos == -1:
+            remaining_text = line[start_pos:]
+        else:
+            remaining_text = line[start_pos:end_pos]
         return remaining_text.strip()
 
     '''The scoresheet results list the shirt number of the couple,
@@ -163,6 +167,7 @@ class CompMngrResults():
                     result_column = count
                     looking_for_finalists = True
                     looking_for_result_column = False
+                    entries_in_event = 0
                     count = 0
                 # skip past this column, it is not the last
                 elif "<td>" in line:
@@ -275,6 +280,7 @@ class CompMngrResults():
                 if "<td>" in line:
                     if count == 0:
                         current_competitor = self.get_table_data(line)
+                        entries_in_event += 1
                         count += 1
                     elif count == result_column:
                         # When we get to the result column, we want to extract the number that indicates
@@ -319,13 +325,14 @@ class CompMngrResults():
                 # When we see the closing table tag, we are done with this heat. 
                 elif "</table>" in line:
                     looking_for_finalists = False
-                    total_entries = heat_report.length()
+                    print("Heat", heat_report.heat_number(), "Heat Report length", heat_report.length(), "Entries in Event", entries_in_event)
+                    total_entries = entries_in_event  # heat_report.length()
                     rounds = heat_report.rounds()
                     # adjust total number of entries for no-shows
-                    for index in range(heat_report.length()):
-                        e = heat_report.entry(index)
-                        if e.result is None:
-                            total_entries -= 1
+                    #for index in range(heat_report.length()):
+                    #    e = heat_report.entry(index)
+                    #    if e.result is None:
+                    #        total_entries -= 1
                     # calculate points for all finalists 
                     for index in range(heat_report.length()):
                         e = heat_report.entry(index)
@@ -340,8 +347,8 @@ class CompMngrResults():
                 result = "quarters"    # indicate which round we are in
                 result_index = -1      # use this to pull values from the points table
                 heat_report.set_rounds("Q")
-                if heat_info_from_scoresheet is None:
-                    heat_info_from_scoresheet = self.get_heat_info(line, heat_string)
+                #if heat_info_from_scoresheet is None:
+                heat_info_from_scoresheet = self.get_heat_info(line, heat_string, "Quarter-finaL")
                 looking_for_recall_column = True  # enter the next state
                 
             # If this check is true, we found Semi-final results for this heat            
@@ -350,15 +357,15 @@ class CompMngrResults():
                 result_index = -2
                 if heat_report.rounds() == "F":
                     heat_report.set_rounds("S")
-                if heat_info_from_scoresheet is None:
-                    heat_info_from_scoresheet = self.get_heat_info(line, heat_string)                
+                #if heat_info_from_scoresheet is None:
+                heat_info_from_scoresheet = self.get_heat_info(line, heat_string, "Semi-final")                
                 looking_for_recall_column = True
             
             # If this check is true, we found the Final results for this heat
             elif heat_string in line and "<p>" in line:   # and "Final" in line:
                 result = "Finals"
-                if heat_info_from_scoresheet is None:
-                    heat_info_from_scoresheet = self.get_heat_info(line, heat_string)                
+                #if heat_info_from_scoresheet is None:
+                heat_info_from_scoresheet = self.get_heat_info(line, heat_string, "Final")                
                 # if this is a single dance event, we can look for the results now
                 if event == "Single Dance":
                     looking_for_result_column = True

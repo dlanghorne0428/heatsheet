@@ -96,6 +96,7 @@ class CompMngrHeatlist(Heatlist):
     def get_dancer_name(self, line, start_pos=20):
         end_pos = line.find("</strong>")
         name = line[start_pos:end_pos]
+        # TODO: Handle single name people
         return name
 
 
