@@ -2,28 +2,48 @@
   "comp name": "2019 Baltimore Dancesport Challenge",
   "heats": [
     {
-      "title": "G-C Closed Bronze Pro/Am Smooth 2-Dance (W/T)",
+      "title": "G-SR 1 Closed Bronze Pro/Am Smooth 2-Dance (W/T) Final",
+      "entries": [
+        {
+          "couple": "Rollins, Paul and Golden, Patti",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "G-SR 1 Closed Gold Pro/Am Smooth 2-Dance (W/T) Final",
+      "entries": [
+        {
+          "couple": "Hines, Bill and Beltran, Silvia",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed Bronze Pro/Am Smooth 2-Dance (W/T) Final",
       "entries": [
         {
           "couple": "Conrad, Thomas and Greek, Jackie",
           "place": "1",
           "points": 10
-        },
-        {
-          "couple": "Rollins, Paul and Golden, Patti",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Hines, Bill and Beltran, Silvia",
-          "place": "1",
-          "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed Silver Pro/Am Smooth 2-Dance (W/T) Final",
+      "entries": [
         {
           "couple": "Theriault, Anne Marie and Gorjatsev, Kirill",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-SR 2 Closed Bronze Pro/Am Smooth 2-Dance (W/T) Final",
+      "entries": [
         {
           "couple": "Brauner, Carolyn and Moore, Taylor",
           "place": "1",
@@ -32,15 +52,10 @@
       ]
     },
     {
-      "title": "AC-PT Bronze Closed Smooth (W/T/FT)",
+      "title": "AC-PT Bronze Closed Smooth (W/T/FT) Final",
       "entries": [
         {
           "couple": "Zinn, Austin and Stelmach, Roksolana",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Miles, Rhyder and Mitchell, Jinae",
           "place": "1",
           "points": 10.0
         },
@@ -52,7 +67,17 @@
       ]
     },
     {
-      "title": "L-SR 1 Closed Bronze Pro/Am Smooth 2-Dance (W/T)",
+      "title": "AC-PT Closed Bronze Pro/Am Smooth 2-Dance (W/T) Final",
+      "entries": [
+        {
+          "couple": "Miles, Rhyder and Mitchell, Jinae",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-SR 1 Closed Bronze Pro/Am Smooth 2-Dance (W/T) Final",
       "entries": [
         {
           "couple": "Bigger, Maureen and Gorjatsev, Kirill",
@@ -87,13 +112,18 @@
       ]
     },
     {
-      "title": "AC-YTH Bronze Closed Smooth (W/T/FT)",
+      "title": "AC-YTH Bronze Closed Smooth (W/T/FT) Final",
       "entries": [
         {
           "couple": "Goggin, Aidan and Saadah, Madelyn",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "G-PT Bronze Closed Smooth (W/T/FT) Final",
+      "entries": [
         {
           "couple": "Gooding, Henry and Gooding, Jennifer S.",
           "place": "1",
@@ -102,7 +132,7 @@
       ]
     },
     {
-      "title": "L-SR 1 Bronze Closed Smooth (W/T/FT)",
+      "title": "L-SR 1 Bronze Closed Smooth (W/T/FT) Final",
       "entries": [
         {
           "couple": "Bigger, Maureen and Gorjatsev, Kirill",
@@ -137,13 +167,18 @@
       ]
     },
     {
-      "title": "AC-A Bronze Closed Smooth (W/T/FT)",
+      "title": "AC-A Bronze Closed Smooth (W/T/FT) Final",
       "entries": [
         {
           "couple": "Depp, Jeremy and Raymond, Jenna",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C Bronze Closed Smooth (W/T/FT) Final",
+      "entries": [
         {
           "couple": "Conrad, Tammy and Pabon, Carlos",
           "place": "1",
@@ -152,25 +187,20 @@
       ]
     },
     {
-      "title": "G-C Bronze Closed Smooth (W/T/FT)",
+      "title": "G-C Bronze Closed Smooth (W/T/FT) Final",
       "entries": [
         {
           "couple": "Conrad, Thomas and Greek, Jackie",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "G-SR 1 Bronze Closed Smooth (W/T/FT) Final",
+      "entries": [
         {
           "couple": "Rollins, Paul and Golden, Patti",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Dwyer, Kathy and Charlesworth, Matthew",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Brauner, Carolyn and Moore, Taylor",
           "place": "1",
           "points": 10.0
         },
@@ -178,11 +208,31 @@
           "couple": "Gingery, Don and Beletsky, Aggie",
           "place": "2",
           "points": 6.0
+        }
+      ]
+    },
+    {
+      "title": "L-SR 1 Bronze Open Smooth (W/T/FT) Final",
+      "entries": [
+        {
+          "couple": "Dwyer, Kathy and Charlesworth, Matthew",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Hopkins, Laurie and Sims, Michael",
           "place": "2",
           "points": 8.0
+        }
+      ]
+    },
+    {
+      "title": "L-SR 2 Bronze Closed Smooth (W/T/FT) Final",
+      "entries": [
+        {
+          "couple": "Brauner, Carolyn and Moore, Taylor",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Greenberg, Eileen and Jacobs, Alex",
@@ -192,38 +242,58 @@
       ]
     },
     {
-      "title": "L-C Silver Closed Smooth (W/T/FT)",
+      "title": "L-C Silver Closed Smooth (W/T/FT) Final",
       "entries": [
         {
           "couple": "Theriault, Anne Marie and Gorjatsev, Kirill",
           "place": "1",
-          "points": 10
-        },
+          "points": 20
+        }
+      ]
+    },
+    {
+      "title": "L-C Silver Open Smooth (W/T/FT) Final",
+      "entries": [
         {
           "couple": "Segal, Robin and Sims, Michael",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "L-SR 1 Silver Closed Smooth (W/T/FT) Final",
+      "entries": [
         {
           "couple": "Katz, Jeanne and Charlesworth, Matthew",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "G-A Bronze Closed Smooth Dancesport Challenge (W/T/F/VW) Final",
+      "entries": [
+        {
+          "couple": "Depp, Jeremy and Bartels, Carol",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "G-SR 1 Bronze Closed Smooth Dancesport Challenge (W/T/F/VW) Final",
+      "entries": [
+        {
+          "couple": "Claunch, Jack and Simmons, Patty",
           "place": "1",
           "points": 10.0
         }
       ]
     },
     {
-      "title": "G-A Bronze Closed Smooth Dancesport Challenge (W/T/F/VW)",
+      "title": "L-SR 1 Bronze Closed Smooth Dancesport Challenge (W/T/F/VW) Final",
       "entries": [
-        {
-          "couple": "Depp, Jeremy and Bartels, Carol",
-          "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Claunch, Jack and Simmons, Patty",
-          "place": "1",
-          "points": 10.0
-        },
         {
           "couple": "Albarelli, Judith and Dolgopolov, Dmitri",
           "place": "1",
@@ -242,65 +312,80 @@
       ]
     },
     {
-      "title": "AC-C Gold Amateur Open Smooth (W/T/FT/VW)",
+      "title": "AC-C Gold Amateur Open Smooth (W/T/FT/VW) Final",
       "entries": [
         {
           "couple": "Lynch, Mike and Lynch, Rose-Ann",
           "place": "1",
-          "points": 10
-        },
+          "points": 30
+        }
+      ]
+    },
+    {
+      "title": "L-B Gold Open Smooth Dancesport Challenge (W/T/F/VW) Final",
+      "entries": [
         {
           "couple": "DLine, Irina and Bowers III, Johnathan",
           "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Theriault, Anne Marie and Gorjatsev, Kirill",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Phan, Kim and Conte, Riccardo",
-          "place": "2",
-          "points": 7.0
+          "points": 30.0
         }
       ]
     },
     {
-      "title": "AC-B Gold Amateur Open Smooth (W/T/FT/VW)",
+      "title": "L-C Silver Closed Smooth Dancesport Challenge (W/T/F/VW) Final",
+      "entries": [
+        {
+          "couple": "Theriault, Anne Marie and Gorjatsev, Kirill",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "Phan, Kim and Conte, Riccardo",
+          "place": "2",
+          "points": 21.0
+        }
+      ]
+    },
+    {
+      "title": "AC-B Gold Amateur Open Smooth (W/T/FT/VW) Final",
       "entries": [
         {
           "couple": "Lynch, Mike and Lynch, Rose-Ann",
           "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Washington Webb, Sharon and Bowers III, Johnathan",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Phan, Kim and Conte, Riccardo",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Stewart, Kate and Pabon, Carlos",
-          "place": "2",
-          "points": 7.0
+          "points": 30
         }
       ]
     },
     {
-      "title": "G- Bronze Dance for the Cure Challenge Smooth (W/T/F)",
+      "title": "L-C Gold Open Smooth Dancesport Challenge (W/T/F/VW) Final",
       "entries": [
         {
-          "couple": "Brauner, Carolyn and Moore, Taylor",
+          "couple": "Washington Webb, Sharon and Bowers III, Johnathan",
           "place": "1",
-          "points": 10.0
+          "points": 30.0
+        }
+      ]
+    },
+    {
+      "title": "L-C Silver Open Smooth Dancesport Challenge (W/T/F/VW) Final",
+      "entries": [
+        {
+          "couple": "Phan, Kim and Conte, Riccardo",
+          "place": "1",
+          "points": 30.0
         },
         {
           "couple": "Stewart, Kate and Pabon, Carlos",
+          "place": "2",
+          "points": 21.0
+        }
+      ]
+    },
+    {
+      "title": "L- Bronze Dance for the Cure Challenge Smooth (W/T/F) Final",
+      "entries": [
+        {
+          "couple": "Brauner, Carolyn and Moore, Taylor",
           "place": "1",
           "points": 10.0
         },
@@ -312,7 +397,17 @@
       ]
     },
     {
-      "title": "L-B Closed Bronze Pro/AmIntl Ballroom 2-Dance (W/F)",
+      "title": "L- Silver Dance for the Cure Challenge Smooth (W/T/F) Final",
+      "entries": [
+        {
+          "couple": "Stewart, Kate and Pabon, Carlos",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-B Closed Bronze Pro/AmIntl Ballroom 2-Dance (W/F) Final",
       "entries": [
         {
           "couple": "Horneff, Lauren and Fritt, Valt",
@@ -322,38 +417,48 @@
       ]
     },
     {
-      "title": "AC-PT Gold Amateur Closed Intl Ballroom (W/T/VW/F/Q)",
+      "title": "AC-PT Gold Amateur Closed Intl Ballroom (W/T/VW/F/Q) Final",
       "entries": [
         {
           "couple": "Krukow, Anthony and Batenhorst, Maya",
           "place": "1",
-          "points": 10
+          "points": 30
         }
       ]
     },
     {
-      "title": "G-SR 1 Closed Gold Pro/AmIntl Ballroom 2-Dance (W/F)",
+      "title": "G-SR 1 Closed Gold Pro/AmIntl Ballroom 2-Dance (W/F) Final",
       "entries": [
         {
           "couple": "Hines, Bill and Beltran, Silvia",
           "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Ashley, Marie-Claude and Sergiev, Slava",
-          "place": "1",
-          "points": 10.0
+          "points": 30
         }
       ]
     },
     {
-      "title": "AC-PT Bronze Closed Intl Ballroom (W/T/Q)",
+      "title": "L-SR 2 Open Gold  Pro/AmIntl Ballroom 2-Dance (W/F) Final",
+      "entries": [
+        {
+          "couple": "Ashley, Marie-Claude and Sergiev, Slava",
+          "place": "1",
+          "points": 30.0
+        }
+      ]
+    },
+    {
+      "title": "AC-PT Bronze Closed Intl Ballroom (W/T/Q) Final",
       "entries": [
         {
           "couple": "Krukow, Anthony and Batenhorst, Maya",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-B Bronze Closed Intl Ballroom (W/T/Q) Final",
+      "entries": [
         {
           "couple": "Horneff, Lauren and Fritt, Valt",
           "place": "1",
@@ -362,110 +467,145 @@
       ]
     },
     {
-      "title": "G-SR 1 Gold Closed Intl Ballroom (W/T/Q)",
+      "title": "G-SR 1 Gold Closed Intl Ballroom (W/T/Q) Final",
       "entries": [
         {
           "couple": "Hines, Bill and Beltran, Silvia",
           "place": "1",
-          "points": 10
-        },
+          "points": 30
+        }
+      ]
+    },
+    {
+      "title": "L-SR 2 Gold Open Intl Ballroom (W/T/Q) Final",
+      "entries": [
         {
           "couple": "Ashley, Marie-Claude and Sergiev, Slava",
           "place": "1",
-          "points": 10.0
+          "points": 30.0
         }
       ]
     },
     {
-      "title": "AC-C Gold Amateur Open Intl Ballroom (W/T/VW/F/Q)",
+      "title": "AC-C Gold Amateur Open Intl Ballroom (W/T/VW/F/Q) Final",
       "entries": [
         {
           "couple": "Lynch, Mike and Lynch, Rose-Ann",
           "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Phan, Kim and Conte, Riccardo",
-          "place": "1",
-          "points": 10.0
+          "points": 30
         }
       ]
     },
     {
-      "title": "AC-B Gold Amateur Open Intl Ballroom (W/T/VW/F/Q)",
+      "title": "L-C Silver Closed Intl Ballroom Dancesport Challenge (W/T/VW/F/Q) Final",
+      "entries": [
+        {
+          "couple": "Phan, Kim and Conte, Riccardo",
+          "place": "1",
+          "points": 30.0
+        }
+      ]
+    },
+    {
+      "title": "AC-B Gold Amateur Open Intl Ballroom (W/T/VW/F/Q) Final",
       "entries": [
         {
           "couple": "Lynch, Mike and Lynch, Rose-Ann",
           "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Phan, Kim and Conte, Riccardo",
-          "place": "1",
-          "points": 10.0
+          "points": 30
         }
       ]
     },
     {
-      "title": "L-B Gold Open Intl Ballroom Dancesport Challenge (W/T/VW/F/Q)",
+      "title": "L-C Silver Open Intl Ballroom Dancesport Challenge (W/T/VW/F/Q) Final",
+      "entries": [
+        {
+          "couple": "Phan, Kim and Conte, Riccardo",
+          "place": "1",
+          "points": 30.0
+        }
+      ]
+    },
+    {
+      "title": "L-B Gold Open Intl Ballroom Dancesport Challenge (W/T/VW/F/Q) Final",
       "entries": [
         {
           "couple": "Frost, Antonia and Conte, Riccardo",
           "place": "1",
-          "points": 10
-        },
+          "points": 30
+        }
+      ]
+    },
+    {
+      "title": "L-SR 1 Gold Open Intl Ballroom Dancesport Challenge (W/T/VW/F/Q) Final",
+      "entries": [
         {
           "couple": "Yoshida, Yumiko and Peiganovich, Alexey",
           "place": "1",
-          "points": 10.0
+          "points": 30.0
         },
         {
           "couple": "Demasco, Eleanor and Rubin, Alex",
           "place": "2",
-          "points": 6.0
+          "points": 18.0
         }
       ]
     },
     {
-      "title": "L-SR 2 Gold Open Intl Ballroom Dancesport Challenge (W/T//F/Q)",
+      "title": "L-SR 2 Gold Open Intl Ballroom Dancesport Challenge (W/T//F/Q) Final",
       "entries": [
         {
           "couple": "Ashley, Marie-Claude and Sergiev, Slava",
           "place": "1",
-          "points": 10
+          "points": 30
         }
       ]
     },
     {
-      "title": "AC-B Closed Bronze Pro/Am Rhythm 2-Dance (CC/R)",
+      "title": "AC-B Closed Bronze Pro/Am Rhythm 2-Dance (CC/R) Final",
       "entries": [
         {
           "couple": "Harden, Avery and Huang, Eva",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "AC-JR Closed Bronze Pro/Am Rhythm 2-Dance (CC/R) Final",
+      "entries": [
         {
           "couple": "Gaskin, Noah and Rebert, Maryalice",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "AC-PT Closed Bronze Pro/Am Rhythm 2-Dance (CC/R) Final",
+      "entries": [
         {
           "couple": "Miles, Rhyder and Mitchell, Jinae",
           "place": "1",
           "points": 10.0
-        },
-        {
-          "couple": "Conrad, Thomas and Greek, Jackie",
-          "place": "1",
-          "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "G-SR 1 Closed Bronze Pro/Am Rhythm 2-Dance (CC/R) Final",
+      "entries": [
         {
           "couple": "Rollins, Paul and Golden, Patti",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed Bronze Pro/Am Rhythm 2-Dance (CC/R) Final",
+      "entries": [
         {
-          "couple": "Brauner, Carolyn and Moore, Taylor",
+          "couple": "Conrad, Thomas and Greek, Jackie",
           "place": "1",
           "points": 10.0
         },
@@ -477,48 +617,78 @@
       ]
     },
     {
-      "title": "L-C Open Silver Pro/Am Rhythm 2-Dance (CC/R)",
+      "title": "L-SR 2 Closed Bronze Pro/Am Rhythm 2-Dance (CC/R) Final",
       "entries": [
         {
-          "couple": "Magedoff, Kari and Cabrera, Jonathan",
-          "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Bigger, Maureen and Gorjatsev, Kirill",
+          "couple": "Brauner, Carolyn and Moore, Taylor",
           "place": "1",
           "points": 10.0
-        },
-        {
-          "couple": "Browning, Marilyn and Pabon, Carlos",
-          "place": "2",
-          "points": 7.0
-        },
-        {
-          "couple": "Parker, Kay and Moore, Taylor",
-          "place": "3",
-          "points": 5.0
         }
       ]
     },
     {
-      "title": "AC-B Bronze Closed Rhythm (CC/R/SW)",
+      "title": "L-C Open Silver Pro/Am Rhythm 2-Dance (CC/R) Final",
+      "entries": [
+        {
+          "couple": "Magedoff, Kari and Cabrera, Jonathan",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "title": "L-SR 1 Closed Bronze Pro/Am Rhythm 2-Dance (CC/R) Final",
+      "entries": [
+        {
+          "couple": "Bigger, Maureen and Gorjatsev, Kirill",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Browning, Marilyn and Pabon, Carlos",
+          "place": "2",
+          "points": 14.0
+        },
+        {
+          "couple": "Parker, Kay and Moore, Taylor",
+          "place": "3",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "AC-B Bronze Closed Rhythm (CC/R/SW) Final",
       "entries": [
         {
           "couple": "Harden, Avery and Huang, Eva",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "AC-JR Bronze Open Rhythm (CC/R/SW) Final",
+      "entries": [
         {
           "couple": "Gaskin, Noah and Bowman, Dakota",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-B Bronze Open Rhythm (CC/R/SW) Final",
+      "entries": [
         {
           "couple": "Kelly, Maryann and Cabrera, Jonathan",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-SR 1 Bronze Closed Rhythm (CC/R/SW) Final",
+      "entries": [
         {
           "couple": "Totten, Gail and Pabon, Carlos",
           "place": "1",
@@ -542,30 +712,10 @@
       ]
     },
     {
-      "title": "G-C Bronze Closed Rhythm (CC/R/SW)",
+      "title": "G-SR 1 Bronze Closed Rhythm (CC/R/SW) Final",
       "entries": [
         {
-          "couple": "Conrad, Thomas and Greek, Jackie",
-          "place": "1",
-          "points": 10
-        },
-        {
           "couple": "Gingery, Don and Beletsky, Aggie",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Magedoff, Kari and Cabrera, Jonathan",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Katz, Jeanne and Charlesworth, Matthew",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Brauner, Carolyn and Moore, Taylor",
           "place": "1",
           "points": 10.0
         },
@@ -573,6 +723,26 @@
           "couple": "Rollins, Paul and Golden, Patti",
           "place": "2",
           "points": 6.0
+        }
+      ]
+    },
+    {
+      "title": "L-C Bronze Closed Rhythm (CC/R/SW) Final",
+      "entries": [
+        {
+          "couple": "Conrad, Thomas and Greek, Jackie",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "L-C Silver Open Rhythm (CC/R/SW) Final",
+      "entries": [
+        {
+          "couple": "Magedoff, Kari and Cabrera, Jonathan",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Segal, Robin and Sims, Michael",
@@ -582,28 +752,68 @@
       ]
     },
     {
-      "title": "AC-JR Bronze Closed Rhythm (CC/R/SW)",
+      "title": "L-SR 1 Silver Closed Rhythm (CC/R/SW) Final",
+      "entries": [
+        {
+          "couple": "Katz, Jeanne and Charlesworth, Matthew",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-SR 2 Bronze Closed Rhythm (CC/R/SW) Final",
+      "entries": [
+        {
+          "couple": "Brauner, Carolyn and Moore, Taylor",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "AC-JR Bronze Closed Rhythm (CC/R/SW) Final",
       "entries": [
         {
           "couple": "Gaskin, Noah and Beletsky, Lana",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "AC-PT Bronze Closed Rhythm (CC/R/SW) Final",
+      "entries": [
         {
           "couple": "Miles, Rhyder and Mitchell, Jinae",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "G-PT Bronze Closed Rhythm (CC/R/SW) Final",
+      "entries": [
         {
           "couple": "Gooding, Henry and Gooding, Jennifer S.",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-C Bronze Open Rhythm (CC/R/SW) Final",
+      "entries": [
         {
           "couple": "Kelly, Maryann and Cabrera, Jonathan",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-SR 1 Bronze Open Rhythm (CC/R/SW) Final",
+      "entries": [
         {
           "couple": "Albarelli and Dolgopolov",
           "place": "1",
@@ -617,25 +827,30 @@
       ]
     },
     {
-      "title": "AC-A Bronze Amateur Closed Rhythm (CC/R/SW/B/M)",
+      "title": "AC-A Bronze Amateur Closed Rhythm (CC/R/SW/B/M) Final",
       "entries": [
         {
           "couple": "Depp, Jeremy and Raymond, Jenna",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-SR 1 Bronze Closed Rhythm Dancesport Challenge (CC/R/SW/B) Final",
+      "entries": [
         {
           "couple": "Bigger, Maureen and Gorjatsev, Kirill",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-SR 1 Bronze Closed Rhythm Dancesport Challenge (CC/R/SW/B/M) Final",
+      "entries": [
         {
           "couple": "Totten, Gail and Pabon, Carlos",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Brauner, Carolyn and Moore, Taylor",
           "place": "1",
           "points": 10.0
         },
@@ -643,6 +858,16 @@
           "couple": "Claunch, Jack and Simmons, Patty",
           "place": "2",
           "points": 6.0
+        }
+      ]
+    },
+    {
+      "title": "L-SR 2 Bronze Closed Rhythm Dancesport Challenge (CC/R/SW/B/M) Final",
+      "entries": [
+        {
+          "couple": "Brauner, Carolyn and Moore, Taylor",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Greenberg, Eileen and Jacobs, Alex",
@@ -652,23 +877,38 @@
       ]
     },
     {
-      "title": "AC-YTH Bronze Amateur Open Rhythm (CC/R/SW/B/M)",
+      "title": "AC-YTH Bronze Amateur Open Rhythm (CC/R/SW/B/M) Final",
       "entries": [
         {
           "couple": "Goggin, Aidan and Saadah, Madelyn",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "G-A Bronze Closed Rhythm Dancesport Challenge (CC/R/SW/B/M) Final",
+      "entries": [
         {
           "couple": "Depp, Jeremy and Bartels, Carol",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-B Silver Open Rhythm Dancesport Challenge (CC/R/SW/B/M) Final",
+      "entries": [
         {
           "couple": "Fescina, Leanne and Pabon, Carlos",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-SR 1 Bronze Open Rhythm Dancesport Challenge (CC/R/SW/B/M) Final",
+      "entries": [
         {
           "couple": "Albarelli, Judith and Dolgopolov, Dmitri",
           "place": "1",
@@ -677,15 +917,10 @@
       ]
     },
     {
-      "title": "G- Bronze Dance for the Cure Challenge Rhythm (C/R/SW)",
+      "title": "L- Bronze Dance for the Cure Challenge Rhythm (C/R/SW) Final",
       "entries": [
         {
           "couple": "Parker, Kay and Moore, Taylor",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Stewart, Kate and Pabon, Carlos",
           "place": "1",
           "points": 10.0
         },
@@ -697,137 +932,182 @@
       ]
     },
     {
-      "title": "AC-PT Bronze Closed Latin (CC/S/R)",
+      "title": "L-C Silver Open Rhythm Dancesport Challenge (CC/R/SW/B/M) Final",
       "entries": [
-        {
-          "couple": "Duchkov, Ivan and Fritz, Tamara Mary",
-          "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Horneff, Lauren and Fritt, Valt",
-          "place": "1",
-          "points": 10.0
-        }
-      ]
-    },
-    {
-      "title": "L-C Bronze Closed Latin Dancesport Challenge (CC/S/R/PD/J)",
-      "entries": [
-        {
-          "couple": "Cruz, Winifred and Fritt, Valt",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "L-B Bronze Closed Latin Dancesport Challenge (CC/S/R/PD/J)",
-      "entries": [
-        {
-          "couple": "Horneff, Lauren and Fritt, Valt",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "AC-PT Closed Bronze Pro/Am Intl Latin 2-Dance (CC/S)",
-      "entries": [
-        {
-          "couple": "Duchkov, Ivan and Fritz, Tamara Mary",
-          "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Zherdetski, Julia and Fritt, Valt",
-          "place": "1",
-          "points": 10.0
-        }
-      ]
-    },
-    {
-      "title": "L-B Closed Bronze Pro/Am Intl Latin 2-Dance (CC/S)",
-      "entries": [
-        {
-          "couple": "Horneff, Lauren and Fritt, Valt",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "AC-JR Silver Closed Latin (CC/S/R)",
-      "entries": [
-        {
-          "couple": "Buentello, Julien and Babichenko, Adah",
-          "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Zherdetski, Julia and Fritt, Valt",
-          "place": "1",
-          "points": 10.0
-        }
-      ]
-    },
-    {
-      "title": "AC-JR Silver Amateur Closed Latin (CC/S/R/PD/J)",
-      "entries": [
-        {
-          "couple": "Buentello, Julien and Babichenko, Adah",
-          "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Cruz, Winifred and Fritt, Valt",
-          "place": "1",
-          "points": 10.0
-        }
-      ]
-    },
-    {
-      "title": "G-CSR Scholarship Open Smooth (W/T/F/VW)",
-      "entries": [
-        {
-          "couple": "Phan, Kim and Conte, Riccardo",
-          "place": "1",
-          "points": 10.0
-        },
         {
           "couple": "Stewart, Kate and Pabon, Carlos",
           "place": "1",
           "points": 10.0
-        },
-        {
-          "couple": "Greenberg and Jacobs",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Hines, Bill and Beltran, Silvia",
-          "place": "2",
-          "points": 5.0
-        },
-        {
-          "couple": "Mullineaux, Joey and Wilson, Kenneth",
-          "place": "2",
-          "points": 8.0
         }
       ]
     },
     {
-      "title": "L-C Closed Silver Scholarship Intl Ballroom (W/T/VW/F/Q)",
+      "title": "AC-PT Bronze Closed Latin (CC/S/R) Final",
+      "entries": [
+        {
+          "couple": "Duchkov, Ivan and Fritz, Tamara Mary",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "L-B Bronze Closed Latin (CC/S/R) Final",
+      "entries": [
+        {
+          "couple": "Horneff, Lauren and Fritt, Valt",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-C Bronze Closed Latin Dancesport Challenge (CC/S/R/PD/J) Final",
+      "entries": [
+        {
+          "couple": "Cruz, Winifred and Fritt, Valt",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "L-B Bronze Closed Latin Dancesport Challenge (CC/S/R/PD/J) Final",
+      "entries": [
+        {
+          "couple": "Horneff, Lauren and Fritt, Valt",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "AC-PT Closed Bronze Pro/Am Intl Latin 2-Dance (CC/S) Final",
+      "entries": [
+        {
+          "couple": "Duchkov, Ivan and Fritz, Tamara Mary",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "L-PT Closed Gold Pro/Am Intl Latin 2-Dance (CC/S) Final",
+      "entries": [
+        {
+          "couple": "Zherdetski, Julia and Fritt, Valt",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "L-B Closed Bronze Pro/Am Intl Latin 2-Dance (CC/S) Final",
+      "entries": [
+        {
+          "couple": "Horneff, Lauren and Fritt, Valt",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "AC-JR Silver Closed Latin (CC/S/R) Final",
+      "entries": [
+        {
+          "couple": "Buentello, Julien and Babichenko, Adah",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "title": "L-PT Gold Closed Latin (CC/S/R) Final",
+      "entries": [
+        {
+          "couple": "Zherdetski, Julia and Fritt, Valt",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "AC-JR Silver Amateur Closed Latin (CC/S/R/PD/J) Final",
+      "entries": [
+        {
+          "couple": "Buentello, Julien and Babichenko, Adah",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "title": "L-SR 1 Silver Closed Latin Dancesport Challenge (CC/S/R/PD/J) Final",
+      "entries": [
+        {
+          "couple": "Cruz, Winifred and Fritt, Valt",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "L-CSR Closed Silver Scholarship Smooth (W/T/F/VW) Final",
       "entries": [
         {
           "couple": "Phan, Kim and Conte, Riccardo",
           "place": "1",
-          "points": 10
+          "points": 30.0
+        }
+      ]
+    },
+    {
+      "title": "L-CSR Scholarship Open Smooth (W/T/F/VW) Final",
+      "entries": [
+        {
+          "couple": "Stewart, Kate and Pabon, Carlos",
+          "place": "1",
+          "points": 30.0
         },
+        {
+          "couple": "Hines, Bill and Beltran, Silvia",
+          "place": "2",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "L-SR Closed Bronze Scholarship Smooth (W/T/F/VW) Final",
+      "entries": [
+        {
+          "couple": "Greenberg and Jacobs",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "Mullineaux, Joey and Wilson, Kenneth",
+          "place": "2",
+          "points": 24.0
+        }
+      ]
+    },
+    {
+      "title": "L-C Closed Silver Scholarship Intl Ballroom (W/T/VW/F/Q) Final",
+      "entries": [
+        {
+          "couple": "Phan, Kim and Conte, Riccardo",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "title": "L-C Scholarship Open Intl Ballroom (W/T/VW/F/Q) Final",
+      "entries": [
         {
           "couple": "Yoshida, Yumiko and Peiganovich, Alexey",
           "place": "1",
-          "points": 10.0
+          "points": 20.0
         }
       ]
     },
@@ -837,37 +1117,47 @@
         {
           "couple": "Lynch, Mike and Lynch, Rose-Ann",
           "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Frost, Antonia and Conte, Riccardo",
-          "place": "1",
-          "points": 10.0
+          "points": 30.0
         },
         {
           "couple": "Cheng, John and Cheng, Karen",
           "place": "2",
-          "points": 5.0
+          "points": 15.0
         }
       ]
     },
     {
-      "title": "L-C Scholarship Open Rhythm (CC/R/SW/B/M)",
+      "title": "L-B Scholarship Open Intl Ballroom (W/T/VW/F/Q) Final",
+      "entries": [
+        {
+          "couple": "Frost, Antonia and Conte, Riccardo",
+          "place": "1",
+          "points": 30.0
+        }
+      ]
+    },
+    {
+      "title": "L-C Scholarship Open Rhythm (CC/R/SW/B/M) Final",
       "entries": [
         {
           "couple": "Stewart, Kate and Pabon, Carlos",
           "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Brauner, Carolyn and Moore, Taylor",
-          "place": "1",
-          "points": 10.0
+          "points": 30
         }
       ]
     },
     {
-      "title": "L-B Closed Bronze Scholarship Latin (CC/S/R/PD/J)",
+      "title": "L-SR Closed Bronze Scholarship Rhythm (CC/R/SW/B/M) Final",
+      "entries": [
+        {
+          "couple": "Brauner, Carolyn and Moore, Taylor",
+          "place": "1",
+          "points": 30.0
+        }
+      ]
+    },
+    {
+      "title": "L-B Closed Bronze Scholarship Latin (CC/S/R/PD/J) Final",
       "entries": [
         {
           "couple": "Horneff, Lauren and Fritt, Valt",
@@ -877,17 +1167,22 @@
       ]
     },
     {
-      "title": "AC-A Scholarship Open Intl Latin (CC/S/R/PD/J)",
+      "title": "AC-A Scholarship Open Intl Latin (CC/S/R/PD/J) Final",
       "entries": [
         {
           "couple": "Markovetskiy, Yuriy and Phillips-Bullock, Alicia",
           "place": "1",
-          "points": 10
-        },
+          "points": 30
+        }
+      ]
+    },
+    {
+      "title": "L-SR Closed Silver Scholarship Latin (CC/S/R/PD/J) Final",
+      "entries": [
         {
           "couple": "Cruz, Winifred and Fritt, Valt",
           "place": "1",
-          "points": 10.0
+          "points": 30.0
         }
       ]
     }

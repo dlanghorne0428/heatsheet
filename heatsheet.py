@@ -22,7 +22,7 @@ from comp_mngr_heatlist import CompMngrHeatlist, CompMngrHeat
 from comp_mngr_results import CompMngrResults
 from comp_results_file import Comp_Results_File
 from season_ranking import RankingDataFile
-from heat import is_multi_dance
+from heat import is_multi_dance, dance_style
 
 
 def get_folder_name(filename):
@@ -455,6 +455,7 @@ class HelloFrame(wx.Frame):
             self.folder_name = get_folder_name(filename)
             self.heatlist = CompMngrHeatlist()
             self.heatlist.process(filename)
+            self.heatlist.write_event_list_to_file(self.folder_name)
             self.postOpenProcess()
             
 
@@ -495,7 +496,8 @@ class HelloFrame(wx.Frame):
             if not os.path.exists(new_folder_name):
                 os.makedirs(new_folder_name)
             os.replace(default_filename, new_file_name)
-            self.folder_name = get_folder_name(new_file_name)        
+            self.folder_name = get_folder_name(new_file_name) 
+            self.heatlist.write_event_list_to_file(self.folder_name)
             
             self.postOpenProcess()
 
@@ -564,7 +566,8 @@ class HelloFrame(wx.Frame):
             default_path = "./data/" + str(self.curr_date.year) + "/Comps"  
             self.folder_name = default_path + "/" + self.heatlist.comp_name
             if not os.path.exists(self.folder_name):
-                os.makedirs(self.folder_name)   
+                os.makedirs(self.folder_name)
+            self.heatlist.write_event_list_to_file(self.folder_name)
             self.postOpenProcess()  
             
     
@@ -1064,13 +1067,14 @@ class HelloFrame(wx.Frame):
             if report.length() > 0:
                 
                 # find the style of this heat and sort the appropriate ranking database
-                if "Smooth" in report.description():
+                style = dance_style(report.description())
+                if "Smooth" == style:
                     self.current_couples = self.smooth_couples
-                elif "Rhythm" in report.description():
+                elif "Rhythm" == style:
                     self.current_couples = self.rhythm_couples
-                elif "Latin" in report.description():
+                elif "Latin" == style:
                     self.current_couples = self.latin_couples
-                elif "Standard" in report.description() or "Ballroom" in report.description():
+                elif "Standard" == style:
                     self.current_couples = self.standard_couples      
                 else:
                     self.current_couples = self.showdance_couples

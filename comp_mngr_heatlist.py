@@ -96,6 +96,7 @@ class CompMngrHeatlist(Heatlist):
     def get_dancer_name(self, line, start_pos=20):
         end_pos = line.find("</strong>")
         name = line[start_pos:end_pos]
+        # TODO: Handle single name people
         return name
 
 
@@ -166,6 +167,7 @@ class CompMngrHeatlist(Heatlist):
                         self.max_heat_num = heat_obj.heat_number
                     if heat_obj.multi_dance():
                         self.add_multi_dance_heat(heat_obj.heat_number)
+                        self.add_event(heat_obj.info)
                     couple.add_heat(heat_obj)
                     dancer.add_heat(heat_obj)
 
@@ -208,3 +210,5 @@ class CompMngrHeatlist(Heatlist):
         self.solos.sort()
         self.age_divisions.sort()
         self.multi_dance_heat_numbers.sort()
+        self.event_titles.sort()
+

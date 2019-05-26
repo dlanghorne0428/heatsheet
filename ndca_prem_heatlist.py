@@ -175,7 +175,14 @@ class NdcaPremHeatlist(Heatlist):
                         if h not in self.solos:
                             self.solos.append(h)
                             self.max_solo_num = max(h.heat_number, self.max_solo_num)
-                            
+                    elif h.category == "Pro heat":
+                        self.max_pro_heat_num = max(h.heat_number, self.max_pro_heat_num)
+                    else:
+                        self.max_heat_num = max(h.heat_number, self.max_heat_num)
+                        if h.multi_dance():
+                            self.add_multi_dance_heat(h.heat_number) 
+                            self.add_event(h.info)                        
+                    
                     # determine the age division of this heat
                     age = self.get_age_division(h.info)
                     if age is not None:
@@ -183,16 +190,11 @@ class NdcaPremHeatlist(Heatlist):
                         dancer.add_age_division(age)
                         couple.add_age_division(age)
                         # update maximum heat numbers 
-                        if age == "Professional":
-                            self.max_pro_heat_num = max(h.heat_number, self.max_pro_heat_num)
-                        else:
-                            self.max_heat_num = max(h.heat_number, self.max_heat_num)
-                            if h.multi_dance():
-                                self.add_multi_dance_heat(h.heat_number)                        
                     
                     # save heat object to both the dancer and couple
                     dancer.add_heat(h)
-                    couple.add_heat(h)
+                    if h.category != "Formation":   
+                        couple.add_heat(h)
 
                 # go to the next row    
                 row_index += 1
@@ -219,6 +221,7 @@ class NdcaPremHeatlist(Heatlist):
         self.solos.sort()
         self.age_divisions.sort()    
         self.multi_dance_heat_numbers.sort()
+        self.event_titles.sort()
     
         
     def open(self, url):
