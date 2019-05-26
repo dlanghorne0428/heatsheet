@@ -405,8 +405,8 @@ class CompOrgResults():
                 result = self.process_response(heat_report, entry)
                 
                 if result == "Finals":
-                    total_entries = heat_report.length()
-                    rounds = self.entries_in_event # heat_report.rounds()
+                    total_entries = self.entries_in_event #heat_report.length()
+                    rounds = heat_report.rounds()
                     # adjust total number of entries for no-shows
                     for index in range(heat_report.length()):
                         e = heat_report.entry(index)
