@@ -1,10 +1,21 @@
 import copy
 
 def is_multi_dance(s):
-    if "(" in s and ")" in s:
+    left_pos = s.find('(')
+    right_pos = s.find(')')
+    if left_pos == -1 or right_pos == -1:
+        return False
+    elif "/" in s[left_pos:right_pos] or "," in s[left_pos:right_pos]:
         return True
-    else:   
-        return False;
+    else:
+        return False
+    
+    
+def is_amateur_heat(s):
+    if "AC-" in s or "Amateur" in s:
+        return True
+    else:
+        return False
     
 def dance_style(s):
     if "Smooth" in s:
@@ -20,6 +31,7 @@ def dance_style(s):
     elif "Country" in s:
         return "Country"
     else:
+        print("Unknown style for heat", s)
         return "Unknown"
     
 def pro_heat_level(info):
@@ -41,10 +53,10 @@ def non_pro_heat_level(info):
         return "Silver"
     elif "Gold" in info:
         return "Gold"
+    elif "Open" in info or "Scholarship" in info or "Scolarship" in info:
+        return "Open-Gold" 
     elif "Pre-Champ" in info:
         return "Pre-Champ"
-    elif "Open" in info or "Scholarship" in info:
-        return "Open-Gold"  
     elif "Champ" in info:
         return "Championship"  
     elif "World" in info:
@@ -52,6 +64,7 @@ def non_pro_heat_level(info):
     elif "Challenge" in info:
         return "Silver"
     else:
+        print("Unknown level for heat", info)
         return "Other"    
     
 
@@ -116,6 +129,10 @@ class Heat():
             
     def multi_dance(self):
         return is_multi_dance(self.info)
+    
+
+    def amateur_heat(self):
+        return is_amateur_heat(self.info)
 
    
     # return a blank set of heat information

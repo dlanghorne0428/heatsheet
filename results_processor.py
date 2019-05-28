@@ -298,7 +298,7 @@ class Results_Processor():
             # We get here if we aren't in any of the "looking" states
 
             # If this check is true, we found quarter-final results for this heat
-            elif heat_string in line and "Quarter-final" in line and "<p>" in line:
+            elif heat_string in line and "Quarter-final" in line and ("<p>" in line or "<h3>" in line):
                 temp_result = "quarters"    # indicate which round we are in
                 result_index = -1      # use this to pull values from the points table
                 heat_report.set_rounds("Q")
@@ -306,7 +306,7 @@ class Results_Processor():
                 looking_for_recall_column = True  # enter the next state
                 
             # If this check is true, we found Semi-final results for this heat            
-            elif heat_string in line and "Semi-final" in line and "<p>" in line:
+            elif heat_string in line and "Semi-final" in line and ("<p>" in line or "<h3>" in line):
                 temp_result = "Semis"
                 result_index = -2
                 if heat_report.rounds() == "F":
@@ -315,7 +315,7 @@ class Results_Processor():
                 looking_for_recall_column = True
             
             # If this check is true, we found the Final results for this heat
-            elif heat_string in line and "<p>" in line:   # and "Final" in line:
+            elif heat_string in line and ("<p>" in line or "<h3>" in line):   # and "Final" in line:
                 result = "Finals"
                 heat_info_from_scoresheet = self.get_heat_info(line, heat_string, "Final")                
                 # if this is a single dance event, we can look for the results now
@@ -323,7 +323,7 @@ class Results_Processor():
                     looking_for_result_column = True
                     
             # If this is the Final of a Multi-Dance event, we process the Final Summary
-            elif result == "Finals" and "Final summary" in line and "<p>" in line:
+            elif result == "Finals" and "Final summary" in line and ("<p>" in line or "<h3>" in line):
                 if event == "Multi-Dance":
                     looking_for_result_column = True
                     
