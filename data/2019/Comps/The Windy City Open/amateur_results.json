@@ -1,0 +1,985 @@
+{
+  "comp name": "The Windy City Open",
+  "heats": [
+    {
+      "title": "AC-S3 Novice Int'l Latin (C/S/R)",
+      "entries": [
+        {
+          "couple": "Do, Linda and Do, Son",
+          "place": "1",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "title": "AC-S3 Pre-Champ Int'l Latin (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Do, Linda and Do, Son",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "AC-AD Open Am. Smooth Multi-Dance (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Yu, Jasper and Tseng, Alison",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "title": "AC-S3 Open Int'l Latin Multi-Dance (C/S/R/P/J)",
+      "entries": [
+        {
+          "couple": "Legault, Pierre and Villeneuve, Lyne",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Do, Linda and Do, Son",
+          "place": "2",
+          "points": 12.5
+        }
+      ]
+    },
+    {
+      "title": "AC-U21 Open Int'l Latin Scholarship (C/S/R/P/J)",
+      "entries": [
+        {
+          "couple": "Kolodziej, David and Chilovich, Sofia",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Palcauskas, Tomas and Acas, Greta",
+          "place": "2",
+          "points": 12.5
+        }
+      ]
+    },
+    {
+      "title": "AC-AD Open Int'l Latin Scholarship (C/S/R/P/J)",
+      "entries": [
+        {
+          "couple": "Nikitchenko, Andrew and Lisovska, Yuliya",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Randelovic, Miroslav and Pizzi, Dakota",
+          "place": "2",
+          "points": 20.0
+        },
+        {
+          "couple": "Michalak, David and Kaspruk, Mira",
+          "place": "3",
+          "points": 16.25
+        },
+        {
+          "couple": "Kolodziej, David and Chilovich, Sofia",
+          "place": "4",
+          "points": 12.5
+        },
+        {
+          "couple": "Yu, Jasper and Tseng, Alison",
+          "place": "5",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "AC-S1 Novice Am. Rhythm (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Goncharov, Yevgeny and Simakhina, Svetlana",
+          "place": "1",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "title": "AC-S3 Novice Int'l Ballroom (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Dudko, Arkady and Dudko, Lena",
+          "place": "1",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "title": "AC-S3 Pre-Champ Int'l Ballroom (W/T/F/Q)",
+      "entries": [
+        {
+          "couple": "Dudko, Arkady and Dudko, Lena",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Tempas, Laurel and Tempas, Robert",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "AC-S3 Open Int'l Ballroom Multi-Dance (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Legault, Pierre and Villeneuve, Lyne",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Dudko, Arkady and Dudko, Lena",
+          "place": "2",
+          "points": 15.0
+        },
+        {
+          "couple": "Tempas, Laurel and Tempas, Robert",
+          "place": "3",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "AC-AD Open Int'l Ballroom Scholarship (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Burns, Alan and Batchelor, Kelly",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Noon, Brian and Seifter, Erinn",
+          "place": "2",
+          "points": 15.0
+        },
+        {
+          "couple": "Dudko, Arkady and Dudko, Lena",
+          "place": "3",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "AC-J1 Novice Int'l Ballroom (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Krumhorn, Nathan and Arquines, Marley",
+          "place": "1",
+          "points": 5.0
+        },
+        {
+          "couple": "Boyarskiy, Benjamin and Boyarskiy, Goldie",
+          "place": "2",
+          "points": 2.5
+        }
+      ]
+    },
+    {
+      "title": "AC-J2 Novice Int'l Ballroom (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Danchev, Sava and Rainyte, Emma",
+          "place": "1",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "title": "AC-J1 Closed Silver Int'l Ballroom 4-Dance (W/T/F/Q)",
+      "entries": [
+        {
+          "couple": "Boyarskiy, Benjamin and Boyarskiy, Goldie",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "AC-MLPT2 Closed Bronze Int'l Ballroom 3-Dance (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Lander, Liran and Raiber, Mikhal",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "AC-PT2 Closed Silver Int'l Ballroom 4-Dance (W/T/F/Q)",
+      "entries": [
+        {
+          "couple": "Stompel, Samuel and Birger, Anastasia",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Kadyanov, Alexander and Kasim, Amina",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Sojka, Patryk and Gliwa, Maja",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "title": "AC-J1 Pre-Champ Int'l Ballroom (W/T/F/Q)",
+      "entries": [
+        {
+          "couple": "Krumhorn, Nathan and Arquines, Marley",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Fridman, Ilan and Zarkhin, Zlata",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "AC-J2 Pre-Champ Int'l Ballroom (W/T/F/Q)",
+      "entries": [
+        {
+          "couple": "Danchev, Sava and Rainyte, Emma",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Rybczynski, Oskar and Kochanska, Julia",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Kowalik, Marcin and Nowak, Veronica",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "title": "AC-Y Pre-Champ Int'l Ballroom (W/T/F/Q)",
+      "entries": [
+        {
+          "couple": "Zajac, Karol and Zajaczkowski, Julia",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "AC-J2 Open Int'l Ballroom 5-Dance (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Bleykhman, Nickolas and Kobus, Alyssa",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Rybczynski, Oskar and Kochanska, Julia",
+          "place": "2",
+          "points": 15.0
+        },
+        {
+          "couple": "Danchev, Sava and Rainyte, Emma",
+          "place": "3",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "AC-MLPT2 Closed Int'l Ballroom 5-Dance (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Lander, Liran and Raiber, Mikhal",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "title": "AC-PT2 Closed Int'l Ballroom 5-Dance (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Fridman, Ilan and Zarkhin, Zlata",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "title": "AC-PT2 Closed Bronze Am. Smooth 3-Dance (W/T/F)",
+      "entries": [
+        {
+          "couple": "Zbranek, Lucas and Budyk, Wiktoria",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "AC-J1 Open Int'l Ballroom 5-Dance (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Lander, Liran and Stanevicius, Isabella",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Krumhorn, Nathan and Arquines, Marley",
+          "place": "2",
+          "points": 15.0
+        },
+        {
+          "couple": "Fridman, Ilan and Zarkhin, Zlata",
+          "place": "3",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "AC-Y Open Int'l Ballroom 5-Dance (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Zavialov, Victor and Konchin, Nicole",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Bleykhman, Nickolas and Kobus, Alyssa",
+          "place": "2",
+          "points": 15.0
+        },
+        {
+          "couple": "Dzyoba, Ostap and Gatych, Victoria",
+          "place": "3",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "AC-JR Open Int'l Ballroom Scholarship (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Rybczynski, Oskar and Kochanska, Julia",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Bleykhman, Nickolas and Kobus, Alyssa",
+          "place": "2",
+          "points": 20.0
+        },
+        {
+          "couple": "Danchev, Sava and Rainyte, Emma",
+          "place": "3",
+          "points": 16.25
+        },
+        {
+          "couple": "Lander, Liran and Stanevicius, Isabella",
+          "place": "4",
+          "points": 12.5
+        },
+        {
+          "couple": "Krumhorn, Nathan and Arquines, Marley",
+          "place": "5",
+          "points": 10.0
+        },
+        {
+          "couple": "Boyarskiy, Benjamin and Boyarskiy, Goldie",
+          "place": "6",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "AC-PT1 Closed Bronze Int'l Ballroom 3-Dance (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Bowen, Tristan and Kuznetsova, Diana",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Rizun, Bryan and Minkov, Jessica",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "AC-PT2 Closed Bronze Int'l Ballroom 3-Dance (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Stompel, Samuel and Birger, Anastasia",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Kadyanov, Alexander and Kasim, Amina",
+          "place": "2",
+          "points": 6.0
+        },
+        {
+          "couple": "Chereshnyuk, Marco and Negrea, Sophia",
+          "place": "3",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "title": "AC-YA Open Int'l Ballroom Scholarship (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Zavialov, Victor and Konchin, Nicole",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Bleykhman, Nickolas and Kobus, Alyssa",
+          "place": "2",
+          "points": 15.0
+        },
+        {
+          "couple": "Zajac, Karol and Kolodziejczyk, Olivia",
+          "place": "3",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "AC-J1 Closed Bronze Int'l Latin 3-Dance (C/S/R)",
+      "entries": [
+        {
+          "couple": "Lipnikas, Adam and Anoufrev, Michelle",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Indriliunas, Vilius and Janulyte, Austeja",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "AC-PT2 Closed Bronze Int'l Latin 3-Dance (C/S/R)",
+      "entries": [
+        {
+          "couple": "Stompel, Samuel and Birger, Anastasia",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Kadyanov, Alexander and Kasim, Amina",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Kuprescenko, Nikita and Radziute, Vilte",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Stoian, Viktor and Gimelman, Jessica",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Ryczek, Max and Marciniak, Nicole",
+          "place": "5",
+          "points": 8.0
+        },
+        {
+          "couple": "Dysa, Benas and Mincevicius, Carolina",
+          "place": "6",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "title": "AC-PT2 Closed Bronze Int'l Latin 3-Dance (C/S/R) -",
+      "entries": [
+        {
+          "couple": "Burbulis, Tomas and Indriliunas, Ema",
+          "place": "Semis",
+          "points": 2.4
+        },
+        {
+          "couple": "Chereshnyuk, Marco and Negrea, Sophia",
+          "place": "Semis",
+          "points": 2.4
+        },
+        {
+          "couple": "Olex, Joshua and Zdeblick, Madison",
+          "place": "Semis",
+          "points": 2.4
+        },
+        {
+          "couple": "Ziogas, Edvinas and Riabkov, Sofia",
+          "place": "Semis",
+          "points": 2.4
+        }
+      ]
+    },
+    {
+      "title": "AC-J1 Novice Int'l Latin (C/S/R)",
+      "entries": [
+        {
+          "couple": "Krumhorn, Nathan and Arquines, Marley",
+          "place": "1",
+          "points": 5.0
+        },
+        {
+          "couple": "Lipnikas, Adam and Anoufrev, Michelle",
+          "place": "2",
+          "points": 3.0
+        },
+        {
+          "couple": "Boyarskiy, Benjamin and Boyarskiy, Goldie",
+          "place": "3",
+          "points": 1.5
+        }
+      ]
+    },
+    {
+      "title": "AC-J2 Novice Int'l Latin (C/S/R)",
+      "entries": [
+        {
+          "couple": "Stapleton, Chase and Levin, Beatrice",
+          "place": "1",
+          "points": 5.0
+        },
+        {
+          "couple": "Kowalik, Marcin and Nowak, Veronica",
+          "place": "2",
+          "points": 2.5
+        }
+      ]
+    },
+    {
+      "title": "AC-Y Novice Int'l Latin (C/S/R)",
+      "entries": [
+        {
+          "couple": "Zajac, Karol and Kolodziejczyk, Olivia",
+          "place": "1",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "title": "AC-PT1 Closed Bronze Int'l Latin 3-Dance (C/S/R)",
+      "entries": [
+        {
+          "couple": "Voloshyn, Peter and Storozhuk, Elizabeth",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Dikin, Antosha and Azaryan, Diana",
+          "place": "2",
+          "points": 8.0
+        },
+        {
+          "couple": "Cepas, Mykolas and Bogusaite, Vilte",
+          "place": "3",
+          "points": 6.5
+        },
+        {
+          "couple": "Serman, Ari and Makarova, Alisa",
+          "place": "4",
+          "points": 5.0
+        },
+        {
+          "couple": "Barder, Aiden and Alvarado, Valery",
+          "place": "5",
+          "points": 4.0
+        },
+        {
+          "couple": "Liberman, Daniel and Zarkhin, Liana",
+          "place": "6",
+          "points": 3.0
+        },
+        {
+          "couple": "Muhich, Mila and Muhich, Nicolas",
+          "place": "7",
+          "points": 2.5
+        }
+      ]
+    },
+    {
+      "title": "AC-MLPT2 Closed Bronze Int'l Latin 3-Dance (C/S/R)",
+      "entries": [
+        {
+          "couple": "Lander, Liran and Raiber, Mikhal",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "AC-J1 Closed Silver Int'l Latin 4-Dance (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Bartninkas, Benas and Bickus, Gabia",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Kancleris, Jonas and Zeikus, Emilija",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Tkachuk, Vlad and Pieta, Kaya",
+          "place": "3",
+          "points": 9.75
+        },
+        {
+          "couple": "Boyarskiy, Benjamin and Boyarskiy, Goldie",
+          "place": "4",
+          "points": 7.5
+        },
+        {
+          "couple": "Slajus, Jokubas and Luciunas, Karolina",
+          "place": "5",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "title": "AC-PT1 Closed Silver Int'l Latin 4-Dance (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Barder, Aiden and Lorman, Sasha",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "AC-PT2 Closed Int'l Latin 5-Dance (C/S/R/P/J)",
+      "entries": [
+        {
+          "couple": "Fridman, Ilan and Zarkhin, Zlata",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Granovsky, Michelle and Johnson, Matthew",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Farris, Gabriel and Lundin, Valery",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Feldman, Levy and Azrikan, Samantha",
+          "place": "5",
+          "points": 8.0
+        },
+        {
+          "couple": "Koyfman, Leor and Tannenbaum, Sonya",
+          "place": "6",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "title": "AC-PT2 Closed Int'l Latin 5-Dance (C/S/R/P/J) -",
+      "entries": [
+        {
+          "couple": "Burbulis, Tomas and Indriliunas, Ema",
+          "place": "Semis",
+          "points": 2.4
+        },
+        {
+          "couple": "Pelesinas, Martynas and Bernotas, Gabriele",
+          "place": "Semis",
+          "points": 3.0
+        },
+        {
+          "couple": "Sojka, Patryk and Gliwa, Maja",
+          "place": "Semis",
+          "points": 2.4
+        }
+      ]
+    },
+    {
+      "title": "AC-J2 Open Int'l Latin 5-Dance (C/S/R/P/J)",
+      "entries": [
+        {
+          "couple": "Bleykhman, Nickolas and Kobus, Alyssa",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Stapleton, Chase and Levin, Beatrice",
+          "place": "2",
+          "points": 12.5
+        }
+      ]
+    },
+    {
+      "title": "AC-PT2 Closed Silver Int'l Latin 4-Dance (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Pelesinas, Martynas and Bernotas, Gabriele",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Feldman, Levy and Azrikan, Samantha",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Raimbekov, Ruslan and Margolis, Nicole",
+          "place": "3",
+          "points": 9.75
+        },
+        {
+          "couple": "Zbranek, Lucas and Budyk, Wiktoria",
+          "place": "4",
+          "points": 7.5
+        },
+        {
+          "couple": "Sojka, Patryk and Gliwa, Maja",
+          "place": "5",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "title": "AC-Y Open Int'l Latin 5-Dance (C/S/R/P/J)",
+      "entries": [
+        {
+          "couple": "Zavialov, Victor and Konchin, Nicole",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Palcauskas, Tomas and Acas, Greta",
+          "place": "2",
+          "points": 17.5
+        },
+        {
+          "couple": "Caldwell, Liam and Klineava, Marie",
+          "place": "3",
+          "points": 12.5
+        },
+        {
+          "couple": "Bleykhman, Nickolas and Kobus, Alyssa",
+          "place": "4",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "AC-J1 Pre-Champ Int'l Latin (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Krumhorn, Nathan and Arquines, Marley",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Lipnikas, Adam and Anoufrev, Michelle",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Tkachuk, Vlad and Pieta, Kaya",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "title": "AC-J2 Pre-Champ Int'l Latin (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Stapleton, Chase and Levin, Beatrice",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Kowalik, Marcin and Nowak, Veronica",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "AC-Y Pre-Champ Int'l Latin (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Zajac, Karol and Zajaczkowski, Julia",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "AC-MLJ2 Closed Silver Int'l Latin 4-Dance (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Zavialov, Victor and Lazarev, Katherine",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "AC-MLPT2 Closed Int'l Latin 5-Dance (C/S/R/P/J)",
+      "entries": [
+        {
+          "couple": "Lander, Liran and Raiber, Mikhal",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "AC-PT1 Closed Int'l Latin 5-Dance (C/S/R/P/J)",
+      "entries": [
+        {
+          "couple": "Shpigelskiy, Eric and Tansky, Guiliana",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Dikin, Antosha and Azaryan, Diana",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Kelpsas, Lukas and Grudnistyj, Milena",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "title": "AC-JR Open Int'l LatinScholarship (C/S/R/P/J)",
+      "entries": [
+        {
+          "couple": "Bleykhman, Nickolas and Kobus, Alyssa",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Stapleton, Chase and Levin, Beatrice",
+          "place": "2",
+          "points": 20.0
+        },
+        {
+          "couple": "Lander, Liran and Stanevicius, Isabella",
+          "place": "3",
+          "points": 16.25
+        },
+        {
+          "couple": "Krumhorn, Nathan and Arquines, Marley",
+          "place": "4",
+          "points": 12.5
+        },
+        {
+          "couple": "Boyarskiy, Benjamin and Boyarskiy, Goldie",
+          "place": "5",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "AC-J1 Open Int'l Latin 5-Dance (C/S/R/P/J)",
+      "entries": [
+        {
+          "couple": "Lander, Liran and Stanevicius, Isabella",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Fridman, Ilan and Zarkhin, Zlata",
+          "place": "2",
+          "points": 17.5
+        },
+        {
+          "couple": "Krumhorn, Nathan and Arquines, Marley",
+          "place": "3",
+          "points": 12.5
+        },
+        {
+          "couple": "Indriliunas, Vilius and Janulyte, Austeja",
+          "place": "4",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "AC-PT Closed Int'l Latin Scholarship (C/S/R/P/J)",
+      "entries": [
+        {
+          "couple": "Fridman, Ilan and Zarkhin, Zlata",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Granovsky, Michelle and Johnson, Matthew",
+          "place": "2",
+          "points": 20.0
+        },
+        {
+          "couple": "Farris, Gabriel and Lundin, Valery",
+          "place": "3",
+          "points": 16.25
+        },
+        {
+          "couple": "Koyfman, Leor and Tannenbaum, Sonya",
+          "place": "5",
+          "points": 10.0
+        },
+        {
+          "couple": "Shpigelskiy, Eric and Tansky, Guiliana",
+          "place": "6",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "AC-YA Open Int'l LatinScholarship (C/S/R/P/J)",
+      "entries": [
+        {
+          "couple": "Caldwell, Liam and Klineava, Marie",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Palcauskas, Tomas and Acas, Greta",
+          "place": "2",
+          "points": 17.5
+        },
+        {
+          "couple": "Bleykhman, Nickolas and Kobus, Alyssa",
+          "place": "3",
+          "points": 12.5
+        },
+        {
+          "couple": "Zavialov, Victor and Konchin, Nicole",
+          "place": "4",
+          "points": 7.5
+        }
+      ]
+    }
+  ]
+}

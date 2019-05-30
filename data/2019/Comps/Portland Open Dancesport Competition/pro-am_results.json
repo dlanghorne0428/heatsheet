@@ -2,557 +2,852 @@
   "comp name": "Portland Open Dancesport Competition",
   "heats": [
     {
-      "title": "Mixed Amateur Closed Bronze Multi-Dance Even B Int'l Ballroom (W,T,Q)",
+      "title": "Pro/Am Closed Bronze Multi-Dance Events C Nightclub (H,NC,SA)",
       "entries": [
         {
-          "couple": "Kaliuzhnyi, Ruslan and Li, Tingting",
+          "couple": "Fernandez, Leon and Whiteside, Suky",
           "place": "1",
           "points": 10
         }
       ]
     },
     {
-      "title": "Mixed Amateur Closed Silver Multi-Dance Even B Int'l Ballroom (W,T,F,Q)",
+      "title": "Pro/Am Closed Bronze Gent's Only Multi-Dance S1 Amer. Rhythm (CC,R,SW)",
       "entries": [
         {
-          "couple": "Kaliuzhnyi, Ruslan and Li, Tingting",
+          "couple": "Ericksen, Jon and Novikova, Alla",
           "place": "1",
           "points": 10
         }
       ]
     },
     {
-      "title": "Youth Amateur Open 5-Dance Scholarships YH Int'l Latin (CC,S,R,PD,J)",
+      "title": "Pro/Am Closed Bronze Multi-Dance Events S2 Amer. Rhythm (CC,R,SW)",
       "entries": [
         {
-          "couple": "Chang, Ronald and Chang, Leanne",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur Open 5-Dance Events B Int'l Ballroom (W,T,VW,F,Q)",
-      "entries": [
-        {
-          "couple": "Ischenko, Dmitry and Ischenko, Tatiana",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur 5-Dance Scholarships A Int'l Ballroom (W,T,VW,F,Q)",
-      "entries": [
-        {
-          "couple": "Kalyuzhnyy, Ruslan and Tsekanovsky, Sonya",
+          "couple": "Baker, Mark and Bennett, Kim",
           "place": "1",
           "points": 10.0
         },
         {
-          "couple": "Tseytlin, Anton and Bakhmetyeva, Maria",
-          "place": "2",
-          "points": 8.0
-        },
-        {
-          "couple": "Ischenko, Dmitry and Ischenko, Tatiana",
-          "place": "3",
-          "points": 6.5
-        },
-        {
-          "couple": "Levenkov, Michael and Gunnell, Tiawna",
-          "place": "4",
-          "points": 5.0
-        },
-        {
-          "couple": "Wang, Jacky and Richmond, Kristina",
-          "place": "5",
-          "points": 4.0
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur Closed Bronze 2-Dance Events 1 CG Amer. Smooth (W,T)",
-      "entries": [
-        {
-          "couple": "Dionne, Jaymes and Ewton, Rickie",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Tan, Nathan and Wales, Robyn",
-          "place": "2",
-          "points": 8.0
-        },
-        {
-          "couple": "Katzler, Cole and Pounds, Annika",
-          "place": "3",
-          "points": 6.5
-        },
-        {
-          "couple": "Ralston, Christopher and Garcia, Rose",
-          "place": "4",
-          "points": 5.0
-        },
-        {
-          "couple": "Powers III, Robert and Moxley, Elizabeth",
-          "place": "5",
-          "points": 4.0
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur Open Novice Events A Amer. Smooth (W,T,F)",
-      "entries": [
-        {
-          "couple": "Phillips, Jaxon and Peregrine, Raleigh",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Blanchard, Adam and Gunnell, Tiawna",
-          "place": "2",
-          "points": 8.0
-        },
-        {
-          "couple": "Gee, Marco and Olds, Alyssa",
-          "place": "3",
-          "points": 6.5
-        },
-        {
-          "couple": "Brooks, Jason and Tribble, Audrey",
-          "place": "4",
-          "points": 5.0
-        },
-        {
-          "couple": "Crisostomo, Hayden and Hrouda, Nichole",
-          "place": "5",
-          "points": 4.0
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur Open PreChamp Events A Amer. Smooth (W,T,F)",
-      "entries": [
-        {
-          "couple": "Phillips, Jaxon and Peregrine, Raleigh",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Blanchard, Adam and Gunnell, Tiawna",
-          "place": "2",
-          "points": 8.0
-        },
-        {
-          "couple": "Gee, Marco and Olds, Alyssa",
-          "place": "3",
-          "points": 6.5
-        },
-        {
-          "couple": "Brooks, Jason and Tribble, Audrey",
-          "place": "4",
-          "points": 5.0
-        },
-        {
-          "couple": "Crisostomo, Hayden and Hrouda, Nichole",
-          "place": "5",
-          "points": 4.0
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur Closed Silver 3-Dance Events CG Amer. Smooth (W,T,F)",
-      "entries": [
-        {
-          "couple": "Katzler, Cole and Pounds, Annika",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Dionne, Jaymes and Ewton, Rickie",
-          "place": "2",
-          "points": 5.0
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur Closed Silver 3-Dance Events S Amer. Smooth (W,T,F)",
-      "entries": [
-        {
-          "couple": "Blashfield, Roger and Blashfield, Linda",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur Closed Bronze 2-Dance Events 1 S Amer. Smooth (W,T)",
-      "entries": [
-        {
-          "couple": "Grossman, Ron and Grossman, Jo",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur Closed Bronze 2-Dance Events 2 CG Amer. Smooth (F,VW)",
-      "entries": [
-        {
-          "couple": "Dionne, Jaymes and Ewton, Rickie",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur PreNovice Events A Amer. Rhythm (CC,R,SW)",
-      "entries": [
-        {
-          "couple": "Crisostomo, Hayden and Cook, Sarah",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Kramor, Erich and Miller, Micaela",
+          "couple": "Downs, Will and Pecora, Renee",
           "place": "2",
           "points": 6.0
-        },
-        {
-          "couple": "Tan, Nathan and Wales, Robyn",
-          "place": "3",
-          "points": 3.0
         }
       ]
     },
     {
-      "title": "Adult Amateur Closed Bronze 2-Dance Events 2 CG Amer. Rhythm (SW,M)",
+      "title": "Pro/Am Closed Bronze Gent's Only Multi-Dance S2 Amer. Rhythm (CC,R,SW)",
       "entries": [
         {
-          "couple": "Katzler, Cole and Pounds, Annika",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Tan, Nathan and Wales, Robyn",
-          "place": "2",
-          "points": 5.0
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur Open Novice Events A Amer. Rhythm (CC,R,SW)",
-      "entries": [
-        {
-          "couple": "Crisostomo, Hayden and Cook, Sarah",
+          "couple": "Grossman, Ron and Aillon, Jessi",
           "place": "1",
           "points": 10
         }
       ]
     },
     {
-      "title": "Adult Amateur Closed Bronze 2-Dance Events 1 CG Amer. Rhythm (CC,R)",
+      "title": "Pro/Am Closed Bronze Multi-Dance Events A Amer. Rhythm (CC,R,SW)",
       "entries": [
         {
-          "couple": "Kramor, Erich and Miller, Micaela",
+          "couple": "Ortega, Anjel and Kashkina, Oxana",
           "place": "1",
           "points": 10.0
         },
         {
-          "couple": "Katzler, Cole and Pounds, Annika",
+          "couple": "Baker, Mark and Schweichert, Heidi",
+          "place": "2",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Bronze Multi-Dance Events C Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Fernandez, Leon and Whiteside, Suky",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Gold Gent's Only Multi-Dance E S1 Amer. Rhythm (CC,R,SW,B,M)",
+      "entries": [
+        {
+          "couple": "Rodriguez, Sal and Novikova, Alla",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Silver Multi-Dance Events S2 Amer. Rhythm (CC,R,SW,B)",
+      "entries": [
+        {
+          "couple": "Aillon, Alex and Grossman, Jo",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Bronze Multi-Dance Events S1 Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Fernandez, Leon and Whiteside, Suky",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Baker, Mark and Bennett, Kim",
           "place": "2",
           "points": 8.0
         },
         {
-          "couple": "Tan, Nathan and Wales, Robyn",
+          "couple": "Ericksen, Jon and Novikova, Alla",
           "place": "3",
           "points": 6.5
         },
         {
-          "couple": "Powers III, Robert and Moxley, Elizabeth",
+          "couple": "Aillon, Alex and Kavet, Suzanne",
           "place": "4",
           "points": 5.0
         },
         {
-          "couple": "Ralston, Christopher and Garcia, Rose",
-          "place": "5",
-          "points": 4.0
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur Closed Bronze 2-Dance Events 1 A Int'l Ballroom (W,Q)",
-      "entries": [
-        {
-          "couple": "Liu, Richard and Lee, Joyce",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Huang, Lu and Lan, Chenyun",
-          "place": "2",
-          "points": 5.0
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur Closed Bronze 2-Dance Events 2 A Int'l Ballroom (T,F)",
-      "entries": [
-        {
-          "couple": "Liu, Richard and Lee, Joyce",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur Closed Gold 4-Dance Events A Int'l Ballroom (W,T,F,Q)",
-      "entries": [
-        {
-          "couple": "Vo, Kevin and Skalsky, Rebecca",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Wojahn, Mark and Trueblood, Iea",
-          "place": "2",
-          "points": 5.0
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur Closed Gold 4-Dance Events B Int'l Ballroom (W,T,F,Q)",
-      "entries": [
-        {
-          "couple": "Davis, Rick and Boucher, Lisa",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Wojahn, Mark and Trueblood, Iea",
-          "place": "1",
-          "points": 10.0
-        }
-      ]
-    },
-    {
-      "title": "mG-P1 Full Bronze Int'l Waltz",
-      "entries": [
-        {
-          "couple": "Keanu Hoberock, Cisco and Milania Hoberock, Keylee",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "Youth Amateur Closed Bronze 2-Dance Events ( J1 Int'l Ballroom (T,F)",
-      "entries": [
-        {
-          "couple": "Babravitski, Ivan and Ionis, Vivian",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "Youth Amateur Closed Bronze 2-Dance Events P2 Int'l Ballroom (W,Q)",
-      "entries": [
-        {
-          "couple": "Miroshnichenko, Mikhail and Suevsky, Allyson",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Cook, Jacob and Owen, Suzette",
-          "place": "2",
-          "points": 8.0
-        },
-        {
-          "couple": "Paulsen, Ethan and Jones, Brynlee",
-          "place": "3",
-          "points": 6.5
-        },
-        {
-          "couple": "Morgan, Lev and Ginzburg, Dana",
-          "place": "4",
-          "points": 5.0
-        },
-        {
-          "couple": "Heal, Landon and Dollan, Brynlee",
+          "couple": "Simler, Nathan and Zielstra, Barbara",
           "place": "5",
           "points": 4.0
         },
         {
-          "couple": "Code, Jarred and Paulson, Brooklyn",
+          "couple": " Schwartz, Robert and St. Clair, Adrienne",
           "place": "6",
           "points": 3.0
         },
         {
-          "couple": "DeWaal, Trevor and DeWaal, Kylie",
+          "couple": "Downs, Will and Teicheira, Danna",
           "place": "7",
           "points": 2.5
         }
       ]
     },
     {
-      "title": "Youth Amateur Closed Silver 3-Dance Events J2 Int'l Ballroom (W,F,Q)",
+      "title": "Closed Silver WDSS Qualifiers C Amer. Rhythm (CC,R,SW,B)",
       "entries": [
         {
-          "couple": "Lee, Joshua and Kung, Elizabeth",
+          "couple": "Aillon, Alex and Grossman, Jo",
+          "place": "1",
+          "points": 4.5
+        },
+        {
+          "couple": "Bohdanov, Vlad and Ballachey, Susan",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Petr, Michael and Dishman, Fran",
+          "place": "2",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Bronze WDSS Qualifiers C Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": " Schwartz, Robert and St. Clair, Adrienne",
           "place": "1",
           "points": 10.0
         },
         {
-          "couple": "Choudhry, Hunter and Kobozev, Nelly",
+          "couple": "Grossman, Ron and Aillon, Jessi",
+          "place": "2",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Silver WDSS Qualifiers A Amer. Rhythm (CC,R,SW,B)",
+      "entries": [
+        {
+          "couple": "Welch, Benjamin and Welch, Lillian",
+          "place": "2",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Gold Multi-Dance Events S1 Amer. Rhythm (CC,R,SW,B,M)",
+      "entries": [
+        {
+          "couple": "Petr, Michael and Dishman, Fran",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Rodriguez, Sal and Novikova, Alla",
+          "place": "2",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Silver Multi-Dance Events A Amer. Rhythm (CC,R,SW,B)",
+      "entries": [
+        {
+          "couple": "Aillon, Alex and Wissel, Morgan",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Welch, Benjamin and Welch, Lillian",
+          "place": "2",
+          "points": 10.5
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Silver Multi-Dance Events M Amer. Rhythm (CC,R,SW,B)",
+      "entries": [
+        {
+          "couple": "Baker, Mark and Henderson, Faye",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Bronze Multi-Dance Events S1 Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Aillon, Alex and Kavet, Suzanne",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Northup, Bill and Aillon, Jessi",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Gents Only Open Gold S1 Amer. Rhythm (CC,R,SW,B,M)",
+      "entries": [
+        {
+          "couple": "Rodriguez, Sal and Novikova, Alla",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Bronze Multi-Dance Events S1 Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Novikov, Alexander and Holmes, Deb",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Bronze Multi-Dance Events S2 Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Dowsett, Ikaika and Smith, Mary",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Gold Gent's Only Multi-Dance Eve S2 Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Williamson, Stephen and Michtchenko, Katerina",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Silver Multi-Dance Events C Amer. Rhythm (CC,R,SW,B)",
+      "entries": [
+        {
+          "couple": "Bohdanov, Vlad and Ballachey, Susan",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Petr, Michael and Dishman, Fran",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Silver Multi-Dance Events S2 Amer. Rhythm (CC,R,SW,B)",
+      "entries": [
+        {
+          "couple": "Aillon, Alex and Grossman, Jo",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Open WDSS Qualifiers A Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Nekrasov, Sergey and Camerino, Kaylah",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Gents Only Open Gold S2 Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Williamson, Stephen and Michtchenko, Katerina",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "Open WDSS Qualifiers C Amer. Rhythm (CC,R,SW,B,M)",
+      "entries": [
+        {
+          "couple": "Aillon, Alex and Kavet, Suzanne",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Northup, Bill and Aillon, Jessi",
+          "place": "2",
+          "points": 12.5
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Bronze Gent's Only Multi-Dance A Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Ortega, Anjel and Kashkina, Oxana",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Bronze WDSS Qualifiers A Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Ortega, Anjel and Kashkina, Oxana",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Bronze Scholarships C Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Fernandez, Leon and Whiteside, Suky",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Bronze Scholarships S2 Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Baker, Mark and Bennett, Kim",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Grossman, Ron and Aillon, Jessi",
+          "place": "2",
+          "points": 8.0
+        },
+        {
+          "couple": "Downs, Will and Pecora, Renee",
+          "place": "3",
+          "points": 6.5
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Bronze Scholarships S1 Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Novikov, Alexander and Holmes, Deb",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Bronze Scholarships A Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Ortega, Anjel and Kashkina, Oxana",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Bronze Scholarships S1 Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Fernandez, Leon and Whiteside, Suky",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Ericksen, Jon and Novikova, Alla",
+          "place": "2",
+          "points": 8.0
+        },
+        {
+          "couple": "Aillon, Alex and Kavet, Suzanne",
+          "place": "3",
+          "points": 6.5
+        },
+        {
+          "couple": "Simler, Nathan and Zielstra, Barbara",
+          "place": "4",
+          "points": 5.0
+        },
+        {
+          "couple": "Downs, Will and Teicheira, Danna",
+          "place": "5",
+          "points": 4.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Bronze Gent's Only Multi-Dance E S1 Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Northup, Bill and Aillon, Jessi",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Bronze Scholarships C Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Novikov, Alexander and Holmes, Deb",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Bronze Scholarships S2 Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Dowsett, Ikaika and Smith, Mary",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Silver Scholarships A Amer. Rhythm (CC,R,SW,B)",
+      "entries": [
+        {
+          "couple": "Aillon, Alex and Wissel, Morgan",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Welch, Benjamin and Welch, Lillian",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Gents closed Scholarships Closed Bronze S1 Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Ericksen, Jon and Novikova, Alla",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Gents closed Scholarships Closed Bronze S2 Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Grossman, Ron and Aillon, Jessi",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Silver Scholarships S1 Int'l Ballroom (W,T,F,Q)",
+      "entries": [
+        {
+          "couple": "Novikov, Alexander and Gilfillan, Anita",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Silver Scholarships S2 Amer. Rhythm (CC,R,SW,B)",
+      "entries": [
+        {
+          "couple": "Fontes, Nathan and Maynard, Marian",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Aillon, Alex and Grossman, Jo",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Scholarships S1 Amer. Rhythm (CC,R,SW,B,M)",
+      "entries": [
+        {
+          "couple": "Fernandez, Leon and Whiteside, Suky",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Rodriguez, Sal and Novikova, Alla",
+          "place": "2",
+          "points": 17.5
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Silver Scholarships S2 Int'l Ballroom (W,T,F,Q)",
+      "entries": [
+        {
+          "couple": "Novikov, Alexander and Gilfillan, Anita",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Scholarships A Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Nekrasov, Sergey and Camerino, Kaylah",
+          "place": "1",
+          "points": 25.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Silver Multi-Dance Events S1 Int'l Ballroom (W,T,F,Q)",
+      "entries": [
+        {
+          "couple": "Novikov, Alexander and Gilfillan, Anita",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "Closed Bronze WDSS Qualifiers C Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Baker, Mark and Sherman, Kelly",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Watson, David and Stevenson, Faia",
           "place": "2",
           "points": 7.0
         },
         {
-          "couple": "Crisostomo, Logan and Oboy, Lauren",
+          "couple": "Grossman, Ron and Aillon, Jessi",
           "place": "3",
           "points": 5.0
         },
         {
-          "couple": "Kung, Nathaniel and Voloshinov, Sonia",
+          "couple": " Schwartz, Robert and St. Clair, Adrienne",
           "place": "4",
           "points": 3.0
         }
       ]
     },
     {
-      "title": "Youth Amateur Closed Silver 3-Dance Events J1 Int'l Ballroom (W,F,Q)",
+      "title": "Closed Bronze WDSS Qualifiers B Amer. Smooth (W,T,F)",
       "entries": [
         {
-          "couple": "Babravitski, Ivan and Ionis, Vivian",
+          "couple": "Petr, Michael and Dishman, Fran",
           "place": "1",
           "points": 10.0
         },
         {
-          "couple": "Kung, Nathaniel and Voloshinov, Sonia",
+          "couple": " Schwartz, Robert and Sellers, Michelle",
           "place": "2",
           "points": 5.0
         }
       ]
     },
     {
-      "title": "Adult Amateur Open Novice Events A Int'l Ballroom (W,T,F,Q)",
+      "title": "Pro/Am Closed Bronze Gent's Only Multi-Dance S2 Amer. Smooth (W,T,F)",
       "entries": [
         {
-          "couple": "Huang, Steven and Curmei, Mihaela",
+          "couple": "Grossman, Ron and Aillon, Jessi",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Bronze Multi-Dance Events B Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": " Schwartz, Robert and Sellers, Michelle",
           "place": "1",
           "points": 10.0
         },
         {
-          "couple": "Phillips, Jaxon and Longhurst, Cora",
+          "couple": "Simler, Nathan and Osadchuk, Lisa",
           "place": "2",
-          "points": 7.0
-        },
-        {
-          "couple": "Crawford, David and Hudson, Jael",
-          "place": "3",
           "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Bronze Multi-Dance Events C Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Baker, Mark and Sherman, Kelly",
+          "place": "1",
+          "points": 10.0
         },
         {
-          "couple": "Filler, Tomas and Pokorna, Radka",
+          "couple": "Petr, Michael and Dishman, Fran",
+          "place": "2",
+          "points": 8.0
+        },
+        {
+          "couple": "Watson, David and Stevenson, Faia",
+          "place": "3",
+          "points": 6.5
+        },
+        {
+          "couple": "Downs, Will and Dyas, Julie",
           "place": "4",
-          "points": 3.0
-        }
-      ]
-    },
-    {
-      "title": "Youth Amateur Closed Gold 4-Dance Events J2 Int'l Ballroom (W,T,F,Q)",
-      "entries": [
-        {
-          "couple": "Lee, Joshua and Kung, Elizabeth",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Choudhry, Hunter and Kobozev, Nelly",
-          "place": "2",
           "points": 5.0
         }
       ]
     },
     {
-      "title": "Adult Amateur PreNovice Events B Int'l Ballroom (W,T,Q)",
+      "title": "Pro/Am Closed Bronze Multi-Dance Events S2 Amer. Smooth (W,T,F)",
       "entries": [
         {
-          "couple": "Filler, Tomas and Pokorna, Radka",
+          "couple": "della Santina, Piero and Crumrine, Lucy",
           "place": "1",
           "points": 10.0
         },
         {
-          "couple": "Davis, Rick and Boucher, Lisa",
+          "couple": "Grossman, Ron and Aillon, Jessi",
           "place": "2",
-          "points": 7.0
-        },
-        {
-          "couple": "Wojahn, Mark and Trueblood, Iea",
-          "place": "3",
-          "points": 5.0
-        },
-        {
-          "couple": "Moen, Vidar and Harrison, Penny",
-          "place": "4",
-          "points": 3.0
+          "points": 8.0
         }
       ]
     },
     {
-      "title": "Mixed Amateur Closed Gold Multi-Dance Events YH Int'l Ballroom (W,T,VW,F,Q)",
+      "title": "Open WDSS Qualifiers C Amer. Smooth (W,T,F,VW)",
       "entries": [
         {
-          "couple": "Kim, Ruslan and Tsekanovsky, Sonya",
+          "couple": "Grossman, Ron and Aillon, Jessi",
           "place": "1",
-          "points": 10.0
+          "points": 25.0
         },
         {
-          "couple": "Morgan, Nikolay and Odintsova, Alina",
+          "couple": "Aillon, Alex and Von Duisburg, Dagmar",
           "place": "2",
-          "points": 5.0
+          "points": 12.5
         }
       ]
     },
     {
-      "title": "Adult Amateur Open Novice Events B Int'l Ballroom (W,T,F,Q)",
+      "title": "Pro/Am Closed Bronze Multi-Dance Events S Amer. Smooth (W,T,F)",
       "entries": [
         {
-          "couple": "Filler, Tomas and Pokorna, Radka",
+          "couple": "Ogata, Miles and Reynosa, Mila",
           "place": "1",
           "points": 10.0
         },
         {
-          "couple": "Davis, Rick and Boucher, Lisa",
+          "couple": " Schwartz, Robert and St. Clair, Adrienne",
           "place": "2",
-          "points": 6.0
+          "points": 8.0
         },
         {
-          "couple": "Moen, Vidar and Harrison, Penny",
+          "couple": "Downs, Will and Teicheira, Danna",
           "place": "3",
-          "points": 3.0
+          "points": 6.5
         }
       ]
     },
     {
-      "title": "Youth Amateur Open PreChamp Events P1 Int'l Ballroom (W,T,F,Q)",
+      "title": "Pro/Am Closed Silver Multi-Dance Events M Amer. Smooth (W,T,F,VW)",
       "entries": [
         {
-          "couple": "Miroshnichenko, Mikhail and Suevsky, Allyson",
+          "couple": "Baker, Mark and Henderson, Faye",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Silver Multi-Dance Events S1 Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Petr, Michael and Bray, Sherri",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Simler, Nathan and Zielstra, Barbara",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": " Schwartz, Robert and Eggertsen, Robilyn",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Bronze Gent's Only Multi-Dance E S2 Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Grossman, Ron and Aillon, Jessi",
           "place": "1",
           "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Gold Gent's Only Multi-Dance Eve S2 Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Williamson, Stephen and Michtchenko, Katerina",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Silver Multi-Dance Events S2 Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Aillon, Alex and Grossman, Jo",
+          "place": "1",
+          "points": 15.0
         },
         {
-          "couple": "Shneerson, Alexander and Komashinskaya, Elisaveta",
+          "couple": "Simler, Nathan and Pratt, Sandy",
           "place": "2",
-          "points": 6.0
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Bronze Multi-Dance Events S2 Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Grossman, Ron and Aillon, Jessi",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Silver WDSS Qualifiers B Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Petr, Michael and Dishman, Fran",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Silver Multi-Dance Events C Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Bohdanov, Vlad and Ballachey, Susan",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Silver Multi-Dance Events S2 Amer. Smooth (W,T,F,VW) /J",
+      "entries": [
+        {
+          "couple": "Aillon, Alex and Von Duisburg, Dagmar",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Silver WDSS Qualifiers C Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Bohdanov, Vlad and Ballachey, Susan",
+          "place": "1",
+          "points": 15.0
         },
         {
-          "couple": "Zinkovsky, Nicholas and Zaychikov, Sabina",
+          "couple": "Petr, Michael and Bray, Sherri",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Aillon, Alex and Grossman, Jo",
           "place": "3",
-          "points": 3.0
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Gents Only Open Gold S2 Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Williamson, Stephen and Michtchenko, Katerina",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Silver Multi-Dance Events S2 Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Aillon, Alex and Grossman, Jo",
+          "place": "1",
+          "points": 15
         }
       ]
     },
@@ -562,217 +857,87 @@
         {
           "couple": "Kaliuzhnyi, Ruslan and Milania Hoberock, Keylee",
           "place": "1",
-          "points": 10.0
+          "points": 20.0
         },
         {
           "couple": "Kim, Ruslan and Tsekanovsky, Sonya",
           "place": "2",
-          "points": 6.0
+          "points": 12.0
         },
         {
           "couple": "Murstein, Nathan and Gershaft, Sophia",
           "place": "3",
-          "points": 3.0
-        }
-      ]
-    },
-    {
-      "title": "Youth Amateur Closed Bronze 2-Dance Events P2 Int'l Latin (CC,R)",
-      "entries": [
-        {
-          "couple": "Heal, Landon and Dollan, Brynlee",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Miroshnichenko, Mikhail and Suevsky, Allyson",
-          "place": "2",
-          "points": 8.0
-        },
-        {
-          "couple": "Paulsen, Ethan and Jones, Brynlee",
-          "place": "3",
-          "points": 6.5
-        },
-        {
-          "couple": "Cook, Jacob and Owen, Suzette",
-          "place": "4",
-          "points": 5.0
-        },
-        {
-          "couple": "Code, Jarred and Paulson, Brooklyn",
-          "place": "5",
-          "points": 4.0
-        },
-        {
-          "couple": "Morgan, Lev and Ginzburg, Dana",
-          "place": "6",
-          "points": 3.0
-        },
-        {
-          "couple": "DeWaal, Trevor and DeWaal, Kylie",
-          "place": "7",
-          "points": 2.5
-        },
-        {
-          "couple": "Siemers, Chase and Pelton, Lucy",
-          "place": "8",
-          "points": 2.5
-        }
-      ]
-    },
-    {
-      "title": "Youth Amateur Closed Bronze 2-Dance Events ( P2 Int'l Latin (S,J)",
-      "entries": [
-        {
-          "couple": "Miroshnichenko, Mikhail and Suevsky, Allyson",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Morgan, Lev and Ginzburg, Dana",
-          "place": "2",
-          "points": 5.0
-        }
-      ]
-    },
-    {
-      "title": "Youth Amateur Closed Bronze 2-Dance Events J1 Int'l Latin (CC,R)",
-      "entries": [
-        {
-          "couple": "Heal, Landon and Dollan, Brynlee",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Babravitski, Ivan and Ionis, Vivian",
-          "place": "2",
           "points": 6.0
-        },
-        {
-          "couple": "Cook, Jacob and Owen, Suzette",
-          "place": "3",
-          "points": 3.0
         }
       ]
     },
     {
-      "title": "Youth Amateur Closed Bronze 2-Dance Events ( J1 Int'l Latin (S,J)",
+      "title": "Closed Silver WDSS Qualifiers B Int'l Latin (CC,S,R,J)",
       "entries": [
         {
-          "couple": "Babravitski, Ivan and Ionis, Vivian",
+          "couple": "Petr, Michael and Dishman, Fran",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "Closed Silver WDSS Qualifiers C Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Petr, Michael and Dishman, Fran",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Bronze Multi-Dance Events S1 Int'l Latin (CC,R,J)",
+      "entries": [
+        {
+          "couple": "Baker, Mark and Chandler, Jan",
           "place": "1",
           "points": 10
         }
       ]
     },
     {
-      "title": "Youth Amateur Closed Gold 4-Dance Events P1 Int'l Latin (CC,S,R,J)",
+      "title": "Mixed Ama open Scholarships Open Gold A Mixed Prof M/F Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
-          "couple": "Shneerson, Alexander and Komashinskaya, Elisaveta",
+          "couple": "Bucio, Raul and Tsekanovsky, Sonya",
           "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Zinkovsky, Nicholas and Zaychikov, Sabina",
-          "place": "2",
-          "points": 5.0
+          "points": 20
         }
       ]
     },
     {
-      "title": "Adult Amateur Closed Bronze 2-Dance Events 1 A Int'l Latin (CC,R)",
+      "title": "Open WDSS Qualifiers A Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
-          "couple": "Liu, Richard and Lee, Joyce",
+          "couple": "Nekrasov, Sergey and Camerino, Kaylah",
           "place": "1",
-          "points": 10
+          "points": 25.0
         }
       ]
     },
     {
-      "title": "Adult Amateur Closed Gold 4-Dance Events CG Int'l Latin (CC,S,R,J)",
+      "title": "Pro/Am Closed Gold Multi-Dance Events A Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
-          "couple": "Parker, Ezra and Suntharalingam, Dhanya",
+          "couple": "Petr, Michael and Drace, Amelia",
           "place": "1",
-          "points": 10
+          "points": 20.0
         }
       ]
     },
     {
-      "title": "Youth Amateur Closed Silver 3-Dance Events J1 Int'l Latin (CC,R,S)",
+      "title": "Pro/Am Open Gold Multi-Dance Events YH Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
-          "couple": "Kung, Nathaniel and Voloshinov, Sonia",
+          "couple": "Diallo, Umario and Milania Hoberock, Keylee",
           "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Babravitski, Ivan and Ionis, Vivian",
-          "place": "2",
-          "points": 5.0
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur Closed Bronze 2-Dance Events 2 A Int'l Latin (S,J)",
-      "entries": [
-        {
-          "couple": "Liu, Richard and Lee, Joyce",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur Closed Gold 4-Dance Events A Int'l Latin (CC,S,R,J)",
-      "entries": [
-        {
-          "couple": "Parker, Ezra and Suntharalingam, Dhanya",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Teplouhov, Anton and Galeyeva, Angelina",
-          "place": "2",
-          "points": 5.0
-        }
-      ]
-    },
-    {
-      "title": "Mixed Amateur Closed Bronze Multi-Dance Even PT Int'l Latin (CC,R,J)",
-      "entries": [
-        {
-          "couple": "Keanu Hoberock, Cisco and Milania Hoberock, Keylee",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "Adult Amateur Closed Silver 3-Dance Events A Int'l Latin (CC,S,R)",
-      "entries": [
-        {
-          "couple": "Liu, Richard and Lee, Joyce",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Parker, Ezra and Suntharalingam, Dhanya",
-          "place": "2",
-          "points": 5.0
-        }
-      ]
-    },
-    {
-      "title": "Mixed Amateur Closed Silver Multi-Dance Even PT Int'l Latin (CC,S,R,J)",
-      "entries": [
-        {
-          "couple": "Keanu Hoberock, Cisco and Milania Hoberock, Keylee",
-          "place": "1",
-          "points": 10
+          "points": 20.0
         }
       ]
     },
@@ -782,57 +947,27 @@
         {
           "couple": "Diallo, Umario and Milania Hoberock, Keylee",
           "place": "1",
-          "points": 10
+          "points": 25
         }
       ]
     },
     {
-      "title": "Adult Amateur Open Novice Events A Int'l Latin (CC,S,R,J)",
+      "title": "Pro/Am Closed Bronze Multi-Dance Events S2 Int'l Latin (CC,R,J)",
       "entries": [
         {
-          "couple": "Bucio, Raul and Hudson, Jael",
+          "couple": "Baker, Mark and Chandler, Jan",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Gold Multi-Dance Events B Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Petr, Michael and Boulinger, Kristina",
           "place": "1",
           "points": 20.0
-        },
-        {
-          "couple": "de Guzman, Lester and Liang, Cindy",
-          "place": "2",
-          "points": 16.0
-        },
-        {
-          "couple": "Ongpin, Jesse and Castelan, Judith",
-          "place": "3",
-          "points": 13.0
-        },
-        {
-          "couple": "Phillips, Jaxon and Longhurst, Cora",
-          "place": "5",
-          "points": 8.0
-        },
-        {
-          "couple": "Parker, Ezra and Suntharalingam, Dhanya",
-          "place": "6",
-          "points": 6.0
-        },
-        {
-          "couple": "Blanchard, Adam and Cook, Sarah",
-          "place": "Semis",
-          "points": 2.4
-        },
-        {
-          "couple": "Brooks, Jason and Tribble, Audrey",
-          "place": "Semis",
-          "points": 2.4
-        },
-        {
-          "couple": "Huang, Steven and Curmei, Mihaela",
-          "place": "Semis",
-          "points": 4.0
-        },
-        {
-          "couple": "Teplouhov, Anton and Galeyeva, Angelina",
-          "place": "Semis",
-          "points": 2.4
         }
       ]
     },
@@ -842,62 +977,122 @@
         {
           "couple": "Murstein, Nathan and Gershaft, Sophia",
           "place": "1",
-          "points": 10
+          "points": 20
         }
       ]
     },
     {
-      "title": "Adult Amateur Open 5-Dance Events S Amer. Smooth (W,T,F,VW)",
+      "title": "Pro/Am Closed Bronze Scholarships B Amer. Smooth (W,T,F)",
       "entries": [
         {
-          "couple": "Walker, Don and Wolf, Sharon",
+          "couple": "Simler, Nathan and Osadchuk, Lisa",
           "place": "1",
           "points": 10
         }
       ]
     },
     {
-      "title": "Adult Amateur Open PreChamp Events A Int'l Latin (CC,S,R,J)",
+      "title": "Pro/Am Closed Bronze Scholarships C Amer. Smooth (W,T,F)",
       "entries": [
         {
-          "couple": "Chow, Ryan and Huang, Donna",
+          "couple": "Watson, David and Stevenson, Faia",
           "place": "1",
           "points": 10.0
         },
         {
-          "couple": "Ongpin, Jesse and Castelan, Judith",
+          "couple": "Downs, Will and Dyas, Julie",
           "place": "2",
-          "points": 8.0
-        },
-        {
-          "couple": "de Guzman, Lester and Liang, Cindy",
-          "place": "3",
-          "points": 6.5
-        },
-        {
-          "couple": "Bucio, Raul and Hudson, Jael",
-          "place": "4",
-          "points": 5.0
-        },
-        {
-          "couple": "Teston, Norbert and Khalina, Marina",
-          "place": "5",
-          "points": 4.0
+          "points": 6.0
         }
       ]
     },
     {
-      "title": "Youth Amateur Open 5-Dance Scholarships U21 Int'l Ballroom (W,T,VW,F,Q)",
+      "title": "Pro/Am Closed Bronze Scholarships S2 Amer. Smooth (W,T,F)",
       "entries": [
         {
-          "couple": "Tseytlin, Anton and Bakhmetyeva, Maria",
+          "couple": "Grossman, Ron and Aillon, Jessi",
           "place": "1",
           "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Silver Scholarships S2 Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Aillon, Alex and Grossman, Jo",
+          "place": "1",
+          "points": 15.0
         },
         {
-          "couple": "Levenkov, Michael and Gunnell, Tiawna",
+          "couple": "Simler, Nathan and Pratt, Sandy",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Bronze Scholarships S1 Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Downs, Will and Teicheira, Danna",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Silver Scholarships S1 Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Simler, Nathan and Zielstra, Barbara",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Gents closed Scholarships Closed Bronze S2 Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Grossman, Ron and Aillon, Jessi",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Scholarships S2 Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Aillon, Alex and Von Duisburg, Dagmar",
+          "place": "1",
+          "points": 25.0
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Open Scholarships A Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Petr, Michael and Drace, Amelia",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Nekrasov, Sergey and Camerino, Kaylah",
+          "place": "2",
+          "points": 12.5
+        }
+      ]
+    },
+    {
+      "title": "Pro/Am Closed Bronze Scholarships S1 Int'l Latin (CC,R,J)",
+      "entries": [
+        {
+          "couple": "Baker, Mark and Chandler, Jan",
+          "place": "1",
+          "points": 10
         }
       ]
     }

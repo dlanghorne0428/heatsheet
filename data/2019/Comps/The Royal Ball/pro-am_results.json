@@ -2,20 +2,290 @@
   "comp name": "The Royal Ball",
   "heats": [
     {
+      "title": "Closed Multi-Dance Bronze A Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Hopwood, Joseph and Abe, Victoria",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze B Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Holzworth, John and Turk, Shannon",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze C Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Shmigeljuk, Artjom and Tam, Iris",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Buhala, Daniel and Purkey, Kate",
+          "place": "2",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver C Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Chang, Miles and Carrillo, Bailey",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver S1 Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Stutts, Eddie and Blaney, Susan",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Senior Open Multi-Dance S2 Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Vasco, Daniel and Siegel, Jackie",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Alvarez, David and Howe, Natalia",
+          "place": "2",
+          "points": 20.0
+        },
+        {
+          "couple": "Krajewski, Peter and Lampino, Melette",
+          "place": "3",
+          "points": 16.25
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze S1 Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Buhala, Daniel and Purkey, Kate",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Alvarez, David and Halper, Kat",
+          "place": "2",
+          "points": 7.0
+        },
+        {
+          "couple": "Liduch, Rostislav and Renick, Barbara",
+          "place": "3",
+          "points": 5.0
+        },
+        {
+          "couple": "Hopwood, Joseph and Woelfie, Cyndee",
+          "place": "4",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver S2 Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Vasco, Daniel and Siegel, Jackie",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Open Scholarship A Amer. Rhythm (CC,R,SW,B,M)",
+      "entries": [
+        {
+          "couple": "Vasco, Daniel and Holt, Eliese",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "title": "Open Scholarship C Amer. Rhythm (CC,R,SW,B,M)",
+      "entries": [
+        {
+          "couple": "Suakjian, Kris and Broch, Monica",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Stutts, Eddie and Huber, Hope",
+          "place": "2",
+          "points": 17.5
+        },
+        {
+          "couple": "Alvarez, David and Halper, Kat",
+          "place": "3",
+          "points": 12.5
+        }
+      ]
+    },
+    {
+      "title": "Open Multi-Dance Gold A Amer. Rhythm (CC,R,SW,M)",
+      "entries": [
+        {
+          "couple": "Vasco, Daniel and Holt, Eliese",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "title": "Gentleman Closed Multi-Dance Bronze & Silver Men Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Chang, Miles and Carrillo, Bailey",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "Gentleman Open Multi-Dance Gold & Above Men Amer. Rhythm (CC,R,SW,M)",
+      "entries": [
+        {
+          "couple": "Rodriguez, Sal and Novikova, Alla",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "Open Multi-Dance Gold B Amer. Rhythm (CC,R,SW,M)",
+      "entries": [
+        {
+          "couple": "Vasco, Daniel and Romm, Victoria",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "Senior Open Multi-Dance S1 Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Vasco, Daniel and Lamden, Evelyn",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Stutts, Eddie and Huber, Hope",
+          "place": "2",
+          "points": 17.5
+        },
+        {
+          "couple": "Daly, Jason and Burton, Kay",
+          "place": "3",
+          "points": 12.5
+        },
+        {
+          "couple": "Alvarez, David and Halper, Kat",
+          "place": "4",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "Senior Open Scholarship S Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Vasco, Daniel and Lamden, Evelyn",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Stutts, Eddie and Huber, Hope",
+          "place": "2",
+          "points": 17.5
+        },
+        {
+          "couple": "Alvarez, David and Howe, Natalia",
+          "place": "3",
+          "points": 12.5
+        },
+        {
+          "couple": "Krajewski, Peter and Lampino, Melette",
+          "place": "4",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze S2 Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Alvarez, David and Howe, Natalia",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Friedriensen, Pete and Carrillo, Bailey",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "Open Scholarship B Amer. Rhythm (CC,R,SW,B,M)",
+      "entries": [
+        {
+          "couple": "Suakjian, Kris and Broch, Monica",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Drobotov, Roman and Paoletti, Laura",
+          "place": "2",
+          "points": 20.0
+        },
+        {
+          "couple": "Vasco, Daniel and Romm, Victoria",
+          "place": "3",
+          "points": 16.25
+        },
+        {
+          "couple": "Lewis, Germaine and Baerg, Joanne",
+          "place": "4",
+          "points": 12.5
+        }
+      ]
+    },
+    {
       "title": "Closed Multi-Dance Bronze A Mixed Prof M/F Int'l Latin (CC,S,R)",
       "entries": [
         {
           "couple": "Duong, Jonathan and Tran, Tina",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze S1 Int'l Latin (CC,S,R)",
+      "entries": [
         {
           "couple": "Alvarez, David and Halper, Kat",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Astakhov, Oleg and Zhou, Michelle",
           "place": "1",
           "points": 10.0
         },
@@ -25,24 +295,34 @@
           "points": 7.0
         },
         {
-          "couple": "Daly, Jason and Chang, Cathy",
-          "place": "2",
-          "points": 8.0
-        },
-        {
           "couple": "Tocker, Julz and Huffaker, Cindy",
           "place": "3",
           "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver C Int'l Latin (CC,S,R)",
+      "entries": [
+        {
+          "couple": "Astakhov, Oleg and Zhou, Michelle",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Daly, Jason and Chang, Cathy",
+          "place": "2",
+          "points": 12.0
         },
         {
           "couple": "Andreev, Alexander and Tse, Suzette",
           "place": "3",
-          "points": 6.5
+          "points": 9.75
         },
         {
           "couple": "Shmigeljuk, Artjom and Tam, Iris",
           "place": "4",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
@@ -55,44 +335,64 @@
           "points": 10.0
         },
         {
+          "couple": "Kaster, Brodie and Carvajal, Erika",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze S2 Int'l Latin (CC,S,R)",
+      "entries": [
+        {
           "couple": "Alvarez, David and Howe, Natalia",
           "place": "1",
           "points": 10.0
         },
         {
-          "couple": "Castillo, Clemence and Baikova, Mariia",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Astakhov, Oleg and Zhou, Michelle",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Tocker, Julz and Manning, Beth",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Kaster, Brodie and Carvajal, Erika",
-          "place": "2",
-          "points": 5.0
-        },
-        {
           "couple": "Italyankin, Roman and Chen, Nain",
           "place": "2",
           "points": 7.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver A Mixed Prof M/F Int'l Latin (CC,S,R)",
+      "entries": [
+        {
+          "couple": "Castillo, Clemence and Baikova, Mariia",
+          "place": "1",
+          "points": 15.0
         },
         {
           "couple": "Duong, Jonathan and Lam, Van",
           "place": "2",
-          "points": 8.0
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver B Int'l Latin (CC,S,R)",
+      "entries": [
+        {
+          "couple": "Astakhov, Oleg and Zhou, Michelle",
+          "place": "1",
+          "points": 15.0
         },
         {
           "couple": "Proskurin, Vitalii and De Carlo, Mar",
           "place": "2",
-          "points": 8.0
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver S1 Int'l Latin (CC,S,R)",
+      "entries": [
+        {
+          "couple": "Tocker, Julz and Manning, Beth",
+          "place": "1",
+          "points": 15.0
         }
       ]
     },
@@ -102,42 +402,172 @@
         {
           "couple": "Lozin, Jason and Minitser, Esther",
           "place": "1",
-          "points": 10
-        },
+          "points": 20
+        }
+      ]
+    },
+    {
+      "title": "Open Multi-Dance Gold B Int'l Latin (CC,S,R,J)",
+      "entries": [
         {
           "couple": "Astakhov, Oleg and Lim, Marilyn",
           "place": "1",
-          "points": 10.0
+          "points": 20.0
         },
         {
           "couple": "Vasco, Daniel and Romm, Victoria",
           "place": "2",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "title": "Open Multi-Dance Gold C Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Voronovich, Nikolay and Georgeann, Nicol",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Elgueta, Italo and Shreiber, Robyn",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Vasco, Daniel and Summers, Suanne",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Polak, Petr and Pedersen, Judy",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Hudson, Henry and Haraguchi, Yuki",
+          "place": "5",
+          "points": 8.0
+        },
+        {
+          "couple": "Kurakin, Dmitry and Kay, Jennifer",
+          "place": "6",
           "points": 6.0
         }
       ]
     },
     {
-      "title": "Amateur Open Senior S1 Int'l Latin (CC,S,R,J)",
+      "title": "Closed Multi-Dance Silver A Int'l Latin (CC,S,R)",
       "entries": [
         {
-          "couple": "Paiz, Gabriel and Castro-Paiz, Marisol",
+          "couple": "Proskurin, Vitalii and De Carlo, Mar",
           "place": "1",
-          "points": 10
+          "points": 15.0
         },
         {
-          "couple": "Hudson, Henry and Hudson, Olivia",
+          "couple": "Astakhov, Oleg and Wiredja, Waty",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "Senior Open Multi-Dance S1 Int'l Latin (CC,S,R)",
+      "entries": [
+        {
+          "couple": "Voronovich, Nikolay and Tunick, Susann",
           "place": "1",
-          "points": 10.0
+          "points": 25.0
         },
+        {
+          "couple": "Polak, Petr and Pedersen, Judy",
+          "place": "2",
+          "points": 20.0
+        },
+        {
+          "couple": "Alvarez, David and Halper, Kat",
+          "place": "3",
+          "points": 16.25
+        },
+        {
+          "couple": "Kurakin, Dmitry and Yuan, Ronnie",
+          "place": "4",
+          "points": 12.5
+        }
+      ]
+    },
+    {
+      "title": "Open Multi-Dance Gold A Int'l Latin (CC,S,R,J)",
+      "entries": [
         {
           "couple": "Vasco, Daniel and Holt, Eliese",
           "place": "1",
-          "points": 10.0
+          "points": 20.0
         },
         {
           "couple": "Astakhov, Oleg and Ratana, Precious",
           "place": "2",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze C Int'l Latin (CC,S,R)",
+      "entries": [
+        {
+          "couple": "Astakhov, Oleg and Zhou, Michelle",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Shmigeljuk, Artjom and Tam, Iris",
+          "place": "2",
           "points": 7.0
+        },
+        {
+          "couple": "Andreev, Alexander and Pickle, Stella",
+          "place": "3",
+          "points": 5.0
+        },
+        {
+          "couple": "Buhala, Daniel and Ko, Kyky",
+          "place": "4",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "title": "Senior Open Scholarship S Int'l Latin (CC,S,R)",
+      "entries": [
+        {
+          "couple": "Voronovich, Nikolay and Tunick, Susann",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Polak, Petr and Pedersen, Judy",
+          "place": "2",
+          "points": 20.0
+        },
+        {
+          "couple": "Watkins, Mikal and Parmes, Penelope",
+          "place": "3",
+          "points": 16.25
+        },
+        {
+          "couple": "Kurakin, Dmitry and Yuan, Ronnie",
+          "place": "4",
+          "points": 12.5
+        },
+        {
+          "couple": "Tocker, Julz and Manning, Beth",
+          "place": "5",
+          "points": 10.0
+        },
+        {
+          "couple": "Alvarez, David and Howe, Natalia",
+          "place": "6",
+          "points": 7.5
         }
       ]
     },
@@ -147,17 +577,142 @@
         {
           "couple": "Paiz, Gabriel and Castro-Paiz, Marisol",
           "place": "1",
-          "points": 10
-        },
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "Ameteur Pre-Champ S2 AM/AM Int'l Latin (CC,S,J)",
+      "entries": [
         {
           "couple": "Hudson, Henry and Hudson, Olivia",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Open Multi-Dance Gold C Mixed Prof M/F Int'l Latin (CC,S,R,J)",
+      "entries": [
         {
           "couple": "Lozin, Jason and Kim, Hazel",
           "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze A Int'l Latin (CC,S,R)",
+      "entries": [
+        {
+          "couple": "Buhala, Daniel and Rogatina, Yevgenia",
+          "place": "1",
           "points": 10.0
+        },
+        {
+          "couple": "Okunev, Artemi and Gilbert-Hamerling, Adina",
+          "place": "2",
+          "points": 6.0
+        },
+        {
+          "couple": "Astakhov, Oleg and Wiredja, Waty",
+          "place": "3",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "title": "Gentleman Open Multi-Dance Gold & Above Men Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Hudson, Henry and Haraguchi, Yuki",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "Senior Open Multi-Dance S2 Int'l Latin (CC,S,R)",
+      "entries": [
+        {
+          "couple": "Watkins, Mikal and Parmes, Penelope",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Alvarez, David and Howe, Natalia",
+          "place": "2",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "Open Scholarship A Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Proskurin, Vitalii and Xu, Vera",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "title": "Open Scholarship B Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Astakhov, Oleg and Lim, Marilyn",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Drobotov, Roman and Paoletti, Laura",
+          "place": "2",
+          "points": 17.5
+        },
+        {
+          "couple": "Vasco, Daniel and Romm, Victoria",
+          "place": "3",
+          "points": 12.5
+        }
+      ]
+    },
+    {
+      "title": "Open Scholarship C Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "McCann, Stephen and Lynch, Rhonda",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Voronovich, Nikolay and Georgeann, Nicol",
+          "place": "2",
+          "points": 20.0
+        },
+        {
+          "couple": "Elgueta, Italo and Shreiber, Robyn",
+          "place": "3",
+          "points": 16.25
+        },
+        {
+          "couple": "Vasco, Daniel and Summers, Suanne",
+          "place": "4",
+          "points": 12.5
+        },
+        {
+          "couple": "Alvarez, David and Halper, Kat",
+          "place": "5",
+          "points": 10.0
+        },
+        {
+          "couple": "Kurakin, Dmitry and Kay, Jennifer",
+          "place": "6",
+          "points": 7.5
+        },
+        {
+          "couple": "Hudson, Henry and Haraguchi, Yuki",
+          "place": "7",
+          "points": 6.25
         }
       ]
     },
@@ -168,29 +723,24 @@
           "couple": "Kaster, Brodie and Trinh, Ha",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "Ameteur Pre-Champ S2 AM/AM Amer. Smooth (W,T,F)",
+      "entries": [
         {
           "couple": "Hudson, Henry and Hudson, Olivia",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze A Amer. Smooth (W,T,F)",
+      "entries": [
         {
           "couple": "Okunev, Artemi and Gilbert-Hamerling, Adina",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "McCann, Stephen and Ehmann, Jessica",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Buhala, Daniel and Purkey, Kate",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Alvarez, David and Howe, Natalia",
           "place": "1",
           "points": 10.0
         },
@@ -198,6 +748,16 @@
           "couple": "Hopwood, Joseph and Abe, Victoria",
           "place": "2",
           "points": 7.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze B Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "McCann, Stephen and Ehmann, Jessica",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Lettig, Joseph and Peterson, Rachele",
@@ -205,19 +765,39 @@
           "points": 8.0
         },
         {
+          "couple": "Holzworth, John and Turk, Shannon",
+          "place": "3",
+          "points": 6.5
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze C Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Buhala, Daniel and Purkey, Kate",
+          "place": "1",
+          "points": 10.0
+        },
+        {
           "couple": "Suakjian, Kris and Hill, Debra",
           "place": "2",
           "points": 8.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze S2 Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Alvarez, David and Howe, Natalia",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "Tocker, Julz and From, Christine",
           "place": "2",
           "points": 8.0
-        },
-        {
-          "couple": "Holzworth, John and Turk, Shannon",
-          "place": "3",
-          "points": 6.5
         },
         {
           "couple": "Nunez, Antonio and Greenly, Karen",
@@ -227,37 +807,372 @@
       ]
     },
     {
-      "title": "Amateur Open Senior S2 Amer. Smooth (W,T,F,VW)",
+      "title": "Closed Multi-Dance Bronze S1 Amer. Smooth (W,T,F)",
       "entries": [
         {
-          "couple": "Hudson, Henry and Hudson, Olivia",
+          "couple": "Novikov, Alexander and Yu, Eleanor",
           "place": "1",
-          "points": 10
+          "points": 10.0
         },
+        {
+          "couple": "Liduch, Rostislav and Renick, Barbara",
+          "place": "2",
+          "points": 7.0
+        },
+        {
+          "couple": "Alvarez, David and Halper, Kat",
+          "place": "3",
+          "points": 5.0
+        },
+        {
+          "couple": "Buhala, Daniel and Purkey, Kate",
+          "place": "4",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver C Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Petrulevicius, Auris and Schwarzbein, Audery",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Spinder, Kyle and Kelly, Tracy",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Ilarie Zagrean, Alexandru and Hughart, Laura",
+          "place": "3",
+          "points": 9.75
+        },
+        {
+          "couple": "Suakjian, Kris and Lwin, Thiri",
+          "place": "4",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "Open Scholarship C Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Cloud, Paul and Chan, Karence",
+          "place": "1",
+          "points": 35.0
+        },
+        {
+          "couple": "Kostianets, Slava and Friedland, Careen",
+          "place": "2",
+          "points": 28.0
+        },
+        {
+          "couple": "Stutts, Eddie and Huber, Hope",
+          "place": "3",
+          "points": 22.75
+        },
+        {
+          "couple": "Elgueta, Italo and Shreiber, Robyn",
+          "place": "4",
+          "points": 17.5
+        },
+        {
+          "couple": "Vasco, Daniel and Summers, Suanne",
+          "place": "5",
+          "points": 14.0
+        },
+        {
+          "couple": "Alvarez, David and Halper, Kat",
+          "place": "Semis",
+          "points": 4.2
+        },
+        {
+          "couple": "Brunell, Sean and Lauterkranc, Hana",
+          "place": "Semis",
+          "points": 4.2
+        },
+        {
+          "couple": "Eberle, Mark and Kark, Alyssa",
+          "place": "Semis",
+          "points": 4.2
+        },
+        {
+          "couple": "Hudson, Henry and Johnson, Selena",
+          "place": "Semis",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver B Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Kaster, Brodie and Trinh, Ha",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver S2 Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Watkins, Mikal and Parmes, Penelope",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Open Multi-Dance Gold C Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Kostianets, Slava and Friedland, Careen",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Elgueta, Italo and Shreiber, Robyn",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Vasco, Daniel and Summers, Suanne",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Hudson, Henry and Johnson, Selena",
+          "place": "4",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver S1 Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Petrulevicius, Auris and Ayres, Jill",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Jonyla, Tadas and Hsu, Julie",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Leonov, Maksim and Pang, Patty",
+          "place": "3",
+          "points": 9.75
+        },
+        {
+          "couple": "Novikov, Alexander and Wimmer, Kathy",
+          "place": "4",
+          "points": 7.5
+        },
+        {
+          "couple": "Holzworth, John and Dennis, Patti",
+          "place": "5",
+          "points": 6.0
+        },
+        {
+          "couple": "Novikov, Yegor and Chiang, Sharon",
+          "place": "6",
+          "points": 4.5
+        },
+        {
+          "couple": "Stutts, Eddie and Blaney, Susan",
+          "place": "7",
+          "points": 3.75
+        }
+      ]
+    },
+    {
+      "title": "Senior Open Multi-Dance S1 Amer. Smooth (W,T,F) /J",
+      "entries": [
+        {
+          "couple": "Vasco, Daniel and Siegel, Jackie",
+          "place": "1",
+          "points": 25.0
+        }
+      ]
+    },
+    {
+      "title": "Senior Open Multi-Dance S1 Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Vasco, Daniel and Lamden, Evelyn",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Novikov, Alexander and Wimmer, Kathy",
+          "place": "2",
+          "points": 15.0
+        },
+        {
+          "couple": "Alvarez, David and Halper, Kat",
+          "place": "3",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "Open Multi-Dance Gold A Amer. Smooth (W,T,F,VW)",
+      "entries": [
         {
           "couple": "Spinder, Kyle and Thomson, Elizabeth",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 20
+        }
+      ]
+    },
+    {
+      "title": "Open Scholarship B Amer. Smooth (W,T,F,VW)",
+      "entries": [
         {
           "couple": "Lettig, Joseph and Peterson, Rachele",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 25.0
+        }
+      ]
+    },
+    {
+      "title": "Senior Open Multi-Dance S2 Amer. Smooth (W,T,F)",
+      "entries": [
         {
           "couple": "Alvarez, David and Howe, Natalia",
           "place": "1",
-          "points": 10.0
+          "points": 25.0
         },
         {
           "couple": "Leonov, Maksim and Miyazaki, Mickey",
           "place": "2",
-          "points": 8.0
+          "points": 20.0
         },
         {
           "couple": "Vasco, Daniel and Siegel, Jackie",
           "place": "3",
-          "points": 6.5
+          "points": 16.25
+        }
+      ]
+    },
+    {
+      "title": "Gentleman Open Multi-Dance Gold & Above Men Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Hudson, Henry and Johnson, Selena",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Eberle, Mark and Kark, Alyssa",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Grebel, Tom and Bunnett, Borbala",
+          "place": "3",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "title": "Open Scholarship A Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Spinder, Kyle and Thomson, Elizabeth",
+          "place": "1",
+          "points": 25.0
+        }
+      ]
+    },
+    {
+      "title": "Senior Open Scholarship S Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Stutts, Eddie and Huber, Hope",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Vasco, Daniel and Lamden, Evelyn",
+          "place": "2",
+          "points": 20.0
+        },
+        {
+          "couple": "Novikov, Alexander and Wimmer, Kathy",
+          "place": "3",
+          "points": 16.25
+        },
+        {
+          "couple": "Jonyla, Tadas and Hsu, Julie",
+          "place": "4",
+          "points": 12.5
+        },
+        {
+          "couple": "Alvarez, David and Howe, Natalia",
+          "place": "5",
+          "points": 10.0
+        },
+        {
+          "couple": "Leonov, Maksim and Miyazaki, Mickey",
+          "place": "6",
+          "points": 7.5
+        },
+        {
+          "couple": "Brunell, Sean and Lauterkranc, Hana",
+          "place": "7",
+          "points": 6.25
+        },
+        {
+          "couple": "Grebel, Tom and Bunnett, Borbala",
+          "place": "8",
+          "points": 6.25
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze S2 Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Alvarez, David and Howe, Natalia",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "Senior Open Scholarship S Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Jonyla, Tadas and Duffy, Jan",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Eberle, Mark and Kark, Alyssa",
+          "place": "2",
+          "points": 20.0
+        },
+        {
+          "couple": "Virlan, Stefan and Leung, Jennifer",
+          "place": "3",
+          "points": 16.25
+        },
+        {
+          "couple": "Alvarez, David and Howe, Natalia",
+          "place": "4",
+          "points": 12.5
+        },
+        {
+          "couple": "Lo, Herbert and Barna, Olena",
+          "place": "5",
+          "points": 10.0
         }
       ]
     },
@@ -268,24 +1183,14 @@
           "couple": "Ilarie Zagrean, Alexandru and Wolfsohn, Stefany",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze C Int'l Ballroom (W,T,Q)",
+      "entries": [
         {
           "couple": "Novikov, Alexander and Connors, Patti",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Raabe, John and Cheng, Judy",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Alitto, Oreste and Takenaka, Lisa",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Alvarez, David and Howe, Natalia",
           "place": "1",
           "points": 10.0
         },
@@ -295,14 +1200,99 @@
           "points": 7.0
         },
         {
-          "couple": "Kiselev, Sergey and Eberle, Emily",
-          "place": "2",
-          "points": 8.0
-        },
-        {
           "couple": "Agins, Phil and Hopwood, Alexandra",
           "place": "3",
           "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze C Mixed Prof M/F Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Raabe, John and Cheng, Judy",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver C Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Alitto, Oreste and Takenaka, Lisa",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Kiselev, Sergey and Eberle, Emily",
+          "place": "2",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "title": "Senior Open Multi-Dance S2 Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Alvarez, David and Howe, Natalia",
+          "place": "1",
+          "points": 25.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze S1 Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Dowsett, Ikaika and Mayor, Laureen",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Novikov, Alexander and Suzuki, Taka",
+          "place": "2",
+          "points": 6.0
+        },
+        {
+          "couple": "Stutts, Eddie and Blaney, Susan",
+          "place": "3",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver S1 Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Jonyla, Tadas and Hsu, Julie",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Virlan, Stefan and Leung, Jennifer",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Kiselev, Sergey and Eberle, Emily",
+          "place": "3",
+          "points": 9.75
+        },
+        {
+          "couple": "Novikov, Alexander and Gilfillan, Anita",
+          "place": "4",
+          "points": 7.5
+        },
+        {
+          "couple": "Grebel, Tom and Bunnett, Borbala",
+          "place": "5",
+          "points": 6.0
+        },
+        {
+          "couple": "Lo, Herbert and Barna, Olena",
+          "place": "6",
+          "points": 4.5
         }
       ]
     },
@@ -312,47 +1302,117 @@
         {
           "couple": "Satrain, Gil and Hernandez, Emmy",
           "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Kim, Song and Suh, Nicole",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Novikov, Alexander and Gilfillan, Anita",
-          "place": "1",
-          "points": 10.0
+          "points": 15
         }
       ]
     },
     {
-      "title": "Amateur Open Senior S1 Int'l Ballroom (W,T,F,Q)",
+      "title": "Ameteur Pre-Champ S2 AM/AM Int'l Ballroom (W,T,Q)",
       "entries": [
-        {
-          "couple": "Satrain, Gil and Hernandez, Emmy",
-          "place": "1",
-          "points": 10
-        },
         {
           "couple": "Kim, Song and Suh, Nicole",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver S2 Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Novikov, Alexander and Gilfillan, Anita",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Open Scholarship A Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Kiselev, Sergey and Rezai, Natalie",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Radvan, Cristian and Chen, Eva",
+          "place": "2",
+          "points": 12.5
+        }
+      ]
+    },
+    {
+      "title": "Open Scholarship C Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Faraci, Andrea and Sanchez-Torres, Marina",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Veyrasset, Victor and Fong, Jenny",
+          "place": "2",
+          "points": 20.0
         },
         {
           "couple": "Kostianets, Slava and Friedland, Careen",
+          "place": "3",
+          "points": 16.25
+        }
+      ]
+    },
+    {
+      "title": "Gentleman Closed Multi-Dance Bronze & Silver Men Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Grebel, Tom and Bunnett, Borbala",
           "place": "1",
           "points": 10.0
         },
         {
+          "couple": "Agins, Phil and Hopwood, Alexandra",
+          "place": "2",
+          "points": 6.0
+        },
+        {
+          "couple": "Lo, Herbert and Barna, Olena",
+          "place": "3",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "title": "Gentleman Open Multi-Dance Gold & Above Men Int'l Ballroom (W,T,F,Q)",
+      "entries": [
+        {
+          "couple": "Eberle, Mark and Kark, Alyssa",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "Open Multi-Dance Gold C Int'l Ballroom (W,T,F,Q)",
+      "entries": [
+        {
+          "couple": "Kostianets, Slava and Friedland, Careen",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "title": "Open Scholarship B Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
           "couple": "Faraci, Andrea and Kuhn, Rebecca",
           "place": "1",
-          "points": 10.0
+          "points": 25.0
         },
         {
           "couple": "Gozzi, Davide and Saviano, Monique",
           "place": "2",
-          "points": 8.0
+          "points": 15.0
         }
       ]
     },
@@ -362,52 +1422,37 @@
         {
           "couple": "Linnik, Michael and Huynh, Jolene",
           "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Tran, Jericho and Philmore, Aurelia",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Fox, Blake and Ascione, Nicole",
-          "place": "1",
-          "points": 10.0
+          "points": 15
         }
       ]
     },
     {
-      "title": "Amateur Open A Amer. Smooth (W,T,F,VW)",
+      "title": "Ameteur Pre-Champ J2 AM/AM Amer. Smooth (W,T,F)",
       "entries": [
         {
-          "couple": "Lloyd IV, Charles and Weiss, Hanna",
-          "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Linnik, Michael and Huynh, Jolene",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Fox, Blake and Ascione, Nicole",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Tran, Jericho and Philmore, Aurelia",
-          "place": "2",
-          "points": 7.0
+          "place": "1",
+          "points": 15.0
         }
       ]
     },
     {
-      "title": "Amateur Open Y Amer. Smooth (W,T,F,VW)",
+      "title": "Ameteur Pre-Champ Y AM/AM Amer. Smooth (W,T,F)",
       "entries": [
         {
-          "couple": "Lloyd IV, Charles and Weiss, Hanna",
+          "couple": "Fox, Blake and Ascione, Nicole",
           "place": "1",
-          "points": 10
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Open Scholarship JR Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Linnik, Michael and Sinelnikov, Liubov",
+          "place": "1",
+          "points": 25
         }
       ]
     },
@@ -418,22 +1463,42 @@
           "couple": "Rozhkov, Sergey and Balsin, Eva",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver PT Int'l Ballroom (W,T,Q)",
+      "entries": [
         {
           "couple": "Silva, Brody and Varlam, Madalina",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver PT Mixed Prof M/F Int'l Ballroom (W,T,Q)",
+      "entries": [
         {
           "couple": "Sinelnikov, Ivan and Chubay, Sofia",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Partnerless Closed Multi-Dance Bronze JR Ladies Int'l Ballroom (W,T,Q)",
+      "entries": [
         {
           "couple": "GP-Gonzalez, Makayla and Gonzalez, Makayla",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "Partnerless Closed Multi-Dance Bronze PT Ladies Int'l Ballroom (W,T,Q)",
+      "entries": [
         {
           "couple": "GP-Gallardo, Anastacia and Gallardo, Anastacia",
           "place": "1",
@@ -447,82 +1512,112 @@
         {
           "couple": "Novikov, Daniel and Vishnevskiy, Mishella",
           "place": "1",
-          "points": 10
-        },
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "Ameteur Pre-Champ P1 AM/AM Int'l Ballroom (W,T,Q)",
+      "entries": [
         {
           "couple": "Starodubov, Peter and Sinelnikov, Natalya",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Ameteur Pre-Champ P2 AM/AM Int'l Ballroom (W,T,Q)",
+      "entries": [
         {
           "couple": "Bader, Austin and Savchenko, Olivia",
           "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Novikov, Michael and Dragunov, Dasha",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Romanov, Ivan and Wu, Vivian",
-          "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Lasoff, Jason and Ivanitskyy, Jane",
           "place": "2",
-          "points": 7.0
+          "points": 10.5
         }
       ]
     },
     {
-      "title": "Amateur Open J2 Int'l Ballroom (W,T,VW,F,Q)",
+      "title": "Ameteur Pre-Champ TB AM/AM Int'l Ballroom (W,T,Q)",
       "entries": [
         {
-          "couple": "Fox, Blake and Ascione, Nicole",
+          "couple": "Novikov, Michael and Dragunov, Dasha",
           "place": "1",
-          "points": 10
-        },
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Open Multi-Dance Gold Y Mixed Prof M/F Int'l Ballroom (W,T,F,Q)",
+      "entries": [
         {
-          "couple": "Novikov, Daniel and Vishnevskiy, Mishella",
+          "couple": "Romanov, Ivan and Wu, Vivian",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "Ameteur Pre-Champ Y AM/AM Int'l Ballroom (W,T,Q)",
+      "entries": [
         {
           "couple": "Franklin, Paul and Weiss, Hanna",
           "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Linnik, Michael and Sinelnikov, Liubov",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Rozhkov, Sergey and Groysman, Milana",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Bader, Austin and Savchenko, Olivia",
-          "place": "2",
-          "points": 6.0
+          "points": 15
         }
       ]
     },
     {
-      "title": "Amateur Open A Int'l Ballroom (W,T,VW,F,Q)",
+      "title": "Open Scholarship JR Int'l Ballroom (W,T,VW,F,Q)",
       "entries": [
         {
-          "couple": "Romanov, Ivan and Ivahno - Kalinuka, Katya",
+          "couple": "Linnik, Michael and Sinelnikov, Liubov",
+          "place": "1",
+          "points": 25.0
+        }
+      ]
+    },
+    {
+      "title": "Open Scholarship PT Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Rozhkov, Sergey and Groysman, Milana",
+          "place": "1",
+          "points": 25.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze JR Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Diaz, Jose and Pureco, Vanessa",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Bronze PT Amer. Rhythm (CC,R,SW)",
+      "entries": [
         {
-          "couple": "Fox, Blake and Ascione, Nicole",
+          "couple": "Diaz, Jose and Pureco, Teresa",
           "place": "1",
-          "points": 10.0
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver JR Amer. Rhythm (CC,R,SW)",
+      "entries": [
+        {
+          "couple": "Diaz, Jose and Paredes, Aryanna",
+          "place": "1",
+          "points": 15
         }
       ]
     },
@@ -535,24 +1630,99 @@
           "points": 10.0
         },
         {
+          "couple": "Astakhov, Oleg and Chi, Victoria",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver PT Mixed Prof M/F Int'l Latin (CC,S,R)",
+      "entries": [
+        {
           "couple": "Sinelnikov, Ivan and Chubay, Sofia",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Partnerless Closed Multi-Dance Bronze JR Ladies Int'l Latin (CC,S,R)",
+      "entries": [
         {
           "couple": "GP-Gonzalez, Makayla and Gonzalez, Makayla",
           "place": "1",
           "points": 10.0
-        },
+        }
+      ]
+    },
+    {
+      "title": "Partnerless Closed Multi-Dance Bronze PT Ladies Int'l Latin (CC,S,R)",
+      "entries": [
         {
           "couple": "GP-Casabianca, Valentina and Casabianca, Valentina",
           "place": "1",
           "points": 10.0
+        }
+      ]
+    },
+    {
+      "title": "Partnerless Closed Multi-Dance Silver PT Ladies Int'l Latin (CC,S,R)",
+      "entries": [
+        {
+          "couple": "GP-Vintyruk, Dasha and Vintyruk, Dasha",
+          "place": "1",
+          "points": 15.0
         },
         {
-          "couple": "Astakhov, Oleg and Chi, Victoria",
+          "couple": "GP-Vintyruk, Sasha and Vintyruk, Sasha",
           "place": "2",
-          "points": 5.0
+          "points": 9.0
+        },
+        {
+          "couple": "GP-Gallardo, Anastacia and Gallardo, Anastacia",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "title": "Closed Multi-Dance Silver PT Int'l Latin (CC,S,R)",
+      "entries": [
+        {
+          "couple": "Way, Armen and Hallabyan, Elina",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Starodubov, Ivan and Sinelnikov, Liubov",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Silva, Brody and Varlam, Madalina",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "title": "Partnerless Closed Multi-Dance Gold PT Ladies Int'l Latin (CC,S,R)",
+      "entries": [
+        {
+          "couple": "GP-Aylazyan, Gayane and Aylazyan, Gayane",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "Partnerless Closed Multi-Dance Silver JR Ladies Int'l Latin (CC,S,R)",
+      "entries": [
+        {
+          "couple": "GP-Gonzalez, Makayla and Gonzalez, Makayla",
+          "place": "1",
+          "points": 15.0
         }
       ]
     },
@@ -562,37 +1732,42 @@
         {
           "couple": "Kozelchik, Max and Kozelchik, Altahir",
           "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Nikitin, Marsel and Hoodyakova, Tonya",
-          "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Murray, Stephen and Misrayim, Suryany",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "Ameteur Pre-Champ J2 AM/AM Int'l Latin (CC,S,J)",
+      "entries": [
+        {
+          "couple": "Nikitin, Marsel and Hoodyakova, Tonya",
+          "place": "1",
+          "points": 15.0
         },
         {
           "couple": "Nazarov, Edward and Melikyan, Diana",
           "place": "2",
-          "points": 8.0
+          "points": 12.0
         },
         {
           "couple": "Yuchen Feng, Bryan and Simonyan, Valeria",
           "place": "3",
-          "points": 6.5
+          "points": 9.75
         },
         {
           "couple": "Lee, Brandon and Zhai, Sarah",
           "place": "4",
-          "points": 5.0
+          "points": 7.5
         },
         {
           "couple": "Li, Jason and Xu, Renee",
           "place": "5",
-          "points": 4.0
+          "points": 6.0
         }
       ]
     },
@@ -602,57 +1777,57 @@
         {
           "couple": "Sevediani, Nikolas and Nisali, Elinor",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         },
         {
           "couple": "Shishkin, Michael and Moriakova, Alena",
           "place": "2",
-          "points": 16.0
+          "points": 20.0
         },
         {
           "couple": "Ivanov, Nikolai and Ivanov, Irishka",
           "place": "3",
-          "points": 13.0
+          "points": 16.25
         },
         {
           "couple": "Novikov, Michael and Dragunov, Dasha",
           "place": "4",
-          "points": 10.0
+          "points": 12.5
         },
         {
           "couple": "Rogatin, Vitaliy and Grigoryan, Karina",
           "place": "5",
-          "points": 8.0
+          "points": 10.0
         },
         {
           "couple": "Krupovlyanskiy, Mathew and Neminov, Isabella",
           "place": "6",
-          "points": 6.0
+          "points": 7.5
         },
         {
           "couple": "Saba, Daniel and Chubay, Sofia",
           "place": "7",
-          "points": 5.0
+          "points": 6.25
         },
         {
           "couple": "Brown, Cassius and Sinelnikov, Maya",
           "place": "8",
-          "points": 5.0
+          "points": 6.25
         },
         {
           "couple": "Indiana, Foley and Casabianca, Valentina",
           "place": "Semis",
-          "points": 2.4
+          "points": 3.0
         },
         {
           "couple": "Rojas, Matteo and Lopez, Eva",
           "place": "Semis",
-          "points": 2.4
+          "points": 3.0
         },
         {
           "couple": "Starodubov, Peter and Sinelnikov, Natalya",
           "place": "Semis",
-          "points": 2.4
+          "points": 3.0
         }
       ]
     },
@@ -662,52 +1837,52 @@
         {
           "couple": "Milstead, Robby and Dobson, Emily",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         },
         {
           "couple": "de la Rosa, Brando and Saidkariev, Naeema",
           "place": "2",
-          "points": 16.0
+          "points": 20.0
         },
         {
           "couple": "Ginko, Sean and Tatoosi, Emily",
           "place": "3",
-          "points": 13.0
+          "points": 16.25
         },
         {
           "couple": "Svediani, Daniel and Musayelyan, Angelina",
           "place": "4",
-          "points": 10.0
+          "points": 12.5
         },
         {
           "couple": "Bader, hudson and Groysman, Milana",
           "place": "5",
-          "points": 8.0
-        },
-        {
-          "couple": "Petylo, Nikita and Algart, Zoe",
-          "place": "Semis",
-          "points": 2.4
+          "points": 10.0
         },
         {
           "couple": "Bader, Austin and Savchenko, Olivia",
           "place": "Semis",
-          "points": 2.4
+          "points": 3.0
         },
         {
           "couple": "Bader, McLaren and Skoblova, Angelina",
           "place": "Semis",
-          "points": 2.4
-        },
-        {
-          "couple": "Foyez, Aleq and Semerdjian, Emily",
-          "place": "Semis",
-          "points": 2.4
+          "points": 3.0
         },
         {
           "couple": "Lasoff, Jason and Ivanitskyy, Jane",
           "place": "Semis",
-          "points": 2.4
+          "points": 3.0
+        },
+        {
+          "couple": "Petylo, Nikita and Algart, Zoe",
+          "place": "Semis",
+          "points": 3.0
+        },
+        {
+          "couple": "Foyez, Aleq and Semerdjian, Emily",
+          "place": "Semis",
+          "points": 3.0
         }
       ]
     },
@@ -717,322 +1892,137 @@
         {
           "couple": "Nisali, Adiel and Belyy, Julia",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Shishkin, Jeremy and Kirakosyan, Meline",
           "place": "2",
-          "points": 8.0
+          "points": 12.0
         },
         {
           "couple": "Tedesco, Mark and Luzyanina, Kateryna",
           "place": "3",
-          "points": 6.5
+          "points": 9.75
         },
         {
           "couple": "Amirian, Marion and Laterovian, Annie",
           "place": "4",
-          "points": 5.0
+          "points": 7.5
         },
         {
           "couple": "Lee, Brandon and Zhai, Sarah",
           "place": "5",
-          "points": 4.0
+          "points": 6.0
         },
         {
           "couple": "Desailly, Stephne and Khazin, Sasha",
           "place": "6",
-          "points": 3.0
+          "points": 4.5
         }
       ]
     },
     {
-      "title": "Amateur Open Kids P2 Int'l Latin (CC,S,R,J)",
+      "title": "Ameteur Pre-Champ TB AM/AM Int'l Latin (CC,S,J)",
       "entries": [
         {
-          "couple": "Novikov, Daniel and Vishnevskiy, Mishella",
+          "couple": "Novikov, Michael and Dragunov, Dasha",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "Open Scholarship PT Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Rozhkov, Sergey and Groysman, Milana",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Kvartin, Vlad and Koven, Sophia",
+          "place": "2",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "title": "Ameteur Pre-Champ Y AM/AM Int'l Latin (CC,S,J)",
+      "entries": [
+        {
+          "couple": "Nazarov, Edward and Melikyan, Diana",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Vasilevskiy, Lior and Sigal, Gabriella",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Chiriboga, Leonardo and Garcia, Santanna",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "title": "Open Multi-Dance Gold JR Mixed Prof M/F Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Yeritsyan, Stepan and Mesropian, Noemi",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "title": "Open Multi-Dance Gold PT Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Drobotov, Roman and Li, Sirui",
           "place": "1",
           "points": 20.0
         },
         {
-          "couple": "de la Rosa, Brando and Saidkariev, Naeema",
+          "couple": "Rozhkov, Sergey and Groysman, Milana",
           "place": "2",
           "points": 16.0
         },
         {
-          "couple": "Milstead, Robby and Dobson, Emily",
+          "couple": "Kvartin, Vlad and Koven, Sophia",
           "place": "3",
           "points": 13.0
-        },
-        {
-          "couple": "Ginko, Sean and Tatoosi, Emily",
-          "place": "4",
-          "points": 10.0
-        },
-        {
-          "couple": "Svediani, Daniel and Musayelyan, Angelina",
-          "place": "5",
-          "points": 8.0
-        },
-        {
-          "couple": "Petylo, Nikita and Algart, Zoe",
-          "place": "Semis",
-          "points": 2.4
-        },
-        {
-          "couple": "Bader, Austin and Savchenko, Olivia",
-          "place": "Semis",
-          "points": 2.4
-        },
-        {
-          "couple": "Bader, hudson and Groysman, Milana",
-          "place": "Semis",
-          "points": 2.4
-        },
-        {
-          "couple": "Bader, McLaren and Skoblova, Angelina",
-          "place": "Semis",
-          "points": 2.4
-        },
-        {
-          "couple": "Foyez, Aleq and Semerdjian, Emily",
-          "place": "Semis",
-          "points": 2.4
-        },
-        {
-          "couple": "Lasoff, Jason and Ivanitskyy, Jane",
-          "place": "Semis",
-          "points": 2.4
         }
       ]
     },
     {
-      "title": "Amateur Open J2 Int'l Latin (CC,S,R,PD,J)",
+      "title": "Open Multi-Dance Gold Y Mixed Prof M/F Int'l Latin (CC,S,R,J)",
       "entries": [
-        {
-          "couple": "Nikitin, Marsel and Hoodyakova, Tonya",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Novikov, Michael and Dragunov, Dasha",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Rozhkov, Sergey and Groysman, Milana",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Sinelnikov, Ivan and Rich, Veronica",
-          "place": "2",
-          "points": 6.0
-        },
-        {
-          "couple": "Kvartin, Vlad and Koven, Sophia",
-          "place": "2",
-          "points": 8.0
-        },
-        {
-          "couple": "Li, Jason and Xu, Renee",
-          "place": "3",
-          "points": 3.0
-        }
-      ]
-    },
-    {
-      "title": "Amateur Open Kids TB Int'l Latin (CC,S,R,J)",
-      "entries": [
-        {
-          "couple": "Novikov, Michael and Dragunov, Dasha",
-          "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Nazarov, Edward and Melikyan, Diana",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Yeritsyan, Stepan and Mesropian, Noemi",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Drobotov, Roman and Li, Sirui",
-          "place": "1",
-          "points": 10.0
-        },
         {
           "couple": "Swiger, John and Wu, Vivian",
           "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Vasilevskiy, Lior and Sigal, Gabriella",
-          "place": "2",
-          "points": 7.0
-        },
-        {
-          "couple": "Rozhkov, Sergey and Groysman, Milana",
-          "place": "2",
-          "points": 8.0
-        },
-        {
-          "couple": "Chiriboga, Leonardo and Garcia, Santanna",
-          "place": "3",
-          "points": 5.0
-        },
-        {
-          "couple": "Kvartin, Vlad and Koven, Sophia",
-          "place": "3",
-          "points": 6.5
+          "points": 20.0
         }
       ]
     },
     {
-      "title": "Amateur Open J1 Int'l Latin (CC,S,R,J)",
+      "title": "Open Scholarship JR Int'l Latin (CC,S,R,PD,J)",
       "entries": [
-        {
-          "couple": "Nisali, Adiel and Belyy, Julia",
-          "place": "1",
-          "points": 10.0
-        },
         {
           "couple": "Rozhkov, Sergey and babalyan, michelle",
           "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Shishkin, Jeremy and Kirakosyan, Meline",
-          "place": "2",
-          "points": 8.0
-        },
-        {
-          "couple": "Tedesco, Mark and Luzyanina, Kateryna",
-          "place": "3",
-          "points": 6.5
-        },
-        {
-          "couple": "Yuchen Feng, Bryan and Simonyan, Valeria",
-          "place": "4",
-          "points": 5.0
-        },
-        {
-          "couple": "Lee, Brandon and Zhai, Sarah",
-          "place": "5",
-          "points": 4.0
+          "points": 25
         }
       ]
     },
     {
-      "title": "Amateur Open Y Int'l Latin (CC,S,R,J)",
+      "title": "Closed Multi-Dance Silver JR Int'l Latin (CC,S,R)",
       "entries": [
-        {
-          "couple": "Voronel, Daniel and Rapp, Masha",
-          "place": "1",
-          "points": 10.0
-        },
         {
           "couple": "Way, Armen and Misakyan, Marilyn",
           "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Sinelnikov, Ivan and Rich, Veronica",
-          "place": "2",
-          "points": 7.0
-        },
-        {
-          "couple": "Vasilevskiy, Lior and Sigal, Gabriella",
-          "place": "3",
-          "points": 5.0
-        },
-        {
-          "couple": "Chiriboga, Leonardo and Garcia, Santanna",
-          "place": "4",
-          "points": 3.0
-        }
-      ]
-    },
-    {
-      "title": "Amateur Open A Int'l Latin (CC,S,R,PD,J)",
-      "entries": [
-        {
-          "couple": "Romanov, Ivan and Ivahno - Kalinuka, Katya",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Khachaturov, Edgar and Pinkett, Monet",
-          "place": "2",
-          "points": 8.0
-        },
-        {
-          "couple": "Swiger, John and Shtykova, Arina",
-          "place": "3",
-          "points": 6.5
-        },
-        {
-          "couple": "Voronel, Daniel and Rapp, Masha",
-          "place": "4",
-          "points": 5.0
-        },
-        {
-          "couple": "Kozelchik, Max and Kozelchik, Altahir",
-          "place": "5",
-          "points": 4.0
-        },
-        {
-          "couple": "Airapetian, Iurii and Ramamurthy, Ella",
-          "place": "6",
-          "points": 3.0
-        }
-      ]
-    },
-    {
-      "title": "Amateur Open Kids P1 Int'l Latin (CC,S,R,J)",
-      "entries": [
-        {
-          "couple": "Shishkin, Michael and Moriakova, Alena",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Sevediani, Nikolas and Nisali, Elinor",
-          "place": "2",
-          "points": 8.0
-        },
-        {
-          "couple": "Ivanov, Nikolai and Ivanov, Irishka",
-          "place": "3",
-          "points": 6.5
-        },
-        {
-          "couple": "Saba, Daniel and Chubay, Sofia",
-          "place": "4",
-          "points": 5.0
-        },
-        {
-          "couple": "Rogatin, Vitaliy and Grigoryan, Karina",
-          "place": "5",
-          "points": 4.0
-        },
-        {
-          "couple": "Krupovlyanskiy, Mathew and Neminov, Isabella",
-          "place": "6",
-          "points": 3.0
-        },
-        {
-          "couple": "Brown, Cassius and Sinelnikov, Maya",
-          "place": "7",
-          "points": 2.5
-        },
-        {
-          "couple": "Starodubov, Peter and Sinelnikov, Natalya",
-          "place": "8",
-          "points": 2.5
+          "points": 15
         }
       ]
     }
