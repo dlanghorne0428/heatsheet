@@ -1,38 +1,63 @@
 {
-  "comp name": "Demo Competition",
+  "comp name": "Patriot Dance Festival",
   "heats": [
     {
-      "title": "G-A1 Int'l. Ballroom Closed Bronze Scholarship (W/F/Q)",
+      "title": "G-A2 Int'l. Ballroom Closed Bronze Scholarship (W/F/Q)",
       "entries": [
         {
           "couple": "Leung, Jeff and Mutz, BreAna",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "L-A1 Int'l. Ballroom Closed Bronze Scholarship (W/F/Q)",
+      "entries": [
         {
-          "couple": "Kenner, Shawn and Zinshtein, Ronen",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Williams, Robin and Gombkoto, Imre",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Theros, Sandy and Vigneault, Jared",
+          "couple": "Kubatin, Nadia and Timar, Krisztian",
           "place": "1",
           "points": 10.0
         },
         {
           "couple": "Kubatin, Victor and Toth, Maggie",
           "place": "2",
-          "points": 10
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-B1 Int'l. Ballroom Closed Bronze Scholarship (W/F/Q)",
+      "entries": [
+        {
+          "couple": "Kenner, Shawn and Zinshtein, Ronen",
+          "place": "1",
+          "points": 10.0
         },
         {
           "couple": "McCullough, Dana and Pali, Erik",
           "place": "2",
-          "points": 7.0
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-B2 Int'l. Ballroom Closed Bronze Scholarship (W/F/Q)",
+      "entries": [
+        {
+          "couple": "Williams, Robin and Gombkoto, Imre",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "L-C1 Int'l. Ballroom Closed Bronze Scholarship (W/F/Q)",
+      "entries": [
+        {
+          "couple": "Theros, Sandy and Vigneault, Jared",
+          "place": "1",
+          "points": 10
         }
       ]
     },
@@ -42,17 +67,27 @@
         {
           "couple": "Yum, Michelle and Pali, Erik",
           "place": "1",
-          "points": 10
-        },
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "L-B1 Int'l. Ballroom Closed Silver Scholarship (W/T/VW/F/Q)",
+      "entries": [
         {
           "couple": "Spencer, Lisa and Zinshtein, Ronen",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "L-B2 Int'l. Ballroom Closed Bronze Multi-Dance (W/F/Q)",
+      "entries": [
         {
           "couple": "Williams, Robin and Gombkoto, Imre",
           "place": "1",
-          "points": 10.0
+          "points": 15
         }
       ]
     },
@@ -62,27 +97,42 @@
         {
           "couple": "Jaffe, Don and Mullins, Kristie",
           "place": "1",
-          "points": 10
-        },
+          "points": 20
+        }
+      ]
+    },
+    {
+      "title": "L-A3 Int'l. Ballroom Closed Silver Scholarship (W/T/VW/F/Q)",
+      "entries": [
         {
           "couple": "Peakman, Marie-Claire and Scalzi, Anthony",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 20
+        }
+      ]
+    },
+    {
+      "title": "L-B2 Int'l. Ballroom Closed Gold Scholarship (W/T/VW/F/Q)",
+      "entries": [
         {
           "couple": "Bender, Arlene and Pali, Erik",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 20
+        }
+      ]
+    },
+    {
+      "title": "L-B2 Int'l. Ballroom Closed Silver Scholarship (W/T/VW/F/Q)",
+      "entries": [
         {
           "couple": "Gay, Eileen and Gorolevici, Anatoli",
           "place": "1",
-          "points": 10.0
+          "points": 20.0
         },
         {
           "couple": "Larkin, Hallie and Zinshtein, Ronen",
           "place": "2",
-          "points": 8.0
+          "points": 10.0
         }
       ]
     },
@@ -92,17 +142,27 @@
         {
           "couple": "Agostino, Nicoletta and Zinshtein, Ronen",
           "place": "1",
-          "points": 10
-        },
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "L-A3 Int'l. Ballroom Open Multi-Dance (W/T/VW/F/Q)",
+      "entries": [
         {
           "couple": "Hall, Bambi and Kerekes, Tibor",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "L-C1 Int'l. Ballroom Closed Silver Multi-Dance (W/T/VW/F/Q)",
+      "entries": [
         {
           "couple": "Hart, Karen and Pali, Erik",
           "place": "1",
-          "points": 10.0
+          "points": 15
         }
       ]
     },
@@ -112,35 +172,45 @@
         {
           "couple": "Jaffe, Don and Mullins, Kristie",
           "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Rahardja, Sainah and Zinshtein, Ronen",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Bender, Arlene and Pali, Erik",
-          "place": "1",
-          "points": 10.0
+          "points": 25
         }
       ]
     },
     {
-      "title": "G-B1 Am. Smooth Closed Bronze Multi-Dance (W/T/F)",
+      "title": "L-B1 Int'l. Ballroom Open Scholarship (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Rahardja, Sainah and Zinshtein, Ronen",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "title": "L-B2 Int'l. Ballroom Closed Gold Multi-Dance (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Bender, Arlene and Pali, Erik",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "title": "L-A1 Am. Smooth Closed Bronze Multi-Dance (W/T/F)",
       "entries": [
         {
           "couple": "Durand, Samantha and Scalzi, Anthony",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "L-B1 Am. Smooth Closed Bronze Multi-Dance (W/T/F)",
+      "entries": [
         {
           "couple": "McCullough, Dana and Hannigan, Dave",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Lloyd, Avery and Spencer, Adam",
           "place": "1",
           "points": 10.0
         },
@@ -148,6 +218,16 @@
           "couple": "Lucas, Brian and Chessa, Adriana",
           "place": "2",
           "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-J2 Am. Smooth Closed Bronze Multi-Dance (W/T/F)",
+      "entries": [
+        {
+          "couple": "Lloyd, Avery and Spencer, Adam",
+          "place": "1",
+          "points": 10
         }
       ]
     },
@@ -160,19 +240,9 @@
           "points": 10.0
         },
         {
-          "couple": "Gay, Eileen and Gorolevici, Anatoli",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Cassidy, Vin and Toth, Maggie",
           "place": "2",
           "points": 6.0
-        },
-        {
-          "couple": "Williams, Robin and Gombkoto, Imre",
-          "place": "2",
-          "points": 8.0
         },
         {
           "couple": "Lucas, Brian and Chessa, Adriana",
@@ -182,7 +252,22 @@
       ]
     },
     {
-      "title": "G-B2 Am. Smooth Closed Bronze Scholarship (W/T/F)",
+      "title": "L-B2 Am. Smooth Closed Bronze Multi-Dance (W/T/F)",
+      "entries": [
+        {
+          "couple": "Gay, Eileen and Gorolevici, Anatoli",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Williams, Robin and Gombkoto, Imre",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-A1 Am. Smooth Closed Bronze Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Durand, Samantha and Scalzi, Anthony",
@@ -190,19 +275,19 @@
           "points": 10.0
         },
         {
+          "couple": "LaPierre, Renee and Carsten, Noah",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-B2 Am. Smooth Closed Bronze Scholarship (W/T/F)",
+      "entries": [
+        {
           "couple": "Martin, Anne and Hannigan, Dave",
           "place": "1",
           "points": 10.0
-        },
-        {
-          "couple": "DeFrancisci, Maddie and Spencer, Adam",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "LaPierre, Renee and Carsten, Noah",
-          "place": "2",
-          "points": 8.0
         },
         {
           "couple": "Williams, Robin and Gombkoto, Imre",
@@ -217,20 +302,30 @@
       ]
     },
     {
-      "title": "G-B1 Am. Smooth Closed Bronze Scholarship (W/T/F)",
+      "title": "L-J1 Am. Smooth Closed Bronze Multi-Dance (W/T/F)",
+      "entries": [
+        {
+          "couple": "DeFrancisci, Maddie and Spencer, Adam",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "L-A1 Am. Smooth Closed Silver Multi-Dance (W/T/F/VW)",
       "entries": [
         {
           "couple": "DeFelice, Alanna and Scalzi, Anthony",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "L-B1 Am. Smooth Closed Bronze Scholarship (W/T/F)",
+      "entries": [
         {
           "couple": "Connors, Sue and Gombkoto, Imre",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Pfelger, Olivia and Spencer, Adam",
           "place": "1",
           "points": 10.0
         },
@@ -252,92 +347,122 @@
       ]
     },
     {
-      "title": "AC-A1 Am. Smooth Closed Silver Multi-Dance (W/T/F/VW)",
+      "title": "L-Y Am. Smooth Closed Silver Scholarship (W/T/F/VW)",
       "entries": [
         {
-          "couple": "Primrose, Alexandra and Primrose, Michael",
+          "couple": "Pfelger, Olivia and Spencer, Adam",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "G-C1 Am. Smooth Closed Bronze Scholarship (W/T/F)",
+      "entries": [
         {
           "couple": "Rooney, Martin and Toth, Maggie",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "L-A2 Am. Smooth Closed Bronze Scholarship (W/T/F)",
+      "entries": [
         {
           "couple": "Meegan, Patricia and Carsten, Noah",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "L-A2 Am. Smooth Closed Silver Multi-Dance (W/T/F/VW)",
+      "entries": [
         {
           "couple": "Lessem, SaraKate and Timar, Krisztian",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "L-A3 Am. Smooth Closed Bronze Scholarship (W/T/F)",
+      "entries": [
         {
           "couple": "Shapeton, Irina and Gombkoto, Imre",
           "place": "1",
           "points": 10.0
         },
         {
-          "couple": "Prusinski, Anna and Surowiec, Robert",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Awan, Shameem and Scalzi, Anthony",
           "place": "2",
-          "points": 7.0
+          "points": 6.0
         },
         {
           "couple": "Lucas, Brian and Chessa, Adriana",
           "place": "3",
-          "points": 5.0
+          "points": 3.0
         }
       ]
     },
     {
-      "title": "AC-B1 Am. Smooth Closed Silver Scholarship (W/T/F/VW)",
+      "title": "L-B2 Am. Smooth Closed Silver Multi-Dance (W/T/F/VW)",
       "entries": [
         {
-          "couple": "DiMaio, Joseph and George, Deborah",
+          "couple": "Prusinski, Anna and Surowiec, Robert",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-A1 Am. Smooth Closed Silver Scholarship (W/T/F/VW)",
+      "entries": [
         {
           "couple": "DeFelice, Alanna and Scalzi, Anthony",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "L-A2 Am. Smooth Closed Silver Scholarship (W/T/F/VW)",
+      "entries": [
         {
           "couple": "Camesano, Terri and Pali, Erik",
           "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Smith, Chris and Hannigan, Dave",
-          "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Lessem, SaraKate and Timar, Krisztian",
           "place": "2",
-          "points": 8.0
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "L-B1 Am. Smooth Closed Silver Scholarship (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Smith, Chris and Hannigan, Dave",
+          "place": "1",
+          "points": 15.0
         },
         {
           "couple": "Delcore, Paula and Kerekes, Tibor",
           "place": "2",
-          "points": 8.0
+          "points": 10.5
         },
         {
           "couple": "Lancelotta, Sheila and Vigneault, Jared",
           "place": "3",
-          "points": 6.5
+          "points": 7.5
         },
         {
           "couple": "Gluck, Cliff and Toth, Maggie",
           "place": "4",
-          "points": 5.0
+          "points": 4.5
         }
       ]
     },
@@ -347,37 +472,52 @@
         {
           "couple": "Jaffe, Don and Mullins, Kristie",
           "place": "1",
-          "points": 10
-        },
-        {
-          "couple": "Zukovsky, Leila and Hannigan, Dave",
-          "place": "1",
-          "points": 10.0
+          "points": 25
         }
       ]
     },
     {
-      "title": "G-B2 Am. Smooth Closed Silver Scholarship (W/T/F/VW)",
+      "title": "L-B1 Am. Smooth Open Multi-Dance (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Zukovsky, Leila and Hannigan, Dave",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "title": "L-A1 Am. Smooth Open Scholarship (W/T/F/VW)",
       "entries": [
         {
           "couple": "Jensik, Melissa and Hannigan, Dave",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "L-B2 Am. Smooth Closed Silver Scholarship (W/T/F/VW)",
+      "entries": [
         {
           "couple": "Prusinski, Anna and Surowiec, Robert",
           "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Theros, Sandy and Vigneault, Jared",
-          "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Gluck, Cliff and Toth, Maggie",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "L-C1 Am. Smooth Closed Silver Scholarship (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Theros, Sandy and Vigneault, Jared",
+          "place": "1",
+          "points": 15
         }
       ]
     },
@@ -387,17 +527,27 @@
         {
           "couple": "Jaffe, Don and Mullins, Kristie",
           "place": "1",
-          "points": 10
-        },
+          "points": 25
+        }
+      ]
+    },
+    {
+      "title": "L-A2 Am. Smooth Open Scholarship (W/T/F/VW)",
+      "entries": [
         {
           "couple": "Hoffman, Jennifer and Hannigan, Dave",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 25
+        }
+      ]
+    },
+    {
+      "title": "L-B2 Am. Smooth Open Scholarship (W/T/F/VW)",
+      "entries": [
         {
           "couple": "Dalsimer, Mary and Rzepnicki, Tom",
           "place": "1",
-          "points": 10.0
+          "points": 25
         }
       ]
     },
@@ -408,16 +558,26 @@
           "couple": "Song, Jun and Spencer, Adam",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-B1 Int'l. Latin Closed Silver Multi-Dance (C/S/R/PD/J)",
+      "entries": [
         {
           "couple": "Hastings, Melissa and Astafiev, Vlad",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "L-B2 Int'l. Latin Closed Bronze Multi-Dance (C/R/J)",
+      "entries": [
         {
           "couple": "Teel, Nancy and Timar, Krisztian",
           "place": "1",
-          "points": 10.0
+          "points": 10
         }
       ]
     },
@@ -427,12 +587,17 @@
         {
           "couple": "Jodhan, Jeannine and Escolme, Andrew",
           "place": "1",
-          "points": 10
-        },
+          "points": 20
+        }
+      ]
+    },
+    {
+      "title": "L-B2 Int'l. Latin Open Multi-Dance (C/S/R/PD/J)",
+      "entries": [
         {
           "couple": "Tucker, Sherry and Astafiev, Vlad",
           "place": "1",
-          "points": 10.0
+          "points": 20
         }
       ]
     },
@@ -442,17 +607,22 @@
         {
           "couple": "Peakman, Marie-Claire and Scalzi, Anthony",
           "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Teel, Nancy and Timar, Krisztian",
-          "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Hastings, Melissa and Astafiev, Vlad",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "L-B2 Int'l. Latin Closed Bronze Scholarship (C/R/J)",
+      "entries": [
+        {
+          "couple": "Teel, Nancy and Timar, Krisztian",
+          "place": "1",
+          "points": 15
         }
       ]
     },
@@ -462,12 +632,12 @@
         {
           "couple": "Goddard, Joan and Escolme, Andrew",
           "place": "1",
-          "points": 10.0
+          "points": 25.0
         },
         {
           "couple": "Tucker, Sherry and Astafiev, Vlad",
           "place": "2",
-          "points": 5.0
+          "points": 12.5
         }
       ]
     },
@@ -480,21 +650,6 @@
           "points": 10.0
         },
         {
-          "couple": "Wright, Roberta and Escolme, Andrew",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Preston, Ioana and Gombkoto, Imre",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "DeFrancisci, Maddie and Spencer, Adam",
-          "place": "1",
-          "points": 10.0
-        },
-        {
           "couple": "Lucas, Brian and Chessa, Adriana",
           "place": "2",
           "points": 5.0
@@ -502,23 +657,63 @@
       ]
     },
     {
-      "title": "AC-J1 Am. Rhythm Closed Bronze Scholarship (C/R/SW)",
+      "title": "L-A1 Am. Rhythm Closed Bronze Multi-Dance (C/R/SW)",
       "entries": [
         {
-          "couple": "Jones-Carlson, Soren and Fox, Larkin",
+          "couple": "Wright, Roberta and Escolme, Andrew",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-A2 Am. Rhythm Closed Bronze Multi-Dance (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Preston, Ioana and Gombkoto, Imre",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "L-J1 Am. Rhythm Closed Bronze Multi-Dance (C/R/SW)",
+      "entries": [
+        {
+          "couple": "DeFrancisci, Maddie and Spencer, Adam",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "G-B2 Am. Rhythm Closed Bronze Multi-Dance (C/R/SW)",
+      "entries": [
         {
           "couple": "Hatton, Eric and Toth, Maggie",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "L-A1 Am. Rhythm Closed Bronze Scholarship (C/R/SW)",
+      "entries": [
         {
           "couple": "Wright, Roberta and Escolme, Andrew",
           "place": "1",
           "points": 10.0
         },
+        {
+          "couple": "Paul, Lauren and Gombkoto, Imre",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-B1 Am. Rhythm Closed Bronze Multi-Dance (C/R/SW)",
+      "entries": [
         {
           "couple": "Mesonero, Clara and Spencer, Adam",
           "place": "1",
@@ -527,17 +722,12 @@
         {
           "couple": "Lucas, Brian and Chessa, Adriana",
           "place": "2",
-          "points": 7.0
-        },
-        {
-          "couple": "Paul, Lauren and Gombkoto, Imre",
-          "place": "2",
-          "points": 8.0
+          "points": 6.0
         },
         {
           "couple": "Anderson, Fred and Goncharova, Olga",
           "place": "3",
-          "points": 5.0
+          "points": 3.0
         }
       ]
     },
@@ -548,79 +738,94 @@
           "couple": "Lucas, Brian and Chessa, Adriana",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "G-B2 Am. Rhythm Closed Bronze Scholarship (C/R/SW)",
+      "entries": [
         {
           "couple": "Gluck, Cliff and Toth, Maggie",
           "place": "1",
           "points": 10.0
         },
         {
+          "couple": "Pope, Doug and Goncharova, Olga",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "title": "L-A2 Am. Rhythm Closed Bronze Scholarship (C/R/SW)",
+      "entries": [
+        {
           "couple": "Preston, Ioana and Gombkoto, Imre",
           "place": "1",
           "points": 10.0
         },
         {
-          "couple": "Lloyd, Avery and Spencer, Adam",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Pope, Doug and Goncharova, Olga",
-          "place": "2",
-          "points": 6.0
-        },
-        {
           "couple": "Motta, Rubina and Timar, Krisztian",
           "place": "2",
-          "points": 8.0
+          "points": 5.0
         }
       ]
     },
     {
-      "title": "AC-J1 Am. Rhythm Closed Silver Scholarship (C/R/SW/B/M)",
+      "title": "L-J1 Am. Rhythm Closed Silver Multi-Dance (C/R/SW/B/M)",
       "entries": [
         {
-          "couple": "Rhinesmith, Chase and Lloyd, Avery",
+          "couple": "Lloyd, Avery and Spencer, Adam",
           "place": "1",
           "points": 10
-        },
+        }
+      ]
+    },
+    {
+      "title": "L-A2 Am. Rhythm Closed Silver Scholarship (C/R/SW/B/M)",
+      "entries": [
         {
           "couple": "Shah, Louise and Escolme, Andrew",
           "place": "1",
-          "points": 10.0
-        },
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "L-A2 Am. Rhythm Open Scholarship (C/R/SW/B/M)",
+      "entries": [
         {
           "couple": "Hoffman, Jennifer and Hannigan, Dave",
           "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Dalsimer, Mary and Rzepnicki, Tom",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Pfelger, Olivia and Spencer, Adam",
-          "place": "1",
-          "points": 10.0
+          "points": 15
         }
       ]
     },
     {
-      "title": "G-B1 Am. Rhythm Closed Bronze Scholarship (C/R/SW)",
+      "title": "L-B2 Am. Rhythm Open Scholarship (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Dalsimer, Mary and Rzepnicki, Tom",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "L-Y Am. Rhythm Closed Silver Scholarship (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Pfelger, Olivia and Spencer, Adam",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "L-B1 Am. Rhythm Closed Bronze Scholarship (C/R/SW)",
       "entries": [
         {
           "couple": "Smith, Chris and Hannigan, Dave",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Shah, Louise and Escolme, Andrew",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Prusinski, Anna and Surowiec, Robert",
           "place": "1",
           "points": 10.0
         },
@@ -642,27 +847,57 @@
       ]
     },
     {
+      "title": "L-B1 Am. Rhythm Closed Silver Multi-Dance (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Shah, Louise and Escolme, Andrew",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "L-B2 Am. Rhythm Closed Silver Multi-Dance (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Prusinski, Anna and Surowiec, Robert",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
       "title": "L-A3 Am. Rhythm Closed Silver Scholarship (C/R/SW/B/M)",
       "entries": [
         {
           "couple": "Terkelsen, Rebekah and Spencer, Adam",
           "place": "1",
-          "points": 10
-        },
+          "points": 15
+        }
+      ]
+    },
+    {
+      "title": "L-B1 Am. Rhythm Closed Silver Scholarship (C/R/SW/B/M)",
+      "entries": [
         {
           "couple": "Zukovsky, Leila and Escolme, Andrew",
           "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Prusinski, Anna and Surowiec, Robert",
-          "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Delcore, Paula and Kerekes, Tibor",
           "place": "2",
-          "points": 6.0
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "title": "L-B2 Am. Rhythm Closed Silver Scholarship (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Prusinski, Anna and Surowiec, Robert",
+          "place": "1",
+          "points": 15
         }
       ]
     }

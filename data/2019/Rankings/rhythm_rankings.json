@@ -893,10 +893,22 @@
         "level": "Open",
         "place": "4",
         "points": 15.0
+      },
+      {
+        "comp_name": "Houston DanceSport Classic",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Houston DanceSport Classic",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 157.5,
-    "avg_pts": 14.32
+    "total_pts": 187.5,
+    "avg_pts": 14.42
   },
   {
     "name": "Bennett, Kemar and Nicol, Jessica",
@@ -3505,6 +3517,49 @@
     "avg_pts": 3.85
   },
   {
+    "name": "Blain, Daniel and Blain, Mariel",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Open",
+        "place": "quarters",
+        "points": 0.4
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Houston DanceSport Classic",
+        "level": "Open",
+        "place": "2",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 22.8,
+    "avg_pts": 3.8
+  },
+  {
     "name": "McLain and Williams",
     "results": [
       {
@@ -4041,43 +4096,6 @@
     ],
     "total_pts": 8.4,
     "avg_pts": 2.8
-  },
-  {
-    "name": "Blain, Daniel and Blain, Mariel",
-    "results": [
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "level": "Open",
-        "place": "quarters",
-        "points": 0.4
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 2.4
-      }
-    ],
-    "total_pts": 12.8,
-    "avg_pts": 2.56
   },
   {
     "name": "Brann, James and Iurman, Vanessa",
