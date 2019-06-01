@@ -27,22 +27,12 @@
       ]
     },
     {
-      "title": "AC-S2 Novice Ballroom 3-Dance (W/FT/QS)",
-      "entries": [
-        {
-          "couple": "Mueller, Peter and Mueller, Teresa",
-          "place": "1",
-          "points": 5
-        }
-      ]
-    },
-    {
       "title": "G-E Closed Silver Ballroom Scholarship (W/T/FT/QS)",
       "entries": [
         {
           "couple": "Jahngen, Edwin and Ulbrich, Deborah",
           "place": "1",
-          "points": 5
+          "points": 15
         }
       ]
     },
@@ -52,7 +42,7 @@
         {
           "couple": "Yu, Jinping and Zakharav, Ilia",
           "place": "1",
-          "points": 5
+          "points": 15
         }
       ]
     },
@@ -62,17 +52,17 @@
         {
           "couple": "Gay, Eileen and Gorolevici, Anatoli",
           "place": "1",
-          "points": 5.0
+          "points": 15.0
         },
         {
           "couple": "Marshall, Lu and Malek, Michael",
           "place": "2",
-          "points": 3.0
+          "points": 9.0
         },
         {
           "couple": "Cummings, Jack and DeSouza, Saori",
           "place": "3",
-          "points": 1.5
+          "points": 4.5
         }
       ]
     },
@@ -107,22 +97,12 @@
       ]
     },
     {
-      "title": "AC-S3 Novice Ballroom 3-Dance (W/FT/QS)",
-      "entries": [
-        {
-          "couple": "Mueller, Peter and Mueller, Teresa",
-          "place": "1",
-          "points": 5
-        }
-      ]
-    },
-    {
       "title": "L-D Closed Gold Ballroom Scholarship (W/T/VW/FT/QS)",
       "entries": [
         {
           "couple": "Covino, Linda and Gorolevici, Anatoli",
           "place": "1",
-          "points": 5
+          "points": 20
         }
       ]
     },
@@ -132,17 +112,17 @@
         {
           "couple": "Cheney, Barbara and Astafiev, Vlad",
           "place": "1",
-          "points": 5.0
+          "points": 20.0
         },
         {
           "couple": "Jaffe, Don and Mullins, Kristie",
           "place": "2",
-          "points": 3.0
+          "points": 12.0
         },
         {
           "couple": "Gallagar, Mary and Chaoulski, Evgueni",
           "place": "3",
-          "points": 1.5
+          "points": 6.0
         }
       ]
     },
@@ -177,22 +157,12 @@
       ]
     },
     {
-      "title": "AC-S3 Pre-Champ Ballroom 4-Dance (W/T/FT/QS)",
-      "entries": [
-        {
-          "couple": "Mueller, Peter and Mueller, Teresa",
-          "place": "1",
-          "points": 15
-        }
-      ]
-    },
-    {
       "title": "G-C Bronze World Pro/Am Ballroom DanceSport Series (W/T/VW/FT/QS)",
       "entries": [
         {
           "couple": "Jahngen, Edwin and Ulbrich, Deborah",
           "place": "1",
-          "points": 15
+          "points": 10
         }
       ]
     },
@@ -200,19 +170,14 @@
       "title": "G-C Silver World Pro/Am Ballroom DanceSport Series (W/T/VW/FT/QS)",
       "entries": [
         {
+          "couple": "Yu, Jinping and Zakharav, Ilia",
+          "place": "1",
+          "points": 10.0
+        },
+        {
           "couple": "Cummings, Jack and DeSouza, Saori",
           "place": "2",
-          "points": 7.5
-        }
-      ]
-    },
-    {
-      "title": "L-C Open Silver Ballroom Scholarship (W/T/FT/QS)",
-      "entries": [
-        {
-          "couple": "Yu, Jinping and Zakharav, Ilia",
-          "place": "2",
-          "points": 15.0
+          "points": 5.0
         }
       ]
     },
@@ -222,7 +187,7 @@
         {
           "couple": "Cheney, Barbara and Astafiev, Vlad",
           "place": "1",
-          "points": 15
+          "points": 10
         }
       ]
     },
@@ -232,7 +197,12 @@
         {
           "couple": "Lautenschleger, Joan and Gorolevici, Anatoli",
           "place": "1",
-          "points": 15.0
+          "points": 10.0
+        },
+        {
+          "couple": "Yu and Zakharav",
+          "place": "2",
+          "points": 5.0
         }
       ]
     },
@@ -978,36 +948,6 @@
           "couple": "Everett, Teri and Berryman, Matt",
           "place": "1",
           "points": 25
-        }
-      ]
-    },
-    {
-      "title": "AC-JR1 Novice Ballroom 3-Dance (W/FT/QS)",
-      "entries": [
-        {
-          "couple": "Affonso, Christopher and Hatleberg, Holly",
-          "place": "1",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "title": "AC-JR1 Pre-Champ Ballroom 4-Dance (W/T/FT/QS)",
-      "entries": [
-        {
-          "couple": "Affonso, Christopher and Hatleberg, Holly",
-          "place": "1",
-          "points": 15
-        }
-      ]
-    },
-    {
-      "title": "AC-JR1 Novice Latin 3-Dance (CC/S/R)",
-      "entries": [
-        {
-          "couple": "Affonso, Christopher and Hatleberg, Holly",
-          "place": "1",
-          "points": 5
         }
       ]
     }

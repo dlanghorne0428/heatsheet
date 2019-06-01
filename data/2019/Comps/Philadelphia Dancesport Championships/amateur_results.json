@@ -167,6 +167,16 @@
       ]
     },
     {
+      "title": "AC-J1 Closed Int'l Ballroom 3-Dance Championship (W/T/F)",
+      "entries": [
+        {
+          "couple": "Kogan, Daniel and Hajduk, Gabriela",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
       "title": "AC-J1 Junior Open Int'l Ballroom Championship (W/T/VW/F/Q)",
       "entries": [
         {
@@ -188,6 +198,11 @@
           "couple": "Raksin, Arye and Mishuris, Simone",
           "place": "4",
           "points": 12.5
+        },
+        {
+          "couple": "Evstigneev, Daniel and Gazarova, Narine",
+          "place": "5",
+          "points": 10.0
         }
       ]
     },
@@ -200,19 +215,14 @@
           "points": 25.0
         },
         {
-          "couple": "Evstigneev, Daniel and Gazarova, Narine",
+          "couple": "Evstigneev, Kristian and Shapsis, Alisa",
           "place": "2",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Proescher, Jonathan and Kogan, Maria",
           "place": "3",
           "points": 7.5
-        },
-        {
-          "couple": "Hajduk, Gabriela and Kogan, Daniel",
-          "place": "3",
-          "points": 25
         }
       ]
     },
@@ -243,6 +253,11 @@
           "couple": "Rodionov, Andrew and Mansour, Christina",
           "place": "1",
           "points": 25.0
+        },
+        {
+          "couple": "Rodionov, Anthony and Vayser, Hannah",
+          "place": "2",
+          "points": 12.5
         }
       ]
     },
@@ -312,13 +327,18 @@
       ]
     },
     {
-      "title": "AC-MLJ2 Novice Int'l Latin (C/S/R)",
+      "title": "AC-J2 Novice Int'l Latin (C/S/R)",
       "entries": [
         {
           "couple": "Groysman, Arthur and Bakanov, Ann-Marie",
           "place": "1",
           "points": 5
-        },
+        }
+      ]
+    },
+    {
+      "title": "AC-MLJ2 Novice Int'l Latin (C/S/R)",
+      "entries": [
         {
           "couple": "Lylyk, Nikita and McGovern, Gianna",
           "place": "2",
@@ -405,14 +425,24 @@
           "points": 20.0
         },
         {
-          "couple": "Kogan, Jacob and Kogan, Ariana",
+          "couple": "Kogan, Ariana and Kogan, Jacob",
+          "place": "3",
+          "points": 16.25
+        },
+        {
+          "couple": "Proescher, Jonathan and Kogan, Maria",
           "place": "4",
           "points": 12.5
         },
         {
-          "couple": "Rodionov, Andrew and Mansour, Christina",
+          "couple": "Rodionov, Anthony and Vayser, Hannah",
           "place": "5",
           "points": 10.0
+        },
+        {
+          "couple": "Rodionov, Andrew and Mansour, Christina",
+          "place": "6",
+          "points": 7.5
         }
       ]
     },
@@ -463,6 +493,11 @@
           "couple": "Kogan, Ariana and Kogan, Jacob",
           "place": "5",
           "points": 10.0
+        },
+        {
+          "couple": "Proescher, Jonathan and Kogan, Maria",
+          "place": "6",
+          "points": 7.5
         }
       ]
     }

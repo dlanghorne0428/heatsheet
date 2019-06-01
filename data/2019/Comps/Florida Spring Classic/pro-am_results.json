@@ -2,31 +2,6 @@
   "comp name": "Florida Spring Classic",
   "heats": [
     {
-      "title": "AC-B American Smooth Closed Challenge(W/T/F)",
-      "entries": [
-        {
-          "couple": "Sutherland, Betsy and Sutherland, Drew",
-          "place": "1",
-          "points": 15
-        }
-      ]
-    },
-    {
-      "title": "AC-C American Smooth Closed Challenge(W/T/F)",
-      "entries": [
-        {
-          "couple": "Forestier, Ian and Baginski, Jane",
-          "place": "1",
-          "points": 15.0
-        },
-        {
-          "couple": "Owens, Carlee and Owens, Larry",
-          "place": "2",
-          "points": 7.5
-        }
-      ]
-    },
-    {
       "title": "L-A American Smooth Closed Challenge(W/T/F)",
       "entries": [
         {
@@ -47,7 +22,7 @@
       ]
     },
     {
-      "title": "L-C American Smooth Closed Challenge(W/T/F) - Semi-final",
+      "title": "L-C American Smooth Closed Challenge(W/T/F)",
       "entries": [
         {
           "couple": "Tallerino, Toni and McGrath, Steven",
@@ -135,6 +110,11 @@
           "points": 9.75
         },
         {
+          "couple": "Medvic, Cindy and McGrath, Steven",
+          "place": "4",
+          "points": 7.5
+        },
+        {
           "couple": "Sutherland, Betsy and Rivera, Eddie",
           "place": "5",
           "points": 6.0
@@ -152,7 +132,7 @@
       ]
     },
     {
-      "title": "L- American Smooth Closed Scholarship(W/T/F) - Semi-final",
+      "title": "L- American Smooth Closed Scholarship(W/T/F)",
       "entries": [
         {
           "couple": "Sha, Sandra and Shtefil, Shandor",
@@ -190,6 +170,11 @@
           "points": 8.75
         },
         {
+          "couple": "Sutherland, Betsy and Rivera, Eddie",
+          "place": "8",
+          "points": 8.75
+        },
+        {
           "couple": "Black, Valerie and Cardoso, Martin",
           "place": "Semis",
           "points": 4.2
@@ -213,16 +198,6 @@
           "couple": "Sutherland, Drew and Espinosa, Jailene",
           "place": "Semis",
           "points": 4.2
-        }
-      ]
-    },
-    {
-      "title": "AC-B American Smooth Open Challenge(W/T/F)",
-      "entries": [
-        {
-          "couple": "Franklin, Thomas and Teprovich, Amy",
-          "place": "1",
-          "points": 25
         }
       ]
     },
@@ -257,42 +232,32 @@
       ]
     },
     {
-      "title": "AC-Y American Smooth Junior Scholarship(W/T/F)",
-      "entries": [
-        {
-          "couple": "Villegas, Jovannie and Lux, Jessica",
-          "place": "1",
-          "points": 25
-        }
-      ]
-    },
-    {
       "title": "G- Closed American Smooth Men's Challenge(W/T/F)",
       "entries": [
         {
           "couple": "Blau, Daniel and Kao, Kadrit",
           "place": "1",
-          "points": 25.0
+          "points": 15.0
         },
         {
           "couple": "Williams, Randy and Lototskyy, Sarah",
           "place": "2",
-          "points": 20.0
+          "points": 12.0
         },
         {
           "couple": "Sutherland and Espinosa",
           "place": "3",
-          "points": 16.25
+          "points": 9.75
         },
         {
           "couple": "Medvic, Ed and Trifaila, Alina",
           "place": "4",
-          "points": 12.5
+          "points": 7.5
         },
         {
           "couple": "Allen, Charlie and Evans, Austyn",
           "place": "5",
-          "points": 10.0
+          "points": 6.0
         }
       ]
     },
@@ -302,7 +267,7 @@
         {
           "couple": "Sorisi, Cayla and McGrath, Steven",
           "place": "1",
-          "points": 25
+          "points": 15
         }
       ]
     },
@@ -627,17 +592,7 @@
       ]
     },
     {
-      "title": "AC-Y International Latin Junior Scholarship(CC/S/R) Final",
-      "entries": [
-        {
-          "couple": "Villegas, Jovannie and Lux, Jessica",
-          "place": "1",
-          "points": 25
-        }
-      ]
-    },
-    {
-      "title": "L-Y International Latin Junior Scholarship(CC/S/R) Final",
+      "title": "L-Y International Latin Junior Scholarship(CC/S/R)",
       "entries": [
         {
           "couple": "Smith, Ainsley and Kopf, Colby",
@@ -647,42 +602,12 @@
       ]
     },
     {
-      "title": "AC-B American Rhythm Closed Challenge(C/R/SW)",
-      "entries": [
-        {
-          "couple": "Sutherland, Betsy and Sutherland, Drew",
-          "place": "1",
-          "points": 15
-        }
-      ]
-    },
-    {
-      "title": "AC-B American Rhythm Open Challenge(C/R/SW)",
-      "entries": [
-        {
-          "couple": "Franklin, Thomas and Teprovich, Amy",
-          "place": "1",
-          "points": 15
-        }
-      ]
-    },
-    {
-      "title": "AC-C American Rhythm Closed Challenge(C/R/SW)",
-      "entries": [
-        {
-          "couple": "Owens, Carlee and Owens, Larry",
-          "place": "1",
-          "points": 15
-        }
-      ]
-    },
-    {
       "title": "L-A American Rhythm Open Challenge(C/R/SW)",
       "entries": [
         {
           "couple": "Anderson, Wendy and Neil, Michael",
           "place": "1",
-          "points": 15
+          "points": 25
         }
       ]
     },
@@ -692,32 +617,32 @@
         {
           "couple": "Ige and Lototskyy",
           "place": "1",
-          "points": 15.0
+          "points": 25.0
         },
         {
           "couple": "Kaiser, Ali and Gannon, Colton",
           "place": "2",
-          "points": 12.0
+          "points": 20.0
         },
         {
           "couple": "Masella, Ava and DiTommaso, Zachary",
           "place": "3",
-          "points": 9.75
+          "points": 16.25
         },
         {
           "couple": "Holmes, Jay and Holmes, Mia Bella",
           "place": "4",
-          "points": 7.5
+          "points": 12.5
         },
         {
           "couple": "Holmes, Denny III and Evans, Austyn",
           "place": "5",
-          "points": 6.0
+          "points": 10.0
         }
       ]
     },
     {
-      "title": "L-C American Rhythm Closed Challenge(C/R/SW) - Semi-final",
+      "title": "L-C American Rhythm Closed Challenge(C/R/SW)",
       "entries": [
         {
           "couple": "McCurley, Peggy and McGrath, Steven",
@@ -812,7 +737,7 @@
       ]
     },
     {
-      "title": "L-B American Rhythm Open Scholarship(C/R/SW/B/M) - Semi-final",
+      "title": "L-B American Rhythm Open Scholarship(C/R/SW/B/M)",
       "entries": [
         {
           "couple": "Anderson, Wendy and Neil, Michael",
@@ -867,7 +792,7 @@
       ]
     },
     {
-      "title": "L- American Rhythm Closed  Scholarship(C/R/SW) - Semi-final",
+      "title": "L- American Rhythm Closed  Scholarship(C/R/SW)",
       "entries": [
         {
           "couple": "Anderson, Wendy and Neil, Michael",
@@ -888,6 +813,11 @@
           "couple": "Sha, Sandra and Shtefil, Shandor",
           "place": "4",
           "points": 17.5
+        },
+        {
+          "couple": "Sutherland, Betsy and Rivera, Eddie",
+          "place": "5",
+          "points": 14.0
         },
         {
           "couple": "Bartlett, Roberta and McGrath, Steven",
@@ -925,6 +855,11 @@
           "points": 4.2
         },
         {
+          "couple": "Medvic, Cindy and Uribe, Juan",
+          "place": "Semis",
+          "points": 4.2
+        },
+        {
           "couple": "Sutherland, Drew and Espinosa, Jailene",
           "place": "Semis",
           "points": 4.2
@@ -932,7 +867,7 @@
       ]
     },
     {
-      "title": "L-C International Latin Closed Challenge(C/S/R) Final",
+      "title": "L-C International Latin Closed Challenge(C/S/R)",
       "entries": [
         {
           "couple": "Miles, Donna and Holmes, Jay",
@@ -942,7 +877,7 @@
       ]
     },
     {
-      "title": "L-JR International Latin Open Challenge(C/S/R) Final",
+      "title": "L-JR International Latin Open Challenge(C/S/R)",
       "entries": [
         {
           "couple": "Smith, Ainsley and Kopf, Colby",

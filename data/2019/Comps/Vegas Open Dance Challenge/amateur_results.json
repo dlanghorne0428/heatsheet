@@ -57,10 +57,20 @@
       ]
     },
     {
-      "title": "AC-JR2 Amateur Novice Ballroom (W/Q)",
+      "title": "AC-JR1 Amateur Novice Ballroom (W/Q)",
       "entries": [
         {
           "couple": "Barton, Raccer and Draper, Sidney",
+          "place": "1",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "title": "AC-JR2 Amateur Novice Ballroom (W/Q)",
+      "entries": [
+        {
+          "couple": "Barton, Rhevv and Heinz, Ashley",
           "place": "1",
           "points": 5
         }
@@ -77,6 +87,16 @@
       ]
     },
     {
+      "title": "AC-JR1 Amateur Pre-Champ Ballroom (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Barton, Raccer and Draper, Sidney",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
       "title": "AC-JR2 Amateur Pre-Champ Ballroom (W/T/Q)",
       "entries": [
         {
@@ -85,9 +105,9 @@
           "points": 15.0
         },
         {
-          "couple": "Barton, Raccer and Draper, Sidney",
+          "couple": "Barton, Rhevv and Heinz, Ashley",
           "place": "2",
-          "points": 15
+          "points": 7.5
         }
       ]
     },
