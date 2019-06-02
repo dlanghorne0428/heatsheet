@@ -569,6 +569,31 @@
     "avg_pts": 13.67
   },
   {
+    "name": "Vadon, Barnabas and Kobor, Edina",
+    "results": [
+      {
+        "comp_name": "Houston DanceSport Classic",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Houston DanceSport Classic",
+        "level": "Open",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Sapphire DanceSport",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 40.0,
+    "avg_pts": 13.33
+  },
+  {
     "name": "Minaev, Aleksei and Minaeva, Elena",
     "results": [
       {
@@ -961,25 +986,6 @@
         "comp_name": "Portland Open Dancesport Competition",
         "level": "Open",
         "place": "3",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 20.0,
-    "avg_pts": 10.0
-  },
-  {
-    "name": "Vadon, Barnabas and Kobor, Edina",
-    "results": [
-      {
-        "comp_name": "Houston DanceSport Classic",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Houston DanceSport Classic",
-        "level": "Open",
-        "place": "2",
         "points": 10.0
       }
     ],
@@ -1907,6 +1913,79 @@
     "avg_pts": 5.67
   },
   {
+    "name": "Esposito, Vincenzo and Matsubara, Yo",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Open",
+        "place": "3",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 57.0,
+    "avg_pts": 5.18
+  },
+  {
     "name": "Solomakha, Dmitriy and Sevillano, Gabriela",
     "results": [
       {
@@ -1948,6 +2027,19 @@
     ],
     "total_pts": 30.5,
     "avg_pts": 5.08
+  },
+  {
+    "name": "Churchun, Dmytro and Zavidova, Alina",
+    "results": [
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 5.0,
+    "avg_pts": 5.0
   },
   {
     "name": "Lipford, Stephen and Collins, Shayne",
@@ -2127,73 +2219,6 @@
     ],
     "total_pts": 33.0,
     "avg_pts": 4.71
-  },
-  {
-    "name": "Esposito, Vincenzo and Matsubara, Yo",
-    "results": [
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Indiana Challenge - Add web page option",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Indiana Challenge - Add web page option",
-        "level": "Open",
-        "place": "3",
-        "points": 6.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Rising Star",
-        "place": "3",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "level": "Open",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "level": "Rising Star",
-        "place": "3",
-        "points": 3.0
-      }
-    ],
-    "total_pts": 47.0,
-    "avg_pts": 4.7
   },
   {
     "name": "Levin, Ivan and Levin, Maria",

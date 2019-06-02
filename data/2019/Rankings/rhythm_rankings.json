@@ -380,10 +380,29 @@
         "level": "Open",
         "place": "2",
         "points": 24.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 103.5,
-    "avg_pts": 20.7
+    "total_pts": 123.5,
+    "avg_pts": 20.58
+  },
+  {
+    "name": "Toth, Bence and Mattingly, Ashley",
+    "results": [
+      {
+        "comp_name": "Sapphire DanceSport",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 20.0
   },
   {
     "name": "Pigotskyy, Oleksiy and Crandall, Natalie",
@@ -612,10 +631,16 @@
         "level": "Open",
         "place": "1",
         "points": 30.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
       }
     ],
-    "total_pts": 347.0,
-    "avg_pts": 18.26
+    "total_pts": 363.0,
+    "avg_pts": 18.15
   },
   {
     "name": "Ubillus, Kevin and Lareto, Milagros",
@@ -771,61 +796,6 @@
     "avg_pts": 14.91
   },
   {
-    "name": "Kaszas, Richard and Pangea, Foteini",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Indiana Challenge - Add web page option",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Indiana Challenge - Add web page option",
-        "level": "Open",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "level": "Open",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "2019 Indianapolis Open DanceSport",
-        "level": "Rising Star",
-        "place": "3",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 116.0,
-    "avg_pts": 14.5
-  },
-  {
     "name": "Makhaye, Senzo and Strojek-Maguire, Agnieszka",
     "results": [
       {
@@ -909,6 +879,67 @@
     ],
     "total_pts": 187.5,
     "avg_pts": 14.42
+  },
+  {
+    "name": "Kaszas, Richard and Pangea, Foteini",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Indiana Challenge - Add web page option",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "level": "Open",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Sapphire DanceSport",
+        "level": "Open",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 128.0,
+    "avg_pts": 14.22
   },
   {
     "name": "Bennett, Kemar and Nicol, Jessica",
@@ -1663,43 +1694,6 @@
     "avg_pts": 10.28
   },
   {
-    "name": "Lopez, Jhondarr and Osborn, Amber",
-    "results": [
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "level": "Open",
-        "place": "6",
-        "points": 9.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Open",
-        "place": "5",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 51.0,
-    "avg_pts": 10.2
-  },
-  {
     "name": "Gavrilov, Andrei and Huang, Mengqi",
     "results": [
       {
@@ -1760,91 +1754,6 @@
     ],
     "total_pts": 10.0,
     "avg_pts": 10.0
-  },
-  {
-    "name": "Chen, Jonathan and Simanekova, Juanita",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "Semis",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "level": "Open",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "Music City Invitational",
-        "level": "Open",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "level": "Open",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "level": "Open",
-        "place": "Semis",
-        "points": 7.5
-      },
-      {
-        "comp_name": "atlopen19",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "level": "Open",
-        "place": "5",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 127.4,
-    "avg_pts": 9.8
   },
   {
     "name": "Papi, Riccardo and Moretti, Sabrina",
@@ -2011,10 +1920,162 @@
         "level": "Open",
         "place": "4",
         "points": 10.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
       }
     ],
-    "total_pts": 188.1,
-    "avg_pts": 9.4
+    "total_pts": 211.1,
+    "avg_pts": 9.6
+  },
+  {
+    "name": "Chen, Jonathan and Simanekova, Juanita",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "level": "Open",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Music City Invitational",
+        "level": "Open",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Open",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 143.4,
+    "avg_pts": 9.56
+  },
+  {
+    "name": "Lopez, Jhondarr and Osborn, Amber",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "level": "Open",
+        "place": "6",
+        "points": 9.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Open",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Sapphire DanceSport",
+        "level": "Open",
+        "place": "3",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 57.0,
+    "avg_pts": 9.5
   },
   {
     "name": "Sovetov, Ivan and Mkrtchian, Valeria",
@@ -2302,6 +2363,55 @@
     "avg_pts": 7.38
   },
   {
+    "name": "Borges, Israel and Cardenas, Natalie",
+    "results": [
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Open",
+        "place": "6",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 3.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Open",
+        "place": "6",
+        "points": 9.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 51.5,
+    "avg_pts": 7.36
+  },
+  {
     "name": "Gartchev, Ivan and Boresow, Leah",
     "results": [
       {
@@ -2417,43 +2527,6 @@
     ],
     "total_pts": 49.6,
     "avg_pts": 7.09
-  },
-  {
-    "name": "Borges, Israel and Cardenas, Natalie",
-    "results": [
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "level": "Open",
-        "place": "6",
-        "points": 9.0
-      },
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "level": "Rising Star",
-        "place": "6",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Rising Star",
-        "place": "6",
-        "points": 3.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Open",
-        "place": "6",
-        "points": 9.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 8.0
-      }
-    ],
-    "total_pts": 35.0,
-    "avg_pts": 7.0
   },
   {
     "name": "Martinez, Juan and Bottinelli, Elayna",
@@ -3048,9 +3121,21 @@
         "level": "Open",
         "place": "4",
         "points": 10.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Open",
+        "place": "6",
+        "points": 6.0
       }
     ],
-    "total_pts": 49.6,
+    "total_pts": 60.6,
     "avg_pts": 5.51
   },
   {
@@ -3579,6 +3664,43 @@
     "avg_pts": 3.8
   },
   {
+    "name": "Divovic, Muhidin and Novak, Ashley",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Open",
+        "place": "7",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 18.6,
+    "avg_pts": 3.72
+  },
+  {
     "name": "Jones, Lucas and O'Hara, Alexandra",
     "results": [
       {
@@ -3805,31 +3927,6 @@
     "avg_pts": 3.4
   },
   {
-    "name": "Divovic, Muhidin and Novak, Ashley",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 9.6,
-    "avg_pts": 3.2
-  },
-  {
     "name": "Parks, Anthony and Blunt, Sophia",
     "results": [
       {
@@ -3977,6 +4074,19 @@
       }
     ],
     "total_pts": 6.0,
+    "avg_pts": 3.0
+  },
+  {
+    "name": "Amadis, Germine and Bembry, Torie",
+    "results": [
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
     "avg_pts": 3.0
   },
   {
