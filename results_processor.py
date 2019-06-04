@@ -39,13 +39,19 @@ class Results_Processor():
            heat_string contains the category and the number
            trailer contains the expected trailer.
            Return everything between the heat_string and the trailer
-        '''    
+        '''
+        extended_trailer = " - " + trailer
         start_pos = line.find(heat_string) + len(heat_string)
-        end_pos = line.find(trailer)
+        end_pos = line.find(extended_trailer)
         if end_pos == -1:
-            remaining_text = line[start_pos:]
-        else:
-            remaining_text = line[start_pos:end_pos]
+            end_pos = line.find(trailer)
+            if end_pos == -1:
+                # could not find either version of the trailer
+                remaining_text = line[start_pos:]
+                return remaining_text.strip()
+
+        # if we get here, we found one of the possible trailers
+        remaining_text = line[start_pos:end_pos]
         return remaining_text.strip()
 
 
