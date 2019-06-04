@@ -729,7 +729,7 @@ class HelloFrame(wx.Frame):
             if h.category == "Formation":
                 competitors = self.heatlist.list_of_dancers_in_heat(h)
             else:
-                competitors = self.heatlist.list_of_couples_in_heat(h)
+                competitors = self.heatlist.list_of_couples_in_heat(h, sortby="info")
 
             # populate the GUI, add a separator after each heat
             for c in competitors:
