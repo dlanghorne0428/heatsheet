@@ -1088,7 +1088,7 @@ class HelloFrame(wx.Frame):
         Ranking_Column = 6  
         self.ChangeColumnTitle(Ranking_Column, "Ranking")
         item_index = 0
-        folder_name = "./data/" + str(self.curr_date.year) + "/Rankings" 
+        folder_name = "./data/" + str(self.curr_date.year) + "/Rankings" + "/Pro"  # for now
         
         # open the five ranking files
         self.smooth_couples = RankingDataFile(folder_name + "/smooth_rankings.json")
