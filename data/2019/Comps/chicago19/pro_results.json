@@ -1,0 +1,243 @@
+{
+  "comp name": "chicago19",
+  "heats": [
+    {
+      "number": 1,
+      "title": "Professional Rising Star International Latin (CC/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Vaitkus, Domas and Pav, Serena",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Kora, Iurii and Hryn, Alisa",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Professional Rising Star American Smooth (W/T/FT/VW)",
+      "entries": [
+        {
+          "couple": "Afonkin, Igor and Anderson, Meghan",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Zavialov, Dmitrii and Baumgartner, Katt",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Nalyvachuk, Vladyslav and Nalyvaychuk, Brianna",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Stefanov, Jessica and Stefanov, Slava",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Kyle, Roland and Ruffell, Lexi",
+          "place": "5",
+          "points": 8.0
+        },
+        {
+          "couple": "Bonev, Aleksandar and Aidasheva, Olga",
+          "place": "6",
+          "points": 6.0
+        },
+        {
+          "couple": "Leonard, Charles and Mirzalieva, Kamilla",
+          "place": "Semis",
+          "points": 2.4
+        },
+        {
+          "couple": "Cegelski, Rane and Larson, Sarah",
+          "place": "Semis",
+          "points": 2.4
+        },
+        {
+          "couple": "Morth, Jay and Trinidad, Samantha",
+          "place": "Semis",
+          "points": 4.0
+        },
+        {
+          "couple": "Wilson, Jacob and Jacobs, Karen",
+          "place": "Semis",
+          "points": 2.4
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Professional Rising Star American Rhythm (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Nyemchek, David and Wilder, Maysen",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Rodriquez, Nicolas and Struk, Paulina",
+          "place": "2",
+          "points": 7.0
+        },
+        {
+          "couple": "Evans, Enoch and Gordeeva, Anastasia",
+          "place": "3",
+          "points": 5.0
+        },
+        {
+          "couple": "Rasmussen, Matthew and Daigle, Kayla",
+          "place": "4",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Professional Open American Rhythm (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Velednitsky, Ilya and Ilchenko, Mariya",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Kondov, Toshko and Dobson, Kristen",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Nyemchek, David and Wilder, Maysen",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Rodriquez, Nicolas and Struk, Paulina",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Evans, Enoch and Gordeeva, Anastasia",
+          "place": "5",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Professional Cabaret",
+      "entries": [
+        {
+          "couple": "Pohl, Zachary and Freilich, Ariel",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Professional Open International Ballroom (W/T/VW/F/QS)",
+      "entries": [
+        {
+          "couple": "Levin, Ivan and Levin, Maria",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Dudin, Danila and Zhigulskaya, Varvara",
+          "place": "2",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Professional Open American Smooth (W/T/FT/VW)",
+      "entries": [
+        {
+          "couple": "Vukosavljevic, Aleksandar and Urosevic, Nevena",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "Afonkin, Igor and Anderson, Meghan",
+          "place": "2",
+          "points": 24.0
+        },
+        {
+          "couple": "Zavialov, Dmitrii and Baumgartner, Katt",
+          "place": "3",
+          "points": 19.5
+        },
+        {
+          "couple": "Shtefil, Shandor and Barsukov, Aleksandra",
+          "place": "4",
+          "points": 15.0
+        },
+        {
+          "couple": "Nalyvachuk, Vladyslav and Nalyvaychuk, Brianna",
+          "place": "5",
+          "points": 12.0
+        },
+        {
+          "couple": "Pohybil, Dmytro and Kushnir, Allie",
+          "place": "6",
+          "points": 9.0
+        },
+        {
+          "couple": "Kyle, Roland and Ruffell, Lexi",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Cegelski, Rane and Larson, Sarah",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Morth, Jay and Trinidad, Samantha",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Bonev, Aleksandar and Aidasheva, Olga",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Wilson, Jacob and Jacobs, Karen",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Pohl, Zachary and Freilich, Ariel",
+          "place": "Semis",
+          "points": 3.6
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Professional Open International Latin (CC/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Spirov, Rangel and Chernyavska, Veronika",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Kora, Iurii and Hryn, Alisa",
+          "place": "2",
+          "points": 10.0
+        }
+      ]
+    }
+  ]
+}
