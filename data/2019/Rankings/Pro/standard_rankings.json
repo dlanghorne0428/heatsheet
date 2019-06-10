@@ -273,6 +273,49 @@
     "avg_pts": 17.88
   },
   {
+    "name": "Di Brino, Stefano and Di Brino, Bianka",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Open",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "level": "Open",
+        "place": "Semis",
+        "points": 8.4
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 100.9,
+    "avg_pts": 16.82
+  },
+  {
     "name": "Ursache, Valeriu and Bakhtiarova, Liana",
     "results": [
       {
@@ -308,43 +351,6 @@
     ],
     "total_pts": 82.0,
     "avg_pts": 16.4
-  },
-  {
-    "name": "Di Brino, Stefano and Di Brino, Bianka",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "level": "Open",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Open",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "level": "Open",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "level": "Open",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "level": "Open",
-        "place": "Semis",
-        "points": 8.4
-      }
-    ],
-    "total_pts": 80.9,
-    "avg_pts": 16.18
   },
   {
     "name": "Gayenko, Igor and Schuchynska, Olga",
@@ -974,30 +980,24 @@
     "avg_pts": 10.0
   },
   {
-    "name": "Rivers, Jason and Davis, Jennifer",
-    "results": [
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "level": "Open",
-        "place": "3",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 20.0,
-    "avg_pts": 10.0
-  },
-  {
     "name": "Dawson, Staz and Gonyea, Jacklyn",
     "results": [
       {
         "comp_name": "Music City Invitational",
         "level": "Open",
+        "place": "1",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Bielli, Mattia and Hughes, Taisiia",
+    "results": [
+      {
+        "comp_name": "Great Gatsby Gala",
+        "level": "Rising Star",
         "place": "1",
         "points": 10.0
       }
@@ -1627,6 +1627,37 @@
     "avg_pts": 7.33
   },
   {
+    "name": "Rivers, Jason and Davis, Jennifer",
+    "results": [
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "level": "Open",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "level": "Open",
+        "place": "3",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 29.0,
+    "avg_pts": 7.25
+  },
+  {
     "name": "Gillis, Christian and Kamila,",
     "results": [
       {
@@ -1913,6 +1944,79 @@
     "avg_pts": 5.67
   },
   {
+    "name": "Teleha, Oleg and Brecker, Michelle",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 3.0
+      },
+      {
+        "comp_name": "City Lights Ball",
+        "level": "Open",
+        "place": "7",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Open",
+        "place": "7",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 5.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "level": "Open",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 60.6,
+    "avg_pts": 5.51
+  },
+  {
     "name": "Esposito, Vincenzo and Matsubara, Yo",
     "results": [
       {
@@ -2109,67 +2213,6 @@
     ],
     "total_pts": 28.5,
     "avg_pts": 4.75
-  },
-  {
-    "name": "Teleha, Oleg and Brecker, Michelle",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "level": "Rising Star",
-        "place": "3",
-        "points": 3.0
-      },
-      {
-        "comp_name": "City Lights Ball",
-        "level": "Open",
-        "place": "7",
-        "points": 5.0
-      },
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "level": "Open",
-        "place": "7",
-        "points": 5.0
-      },
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "level": "Open",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 5.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "level": "Rising Star",
-        "place": "3",
-        "points": 3.0
-      }
-    ],
-    "total_pts": 42.6,
-    "avg_pts": 4.73
   },
   {
     "name": "Kantin, Anthony and Kantin, Elise",
