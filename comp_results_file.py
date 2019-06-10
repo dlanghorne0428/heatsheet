@@ -48,6 +48,7 @@ class Heat_Result():
     '''    
     def __init__(self):
         self.heat = dict()
+        self.heat["number"] = 0
         self.heat["title"] = "Unknown Heat"
         self.heat["entries"] = []
         
@@ -59,6 +60,9 @@ class Heat_Result():
         
     def set_title(self, title):
         self.heat["title"] = title
+        
+    def set_heat_number(self, num):
+        self.heat["number"] = num
         
     def set_next_entry(self, e):
         self.heat["entries"].append(e.entry)
@@ -98,6 +102,7 @@ class Comp_Results_File():
         current_info = heat_report.description()
         heat_result = Heat_Result()
         heat_result.set_title(current_info)
+        heat_result.set_heat_number(heat_report.heat_number())   
         
         while index < heat_report.length():
             e = heat_report.entry(index)
@@ -108,6 +113,7 @@ class Comp_Results_File():
                 heat_result = Heat_Result()
                 current_info = e.info
                 heat_result.set_title(current_info)
+                heat_result.set_heat_number(heat_report.heat_number())        
             if e.result is not None:
                 ent_result = Entry_Result()
                 # Write out the couple names, their placement, and the points
