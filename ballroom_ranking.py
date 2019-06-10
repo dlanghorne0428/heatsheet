@@ -501,7 +501,7 @@ class AppFrame(wx.Frame):
         result = dict()
         result["comp_name"] = self.comp_name.GetValue()
         if self.current_db_index == 0:
-            result["level"] = pro_heat_level(level)
+            result["level"] = pro_heat_level(title)
         else:
             result["info"] = title
         result["place"] = entry["place"]
