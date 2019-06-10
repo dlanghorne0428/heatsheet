@@ -24,9 +24,9 @@ def dance_style(s):
         return "Rhythm"
     elif "Latin" in s:
         return "Latin"
-    elif "Standard" in s or "Ballroom" in s:
+    elif "Standard" in s or "Ballroom" in s or "Balroom" in s or "Ballrom" in s:
         return "Standard"  
-    elif "Nightclub" in s or "Night Club" in s or "NightClub" in s:
+    elif "Nightclub" in s or "Night Club" in s or "NightClub" in s or "Niteclub" in s or "Caribbean" in s:
         return "Nightclub"
     elif "Country" in s:
         return "Country"
@@ -54,13 +54,13 @@ def non_pro_heat_level(info):
     elif "Gold" in info:
         return "Gold"
     elif "Open" in info or "Scholarship" in info or "Scolarship" in info:
-        return "Open-Gold" 
-    elif "Pre-Champ" in info:
+        return "Above-Gold" 
+    elif "Pre-Champ" in info or "PreChamp" in info:
         return "Pre-Champ"
     elif "Champ" in info:
         return "Championship"  
     elif "World" in info:
-        return "Open-Gold"
+        return "Above-Gold"
     elif "Challenge" in info:
         return "Silver"
     else:
