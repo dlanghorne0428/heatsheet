@@ -16,7 +16,7 @@ max_point_values = {
     "Bronze":       {"F": 10, "S": 20, "Q": 30},
     "Silver":       {"F": 15, "S": 25, "Q": 35},
     "Gold":         {"F": 20, "S": 30, "Q": 40},
-    "Open-Gold":    {"F": 25, "S": 35, "Q": 45},
+    "Above-Gold":   {"F": 25, "S": 35, "Q": 45},
     # these are values for amateur rankings
     "Pre-Champ":    {"F": 15, "S": 25, "Q": 35},
     "Championship": {"F": 25, "S": 35, "Q": 45}, 
