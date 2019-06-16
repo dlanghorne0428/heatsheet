@@ -6,29 +6,38 @@ Extra points are awarded for events that had prelim rounds.
 Currently, the program only processes professional heats.
 '''
 
-max_point_values = {
+'''max_point_values = {
     # these are values for pro rankings
-    "Open":         {"F": 20, "S": 30, "Q": 40},
-    "Rising Star":  {"F": 10, "S": 20, "Q": 30},
-    "Novice":       {"F":  5, "S": 10, "Q": 15},
+    "Open":         {"F": 20, "S": 30, "Q": 40, "R1": 50},
+    "Rising Star":  {"F": 10, "S": 20, "Q": 30, "R1": 40},
+    "Novice":       {"F":  5, "S": 10, "Q": 15, "R1": 20},
     # these are values for pro/am rankings
     "Newcomer":     {"F":  5, "S": 10, "Q": 15},
     "Bronze":       {"F": 10, "S": 20, "Q": 30},
     "Silver":       {"F": 15, "S": 25, "Q": 35},
+    "Challenge":    {"F": 15, "S": 25, "Q": 35},
     "Gold":         {"F": 20, "S": 30, "Q": 40},
-    "Above-Gold":   {"F": 25, "S": 35, "Q": 45},
+    "Open-Gold":    {"F": 25, "S": 35, "Q": 45},
+    "Scholarship":  {"F": 25, "S": 35, "Q": 45},
+    "World":    {"F": 25, "S": 35, "Q": 45},
     # these are values for amateur rankings
     "Pre-Champ":    {"F": 15, "S": 25, "Q": 35},
     "Championship": {"F": 25, "S": 35, "Q": 45}, 
     # if no clue
     "Other":        {"F": 10, "S": 20, "Q": 30}
-}
+}'''
 
 def calc_points(level, placement, num_competitors = 6, rounds = "F", accum = 0):
     
-    if level == "None":
-        level = "Rising Star"
-    max_pts = max_point_values[level][rounds]
+    if rounds == "S":
+        max_pts = level + 10
+    elif rounds == "Q":
+        max_pts = level + 20
+    elif rounds == "R1":
+        max_pts = level + 30
+    else:
+        max_pts = level 
+        
     place = placement - 1
     if num_competitors >= 5:
         if placement == -2: # semis
