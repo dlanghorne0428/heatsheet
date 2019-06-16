@@ -334,12 +334,21 @@ class Results_Processor():
 
             # We get here if we aren't in any of the "looking" states
 
+            # If this check is true, we found first round results for this heat
+            elif heat_string in line and "First Round" in line and ("<p>" in line or "<h3>" in line):
+                temp_result = "round 1"    # indicate which round we are in
+                result_index = -1      # use this to pull values from the points table
+                rounds = "R1"
+                heat_info_from_scoresheet = self.get_heat_info(line, heat_string, "First Round")
+                looking_for_recall_column = True  # enter the next state
+                
             # If this check is true, we found quarter-final results for this heat
             elif heat_string in line and "Quarter-final" in line and ("<p>" in line or "<h3>" in line):
                 temp_result = "quarters"    # indicate which round we are in
                 result_index = -1      # use this to pull values from the points table
-                rounds = "Q"
-                heat_info_from_scoresheet = self.get_heat_info(line, heat_string, "Quarter-finaL")
+                if rounds != "R1":
+                    rounds = "Q"
+                heat_info_from_scoresheet = self.get_heat_info(line, heat_string, "Quarter-final")
                 looking_for_recall_column = True  # enter the next state
                 
             # If this check is true, we found Semi-final results for this heat            
