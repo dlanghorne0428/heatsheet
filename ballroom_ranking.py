@@ -12,7 +12,7 @@ from datetime import date
 
 from season_ranking import RankingDataFile, get_last_name
 from comp_results_file import Comp_Results_File
-from heat import dance_style, pro_heat_level, non_pro_heat_level
+from heat import dance_style, pro_heat_level
 
 ''' These are the separate dance styles being ranked '''
 Dance_Styles = [
@@ -381,6 +381,7 @@ class AppFrame(wx.Frame):
         elif "Country" == style:
             index = 5
         else:
+            index = 6
             message = "Unknown style for heat\n" + title
             md = wx.SingleChoiceDialog(self, message, caption="Select Dance Style", choices=Dance_Styles)
             if md.ShowModal() == wx.ID_OK:
@@ -441,7 +442,7 @@ class AppFrame(wx.Frame):
             self.butt_add_rslt.Disable()
             self.heat_list_ctrl.DeleteAllItems()
 
-        self.butt_add_rslt.SetLabel("Add Results to DB")
+        self.butt_add_rslt.SetLabel("Add Results to DB")      
         
     
     def Matching_Heat(self, result, heat_title):
@@ -651,6 +652,8 @@ class AppFrame(wx.Frame):
         '''
         lab_text = self.butt_add_rslt.GetLabel()
         if lab_text == "Add Results to DB":
+            # update status bar
+            self.SetStatusText("Processing event " + str(self.current_heat_idx + 1) + " of " + str(len(self.heat_results)))      
             self.Process_Heat()
         elif lab_text == "Show Next Heat":
             self.Setup_For_Next_Heat()
@@ -686,6 +689,7 @@ class AppFrame(wx.Frame):
             self.Display_Heat_Results(self.heat_results[0])
             # enable the button to add the heat results
             self.butt_add_rslt.Enable()
+
 
 
     def OnFind(self, event):
