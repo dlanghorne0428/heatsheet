@@ -1,37 +1,44 @@
 [
   {
-    "name": "Ranivand, John and Bruce, Elizabeth",
+    "name": "Chan, Kevin and Schroeder, Roxanne",
     "results": [
       {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Amateur 5-Dance Open Championship S2 Amer. Rhythm (CC,R,SW,B,M)",
-        "place": "1",
-        "points": 25
-      },
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Amateur 5-Dance Open Championship S3 Amer. Rhythm (CC,R,SW,B,M)",
-        "place": "1",
-        "points": 25
-      },
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Amateur Open Scholarships A Amer. Rhythm (CC,R,SW,B,M)",
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "AC- Open Amateur Rhythm Scholarship (CC/R/SW/B/M)",
         "place": "1",
         "points": 25
       }
     ],
-    "total_pts": 75,
-    "avg_pts": 25.0
+    "total_pts": 25,
+    "avg_pts": 25
   },
   {
-    "name": "Morris, Abby and Morris, Connor",
+    "name": "Greenawalt, Amy and Greenawalt, Roger",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-B Amateur American Rhythm Open Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "info": "AC-C Open Gold Amateur American Rhythm Grand Challenge (C/R/SW/B/M)",
+        "place": "1",
+        "points": 25
+      }
+    ],
+    "total_pts": 45,
+    "avg_pts": 22.5
+  },
+  {
+    "name": "Morris, Connor and Morris, Abby",
     "results": [
       {
         "comp_name": "2019 Alamo Star Ball",
         "info": "AC-JR Open Pro Am American Rhythm 3 Dance Championship(C/R/SW)",
         "place": "1",
-        "points": 25.0
+        "points": 20.0
       },
       {
         "comp_name": "2019 Alamo Star Ball",
@@ -40,21 +47,418 @@
         "points": 25.0
       }
     ],
-    "total_pts": 50.0,
-    "avg_pts": 25.0
+    "total_pts": 45.0,
+    "avg_pts": 22.5
   },
   {
-    "name": "Rogers, Ed and Rogers, Tirsha",
+    "name": "Rogers, Ed and Rogers, Trisha",
     "results": [
       {
         "comp_name": "California Classic",
         "info": "AC- Adult Amateur Open American Rhythm Competition (C/R/SW/B/M)",
         "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC- Open Amateur Rhythm Scholarship (CC/R/SW/B/M)",
+        "place": "1",
         "points": 25
       }
     ],
-    "total_pts": 25,
-    "avg_pts": 25
+    "total_pts": 45,
+    "avg_pts": 22.5
+  },
+  {
+    "name": "Ranivand, John and Bruce, Elizabeth",
+    "results": [
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Amateur 5-Dance Open Championship S2 Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Amateur 5-Dance Open Championship S3 Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Amateur Open Scholarships A Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "info": "AC-B <403>Amateur American Rhythm Open 5-Dance Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "info": "AC-A <403>Amateur American Rhythm Open 5-Dance Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 105,
+    "avg_pts": 21.0
+  },
+  {
+    "name": "Davis, Ben and McCall, Alexis",
+    "results": [
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "info": "AC-B Open Silver Amateur American Rhythm Grand Challenge (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "info": "AC-B1 Open Silver Amateur 3 Dance American Rhythm Competition (C/R/SW)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "info": "AC-B1 Open Gold Amateur 3 Dance American Rhythm Competition (C/R/SW)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "info": "AC-B Pre-Champ Amateur American Rhythm Competition (C/R/SW/B)",
+        "place": "1",
+        "points": 15
+      }
+    ],
+    "total_pts": 80,
+    "avg_pts": 20.0
+  },
+  {
+    "name": "Ulbrich, Christopher and Melville, Lindsey",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-A Open Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 40.0,
+    "avg_pts": 20.0
+  },
+  {
+    "name": "Jurincie and Kacanowski",
+    "results": [
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "AC-B Open Pro/Am Open Rhythm 5-Dance (CC/R/SW/B/M)",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 20
+  },
+  {
+    "name": "Ulbrich, Christopher and Donahue, Amanda",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-MA Closed Gold Rhythm 5-Dance Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 20
+  },
+  {
+    "name": "Dango, Nancy and Dango, Paul",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "info": "AC-SRIII Silver Closed American Rhythm 2 Dance Championship(C/R)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "info": "AC-SRIII Silver Open American Rhythm 2 Dance Championship(C/R)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "info": "AC-SRIII Silver Closed American Rhythm 3 Dance Championship(C/R/SW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "info": "AC-SRIII Silver Open American Rhythm 3 Dance Championship(C/R/SW)",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 70.0,
+    "avg_pts": 17.5
+  },
+  {
+    "name": "Colon, Jose Ricardo and Torres, Ceci",
+    "results": [
+      {
+        "comp_name": "Majesty Dancesport",
+        "info": "AC-A Open Rhythm 3-Dance Challenge (C/R/SW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "info": "AC-SRII Bronze Mixed Amateur Open American Rhythm 3 Dance Championship(C/R/SW)",
+        "place": "1",
+        "points": 15
+      }
+    ],
+    "total_pts": 35.0,
+    "avg_pts": 17.5
+  },
+  {
+    "name": "Gleba, Chet and Gleba, Kathleen",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "AC-C Open Bronze Rhythm 3 Dance (CC/R/SW)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "AC-C Closed Silver Rhythm 4 Dance (CC/R/SW/B)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "AC-C Open Silver Rhythm 4 Dance (CC/R/SW/B)",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 50,
+    "avg_pts": 16.67
+  },
+  {
+    "name": "Weyerman, Phillip and Burnett, Arielle",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "AC- Amateur Pre-Champ Rhythm (C/R/SW/B)",
+        "place": "2",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "AC- Amateur Open Rhythm Scholarships (C/R/SW/B/M)",
+        "place": "1",
+        "points": 25
+      }
+    ],
+    "total_pts": 32.5,
+    "avg_pts": 16.25
+  },
+  {
+    "name": "Kapadia, Xerxes and Bishamber, Sabrina",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-A Pre-Champ Rhythm (C/R/SW/B)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC- EUS Open Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-A Open Rhythm Championship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 47.0,
+    "avg_pts": 15.67
+  },
+  {
+    "name": "Santoro, Sam and Zutter, Mary",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "info": "AC-B2 Open Bronze 2 Dance Rhythm (CC/R)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Music City Invitational",
+        "info": "AC-C1 Open Bronze 2 Dance Rhythm (CC/R)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Music City Invitational",
+        "info": "AC-B2 Open Bronze 3 Dance Rhythm (CC/R/SW)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Music City Invitational",
+        "info": "AC-C1 Open Bronze 3 Dance Rhythm (CC/R/SW)",
+        "place": "1",
+        "points": 15
+      }
+    ],
+    "total_pts": 60,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Spadoni, Simone and Bibbins, Glennis",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-MB Closed Bronze Rhythm 3-Dance Championship (C/R/SW)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-MB Closed Silver Rhythm 4-Dance Championship (C/R/SW/B)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-MB Closed Gold Rhythm 5-Dance Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 45.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Spadoni, Simone and Harrell, Darlene",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-MC Closed Bronze Rhythm 3-Dance Championship (C/R/SW)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-MC Closed Gold Rhythm 5-Dance Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-MC Closed Silver Rhythm 4-Dance Championship (C/R/SW/B)",
+        "place": "1",
+        "points": 15
+      }
+    ],
+    "total_pts": 45,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Gaskin, Noah and Bowman, Dakota",
+    "results": [
+      {
+        "comp_name": "2019 Baltimore Dancesport Challenge",
+        "info": "AC-JR Bronze Open Rhythm (CC/R/SW)",
+        "place": "1",
+        "points": 15
+      }
+    ],
+    "total_pts": 15,
+    "avg_pts": 15
+  },
+  {
+    "name": "Goggin, Aidan and Saadah, Madelyn",
+    "results": [
+      {
+        "comp_name": "2019 Baltimore Dancesport Challenge",
+        "info": "AC-YTH Bronze Amateur Open Rhythm (CC/R/SW/B/M)",
+        "place": "1",
+        "points": 15
+      }
+    ],
+    "total_pts": 15,
+    "avg_pts": 15
+  },
+  {
+    "name": "Hou, Stewart and Ren, Scarlet",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-SR2 Closed Silver (C/R)",
+        "place": "1",
+        "points": 15
+      }
+    ],
+    "total_pts": 15,
+    "avg_pts": 15
+  },
+  {
+    "name": "Schmalzried, Andrew and Wagner, Taya",
+    "results": [
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "AC-J2 Silver Junior Amateur Closed Rhythm 3-Dance (C/R/SW)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Tang, Kaifeng and Tu, Yejun",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC- EUS Closed Syllabus Rhythm Championship (C/R/SW)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Bartlett, James and Jane, Catherine",
+    "results": [
+      {
+        "comp_name": "Majesty Dancesport",
+        "info": "AC-A Open Rhythm 3-Dance Challenge (C/R/SW)",
+        "place": "2",
+        "points": 14.0
+      }
+    ],
+    "total_pts": 14.0,
+    "avg_pts": 14.0
   },
   {
     "name": "Ames, Robert and Hanson-Ames, Bonnie",
@@ -82,10 +486,29 @@
         "info": "AC- 'S2' Adult Amateur Silver Rhythm 3-Dance MDC (C/R/SW)",
         "place": "1",
         "points": 15
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-SR1 Closed Silver (SW/M)",
+        "place": "1",
+        "points": 15
       }
     ],
-    "total_pts": 50.0,
-    "avg_pts": 12.5
+    "total_pts": 65.0,
+    "avg_pts": 13.0
+  },
+  {
+    "name": "Spencer, Daniel and Calobrisi, Emily",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC- EUS Closed Syllabus Rhythm Championship (C/R/SW)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
   },
   {
     "name": "Giannamore, Blake and Gillaspia, Ella",
@@ -94,7 +517,7 @@
         "comp_name": "2019 Alamo Star Ball",
         "info": "AC-JR Open Pro Am American Rhythm 3 Dance Championship(C/R/SW)",
         "place": "2",
-        "points": 12.5
+        "points": 10.0
       },
       {
         "comp_name": "2019 Alamo Star Ball",
@@ -103,8 +526,141 @@
         "points": 12.5
       }
     ],
-    "total_pts": 25.0,
-    "avg_pts": 12.5
+    "total_pts": 22.5,
+    "avg_pts": 11.25
+  },
+  {
+    "name": "Jollay, Geoff and Jollay, Kay",
+    "results": [
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "info": "AC-SR3 Closed Bronze Multi-Dance (C/R/Sw)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "AC-C Closed Rhythm Bronze 2-Dance (C/R)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "AC-C Closed Rhythm Bronze 3-Dance (C/R/SW)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 30,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Harden, Avery and Huang, Eva",
+    "results": [
+      {
+        "comp_name": "2019 Baltimore Dancesport Challenge",
+        "info": "AC-B Closed Bronze Pro/Am Rhythm 2-Dance (CC/R)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "2019 Baltimore Dancesport Challenge",
+        "info": "AC-B Bronze Closed Rhythm (CC/R/SW)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Miles, Rhyder and Mitchell, Jinae",
+    "results": [
+      {
+        "comp_name": "2019 Baltimore Dancesport Challenge",
+        "info": "AC-PT Closed Bronze Pro/Am Rhythm 2-Dance (CC/R)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "2019 Baltimore Dancesport Challenge",
+        "info": "AC-PT Bronze Closed Rhythm (CC/R/SW)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Pico, Martin and Marino, Yaisel",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "AC- Amateur Novice Rhythm (C/R/SW)",
+        "place": "1",
+        "points": 5
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "AC- Amateur Pre-Champ Rhythm (C/R/SW/B)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Slaughter, Ann and Slaughter, Tom",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "info": "AC-C1 Closed Bronze 2 Dance Rhythm (CC/R)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Music City Invitational",
+        "info": "AC-C1 Closed Bronze 3 Dance Rhythm (CC/R/SW)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Voelpel, Larry and Voelpel, Mary Jo",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "AC-B2 Amateur Closed Bronze Rhythm Multi-Dance (CC/R)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "AC-B1 Amateur Closed Bronze Rhythm Multi-Dance (CC/R)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Allen, Charlie and Allen, Dianne",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "info": "AC-B1 Closed Bronze 3 Dance Rhythm (CC/R/SW)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 10,
+    "avg_pts": 10
   },
   {
     "name": "Bellandi, Dan and Laes, JoAn",
@@ -120,17 +676,166 @@
     "avg_pts": 10
   },
   {
-    "name": "Norris-Munro, Keaton and Archer Ermis, Alana",
+    "name": "Depp, Jeremy and Raymond, Jenna",
     "results": [
       {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "P2 AM/AM Amer. Rhythm Championship (CC,R,SW)",
+        "comp_name": "2019 Baltimore Dancesport Challenge",
+        "info": "AC-A Bronze Amateur Closed Rhythm (CC/R/SW/B/M)",
         "place": "1",
         "points": 10
       }
     ],
     "total_pts": 10,
     "avg_pts": 10
+  },
+  {
+    "name": "Gaskin, Noah and Beletsky, Lana",
+    "results": [
+      {
+        "comp_name": "2019 Baltimore Dancesport Challenge",
+        "info": "AC-JR Bronze Closed Rhythm (CC/R/SW)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 10,
+    "avg_pts": 10
+  },
+  {
+    "name": "Gaskin, Noah and Rebert, Maryalice",
+    "results": [
+      {
+        "comp_name": "2019 Baltimore Dancesport Challenge",
+        "info": "AC-JR Closed Bronze Pro/Am Rhythm 2-Dance (CC/R)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 10,
+    "avg_pts": 10
+  },
+  {
+    "name": "Kaczanowski, Jeff and Windy, Jill",
+    "results": [
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "AC-B Bronze Amateur Bronze Closed Rhythm 3-Dance (C/R/SW)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 10,
+    "avg_pts": 10
+  },
+  {
+    "name": "Lewis, Elijah and Doyle, Mya",
+    "results": [
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "info": "AC-JR Bronze Junior Amateur American Rhythm Challenge (C/R/SW)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 10,
+    "avg_pts": 10
+  },
+  {
+    "name": "Norris-Munro, Keaton and Archer Ermis, Alana",
+    "results": [
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Pro-Am 3-Dance Championships  Closed Bronze P2 AM/AM Amer. Rhythm Championship (CC,R,SW)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 10,
+    "avg_pts": 10
+  },
+  {
+    "name": "Thomas and Christensen",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Rhythm Championship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Ward, Walter and Ward, Janice",
+    "results": [
+      {
+        "comp_name": "Majesty Dancesport",
+        "info": "AC-A Open Rhythm 3-Dance Challenge (C/R/SW)",
+        "place": "3",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Keys, Josh and Dempsey, Alice",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC- EUS Closed Syllabus Rhythm Championship (C/R/SW)",
+        "place": "3",
+        "points": 9.75
+      }
+    ],
+    "total_pts": 9.75,
+    "avg_pts": 9.75
+  },
+  {
+    "name": "Jones, Alex and Fiallo, Katie",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-A Pre-Champ Rhythm (C/R/SW/B)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-A Open Rhythm Championship (C/R/SW/B/M)",
+        "place": "3",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 7.5
+  },
+  {
+    "name": "Cartwright, Joseph and Mitchell, Jayla",
+    "results": [
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "AC-J2 Silver Junior Amateur Closed Rhythm 3-Dance (C/R/SW)",
+        "place": "2",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
+  },
+  {
+    "name": "Forestier and Baginski",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "info": "AC-SRIII Silver Closed American Rhythm 3 Dance Championship(C/R/SW)",
+        "place": "2",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
   },
   {
     "name": "Kouri, Patty and Kouri, Tom",
@@ -146,6 +851,84 @@
     "avg_pts": 7.5
   },
   {
+    "name": "Majka, Mateusz and McIsaac, Alison",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC- EUS Closed Syllabus Rhythm Championship (C/R/SW)",
+        "place": "4",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
+  },
+  {
+    "name": "Baker, Andrew and Gress, Satit",
+    "results": [
+      {
+        "comp_name": "Majesty Dancesport",
+        "info": "AC-A Open Rhythm 3-Dance Challenge (C/R/SW)",
+        "place": "4",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Sarioz, Berk and Bront, Julia",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC- EUS Closed Syllabus Rhythm Championship (C/R/SW)",
+        "place": "5",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Bakas, Kallen and Tsoukalas, Kathy",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-MB Closed Bronze Rhythm 3-Dance Championship (C/R/SW)",
+        "place": "2",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 5.0,
+    "avg_pts": 5.0
+  },
+  {
+    "name": "Goncharov, Yevgeny and Simakhina, Svetlana",
+    "results": [
+      {
+        "comp_name": "The Windy City Open",
+        "info": "AC-S1 Novice Am. Rhythm (C/R/SW)",
+        "place": "1",
+        "points": 5
+      }
+    ],
+    "total_pts": 5,
+    "avg_pts": 5
+  },
+  {
+    "name": "Latorre, Trajano and Griffith Nosacka, Catherine",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-B Silver Amateur American Rhythm Novice 2-Dance (C/R)",
+        "place": "1",
+        "points": 5
+      }
+    ],
+    "total_pts": 5,
+    "avg_pts": 5
+  },
+  {
     "name": "Russell, Anita and Russell, Tim",
     "results": [
       {
@@ -157,5 +940,31 @@
     ],
     "total_pts": 5.0,
     "avg_pts": 5.0
+  },
+  {
+    "name": "Kiang, Michael and Williams, Lara",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC- EUS Closed Syllabus Rhythm Championship (C/R/SW)",
+        "place": "6",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 4.5,
+    "avg_pts": 4.5
+  },
+  {
+    "name": "Zackin, Ben and Souza, Megan",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-A Pre-Champ Rhythm (C/R/SW/B)",
+        "place": "3",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 4.5,
+    "avg_pts": 4.5
   }
 ]

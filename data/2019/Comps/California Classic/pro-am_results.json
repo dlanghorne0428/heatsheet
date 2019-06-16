@@ -2,6 +2,7 @@
   "comp name": "California Classic",
   "heats": [
     {
+      "number": 16,
       "title": "L-C Pro/Am Closed Silver  American Rhythm Multi-Dance (C/R))",
       "entries": [
         {
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "number": 16,
       "title": "L-SR Pro/Am Closed Silver  American Rhythm Multi-Dance (C/R))",
       "entries": [
         {
@@ -22,6 +24,7 @@
       ]
     },
     {
+      "number": 17,
       "title": "L-C Pro/Am Closed Silver American Rhythm Multi-Dance (SW/B)",
       "entries": [
         {
@@ -32,6 +35,7 @@
       ]
     },
     {
+      "number": 17,
       "title": "L-SR Pro/Am Closed Silver American Rhythm Multi-Dance (SW/B)",
       "entries": [
         {
@@ -42,41 +46,45 @@
       ]
     },
     {
+      "number": 18,
       "title": "L-SR Pro/Am Open Senior  American Rhythm Multi-Dance  (C/R/SW)",
       "entries": [
         {
           "couple": "Siegel, Jackie and Vasco, Daniel",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 19,
       "title": "L-B Pro/Am Open  American Rhythm Multi-Dance (C/R/SW/B)",
       "entries": [
         {
           "couple": "Romm, Victoria and Vasco, Daniel",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 20,
       "title": "L-C Pro/Am Closed Silver American Rhythm Scholarship (C/R/SW/M)",
       "entries": [
         {
           "couple": "Ryan, Colleen and Vasco, Daniel",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Morner-Ritt, Mara and Demkin, Alex",
           "place": "2",
-          "points": 7.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 55,
       "title": "L-SR Pro/Am Closed Bronze Int'l Ballroom Multi-Dance (F/Q)",
       "entries": [
         {
@@ -92,6 +100,7 @@
       ]
     },
     {
+      "number": 58,
       "title": "G-SR Pro/AM Closed Silver Int'l Ballroom Multi-Dance (VW/F/Q)",
       "entries": [
         {
@@ -102,6 +111,7 @@
       ]
     },
     {
+      "number": 58,
       "title": "L-C Pro/AM Closed Silver Int'l Ballroom Multi-Dance (VW/F/Q)",
       "entries": [
         {
@@ -112,6 +122,7 @@
       ]
     },
     {
+      "number": 59,
       "title": "G-SR Pro/Am Closed Silver Int'l Ballroom Multi-Dance (W/T)",
       "entries": [
         {
@@ -127,6 +138,7 @@
       ]
     },
     {
+      "number": 59,
       "title": "L-C Pro/Am Closed Silver Int'l Ballroom Multi-Dance (W/T)",
       "entries": [
         {
@@ -137,6 +149,7 @@
       ]
     },
     {
+      "number": 60,
       "title": "L-SR Pro/Am Closed Bronze  Int'l  Ballroom Multi-Dance (W/T)",
       "entries": [
         {
@@ -152,111 +165,118 @@
       ]
     },
     {
+      "number": 62,
       "title": "L-B Pro/Am Open Int'l Ballroom Multi-Dance (W/T/F/Q)",
       "entries": [
         {
           "couple": "Ma, Ling and Gasjuns, Edgars",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 62,
       "title": "L-C Pro/Am Open Int'l Ballroom Multi-Dance (W/T/F/Q)",
       "entries": [
         {
           "couple": "Friedland, Careen and Kostianets, Slava",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Fukami and Kutepov",
           "place": "2",
-          "points": 17.5
+          "points": 14.0
         },
         {
           "couple": "Ide and Michalski",
           "place": "3",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": "Sim, Winnie and Chen, Michael",
           "place": "4",
-          "points": 7.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 63,
       "title": "L-SR Pro/Am Open Senior Int'l Ballroom Multi-Dance (W/T/F)",
       "entries": [
         {
           "couple": "Fukami, Keiko and Kutepov, Denis",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Tang, Tony and Sinitsa, Lesya",
           "place": "2",
-          "points": 17.5
+          "points": 14.0
         },
         {
           "couple": "Wu, Hong and Kostianets, Valeriia",
           "place": "3",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": "Ide and Michalski",
           "place": "4",
-          "points": 7.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 64,
       "title": "L-C Pro/Am Closed Bronze Int'l Ballroom Scholarship (W/T/Q)",
       "entries": [
         {
           "couple": "Suzuki, Taka and Novikov, Alexander",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Precious and Virlan",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 65,
       "title": "L-A Pro/Am Closed Silver Int'l Ballroom Scholarship (W/T/F/Q)",
       "entries": [
         {
           "couple": "Thompson, Tammy and Novikov, Alexander",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 65,
       "title": "L-C Pro/Am Closed Silver Int'l Ballroom Scholarship (W/T/F/Q)",
       "entries": [
         {
           "couple": "Tang, Tony and Sinitsa, Lesya",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Eberle, Emily and Kiselev, Sergey",
           "place": "2",
-          "points": 9.0
+          "points": 12.0
         },
         {
           "couple": "Yanai, Megumi and Suvorov, Oleg",
           "place": "3",
-          "points": 4.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 130,
       "title": "L-B Closed Silver Pro/Am American Smooth Multi-Dance (W/T)",
       "entries": [
         {
@@ -272,16 +292,18 @@
       ]
     },
     {
+      "number": 130,
       "title": "L-C Closed Bronze Pro/Am American Smooth Multi-Dance (W/T)",
       "entries": [
         {
           "couple": "Sirott, Laura and Novikov, Alexander",
           "place": "1",
-          "points": 15
+          "points": 10
         }
       ]
     },
     {
+      "number": 131,
       "title": "L-B Closed Silver Pro/Am American Smooth Multi-Dance (F/VW)",
       "entries": [
         {
@@ -292,16 +314,18 @@
       ]
     },
     {
+      "number": 131,
       "title": "L-C Closed Bronze Pro/Am American Smooth Multi-Dance (F/VW)",
       "entries": [
         {
           "couple": "Sirott, Laura and Novikov, Alexander",
           "place": "1",
-          "points": 15
+          "points": 10
         }
       ]
     },
     {
+      "number": 132,
       "title": "L-SR Closed Silver Pro/Am American Smooth Multi-Dance (W/T)",
       "entries": [
         {
@@ -317,6 +341,7 @@
       ]
     },
     {
+      "number": 133,
       "title": "L-SR Closed Silver Pro/Am American Smooth Multi-Dance (F/VW)",
       "entries": [
         {
@@ -332,81 +357,88 @@
       ]
     },
     {
+      "number": 134,
       "title": "L-B Open Pro/Am American Smooth Multi-Dance (W/T/F/VW)",
       "entries": [
         {
           "couple": "Miller, Tiffany and Vasco, Daniel",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 134,
       "title": "L-C Open Pro/Am American Smooth Multi-Dance (W/T/F/VW)",
       "entries": [
         {
           "couple": "Friedland, Careen and Kostianets, Slava",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 135,
       "title": "L-SR Senior Open Pro/Am American Smooth Multi-Dance (W/T/F)",
       "entries": [
         {
           "couple": "Oshiro, Karen and Schulz, David",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Wu, Hong and Kostianets, Valeriia",
           "place": "2",
-          "points": 15.0
+          "points": 12.0
         },
         {
           "couple": "Siegel, Jackie and Vasco, Daniel",
           "place": "3",
-          "points": 7.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 136,
       "title": "L-C Pro/Am Closed Bronze American Smooth Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Sirott, Laura and Novikov, Alexander",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "L-B Pro/Am Closed Silver American Smooth Scholarship (W/T/F/VW)",
-      "entries": [
-        {
-          "couple": "Lam, Carol and Schulz, David",
           "place": "1",
           "points": 15
         }
       ]
     },
     {
+      "number": 137,
+      "title": "L-B Pro/Am Closed Silver American Smooth Scholarship (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Lam, Carol and Schulz, David",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 138,
       "title": "L-C Pro/Am Closed Silver American Smooth Scholarship (W/T/F/VW)",
       "entries": [
         {
           "couple": "Oshiro, Karen and Schulz, David",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Suzuki, Taka and Novikov, Alexander",
           "place": "2",
-          "points": 7.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 180,
       "title": "L-SR Pro/Am Closed Bronze Int'l  Latin Multi-Dance (C/R)",
       "entries": [
         {
@@ -417,6 +449,7 @@
       ]
     },
     {
+      "number": 181,
       "title": "L-A Pro/Am Closed Bronze Int'l  Latin Multi-Dance (C/R)",
       "entries": [
         {
@@ -427,6 +460,7 @@
       ]
     },
     {
+      "number": 181,
       "title": "L-PT Pro/Am Closed Bronze Int'l  Latin Multi-Dance (C/R)",
       "entries": [
         {
@@ -437,6 +471,7 @@
       ]
     },
     {
+      "number": 181,
       "title": "L-SR Pro/Am Closed Bronze Int'l  Latin Multi-Dance (C/R)",
       "entries": [
         {
@@ -447,6 +482,7 @@
       ]
     },
     {
+      "number": 182,
       "title": "L-A Pro/Am Closed Bronze Int'l Latin Multi-Dance (S/J)",
       "entries": [
         {
@@ -457,6 +493,7 @@
       ]
     },
     {
+      "number": 182,
       "title": "L-PT Pro/Am Closed Bronze Int'l Latin Multi-Dance (S/J)",
       "entries": [
         {
@@ -467,6 +504,7 @@
       ]
     },
     {
+      "number": 182,
       "title": "L-SR Pro/Am Closed Bronze Int'l Latin Multi-Dance (S/J)",
       "entries": [
         {
@@ -477,16 +515,18 @@
       ]
     },
     {
+      "number": 182,
       "title": "L-SR Pro/Am Closed Silver Int'l Latin Multi-Dance (C/R)",
       "entries": [
         {
           "couple": "Woredka, Watu and Astakhov, Oleg",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 183,
       "title": "L-B Pro/Am Closed Silver Int'l Latin Multi-Dance (C/R)",
       "entries": [
         {
@@ -502,6 +542,7 @@
       ]
     },
     {
+      "number": 183,
       "title": "L-SR Pro/Am Closed Silver Int'l Latin Multi-Dance (C/R)",
       "entries": [
         {
@@ -512,6 +553,7 @@
       ]
     },
     {
+      "number": 184,
       "title": "L-B Pro/Am Closed Silver Int'l Latin Multi-Dance (S/P/J)",
       "entries": [
         {
@@ -527,6 +569,7 @@
       ]
     },
     {
+      "number": 184,
       "title": "L-PT Pro/Am Closed Silver Int'l Latin Multi-Dance (S/P/J)",
       "entries": [
         {
@@ -537,6 +580,7 @@
       ]
     },
     {
+      "number": 184,
       "title": "L-SR Pro/Am Closed Silver Int'l Latin Multi-Dance (S/P/J)",
       "entries": [
         {
@@ -547,6 +591,7 @@
       ]
     },
     {
+      "number": 185,
       "title": "L-C Pro/Am Closed Silver Int'l Latin Multi-Dance (C/R)",
       "entries": [
         {
@@ -562,6 +607,7 @@
       ]
     },
     {
+      "number": 185,
       "title": "L-JU Pro/Am Closed Silver Int'l Latin Multi-Dance (C/R)",
       "entries": [
         {
@@ -572,6 +618,7 @@
       ]
     },
     {
+      "number": 186,
       "title": "L-A Pro/Am Closed Silver Int'l Latin Multi-Dance (C/R)",
       "entries": [
         {
@@ -582,6 +629,7 @@
       ]
     },
     {
+      "number": 186,
       "title": "L-PT Pro/Am Closed Silver Int'l Latin Multi-Dance (C/R)",
       "entries": [
         {
@@ -592,6 +640,7 @@
       ]
     },
     {
+      "number": 187,
       "title": "L-C Pro/Am Closed Silver Int'l Latin Multi-Dance (S/P/J)",
       "entries": [
         {
@@ -607,16 +656,18 @@
       ]
     },
     {
+      "number": 187,
       "title": "L-SSR Pro/Am Closed Bronze Int'l  Latin Multi-Dance (C/R)",
       "entries": [
         {
           "couple": "Woredka, Watu and Astakhov, Oleg",
           "place": "1",
-          "points": 15
+          "points": 10
         }
       ]
     },
     {
+      "number": 188,
       "title": "L-A Pro/Am Closed Silver Int'l Latin Multi-Dance (S/P/J)",
       "entries": [
         {
@@ -627,121 +678,130 @@
       ]
     },
     {
+      "number": 189,
       "title": "L-SR Pro/Am Open Senior Int'l Latin Multi-Dance (C/S/R)",
       "entries": [
         {
           "couple": "Nicol, Georgeann and Voronovich, Nikolay",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Wu, Ibis and Bilopukhov, Mykhailo",
           "place": "2",
-          "points": 15.0
+          "points": 12.0
         },
         {
           "couple": "Stewart, Isabel and Astakhov, Oleg",
           "place": "3",
-          "points": 7.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 190,
       "title": "L-SSR Pro/Am Open Int'l Latin Multi-Dance  (C/S/R/J)",
       "entries": [
         {
           "couple": "Stewart, Isabel and Astakhov, Oleg",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 190,
       "title": "L-YU Pro/Am Open Int'l Latin Multi-Dance  (C/S/R/J)",
       "entries": [
         {
           "couple": "Locke, Kestrel and Voloshko, Andrii",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 191,
       "title": "L-B Pro/Am Open Int'l Latin Multi-Dance  (C/S/R/J)",
       "entries": [
         {
           "couple": "Wright, Deborah and Voronovich, Nikolay",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Miller, Tiffany and Vasco, Daniel",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 191,
       "title": "L-C Pro/Am Open Int'l Latin Multi-Dance  (C/S/R/J)",
       "entries": [
         {
           "couple": "Wu, Ibis and Bilopukhov, Mykhailo",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Stewart, Isabel and Astakhov, Oleg",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 192,
       "title": "L-C Pro/Am Closed Bronze International Latin Scholarship (C/R/J)",
       "entries": [
         {
           "couple": "Niikura, Kazue and Balykin, Pavel",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 193,
       "title": "L-B Pro/Am Closed Silver International Latin Scholarship (C/S/R/J)",
       "entries": [
         {
           "couple": "Vo, Kelly and Voloshko, Andrii",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Zhou, Michelle and Astakhov, Oleg",
           "place": "2",
-          "points": 7.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 194,
       "title": "L-C Pro/Am Closed Silver International Latin Scholarship (C/S/R/J)",
       "entries": [
         {
           "couple": "Zhou, Michelle and Astakhov, Oleg",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Ryan, Colleen and Vasco, Daniel",
           "place": "2",
-          "points": 9.0
+          "points": 12.0
         },
         {
           "couple": "Chernega, Janetta and Balykin, Pavel",
           "place": "3",
-          "points": 4.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 224,
       "title": "L-B Pro/Am Open American Rhythm Scholarship (C/R/SW/B/M)",
       "entries": [
         {
@@ -757,6 +817,7 @@
       ]
     },
     {
+      "number": 225,
       "title": "L-A Pro/Am Open International Ballroom Scholarship  (W/T/VW/F/Q)",
       "entries": [
         {
@@ -767,6 +828,7 @@
       ]
     },
     {
+      "number": 225,
       "title": "L-B Pro/Am Open International Ballroom Scholarship  (W/T/VW/F/Q)",
       "entries": [
         {
@@ -777,6 +839,7 @@
       ]
     },
     {
+      "number": 225,
       "title": "L-C Pro/Am Open International Ballroom Scholarship  (W/T/VW/F/Q)",
       "entries": [
         {
@@ -797,6 +860,7 @@
       ]
     },
     {
+      "number": 226,
       "title": "L-A Pro/Am Open American Smooth Scholarship (W/T/F/VW)",
       "entries": [
         {
@@ -807,6 +871,7 @@
       ]
     },
     {
+      "number": 226,
       "title": "L-C Pro/Am Open American Smooth Scholarship (W/T/F/VW)",
       "entries": [
         {
@@ -822,6 +887,7 @@
       ]
     },
     {
+      "number": 227,
       "title": "L-B Pro/Am Open American Smooth Scholarship (W/T/F/VW)",
       "entries": [
         {
@@ -842,6 +908,7 @@
       ]
     },
     {
+      "number": 228,
       "title": "L-B Pro/Am Open  International Latin Scholarship (C/S/R/PD/J)",
       "entries": [
         {
@@ -852,6 +919,7 @@
       ]
     },
     {
+      "number": 229,
       "title": "L-C Pro/Am Open  International Latin Scholarship (C/S/R/PD/J)",
       "entries": [
         {

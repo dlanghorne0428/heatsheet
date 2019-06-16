@@ -2,6 +2,7 @@
   "comp name": "The Snow Ball",
   "heats": [
     {
+      "number": 1,
       "title": "Professional Novice American Smooth 2-Dance (W/T)",
       "entries": [
         {
@@ -37,6 +38,7 @@
       ]
     },
     {
+      "number": 4,
       "title": "Professional Novice American Rhythm (C/R)",
       "entries": [
         {
@@ -67,10 +69,11 @@
       ]
     },
     {
+      "number": 5,
       "title": "Open Professional Exhibition/Cabaret",
       "entries": [
         {
-          "couple": "Jensen, Shannon and Jensen, Shane",
+          "couple": "Jensen, Shane and Jensen, Shannon",
           "place": "1",
           "points": 20.0
         },
@@ -102,6 +105,7 @@
       ]
     },
     {
+      "number": 6,
       "title": "Professional Rising Star American Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -110,7 +114,7 @@
           "points": 30.0
         },
         {
-          "couple": "Nalyvaychuk, Vladyslav and Nalyvaychuk, Brianna",
+          "couple": "Nalyvaychuk, Brianna and Nalyvaychuk, Vladyslav",
           "place": "2",
           "points": 24.0
         },
@@ -163,7 +167,13 @@
           "couple": "Holzworth, John and Wooding, Nicole",
           "place": "Semis",
           "points": 6.6
-        },
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Professional Rising Star American Smooth (W/T/F/VW) Quarter-final",
+      "entries": [
         {
           "couple": "Kempainen, Chris and Inveen, Bonnie",
           "place": "quarters",
@@ -197,6 +207,7 @@
       ]
     },
     {
+      "number": 7,
       "title": "Open Professional International Ballroom (W/T/VW/F/Q)",
       "entries": [
         {
@@ -217,6 +228,7 @@
       ]
     },
     {
+      "number": 8,
       "title": "Professional Rising Star American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
@@ -230,7 +242,7 @@
           "points": 16.0
         },
         {
-          "couple": "Shiller, Ginny Ray and Shiller, Artem",
+          "couple": "Shiller, Artem and Shiller, Ginny Ray",
           "place": "3",
           "points": 13.0
         },
@@ -277,6 +289,7 @@
       ]
     },
     {
+      "number": 9,
       "title": "Open Professional International Latin (C/S/R/PD/J)",
       "entries": [
         {
@@ -312,10 +325,11 @@
       ]
     },
     {
+      "number": 10,
       "title": "Open Professional American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
-          "couple": "Jensen, Shannon and Jensen, Shane",
+          "couple": "Jensen, Shane and Jensen, Shannon",
           "place": "1",
           "points": 30.0
         },
@@ -335,7 +349,7 @@
           "points": 15.0
         },
         {
-          "couple": "Shiller, Ginny Ray and Shiller, Artem",
+          "couple": "Shiller, Artem and Shiller, Ginny Ray",
           "place": "5",
           "points": 12.0
         },
@@ -382,6 +396,7 @@
       ]
     },
     {
+      "number": 11,
       "title": "Open Professional American Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -410,7 +425,7 @@
           "points": 16.0
         },
         {
-          "couple": "Nalyvaychuk, Vladyslav and Nalyvaychuk, Brianna",
+          "couple": "Nalyvaychuk, Brianna and Nalyvaychuk, Vladyslav",
           "place": "6",
           "points": 12.0
         },
@@ -443,7 +458,13 @@
           "couple": "Holzworth, John and Wooding, Nicole",
           "place": "Semis",
           "points": 4.8
-        },
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Open Professional American Smooth (W/T/F/VW) Quarter-final",
+      "entries": [
         {
           "couple": "Kempainen, Chris and Inveen, Bonnie",
           "place": "quarters",

@@ -2,6 +2,7 @@
   "comp name": "St. Louis Star Ball Championship",
   "heats": [
     {
+      "number": 346,
       "title": "AC-B Silver Amateur American Rhythm Novice 2-Dance (C/R)",
       "entries": [
         {
@@ -12,16 +13,18 @@
       ]
     },
     {
+      "number": 375,
       "title": "AC-B Amateur American Rhythm Open Championship (C/R/SW/B/M)",
       "entries": [
         {
           "couple": "Greenawalt, Amy and Greenawalt, Roger",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 520,
       "title": "AC-B Amateur International Standard Pre-Championship 3-Dance (W/T/QS)",
       "entries": [
         {
@@ -32,36 +35,40 @@
       ]
     },
     {
+      "number": 529,
       "title": "AC-B Amateur International Standard Open Championship (W/T/VW/FT/QS)",
       "entries": [
         {
           "couple": "Redmount, Ian and Matsuo, Hisako",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 529,
       "title": "AC-C Amateur International Standard Open Championship (W/T/VW/FT/QS)",
       "entries": [
         {
           "couple": "Smith, Ralph and Fu-Smith, Sarah",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 740,
       "title": "AC-B Amateur American Smooth Open Championship (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Greenawalt, Amy and Greenawalt, Roger",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 741,
       "title": "AC-B Silver Amateur American Smooth Novice 2-Dance (W/T)",
       "entries": [
         {
@@ -72,6 +79,7 @@
       ]
     },
     {
+      "number": 741,
       "title": "AC-C Bronze Amateur American Smooth Novice 2-Dance (W/T)",
       "entries": [
         {
@@ -82,6 +90,7 @@
       ]
     },
     {
+      "number": 742,
       "title": "AC-C Bronze Amateur American Smooth Novice 2-Dance (F/VW)",
       "entries": [
         {
@@ -92,6 +101,7 @@
       ]
     },
     {
+      "number": 743,
       "title": "AC-C Amateur American Smooth Pre-Championship 3-Dance (W/T/FT)",
       "entries": [
         {
