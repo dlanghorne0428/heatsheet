@@ -365,7 +365,7 @@ class AppFrame(wx.Frame):
         self.DisplayCouplesForStyle(index)
 
 
-    def GetStyleFromHeatTitle(self, title):
+    def GetStyleFromHeatTitle(self, title, prompt=True):
         '''This method determines the dance style from the heat title. '''
         style = dance_style(title)
         if "Smooth" == style:
@@ -382,11 +382,12 @@ class AppFrame(wx.Frame):
             index = 5
         else:
             index = 6
-            message = "Unknown style for heat\n" + title
-            md = wx.SingleChoiceDialog(self, message, caption="Select Dance Style", choices=Dance_Styles)
-            if md.ShowModal() == wx.ID_OK:
-                # if user finds a match, add the result and update the entry name
-                index = md.GetSelection() 
+            if prompt:
+                message = "Unknown style for heat\n" + title
+                md = wx.SingleChoiceDialog(self, message, caption="Select Dance Style", choices=Dance_Styles)
+                if md.ShowModal() == wx.ID_OK:
+                    # if user finds a match, add the result and update the entry name
+                    index = md.GetSelection() 
             
         return index
     
@@ -448,9 +449,9 @@ class AppFrame(wx.Frame):
     def Matching_Heat(self, result, heat_title):
         if self.current_db_index == 0:  # pro heat
             couple_style_index = self.styles.GetSelection()
-            heat_style_index = self.GetStyleFromHeatTitle(heat_title)
+            heat_style_index = self.GetStyleFromHeatTitle(heat_title, prompt=False)
             heat_level = pro_heat_level(heat_title)
-            if couple_style_index == heat_style_index and result["level"] == heat_level:
+            if couple_style_index == heat_style_index and pro_heat_level(result["level"]) == heat_level:
                 return True
             else:
                 return False
