@@ -154,7 +154,7 @@ class AppFrame(wx.Frame):
 
         # Now an Edit Menu with Add Result
         self.editMenu = wx.Menu()
-        addCompItem = self.editMenu.Append(self.ID_EDIT_ADD_COMP, "Add Competition Results",
+        addCompItem = self.editMenu.Append(self.ID_EDIT_ADD_COMP, "Add Competition Results\tCTRL-A",
                                            "Add the results from a single competition to the database")
         self.editMenu.AppendSeparator()
         findItem = self.editMenu.Append(wx.ID_FIND, "Find Couple Name\tCTRL-F",
