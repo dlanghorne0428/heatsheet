@@ -2,6 +2,7 @@
   "comp name": "Sapphire DanceSport",
   "heats": [
     {
+      "number": 82,
       "title": "L-A1 Closed Bronze Smooth Three-Dance (W/T/F)",
       "entries": [
         {
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "number": 82,
       "title": "L-C1 Closed Bronze Smooth Three-Dance (W/T/F)",
       "entries": [
         {
@@ -22,16 +24,18 @@
       ]
     },
     {
+      "number": 83,
       "title": "L-A1 Open Bronze Smooth Three-Dance (W/T/F)",
       "entries": [
         {
           "couple": "Cline, Katie and Dugger, Richard",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 84,
       "title": "L-A2 Closed Silver Smooth Four-Dance (W/T/F/VW)",
       "entries": [
         {
@@ -42,6 +46,7 @@
       ]
     },
     {
+      "number": 84,
       "title": "L-B2 Closed Silver Smooth Four-Dance (W/T/F/VW)",
       "entries": [
         {
@@ -57,6 +62,7 @@
       ]
     },
     {
+      "number": 85,
       "title": "L-B1 Closed Bronze Smooth Three-Dance (W/T/F)",
       "entries": [
         {
@@ -72,31 +78,34 @@
       ]
     },
     {
+      "number": 86,
       "title": "L-B1 Open Bronze Smooth Three-Dance (W/T/F)",
       "entries": [
         {
           "couple": "Buckley, Siobhain and Castro, David",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Marrero, Elizabeth and Kiss, Ferenc",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 86,
       "title": "L-C1 Open Bronze Smooth Three-Dance (W/T/F)",
       "entries": [
         {
           "couple": "Roberts, Sherry and Dugger, Richard",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 87,
       "title": "L-B1 Closed Silver Smooth Four-Dance (W/T/F/VW)",
       "entries": [
         {
@@ -107,31 +116,34 @@
       ]
     },
     {
+      "number": 88,
       "title": "L-B1 Open Silver Smooth Four-Dance (W/T/F/VW)",
       "entries": [
         {
           "couple": "Waltz, Beth and Davis, Steven",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Coffman, Barbara and Jafari, Dadbeh",
           "place": "2",
-          "points": 7.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 89,
       "title": "L-B1 Open Gold Smooth Four-Dance (W/T/F/VW)",
       "entries": [
         {
           "couple": "Herrera, Nona and Zappia, Enzo",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 90,
       "title": "G-B2 Closed Bronze Smooth Three-Dance (W/T/F)",
       "entries": [
         {
@@ -147,6 +159,7 @@
       ]
     },
     {
+      "number": 90,
       "title": "G-JUV Closed Bronze Smooth Three-Dance (W/T/F)",
       "entries": [
         {
@@ -157,6 +170,7 @@
       ]
     },
     {
+      "number": 90,
       "title": "L-B2 Closed Bronze Smooth Three-Dance (W/T/F)",
       "entries": [
         {
@@ -172,61 +186,67 @@
       ]
     },
     {
+      "number": 91,
       "title": "L-B2 Open Bronze Smooth Three-Dance (W/T/F)",
       "entries": [
         {
           "couple": "Schmidt, Viki and Dugger, Richard",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 92,
       "title": "L-B2 Open Silver Smooth Four-Dance (W/T/F/VW)",
       "entries": [
         {
           "couple": "Pitzer, Kristi and Jafari, Dadbeh",
-          "place": "1",
-          "points": 15
-        }
-      ]
-    },
-    {
-      "title": "L-C2 Open Silver Smooth Four-Dance (W/T/F/VW)",
-      "entries": [
-        {
-          "couple": "Gulley, Sylvia and Zapata, Fonzie",
-          "place": "1",
-          "points": 15
-        }
-      ]
-    },
-    {
-      "title": "G-B2 Open Gold Smooth Four-Dance (W/T/F/VW)",
-      "entries": [
-        {
-          "couple": "Tayi, Siva and Betts, Stephanie",
           "place": "1",
           "points": 20
         }
       ]
     },
     {
+      "number": 92,
+      "title": "L-C2 Open Silver Smooth Four-Dance (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Gulley, Sylvia and Zapata, Fonzie",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "title": "G-B2 Open Gold Smooth Four-Dance (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Tayi, Siva and Betts, Stephanie",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 93,
       "title": "L-B2 Open Gold Smooth Four-Dance (W/T/F/VW)",
       "entries": [
         {
           "couple": "Herrera, Nona and Zappia, Enzo",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         },
         {
           "couple": "Oliver, Marvarene and Zapata, Fonzie",
           "place": "2",
-          "points": 10.0
+          "points": 12.5
         }
       ]
     },
     {
+      "number": 94,
       "title": "G-JUV Closed Newcomer Smooth Three-Dance  (W/T/FT)",
       "entries": [
         {
@@ -237,6 +257,7 @@
       ]
     },
     {
+      "number": 159,
       "title": "L-A2 Closed Silver Latin Four-Dance (C/S/R/J)",
       "entries": [
         {
@@ -252,6 +273,7 @@
       ]
     },
     {
+      "number": 160,
       "title": "L-B1 Closed Newcomer Latin Three-Dance (C/S/R)",
       "entries": [
         {
@@ -262,16 +284,18 @@
       ]
     },
     {
+      "number": 161,
       "title": "L-B1 Open Silver Latin Four-Dance (C/S/R/J)",
       "entries": [
         {
           "couple": "Lingren, Theresa and Generalov, Denis",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 162,
       "title": "L-B2 Closed Newcomer Latin Three-Dance (C/S/R)",
       "entries": [
         {
@@ -282,6 +306,7 @@
       ]
     },
     {
+      "number": 163,
       "title": "L-B2 Closed Bronze Latin Three-Dance (C/S/R)",
       "entries": [
         {
@@ -292,146 +317,177 @@
       ]
     },
     {
+      "number": 164,
       "title": "L-B2 Open Gold Latin Five-Dance (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Groepper-Pettit, Rhea and Generalov, Denis",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 164,
       "title": "L-JB Open Gold Latin Five-Dance (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Deleon, Michelle and Balan, Viorel",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 165,
       "title": "L-A Closed Bronze Smooth Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Schmidt, Viki and Dugger, Richard",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Harb, Gaielle and Kiss, Ferenc",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 166,
       "title": "G-A Open Gold Smooth Scholarship (W/T/F/VW)",
       "entries": [
         {
           "couple": "He, Sally and Zappia, Enzo",
           "place": "1",
-          "points": 20.0
+          "points": 30.0
         },
         {
           "couple": "Tayi and Betts",
           "place": "2",
-          "points": 10.0
+          "points": 15.0
         }
       ]
     },
     {
+      "number": 167,
       "title": "L-B Closed Bronze Smooth Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Roberts, Sherry and Dugger, Richard",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Johnson, Jeff and Betts, Stephanie",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 168,
       "title": "L-B Closed Silver Smooth Scholarship (W/T/F/VW)",
       "entries": [
         {
           "couple": "Wray, Nannel and Zappia, Enzo",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Coffman, Barbara and Jafari, Dadbeh",
           "place": "2",
-          "points": 10.5
+          "points": 14.0
         },
         {
           "couple": "Vaezzadeh, Shabnam and Castro, David",
           "place": "3",
-          "points": 7.5
-        },
-        {
-          "couple": "Wagner, Laura and Garcia, Ray",
-          "place": "4",
-          "points": 4.5
-        }
-      ]
-    },
-    {
-      "title": "L-B Open Gold Smooth Scholarship (W/T/F/VW)",
-      "entries": [
-        {
-          "couple": "Waltz, Beth and Davis, Steven",
-          "place": "1",
-          "points": 20.0
-        },
-        {
-          "couple": "Herrera, Nona and Zappia, Enzo",
-          "place": "2",
-          "points": 14.0
-        },
-        {
-          "couple": "Tayi, Siva and Betts, Stephanie",
-          "place": "3",
           "points": 10.0
         },
         {
-          "couple": "Oliver, Marvarene and Zapata, Fonzie",
+          "couple": "Wagner, Laura and Garcia, Ray",
           "place": "4",
           "points": 6.0
         }
       ]
     },
     {
+      "number": 169,
+      "title": "L-B Open Gold Smooth Scholarship (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Waltz, Beth and Davis, Steven",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "Herrera, Nona and Zappia, Enzo",
+          "place": "2",
+          "points": 21.0
+        },
+        {
+          "couple": "Tayi, Siva and Betts, Stephanie",
+          "place": "3",
+          "points": 15.0
+        },
+        {
+          "couple": "Oliver, Marvarene and Zapata, Fonzie",
+          "place": "4",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 171,
       "title": "L-A Open Gold Latin Scholarship (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Savage, Lauren and Generalov, Denis",
           "place": "1",
-          "points": 20
+          "points": 30
         }
       ]
     },
     {
+      "number": 173,
       "title": "L-B Closed Silver Latin Scholarship (C/S/R/J)",
       "entries": [
         {
           "couple": "Couch Salim, Melissa and King, Billy",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Wray, Nannel and Zappia, Enzo",
           "place": "2",
-          "points": 7.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 174,
+      "title": "Open Professional Rhythm (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Toth, Bence and Mattingly, Ashley",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Kaszas, Richard and Pangea, Foteini",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Lopez and Osborn",
+          "place": "3",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 227,
       "title": "L-A1 Closed Silver Standard Four-Dance (W/T/F/Q)",
       "entries": [
         {
@@ -442,6 +498,7 @@
       ]
     },
     {
+      "number": 227,
       "title": "L-A2 Closed Silver Standard Four-Dance (W/T/F/Q)",
       "entries": [
         {
@@ -452,6 +509,7 @@
       ]
     },
     {
+      "number": 227,
       "title": "L-B1 Closed Silver Standard Four-Dance (W/T/F/Q)",
       "entries": [
         {
@@ -467,6 +525,7 @@
       ]
     },
     {
+      "number": 227,
       "title": "L-B2 Closed Silver Standard Four-Dance (W/T/F/Q)",
       "entries": [
         {
@@ -477,6 +536,7 @@
       ]
     },
     {
+      "number": 228,
       "title": "L-B1 Closed Bronze Standard Three-Dance (W/T/F)",
       "entries": [
         {
@@ -487,6 +547,7 @@
       ]
     },
     {
+      "number": 228,
       "title": "L-B2 Closed Bronze Standard Three-Dance (W/T/F)",
       "entries": [
         {
@@ -497,71 +558,78 @@
       ]
     },
     {
+      "number": 229,
       "title": "G-B2 Open Gold Standard Five-Dance (W/T/VW/F/QS)",
       "entries": [
         {
           "couple": "Tayi, Siva and Betts, Stephanie",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 229,
       "title": "L-B1 Open Gold Standard Five-Dance (W/T/VW/F/QS)",
       "entries": [
         {
           "couple": "Gorsuch-Bradbury, Kimberly and Generalov, Denis",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 229,
       "title": "L-C1 Open Gold Standard Five-Dance (W/T/VW/F/QS)",
       "entries": [
         {
           "couple": "Nichols, Maryann and Zappia, Enzo",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 230,
       "title": "L-A2 Open Silver Standard Four-Dance (W/T/F/Q)",
       "entries": [
         {
           "couple": "Lo, Joyce and Iakounine, Guennadi",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 230,
       "title": "L-B2 Open Silver Standard Four-Dance (W/T/F/Q)",
       "entries": [
         {
           "couple": "Pitzer, Kristi and Jafari, Dadbeh",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 231,
       "title": "L-B2 Open Gold Standard Five-Dance (W/T/VW/F/QS)",
       "entries": [
         {
           "couple": "Nichols, Maryann and Zappia, Enzo",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         },
         {
           "couple": "Lewis, Melba and Generalov, Denis",
           "place": "2",
-          "points": 10.0
+          "points": 12.5
         }
       ]
     },
     {
+      "number": 396,
       "title": "G-A1 Closed Newcomer Rhythm Three-Dance (C/R/SW)",
       "entries": [
         {
@@ -572,6 +640,7 @@
       ]
     },
     {
+      "number": 396,
       "title": "G-B2 Closed Newcomer Rhythm Three-Dance (C/R/SW)",
       "entries": [
         {
@@ -582,6 +651,7 @@
       ]
     },
     {
+      "number": 396,
       "title": "L-JA Closed Newcomer Rhythm Three-Dance (C/R/SW)",
       "entries": [
         {
@@ -592,6 +662,7 @@
       ]
     },
     {
+      "number": 397,
       "title": "G-A1 Closed Bronze Rhythm Three-Dance (C/R/SW)",
       "entries": [
         {
@@ -602,6 +673,7 @@
       ]
     },
     {
+      "number": 397,
       "title": "G-B2 Closed Bronze Rhythm Three-Dance (C/R/SW)",
       "entries": [
         {
@@ -617,6 +689,7 @@
       ]
     },
     {
+      "number": 397,
       "title": "L-JA Closed Bronze Rhythm Three-Dance (C/R/SW)",
       "entries": [
         {
@@ -627,6 +700,7 @@
       ]
     },
     {
+      "number": 398,
       "title": "G-JUV Closed Bronze Rhythm Three-Dance (C/R/SW)",
       "entries": [
         {
@@ -637,6 +711,7 @@
       ]
     },
     {
+      "number": 398,
       "title": "L-B1 Closed Bronze Rhythm Three-Dance (C/R/SW)",
       "entries": [
         {
@@ -652,6 +727,7 @@
       ]
     },
     {
+      "number": 398,
       "title": "L-B2 Closed Bronze Rhythm Three-Dance (C/R/SW)",
       "entries": [
         {
@@ -667,31 +743,34 @@
       ]
     },
     {
+      "number": 399,
       "title": "L-B1 Open Bronze Rhythm Three-Dance (C/R/SW)",
       "entries": [
         {
           "couple": "Williamson, Hilary and Simler, Nathan",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Buckley, Siobhain and Castro, David",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 399,
       "title": "L-B2 Open Bronze Rhythm Three-Dance (C/R/SW)",
       "entries": [
         {
           "couple": "Cantilo, Kathy and Dugger, Richard",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 400,
       "title": "L-B1 Closed Silver Rhythm Four-Dance (C/R/SW/B)",
       "entries": [
         {
@@ -707,26 +786,29 @@
       ]
     },
     {
+      "number": 401,
       "title": "L-B1 Open Silver Four-Dance (C/R/SW/B)",
       "entries": [
         {
           "couple": "Waltz, Beth and Davis, Steven",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 401,
       "title": "L-C2 Open Silver Four-Dance (C/R/SW/B)",
       "entries": [
         {
           "couple": "Gulley, Sylvia and Zapata, Fonzie",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 402,
       "title": "L-B2 Closed Silver Rhythm Four-Dance (C/R/SW/B)",
       "entries": [
         {
@@ -737,127 +819,134 @@
       ]
     },
     {
+      "number": 404,
       "title": "L-A Closed Bronze Standard Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Coffman, Barbara and Jafari, Dadbeh",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 406,
       "title": "L-B Closed Bronze Standard Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Pitzer, Kristi and Jafari, Dadbeh",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 407,
       "title": "L-B Closed Silver Standard Scholarship (W/T/F/QS)",
       "entries": [
         {
           "couple": "Wray, Nannel and Zappia, Enzo",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Waltz, Beth and Davis, Steven",
           "place": "2",
-          "points": 10.5
+          "points": 14.0
         },
         {
           "couple": "Pitzer, Kristi and Jafari, Dadbeh",
           "place": "3",
-          "points": 7.5
+          "points": 10.0
         },
         {
           "couple": "Onion, Erin and Lloyd, Jack",
+          "place": "4",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 408,
+      "title": "L-B Open Gold Standard Scholarship (W/T/VW/F/QS)",
+      "entries": [
+        {
+          "couple": "Nichols, Maryann and Zappia, Enzo",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "Lewis, Melba and Generalov, Denis",
+          "place": "2",
+          "points": 18.0
+        },
+        {
+          "couple": "Tayi, Siva and Betts, Stephanie",
+          "place": "3",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 412,
+      "title": "L-B Closed Bronze Rhythm Scholarship (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Williamson, Hilary and Simler, Nathan",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Cantilo, Kathy and Dugger, Richard",
+          "place": "2",
+          "points": 10.5
+        },
+        {
+          "couple": "Johnson, Jeff and Betts, Stephanie",
+          "place": "3",
+          "points": 7.5
+        },
+        {
+          "couple": "Mcgee, Paula and Kiss, Ferenc",
           "place": "4",
           "points": 4.5
         }
       ]
     },
     {
-      "title": "L-B Open Gold Standard Scholarship (W/T/VW/F/QS)",
+      "number": 413,
+      "title": "L-B Closed Silver Rhythm Scholarship (C/R/SW/B)",
       "entries": [
         {
-          "couple": "Nichols, Maryann and Zappia, Enzo",
+          "couple": "Vaezzadeh, Shabnam and Castro, David",
           "place": "1",
           "points": 20.0
         },
         {
-          "couple": "Lewis, Melba and Generalov, Denis",
+          "couple": "Onion, Erin and Lloyd, Jack",
           "place": "2",
           "points": 12.0
         },
         {
-          "couple": "Tayi, Siva and Betts, Stephanie",
+          "couple": "Wagner, Laura and Garcia, Ray",
           "place": "3",
           "points": 6.0
         }
       ]
     },
     {
-      "title": "L-B Closed Bronze Rhythm Scholarship (C/R/SW)",
-      "entries": [
-        {
-          "couple": "Williamson, Hilary and Simler, Nathan",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Cantilo, Kathy and Dugger, Richard",
-          "place": "2",
-          "points": 7.0
-        },
-        {
-          "couple": "Johnson, Jeff and Betts, Stephanie",
-          "place": "3",
-          "points": 5.0
-        },
-        {
-          "couple": "Mcgee, Paula and Kiss, Ferenc",
-          "place": "4",
-          "points": 3.0
-        }
-      ]
-    },
-    {
-      "title": "L-B Closed Silver Rhythm Scholarship (C/R/SW/B)",
-      "entries": [
-        {
-          "couple": "Vaezzadeh, Shabnam and Castro, David",
-          "place": "1",
-          "points": 15.0
-        },
-        {
-          "couple": "Onion, Erin and Lloyd, Jack",
-          "place": "2",
-          "points": 9.0
-        },
-        {
-          "couple": "Wagner, Laura and Garcia, Ray",
-          "place": "3",
-          "points": 4.5
-        }
-      ]
-    },
-    {
+      "number": 414,
       "title": "L-B Open Gold Rhythm Scholarship (C/R/SW/B/M)",
       "entries": [
         {
           "couple": "Waltz, Beth and Davis, Steven",
           "place": "1",
-          "points": 20.0
+          "points": 30.0
         },
         {
           "couple": "Buckley and Castro",
           "place": "2",
-          "points": 10.0
+          "points": 15.0
         }
       ]
     }

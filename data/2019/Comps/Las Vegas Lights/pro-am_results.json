@@ -1,0 +1,564 @@
+{
+  "comp name": "Las Vegas Lights",
+  "heats": [
+    {
+      "number": 58,
+      "title": "L-C American Rhythm (CC/R/SW)",
+      "entries": [
+        {
+          "couple": "Stone, Rella and Yates, John",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Mulick, Connie and Rodriguez, David",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "title": "L-A American Rhythm (CC/R/SW/M)",
+      "entries": [
+        {
+          "couple": "Glover, Kim and Yates, John",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "title": "L-B American Rhythm (CC/R/SW/M)",
+      "entries": [
+        {
+          "couple": "Glover, Kim and Yates, John",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "title": "L-S1 American Rhythm (CC/R/SW/M)",
+      "entries": [
+        {
+          "couple": "Riley, Candace and Falcon, Alejandro",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "L-C American Rhythm (CC/R/SW)",
+      "entries": [
+        {
+          "couple": "Stone, Rella and Yates, John",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Mulick, Connie and Rodriguez, David",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "L-A American Rhythm (CC/R/SW/M)",
+      "entries": [
+        {
+          "couple": "Glover, Kim and Yates, John",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "L-Y International Latin (CC/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Govorun, Vickanat and Italyankin, Roman",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "L-B American Rhythm (CC/R/SW/M)",
+      "entries": [
+        {
+          "couple": "Glover, Kim and Yates, John",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "L-S American Rhythm (CC/R/SW/M)",
+      "entries": [
+        {
+          "couple": "Quintero, Barbara and Scott, James",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "L-B International Latin (CC/R/J)",
+      "entries": [
+        {
+          "couple": "Martines, Noelle and Winett, Andrew",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "L-B International Latin (CC/S/R/J)",
+      "entries": [
+        {
+          "couple": "Davis, Betty and Karaman, Damir",
+          "place": "1",
+          "points": 15
+        },
+        {
+          "couple": "Liao, Cathy and Sahakyan, Arman",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "L-J International Latin (CC/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Govorun, Vickanat and Italyankin, Roman",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "L-PT International Latin (CC/R/J)",
+      "entries": [
+        {
+          "couple": "Zakrzewski, Mariusz and Zakrzewski, Victoria",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "L-TEDDY International Latin (CC/R/J)",
+      "entries": [
+        {
+          "couple": "Grifoni, Inaya and Solares, Christian",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 115,
+      "title": "L-C American Smooth (W/T/F)",
+      "entries": [
+        {
+          "couple": "Flores, Angel and Gorshkova, Natalia",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Stone, Rella and Yates, John",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Pemberton, Adam and Stout, Samantha",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 117,
+      "title": "L-A American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Glover, Kim and Yates, John",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 117,
+      "title": "L-C American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Campbell, Torri and Malko, Evengy",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Laderta, Marie and Zakrzewski, Mariusz",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 120,
+      "title": "G-J American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Grifoni, Leith and Sakellariou, Andrea",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 120,
+      "title": "L-B American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Glover, Kim and Yates, John",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Liao, Cathy and Sahakyan, Arman",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 120,
+      "title": "L-S1 American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Laderta, Paul and Ray, Lynnsay",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Majeski, Karen and Zakrzewski, Mariusz",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 134,
+      "title": "L-C American Smooth (W/T/F)",
+      "entries": [
+        {
+          "couple": "Flores, Angel and Gorshkova, Natalia",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Pemberton, Adam and Stout, Samantha",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Stone, Rella and Yates, John",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 137,
+      "title": "L-A American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Glover, Kim and Yates, John",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 141,
+      "title": "L-B American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Glover, Kim and Yates, John",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 141,
+      "title": "L-C American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Campbell, Torri and Malko, Evengy",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Laderta, Paul and Ray, Lynnsay",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Laderta, Marie and Zakrzewski, Mariusz",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 167,
+      "title": "L-A International Standard (W/T/F/VW/QS)",
+      "entries": [
+        {
+          "couple": "Letzie, Halle and Agrello, Giacamo",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 167,
+      "title": "L-B International Standard (W/T/F/QS)",
+      "entries": [
+        {
+          "couple": "Liao, Cathy and Sahakyan, Arman",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 167,
+      "title": "L-B International Standard (W/T/QS)",
+      "entries": [
+        {
+          "couple": "Caldwell, Dawna and Dowsett, Ikaika",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 167,
+      "title": "L-PT International Standard (W/T/QS)",
+      "entries": [
+        {
+          "couple": "Zakrzewski, Mariusz and Zakrzewski, Victoria",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 167,
+      "title": "L-S1 International Standard (W/T/F/QS)",
+      "entries": [
+        {
+          "couple": "Yun, YoungJu and Malko, Evengy",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 168,
+      "title": "G-Y International Standard (W/T/F/VW/QS)",
+      "entries": [
+        {
+          "couple": "Mitchell, Curtis and Sakellariou, Andrea",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 168,
+      "title": "L-B International Standard (W/T/F/VW/QS)",
+      "entries": [
+        {
+          "couple": "Jackson, Crissy and Agrello, Giacamo",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 168,
+      "title": "L-C International Standard (W/T/QS)",
+      "entries": [
+        {
+          "couple": "Mayor, Laureen and Dowsett, Ikaika",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 168,
+      "title": "L-S International Standard (W/T/F/QS)",
+      "entries": [
+        {
+          "couple": "Yun, YoungJu and Malko, Evengy",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 181,
+      "title": "G-B American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Burt, David and Ray, Lynnsay",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 182,
+      "title": "L-S1 International Standard (W/T/F/VW/QS)",
+      "entries": [
+        {
+          "couple": "Fusako, Uyama and Rublyuk, Max",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Sempell, Pennie and Novak, Mark",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 183,
+      "title": "G-C American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Ow, Ben and Ray, Lynnsay",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 185,
+      "title": "G-S1 American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Wu, Peter and Ray, Lynnsay",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 186,
+      "title": "G-S American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Wu, Peter and Ray, Lynnsay",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 186,
+      "title": "L-A American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Berkley, Maddie and Zakrzewski, Mariusz",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 187,
+      "title": "L-S International Standard (W/T/F/VW/QS)",
+      "entries": [
+        {
+          "couple": "Fusako, Uyama and Rublyuk, Max",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Davis, Gerrie and Novak, Mark",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 188,
+      "title": "L-B American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Gambit, Marnie and Zakrzewski, Mariusz",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Burt, David and Ray, Lynnsay",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 190,
+      "title": "G-C American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Ow, Ben and Ray, Lynnsay",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 192,
+      "title": "L-S International Latin (CC/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Davis, Gerrie and Novak, Mark",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 195,
+      "title": "L-C American Rhythm (CC/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Imlay, Samantha and Zakrzewski, Mariusz",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    }
+  ]
+}

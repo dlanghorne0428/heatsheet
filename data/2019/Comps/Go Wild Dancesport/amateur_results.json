@@ -2,6 +2,7 @@
   "comp name": "Go Wild Dancesport",
   "heats": [
     {
+      "number": 31,
       "title": "AC-JR Closed Newcomer Smooth 3-Dance (W/T/F)",
       "entries": [
         {
@@ -17,6 +18,7 @@
       ]
     },
     {
+      "number": 32,
       "title": "AC-JR Closed Newcomer Smooth 2-Dance (W/T)",
       "entries": [
         {
@@ -32,6 +34,7 @@
       ]
     },
     {
+      "number": 34,
       "title": "AC-A Closed Silver Smooth 4-Dance (W/T/F/VW)",
       "entries": [
         {
@@ -42,6 +45,7 @@
       ]
     },
     {
+      "number": 34,
       "title": "AC-SR1 Closed Silver Smooth 4-Dance (W/T/F/VW)",
       "entries": [
         {
@@ -52,6 +56,7 @@
       ]
     },
     {
+      "number": 97,
       "title": "AC-PT1 Closed Bronze Ballroom 4-Dance (W/T/F/Q)",
       "entries": [
         {
@@ -67,6 +72,7 @@
       ]
     },
     {
+      "number": 98,
       "title": "AC-A Closed Bronze Ballroom 2-Dance (F/Q)",
       "entries": [
         {
@@ -77,27 +83,19 @@
       ]
     },
     {
+      "number": 98,
       "title": "AC-J2 Open Gold Ballroom 5-Dance (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Sick, Alexander and Khoroshevtseva, Alena",
           "place": "1",
-          "points": 10
+          "points": 25
         }
       ]
     },
     {
+      "number": 98,
       "title": "AC-JR Closed Silver Ballroom 4-Dance (W/T/F/Q)",
-      "entries": [
-        {
-          "couple": "Sick, Jordan and Moen, Gwyneth",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "AC-J2 Open Silver Ballroom 5-Dance (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Sick, Jordan and Moen, Gwyneth",
@@ -107,16 +105,29 @@
       ]
     },
     {
-      "title": "AC-JR Open  Ballroom 5-Dance (W/T/VW//Q)",
+      "number": 99,
+      "title": "AC-J2 Open Silver Ballroom 5-Dance (W/T/VW/F/Q)",
       "entries": [
         {
-          "couple": "Sick, Alexander and Khoroshevtseva, Alena",
+          "couple": "Sick, Jordan and Moen, Gwyneth",
           "place": "1",
-          "points": 10
+          "points": 20
         }
       ]
     },
     {
+      "number": 99,
+      "title": "AC-JR Open Ballroom 5-Dance (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Sick, Alexander and Khoroshevtseva, Alena",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 177,
       "title": "AC-JR Closed Newcomer Rhythm 3-Dance (C/R/SW)",
       "entries": [
         {
@@ -132,6 +143,7 @@
       ]
     },
     {
+      "number": 178,
       "title": "AC-JR Closed Newcomer Rhythm 2-Dance (C/R)",
       "entries": [
         {
@@ -147,16 +159,18 @@
       ]
     },
     {
+      "number": 178,
       "title": "AC-SR1 Closed Silver Rhythm 3-Dance (C/R/SW)",
       "entries": [
         {
           "couple": "Kouri, Patty and Kouri, Tom",
           "place": "1",
-          "points": 5
+          "points": 15
         }
       ]
     },
     {
+      "number": 198,
       "title": "AC-MJR Closed Bronze Latin 2-Dance (C/R)",
       "entries": [
         {
@@ -172,6 +186,7 @@
       ]
     },
     {
+      "number": 199,
       "title": "AC-MJR Closed Bronze Latin 3-Dance (C/R/J)",
       "entries": [
         {
@@ -187,6 +202,7 @@
       ]
     },
     {
+      "number": 200,
       "title": "AC-MJR Closed Bronze Latin 4-Dance (C/S/R/J)",
       "entries": [
         {
@@ -202,6 +218,7 @@
       ]
     },
     {
+      "number": 201,
       "title": "AC-MJR Closed Bronze Latin 2-Dance (S/J)",
       "entries": [
         {
@@ -217,6 +234,7 @@
       ]
     },
     {
+      "number": 202,
       "title": "AC-JR Closed Gold Latin 4-Dance (C/S/R/J)",
       "entries": [
         {
@@ -227,47 +245,50 @@
       ]
     },
     {
+      "number": 202,
       "title": "AC-PT1 Closed Bronze Latin 4-Dance (C/S/R/J)",
       "entries": [
         {
           "couple": "Schutte, Fernando and Margolin, Mia",
           "place": "1",
-          "points": 20.0
+          "points": 10.0
         },
         {
           "couple": "Bosacker-Kass, Alden and Hudson, Emerson",
           "place": "2",
-          "points": 12.0
+          "points": 6.0
         },
         {
           "couple": "Long, Misha and Bersten, Isabella",
           "place": "3",
-          "points": 6.0
+          "points": 3.0
         }
       ]
     },
     {
+      "number": 203,
       "title": "AC-JR Open Latin 5-Dance (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Sick, Alexander and Khoroshevtseva, Alena",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 204,
       "title": "AC-J2 Open Gold Latin 5-Dance (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Sick, Alexander and Khoroshevtseva, Alena",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         },
         {
           "couple": "Sick, Jordan and Moen, Gwyneth",
           "place": "2",
-          "points": 10.0
+          "points": 12.5
         }
       ]
     }

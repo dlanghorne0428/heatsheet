@@ -2,6 +2,7 @@
   "comp name": "American Star Ball Championships",
   "heats": [
     {
+      "number": 57,
       "title": "L-A Closed Bronze NightClub (Hustle/2Step/WC)",
       "entries": [
         {
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "number": 57,
       "title": "L-B Closed Bronze NightClub (Hustle/2Step/WC)",
       "entries": [
         {
@@ -22,16 +24,18 @@
       ]
     },
     {
+      "number": 57,
       "title": "L-B Closed Silver NightClub (Hustle/2Step/WC)",
       "entries": [
         {
           "couple": "Blakeslee, Jan and Gronek, Jean-Paul",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 58,
       "title": "L-A Closed Bronze NightClub (Mer/Salsa/Bachata)",
       "entries": [
         {
@@ -42,16 +46,18 @@
       ]
     },
     {
+      "number": 58,
       "title": "L-B Open Social NightClub (Mer/Salsa/Bachata)",
       "entries": [
         {
           "couple": "Magedoff, Kari and Cabrera, Jonathan",
           "place": "1",
-          "points": 10
+          "points": 20
         }
       ]
     },
     {
+      "number": 59,
       "title": "L-B Closed Bronze NightClub (Mer/Salsa/Bachata)",
       "entries": [
         {
@@ -62,36 +68,39 @@
       ]
     },
     {
+      "number": 59,
       "title": "L-B Closed Silver NightClub (Mer/Salsa/Bachata)",
       "entries": [
         {
           "couple": "Blakeslee, Jan and Gronek, Jean-Paul",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Magedoff, Kari and Cabrera, Jonathan",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 60,
       "title": "L-B Open Social NightClub (Hustle/2Step/WC)",
       "entries": [
         {
           "couple": "Larsen, Diane and Solano, Julius",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Miller and Harger",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 116,
       "title": "G-A Pro/Am Closed Bronze Rhythm Championship (CC/R/SW)",
       "entries": [
         {
@@ -102,6 +111,7 @@
       ]
     },
     {
+      "number": 116,
       "title": "L-B Pro/Am Closed Bronze Rhythm Championship (CC/R/SW)",
       "entries": [
         {
@@ -112,6 +122,7 @@
       ]
     },
     {
+      "number": 116,
       "title": "L-C Pro/Am Closed Bronze Rhythm Championship (CC/R/SW)",
       "entries": [
         {
@@ -132,6 +143,7 @@
       ]
     },
     {
+      "number": 117,
       "title": "L-SR1 Pro/Am Closed Bronze Rhythm Championship (CC/R/SW)",
       "entries": [
         {
@@ -152,6 +164,7 @@
       ]
     },
     {
+      "number": 117,
       "title": "L-SR2 Pro/Am Closed Bronze Rhythm Championship (CC/R/SW)",
       "entries": [
         {
@@ -162,6 +175,7 @@
       ]
     },
     {
+      "number": 118,
       "title": "L-C WDS Closed Bronze Pro/Am Rhythm Championship (CC/R/SW)",
       "entries": [
         {
@@ -187,111 +201,118 @@
       ]
     },
     {
+      "number": 119,
       "title": "L-B DCT Newcomer Rhythm Scholarship (CC/R/SW)",
       "entries": [
         {
           "couple": "Rana, Elsa and Solano, Julius",
           "place": "1",
-          "points": 5.0
+          "points": 10.0
         },
         {
           "couple": "Mott, Jessica and Aquilino, Barney",
           "place": "2",
-          "points": 3.5
-        },
-        {
-          "couple": "Mazer, Aria and Karagoz, Can Muhammed",
-          "place": "3",
-          "points": 2.5
-        },
-        {
-          "couple": "Krieger, Elaine and McKeever, Michael",
-          "place": "4",
-          "points": 1.5
-        }
-      ]
-    },
-    {
-      "title": "L-A Pro/Am Open Bronze Rhythm Championship (CC/R/SW)",
-      "entries": [
-        {
-          "couple": "Clark, Heather and Cabrera, Jonathan",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "L-SR1 Pro/Am Open Bronze Rhythm Championship (CC/R/SW)",
-      "entries": [
-        {
-          "couple": "Feliciano, Mimi and Kudashev, Ivan",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Miller, Susan and Harger, Spencer",
-          "place": "2",
-          "points": 5.0
-        }
-      ]
-    },
-    {
-      "title": "L- DCT Senior Closed Bronze Rhythm Scholarship (CC/R/SW)",
-      "entries": [
-        {
-          "couple": "Gentling, Sharon and Dahl, Gary",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Miller, Susan and Harger, Spencer",
-          "place": "2",
           "points": 7.0
         },
         {
-          "couple": "Ventura, Anna Marie and Aquilino, Barney",
+          "couple": "Mazer, Aria and Karagoz, Can Muhammed",
           "place": "3",
           "points": 5.0
         },
         {
-          "couple": "Mazer, Aria and Karagoz, Can Muhammed",
+          "couple": "Krieger, Elaine and McKeever, Michael",
           "place": "4",
           "points": 3.0
         }
       ]
     },
     {
+      "number": 120,
+      "title": "L-A Pro/Am Open Bronze Rhythm Championship (CC/R/SW)",
+      "entries": [
+        {
+          "couple": "Clark, Heather and Cabrera, Jonathan",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 120,
+      "title": "L-SR1 Pro/Am Open Bronze Rhythm Championship (CC/R/SW)",
+      "entries": [
+        {
+          "couple": "Feliciano, Mimi and Kudashev, Ivan",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Miller, Susan and Harger, Spencer",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 121,
+      "title": "L- DCT Senior Closed Bronze Rhythm Scholarship (CC/R/SW)",
+      "entries": [
+        {
+          "couple": "Gentling, Sharon and Dahl, Gary",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Miller, Susan and Harger, Spencer",
+          "place": "2",
+          "points": 10.5
+        },
+        {
+          "couple": "Ventura, Anna Marie and Aquilino, Barney",
+          "place": "3",
+          "points": 7.5
+        },
+        {
+          "couple": "Mazer, Aria and Karagoz, Can Muhammed",
+          "place": "4",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 121,
       "title": "L-A Best of the Best Closed Bronze Rhythm Scholarship (CC/R/SW)",
       "entries": [
         {
           "couple": "Hitner, Danielle and Solano, Julius",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Angarola, Dylan and Lotoskyy, Sarah",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 121,
       "title": "L-C Best of the Best Closed Bronze Rhythm Scholarship (CC/R/SW)",
       "entries": [
         {
           "couple": "Thatchenkery, Tessy and Gorjatsev, Kirill",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Krieger, Elaine and McKeever, Michael",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 207,
       "title": "G-B Gents Pro/Am Closed Silver Rhythm Championship (CC/R/SW/B)",
       "entries": [
         {
@@ -302,6 +323,7 @@
       ]
     },
     {
+      "number": 207,
       "title": "L-B Pro/Am Closed Silver Rhythm Championship (CC/R/SW/B)",
       "entries": [
         {
@@ -322,21 +344,23 @@
       ]
     },
     {
+      "number": 207,
       "title": "L-B Pro/Am Open Silver Rhythm Championship (CC/R/SW/B)",
       "entries": [
         {
           "couple": "Everham and Radon",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Magedoff, Kari and Cabrera, Jonathan",
           "place": "2",
-          "points": 7.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 207,
       "title": "L-C Pro/Am Closed Silver Rhythm Championship (CC/R/SW/B)",
       "entries": [
         {
@@ -347,6 +371,7 @@
       ]
     },
     {
+      "number": 208,
       "title": "G-SR1 Pro/Am Closed Silver Rhythm Championship (CC/R/SW/B)",
       "entries": [
         {
@@ -357,6 +382,7 @@
       ]
     },
     {
+      "number": 208,
       "title": "L-B WDS Closed Silver Pro/Am Rhythm Championship (CC/R/SW/B)",
       "entries": [
         {
@@ -367,6 +393,7 @@
       ]
     },
     {
+      "number": 208,
       "title": "L-C WDS Closed Silver Pro/Am Rhythm Championship (CC/R/SW/B)",
       "entries": [
         {
@@ -377,6 +404,7 @@
       ]
     },
     {
+      "number": 208,
       "title": "L-SR1 Pro/Am Closed Silver Rhythm Championship (CC/R/SW/B)",
       "entries": [
         {
@@ -397,6 +425,7 @@
       ]
     },
     {
+      "number": 208,
       "title": "L-SR2 Pro/Am Closed Silver Rhythm Championship (CC/R/SW/B)",
       "entries": [
         {
@@ -412,131 +441,139 @@
       ]
     },
     {
+      "number": 209,
       "title": "L-C WDS Open Pro/Am Rhythm Championship (CC/R/SW/B/M)",
       "entries": [
         {
           "couple": "Miller, Susan and Harger, Spencer",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 209,
       "title": "L-SR1 Pro/Am Open Silver Rhythm Championship (CC/R/SW/B)",
       "entries": [
         {
           "couple": "Feliciano, Mimi and Kudashev, Ivan",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 209,
       "title": "L-SR2 Pro/Am Open Silver Rhythm Championship (CC/R/SW/B)",
       "entries": [
         {
           "couple": "Zamel, Vivian and DeSouza, Marcio",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Waxman, Elaine and Cabrera, Jonathan",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 210,
       "title": "L- DCT Senior Closed Silver Rhythm Scholarship (CC/R/SW)",
       "entries": [
         {
           "couple": "Picone, Rosemarie and Aquilino, Barney",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Blakeslee, Jan and Gronek, Jean-Paul",
           "place": "2",
-          "points": 9.0
+          "points": 12.0
         },
         {
           "couple": "Probert, Bonnie and Kanev, Georgi",
           "place": "3",
-          "points": 4.5
-        }
-      ]
-    },
-    {
-      "title": "L-SR1 Pro/Am Open Rhythm Championship (CC/R/SW/B/M)",
-      "entries": [
-        {
-          "couple": "McLeod, Leslie and De La Cruz, Melbin",
-          "place": "1",
-          "points": 25.0
-        },
-        {
-          "couple": "Miller, Susan and Harger, Spencer",
-          "place": "2",
-          "points": 12.5
-        }
-      ]
-    },
-    {
-      "title": "L-B Best of the Best Closed Silver Rhythm Scholarship (CC/R/SW/B)",
-      "entries": [
-        {
-          "couple": "Hitner, Danielle and Solano, Julius",
-          "place": "1",
-          "points": 15.0
-        },
-        {
-          "couple": "Shirer, Tanya and Garcia, Primo",
-          "place": "2",
-          "points": 10.5
-        },
-        {
-          "couple": "Hurd, Maria and Ostarek, Rene",
-          "place": "3",
-          "points": 7.5
-        },
-        {
-          "couple": "Kidwell, Tiffany and Dunn, Brent",
-          "place": "4",
-          "points": 4.5
-        }
-      ]
-    },
-    {
-      "title": "L-C Best of the Best Closed Silver Rhythm Scholarship (CC/R/SW/B)",
-      "entries": [
-        {
-          "couple": "Tavernese, Debbie and Aquilino, Barney",
-          "place": "1",
-          "points": 15.0
-        },
-        {
-          "couple": "Feliciano, Mimi and Kudashev, Ivan",
-          "place": "2",
-          "points": 12.0
-        },
-        {
-          "couple": "Cintron, Carmen and Shiller, Artem",
-          "place": "3",
-          "points": 9.75
-        },
-        {
-          "couple": "Theriault, Anne Marie and Gorjatsev, Kirill",
-          "place": "4",
-          "points": 7.5
-        },
-        {
-          "couple": "Carpenter, Patty and Solano, Julius",
-          "place": "5",
           "points": 6.0
         }
       ]
     },
     {
+      "number": 211,
+      "title": "L-SR1 Pro/Am Open Rhythm Championship (CC/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "McLeod, Leslie and De La Cruz, Melbin",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Miller, Susan and Harger, Spencer",
+          "place": "2",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "number": 216,
+      "title": "L-B Best of the Best Closed Silver Rhythm Scholarship (CC/R/SW/B)",
+      "entries": [
+        {
+          "couple": "Hitner, Danielle and Solano, Julius",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Shirer, Tanya and Garcia, Primo",
+          "place": "2",
+          "points": 14.0
+        },
+        {
+          "couple": "Hurd, Maria and Ostarek, Rene",
+          "place": "3",
+          "points": 10.0
+        },
+        {
+          "couple": "Kidwell, Tiffany and Dunn, Brent",
+          "place": "4",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 216,
+      "title": "L-C Best of the Best Closed Silver Rhythm Scholarship (CC/R/SW/B)",
+      "entries": [
+        {
+          "couple": "Tavernese, Debbie and Aquilino, Barney",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Feliciano, Mimi and Kudashev, Ivan",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Cintron, Carmen and Shiller, Artem",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Theriault, Anne Marie and Gorjatsev, Kirill",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Carpenter, Patty and Solano, Julius",
+          "place": "5",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "number": 217,
       "title": "L- DCT Senior Open Rhythm Scholarship (CC/R/SW/B)",
       "entries": [
         {
@@ -552,6 +589,7 @@
       ]
     },
     {
+      "number": 217,
       "title": "L-B Pro/Am Open Rhythm Scholarship (CC/R/SW/B/M)",
       "entries": [
         {
@@ -567,6 +605,7 @@
       ]
     },
     {
+      "number": 217,
       "title": "L-C Pro/Am Open Rhythm Scholarship (CC/R/SW/B/M)",
       "entries": [
         {
@@ -582,6 +621,7 @@
       ]
     },
     {
+      "number": 264,
       "title": "L-A WDS Closed Bronze Pro/Am Ballroom Championship (W/T/FT)",
       "entries": [
         {
@@ -592,6 +632,7 @@
       ]
     },
     {
+      "number": 264,
       "title": "L-B Pro/Am Closed Bronze Ballroom Championship (W/T/FT)",
       "entries": [
         {
@@ -602,6 +643,7 @@
       ]
     },
     {
+      "number": 264,
       "title": "L-C WDS Closed Bronze Pro/Am Ballroom Championship (W/T/FT)",
       "entries": [
         {
@@ -617,6 +659,7 @@
       ]
     },
     {
+      "number": 265,
       "title": "L-B WDS Closed Bronze Pro/Am Ballroom Championship (W/T/FT)",
       "entries": [
         {
@@ -632,6 +675,7 @@
       ]
     },
     {
+      "number": 265,
       "title": "L-C Pro/Am Closed Bronze Ballroom Championship (W/T/FT)",
       "entries": [
         {
@@ -647,6 +691,7 @@
       ]
     },
     {
+      "number": 266,
       "title": "L-B WDS Closed Silver Pro/Am Ballroom Championship (W/T/FT/QS)",
       "entries": [
         {
@@ -657,16 +702,18 @@
       ]
     },
     {
+      "number": 266,
       "title": "L-SR1 Pro/Am Closed Bronze Ballroom Championship (W/T/FT)",
       "entries": [
         {
           "couple": "Gentling, Sharon and Dahl, Gary",
           "place": "1",
-          "points": 15
+          "points": 10
         }
       ]
     },
     {
+      "number": 266,
       "title": "L-SR1 Pro/Am Closed Silver Ballroom Championship (W/T/FT/QS)",
       "entries": [
         {
@@ -687,61 +734,67 @@
       ]
     },
     {
+      "number": 267,
       "title": "L-B Best of the Best Closed Bronze Ballroom Scholarship (W/T/FT)",
       "entries": [
         {
           "couple": "Beringer, Christina and Zaridze Birtviseli, Gia",
           "place": "1",
-          "points": 5
+          "points": 15
         }
       ]
     },
     {
+      "number": 267,
       "title": "L-B DCT Newcomer Ballroom Scholarship (W/T/FT)",
       "entries": [
         {
           "couple": "Grader, Irit and Larson, John",
           "place": "1",
-          "points": 5.0
+          "points": 10.0
         },
         {
           "couple": "Krieger, Elaine and McKeever, Michael",
           "place": "2",
-          "points": 2.5
+          "points": 5.0
         }
       ]
     },
     {
+      "number": 268,
       "title": "L- DCT Senior Closed Bronze Ballroom Scholarship (W/T/FT)",
       "entries": [
         {
           "couple": "Gentling, Sharon and Dahl, Gary",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 268,
       "title": "L-A Best of the Best Closed Bronze Ballroom Scholarship (W/T/FT)",
       "entries": [
         {
           "couple": "Beringer, Christina and Zaridze Birtviseli, Gia",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 268,
       "title": "L-C Best of the Best Closed Bronze Ballroom Scholarship (W/T/FT)",
       "entries": [
         {
           "couple": "Krieger, Elaine and McKeever, Michael",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 269,
       "title": "L-A WDS Closed Silver Pro/Am Ballroom Championship (W/T/FT/QS)",
       "entries": [
         {
@@ -752,51 +805,56 @@
       ]
     },
     {
+      "number": 269,
       "title": "L-C Pro/Am Open Silver Ballroom Championship (W/T/FT/QS)",
       "entries": [
         {
           "couple": "Harrison, Nancy and Kravets, Ihor",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 269,
       "title": "L-SR2 Pro/Am Open Silver Ballroom Championship (W/T/FT/QS)",
       "entries": [
         {
           "couple": "Cohn, Debbie and Gekhmann, Garry",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 270,
       "title": "L-A Best of the Best Closed Silver Ballroom Scholarship (W/T/FT/QS)",
       "entries": [
         {
           "couple": "Beringer, Christina and Zaridze Birtviseli, Gia",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 270,
       "title": "L-C Best of the Best Closed Silver Ballroom Scholarship (W/T/FT/QS)",
       "entries": [
         {
           "couple": "Bell, Scott and Lazzari, Francesca",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Cintron, Carmen and Shiller, Artem",
           "place": "2",
-          "points": 7.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 270,
       "title": "L-SR2 Pro/Am Closed Silver Ballroom Championship (W/T/FT/QS)",
       "entries": [
         {
@@ -807,26 +865,29 @@
       ]
     },
     {
+      "number": 271,
       "title": "L- DCT Senior Closed Silver Ballroom Scholarship (W/T/FT)",
       "entries": [
         {
           "couple": "Ahearn, Catherine and Gekhmann, Garry",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 271,
       "title": "L-B Best of the Best Closed Silver Ballroom Scholarship (W/T/FT/QS)",
       "entries": [
         {
           "couple": "Beringer, Christina and Zaridze Birtviseli, Gia",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 289,
       "title": "L-C Pro/Am Closed Gold Ballroom Championship (W/T/FT/QS)",
       "entries": [
         {
@@ -842,31 +903,34 @@
       ]
     },
     {
+      "number": 291,
       "title": "L-C Pro/Am Open Ballroom Championship (W/T/VW/FT/QS)",
       "entries": [
         {
           "couple": "Haeussler, Ann and Nartov, Yuriy",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Harrison, Jerry and Lazzari, Francesca",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 291,
       "title": "L-SR1 Pro/Am Closed Gold Ballroom Championship (W/T/FT/QS)",
       "entries": [
         {
           "couple": "Soo, Mimi and Repliuk, Anatolii",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 297,
       "title": "L- DCT Senior Open Ballroom Scholarship (W/T/FT/QS)",
       "entries": [
         {
@@ -887,6 +951,7 @@
       ]
     },
     {
+      "number": 298,
       "title": "L-C Pro/Am Open Ballroom Scholarship (W/T/VW/FT/QS)",
       "entries": [
         {
@@ -902,6 +967,7 @@
       ]
     },
     {
+      "number": 338,
       "title": "G-A Pro/Am Closed Bronze Smooth Championship (W/T/FT)",
       "entries": [
         {
@@ -912,16 +978,18 @@
       ]
     },
     {
+      "number": 338,
       "title": "L-B Pro/Am Open Bronze Smooth Championship (W/T/FT)",
       "entries": [
         {
           "couple": "Beringer, Christina and Zaridze Birtviseli, Gia",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 338,
       "title": "L-C Pro/Am Closed Bronze Smooth Championship (W/T/FT)",
       "entries": [
         {
@@ -937,6 +1005,7 @@
       ]
     },
     {
+      "number": 338,
       "title": "L-SR1 Pro/Am Closed Bronze Smooth Championship (W/T/FT)",
       "entries": [
         {
@@ -962,6 +1031,7 @@
       ]
     },
     {
+      "number": 338,
       "title": "L-SR2 Pro/Am Closed Bronze Smooth Championship (W/T/FT)",
       "entries": [
         {
@@ -972,6 +1042,7 @@
       ]
     },
     {
+      "number": 339,
       "title": "L-B WDS Closed Bronze Pro/Am Smooth Championship (W/T/FT)",
       "entries": [
         {
@@ -982,6 +1053,7 @@
       ]
     },
     {
+      "number": 339,
       "title": "L-C WDS Closed Bronze Pro/Am Smooth Championship (W/T/FT)",
       "entries": [
         {
@@ -1002,41 +1074,45 @@
       ]
     },
     {
+      "number": 339,
       "title": "L-SR2 Pro/Am Open Bronze Smooth Championship (W/T/FT)",
       "entries": [
         {
           "couple": "Zamel, Vivian and DeSouza, Marcio",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 340,
       "title": "L-A Best of the Best Closed Bronze Smooth Scholarship (W/T/FT)",
       "entries": [
         {
           "couple": "Chiappardi, Teri and Aquilino, Barney",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Angarola, Dylan and Lotoskyy, Sarah",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 340,
       "title": "L-B Best of the Best Closed Bronze Smooth Scholarship (W/T/FT)",
       "entries": [
         {
           "couple": "Beringer, Christina and Zaridze Birtviseli, Gia",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 340,
       "title": "L-B DCT Newcomer Smooth Scholarship (W/T/FT)",
       "entries": [
         {
@@ -1052,26 +1128,28 @@
       ]
     },
     {
+      "number": 341,
       "title": "L- DCT Senior Closed Bronze Smooth Scholarship (W/T/FT)",
       "entries": [
         {
           "couple": "Zamel, Vivian and DeSouza, Marcio",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Miller, Susan and Harger, Spencer",
           "place": "2",
-          "points": 6.0
+          "points": 9.0
         },
         {
           "couple": "Mazer, Aria and Karagoz, Can Muhammed",
           "place": "3",
-          "points": 3.0
+          "points": 4.5
         }
       ]
     },
     {
+      "number": 341,
       "title": "L-A DCT Newcomer Smooth Scholarship (W/T/FT)",
       "entries": [
         {
@@ -1087,31 +1165,33 @@
       ]
     },
     {
+      "number": 341,
       "title": "L-C Best of the Best Closed Bronze Smooth Scholarship (W/T/FT)",
       "entries": [
         {
           "couple": "Thatchenkery, Tessy and Gorjatsev, Kirill",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Brink, Sylvia and Hacke, Andrej",
           "place": "2",
-          "points": 7.0
+          "points": 10.5
         },
         {
           "couple": "Krieger, Elaine and McKeever, Michael",
           "place": "3",
-          "points": 5.0
+          "points": 7.5
         },
         {
           "couple": "Carpenter, Patty and Solano, Julius",
           "place": "4",
-          "points": 3.0
+          "points": 4.5
         }
       ]
     },
     {
+      "number": 383,
       "title": "G-B Gents Pro/Am Closed Silver Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
@@ -1127,6 +1207,7 @@
       ]
     },
     {
+      "number": 383,
       "title": "L-B Pro/Am Closed Silver Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
@@ -1137,6 +1218,7 @@
       ]
     },
     {
+      "number": 383,
       "title": "L-C Pro/Am Closed Silver Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
@@ -1147,6 +1229,7 @@
       ]
     },
     {
+      "number": 384,
       "title": "G-C WDS Closed Silver Pro/Am  Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
@@ -1157,6 +1240,7 @@
       ]
     },
     {
+      "number": 384,
       "title": "L-B WDS Closed Silver Pro/Am  Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
@@ -1167,6 +1251,7 @@
       ]
     },
     {
+      "number": 384,
       "title": "L-C WDS Closed Silver Pro/Am  Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
@@ -1177,16 +1262,18 @@
       ]
     },
     {
+      "number": 384,
       "title": "L-SR1 Pro/Am Closed Gold Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Rynkowski, Barbara and Ostarek, Rene",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 385,
       "title": "G-SR1 Pro/Am Closed Silver Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
@@ -1202,6 +1289,7 @@
       ]
     },
     {
+      "number": 385,
       "title": "L-SR1 Pro/Am Closed Silver Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
@@ -1222,146 +1310,158 @@
       ]
     },
     {
+      "number": 386,
       "title": "L-A Best of the Best Closed Silver Smooth Scholarship (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Hurd, Amanda and Hamza, Mazen",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 386,
       "title": "L-B Best of the Best Closed Silver Smooth Scholarship (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Larsen, Diane and Solano, Julius",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Kidwell, Tiffany and Dunn, Brent",
           "place": "2",
-          "points": 7.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 387,
       "title": "G-SR1 Pro/Am Open Silver Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Ambrose, Dave and Ray Shiller, Ginny",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 387,
       "title": "L-SR1 Pro/Am Open Silver Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Blakeslee, Jan and Gronek, Jean-Paul",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 387,
       "title": "L-SR2 Pro/Am Open Silver Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Collins, Melissa and Gorjatsev, Kirill",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 388,
       "title": "L- DCT Senior Closed Silver Smooth Scholarship (W/T/FT)",
       "entries": [
         {
           "couple": "Ciecka, Jack and Izabella, ",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Gentling, Sharon and Dahl, Gary",
           "place": "2",
-          "points": 10.5
+          "points": 14.0
         },
         {
           "couple": "Blakeslee, Jan and Gronek, Jean-Paul",
           "place": "3",
-          "points": 7.5
+          "points": 10.0
         },
         {
           "couple": "Werdal, David and Kark, Alyssa",
           "place": "4",
-          "points": 4.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 388,
       "title": "L-C Best of the Best Closed Silver Smooth Scholarship (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Cintron, Carmen and Shiller, Artem",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 389,
       "title": "L-C Pro/Am Open Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Flink, Andrea and Grebenin, Val",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 389,
       "title": "L-SR1 Pro/Am Open Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Bender, Doreen and Czarnecki, Mikolaj",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 389,
       "title": "L-SR2 Pro/Am Open Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Mengel, Jackie and Hamza, Mazen",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Collins, Melissa and Gorjatsev, Kirill",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 390,
       "title": "G-B Gents Pro/Am Open Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Harrison, Jerry and Lazzari, Francesca",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Ambrose, Dave and Ray Shiller, Ginny",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 394,
       "title": "L- DCT Senior Open Smooth Scholarship (W/T/FT/VW)",
       "entries": [
         {
@@ -1387,6 +1487,7 @@
       ]
     },
     {
+      "number": 395,
       "title": "L-B Pro/Am Open Smooth Scholarship (W/T/FT/VW)",
       "entries": [
         {
@@ -1397,6 +1498,7 @@
       ]
     },
     {
+      "number": 395,
       "title": "L-C Pro/Am Open Smooth Scholarship (W/T/FT/VW)",
       "entries": [
         {
@@ -1412,6 +1514,7 @@
       ]
     },
     {
+      "number": 477,
       "title": "L-B WDS Closed Bronze Pro/Am Latin Championship (CC/S/R)",
       "entries": [
         {
@@ -1422,6 +1525,7 @@
       ]
     },
     {
+      "number": 477,
       "title": "L-C WDS Closed Bronze Pro/Am Latin Championship (CC/S/R)",
       "entries": [
         {
@@ -1432,6 +1536,7 @@
       ]
     },
     {
+      "number": 477,
       "title": "L-SR1 Pro/Am Closed Bronze Latin Championship (CC/S/R)",
       "entries": [
         {
@@ -1442,6 +1547,7 @@
       ]
     },
     {
+      "number": 478,
       "title": "L-C Pro/Am Closed Bronze Latin Championship (CC/S/R)",
       "entries": [
         {
@@ -1452,31 +1558,34 @@
       ]
     },
     {
+      "number": 478,
       "title": "L-C Pro/Am Closed Silver Latin Championship (CC/S/R/J)",
       "entries": [
         {
           "couple": "Conti, Luda and Gavriline, Andrei",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Truong, Anh Thu and Shiller, Artem",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 479,
       "title": "L- DCT Senior Closed Bronze Latin Scholarship (CC/S/R)",
       "entries": [
         {
           "couple": "Katz, Jeanne and Shiller, Artem",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 479,
       "title": "L-B DCT Newcomer Latin Scholarship (CC/S/R)",
       "entries": [
         {
@@ -1487,31 +1596,34 @@
       ]
     },
     {
+      "number": 480,
       "title": "L-B Best of the Best Closed Bronze Latin Scholarship (CC/S/R)",
       "entries": [
         {
           "couple": "Beringer, Christina and Zaridze Birtviseli, Gia",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 480,
       "title": "L-C Best of the Best Closed Bronze Latin Scholarship (CC/S/R)",
       "entries": [
         {
           "couple": "Katz, Jeanne and Shiller, Artem",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Krieger, Elaine and McKeever, Michael",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 481,
       "title": "L-B Pro/Am Closed Gold Latin Championship (CC/S/R/J)",
       "entries": [
         {
@@ -1522,6 +1634,7 @@
       ]
     },
     {
+      "number": 481,
       "title": "L-SR1 Pro/Am Open Silver Latin Championship (CC/S/R/J)",
       "entries": [
         {
@@ -1552,61 +1665,66 @@
       ]
     },
     {
+      "number": 482,
       "title": "L-A Pro/Am Open Silver Latin Championship (CC/S/R/J)",
       "entries": [
         {
           "couple": "Paz, Isabella and Tsernov, Nikita",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 482,
       "title": "L-A WDS Open Pro/Am Latin Championship (CC/S/R/PD/J)",
       "entries": [
         {
           "couple": "Hwang, Cynthia and Malakhov, Nikita",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 482,
       "title": "L-B Pro/Am Open Latin Championship (CC/S/R/PD/J)",
       "entries": [
         {
           "couple": "Stefani, Michele and Tarnavskyy, Artur",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Tomal, Natalia and Kochura, Maxim",
           "place": "2",
-          "points": 9.0
+          "points": 12.0
         },
         {
           "couple": "Dezayas, Barbara and Ostarek, Rene",
           "place": "3",
-          "points": 4.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 482,
       "title": "L-C Pro/Am Open Silver Latin Championship (CC/S/R/J)",
       "entries": [
         {
           "couple": "Harrison, Nancy and Kravets, Ihor",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Angulo, Marie Lou and Zamora, JJ",
           "place": "2",
-          "points": 7.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 482,
       "title": "L-SR1 Pro/Am Closed Silver Latin Championship (CC/S/R/J)",
       "entries": [
         {
@@ -1622,6 +1740,7 @@
       ]
     },
     {
+      "number": 483,
       "title": "L-A Pro/Am Closed Gold Latin Championship (CC/S/R/J)",
       "entries": [
         {
@@ -1632,16 +1751,18 @@
       ]
     },
     {
+      "number": 483,
       "title": "L-B WDS Closed Silver Pro/Am Latin Championship (CC/S/R/J)",
       "entries": [
         {
           "couple": "Beringer, Christina and Zaridze Birtviseli, Gia",
           "place": "1",
-          "points": 20
+          "points": 15
         }
       ]
     },
     {
+      "number": 483,
       "title": "L-C Pro/Am Closed Gold Latin Championship (CC/S/R/J)",
       "entries": [
         {
@@ -1657,16 +1778,18 @@
       ]
     },
     {
+      "number": 483,
       "title": "L-C WDS Closed Silver Pro/Am Latin Championship (CC/S/R/J)",
       "entries": [
         {
           "couple": "Truong, Anh Thu and Shiller, Artem",
           "place": "1",
-          "points": 20
+          "points": 15
         }
       ]
     },
     {
+      "number": 483,
       "title": "L-SR1 Pro/Am Closed Gold Latin Championship (CC/S/R/J)",
       "entries": [
         {
@@ -1677,66 +1800,72 @@
       ]
     },
     {
+      "number": 484,
       "title": "L-SR1 Pro/Am Open Bronze Latin Championship (CC/S/R)",
       "entries": [
         {
           "couple": "Katz, Jeanne and Shiller, Artem",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 484,
       "title": "L-SR1 Pro/Am Open Latin Championship (CC/S/R/PD/J)",
       "entries": [
         {
           "couple": "Rynkowski, Barbara and Ostarek, Rene",
           "place": "1",
-          "points": 10.0
+          "points": 20.0
         },
         {
           "couple": "Gist, Phyllis and Karagoz, Can Muhammed",
           "place": "2",
-          "points": 5.0
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 489,
       "title": "L-A Best of the Best Closed Silver Latin Scholarship (CC/S/R/J)",
       "entries": [
         {
           "couple": "Paz, Isabella and Tsernov, Nikita",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 489,
       "title": "L-B Best of the Best Closed Silver Latin Scholarship (CC/S/R/J)",
       "entries": [
         {
           "couple": "Beringer, Christina and Zaridze Birtviseli, Gia",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 489,
       "title": "L-C Best of the Best Closed Silver Latin Scholarship (CC/S/R/J)",
       "entries": [
         {
           "couple": "Conti, Luda and Gavriline, Andrei",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Cintron, Carmen and Shiller, Artem",
           "place": "2",
-          "points": 7.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 490,
       "title": "L- DCT Senior Open Latin Scholarship (CC/S/R/J)",
       "entries": [
         {
@@ -1752,6 +1881,7 @@
       ]
     },
     {
+      "number": 490,
       "title": "L-A Pro/Am Open Latin Scholarship (CC/S/R/PD/J)",
       "entries": [
         {
@@ -1767,6 +1897,7 @@
       ]
     },
     {
+      "number": 490,
       "title": "L-B Pro/Am Open Latin Scholarship (CC/S/R/PD/J)",
       "entries": [
         {
@@ -1787,6 +1918,7 @@
       ]
     },
     {
+      "number": 490,
       "title": "L-C Pro/Am Open Latin Scholarship (CC/S/R/PD/J)",
       "entries": [
         {

@@ -2,85 +2,93 @@
   "comp name": "Dance Stars Festival",
   "heats": [
     {
+      "number": 27,
       "title": "Pro-Am Multi-Dance Closed 3 dance Full Bronze A1 Amer. Smooth (W,T,F)",
       "entries": [
         {
-          "couple": "Lee Tran, Daniel and Yao, Renee",
+          "couple": "Yao, Renee and Tran, Daniel Lee",
           "place": "1",
           "points": 10
         }
       ]
     },
     {
+      "number": 27,
       "title": "Pro-Am Multi-Dance Closed 3 dance Full Bronze B1 Amer. Smooth (W,T,F)",
       "entries": [
         {
-          "couple": "Minev, Hristo and Xu, Mary",
+          "couple": "Xu, Mary and Minev, Hristo",
           "place": "1",
           "points": 10.0
         }
       ]
     },
     {
+      "number": 27,
       "title": "Pro-Am Multi-Dance Closed 3 dance Full Silver C1 Amer. Smooth (W,T,F)",
       "entries": [
         {
-          "couple": "Nikolaev, Dmitry and Kawaguchi, Nadine",
+          "couple": "Kawaguchi, Nadine and Nikolaev, Dmitry",
           "place": "1",
           "points": 15.0
         }
       ]
     },
     {
+      "number": 27,
       "title": "Pro-Am Multi-Dance Open 4 dance Full Gold B1 Amer. Smooth (W,T,F,VW)",
       "entries": [
         {
           "couple": "Hudson, Henry and Johnson, Selena",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         }
       ]
     },
     {
+      "number": 29,
       "title": "Pro-Am Multi-Dance Closed 3 dance Full Bronze B2 Amer. Smooth (W,T,F)",
       "entries": [
         {
-          "couple": "Minev, Hristo and Shimamoto, Yuriko",
+          "couple": "Shimamoto, Yuriko and Minev, Hristo",
           "place": "1",
           "points": 10
         }
       ]
     },
     {
+      "number": 29,
       "title": "Pro-Am Scolarship 4 dance Open A (W,T,F,VW)",
       "entries": [
         {
-          "couple": "Lee Tran, Daniel and Honkura, Yumie",
+          "couple": "Honkura, Yumie and Tran, Daniel Lee",
           "place": "1",
           "points": 25.0
         },
         {
-          "couple": "Vasco, Daniel and Summers, Suanne",
+          "couple": "Summers, Suanne and Vasco, Daniel",
           "place": "2",
           "points": 15.0
         }
       ]
     },
     {
+      "number": 29,
       "title": "Pro-Am Scolarship 4 dance Open C1 (W,T,F,VW)",
       "entries": [
         {
-          "couple": "Nikolaev, Dmitry and Kawaguchi, Nadine",
+          "couple": "Kawaguchi, Nadine and Nikolaev, Dmitry",
           "place": "1",
           "points": 25.0
         }
       ]
     },
     {
+      "number": 30,
       "title": "Pro-Am Scolarship 4 dance Open B (W,T,F,VW)",
       "entries": [
         {
-          "couple": "Vasco, Daniel and Summers, Suanne",
+          "couple": "Summers, Suanne and Vasco, Daniel",
           "place": "1",
           "points": 25.0
         },
@@ -92,91 +100,78 @@
       ]
     },
     {
+      "number": 62,
       "title": "Pro-Am Scolarship 5 dance Int.Gold B Int'l Ballroom (W,T,F,VW,Q)",
       "entries": [
         {
-          "couple": "Faraci, Andrea and Sanchez-Torres, Marina",
+          "couple": "Sanchez-Torres, Marina and Faraci, Andrea",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
-      "title": "Singles Closed 3 MultiDance Full Bronze P2 Int'l Ballroom (W,T,Q)",
-      "entries": [
-        {
-          "couple": "GP-Gallardo, Anastasia and Gallardo, Anastasia",
-          "place": "1",
-          "points": 10.0
-        }
-      ]
-    },
-    {
-      "title": "Singles Closed 3 MultiDance Full Silver P2 Int'l Ballroom (W,T,Q)",
-      "entries": [
-        {
-          "couple": "GP-Gallardo, Anastasia and Gallardo, Anastasia",
-          "place": "1",
-          "points": 15
-        }
-      ]
-    },
-    {
+      "number": 140,
       "title": "Pro-Am Multi-Dance Closed 3 dance Full Bronze B1 Amer. Rhythm (CC,R,M)",
       "entries": [
         {
-          "couple": "Shmigeljuk, Artjom and Tam, Iris",
+          "couple": "Tam, Iris and Shmigeljuk, Artjom",
           "place": "1",
           "points": 10
         }
       ]
     },
     {
+      "number": 140,
       "title": "Pro-Am Multi-Dance Closed 3 dance Full Bronze B2 Amer. Rhythm (CC,R,M)",
       "entries": [
         {
-          "couple": "Abdelshahid, Lorans and Morgan, Kristen",
+          "couple": "Morgan, Kristen and Abdelshahid, Lorans",
           "place": "1",
           "points": 10.0
         }
       ]
     },
     {
+      "number": 140,
       "title": "Pro-Am Multi-Dance Closed 3 dance Full Silver C1 Amer. Rhythm (CC,R,M)",
       "entries": [
         {
-          "couple": "Nikolaev, Dmitry and Kawaguchi, Nadine",
+          "couple": "Kawaguchi, Nadine and Nikolaev, Dmitry",
           "place": "1",
           "points": 15.0
         }
       ]
     },
     {
+      "number": 140,
       "title": "Pro-Am Scolarship 5 dance Open A Amer. Rhythm (CC,R,SW,B,M)",
       "entries": [
         {
-          "couple": "Vasco, Daniel and Summers, Suanne",
+          "couple": "Summers, Suanne and Vasco, Daniel",
           "place": "1",
           "points": 25.0
         }
       ]
     },
     {
+      "number": 141,
       "title": "Pro-Am Scolarship 5 dance Open B Amer. Rhythm (CC,R,SW,B,M)",
       "entries": [
         {
-          "couple": "Vasco, Daniel and Summers, Suanne",
+          "couple": "Summers, Suanne and Vasco, Daniel",
           "place": "1",
           "points": 25.0
         },
         {
-          "couple": "Abdelshahid, Lorans and Morgan, Kristen",
+          "couple": "Morgan, Kristen and Abdelshahid, Lorans",
           "place": "2",
           "points": 12.5
         }
       ]
     },
     {
+      "number": 141,
       "title": "Pro-Am Scolarship 5 dance Open C1 Amer. Rhythm (CC,R,SW,B,M)",
       "entries": [
         {
@@ -185,234 +180,231 @@
           "points": 25.0
         },
         {
-          "couple": "Nikolaev, Dmitry and Kawaguchi, Nadine",
+          "couple": "Kawaguchi, Nadine and Nikolaev, Dmitry",
           "place": "2",
           "points": 17.5
         }
       ]
     },
     {
+      "number": 179,
       "title": "Pro-Am Multi-Dance Open 4 dance Open Gold P2 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
-          "couple": "Shmigeljuk, Artjom and Braylovskiy, Jackie",
+          "couple": "Braylovskiy, Jackie and Shmigeljuk, Artjom",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
-      "title": "Singles Closed Gold 5 Multidance Full Gold P2 Int'l Latin (CC,S,R,PD,J)",
-      "entries": [
-        {
-          "couple": "GP-Gallardo, Anastasia and Gallardo, Anastasia",
-          "place": "1",
-          "points": 20
-        }
-      ]
-    },
-    {
+      "number": 181,
       "title": "Pro-Am Multi-Dance Open 4 dance Open Gold P1 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
-          "couple": "Shmigeljuk, Artjom and Braylovskiy, Jackie",
+          "couple": "Braylovskiy, Jackie and Shmigeljuk, Artjom",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
-      "title": "Singles Closed 3 MultiDance Full Silver P2 Int'l Latin (CC,S,R)",
-      "entries": [
-        {
-          "couple": "GP-Gallardo, Anastasia and Gallardo, Anastasia",
-          "place": "1",
-          "points": 15.0
-        }
-      ]
-    },
-    {
+      "number": 249,
       "title": "Pro-Am Multi-Dance Closed 3 dance Full Bronze A2 Int'l Latin (CC,S,R)",
       "entries": [
         {
-          "couple": "Astakhov, Oleg and Zhou, Michelle",
+          "couple": "Zhou, Michelle and Astakhov, Oleg",
           "place": "1",
           "points": 10
         }
       ]
     },
     {
+      "number": 249,
       "title": "Pro-Am Multi-Dance Closed 3 dance Full Silver A1 Int'l Latin (CC,S,R)",
       "entries": [
         {
-          "couple": "Dmytrenko, Dmytro and Villwock, Kimberly",
+          "couple": "Villwock, Kimberly and Dmytrenko, Dmytro",
           "place": "1",
           "points": 15.0
         }
       ]
     },
     {
+      "number": 250,
       "title": "Pro-Am Multi-Dance Closed 3 dance Full Bronze B2 Int'l Latin (CC,S,R)",
       "entries": [
         {
-          "couple": "Orrock, William and Ana Sokol, Leslie",
+          "couple": "Ana Sokol, Leslie and Orrock, William",
           "place": "1",
           "points": 10.0
         },
         {
-          "couple": "Astakhov, Oleg and Wiredja, Waty",
+          "couple": "Wiredja, Waty and Astakhov, Oleg",
           "place": "2",
           "points": 5.0
         }
       ]
     },
     {
+      "number": 251,
       "title": "Pro-Am Multi-Dance Closed 3 dance Full Bronze B1 Int'l Latin (CC,S,R)",
       "entries": [
         {
-          "couple": "Astakhov, Oleg and Zhou, Michelle",
+          "couple": "Zhou, Michelle and Astakhov, Oleg",
           "place": "1",
           "points": 10.0
         },
         {
-          "couple": "Shmigeljuk, Artjom and Tam, Iris",
+          "couple": "Tam, Iris and Shmigeljuk, Artjom",
           "place": "2",
           "points": 5.0
         }
       ]
     },
     {
+      "number": 252,
       "title": "Pro-Am Multi-Dance Closed 3 dance Full Bronze C1 Int'l Latin (CC,S,R)",
       "entries": [
         {
-          "couple": "Astakhov, Oleg and Wiredja, Waty",
+          "couple": "Wiredja, Waty and Astakhov, Oleg",
           "place": "1",
           "points": 10
         }
       ]
     },
     {
+      "number": 253,
       "title": "Pro-Am Multi-Dance Closed 3 dance Full Silver A2 Int'l Latin (CC,S,R)",
       "entries": [
         {
-          "couple": "Astakhov, Oleg and Zhou, Michelle",
+          "couple": "Zhou, Michelle and Astakhov, Oleg",
           "place": "1",
           "points": 15
         }
       ]
     },
     {
+      "number": 254,
       "title": "Pro-Am Multi-Dance Open 4 dance Full Gold A2 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
-          "couple": "Astakhov, Oleg and Zhou, Michelle",
+          "couple": "Zhou, Michelle and Astakhov, Oleg",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 255,
       "title": "Pro-Am Multi-Dance Closed 3 dance Full Silver B2 Int'l Latin (CC,S,R)",
       "entries": [
         {
-          "couple": "Orrock, William and Ana Sokol, Leslie",
+          "couple": "Ana Sokol, Leslie and Orrock, William",
           "place": "1",
           "points": 15.0
         },
         {
-          "couple": "Dmytrenko, Dmytro and Lallana, Elaine",
+          "couple": "Lallana, Elaine and Dmytrenko, Dmytro",
           "place": "2",
           "points": 9.0
         },
         {
-          "couple": "Astakhov, Oleg and Wiredja, Waty",
+          "couple": "Wiredja, Waty and Astakhov, Oleg",
           "place": "3",
           "points": 4.5
         }
       ]
     },
     {
+      "number": 256,
       "title": "Pro-Am Multi-Dance Closed 3 dance Full Silver B1 Int'l Latin (CC,S,R)",
       "entries": [
         {
-          "couple": "Astakhov, Oleg and Zhou, Michelle",
+          "couple": "Zhou, Michelle and Astakhov, Oleg",
           "place": "1",
           "points": 15
         }
       ]
     },
     {
+      "number": 256,
       "title": "Pro-Am Multi-Dance Open 4 dance Open Gold A2 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
-          "couple": "Shmigeljuk, Artjom and Serpa, Monica",
+          "couple": "Serpa, Monica and Shmigeljuk, Artjom",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         }
       ]
     },
     {
+      "number": 257,
       "title": "Pro-Am Multi-Dance Closed 3 dance Full Silver C1 Int'l Latin (CC,S,R)",
       "entries": [
         {
-          "couple": "Astakhov, Oleg and Wiredja, Waty",
+          "couple": "Wiredja, Waty and Astakhov, Oleg",
           "place": "1",
           "points": 15
         }
       ]
     },
     {
+      "number": 257,
       "title": "Pro-Am Scolarship 5 dance Open B Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
-          "couple": "Shmigeljuk, Artjom and Serpa, Monica",
+          "couple": "Serpa, Monica and Shmigeljuk, Artjom",
           "place": "1",
           "points": 25.0
         },
         {
-          "couple": "Tarasov, Andrey and Ching, Yee-ping",
+          "couple": "Ching, Yee-ping and Tarasov, Andrey",
           "place": "2",
           "points": 15.0
         }
       ]
     },
     {
+      "number": 258,
       "title": "Pro-Am Scolarship 5 dance Open A Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
-          "couple": "Nazarov, Evgeny and Ljon, Christina",
+          "couple": "Ljon, Christina and Nazarov, Evgeny",
           "place": "1",
           "points": 25.0
         },
         {
-          "couple": "Shmigeljuk, Artjom and Dumov, Galina",
+          "couple": "Dumov, Galina and Shmigeljuk, Artjom",
           "place": "2",
           "points": 12.5
         }
       ]
     },
     {
+      "number": 258,
       "title": "Pro-Am Scolarship 5 dance Open C1 Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
-          "couple": "Astakhov, Oleg and Zhou, Michelle",
+          "couple": "Zhou, Michelle and Astakhov, Oleg",
           "place": "1",
           "points": 25.0
         }
       ]
     },
     {
+      "number": 259,
       "title": "Pro-Am Multi-Dance Open 4 dance Full Gold B1 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
-          "couple": "Tarasov, Andrey and Ching, Yee-ping",
+          "couple": "Ching, Yee-ping and Tarasov, Andrey",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         },
         {
-          "couple": "Astakhov, Oleg and Wiredja, Waty",
+          "couple": "Wiredja, Waty and Astakhov, Oleg",
           "place": "2",
-          "points": 10.0
+          "points": 12.5
         }
       ]
     }

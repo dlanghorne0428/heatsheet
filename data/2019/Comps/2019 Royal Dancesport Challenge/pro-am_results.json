@@ -2,56 +2,61 @@
   "comp name": "2019 Royal Dancesport Challenge",
   "heats": [
     {
+      "number": 78,
       "title": "L-C Closed Bronze Pro-Am American Smooth Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Fraser, Afton and Schmidt, Elmar",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "De Leon, Pol and Don, Adele",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 78,
       "title": "L-SR Closed Bronze Pro-Am American Smooth Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Calimlim, Jovita and Don, Jang SeHyoung",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Cooper, Donna and Lawatsch, Christoph",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 79,
       "title": "L-C Closed Gold Pro-Am American Smooth Scholarship (W/T/F/VW)",
       "entries": [
         {
           "couple": "De Leon, Zorayda and Don, Jang SeHyoung",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 79,
       "title": "L-SR Closed Gold Pro-Am American Smooth Scholarship (W/T/F/VW)",
       "entries": [
         {
           "couple": "Totten, Ingrid and Schmidt, Elmar",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 80,
       "title": "L-SR Open Pro-Am American Smooth Scholarship (W/T/F/VW)",
       "entries": [
         {
@@ -67,26 +72,29 @@
       ]
     },
     {
+      "number": 117,
       "title": "G-C Closed Silver Pro-Am International Ballroom Scholarship (W/T/QS)",
       "entries": [
         {
           "couple": "De Leon, Pol and Don, Adele",
-          "place": "1",
-          "points": 15
-        }
-      ]
-    },
-    {
-      "title": "L-C Closed Gold Pro-Am International Ballroom Scholarship (W/T/QS)",
-      "entries": [
-        {
-          "couple": "De Leon, Zorayda and Don, Jang SeHyoung",
           "place": "1",
           "points": 20
         }
       ]
     },
     {
+      "number": 117,
+      "title": "L-C Closed Gold Pro-Am International Ballroom Scholarship (W/T/VW/F/QS)",
+      "entries": [
+        {
+          "couple": "De Leon, Zorayda and Don, Jang SeHyoung",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 117,
       "title": "L-SR Closed Bronze Pro-Am International Ballroom Scholarship (W/T/QS)",
       "entries": [
         {
@@ -97,46 +105,50 @@
       ]
     },
     {
+      "number": 168,
       "title": "L-SR Closed Silver Pro-Am American Rhythm Scholarship (C/R/SW)",
       "entries": [
         {
           "couple": "Probert, Bonnie and Kanev, Georgi",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Totten, Ingrid and Helms, Marcel",
+          "place": "2",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "number": 169,
+      "title": "L-C Closed Bronze Pro-Am American Rhythm Scholarship (C/R/SW)",
+      "entries": [
+        {
+          "couple": "De Leon, Pol and Don, Adele",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Lurilo, Rita and Schmidt, Elmar",
           "place": "2",
           "points": 7.5
         }
       ]
     },
     {
-      "title": "L-C Closed Bronze Pro-Am American Rhythm Scholarship (C/R/SW)",
-      "entries": [
-        {
-          "couple": "De Leon, Pol and Don, Adele",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Lurilo, Rita and Schmidt, Elmar",
-          "place": "2",
-          "points": 5.0
-        }
-      ]
-    },
-    {
+      "number": 169,
       "title": "L-SR Closed Bronze Pro-Am American Rhythm Scholarship (C/R/SW)",
       "entries": [
         {
           "couple": "Calimlim, Jovita and Don, Jang SeHyoung",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 171,
       "title": "L-SR Open Pro-Am American Rhythm Scholarship (C/R/SW/B/M)",
       "entries": [
         {
@@ -147,16 +159,18 @@
       ]
     },
     {
+      "number": 226,
       "title": "G-C Closed Silver Pro-Am International Latin Scholarship (C/R/J)",
       "entries": [
         {
           "couple": "De Leon, Pol and Don, Adele",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 226,
       "title": "L-C Closed Bronze Pro-Am International Latin Scholarship (C/R/J)",
       "entries": [
         {
@@ -167,27 +181,29 @@
       ]
     },
     {
+      "number": 227,
       "title": "L-C Closed Gold Pro-Am International Latin Scholarship (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "De Leon, Zorayda and Don, Jang SeHyoung",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 227,
       "title": "L-C Open Pro-Am International Latin Scholarship (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Kazakevich, Marina and Gotchev, Mitch",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         },
         {
           "couple": "Dressel, Doreen and Gavrilov, Alexey",
           "place": "2",
-          "points": 10.0
+          "points": 12.5
         }
       ]
     }

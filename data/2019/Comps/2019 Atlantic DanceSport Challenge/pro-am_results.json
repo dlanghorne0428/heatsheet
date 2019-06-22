@@ -1,0 +1,853 @@
+{
+  "comp name": "2019 Atlantic DanceSport Challenge",
+  "heats": [
+    {
+      "number": 71,
+      "title": "L-B Closed Bronze Rhythm Challenge (C/R/Sw)",
+      "entries": [
+        {
+          "couple": "Grieder, Isabel and Bonini, Fabio",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "title": "L-C Closed Bronze Rhythm Challenge (C/R/Sw)",
+      "entries": [
+        {
+          "couple": "Leatherbury, Theresa and Nadeau, Stephen",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Robertson, Laura and Dawson, John",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "title": "G-SR1 Closed Bronze Sr Rhythm Challenge (C/R/Sw)",
+      "entries": [
+        {
+          "couple": "Bigger, Maureen and Gorjatsev, Kirill",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Rayner, Deborah and Kisialiou, Ihar",
+          "place": "2",
+          "points": 8.0
+        },
+        {
+          "couple": "Zelinski, Paul and Snyder, Barbra",
+          "place": "3",
+          "points": 6.5
+        },
+        {
+          "couple": "Williams, Susan and Dawson, John",
+          "place": "4",
+          "points": 5.0
+        },
+        {
+          "couple": "Claunch, Jack and Simmons, Patty",
+          "place": "5",
+          "points": 4.0
+        },
+        {
+          "couple": "Miller, Glenn and Arutsiunian, Hanna",
+          "place": "6",
+          "points": 3.0
+        },
+        {
+          "couple": "Gingery, Don and Beletsky, Aggie",
+          "place": "7",
+          "points": 2.5
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "L-A Closed Bronze Rhythm Challenge (C/R/Sw)",
+      "entries": [
+        {
+          "couple": "Isaac, Brooke and Bonini, Fabio",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "L-B Closed Silver Rhythm Challenge (C/R/Sw/B)",
+      "entries": [
+        {
+          "couple": "Hartmann, Sandra and Wilson, Kenneth",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "L-SR2 Closed Silver Sr Rhythm Challenge (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Kilroy, Adele and Dunn, Brent",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "L-B Open Rhythm Scholarship (C/R/Sw/B/M)",
+      "entries": [
+        {
+          "couple": "Hartmann, Sandra and Wilson, Kenneth",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "L-SR1 Closed Silver Sr Rhythm Challenge (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Chipman, Helen and Gorjatsev, Kirill",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Kilroy, Adele and Dunn, Brent",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Phillips, Meg and Bonini, Fabio",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "G-SEN1 Closed Bronze Rhythm Scholarship (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Miller, Glenn and Arutsiunian, Hanna",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "L-A Closed Bronze Rhythm Scholarship (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Grieder, Isabel and Bonini, Fabio",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "L-B Closed Silver Rhythm Scholarship (C/R/Sw/B)",
+      "entries": [
+        {
+          "couple": "Hartmann, Sandra and Wilson, Kenneth",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "L-C Closed Bronze Rhythm Scholarship (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Bigger, Maureen and Gorjatsev, Kirill",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Zantop, Suzanne and Nadeau, Stephen",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "L-SEN2 Closed Bronze Rhythm Scholarship (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Burrows, Laura and Kisialiou, Ihar",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "L-B Closed Bronze Rhythm Scholarship (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Grieder, Isabel and Bonini, Fabio",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Leatherbury, Theresa and Nadeau, Stephen",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "L-B Open Rhythm Challenge (C/R/Sw/B/M)",
+      "entries": [
+        {
+          "couple": "Hartmann, Sandra and Wilson, Kenneth",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "L-C Closed Silver Rhythm Scholarship (C/R/Sw/B)",
+      "entries": [
+        {
+          "couple": "Theriault, Anne-Marie and Gorjatsev, Kirill",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 120,
+      "title": "L-B Closed Silver Ballroom Challenge (W/T/F/Q)",
+      "entries": [
+        {
+          "couple": "Lynn, Connie and Senko, Alex",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Xile, Ning and Bazylev, Alexei",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Grieder, Isabel and Bonini, Fabio",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 120,
+      "title": "L-C Closed Bronze Ballroom Challenge (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Lemire, Judith and Smith, George D",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "number": 120,
+      "title": "L-C Closed Silver Ballroom Challenge (W/T/F/Q)",
+      "entries": [
+        {
+          "couple": "Ho, Lily and Izyumov, Sergey",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 121,
+      "title": "G-C Open Ballroom Challenge (W/T/V/F/Q)",
+      "entries": [
+        {
+          "couple": "Carey, John and Arutsiunian, Hanna",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Lemire, Judith and Smith, George D",
+          "place": "2",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "number": 121,
+      "title": "L-SR1 Closed Silver Sr Ballroom Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Ouk, Trang and Senko, Alex",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Phillips, Meg and Bonini, Fabio",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 121,
+      "title": "L-SR1 Open Sr Ballroom Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Yoshida, Yumiko and Peiganovich, Alexey",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 121,
+      "title": "L-SR2 Closed Silver Sr Ballroom Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Lindahl, Lynne and Kisialiou, Ihar",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 122,
+      "title": "L-B Closed Silver Ballroom Scholarship (W/T/F/Q)",
+      "entries": [
+        {
+          "couple": "Lynn, Connie and Senko, Alex",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Xile, Ning and Bazylev, Alexei",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Grieder, Isabel and Bonini, Fabio",
+          "place": "3",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 122,
+      "title": "L-C Closed Bronze Ballroom Scholarship (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Lemire, Judith and Smith, George D",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 122,
+      "title": "L-SEN1 Closed Bronze Ballroom Scholarship (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Rolfe, Cynthia and Esposito, Vincento",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 123,
+      "title": "L-A Closed Bronze Ballroom Scholarship (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Budiman, Felicia and Esposito, Vincento",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 123,
+      "title": "L-B Open Ballroom Scholarship (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Frost, Antonia and Conte, Riccardo",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 123,
+      "title": "L-C Closed Silver Ballroom Scholarship (W/T/F/Q)",
+      "entries": [
+        {
+          "couple": "Ho, Lily and Izyumov, Sergey",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 123,
+      "title": "L-SEN1 Closed Silver Ballroom Scholarship (W/T/F/Q)",
+      "entries": [
+        {
+          "couple": "Ouk, Trang and Senko, Alex",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 124,
+      "title": "L-C Open Ballroom Scholarship (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Frost, Antonia and Conte, Riccardo",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Carey, John and Arutsiunian, Hanna",
+          "place": "2",
+          "points": 17.5
+        },
+        {
+          "couple": "Yoshida, Yumiko and Peiganovich, Alexey",
+          "place": "3",
+          "points": 12.5
+        },
+        {
+          "couple": "Lemire, Judith and Smith, George D",
+          "place": "4",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 247,
+      "title": "L-B Closed Silver Latin Challenge (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Lynn, Connie and Senko, Alex",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Xile, Ning and Bazylev, Alexei",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Grieder, Isabel and Bonini, Fabio",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 247,
+      "title": "L-B Open Latin Challenge (C/S/R/P/J)",
+      "entries": [
+        {
+          "couple": "Razavi, Natalia and Fulvi, Daniele",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 247,
+      "title": "L-C Closed Silver Latin Challenge (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Kramer, Scotti and Pilipenchuk, Nikolai",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Ho, Lily and Izyumov, Sergey",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 248,
+      "title": "L-SR1 Closed Silver Sr Latin Challenge (C/R/J)",
+      "entries": [
+        {
+          "couple": "Kaplan, Beth and Bartashevich, Genya",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Ouk, Trang and Senko, Alex",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 248,
+      "title": "L-SR1 Open Sr Latin Challenge (C/R/J)",
+      "entries": [
+        {
+          "couple": "Puno, Michaela and Sergiev, Slava",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Yoshida, Yumiko and Peiganovich, Alexey",
+          "place": "2",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "number": 249,
+      "title": "L-C Open Latin Scholarship (C/S/R/P/J)",
+      "entries": [
+        {
+          "couple": "Han, Marie-Lin and Vasic, Sinisa",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 249,
+      "title": "L-SEN1 Closed Silver Latin Scholarship (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Kaplan, Beth and Bartashevich, Genya",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Ouk, Trang and Senko, Alex",
+          "place": "2",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "number": 250,
+      "title": "L-B Closed Silver Latin Scholarship (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Lynn, Connie and Senko, Alex",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Xile, Ning and Bazylev, Alexei",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Grieder, Isabel and Bonini, Fabio",
+          "place": "3",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 250,
+      "title": "L-B Open Latin Scholarship (C/S/R/P/J)",
+      "entries": [
+        {
+          "couple": "Razavi, Natalia and Fulvi, Daniele",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 250,
+      "title": "L-C Closed Silver Latin Scholarship (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Kaplan, Beth and Bartashevich, Genya",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Kramer, Scotti and Pilipenchuk, Nikolai",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Ho, Lily and Izyumov, Sergey",
+          "place": "3",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 279,
+      "title": "G-SR1 Closed Bronze Sr Smooth Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Rayner and Kisialiou",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Bigger, Maureen and Gorjatsev, Kirill",
+          "place": "2",
+          "points": 8.0
+        },
+        {
+          "couple": "Zelinski, Paul and Snyder, Barbra",
+          "place": "3",
+          "points": 6.5
+        },
+        {
+          "couple": "Williams, Susan and Dawson, John",
+          "place": "4",
+          "points": 5.0
+        },
+        {
+          "couple": "Claunch, Jack and Simmons, Patty",
+          "place": "5",
+          "points": 4.0
+        },
+        {
+          "couple": "Miller, Glenn and Arutsiunian, Hanna",
+          "place": "6",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "number": 280,
+      "title": "L-B Closed Bronze Smooth Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Isaac, Brooke and Bonini, Fabio",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "number": 280,
+      "title": "L-B Closed Silver Smooth Challenge (W/T/F/V)",
+      "entries": [
+        {
+          "couple": "Kidwell, Tiffany and Dunn, Brent",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 280,
+      "title": "L-C Closed Bronze Smooth Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Robertson, Laura and Dawson, John",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Leatherbury, Theresa and Nadeau, Stephen",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "number": 280,
+      "title": "L-C Closed Silver Smooth Challenge (W/T/F/V)",
+      "entries": [
+        {
+          "couple": "Lemire, Judith and Smith, George D",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "McGinn, Maura and Gorjatsev, Kirill",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 281,
+      "title": "L-SR1 Closed Silver Sr Smooth Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Ouk, Trang and Senko, Alex",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Chipman, Helen and Gorjatsev, Kirill",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Phillips, Meg and Bonini, Fabio",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 282,
+      "title": "L-B Closed Bronze Smooth Scholarship (W/T/F)",
+      "entries": [
+        {
+          "couple": "Leatherbury, Theresa and Nadeau, Stephen",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 282,
+      "title": "L-SR1 Open Sr Smooth  Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Puno, Michaela and Sergiev, Slava",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 282,
+      "title": "L-SR2 Open Sr Smooth  Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Lindahl, Lynne and Kisialiou, Ihar",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 283,
+      "title": "L-C Open Smooth Challenge (W/T/F/V)",
+      "entries": [
+        {
+          "couple": "Lemire, Judith and Smith, George D",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 284,
+      "title": "L-B Closed Silver Smooth Scholarship  (W/T/F/V)",
+      "entries": [
+        {
+          "couple": "Kidwell, Tiffany and Dunn, Brent",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 284,
+      "title": "L-C Closed Silver Smooth Scholarship  (W/T/F/V)",
+      "entries": [
+        {
+          "couple": "Theriault, Anne-Marie and Gorjatsev, Kirill",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Lemire, Judith and Smith, George D",
+          "place": "2",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "number": 284,
+      "title": "L-SEN1 Closed Silver Smooth Scholarship  (W/T/F/V)",
+      "entries": [
+        {
+          "couple": "Ouk, Trang and Senko, Alex",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 284,
+      "title": "L-SEN2 Open Smooth Scholarship (W/T/F/V)",
+      "entries": [
+        {
+          "couple": "Lindahl, Lynne and Kisialiou, Ihar",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 285,
+      "title": "G-SEN1 Closed Bronze Smooth Scholarship (W/T/F)",
+      "entries": [
+        {
+          "couple": "Miller, Glenn and Arutsiunian, Hanna",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Gingery and Beletsky",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 285,
+      "title": "L-C Open Smooth Scholarship (W/T/F/V)",
+      "entries": [
+        {
+          "couple": "Lemire, Judith and Smith, George D",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "McGinn and Gorjatsev",
+          "place": "2",
+          "points": 12.5
+        }
+      ]
+    },
+    {
+      "number": 285,
+      "title": "L-SEN2 Closed Bronze Smooth Scholarship (W/T/F)",
+      "entries": [
+        {
+          "couple": "Burrows, Laura and Kisialiou, Ihar",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    }
+  ]
+}
