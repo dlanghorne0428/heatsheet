@@ -2,6 +2,7 @@
   "comp name": "2019 Indianapolis Open DanceSport",
   "heats": [
     {
+      "number": 224,
       "title": "L-B2 Newcomer/Bronze Pro-Am 2 Dance Night Club (Sal/Bac)",
       "entries": [
         {
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "number": 225,
       "title": "G-C1 Newcomer/Bronze Pro-Am 2 Dance Night Club (H/WC)",
       "entries": [
         {
@@ -22,6 +24,7 @@
       ]
     },
     {
+      "number": 225,
       "title": "L-A1 Newcomer/Bronze Pro-Am 2 Dance Night Club (H/WC)",
       "entries": [
         {
@@ -32,6 +35,7 @@
       ]
     },
     {
+      "number": 226,
       "title": "L-C1 Newcomer/Bronze Pro-Am 2 Dance Night Club (NC/Mer)",
       "entries": [
         {
@@ -42,76 +46,83 @@
       ]
     },
     {
+      "number": 227,
       "title": "L-B2 Open Bronze Pro-Am 2 Dance Night Club (Sal/Bac)",
       "entries": [
         {
           "couple": "Gagnon, Karen and Hernandez, Peter",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "L-A3 Open Bronze Pro-Am 2 Dance Night Club (NC/Mer)",
-      "entries": [
-        {
-          "couple": "Gurtz, Tonya and Marcis, Milan",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "G-C1 Open Bronze Pro-Am 2 Dance Night Club (H/WC)",
-      "entries": [
-        {
-          "couple": "Klein, Bruce and Higgins, Kristy",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "L- Pro-Am Night Club Challenge B (H/WC/Sal)",
-      "entries": [
-        {
-          "couple": "Getts, Elisia and Tsorokean, Alyenendrov",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Morgan, Winnie and Kazlauskas, Jonas",
-          "place": "2",
-          "points": 6.0
-        },
-        {
-          "couple": "Arkins and Gehlhausen",
-          "place": "3",
-          "points": 3.0
-        }
-      ]
-    },
-    {
-      "title": "L-A1 Open Bronze Pro-Am 2 Dance Night Club (H/WC)",
-      "entries": [
-        {
-          "couple": "Tracy, Lauren and Dyson, Drew",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "L-B2 Open Silver Pro-Am 2 Dance Night Club (NC/Mer)",
-      "entries": [
-        {
-          "couple": "Columbus, Shanna and Marcis, Milan",
           "place": "1",
           "points": 15
         }
       ]
     },
     {
+      "number": 228,
+      "title": "L-A3 Open Bronze Pro-Am 2 Dance Night Club (NC/Mer)",
+      "entries": [
+        {
+          "couple": "Gurtz, Tonya and Marcis, Milan",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 229,
+      "title": "G-C1 Open Bronze Pro-Am 2 Dance Night Club (H/WC)",
+      "entries": [
+        {
+          "couple": "Klein, Bruce and Higgins, Kristy",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 229,
+      "title": "L- Pro-Am Night Club Challenge B (H/WC/Sal)",
+      "entries": [
+        {
+          "couple": "Getts, Elisia and Tsorokean, Alyenendrov",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Morgan, Winnie and Kazlauskas, Jonas",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Arkins and Gehlhausen",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 229,
+      "title": "L-A1 Open Bronze Pro-Am 2 Dance Night Club (H/WC)",
+      "entries": [
+        {
+          "couple": "Tracy, Lauren and Dyson, Drew",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 230,
+      "title": "L-B2 Open Silver Pro-Am 2 Dance Night Club (NC/Mer)",
+      "entries": [
+        {
+          "couple": "Columbus, Shanna and Marcis, Milan",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 231,
       "title": "L- Pro-Am Night Club Challenge A (H/WC/Sal)",
       "entries": [
         {
@@ -122,16 +133,18 @@
       ]
     },
     {
+      "number": 232,
       "title": "L-C1 Open Silver Pro-Am 2 Dance Night Club (NC/Mer)",
       "entries": [
         {
           "couple": "Zimmermann, Janis and Marcis, Milan",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 442,
       "title": "L-A1 Newcomer Pro-Am 2 Dance American Rhythm (C/R)",
       "entries": [
         {
@@ -142,6 +155,7 @@
       ]
     },
     {
+      "number": 442,
       "title": "L-B1 Newcomer Pro-Am 2 Dance American Rhythm (C/R)",
       "entries": [
         {
@@ -157,6 +171,7 @@
       ]
     },
     {
+      "number": 443,
       "title": "L-A1 Newcomer Pro-Am 2 Dance American Rhythm (SW/B)",
       "entries": [
         {
@@ -167,6 +182,7 @@
       ]
     },
     {
+      "number": 443,
       "title": "L-B1 Newcomer Pro-Am 2 Dance American Rhythm (SW/B)",
       "entries": [
         {
@@ -182,6 +198,7 @@
       ]
     },
     {
+      "number": 444,
       "title": "L-A1 Closed Bronze Pro-Am 2 Dance American Rhythm (C/R)",
       "entries": [
         {
@@ -192,6 +209,7 @@
       ]
     },
     {
+      "number": 444,
       "title": "L-B1 Closed Bronze Pro-Am 2 Dance American Rhythm (C/R)",
       "entries": [
         {
@@ -212,6 +230,7 @@
       ]
     },
     {
+      "number": 445,
       "title": "L-B2 Closed Bronze Pro-Am 2 Dance American Rhythm (C/R)",
       "entries": [
         {
@@ -237,6 +256,7 @@
       ]
     },
     {
+      "number": 446,
       "title": "L-A1 Closed Bronze Pro-Am 2 Dance American Rhythm (SW/B)",
       "entries": [
         {
@@ -247,6 +267,7 @@
       ]
     },
     {
+      "number": 446,
       "title": "L-B1 Closed Bronze Pro-Am 2 Dance American Rhythm (SW/B)",
       "entries": [
         {
@@ -267,6 +288,7 @@
       ]
     },
     {
+      "number": 447,
       "title": "G-C1 Closed Bronze Pro-Am 2 Dance American Rhythm (SW/B)",
       "entries": [
         {
@@ -277,6 +299,7 @@
       ]
     },
     {
+      "number": 447,
       "title": "L-B2 Closed Bronze Pro-Am 2 Dance American Rhythm (SW/B)",
       "entries": [
         {
@@ -297,76 +320,82 @@
       ]
     },
     {
+      "number": 448,
       "title": "G-C1 Open Bronze Pro-Am 2 Dance American Rhythm (C/R)",
       "entries": [
         {
           "couple": "Klein, Bruce and Higgins, Kristy",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 448,
       "title": "L-B1 Open Bronze Pro-Am 2 Dance American Rhythm (C/R)",
       "entries": [
         {
           "couple": "Bray, Patricia and Turiashvili, Kakha",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 448,
       "title": "L-B2 Open Bronze Pro-Am 2 Dance American Rhythm (C/R)",
       "entries": [
         {
           "couple": "Pack, Becca and De La Cruz, Melbin",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Stockton, Diane and Fernandez, Darren",
           "place": "2",
-          "points": 6.0
+          "points": 9.0
         },
         {
           "couple": "Klein, Sherry and Dyson, Drew",
           "place": "3",
-          "points": 3.0
+          "points": 4.5
         }
       ]
     },
     {
+      "number": 449,
       "title": "G-C1 Open Bronze Pro-Am 2 Dance American Rhythm (SW/B)",
       "entries": [
         {
           "couple": "Klein, Bruce and Higgins, Kristy",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 449,
       "title": "L-B2 Open Bronze Pro-Am 2 Dance American Rhythm (SW/B)",
       "entries": [
         {
           "couple": "Stockton, Diane and Fernandez, Darren",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Pack, Becca and De La Cruz, Melbin",
           "place": "2",
-          "points": 6.0
+          "points": 9.0
         },
         {
           "couple": "Klein, Sherry and Dyson, Drew",
           "place": "3",
-          "points": 3.0
+          "points": 4.5
         }
       ]
     },
     {
+      "number": 450,
       "title": "L-B1 Closed Silver Pro-Am 3 Dance American Rhythm (C/R/SW)",
       "entries": [
         {
@@ -377,6 +406,7 @@
       ]
     },
     {
+      "number": 450,
       "title": "L-B2 Closed Silver Pro-Am 3 Dance American Rhythm (C/R/SW)",
       "entries": [
         {
@@ -392,6 +422,7 @@
       ]
     },
     {
+      "number": 450,
       "title": "L-B2 Open Silver Pro-Am 3 Dance American Rhythm (C/R/SW)",
       "entries": [
         {
@@ -402,6 +433,7 @@
       ]
     },
     {
+      "number": 450,
       "title": "L-C1 Closed Silver Pro-Am 3 Dance American Rhythm (C/R/SW)",
       "entries": [
         {
@@ -412,16 +444,18 @@
       ]
     },
     {
+      "number": 450,
       "title": "L-D Open Silver Pro-Am 3 Dance American Rhythm (C/R/SW)",
       "entries": [
         {
           "couple": "Hutchens, Patsy and Fernandez, Darren",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 451,
       "title": "G-C Silver Pro-Am American Rhythm Gentlemen Only Challenge (C/R/SW)",
       "entries": [
         {
@@ -437,6 +471,7 @@
       ]
     },
     {
+      "number": 452,
       "title": "L-A Bronze Pro-Am American Rhythm Grand Challenge (C/R/SW)",
       "entries": [
         {
@@ -447,6 +482,7 @@
       ]
     },
     {
+      "number": 452,
       "title": "L-B Bronze Pro-Am American Rhythm Grand Challenge (C/R/SW)",
       "entries": [
         {
@@ -462,6 +498,7 @@
       ]
     },
     {
+      "number": 452,
       "title": "L-C Bronze Pro-Am American Rhythm Grand Challenge (C/R/SW)",
       "entries": [
         {
@@ -477,6 +514,7 @@
       ]
     },
     {
+      "number": 453,
       "title": "L-SR Bronze Pro-Am American Rhythm Grand Challenge (C/R/SW)",
       "entries": [
         {
@@ -507,141 +545,148 @@
       ]
     },
     {
+      "number": 454,
       "title": "L-C Closed Bronze Pro-Am American Rhythm Scholarship (C/R/SW)",
       "entries": [
         {
           "couple": "Jaffee, Cherri and Kazlauskas, Jonas",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         },
         {
           "couple": "Stockton, Diane and Fernandez, Darren",
           "place": "2",
-          "points": 16.0
+          "points": 20.0
         },
         {
           "couple": "Bray, Patricia and Turiashvili, Kakha",
           "place": "3",
-          "points": 13.0
+          "points": 16.25
         },
         {
           "couple": "Bowling, Marcia and Parragh, Jozsef",
           "place": "4",
-          "points": 10.0
+          "points": 12.5
         },
         {
           "couple": "Werdal, David and Reyzin, Amanda",
           "place": "5",
-          "points": 8.0
+          "points": 10.0
         },
         {
           "couple": "Krieger, Elaine and McKeever, Michael",
           "place": "6",
-          "points": 6.0
+          "points": 7.5
         },
         {
           "couple": "Pelky, Carol and Fies, Jordin",
           "place": "Semis",
-          "points": 2.4
+          "points": 3.0
         },
         {
           "couple": "Gagnon, Karen and Hernandez, Peter",
           "place": "Semis",
-          "points": 2.4
+          "points": 3.0
         },
         {
           "couple": "Klein, Bruce and Higgins, Kristy",
           "place": "Semis",
-          "points": 2.4
-        }
-      ]
-    },
-    {
-      "title": "L-A Closed Bronze Pro-Am American Rhythm Scholarship (C/R/SW)",
-      "entries": [
-        {
-          "couple": "Hartman, Brittney and Shook, Scott",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Cooper, Ann and McNamee, Brian",
-          "place": "2",
-          "points": 6.0
-        },
-        {
-          "couple": "Tracy, Lauren and Dyson, Drew",
-          "place": "3",
           "points": 3.0
         }
       ]
     },
     {
+      "number": 455,
+      "title": "L-A Closed Bronze Pro-Am American Rhythm Scholarship (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Hartman, Brittney and Shook, Scott",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Cooper, Ann and McNamee, Brian",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Tracy, Lauren and Dyson, Drew",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 455,
       "title": "L-B Closed Bronze Pro-Am American Rhythm Scholarship (C/R/SW)",
       "entries": [
         {
           "couple": "Augustine, Heather and Tsorokean, Alyenendrov",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Gauthier, Frank and Struk, Paulina",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 456,
       "title": "L-B Closed Silver Pro-Am American Rhythm Scholarship (C/R/SW)",
       "entries": [
         {
           "couple": "Anderson, Wendy and Neil, Michael",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Windy, Jill and Wilson, Jacob",
           "place": "2",
-          "points": 9.0
+          "points": 12.0
         },
         {
           "couple": "Fried, Emily and Shook, Scott",
           "place": "3",
-          "points": 4.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 457,
       "title": "L-A Closed Silver Pro-Am American Rhythm Scholarship (C/R/SW)",
       "entries": [
         {
           "couple": "Scott, Avante and Shook, Scott",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 457,
       "title": "L-C Closed Silver Pro-Am American Rhythm Scholarship (C/R/SW)",
       "entries": [
         {
           "couple": "Anderson, Wendy and Neil, Michael",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "McClurg, Rick and Lung, Monica",
           "place": "2",
-          "points": 9.0
+          "points": 12.0
         },
         {
           "couple": "Hainline, Sarah and Kazlauskas, Jonas",
           "place": "3",
-          "points": 4.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 458,
       "title": "L- Pro-Am American Rhythm SUPER Challenge (C/R/SW)",
       "entries": [
         {
@@ -652,6 +697,7 @@
       ]
     },
     {
+      "number": 458,
       "title": "L-B Silver Pro-Am American Rhythm Grand Challenge (C/R/SW)",
       "entries": [
         {
@@ -662,6 +708,7 @@
       ]
     },
     {
+      "number": 458,
       "title": "L-C Silver Pro-Am American Rhythm Grand Challenge (C/R/SW)",
       "entries": [
         {
@@ -672,6 +719,7 @@
       ]
     },
     {
+      "number": 458,
       "title": "L-SR Silver Pro-Am American Rhythm Grand Challenge (C/R/SW)",
       "entries": [
         {
@@ -687,6 +735,7 @@
       ]
     },
     {
+      "number": 459,
       "title": "L-C Open Bronze Pro-Am American Rhythm Grand Challenge (C/R/SW)",
       "entries": [
         {
@@ -697,21 +746,23 @@
       ]
     },
     {
+      "number": 459,
       "title": "L-C Open Silver Pro-Am American Rhythm Grand Challenge (C/R/SW)",
       "entries": [
         {
           "couple": "Weaver, Helene and Tsorokean, Alyenendrov",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Davis, Ben and Lung, Monica",
           "place": "2",
-          "points": 7.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 459,
       "title": "L-C Silver DanceSport Series Closed Pro-Am American Rhythm (C/R/SW)",
       "entries": [
         {
@@ -722,6 +773,7 @@
       ]
     },
     {
+      "number": 459,
       "title": "L-SR Open Bronze Pro-Am American Rhythm Grand Challenge (C/R/SW)",
       "entries": [
         {
@@ -732,6 +784,7 @@
       ]
     },
     {
+      "number": 460,
       "title": "L-A Bronze DanceSport Series Closed Pro-Am American Rhythm (C/R/SW)",
       "entries": [
         {
@@ -742,6 +795,7 @@
       ]
     },
     {
+      "number": 460,
       "title": "L-B Bronze DanceSport Series Closed Pro-Am American Rhythm (C/R/SW)",
       "entries": [
         {
@@ -752,16 +806,18 @@
       ]
     },
     {
+      "number": 460,
       "title": "L-B Silver DanceSport Series Closed Pro-Am American Rhythm (C/R/SW)",
       "entries": [
         {
           "couple": "Windy, Jill and Wilson, Jacob",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 460,
       "title": "L-C Bronze DanceSport Series Closed Pro-Am American Rhythm (C/R/SW)",
       "entries": [
         {
@@ -787,6 +843,7 @@
       ]
     },
     {
+      "number": 559,
       "title": "L-A3 Closed Bronze Pro-Am 2 Dance International Ballroom (W/T)",
       "entries": [
         {
@@ -797,41 +854,45 @@
       ]
     },
     {
+      "number": 559,
       "title": "L-B1 Newcomer Pro-Am 2 Dance International Ballroom (W/T)",
       "entries": [
         {
           "couple": "Krieger, Elaine and McKeever, Michael",
           "place": "1",
-          "points": 10.0
+          "points": 5.0
         },
         {
           "couple": "Pelky, Carol and Fies, Jordin",
           "place": "2",
-          "points": 5.0
+          "points": 2.5
         }
       ]
     },
     {
+      "number": 559,
       "title": "L-B1 Open Bronze Pro-Am 2 Dance International Ballroom (W/T)",
       "entries": [
         {
           "couple": "Marie, Georgianna and Burson, Chad",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 559,
       "title": "L-B2 Newcomer Pro-Am 2 Dance International Ballroom (W/T)",
       "entries": [
         {
           "couple": "Klein, Sherry and Dyson, Drew",
           "place": "1",
-          "points": 10
+          "points": 5
         }
       ]
     },
     {
+      "number": 560,
       "title": "L-B1 Newcomer Pro-Am 2 Dance International Ballroom (F/Q)",
       "entries": [
         {
@@ -842,16 +903,18 @@
       ]
     },
     {
+      "number": 560,
       "title": "L-B1 Open Bronze Pro-Am 2 Dance International Ballroom (F/Q)",
       "entries": [
         {
           "couple": "Marie, Georgianna and Burson, Chad",
           "place": "1",
-          "points": 5
+          "points": 15
         }
       ]
     },
     {
+      "number": 560,
       "title": "L-B2 Newcomer Pro-Am 2 Dance International Ballroom (F/Q)",
       "entries": [
         {
@@ -862,6 +925,7 @@
       ]
     },
     {
+      "number": 561,
       "title": "L-B1 Closed Bronze Pro-Am 2 Dance International Ballroom (W/T)",
       "entries": [
         {
@@ -887,6 +951,7 @@
       ]
     },
     {
+      "number": 561,
       "title": "L-B2 Closed Bronze Pro-Am 2 Dance International Ballroom (W/T)",
       "entries": [
         {
@@ -897,6 +962,7 @@
       ]
     },
     {
+      "number": 562,
       "title": "L-B1 Closed Bronze Pro-Am 2 Dance International Ballroom (F/Q)",
       "entries": [
         {
@@ -917,6 +983,7 @@
       ]
     },
     {
+      "number": 562,
       "title": "L-B2 Closed Bronze Pro-Am 2 Dance International Ballroom (F/Q)",
       "entries": [
         {
@@ -927,6 +994,7 @@
       ]
     },
     {
+      "number": 563,
       "title": "L-B2 Closed Silver Pro-Am 3 Dance International Ballroom (W/T/Q)",
       "entries": [
         {
@@ -952,46 +1020,50 @@
       ]
     },
     {
+      "number": 563,
       "title": "L-PT Pro/Am Closed Bronze Int'l Ballroom 3-Dance (W/T/Q)",
       "entries": [
         {
           "couple": "DeLong, Maria and Kazlauskas, Jonas",
           "place": "1",
-          "points": 15.0
+          "points": 10.0
         },
         {
           "couple": "Minkov, Jessica and Minkov, Peter",
           "place": "2",
-          "points": 7.5
+          "points": 5.0
         }
       ]
     },
     {
+      "number": 564,
       "title": "G-B2 Open Silver Pro-Am 3 Dance International Ballroom (W/T/Q)",
       "entries": [
         {
           "couple": "Leininger, Eric and Baumgartner, Katt",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 564,
       "title": "G-C Bronze Pro-Am International Ballroom Gentlemen Only Challenge (W/T/Q)",
       "entries": [
         {
           "couple": "Ogawa, Mitsuji and Chorbadzhieva, Angelina",
           "place": "1",
-          "points": 15.0
+          "points": 10.0
         },
         {
           "couple": "Harcum, Joe and Brockert, Bonita",
           "place": "2",
-          "points": 7.5
+          "points": 5.0
         }
       ]
     },
     {
+      "number": 564,
       "title": "L-C1 Closed Silver Pro-Am 3 Dance International Ballroom (W/T/Q)",
       "entries": [
         {
@@ -1007,6 +1079,7 @@
       ]
     },
     {
+      "number": 565,
       "title": "G-C Silver Pro-Am International Ballroom Gentlemen Only Challenge (W/T/Q)",
       "entries": [
         {
@@ -1022,6 +1095,7 @@
       ]
     },
     {
+      "number": 566,
       "title": "G-C Silver Pro-Am International Ballroom Grand Challenge (W/T/Q)",
       "entries": [
         {
@@ -1032,6 +1106,7 @@
       ]
     },
     {
+      "number": 566,
       "title": "L-C Open Bronze Pro-Am International Ballroom Grand Challenge (W/T/Q)",
       "entries": [
         {
@@ -1042,21 +1117,23 @@
       ]
     },
     {
+      "number": 566,
       "title": "L-SR Bronze Pro-Am International Ballroom Grand Challenge (W/T/Q)",
       "entries": [
         {
           "couple": "Ogawa, Mitsuji and Chorbadzhieva, Angelina",
           "place": "1",
-          "points": 15.0
+          "points": 10.0
         },
         {
           "couple": "Klein, Sherry and Dyson, Drew",
           "place": "2",
-          "points": 7.5
+          "points": 5.0
         }
       ]
     },
     {
+      "number": 566,
       "title": "L-SR Silver Pro-Am International Ballroom Grand Challenge (W/T/Q)",
       "entries": [
         {
@@ -1072,41 +1149,43 @@
       ]
     },
     {
+      "number": 567,
       "title": "L-C Closed Bronze Pro-Am International Ballroom Scholarship (W/T/Q)",
       "entries": [
         {
           "couple": "Hanners, Ellie and Jones, Charles",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Ogawa, Mitsuji and Chorbadzhieva, Angelina",
           "place": "2",
-          "points": 8.0
+          "points": 12.0
         },
         {
           "couple": "Krieger, Elaine and McKeever, Michael",
           "place": "3",
-          "points": 6.5
+          "points": 9.75
         },
         {
           "couple": "Hainline, Sarah and Kazlauskas, Jonas",
           "place": "4",
-          "points": 5.0
+          "points": 7.5
         },
         {
           "couple": "Harcum, Joe and Brockert, Bonita",
           "place": "5",
-          "points": 4.0
+          "points": 6.0
         },
         {
           "couple": "Pelky, Carol and Fies, Jordin",
           "place": "6",
-          "points": 3.0
+          "points": 4.5
         }
       ]
     },
     {
+      "number": 568,
       "title": "L-B Closed Bronze Pro-Am International Ballroom Scholarship (W/T/Q)",
       "entries": [
         {
@@ -1122,51 +1201,55 @@
       ]
     },
     {
+      "number": 568,
       "title": "L-B Closed Silver Pro-Am International Ballroom Scholarship (W/T/Q)",
       "entries": [
         {
           "couple": "Morgan, Winnie and Kazlauskas, Jonas",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 568,
       "title": "L-C Closed Silver Pro-Am International Ballroom Scholarship (W/T/Q)",
       "entries": [
         {
           "couple": "Keating, Carolyn and Zappia, Enzo",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Waltz, Beth and Davis, Steven",
           "place": "2",
-          "points": 10.5
+          "points": 14.0
         },
         {
           "couple": "Ogawa, Machiko and Richmond, Jim",
           "place": "3",
-          "points": 7.5
+          "points": 10.0
         },
         {
           "couple": "Leininger, Eric and Baumgartner, Katt",
           "place": "4",
-          "points": 4.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 570,
       "title": "G-C Open Silver Pro-Am International Ballroom Grand Challenge (W/T/Q)",
       "entries": [
         {
           "couple": "Leininger, Eric and Baumgartner, Katt",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 574,
       "title": "L-B2 Closed Gold Pro-Am 5 Dance American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
@@ -1177,6 +1260,7 @@
       ]
     },
     {
+      "number": 575,
       "title": "L-C Gold Pro-Am American Rhythm Grand Challenge (C/R/SW/B/M)",
       "entries": [
         {
@@ -1187,6 +1271,7 @@
       ]
     },
     {
+      "number": 575,
       "title": "L-SR Gold Pro-Am American Rhythm Grand Challenge (C/R/SW/B/M)",
       "entries": [
         {
@@ -1197,17 +1282,8 @@
       ]
     },
     {
+      "number": 576,
       "title": "G-A3 Open Gold Pro-Am 5 Dance American Rhythm (C/R/SW/B/M)",
-      "entries": [
-        {
-          "couple": "Singh, Amarik and Lillemagi, Jaana",
-          "place": "1",
-          "points": 20
-        }
-      ]
-    },
-    {
-      "title": "G-B Open Pro-Am American Rhythm Gentlemen Only Challenge (C/R/SW/B/M)",
       "entries": [
         {
           "couple": "Singh, Amarik and Lillemagi, Jaana",
@@ -1217,6 +1293,18 @@
       ]
     },
     {
+      "number": 577,
+      "title": "G-B Open Pro-Am American Rhythm Gentlemen Only Challenge (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Singh, Amarik and Lillemagi, Jaana",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 577,
       "title": "L-SR Open Gold Pro-Am American Rhythm Grand Challenge (C/R/SW/B/M)",
       "entries": [
         {
@@ -1227,36 +1315,39 @@
       ]
     },
     {
+      "number": 578,
       "title": "L-B Open DanceSport Series Open Pro-Am American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
           "couple": "Kennedy, Nichelle and Nashev, Alex",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Windy, Jill and Wilson, Jacob",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 578,
       "title": "L-C Open DanceSport Series Open Pro-Am American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
           "couple": "Anderson, Wendy and Neil, Michael",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Stockton, Diane and Fernandez, Darren",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 579,
       "title": "L-B Open Pro-Am American Rhythm Scholarship (C/R/SW/B/M)",
       "entries": [
         {
@@ -1277,6 +1368,7 @@
       ]
     },
     {
+      "number": 579,
       "title": "L-C Open Pro-Am American Rhythm Scholarship (C/R/SW/B/M)",
       "entries": [
         {
@@ -1297,26 +1389,29 @@
       ]
     },
     {
+      "number": 585,
       "title": "G-C Open Pro-Am International Ballroom Gentlemen Only Challenge (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Leininger, Eric and Baumgartner, Katt",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 585,
       "title": "L-C Open DanceSport Series Open Pro-Am International Ballroom (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Bradford, Jill and Stefano, Andrea",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 585,
       "title": "L-C1 Open Gold Pro-Am 5 Dance International Ballroom (W/T/VW/F/Q)",
       "entries": [
         {
@@ -1327,16 +1422,18 @@
       ]
     },
     {
+      "number": 586,
       "title": "G-B Open Gold Pro-Am International Ballroom Grand Challenge (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Klug, John and Ilo, Kathleen",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 586,
       "title": "L-A Open DanceSport Series Open Pro-Am International Ballroom (W/T/VW/F/Q)",
       "entries": [
         {
@@ -1357,21 +1454,23 @@
       ]
     },
     {
+      "number": 586,
       "title": "L-SR Open Gold Pro-Am International Ballroom Grand Challenge (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Stewart, Krista and Buravenko, Oleksiy",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         },
         {
           "couple": "Fuke, Mico and Ruddick, Scott",
           "place": "2",
-          "points": 10.0
+          "points": 12.5
         }
       ]
     },
     {
+      "number": 587,
       "title": "L-A Open Pro-Am International Ballroom Scholarship (W/T/VW/F/Q)",
       "entries": [
         {
@@ -1397,6 +1496,7 @@
       ]
     },
     {
+      "number": 588,
       "title": "G-B Open Pro-Am International Ballroom Scholarship (W/T/VW/F/Q)",
       "entries": [
         {
@@ -1407,6 +1507,7 @@
       ]
     },
     {
+      "number": 588,
       "title": "L-C Open Pro-Am International Ballroom Scholarship (W/T/VW/F/Q)",
       "entries": [
         {
@@ -1422,41 +1523,44 @@
       ]
     },
     {
+      "number": 813,
       "title": "L-A1 Newcomer Pro-Am 2 Dance American Smooth (W/T)",
       "entries": [
         {
           "couple": "Tracy, Lauren and Dyson, Drew",
           "place": "1",
-          "points": 10.0
+          "points": 5.0
         },
         {
           "couple": "Arkins and Gehlhausen",
           "place": "2",
-          "points": 5.0
+          "points": 2.5
         }
       ]
     },
     {
+      "number": 813,
       "title": "L-B1 Newcomer Pro-Am 2 Dance American Smooth (W/T)",
       "entries": [
         {
           "couple": "Obolsky, Dina and Minkov, Peter",
           "place": "1",
-          "points": 10.0
+          "points": 5.0
         },
         {
           "couple": "Krieger, Elaine and McKeever, Michael",
           "place": "2",
-          "points": 6.0
+          "points": 3.0
         },
         {
           "couple": "Pelky, Carol and Fies, Jordin",
           "place": "3",
-          "points": 3.0
+          "points": 1.5
         }
       ]
     },
     {
+      "number": 813,
       "title": "L-B2 Closed Bronze Pro-Am 2 Dance American Smooth (W/T)",
       "entries": [
         {
@@ -1477,6 +1581,7 @@
       ]
     },
     {
+      "number": 814,
       "title": "L-A1 Closed Bronze Pro-Am 2 Dance American Smooth (W/T)",
       "entries": [
         {
@@ -1487,6 +1592,7 @@
       ]
     },
     {
+      "number": 814,
       "title": "L-B1 Closed Bronze Pro-Am 2 Dance American Smooth (W/T)",
       "entries": [
         {
@@ -1512,6 +1618,7 @@
       ]
     },
     {
+      "number": 815,
       "title": "L-A1 Closed Bronze Pro-Am 2 Dance American Smooth (F/VW)",
       "entries": [
         {
@@ -1522,6 +1629,7 @@
       ]
     },
     {
+      "number": 815,
       "title": "L-B1 Closed Bronze Pro-Am 2 Dance American Smooth (F/VW)",
       "entries": [
         {
@@ -1542,31 +1650,34 @@
       ]
     },
     {
+      "number": 816,
       "title": "L-A1 Newcomer Pro-Am 2 Dance American Smooth (F/VW)",
       "entries": [
         {
           "couple": "Arkins and Gehlhausen",
           "place": "1",
-          "points": 10.0
+          "points": 5.0
         },
         {
           "couple": "Tracy, Lauren and Dyson, Drew",
           "place": "2",
-          "points": 5.0
+          "points": 2.5
         }
       ]
     },
     {
+      "number": 816,
       "title": "L-B1 Newcomer Pro-Am 2 Dance American Smooth (F/VW)",
       "entries": [
         {
           "couple": "Krieger, Elaine and McKeever, Michael",
           "place": "1",
-          "points": 10
+          "points": 5
         }
       ]
     },
     {
+      "number": 816,
       "title": "L-B2 Closed Bronze Pro-Am 2 Dance American Smooth (F/VW)",
       "entries": [
         {
@@ -1587,36 +1698,39 @@
       ]
     },
     {
+      "number": 818,
       "title": "L-B1 Open Bronze Pro-Am 2 Dance American Smooth (W/T)",
       "entries": [
         {
           "couple": "Bray, Patricia and Turiashvili, Kakha",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 818,
       "title": "L-B2 Open Bronze Pro-Am 2 Dance American Smooth (W/T)",
       "entries": [
         {
           "couple": "Stockton, Diane and Fernandez, Darren",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Elliott, Sandy and Gehlhausen, Sean",
           "place": "2",
-          "points": 6.0
+          "points": 9.0
         },
         {
           "couple": "Klein, Sherry and Dyson, Drew",
           "place": "3",
-          "points": 3.0
+          "points": 4.5
         }
       ]
     },
     {
+      "number": 819,
       "title": "L-A3 Closed Silver Pro-Am 3 Dance American Smooth (W/T/F)",
       "entries": [
         {
@@ -1627,6 +1741,7 @@
       ]
     },
     {
+      "number": 819,
       "title": "L-B1 Closed Silver Pro-Am 3 Dance American Smooth (W/T/F)",
       "entries": [
         {
@@ -1647,6 +1762,7 @@
       ]
     },
     {
+      "number": 819,
       "title": "L-C1 Closed Silver Pro-Am 3 Dance American Smooth (W/T/F)",
       "entries": [
         {
@@ -1657,6 +1773,7 @@
       ]
     },
     {
+      "number": 820,
       "title": "L-B2 Closed Silver Pro-Am 3 Dance American Smooth (W/T/F)",
       "entries": [
         {
@@ -1682,81 +1799,88 @@
       ]
     },
     {
+      "number": 821,
       "title": "L-B2 Open Bronze Pro-Am 2 Dance American Smooth (F/VW)",
       "entries": [
         {
           "couple": "Stockton, Diane and Fernandez, Darren",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Klein, Sherry and Dyson, Drew",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 822,
       "title": "G-B2 Open Silver Pro-Am 3 Dance American Smooth (W/T/F)",
       "entries": [
         {
           "couple": "Leininger, Eric and Baumgartner, Katt",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Shideler, Steve and Ilo, Kathleen",
           "place": "2",
-          "points": 7.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 822,
       "title": "L-A3 Open Silver Pro-Am 3 Dance American Smooth (W/T/F)",
       "entries": [
         {
           "couple": "Singh, Shveta and Lebedev, Pavel",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 822,
       "title": "L-D Open Silver Pro-Am 3 Dance American Smooth (W/T/F)",
       "entries": [
         {
           "couple": "Hutchens, Patsy and Fernandez, Darren",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 823,
       "title": "G-C Open Silver Pro-Am American Smooth Grand Challenge (W/T/F)",
       "entries": [
         {
           "couple": "Leininger, Eric and Baumgartner, Katt",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Davis, Ben and Lung, Monica",
           "place": "2",
-          "points": 7.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 823,
       "title": "L-B Open Silver Pro-Am American Smooth Grand Challenge (W/T/F)",
       "entries": [
         {
           "couple": "Singh, Shveta and Lebedev, Pavel",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 823,
       "title": "L-C Open Bronze Pro-Am American Smooth Grand Challenge (W/T/F)",
       "entries": [
         {
@@ -1767,26 +1891,28 @@
       ]
     },
     {
+      "number": 824,
       "title": "G-C Silver Pro-Am American Smooth Gentlemen Only Challenge (W/T/F)",
       "entries": [
         {
           "couple": "McClurg, Rick and Lung, Monica",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Leininger, Eric and Baumgartner, Katt",
           "place": "2",
-          "points": 6.0
+          "points": 9.0
         },
         {
           "couple": "Werdal, David and Reyzin, Amanda",
           "place": "3",
-          "points": 3.0
+          "points": 4.5
         }
       ]
     },
     {
+      "number": 825,
       "title": "L-A Bronze Pro-Am American Smooth Grand Challenge (W/T/F)",
       "entries": [
         {
@@ -1797,6 +1923,7 @@
       ]
     },
     {
+      "number": 825,
       "title": "L-SR Bronze Pro-Am American Smooth Grand Challenge (W/T/F)",
       "entries": [
         {
@@ -1812,6 +1939,7 @@
       ]
     },
     {
+      "number": 826,
       "title": "L-C Bronze Pro-Am American Smooth Grand Challenge (W/T/F)",
       "entries": [
         {
@@ -1837,6 +1965,7 @@
       ]
     },
     {
+      "number": 827,
       "title": "L-B Silver Pro-Am American Smooth Grand Challenge (W/T/F)",
       "entries": [
         {
@@ -1862,6 +1991,7 @@
       ]
     },
     {
+      "number": 828,
       "title": "L-C Silver Pro-Am American Smooth Grand Challenge (W/T/F)",
       "entries": [
         {
@@ -1877,6 +2007,7 @@
       ]
     },
     {
+      "number": 828,
       "title": "L-SR Silver Pro-Am American Smooth Grand Challenge (W/T/F)",
       "entries": [
         {
@@ -1902,6 +2033,7 @@
       ]
     },
     {
+      "number": 829,
       "title": "L-A Bronze DanceSport Series Closed Pro-Am American Smooth (W/T/F/)",
       "entries": [
         {
@@ -1912,21 +2044,23 @@
       ]
     },
     {
+      "number": 829,
       "title": "L-B Silver DanceSport Series Closed Pro-Am American Smooth (W/T/F/)",
       "entries": [
         {
           "couple": "Thomas, Mary and Alekseev, Aleksei",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Windy, Jill and Wilson, Jacob",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 829,
       "title": "L-C Bronze DanceSport Series Closed Pro-Am American Smooth (W/T/F/)",
       "entries": [
         {
@@ -1952,6 +2086,7 @@
       ]
     },
     {
+      "number": 830,
       "title": "L-C Silver DanceSport Series Closed Pro-Am American Smooth (W/T/F/)",
       "entries": [
         {
@@ -1972,151 +2107,156 @@
       ]
     },
     {
+      "number": 831,
       "title": "L-C Closed Bronze Pro-Am American Smooth Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Jaffee, Cherri and Kazlauskas, Jonas",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         },
         {
           "couple": "Stockton, Diane and Fernandez, Darren",
           "place": "2",
-          "points": 16.0
+          "points": 20.0
         },
         {
           "couple": "Obolsky, Dina and Minkov, Peter",
           "place": "3",
-          "points": 13.0
+          "points": 16.25
         },
         {
           "couple": "Bray, Patricia and Turiashvili, Kakha",
           "place": "4",
-          "points": 10.0
+          "points": 12.5
         },
         {
           "couple": "Bowling, Marcia and Parragh, Jozsef",
           "place": "5",
-          "points": 8.0
+          "points": 10.0
         },
         {
           "couple": "Martin, Sandi and Shook, Scott",
           "place": "6",
-          "points": 6.0
+          "points": 7.5
         },
         {
           "couple": "Pelky, Carol and Fies, Jordin",
           "place": "Semis",
-          "points": 2.4
+          "points": 3.0
         },
         {
           "couple": "Elliott, Sandy and Gehlhausen, Sean",
           "place": "Semis",
-          "points": 2.4
+          "points": 3.0
         },
         {
           "couple": "Gagnon, Karen and Hernandez, Peter",
           "place": "Semis",
-          "points": 2.4
+          "points": 3.0
         },
         {
           "couple": "Krieger, Elaine and McKeever, Michael",
           "place": "Semis",
-          "points": 2.4
+          "points": 3.0
         },
         {
           "couple": "Jollay, Geoff and Derevleva, Ekaterina",
           "place": "Semis",
-          "points": 2.4
+          "points": 3.0
         }
       ]
     },
     {
+      "number": 832,
       "title": "L-A Closed Bronze Pro-Am American Smooth Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Cooper, Ann and McNamee, Brian",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Tracy, Lauren and Dyson, Drew",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 832,
       "title": "L-B Closed Silver Pro-Am American Smooth Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Thomas, Mary and Alekseev, Aleksei",
           "place": "1",
-          "points": 10.0
+          "points": 20.0
         },
         {
           "couple": "Pyers, Kelly and Kazlauskas, Jonas",
           "place": "2",
-          "points": 8.0
+          "points": 16.0
         },
         {
           "couple": "Fried, Emily and Shook, Scott",
           "place": "3",
-          "points": 6.5
+          "points": 13.0
         },
         {
           "couple": "Singh, Shveta and Lebedev, Pavel",
           "place": "4",
-          "points": 5.0
+          "points": 10.0
         },
         {
           "couple": "Windy, Jill and Wilson, Jacob",
           "place": "5",
-          "points": 4.0
+          "points": 8.0
         }
       ]
     },
     {
+      "number": 833,
       "title": "L-C Closed Silver Pro-Am American Smooth Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Keating, Carolyn and Zappia, Enzo",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Jollay, Kay and Alekseev, Aleksei",
           "place": "2",
-          "points": 12.0
+          "points": 16.0
         },
         {
           "couple": "Marie, Georgianna and Burson, Chad",
           "place": "3",
-          "points": 9.75
+          "points": 13.0
         },
         {
           "couple": "McClurg, Rick and Lung, Monica",
           "place": "4",
-          "points": 7.5
+          "points": 10.0
         },
         {
           "couple": "Leininger, Eric and Baumgartner, Katt",
           "place": "5",
-          "points": 6.0
+          "points": 8.0
         },
         {
           "couple": "Hainline, Sarah and Kazlauskas, Jonas",
           "place": "6",
-          "points": 4.5
+          "points": 6.0
         },
         {
           "couple": "Werdal, David and Reyzin, Amanda",
           "place": "7",
-          "points": 3.75
+          "points": 5.0
         }
       ]
     },
     {
+      "number": 942,
       "title": "L-B1 Newcomer Pro-Am 2 Dance International Latin (C/R)",
       "entries": [
         {
@@ -2132,21 +2272,23 @@
       ]
     },
     {
+      "number": 942,
       "title": "L-B2 Closed Bronze Pro-Am 2 Dance International Latin (C/R)",
       "entries": [
         {
           "couple": "Bowling, Marcia and Parragh, Jozsef",
           "place": "1",
-          "points": 5.0
+          "points": 10.0
         },
         {
           "couple": "Klein, Sherry and Dyson, Drew",
           "place": "2",
-          "points": 2.5
+          "points": 5.0
         }
       ]
     },
     {
+      "number": 943,
       "title": "L-B1 Closed Bronze Pro-Am 2 Dance International Latin (C/R)",
       "entries": [
         {
@@ -2167,21 +2309,23 @@
       ]
     },
     {
+      "number": 943,
       "title": "L-B2 Newcomer Pro-Am 2 Dance International Latin (C/R)",
       "entries": [
         {
           "couple": "Klein, Sherry and Dyson, Drew",
           "place": "1",
-          "points": 10.0
+          "points": 5.0
         },
         {
           "couple": "Marx, Anna and Minkov, Peter",
           "place": "2",
-          "points": 5.0
+          "points": 2.5
         }
       ]
     },
     {
+      "number": 944,
       "title": "L-B1 Closed Bronze Pro-Am 2 Dance International Latin (S/J)",
       "entries": [
         {
@@ -2202,16 +2346,18 @@
       ]
     },
     {
+      "number": 944,
       "title": "L-B2 Newcomer Pro-Am 2 Dance International Latin (S/J)",
       "entries": [
         {
           "couple": "Klein, Sherry and Dyson, Drew",
           "place": "1",
-          "points": 10
+          "points": 5
         }
       ]
     },
     {
+      "number": 945,
       "title": "L-B1 Newcomer Pro-Am 2 Dance International Latin (S/J)",
       "entries": [
         {
@@ -2222,31 +2368,34 @@
       ]
     },
     {
+      "number": 945,
       "title": "L-B2 Closed Bronze Pro-Am 2 Dance International Latin (S/J)",
       "entries": [
         {
           "couple": "Bowling, Marcia and Parragh, Jozsef",
           "place": "1",
-          "points": 5.0
+          "points": 10.0
         },
         {
           "couple": "Klein, Sherry and Dyson, Drew",
           "place": "2",
-          "points": 2.5
+          "points": 5.0
         }
       ]
     },
     {
+      "number": 946,
       "title": "L-A3 Closed Bronze Pro-Am 2 Dance International Latin (C/R)",
       "entries": [
         {
           "couple": "Stevens, Judith and Minkov, Peter",
           "place": "1",
-          "points": 15
+          "points": 10
         }
       ]
     },
     {
+      "number": 946,
       "title": "L-B2 Closed Silver Pro-Am 3 Dance International Latin (C/S/R)",
       "entries": [
         {
@@ -2262,6 +2411,7 @@
       ]
     },
     {
+      "number": 946,
       "title": "L-C1 Closed Silver Pro-Am 3 Dance International Latin (C/S/R)",
       "entries": [
         {
@@ -2272,6 +2422,7 @@
       ]
     },
     {
+      "number": 947,
       "title": "G-C Silver Pro-Am International Latin Gentlemen Only Challenge (C/S/R)",
       "entries": [
         {
@@ -2282,21 +2433,23 @@
       ]
     },
     {
+      "number": 947,
       "title": "L-C Closed Bronze Pro-Am International Latin Grand Challenge (C/R/J)",
       "entries": [
         {
           "couple": "Bowling, Marcia and Parragh, Jozsef",
           "place": "1",
-          "points": 15.0
+          "points": 10.0
         },
         {
           "couple": "Obolsky, Dina and Minkov, Peter",
           "place": "2",
-          "points": 7.5
+          "points": 5.0
         }
       ]
     },
     {
+      "number": 948,
       "title": "L-B Closed Silver Pro-Am International Latin Grand Challenge (C/S/R)",
       "entries": [
         {
@@ -2307,26 +2460,28 @@
       ]
     },
     {
+      "number": 948,
       "title": "L-SR Closed Bronze Pro-Am International Latin Grand Challenge (C/R/J)",
       "entries": [
         {
           "couple": "Bowling, Marcia and Parragh, Jozsef",
           "place": "1",
-          "points": 15.0
+          "points": 10.0
         },
         {
           "couple": "Klein, Sherry and Dyson, Drew",
           "place": "2",
-          "points": 9.0
+          "points": 6.0
         },
         {
           "couple": "Marx, Anna and Minkov, Peter",
           "place": "3",
-          "points": 4.5
+          "points": 3.0
         }
       ]
     },
     {
+      "number": 949,
       "title": "L-PT Pro/Am Closed Bronze Latin 3-Dance (CC/R/J)",
       "entries": [
         {
@@ -2342,6 +2497,7 @@
       ]
     },
     {
+      "number": 950,
       "title": "G-C Closed Silver Pro-Am International Latin Grand Challenge (C/S/R)",
       "entries": [
         {
@@ -2352,6 +2508,7 @@
       ]
     },
     {
+      "number": 950,
       "title": "L-A Closed Silver Pro-Am International Latin Grand Challenge (C/S/R)",
       "entries": [
         {
@@ -2362,6 +2519,7 @@
       ]
     },
     {
+      "number": 950,
       "title": "L-SR Closed Silver Pro-Am International Latin Grand Challenge (C/S/R)",
       "entries": [
         {
@@ -2372,31 +2530,34 @@
       ]
     },
     {
+      "number": 951,
       "title": "L-A Closed Silver Pro-Am International Latin Scholarship (C/S/R)",
       "entries": [
         {
           "couple": "Nguyen, Vi and Korshunov, Sergey",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 951,
       "title": "L-B Closed Silver Pro-Am International Latin Scholarship (C/S/R)",
       "entries": [
         {
           "couple": "Avila, Nataliya and Kazlauskas, Jonas",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Appleton, Cristen and McNamee, Brian",
           "place": "2",
-          "points": 7.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 951,
       "title": "L-C Closed Bronze Pro-Am International Latin Scholarship (C/R/J)",
       "entries": [
         {
@@ -2417,6 +2578,7 @@
       ]
     },
     {
+      "number": 952,
       "title": "L-JR Pro/Am Closed Bronze Latin 3-Dance (CC/R/J)",
       "entries": [
         {
@@ -2427,6 +2589,7 @@
       ]
     },
     {
+      "number": 953,
       "title": "L-A Closed Bronze Pro-Am International Latin Scholarship (C/S/R)",
       "entries": [
         {
@@ -2442,36 +2605,39 @@
       ]
     },
     {
+      "number": 953,
       "title": "L-C Closed Silver Pro-Am International Latin Scholarship (C/S/R)",
       "entries": [
         {
           "couple": "Loftspring, Bonnie and McNamee, Brian",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Zollett, Karen and Parragh, Jozsef",
           "place": "2",
-          "points": 9.0
+          "points": 12.0
         },
         {
           "couple": "Leininger, Eric and Baumgartner, Katt",
           "place": "3",
-          "points": 4.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 954,
       "title": "G-C Open Silver Pro-Am International Latin Grand Challenge (C/S/R)",
       "entries": [
         {
           "couple": "Leininger, Eric and Baumgartner, Katt",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 954,
       "title": "L-B Silver DanceSport Series Closed Pro-Am International Latin (C/S/R)",
       "entries": [
         {
@@ -2482,17 +2648,30 @@
       ]
     },
     {
+      "number": 954,
       "title": "L-C Bronze DanceSport Series Closed Pro-Am International Latin (C/S/R)",
       "entries": [
         {
           "couple": "Bowling, Marcia and Parragh, Jozsef",
           "place": "1",
-          "points": 15
+          "points": 10
         }
       ]
     },
     {
+      "number": 975,
       "title": "G-A3 Open Gold Pro-Am 4 Dance American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Singh, Amarik and Lillemagi, Jaana",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 976,
+      "title": "G-B Open Pro-Am American Smooth Gentlemen Only Challenge (W/T/F/VW)",
       "entries": [
         {
           "couple": "Singh, Amarik and Lillemagi, Jaana",
@@ -2502,46 +2681,40 @@
       ]
     },
     {
-      "title": "G-B Open Pro-Am American Smooth Gentlemen Only Challenge (W/T/F/VW)",
-      "entries": [
-        {
-          "couple": "Singh, Amarik and Lillemagi, Jaana",
-          "place": "1",
-          "points": 25
-        }
-      ]
-    },
-    {
+      "number": 976,
       "title": "G-C Open Pro-Am American Smooth Gentlemen Only Challenge (W/T/F/VW)",
       "entries": [
         {
           "couple": "Leininger, Eric and Baumgartner, Katt",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 976,
       "title": "L-B Open DanceSport Series Open Pro-Am American Smooth (W/T/F/VW)",
       "entries": [
         {
           "couple": "Windy, Jill and Wilson, Jacob",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 976,
       "title": "L-C Open DanceSport Series Open Pro-Am American Smooth (W/T/F/VW)",
       "entries": [
         {
           "couple": "Stockton, Diane and Fernandez, Darren",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 977,
       "title": "L-B Open Pro-Am American Smooth Scholarship (W/T/F/VW)",
       "entries": [
         {
@@ -2562,6 +2735,7 @@
       ]
     },
     {
+      "number": 977,
       "title": "L-C Open Pro-Am American Smooth Scholarship (W/T/F/VW)",
       "entries": [
         {
@@ -2577,31 +2751,34 @@
       ]
     },
     {
+      "number": 982,
       "title": "L-A Open DanceSport Series Open Pro-Am International Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Stone, Jessica and Korshunov, Sergey",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 982,
       "title": "L-C Open DanceSport Series Open Pro-Am International Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Loftspring and McNamee",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Thomas, Mary and Alekseev, Aleksei",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 983,
       "title": "L-A Open Pro-Am International Latin Scholarship (C/S/R/PD/J)",
       "entries": [
         {
@@ -2617,6 +2794,7 @@
       ]
     },
     {
+      "number": 983,
       "title": "L-C Open Pro-Am International Latin Scholarship (C/S/R/PD/J)",
       "entries": [
         {
@@ -2632,6 +2810,7 @@
       ]
     },
     {
+      "number": 984,
       "title": "L-B Gold Pro-Am International Latin Grand Challenge (C/S/R/PD/J)",
       "entries": [
         {

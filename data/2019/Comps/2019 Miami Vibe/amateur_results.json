@@ -2,27 +2,8 @@
   "comp name": "2019 Miami Vibe",
   "heats": [
     {
+      "number": 571,
       "title": "AC-SRI Open International Ballroom (W/T/VW/F/QS)",
-      "entries": [
-        {
-          "couple": "Phatak, Shirish and Levy, Stacy",
-          "place": "1",
-          "points": 25
-        }
-      ]
-    },
-    {
-      "title": "AC-SR2 Open International Ballroom (W/T/VW/F/QS)",
-      "entries": [
-        {
-          "couple": "Phatak, Shirish and Levy, Stacy",
-          "place": "1",
-          "points": 25
-        }
-      ]
-    },
-    {
-      "title": "AC- Open Gold Dance for the Cure American Smooth  (W/T/F)",
       "entries": [
         {
           "couple": "Phatak, Shirish and Levy, Stacy",
@@ -32,6 +13,29 @@
       ]
     },
     {
+      "number": 572,
+      "title": "AC-SR2 Open International Ballroom (W/T/VW/F/QS)",
+      "entries": [
+        {
+          "couple": "Phatak, Shirish and Levy, Stacy",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 734,
+      "title": "AC- Open Gold Dance for the Cure American Smooth  (W/T/F)",
+      "entries": [
+        {
+          "couple": "Phatak, Shirish and Levy, Stacy",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 859,
       "title": "AC-JNR Novice International Latin (C/S/R)",
       "entries": [
         {
@@ -42,6 +46,7 @@
       ]
     },
     {
+      "number": 859,
       "title": "AC-PT Novice International Latin (C/S/R)",
       "entries": [
         {
@@ -57,6 +62,7 @@
       ]
     },
     {
+      "number": 863,
       "title": "AC-JNR Pre-Champ International Latin (C/S/R/J)",
       "entries": [
         {
@@ -67,6 +73,7 @@
       ]
     },
     {
+      "number": 863,
       "title": "AC-PT Pre-Champ International Latin (C/S/R/J)",
       "entries": [
         {
@@ -82,97 +89,103 @@
       ]
     },
     {
+      "number": 864,
       "title": "AC-SRI Open American Smooth (W/T/F/VW)",
       "entries": [
         {
           "couple": "Phatak, Shirish and Levy, Stacy",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 865,
       "title": "AC-U-21 Open International Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Krupskii, Vladislav and Dubinsky, Valerie",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 866,
       "title": "AC-SR2 Open American Smooth (W/T/F/VW)",
       "entries": [
         {
           "couple": "Phatak, Shirish and Levy, Stacy",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 867,
       "title": "AC-JNR Open International Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Marsel, Nikitin and Hoodyakova, Tonya",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 867,
       "title": "AC-PT Open International Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Castillo, Celeste and Castillo, Jamin",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 868,
       "title": "AC-A Open International Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Garber, Ron and Petriti, Klaudia",
           "place": "1",
-          "points": 35.0
+          "points": 30.0
         },
         {
           "couple": "Orlov, Yevgenii and Yerina, Maryna",
           "place": "2",
-          "points": 28.0
+          "points": 24.0
         },
         {
           "couple": "Roche, Brunno and Marques, Barbara",
           "place": "3",
-          "points": 22.75
+          "points": 19.5
         },
         {
           "couple": "D'Arpino, Giovanni and Vari, Francesca",
           "place": "4",
-          "points": 17.5
+          "points": 15.0
         },
         {
           "couple": "Ferreira, Diogo and Ferreira, Raquel",
           "place": "5",
-          "points": 14.0
+          "points": 12.0
         },
         {
           "couple": "Sa', Francisco and Roche, Marura",
           "place": "6",
-          "points": 10.5
+          "points": 9.0
         },
         {
           "couple": "Isaiev, Valentyn and Andriekute, Neda",
           "place": "Semis",
-          "points": 5.25
+          "points": 4.5
         },
         {
           "couple": "Krupskii, Vladislav and Dubinsky, Valerie",
           "place": "Semis",
-          "points": 4.55
+          "points": 3.9
         }
       ]
     }

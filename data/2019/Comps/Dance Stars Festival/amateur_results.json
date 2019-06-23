@@ -2,6 +2,7 @@
   "comp name": "Dance Stars Festival",
   "heats": [
     {
+      "number": 61,
       "title": "Amateur Multi-Dance Closed 3 dance Full Bronze P1 Int'l Ballroom (W,T,Q)",
       "entries": [
         {
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "number": 61,
       "title": "Amateur Multi-Dance Closed 3 dance Full Silver P2 Int'l Ballroom (W,T,Q)",
       "entries": [
         {
@@ -22,46 +24,51 @@
       ]
     },
     {
+      "number": 61,
       "title": "Amateur Multi-Dance Open 4 dance Full Gold J2 Int'l Ballroom (W,T,F,Q)",
       "entries": [
         {
           "couple": "Gribanovsky, Pavlik and Poda, Alexandra",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         }
       ]
     },
     {
+      "number": 61,
       "title": "Amateur Multi-Dance Open 4 dance Full Gold P2 Int'l Ballroom (W,T,F,Q)",
       "entries": [
         {
           "couple": "Kolovyansky, Samuel and Kolovyansky, Alexis",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         }
       ]
     },
     {
+      "number": 61,
       "title": "Amateur Multi-Dance Open 4 dance Open J1 Int'l Ballroom (W,T,F,Q)",
       "entries": [
         {
           "couple": "Berg, Jake and Gulchin, Julia",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         }
       ]
     },
     {
+      "number": 61,
       "title": "Amateur Multi-Dance Open 4 dance Open J2 Int'l Ballroom (W,T,F,Q)",
       "entries": [
         {
           "couple": "Geller, Denis and Zhukova, Veronika",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         }
       ]
     },
     {
+      "number": 62,
       "title": "Amateur Multi-Dance Closed 3 dance Full Bronze B1 Int'l Ballroom (W,T,Q)",
       "entries": [
         {
@@ -72,6 +79,7 @@
       ]
     },
     {
+      "number": 62,
       "title": "Amateur Multi-Dance Closed 3 dance Full Bronze J1 Int'l Ballroom (W,T,Q)",
       "entries": [
         {
@@ -82,16 +90,18 @@
       ]
     },
     {
+      "number": 62,
       "title": "Amateur Multi-Dance Open 4 dance Open P1 Int'l Ballroom (W,T,F,Q)",
       "entries": [
         {
           "couple": "Parra, Peter and Braylovskiy, Jackie",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         }
       ]
     },
     {
+      "number": 63,
       "title": "JPC 4 dance Bronze Syllabus B TB AM/AM (W,Q,CC,J)",
       "entries": [
         {
@@ -102,56 +112,59 @@
       ]
     },
     {
+      "number": 64,
       "title": "Amateur Multi-Dance Open 5 dance Open J2 Int'l Ballroom (W,T,VW,F,Q)",
       "entries": [
         {
           "couple": "Mattos, Anthony and Zinchenko, Eva",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Gribanovsky, Pavlik and Poda, Alexandra",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 64,
       "title": "Amateur Multi-Dance Open 5 dance Open P2 Int'l Ballroom (W,T,VW,F,Q)",
       "entries": [
         {
           "couple": "Kalachev, Matvey and Markova, Sasha",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Kolovyansky, Samuel and Kolovyansky, Alexis",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         },
         {
           "couple": "Karasik, Jacob and Kwan, Jaslyn",
           "place": "3",
-          "points": 16.25
+          "points": 13.0
         },
         {
           "couple": "Zhukov, Yegor and Cherkas, Adyson",
           "place": "4",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": "Yakubov, Benjamin and Popov Spektor, Nicole",
           "place": "5",
-          "points": 10.0
+          "points": 8.0
         },
         {
           "couple": "Ghishan, Anthony and Vilderman, Maria",
           "place": "6",
-          "points": 7.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 65,
       "title": "Amateur Multi-Dance Closed 3 dance Full Silver B1 Int'l Ballroom (W,T,Q)",
       "entries": [
         {
@@ -162,6 +175,7 @@
       ]
     },
     {
+      "number": 65,
       "title": "Amateur Multi-Dance Closed 3 dance Full Silver J1 Int'l Ballroom (W,T,Q)",
       "entries": [
         {
@@ -172,16 +186,18 @@
       ]
     },
     {
+      "number": 65,
       "title": "JPC 6 dance Closed Syllabus G TB AM/AM (W,T,Q,CC,J,S)",
       "entries": [
         {
           "couple": "Novikov, Michael and Dragunov, Dasha",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         }
       ]
     },
     {
+      "number": 66,
       "title": "Amateur Multi-Dance Closed 3 dance Full Silver J2 Int'l Ballroom (W,T,Q)",
       "entries": [
         {
@@ -192,16 +208,18 @@
       ]
     },
     {
+      "number": 66,
       "title": "Amateur Multi-Dance Open 5 dance Open Y Int'l Ballroom (W,T,VW,F,Q)",
       "entries": [
         {
           "couple": "Li, Tyler and Lowe, Anjelica",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         }
       ]
     },
     {
+      "number": 66,
       "title": "Kids Scolarship 5 dance Open J AM/AM Int'l Ballroom (W,T,VW,F,Q)",
       "entries": [
         {
@@ -212,6 +230,7 @@
       ]
     },
     {
+      "number": 67,
       "title": "Amateur Multi-Dance Closed 3 dance Full Bronze TB Int'l Ballroom (W,T,Q)",
       "entries": [
         {
@@ -222,51 +241,54 @@
       ]
     },
     {
+      "number": 67,
       "title": "Amateur Multi-Dance Open 4 dance Open P2 Int'l Ballroom (W,T,F,Q)",
       "entries": [
         {
           "couple": "Kolovyansky, Samuel and Kolovyansky, Alexis",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Zhukov, Yegor and Cherkas, Adyson",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         },
         {
           "couple": "Yakubov, Benjamin and Popov Spektor, Nicole",
           "place": "3",
-          "points": 16.25
+          "points": 13.0
         },
         {
           "couple": "Ghishan, Anthony and Vilderman, Maria",
           "place": "4",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": "Tkachenko, Timothy and Dunavetsky, Isabel",
           "place": "5",
-          "points": 10.0
+          "points": 8.0
         }
       ]
     },
     {
+      "number": 67,
       "title": "Amateur Multi-Dance Open 5 dance Open J1 Int'l Ballroom (W,T,VW,F,Q)",
       "entries": [
         {
           "couple": "Geller, Denis and Zhukova, Veronika",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Berg, Jake and Gulchin, Julia",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         }
       ]
     },
     {
+      "number": 173,
       "title": "Amateur Multi-Dance Closed 3 dance Full Bronze P1 Int'l Latin (CC,S,R)",
       "entries": [
         {
@@ -287,6 +309,7 @@
       ]
     },
     {
+      "number": 173,
       "title": "Amateur Multi-Dance Closed 3 dance Full Bronze P2 Int'l Latin (CC,S,R)",
       "entries": [
         {
@@ -297,6 +320,7 @@
       ]
     },
     {
+      "number": 173,
       "title": "Amateur Multi-Dance Closed 3 dance Full Silver P2 Int'l Latin (CC,S,R)",
       "entries": [
         {
@@ -312,6 +336,7 @@
       ]
     },
     {
+      "number": 174,
       "title": "Amateur Multi-Dance Closed 3 dance Full Silver J1 Int'l Latin (CC,S,R)",
       "entries": [
         {
@@ -322,71 +347,77 @@
       ]
     },
     {
+      "number": 174,
       "title": "Amateur Multi-Dance Open 4 dance Full Gold J1 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
           "couple": "Firestein, Max and Simone Gorin, Alexis",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         }
       ]
     },
     {
+      "number": 174,
       "title": "Amateur Multi-Dance Open 4 dance Full Gold Y Int'l Latin (CC,S,R,J)",
       "entries": [
         {
           "couple": "Poda, Vladislav and Iarmolenko, Olga",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         },
         {
           "couple": "Strazhnikov, Anthony and Sayenko, Dar'ya",
           "place": "2",
-          "points": 14.0
+          "points": 17.5
         }
       ]
     },
     {
+      "number": 174,
       "title": "Amateur Multi-Dance Open 4 dance Open J1 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
           "couple": "Ghishan, Anthony and Vilderman, Maria",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Shee, Regan and Kashper, Gabrielle",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         }
       ]
     },
     {
+      "number": 174,
       "title": "Amateur Multi-Dance Open 4 dance Open J2 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
           "couple": "Geller, Denis and Zhukova, Veronika",
           "place": "1",
-          "points": 25.0
-        }
-      ]
-    },
-    {
-      "title": "Amateur Multi-Dance Open 4 dance Open P1 Int'l Latin (CC,S,R,J)",
-      "entries": [
-        {
-          "couple": "Yanovich, Sasha and Ovechkina, Alena",
-          "place": "1",
-          "points": 25.0
-        },
-        {
-          "couple": "Parra, Peter and Braylovskiy, Jackie",
-          "place": "2",
           "points": 20.0
         }
       ]
     },
     {
+      "number": 174,
+      "title": "Amateur Multi-Dance Open 4 dance Open P1 Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Yanovich, Sasha and Ovechkina, Alena",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Parra, Peter and Braylovskiy, Jackie",
+          "place": "2",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "number": 175,
       "title": "Amateur Multi-Dance Closed 3 dance Full Silver P1 Int'l Latin (CC,S,R)",
       "entries": [
         {
@@ -412,76 +443,80 @@
       ]
     },
     {
+      "number": 175,
       "title": "Amateur Multi-Dance Open 5 dance Open J2 Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
           "couple": "Mattos, Anthony and Zinchenko, Eva",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Gribanovsky, Pavlik and Poda, Alexandra",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         }
       ]
     },
     {
+      "number": 176,
       "title": "Amateur Multi-Dance Open 4 dance Full Gold J2 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
           "couple": "Firestein, Max and Simone Gorin, Alexis",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         },
         {
           "couple": "Gribanovsky, Pavlik and Poda, Alexandra",
           "place": "2",
-          "points": 10.0
+          "points": 12.5
         }
       ]
     },
     {
+      "number": 176,
       "title": "Amateur Multi-Dance Open 4 dance Open P2 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
           "couple": "Ghishan, Anthony and Vilderman, Maria",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Zhukov, Yegor and Cherkas, Adyson",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         },
         {
           "couple": "Yakubov, Benjamin and Popov Spektor, Nicole",
           "place": "3",
-          "points": 16.25
+          "points": 13.0
         },
         {
           "couple": "Kolovyansky, Samuel and Kolovyansky, Alexis",
           "place": "4",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": " Accardo, Alessandro and Varvashenko, Diana",
           "place": "5",
-          "points": 10.0
+          "points": 8.0
         },
         {
           "couple": "Tkachenko, Timothy and Dunavetsky, Isabel",
           "place": "6",
-          "points": 7.5
+          "points": 6.0
         },
         {
           "couple": "Parrot, David and Pravdin, Genna",
           "place": "7",
-          "points": 6.25
+          "points": 5.0
         }
       ]
     },
     {
+      "number": 177,
       "title": "Amateur Multi-Dance Closed 3 dance Full Bronze TB Int'l Latin (CC,S,R)",
       "entries": [
         {
@@ -497,6 +532,7 @@
       ]
     },
     {
+      "number": 177,
       "title": "Amateur Multi-Dance Closed 5 dance Full Gold P1 Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
@@ -507,6 +543,7 @@
       ]
     },
     {
+      "number": 177,
       "title": "Amateur Multi-Dance Closed 5 dance Full Gold P2 Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
@@ -527,6 +564,7 @@
       ]
     },
     {
+      "number": 177,
       "title": "Amateur Multi-Dance Closed 3 dance Int.Bronze TB Int'l Latin (CC,S,R)",
       "entries": [
         {
@@ -547,41 +585,43 @@
       ]
     },
     {
+      "number": 178,
       "title": "Amateur Multi-Dance Open 5 dance Open P2 Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
           "couple": "Karasik, Jacob and Kwan, Jaslyn",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Kalachev, Matvey and Markova, Sasha",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         },
         {
           "couple": "Ghishan, Anthony and Vilderman, Maria",
           "place": "3",
-          "points": 16.25
+          "points": 13.0
         },
         {
           "couple": "Kolovyansky, Samuel and Kolovyansky, Alexis",
           "place": "4",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": "Yakubov, Benjamin and Popov Spektor, Nicole",
           "place": "5",
-          "points": 10.0
+          "points": 8.0
         },
         {
           "couple": "Zhukov, Yegor and Cherkas, Adyson",
           "place": "6",
-          "points": 7.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 178,
       "title": "Kids Scolarship 5 dance Open J AM/AM Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
@@ -592,6 +632,7 @@
       ]
     },
     {
+      "number": 179,
       "title": "Amateur Multi-Dance Closed 3 dance Full Silver TB Int'l Latin (CC,S,R)",
       "entries": [
         {
@@ -612,6 +653,7 @@
       ]
     },
     {
+      "number": 179,
       "title": "Amateur Multi-Dance Closed 3 dance Int.Silver TB Int'l Latin (CC,S,R)",
       "entries": [
         {
@@ -627,51 +669,55 @@
       ]
     },
     {
+      "number": 179,
       "title": "Amateur Multi-Dance Open 4 dance Full Gold P1 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
           "couple": "Khosla, Abhinav and Libov, Veronica",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         }
       ]
     },
     {
+      "number": 180,
       "title": "Amateur Multi-Dance Open 5 dance Open J1 Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
           "couple": "Geller, Denis and Zhukova, Veronika",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 180,
       "title": "Amateur Multi-Dance Open 5 dance Open Y Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
           "couple": "Firestein, Max and Mtchedlidze, Nicole",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Li, Tyler and Lowe, Anjelica",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         },
         {
           "couple": "Poda, Vladislav and Iarmolenko, Olga",
           "place": "3",
-          "points": 16.25
+          "points": 13.0
         },
         {
           "couple": "Strazhnikov, Anthony and Sayenko, Dar'ya",
           "place": "4",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 181,
       "title": "Kids Scolarship 5 dance Open P AM/AM Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
@@ -687,6 +733,7 @@
       ]
     },
     {
+      "number": 181,
       "title": "Kids Scolarship 5 dance Open Y AM/AM Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
@@ -702,72 +749,77 @@
       ]
     },
     {
+      "number": 253,
       "title": "Amateur Multi-Dance Open 4 dance Full Gold A2 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
           "couple": "Lupersolsky, Andrew and Chou, Nancy",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 254,
+      "title": "Amateur Multi-Dance Open 5 dance Open AM Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Tarasov, Nikolai and Wolan, Sara",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Firestein, Max and Mtchedlidze, Nicole",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Nikitchenko, Andrii and Lisovska, Yuliya",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Ferrante, Giulio and Martinez Espinosa, Lidia",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Ronin, Ilya and Balaban, Irina",
+          "place": "5",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "number": 256,
+      "title": "Amateur Multi-Dance Open 4 dance Open AM Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Ronin, Ilya and Balaban, Irina",
           "place": "1",
           "points": 20
         }
       ]
     },
     {
-      "title": "Amateur Multi-Dance Open 5 dance Open AM Int'l Latin (CC,S,R,PD,J)",
-      "entries": [
-        {
-          "couple": "Tarasov, Nikolai and Wolan, Sara",
-          "place": "1",
-          "points": 25.0
-        },
-        {
-          "couple": "Firestein, Max and Mtchedlidze, Nicole",
-          "place": "2",
-          "points": 20.0
-        },
-        {
-          "couple": "Nikitchenko, Andrii and Lisovska, Yuliya",
-          "place": "3",
-          "points": 16.25
-        },
-        {
-          "couple": "Ferrante, Giulio and Martinez Espinosa, Lidia",
-          "place": "4",
-          "points": 12.5
-        },
-        {
-          "couple": "Ronin, Ilya and Balaban, Irina",
-          "place": "5",
-          "points": 10.0
-        }
-      ]
-    },
-    {
-      "title": "Amateur Multi-Dance Open 4 dance Open AM Int'l Latin (CC,S,R,J)",
-      "entries": [
-        {
-          "couple": "Ronin, Ilya and Balaban, Irina",
-          "place": "1",
-          "points": 25
-        }
-      ]
-    },
-    {
+      "number": 257,
       "title": "Amateur Multi-Dance Closed 5 dance Advanced AM Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
           "couple": "Ferrante, Giulio and Mah, Agnes",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 259,
       "title": "Amateur Multi-Dance Open 4 dance Advanced AM Int'l Latin (CC,S,R,J)",
       "entries": [
         {
           "couple": "Rodriguez, Oscar and Chen, Chrystal",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     }

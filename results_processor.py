@@ -108,8 +108,11 @@ class Results_Processor():
         else:
             event = "Single Dance"
         
-        # save the level of the event (e.g. Open vs. Rising Star)
-        level = heat_report.level()
+        # save the level of the event (e.g. Open vs. Rising Star, Bronze, Silver, Gold, etc.)
+        level = entry.level
+        
+        # set the rounds indicator to finals, until proven otherwise
+        rounds = "F"
         
         # these are state variables to keep track of where we are in the parsing
         looking_for_recall_column = False
@@ -179,7 +182,8 @@ class Results_Processor():
                         if self.get_table_data(line) != "Recall":
                             
                             # extract the couple names from the scoresheet
-                            couple_names = self.get_couple_names(current_competitor)                            
+                            couple_names = self.get_couple_names(current_competitor)     
+                            shirt_number = self.get_shirt_number(current_competitor)
                             
                             # try to find this couple from the scoresheet in the original heat report
                             for index in range(heat_report.length()):
@@ -187,43 +191,44 @@ class Results_Processor():
                                 
                                 if len(couple_names) < 2:
                                     break
-                                    
-                                if e.dancer.startswith(couple_names[0]):
-                                    if e.result is None:
-                                        # If the couple was not recalled, their result is the round 
-                                        # in which they were eliminated
-                                        e.result = temp_result
-                                    
-                                        e.info = heat_info_from_scoresheet
-                                                           
-                                        # Lookup their points, and exit the loop 
-                                        e.points = calc_points(level, result_index, rounds=heat_report.rounds(), accum=accum)
-                                        break
-                                    elif e.result == temp_result:
-                                        break                                
-                                    else:
-                                        print(e.heat_number, "Same name - skipping:", e.dancer, e.partner, e.result, couple_names, result_index, accum)
+                                
+                                if e.shirt_number == shirt_number:    
+                                    if e.dancer.startswith(couple_names[0]):
+                                        if e.result is None:
+                                            # If the couple was not recalled, their result is the round 
+                                            # in which they were eliminated
+                                            e.result = temp_result
+                                        
+                                            e.info = heat_info_from_scoresheet
+                                                               
+                                            # Lookup their points, and exit the loop 
+                                            e.points = calc_points(level, result_index, rounds=rounds, accum=accum)
+                                            break
+                                        elif e.result == temp_result:
+                                            break                                
+                                        else:
+                                            print(e.heat_number, "Same name - skipping:", e.dancer, e.partner, e.result, couple_names, result_index, accum)
                                                        
-                                # The heatsheet names are in alphabetical order, but the 
-                                # scoresheet indicates which one is the leader (male). 
-                                # In pro-am heats, the amateur is listed first. 
-                                # Swap the heatsheet names if necessary.
-                                elif e.dancer.startswith(couple_names[1]):
-                                    if e.result is None:
-                                        e.swap_names()
-                             
-                                        # If the couple was not recalled, their result is the round 
-                                        # in which they were eliminated
-                                        e.result = temp_result
-                                        e.info = heat_info_from_scoresheet
-                                    
-                                        # Lookup their points, and exit the loop 
-                                        e.points = calc_points(level, result_index, rounds=heat_report.rounds(), accum=accum)
-                                        break
-                                    elif e.result == temp_result:
-                                        break
-                                    else:
-                                        print(e.heat_number, "Same name - skipping:", e.dancer, e.partner, e.result, couple_names, result_index, accum)                                    
+                                    # The heatsheet names are in alphabetical order, but the 
+                                    # scoresheet indicates which one is the leader (male). 
+                                    # In pro-am heats, the amateur is listed first. 
+                                    # Swap the heatsheet names if necessary.
+                                    elif e.dancer.startswith(couple_names[1]):
+                                        if e.result is None:
+                                            e.swap_names()
+                                 
+                                            # If the couple was not recalled, their result is the round 
+                                            # in which they were eliminated
+                                            e.result = temp_result
+                                            e.info = heat_info_from_scoresheet
+                                        
+                                            # Lookup their points, and exit the loop 
+                                            e.points = calc_points(level, result_index, rounds=rounds, accum=accum)
+                                            break
+                                        elif e.result == temp_result:
+                                            break
+                                        else:
+                                            print(e.heat_number, "Same name - skipping:", e.dancer, e.partner, e.result, couple_names, result_index, accum)                                    
                                 
                             # If we get here, we didn't find an entry on the heatsheet that matches
                             # this line on the scoresheet. This is the dreaded late entry. 
@@ -236,7 +241,7 @@ class Results_Processor():
                                 late_entry.partner = couple_names[1]
                                 late_entry.info = heat_info_from_scoresheet
                                 late_entry.result = temp_result
-                                late_entry.points = calc_points(level, result_index, rounds=heat_report.rounds(), accum=accum)
+                                late_entry.points = calc_points(level, result_index, rounds=rounds, accum=accum)
                                 
                                 # Add that structure back to the heat report to show it on the GUI.
                                 # Use the code field to indicate that this was a late entry.
@@ -270,31 +275,34 @@ class Results_Processor():
                         result_place = int(self.get_table_data(line).split('(')[0])
                         
                         couple_names = self.get_couple_names(current_competitor)
+                        shirt_number = self.get_shirt_number(current_competitor)
                         
                         # loop through all entries on the heatsheet to find a match
                         for index in range(num_competitors):
                             e = heat_report.entry(index)  
+                            
+                            if e.shirt_number == shirt_number:
 
-                            if e.dancer.startswith(couple_names[0]):
-                                if e.result is None:
-                                    e.result = result_place
-                                    e.info = heat_info_from_scoresheet
-                                    break
-                                elif e.result == result_place:
-                                    break
-                                else:
-                                    print(e.heat_number, "Same name - skipping:", e.dancer, e.partner, e.result, couple_names, result_place)
-                                    
-                            elif e.dancer.startswith(couple_names[1]):
-                                if e.result is None:
-                                    e.swap_names()
-                                    e.result = result_place
-                                    e.info = heat_info_from_scoresheet
-                                    break
-                                elif e.result == result_place:
-                                    break                                    
-                                else:
-                                    print(e.heat_number, "- Same name - skipping:", e.dancer, e.partner, e.result, couple_names)
+                                if e.dancer.startswith(couple_names[0]):
+                                    if e.result is None:
+                                        e.result = result_place
+                                        e.info = heat_info_from_scoresheet
+                                        break
+                                    elif e.result == result_place:
+                                        break
+                                    else:
+                                        print(e.heat_number, "Same name - skipping:", e.dancer, e.partner, e.result, couple_names, result_place)
+                                        
+                                elif e.dancer.startswith(couple_names[1]):
+                                    if e.result is None:
+                                        e.swap_names()
+                                        e.result = result_place
+                                        e.info = heat_info_from_scoresheet
+                                        break
+                                    elif e.result == result_place:
+                                        break                                    
+                                    else:
+                                        print(e.heat_number, "- Same name - skipping:", e.dancer, e.partner, e.result, couple_names)
                             
                         else:    # this code runs when competitor not found in heat
                             late_entry = heat_report.build_late_entry(entry)
@@ -318,7 +326,6 @@ class Results_Processor():
                     looking_for_finalists = False
                     #print("Heat", heat_report.heat_number(), "Heat Report length", heat_report.length(), "Entries in Event", self.entries_in_event)
                     total_entries = self.entries_in_event 
-                    rounds = heat_report.rounds()
                     for index in range(heat_report.length()):
                         e = heat_report.entry(index)
                         if e.points is None and e.result is not None:
@@ -327,20 +334,29 @@ class Results_Processor():
 
             # We get here if we aren't in any of the "looking" states
 
+            # If this check is true, we found first round results for this heat
+            elif heat_string in line and "First Round" in line and ("<p>" in line or "<h3>" in line):
+                temp_result = "round 1"    # indicate which round we are in
+                result_index = -1      # use this to pull values from the points table
+                rounds = "R1"
+                heat_info_from_scoresheet = self.get_heat_info(line, heat_string, "First Round")
+                looking_for_recall_column = True  # enter the next state
+                
             # If this check is true, we found quarter-final results for this heat
             elif heat_string in line and "Quarter-final" in line and ("<p>" in line or "<h3>" in line):
                 temp_result = "quarters"    # indicate which round we are in
                 result_index = -1      # use this to pull values from the points table
-                heat_report.set_rounds("Q")
-                heat_info_from_scoresheet = self.get_heat_info(line, heat_string, "Quarter-finaL")
+                if rounds != "R1":
+                    rounds = "Q"
+                heat_info_from_scoresheet = self.get_heat_info(line, heat_string, "Quarter-final")
                 looking_for_recall_column = True  # enter the next state
                 
             # If this check is true, we found Semi-final results for this heat            
             elif heat_string in line and "Semi-final" in line and ("<p>" in line or "<h3>" in line):
                 temp_result = "Semis"
                 result_index = -2
-                if heat_report.rounds() == "F":
-                    heat_report.set_rounds("S")
+                if rounds == "F":
+                    rounds = "S"
                 heat_info_from_scoresheet = self.get_heat_info(line, heat_string, "Semi-final")                
                 looking_for_recall_column = True
             
@@ -366,10 +382,7 @@ class Results_Processor():
     def determine_heat_results(self, heat_report, sorted=True):
         '''This routine extracts the results for a given heat. 
            A heat report is passed in with the entries from the heatsheet.
-        '''    
-        # don't assume the heatlist was correct 
-        heat_report.set_rounds("F")
-        
+        '''            
         # loop through the entries in the heat
         for index in range(heat_report.length()):
             entry = heat_report.entry(index)

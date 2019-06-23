@@ -1,0 +1,617 @@
+{
+  "comp name": "Demo Competition",
+  "heats": [
+    {
+      "number": 33,
+      "title": "AC-B2 Closed Bronze Ballroom (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Kleinrath, James and Tam, Iris",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "title": "AC-A1 Open Silver Ballroom (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Li, Christopher and Heinrich, Holly",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "title": "AC-A1 Closed Silver American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Li, Christopher and Nakano, Anne",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 146,
+      "title": "AC-JR Closed Bronze Latin (C/R/J)",
+      "entries": [
+        {
+          "couple": "Naret, David and Khalitoglu, Melisa",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "number": 147,
+      "title": "AC-PT1 Closed Silver Latin (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Grigorovitch, Matthew and Akhanova, Maria",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 147,
+      "title": "AC-PT2 Closed Silver Latin (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Busche, Michael and Khalitoglu, Melisa",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 148,
+      "title": "AC-PT1 Closed Bronze Latin (C/R/J)",
+      "entries": [
+        {
+          "couple": "Myastkovetsky, Alexander and Zelenyak, Gabriella",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Naret, Benjamin and Yalnin, Arielle",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "number": 150,
+      "title": "AC-B1 Open Latin (C/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Ferrante, Giulio and Dutton, Lydie",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 150,
+      "title": "AC-PT1 Open Silver Latin (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Rubashevsky, Danya and Rubashevsky, Laila",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 170,
+      "title": "AC-JR1 Novice Ballroom (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Parrot, David and Pravdin, Genna",
+          "place": "1",
+          "points": 5.0
+        },
+        {
+          "couple": "Vikhliantsev, Denis and Kats, Sarah",
+          "place": "2",
+          "points": 3.0
+        },
+        {
+          "couple": "Rabinovich, Paul and Ilieva, Raya",
+          "place": "3",
+          "points": 1.5
+        }
+      ]
+    },
+    {
+      "number": 170,
+      "title": "AC-PT1  Bronze Ballroom (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Finkelstein, Alexander and Savchenkova, Daria",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Grigorovitch, Matthew and Akhanova, Maria",
+          "place": "2",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "number": 171,
+      "title": "AC-PT1 Silver Ballroom (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Parra and Braylovskiy",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Finkelstein, Alexander and Savchenkova, Daria",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Grigorovitch, Matthew and Akhanova, Maria",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 172,
+      "title": "AC-PT1 Gold Ballroom (W/T/F/Q)",
+      "entries": [
+        {
+          "couple": "Chen, Brandon and Moudry, Isabella",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Parra, Peter and Braylovskiy, Jacklyn",
+          "place": "2",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "number": 172,
+      "title": "AC-PT2 Gold Ballroom (W/T/F/Q)",
+      "entries": [
+        {
+          "couple": "Rabinovich, David and Mattos, Julia",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 173,
+      "title": "AC-JR1 Open International Ballroom (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Rabinovich, Paul and Ilieva, Raya",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 183,
+      "title": "AC-PT1 Newcomer Latin (S/R)",
+      "entries": [
+        {
+          "couple": "Schwaderer, Renn and Fomin, Sofia",
+          "place": "1",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "number": 183,
+      "title": "AC-PT2 Newcomer Latin (S/R)",
+      "entries": [
+        {
+          "couple": "Corral, Evan and Priadka, Kate",
+          "place": "1",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "number": 184,
+      "title": "AC-PT1 Bronze Latin (C/R/J)",
+      "entries": [
+        {
+          "couple": "Finkelstein, Alexander and Savchenkova, Daria",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Grigorovitch, Matthew and Akhanova, Maria",
+          "place": "2",
+          "points": 7.0
+        },
+        {
+          "couple": "Schwaderer, Renn and Fomin, Sofia",
+          "place": "3",
+          "points": 5.0
+        },
+        {
+          "couple": "Myastkovetsky, Alexander and Zelenyak, Gabriella",
+          "place": "4",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "number": 184,
+      "title": "AC-PT2 Bronze Latin (C/R/J)",
+      "entries": [
+        {
+          "couple": "Corral, Evan and Priadka, Kate",
+          "place": "1",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "number": 185,
+      "title": "AC-PT1 Silver Latin (C/R/J)",
+      "entries": [
+        {
+          "couple": "Parra, Peter and Braylovskiy, Jacklyn",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Grigorovitch, Matthew and Akhanova, Maria",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Finkelstein, Alexander and Savchenkova, Daria",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 186,
+      "title": "AC-JR1 Gold Latin (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Gaitanaru, Ilinca and Gaitanaru, Luca",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 186,
+      "title": "AC-PT1 Gold Latin (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Parra, Peter and Braylovskiy, Jacklyn",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Chen, Brandon and Moudry, Isabella",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Finkelstein, Alexander and Savchenkova, Daria",
+          "place": "3",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 186,
+      "title": "AC-PT2 Gold Latin (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Rabinovich, David and Mattos, Julia",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Parrot, David and Pravdin, Genna",
+          "place": "2",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "number": 187,
+      "title": "AC-JR1 Open International Latin (C/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Vikhliantsev, Denis and Kats, Sarah",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Rabinovich, Paul and Ilieva, Raya",
+          "place": "2",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "number": 206,
+      "title": "AC-PT Amateur Closed Ballroom Scholarships (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Rabinovich, David and Mattos, Julia",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Chen, Brandon and Moudry, Isabella",
+          "place": "2",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "number": 207,
+      "title": "AC-A Amateur Closed Ballroom Scholarships (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Vorobiev, Mikhail and Kozhevnikova, Natalia",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 208,
+      "title": "AC-B Mixed Amateur Closed Bronze International Ballroom Scholarship  (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Kleinrath, James and Tam, Iris",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 211,
+      "title": "AC-A Pro/Am Open International Ballroom Scholarship (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Li, Christopher and Heinrich, Holly",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 212,
+      "title": "AC-PT Amateur Closed Latin Scholarships (C/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Rabinovich, David and Mattos, Julia",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Chen, Brandon and Moudry, Isabella",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Parrot, David and Pravdin, Genna",
+          "place": "3",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 219,
+      "title": "AC-PT Pro/Am Closed Gold Intenational Latin Scholarship (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Rubashevsky, Danya and Wang, Melody",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 220,
+      "title": "AC-B Pro/Am Open International Latin Scholarship (C/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Ferrante, Giulio and Dutton, Lydie",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 221,
+      "title": "AC-A Novice International Ballroom (W/F/Q)",
+      "entries": [
+        {
+          "couple": "Li, Christopher and Whitehill, Brittany",
+          "place": "1",
+          "points": 5.0
+        },
+        {
+          "couple": "Nguyen, Loc and Brinker, Katharine",
+          "place": "2",
+          "points": 3.0
+        },
+        {
+          "couple": "Busche, Michael and Chatterjee, Fiona",
+          "place": "3",
+          "points": 1.5
+        }
+      ]
+    },
+    {
+      "number": 222,
+      "title": "AC-A Pre-Champ International Ballroom (W/T/F/Q)",
+      "entries": [
+        {
+          "couple": "Li, Christopher and Whitehill, Brittany",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Henzie and Fernandez",
+          "place": "2",
+          "points": 10.5
+        },
+        {
+          "couple": "Nguyen, Loc and Brinker, Katharine",
+          "place": "3",
+          "points": 7.5
+        },
+        {
+          "couple": "Busche, Michael and Chatterjee, Fiona",
+          "place": "4",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 223,
+      "title": "AC-A Novice American Smooth (W/T/F)",
+      "entries": [
+        {
+          "couple": "Busche, Michael and Chatterjee, Fiona",
+          "place": "1",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "number": 224,
+      "title": "AC-A Pre-Champ American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Busche, Michael and Chatterjee, Fiona",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 225,
+      "title": "AC-A Novice Internnational Latin (C/R/J)",
+      "entries": [
+        {
+          "couple": "Busche, Michael and Chatterjee, Fiona",
+          "place": "1",
+          "points": 5.0
+        },
+        {
+          "couple": "Rodriguez, Oscar and Chen, Chrystal Bella",
+          "place": "2",
+          "points": 2.5
+        }
+      ]
+    },
+    {
+      "number": 225,
+      "title": "AC-S1 Closed Silver International Latin (C/R/J)",
+      "entries": [
+        {
+          "couple": "Perelmutov, Timur and Perelmutova, Yelena",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 226,
+      "title": "AC-S2 Pre-Novice International Latin (S/R)",
+      "entries": [
+        {
+          "couple": "Perelmutov, Timur and Perelmutova, Yelena",
+          "place": "1",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "number": 227,
+      "title": "AC-A Pre-Champ International Latin (C/S/R/J)",
+      "entries": [
+        {
+          "couple": "Yen, Lawrence and Chi, Ying Chieh (Lisa)",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Ronin, Ilya and Balaban, Irina",
+          "place": "2",
+          "points": 10.5
+        },
+        {
+          "couple": "Rodriguez, Oscar and Chen, Chrystal Bella",
+          "place": "3",
+          "points": 7.5
+        },
+        {
+          "couple": "Busche, Michael and Chatterjee, Fiona",
+          "place": "4",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 228,
+      "title": "AC-S2 Closed Silver International Latin (C/R/J)",
+      "entries": [
+        {
+          "couple": "Perelmutov, Timur and Perelmutova, Yelena",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 229,
+      "title": "AC-A Open Amateur International Latin Competition (C/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Constantine and Eaton",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Yen and Chi",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Ronin, Ilya and Balaban, Irina",
+          "place": "3",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 229,
+      "title": "AC-S3 Masters Open Latin (C/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Voigt, Thomas and Sempell, Pennie",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    }
+  ]
+}

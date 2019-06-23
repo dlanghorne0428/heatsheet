@@ -2,46 +2,51 @@
   "comp name": "2019 Royal Dancesport Challenge",
   "heats": [
     {
+      "number": 77,
       "title": "AC-B Open Amateur American Smooth (W/T/F/VW)",
       "entries": [
         {
-          "couple": "Phatak, Shirish and Levy, Stacy",
+          "couple": "Phatak and Levy",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 80,
       "title": "AC-C Open Amateur American Smooth (W/T/F/VW)",
       "entries": [
         {
-          "couple": "Phatak, Shirish and Levy, Stacy",
+          "couple": "Phatak and Levy",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 116,
       "title": "AC-B Open Amateur International Ballroom (W/T/VW/F/QS)",
       "entries": [
         {
-          "couple": "Phatak, Shirish and Levy, Stacy",
+          "couple": "Phatak and Levy",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 123,
       "title": "AC-C Open Amateur International Ballroom (W/T/VW/F/QS)",
       "entries": [
         {
-          "couple": "Phatak, Shirish and Levy, Stacy",
+          "couple": "Phatak and Levy",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 168,
       "title": "AC-B Amateur American Rhythm Pre-Champ (C/R/SW)",
       "entries": [
         {
@@ -52,6 +57,7 @@
       ]
     },
     {
+      "number": 168,
       "title": "AC-C Amateur American Rhythm Pre-Champ (C/R/SW)",
       "entries": [
         {
@@ -62,6 +68,7 @@
       ]
     },
     {
+      "number": 169,
       "title": "AC-A Amateur American Rhythm Pre-Champ (C/R/SW)",
       "entries": [
         {
@@ -72,31 +79,34 @@
       ]
     },
     {
+      "number": 170,
       "title": "AC-B Open Amateur American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
           "couple": "Clasen, Estella and Clasen, Robert",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Gee, Spencer and Campanella, Maria",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 171,
       "title": "AC-A Open Amateur American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
           "couple": "Gee, Spencer and Campanella, Maria",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 226,
       "title": "AC-PT1 Amateur International Latin Pre-Champ (C/S/R)",
       "entries": [
         {
@@ -107,6 +117,7 @@
       ]
     },
     {
+      "number": 228,
       "title": "AC-PT2 Amateur International Latin Pre-Champ (C/S/R)",
       "entries": [
         {
@@ -117,6 +128,7 @@
       ]
     },
     {
+      "number": 228,
       "title": "AC-Y Amateur International Latin Pre-Champ (C/S/R)",
       "entries": [
         {

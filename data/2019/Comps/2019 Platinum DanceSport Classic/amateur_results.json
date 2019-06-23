@@ -2,6 +2,7 @@
   "comp name": "2019 Platinum DanceSport Classic",
   "heats": [
     {
+      "number": 176,
       "title": "AC-SR3 Closed Bronze Multi-Dance (C/R/Sw)",
       "entries": [
         {
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "number": 428,
       "title": "AC-Y Pre-Champ Latin (C/S/R/J)",
       "entries": [
         {
@@ -22,6 +24,7 @@
       ]
     },
     {
+      "number": 431,
       "title": "AC-JR2 Pre-Champ Latin (C/S/R/J)",
       "entries": [
         {
@@ -37,37 +40,40 @@
       ]
     },
     {
+      "number": 443,
       "title": "AC-JR2 PDC Open Latin (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Marquez, Alejendre and Raurell, Sofia",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Barsukov, Daniel and Ronquillo, Tiffany",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 580,
       "title": "AC-A PDC Open Standard (W/T/V/F/Q)",
       "entries": [
         {
           "couple": "Rannella, Giovanni and Zaludova, Helena",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 581,
       "title": "AC-SR1 PDC Open Standard (W/T/V/F/Q)",
       "entries": [
         {
           "couple": "Rannella, Giovanni and Zaludova, Helena",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     }

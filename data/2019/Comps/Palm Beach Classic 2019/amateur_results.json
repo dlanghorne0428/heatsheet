@@ -2,37 +2,19 @@
   "comp name": "Palm Beach Classic 2019",
   "heats": [
     {
+      "number": 94,
       "title": "AC-A1 Open Gold International Ballroom Challerge (W/T/F)",
       "entries": [
         {
           "couple": "Hayes, David and Hayes, Felicia",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 95,
       "title": "AC-A1 5-Dance International Ballroom Scholarship (W/T/VW/F/Q)",
-      "entries": [
-        {
-          "couple": "Guay, Claude and Guay, Jinette",
-          "place": "1",
-          "points": 25.0
-        },
-        {
-          "couple": "Rannella and Zaludova",
-          "place": "2",
-          "points": 15.0
-        },
-        {
-          "couple": "Magliacane and Weir",
-          "place": "3",
-          "points": 7.5
-        }
-      ]
-    },
-    {
-      "title": "AC-A2 Open Gold International Ballroom Challerge (W/T/F)",
       "entries": [
         {
           "couple": "Guay, Claude and Guay, Jinette",
@@ -40,24 +22,20 @@
           "points": 20.0
         },
         {
-          "couple": "Rannella, Giovanni and Zaludova, Helena",
+          "couple": "Rannella and Zaludova",
           "place": "2",
-          "points": 14.0
+          "points": 12.0
         },
         {
-          "couple": "Hayes, David and Hayes, Felicia",
+          "couple": "Magliacane and Weir",
           "place": "3",
-          "points": 10.0
-        },
-        {
-          "couple": "Magliacane, Albert and Weir, Margit",
-          "place": "4",
           "points": 6.0
         }
       ]
     },
     {
-      "title": "AC-A2 5-Dance International Ballroom Scholarship (W/T/VW/F/Q)",
+      "number": 96,
+      "title": "AC-A2 Open Gold International Ballroom Challerge (W/T/F)",
       "entries": [
         {
           "couple": "Guay, Claude and Guay, Jinette",
@@ -82,42 +60,72 @@
       ]
     },
     {
+      "number": 98,
+      "title": "AC-A2 5-Dance International Ballroom Scholarship (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Guay, Claude and Guay, Jinette",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Rannella, Giovanni and Zaludova, Helena",
+          "place": "2",
+          "points": 14.0
+        },
+        {
+          "couple": "Hayes, David and Hayes, Felicia",
+          "place": "3",
+          "points": 10.0
+        },
+        {
+          "couple": "Magliacane, Albert and Weir, Margit",
+          "place": "4",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 182,
       "title": "AC-A2 Open Gold International Latin Challerge (CC/S/R)",
       "entries": [
         {
           "couple": "Magliacane, Albert and Weir, Margit",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 183,
       "title": "AC-YTH Open Gold International Latin Challerge (CC/S/R)",
       "entries": [
         {
           "couple": "Barsukov, Dany and Ronquillo, Tiffany",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 184,
       "title": "AC-A2 5-Dance International Latin Scholarship (CC/S/R/PD/J)",
       "entries": [
         {
           "couple": "Magliacane, Albert and Weir, Margit",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 184,
       "title": "AC-YTH 5-Dance International Latin Scholarship (CC/S/R/PD/J)",
       "entries": [
         {
           "couple": "Barsukov, Dany and Ronquillo, Tiffany",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     }

@@ -2,37 +2,8 @@
   "comp name": "2019 Indianapolis Open DanceSport",
   "heats": [
     {
+      "number": 574,
       "title": "AC-B Open Silver Amateur American Rhythm Grand Challenge (C/R/SW/B/M)",
-      "entries": [
-        {
-          "couple": "Davis, Ben and McCall, Alexis",
-          "place": "1",
-          "points": 15
-        }
-      ]
-    },
-    {
-      "title": "AC-C Open Gold Amateur American Rhythm Grand Challenge (C/R/SW/B/M)",
-      "entries": [
-        {
-          "couple": "Greenawalt, Amy and Greenawalt, Roger",
-          "place": "1",
-          "points": 15
-        }
-      ]
-    },
-    {
-      "title": "AC-B1 Open Silver Amateur 3 Dance American Rhythm Competition (C/R/SW)",
-      "entries": [
-        {
-          "couple": "Davis, Ben and McCall, Alexis",
-          "place": "1",
-          "points": 15
-        }
-      ]
-    },
-    {
-      "title": "AC-B1 Open Gold Amateur 3 Dance American Rhythm Competition (C/R/SW)",
       "entries": [
         {
           "couple": "Davis, Ben and McCall, Alexis",
@@ -42,6 +13,40 @@
       ]
     },
     {
+      "number": 574,
+      "title": "AC-C Open Gold Amateur American Rhythm Grand Challenge (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Greenawalt, Amy and Greenawalt, Roger",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 575,
+      "title": "AC-B1 Open Silver Amateur 3 Dance American Rhythm Competition (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Davis, Ben and McCall, Alexis",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 576,
+      "title": "AC-B1 Open Gold Amateur 3 Dance American Rhythm Competition (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Davis, Ben and McCall, Alexis",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 578,
       "title": "AC-B Pre-Champ Amateur American Rhythm Competition (C/R/SW/B)",
       "entries": [
         {
@@ -52,6 +57,7 @@
       ]
     },
     {
+      "number": 585,
       "title": "AC-B2 Bronze Amateur 3 Dance International Ballroom Competition (W/T/Q)",
       "entries": [
         {
@@ -62,36 +68,40 @@
       ]
     },
     {
+      "number": 817,
       "title": "AC-A3 Silver Amateur 3 Dance American Smooth Competition (W/T/F)",
       "entries": [
         {
           "couple": "Singh, Amarik and Singh, Shveta",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 817,
       "title": "AC-B1 Open Silver Amateur 3 Dance American Smooth Competition (W/T/F)",
       "entries": [
         {
           "couple": "Davis, Ben and McCall, Alexis",
           "place": "1",
-          "points": 10
+          "points": 20
         }
       ]
     },
     {
+      "number": 817,
       "title": "AC-B2 Gold Amateur 3 Dance American Smooth Competition (W/T/F)",
       "entries": [
         {
           "couple": "Grzeskowski, John and Virijevich, Diana",
           "place": "1",
-          "points": 10
+          "points": 20
         }
       ]
     },
     {
+      "number": 819,
       "title": "AC-PT Bronze Junior Amateur American Smooth Challenge (W/T/F)",
       "entries": [
         {
@@ -102,16 +112,18 @@
       ]
     },
     {
+      "number": 824,
       "title": "AC-B1 Open Gold Amateur 3 Dance American Smooth Competition (W/T/F)",
       "entries": [
         {
           "couple": "Davis, Ben and McCall, Alexis",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 949,
       "title": "AC-PT Silver Junior Amateur International Latin Challenge (C/R/J)",
       "entries": [
         {
@@ -127,6 +139,7 @@
       ]
     },
     {
+      "number": 952,
       "title": "AC-PT Bronze Junior Amateur International Latin Challenge (C/R/J)",
       "entries": [
         {
@@ -142,16 +155,18 @@
       ]
     },
     {
+      "number": 954,
       "title": "AC-PT Open Junior Amateur International Latin Challenge (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Bakalov, Andrey and Holland, Alexis",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 967,
       "title": "AC-JR Bronze Junior Amateur American Rhythm Challenge (C/R/SW)",
       "entries": [
         {
@@ -162,6 +177,7 @@
       ]
     },
     {
+      "number": 974,
       "title": "AC-PT Bronze Junior Amateur International Ballroom Challenge (W/T/Q)",
       "entries": [
         {
@@ -172,26 +188,29 @@
       ]
     },
     {
+      "number": 975,
       "title": "AC-B Open Gold Amateur American Smooth Grand Challenge (W/T/F/VW)",
       "entries": [
         {
           "couple": "Davis, Ben and McCall, Alexis",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 975,
       "title": "AC-C Open Gold Amateur American Smooth Grand Challenge (W/T/F/VW)",
       "entries": [
         {
           "couple": "Greenawalt, Amy and Greenawalt, Roger",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 976,
       "title": "AC-B Pre-Champ Amateur American Smooth Competition (W/T/F/VW)",
       "entries": [
         {
@@ -202,12 +221,13 @@
       ]
     },
     {
+      "number": 984,
       "title": "AC-A Open Gold Amateur International Latin Grand Challenge (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Nicholson, Scott and Odintsova, Alina",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     }
