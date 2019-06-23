@@ -467,10 +467,22 @@
         "info": "L- 'B' Pro/Am Open Int'l Latin Scholarship  (C/S/R/PD/J)",
         "place": "1",
         "points": 45.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B New England Open Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Latin Open 5-Dance Scholarship (C/S/R/P/J)",
+        "place": "1",
+        "points": 25.0
       }
     ],
-    "total_pts": 184.0,
-    "avg_pts": 26.29
+    "total_pts": 229.0,
+    "avg_pts": 25.44
   },
   {
     "name": "Lynch, Rhonda and McCann, Stephen",
@@ -565,6 +577,31 @@
     "avg_pts": 25.03
   },
   {
+    "name": "Hayrapetian, Rebecca and Escolme, Andrew",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-A International Latin Gold Scholarship (C/S/R/J)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-B TSDSC Closed Gold Latin Scholarship (C/S/R/P/J)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Latin Closed Gold 5-Dance Scholarship (C/S/R/P/J)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 75.0,
+    "avg_pts": 25.0
+  },
+  {
     "name": "Brinkmeyer, Maxahna and Tregubov, Anton",
     "results": [
       {
@@ -581,25 +618,6 @@
       }
     ],
     "total_pts": 50,
-    "avg_pts": 25.0
-  },
-  {
-    "name": "Hayrapetian, Rebecca and Escolme, Andrew",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-A International Latin Gold Scholarship (C/S/R/J)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-B TSDSC Closed Gold Latin Scholarship (C/S/R/P/J)",
-        "place": "1",
-        "points": 25.0
-      }
-    ],
-    "total_pts": 50.0,
     "avg_pts": 25.0
   },
   {
@@ -1132,6 +1150,37 @@
     "avg_pts": 23.0
   },
   {
+    "name": "Nunberg, Caroline and Vasicek, Tomas",
+    "results": [
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "L-A Open Latin Multi-Dance Challenge (C/S/R/PD/J)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "L-A Open Latin Scholarship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A New England Open Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A International Latin Open 5-Dance Scholarship (C/S/R/P/J)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 90.0,
+    "avg_pts": 22.5
+  },
+  {
     "name": "Blair, Esperanza and Paramonov, Andre",
     "results": [
       {
@@ -1322,25 +1371,6 @@
     "avg_pts": 22.5
   },
   {
-    "name": "Nunberg, Caroline and Vasicek, Tomas",
-    "results": [
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "L-A Open Latin Multi-Dance Challenge (C/S/R/PD/J)",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "L-A Open Latin Scholarship (C/S/R/PD/J)",
-        "place": "1",
-        "points": 25.0
-      }
-    ],
-    "total_pts": 45.0,
-    "avg_pts": 22.5
-  },
-  {
     "name": "Papuc, Allie and Khudoliy, Ivan",
     "results": [
       {
@@ -1436,6 +1466,25 @@
     "avg_pts": 22.5
   },
   {
+    "name": "Simcox, Kathy and Wlodarski, Tomasz",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Gold Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Latin Closed Gold 5-Dance Scholarship (C/S/R/P/J)",
+        "place": "1",
+        "points": 25
+      }
+    ],
+    "total_pts": 45,
+    "avg_pts": 22.5
+  },
+  {
     "name": "Smith, Ainsley and Kopf, Colby",
     "results": [
       {
@@ -1523,6 +1572,25 @@
       {
         "comp_name": "Majesty Dancesport",
         "info": "L-A International Latin Scholarship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 45.0,
+    "avg_pts": 22.5
+  },
+  {
+    "name": "Shah, Louise and Escolme, Andrew",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Latin Closed Silver 4-Dance Scholarship (C/S/R/J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Latin Closed Gold 5-Dance Scholarship (C/S/R/P/J)",
         "place": "1",
         "points": 25.0
       }
@@ -3021,6 +3089,32 @@
     "avg_pts": 20.0
   },
   {
+    "name": "Hanley, Vita and Johnson, Marcus",
+    "results": [
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Pro/Am Open Senior Scholarships S1 Int'l Latin (CC,S,R,PD)",
+        "place": "2",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 20.0
+  },
+  {
+    "name": "Hart, Karen and Timar, Krisztian",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Latin Closed Silver 4-Dance Scholarship (C/S/R/J)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 20.0
+  },
+  {
     "name": "Ishii, Hisako and Rivers, Matt",
     "results": [
       {
@@ -3359,6 +3453,19 @@
     "avg_pts": 20.0
   },
   {
+    "name": "Yum, Michele and Timar, Krisztian",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Latin Closed Silver 4-Dance Scholarship (C/S/R/J)",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 20
+  },
+  {
     "name": "Zambrano, Jr., Paul and Cyr, Melissa",
     "results": [
       {
@@ -3385,17 +3492,42 @@
     "avg_pts": 20.0
   },
   {
-    "name": "Hanley, Vita and Johnson, Marcus",
+    "name": "Zaharieva, Stefanie and Frank, Robert",
     "results": [
       {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Pro/Am Open Senior Scholarships S1 Int'l Latin (CC,S,R,PD)",
-        "place": "2",
-        "points": 20.0
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "L-P/AJR Pro/Am Junior Open International Latin Championship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-JR Internaional Latin Open Advanced Championship (C/S/R/J)",
+        "place": "3",
+        "points": 19.5
       }
     ],
-    "total_pts": 20.0,
-    "avg_pts": 20.0
+    "total_pts": 39.5,
+    "avg_pts": 19.75
+  },
+  {
+    "name": "Prince, Cheryl and Konstantynov, Misha",
+    "results": [
+      {
+        "comp_name": "Heritage Classic",
+        "info": "L-C <257>Pro-Am Latin Open  Gold Challenge BofB Qual. (C/S/R/PD/J)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "info": "L-C <273>Pro-Am Int'l Latin Open Dancesport Series Qualifier (C/S/R/PD/J)",
+        "place": "2",
+        "points": 14.0
+      }
+    ],
+    "total_pts": 39.0,
+    "avg_pts": 19.5
   },
   {
     "name": "Conti, Luda and Gavriline, Andrei",
@@ -3567,109 +3699,34 @@
         "info": "L-C Closed Gold Latin Scholarship (CC/S/R/PD/J)",
         "place": "1",
         "points": 25
-      }
-    ],
-    "total_pts": 557.0,
-    "avg_pts": 19.89
-  },
-  {
-    "name": "Zaharieva, Stefanie and Frank, Robert",
-    "results": [
+      },
       {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "L-P/AJR Pro/Am Junior Open International Latin Championship (C/S/R/PD/J)",
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Silver Pro/Am International Latin Championships (C/S/R/P/J)",
         "place": "1",
-        "points": 20
+        "points": 15.0
       },
       {
-        "comp_name": "NYDF 2019",
-        "info": "L-JR Internaional Latin Open Advanced Championship (C/S/R/J)",
-        "place": "3",
-        "points": 19.5
-      }
-    ],
-    "total_pts": 39.5,
-    "avg_pts": 19.75
-  },
-  {
-    "name": "Wang, Fifi and Terziev, Delyan",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-SR1 Senior Internaional Latin Open Advanced Championship (C/S/R/J)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-SR1 Senior International Latin Open Advanced Scholarship (C/S/R/J)",
-        "place": "3",
-        "points": 22.75
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S1 WPDS Open Latin Championship (C/S/R/P/J)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S1 TSDSC Open Latin Scholarship (C/S/R/P/J)",
-        "place": "2",
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Gold Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "1",
         "points": 20.0
       },
       {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-S International Latin Open Gold (C/S/R/P/J)",
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Latin Closed Silver 4-Dance Scholarship (C/S/R/J)",
         "place": "2",
-        "points": 12.5
+        "points": 16.0
       },
       {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-S1 Pro-Am Senior Open International Latin Scholarships (C/S/R)",
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Latin Closed Gold 5-Dance Scholarship (C/S/R/P/J)",
         "place": "2",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "info": "L-C Open Gold 5-Dance - Latin Challenge (CC/SA/R/PD/J)",
-        "place": "1",
-        "points": 25
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "info": "L-C Open Gold 3-Dance - Latin Challenge (CC/S/R)",
-        "place": "1",
-        "points": 25
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "info": "L-C Crown Jewel Open Scholarship Latin 5-Dance(CC/S/R/PD/J)",
-        "place": "1",
-        "points": 25
+        "points": 15.0
       }
     ],
-    "total_pts": 176.25,
-    "avg_pts": 19.58
-  },
-  {
-    "name": "Prince, Cheryl and Konstantynov, Misha",
-    "results": [
-      {
-        "comp_name": "Heritage Classic",
-        "info": "L-C <257>Pro-Am Latin Open  Gold Challenge BofB Qual. (C/S/R/PD/J)",
-        "place": "1",
-        "points": 25
-      },
-      {
-        "comp_name": "Heritage Classic",
-        "info": "L-C <273>Pro-Am Int'l Latin Open Dancesport Series Qualifier (C/S/R/PD/J)",
-        "place": "2",
-        "points": 14.0
-      }
-    ],
-    "total_pts": 39.0,
-    "avg_pts": 19.5
+    "total_pts": 623.0,
+    "avg_pts": 19.47
   },
   {
     "name": "Chen, Kayli and Shmigeljuk, Artjom",
@@ -3728,6 +3785,37 @@
         "info": "L-B International Latin Open Scholarships (C/S/R/P/J)",
         "place": "1",
         "points": 25.0
+      }
+    ],
+    "total_pts": 77.5,
+    "avg_pts": 19.38
+  },
+  {
+    "name": "Marre, Jennifer and Terziev, Delyan",
+    "results": [
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-C International Latin Open Gold (C/S/R/P/J)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-C International Latin Open Scholarships (C/S/R/P/J)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Open Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Latin Open 5-Dance Scholarship (C/S/R/P/J)",
+        "place": "1",
+        "points": 25
       }
     ],
     "total_pts": 77.5,
@@ -4390,6 +4478,79 @@
     "avg_pts": 18.5
   },
   {
+    "name": "Wang, Fifi and Terziev, Delyan",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-SR1 Senior Internaional Latin Open Advanced Championship (C/S/R/J)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-SR1 Senior International Latin Open Advanced Scholarship (C/S/R/J)",
+        "place": "3",
+        "points": 22.75
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S1 WPDS Open Latin Championship (C/S/R/P/J)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S1 TSDSC Open Latin Scholarship (C/S/R/P/J)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-S International Latin Open Gold (C/S/R/P/J)",
+        "place": "2",
+        "points": 12.5
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-S1 Pro-Am Senior Open International Latin Scholarships (C/S/R)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "info": "L-C Open Gold 5-Dance - Latin Challenge (CC/SA/R/PD/J)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "info": "L-C Open Gold 3-Dance - Latin Challenge (CC/S/R)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "info": "L-C Crown Jewel Open Scholarship Latin 5-Dance(CC/S/R/PD/J)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Open Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Latin Open 5-Dance Scholarship (C/S/R/P/J)",
+        "place": "2",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 203.25,
+    "avg_pts": 18.48
+  },
+  {
     "name": "Porges, Felicia and Katona, Adam",
     "results": [
       {
@@ -4954,6 +5115,55 @@
       }
     ],
     "total_pts": 214.35,
+    "avg_pts": 17.86
+  },
+  {
+    "name": "Tucker, Sherry and Astafiev, Vlad",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S1 TSDSC Closed Silver Latin Scholarship (C/S/R/J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S1 TSDSC Open Latin Scholarship (C/S/R/P/J)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Patriot Dance Festival",
+        "info": "L-B2 Int'l. Latin Open Multi-Dance (C/S/R/PD/J)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Patriot Dance Festival",
+        "info": "L-B2 Int'l. Latin Open Scholarship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Silver Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Open Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Latin Open 5-Dance Scholarship (C/S/R/P/J)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 125.0,
     "avg_pts": 17.86
   },
   {
@@ -5754,6 +5964,49 @@
     "avg_pts": 17.5
   },
   {
+    "name": "Putnam, Melissa and Bogre, Jani",
+    "results": [
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "L-A3 Challenge Gold Latin (C/S/R/P/J)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "L-B Scholarship Gold Latin (C/S/R/P/J)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-B WPDS Closed Gold Latin Championship (C/S/R/P/J)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-B TSDSC Closed Gold Latin Scholarship (C/S/R/P/J)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B New England Gold Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Latin Closed Gold 5-Dance Scholarship (C/S/R/P/J)",
+        "place": "2",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 103.0,
+    "avg_pts": 17.17
+  },
+  {
     "name": "Trakhman and Legkovenko",
     "results": [
       {
@@ -5819,37 +6072,6 @@
       }
     ],
     "total_pts": 85.0,
-    "avg_pts": 17.0
-  },
-  {
-    "name": "Putnam, Melissa and Bogre, Jani",
-    "results": [
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "L-A3 Challenge Gold Latin (C/S/R/P/J)",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "L-B Scholarship Gold Latin (C/S/R/P/J)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-B WPDS Closed Gold Latin Championship (C/S/R/P/J)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-B TSDSC Closed Gold Latin Scholarship (C/S/R/P/J)",
-        "place": "5",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 68.0,
     "avg_pts": 17.0
   },
   {
@@ -6147,99 +6369,6 @@
     "avg_pts": 16.33
   },
   {
-    "name": "Kellogg, Collette and Bogre, Jani",
-    "results": [
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "L-B2 Challenge Silver Latin (C/S/R/J)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "L-C Scholarship Silver Latin (C/S/R/J)",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-C WPDS Closed Silver Latin Championship (C/S/R/J)",
-        "place": "3",
-        "points": 7.5
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-C WPDS Closed Gold Latin Championship (C/S/R/P/J)",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-C TSDSC Closed Silver Latin Scholarship (C/S/R/J)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-C TSDSC Closed Gold Latin Scholarship (C/S/R/P/J)",
-        "place": "1",
-        "points": 25
-      }
-    ],
-    "total_pts": 97.5,
-    "avg_pts": 16.25
-  },
-  {
-    "name": "Tucker, Sherry and Astafiev, Vlad",
-    "results": [
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S1 TSDSC Closed Silver Latin Scholarship (C/S/R/J)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S1 TSDSC Open Latin Scholarship (C/S/R/P/J)",
-        "place": "4",
-        "points": 12.5
-      },
-      {
-        "comp_name": "Patriot Dance Festival",
-        "info": "L-B2 Int'l. Latin Open Multi-Dance (C/S/R/PD/J)",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "Patriot Dance Festival",
-        "info": "L-B2 Int'l. Latin Open Scholarship (C/S/R/PD/J)",
-        "place": "2",
-        "points": 12.5
-      }
-    ],
-    "total_pts": 65.0,
-    "avg_pts": 16.25
-  },
-  {
-    "name": "Chung, Alicia and Kurakin, Dmitry",
-    "results": [
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Pro/Am Silver 4-Dance  Rising Star Open S2 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Pro/Am Open Senior Scholarships S1 Int'l Latin (CC,S,R,PD)",
-        "place": "4",
-        "points": 12.5
-      }
-    ],
-    "total_pts": 32.5,
-    "avg_pts": 16.25
-  },
-  {
     "name": "Abdullayeva, Juliette and Pashkov, Pasha",
     "results": [
       {
@@ -6309,6 +6438,25 @@
         "comp_name": "Golden Star Dancesport Championships",
         "info": "L-SR2 International Latin Open Scholarship (C/S/R/P/J)",
         "place": "2",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 32.5,
+    "avg_pts": 16.25
+  },
+  {
+    "name": "Chung, Alicia and Kurakin, Dmitry",
+    "results": [
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Pro/Am Silver 4-Dance  Rising Star Open S2 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Pro/Am Open Senior Scholarships S1 Int'l Latin (CC,S,R,PD)",
+        "place": "4",
         "points": 12.5
       }
     ],
@@ -6424,25 +6572,6 @@
         "info": "L-A International Latin Scholarship (C/S/R/PD/J)",
         "place": "2",
         "points": 12.5
-      }
-    ],
-    "total_pts": 32.5,
-    "avg_pts": 16.25
-  },
-  {
-    "name": "Marre, Jennifer and Terziev, Delyan",
-    "results": [
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-C International Latin Open Gold (C/S/R/P/J)",
-        "place": "3",
-        "points": 16.25
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-C International Latin Open Scholarships (C/S/R/P/J)",
-        "place": "3",
-        "points": 16.25
       }
     ],
     "total_pts": 32.5,
@@ -6703,31 +6832,6 @@
     ],
     "total_pts": 16.0,
     "avg_pts": 16.0
-  },
-  {
-    "name": "Skoglund, Casey and Engelgardt, Stas",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-A Open Advanced Latin 5-Dance Scholarship (C/S/R/PD/J)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-B International Latin Gold Scholarship (C/S/R/J)",
-        "place": "2",
-        "points": 17.5
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-B International Latin Open Advanced Scholarship (C/S/R/P/J)",
-        "place": "Semis",
-        "points": 5.4
-      }
-    ],
-    "total_pts": 47.9,
-    "avg_pts": 15.97
   },
   {
     "name": "Zhou, Michelle and Astakhov, Oleg",
@@ -8498,6 +8602,19 @@
     "avg_pts": 15
   },
   {
+    "name": "DiDuca, Nancy and Kovacs, Peter",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Latin Closed Bronze 3-Dance Scholarship (C/S/R)",
+        "place": "1",
+        "points": 15
+      }
+    ],
+    "total_pts": 15,
+    "avg_pts": 15
+  },
+  {
     "name": "Diaz, Victoria and Mulyavka, Ivan",
     "results": [
       {
@@ -8782,19 +8899,6 @@
     ],
     "total_pts": 15,
     "avg_pts": 15
-  },
-  {
-    "name": "O'Connell, Brenda and Engelgardt, Stas",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-B Closed Bronze Latin 3-Dance Scholarship (C/R/J)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 15.0,
-    "avg_pts": 15.0
   },
   {
     "name": "Pennington, Toni and Hipsky, J.R.",
@@ -9468,6 +9572,61 @@
     ],
     "total_pts": 29.0,
     "avg_pts": 14.5
+  },
+  {
+    "name": "Kellogg, Collette and Bogre, Jani",
+    "results": [
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "L-B2 Challenge Silver Latin (C/S/R/J)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "L-C Scholarship Silver Latin (C/S/R/J)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-C WPDS Closed Silver Latin Championship (C/S/R/J)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-C WPDS Closed Gold Latin Championship (C/S/R/P/J)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-C TSDSC Closed Silver Latin Scholarship (C/S/R/J)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-C TSDSC Closed Gold Latin Scholarship (C/S/R/P/J)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Gold Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Latin Closed Gold 5-Dance Scholarship (C/S/R/P/J)",
+        "place": "3",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 115.0,
+    "avg_pts": 14.38
   },
   {
     "name": "Chiang, Sharon and Novikov, Yegor",
@@ -10348,6 +10507,37 @@
     "avg_pts": 13.88
   },
   {
+    "name": "Skoglund, Casey and Engelgardt, Stas",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-A Open Advanced Latin 5-Dance Scholarship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-B International Latin Gold Scholarship (C/S/R/J)",
+        "place": "2",
+        "points": 17.5
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-B International Latin Open Advanced Scholarship (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 5.4
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Latin Open 5-Dance Scholarship (C/S/R/P/J)",
+        "place": "3",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 55.4,
+    "avg_pts": 13.85
+  },
+  {
     "name": "Papadopolos, Estefania and Richardson, Paul",
     "results": [
       {
@@ -11140,25 +11330,25 @@
     "avg_pts": 13.44
   },
   {
-    "name": "Dukes, Tom and Ilieva, Iliyana",
+    "name": "O'Connell, Brenda and Engelgardt, Stas",
     "results": [
       {
         "comp_name": "Eastern United States DanceSport Championship",
-        "info": "G-S1 Closed Silver Latin 4-Dance Championship (C/S/R/J)",
+        "info": "L-B Closed Bronze Latin 3-Dance Scholarship (C/R/J)",
         "place": "1",
-        "points": 15
+        "points": 15.0
       },
       {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "G-S1 Closed Silver Latin WDSS (C/S/R/J)",
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Latin Newcomer 3-Dance Scholarship (C/R/J)",
         "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-S1 Closed Silver Latin 4-Dance Scholarship (C/S/R/J)",
-        "place": "2",
         "points": 10.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Latin Closed Bronze 3-Dance Scholarship (C/S/R)",
+        "place": "1",
+        "points": 15.0
       }
     ],
     "total_pts": 40.0,
@@ -11535,6 +11725,37 @@
     "avg_pts": 13.07
   },
   {
+    "name": "Picerno, Bethanie and Escolme, Andrew",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "L-B International Latin Open Scholarship (C/S/R/P/J)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-B International Latin Open Advanced Scholarship (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 8.55
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-B TSDSC Open Latin Scholarship (C/S/R/P/J)",
+        "place": "7",
+        "points": 8.75
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Latin Open 5-Dance Scholarship (C/S/R/P/J)",
+        "place": "2",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 52.3,
+    "avg_pts": 13.07
+  },
+  {
     "name": "Summers, Suanne and Vasco, Daniel",
     "results": [
       {
@@ -11777,6 +11998,19 @@
       {
         "comp_name": "Michigan DanceSport Challenge",
         "info": "L-B Pro/Am Closed Silver Latin Scholarship (CC/S/R/J)",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 13.0,
+    "avg_pts": 13.0
+  },
+  {
+    "name": "LoPresti, Madeline and Wlodarski, Tomasz",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Latin Closed Silver 4-Dance Scholarship (C/S/R/J)",
         "place": "3",
         "points": 13.0
       }
@@ -12348,6 +12582,31 @@
     "avg_pts": 12.5
   },
   {
+    "name": "Khadke, Prachi and Engelgardt, Stas",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A International Latin Newcomer 3-Dance Scholarship (C/R/J)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A International Latin Closed Bronze 3-Dance Scholarship (C/S/R)",
+        "place": "2",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A International Latin Closed Silver 4-Dance Scholarship (C/S/R/J)",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 37.5,
+    "avg_pts": 12.5
+  },
+  {
     "name": "Aquino, Pauline and Przybyl, Andrzej",
     "results": [
       {
@@ -12747,6 +13006,25 @@
     "avg_pts": 12.5
   },
   {
+    "name": "Schweitzer, Jessica and Astafiev, Vlad",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A New England Bronze Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A International Latin Closed Bronze 3-Dance Scholarship (C/S/R)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 25.0,
+    "avg_pts": 12.5
+  },
+  {
     "name": "Stinchfield, Sam and Spirov, Rangel",
     "results": [
       {
@@ -12942,31 +13220,6 @@
     ],
     "total_pts": 99.5,
     "avg_pts": 12.44
-  },
-  {
-    "name": "Picerno, Bethanie and Escolme, Andrew",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "L-B International Latin Open Scholarship (C/S/R/P/J)",
-        "place": "2",
-        "points": 20.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-B International Latin Open Advanced Scholarship (C/S/R/P/J)",
-        "place": "Semis",
-        "points": 8.55
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-B TSDSC Open Latin Scholarship (C/S/R/P/J)",
-        "place": "7",
-        "points": 8.75
-      }
-    ],
-    "total_pts": 37.3,
-    "avg_pts": 12.43
   },
   {
     "name": "Chang, Cathy and Daly, Jason",
@@ -14391,25 +14644,6 @@
     "avg_pts": 11.5
   },
   {
-    "name": "Pang, Patty and Leonov, Maksim",
-    "results": [
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Pro/Am Open WDDS 4/5 Dance S1 Int'l Latin (CC,S,R,PD,J)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Pro/Am Open Senior Scholarships S1 Int'l Latin (CC,S,R,PD)",
-        "place": "5",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 23.0,
-    "avg_pts": 11.5
-  },
-  {
     "name": "Lillefield, Marzena and Kasperowicz, Kris",
     "results": [
       {
@@ -14442,6 +14676,25 @@
         "info": "L-B Pro/Am Closed Silver Latin Scholarship (CC/S/R/J)",
         "place": "5",
         "points": 8.0
+      }
+    ],
+    "total_pts": 23.0,
+    "avg_pts": 11.5
+  },
+  {
+    "name": "Pang, Patty and Leonov, Maksim",
+    "results": [
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Pro/Am Open WDDS 4/5 Dance S1 Int'l Latin (CC,S,R,PD,J)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Pro/Am Open Senior Scholarships S1 Int'l Latin (CC,S,R,PD)",
+        "place": "5",
+        "points": 10.0
       }
     ],
     "total_pts": 23.0,
@@ -14502,6 +14755,43 @@
     ],
     "total_pts": 22.75,
     "avg_pts": 11.38
+  },
+  {
+    "name": "Dukes, Tom and Ilieva, Iliyana",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "G-S1 Closed Silver Latin 4-Dance Championship (C/S/R/J)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "G-S1 Closed Silver Latin WDSS (C/S/R/J)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-S1 Closed Silver Latin 4-Dance Scholarship (C/S/R/J)",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Silver Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "3",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Latin Closed Silver 4-Dance Scholarship (C/S/R/J)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 56.5,
+    "avg_pts": 11.3
   },
   {
     "name": "Horneff and Fritt",
@@ -15759,6 +16049,19 @@
     "avg_pts": 10.5
   },
   {
+    "name": "Braun, Becky and Rogowski, Kamil",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Latin Closed Bronze 3-Dance Scholarship (C/S/R)",
+        "place": "2",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 10.5,
+    "avg_pts": 10.5
+  },
+  {
     "name": "Elsea, Jo and Juur, Sven",
     "results": [
       {
@@ -16720,6 +17023,19 @@
     "avg_pts": 10.0
   },
   {
+    "name": "Farr, Nooshin and Dolgopolov, Dmitri",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Latin Newcomer 3-Dance Scholarship (C/R/J)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 10,
+    "avg_pts": 10
+  },
+  {
     "name": "Hanus, Diane and Generalov, Denis",
     "results": [
       {
@@ -16978,6 +17294,19 @@
     ],
     "total_pts": 10,
     "avg_pts": 10
+  },
+  {
+    "name": "Shoov, Emily and Odikadze, Michael",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A New England Open Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "2",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
   },
   {
     "name": "Stevens, Judith and Minkov, Peter",
@@ -17606,6 +17935,31 @@
     "avg_pts": 9.53
   },
   {
+    "name": "Madigan, Molly Pinto and Odikadze, Michael",
+    "results": [
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "L-A Scholarship Open Latin (C/S/R/P/J)",
+        "place": "2",
+        "points": 12.5
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-A WPDS Open Latin Championship (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A International Latin Open 5-Dance Scholarship (C/S/R/P/J)",
+        "place": "2",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 28.6,
+    "avg_pts": 9.53
+  },
+  {
     "name": "Schuyler, Erica and Astafiev, Vlad",
     "results": [
       {
@@ -17819,6 +18173,25 @@
         "info": "L-B Pro/Am DSS Closed Bronze Latin Scholarship (C/S/R)",
         "place": "2",
         "points": 9.0
+      }
+    ],
+    "total_pts": 19.0,
+    "avg_pts": 9.5
+  },
+  {
+    "name": "Lee, Christine and Gabor, Marek",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Silver Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Latin Closed Silver 4-Dance Scholarship (C/S/R/J)",
+        "place": "4",
+        "points": 10.0
       }
     ],
     "total_pts": 19.0,
@@ -18092,6 +18465,43 @@
     ],
     "total_pts": 18.5,
     "avg_pts": 9.25
+  },
+  {
+    "name": "Sena, Laureen and Escolme, Andrew",
+    "results": [
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "L-C Scholarship Bronze Latin (C/S/R)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-C Closed Bronze Latin 3-Dance Scholarship (C/R/J)",
+        "place": "2",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "L-C Pro/Am DSS Closed Bronze Latin Scholarship (C/S/R)",
+        "place": "6",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "L-C Bronze WDSS Int'l Latin 5-Dance Championship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Latin Closed Bronze 3-Dance Scholarship (C/S/R)",
+        "place": "1",
+        "points": 15
+      }
+    ],
+    "total_pts": 46.0,
+    "avg_pts": 9.2
   },
   {
     "name": "Tam, Iris and Shmigeljuk, Artjom",
@@ -19085,49 +19495,6 @@
     "avg_pts": 8.67
   },
   {
-    "name": "Kazakevich, Marina and Gotchev, Mitch",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "L-C International Latin Open Championships (C/S/R/P/J)",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-C World Dancesport Series Internaional Latin Open Championship (C/S/R/P/J)",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-C International Latin Open Advanced Scholarship (C/S/R/P/J) - Quarter-final",
-        "place": "quarters",
-        "points": 0.45
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S1 WPDS Open Latin Championship (C/S/R/P/J)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S1 TSDSC Open Latin Scholarship (C/S/R/P/J)",
-        "place": "5",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 Royal Dancesport Challenge",
-        "info": "L-C Open Pro-Am International Latin Scholarship (C/S/R/PD/J)",
-        "place": "1",
-        "points": 25.0
-      }
-    ],
-    "total_pts": 51.85,
-    "avg_pts": 8.64
-  },
-  {
     "name": "Dubois, Francine and Dominguez, Donovan",
     "results": [
       {
@@ -19338,6 +19705,61 @@
     ],
     "total_pts": 16.5,
     "avg_pts": 8.25
+  },
+  {
+    "name": "Kazakevich, Marina and Gotchev, Mitch",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "L-C International Latin Open Championships (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-C World Dancesport Series Internaional Latin Open Championship (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-C International Latin Open Advanced Scholarship (C/S/R/P/J) - Quarter-final",
+        "place": "quarters",
+        "points": 0.45
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S1 WPDS Open Latin Championship (C/S/R/P/J)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S1 TSDSC Open Latin Scholarship (C/S/R/P/J)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 Royal Dancesport Challenge",
+        "info": "L-C Open Pro-Am International Latin Scholarship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Open Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "3",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Latin Open 5-Dance Scholarship (C/S/R/P/J)",
+        "place": "3",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 65.35,
+    "avg_pts": 8.17
   },
   {
     "name": "Tasman Prysant, Sharon and Peihanovich, Aliaksei",
@@ -19578,25 +20000,6 @@
       }
     ],
     "total_pts": 104.7,
-    "avg_pts": 8.05
-  },
-  {
-    "name": "Madigan, Molly Pinto and Odikadze, Michael",
-    "results": [
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "L-A Scholarship Open Latin (C/S/R/P/J)",
-        "place": "2",
-        "points": 12.5
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-A WPDS Open Latin Championship (C/S/R/P/J)",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 16.1,
     "avg_pts": 8.05
   },
   {
@@ -19958,37 +20361,6 @@
         "info": "L- 'A' Pro/Am Closed Bronze Int'l Latin Scholarship (C/S/R)",
         "place": "5",
         "points": 6.0
-      }
-    ],
-    "total_pts": 31.0,
-    "avg_pts": 7.75
-  },
-  {
-    "name": "Sena, Laureen and Escolme, Andrew",
-    "results": [
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "L-C Scholarship Bronze Latin (C/S/R)",
-        "place": "2",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-C Closed Bronze Latin 3-Dance Scholarship (C/R/J)",
-        "place": "2",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "L-C Pro/Am DSS Closed Bronze Latin Scholarship (C/S/R)",
-        "place": "6",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "L-C Bronze WDSS Int'l Latin 5-Dance Championship (C/S/R/PD/J)",
-        "place": "1",
-        "points": 10
       }
     ],
     "total_pts": 31.0,
@@ -20713,6 +21085,19 @@
     "avg_pts": 7.5
   },
   {
+    "name": "Lo, Christine and Odikadze, Michael",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Latin Closed Gold 5-Dance Scholarship (C/S/R/P/J)",
+        "place": "3",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
+  },
+  {
     "name": "McCreight, Gwen and Hollingworth, Neil",
     "results": [
       {
@@ -20823,6 +21208,19 @@
         "comp_name": "Philadelphia Dancesport Championships",
         "info": "L-B Closed Bronze Int'l Latin 5-Dance Scholarship (C/S/R/PD/J)",
         "place": "2",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
+  },
+  {
+    "name": "Trutayeva, Luda and Odikadze, Michael",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Latin Closed Bronze 3-Dance Scholarship (C/S/R)",
+        "place": "3",
         "points": 7.5
       }
     ],
@@ -20993,6 +21391,25 @@
         "comp_name": "wisconsin19[martin cawston]",
         "info": "L-A Pro/Am Closed Bronze Latin Scholarship (C/R/J)",
         "place": "3",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 14.5,
+    "avg_pts": 7.25
+  },
+  {
+    "name": "Schwarz, Andrea and Kovacs, Peter",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B New England Bronze Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Latin Closed Bronze 3-Dance Scholarship (C/S/R)",
+        "place": "4",
         "points": 4.5
       }
     ],
@@ -21310,6 +21727,31 @@
     ],
     "total_pts": 115.1,
     "avg_pts": 7.19
+  },
+  {
+    "name": "Weisman, Judy and Timar, Krisztian",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Silver Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "3",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Silver Pro/Am International Latin Championships (C/S/R/P/J)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Latin Closed Silver 4-Dance Scholarship (C/S/R/J)",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 21.5,
+    "avg_pts": 7.17
   },
   {
     "name": "Hashiba, Hideo and Polak, Petra",
@@ -22942,6 +23384,19 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Ajzenman, Lisa and Tsernov, Nikita",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Latin Closed Silver 4-Dance Scholarship (C/S/R/J)",
+        "place": "3",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Ballada, Isabella and Way, Armen",
     "results": [
       {
@@ -24027,6 +24482,19 @@
       }
     ],
     "total_pts": 10.0,
+    "avg_pts": 5.0
+  },
+  {
+    "name": "Alimov, Irina and Odikadze, Michael",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Latin Newcomer 3-Dance Scholarship (C/R/J)",
+        "place": "2",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 5.0,
     "avg_pts": 5.0
   },
   {

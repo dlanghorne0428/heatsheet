@@ -82,50 +82,6 @@
     "avg_pts": 27.5
   },
   {
-    "name": "Bilopukhov, Mykhailo and Shchypilina, Anastasiia",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "level": "Open",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Open",
-        "place": "3",
-        "points": 26.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "level": "Open",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "level": "Open",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 96.0,
-    "avg_pts": 24.0
-  },
-  {
-    "name": "Likhachev, Evgeny and Levina, Maria",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "level": "Open",
-        "place": "2",
-        "points": 24.0
-      }
-    ],
-    "total_pts": 24.0,
-    "avg_pts": 24.0
-  },
-  {
     "name": "Tarnavskyy, Artur and Danilova, Anastasia",
     "results": [
       {
@@ -199,10 +155,73 @@
         "level": "Open",
         "place": "1",
         "points": 30.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "level": 20,
+        "place": "1",
+        "points": 30.0
       }
     ],
-    "total_pts": 286.0,
-    "avg_pts": 23.83
+    "total_pts": 316.0,
+    "avg_pts": 24.31
+  },
+  {
+    "name": "Bilopukhov, Mykhailo and Shchypilina, Anastasiia",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Open",
+        "place": "3",
+        "points": 26.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "level": "Open",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 96.0,
+    "avg_pts": 24.0
+  },
+  {
+    "name": "Likhachev, Evgeny and Levina, Maria",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "level": "Open",
+        "place": "2",
+        "points": 24.0
+      }
+    ],
+    "total_pts": 24.0,
+    "avg_pts": 24.0
+  },
+  {
+    "name": "Stepanchuk, Pasha and Sabler, Gabrielle",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "level": 20,
+        "place": "2",
+        "points": 24.0
+      }
+    ],
+    "total_pts": 24.0,
+    "avg_pts": 24.0
   },
   {
     "name": "Bertini, Francesco and Bertini, Sabrina",
@@ -248,10 +267,16 @@
         "level": "Open",
         "place": "2",
         "points": 16.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "level": 20,
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 151.0,
-    "avg_pts": 21.57
+    "total_pts": 171.0,
+    "avg_pts": 21.38
   },
   {
     "name": "Mulyavka, Ivan and Rooba, Karin",
@@ -391,6 +416,73 @@
     "avg_pts": 18.0
   },
   {
+    "name": "Kudashev, Ivan and Ksusha",
+    "results": [
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Open",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "5",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "level": 20,
+        "place": "3",
+        "points": 19.5
+      }
+    ],
+    "total_pts": 163.8,
+    "avg_pts": 16.38
+  },
+  {
     "name": "Italyankin, Roman and Bokova, Alexandra",
     "results": [
       {
@@ -474,67 +566,6 @@
     ],
     "total_pts": 210.1,
     "avg_pts": 16.16
-  },
-  {
-    "name": "Kudashev, Ivan and Ksusha",
-    "results": [
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "level": "Open",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Open",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Open",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Open",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Open",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Open",
-        "place": "5",
-        "points": 16.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "level": "Open",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "level": "Open",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "level": "Open",
-        "place": "3",
-        "points": 19.5
-      }
-    ],
-    "total_pts": 144.3,
-    "avg_pts": 16.03
   },
   {
     "name": "Malakhov, Nikita and Vlasova, Nadezda",
@@ -807,10 +838,16 @@
         "level": "Open",
         "place": "1",
         "points": 20.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "level": 20,
+        "place": "6",
+        "points": 9.0
       }
     ],
-    "total_pts": 276.0,
-    "avg_pts": 13.8
+    "total_pts": 285.0,
+    "avg_pts": 13.57
   },
   {
     "name": "Spirov, Rangel and Chernyavska, Veronika",
@@ -860,6 +897,25 @@
     ],
     "total_pts": 91.5,
     "avg_pts": 13.07
+  },
+  {
+    "name": "Kozhukhar, Oleksandr and Sayotovich, Rachel",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "level": 10,
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "level": 20,
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 26.0,
+    "avg_pts": 13.0
   },
   {
     "name": "Gilin, Alon and Oblakova, Anna",
@@ -1248,91 +1304,16 @@
         "level": "Open",
         "place": "Semis",
         "points": 7.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "level": 20,
+        "place": "4",
+        "points": 15.0
       }
     ],
-    "total_pts": 92.0,
-    "avg_pts": 10.22
-  },
-  {
-    "name": "Hustiuc, Daniel and Li, Jessica",
-    "results": [
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Open",
-        "place": "Semis",
-        "points": 7.2
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "level": "Open",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "2019 Dancing a la Carte",
-        "level": "Rising Star",
-        "place": "3",
-        "points": 6.5
-      },
-      {
-        "comp_name": "2019 Dancing a la Carte",
-        "level": "Open",
-        "place": "3",
-        "points": 13.0
-      }
-    ],
-    "total_pts": 50.7,
-    "avg_pts": 10.14
-  },
-  {
-    "name": "Escolme, Andrew and Baker, Amy",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 10.0,
-    "avg_pts": 10.0
-  },
-  {
-    "name": "Davies, Jake and Kalinina, Alyona",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Open",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Heritage Classic Ballroom Championships",
-        "level": "Open",
-        "place": "6",
-        "points": 9.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Open",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Savannah Dance Classic",
-        "level": "Open",
-        "place": "2",
-        "points": 14.0
-      }
-    ],
-    "total_pts": 39.0,
-    "avg_pts": 9.75
+    "total_pts": 107.0,
+    "avg_pts": 10.7
   },
   {
     "name": "Chopenko, Dmitrii and Khrapak, Valeria",
@@ -1366,10 +1347,29 @@
         "level": "Open",
         "place": "3",
         "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "level": 20,
+        "place": "3",
+        "points": 13.0
       }
     ],
-    "total_pts": 48.0,
-    "avg_pts": 9.6
+    "total_pts": 61.0,
+    "avg_pts": 10.17
+  },
+  {
+    "name": "Escolme, Andrew and Baker, Amy",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
   },
   {
     "name": "Savich, Stanislav and Prosser, Nicole",
@@ -1409,10 +1409,108 @@
         "level": "Open",
         "place": "2",
         "points": 16.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "level": 10,
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "level": 20,
+        "place": "5",
+        "points": 12.0
       }
     ],
-    "total_pts": 57.4,
-    "avg_pts": 9.57
+    "total_pts": 79.4,
+    "avg_pts": 9.93
+  },
+  {
+    "name": "Davies, Jake and Kalinina, Alyona",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Heritage Classic Ballroom Championships",
+        "level": "Open",
+        "place": "6",
+        "points": 9.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Open",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Open",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "level": 20,
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 49.0,
+    "avg_pts": 9.8
+  },
+  {
+    "name": "Hustiuc, Daniel and Li, Jessica",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 7.2
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2019 Dancing a la Carte",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "2019 Dancing a la Carte",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "level": 10,
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "level": 20,
+        "place": "Semis",
+        "points": 7.2
+      }
+    ],
+    "total_pts": 64.4,
+    "avg_pts": 9.2
   },
   {
     "name": "Elkin, Bozhidar and Dumanova, Elena",
@@ -1942,6 +2040,25 @@
     "avg_pts": 7.92
   },
   {
+    "name": "Corriveau, Vincent and Champagne, Bianca",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "level": 10,
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "level": 20,
+        "place": "Semis",
+        "points": 7.2
+      }
+    ],
+    "total_pts": 15.2,
+    "avg_pts": 7.6
+  },
+  {
     "name": "Moscarelli, Francesco and Kalinichenko, Anna",
     "results": [
       {
@@ -2033,6 +2150,25 @@
     ],
     "total_pts": 53.5,
     "avg_pts": 6.69
+  },
+  {
+    "name": "Jensen, August and Scheetz, Nanette",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "level": 10,
+        "place": "2",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "level": 20,
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 13.0,
+    "avg_pts": 6.5
   },
   {
     "name": "Velev, Vladimir and Leon, Paz",
@@ -2331,6 +2467,44 @@
     "avg_pts": 5.71
   },
   {
+    "name": "Liu, Liang and Wang, Xiyue",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 7.2
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Open",
+        "place": "quarters",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 11.2,
+    "avg_pts": 5.6
+  },
+  {
+    "name": "Katashinskiy, Artemiy and Katashinskiy, Marina",
+    "results": [
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Open",
+        "place": "7",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 11.0,
+    "avg_pts": 5.5
+  },
+  {
     "name": "Coco, Fabio and Harrington, Nicole",
     "results": [
       {
@@ -2368,48 +2542,16 @@
         "level": "Open",
         "place": "4",
         "points": 10.0
-      }
-    ],
-    "total_pts": 34.1,
-    "avg_pts": 5.68
-  },
-  {
-    "name": "Liu, Liang and Wang, Xiyue",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 7.2
       },
       {
-        "comp_name": "NYDF 2019",
-        "level": "Open",
-        "place": "quarters",
+        "comp_name": "Yankee Classic",
+        "level": 10,
+        "place": "5",
         "points": 4.0
       }
     ],
-    "total_pts": 11.2,
-    "avg_pts": 5.6
-  },
-  {
-    "name": "Katashinskiy, Artemiy and Katashinskiy, Marina",
-    "results": [
-      {
-        "comp_name": "2019 Miami Vibe",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 6.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "level": "Open",
-        "place": "7",
-        "points": 5.0
-      }
-    ],
-    "total_pts": 11.0,
-    "avg_pts": 5.5
+    "total_pts": 38.1,
+    "avg_pts": 5.44
   },
   {
     "name": "Solomakha, Dmitriy and Sevillano, Gabriela",
@@ -2701,37 +2843,6 @@
     "avg_pts": 4.7
   },
   {
-    "name": "Chibishev, Ihor and Zhosan, Diana",
-    "results": [
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Open",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "level": "Open",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "level": "Open",
-        "place": "7",
-        "points": 5.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 4.0
-      }
-    ],
-    "total_pts": 18.6,
-    "avg_pts": 4.65
-  },
-  {
     "name": "Grant, Rhett and Wadsworth, Shelby",
     "results": [
       {
@@ -2794,6 +2905,43 @@
     "avg_pts": 4.53
   },
   {
+    "name": "Chibishev, Ihor and Zhosan, Diana",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "level": "Open",
+        "place": "7",
+        "points": 5.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "level": 20,
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 22.2,
+    "avg_pts": 4.44
+  },
+  {
     "name": "Montagnese, Bradley and Tania, Trigili",
     "results": [
       {
@@ -2846,6 +2994,25 @@
     "avg_pts": 4.0
   },
   {
+    "name": "Matakov, Vesko and Mariscal, Andrea",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 7.6,
+    "avg_pts": 3.8
+  },
+  {
     "name": "Horvath-Krol, Dariusz and Zosin, Alisa",
     "results": [
       {
@@ -2895,29 +3062,22 @@
         "level": "Rising Star",
         "place": "4",
         "points": 5.0
-      }
-    ],
-    "total_pts": 31.3,
-    "avg_pts": 3.91
-  },
-  {
-    "name": "Matakov, Vesko and Mariscal, Andrea",
-    "results": [
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Open",
-        "place": "quarters",
-        "points": 4.0
       },
       {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "level": "Open",
+        "comp_name": "Yankee Classic",
+        "level": 10,
+        "place": "6",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "level": 20,
         "place": "Semis",
         "points": 3.6
       }
     ],
-    "total_pts": 7.6,
-    "avg_pts": 3.8
+    "total_pts": 37.9,
+    "avg_pts": 3.79
   },
   {
     "name": "Pro, Lenny and Bekker, Natalie",
@@ -2977,31 +3137,6 @@
     "avg_pts": 3.53
   },
   {
-    "name": "Pavlovic, Nenad and Kogan, Vivienne",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "level": "Rising Star",
-        "place": "6",
-        "points": 3.0
-      }
-    ],
-    "total_pts": 9.4,
-    "avg_pts": 3.13
-  },
-  {
     "name": "Guzovskyi, Mykyta and Serbina, Ekaterina",
     "results": [
       {
@@ -3027,10 +3162,41 @@
         "level": "Open",
         "place": "quarters",
         "points": 4.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "level": 10,
+        "place": "4",
+        "points": 5.0
       }
     ],
-    "total_pts": 12.4,
-    "avg_pts": 3.1
+    "total_pts": 17.4,
+    "avg_pts": 3.48
+  },
+  {
+    "name": "Pavlovic, Nenad and Kogan, Vivienne",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 9.4,
+    "avg_pts": 3.13
   },
   {
     "name": "Anufriiev, Mykhailo and Veitrynska, Anna",

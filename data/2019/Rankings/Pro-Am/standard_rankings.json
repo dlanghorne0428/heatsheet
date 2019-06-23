@@ -308,6 +308,31 @@
     "avg_pts": 27.5
   },
   {
+    "name": "Brown, Kyle and Bondarenko, Sergey",
+    "results": [
+      {
+        "comp_name": "chicago19",
+        "info": "L-S1 Senior Ballroom Scholarship (W/T/F/QS)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Open Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 35.0
+      }
+    ],
+    "total_pts": 80.0,
+    "avg_pts": 26.67
+  },
+  {
     "name": "Murphy, Carla and Kravets, Yuriy",
     "results": [
       {
@@ -598,19 +623,6 @@
     "avg_pts": 25
   },
   {
-    "name": "Brown, Kyle and Bondarenko, Sergey",
-    "results": [
-      {
-        "comp_name": "chicago19",
-        "info": "L-S1 Senior Ballroom Scholarship (W/T/F/QS)",
-        "place": "1",
-        "points": 25.0
-      }
-    ],
-    "total_pts": 25.0,
-    "avg_pts": 25.0
-  },
-  {
     "name": "Carpentier-Lazarz, Michelle and Kasperowicz, Kris",
     "results": [
       {
@@ -733,19 +745,6 @@
       {
         "comp_name": "atlopen19",
         "info": "L-A Open International Ballroom Open Best of the Best & Scholarship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25
-      }
-    ],
-    "total_pts": 25,
-    "avg_pts": 25
-  },
-  {
-    "name": "Shoov, Emily and Odikadze, Michael",
-    "results": [
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "L-A Scholarship Open Standard (W/T/VW/F/QS)",
         "place": "1",
         "points": 25
       }
@@ -1338,6 +1337,37 @@
     "avg_pts": 22.5
   },
   {
+    "name": "Grieco, Anamaria and Batih, Nazar",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-A Closed Gold Ballroom 5-Dance Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-A Closed Gold Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A New England Gold Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A International Ballroom Closed Gold  5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25
+      }
+    ],
+    "total_pts": 90,
+    "avg_pts": 22.5
+  },
+  {
     "name": "Janey, Natasha and Barabash, Volodymry",
     "results": [
       {
@@ -1461,25 +1491,6 @@
       }
     ],
     "total_pts": 45.0,
-    "avg_pts": 22.5
-  },
-  {
-    "name": "Grieco, Anamaria and Batih, Nazar",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-A Closed Gold Ballroom 5-Dance Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-A Closed Gold Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25
-      }
-    ],
-    "total_pts": 45,
     "avg_pts": 22.5
   },
   {
@@ -1635,61 +1646,6 @@
     "avg_pts": 22.5
   },
   {
-    "name": "Sato, Vicki and Batih, Nazar",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-S1 Open Advanced Ballroom 4-Dance Championship (W/T/F/Q)",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-S1 Open Advanced Ballroom 4-Dance Scholarship (W/T/F/Q)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-SR1 Senior International Ballroom Open Advanced Championship (W/T/F/Q)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-SR1 Senior International Ballroom Open Advanced Scholarship (W/T/F/Q)",
-        "place": "2",
-        "points": 28.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "L-S1 Open Int'l Ballroom 5-Dance (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "L-S1 Open Int'l Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-S International Ballroom Open Gold (W/T/VW/F/QS)",
-        "place": "3",
-        "points": 16.25
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-S1 Pro-Am Senior Open International Ballroom Scholarships (W/T/Q)",
-        "place": "2",
-        "points": 28.0
-      }
-    ],
-    "total_pts": 178.25,
-    "avg_pts": 22.28
-  },
-  {
     "name": "Simsic, Janet and Stefano, Andrea",
     "results": [
       {
@@ -1804,6 +1760,25 @@
     ],
     "total_pts": 242.5,
     "avg_pts": 22.05
+  },
+  {
+    "name": "Dillman, Linda and Misurenkovas, Arturas",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Open Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 28.0
+      }
+    ],
+    "total_pts": 44.0,
+    "avg_pts": 22.0
   },
   {
     "name": "Richter, Dagmar and Kiselev, Sergey",
@@ -1954,6 +1929,73 @@
     "avg_pts": 21.62
   },
   {
+    "name": "Zhang, Sabryna and Batih, Nazar",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-A Open Silver Ballroom 4 Dance (W/T/FT/QS)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-A Closed Gold Ballroom 4 Dance (W/T/FT/QS)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-A International Ballroom Gold Championship (W/T/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-A International Ballroom Gold Scholarship (W/T/F/Q)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "L-A Closed Ballroom Gold Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "L-A World Master's Pro/Am Ballroom Open Silver Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Cl. Silver Pro-Am Scholarships A Int'l Ballroom (W,T,F,Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Gold Pro-Am Multi-Dances Closed A Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A New England Open Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 215.0,
+    "avg_pts": 21.5
+  },
+  {
     "name": "Eubank, Wendy and Bieliei, Iaroslav",
     "results": [
       {
@@ -2046,61 +2088,6 @@
     "avg_pts": 21.44
   },
   {
-    "name": "Zhang, Sabryna and Batih, Nazar",
-    "results": [
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "L-A Open Silver Ballroom 4 Dance (W/T/FT/QS)",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "L-A Closed Gold Ballroom 4 Dance (W/T/FT/QS)",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-A International Ballroom Gold Championship (W/T/F/Q)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-A International Ballroom Gold Scholarship (W/T/F/Q)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "info": "L-A Closed Ballroom Gold Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "info": "L-A World Master's Pro/Am Ballroom Open Silver Scholarship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Cl. Silver Pro-Am Scholarships A Int'l Ballroom (W,T,F,Q)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Gold Pro-Am Multi-Dances Closed A Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "1",
-        "points": 20
-      }
-    ],
-    "total_pts": 170.0,
-    "avg_pts": 21.25
-  },
-  {
     "name": "Fukami, Keiko and Kutepov, Denis",
     "results": [
       {
@@ -2136,6 +2123,79 @@
     ],
     "total_pts": 105.75,
     "avg_pts": 21.15
+  },
+  {
+    "name": "Bender, Arlene and Pali, Erik",
+    "results": [
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "L-C Scholarship Silver Standard (W/T/F/QS)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-S1 Closed Gold Ballroom 4-Dance Scholarship (W/T/F/Q)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-C International Ballroom Gold Scholarship (W/T/F/Q)",
+        "place": "3",
+        "points": 12.5
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S1 TSDSC Closed Gold Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "L-C Closed Gold Int'l Ballroom 5-Dance Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "L-C Closed Gold Int'l Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Patriot Dance Festival",
+        "info": "L-B2 Int'l. Ballroom Closed Gold Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "Patriot Dance Festival",
+        "info": "L-B2 Int'l. Ballroom Closed Gold Multi-Dance (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'S1' Pro/Am Closed Gold Int'l Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Gold Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Closed Gold  5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 232.5,
+    "avg_pts": 21.14
   },
   {
     "name": "Gill, Linda and Malkhasyan, Roman",
@@ -2331,65 +2391,71 @@
     "avg_pts": 20.94
   },
   {
-    "name": "Bender, Arlene and Pali, Erik",
+    "name": "Sato, Vicki and Batih, Nazar",
     "results": [
       {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "L-C Scholarship Silver Standard (W/T/F/QS)",
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-S1 Open Advanced Ballroom 4-Dance Championship (W/T/F/Q)",
         "place": "1",
-        "points": 20.0
+        "points": 20
       },
       {
         "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-S1 Closed Gold Ballroom 4-Dance Scholarship (W/T/F/Q)",
+        "info": "L-S1 Open Advanced Ballroom 4-Dance Scholarship (W/T/F/Q)",
         "place": "1",
         "points": 25.0
       },
       {
         "comp_name": "NYDF 2019",
-        "info": "L-C International Ballroom Gold Scholarship (W/T/F/Q)",
-        "place": "3",
-        "points": 12.5
+        "info": "L-SR1 Senior International Ballroom Open Advanced Championship (W/T/F/Q)",
+        "place": "2",
+        "points": 16.0
       },
       {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S1 TSDSC Closed Gold Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25.0
+        "comp_name": "NYDF 2019",
+        "info": "L-SR1 Senior International Ballroom Open Advanced Scholarship (W/T/F/Q)",
+        "place": "2",
+        "points": 28.0
       },
       {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "L-C Closed Gold Int'l Ballroom 5-Dance Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "L-C Closed Gold Int'l Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "Patriot Dance Festival",
-        "info": "L-B2 Int'l. Ballroom Closed Gold Scholarship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25
-      },
-      {
-        "comp_name": "Patriot Dance Festival",
-        "info": "L-B2 Int'l. Ballroom Closed Gold Multi-Dance (W/T/VW/F/Q)",
+        "comp_name": "The Windy City Open",
+        "info": "L-S1 Open Int'l Ballroom 5-Dance (W/T/VW/F/Q)",
         "place": "1",
         "points": 20
       },
       {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'S1' Pro/Am Closed Gold Int'l Ballroom Scholarship (W/T/VW/F/Q)",
+        "comp_name": "The Windy City Open",
+        "info": "L-S1 Open Int'l Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-S International Ballroom Open Gold (W/T/VW/F/QS)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-S1 Pro-Am Senior Open International Ballroom Scholarships (W/T/Q)",
         "place": "2",
-        "points": 15.0
+        "points": 28.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Open Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 17.5
       }
     ],
-    "total_pts": 187.5,
-    "avg_pts": 20.83
+    "total_pts": 208.75,
+    "avg_pts": 20.88
   },
   {
     "name": "Zhang, Bing and Michalski, Dariusz",
@@ -2993,6 +3059,19 @@
     "avg_pts": 20
   },
   {
+    "name": "DeNoteristefani, Leila and Mikushov, Igor",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 20.0
+  },
+  {
     "name": "Dixon, Simona and Shevelev, Kirill",
     "results": [
       {
@@ -3284,6 +3363,19 @@
       {
         "comp_name": "Florida Superstars",
         "info": "L-D Silver Open International Ballroom 3 Dance Championship(W/F/QS)",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 20
+  },
+  {
+    "name": "Shannon, Veronica and Samarasinghe, Ashan",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Gold Pro/Am International Ballroom Championships (W/T/F/Q)",
         "place": "1",
         "points": 20
       }
@@ -3645,6 +3737,37 @@
     "avg_pts": 19.4
   },
   {
+    "name": "Ruszkowski, Monika and Sverrisson, Gunnar",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-B Closed Silver Ballroom 4-Dance Scholarship (W/T/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-B Open Advanced Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-B TSDSC Open Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 77.5,
+    "avg_pts": 19.38
+  },
+  {
     "name": "Turzon, Maritess and Ursache, Valeriu",
     "results": [
       {
@@ -3662,31 +3785,6 @@
     ],
     "total_pts": 38.75,
     "avg_pts": 19.38
-  },
-  {
-    "name": "Covino, Linda and Gorolevici, Anatoli",
-    "results": [
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S1 WPDS Closed Gold Ballroom Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-C TSDSC Closed Gold Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 12.5
-      },
-      {
-        "comp_name": "2019 Dancing a la Carte",
-        "info": "L-D Closed Gold Ballroom Scholarship (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 25
-      }
-    ],
-    "total_pts": 57.5,
-    "avg_pts": 19.17
   },
   {
     "name": "Hooks, Joyce and Rivers, Matt",
@@ -4017,6 +4115,25 @@
         "info": "L-C Open Ballroom Scholarship (W/T/VW/F/Q)",
         "place": "2",
         "points": 17.5
+      }
+    ],
+    "total_pts": 37.5,
+    "avg_pts": 18.75
+  },
+  {
+    "name": "Connolly, Jerry and Nocera, Charisse",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-S1 Closed Gold Ballroom 4-Dance Scholarship (W/T/F/Q)",
+        "place": "2",
+        "points": 17.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "G-G-S1 New England Gold Pro/Am International Ballroom Championships (W/T/F/Q)",
+        "place": "1",
+        "points": 20
       }
     ],
     "total_pts": 37.5,
@@ -5195,25 +5312,25 @@
     "avg_pts": 17.5
   },
   {
-    "name": "Ruszkowski, Monika and Sverrisson, Gunnar",
+    "name": "Hart, Karen and Pali, Erik",
     "results": [
       {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-B Closed Silver Ballroom 4-Dance Scholarship (W/T/F/Q)",
+        "comp_name": "Patriot Dance Festival",
+        "info": "L-C1 Int'l. Ballroom Closed Silver Multi-Dance (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'S1' WDSS/BofB Closed Silver Int'l Ballroom Championship (W/T/Q)",
+        "place": "4",
+        "points": 17.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Closed Silver 4-Dance Scholarship (W/T/F/Q)",
         "place": "1",
         "points": 20.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-B Open Advanced Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 20.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-B TSDSC Open Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 12.5
       }
     ],
     "total_pts": 52.5,
@@ -5269,6 +5386,25 @@
       {
         "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
         "info": "Cl. Silver Pro-Am Scholarships C Int'l Ballroom (W,T,F,Q)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 35.0,
+    "avg_pts": 17.5
+  },
+  {
+    "name": "Botelho, Elena and Litvinov, Igor",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B New England Silver Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Closed Silver 4-Dance Scholarship (W/T/F/Q)",
         "place": "1",
         "points": 20.0
       }
@@ -5372,6 +5508,25 @@
     "avg_pts": 17.5
   },
   {
+    "name": "Khadke, Prachi and Batih, Nazar",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A New England Silver Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A International Ballroom Closed Silver 4-Dance Scholarship (W/T/F/Q)",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 35,
+    "avg_pts": 17.5
+  },
+  {
     "name": "Law, Amy and Stutts, Eddie",
     "results": [
       {
@@ -5448,6 +5603,25 @@
     "avg_pts": 17.5
   },
   {
+    "name": "Shoov, Emily and Odikadze, Michael",
+    "results": [
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "L-A Scholarship Open Standard (W/T/VW/F/QS)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A New England Open Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 35.0,
+    "avg_pts": 17.5
+  },
+  {
     "name": "Sullivan, Paula and Pali, Erik",
     "results": [
       {
@@ -5486,37 +5660,11 @@
     "avg_pts": 17.5
   },
   {
-    "name": "Connolly, Jerry and Nocera, Charisse",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-S1 Closed Gold Ballroom 4-Dance Scholarship (W/T/F/Q)",
-        "place": "2",
-        "points": 17.5
-      }
-    ],
-    "total_pts": 17.5,
-    "avg_pts": 17.5
-  },
-  {
     "name": "Lin, Betty and Faraci, Andrea",
     "results": [
       {
         "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
         "info": "Op. Gold Pro-Am Scholarships S1 Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "2",
-        "points": 17.5
-      }
-    ],
-    "total_pts": 17.5,
-    "avg_pts": 17.5
-  },
-  {
-    "name": "Taillacq, Lisa and Gorolevici, Anatoli",
-    "results": [
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S1 TSDSC Closed Gold Ballroom Scholarship (W/T/VW/F/Q)",
         "place": "2",
         "points": 17.5
       }
@@ -5663,6 +5811,103 @@
     ],
     "total_pts": 295.25,
     "avg_pts": 17.37
+  },
+  {
+    "name": "Morrison, Angela and Bezrodnov, Sergei",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "L-C Closed Gold International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "L-C Closed Gold International Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-C International Ballroom Gold Championship (W/T/F/Q)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-C International Ballroom Gold Scholarship (W/T/F/Q)",
+        "place": "2",
+        "points": 17.5
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "L-C Closed Gold Int'l Ballroom 5-Dance Championship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "L-C Closed Gold Int'l Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "L-C Gold WDSS Int'l Ballroom  5-Dance Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' Closed Gold Int'l Ballroom Championship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' Pro/Am Closed Gold Int'l Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' Closed Gold Int'l Ballroom Championship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' Pro/Am Closed Gold Int'l Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B New England Gold Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Gold Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Closed Gold  5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Ballroom Closed Gold  5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25
+      }
+    ],
+    "total_pts": 259.5,
+    "avg_pts": 17.3
   },
   {
     "name": "Phan, Kim and Conte, Riccardo",
@@ -5869,6 +6114,37 @@
         "info": "L-S1 Open International Ballroom Scholarship (W/T/VW/F/Q)",
         "place": "2",
         "points": 15.0
+      }
+    ],
+    "total_pts": 67.5,
+    "avg_pts": 16.88
+  },
+  {
+    "name": "Covino, Linda and Gorolevici, Anatoli",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S1 WPDS Closed Gold Ballroom Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-C TSDSC Closed Gold Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "2019 Dancing a la Carte",
+        "info": "L-D Closed Gold Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Gold Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 10.0
       }
     ],
     "total_pts": 67.5,
@@ -6139,6 +6415,85 @@
     ],
     "total_pts": 50,
     "avg_pts": 16.67
+  },
+  {
+    "name": "Matsumoto, Kako and Issaev, Basil",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-C Open Advanced Ballroom WDSS (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-C Open Advanced Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-C World Dancesport Series International Ballroom Open Championship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 5.4
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-C International Ballroom Open Advanced Scholarship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 8.05
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-C WPDS Open Ballroom Championship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-C TSDSC Open Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "L-B Open Gold Int'l Ballroom 5-Dance Championship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "L-B Open Int'l Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 12.5
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "L-C Open Dancesport Series International Ballroom (W/T/VW/F/QS)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "L-C Open International Ballroom Open Best of the Best & Scholarship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Open Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 199.95,
+    "avg_pts": 16.66
   },
   {
     "name": "Barrett, Jamie and Placidi, Stefano",
@@ -6515,6 +6870,25 @@
     "avg_pts": 16.38
   },
   {
+    "name": "McCarron, Mary Jane and Issaev, Basil",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Open Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 22.75
+      }
+    ],
+    "total_pts": 32.75,
+    "avg_pts": 16.38
+  },
+  {
     "name": "Ahn, June and Sterban, Radu",
     "results": [
       {
@@ -6635,25 +7009,6 @@
       }
     ],
     "total_pts": 65.0,
-    "avg_pts": 16.25
-  },
-  {
-    "name": "Hart, Karen and Pali, Erik",
-    "results": [
-      {
-        "comp_name": "Patriot Dance Festival",
-        "info": "L-C1 Int'l. Ballroom Closed Silver Multi-Dance (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'S1' WDSS/BofB Closed Silver Int'l Ballroom Championship (W/T/Q)",
-        "place": "4",
-        "points": 17.5
-      }
-    ],
-    "total_pts": 32.5,
     "avg_pts": 16.25
   },
   {
@@ -7082,31 +7437,6 @@
     ],
     "total_pts": 32.0,
     "avg_pts": 16.0
-  },
-  {
-    "name": "Rahardja, Sainah and Zinshtein, Ronen",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-C Open Advanced Ballroom WDSS (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-C Open Advanced Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 12.5
-      },
-      {
-        "comp_name": "Patriot Dance Festival",
-        "info": "L-B1 Int'l. Ballroom Open Scholarship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25
-      }
-    ],
-    "total_pts": 47.5,
-    "avg_pts": 15.83
   },
   {
     "name": "Yu, Jinping and Zakharav, Ilia",
@@ -7662,146 +7992,6 @@
     "avg_pts": 15.5
   },
   {
-    "name": "Matsumoto, Kako and Issaev, Basil",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-C Open Advanced Ballroom WDSS (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-C Open Advanced Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-C World Dancesport Series International Ballroom Open Championship (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 5.4
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-C International Ballroom Open Advanced Scholarship (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 8.05
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-C WPDS Open Ballroom Championship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-C TSDSC Open Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "L-B Open Gold Int'l Ballroom 5-Dance Championship (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "L-B Open Int'l Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 12.5
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "L-C Open Dancesport Series International Ballroom (W/T/VW/F/QS)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "L-C Open International Ballroom Open Best of the Best & Scholarship (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 12.5
-      }
-    ],
-    "total_pts": 154.95,
-    "avg_pts": 15.49
-  },
-  {
-    "name": "Morrison, Angela and Bezrodnov, Sergei",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "L-C Closed Gold International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "L-C Closed Gold International Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-C International Ballroom Gold Championship (W/T/F/Q)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-C International Ballroom Gold Scholarship (W/T/F/Q)",
-        "place": "2",
-        "points": 17.5
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "L-C Closed Gold Int'l Ballroom 5-Dance Championship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "L-C Closed Gold Int'l Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 12.5
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "L-C Gold WDSS Int'l Ballroom  5-Dance Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' Closed Gold Int'l Ballroom Championship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' Pro/Am Closed Gold Int'l Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' Closed Gold Int'l Ballroom Championship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' Pro/Am Closed Gold Int'l Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 169.5,
-    "avg_pts": 15.41
-  },
-  {
     "name": "Cosby, Pen and Bogdanov, Olga",
     "results": [
       {
@@ -8020,10 +8210,22 @@
         "info": "L- 'C' Pro/Am Closed Silver Int'l Ballroom Scholarship (W/T/F/Q)",
         "place": "7",
         "points": 7.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Silver Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Closed Silver 4-Dance Scholarship (W/T/F/Q)",
+        "place": "2",
+        "points": 16.0
       }
     ],
-    "total_pts": 152.7,
-    "avg_pts": 15.27
+    "total_pts": 183.7,
+    "avg_pts": 15.31
   },
   {
     "name": "Chang, Chen and Kuzmin, Pavel",
@@ -8456,6 +8658,25 @@
     "avg_pts": 15.0
   },
   {
+    "name": "Kenner, Shawn and Zinshtein, Ronen",
+    "results": [
+      {
+        "comp_name": "Patriot Dance Festival",
+        "info": "L-B1 Int'l. Ballroom Closed Bronze Scholarship (W/F/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Closed Bronze 3-Dance Scholarship (W/T/Q)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 30.0,
+    "avg_pts": 15.0
+  },
+  {
     "name": "Koven, Sophia and Rozhkov, Sergey",
     "results": [
       {
@@ -8529,6 +8750,25 @@
       }
     ],
     "total_pts": 30,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Taillacq, Lisa and Gorolevici, Anatoli",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S1 TSDSC Closed Gold Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 17.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Closed Gold  5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 30.0,
     "avg_pts": 15.0
   },
   {
@@ -8640,19 +8880,6 @@
     ],
     "total_pts": 15.0,
     "avg_pts": 15.0
-  },
-  {
-    "name": "Cooper, Donna and Lawatsch, Christoph",
-    "results": [
-      {
-        "comp_name": "2019 Royal Dancesport Challenge",
-        "info": "L-SR Closed Bronze Pro-Am International Ballroom Scholarship (W/T/QS)",
-        "place": "1",
-        "points": 15
-      }
-    ],
-    "total_pts": 15,
-    "avg_pts": 15
   },
   {
     "name": "Gibby, Nick and Davis, Katherine",
@@ -8785,19 +9012,6 @@
     "avg_pts": 15
   },
   {
-    "name": "Kenner, Shawn and Zinshtein, Ronen",
-    "results": [
-      {
-        "comp_name": "Patriot Dance Festival",
-        "info": "L-B1 Int'l. Ballroom Closed Bronze Scholarship (W/F/Q)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 15.0,
-    "avg_pts": 15.0
-  },
-  {
     "name": "Kheo, Evelyn and Fan, David",
     "results": [
       {
@@ -8848,6 +9062,19 @@
     ],
     "total_pts": 15.0,
     "avg_pts": 15.0
+  },
+  {
+    "name": "Leary, Elizabeth and Germain, Zachary",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A International Ballroom Closed Bronze 3-Dance Scholarship (W/T/Q)",
+        "place": "1",
+        "points": 15
+      }
+    ],
+    "total_pts": 15,
+    "avg_pts": 15
   },
   {
     "name": "Lee, Sally and Anderson, Scott",
@@ -9097,6 +9324,19 @@
     "avg_pts": 15
   },
   {
+    "name": "Fridberg, Biana and Odikadze, Michael",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
+  },
+  {
     "name": "Lewis, Melba and Generalov, Denis",
     "results": [
       {
@@ -9336,25 +9576,6 @@
       }
     ],
     "total_pts": 189.75,
-    "avg_pts": 14.6
-  },
-  {
-    "name": "Avery, Michelle and Samarasinghe, Ashan",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-A Open Advanced Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'A' Pro/Am Open Int'l Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 4.2
-      }
-    ],
-    "total_pts": 29.2,
     "avg_pts": 14.6
   },
   {
@@ -9849,6 +10070,43 @@
     ],
     "total_pts": 28.5,
     "avg_pts": 14.25
+  },
+  {
+    "name": "Rahardja, Sainah and Zinshtein, Ronen",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-C Open Advanced Ballroom WDSS (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-C Open Advanced Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Patriot Dance Festival",
+        "info": "L-B1 Int'l. Ballroom Open Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Open Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "6",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 71.0,
+    "avg_pts": 14.2
   },
   {
     "name": "Zaleske, David and Kudryashova, Irina",
@@ -10564,31 +10822,6 @@
     "avg_pts": 13.75
   },
   {
-    "name": "Spencer, Lisa and Zinshtein, Ronen",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-C Closed Silver Ballroom 4-Dance Championship (W/T/F/Q)",
-        "place": "5",
-        "points": 6.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-C International Ballroom Silver Closed (W/T/QS)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "Patriot Dance Festival",
-        "info": "L-B1 Int'l. Ballroom Closed Silver Scholarship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 20
-      }
-    ],
-    "total_pts": 41.0,
-    "avg_pts": 13.67
-  },
-  {
     "name": "Brandell, Sue and Kumer, Bill",
     "results": [
       {
@@ -10651,25 +10884,6 @@
     "avg_pts": 13.62
   },
   {
-    "name": "Lee, Christine and Gabor, Marek",
-    "results": [
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "L-C Scholarship Silver Standard (W/T/F/QS)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "L-B2 Challenge Silver Standard (W/T/F/QS)",
-        "place": "1",
-        "points": 15
-      }
-    ],
-    "total_pts": 27.0,
-    "avg_pts": 13.5
-  },
-  {
     "name": "Paris, Lissa and Surowiec, Robert",
     "results": [
       {
@@ -10683,6 +10897,25 @@
         "info": "L-S1 Closed Silver Ballroom 4-Dance Scholarship (W/T/F/Q)",
         "place": "2",
         "points": 12.0
+      }
+    ],
+    "total_pts": 27.0,
+    "avg_pts": 13.5
+  },
+  {
+    "name": "Schultz, Stacie and Radler, Daniel",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Gold Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Closed Gold  5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 15.0
       }
     ],
     "total_pts": 27.0,
@@ -10805,49 +11038,6 @@
     ],
     "total_pts": 53.5,
     "avg_pts": 13.38
-  },
-  {
-    "name": "Sivaraman, Vimala and Papkala, Thomas",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-C International Ballroom Silver Championship (W/T/F/Q)",
-        "place": "2",
-        "points": 10.5
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-C International Ballroom Silver Scholarship (W/T/F/Q)",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-C WPDS Closed Silver Ballroom Championship (W/T/F/Q)",
-        "place": "3",
-        "points": 4.5
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-C TSDSC Closed Silver Ballroom Scholarship (W/T/F/Q)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "L-C Closed Silver Ballroom Multi-Dance Challenge (W/T/F/Q)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "L-C Closed Silver Ballroom Scholarship (W/T/F/Q)",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 80.0,
-    "avg_pts": 13.33
   },
   {
     "name": "Morgan, Winnie and Kazlauskas, Jonas",
@@ -11422,19 +11612,6 @@
     "avg_pts": 13.0
   },
   {
-    "name": "Wang and Klinchik",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "L-C International Ballroom Open Championships (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 13.0
-      }
-    ],
-    "total_pts": 13.0,
-    "avg_pts": 13.0
-  },
-  {
     "name": "Cohn, Debbie and Paramonov, Andrei",
     "results": [
       {
@@ -11545,6 +11722,61 @@
     "avg_pts": 12.94
   },
   {
+    "name": "Sivaraman, Vimala and Papkala, Thomas",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-C International Ballroom Silver Championship (W/T/F/Q)",
+        "place": "2",
+        "points": 10.5
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-C International Ballroom Silver Scholarship (W/T/F/Q)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-C WPDS Closed Silver Ballroom Championship (W/T/F/Q)",
+        "place": "3",
+        "points": 4.5
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-C TSDSC Closed Silver Ballroom Scholarship (W/T/F/Q)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "L-C Closed Silver Ballroom Multi-Dance Challenge (W/T/F/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "L-C Closed Silver Ballroom Scholarship (W/T/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Silver Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Closed Silver 4-Dance Scholarship (W/T/F/Q)",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 103.5,
+    "avg_pts": 12.94
+  },
+  {
     "name": "Skinner, Scott and Mancini, Jessica",
     "results": [
       {
@@ -11586,37 +11818,6 @@
     ],
     "total_pts": 77.5,
     "avg_pts": 12.92
-  },
-  {
-    "name": "Larkin, Hallie and Zinshtein, Ronen",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "L-SR1 Closed Silver International Ballroom Scholarship (W/T/F/Q)",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-S1 Closed Silver Ballroom 4-Dance Scholarship (W/T/F/Q)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-S International Ballroom Silver Closed (W/T/QS)",
-        "place": "3",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Patriot Dance Festival",
-        "info": "L-B2 Int'l. Ballroom Closed Silver Scholarship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 51.5,
-    "avg_pts": 12.88
   },
   {
     "name": "Harrison, Jerry and Lazzari Pappacena, Francesca",
@@ -11705,6 +11906,127 @@
     ],
     "total_pts": 25.4,
     "avg_pts": 12.7
+  },
+  {
+    "name": "Sarangaya, Susana and Kuzmin, Pavel",
+    "results": [
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Dancesport Series Championships  Open C Int'l Ballroom Championship (W,T,VW,F,Q)",
+        "place": "7",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Open Pro-Am Scholarships C Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "7",
+        "points": 6.25
+      },
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "info": "L-C PDC Open Balroom Challenge (W/T/V/F/Q)",
+        "place": "3",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "info": "L-C PDC Open Ballroom Scholarship (W/T/V/F/Q)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "info": "L-C <258>Pro-Am Ballroom Open Gold Challenge BofB Qual. (W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "info": "L-C <274>Pro-Am Int'l Ballroom Open Dancesport Series Qualifier (W/T/VW/FT/QS)",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-C World Pro/Am Standard DanceSport Series (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-B Open Pro/Am Standard Scholarship (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "L-C Open Int'l Ballroom WDSS (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "L-C Open Int'l Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-C Pro/Am Open Ballroom DSQ Championship (W/T/VW/FT/QS)",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-A Pro/Am  Big Bash Open Gold Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 30
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-B Pro/Am  Big Bash Open Gold Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 15.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "L-C Open Gold Pro/Am 3-Dance Challenge International Ballroom (W/T/QS)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "L-C Open Dancesport Series International Ballroom (W/T/VW/F/QS)",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "L-B Open International Ballroom Open Best of the Best & Scholarship (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Open Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 241.0,
+    "avg_pts": 12.68
   },
   {
     "name": "Best, Diana and Gorianskyi, Oleg",
@@ -11847,109 +12169,6 @@
         "info": "L-C Closed International Ballroom Silver Best of the Best & Scholarship (W/T/F/Q)",
         "place": "3",
         "points": 13.0
-      }
-    ],
-    "total_pts": 201.75,
-    "avg_pts": 12.61
-  },
-  {
-    "name": "Sarangaya, Susana and Kuzmin, Pavel",
-    "results": [
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Dancesport Series Championships  Open C Int'l Ballroom Championship (W,T,VW,F,Q)",
-        "place": "7",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Open Pro-Am Scholarships C Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "7",
-        "points": 6.25
-      },
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "info": "L-C PDC Open Balroom Challenge (W/T/V/F/Q)",
-        "place": "3",
-        "points": 6.0
-      },
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "info": "L-C PDC Open Ballroom Scholarship (W/T/V/F/Q)",
-        "place": "5",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Heritage Classic",
-        "info": "L-C <258>Pro-Am Ballroom Open Gold Challenge BofB Qual. (W/T/VW/FT/QS)",
-        "place": "3",
-        "points": 12.5
-      },
-      {
-        "comp_name": "Heritage Classic",
-        "info": "L-C <274>Pro-Am Int'l Ballroom Open Dancesport Series Qualifier (W/T/VW/FT/QS)",
-        "place": "6",
-        "points": 6.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "L-C World Pro/Am Standard DanceSport Series (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "L-B Open Pro/Am Standard Scholarship (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "L-C Open Int'l Ballroom WDSS (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 10.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "L-C Open Int'l Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 7.5
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-C Pro/Am Open Ballroom DSQ Championship (W/T/VW/FT/QS)",
-        "place": "6",
-        "points": 6.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-A Pro/Am  Big Bash Open Gold Ballroom Scholarship (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 30
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-B Pro/Am  Big Bash Open Gold Ballroom Scholarship (W/T/VW/FT/QS)",
-        "place": "2",
-        "points": 15.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "L-C Open Gold Pro/Am 3-Dance Challenge International Ballroom (W/T/QS)",
-        "place": "1",
-        "points": 25
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "L-C Open Dancesport Series International Ballroom (W/T/VW/F/QS)",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "L-B Open International Ballroom Open Best of the Best & Scholarship (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 7.5
       }
     ],
     "total_pts": 201.75,
@@ -12401,6 +12620,25 @@
     "avg_pts": 12.5
   },
   {
+    "name": "Liu, Vivian and Klinchik, Andrey",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B New England Bronze Pro/Am International Ballroom Championships (W/T/F/Q)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Ballroom Closed Bronze 3-Dance Scholarship (W/T/Q)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 25.0,
+    "avg_pts": 12.5
+  },
+  {
     "name": "Rosenfarb, Heidi and Choi, Michael",
     "results": [
       {
@@ -12417,6 +12655,25 @@
       }
     ],
     "total_pts": 25,
+    "avg_pts": 12.5
+  },
+  {
+    "name": "Rowan, Diana and Gorolevici, Anatoli",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S2 WPDS Closed Bronze Ballroom Championship (W/T/Q)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Closed Bronze 3-Dance Scholarship (W/T/Q)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 25.0,
     "avg_pts": 12.5
   },
   {
@@ -12848,25 +13105,6 @@
     "avg_pts": 12.38
   },
   {
-    "name": "Masler, Wendy and Gorolevici, Anatoli",
-    "results": [
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-C TSDSC Closed Bronze Ballroom Scholarship (W/T/Q)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "2019 Dancing a la Carte",
-        "info": "L-D Closed Bronze Ballroom Scholarship (W/T/QS)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 24.75,
-    "avg_pts": 12.38
-  },
-  {
     "name": "Hill-Mitchell, Audria and Perzhu, Peter",
     "results": [
       {
@@ -12990,6 +13228,31 @@
     ],
     "total_pts": 24.5,
     "avg_pts": 12.25
+  },
+  {
+    "name": "Avery, Michelle and Samarasinghe, Ashan",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-A Open Advanced Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'A' Pro/Am Open Int'l Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 4.2
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 36.7,
+    "avg_pts": 12.23
   },
   {
     "name": "Hu, Angela and Koukareko, Anton",
@@ -13262,6 +13525,37 @@
     ],
     "total_pts": 36.25,
     "avg_pts": 12.08
+  },
+  {
+    "name": "Wright, Joan and Bezrodnov, Sergei",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S2 WPDS Open Ballroom Championship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S2 TSDSC Open Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S2 New England Open Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 48.25,
+    "avg_pts": 12.06
   },
   {
     "name": "Schnepf, Carrie and Plakhotnyi, Artem",
@@ -13649,6 +13943,37 @@
     "avg_pts": 11.88
   },
   {
+    "name": "Barress, Gretchen and Muise, Christopher",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-B Open Advanced Ballroom 5-Dance Championship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-B Open Advanced Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B New England Open Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 47.5,
+    "avg_pts": 11.88
+  },
+  {
     "name": "Pineiro, Maru and Belverio, Joshua",
     "results": [
       {
@@ -13797,49 +14122,6 @@
     "avg_pts": 11.8
   },
   {
-    "name": "Holt, Beverly and Lacusta, Mihail",
-    "results": [
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Closed Silver Pro-Am Scholarships C Int'l Ballroom (W,T,F,Q)",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Open Pro-Am Scholarships C Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "6",
-        "points": 7.5
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S1 WPDS Closed Silver Ballroom Championship (W/T/F/Q)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S1 WPDS Open Ballroom Championship (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S1 TSDSC Closed Silver Ballroom Scholarship (W/T/F/Q)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S1 TSDSC Open Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "7",
-        "points": 6.25
-      }
-    ],
-    "total_pts": 70.5,
-    "avg_pts": 11.75
-  },
-  {
     "name": "Harrison, Nancy and Kravets, Ihor",
     "results": [
       {
@@ -13905,6 +14187,31 @@
       }
     ],
     "total_pts": 47.0,
+    "avg_pts": 11.75
+  },
+  {
+    "name": "Masler, Wendy and Gorolevici, Anatoli",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-C TSDSC Closed Bronze Ballroom Scholarship (W/T/Q)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "2019 Dancing a la Carte",
+        "info": "L-D Closed Bronze Ballroom Scholarship (W/T/QS)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Closed Bronze 3-Dance Scholarship (W/T/Q)",
+        "place": "2",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 35.25,
     "avg_pts": 11.75
   },
   {
@@ -14094,6 +14401,31 @@
     "avg_pts": 11.67
   },
   {
+    "name": "Wang and Klinchik",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "L-C International Ballroom Open Championships (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Open Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 14.0
+      }
+    ],
+    "total_pts": 35.0,
+    "avg_pts": 11.67
+  },
+  {
     "name": "Wright, Erin and Trent, Jeff",
     "results": [
       {
@@ -14267,6 +14599,49 @@
     "avg_pts": 11.53
   },
   {
+    "name": "Larkin, Hallie and Zinshtein, Ronen",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "L-SR1 Closed Silver International Ballroom Scholarship (W/T/F/Q)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-S1 Closed Silver Ballroom 4-Dance Scholarship (W/T/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-S International Ballroom Silver Closed (W/T/QS)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Patriot Dance Festival",
+        "info": "L-B2 Int'l. Ballroom Closed Silver Scholarship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Silver Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Closed Silver 4-Dance Scholarship (W/T/F/Q)",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 69.0,
+    "avg_pts": 11.5
+  },
+  {
     "name": "Cornell, Kevin and Betts, Stephanie",
     "results": [
       {
@@ -14373,36 +14748,36 @@
     "avg_pts": 11.5
   },
   {
-    "name": "Rabinow, Clare and Zinshtein, Ronen",
+    "name": "Luo, Manlin and Zinshtein, Ronen",
     "results": [
       {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-S1 Open Advanced Ballroom 4-Dance Scholarship (W/T/F/Q)",
-        "place": "2",
-        "points": 12.5
+        "comp_name": "Yankee Classic",
+        "info": "L-S2 New England Silver Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 15
       },
       {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-S1 Pro-Am Senior Open International Ballroom Scholarships (W/T/Q)",
-        "place": "6",
-        "points": 10.5
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Closed Silver 4-Dance Scholarship (W/T/F/Q)",
+        "place": "5",
+        "points": 8.0
       }
     ],
     "total_pts": 23.0,
     "avg_pts": 11.5
   },
   {
-    "name": "Wright, Joan and Bezrodnov, Sergei",
+    "name": "Wallace, Christine and Radler, Daniel",
     "results": [
       {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S2 WPDS Open Ballroom Championship (W/T/VW/F/Q)",
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Open Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
         "place": "3",
         "points": 13.0
       },
       {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S2 TSDSC Open Ballroom Scholarship (W/T/VW/F/Q)",
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
         "place": "5",
         "points": 10.0
       }
@@ -14476,6 +14851,37 @@
     ],
     "total_pts": 114.5,
     "avg_pts": 11.45
+  },
+  {
+    "name": "Spencer, Lisa and Zinshtein, Ronen",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-C Closed Silver Ballroom 4-Dance Championship (W/T/F/Q)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-C International Ballroom Silver Closed (W/T/QS)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Patriot Dance Festival",
+        "info": "L-B1 Int'l. Ballroom Closed Silver Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Silver Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 45.5,
+    "avg_pts": 11.38
   },
   {
     "name": "Stare, Arta and Klepadlo, Marek",
@@ -14856,6 +15262,25 @@
     "avg_pts": 11.25
   },
   {
+    "name": "Mallinckrodt, PJ and Brockman, Steve",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Open Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 22.5,
+    "avg_pts": 11.25
+  },
+  {
     "name": "Mohr, Lisa and Bersten, Gene",
     "results": [
       {
@@ -14957,6 +15382,73 @@
     "avg_pts": 11.2
   },
   {
+    "name": "Holt, Beverly and Lacusta, Mihail",
+    "results": [
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Closed Silver Pro-Am Scholarships C Int'l Ballroom (W,T,F,Q)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Open Pro-Am Scholarships C Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "6",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S1 WPDS Closed Silver Ballroom Championship (W/T/F/Q)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S1 WPDS Open Ballroom Championship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S1 TSDSC Closed Silver Ballroom Scholarship (W/T/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S1 TSDSC Open Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "7",
+        "points": 6.25
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Silver Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Open Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Closed Silver 4-Dance Scholarship (W/T/F/Q)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 4.2
+      }
+    ],
+    "total_pts": 111.7,
+    "avg_pts": 11.17
+  },
+  {
     "name": "Lauer, Julia and Burson, Chad",
     "results": [
       {
@@ -14980,6 +15472,62 @@
     ],
     "total_pts": 33.5,
     "avg_pts": 11.17
+  },
+  {
+    "name": "Rabinow, Clare and Zinshtein, Ronen",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-S1 Open Advanced Ballroom 4-Dance Scholarship (W/T/F/Q)",
+        "place": "2",
+        "points": 12.5
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-S1 Pro-Am Senior Open International Ballroom Scholarships (W/T/Q)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Open 5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "6",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 33.5,
+    "avg_pts": 11.17
+  },
+  {
+    "name": "Lee, Christine and Gabor, Marek",
+    "results": [
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "L-C Scholarship Silver Standard (W/T/F/QS)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "L-B2 Challenge Silver Standard (W/T/F/QS)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Silver Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Closed Silver 4-Dance Scholarship (W/T/F/Q)",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 44.5,
+    "avg_pts": 11.12
   },
   {
     "name": "Nesky, Mark and Simmonds, Kristie",
@@ -15205,6 +15753,25 @@
     "avg_pts": 11.0
   },
   {
+    "name": "Preston, Ioana and Gombkoto, Imre",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Ballroom Closed Bronze 3-Dance Scholarship (W/T/Q)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Ballroom Newcomer 3-Dance Scholarship (W/T/Q)",
+        "place": "1",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 22.0,
+    "avg_pts": 11.0
+  },
+  {
     "name": "Regius, Linda and Chaoulski, Evgueni",
     "results": [
       {
@@ -15366,31 +15933,6 @@
     "avg_pts": 10.92
   },
   {
-    "name": "Moy, Tsao Lin and Wilder, Ruslan",
-    "results": [
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-C WPDS Closed Bronze Ballroom Championship (W/T/Q)",
-        "place": "2",
-        "points": 8.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-B TSDSC Closed Bronze Ballroom Scholarship (W/T/Q)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-C TSDSC Closed Bronze Ballroom Scholarship (W/T/Q)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 32.75,
-    "avg_pts": 10.92
-  },
-  {
     "name": "Knauth, Karen and Gott, Philip",
     "results": [
       {
@@ -15463,6 +16005,31 @@
     ],
     "total_pts": 86.75,
     "avg_pts": 10.84
+  },
+  {
+    "name": "Cooper, Donna and Lawatsch, Christoph",
+    "results": [
+      {
+        "comp_name": "2019 Royal Dancesport Challenge",
+        "info": "L-SR Closed Bronze Pro-Am International Ballroom Scholarship (W/T/QS)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S2 New England Bronze Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Closed Bronze 3-Dance Scholarship (W/T/Q)",
+        "place": "2",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 32.5,
+    "avg_pts": 10.83
   },
   {
     "name": "Ballard, Susan and Vdovichenko, Vitaliy",
@@ -17017,25 +17584,6 @@
     "avg_pts": 10.0
   },
   {
-    "name": "Barress, Gretchen and Muise, Christopher",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-B Open Advanced Ballroom 5-Dance Championship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-B Open Advanced Ballroom 5-Dance Scholarship (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 20.0,
-    "avg_pts": 10.0
-  },
-  {
     "name": "Bollinger, Hannah and Davis, Brogen",
     "results": [
       {
@@ -17328,19 +17876,6 @@
         "comp_name": "City Lights Ball",
         "info": "L-SR 1 Closed Silver Ballroom Scholarship (W/T/FT/QS)",
         "place": "4",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 10.0,
-    "avg_pts": 10.0
-  },
-  {
-    "name": "Cyr, Nancy and Milojkovic, Mica",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-S2 Closed Silver Ballroom 4-Dance Scholarship (W/T/F/Q)",
-        "place": "2",
         "points": 10.0
       }
     ],
@@ -17647,19 +18182,6 @@
     "avg_pts": 10
   },
   {
-    "name": "Rowan, Diana and Gorolevici, Anatoli",
-    "results": [
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S2 WPDS Closed Bronze Ballroom Championship (W/T/Q)",
-        "place": "1",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 10.0,
-    "avg_pts": 10.0
-  },
-  {
     "name": "Sickles, Amy and Varnedoe, Jay",
     "results": [
       {
@@ -17684,6 +18206,19 @@
     ],
     "total_pts": 10.0,
     "avg_pts": 10.0
+  },
+  {
+    "name": "Sonnenberg, Gabriele and Gombkoto, Imre",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Newcomer 3-Dance Scholarship (W/T/Q)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 10,
+    "avg_pts": 10
   },
   {
     "name": "Tang, Michelle and Rubin, Alex",
@@ -18094,6 +18629,19 @@
     "avg_pts": 9.75
   },
   {
+    "name": "Ellis, Tina and Zejda, Jiri",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Ballroom Closed Bronze 3-Dance Scholarship (W/T/Q)",
+        "place": "3",
+        "points": 9.75
+      }
+    ],
+    "total_pts": 9.75,
+    "avg_pts": 9.75
+  },
+  {
     "name": "Sohn, Chong and Gott, Philip",
     "results": [
       {
@@ -18338,6 +18886,25 @@
     "avg_pts": 9.5
   },
   {
+    "name": "Shimada, Hiroko and Campbell, John",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Silver Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Closed Silver 4-Dance Scholarship (W/T/F/Q)",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 19.0,
+    "avg_pts": 9.5
+  },
+  {
     "name": "Smith, Karen and Teleha, Oleg",
     "results": [
       {
@@ -18374,6 +18941,43 @@
     ],
     "total_pts": 19.0,
     "avg_pts": 9.5
+  },
+  {
+    "name": "Moy, Tsao Lin and Wilder, Ruslan",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-C WPDS Closed Bronze Ballroom Championship (W/T/Q)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-B TSDSC Closed Bronze Ballroom Scholarship (W/T/Q)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-C TSDSC Closed Bronze Ballroom Scholarship (W/T/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Bronze Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Closed Bronze 3-Dance Scholarship (W/T/Q)",
+        "place": "4",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 47.25,
+    "avg_pts": 9.45
   },
   {
     "name": "Suzuki, Taka and Novikov, Alexander",
@@ -18473,25 +19077,6 @@
     ],
     "total_pts": 46.7,
     "avg_pts": 9.34
-  },
-  {
-    "name": "Yum, Michelle and Pali, Erik",
-    "results": [
-      {
-        "comp_name": "Patriot Dance Festival",
-        "info": "L-B1 Int'l. Ballroom Closed Silver Multi-Dance (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' WDSS/BofB Closed Silver Int'l Ballroom Championship (W/T/Q)",
-        "place": "quarters",
-        "points": 3.5
-      }
-    ],
-    "total_pts": 18.5,
-    "avg_pts": 9.25
   },
   {
     "name": "Pitzer, Kristi and Jafari, Dadbeh",
@@ -20336,6 +20921,31 @@
     "avg_pts": 8.17
   },
   {
+    "name": "Yum, Michelle and Pali, Erik",
+    "results": [
+      {
+        "comp_name": "Patriot Dance Festival",
+        "info": "L-B1 Int'l. Ballroom Closed Silver Multi-Dance (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' WDSS/BofB Closed Silver Int'l Ballroom Championship (W/T/Q)",
+        "place": "quarters",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Closed Silver 4-Dance Scholarship (W/T/F/Q)",
+        "place": "6",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 24.5,
+    "avg_pts": 8.17
+  },
+  {
     "name": "Paton, Nancy and Marletta, Andrea",
     "results": [
       {
@@ -20446,6 +21056,25 @@
       }
     ],
     "total_pts": 24.0,
+    "avg_pts": 8.0
+  },
+  {
+    "name": "Cyr, Nancy and Milojkovic, Mica",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-S2 Closed Silver Ballroom 4-Dance Scholarship (W/T/F/Q)",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Closed Silver 4-Dance Scholarship (W/T/F/Q)",
+        "place": "6",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 16.0,
     "avg_pts": 8.0
   },
   {
@@ -21792,6 +22421,19 @@
     "avg_pts": 7.5
   },
   {
+    "name": "Braun, Becky and Rogowski, Kamil",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Ballroom Closed Bronze 3-Dance Scholarship (W/T/Q)",
+        "place": "4",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
+  },
+  {
     "name": "Caldwell, Dawna and Agrello, Giaccomo",
     "results": [
       {
@@ -22045,6 +22687,19 @@
         "comp_name": "Las Vegas Lights",
         "info": "L-S1 International Standard (W/T/F/VW/QS)",
         "place": "2",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
+  },
+  {
+    "name": "Tormondsen, Barbara and Campbell, John",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Closed Bronze 3-Dance Scholarship (W/T/Q)",
+        "place": "3",
         "points": 7.5
       }
     ],
@@ -22334,6 +22989,25 @@
     "avg_pts": 7.25
   },
   {
+    "name": "Schwarz, Andrea and Kovacs, Peter",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B New England Bronze Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Ballroom Closed Bronze 3-Dance Scholarship (W/T/Q)",
+        "place": "6",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 14.5,
+    "avg_pts": 7.25
+  },
+  {
     "name": "McKelvy, Flossie and Kiselev, Sergey",
     "results": [
       {
@@ -22357,6 +23031,31 @@
     ],
     "total_pts": 21.6,
     "avg_pts": 7.2
+  },
+  {
+    "name": "Alderfer, Brad and Clark, Amanda",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-C Closed Silver Ballroom 4-Dance Championship (W/T/F/Q)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-S1 Closed Silver Ballroom 4-Dance Scholarship (W/T/F/Q)",
+        "place": "3",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S International Ballroom Closed Silver 4-Dance Scholarship (W/T/F/Q)",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 21.5,
+    "avg_pts": 7.17
   },
   {
     "name": "Funk, Cary and Senko, Alex",
@@ -22625,6 +23324,37 @@
     "avg_pts": 6.75
   },
   {
+    "name": "Yapport, Tatyana and Nacajus, Donatas",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-C WPDS Closed Gold Ballroom Championship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-C TSDSC Closed Gold Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "6",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Gold Pro/Am International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Closed Gold  5-Dance Scholarship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 27.0,
+    "avg_pts": 6.75
+  },
+  {
     "name": " Lesher, Anne and Seres, Gabor",
     "results": [
       {
@@ -22637,25 +23367,6 @@
         "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
         "info": "Cl. Silver Pro-Am Scholarships S1 Int'l Ballroom (W,T,F,Q)",
         "place": "6",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 13.5,
-    "avg_pts": 6.75
-  },
-  {
-    "name": "Alderfer, Brad and Clark, Amanda",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-C Closed Silver Ballroom 4-Dance Championship (W/T/F/Q)",
-        "place": "4",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-S1 Closed Silver Ballroom 4-Dance Scholarship (W/T/F/Q)",
-        "place": "3",
         "points": 6.0
       }
     ],
@@ -22828,25 +23539,6 @@
         "info": "Pro/Am Bronze Scholarships C Int'l Ballroom (W,T,Q)",
         "place": "5",
         "points": 6.0
-      }
-    ],
-    "total_pts": 13.5,
-    "avg_pts": 6.75
-  },
-  {
-    "name": "Yapport, Tatyana and Nacajus, Donatas",
-    "results": [
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-C WPDS Closed Gold Ballroom Championship (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 6.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-C TSDSC Closed Gold Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "6",
-        "points": 7.5
       }
     ],
     "total_pts": 13.5,
@@ -23466,6 +24158,19 @@
       }
     ],
     "total_pts": 12.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Becker, Jane and Kulyba, Aleh",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Ballroom Closed Bronze 3-Dance Scholarship (W/T/Q)",
+        "place": "5",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
     "avg_pts": 6.0
   },
   {
@@ -24825,6 +25530,32 @@
       }
     ],
     "total_pts": 10.0,
+    "avg_pts": 5.0
+  },
+  {
+    "name": "Barzi, Gloria and Odikadze, Michael",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B International Ballroom Newcomer 3-Dance Scholarship (W/T/Q)",
+        "place": "2",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 5.0,
+    "avg_pts": 5.0
+  },
+  {
+    "name": "DePedro, Donna and Milojkovic, Mica",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C International Ballroom Closed Silver 4-Dance Scholarship (W/T/F/Q)",
+        "place": "7",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 5.0,
     "avg_pts": 5.0
   },
   {

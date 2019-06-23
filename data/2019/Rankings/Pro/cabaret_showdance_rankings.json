@@ -125,6 +125,19 @@
     "avg_pts": 20
   },
   {
+    "name": "Kaszas, Richard and Pangea, Foteini",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "level": 20,
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 20
+  },
+  {
     "name": "Batih, Nazar and Cantley, Mariko",
     "results": [
       {
@@ -218,6 +231,31 @@
     "avg_pts": 17.67
   },
   {
+    "name": "Sargsyan, Arsen and Gjonikaj, Xhesika",
+    "results": [
+      {
+        "comp_name": "American Star Ball Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 Dancing a la Carte",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "level": 20,
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 50.0,
+    "avg_pts": 16.67
+  },
+  {
     "name": "Kudashev, Ivan and Ksusha",
     "results": [
       {
@@ -255,10 +293,16 @@
         "level": "Open",
         "place": "1",
         "points": 20.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "level": 20,
+        "place": "2",
+        "points": 14.0
       }
     ],
-    "total_pts": 101.0,
-    "avg_pts": 16.83
+    "total_pts": 115.0,
+    "avg_pts": 16.43
   },
   {
     "name": "Colac, Igor and Milotti, Roxane",
@@ -369,25 +413,6 @@
         "level": "Open",
         "place": "1",
         "points": 20
-      }
-    ],
-    "total_pts": 30.0,
-    "avg_pts": 15.0
-  },
-  {
-    "name": "Sargsyan, Arsen and Gjonikaj, Xhesika",
-    "results": [
-      {
-        "comp_name": "American Star Ball Championships",
-        "level": "Open",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 Dancing a la Carte",
-        "level": "Open",
-        "place": "1",
-        "points": 20.0
       }
     ],
     "total_pts": 30.0,
@@ -594,31 +619,6 @@
     "avg_pts": 12.75
   },
   {
-    "name": "Izyumov, Sergey and Zaver, Oksana",
-    "results": [
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "level": "Open",
-        "place": "2",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "level": "Open",
-        "place": "1",
-        "points": 20
-      }
-    ],
-    "total_pts": 36.0,
-    "avg_pts": 12.0
-  },
-  {
     "name": "Bazylev, Alexei and Splender, Darya",
     "results": [
       {
@@ -643,6 +643,37 @@
     ],
     "total_pts": 12.0,
     "avg_pts": 12.0
+  },
+  {
+    "name": "Izyumov, Sergey and Zaver, Oksana",
+    "results": [
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "level": "Open",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "level": 20,
+        "place": "3",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 46.0,
+    "avg_pts": 11.5
   },
   {
     "name": "Golubev, Valerii and Golubeva, Margarita",
@@ -988,10 +1019,16 @@
         "level": "Open",
         "place": "4",
         "points": 6.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "level": 20,
+        "place": "4",
+        "points": 6.0
       }
     ],
-    "total_pts": 22.0,
-    "avg_pts": 7.33
+    "total_pts": 28.0,
+    "avg_pts": 7.0
   },
   {
     "name": "Romero, Alexis and Yang, Yu-Wen",

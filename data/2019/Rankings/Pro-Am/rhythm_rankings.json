@@ -871,9 +871,21 @@
         "info": "L-A Open American Rhythm Open Best of the Best & Scholarship (C/R/SW/B/MA)",
         "place": "1",
         "points": 25.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A New England Open Pro/Am American Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A American Rhythm Open 5-Dance Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 25.0
       }
     ],
-    "total_pts": 90.0,
+    "total_pts": 135.0,
     "avg_pts": 22.5
   },
   {
@@ -1700,6 +1712,37 @@
     "avg_pts": 21.7
   },
   {
+    "name": "Marre, Jennifer and Terziev, Delyan",
+    "results": [
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-C American Rhythm Open Gold (C/R/SW/B/M)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-C American Rhythm Open Scholarships (C/R/SW/B/M)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Open Pro/Am American Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C American Rhythm Open 5-Dance Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 86.25,
+    "avg_pts": 21.56
+  },
+  {
     "name": "Romm, Victoria and Vasco, Daniel",
     "results": [
       {
@@ -1895,73 +1938,6 @@
     ],
     "total_pts": 85.0,
     "avg_pts": 21.25
-  },
-  {
-    "name": "Shah, Louise and Escolme, Andrew",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-B Closed Silver Rhythm WDSS (C/R/SW/B)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-B Closed Silver Rhythm 4-Dance Scholarship (C/R/SW/B)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-B American Rhythm Silver Championship (C/R/SW/M)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-B American Rhythm Silver Scholarship (C/R/SW/M)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "Patriot Dance Festival",
-        "info": "L-A2 Am. Rhythm Closed Silver Scholarship (C/R/SW/B/M)",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "Patriot Dance Festival",
-        "info": "L-B1 Am. Rhythm Closed Silver Multi-Dance (C/R/SW/B/M)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' WDSS/BofB Closed Silver Rhythm Championship (C/R/SW)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' Pro/Am Closed Silver Rhythm Scholarship (C/R/SW/M)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' Pro/Am Closed Gold Rhythm Scholarship (C/R/SW/B/M)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' Closed Gold Rhythm Championship (C/R/SW/B/MA)",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 210.0,
-    "avg_pts": 21.0
   },
   {
     "name": "Rugg, Susie and Cunningham, Charles",
@@ -2226,6 +2202,85 @@
     "avg_pts": 20.85
   },
   {
+    "name": "Shah, Louise and Escolme, Andrew",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-B Closed Silver Rhythm WDSS (C/R/SW/B)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-B Closed Silver Rhythm 4-Dance Scholarship (C/R/SW/B)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-B American Rhythm Silver Championship (C/R/SW/M)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-B American Rhythm Silver Scholarship (C/R/SW/M)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "Patriot Dance Festival",
+        "info": "L-A2 Am. Rhythm Closed Silver Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Patriot Dance Festival",
+        "info": "L-B1 Am. Rhythm Closed Silver Multi-Dance (C/R/SW/B/M)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' WDSS/BofB Closed Silver Rhythm Championship (C/R/SW)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' Pro/Am Closed Silver Rhythm Scholarship (C/R/SW/M)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' Pro/Am Closed Gold Rhythm Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' Closed Gold Rhythm Championship (C/R/SW/B/MA)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B New England Silver Pro/Am American Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B American Rhythm Closed Gold  5-Dance Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 25
+      }
+    ],
+    "total_pts": 250.0,
+    "avg_pts": 20.83
+  },
+  {
     "name": "Singh, Amarik and Lillemagi, Jaana",
     "results": [
       {
@@ -2267,25 +2322,6 @@
     ],
     "total_pts": 125.0,
     "avg_pts": 20.83
-  },
-  {
-    "name": "Marre, Jennifer and Terziev, Delyan",
-    "results": [
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-C American Rhythm Open Gold (C/R/SW/B/M)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-C American Rhythm Open Scholarships (C/R/SW/B/M)",
-        "place": "3",
-        "points": 16.25
-      }
-    ],
-    "total_pts": 41.25,
-    "avg_pts": 20.62
   },
   {
     "name": "Hoffman, Jennifer and Hannigan, David",
@@ -2806,6 +2842,19 @@
     "avg_pts": 20
   },
   {
+    "name": "Ingram, Joy and Tsorokean, Alyenendrov",
+    "results": [
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Pro/Am Open Scholarships A Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "2",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 20.0
+  },
+  {
     "name": "Jones, Eden and Gannon, Colton",
     "results": [
       {
@@ -2843,6 +2892,19 @@
     ],
     "total_pts": 20.0,
     "avg_pts": 20.0
+  },
+  {
+    "name": "Lobie, Kelsey and Germain, Zachary",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A American Rhythm Closed Silver 4-Dance Scholarship (C/R/SW/B)",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 20
   },
   {
     "name": "Lodoen, Anya and Paramonov, Andrei",
@@ -2994,19 +3056,6 @@
         "comp_name": "2019 Dancing a la Carte",
         "info": "L-C Closed Silver Rhythm Scholarship (CC/R/SW/B)",
         "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 20.0,
-    "avg_pts": 20.0
-  },
-  {
-    "name": "Ingram, Joy and Tsorokean, Alyenendrov",
-    "results": [
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Pro/Am Open Scholarships A Amer. Rhythm (CC,R,SW,B,M)",
-        "place": "2",
         "points": 20.0
       }
     ],
@@ -3309,6 +3358,49 @@
     ],
     "total_pts": 79.0,
     "avg_pts": 19.75
+  },
+  {
+    "name": "Zamel, Vivian and DeSouza, Marcio",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-S2 Open Advanced Rhythm 4-Dance Scholarship (C/R/SW/B)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "L-SR2 Pro/Am Closed Silver Rhythm Championship (CC/R/SW/B)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "L-SR2 Pro/Am Open Silver Rhythm Championship (CC/R/SW/B)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "L- DCT Senior Open Rhythm Scholarship (CC/R/SW/B)",
+        "place": "2",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S2 New England Open Pro/Am American Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S American Rhythm Open 5-Dance Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 117.5,
+    "avg_pts": 19.58
   },
   {
     "name": "Iannone, Dee and Pasqualetto, Derek",
@@ -3638,6 +3730,31 @@
     ],
     "total_pts": 188.5,
     "avg_pts": 18.85
+  },
+  {
+    "name": "Wong, Irene and Campbell, John",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-B TSDSC Open Rhythm Scholarship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 17.5
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' Pro/Am Open American Rhythm Scholarship (C/R/SW/B/M)",
+        "place": "5",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B American Rhythm Open 5-Dance Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 56.5,
+    "avg_pts": 18.83
   },
   {
     "name": "Best, Diana and Anatoliy, Alosha",
@@ -4321,6 +4438,49 @@
     "avg_pts": 18.33
   },
   {
+    "name": "Zukovsky, Leila and Escolme, Andrew",
+    "results": [
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "L-C Scholarship Silver Rhythm (C/R/SW/B)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "L-C Closed Silver Am. Rhythm WDSS (C/R/SW/B)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "L-C Closed Silver Am. Rhythm Scholarship (C/R/SW/B)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Patriot Dance Festival",
+        "info": "L-B1 Am. Rhythm Closed Silver Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B American Rhythm Closed Silver 4-Dance Scholarship (C/R/SW/B)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C American Rhythm Closed Gold  5-Dance Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 25
+      }
+    ],
+    "total_pts": 110.0,
+    "avg_pts": 18.33
+  },
+  {
     "name": "Bishop, Rebecca and Makhaye, Senzo",
     "results": [
       {
@@ -4501,37 +4661,6 @@
         "info": "L-A Pro/Am Open Rhythm Scholarship (C/R/SW/B/M)",
         "place": "3",
         "points": 7.5
-      }
-    ],
-    "total_pts": 72.5,
-    "avg_pts": 18.12
-  },
-  {
-    "name": "Zamel, Vivian and DeSouza, Marcio",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-S2 Open Advanced Rhythm 4-Dance Scholarship (C/R/SW/B)",
-        "place": "1",
-        "points": 25
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "L-SR2 Pro/Am Closed Silver Rhythm Championship (CC/R/SW/B)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "L-SR2 Pro/Am Open Silver Rhythm Championship (CC/R/SW/B)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "L- DCT Senior Open Rhythm Scholarship (CC/R/SW/B)",
-        "place": "2",
-        "points": 12.5
       }
     ],
     "total_pts": 72.5,
@@ -5646,6 +5775,25 @@
     "avg_pts": 17.5
   },
   {
+    "name": "Smith, Kush and Escolme, Andrew",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Silver Pro/Am American Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C American Rhythm Closed Silver 4-Dance Scholarship (C/R/SW/B)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 35.0,
+    "avg_pts": 17.5
+  },
+  {
     "name": "Thomas, Abby and Aleman, Caleb",
     "results": [
       {
@@ -5777,37 +5925,6 @@
     "avg_pts": 17.42
   },
   {
-    "name": "Chowanec, Lori and Hansen, Ken",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "L-B American Rhythm Open Championships (C/R/SW/B/M)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "L-B American Rhythm Open Scholarship (C/R/SW/B/M)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-B WPDS Open Rhythm Championship (C/R/SW/B/M)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-B TSDSC Open Rhythm Scholarship (C/R/SW/B/M)",
-        "place": "3",
-        "points": 12.5
-      }
-    ],
-    "total_pts": 69.5,
-    "avg_pts": 17.38
-  },
-  {
     "name": "Halek, Michelle and Desterhaft, Allen",
     "results": [
       {
@@ -5852,6 +5969,49 @@
     "avg_pts": 17.08
   },
   {
+    "name": "Chowanec, Lori and Hansen, Ken",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "L-B American Rhythm Open Championships (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "L-B American Rhythm Open Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-B WPDS Open Rhythm Championship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-B TSDSC Open Rhythm Scholarship (C/R/SW/B/M)",
+        "place": "3",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B New England Open Pro/Am American Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B American Rhythm Open 5-Dance Scholarship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 102.0,
+    "avg_pts": 17.0
+  },
+  {
     "name": "Gilbert-Hamerling, Adina and Nikolaev, Dmitry",
     "results": [
       {
@@ -5886,6 +6046,31 @@
       }
     ],
     "total_pts": 85,
+    "avg_pts": 17.0
+  },
+  {
+    "name": "Bender, Arlene and Escolme, Andrew",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-S1 Closed Silver Rhythm 4-Dance Scholarship (C/R/SW/B)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Silver Pro/Am American Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S American Rhythm Closed Silver 4-Dance Scholarship (C/R/SW/B)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 51.0,
     "avg_pts": 17.0
   },
   {
@@ -7165,37 +7350,6 @@
     "avg_pts": 16.25
   },
   {
-    "name": "Zukovsky, Leila and Escolme, Andrew",
-    "results": [
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "L-C Scholarship Silver Rhythm (C/R/SW/B)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "L-C Closed Silver Am. Rhythm WDSS (C/R/SW/B)",
-        "place": "2",
-        "points": 9.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "L-C Closed Silver Am. Rhythm Scholarship (C/R/SW/B)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Patriot Dance Festival",
-        "info": "L-B1 Am. Rhythm Closed Silver Scholarship (C/R/SW/B/M)",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 65.0,
-    "avg_pts": 16.25
-  },
-  {
     "name": "Catrett, Henry and Vegas, Lisa",
     "results": [
       {
@@ -7604,6 +7758,49 @@
     "avg_pts": 16.12
   },
   {
+    "name": "Mallinckrodt, P.J. and Makhaye, Senzo",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-C World Pro/Am  Rhythm DanceSport Series (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-B Open Pro/Am  Rhythm Scholarship (CC/R/SW/B/M)",
+        "place": "2",
+        "points": 12.5
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-C Pro/Am Open Rhythm World DanceSport Series (C/R/SW/B/M)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-C Pro/Am Open Rhythm Scholarship (C/R/SW/B/M)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Gold Pro/Am American Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C American Rhythm Open 5-Dance Scholarship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 17.5
+      }
+    ],
+    "total_pts": 96.25,
+    "avg_pts": 16.04
+  },
+  {
     "name": "McCurley, Peggy and McGrath, Steven",
     "results": [
       {
@@ -7724,11 +7921,11 @@
     "avg_pts": 16.0
   },
   {
-    "name": "Bender, Arlene and Escolme, Andrew",
+    "name": "Crown, Donna and Germain, Zachary",
     "results": [
       {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-S1 Closed Silver Rhythm 4-Dance Scholarship (C/R/SW/B)",
+        "comp_name": "Yankee Classic",
+        "info": "L-S American Rhythm Closed Silver 4-Dance Scholarship (C/R/SW/B)",
         "place": "2",
         "points": 16.0
       }
@@ -7997,25 +8194,6 @@
         "info": "L- 'B' Pro/Am Closed Silver Rhythm Scholarship (C/R/SW/M)",
         "place": "3",
         "points": 19.5
-      }
-    ],
-    "total_pts": 31.5,
-    "avg_pts": 15.75
-  },
-  {
-    "name": "Wong, Irene and Campbell, John",
-    "results": [
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-B TSDSC Open Rhythm Scholarship (C/R/SW/B/M)",
-        "place": "2",
-        "points": 17.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' Pro/Am Open American Rhythm Scholarship (C/R/SW/B/M)",
-        "place": "5",
-        "points": 14.0
       }
     ],
     "total_pts": 31.5,
@@ -9329,19 +9507,6 @@
     "avg_pts": 15
   },
   {
-    "name": "Crown, Jennifer and Shimizu, Matthew",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-A Open Advanced Rhythm 5-Dance Scholarship (C/R/SW/B/M)",
-        "place": "2",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 15.0,
-    "avg_pts": 15.0
-  },
-  {
     "name": "De Leon, Pol and Don, Adele",
     "results": [
       {
@@ -10116,37 +10281,6 @@
     ],
     "total_pts": 235.5,
     "avg_pts": 14.72
-  },
-  {
-    "name": "Mallinckrodt, P.J. and Makhaye, Senzo",
-    "results": [
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "L-C World Pro/Am  Rhythm DanceSport Series (C/R/SW/B/M)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "L-B Open Pro/Am  Rhythm Scholarship (CC/R/SW/B/M)",
-        "place": "2",
-        "points": 12.5
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-C Pro/Am Open Rhythm World DanceSport Series (C/R/SW/B/M)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-C Pro/Am Open Rhythm Scholarship (C/R/SW/B/M)",
-        "place": "3",
-        "points": 16.25
-      }
-    ],
-    "total_pts": 58.75,
-    "avg_pts": 14.69
   },
   {
     "name": "Klinger, Rebecca and Clark, Gage",
@@ -11677,6 +11811,31 @@
     "avg_pts": 13.5
   },
   {
+    "name": "Shapeton, Irina and Gombkoto, Imre",
+    "results": [
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "L-C  Scholarship Bronze Rhythm (C/R/SW)",
+        "place": "2",
+        "points": 10.5
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-B American Rhythm Bronze Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C American Rhythm Closed Bronze 3-Dance Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 40.5,
+    "avg_pts": 13.5
+  },
+  {
     "name": "Goodman, Mary and Dominguez, Donovan",
     "results": [
       {
@@ -12716,25 +12875,6 @@
     "avg_pts": 12.75
   },
   {
-    "name": "Shapeton, Irina and Gombkoto, Imre",
-    "results": [
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "L-C  Scholarship Bronze Rhythm (C/R/SW)",
-        "place": "2",
-        "points": 10.5
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-B American Rhythm Bronze Scholarship (C/R/SW)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 25.5,
-    "avg_pts": 12.75
-  },
-  {
     "name": "Stiller, Vana and Garcia, Ray",
     "results": [
       {
@@ -13157,37 +13297,6 @@
         "info": "L-C Open Rhythm Scholarship (CC/R/SW/B/M)",
         "place": "1",
         "points": 25.0
-      }
-    ],
-    "total_pts": 50.5,
-    "avg_pts": 12.62
-  },
-  {
-    "name": "Heiss, Barbara and DeSouza, Marcio",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-S1 Closed Silver Rhythm WDSS (C/R/SW/B)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-S1 Open Advanced Rhythm WDSS (C/R/SW/B/M)",
-        "place": "2",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-S1 Open Advanced Rhythm 4-Dance Scholarship (C/R/SW/B)",
-        "place": "2",
-        "points": 12.5
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-S1 Closed Silver Rhythm 4-Dance Scholarship (C/R/SW/B)",
-        "place": "3",
-        "points": 13.0
       }
     ],
     "total_pts": 50.5,
@@ -13757,6 +13866,25 @@
     "avg_pts": 12.5
   },
   {
+    "name": "Dinh, May and Escolme, Andrew",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A American Rhythm Newcomer 3-Dance Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A American Rhythm Closed Bronze 3-Dance Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 25.0,
+    "avg_pts": 12.5
+  },
+  {
     "name": "Finney, Sharon and Markelov, Ivan",
     "results": [
       {
@@ -14004,6 +14132,25 @@
     "avg_pts": 12.5
   },
   {
+    "name": "Stern, Becky and Abrashin, Andrei",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Bronze Pro/Am American Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S American Rhythm Closed Bronze 3-Dance Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 25.0,
+    "avg_pts": 12.5
+  },
+  {
     "name": "Torres, Tina and Rivera, Eddie",
     "results": [
       {
@@ -14112,6 +14259,19 @@
     "avg_pts": 12.5
   },
   {
+    "name": "Farr, Nooshin and Dolgopolov, Dmitri",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S American Rhythm Open 5-Dance Scholarship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 12.5,
+    "avg_pts": 12.5
+  },
+  {
     "name": "Larsen, Diane and Solano, Julius",
     "results": [
       {
@@ -14157,6 +14317,19 @@
         "comp_name": "Florida Spring Classic",
         "info": "L-Y American Rhythm Junior Scholarship(CC/R/SW)",
         "place": "4",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 12.5,
+    "avg_pts": 12.5
+  },
+  {
+    "name": "Guilarte, Yurima and Radler, Daniel",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C American Rhythm Open 5-Dance Scholarship (C/R/SW/B/M)",
+        "place": "3",
         "points": 12.5
       }
     ],
@@ -14601,30 +14774,30 @@
     "avg_pts": 12.25
   },
   {
-    "name": "Gast, Cynthia and Moore, Taylor",
+    "name": "Blackwell, Amy and Skrypnyk, Oleg",
     "results": [
       {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Pro/Am Silver 4-Dance  Closed C Amer. Rhythm (CC,R,SW,M)",
+        "comp_name": "Heritage Classic",
+        "info": "L-B <245>Pro-Am American Rhythm Closed Silver 4-Dance S'ship (C/R/SW/M)",
         "place": "2",
         "points": 9.0
       },
       {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Pro/Am Silver Scholarships C Amer. Rhythm (CC,R,SW,M)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Pro/Am Open WDDS 4/5 Dance S1 Amer. Rhythm (CC,R,SW,B,M)",
+        "comp_name": "atlopen19",
+        "info": "L-B Closed Silver Pro/Am 3-Dance Challenge American Rhythm (C/R/SW)",
         "place": "1",
-        "points": 20
+        "points": 15
       },
       {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Pro/Am Open Scholarships C Amer. Rhythm (CC,R,SW,B,M)",
-        "place": "5",
+        "comp_name": "atlopen19",
+        "info": "L-B Closed Silver Dancesport Series American Rhythm (C/R/SW/B)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "L-B Closed American Rhythm Silver Best of the Best & Scholarship (C/R/SW/B)",
+        "place": "2",
         "points": 10.0
       }
     ],
@@ -14663,30 +14836,30 @@
     "avg_pts": 12.25
   },
   {
-    "name": "Blackwell, Amy and Skrypnyk, Oleg",
+    "name": "Gast, Cynthia and Moore, Taylor",
     "results": [
       {
-        "comp_name": "Heritage Classic",
-        "info": "L-B <245>Pro-Am American Rhythm Closed Silver 4-Dance S'ship (C/R/SW/M)",
+        "comp_name": "Great Gatsby Gala",
+        "info": "Pro/Am Silver 4-Dance  Closed C Amer. Rhythm (CC,R,SW,M)",
         "place": "2",
         "points": 9.0
       },
       {
-        "comp_name": "atlopen19",
-        "info": "L-B Closed Silver Pro/Am 3-Dance Challenge American Rhythm (C/R/SW)",
-        "place": "1",
-        "points": 15
+        "comp_name": "Great Gatsby Gala",
+        "info": "Pro/Am Silver Scholarships C Amer. Rhythm (CC,R,SW,M)",
+        "place": "4",
+        "points": 10.0
       },
       {
-        "comp_name": "atlopen19",
-        "info": "L-B Closed Silver Dancesport Series American Rhythm (C/R/SW/B)",
+        "comp_name": "Great Gatsby Gala",
+        "info": "Pro/Am Open WDDS 4/5 Dance S1 Amer. Rhythm (CC,R,SW,B,M)",
         "place": "1",
-        "points": 15.0
+        "points": 20
       },
       {
-        "comp_name": "atlopen19",
-        "info": "L-B Closed American Rhythm Silver Best of the Best & Scholarship (C/R/SW/B)",
-        "place": "2",
+        "comp_name": "Great Gatsby Gala",
+        "info": "Pro/Am Open Scholarships C Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "5",
         "points": 10.0
       }
     ],
@@ -15763,6 +15936,49 @@
     "avg_pts": 11.88
   },
   {
+    "name": "Heiss, Barbara and DeSouza, Marcio",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-S1 Closed Silver Rhythm WDSS (C/R/SW/B)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-S1 Open Advanced Rhythm WDSS (C/R/SW/B/M)",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-S1 Open Advanced Rhythm 4-Dance Scholarship (C/R/SW/B)",
+        "place": "2",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-S1 Closed Silver Rhythm 4-Dance Scholarship (C/R/SW/B)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S American Rhythm Closed Silver 4-Dance Scholarship (C/R/SW/B)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C American Rhythm Open 5-Dance Scholarship (C/R/SW/B/M)",
+        "place": "4",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 71.0,
+    "avg_pts": 11.83
+  },
+  {
     "name": "Di Menna, Sherri and Arietta, Francesco",
     "results": [
       {
@@ -15786,43 +16002,6 @@
     ],
     "total_pts": 35.5,
     "avg_pts": 11.83
-  },
-  {
-    "name": "Albarelli, Judith and Dolgopolov, Dmitri",
-    "results": [
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "L-SR1 Open Bronze Rhythm 3 Dance (CC/R/SW)",
-        "place": "2",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "L- Pro/Am Open Senior Rhythm Scholarship (CC/R/SW/B)",
-        "place": "3",
-        "points": 12.5
-      },
-      {
-        "comp_name": "2019 Baltimore Dancesport Challenge",
-        "info": "L-SR 1 Bronze Open Rhythm (CC/R/SW)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "2019 Baltimore Dancesport Challenge",
-        "info": "L-SR 1 Bronze Open Rhythm Dancesport Challenge (CC/R/SW/B/M)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "L-B Closed Silver Rhythm Multi-Dance Challenge (C/R/SW/M)",
-        "place": "2",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 59.0,
-    "avg_pts": 11.8
   },
   {
     "name": "Vangjel, Joanne and Sandoval, Jayson",
@@ -17278,6 +17457,25 @@
     "avg_pts": 11.25
   },
   {
+    "name": "Crown, Jennifer and Shimizu, Matthew",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-A Open Advanced Rhythm 5-Dance Scholarship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A American Rhythm Open 5-Dance Scholarship (C/R/SW/B/M)",
+        "place": "3",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 22.5,
+    "avg_pts": 11.25
+  },
+  {
     "name": "Dango, Paul and Garced, Christina",
     "results": [
       {
@@ -17786,6 +17984,55 @@
     ],
     "total_pts": 110.5,
     "avg_pts": 11.05
+  },
+  {
+    "name": "Albarelli, Judith and Dolgopolov, Dmitri",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-SR1 Open Bronze Rhythm 3 Dance (CC/R/SW)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L- Pro/Am Open Senior Rhythm Scholarship (CC/R/SW/B)",
+        "place": "3",
+        "points": 12.5
+      },
+      {
+        "comp_name": "2019 Baltimore Dancesport Challenge",
+        "info": "L-SR 1 Bronze Open Rhythm (CC/R/SW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2019 Baltimore Dancesport Challenge",
+        "info": "L-SR 1 Bronze Open Rhythm Dancesport Challenge (CC/R/SW/B/M)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "L-B Closed Silver Rhythm Multi-Dance Challenge (C/R/SW/M)",
+        "place": "2",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S2 New England Open Pro/Am American Rhythm Championship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S American Rhythm Closed Silver 4-Dance Scholarship (C/R/SW/B)",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 77.0,
+    "avg_pts": 11.0
   },
   {
     "name": "Pierce, Maureen and Batters, Christjohn",
@@ -19563,6 +19810,31 @@
     "avg_pts": 10.5
   },
   {
+    "name": "Tormondsen, Barbara and Campbell, John",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-C TSDSC Closed Silver Rhythm Scholarship (C/R/SW/B)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-C Pro/Am Closed Silver Rhythm Scholarship (CC/R/SW/M)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C American Rhythm Closed Silver 4-Dance Scholarship (C/R/SW/B)",
+        "place": "2",
+        "points": 14.0
+      }
+    ],
+    "total_pts": 31.5,
+    "avg_pts": 10.5
+  },
+  {
     "name": "Haynes, Jamilaih and Bennett, Kemar",
     "results": [
       {
@@ -20163,6 +20435,25 @@
     "avg_pts": 10.25
   },
   {
+    "name": "LaFleur, Joan and DeSouza, Marcio",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S2 New England Bronze Pro/Am American Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S American Rhythm Closed Bronze 3-Dance Scholarship (C/R/SW)",
+        "place": "2",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 20.5,
+    "avg_pts": 10.25
+  },
+  {
     "name": "Lampino, Melette and Krajewski, Peter",
     "results": [
       {
@@ -20641,6 +20932,31 @@
     "avg_pts": 10.0
   },
   {
+    "name": "Bellows, Brooke and Sverrisson, Gunnar",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-A Open Advanced Rhythm 5-Dance Scholarship (C/R/SW/B/M)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-A TSDSC Open Rhythm Scholarship (C/R/SW/B/M)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A American Rhythm Open 5-Dance Scholarship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 30.0,
+    "avg_pts": 10.0
+  },
+  {
     "name": "Marceron, Frank and Sergiev, Katya",
     "results": [
       {
@@ -20799,6 +21115,25 @@
         "info": "L- Closed Silver 'S' Rhythm Scholarship (C/R/SW)",
         "place": "5",
         "points": 8.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Herrig, Kim and Welch, Ben",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "info": "L- Open 'B' Rhythm Scholarship (C/R/SW/B/M)",
+        "place": "6",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Pro/Am Open Scholarships A Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "4",
+        "points": 12.5
       }
     ],
     "total_pts": 20.0,
@@ -20973,25 +21308,6 @@
       }
     ],
     "total_pts": 20,
-    "avg_pts": 10.0
-  },
-  {
-    "name": "Herrig, Kim and Welch, Ben",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "info": "L- Open 'B' Rhythm Scholarship (C/R/SW/B/M)",
-        "place": "6",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Pro/Am Open Scholarships A Amer. Rhythm (CC,R,SW,B,M)",
-        "place": "4",
-        "points": 12.5
-      }
-    ],
-    "total_pts": 20.0,
     "avg_pts": 10.0
   },
   {
@@ -21521,6 +21837,19 @@
         "comp_name": "2019 Tri-State DanceSport Championships",
         "info": "L-B TSDSC Closed Silver Rhythm Scholarship (C/R/SW/B)",
         "place": "3",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Sannella, Maria and Pali, Erik",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B American Rhythm Closed Silver 4-Dance Scholarship (C/R/SW/B)",
+        "place": "2",
         "points": 10.0
       }
     ],
@@ -22727,19 +23056,19 @@
     "avg_pts": 9.5
   },
   {
-    "name": "Hahndorf  Jr., Richard and Mambella, Lina",
+    "name": "Fisher, Irene and Lazarov, Scott",
     "results": [
       {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "G-C Gentlemen's Closed Bronze Rhythm Championship (C/R/SW)",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-C TSDSC Closed Bronze Rhythm Scholarship (C/R/SW)",
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Silver Pro/Am American Rhythm Championship (C/R/SW/B/M)",
         "place": "2",
         "points": 9.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S American Rhythm Closed Silver 4-Dance Scholarship (C/R/SW/B)",
+        "place": "4",
+        "points": 10.0
       }
     ],
     "total_pts": 19.0,
@@ -23136,6 +23465,37 @@
       }
     ],
     "total_pts": 74.0,
+    "avg_pts": 9.25
+  },
+  {
+    "name": "Kennealy, Trisha and Hannigan, David",
+    "results": [
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "L-B  Scholarship Bronze Rhythm (C/R/SW)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "L-B Closed Bronze American Rhythm 5-Dance Scholarship (C/R/SW/B/M)",
+        "place": "4",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B New England Bronze Pro/Am American Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B American Rhythm Closed Bronze 3-Dance Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 37.0,
     "avg_pts": 9.25
   },
   {
@@ -24063,6 +24423,31 @@
     "avg_pts": 8.83
   },
   {
+    "name": "Hahndorf  Jr., Richard and Mambella, Lina",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "G-C Gentlemen's Closed Bronze Rhythm Championship (C/R/SW)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-C TSDSC Closed Bronze Rhythm Scholarship (C/R/SW)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C American Rhythm Closed Bronze 3-Dance Scholarship (C/R/SW)",
+        "place": "3",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 26.5,
+    "avg_pts": 8.83
+  },
+  {
     "name": "Hayes, Lynn and Pennenga, Tim",
     "results": [
       {
@@ -24607,25 +24992,6 @@
     "avg_pts": 8.75
   },
   {
-    "name": "Tormondsen, Barbara and Campbell, John",
-    "results": [
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-C TSDSC Closed Silver Rhythm Scholarship (C/R/SW/B)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-C Pro/Am Closed Silver Rhythm Scholarship (CC/R/SW/M)",
-        "place": "Semis",
-        "points": 4.5
-      }
-    ],
-    "total_pts": 17.5,
-    "avg_pts": 8.75
-  },
-  {
     "name": "Waksmundzki, Paulina and Volokh, Ilia",
     "results": [
       {
@@ -24792,6 +25158,43 @@
     ],
     "total_pts": 25.75,
     "avg_pts": 8.58
+  },
+  {
+    "name": "Godfrey, Elizabeth and Derisier, Vladimyr",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-B American Rhythm Bronze Scholarship (C/R/SW)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-C American Rhythm Silver Scholarship (C/R/SW/M)",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B American Rhythm Closed Bronze 3-Dance Scholarship (C/R/SW)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C American Rhythm Closed Bronze 3-Dance Scholarship (C/R/SW)",
+        "place": "2",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C American Rhythm Closed Silver 4-Dance Scholarship (C/R/SW/B)",
+        "place": "3",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 42.85,
+    "avg_pts": 8.57
   },
   {
     "name": "Mullican, Elena and De La Cruz, Melbin",
@@ -25434,6 +25837,37 @@
       }
     ],
     "total_pts": 40.0,
+    "avg_pts": 8.0
+  },
+  {
+    "name": "Diana, Owen and Toth, Maggie",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-A Closed Bronze Rhythm 3-Dance Scholarship (C/R/SW)",
+        "place": "2",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "L-A Closed Bronze American Rhythm 3-Dance Championship (C/R/SW)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "G-A New England Bronze Pro/Am American Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-A American Rhythm Closed Bronze 3-Dance Scholarship (C/R/SW)",
+        "place": "2",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 32.0,
     "avg_pts": 8.0
   },
   {
@@ -26706,25 +27140,6 @@
     "avg_pts": 7.5
   },
   {
-    "name": "Bellows, Brooke and Sverrisson, Gunnar",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-A Open Advanced Rhythm 5-Dance Scholarship (C/R/SW/B/M)",
-        "place": "3",
-        "points": 7.5
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-A TSDSC Open Rhythm Scholarship (C/R/SW/B/M)",
-        "place": "3",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 15.0,
-    "avg_pts": 7.5
-  },
-  {
     "name": "Dikeman, Deanna and Pavlov, Atanas",
     "results": [
       {
@@ -27902,25 +28317,6 @@
     "avg_pts": 7.25
   },
   {
-    "name": "Diana, Owen and Toth, Maggie",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-A Closed Bronze Rhythm 3-Dance Scholarship (C/R/SW)",
-        "place": "2",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "L-A Closed Bronze American Rhythm 3-Dance Championship (C/R/SW)",
-        "place": "2",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 14.5,
-    "avg_pts": 7.25
-  },
-  {
     "name": "Donofrio, Conney and Surowiec, Robert",
     "results": [
       {
@@ -28135,6 +28531,37 @@
         "info": "L-B Pro/Am Closed Bronze Rhythm Scholarship (C/R/SW)",
         "place": "Semis",
         "points": 3.0
+      }
+    ],
+    "total_pts": 28.5,
+    "avg_pts": 7.12
+  },
+  {
+    "name": "Taylor, Grace and Sverrisson, Gunnar",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-S1 Closed Bronze Rhythm 3-Dance Championship (C/R/SW)",
+        "place": "3",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-S1 Closed Bronze Rhythm 3-Dance Scholarship (C/R/SW)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S American Rhythm Newcomer 3-Dance Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S American Rhythm Closed Bronze 3-Dance Scholarship (C/R/SW)",
+        "place": "3",
+        "points": 7.5
       }
     ],
     "total_pts": 28.5,
@@ -28729,25 +29156,6 @@
     "avg_pts": 6.67
   },
   {
-    "name": "Godfrey, Elizabeth and Derisier, Vladimyr",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-B American Rhythm Bronze Scholarship (C/R/SW)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-C American Rhythm Silver Scholarship (C/R/SW/M)",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 13.35,
-    "avg_pts": 6.67
-  },
-  {
     "name": "Rodeschin, Joann and Harris, Rodney",
     "results": [
       {
@@ -29121,6 +29529,55 @@
     ],
     "total_pts": 25.8,
     "avg_pts": 6.45
+  },
+  {
+    "name": "Ames, Natalie and Makhaye, Senzo",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-C Bronze Closed Rhythm Championships(CC/R/SW)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-C Bronze Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-A DCT Newcomer Rhythm Scholarship (CC/R/SW)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-B2 Pro/Am Closed Bronze Rhythm 3-Dance Championship (C/R/SW)",
+        "place": "7",
+        "points": 2.5
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-C Pro/Am Closed Bronze Rhythm Scholarship (C/R/SW)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Bronze Pro/Am American Rhythm Championship (C/R/SW/M)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C American Rhythm Closed Bronze 3-Dance Scholarship (C/R/SW)",
+        "place": "4",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 45.0,
+    "avg_pts": 6.43
   },
   {
     "name": "Miles, Donna and Holmes, Jay",
@@ -29767,43 +30224,6 @@
     "avg_pts": 6.2
   },
   {
-    "name": "Ames, Natalie and Makhaye, Senzo",
-    "results": [
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "L-C Bronze Closed Rhythm Championships(CC/R/SW)",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "L-C Bronze Pro/Am Rhythm Closed Scholarship (C/R/SW)",
-        "place": "5",
-        "points": 10.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "L-A DCT Newcomer Rhythm Scholarship (CC/R/SW)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-B2 Pro/Am Closed Bronze Rhythm 3-Dance Championship (C/R/SW)",
-        "place": "7",
-        "points": 2.5
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-C Pro/Am Closed Bronze Rhythm Scholarship (C/R/SW)",
-        "place": "Semis",
-        "points": 3.0
-      }
-    ],
-    "total_pts": 30.5,
-    "avg_pts": 6.1
-  },
-  {
     "name": "Fish, Brandie and Gregory, Matt",
     "results": [
       {
@@ -29877,55 +30297,6 @@
     ],
     "total_pts": 12.15,
     "avg_pts": 6.08
-  },
-  {
-    "name": "Cook, Donna and Pereira, Marcio",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-SR American Rhythm Bronze Championship (C/R/SW)",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-SR American Rhythm Bronze Scholarship (C/R/SW)",
-        "place": "Semis",
-        "points": 3.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "info": "L-SR1 Bronze American Rhythm Closed Championship(C/R/SW/B/M)",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "info": "L-SR1 Bronze Closed American Rhythm 3 Dance Championship(C/R/SW)",
-        "place": "2",
-        "points": 5.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "info": "L-D Bronze Closed American Rhythm Scholarship(C/R/SW/B/M)",
-        "place": "4",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "L-C Rising Star Closed Bronze Rhythm Multi-Dance Challenge (C/R/SW)",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "L- Senior Rhythm Scholarship (C/R/S/B/M)",
-        "place": "3",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 42.4,
-    "avg_pts": 6.06
   },
   {
     "name": "Parker, Cindi and Michael, Keith",
@@ -30141,25 +30512,6 @@
         "info": "L-SR1 DCT Senior Closed Silver Rhythm Scholarship (CC/R/SW)",
         "place": "4",
         "points": 6.0
-      }
-    ],
-    "total_pts": 12.0,
-    "avg_pts": 6.0
-  },
-  {
-    "name": "Kennealy, Trisha and Hannigan, David",
-    "results": [
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "L-B  Scholarship Bronze Rhythm (C/R/SW)",
-        "place": "4",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "L-B Closed Bronze American Rhythm 5-Dance Scholarship (C/R/SW/B/M)",
-        "place": "4",
-        "points": 4.5
       }
     ],
     "total_pts": 12.0,
@@ -30477,6 +30829,19 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Sena, Laureen and Hannigan, Dave",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C American Rhythm Closed Silver 4-Dance Scholarship (C/R/SW/B)",
+        "place": "4",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Smith, Jeannine and Suarez, Lewis",
     "results": [
       {
@@ -30684,6 +31049,104 @@
     ],
     "total_pts": 23.1,
     "avg_pts": 5.78
+  },
+  {
+    "name": "Cook, Donna and Pereira, Marcio",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-SR American Rhythm Bronze Championship (C/R/SW)",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-SR American Rhythm Bronze Scholarship (C/R/SW)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "info": "L-SR1 Bronze American Rhythm Closed Championship(C/R/SW/B/M)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "info": "L-SR1 Bronze Closed American Rhythm 3 Dance Championship(C/R/SW)",
+        "place": "2",
+        "points": 5.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "info": "L-D Bronze Closed American Rhythm Scholarship(C/R/SW/B/M)",
+        "place": "4",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "L-C Rising Star Closed Bronze Rhythm Multi-Dance Challenge (C/R/SW)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "L- Senior Rhythm Scholarship (C/R/S/B/M)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S2 New England Bronze Pro/Am American Rhythm Championship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S American Rhythm Closed Bronze 3-Dance Scholarship (C/R/SW)",
+        "place": "4",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 51.9,
+    "avg_pts": 5.77
+  },
+  {
+    "name": "Way, Laurie and DeSouza, Marcio",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-C Closed Bronze Rhythm 3-Dance Championship (C/R/SW)",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-B Closed Bronze Rhythm 3-Dance Scholarship (C/R/SW)",
+        "place": "7",
+        "points": 3.75
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "L-C Closed Bronze Rhythm 3-Dance Scholarship (C/R/SW)",
+        "place": "6",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-C New England Bronze Pro/Am American Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-B American Rhythm Closed Bronze 3-Dance Scholarship (C/R/SW)",
+        "place": "3",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 28.75,
+    "avg_pts": 5.75
   },
   {
     "name": "Moore, Rebecca and Lopez, Jesse",
@@ -31001,25 +31464,6 @@
         "info": "L- Closed Silver 'S' Rhythm Scholarship (C/R/SW)",
         "place": "7",
         "points": 5.0
-      }
-    ],
-    "total_pts": 11.0,
-    "avg_pts": 5.5
-  },
-  {
-    "name": "Taylor, Grace and Sverrisson, Gunnar",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-S1 Closed Bronze Rhythm 3-Dance Championship (C/R/SW)",
-        "place": "3",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-S1 Closed Bronze Rhythm 3-Dance Scholarship (C/R/SW)",
-        "place": "5",
-        "points": 6.0
       }
     ],
     "total_pts": 11.0,
@@ -31984,6 +32428,19 @@
     "avg_pts": 5.0
   },
   {
+    "name": "James, Susan and DeSouza, Marcio",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S American Rhythm Newcomer 3-Dance Scholarship (C/R/SW)",
+        "place": "2",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 5.0,
+    "avg_pts": 5.0
+  },
+  {
     "name": "Lund, Jamie and Anderson, Scott",
     "results": [
       {
@@ -32412,31 +32869,6 @@
         "info": "L-B American Rhythm Closed 3 Dance Challenge  (C/R/SW)",
         "place": "8",
         "points": 3.75
-      }
-    ],
-    "total_pts": 14.25,
-    "avg_pts": 4.75
-  },
-  {
-    "name": "Way, Laurie and DeSouza, Marcio",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-C Closed Bronze Rhythm 3-Dance Championship (C/R/SW)",
-        "place": "2",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-B Closed Bronze Rhythm 3-Dance Scholarship (C/R/SW)",
-        "place": "7",
-        "points": 3.75
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "L-C Closed Bronze Rhythm 3-Dance Scholarship (C/R/SW)",
-        "place": "6",
-        "points": 4.5
       }
     ],
     "total_pts": 14.25,
@@ -33104,6 +33536,19 @@
       {
         "comp_name": "Michigan DanceSport Challenge",
         "info": "L-C1 Pro/Am Closed Silver Rhythm Multi-Dance (CC/R/SW/B)",
+        "place": "3",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 4.5,
+    "avg_pts": 4.5
+  },
+  {
+    "name": "Dukes, Thomas and St. Hilaire, Kelley",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S1 New England Silver Pro/Am American Rhythm Championship (C/R/SW/B/M)",
         "place": "3",
         "points": 4.5
       }
