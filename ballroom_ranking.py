@@ -10,9 +10,9 @@ import wx
 import yattag
 from datetime import date
 
-from season_ranking import RankingDataFile, event_level, get_last_name
+from season_ranking import RankingDataFile, get_last_name
 from comp_results_file import Comp_Results_File
-from heat import dance_style
+from heat import dance_style, pro_heat_level
 
 ''' These are the separate dance styles being ranked '''
 Dance_Styles = [
@@ -20,10 +20,19 @@ Dance_Styles = [
     "American Smooth", 
     "International Ballroom",
     "International Latin",
+    "Night Club",
+    "Country", 
     # showdance, theater arts, and cabaret are lumped together
     "Showdance / Cabaret / Theater Arts"
 ]
 
+
+Ranking_Databases = [
+    "Pro",
+    "Pro-Am",
+    "Amateur"
+]
+    
 
 class AppFrame(wx.Frame):
     '''
@@ -37,12 +46,15 @@ class AppFrame(wx.Frame):
         # create a panel in the frame
         pnl = wx.Panel(self)
 
-        # Create the label for the database section
-        st = wx.StaticText(pnl, label="Database", pos=(240, 25))
-        font = st.GetFont()
+        # Create the label and pulldown control for the database section
+        st_db = wx.StaticText(pnl, label="Database", pos=(140, 25))
+        font = st_db.GetFont()
         font.PointSize += 4
         font = font.Bold()
-        st.SetFont(font)
+        st_db.SetFont(font)
+        
+        self.db_cat = wx.Choice(pnl, pos=(250, 28), size=(210, 24))
+        self.Bind(wx.EVT_CHOICE, self.OnDbSelection, self.db_cat)
 
         # Create a label and the pulldown control for styles
         st_dnc_sty = wx.StaticText(pnl, label="Styles", pos=(140, 55))
@@ -142,7 +154,7 @@ class AppFrame(wx.Frame):
 
         # Now an Edit Menu with Add Result
         self.editMenu = wx.Menu()
-        addCompItem = self.editMenu.Append(self.ID_EDIT_ADD_COMP, "Add Competition Results",
+        addCompItem = self.editMenu.Append(self.ID_EDIT_ADD_COMP, "Add Competition Results\tCTRL-A",
                                            "Add the results from a single competition to the database")
         self.editMenu.AppendSeparator()
         findItem = self.editMenu.Append(wx.ID_FIND, "Find Couple Name\tCTRL-F",
@@ -230,6 +242,7 @@ class AppFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_SORT_AVG_PTS, False) 
         self.viewMenu.Enable(self.ID_VIEW_COUPLE_HISTORY, False) 
         self.styles.Disable()
+        self.db_cat.Disable()
         self.butt_add_rslt.Disable()
         self.unsaved_updates = False
 
@@ -241,6 +254,9 @@ class AppFrame(wx.Frame):
         # populate the style control
         self.styles.Enable()
         self.SetStyleControl(Dance_Styles)  
+        # populate the database category control
+        self.db_cat.Enable()
+        self.SetDatabaseControl(Ranking_Databases)      
         # set the state of the menu items
         self.fileMenu.Enable(wx.ID_OPEN, False)
         self.fileMenu.Enable(wx.ID_SAVE, True)
@@ -256,6 +272,14 @@ class AppFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_SORT_TOTAL_PTS, True)
         self.viewMenu.Enable(self.ID_VIEW_SORT_AVG_PTS, True)   
         self.viewMenu.Enable(self.ID_VIEW_COUPLE_HISTORY, True) 
+
+
+    def SetDatabaseControl(self, database_list):
+        ''' This method populates the GUI with a list of dancer names.'''
+        self.db_cat.Clear()
+        self.db_cat.Set(database_list)
+        self.current_db_index = 0
+        self.db_cat.SetSelection(0)
 
 
     def SetStyleControl(self, dance_style_list):
@@ -289,6 +313,10 @@ class AppFrame(wx.Frame):
             self.current_couples = self.standard_couples
         elif index == 3:
             self.current_couples = self.latin_couples
+        elif index == 4:
+            self.current_couples = self.nightclub_couples
+        elif index == 5:
+            self.current_couples = self.country_couples
         else:
             self.current_couples = self.showdance_couples
 
@@ -310,6 +338,23 @@ class AppFrame(wx.Frame):
             self.heat_list_ctrl.Append(entry_item)
 
 
+    def OnDbSelection(self, event):
+        '''
+        When the user selects a database from the GUI, this 
+        method calls blah blah blah.
+        '''
+        index = self.db_cat.GetSelection()
+        self.db_category = Ranking_Databases[index]
+        if self.unsaved_updates:
+            message = "You have not saved the current ranking database.\Change Databases Anyway?"
+            md = wx.MessageDialog(self, message, "Are You Sure?", style=wx.YES_NO | wx.NO_DEFAULT)
+            if md.ShowModal() == wx.ID_NO:
+                self.db_cat.SetSelection(self.current_db_index)
+                return           
+        self.current_db_index = index
+        self.Open_Ranking_Database(self.folder_name + "/Rankings/" + self.db_category)
+        
+
     def OnStyleSelection(self, event):
         '''
         When the user selects a dance style from the GUI, this 
@@ -320,7 +365,7 @@ class AppFrame(wx.Frame):
         self.DisplayCouplesForStyle(index)
 
 
-    def GetStyleFromHeatTitle(self, title):
+    def GetStyleFromHeatTitle(self, title, prompt=True):
         '''This method determines the dance style from the heat title. '''
         style = dance_style(title)
         if "Smooth" == style:
@@ -330,9 +375,19 @@ class AppFrame(wx.Frame):
         elif "Latin" == style:
             index = 3
         elif "Standard" == style:
-            index = 2      
-        else:
+            index = 2
+        elif "Nightclub" == style:
             index = 4
+        elif "Country" == style:
+            index = 5
+        else:
+            index = 6
+            if prompt:
+                message = "Unknown style for heat\n" + title
+                md = wx.SingleChoiceDialog(self, message, caption="Select Dance Style", choices=Dance_Styles)
+                if md.ShowModal() == wx.ID_OK:
+                    # if user finds a match, add the result and update the entry name
+                    index = md.GetSelection() 
             
         return index
     
@@ -388,29 +443,37 @@ class AppFrame(wx.Frame):
             self.butt_add_rslt.Disable()
             self.heat_list_ctrl.DeleteAllItems()
 
-        self.butt_add_rslt.SetLabel("Add Results to DB")
+        self.butt_add_rslt.SetLabel("Add Results to DB")      
         
     
-    def Matching_Heat(self, couple_level, heat_title):
-        couple_style_index = self.styles.GetSelection()
-        heat_style_index = self.GetStyleFromHeatTitle(heat_title)
-        heat_level = event_level(heat_title)
-        if couple_style_index == heat_style_index and couple_level == heat_level:
-            return True
-        else:
-            return False
+    def Matching_Heat(self, result, heat_title):
+        if self.current_db_index == 0:  # pro heat
+            couple_style_index = self.styles.GetSelection()
+            heat_style_index = self.GetStyleFromHeatTitle(heat_title, prompt=False)
+            heat_level = pro_heat_level(heat_title)
+            if couple_style_index == heat_style_index and pro_heat_level(result["level"]) == heat_level:
+                return True
+            else:
+                return False
+        else:  # non-pro heat
+            return result["info"] == heat_title
         
 
     def Show_Comp_Result(self):
         if self.couple_history_index < len(self.couple_result_history):
             result = self.couple_result_history[self.couple_history_index]
             self.comp_name.ChangeValue(result["comp_name"])
-            # TODO: Deal with pro-am results
-            filename = self.folder_name + "/Comps/" + result["comp_name"] + "/pro_results.json"
+            # Open the proper result file based on the current database
+            if self.current_db_index == 0:
+                filename = self.folder_name + "/Comps/" + result["comp_name"] + "/pro_results.json"
+            elif self.current_db_index == 1:   
+                filename = self.folder_name + "/Comps/" + result["comp_name"] + "/pro-am_results.json"
+            else:
+                filename = self.folder_name + "/Comps/" + result["comp_name"] + "/amateur_results.json"      
             comp_data = Comp_Results_File(filename)
             heat_data = comp_data.get_heats()
             for h in heat_data:
-                if self.Matching_Heat(result["level"], h["title"]):
+                if self.Matching_Heat(result, h["title"]):
                     self.heat_name.ChangeValue(h["title"])
                     self.SetHeatResultsCtrl(h["entries"])
                     for i in range(len(h["entries"])):
@@ -431,7 +494,7 @@ class AppFrame(wx.Frame):
             self.heat_list_ctrl.DeleteAllItems()        
 
         
-    def Build_Result(self, entry, level):
+    def Build_Result(self, entry, title):
         '''
         This method build a result object based on the entry and the 
         level of the heat. This result will be added to the couple's record
@@ -439,7 +502,10 @@ class AppFrame(wx.Frame):
         '''
         result = dict()
         result["comp_name"] = self.comp_name.GetValue()
-        result["level"] = level 
+        if self.current_db_index == 0:
+            result["level"] = pro_heat_level(title)
+        else:
+            result["info"] = title
         result["place"] = entry["place"]
         result["points"] = entry["points"]  
         return result
@@ -501,8 +567,10 @@ class AppFrame(wx.Frame):
         for entry in entries: 
             # extract the couple's name from the entry
             couple = entry["couple"]
+            
             # build a result dictionary with the comp name, level, placement, and points
-            result = self.Build_Result(entry, event_level(h["title"]))
+            result = self.Build_Result(entry, h["title"])
+            
             # search for the couple in the database
             db_index = self.current_couples.find_couple(couple)
             # if found, add this result to the couple's spot in the database
@@ -522,27 +590,29 @@ class AppFrame(wx.Frame):
             self.Highlight_Entry(db_index, focus=first_time)
             first_time = False
         # change button text for next action
-        self.butt_add_rslt.SetLabel("Show Next Heat")        
+        self.butt_add_rslt.SetLabel("Show Next Heat")    
+        
+        
+    def Open_Ranking_Database(self, folder_name):
+        # open the five ranking files
+        self.smooth_couples = RankingDataFile(folder_name + "/smooth_rankings.json")
+        self.rhythm_couples = RankingDataFile(folder_name + "/rhythm_rankings.json")
+        self.standard_couples = RankingDataFile(folder_name + "/standard_rankings.json")
+        self.latin_couples = RankingDataFile(folder_name + "/latin_rankings.json")
+        self.nightclub_couples = RankingDataFile(folder_name + "/nightclub_rankings.json")
+        self.country_couples = RankingDataFile(folder_name + "/country_rankings.json")
+        self.showdance_couples = RankingDataFile(folder_name + "/cabaret_showdance_rankings.json") 
+        self.SetStyleControl(Dance_Styles)
+        self.DisplayCouplesForStyle(1)
+     
 
 
     def OnOpen(self, event):
         '''Launch a file dialog, open a heatsheet file, and process it.'''
-
-        #dd = wx.DirDialog(self, "Open the Folder containing the Ranking Database", "./data/2019/Rankings")
-        #if dd.ShowModal() == wx.ID_OK:
-        #    self.folder_name = dd.GetPath()
-        self.folder_name = "./data/" + str(self.curr_date.year)
-        
-        # open the five ranking files
-        self.smooth_couples = RankingDataFile(self.folder_name + "/Rankings/smooth_rankings.json")
-        self.rhythm_couples = RankingDataFile(self.folder_name + "/Rankings/rhythm_rankings.json")
-        self.standard_couples = RankingDataFile(self.folder_name + "/Rankings/standard_rankings.json")
-        self.latin_couples = RankingDataFile(self.folder_name + "/Rankings/latin_rankings.json")
-        self.showdance_couples = RankingDataFile(self.folder_name + "/Rankings/cabaret_showdance_rankings.json") 
-        self.current_couples = self.smooth_couples
-        self.SetListControl(self.current_couples)
-        self.PostOpenProcess()
-
+        self.folder_name = "./data/" + str(self.curr_date.year)  
+        self.Open_Ranking_Database(self.folder_name + "/Rankings/Pro")
+        self.PostOpenProcess()   
+    
 
     def OnSortByAvg(self, event):
         ''' This method is called from the menu to sort the current couples by ranking.'''
@@ -583,6 +653,8 @@ class AppFrame(wx.Frame):
         '''
         lab_text = self.butt_add_rslt.GetLabel()
         if lab_text == "Add Results to DB":
+            # update status bar
+            self.SetStatusText("Processing event " + str(self.current_heat_idx + 1) + " of " + str(len(self.heat_results)))      
             self.Process_Heat()
         elif lab_text == "Show Next Heat":
             self.Setup_For_Next_Heat()
@@ -600,8 +672,15 @@ class AppFrame(wx.Frame):
         dd = wx.DirDialog(self, "Open the Folder containing the Competition Results", self.folder_name + "/Comps")
         if dd.ShowModal() == wx.ID_OK:
             folder_name = dd.GetPath()   
-            # open the results file: TODO: deal with pro-am results
-            self.comp_results = Comp_Results_File(folder_name + "/pro_results.json")  
+ 
+            # open the results file: 
+            if self.current_db_index == 0:
+                self.comp_results = Comp_Results_File(folder_name + "/pro_results.json")  
+            elif self.current_db_index == 1:
+                self.comp_results = Comp_Results_File(folder_name + "/pro-am_results.json")    
+            else:
+                self.comp_results = Comp_Results_File(folder_name + "/amateur_results.json")   
+                
             # populate the competition name
             self.comp_name.ChangeValue(self.comp_results.get_comp_name())
             # get the heat results
@@ -611,6 +690,7 @@ class AppFrame(wx.Frame):
             self.Display_Heat_Results(self.heat_results[0])
             # enable the button to add the heat results
             self.butt_add_rslt.Enable()
+
 
 
     def OnFind(self, event):
@@ -712,6 +792,10 @@ class AppFrame(wx.Frame):
                     self.standard_couples.delete_all_results_from_couple(index)
                 for index in range(self.latin_couples.length()):
                     self.latin_couples.delete_all_results_from_couple(index)
+                for index in range(self.nightclub_couples.length()):
+                    self.nightclub_couples.delete_all_results_from_couple(index)   
+                for index in range(self.country_couples.length()):
+                    self.country_couples.delete_all_results_from_couple(index)                     
                 for index in range(self.showdance_couples.length()):
                     self.showdance_couples.delete_all_results_from_couple(index)                
                 self.unsaved_updates = True
@@ -740,6 +824,8 @@ class AppFrame(wx.Frame):
         self.rhythm_couples.save()
         self.standard_couples.save()
         self.latin_couples.save()
+        self.nightclub_couples.save()
+        self.country_couples.save()
         self.showdance_couples.save()  
         self.unsaved_updates = False
 
@@ -800,7 +886,7 @@ class AppFrame(wx.Frame):
                                         text(self.list_ctrl.GetItem(r, c).GetText())
 
         # once the structure is built, write it to a file
-        filename =  self.folder_name + "/Rankings/Weekly/" + str(self.curr_date) + "_" + criteria + ".htm"
+        filename =  self.folder_name + "/Rankings/Pro/Weekly/" + str(self.curr_date) + "_" + criteria + ".htm"
         html_file = open(filename,"w")
         html_file.write(doc.getvalue())
         html_file.close()

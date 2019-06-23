@@ -2,6 +2,7 @@
   "comp name": "Nashville Ballroom Challenge",
   "heats": [
     {
+      "number": 179,
       "title": "G-A Closed Bronze American Smooth Challenge (W/T/FT)",
       "entries": [
         {
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "number": 179,
       "title": "G-SR Closed Bronze American Smooth Challenge (W/T/FT)",
       "entries": [
         {
@@ -22,6 +24,7 @@
       ]
     },
     {
+      "number": 179,
       "title": "L-A2 Closed Bronze American Smooth Challenge (W/T/FT)",
       "entries": [
         {
@@ -37,6 +40,7 @@
       ]
     },
     {
+      "number": 180,
       "title": "L-B Closed Silver American Smooth Challenge (W/T/FT/VW)",
       "entries": [
         {
@@ -47,6 +51,7 @@
       ]
     },
     {
+      "number": 180,
       "title": "L-C Closed Silver American Smooth Challenge (W/T/FT/VW)",
       "entries": [
         {
@@ -62,6 +67,7 @@
       ]
     },
     {
+      "number": 180,
       "title": "L-SR Closed Silver American Smooth Challenge (W/T/FT/VW)",
       "entries": [
         {
@@ -77,106 +83,115 @@
       ]
     },
     {
+      "number": 181,
       "title": "G-A2 Open American Smooth Challenge (W/T/FT)",
       "entries": [
         {
           "couple": "Kough, Stephen and Elliott, Samantha",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 181,
       "title": "L-SR Open American Smooth Challenge (W/T/FT)",
       "entries": [
         {
           "couple": "Ragan, Sheila and Pocius, Sid",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 182,
       "title": "G-A2 Open American Smooth Challenge (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Kough, Stephen and Elliott, Samantha",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 182,
       "title": "L-B Open American Smooth Challenge (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Burroughs, Heather and Dawson, Staz",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 182,
       "title": "L-C Open American Smooth Challenge (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Heath, Mary and Stockton, Andrew",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 182,
       "title": "L-SR Open American Smooth Challenge (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Ragan, Sheila and Pocius, Sid",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Plockmeyer, Jamee and Bonini, Fabio",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 183,
       "title": "G- Pro/Am Closed Bronze Smooth Scholarship (W/T/FT)",
       "entries": [
         {
           "couple": "Kough, Stephen and Elliott, Samantha",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Aldendifer, Jim and Senn-Russell, Joanna",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 183,
       "title": "L- Pro/Am Closed Silver Smooth Scholarship (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Heath, Mary and Stockton, Andrew",
           "place": "1",
-          "points": 10.0
+          "points": 20.0
         },
         {
           "couple": "Ances, Amanda and Dawson, Staz",
           "place": "2",
-          "points": 6.0
+          "points": 12.0
         },
         {
           "couple": "Walters, Rick and Spencer, Alina",
           "place": "3",
-          "points": 3.0
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 184,
       "title": "L- American Smooth Senior Scholarship 4-Dance (W/T/F/VW)",
       "entries": [
         {
@@ -192,6 +207,7 @@
       ]
     },
     {
+      "number": 184,
       "title": "L- American Smooth Superstars Scholarship 4-Dance (W/T/F/VW)",
       "entries": [
         {
@@ -217,6 +233,7 @@
       ]
     },
     {
+      "number": 206,
       "title": "L-A2 Closed Silver International Standard Challenge (W/T/F/QS)",
       "entries": [
         {
@@ -227,16 +244,18 @@
       ]
     },
     {
+      "number": 206,
       "title": "L-C Closed Bronze International Standard Challenge (W/T/QS)",
       "entries": [
         {
           "couple": "Heath, Mary and Stockton, Andrew",
           "place": "1",
-          "points": 15
+          "points": 10
         }
       ]
     },
     {
+      "number": 207,
       "title": "L-B Closed Silver International Standard Challenge (W/T/F/QS)",
       "entries": [
         {
@@ -247,6 +266,7 @@
       ]
     },
     {
+      "number": 207,
       "title": "L-SR Closed Silver International Standard Challenge (W/T/F/QS)",
       "entries": [
         {
@@ -257,41 +277,45 @@
       ]
     },
     {
+      "number": 208,
       "title": "L-SR Open International Standard Challenge (W/T/VW/FT/QS)",
       "entries": [
         {
           "couple": "Plockmeyer, Jamee and Bonini, Fabio",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 209,
       "title": "L- Pro/Am Closed Bronze Standard Scholarship (W/T/QS)",
       "entries": [
         {
           "couple": "Heath, Mary and Stockton, Andrew",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 209,
       "title": "L- Pro/Am Closed Silver Standard Scholarship (W/T/F/QS)",
       "entries": [
         {
           "couple": "Weinaug, Jennifer and Spencer, Alex",
           "place": "1",
-          "points": 10.0
+          "points": 20.0
         },
         {
           "couple": "Grieder, Isabel and Bonini, Fabio",
           "place": "2",
-          "points": 5.0
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 395,
       "title": "L-A Closed Bronze American Rhythm Challenge (CC/R/SW)",
       "entries": [
         {
@@ -302,6 +326,7 @@
       ]
     },
     {
+      "number": 396,
       "title": "G-SR Closed Bronze American Rhythm Challenge (CC/R/SW)",
       "entries": [
         {
@@ -312,6 +337,7 @@
       ]
     },
     {
+      "number": 396,
       "title": "L-A2 Closed Bronze American Rhythm Challenge (CC/R/SW)",
       "entries": [
         {
@@ -327,6 +353,7 @@
       ]
     },
     {
+      "number": 397,
       "title": "L-B Closed Silver American Rhythm Challenge (CC/R/SW/M)",
       "entries": [
         {
@@ -337,6 +364,7 @@
       ]
     },
     {
+      "number": 397,
       "title": "L-SR Closed Silver American Rhythm Challenge (CC/R/SW/M)",
       "entries": [
         {
@@ -357,106 +385,114 @@
       ]
     },
     {
+      "number": 398,
       "title": "G-A2 Open American Rhythm Challenge (CC/R/SW)",
       "entries": [
         {
           "couple": "Kough, Stephen and Elliott, Samantha",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 398,
       "title": "L-SR Open American Rhythm Challenge (CC/R/SW)",
       "entries": [
         {
           "couple": "Ragan, Sheila and Pocius, Sid",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Plockmeyer, Jamee and Bonini, Fabio",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 399,
       "title": "L-A2 Open American Rhythm Challenge (CC/R/SW/B/M)",
       "entries": [
         {
           "couple": "Harmon, Rebecca and Norris, Jeremy",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Kough, Stephen and Elliott, Samantha",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 399,
       "title": "L-B Open American Rhythm Challenge (CC/R/SW/B/M)",
       "entries": [
         {
           "couple": "Burroughs, Heather and Dawson, Staz",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 399,
       "title": "L-SR Open American Rhythm Challenge (CC/R/SW/B/M)",
       "entries": [
         {
           "couple": "Ragan, Sheila and Pocius, Sid",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Plockmeyer, Jamee and Bonini, Fabio",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 400,
       "title": "L- Pro/Am Closed Bronze Rhythm Scholarship (C/R/SW)",
       "entries": [
         {
           "couple": "Grieder, Isabel and Bonini, Fabio",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Kough, Stephen and Elliott, Samantha",
           "place": "2",
-          "points": 6.0
+          "points": 9.0
         },
         {
           "couple": "Aldendifer, Jim and Senn-Russell, Joanna",
           "place": "3",
-          "points": 3.0
+          "points": 4.5
         }
       ]
     },
     {
+      "number": 400,
       "title": "L- Pro/Am Closed Silver Rhythm Scholarship (C/R/SW/M)",
       "entries": [
         {
           "couple": "Zimmerman, Rebecca and Chen, Jonathan",
           "place": "1",
-          "points": 10.0
+          "points": 20.0
         },
         {
           "couple": "Ances, Amanda and Dawson, Staz",
           "place": "2",
-          "points": 5.0
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 401,
       "title": "L- American Rhythm Senior Scholarship 5-Dance (C/R/SW/B/M)",
       "entries": [
         {
@@ -472,6 +508,7 @@
       ]
     },
     {
+      "number": 401,
       "title": "L- American Rhythm Superstars Scholarship 5-Dance (C/R/SW/B/M)",
       "entries": [
         {
@@ -492,6 +529,7 @@
       ]
     },
     {
+      "number": 474,
       "title": "L-B Silver Night Club Challenge (SAL/BAC/MER)",
       "entries": [
         {

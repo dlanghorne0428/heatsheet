@@ -24,9 +24,9 @@ def dance_style(s):
         return "Rhythm"
     elif "Latin" in s:
         return "Latin"
-    elif "Standard" in s or "Ballroom" in s:
+    elif "Standard" in s or "Ballroom" in s or "Balroom" in s or "Ballrom" in s:
         return "Standard"  
-    elif "Nightclub" in s or "Night Club" in s or "NightClub" in s:
+    elif "Nightclub" in s or "Night Club" in s or "NightClub" in s or "Niteclub" in s or "Caribbean" in s:
         return "Nightclub"
     elif "Country" in s:
         return "Country"
@@ -36,36 +36,45 @@ def dance_style(s):
     
 def pro_heat_level(info):
     if "Rising Star" in info:
-        return "Rising Star"
+        return 10  #"Rising Star"
     elif "Novice" in info:
-        return "Novice"
+        return 5   #"Novice"
     else:
-        return "Open"  
+        return 20  #"Open"  
+    
+    
+def extra_points(info, check_for_open=True):
+    value = 0
+    if check_for_open and "Open" in info:
+        value += 5
+    if "Scholarship" in info or "Scolarship" in info:
+        value += 5
+    return value    
+
     
 def non_pro_heat_level(info):
-    if "Newcomer" in info:
-        return "Newcomer"
-    elif "Novice" in info:
-        return "Novice"
+    if "Newcomer" in info or "Novice" in info:
+        return 5 + extra_points(info)
     elif "Bronze" in info:
-        return "Bronze"
+        return 10 + extra_points(info)
     elif "Silver" in info:
-        return "Silver"
+        return 15 + extra_points(info)
     elif "Gold" in info:
-        return "Gold"
-    elif "Open" in info or "Scholarship" in info or "Scolarship" in info:
-        return "Open-Gold" 
-    elif "Pre-Champ" in info:
-        return "Pre-Champ"
+        return 20 + extra_points(info)
+    elif "Closed" in info or "Challenge" in info:
+        return 15 + extra_points(info)
+    elif "Open" in info or "World" in info:
+        return 20 + extra_points(info, False)
+    elif "Pre-Champ" in info or "PreChamp" in info or "Pre Champ" in info:
+        return 15 
     elif "Champ" in info:
-        return "Championship"  
-    elif "World" in info:
-        return "Open-Gold"
-    elif "Challenge" in info:
-        return "Silver"
+        return 20  
+    elif "Scholar" in info:
+        return 25
     else:
-        print("Unknown level for heat", info)
-        return "Other"    
+        if is_multi_dance(info):
+            print("Unknown level for heat", info)
+        return 15    
     
 
 class Heat():

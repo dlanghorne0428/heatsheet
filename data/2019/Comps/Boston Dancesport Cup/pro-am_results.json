@@ -2,6 +2,7 @@
   "comp name": "Boston Dancesport Cup",
   "heats": [
     {
+      "number": 81,
       "title": "L-A3  Challenge Bronze Rhythm (C/R/SW)",
       "entries": [
         {
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "number": 81,
       "title": "L-B1  Challenge Bronze Rhythm (C/R/SW)",
       "entries": [
         {
@@ -27,6 +29,7 @@
       ]
     },
     {
+      "number": 81,
       "title": "L-B2  Challenge Bronze Rhythm (C/R/SW)",
       "entries": [
         {
@@ -37,6 +40,7 @@
       ]
     },
     {
+      "number": 81,
       "title": "L-B3  Challenge Bronze Rhythm (C/R/SW)",
       "entries": [
         {
@@ -52,6 +56,7 @@
       ]
     },
     {
+      "number": 82,
       "title": "G-B2  Multi Dance Closed Bronze Rhythm (C/R/SW)",
       "entries": [
         {
@@ -62,21 +67,23 @@
       ]
     },
     {
+      "number": 82,
       "title": "L-A Scholarship Silver Rhythm (C/R/SW/B)",
       "entries": [
         {
           "couple": "Fox, Sarah and Filatov, Dmytro",
           "place": "1",
-          "points": 10.0
+          "points": 20.0
         },
         {
           "couple": "DiNoia, Eliza and Hannigan, David",
           "place": "2",
-          "points": 5.0
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 82,
       "title": "L-B1  Multi Dance Closed Bronze Rhythm (C/R/SW)",
       "entries": [
         {
@@ -87,16 +94,18 @@
       ]
     },
     {
+      "number": 82,
       "title": "L-B2 Challenge Silver Rhythm (C/R/SW/B)",
       "entries": [
         {
           "couple": "Delcore, Paula and Kerekes, Tibor",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 82,
       "title": "L-B3  Multi Dance Closed Bronze Rhythm (C/R/SW)",
       "entries": [
         {
@@ -107,196 +116,209 @@
       ]
     },
     {
+      "number": 83,
       "title": "L-B  Scholarship Bronze Rhythm (C/R/SW)",
       "entries": [
         {
           "couple": "Kirovsis, Michele and Germain, Zachary",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Muller, Cynthia and Escolme, Andrew",
           "place": "2",
-          "points": 8.0
+          "points": 12.0
         },
         {
           "couple": "Resendes, Nicole and Vasicek, Tomas",
           "place": "3",
-          "points": 6.5
+          "points": 9.75
         },
         {
           "couple": "Kennealy, Trisha and Hannigan, David",
           "place": "4",
-          "points": 5.0
+          "points": 7.5
         },
         {
           "couple": "Higgins, Paula and Talbert, Aaron",
           "place": "5",
-          "points": 4.0
+          "points": 6.0
         },
         {
           "couple": "Spaulding, Sharon and Walker, Peter",
           "place": "6",
-          "points": 3.0
+          "points": 4.5
         }
       ]
     },
     {
+      "number": 84,
       "title": "L-B Scholarship Silver Rhythm (C/R/SW/B)",
       "entries": [
         {
           "couple": "Hoffman, Jennifer and Hannigan, David",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "L-C Scholarship Silver Rhythm (C/R/SW/B)",
+      "entries": [
+        {
+          "couple": "Zukovsky, Leila and Escolme, Andrew",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Delcore, Paula and Kerekes, Tibor",
+          "place": "2",
+          "points": 14.0
+        },
+        {
+          "couple": "Sena, Laureen and Talbert, Aaron",
+          "place": "3",
+          "points": 10.0
+        },
+        {
+          "couple": "Weiss, Robin and Walker, Peter",
+          "place": "4",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "L-D Scholarship Silver Rhythm (C/R/SW/B)",
+      "entries": [
+        {
+          "couple": "Sauter, Karen and Dyachenko, Evgeny",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "G-D  Scholarship Bronze Rhythm (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Gluck, Cliff and Toth, Maggie",
           "place": "1",
           "points": 15
         }
       ]
     },
     {
-      "title": "L-C Scholarship Silver Rhythm (C/R/SW/B)",
+      "number": 85,
+      "title": "L-B Scholarship Gold  Rhythm (C/R/SW/B/M)",
       "entries": [
         {
-          "couple": "Zukovsky, Leila and Escolme, Andrew",
+          "couple": "DiNoia, Eliza and Hannigan, David",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "L-D  Scholarship Bronze Rhythm (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Sauter, Karen and Dyachenko, Evgeny",
           "place": "1",
           "points": 15.0
         },
         {
-          "couple": "Delcore, Paula and Kerekes, Tibor",
+          "couple": "Cohen, Linda and Beybutian, Arko",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Eaton, Tedi and Mitov, Kalin",
+          "place": "3",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "G-B  Scholarship Bronze Rhythm (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Cassidy, Vin and McCarthy, Danielle",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Pizza, Tony and Baker, Amy",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "G-C  Scholarship Bronze Rhythm (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Gluck, Cliff and Toth, Maggie",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "L-B Scholarship Open Rhythm (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Hoffman, Jennifer and Hannigan, David",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "L-C Scholarship Open Rhythm (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Goddard, Joan and Talbert, Aaron",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "title": "L-C  Scholarship Bronze Rhythm (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Smith, Chris and Hannigan, David",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Shapeton, Irina and Gombkoto, Imre",
           "place": "2",
           "points": 10.5
         },
         {
-          "couple": "Sena, Laureen and Talbert, Aaron",
+          "couple": "Higgins, Paula and Timar, Krisztian",
           "place": "3",
           "points": 7.5
         },
         {
-          "couple": "Weiss, Robin and Walker, Peter",
+          "couple": "Richardson, Holly and Bogre, Jani",
           "place": "4",
           "points": 4.5
         }
       ]
     },
     {
-      "title": "L-D Scholarship Silver Rhythm (C/R/SW/B)",
-      "entries": [
-        {
-          "couple": "Sauter, Karen and Dyachenko, Evgeny",
-          "place": "1",
-          "points": 15
-        }
-      ]
-    },
-    {
-      "title": "G-D  Scholarship Bronze Rhythm (C/R/SW)",
-      "entries": [
-        {
-          "couple": "Gluck, Cliff and Toth, Maggie",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "L-B Scholarship Gold  Rhythm (C/R/SW/B/M)",
-      "entries": [
-        {
-          "couple": "DiNoia, Eliza and Hannigan, David",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "L-D  Scholarship Bronze Rhythm (C/R/SW)",
-      "entries": [
-        {
-          "couple": "Sauter, Karen and Dyachenko, Evgeny",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Cohen, Linda and Beybutian, Arko",
-          "place": "2",
-          "points": 6.0
-        },
-        {
-          "couple": "Eaton, Tedi and Mitov, Kalin",
-          "place": "3",
-          "points": 3.0
-        }
-      ]
-    },
-    {
-      "title": "G-B  Scholarship Bronze Rhythm (C/R/SW)",
-      "entries": [
-        {
-          "couple": "Cassidy, Vin and McCarthy, Danielle",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Pizza, Tony and Baker, Amy",
-          "place": "2",
-          "points": 5.0
-        }
-      ]
-    },
-    {
-      "title": "G-C  Scholarship Bronze Rhythm (C/R/SW)",
-      "entries": [
-        {
-          "couple": "Gluck, Cliff and Toth, Maggie",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "L-B Scholarship Open Rhythm (C/R/SW/B/M)",
-      "entries": [
-        {
-          "couple": "Hoffman, Jennifer and Hannigan, David",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "L-C Scholarship Open Rhythm (C/R/SW/B/M)",
-      "entries": [
-        {
-          "couple": "Goddard, Joan and Talbert, Aaron",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "L-C  Scholarship Bronze Rhythm (C/R/SW)",
-      "entries": [
-        {
-          "couple": "Smith, Chris and Hannigan, David",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Shapeton, Irina and Gombkoto, Imre",
-          "place": "2",
-          "points": 7.0
-        },
-        {
-          "couple": "Higgins, Paula and Timar, Krisztian",
-          "place": "3",
-          "points": 5.0
-        },
-        {
-          "couple": "Richardson, Holly and Bogre, Jani",
-          "place": "4",
-          "points": 3.0
-        }
-      ]
-    },
-    {
+      "number": 137,
       "title": "L-A1 Challenge Silver Latin (C/S/R/J)",
       "entries": [
         {
@@ -307,6 +329,7 @@
       ]
     },
     {
+      "number": 137,
       "title": "L-B Scholarship Bronze Latin (C/S/R)",
       "entries": [
         {
@@ -317,6 +340,7 @@
       ]
     },
     {
+      "number": 137,
       "title": "L-B2 Challenge Silver Latin (C/S/R/J)",
       "entries": [
         {
@@ -327,6 +351,7 @@
       ]
     },
     {
+      "number": 137,
       "title": "L-D Scholarship Bronze Latin (C/S/R)",
       "entries": [
         {
@@ -337,21 +362,23 @@
       ]
     },
     {
+      "number": 138,
       "title": "L-A Scholarship Bronze Latin (C/S/R)",
       "entries": [
         {
           "couple": "Liu, Weiwei and Gelzhinsky, Peter",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Healy, Mikaela and Escolme, Andrew",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 138,
       "title": "L-B2 Challenge Bronze Latin (C/S/R)",
       "entries": [
         {
@@ -367,36 +394,40 @@
       ]
     },
     {
+      "number": 139,
       "title": "L-A Scholarship Silver Latin (C/S/R/J)",
       "entries": [
         {
           "couple": "Pratt, Vivian and Vasicek, Tomas",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 139,
       "title": "L-C Scholarship Silver Latin (C/S/R/J)",
       "entries": [
         {
           "couple": "Kellogg, Collette and Bogre, Jani",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 139,
       "title": "L-D Scholarship Silver Latin (C/S/R/J)",
       "entries": [
         {
           "couple": "Kelly, Susan D. and Ondrias, Jan",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 140,
       "title": "L-A Scholarship Open Latin (C/S/R/P/J)",
       "entries": [
         {
@@ -412,16 +443,18 @@
       ]
     },
     {
+      "number": 140,
       "title": "L-A3 Challenge Gold Latin (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Putnam, Melissa and Bogre, Jani",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 140,
       "title": "L-C Scholarship Open Latin (C/S/R/P/J)",
       "entries": [
         {
@@ -432,61 +465,66 @@
       ]
     },
     {
+      "number": 141,
       "title": "G-A Scholarship Bronze Latin (C/S/R)",
       "entries": [
         {
           "couple": "Murel, Jake and Stoliarenko, Kateryna",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 141,
       "title": "L-C Scholarship Bronze Latin (C/S/R)",
       "entries": [
         {
           "couple": "Ownjazayeri, Saghi and Ondrias, Jan",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Sena, Laureen and Escolme, Andrew",
           "place": "2",
-          "points": 6.0
+          "points": 9.0
         },
         {
           "couple": "Richardson, Holly and Bogre, Jani",
           "place": "3",
-          "points": 3.0
+          "points": 4.5
         }
       ]
     },
     {
+      "number": 142,
       "title": "L-B Scholarship Gold Latin (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Putnam, Melissa and Bogre, Jani",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         },
         {
           "couple": "Jodhan, Jeannine and Escolme, Andrew",
           "place": "2",
-          "points": 10.0
+          "points": 12.5
         }
       ]
     },
     {
+      "number": 142,
       "title": "L-D Scholarship Gold Latin (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Robinson - Harris, Tracey and Shiloshvili, Thomas",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 482,
       "title": "G-A Scholarship Open Standard (W/T/VW/F/QS)",
       "entries": [
         {
@@ -497,41 +535,45 @@
       ]
     },
     {
+      "number": 482,
       "title": "G-C Scholarship Silver Standard (W/T/F/QS)",
       "entries": [
         {
           "couple": "Hou, Stewart and Baker, Amy",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 482,
       "title": "L-B  Scholarship Bronze Standard (W/T/Q)",
       "entries": [
         {
           "couple": "Dugan, Debbie and Pali, Erik",
           "place": "1",
-          "points": 25
+          "points": 15
         }
       ]
     },
     {
+      "number": 482,
       "title": "L-D Scholarship Silver Standard (W/T/F/QS)",
       "entries": [
         {
           "couple": "Gay, Eileen and Gorolevici, Anatoli",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Jones, Sherry and Walker, Peter",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 483,
       "title": "G-A3 Challenge Bronze Standard (W/T/QS)",
       "entries": [
         {
@@ -542,56 +584,61 @@
       ]
     },
     {
+      "number": 483,
       "title": "G-D Scholarship Open Standard (W/T/VW/F/QS)",
       "entries": [
         {
           "couple": "Jaffe, Don and Mullins, Kristie",
           "place": "1",
-          "points": 10
+          "points": 25
         }
       ]
     },
     {
+      "number": 483,
       "title": "L-A Scholarship Open Standard (W/T/VW/F/QS)",
       "entries": [
         {
           "couple": "Shoov, Emily and Odikadze, Michael",
           "place": "1",
-          "points": 10
+          "points": 25
         }
       ]
     },
     {
+      "number": 483,
       "title": "L-B Scholarship Open Standard (W/T/VW/F/QS)",
       "entries": [
         {
           "couple": "Bekker, Natalya and Shiloshvili, Thomas",
           "place": "1",
-          "points": 10
+          "points": 25
         }
       ]
     },
     {
+      "number": 483,
       "title": "L-C Scholarship Silver Standard (W/T/F/QS)",
       "entries": [
         {
           "couple": "Bender, Arlene and Pali, Erik",
           "place": "1",
-          "points": 10.0
+          "points": 20.0
         },
         {
           "couple": "Lee, Christine and Gabor, Marek",
           "place": "2",
-          "points": 6.0
+          "points": 12.0
         },
         {
           "couple": "Sena, Laureen and Hannigan, David",
           "place": "3",
-          "points": 3.0
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 484,
       "title": "G-B Scholarship Open Standard (W/T/VW/F/QS)",
       "entries": [
         {
@@ -602,6 +649,7 @@
       ]
     },
     {
+      "number": 484,
       "title": "G-D Scholarship Gold Standard (W/T/VW/F/QS)",
       "entries": [
         {
@@ -612,61 +660,67 @@
       ]
     },
     {
+      "number": 484,
       "title": "L-A  Scholarship Bronze Standard (W/T/Q)",
       "entries": [
         {
           "couple": "Patterson, Alisha and Gombkoto, Imre",
           "place": "1",
-          "points": 25
+          "points": 15
         }
       ]
     },
     {
+      "number": 484,
       "title": "L-B2 Challenge Silver Standard (W/T/F/QS)",
       "entries": [
         {
           "couple": "Lee, Christine and Gabor, Marek",
           "place": "1",
-          "points": 25
+          "points": 15
         }
       ]
     },
     {
+      "number": 484,
       "title": "L-B3 Challenge Silver Standard (W/T/F/QS)",
       "entries": [
         {
           "couple": "Jones, Sherry and Walker, Peter",
           "place": "1",
-          "points": 25
+          "points": 15
         }
       ]
     },
     {
+      "number": 484,
       "title": "L-C1 Challenge Silver Standard (W/T/F/QS)",
       "entries": [
         {
           "couple": "Kimball, Helga and Timar, Krisztian",
           "place": "1",
-          "points": 25
+          "points": 15
         }
       ]
     },
     {
+      "number": 484,
       "title": "L-D  Scholarship Bronze Standard (W/T/Q)",
       "entries": [
         {
           "couple": "Bartter, Pam and Pali, Erik",
           "place": "1",
-          "points": 25.0
+          "points": 15.0
         },
         {
           "couple": "Theros, Sandi and Vigneault, Jared",
           "place": "2",
-          "points": 12.5
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 484,
       "title": "L-D Scholarship Gold Standard (W/T/VW/F/QS)",
       "entries": [
         {
@@ -677,6 +731,7 @@
       ]
     },
     {
+      "number": 594,
       "title": "G-B2 Multi Dance Closed Bronze Smooth (W/T/F)",
       "entries": [
         {
@@ -702,6 +757,7 @@
       ]
     },
     {
+      "number": 594,
       "title": "L-A2 Challenge Bronze Smooth (W/T/F)",
       "entries": [
         {
@@ -712,21 +768,23 @@
       ]
     },
     {
+      "number": 594,
       "title": "L-B Scholarship Silver Smooth (W/T/F/VW)",
       "entries": [
         {
           "couple": "Fantuzzi, Jacqueline and Kerekes, Tibor",
           "place": "1",
-          "points": 10.0
+          "points": 20.0
         },
         {
           "couple": "Smith, Chris and Hannigan, David",
           "place": "2",
-          "points": 5.0
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 594,
       "title": "L-B3 Challenge Bronze Smooth (W/T/F)",
       "entries": [
         {
@@ -737,21 +795,23 @@
       ]
     },
     {
+      "number": 595,
       "title": "G-B Scholarship Bronze Smooth (W/T/F)",
       "entries": [
         {
           "couple": "Cassidy, Vin and McCarthy, Danielle",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Pizza, Tony and Baker, Amy",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 595,
       "title": "G-B2 Multi Dance Closed Bronze Smooth (W/T/F)",
       "entries": [
         {
@@ -762,76 +822,83 @@
       ]
     },
     {
+      "number": 595,
       "title": "L-A Scholarship Bronze Smooth (W/T/F)",
       "entries": [
         {
           "couple": "Patterson, Alisha and Escolme, Andrew",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 595,
       "title": "L-B1 Challenge Silver Smooth (W/T/F/VW)",
       "entries": [
         {
           "couple": "Lessem, SaraKate and Timar, Krisztian",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 595,
       "title": "L-B3 Challenge Silver Smooth (W/T/F/VW)",
       "entries": [
         {
           "couple": "Sauter, Karen and Dyachenko, Evgeny",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 595,
       "title": "L-C Scholarship Silver Smooth (W/T/F/VW)",
       "entries": [
         {
           "couple": "Lancelotta, Sheila and Vigneault, Jared",
           "place": "1",
-          "points": 10.0
+          "points": 20.0
         },
         {
           "couple": "Sena, Laureen and Hannigan, David",
           "place": "2",
-          "points": 5.0
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 596,
       "title": "G-D Scholarship Gold Smooth (W/T/F/VW)",
       "entries": [
         {
           "couple": "Jaffe, Don and Mullins, Kristie",
           "place": "1",
-          "points": 20
+          "points": 25
         }
       ]
     },
     {
+      "number": 596,
       "title": "L-A Scholarship Gold Smooth (W/T/F/VW)",
       "entries": [
         {
           "couple": "Samia, Olivia and Pali, Erik",
           "place": "1",
-          "points": 20.0
+          "points": 25.0
         },
         {
           "couple": "Madigan, Molly Pinto and Odikadze, Michael",
           "place": "2",
-          "points": 10.0
+          "points": 12.5
         }
       ]
     },
     {
+      "number": 596,
       "title": "L-B Multi Dance Open Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -842,91 +909,99 @@
       ]
     },
     {
+      "number": 596,
       "title": "L-C Scholarship Gold Smooth (W/T/F/VW)",
       "entries": [
         {
           "couple": "Smith, Chris and Hannigan, David",
+          "place": "1",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "number": 597,
+      "title": "G-D Scholarship Silver Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Gluck, Cliff and Toth, Maggie",
           "place": "1",
           "points": 20
         }
       ]
     },
     {
-      "title": "G-D Scholarship Silver Smooth (W/T/F/VW)",
-      "entries": [
-        {
-          "couple": "Gluck, Cliff and Toth, Maggie",
-          "place": "1",
-          "points": 15
-        }
-      ]
-    },
-    {
+      "number": 597,
       "title": "L-A Scholarship Open Smooth (W/T/F/VW)",
       "entries": [
         {
           "couple": "Hoffman, Jennifer and Hannigan, David",
           "place": "1",
-          "points": 15
+          "points": 25
         }
       ]
     },
     {
+      "number": 597,
       "title": "L-D Scholarship Silver Smooth (W/T/F/VW)",
       "entries": [
         {
           "couple": "Sauter, Karen and Dyachenko, Evgeny",
           "place": "1",
-          "points": 15.0
+          "points": 20.0
         },
         {
           "couple": "Theros, Sandi and Vigneault, Jared",
           "place": "2",
-          "points": 7.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 598,
       "title": "G-C Scholarship Bronze Smooth (W/T/F)",
       "entries": [
         {
           "couple": "MacPherson, Charlie and McCarthy, Danielle",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 598,
       "title": "L-B Scholarship Bronze Smooth (W/T/F)",
       "entries": [
         {
           "couple": "Kennealy, Trisha and Hannigan, David",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Muller, Cynthia and Escolme, Andrew",
           "place": "2",
-          "points": 6.0
+          "points": 9.0
         },
         {
           "couple": "Ravens, Marimar and Samarasinghe, Ashan",
           "place": "3",
-          "points": 3.0
+          "points": 4.5
         }
       ]
     },
     {
+      "number": 598,
       "title": "L-C Scholarship Bronze Smooth (W/T/F)",
       "entries": [
         {
           "couple": "Connors, Sue and Gombkoto, Imre",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 599,
       "title": "G-D Scholarship Open Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -937,21 +1012,23 @@
       ]
     },
     {
+      "number": 599,
       "title": "L-A Scholarship Silver Smooth (W/T/F/VW)",
       "entries": [
         {
           "couple": "Bell, Dianna and Pali, Erik",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Fox, Sarah and Filatov, Dmytro",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 599,
       "title": "L-B Scholarship Open Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -962,36 +1039,39 @@
       ]
     },
     {
+      "number": 599,
       "title": "L-D Scholarship Bronze Smooth (W/T/F)",
       "entries": [
         {
           "couple": "Gay, Eileen and Gorolevici, Anatoli",
           "place": "1",
-          "points": 25.0
-        },
-        {
-          "couple": "Cohen, Linda and Beybutian, Arko",
-          "place": "2",
-          "points": 12.5
-        }
-      ]
-    },
-    {
-      "title": "G-C Scholarship Silver Smooth (W/T/F/VW)",
-      "entries": [
-        {
-          "couple": "Hou, Stewart and Baker, Amy",
-          "place": "1",
           "points": 15.0
         },
         {
-          "couple": "Gluck, Cliff and Toth, Maggie",
+          "couple": "Cohen, Linda and Beybutian, Arko",
           "place": "2",
           "points": 7.5
         }
       ]
     },
     {
+      "number": 600,
+      "title": "G-C Scholarship Silver Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Hou, Stewart and Baker, Amy",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Gluck, Cliff and Toth, Maggie",
+          "place": "2",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "number": 600,
       "title": "L-B3 Multi Dance Closed Silver Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -1002,17 +1082,18 @@
       ]
     },
     {
+      "number": 600,
       "title": "L-C Scholarship Open Smooth (W/T/F/VW)",
       "entries": [
         {
           "couple": "Neyshtadt, Alla and Talbert, Aaron",
           "place": "1",
-          "points": 15.0
+          "points": 25.0
         },
         {
           "couple": "Zukovsky, Leila and Hannigan, David",
           "place": "2",
-          "points": 7.5
+          "points": 12.5
         }
       ]
     }

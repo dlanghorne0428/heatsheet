@@ -2,6 +2,7 @@
   "comp name": "Florida Spring Classic",
   "heats": [
     {
+      "number": 110,
       "title": "AC-B American Smooth Closed Challenge(W/T/F)",
       "entries": [
         {
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "number": 110,
       "title": "AC-C American Smooth Closed Challenge(W/T/F)",
       "entries": [
         {
@@ -27,16 +29,18 @@
       ]
     },
     {
+      "number": 114,
       "title": "AC-B American Smooth Open Challenge(W/T/F)",
       "entries": [
         {
           "couple": "Franklin, Thomas and Teprovich, Amy",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 115,
       "title": "AC-Y American Smooth Junior Scholarship(W/T/F)",
       "entries": [
         {
@@ -47,6 +51,7 @@
       ]
     },
     {
+      "number": 295,
       "title": "AC-Y International Latin Junior Scholarship(CC/S/R)",
       "entries": [
         {
@@ -57,6 +62,7 @@
       ]
     },
     {
+      "number": 296,
       "title": "AC-B American Rhythm Closed Challenge(C/R/SW)",
       "entries": [
         {
@@ -67,16 +73,18 @@
       ]
     },
     {
+      "number": 296,
       "title": "AC-B American Rhythm Open Challenge(C/R/SW)",
       "entries": [
         {
           "couple": "Franklin, Thomas and Teprovich, Amy",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 296,
       "title": "AC-C American Rhythm Closed Challenge(C/R/SW)",
       "entries": [
         {

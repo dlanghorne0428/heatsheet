@@ -2,6 +2,7 @@
   "comp name": "Patriot Dance Festival",
   "heats": [
     {
+      "number": 163,
       "title": "AC-A1 Am. Smooth Closed Silver Multi-Dance (W/T/F/VW)",
       "entries": [
         {
@@ -12,32 +13,35 @@
       ]
     },
     {
+      "number": 164,
       "title": "AC-B1 Am. Smooth Closed Silver Scholarship (W/T/F/VW)",
       "entries": [
         {
           "couple": "DiMaio, Joseph and George, Deborah",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 421,
       "title": "AC-J1 Am. Rhythm Closed Bronze Scholarship (C/R/SW)",
       "entries": [
         {
           "couple": "Jones-Carlson, Soren and Fox, Larkin",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 423,
       "title": "AC-J1 Am. Rhythm Closed Silver Scholarship (C/R/SW/B/M)",
       "entries": [
         {
           "couple": "Rhinesmith, Chase and Lloyd, Avery",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     }

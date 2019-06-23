@@ -2,6 +2,7 @@
   "comp name": "Boston Dancesport Cup",
   "heats": [
     {
+      "number": 230,
       "title": "AC-J1 Novice Ballroom (W/T/F)",
       "entries": [
         {
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "number": 230,
       "title": "AC-SR II Novice Ballroom (W/T/F)",
       "entries": [
         {
@@ -22,6 +24,7 @@
       ]
     },
     {
+      "number": 230,
       "title": "AC-SR III Novice Ballroom (W/T/F)",
       "entries": [
         {
@@ -32,6 +35,7 @@
       ]
     },
     {
+      "number": 230,
       "title": "AC-Y Novice Ballroom (W/T/F)",
       "entries": [
         {
@@ -42,6 +46,7 @@
       ]
     },
     {
+      "number": 371,
       "title": "AC-J1 Novice Latin (C/S/R)",
       "entries": [
         {
@@ -52,6 +57,7 @@
       ]
     },
     {
+      "number": 371,
       "title": "AC-Y Novice Latin (C/S/R)",
       "entries": [
         {
@@ -62,6 +68,7 @@
       ]
     },
     {
+      "number": 601,
       "title": "AC-J2 Pre-Champ Ballroom (W/T/F/QS)",
       "entries": [
         {
@@ -77,6 +84,7 @@
       ]
     },
     {
+      "number": 601,
       "title": "AC-Y Pre-Champ Ballroom (W/T/F/QS)",
       "entries": [
         {
@@ -87,146 +95,154 @@
       ]
     },
     {
+      "number": 603,
       "title": "AC-J1 Champ Ballroom (W/T/VW/F/QS)",
       "entries": [
         {
           "couple": "Shiloshvili, Sean and Frumkin, Elizabeth",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Kolmykov, Leo and Andreyev, Daria",
           "place": "2",
-          "points": 15.0
+          "points": 12.0
         },
         {
           "couple": "Shtern, Daniel and Markman, Anna",
           "place": "3",
-          "points": 7.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 603,
       "title": "AC-PT1 Champ Ballroom (W/T/VW/F/QS)",
       "entries": [
         {
           "couple": "Zakirzyanov, Kirill and Snitko, Valerie",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 604,
       "title": "AC-PT2 Champ Ballroom (W/T/VW/F/QS)",
       "entries": [
         {
           "couple": "Kolmykov, Leo and Andreyev, Daria",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Zakirzyanov, Kirill and Snitko, Valerie",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 605,
       "title": "AC-A Champ Ballroom (W/T/VW/F/QS)",
       "entries": [
         {
           "couple": "Kalenyuk, Oleksandr and Ablitsova, Olena",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Gauthier, Francis and Fournier, Annouck",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 605,
       "title": "AC-U21 Champ Ballroom (W/T/VW/F/QS)",
       "entries": [
         {
           "couple": "Test, Jonathan and ., Sarah -Eve",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 606,
       "title": "AC-J2 Champ Ballroom (W/T/VW/F/QS)",
       "entries": [
         {
           "couple": "Korsunsky, Matviy and Kouznetsov, Sophia",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Zoladkiewicz, Matthew and Grigalinovica Leja, Elizabete",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         },
         {
           "couple": "Kuznetsov, Eric and Kliger, Sarah",
           "place": "3",
-          "points": 16.25
+          "points": 13.0
         },
         {
           "couple": "Shiloshvili, Sean and Frumkin, Elizabeth",
           "place": "4",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": "Shtern, Daniel and Markman, Anna",
           "place": "5",
-          "points": 10.0
+          "points": 8.0
         },
         {
           "couple": "Potogal, Margaret and Potogal, Michael",
           "place": "6",
-          "points": 7.5
+          "points": 6.0
         },
         {
           "couple": "Goldovt, Raymond and Sarram, Ava",
           "place": "7",
-          "points": 6.25
+          "points": 5.0
         }
       ]
     },
     {
+      "number": 607,
       "title": "AC-Y Champ Ballroom (W/T/VW/F/QS)",
       "entries": [
         {
           "couple": "Linder, Erik and Meshkausk, Shelly",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Young, Jacob and McDonald, Shayna",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         },
         {
           "couple": "Maidaniuk, Misha and Gamburg, Rachel",
           "place": "3",
-          "points": 16.25
+          "points": 13.0
         },
         {
           "couple": "Test, Jonathan and ., Sarah -Eve",
           "place": "4",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": "Leyzerovych, Yan and Tulchinsky, Eva",
           "place": "5",
-          "points": 10.0
+          "points": 8.0
         }
       ]
     },
     {
+      "number": 608,
       "title": "AC-J2 Pre-Champ Latin (C/S/R/J)",
       "entries": [
         {
@@ -247,6 +263,7 @@
       ]
     },
     {
+      "number": 609,
       "title": "AC-Y Pre-Champ Latin (C/S/R/J)",
       "entries": [
         {
@@ -267,6 +284,7 @@
       ]
     },
     {
+      "number": 610,
       "title": "AC-A Pre-Champ Latin (C/S/R/J)",
       "entries": [
         {
@@ -282,6 +300,7 @@
       ]
     },
     {
+      "number": 610,
       "title": "AC-U21 Pre-Champ Latin (C/S/R/J)",
       "entries": [
         {
@@ -297,242 +316,250 @@
       ]
     },
     {
+      "number": 612,
       "title": "AC-PT1 Champ Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Zakirzyanov, Kirill and Snitko, Valerie",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 612,
       "title": "AC-PT2 Champ Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Martynenko, Ivan and Dargis, Daniela",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 613,
       "title": "AC-J2 Champ Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Firestein, Dave and Umansky, Shelly",
           "place": "1",
-          "points": 35.0
+          "points": 30.0
         },
         {
           "couple": "Korsunsky, Matviy and Kouznetsov, Sophia",
           "place": "2",
-          "points": 28.0
+          "points": 24.0
         },
         {
           "couple": "Zakirzyanov, Daniel and Yarovoi, Irene",
           "place": "3",
-          "points": 22.75
+          "points": 19.5
         },
         {
           "couple": "Shtern, Daniel and Markman, Anna",
           "place": "4",
-          "points": 17.5
+          "points": 15.0
         },
         {
           "couple": "Kuznetsov, Eric and Kliger, Sarah",
           "place": "5",
-          "points": 14.0
+          "points": 12.0
         },
         {
           "couple": "Bakatov, Artyom and Gorin, Alexis",
           "place": "6",
-          "points": 10.5
+          "points": 9.0
         },
         {
           "couple": "Goldovt, Raymond and Sarram, Ava",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Potogal, Margaret and Potogal, Michael",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Shiloshvili, Sean and Frumkin, Elizabeth",
           "place": "Semis",
-          "points": 8.75
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 614,
       "title": "AC-Y Champ Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Linder, Erik and Meshkausk, Shelly",
           "place": "1",
-          "points": 35.0
+          "points": 30.0
         },
         {
           "couple": "Filipczak, Kevin and Malpa, Danielle",
           "place": "2",
-          "points": 28.0
+          "points": 24.0
         },
         {
           "couple": "Ginzburg, Joshua and Elkin, Sophia",
           "place": "3",
-          "points": 22.75
+          "points": 19.5
         },
         {
           "couple": "Young, Jacob and McDonald, Shayna",
           "place": "4",
-          "points": 17.5
+          "points": 15.0
         },
         {
           "couple": "Firestein, Dave and Umansky, Shelly",
           "place": "5",
-          "points": 14.0
+          "points": 12.0
         },
         {
           "couple": "Martirosyan, Emil and Zilbervarg, Galit",
           "place": "6",
-          "points": 10.5
+          "points": 9.0
         },
         {
           "couple": "Leyzerovych, Yan and Tulchinsky, Eva",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Maidaniuk, Misha and Gamburg, Rachel",
           "place": "Semis",
-          "points": 7.7
+          "points": 6.6
         },
         {
           "couple": "Zakirzyanov, Daniel and Yarovoi, Irene",
           "place": "Semis",
-          "points": 8.75
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 615,
       "title": "AC-J1 Champ Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Shtern, Daniel and Markman, Anna",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Zheng, Alex and Sosna, Alexa",
           "place": "2",
-          "points": 15.0
+          "points": 12.0
         },
         {
           "couple": "Shiloshvili, Sean and Frumkin, Elizabeth",
           "place": "3",
-          "points": 7.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 616,
       "title": "AC-A Champ Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Vasilenko, Nikita and Agranovich, Olivia",
           "place": "1",
-          "points": 35.0
+          "points": 30.0
         },
         {
           "couple": "Firestein, Max and Renee, Nicole",
           "place": "2",
-          "points": 28.0
+          "points": 24.0
         },
         {
           "couple": "Randelovic, Miroslav and Pizzi, Dakota",
           "place": "3",
-          "points": 22.75
+          "points": 19.5
         },
         {
           "couple": "Corriveau, Vincent and Champagne, Bianca",
           "place": "4",
-          "points": 17.5
+          "points": 15.0
         },
         {
           "couple": "Babira, Sandu and Dombrovsky, Alice",
           "place": "5",
-          "points": 14.0
+          "points": 12.0
         },
         {
           "couple": "Nguyen, Andrew and Pylat, Lexi",
           "place": "6",
-          "points": 10.5
+          "points": 9.0
         },
         {
           "couple": "Laforest, Maxime and Hering, Fijie",
           "place": "Semis",
-          "points": 8.05
+          "points": 6.9
         },
         {
           "couple": "Tomkowski, Sebastian and Loh, Novell",
           "place": "Semis",
-          "points": 7.0
+          "points": 6.0
         },
         {
           "couple": "Gauthier, Francis and Fournier, Annouck",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Pazniakou, Artsiom and Goryaynova, Daria",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         }
       ]
     },
     {
+      "number": 617,
       "title": "AC-PT2 Champ Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Zheng, Alex and Sosna, Alexa",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Kolmykov, Leo and Andreyev, Daria",
           "place": "2",
-          "points": 17.5
+          "points": 14.0
         },
         {
           "couple": "Zakirzyanov, Kirill and Snitko, Valerie",
           "place": "3",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": "Martynenko, Ivan and Dargis, Daniela",
           "place": "4",
-          "points": 7.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 618,
       "title": "AC-U21 Champ Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Vasilenko, Nikita and Agranovich, Olivia",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Filipczak, Kevin and Malpa, Danielle",
           "place": "2",
-          "points": 15.0
+          "points": 12.0
         },
         {
           "couple": "Martirosyan, Emil and Zilbervarg, Galit",
           "place": "3",
-          "points": 7.5
+          "points": 6.0
         }
       ]
     }

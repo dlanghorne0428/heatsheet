@@ -2,6 +2,7 @@
   "comp name": "Go Wild Dancesport",
   "heats": [
     {
+      "number": 31,
       "title": "G-SR1 Closed Silver Smooth 3-Dance (W/T/F)",
       "entries": [
         {
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "number": 31,
       "title": "L-C Closed Silver Smooth 3-Dance (W/T/F)",
       "entries": [
         {
@@ -22,16 +24,18 @@
       ]
     },
     {
+      "number": 31,
       "title": "L-SR1 Closed Newcomer Smooth 3-Dance (W/T/F)",
       "entries": [
         {
           "couple": "Nielsen, PZ and Bersten, Gene",
           "place": "1",
-          "points": 15
+          "points": 5
         }
       ]
     },
     {
+      "number": 32,
       "title": "G-B Closed Bronze Smooth 3-Dance (W/T/F)",
       "entries": [
         {
@@ -42,6 +46,7 @@
       ]
     },
     {
+      "number": 32,
       "title": "G-JR Closed Bronze Smooth 3-Dance (W/T/F)",
       "entries": [
         {
@@ -52,6 +57,7 @@
       ]
     },
     {
+      "number": 32,
       "title": "G-SR1 Closed Bronze Smooth 3-Dance (W/T/F)",
       "entries": [
         {
@@ -62,16 +68,18 @@
       ]
     },
     {
+      "number": 32,
       "title": "L-A Closed Silver Smooth 3-Dance (W/T/F)",
       "entries": [
         {
           "couple": "Welch, Benjamin and Welch, Lillian",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 32,
       "title": "L-C Closed Bronze Smooth 3-Dance (W/T/F)",
       "entries": [
         {
@@ -82,16 +90,18 @@
       ]
     },
     {
+      "number": 32,
       "title": "L-SR1 Closed Newcomer Smooth 2-Dance (W/T)",
       "entries": [
         {
           "couple": "Nielsen, PZ and Bersten, Gene",
           "place": "1",
-          "points": 10
+          "points": 5
         }
       ]
     },
     {
+      "number": 33,
       "title": "L-B Closed Bronze Smooth 4-Dance (W/T/F/VW)",
       "entries": [
         {
@@ -107,6 +117,7 @@
       ]
     },
     {
+      "number": 33,
       "title": "L-C Closed Bronze Smooth 4-Dance (W/T/F/VW)",
       "entries": [
         {
@@ -122,46 +133,51 @@
       ]
     },
     {
+      "number": 34,
       "title": "G-SR1 Open Smooth 4-Dance (W/T/F/VW)",
       "entries": [
         {
           "couple": "Schubbe, Tom and Peterson, Grace",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 34,
       "title": "L-C Closed Silver Smooth 4-Dance (W/T/F/VW)",
       "entries": [
         {
           "couple": "Schmutzler, Kim and Neterval, Tom",
           "place": "1",
-          "points": 25
+          "points": 15
         }
       ]
     },
     {
+      "number": 34,
       "title": "L-C Open Smooth 4-Dance (W/T/F/VW)",
       "entries": [
         {
           "couple": "Rupp, Jillene and Bang, Michael",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 34,
       "title": "L-SR2 Open Smooth 4-Dance (W/T/F/VW)",
       "entries": [
         {
           "couple": "Endres, Joan and Bersten, Gene",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 95,
       "title": "L-A Closed Bronze Ballroom 3-Dance (W/T/Q)",
       "entries": [
         {
@@ -172,6 +188,7 @@
       ]
     },
     {
+      "number": 95,
       "title": "L-B Closed Bronze Ballroom 3-Dance (W/T/Q)",
       "entries": [
         {
@@ -182,6 +199,7 @@
       ]
     },
     {
+      "number": 95,
       "title": "L-JR Closed Bronze Ballroom 3-Dance (W/T/Q)",
       "entries": [
         {
@@ -192,6 +210,7 @@
       ]
     },
     {
+      "number": 96,
       "title": "G-SR1 Closed Silver Ballroom 3-Dance (W/T/Q)",
       "entries": [
         {
@@ -202,16 +221,18 @@
       ]
     },
     {
+      "number": 96,
       "title": "L-A Closed Newcomer Ballroom 2-Dance (W/T)",
       "entries": [
         {
           "couple": "Ness, Noelle and Bersten, Gene",
           "place": "1",
-          "points": 15
+          "points": 5
         }
       ]
     },
     {
+      "number": 96,
       "title": "L-C Closed Silver Ballroom 3-Dance (W/T/Q)",
       "entries": [
         {
@@ -222,16 +243,18 @@
       ]
     },
     {
+      "number": 96,
       "title": "L-JR Closed Bronze Ballroom 2-Dance (W/T)",
       "entries": [
         {
           "couple": "Memmert, Liv and Bang, Michael",
           "place": "1",
-          "points": 15
+          "points": 10
         }
       ]
     },
     {
+      "number": 97,
       "title": "L-A Closed Newcomer Ballroom 3-Dance (W/T/Q)",
       "entries": [
         {
@@ -242,31 +265,34 @@
       ]
     },
     {
+      "number": 97,
       "title": "L-B Closed Bronze Ballroom 4-Dance (W/T/F/Q)",
       "entries": [
         {
           "couple": "Link, Megan and Anderson, Scott",
           "place": "1",
-          "points": 5.0
+          "points": 10.0
         },
         {
           "couple": "Merz, Sarah and Neterval, Tom",
           "place": "2",
-          "points": 2.5
+          "points": 5.0
         }
       ]
     },
     {
+      "number": 97,
       "title": "L-JR Closed Bronze Ballroom 4-Dance (W/T/F/Q)",
       "entries": [
         {
           "couple": "Memmert, Liv and Bang, Michael",
           "place": "1",
-          "points": 5
+          "points": 10
         }
       ]
     },
     {
+      "number": 98,
       "title": "G-SR1 Closed Silver Ballroom 4-Dance (W/T/F/Q)",
       "entries": [
         {
@@ -277,26 +303,29 @@
       ]
     },
     {
+      "number": 98,
       "title": "L-A Closed Bronze Ballroom 2-Dance (W/T)",
       "entries": [
         {
           "couple": "Ness, Noelle and Bersten, Gene",
           "place": "1",
-          "points": 15
+          "points": 10
         }
       ]
     },
     {
+      "number": 98,
       "title": "L-JR Closed Bronze Ballroom 2-Dance (F/Q)",
       "entries": [
         {
           "couple": "Memmert, Liv and Bang, Michael",
           "place": "1",
-          "points": 15
+          "points": 10
         }
       ]
     },
     {
+      "number": 99,
       "title": "L-C Closed Bronze Ballroom 4-Dance (W/T/F/Q)",
       "entries": [
         {
@@ -312,36 +341,39 @@
       ]
     },
     {
+      "number": 175,
       "title": "L-C Nightclub 3-Dance (Hus/Sal/WCS)",
       "entries": [
         {
           "couple": "Lund, Jamie and Anderson, Scott",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Rupp, Jillene and Bang, Michael",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 176,
       "title": "L-SR1 Nightclub 3-Dance (Hus/Sal/WCS)",
       "entries": [
         {
           "couple": "Kirkegaard, Suzanne and Anderson, Scott",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Otte, Lloyd and Wood, Tricia",
           "place": "2",
-          "points": 5.0
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 177,
       "title": "G-B Closed Bronze Rhythm 3-Dance (C/R/SW)",
       "entries": [
         {
@@ -357,6 +389,7 @@
       ]
     },
     {
+      "number": 177,
       "title": "G-JR Closed Bronze Rhythm 3-Dance (C/R/SW)",
       "entries": [
         {
@@ -367,26 +400,29 @@
       ]
     },
     {
+      "number": 177,
       "title": "L-A Closed Silver Rhythm 3-Dance (C/R/SW)",
       "entries": [
         {
           "couple": "Welch, Benjamin and Welch, Lillian",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 177,
       "title": "L-SR1 Closed Newcomer Rhythm 3-Dance (C/R/SW)",
       "entries": [
         {
           "couple": "Nielsen, PZ and Bersten, Gene",
           "place": "1",
-          "points": 10
+          "points": 5
         }
       ]
     },
     {
+      "number": 178,
       "title": "L-C Closed Bronze Rhythm 3-Dance (C/R/SW)",
       "entries": [
         {
@@ -402,6 +438,7 @@
       ]
     },
     {
+      "number": 178,
       "title": "L-C Closed Bronze Rhythm 4-Dance (C/R/SW/M)",
       "entries": [
         {
@@ -412,16 +449,18 @@
       ]
     },
     {
+      "number": 178,
       "title": "L-SR1 Closed Newcomer Rhythm 2-Dance (C/R)",
       "entries": [
         {
           "couple": "Nielsen, PZ and Bersten, Gene",
           "place": "1",
-          "points": 10
+          "points": 5
         }
       ]
     },
     {
+      "number": 179,
       "title": "G-SR1 Closed Bronze Rhythm 4-Dance (C/R/SW/M)",
       "entries": [
         {
@@ -432,6 +471,7 @@
       ]
     },
     {
+      "number": 179,
       "title": "L-B Closed Bronze Rhythm 4-Dance (C/R/SW/M)",
       "entries": [
         {
@@ -442,6 +482,7 @@
       ]
     },
     {
+      "number": 179,
       "title": "L-C Closed Bronze Rhythm 2-Dance (SW/B)",
       "entries": [
         {
@@ -452,26 +493,29 @@
       ]
     },
     {
+      "number": 179,
       "title": "L-C Closed Silver Rhythm 4-Dance (C/R/SW/M)",
       "entries": [
         {
           "couple": "Schmutzler, Kim and Neterval, Tom",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 179,
       "title": "L-SR1 Open Rhythm 5-Dance (C/R/SW/B/M)",
       "entries": [
         {
           "couple": "Kirkegaard, Suzanne and Anderson, Scott",
           "place": "1",
-          "points": 10
+          "points": 20
         }
       ]
     },
     {
+      "number": 198,
       "title": "G-SR1 Closed Bronze Latin 2-Dance (C/R)",
       "entries": [
         {
@@ -482,6 +526,7 @@
       ]
     },
     {
+      "number": 199,
       "title": "L-SR2 Closed Silver Latin 3-Dance (C/R/J)",
       "entries": [
         {
@@ -492,6 +537,7 @@
       ]
     },
     {
+      "number": 200,
       "title": "L-SR2 Closed Silver Latin 4-Dance (C/S/R/J)",
       "entries": [
         {
@@ -502,6 +548,7 @@
       ]
     },
     {
+      "number": 201,
       "title": "L-C Closed Silver Latin 4-Dance (C/S/R/J)",
       "entries": [
         {
@@ -512,6 +559,7 @@
       ]
     },
     {
+      "number": 201,
       "title": "L-JR Closed Silver Latin 4-Dance (C/S/R/J)",
       "entries": [
         {
@@ -522,76 +570,83 @@
       ]
     },
     {
+      "number": 203,
       "title": "L-SR2 Open Latin 5-Dance (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Endres, Joan and Bersten, Gene",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 205,
       "title": "L-A Closed Bronze Smooth Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Marinac, Nicole and Welch, Benjamin",
           "place": "1",
-          "points": 10
+          "points": 15
         }
       ]
     },
     {
+      "number": 205,
       "title": "L-B Closed Bronze Smooth Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Merz, Sarah and Neterval, Tom",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Williams, Marty and Wudstrack, Heather",
           "place": "2",
-          "points": 6.0
+          "points": 9.0
         },
         {
           "couple": "Rupp, Jillene and Bang, Michael",
           "place": "3",
-          "points": 3.0
+          "points": 4.5
         }
       ]
     },
     {
+      "number": 207,
       "title": "G-C Closed Silver Smooth Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Schubbe, Tom and Peterson, Grace",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 207,
       "title": "L-A Closed Silver Smooth Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Welch, Benjamin and Welch, Lillian",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 207,
       "title": "L-B Closed Silver Smooth Scholarship (W/T/F)",
       "entries": [
         {
           "couple": "Schmutzler, Kim and Neterval, Tom",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 208,
       "title": "L-C Open Smooth Scholarship (W/T/F/VW)",
       "entries": [
         {
@@ -607,111 +662,119 @@
       ]
     },
     {
+      "number": 209,
       "title": "L-A Closed Bronze BallroomScholarship (W/T/Q)",
       "entries": [
         {
           "couple": "Merz, Sarah and Neterval, Tom",
-          "place": "1",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "title": "L-B Closed Bronze BallroomScholarship (W/T/Q)",
-      "entries": [
-        {
-          "couple": "Carlos, Ligaya and Anderson, Scott",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Rupp, Jillene and Bang, Michael",
-          "place": "2",
-          "points": 5.0
-        }
-      ]
-    },
-    {
-      "title": "G-C Closed Silver Ballroom Scholarship (W/T/Q)",
-      "entries": [
-        {
-          "couple": "Schubbe, Tom and Peterson, Grace",
           "place": "1",
           "points": 15
         }
       ]
     },
     {
-      "title": "L-A Closed Bronze Rhythm Scholarship (C/R/SW)",
+      "number": 209,
+      "title": "L-B Closed Bronze BallroomScholarship (W/T/Q)",
       "entries": [
         {
-          "couple": "Marinac, Nicole and Welch, Benjamin",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Hunter, Lacy and Neterval, Tom",
-          "place": "2",
-          "points": 5.0
-        }
-      ]
-    },
-    {
-      "title": "L-B Closed Bronze Rhythm Scholarship (C/R/SW)",
-      "entries": [
-        {
-          "couple": "Williams, Marty and Wudstrack, Heather",
-          "place": "1",
-          "points": 10.0
-        },
-        {
-          "couple": "Merz, Sarah and Neterval, Tom",
-          "place": "2",
-          "points": 8.0
-        },
-        {
-          "couple": "Rupp, Jillene and Bang, Michael",
-          "place": "3",
-          "points": 6.5
-        },
-        {
-          "couple": "Nielsen, PZ and Bersten, Gene",
-          "place": "4",
-          "points": 5.0
-        },
-        {
-          "couple": "Otte, Lloyd and Wood, Tricia",
-          "place": "5",
-          "points": 4.0
-        }
-      ]
-    },
-    {
-      "title": "L-A Closed Silver Rhythm Scholarship (C/R/SW)",
-      "entries": [
-        {
-          "couple": "Welch, Benjamin and Welch, Lillian",
+          "couple": "Carlos, Ligaya and Anderson, Scott",
           "place": "1",
           "points": 15.0
         },
         {
-          "couple": "Schmutzler, Kim and Neterval, Tom",
+          "couple": "Rupp, Jillene and Bang, Michael",
           "place": "2",
           "points": 7.5
         }
       ]
     },
     {
+      "number": 211,
+      "title": "G-C Closed Silver Ballroom Scholarship (W/T/Q)",
+      "entries": [
+        {
+          "couple": "Schubbe, Tom and Peterson, Grace",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 213,
+      "title": "L-A Closed Bronze Rhythm Scholarship (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Marinac, Nicole and Welch, Benjamin",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Hunter, Lacy and Neterval, Tom",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 214,
+      "title": "L-B Closed Bronze Rhythm Scholarship (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Williams, Marty and Wudstrack, Heather",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Merz, Sarah and Neterval, Tom",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Rupp, Jillene and Bang, Michael",
+          "place": "3",
+          "points": 9.75
+        },
+        {
+          "couple": "Nielsen, PZ and Bersten, Gene",
+          "place": "4",
+          "points": 7.5
+        },
+        {
+          "couple": "Otte, Lloyd and Wood, Tricia",
+          "place": "5",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 215,
+      "title": "L-A Closed Silver Rhythm Scholarship (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Welch, Benjamin and Welch, Lillian",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Schmutzler, Kim and Neterval, Tom",
+          "place": "2",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "number": 215,
       "title": "L-C Open Rhythm Scholarship (C/R/SW/B/M)",
       "entries": [
         {
           "couple": "Kirkegaard, Suzanne and Anderson, Scott",
           "place": "1",
-          "points": 15
+          "points": 25
         }
       ]
     },
     {
+      "number": 216,
       "title": "L-C Open Latin Scholarship (C/S/R/PD/J)",
       "entries": [
         {

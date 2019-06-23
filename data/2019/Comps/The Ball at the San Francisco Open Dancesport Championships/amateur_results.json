@@ -2,61 +2,65 @@
   "comp name": "The Ball at the San Francisco Open Dancesport Championships",
   "heats": [
     {
+      "number": 301,
       "title": "Amateur Open Championships  S3 Int'l Ballroom Championship (W,T,VW,F,Q)",
       "entries": [
         {
           "couple": "Getchell, David and Gonzalez, Allison",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Chow, Winston and Chow, Lilly",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         },
         {
           "couple": "Kawanami, Hiroshi and Kawanami, Juliana",
           "place": "3",
-          "points": 16.25
+          "points": 13.0
         },
         {
           "couple": "Kim, Song and Suh, Nicole",
           "place": "4",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": "Ghoneimy, Adel and Chow, Karen",
           "place": "5",
-          "points": 10.0
+          "points": 8.0
         },
         {
           "couple": "Kleinrath, James and Sanders, Lynn",
           "place": "6",
-          "points": 7.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 609,
       "title": "Amateur Open Championships  S1 Int'l Latin Championship (CC,S,R,PD,J)",
       "entries": [
         {
           "couple": "Pham, Don and Yeap, Angelyn",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 614,
       "title": "Amateur Open Championships  S1 Int'l Ballroom Championship (W,T,VW,F,Q)",
       "entries": [
         {
           "couple": "Pham, Don and Yeap, Angelyn",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 618,
       "title": "Amateur Open Scholarships A Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
@@ -117,6 +121,7 @@
       ]
     },
     {
+      "number": 774,
       "title": "Amateur Syllabus 2-Dance Events 1 Closed Bronze TB Int'l Ballroom (W,Q)",
       "entries": [
         {
@@ -127,6 +132,7 @@
       ]
     },
     {
+      "number": 774,
       "title": "Youth Amateur Silver 4-Dance Events P1 Int'l Ballroom (W,T,F,Q)",
       "entries": [
         {
@@ -137,6 +143,7 @@
       ]
     },
     {
+      "number": 774,
       "title": "Youth Amateur Silver 4-Dance Events P2 Int'l Ballroom (W,T,F,Q)",
       "entries": [
         {
@@ -147,6 +154,7 @@
       ]
     },
     {
+      "number": 774,
       "title": "Youth Syllabus 2-Dance Events 1 Closed Bronze P1 AM/AM Int'l Ballroom (W,T)",
       "entries": [
         {
@@ -157,6 +165,7 @@
       ]
     },
     {
+      "number": 774,
       "title": "Youth Syllabus 2-Dance Events 1 Closed Bronze P2 AM/AM Int'l Ballroom (W,T)",
       "entries": [
         {
@@ -167,6 +176,7 @@
       ]
     },
     {
+      "number": 775,
       "title": "Amateur Syllabus 2-Dance Events 1 PreNovice A Int'l Ballroom (W,Q)",
       "entries": [
         {
@@ -192,6 +202,7 @@
       ]
     },
     {
+      "number": 775,
       "title": "Amateur Syllabus 2-Dance Events 1 PreNovice B Int'l Ballroom (W,Q)",
       "entries": [
         {
@@ -202,6 +213,7 @@
       ]
     },
     {
+      "number": 776,
       "title": "Amateur Syllabus 2-Dance Events 2 PreNovice A Int'l Ballroom (T,F)",
       "entries": [
         {
@@ -227,6 +239,7 @@
       ]
     },
     {
+      "number": 776,
       "title": "Amateur Syllabus 2-Dance Events 2 PreNovice B Int'l Ballroom (T,F)",
       "entries": [
         {
@@ -237,91 +250,97 @@
       ]
     },
     {
+      "number": 777,
       "title": "Youth Amateur PreChampionships J2 Int'l Ballroom (W,T,F,Q)",
       "entries": [
         {
           "couple": "Gribanovsky, Pavlik and Poda, Alexandra",
           "place": "1",
-          "points": 25
+          "points": 15
         }
       ]
     },
     {
+      "number": 777,
       "title": "Youth Amateur PreChampionships P1 Int'l Ballroom (W,T,F,Q)",
       "entries": [
         {
           "couple": "Chen, Brandon and Moudry, Isabella",
           "place": "1",
-          "points": 25.0
+          "points": 15.0
         }
       ]
     },
     {
+      "number": 777,
       "title": "Youth Amateur PreChampionships P2 Int'l Ballroom (W,T,F,Q)",
       "entries": [
         {
           "couple": "Kolovyansky, Samuel and Kolovyansky, Alexis",
           "place": "1",
-          "points": 25.0
+          "points": 15.0
         },
         {
           "couple": "Zhukov, Yegor and Cherkas, Adyson",
           "place": "2",
-          "points": 20.0
+          "points": 12.0
         },
         {
           "couple": "Yakubov, Benjamin and Popov Spektor, Nicole",
           "place": "3",
-          "points": 16.25
+          "points": 9.75
         },
         {
           "couple": "Ghishan, Anthony and Vilderman, Maria",
           "place": "4",
-          "points": 12.5
+          "points": 7.5
         },
         {
           "couple": "Malakhov, Timofey and Bourne, Ashlyn",
           "place": "5",
-          "points": 10.0
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 778,
       "title": "Amateur Novice Events Open A Int'l Ballroom (W,T,Q)",
       "entries": [
         {
           "couple": "Busche, Michael and Chatterjee, Fiona",
           "place": "1",
-          "points": 5.0
+          "points": 10.0
         },
         {
           "couple": "Soon, Wen and Cheng, Tammy",
           "place": "2",
-          "points": 3.0
+          "points": 6.0
         },
         {
           "couple": "Lemly, Scott and Chan, Stella",
           "place": "3",
-          "points": 1.5
+          "points": 3.0
         }
       ]
     },
     {
+      "number": 778,
       "title": "Amateur Novice Events Open MA Int'l Ballroom (W,T,Q)",
       "entries": [
         {
           "couple": "Chun, Michael and Mae Chun, Lorrie",
           "place": "1",
-          "points": 5.0
+          "points": 10.0
         },
         {
           "couple": "Spicer, Bruce and Spicer, Joan",
           "place": "2",
-          "points": 4.0
+          "points": 8.0
         }
       ]
     },
     {
+      "number": 779,
       "title": "Youth Amateur Novice Events P1 Int'l Ballroom (W,T,Q)",
       "entries": [
         {
@@ -347,6 +366,7 @@
       ]
     },
     {
+      "number": 779,
       "title": "Youth Amateur Novice Events P2 Int'l Ballroom (W,T,Q)",
       "entries": [
         {
@@ -357,6 +377,7 @@
       ]
     },
     {
+      "number": 779,
       "title": "Youth Amateur Novice Events TB Int'l Ballroom (W,T,Q)",
       "entries": [
         {
@@ -367,6 +388,7 @@
       ]
     },
     {
+      "number": 780,
       "title": "Amateur Syllabus 3-Dance Events Closed Silver A Int'l Ballroom (W,T,Q)",
       "entries": [
         {
@@ -382,126 +404,132 @@
       ]
     },
     {
+      "number": 781,
       "title": "Youth Amateur PreChampionships J1 Int'l Ballroom (W,T,F,Q)",
       "entries": [
         {
           "couple": "Rabinovich, Paul and Ilieva, Raya",
           "place": "1",
-          "points": 25.0
+          "points": 15.0
         },
         {
           "couple": "Malakhov, Timofey and Mandelov, Tatiana",
           "place": "2",
-          "points": 12.5
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 781,
       "title": "Youth Amateur PreChampionships YH Int'l Ballroom (W,T,F,Q)",
       "entries": [
         {
           "couple": "Levin, Daniel and Levin, Hannah",
           "place": "1",
-          "points": 25.0
+          "points": 15.0
         },
         {
           "couple": "Absey, Benjamin and Avtukh, Daria",
           "place": "2",
-          "points": 20.0
+          "points": 12.0
         },
         {
           "couple": "Nadelson, David and Nadelson, Lizabella",
           "place": "3",
-          "points": 16.25
+          "points": 9.75
         },
         {
           "couple": "Urikh, Alexander and Goldman, Michelle",
           "place": "4",
-          "points": 12.5
+          "points": 7.5
         },
         {
           "couple": "Lervaag, Noah and Beckelman, Nicole",
           "place": "5",
-          "points": 10.0
+          "points": 6.0
         },
         {
           "couple": "Volkov, Barry and Volkov, Vivien",
           "place": "6",
-          "points": 7.5
+          "points": 4.5
         }
       ]
     },
     {
+      "number": 782,
       "title": "Amateur Novice Events Open S3 Int'l Ballroom (W,T,Q)",
       "entries": [
         {
           "couple": "Spicer, Bruce and Spicer, Joan",
           "place": "1",
-          "points": 5
+          "points": 10
         }
       ]
     },
     {
+      "number": 783,
       "title": "Youth Amateur Closed 5-Dance Events Scholarship P2 Int'l Ballroom (W,T,VW,F,Q)",
       "entries": [
         {
           "couple": "Kalachev, Matvey and Markova, Sasha",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Karasik, Jacob and Kwan, Jaslyn",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         },
         {
           "couple": "Kolovyansky, Samuel and Kolovyansky, Alexis",
           "place": "3",
-          "points": 16.25
+          "points": 13.0
         },
         {
           "couple": "Zhukov, Yegor and Cherkas, Adyson",
           "place": "4",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": "Ghishan, Anthony and Vilderman, Maria",
           "place": "5",
-          "points": 10.0
+          "points": 8.0
         },
         {
           "couple": "Yakubov, Benjamin and Popov Spektor, Nicole",
           "place": "6",
-          "points": 7.5
+          "points": 6.0
         },
         {
           "couple": "Rabinovich, David and Mattos, Julia",
           "place": "7",
-          "points": 6.25
+          "points": 5.0
         },
         {
           "couple": "Malakhov, Timofey and Bourne, Ashlyn",
           "place": "8",
-          "points": 6.25
+          "points": 5.0
         }
       ]
     },
     {
+      "number": 784,
       "title": "Amateur Open Championships  YH Int'l Ballroom Championship (W,T,VW,F,Q)",
       "entries": [
         {
           "couple": "Urikh, Alexander and Goldman, Michelle",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Lervaag, Noah and Beckelman, Nicole",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 784,
       "title": "Amateur Open Scholarships J2 Int'l Ballroom (W,T,VW,F,Q)",
       "entries": [
         {
@@ -532,96 +560,101 @@
       ]
     },
     {
+      "number": 785,
       "title": "Youth Open Championships  Open YH AM/AM Int'l Ballroom Championship (W,T,VW,F,Q)",
       "entries": [
         {
           "couple": "Li, Tyler and Lowe, Anjelica",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Berenshteyn, Maksim and Petrenko, Katerina",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         },
         {
           "couple": "Levin, Daniel and Levin, Hannah",
           "place": "3",
-          "points": 16.25
+          "points": 13.0
         },
         {
           "couple": "Absey, Benjamin and Avtukh, Daria",
           "place": "4",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": "Nadelson, David and Nadelson, Lizabella",
           "place": "5",
-          "points": 10.0
+          "points": 8.0
         },
         {
           "couple": "Volkov, Barry and Volkov, Vivien",
           "place": "6",
-          "points": 7.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 786,
       "title": "Youth Open Championships  Open J1 AM/AM Int'l Ballroom Championship (W,T,VW,F,Q)",
       "entries": [
         {
           "couple": "Mattos, Anthony and Zinchenko, Eva",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Zaytsev, Nathan and Mugin, Annika",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         },
         {
           "couple": "Kalachev, Matvey and Markova, Sasha",
           "place": "3",
-          "points": 16.25
+          "points": 13.0
         },
         {
           "couple": "Geller, Denis and Zhukova, Veronika",
           "place": "4",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": "Rabinovich, Paul and Ilieva, Raya",
           "place": "5",
-          "points": 10.0
+          "points": 8.0
         },
         {
           "couple": "Malakhov, Timofey and Bourne, Ashlyn",
           "place": "6",
-          "points": 7.5
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 801,
       "title": "Amateur Open Championships  A Amer. Smooth Championship (W,T,F,VW)",
       "entries": [
         {
           "couple": "Lloyd IV, Charles and Weiss, Hanna",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 801,
       "title": "Amateur Novice Events Open A Amer. Smooth (W,T,F)",
       "entries": [
         {
           "couple": "Busche, Michael and Chatterjee, Fiona",
           "place": "1",
-          "points": 5.0
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 826,
       "title": "Youth Amateur Silver 4-Dance Events P2 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
@@ -642,6 +675,7 @@
       ]
     },
     {
+      "number": 826,
       "title": "Youth Syllabus 2-Dance Events 1 Closed Bronze P2 AM/AM Int'l Latin (CC,R)",
       "entries": [
         {
@@ -652,16 +686,18 @@
       ]
     },
     {
+      "number": 831,
       "title": "Mixed Am Youth Multidance Open Silver P1 AM/AM Int'l Latin (CC,R,S,J)",
       "entries": [
         {
           "couple": "Butov, Vladimir and Velidehenko, Vika",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 831,
       "title": "Youth Syllabus 2-Dance Events 1 Closed Bronze P1 AM/AM Int'l Latin (CC,R)",
       "entries": [
         {
@@ -677,6 +713,7 @@
       ]
     },
     {
+      "number": 831,
       "title": "Youth Syllabus 2-Dance Events 1 Closed Bronze TB AM/AM Int'l Latin (CC,R)",
       "entries": [
         {
@@ -692,6 +729,7 @@
       ]
     },
     {
+      "number": 832,
       "title": "Youth Syllabus 2 Dance Events 2 Closed Bronze P1 AM/AM Int'l Latin (S,J)",
       "entries": [
         {
@@ -702,6 +740,7 @@
       ]
     },
     {
+      "number": 832,
       "title": "Youth Syllabus 2 Dance Events 2 Closed Bronze TB AM/AM Int'l Latin (S,J)",
       "entries": [
         {
@@ -712,6 +751,7 @@
       ]
     },
     {
+      "number": 834,
       "title": "Amateur Syllabus 2-Dance Events 1 Closed Bronze P1 Int'l Latin (CC,R)",
       "entries": [
         {
@@ -742,6 +782,7 @@
       ]
     },
     {
+      "number": 834,
       "title": "Amateur Syllabus 2-Dance Events 1 Closed Bronze TB Int'l Latin (CC,R)",
       "entries": [
         {
@@ -752,6 +793,7 @@
       ]
     },
     {
+      "number": 835,
       "title": "Amateur Syllabus 2-Dance Events 2 Closed Bronze P1 Int'l Latin (S,J)",
       "entries": [
         {
@@ -782,6 +824,7 @@
       ]
     },
     {
+      "number": 835,
       "title": "Amateur Syllabus 2-Dance Events 2 Closed Bronze TB Int'l Latin (S,J)",
       "entries": [
         {
@@ -792,6 +835,7 @@
       ]
     },
     {
+      "number": 836,
       "title": "Youth Amateur Silver 4-Dance Events P1 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
@@ -832,6 +876,7 @@
       ]
     },
     {
+      "number": 838,
       "title": "Amateur Syllabus 2-Dance Events 1 Closed Bronze P2 Int'l Latin (CC,R)",
       "entries": [
         {
@@ -842,6 +887,7 @@
       ]
     },
     {
+      "number": 839,
       "title": "Amateur Syllabus 2-Dance Events 2 Closed Bronze P2 Int'l Latin (S,J)",
       "entries": [
         {
@@ -852,6 +898,7 @@
       ]
     },
     {
+      "number": 840,
       "title": "Youth Amateur Novice Events J2 Int'l Latin (CC,S,R)",
       "entries": [
         {
@@ -867,6 +914,7 @@
       ]
     },
     {
+      "number": 840,
       "title": "Youth Amateur Novice Events P1 Int'l Latin (CC,S,R)",
       "entries": [
         {
@@ -907,6 +955,7 @@
       ]
     },
     {
+      "number": 841,
       "title": "Youth Amateur Novice Events P2 Int'l Latin (CC,S,R)",
       "entries": [
         {
@@ -927,6 +976,7 @@
       ]
     },
     {
+      "number": 841,
       "title": "Youth Amateur Novice Events TB Int'l Latin (CC,S,R)",
       "entries": [
         {
@@ -937,6 +987,7 @@
       ]
     },
     {
+      "number": 841,
       "title": "Youth Amateur Novice Events YH Int'l Latin (CC,S,R)",
       "entries": [
         {
@@ -947,6 +998,7 @@
       ]
     },
     {
+      "number": 846,
       "title": "Youth Amateur Novice Events J1 Int'l Latin (CC,S,R)",
       "entries": [
         {
@@ -972,256 +1024,264 @@
       ]
     },
     {
+      "number": 846,
       "title": "Youth Amateur PreChampionships J2 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
           "couple": "Gribanovsky, Pavlik and Poda, Alexandra",
           "place": "1",
-          "points": 25.0
+          "points": 15.0
         },
         {
           "couple": "Lopez, Alex and Pardo, Jordan",
           "place": "2",
-          "points": 20.0
+          "points": 12.0
         }
       ]
     },
     {
+      "number": 851,
       "title": "Youth Amateur PreChampionships YH Int'l Latin (CC,S,R,J)",
       "entries": [
         {
           "couple": "Poda, Vladislav and Iarmolenko, Olga",
           "place": "1",
-          "points": 25.0
+          "points": 15.0
         },
         {
           "couple": "Strazhnikov, Anthony and Sayenko, Dar'ya",
           "place": "2",
-          "points": 20.0
+          "points": 12.0
         },
         {
           "couple": "Urikh, Alexander and Goldman, Michelle",
           "place": "3",
-          "points": 16.25
+          "points": 9.75
         },
         {
           "couple": "Lervaag, Noah and Beckelman, Nicole",
           "place": "4",
-          "points": 12.5
+          "points": 7.5
         },
         {
           "couple": "Absey, Benjamin and Avtukh, Daria",
           "place": "5",
-          "points": 10.0
+          "points": 6.0
         },
         {
           "couple": "Volkov, Barry and Volkov, Vivien",
           "place": "6",
-          "points": 7.5
+          "points": 4.5
         }
       ]
     },
     {
+      "number": 852,
       "title": "Youth Amateur PreChampionships P2 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
           "couple": "de la Rosa, Brando and Saidkariev, Naeema",
           "place": "1",
-          "points": 35.0
+          "points": 25.0
         },
         {
           "couple": "Kolovyansky, Samuel and Kolovyansky, Alexis",
           "place": "2",
-          "points": 28.0
+          "points": 20.0
         },
         {
           "couple": "Ghishan, Anthony and Vilderman, Maria",
           "place": "4",
-          "points": 17.5
+          "points": 12.5
         },
         {
           "couple": "Yakubov, Benjamin and Popov Spektor, Nicole",
           "place": "5",
-          "points": 14.0
+          "points": 10.0
         },
         {
           "couple": "Podgorny, Ivan and  Oreshkina, Mila",
           "place": "6",
-          "points": 10.5
+          "points": 7.5
         },
         {
           "couple": "Parrot, David and Pravdin, Genna",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.0
         },
         {
           "couple": "Petrenko, Ivan and Needleman, Sophie",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.0
         },
         {
           "couple": "Malakhov, Timofey and Bourne, Ashlyn",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.0
         },
         {
           "couple": "Zhukov, Yegor and Cherkas, Adyson",
           "place": "Semis",
-          "points": 8.75
+          "points": 6.25
         }
       ]
     },
     {
+      "number": 857,
       "title": "Youth Amateur PreChampionships P1 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
           "couple": "Ivanov, Nikolai and Ivanov, Irishka",
           "place": "1",
-          "points": 25.0
+          "points": 15.0
         },
         {
           "couple": "Yanovich, Sasha and Ovechkina, Alena",
           "place": "2",
-          "points": 20.0
+          "points": 12.0
         },
         {
           "couple": "Chen, Brandon and Moudry, Isabella",
           "place": "3",
-          "points": 16.25
+          "points": 9.75
         },
         {
           "couple": "Dmitriev, Dmitry and Lychagina, Anna",
           "place": "4",
-          "points": 12.5
+          "points": 7.5
         },
         {
           "couple": "Grigorovitch, Matthew and Akhanova, Maria",
           "place": "5",
-          "points": 10.0
+          "points": 6.0
         },
         {
           "couple": "Finkelstein, Alexander and Savchenkova, Daria",
           "place": "6",
-          "points": 7.5
+          "points": 4.5
         },
         {
           "couple": "Khosla, Abhinav and Libov, Veronica",
           "place": "7",
-          "points": 6.25
+          "points": 3.75
         }
       ]
     },
     {
+      "number": 862,
       "title": "Youth Amateur PreChampionships TB Int'l Latin (CC,S,R,J)",
       "entries": [
         {
           "couple": "Ovechkin, Artem and Weinkauff, Emma",
           "place": "1",
-          "points": 25.0
+          "points": 15.0
         },
         {
           "couple": "Goldman, Gennadiy and Bourne, Gracyn",
           "place": "2",
-          "points": 12.5
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 867,
       "title": "Youth Amateur PreChampionships J1 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
           "couple": "Grifoni, Leith and Govorun, Vickanat",
           "place": "1",
-          "points": 25.0
+          "points": 15.0
         },
         {
           "couple": "Shishkin, Jeremy and Kirakosyan, Meline",
           "place": "2",
-          "points": 20.0
+          "points": 12.0
         },
         {
           "couple": "Jarosz, Michael and Shepelevich, Margarita",
           "place": "3",
-          "points": 16.25
+          "points": 9.75
         },
         {
           "couple": "Saidkariev, Sarvar and Djuga, Melania",
           "place": "4",
-          "points": 12.5
+          "points": 7.5
         },
         {
           "couple": "Kelley, Quentin and Cervantes, Gabrielle",
           "place": "5",
-          "points": 10.0
+          "points": 6.0
         },
         {
           "couple": "Rabinovich, Paul and Ilieva, Raya",
           "place": "6",
-          "points": 7.5
+          "points": 4.5
         },
         {
           "couple": "Malakhov, Timofey and Mandelov, Tatiana",
           "place": "7",
-          "points": 6.25
+          "points": 3.75
         }
       ]
     },
     {
+      "number": 868,
       "title": "Youth Amateur Closed 5-Dance Events Scholarship P2 Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
           "couple": "Kalachev, Matvey and Markova, Sasha",
           "place": "1",
-          "points": 35.0
+          "points": 30.0
         },
         {
           "couple": "Karasik, Jacob and Kwan, Jaslyn",
           "place": "2",
-          "points": 28.0
+          "points": 24.0
         },
         {
           "couple": "de la Rosa, Brando and Saidkariev, Naeema",
           "place": "3",
-          "points": 22.75
+          "points": 19.5
         },
         {
           "couple": "Ghishan, Anthony and Vilderman, Maria",
           "place": "4",
-          "points": 17.5
+          "points": 15.0
         },
         {
           "couple": "Kolovyansky, Samuel and Kolovyansky, Alexis",
           "place": "4",
-          "points": 17.5
+          "points": 15.0
         },
         {
           "couple": "Rabinovich, David and Mattos, Julia",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Malakhov, Timofey and Bourne, Ashlyn",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Ivanov, Nikolai and Ivanov, Irishka",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Yakubov, Benjamin and Popov Spektor, Nicole",
           "place": "Semis",
-          "points": 4.9
+          "points": 4.2
         },
         {
           "couple": "Zhukov, Yegor and Cherkas, Adyson",
           "place": "Semis",
-          "points": 8.75
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 869,
       "title": "Amateur Syllabus 2-Dance Events 1 PreNovice A Int'l Latin (CC,R)",
       "entries": [
         {
@@ -1232,6 +1292,7 @@
       ]
     },
     {
+      "number": 870,
       "title": "Amateur Syllabus 2-Dance Events 2 PreNovice A Int'l Latin (S,J)",
       "entries": [
         {
@@ -1242,21 +1303,23 @@
       ]
     },
     {
+      "number": 873,
       "title": "Amateur Open Championships  YH Int'l Latin Championship (CC,S,R,PD,J)",
       "entries": [
         {
           "couple": "Lervaag, Noah and Beckelman, Nicole",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Urikh, Alexander and Goldman, Michelle",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 873,
       "title": "Amateur Open Scholarships J2 Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
@@ -1297,216 +1360,224 @@
       ]
     },
     {
+      "number": 874,
       "title": "Amateur Novice Events Open A Int'l Latin (CC,R,J)",
       "entries": [
         {
           "couple": "Krabek, Robert and Hofer, Leila",
           "place": "1",
-          "points": 5.0
+          "points": 10.0
         },
         {
           "couple": "Busche, Michael and Chatterjee, Fiona",
           "place": "2",
-          "points": 3.5
+          "points": 7.0
         },
         {
           "couple": "Soon, Wen and Cheng, Tammy",
           "place": "3",
-          "points": 2.5
+          "points": 5.0
         },
         {
           "couple": "Simanovsky, Andrey and Sum Lai, Ming",
           "place": "4",
-          "points": 1.5
+          "points": 3.0
         }
       ]
     },
     {
+      "number": 875,
       "title": "Youth Open Championships  Open J1 AM/AM Int'l Latin Championship (CC,S,R,PD,J)",
       "entries": [
         {
           "couple": "Zaytsev, Nathan and Mugin, Annika",
           "place": "1",
-          "points": 35.0
+          "points": 30.0
         },
         {
           "couple": "Mattos, Anthony and Zinchenko, Eva",
           "place": "2",
-          "points": 28.0
+          "points": 24.0
         },
         {
           "couple": "Shishkin, Jeremy and Kirakosyan, Meline",
           "place": "3",
-          "points": 22.75
+          "points": 19.5
         },
         {
           "couple": "Geller, Denis and Zhukova, Veronika",
           "place": "5",
-          "points": 14.0
+          "points": 12.0
         },
         {
           "couple": "Saidkariev, Sarvar and Djuga, Melania",
           "place": "6",
-          "points": 10.5
+          "points": 9.0
         },
         {
           "couple": "Rabinovich, Paul and Ilieva, Raya",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Malakhov, Timofey and Bourne, Ashlyn",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Uskov, Daniel and McLausanu, Laura",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Velidchenko, Timur and Clima, Bianca",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Grifoni, Leith and Govorun, Vickanat",
           "place": "Semis",
-          "points": 8.75
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 876,
       "title": "Youth Open Championships  Open YH AM/AM Int'l Latin Championship (CC,S,R,PD,J)",
       "entries": [
         {
           "couple": "Bezzant, Matthew and Werner, Abby",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Li, Tyler and Lowe, Anjelica",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         },
         {
           "couple": "Berenshteyn, Maksim and Petrenko, Katerina",
           "place": "3",
-          "points": 16.25
+          "points": 13.0
         },
         {
           "couple": "Tatoosi, Anthony and Lloyd, Vendela",
           "place": "4",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": "Basman, Nathan and Kats, Leah",
           "place": "5",
-          "points": 10.0
+          "points": 8.0
         },
         {
           "couple": "Poda, Vladislav and Iarmolenko, Olga",
           "place": "6",
-          "points": 7.5
+          "points": 6.0
         },
         {
           "couple": "Strazhnikov, Anthony and Sayenko, Dar'ya",
           "place": "7",
-          "points": 6.25
+          "points": 5.0
         },
         {
           "couple": "Volkov, Barry and Volkov, Vivien",
           "place": "8",
-          "points": 6.25
+          "points": 5.0
         }
       ]
     },
     {
+      "number": 877,
       "title": "Amateur PreChampionship Events A Int'l Latin (CC,S,R,J)",
       "entries": [
         {
           "couple": "Cho, Michael and Jin, Heng",
           "place": "1",
-          "points": 25.0
+          "points": 15.0
         },
         {
           "couple": "Ronin, Ilya and Balaban, Irina",
           "place": "2",
-          "points": 20.0
+          "points": 12.0
         },
         {
           "couple": "Chung, Simon and Olovyannikova, Anna",
           "place": "3",
-          "points": 16.25
+          "points": 9.75
         },
         {
           "couple": "Rodriguez, Oscar and Chen, Chrystal",
           "place": "4",
-          "points": 12.5
+          "points": 7.5
         },
         {
           "couple": "Busche, Michael and Chatterjee, Fiona",
           "place": "5",
-          "points": 10.0
+          "points": 6.0
         },
         {
           "couple": "Simanovsky, Andrey and Sum Lai, Ming",
           "place": "6",
-          "points": 7.5
+          "points": 4.5
         },
         {
           "couple": "Krabek, Robert and Hofer, Leila",
           "place": "7",
-          "points": 6.25
+          "points": 3.75
         },
         {
           "couple": "Volkov, Barry and Nosovitskiy, Rebecca",
           "place": "8",
-          "points": 6.25
+          "points": 3.75
         }
       ]
     },
     {
+      "number": 877,
       "title": "Amateur PreChampionship Events S3 Int'l Latin (CC,S,R,J)",
       "entries": [
         {
           "couple": "Liu, Chung-You and Liu, Yuan-Yuan",
           "place": "1",
-          "points": 25.0
+          "points": 15.0
         },
         {
           "couple": "Chun, Michael and Mae Chun, Lorrie",
           "place": "2",
-          "points": 20.0
+          "points": 12.0
         }
       ]
     },
     {
+      "number": 880,
       "title": "Amateur PreChampionship Events MA Int'l Ballroom (W,T,F,Q)",
       "entries": [
         {
           "couple": "Chun, Michael and Mae Chun, Lorrie",
           "place": "1",
-          "points": 25
+          "points": 15
         }
       ]
     },
     {
+      "number": 881,
       "title": "Amateur Open Championships  S2 Int'l Ballroom Championship (W,T,VW,F,Q)",
       "entries": [
         {
           "couple": "Getchell, David and Gonzalez, Allison",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Priest, Douglas and Au, Stephanie",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 883,
       "title": "Amateur Open Scholarships U21 Int'l Ballroom (W,T,VW,F,Q)",
       "entries": [
         {
@@ -1537,51 +1608,54 @@
       ]
     },
     {
+      "number": 884,
       "title": "Amateur PreChampionship Events A Int'l Ballroom (W,T,F,Q)",
       "entries": [
         {
           "couple": "Henzie, Chris and Fernandez, Rebecca",
           "place": "1",
-          "points": 25.0
+          "points": 15.0
         },
         {
           "couple": "Krabek, Robert and Hofer, Leila",
           "place": "2",
-          "points": 20.0
+          "points": 12.0
         },
         {
           "couple": "Chung, Simon and Olovyannikova, Anna",
           "place": "3",
-          "points": 16.25
+          "points": 9.75
         },
         {
           "couple": "Cho, Michael and Jin, Heng",
           "place": "4",
-          "points": 12.5
+          "points": 7.5
         },
         {
           "couple": "Lee, Sean and Razmus, Alyssa",
           "place": "5",
-          "points": 10.0
+          "points": 6.0
         },
         {
           "couple": "Volkov, Barry and Nosovitskiy, Rebecca",
           "place": "6",
-          "points": 7.5
+          "points": 4.5
         }
       ]
     },
     {
+      "number": 884,
       "title": "Amateur PreChampionship Events S3 Int'l Ballroom (W,T,F,Q)",
       "entries": [
         {
           "couple": "Liu, Chung-You and Liu, Yuan-Yuan",
           "place": "1",
-          "points": 25.0
+          "points": 15.0
         }
       ]
     },
     {
+      "number": 885,
       "title": "Amateur Open Scholarships U21 Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
@@ -1637,6 +1711,7 @@
       ]
     },
     {
+      "number": 886,
       "title": "Amateur Open Scholarships A Int'l Ballroom (W,T,VW,F,Q)",
       "entries": [
         {

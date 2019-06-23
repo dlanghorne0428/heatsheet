@@ -2,6 +2,7 @@
   "comp name": "2019 Tri-State DanceSport Championships",
   "heats": [
     {
+      "number": 656,
       "title": "AC-B TSDSC Closed Silver Int Ballroom Championship (W/T/F/Q)",
       "entries": [
         {
@@ -12,6 +13,7 @@
       ]
     },
     {
+      "number": 656,
       "title": "AC-S1 TSDSC Closed Silver Int Ballroom Championship (W/T/F/Q)",
       "entries": [
         {
@@ -22,6 +24,7 @@
       ]
     },
     {
+      "number": 657,
       "title": "AC-A Novice 3-Dance Int Ballroom (W/F/Q)",
       "entries": [
         {
@@ -37,6 +40,7 @@
       ]
     },
     {
+      "number": 658,
       "title": "AC-A Novice 3-Dance American Smooth (W/T/F)",
       "entries": [
         {
@@ -47,6 +51,7 @@
       ]
     },
     {
+      "number": 659,
       "title": "AC-A Pre-Champ 4-Dance Int Ballroom (W/T/F/Q)",
       "entries": [
         {
@@ -67,6 +72,7 @@
       ]
     },
     {
+      "number": 660,
       "title": "AC-C TSDSC Closed Silver Int Ballroom Championship (W/T/F/Q)",
       "entries": [
         {
@@ -82,6 +88,7 @@
       ]
     },
     {
+      "number": 661,
       "title": "AC-A Pre-Champ 4-Dance American Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -92,66 +99,70 @@
       ]
     },
     {
+      "number": 662,
       "title": "AC-A TSDSC Open International Ballroom Championship (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Kalenyuk, Oleksandr and Ablitsova, Olena",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Komelkov, Vladyslav and Sevastianova, Alexandra",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         },
         {
           "couple": "Zhang, Alec Zhiwei and Xie, Zhuoshi",
           "place": "3",
-          "points": 16.25
+          "points": 13.0
         },
         {
           "couple": "Klavansky, Brandon and Volski, Maria",
           "place": "4",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": "Lu, Katerina and Lu, Xingmin",
           "place": "5",
-          "points": 10.0
+          "points": 8.0
         },
         {
           "couple": "Harkins, Matthew and Julian, Shannon",
           "place": "6",
-          "points": 7.5
+          "points": 6.0
         },
         {
           "couple": "Williams, Colin and Du, Aya",
           "place": "7",
-          "points": 6.25
+          "points": 5.0
         }
       ]
     },
     {
+      "number": 663,
       "title": "AC-C TSDSC Open International Ballroom Championship (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Wuennenberg, Bonnie and Wuennenberg, Glenn",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 664,
       "title": "AC-B TSDSC Open International Ballroom Championship (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Lu, Katerina and Lu, Xingmin",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 840,
       "title": "AC-B TSDSC Closed Bronze Int Latin Championship (C/R/J)",
       "entries": [
         {
@@ -162,6 +173,7 @@
       ]
     },
     {
+      "number": 842,
       "title": "AC-C TSDSC Closed Bronze Int Latin Championship (C/R/J)",
       "entries": [
         {
@@ -172,6 +184,7 @@
       ]
     },
     {
+      "number": 847,
       "title": "AC-C TSDSC Closed Silver Int Latin Championship (C/S/R/J)",
       "entries": [
         {
@@ -182,131 +195,132 @@
       ]
     },
     {
+      "number": 851,
       "title": "AC-MLA TSDSC Open Latin Championship (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Zhychuk, Artem and Jay, Amy",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 853,
       "title": "AC-MLB TSDSC Open Latin Championship (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Zhychuk, Artem and Jay, Amy",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 878,
       "title": "AC-B TSDSC Open International Latin Championship (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Bojic, Marija and Bojic, Zoran",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 878,
       "title": "AC-C TSDSC Open International Latin Championship (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Wuennenberg, Bonnie and Wuennenberg, Glenn",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 879,
       "title": "AC-A TSDSC Open International Latin Championship (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Stepanchuk, Pasha and Sabler, Gabrielle",
           "place": "1",
-          "points": 45.0
+          "points": 40.0
         },
         {
           "couple": "Vasilenko, Nikita and Agranovich, Olivia",
           "place": "2",
-          "points": 36.0
+          "points": 32.0
         },
         {
           "couple": "Fidom, Ewoud and Weiler, Melanie",
           "place": "3",
-          "points": 29.25
+          "points": 26.0
         },
         {
           "couple": "Nikitchenko, Andrew and Lisovska, Yuliya",
           "place": "4",
-          "points": 22.5
+          "points": 20.0
         },
         {
           "couple": "Zhychuk, Artem and Shevchenko, Natasha",
           "place": "5",
-          "points": 18.0
+          "points": 16.0
         },
         {
           "couple": "Finkelstein, Misha and Ishchak, Yulia",
           "place": "6",
-          "points": 13.5
+          "points": 12.0
         },
         {
           "couple": "Groysman, Eric and Muraru, Alice",
           "place": "Semis",
-          "points": 5.4
+          "points": 4.8
         },
         {
           "couple": "Vitenko, Andriy and Ioukhnikov, Karolina",
           "place": "Semis",
-          "points": 7.2
+          "points": 6.4
         },
         {
           "couple": "D'Arpino, Giovanni and Vari, Francesca",
           "place": "Semis",
-          "points": 8.55
+          "points": 7.6
         },
         {
           "couple": "Sun, Kevin and ., Tatevik",
           "place": "Semis",
-          "points": 7.2
+          "points": 6.4
         },
         {
           "couple": "Mancuso, Anthony and Shvartsman, Sophie",
           "place": "Semis",
-          "points": 7.65
+          "points": 6.8
         },
         {
           "couple": "Orlov, Yevgenii and Yerina, Marina",
           "place": "Semis",
-          "points": 11.25
-        }
-      ]
-    },
-    {
-      "title": "AC-A TSDSC Open International Latin Championship (C/S/R/P/J) - Quarter-final",
-      "entries": [
+          "points": 10.0
+        },
         {
           "couple": "Williams, Colin and Du, Aya",
           "place": "quarters",
-          "points": 0.45
+          "points": 0.4
         },
         {
           "couple": "Markovetskiy, Yuriy and Phillips-Bullock, Alicia",
           "place": "quarters",
-          "points": 4.5
+          "points": 4.0
         },
         {
           "couple": "Tomkowski, Sebastian and Loh, Novell",
           "place": "quarters",
-          "points": 2.7
+          "points": 2.4
         }
       ]
     },
     {
+      "number": 928,
       "title": "AC-LPT Closed Silver Ballroom Multi-Dance (W/T/F/Q)",
       "entries": [
         {
@@ -317,17 +331,55 @@
       ]
     },
     {
+      "number": 929,
       "title": "AC-PT1 TSDSC International Ballroom Closed Championship* (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Kotlyar, Matthew and Kim, Chanelle",
           "place": "1",
-          "points": 25
+          "points": 15
         }
       ]
     },
     {
+      "number": 930,
       "title": "AC-PT2 TSDSC International Ballroom Closed Championship* (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Kolmykov, Leo and Andreyev, Daria",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Martynenko, Ivan and Dargis, Daniela",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Raksin, Arye and Mishuris, Simone",
+          "place": "3",
+          "points": 9.75
+        },
+        {
+          "couple": "Zakirzyanov, Kirill and Snitko, Valerie",
+          "place": "4",
+          "points": 7.5
+        },
+        {
+          "couple": "Heyman, Leonardo and Kostanyan, Miya",
+          "place": "5",
+          "points": 6.0
+        },
+        {
+          "couple": "Khelmer, Samuel and Guzman, Alisa",
+          "place": "6",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 1065,
+      "title": "AC-PT2 TSDSC International Latin Closed Championship* (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Kolmykov, Leo and Andreyev, Daria",
@@ -335,17 +387,17 @@
           "points": 25.0
         },
         {
-          "couple": "Martynenko, Ivan and Dargis, Daniela",
+          "couple": "Kotlyar and Kim",
           "place": "2",
           "points": 20.0
         },
         {
-          "couple": "Raksin, Arye and Mishuris, Simone",
+          "couple": "Zakirzyanov, Kirill and Snitko, Valerie",
           "place": "3",
           "points": 16.25
         },
         {
-          "couple": "Zakirzyanov, Kirill and Snitko, Valerie",
+          "couple": "Martynenko, Ivan and Dargis, Daniela",
           "place": "4",
           "points": 12.5
         },
@@ -358,60 +410,26 @@
           "couple": "Khelmer, Samuel and Guzman, Alisa",
           "place": "6",
           "points": 7.5
-        }
-      ]
-    },
-    {
-      "title": "AC-PT2 TSDSC International Latin Closed Championship* (C/S/R/P/J)",
-      "entries": [
-        {
-          "couple": "Kolmykov, Leo and Andreyev, Daria",
-          "place": "1",
-          "points": 35.0
-        },
-        {
-          "couple": "Kotlyar and Kim",
-          "place": "2",
-          "points": 28.0
-        },
-        {
-          "couple": "Zakirzyanov, Kirill and Snitko, Valerie",
-          "place": "3",
-          "points": 22.75
-        },
-        {
-          "couple": "Martynenko, Ivan and Dargis, Daniela",
-          "place": "4",
-          "points": 17.5
-        },
-        {
-          "couple": "Heyman, Leonardo and Kostanyan, Miya",
-          "place": "5",
-          "points": 14.0
-        },
-        {
-          "couple": "Khelmer, Samuel and Guzman, Alisa",
-          "place": "6",
-          "points": 10.5
         },
         {
           "couple": "Shamray, Daniel and Norgren, Alessia",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.0
         },
         {
           "couple": "Zhylkaidar, Iman and Lam, Joyce",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.0
         },
         {
           "couple": "Raksin, Arye and Mishuris, Simone",
           "place": "Semis",
-          "points": 5.95
+          "points": 4.25
         }
       ]
     },
     {
+      "number": 1071,
       "title": "AC-PT1 Closed Bronze 3-Dance Int Latin (C/R/J)",
       "entries": [
         {
@@ -422,6 +440,7 @@
       ]
     },
     {
+      "number": 1071,
       "title": "AC-PT2 Closed Bronze 3-Dance Int Latin (C/R/J)",
       "entries": [
         {
@@ -447,6 +466,7 @@
       ]
     },
     {
+      "number": 1072,
       "title": "AC-PT2 Closed Silver 4-Dance Int Latin (C/S/R/J)",
       "entries": [
         {
@@ -467,6 +487,7 @@
       ]
     },
     {
+      "number": 1073,
       "title": "AC-LPT Closed Gold Latin Multi-Dance (C/S/R/P/J)",
       "entries": [
         {
@@ -482,6 +503,7 @@
       ]
     },
     {
+      "number": 1073,
       "title": "AC-PT2 Closed Gold 4-Dance Int Latin (C/S/R/J)",
       "entries": [
         {
@@ -502,31 +524,34 @@
       ]
     },
     {
+      "number": 1074,
       "title": "AC-LPT Open Latin Multi-Dance (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Lennox, Sebastian and Zannella, Sofia",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 1075,
       "title": "AC-PT1 TSDSC International Latin Closed Championship* (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Kotlyar, Matthew and Kim, Chanelle",
           "place": "1",
-          "points": 25.0
+          "points": 15.0
         },
         {
           "couple": "Khelmer, Brian and Naroditskiy, Leah",
           "place": "2",
-          "points": 12.5
+          "points": 7.5
         }
       ]
     },
     {
+      "number": 1102,
       "title": "AC-JR1 Closed Silver 4-Dance Int Ballroom (W/T/F/Q)",
       "entries": [
         {
@@ -537,16 +562,18 @@
       ]
     },
     {
+      "number": 1102,
       "title": "AC-JR2 Closed Gold 4-Dance Int Ballroom (W/T/F/Q)",
       "entries": [
         {
           "couple": "Shpolski, Victor and Akhromenko, Ellie",
           "place": "1",
-          "points": 15
+          "points": 20
         }
       ]
     },
     {
+      "number": 1103,
       "title": "AC-JR2 Novice 3-Dance Int Ballroom (W/F/Q)",
       "entries": [
         {
@@ -577,6 +604,7 @@
       ]
     },
     {
+      "number": 1103,
       "title": "AC-Y Novice 3-Dance Int Ballroom (W/F/Q)",
       "entries": [
         {
@@ -587,6 +615,7 @@
       ]
     },
     {
+      "number": 1106,
       "title": "AC-JR1 Pre-Champ 4-Dance Int Ballroom (W/T/F/Q)",
       "entries": [
         {
@@ -607,6 +636,7 @@
       ]
     },
     {
+      "number": 1107,
       "title": "AC-JR2 Pre-Champ 4-Dance Int Ballroom (W/T/F/Q)",
       "entries": [
         {
@@ -657,6 +687,7 @@
       ]
     },
     {
+      "number": 1109,
       "title": "AC-Y Pre-Champ 4-Dance Int Ballroom (W/T/F/Q)",
       "entries": [
         {
@@ -697,201 +728,217 @@
       ]
     },
     {
+      "number": 1111,
       "title": "AC-JR2 TSDSC International Ballroom Closed Championship* (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Kaczmarski, Michael and Ludwiczewski, Veronica",
           "place": "1",
-          "points": 25
+          "points": 15
         }
       ]
     },
     {
+      "number": 1112,
       "title": "AC-Y TSDSC International Ballroom Open Championship** (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Ginzburg, Joshua and Elkin, Sophia",
           "place": "1",
-          "points": 35.0
+          "points": 30.0
         },
         {
           "couple": "Matusovskiy, Matthew and Klavansky, Nicole S.",
           "place": "2",
-          "points": 28.0
+          "points": 24.0
         },
         {
           "couple": "Maidaniuk, Misha and Gamburg, Rachel",
           "place": "3",
-          "points": 22.75
+          "points": 19.5
         },
         {
           "couple": "Young, Jacob and McDonald, Shayna",
           "place": "4",
-          "points": 17.5
+          "points": 15.0
         },
         {
-          "couple": "Leyzerovych, Yan and Tulchinsky, Eva",
+          "couple": "Leyzerovych and Tulchinsky",
           "place": "5",
-          "points": 14.0
+          "points": 12.0
         },
         {
-          "couple": "Pidhoretskyy, Vadym and Srulevich, Abigail",
+          "couple": "Pidhoretskyy and Srulevich",
           "place": "6",
-          "points": 10.5
+          "points": 9.0
         },
         {
           "couple": "May, Michael and English, Pallany",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
+        },
+        {
+          "couple": "Leyzerovych, Yan and Tulchinsky, Eva",
+          "place": "Semis",
+          "points": 5.4
         },
         {
           "couple": "Potagal, Margaret and Potagal, Michael",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
+        },
+        {
+          "couple": "Pidhoretskyy, Vadym and Srulevich, Abigail",
+          "place": "Semis",
+          "points": 5.4
         },
         {
           "couple": "Glukhovskiy, Yanni and Seleznyov, Julia",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Trukhin, Daniel and Gamburg, Alexa",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Wyszynski, Michal and Vertsman, Camilla",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         }
       ]
     },
     {
+      "number": 1114,
       "title": "AC-JR1 TSDSC International Ballroom Open Championship** (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Kolmykov, Leo and Andreyev, Daria",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Kashkevych, Eric and Bogutskiy, Anna",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         },
         {
           "couple": "Shiloshvili, Sean and Frumkin, Elizabeth",
           "place": "3",
-          "points": 16.25
+          "points": 13.0
         },
         {
           "couple": "Dorfman, Samuel Nicholas and Rakov, Avita",
           "place": "4",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": "Berezovski, Eric and Shatkovskaya, Victoria",
           "place": "5",
-          "points": 10.0
+          "points": 8.0
         },
         {
           "couple": "Raksin, Arye and Mishuris, Simone",
           "place": "6",
-          "points": 7.5
+          "points": 6.0
         },
         {
           "couple": "Evstigneev, Daniel and Gazarova, Narine",
           "place": "7",
-          "points": 6.25
+          "points": 5.0
         }
       ]
     },
     {
+      "number": 1115,
       "title": "AC-JR2 TSDSC International Ballroom Open Championship** (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Zoladkiewicz, Matthew and Leja, Elizabete Grigalinovica",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Kuznetsov, Eric and Kliger, Sarah",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         },
         {
           "couple": "Lennox, Sebastian and Baranova, Veronica",
           "place": "3",
-          "points": 16.25
+          "points": 13.0
         },
         {
           "couple": "Kosarev, Kristofer and Tehourbanov, Sophia",
           "place": "4",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": "Kashkevych, Eric and Bogutskiy, Anna",
           "place": "5",
-          "points": 10.0
+          "points": 8.0
         },
         {
           "couple": "Proescher, Jonathan and Kogan, Maria",
           "place": "6",
-          "points": 7.5
+          "points": 6.0
         },
         {
           "couple": "Chin, Maxwell and Stein, Margarita",
           "place": "7",
-          "points": 6.25
+          "points": 5.0
         }
       ]
     },
     {
+      "number": 1116,
       "title": "AC- Under 21 Open International Ballroom Championship (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Klavansky, Brandon and Volski, Maria",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Matusovskiy, Matthew and Klavansky, Nicole S.",
           "place": "2",
-          "points": 20.0
+          "points": 16.0
         },
         {
           "couple": "Falkowski, Kamil and Lokaj, Karolina",
           "place": "3",
-          "points": 16.25
+          "points": 13.0
         },
         {
           "couple": "Kheyfets, Matthew and Sadykhov, Sima",
           "place": "4",
-          "points": 12.5
+          "points": 10.0
         },
         {
           "couple": "Leyzerovych, Yan and Tulchinsky, Eva",
           "place": "5",
-          "points": 10.0
+          "points": 8.0
         },
         {
           "couple": "Wyszynski and Lebedinski",
           "place": "6",
-          "points": 7.5
+          "points": 6.0
         },
         {
           "couple": "Trukhin, Daniel and Gamburg, Alexa",
           "place": "7",
-          "points": 6.25
+          "points": 5.0
         },
         {
           "couple": "May, Michael and English, Pallany",
           "place": "8",
-          "points": 6.25
+          "points": 5.0
         }
       ]
     },
     {
+      "number": 1222,
       "title": "AC-JR1 Closed Bronze 3-Dance Int Latin (C/R/J)",
       "entries": [
         {
@@ -917,6 +964,7 @@
       ]
     },
     {
+      "number": 1222,
       "title": "AC-JR2 Closed Bronze 3-Dance Int Latin (C/R/J)",
       "entries": [
         {
@@ -932,21 +980,23 @@
       ]
     },
     {
+      "number": 1223,
       "title": "AC-LJR Open Latin Multi-Dance (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Filipczak, Kevin and Hughes, Haley",
           "place": "1",
-          "points": 25.0
+          "points": 20.0
         },
         {
           "couple": "Rudman, Allen and Kane, Jacquelin",
           "place": "2",
-          "points": 12.5
+          "points": 10.0
         }
       ]
     },
     {
+      "number": 1224,
       "title": "AC-LJR Closed Silver Latin Multi-Dance (C/S/R/J)",
       "entries": [
         {
@@ -957,16 +1007,18 @@
       ]
     },
     {
+      "number": 1225,
       "title": "AC-LY Open Latin Multi-Dance (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Filipczak, Kevin and Hughes, Haley",
           "place": "1",
-          "points": 25
+          "points": 20
         }
       ]
     },
     {
+      "number": 1226,
       "title": "AC-JR1 Closed Gold 4-Dance Int Latin (C/S/R/J)",
       "entries": [
         {
@@ -982,6 +1034,7 @@
       ]
     },
     {
+      "number": 1226,
       "title": "AC-JR2 Closed Gold 4-Dance Int Latin (C/S/R/J)",
       "entries": [
         {
@@ -1002,6 +1055,7 @@
       ]
     },
     {
+      "number": 1226,
       "title": "AC-LJR Closed Gold Latin Multi-Dance (C/S/R/P/J)",
       "entries": [
         {
@@ -1012,6 +1066,7 @@
       ]
     },
     {
+      "number": 1226,
       "title": "AC-Y Closed Gold 4-Dance Int Latin (C/S/R/J)",
       "entries": [
         {
@@ -1022,6 +1077,7 @@
       ]
     },
     {
+      "number": 1227,
       "title": "AC-JR1 Closed Silver 4-Dance Int Latin (C/S/R/J)",
       "entries": [
         {
@@ -1037,6 +1093,7 @@
       ]
     },
     {
+      "number": 1228,
       "title": "AC-JR1 Novice 3-Dance Int Latin (C/S/R)",
       "entries": [
         {
@@ -1082,206 +1139,210 @@
       ]
     },
     {
+      "number": 1231,
       "title": "AC-JR2 Novice 3-Dance Int Latin (C/S/R)",
       "entries": [
         {
           "couple": "Kuznetsov, Nick and Grijuc, Dennise",
           "place": "1",
-          "points": 10.0
+          "points": 15.0
         },
         {
           "couple": "Eydlin, Benjamin and Lerner, Gabrielle",
           "place": "2",
-          "points": 8.0
+          "points": 12.0
         },
         {
           "couple": "Wettstein, Jaiden and Evans, Valerie",
           "place": "3",
-          "points": 6.5
+          "points": 9.75
         },
         {
           "couple": "Groysman, Arthur and Bakanov, Ann-Marie",
           "place": "4",
-          "points": 5.0
+          "points": 7.5
         },
         {
           "couple": "Cylich, Noah and Kupka, Abigail",
           "place": "5",
-          "points": 4.0
+          "points": 6.0
         },
         {
           "couple": "Kuzmiankou, Anton and Kazakevich, Lana",
           "place": "6",
-          "points": 3.0
+          "points": 4.5
         },
         {
           "couple": "Shpolski, Victor and Akhromenko, Ellie",
           "place": "Semis",
-          "points": 1.2
+          "points": 1.8
         },
         {
           "couple": "Montillo, Gianvito and Seltser, Sarah",
           "place": "Semis",
-          "points": 1.2
+          "points": 1.8
         },
         {
           "couple": "Kaczmarski and Ludwiczewski",
           "place": "Semis",
-          "points": 1.2
+          "points": 1.8
         },
         {
           "couple": "Shafran, Alec and Nikolaev, Nicole",
           "place": "Semis",
-          "points": 1.2
+          "points": 1.8
         },
         {
           "couple": "Solovyev, Andrey and Korol, Rebecca",
           "place": "Semis",
-          "points": 1.2
+          "points": 1.8
         },
         {
           "couple": "Alshansky, Daniel and Bass, Regina",
           "place": "Semis",
-          "points": 1.2
+          "points": 1.8
         },
         {
           "couple": "Adamov, Michael and Slootsky, Gabriella",
           "place": "Semis",
-          "points": 1.2
+          "points": 1.8
         }
       ]
     },
     {
+      "number": 1232,
       "title": "AC-JR2 TSDSC International Latin Open Championship** (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Firestein, Dave and Umansky, Shelly",
           "place": "1",
-          "points": 35.0
+          "points": 30.0
         },
         {
           "couple": "Sarkisian, Alexander and Khodarkovsky, Chantal",
           "place": "2",
-          "points": 28.0
+          "points": 24.0
         },
         {
           "couple": "Lennox, Sebastian and Baranova, Veronica",
           "place": "3",
-          "points": 22.75
+          "points": 19.5
         },
         {
           "couple": "Nikitin, Marsel and Hoodyakova, Tonya",
           "place": "4",
-          "points": 17.5
+          "points": 15.0
         },
         {
           "couple": "Maimon, David and Farcon, Jhailyn",
           "place": "5",
-          "points": 14.0
+          "points": 12.0
         },
         {
           "couple": "Parkansky, Brandon and Teper, Raquel",
           "place": "6",
-          "points": 10.5
+          "points": 9.0
         },
         {
           "couple": "Kosarev, Kristofer and Tehourbanov, Sophia",
           "place": "Semis",
-          "points": 5.25
+          "points": 4.5
         },
         {
           "couple": "Frenkel, Eric and Isakow, Briana",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Chin, Maxwell and Stein, Margarita",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Malyava, Andrew and Ayzerov, Avital",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Proescher, Jonathan and Kogan, Maria",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         }
       ]
     },
     {
+      "number": 1233,
       "title": "AC- Under 21 Open International Latin Championship (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Vasilenko, Nikita and Agranovich, Olivia",
           "place": "1",
-          "points": 35.0
+          "points": 30.0
         },
         {
           "couple": "Mancuso, Anthony and Shvartsman, Sophie",
           "place": "2",
-          "points": 28.0
+          "points": 24.0
         },
         {
           "couple": "Filipczak, Kevin and Malpa, Danielle",
           "place": "3",
-          "points": 22.75
+          "points": 19.5
         },
         {
           "couple": "Amsatr, Yusif and Falisova, Vanesa",
           "place": "4",
-          "points": 17.5
+          "points": 15.0
         },
         {
           "couple": "Sun, Kevin and ., Tatevik",
           "place": "5",
-          "points": 14.0
+          "points": 12.0
         },
         {
           "couple": "Lema, Sean and Klavansky, Nicole S.",
           "place": "6",
-          "points": 10.5
+          "points": 9.0
         },
         {
           "couple": "Leyzerovych, Yan and Tulchinsky, Eva",
           "place": "7",
-          "points": 8.75
+          "points": 7.5
         },
         {
           "couple": "Ratner, Jessica and Ratner, Leor",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Markovetskiy, Yuriy and Phillips-Bullock, Alicia",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Smirnov, Nikita and Acceta, Megan",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Shu and Kalipersad",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "May, Michael and English, Pallany",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Martirosyan, Emil and Zilbervarg, Galit",
           "place": "Semis",
-          "points": 4.9
+          "points": 4.2
         }
       ]
     },
     {
+      "number": 1236,
       "title": "AC-Y Novice 3-Dance Int Latin (C/S/R)",
       "entries": [
         {
@@ -1307,6 +1368,7 @@
       ]
     },
     {
+      "number": 1239,
       "title": "AC-JR2 Pre-Champ 4-Dance Int Latin (C/S/R/J)",
       "entries": [
         {
@@ -1362,6 +1424,7 @@
       ]
     },
     {
+      "number": 1240,
       "title": "AC-JR1 Pre-Champ 4-Dance Int Latin (C/S/R/J)",
       "entries": [
         {
@@ -1407,6 +1470,7 @@
       ]
     },
     {
+      "number": 1242,
       "title": "AC-Y Pre-Champ 4-Dance Int Latin (C/S/R/J)",
       "entries": [
         {
@@ -1462,107 +1526,109 @@
       ]
     },
     {
+      "number": 1246,
       "title": "AC-JR1 TSDSC International Latin Open Championship** (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Hayutt, Ethan and Lepin, Anastasia",
           "place": "1",
-          "points": 35.0
+          "points": 30.0
         },
         {
           "couple": "Dorfman, Samuel Nicholas and Rakov, Avita",
           "place": "2",
-          "points": 28.0
+          "points": 24.0
         },
         {
           "couple": "Kashkevych, Eric and Bogutskiy, Anna",
           "place": "3",
-          "points": 22.75
+          "points": 19.5
         },
         {
           "couple": "Chumachenko, Tymur and Sultanbekova, Leysan",
           "place": "4",
-          "points": 17.5
+          "points": 15.0
         },
         {
           "couple": "Shiloshvili, Sean and Frumkin, Elizabeth",
           "place": "5",
-          "points": 14.0
+          "points": 12.0
         },
         {
           "couple": "Evstigneev, Daniel and Gazarova, Narine",
           "place": "Semis",
-          "points": 4.55
+          "points": 3.9
         },
         {
           "couple": "Bulgakov, Michael and Gekker, Abigail",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Parkansky, Brandon and Teper, Raquel",
           "place": "Semis",
-          "points": 7.7
+          "points": 6.6
         }
       ]
     },
     {
+      "number": 1247,
       "title": "AC-Y TSDSC International Latin Open Championship** (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Pidhoretskyy, Vadym and Srulevich, Abigail",
           "place": "1",
-          "points": 35.0
+          "points": 30.0
         },
         {
           "couple": "Ginzburg, Joshua and Elkin, Sophia",
           "place": "2",
-          "points": 28.0
+          "points": 24.0
         },
         {
           "couple": "Filipczak, Kevin and Malpa, Danielle",
           "place": "3",
-          "points": 22.75
+          "points": 19.5
         },
         {
           "couple": "Lema, Sean and Klavansky, Nicole S.",
           "place": "4",
-          "points": 17.5
+          "points": 15.0
         },
         {
           "couple": "Young, Jacob and McDonald, Shayna",
           "place": "5",
-          "points": 14.0
+          "points": 12.0
         },
         {
           "couple": "Martirosyan, Emil and Zilbervarg, Galit",
           "place": "6",
-          "points": 10.5
+          "points": 9.0
         },
         {
           "couple": "May, Michael and English, Pallany",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Leyzerovych, Yan and Tulchinsky, Eva",
           "place": "Semis",
-          "points": 5.25
+          "points": 4.5
         },
         {
           "couple": "Zakirzyanov, Daniel and Yarovoi, Irene",
           "place": "Semis",
-          "points": 5.95
+          "points": 5.1
         },
         {
           "couple": "Glukhovskiy, Yanni and Seleznyov, Julia",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         },
         {
           "couple": "Maidaniuk, Misha and Gamburg, Rachel",
           "place": "Semis",
-          "points": 4.2
+          "points": 3.6
         }
       ]
     }
