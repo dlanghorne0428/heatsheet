@@ -84,29 +84,36 @@ class AppFrame(wx.Frame):
         self.list_ctrl.AppendColumn("Avg Pts", format=wx.LIST_FORMAT_CENTER, width=80)
 
         # Create the label for the comp results section
-        self.st_res = wx.StaticText(pnl, label="New Results", pos=(740, 25))
+        self.st_res = wx.StaticText(pnl, label="New Competition Results", pos=(710, 10))
         self.st_res.SetFont(font)
 
         # Create a label and the text control for comp name
-        st_comp_name = wx.StaticText(pnl, label="Competition", pos=(740, 55))
-        st_comp_name.SetFont(font)
-        self.comp_name = wx.TextCtrl(pnl, value="--Competition Name--", style=wx.TE_READONLY, pos=(640, 85), size=(300, 24))
+        #st_comp_name = wx.StaticText(pnl, label="Competition", pos=(740, 40))
+        #st_comp_name.SetFont(font)
+        self.comp_name = wx.TextCtrl(pnl, value="--Competition Name--", style=wx.TE_READONLY, pos=(640, 40), size=(360, 24))
+        
+        st_heat = wx.StaticText(pnl, label="Event", pos=(720, 75))
+        st_heat.SetFont(font)        
+        self.heat_selection = wx.SpinCtrl(pnl, pos=(780,78), size=(60,24),
+                                               min=1, max=1, initial=1)     
+        self.st_max_heat = wx.StaticText(pnl, label="of 1", pos=(850, 75))
+        self.st_max_heat.SetFont(font)          
 
         # Create a label and the text control for event name
-        st_heat_name = wx.StaticText(pnl, label="Heat", pos=(770, 115))
+        st_heat_name = wx.StaticText(pnl, label="Heat Title", pos=(780, 115))
         st_heat_name.SetFont(font)
-        self.heat_name = wx.TextCtrl(pnl, value="--Heat Name --", style=wx.TE_READONLY, pos=(640, 145), size=(300, 24))
+        self.heat_name = wx.TextCtrl(pnl, value="--Heat Name --", style=wx.TE_READONLY, pos=(640, 145), size=(360, 24))
 
         # Use a ListCtrl widget for the heat results
-        st_heat_results = wx.StaticText(pnl, label="Heat Results", pos=(730, 175))
+        st_heat_results = wx.StaticText(pnl, label="Heat Results", pos=(770, 185))
         st_heat_results.SetFont(font)        
-        self.heat_list_ctrl = wx.ListCtrl(pnl, wx.ID_ANY, pos = (640,205), size=(360, 320),
+        self.heat_list_ctrl = wx.ListCtrl(pnl, wx.ID_ANY, pos = (640,215), size=(360, 310),
                                           style=wx.LC_REPORT | wx.LC_HRULES | wx.LC_VRULES)           
         self.heat_list_ctrl.AppendColumn("Couple", format=wx.LIST_FORMAT_LEFT, width=288)
         self.heat_list_ctrl.AppendColumn("Place", format=wx.LIST_FORMAT_CENTER, width=72) 
 
         # Creata a button to add the heat results to the database
-        self.butt_add_rslt = wx.Button(pnl, label="Add Results to DB", pos=(740, 530))
+        self.butt_add_rslt = wx.Button(pnl, label="Add Results to DB", pos=(760, 530))
         self.Bind(wx.EVT_BUTTON, self.OnAddHeatResults, self.butt_add_rslt)            
 
         # create a menu bar
@@ -117,6 +124,9 @@ class AppFrame(wx.Frame):
         
         # save the current date
         self.curr_date = date.today()
+        
+        # default is manual examination for heat results
+        self.automation = False
 
         # set default state of menu items and buttons
         self.PreOpenProcess()
@@ -436,6 +446,8 @@ class AppFrame(wx.Frame):
         self.current_heat_idx += 1
         if self.current_heat_idx < len(self.heat_results):
             self.Display_Heat_Results(self.heat_results[self.current_heat_idx])
+            if self.automation:
+                self.Process_Heat()
         else:
             # clear the competition name
             self.comp_name.ChangeValue("--Competition Name--")
@@ -461,6 +473,7 @@ class AppFrame(wx.Frame):
 
     def Show_Comp_Result(self):
         if self.couple_history_index < len(self.couple_result_history):
+            self.heat_selection.SetValue(self.couple_history_index + 1)
             result = self.couple_result_history[self.couple_history_index]
             self.comp_name.ChangeValue(result["comp_name"])
             # Open the proper result file based on the current database
@@ -503,6 +516,7 @@ class AppFrame(wx.Frame):
         result = dict()
         result["comp_name"] = self.comp_name.GetValue()
         if self.current_db_index == 0:
+            #TODO: For 2020, save the title for pro heat levels as well. 
             result["level"] = pro_heat_level(title)
         else:
             result["info"] = title
@@ -561,6 +575,7 @@ class AppFrame(wx.Frame):
         This method processes the results of a single heat and adds those 
         results to the appopriate ranking database.
         '''
+        self.heat_selection.SetValue(self.current_heat_idx + 1)
         # loop through the entries in the current heat
         h = self.heat_results[self.current_heat_idx]
         entries = h["entries"]
@@ -590,7 +605,10 @@ class AppFrame(wx.Frame):
             self.Highlight_Entry(db_index, focus=first_time)
             first_time = False
         # change button text for next action
-        self.butt_add_rslt.SetLabel("Show Next Heat")    
+        self.butt_add_rslt.SetLabel("Show Next Heat")  
+        
+        if self.automation:
+            self.Setup_For_Next_Heat()
         
         
     def Open_Ranking_Database(self, folder_name):
@@ -637,7 +655,10 @@ class AppFrame(wx.Frame):
             self.couple_last_name = get_last_name(current_couple["name"])
             self.couple_result_history = current_couple["results"]
             self.couple_history_index = 0
-            self.st_res.SetLabel("Prev Results")
+            self.st_res.SetLabel("Prev Competition Results")
+            self.heat_selection.SetValue(1)
+            self.heat_selection.SetMax(len(self.couple_result_history))
+            self.st_max_heat.SetLabel("of " + str(len(self.couple_result_history)))        
             self.Show_Comp_Result()
         else:
             md = wx.MessageDialog(self, "Please select a couple from the list.", caption="Error", style=wx.OK)
@@ -677,9 +698,11 @@ class AppFrame(wx.Frame):
             if self.current_db_index == 0:
                 self.comp_results = Comp_Results_File(folder_name + "/pro_results.json")  
             elif self.current_db_index == 1:
-                self.comp_results = Comp_Results_File(folder_name + "/pro-am_results.json")    
+                self.comp_results = Comp_Results_File(folder_name + "/pro-am_results.json") 
+                self.automation = True
             else:
-                self.comp_results = Comp_Results_File(folder_name + "/amateur_results.json")   
+                self.comp_results = Comp_Results_File(folder_name + "/amateur_results.json")  
+                self.automation = True
                 
             # populate the competition name
             self.comp_name.ChangeValue(self.comp_results.get_comp_name())
@@ -690,6 +713,12 @@ class AppFrame(wx.Frame):
             self.Display_Heat_Results(self.heat_results[0])
             # enable the button to add the heat results
             self.butt_add_rslt.Enable()
+            
+            self.heat_selection.SetValue(1)
+            self.heat_selection.SetMax(len(self.heat_results))
+            self.st_max_heat.SetLabel("of " + str(len(self.heat_results)))
+            if self.automation:
+                self.Process_Heat()
 
 
 
