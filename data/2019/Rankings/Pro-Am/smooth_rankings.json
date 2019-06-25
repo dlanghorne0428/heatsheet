@@ -173,25 +173,6 @@
     "avg_pts": 31.2
   },
   {
-    "name": "Murton, Patty and Kravets, Yuriy",
-    "results": [
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'S1' WDSS/BofB  Closed Silver Smooth Championship (W/T/F)",
-        "place": "2",
-        "points": 28.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'S1' Pro/Am Closed Silver Smooth Scholarship (W/T/F/VW)",
-        "place": "3",
-        "points": 32.5
-      }
-    ],
-    "total_pts": 60.5,
-    "avg_pts": 30.25
-  },
-  {
     "name": "Chuo, Chinyen and Shtefil, Shandor",
     "results": [
       {
@@ -208,6 +189,19 @@
       }
     ],
     "total_pts": 60.0,
+    "avg_pts": 30.0
+  },
+  {
+    "name": "Pasqua, Terry and Kravets, Yuriy",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 30.0
+      }
+    ],
+    "total_pts": 30.0,
     "avg_pts": 30.0
   },
   {
@@ -273,10 +267,22 @@
         "info": "L- 'C' Pro/Am Open American Smooth Scholarship (W/T/F/VW)",
         "place": "2",
         "points": 44.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 35.0
       }
     ],
-    "total_pts": 197.0,
-    "avg_pts": 28.14
+    "total_pts": 252.0,
+    "avg_pts": 28.0
   },
   {
     "name": "Glazner, Carolyn and Jaksevicius, Danas",
@@ -1112,6 +1118,19 @@
     "avg_pts": 25.0
   },
   {
+    "name": "Lott, Sandy and Koogle, Scott",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Gold  Open Full Gold C1 Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 25.0,
+    "avg_pts": 25.0
+  },
+  {
     "name": "Matsumoto, Kako and Hannigan, Dave",
     "results": [
       {
@@ -1156,19 +1175,6 @@
       {
         "comp_name": "Eastern United States DanceSport Championship",
         "info": "L-S2 Open Advanced Smooth 4-Dance Scholarship (W/T/F/VW)",
-        "place": "1",
-        "points": 25.0
-      }
-    ],
-    "total_pts": 25.0,
-    "avg_pts": 25.0
-  },
-  {
-    "name": "Rivera, Donna and Nardozza, Robert",
-    "results": [
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Gold Pro-Am Multi-Dances Open MA Amer. Smooth (W,T,F,VW)",
         "place": "1",
         "points": 25.0
       }
@@ -1266,6 +1272,19 @@
     ],
     "total_pts": 25,
     "avg_pts": 25
+  },
+  {
+    "name": "Angell, Karen and Makarov, Gleb",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS B Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 25.0,
+    "avg_pts": 25.0
   },
   {
     "name": "Lowery, Lisa and Wiatrowski, Radek",
@@ -1400,25 +1419,6 @@
     ],
     "total_pts": 198.25,
     "avg_pts": 24.78
-  },
-  {
-    "name": "Conklyn, Liz and Michalski, Dariusz",
-    "results": [
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "L-SR1 DSS Open Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "G-SR1 Pro/Am  Senior Open Smooth Scholarship (W/T/F)",
-        "place": "3",
-        "points": 29.25
-      }
-    ],
-    "total_pts": 49.25,
-    "avg_pts": 24.62
   },
   {
     "name": "Tilford, Stacy and Tilford, Josh",
@@ -1706,6 +1706,43 @@
     "avg_pts": 23.12
   },
   {
+    "name": "Murton, Patty and Kravets, Yuriy",
+    "results": [
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'S1' WDSS/BofB  Closed Silver Smooth Championship (W/T/F)",
+        "place": "2",
+        "points": 28.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'S1' Pro/Am Closed Silver Smooth Scholarship (W/T/F/VW)",
+        "place": "3",
+        "points": 32.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver C1 Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 115.5,
+    "avg_pts": 23.1
+  },
+  {
     "name": "Sermersheim, Gail and Aliev, Serge",
     "results": [
       {
@@ -1837,7 +1874,7 @@
         "points": 22.75
       }
     ],
-    "total_pts": 2.75,
+    "total_pts": 22.75,
     "avg_pts": 22.75
   },
   {
@@ -2406,6 +2443,74 @@
     "avg_pts": 22.5
   },
   {
+    "name": "Cramer, Elizabeth and Kravets, Yuriy",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Senior  SR1 Amer. Smooth Championship (W,T,F)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open 3 Dance Senior Scholarships SR1 Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 28.0
+      }
+    ],
+    "total_pts": 89.0,
+    "avg_pts": 22.25
+  },
+  {
+    "name": "Conklyn, Liz and Michalski, Dariusz",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "L-SR1 DSS Open Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "G-SR1 Pro/Am  Senior Open Smooth Scholarship (W/T/F)",
+        "place": "3",
+        "points": 29.25
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open 3 Dance Senior Scholarships SR1 Amer. Smooth (W,T,F)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open 3 Dance Senior Scholarships SR2 Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  D Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 110.5,
+    "avg_pts": 22.1
+  },
+  {
     "name": "Parkinson, Julie and Lototskyy, Maksym",
     "results": [
       {
@@ -2966,6 +3071,25 @@
     "avg_pts": 20.5
   },
   {
+    "name": "Nemeth, Susan and Hacke, Andrej",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C Amer. Smooth Championship (W,T,F)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS B Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 41.0,
+    "avg_pts": 20.5
+  },
+  {
     "name": "Brewer, Amy and Sverrisson, Gunnar",
     "results": [
       {
@@ -2991,7 +3115,7 @@
     "avg_pts": 20.42
   },
   {
-    "name": "McCain, Christopher and McCain, Nicole",
+    "name": "McCain, Nicole and McCain, Christopher",
     "results": [
       {
         "comp_name": "Majesty Dancesport",
@@ -3293,6 +3417,25 @@
       {
         "comp_name": "Vegas Open Dance Challenge",
         "info": "L-A Pro/Am DSS Closed Silver Smooth Scholarship (W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 40.0,
+    "avg_pts": 20.0
+  },
+  {
+    "name": "Borzuchowski, Janet and Merz, Timmy",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Senior  SR2 Amer. Smooth Championship (W,T,F)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Gold  Full Gold D Amer. Smooth Championship (W,T,F,VW)",
         "place": "1",
         "points": 20.0
       }
@@ -3646,6 +3789,19 @@
     ],
     "total_pts": 20,
     "avg_pts": 20
+  },
+  {
+    "name": "Lewicki, Oksana and Kravets, Yuriy",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS B Amer. Smooth (W,T,F)",
+        "place": "2",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 20.0
   },
   {
     "name": "Marino, Sandy and Tilford, Josh",
@@ -5018,6 +5174,79 @@
     "avg_pts": 18.32
   },
   {
+    "name": "Voigt, Dana and Wilson, Randy",
+    "results": [
+      {
+        "comp_name": "The Windy City Open",
+        "info": "L-C Open Am. Smooth 4-Dance (W/T/F/VW)",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "L-S1 Open Am. Smooth 4-Dance (W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "L-C Open Am. Smooth WDSS (W/T/F/VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "L-S1 Open Am. Smooth Scholarship (W/T/F/VW)",
+        "place": "2",
+        "points": 17.5
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "L-C Open Am. Smooth Scholarship (W/T/F/VW)",
+        "place": "3",
+        "points": 12.5
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-C Pro/Am Open Smooth World DanceSport Series (W/T/FT/VW)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-C1 Pro/Am Closed Gold Smooth 3-Dance Championship (W/T/FT/VW)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-C Pro/Am Open Smooth Scholarship (W/T/FT/VW)",
+        "place": "3",
+        "points": 22.75
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open 3 Dance Senior Scholarships SR1 Amer. Smooth (W,T,F)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  C1 Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "3",
+        "points": 22.75
+      }
+    ],
+    "total_pts": 201.5,
+    "avg_pts": 18.32
+  },
+  {
     "name": "Friedland, Careen and Kostianets, Slava",
     "results": [
       {
@@ -5583,6 +5812,73 @@
     "avg_pts": 18.0
   },
   {
+    "name": "Yoshinaga, Ryan and Strashnikova, Deannah",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "G-A1 Pro/Am Closed Silver Smooth Multi-Dance (W/T/F/VW)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "G-A Pro/Am Gents Closed Silver Smooth Scholarsship (W/T/FT/VW)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-A Pro/Am Closed Silver Smooth Scholarship (W/T/FT/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS A Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Silver Scholarship Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Silver Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Open Scholarship Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS A Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 179.5,
+    "avg_pts": 17.95
+  },
+  {
     "name": "Garrison, Travis and MacNaughton, Carolyn",
     "results": [
       {
@@ -6024,6 +6320,49 @@
     ],
     "total_pts": 211.5,
     "avg_pts": 17.62
+  },
+  {
+    "name": "Rivera, Donna and Nardozza, Robert",
+    "results": [
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Gold Pro-Am Multi-Dances Open MA Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Open Full Silver D Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Senior  SR2 Amer. Smooth Championship (W,T,F)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open 3 Dance Senior Scholarships SR2 Amer. Smooth (W,T,F)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Gold  Open Full Gold D Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  D Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 105.5,
+    "avg_pts": 17.58
   },
   {
     "name": "Smith, Chris and Hannigan, David",
@@ -6609,6 +6948,25 @@
     "avg_pts": 17.5
   },
   {
+    "name": "James, Laurie and Kravets, Yuriy",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C Amer. Smooth Championship (W,T,F)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Bronze Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 35.0,
+    "avg_pts": 17.5
+  },
+  {
     "name": "Law, Amy and Stutts, Eddie",
     "results": [
       {
@@ -7124,61 +7482,6 @@
     ],
     "total_pts": 243.0,
     "avg_pts": 17.36
-  },
-  {
-    "name": "Voigt, Dana and Wilson, Randy",
-    "results": [
-      {
-        "comp_name": "The Windy City Open",
-        "info": "L-C Open Am. Smooth 4-Dance (W/T/F/VW)",
-        "place": "2",
-        "points": 10.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "L-S1 Open Am. Smooth 4-Dance (W/T/F/VW)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "L-C Open Am. Smooth WDSS (W/T/F/VW)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "L-S1 Open Am. Smooth Scholarship (W/T/F/VW)",
-        "place": "2",
-        "points": 17.5
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "L-C Open Am. Smooth Scholarship (W/T/F/VW)",
-        "place": "3",
-        "points": 12.5
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-C Pro/Am Open Smooth World DanceSport Series (W/T/FT/VW)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-C1 Pro/Am Closed Gold Smooth 3-Dance Championship (W/T/FT/VW)",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-C Pro/Am Open Smooth Scholarship (W/T/FT/VW)",
-        "place": "3",
-        "points": 22.75
-      }
-    ],
-    "total_pts": 138.75,
-    "avg_pts": 17.34
   },
   {
     "name": "Kurzeja, Carolyn and Nagibin, Roman",
@@ -8133,31 +8436,6 @@
     "avg_pts": 16.67
   },
   {
-    "name": "Yoshinaga, Ryan and Strashnikova, Deannah",
-    "results": [
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "G-A1 Pro/Am Closed Silver Smooth Multi-Dance (W/T/F/VW)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "G-A Pro/Am Gents Closed Silver Smooth Scholarsship (W/T/FT/VW)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-A Pro/Am Closed Silver Smooth Scholarship (W/T/FT/VW)",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 50.0,
-    "avg_pts": 16.67
-  },
-  {
     "name": "Klinger, Rebecca and Clark, Gage",
     "results": [
       {
@@ -8998,6 +9276,25 @@
     "avg_pts": 16.25
   },
   {
+    "name": "McKinnell, Ann and Parker, Golden",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "info": "G- Closed Bronze 'C' Smooth Scholarship (W/T/F)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS C Amer. Smooth (W,T,F)",
+        "place": "2",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 32.5,
+    "avg_pts": 16.25
+  },
+  {
     "name": "Pacheco, Cristina and Simboteanu, Ion",
     "results": [
       {
@@ -9010,6 +9307,25 @@
         "comp_name": "NYDF 2019",
         "info": "L-A American Smooth Open Advanced Scholarship (W/T/F/VW)",
         "place": "4",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 32.5,
+    "avg_pts": 16.25
+  },
+  {
+    "name": "Quintero, Peter and Munroe, Harmony",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Senior  Advanced SR2 Amer. Smooth Championship (W,T,F)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open 3 Dance Senior Scholarships SR2 Amer. Smooth (W,T,F)",
+        "place": "3",
         "points": 12.5
       }
     ],
@@ -9552,6 +9868,19 @@
     "avg_pts": 16.0
   },
   {
+    "name": "Radyushkina, Olga and Kravets, Yuriy",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS A Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 16.0,
+    "avg_pts": 16.0
+  },
+  {
     "name": "Strickland, Amy and Skrypnyk, Oleg",
     "results": [
       {
@@ -9977,6 +10306,43 @@
     "avg_pts": 15.75
   },
   {
+    "name": "Dinler, Defne and Kravets, Yuriy",
+    "results": [
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' WDSS/BofB  Closed Silver Smooth Championship (W/T/F)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' Pro/Am Closed Silver Smooth Scholarship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 7.2
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS B Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Silver Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 24.0
+      }
+    ],
+    "total_pts": 78.7,
+    "avg_pts": 15.74
+  },
+  {
     "name": "Niikura, Kazue and Sinitsa, Max",
     "results": [
       {
@@ -10322,6 +10688,187 @@
     "avg_pts": 15.57
   },
   {
+    "name": "Adamczyk, Darcy and Dahl, Gary",
+    "results": [
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Pro-Am 4-Dance Championships  Open Silver C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Pro-Am 4-Dance Championships  Open Silver B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Dancesport Series Championships  Open B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Dancesport Series Championships  Open C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Closed Silver Pro-Am Scholarships C Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Closed Silver Pro-Am Scholarships B Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "info": "L-A Bronze Closed American Smooth 2 Dance Championship (W/T)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-B1 Pro/Am Closed Silver Smooth Multi-Dance (W/T/F/VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-B Pro/Am Closed Silver Smooth Scholarship (W/T/FT/VW)",
+        "place": "6",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-C World DanceSport Series Open Smooth (W/T/FT/VW)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-C Pro/Am Open Smooth Scholarship (W/T/FT/VW)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "G-AD Pro/Am Men's Big Bash Open Supreme Smooth Scholarship (W/T/FT/VW)",
+        "place": "quarters",
+        "points": 1.8
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-B2 Pro/Am Closed Silver Smooth 3-Dance Championship (W/T/FT)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-B1 Pro/Am Closed Silver Smooth 3-Dance Championship (W/T/FT)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-C Pro/Am Closed Silver Smooth Scholarship (W/T/FT)",
+        "place": "6",
+        "points": 12.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-C Pro/Am Open Smooth World DanceSport Series (W/T/FT/VW)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "L-C Closed Silver Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
+        "place": "2",
+        "points": 10.5
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "L-C Open Silver Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "L-C Closed Silver Dancesport Series American Smooth (W/T/FT/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "L-C Closed American Smooth Silver Best of the Best & Scholarship (W/T/F/VW)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Open Full Silver B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Open Full Silver C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Silver Amer. Smooth (W,T,F,VW)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "6",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 450.55,
+    "avg_pts": 15.54
+  },
+  {
     "name": "Underwood, Cyndi and Tilford, Josh",
     "results": [
       {
@@ -10641,130 +11188,46 @@
     "avg_pts": 15.31
   },
   {
-    "name": "Adamczyk, Darcy and Dahl, Gary",
+    "name": "Murphy, Carla and Nardozza, Robert",
     "results": [
       {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Pro-Am 4-Dance Championships  Open Silver C Amer. Smooth Championship (W,T,F,VW)",
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Open Full Silver C1 Amer. Smooth Championship (W,T,F,VW)",
         "place": "1",
         "points": 20.0
       },
       {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Pro-Am 4-Dance Championships  Open Silver B Amer. Smooth Championship (W,T,F,VW)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Dancesport Series Championships  Open B Amer. Smooth Championship (W,T,F,VW)",
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Senior  SR1 Amer. Smooth Championship (W,T,F)",
         "place": "2",
         "points": 16.0
       },
       {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Dancesport Series Championships  Open C Amer. Smooth Championship (W,T,F,VW)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Closed Silver Pro-Am Scholarships C Amer. Smooth (W,T,F,VW)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Closed Silver Pro-Am Scholarships B Amer. Smooth (W,T,F,VW)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "info": "L-A Bronze Closed American Smooth 2 Dance Championship (W/T)",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-B1 Pro/Am Closed Silver Smooth Multi-Dance (W/T/F/VW)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-B Pro/Am Closed Silver Smooth Scholarship (W/T/FT/VW)",
-        "place": "6",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-C World DanceSport Series Open Smooth (W/T/FT/VW)",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-C Pro/Am Open Smooth Scholarship (W/T/FT/VW)",
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open 3 Dance Senior Scholarships SR1 Amer. Smooth (W,T,F)",
         "place": "4",
         "points": 12.5
       },
       {
-        "comp_name": "beachbash2019",
-        "info": "G-AD Pro/Am Men's Big Bash Open Supreme Smooth Scholarship (W/T/FT/VW)",
-        "place": "quarters",
-        "points": 1.8
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-B2 Pro/Am Closed Silver Smooth 3-Dance Championship (W/T/FT)",
-        "place": "3",
-        "points": 16.25
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-B1 Pro/Am Closed Silver Smooth 3-Dance Championship (W/T/FT)",
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Gold  Open Full Gold C Amer. Smooth Championship (W,T,F,VW)",
         "place": "1",
-        "points": 15.0
+        "points": 25
       },
       {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-C Pro/Am Closed Silver Smooth Scholarship (W/T/FT)",
-        "place": "6",
-        "points": 12.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-C Pro/Am Open Smooth World DanceSport Series (W/T/FT/VW)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "L-C Closed Silver Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  C1 Amer. Smooth Championship (W,T,F,VW)",
         "place": "2",
-        "points": 10.5
+        "points": 14.0
       },
       {
-        "comp_name": "atlopen19",
-        "info": "L-C Open Silver Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "L-C Closed Silver Dancesport Series American Smooth (W/T/FT/VW)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "L-C Closed American Smooth Silver Best of the Best & Scholarship (W/T/F/VW)",
-        "place": "1",
-        "points": 30.0
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 4.2
       }
     ],
-    "total_pts": 305.55,
+    "total_pts": 91.7,
     "avg_pts": 15.28
   },
   {
@@ -11232,6 +11695,37 @@
       }
     ],
     "total_pts": 75.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Champion, Jocasta and Munroe, Toby",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "info": "L-B World Pro/Am Smooth DanceSport Series (W/T/FT/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "City Lights Ball",
+        "info": "L-B Open Smooth Scholarship (W/T/FT/VW)",
+        "place": "6",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Gold  Open Full Gold B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS A Amer. Smooth (W,T,F,VW)",
+        "place": "3",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 60.0,
     "avg_pts": 15.0
   },
   {
@@ -11923,6 +12417,19 @@
     "avg_pts": 15.0
   },
   {
+    "name": "Harrington, Lucy and Munroe, Toby",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Open Full Bronze PT Amer. Smooth Championship (W,T,F)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
+  },
+  {
     "name": "Hart, Madyson and Gannon, Colton",
     "results": [
       {
@@ -12077,19 +12584,6 @@
     ],
     "total_pts": 15.0,
     "avg_pts": 15.0
-  },
-  {
-    "name": "Levine, Taylor and Munroe, Toby",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "info": "L-LPT1 Pre Teen 1 Closed Smooth (W/T)",
-        "place": "1",
-        "points": 15
-      }
-    ],
-    "total_pts": 15,
-    "avg_pts": 15
   },
   {
     "name": "MacPherson, Charlie and McCarthy, Danielle",
@@ -13652,6 +14146,25 @@
     "avg_pts": 14.14
   },
   {
+    "name": "Machuga, Melanie and Nardozza, Robert",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "5",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 28.25,
+    "avg_pts": 14.12
+  },
+  {
     "name": "Siegel, Jackie and Vasco, Daniel",
     "results": [
       {
@@ -13881,6 +14394,25 @@
     "avg_pts": 14.0
   },
   {
+    "name": "Shipwash, Deb and Parker, Golden",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "info": "G- Closed Silver 'S' Smooth Scholarship (W/T/F)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 28.0,
+    "avg_pts": 14.0
+  },
+  {
     "name": "Tayi, Siva and Betts, Stephanie",
     "results": [
       {
@@ -14025,6 +14557,85 @@
     ],
     "total_pts": 97.5,
     "avg_pts": 13.93
+  },
+  {
+    "name": "Koszowski, Jane and Munroe, Toby",
+    "results": [
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Bronze Pro-Am Multi-Dances Closed B Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Cl. Bronze Pro-Am Scholarships A Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Cl. Bronze Pro-Am Scholarships B Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Bronze WDSS Qualifiers B Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' WDSS/BofB Closed Bronze Smooth Championship (W/T/F)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' WDSS/BofB  Closed Bronze Smooth Championship (W/T/F)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' Pro/Am Closed Bronze Smooth Scholarship (W/T/F)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' Pro/Am Closed Bronze Smooth Scholarship (W/T/F)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C Amer. Smooth Championship (W,T,F)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Open Full Bronze C Amer. Smooth Championship (W,T,F)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS C Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Bronze Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 166.25,
+    "avg_pts": 13.85
   },
   {
     "name": "Schukei, Stuart and Anderson, Meghan",
@@ -14229,6 +14840,73 @@
     "avg_pts": 13.81
   },
   {
+    "name": "Holt, Kami and Munroe, Toby",
+    "results": [
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Gold Pro-Am Multi-Dances Open B Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 17.5
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Open WDSS Championships  B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Op. Gold Pro-Am Scholarships B Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' Pro/Am Rising Star American Smooth Multi-Dance (W/T/F/VW)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' WDSS/BofB Open Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 3.9
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "G- 'B' Pro/Am Open American Smooth Scholarship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 5.4
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'A' Pro/Am Open American Smooth Scholarship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 4.2
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Gold  Open Full Gold A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS B Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 138.0,
+    "avg_pts": 13.8
+  },
+  {
     "name": "Anderson, Teryl and Jaksevicius, Danas",
     "results": [
       {
@@ -14390,25 +15068,6 @@
         "info": "L-B 4-Dance American Smooth Scholarship (W/T/F/VW)",
         "place": "2",
         "points": 12.5
-      }
-    ],
-    "total_pts": 27.5,
-    "avg_pts": 13.75
-  },
-  {
-    "name": "Champion, Jocasta and Munroe, Toby",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "info": "L-B World Pro/Am Smooth DanceSport Series (W/T/FT/VW)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "City Lights Ball",
-        "info": "L-B Open Smooth Scholarship (W/T/FT/VW)",
-        "place": "6",
-        "points": 7.5
       }
     ],
     "total_pts": 27.5,
@@ -14731,6 +15390,37 @@
       }
     ],
     "total_pts": 175.5,
+    "avg_pts": 13.5
+  },
+  {
+    "name": "Anderson, Constance and Ishchenko, Volodymyr",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L- DCT Senior Silver Smooth Scholarship(W/T/F)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-SR Silver Closed Smooth Championships (W/T/FT)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver D Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open 3 Dance Senior Scholarships SR2 Amer. Smooth (W,T,F)",
+        "place": "2",
+        "points": 17.5
+      }
+    ],
+    "total_pts": 54.0,
     "avg_pts": 13.5
   },
   {
@@ -15110,6 +15800,67 @@
     ],
     "total_pts": 66.5,
     "avg_pts": 13.3
+  },
+  {
+    "name": "Harrington, Rosabel and Koogle, Scott",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "info": "L- Closed Bronze 'A' Smooth Dancesport Series MDC (W/T/F)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "info": "L- Closed Bronze 'A' Smooth Best of the Best (W/T/F)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "info": "L- Closed Bronze 'A' Smooth Scholarship (W/T/F)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-A Pro/Am Closed Silver DSQ Smooth 4 Damce (W/T/FT/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-A Pro/Am Closed Silver Smooth Scholarship (W/T/FT/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'A' WDSS/BofB  Closed Silver Smooth Championship (W/T/F)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'A' Pro/Am Closed Silver Smooth Scholarship (W/T/F/VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Open Full Silver A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Silver Amer. Smooth (W,T,F,VW)",
+        "place": "6",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 119.5,
+    "avg_pts": 13.28
   },
   {
     "name": "Porges, Felicia and Katona, Adam",
@@ -15537,25 +16288,6 @@
     "avg_pts": 13.12
   },
   {
-    "name": "Mersich, Dawn and Holmes, Gary",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "info": "L- Open Rising Star 'B' Smooth MDC (W/T/F/VW)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "The Snow Ball",
-        "info": "L- Open 'B' Smooth Scholarship (W/T/F/VW)",
-        "place": "7",
-        "points": 6.25
-      }
-    ],
-    "total_pts": 26.25,
-    "avg_pts": 13.12
-  },
-  {
     "name": "Treat, Tammy and Shtefil, Shandor",
     "results": [
       {
@@ -15958,19 +16690,6 @@
     "avg_pts": 13.0
   },
   {
-    "name": "Shipwash, Deb and Parker, Golden",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "info": "G- Closed Silver 'S' Smooth Scholarship (W/T/F)",
-        "place": "3",
-        "points": 13.0
-      }
-    ],
-    "total_pts": 13.0,
-    "avg_pts": 13.0
-  },
-  {
     "name": "Wimmer, Kathy and Novikov, Alexander",
     "results": [
       {
@@ -16061,55 +16780,6 @@
     ],
     "total_pts": 77.75,
     "avg_pts": 12.96
-  },
-  {
-    "name": "Harrington, Rosabel and Koogle, Scott",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "info": "L- Closed Bronze 'A' Smooth Dancesport Series MDC (W/T/F)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "The Snow Ball",
-        "info": "L- Closed Bronze 'A' Smooth Best of the Best (W/T/F)",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "The Snow Ball",
-        "info": "L- Closed Bronze 'A' Smooth Scholarship (W/T/F)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-A Pro/Am Closed Silver DSQ Smooth 4 Damce (W/T/FT/VW)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-A Pro/Am Closed Silver Smooth Scholarship (W/T/FT/VW)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'A' WDSS/BofB  Closed Silver Smooth Championship (W/T/F)",
-        "place": "3",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'A' Pro/Am Closed Silver Smooth Scholarship (W/T/F/VW)",
-        "place": "3",
-        "points": 13.0
-      }
-    ],
-    "total_pts": 90.5,
-    "avg_pts": 12.93
   },
   {
     "name": "Flowers, Mechelle and Crenshaw, Josh",
@@ -16368,6 +17038,37 @@
     ],
     "total_pts": 51.25,
     "avg_pts": 12.81
+  },
+  {
+    "name": "Schwartz, Fred and Nelyubova, Yanina",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Open  C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Gold  Full Gold C1 Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Open Scholarship Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 6.65
+      }
+    ],
+    "total_pts": 51.15,
+    "avg_pts": 12.79
   },
   {
     "name": "Wu, Hong and Kostianets, Valeriia",
@@ -16827,61 +17528,6 @@
       }
     ],
     "total_pts": 139.25,
-    "avg_pts": 12.66
-  },
-  {
-    "name": "Koszowski, Jane and Munroe, Toby",
-    "results": [
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Bronze Pro-Am Multi-Dances Closed B Amer. Smooth (W,T,F)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Cl. Bronze Pro-Am Scholarships A Amer. Smooth (W,T,F)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Cl. Bronze Pro-Am Scholarships B Amer. Smooth (W,T,F)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Bronze WDSS Qualifiers B Amer. Smooth (W,T,F)",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' WDSS/BofB Closed Bronze Smooth Championship (W/T/F)",
-        "place": "3",
-        "points": 6.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' WDSS/BofB  Closed Bronze Smooth Championship (W/T/F)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' Pro/Am Closed Bronze Smooth Scholarship (W/T/F)",
-        "place": "3",
-        "points": 16.25
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' Pro/Am Closed Bronze Smooth Scholarship (W/T/F)",
-        "place": "4",
-        "points": 12.5
-      }
-    ],
-    "total_pts": 101.25,
     "avg_pts": 12.66
   },
   {
@@ -17941,25 +18587,6 @@
     "avg_pts": 12.5
   },
   {
-    "name": "Holub, Grace and Munroe, Toby",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "info": "L-B1 Closed Silver Smooth 4 Dance (W/T/F/VW)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "City Lights Ball",
-        "info": "L-B Closed Silver Smooth Scholarship (W/T/FT/VW)",
-        "place": "3",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 25.0,
-    "avg_pts": 12.5
-  },
-  {
     "name": "Hsu, Alan and ., Shimkiri",
     "results": [
       {
@@ -18271,6 +18898,19 @@
     "avg_pts": 12.5
   },
   {
+    "name": "Farr, Nooshin and Dolgopolov, Dmitri",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "L-S American Smooth Open 4-Dance Scholarship (W/T/F/VW)",
+        "place": "2",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 12.5,
+    "avg_pts": 12.5
+  },
+  {
     "name": "Johnson, Susan and Alday, Allan",
     "results": [
       {
@@ -18310,19 +18950,6 @@
     "avg_pts": 12.5
   },
   {
-    "name": "McKinnell, Ann and Parker, Golden",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "info": "G- Closed Bronze 'C' Smooth Scholarship (W/T/F)",
-        "place": "4",
-        "points": 12.5
-      }
-    ],
-    "total_pts": 12.5,
-    "avg_pts": 12.5
-  },
-  {
     "name": "Soltis, Ed and Botes, Natalie",
     "results": [
       {
@@ -18355,19 +18982,6 @@
         "comp_name": "2019 Tri-State DanceSport Championships",
         "info": "L-S1 TSDSC Open Smooth Scholarship (W/T/F/VW)",
         "place": "4",
-        "points": 12.5
-      }
-    ],
-    "total_pts": 12.5,
-    "avg_pts": 12.5
-  },
-  {
-    "name": "Farr, Nooshin and Dolgopolov, Dmitri",
-    "results": [
-      {
-        "comp_name": "Yankee Classic",
-        "info": "L-S American Smooth Open 4-Dance Scholarship (W/T/F/VW)",
-        "place": "2",
         "points": 12.5
       }
     ],
@@ -18446,6 +19060,25 @@
     ],
     "total_pts": 136.8,
     "avg_pts": 12.44
+  },
+  {
+    "name": "Day, Annabel and Nardozza, Robert",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Silver Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 24.75,
+    "avg_pts": 12.38
   },
   {
     "name": "Stiller, Vana and Garcia, Ray",
@@ -18688,6 +19321,157 @@
     "avg_pts": 12.3
   },
   {
+    "name": "Magnesen, Scott and Zhyvkov, Yana",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "L-C Closed Silver Pro/Am 3-dance Smooth Championship (W/T/FT)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "L-C Open Silver Pro/Am 3-dance Smooth Championship (W/T/FT)",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "G-GC Closed Silver Pro/Am Gentlemen Smooth Championship (W/T/FT/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "L-C Pro/Am Closed Silver Smooth Scholarship & Best of the Best (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 3.9
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "G-GC Open Pro/Am Gentlemen Smooth Championship (W/T/FT/VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "L-C World Pro/Am Dancesport Series Open Smooth (W/T/F/VW)",
+        "place": "6",
+        "points": 9.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "L-C Pro/Am Open Smooth Scholarship & Best of the Best (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 4.2
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "G-B1 Pro/Am Closed Silver Smooth Multi-Dance (W/T/F/VW)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "G-B Pro/Am Gents Closed Silver Smooth Scholarsship (W/T/FT/VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' WDSS/BofB Closed Silver Smooth Championship (W/T/F)",
+        "place": "Semis",
+        "points": 3.75
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "G- 'C' Gentlemen's Closed Silver American Smooth Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' Pro/Am Closed Silver Smooth Scholarship (W/T/F/VW)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' Pro/Am Rising Star American Smooth Multi-Dance (W/T/F/VW)",
+        "place": "Semis",
+        "points": 4.2
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "G- 'C' Gentlemen's Open American Smooth Championship (W/T/F/VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' WDSS/BofB Open Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' Pro/Am Open American Smooth Scholarship (W/T/F/VW)",
+        "place": "round 1",
+        "points": 5.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Open Full Silver C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Silver  Full Silver C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Silver Scholarship Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Open  C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Open Scholarship Amer. Smooth (W,T,F,VW)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 17.5
+      }
+    ],
+    "total_pts": 294.35,
+    "avg_pts": 12.26
+  },
+  {
     "name": "Kazlova, Yuliya and Coberg, Bryan",
     "results": [
       {
@@ -18847,6 +19631,85 @@
     ],
     "total_pts": 158.85,
     "avg_pts": 12.22
+  },
+  {
+    "name": "Hughes, Krista and Petr, Michael",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "info": "L-A World Pro/Am Smooth DanceSport Series (W/T/FT/VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "L-C Open Gold Pro/Am 3-dance Smooth Championship (W/T/FT)",
+        "place": "2",
+        "points": 15.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "L-B World Pro/Am Dancesport Series Open Smooth (W/T/F/VW)",
+        "place": "4",
+        "points": 6.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Silver Pro-Am Multi-Dances Open B Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-B Pro/Am Closed Gold Smooth Scholarship (W/T/FT/VW)",
+        "place": "2",
+        "points": 12.5
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-A Pro/Am Closed Gold Smooth Scholarship (W/T/FT/VW)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-A Pro/Am Open Smooth DSQ Championship (W/T/FT/VW)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-C Pro/Am Closed Gold DSQ Smooth 4 Damce (W/T/FT/VW)",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' Closed Gold Smooth Championship (W/T/F/VW)",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' Pro/Am Closed Gold Smooth Scholarship (W/T/F/VW)",
+        "place": "6",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Open Full Silver A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Gold  Open Full Gold B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 146.5,
+    "avg_pts": 12.21
   },
   {
     "name": "Bors, Kim and Lebedev, Pavel",
@@ -20333,6 +21196,19 @@
     "avg_pts": 12.0
   },
   {
+    "name": "Tod, Marty and Nardozza, Robert",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver D Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
     "name": "Triana, Michele and Napoleon, Hugues",
     "results": [
       {
@@ -20486,73 +21362,6 @@
     ],
     "total_pts": 35.5,
     "avg_pts": 11.83
-  },
-  {
-    "name": "Hughes, Krista and Petr, Michael",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "info": "L-A World Pro/Am Smooth DanceSport Series (W/T/FT/VW)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "L-C Open Gold Pro/Am 3-dance Smooth Championship (W/T/FT)",
-        "place": "2",
-        "points": 15.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "L-B World Pro/Am Dancesport Series Open Smooth (W/T/F/VW)",
-        "place": "4",
-        "points": 6.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Silver Pro-Am Multi-Dances Open B Amer. Smooth (W,T,F,VW)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-B Pro/Am Closed Gold Smooth Scholarship (W/T/FT/VW)",
-        "place": "2",
-        "points": 12.5
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-A Pro/Am Closed Gold Smooth Scholarship (W/T/FT/VW)",
-        "place": "1",
-        "points": 25
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-A Pro/Am Open Smooth DSQ Championship (W/T/FT/VW)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-C Pro/Am Closed Gold DSQ Smooth 4 Damce (W/T/FT/VW)",
-        "place": "2",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' Closed Gold Smooth Championship (W/T/F/VW)",
-        "place": "2",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' Pro/Am Closed Gold Smooth Scholarship (W/T/F/VW)",
-        "place": "6",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 118.0,
-    "avg_pts": 11.8
   },
   {
     "name": "Campbell, Torri and Malko, Evgeny",
@@ -20852,6 +21661,49 @@
     "avg_pts": 11.55
   },
   {
+    "name": "Mersich, Dawn and Holmes, Gary",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "info": "L- Open Rising Star 'B' Smooth MDC (W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "info": "L- Open 'B' Smooth Scholarship (W/T/F/VW)",
+        "place": "7",
+        "points": 6.25
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS A Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS B Amer. Smooth (W,T,F,VW)",
+        "place": "5",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 69.25,
+    "avg_pts": 11.54
+  },
+  {
     "name": "Ziecik, Michael and Sinevych, Yuliya",
     "results": [
       {
@@ -21046,6 +21898,25 @@
         "info": "G-C Open American Smooth Scholarship(W/T/F/VW)",
         "place": "6",
         "points": 10.5
+      }
+    ],
+    "total_pts": 23.0,
+    "avg_pts": 11.5
+  },
+  {
+    "name": "Levine, Taylor and Munroe, Toby",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "info": "L-LPT1 Pre Teen 1 Closed Smooth (W/T)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze PT Amer. Smooth Championship (W,T,F)",
+        "place": "2",
+        "points": 8.0
       }
     ],
     "total_pts": 23.0,
@@ -21257,6 +22128,25 @@
         "info": "L-C Closed American Smooth Bronze Best of the Best & Scholarship (W/T/F)",
         "place": "3",
         "points": 16.25
+      }
+    ],
+    "total_pts": 22.75,
+    "avg_pts": 11.38
+  },
+  {
+    "name": "Hansen, Sherri and Merz, Timmy",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS B Amer. Smooth (W,T,F,VW)",
+        "place": "3",
+        "points": 13.0
       }
     ],
     "total_pts": 22.75,
@@ -21530,6 +22420,25 @@
     "avg_pts": 11.25
   },
   {
+    "name": "Fox, Shari and Rowe, Hugh",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS B Amer. Smooth (W,T,F)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS B Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 22.5,
+    "avg_pts": 11.25
+  },
+  {
     "name": "Gottlieb, Carl and Bramblett, Lacey",
     "results": [
       {
@@ -21657,6 +22566,25 @@
         "info": "L- American Smooth Senior Scholarship 4-Dance (W/T/F/VW)",
         "place": "2",
         "points": 12.5
+      }
+    ],
+    "total_pts": 22.5,
+    "avg_pts": 11.25
+  },
+  {
+    "name": "Seyffer, Katy and Bales, Nathan",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "info": "L- Closed Bronze 'A' Smooth Scholarship (W/T/F)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS A Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 15.0
       }
     ],
     "total_pts": 22.5,
@@ -22204,6 +23132,25 @@
     "avg_pts": 11.0
   },
   {
+    "name": "Hale, Robbie and Kadzikowski, Jordania",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Bronze  Full Bronze A Amer. Smooth Championship (W,T,F)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Bronze Scholarship Amer. Smooth (W,T,F)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 22.0,
+    "avg_pts": 11.0
+  },
+  {
     "name": "Hoey, Josee and Hyskell, Brent",
     "results": [
       {
@@ -22643,25 +23590,6 @@
     "avg_pts": 10.78
   },
   {
-    "name": "Anderson, Constance and Ishchenko, Volodymyr",
-    "results": [
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "L- DCT Senior Silver Smooth Scholarship(W/T/F)",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "L-SR Silver Closed Smooth Championships (W/T/FT)",
-        "place": "3",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 21.5,
-    "avg_pts": 10.75
-  },
-  {
     "name": "Lew and Volynskiy",
     "results": [
       {
@@ -22717,6 +23645,91 @@
     ],
     "total_pts": 21.5,
     "avg_pts": 10.75
+  },
+  {
+    "name": "Wentworth, Amy and Merz, Timmy",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "info": "L- Open Silver 'B' Smooth MDC (W/T/F)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "info": "L- Closed Silver 'B' Smooth Dancesport Series MDC  (W/T/F)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "info": "L- Closed Silver 'B' Smooth Best of the Best (W/T/F)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "info": "L- Closed Silver 'B' Smooth Scholarship (W/T/F)",
+        "place": "6",
+        "points": 9.0
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "info": "L- Open 'B' Smooth Scholarship (W/T/F/VW)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' Pro/Am Rising Star American Smooth Multi-Dance (W/T/F/VW)",
+        "place": "6",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' WDSS/BofB Open Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' Pro/Am Open American Smooth Scholarship (W/T/F/VW)",
+        "place": "quarters",
+        "points": 0.45
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS A Amer. Smooth (W,T,F,VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Silver Amer. Smooth (W,T,F,VW)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS B Amer. Smooth (W,T,F,VW)",
+        "place": "3",
+        "points": 16.25
+      }
+    ],
+    "total_pts": 139.3,
+    "avg_pts": 10.72
   },
   {
     "name": "Sutherland, Elizabeth and Rivera, Eddie",
@@ -23243,6 +24256,43 @@
     "avg_pts": 10.55
   },
   {
+    "name": "Tippett, David and Munroe, Harmony",
+    "results": [
+      {
+        "comp_name": "Emerald Ball",
+        "info": "G- 'B' Gentlemen's Open American Smooth Championship (W/T/F/VW)",
+        "place": "3",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "G- 'C' Gentlemen's Open American Smooth Championship (W/T/F/VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' Pro/Am Open American Smooth Scholarship (W/T/F/VW)",
+        "place": "quarters",
+        "points": 0.55
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Open Scholarship Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 52.55,
+    "avg_pts": 10.51
+  },
+  {
     "name": "Towsen, Adrienne and Guida, Roberto",
     "results": [
       {
@@ -23700,55 +24750,6 @@
     "avg_pts": 10.44
   },
   {
-    "name": "Holt, Kami and Munroe, Toby",
-    "results": [
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Gold Pro-Am Multi-Dances Open B Amer. Smooth (W,T,F,VW)",
-        "place": "2",
-        "points": 17.5
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Open WDSS Championships  B Amer. Smooth Championship (W,T,F,VW)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Op. Gold Pro-Am Scholarships B Amer. Smooth (W,T,F,VW)",
-        "place": "2",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' Pro/Am Rising Star American Smooth Multi-Dance (W/T/F/VW)",
-        "place": "5",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' WDSS/BofB Open Smooth Championship (W/T/F/VW)",
-        "place": "Semis",
-        "points": 3.9
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "G- 'B' Pro/Am Open American Smooth Scholarship (W/T/F/VW)",
-        "place": "Semis",
-        "points": 5.4
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'A' Pro/Am Open American Smooth Scholarship (W/T/F/VW)",
-        "place": "Semis",
-        "points": 4.2
-      }
-    ],
-    "total_pts": 73.0,
-    "avg_pts": 10.43
-  },
-  {
     "name": "McDuffey, Arthur and Goodman, Judie",
     "results": [
       {
@@ -23768,6 +24769,31 @@
         "info": "Closed Bronze Pro-Am Scholarships C Amer. Smooth (W,T,F)",
         "place": "Semis",
         "points": 3.0
+      }
+    ],
+    "total_pts": 31.0,
+    "avg_pts": 10.33
+  },
+  {
+    "name": "Russell, Tim and de la Torre, Yvette",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "info": "G- Closed Bronze 'C' Global Gents Only Smooth MDC (W/T/F)",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Bronze  Full Bronze C Amer. Smooth Championship (W,T,F)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Bronze Scholarship Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 15.0
       }
     ],
     "total_pts": 31.0,
@@ -23878,37 +24904,6 @@
     "avg_pts": 10.25
   },
   {
-    "name": "Brink, Sylvia and Hacke, Andrej",
-    "results": [
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S1 WPDS Closed Bronze Smooth Championship (W/T/F)",
-        "place": "2",
-        "points": 8.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "L-S1 TSDSC Closed Bronze Smooth Scholarship (W/T/F)",
-        "place": "4",
-        "points": 12.5
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "L-SR1 Pro/Am Closed Bronze Smooth Championship (W/T/FT)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "L-C Best of the Best Closed Bronze Smooth Scholarship (W/T/FT)",
-        "place": "2",
-        "points": 10.5
-      }
-    ],
-    "total_pts": 41.0,
-    "avg_pts": 10.25
-  },
-  {
     "name": "Hawthorn, Scott and Nema, Alexandra",
     "results": [
       {
@@ -23951,6 +24946,25 @@
       {
         "comp_name": "wisconsin19[martin cawston]",
         "info": "L-B Pro/Am Closed Bronze Smooth Scholarship (W/T/FT)",
+        "place": "4",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 20.5,
+    "avg_pts": 10.25
+  },
+  {
+    "name": "Linde Kugel, Glenda and Korshunov, Sergey",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C1 Amer. Smooth Championship (W,T,F)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS C Amer. Smooth (W,T,F)",
         "place": "4",
         "points": 12.5
       }
@@ -24457,6 +25471,49 @@
     "avg_pts": 10.19
   },
   {
+    "name": "Brink, Sylvia and Hacke, Andrej",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S1 WPDS Closed Bronze Smooth Championship (W/T/F)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "L-S1 TSDSC Closed Bronze Smooth Scholarship (W/T/F)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "L-SR1 Pro/Am Closed Bronze Smooth Championship (W/T/FT)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "L-C Best of the Best Closed Bronze Smooth Scholarship (W/T/FT)",
+        "place": "2",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C1 Amer. Smooth Championship (W,T,F)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS C Amer. Smooth (W,T,F)",
+        "place": "5",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 61.0,
+    "avg_pts": 10.17
+  },
+  {
     "name": "Baertsch, Sonja and Welch, Benjamin",
     "results": [
       {
@@ -24580,109 +25637,6 @@
     ],
     "total_pts": 30.5,
     "avg_pts": 10.17
-  },
-  {
-    "name": "Magnesen, Scott and Zhyvkov, Yana",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "L-C Closed Silver Pro/Am 3-dance Smooth Championship (W/T/FT)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "L-C Open Silver Pro/Am 3-dance Smooth Championship (W/T/FT)",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "G-GC Closed Silver Pro/Am Gentlemen Smooth Championship (W/T/FT/VW)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "L-C Pro/Am Closed Silver Smooth Scholarship & Best of the Best (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 3.9
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "G-GC Open Pro/Am Gentlemen Smooth Championship (W/T/FT/VW)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "L-C World Pro/Am Dancesport Series Open Smooth (W/T/F/VW)",
-        "place": "6",
-        "points": 9.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "L-C Pro/Am Open Smooth Scholarship & Best of the Best (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 4.2
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "G-B1 Pro/Am Closed Silver Smooth Multi-Dance (W/T/F/VW)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "G-B Pro/Am Gents Closed Silver Smooth Scholarsship (W/T/FT/VW)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' WDSS/BofB Closed Silver Smooth Championship (W/T/F)",
-        "place": "Semis",
-        "points": 3.75
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "G- 'C' Gentlemen's Closed Silver American Smooth Championship (W/T/F/VW)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' Pro/Am Closed Silver Smooth Scholarship (W/T/F/VW)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' Pro/Am Rising Star American Smooth Multi-Dance (W/T/F/VW)",
-        "place": "Semis",
-        "points": 4.2
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "G- 'C' Gentlemen's Open American Smooth Championship (W/T/F/VW)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' WDSS/BofB Open Smooth Championship (W/T/F/VW)",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' Pro/Am Open American Smooth Scholarship (W/T/F/VW)",
-        "place": "round 1",
-        "points": 5.5
-      }
-    ],
-    "total_pts": 162.1,
-    "avg_pts": 10.13
   },
   {
     "name": "Fulgencio, Ronald and McCann, Elisa",
@@ -25830,6 +26784,19 @@
     "avg_pts": 10.0
   },
   {
+    "name": "Bales, Nathan and Nielsen, Rebecca",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS A Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
+  },
+  {
     "name": "Baretta, Marsha and Fortuna, Matt",
     "results": [
       {
@@ -25919,6 +26886,19 @@
     ],
     "total_pts": 10,
     "avg_pts": 10
+  },
+  {
+    "name": "Correll, Emma Grace and Bales, Nathan",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze PT Amer. Smooth Championship (W,T,F)",
+        "place": "1",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
   },
   {
     "name": "Coutin, Rafael and Murray, Angela",
@@ -26213,19 +27193,6 @@
         "comp_name": "Music City Invitational",
         "info": "L-C Closed Silver Smooth Scholarships (W/T/FT/VW)",
         "place": "2",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 10.0,
-    "avg_pts": 10.0
-  },
-  {
-    "name": "Kelly, Claudia and Parker, Golden",
-    "results": [
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "L-B DCT Newcomer Smooth Scholarship (W/T/FT)",
-        "place": "1",
         "points": 10.0
       }
     ],
@@ -26571,6 +27538,19 @@
     "avg_pts": 10
   },
   {
+    "name": "Shipwash, Deb and Bales, Nathan",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open 3 Dance Senior Scholarships SR1 Amer. Smooth (W,T,F)",
+        "place": "5",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
+  },
+  {
     "name": "Skjonsby, Jessica and Loufek, Spencer",
     "results": [
       {
@@ -26719,6 +27699,19 @@
       {
         "comp_name": "The Royal Ball",
         "info": "Closed Multi-Dance Bronze S1 Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Zalewski, Alexandra and Parker, Golden",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze JR Amer. Smooth Championship (W,T,F)",
         "place": "1",
         "points": 10.0
       }
@@ -27085,25 +28078,6 @@
     "avg_pts": 9.85
   },
   {
-    "name": "Dinler, Defne and Kravets, Yuriy",
-    "results": [
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' WDSS/BofB  Closed Silver Smooth Championship (W/T/F)",
-        "place": "4",
-        "points": 12.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' Pro/Am Closed Silver Smooth Scholarship (W/T/F/VW)",
-        "place": "Semis",
-        "points": 7.2
-      }
-    ],
-    "total_pts": 19.7,
-    "avg_pts": 9.85
-  },
-  {
     "name": "Hutton and Lukic",
     "results": [
       {
@@ -27336,6 +28310,19 @@
       {
         "comp_name": "The Royal Ball",
         "info": "Closed Multi-Dance Silver C Amer. Smooth (W,T,F)",
+        "place": "3",
+        "points": 9.75
+      }
+    ],
+    "total_pts": 9.75,
+    "avg_pts": 9.75
+  },
+  {
+    "name": "Kritikos, Viveane and Bales, Nathan",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Bronze Amer. Smooth (W,T,F,VW)",
         "place": "3",
         "points": 9.75
       }
@@ -27970,6 +28957,43 @@
     "avg_pts": 9.47
   },
   {
+    "name": "Correll, Kim and Nardozza, Robert",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "info": "L- Closed Bronze 'B' Smooth Best of the Best (W/T/F)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "info": "L- Closed Bronze 'B' Smooth Scholarship (W/T/F)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' WDSS/BofB  Closed Silver Smooth Championship (W/T/F)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' Pro/Am Closed Silver Smooth Scholarship (W/T/F/VW)",
+        "place": "quarters",
+        "points": 1.6
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS B Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 47.1,
+    "avg_pts": 9.42
+  },
+  {
     "name": "Obolsky, Dina and Minkov, Peter",
     "results": [
       {
@@ -28496,59 +29520,29 @@
     "avg_pts": 9.34
   },
   {
-    "name": "Wentworth, Amy and Merz, Timmy",
+    "name": "Corn, Carolyn and Hopkins, Hays",
     "results": [
       {
-        "comp_name": "The Snow Ball",
-        "info": "L- Open Silver 'B' Smooth MDC (W/T/F)",
-        "place": "1",
-        "points": 20.0
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver C1 Amer. Smooth Championship (W,T,F,VW)",
+        "place": "4",
+        "points": 7.5
       },
       {
-        "comp_name": "The Snow Ball",
-        "info": "L- Closed Silver 'B' Smooth Dancesport Series MDC  (W/T/F)",
-        "place": "2",
-        "points": 12.0
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Senior  SR1 Amer. Smooth Championship (W,T,F)",
+        "place": "3",
+        "points": 13.0
       },
       {
-        "comp_name": "The Snow Ball",
-        "info": "L- Closed Silver 'B' Smooth Best of the Best (W/T/F)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "The Snow Ball",
-        "info": "L- Closed Silver 'B' Smooth Scholarship (W/T/F)",
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open 3 Dance Senior Scholarships SR1 Amer. Smooth (W,T,F)",
         "place": "6",
-        "points": 9.0
-      },
-      {
-        "comp_name": "The Snow Ball",
-        "info": "L- Open 'B' Smooth Scholarship (W/T/F/VW)",
-        "place": "5",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' Pro/Am Rising Star American Smooth Multi-Dance (W/T/F/VW)",
-        "place": "6",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' WDSS/BofB Open Smooth Championship (W/T/F/VW)",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' Pro/Am Open American Smooth Scholarship (W/T/F/VW)",
-        "place": "quarters",
-        "points": 0.45
+        "points": 7.5
       }
     ],
-    "total_pts": 74.55,
-    "avg_pts": 9.32
+    "total_pts": 28.0,
+    "avg_pts": 9.33
   },
   {
     "name": "Tallerino, Toni and Montagnese, Bradley",
@@ -28586,6 +29580,37 @@
     ],
     "total_pts": 46.6,
     "avg_pts": 9.32
+  },
+  {
+    "name": "Haynes, Susan and Spisak, Lukas",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "7",
+        "points": 8.75
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS B Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 37.25,
+    "avg_pts": 9.31
   },
   {
     "name": "Ward, Patty and Desterhaft, Allen",
@@ -29525,6 +30550,109 @@
     "avg_pts": 8.95
   },
   {
+    "name": "Walker, Christian and Orlowska, Izabela",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "G-A1 Pro/Am Closed Bronze Smooth Multi-Dance (W/T)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "G-A2 Pro/Am Closed Bronze Smooth Multi-Dance (W/T)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "G-A1 Pro/Am Closed Bronze Smooth Multi-Dance (FT/VW)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "G-A2 Pro/Am Closed Bronze Smooth Multi-Dance (FT/VW)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "G-A Pro/Am Gents Closed Bronze Smooth Scholarship (W/T/FT)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-A Pro/Am Closed Bronze Smooth Scholarship (W/T/FT)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Bronze Pro-Am Multi-Dances Closed A Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Gents Only Bronze Multi-Dances Closed A Men Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Cl. Bronze Pro-Am Scholarships A Amer. Smooth (W,T,F)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Cl. Bronze Pro-Am Scholarships GC Amer. Smooth (W,T,F)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Bronze WDSS Qualifiers A Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "G- 'A' Gentlemen's Closed Bronze American Smooth Championship (W/T/F)",
+        "place": "2",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'A' WDSS/BofB  Closed Bronze Smooth Championship (W/T/F)",
+        "place": "4",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'A' Pro/Am Closed Bronze Smooth Scholarship (W/T/F)",
+        "place": "4",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS A Amer. Smooth (W,T,F)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Bronze Scholarship Amer. Smooth (W,T,F)",
+        "place": "3",
+        "points": 9.75
+      }
+    ],
+    "total_pts": 143.25,
+    "avg_pts": 8.95
+  },
+  {
     "name": "Lindsay and Samchynskyy",
     "results": [
       {
@@ -29665,6 +30793,163 @@
     ],
     "total_pts": 62.0,
     "avg_pts": 8.86
+  },
+  {
+    "name": "Blakeslee, Jan and Gronek, Jean-Paul",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-SR1 Closed Silver Smooth 4 Dance (W/T/FT/VW)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-SR1 Open Silver Smooth 4 Dance (W/T/FT/VW)",
+        "place": "3",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-SR1 Pro/Am Open Smooth 4 Dance (W/T/FT/VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L- Pro/Am Open Senior Smooth Scholarship (W/T/FT/VW)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "L-SR1 Silver Smooth (W/T/F/VW) Closed Multi-Dance Challenge",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "L-SR1 Silver Smooth (W/T/F/VW) Open Multi-Dance Challenge",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "G-SR Pro/Am DSS Closed Silver Smooth Scholarship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "L-SR1 DSS Open Smooth (W/T/F/VW)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "L-C Open Smooth Silver 3-Dance (W/T/F)",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "L-C Closed Smooth Silver 3-Dance (W/T/F)",
+        "place": "6",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-B2 Pro/Am Closed Silver Smooth Multi-Dance (W/T/F/VW)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-SR1 Pro/Am Closed Senior Smooth Scholarship (W/T/FT)",
+        "place": "quarters",
+        "points": 0.8
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-SR! Pro/Am Open Senior Smooth Multi Dance (W/T/FT/VW)",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-SR1 Pro/Am Open Senior Smooth Scholarship (W/T/FT/VW)",
+        "place": "quarters",
+        "points": 3.15
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-C2 Pro/Am Closed Silver Smooth 3-Dance Championship (W/T/FT)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-SR Pro/Am Closed Silver Smooth Scholarship (W/T/FT)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-SR Pro/Am Open Smooth Scholarship (W/T/FT/VW)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "L-SR1 Pro/Am Closed Silver Smooth Championship (W/T/FT/VW)",
+        "place": "3",
+        "points": 4.5
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "L-SR1 Pro/Am Open Silver Smooth Championship (W/T/FT/VW)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "L- DCT Senior Closed Silver Smooth Scholarship (W/T/FT)",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "L- DCT Senior Open Smooth Scholarship (W/T/FT/VW)",
+        "place": "2",
+        "points": 17.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver C1 Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Open Full Silver C1 Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Senior  SR1 Amer. Smooth Championship (W,T,F)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open 3 Dance Senior Scholarships SR1 Amer. Smooth (W,T,F)",
+        "place": "7",
+        "points": 6.25
+      }
+    ],
+    "total_pts": 221.0,
+    "avg_pts": 8.84
   },
   {
     "name": "Parmes, Penelope and Watkins, Mikal",
@@ -29967,6 +31252,25 @@
     "avg_pts": 8.75
   },
   {
+    "name": "Kelly, Claudia and Parker, Golden",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-B DCT Newcomer Smooth Scholarship (W/T/FT)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS B Amer. Smooth (W,T,F)",
+        "place": "6",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 17.5,
+    "avg_pts": 8.75
+  },
+  {
     "name": "Kirby, Rebecca and Abrams, John",
     "results": [
       {
@@ -30210,97 +31514,6 @@
     "avg_pts": 8.69
   },
   {
-    "name": "Walker, Christian and Orlowska, Izabela",
-    "results": [
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "G-A1 Pro/Am Closed Bronze Smooth Multi-Dance (W/T)",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "G-A2 Pro/Am Closed Bronze Smooth Multi-Dance (W/T)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "G-A1 Pro/Am Closed Bronze Smooth Multi-Dance (FT/VW)",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "G-A2 Pro/Am Closed Bronze Smooth Multi-Dance (FT/VW)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "G-A Pro/Am Gents Closed Bronze Smooth Scholarship (W/T/FT)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-A Pro/Am Closed Bronze Smooth Scholarship (W/T/FT)",
-        "place": "Semis",
-        "points": 3.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Bronze Pro-Am Multi-Dances Closed A Amer. Smooth (W,T,F)",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Gents Only Bronze Multi-Dances Closed A Men Amer. Smooth (W,T,F)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Cl. Bronze Pro-Am Scholarships A Amer. Smooth (W,T,F)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Cl. Bronze Pro-Am Scholarships GC Amer. Smooth (W,T,F)",
-        "place": "2",
-        "points": 9.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Bronze WDSS Qualifiers A Amer. Smooth (W,T,F)",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "G- 'A' Gentlemen's Closed Bronze American Smooth Championship (W/T/F)",
-        "place": "2",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'A' WDSS/BofB  Closed Bronze Smooth Championship (W/T/F)",
-        "place": "4",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'A' Pro/Am Closed Bronze Smooth Scholarship (W/T/F)",
-        "place": "4",
-        "points": 4.5
-      }
-    ],
-    "total_pts": 121.5,
-    "avg_pts": 8.68
-  },
-  {
     "name": "Downs, Christine and Kozun, Artur",
     "results": [
       {
@@ -30365,49 +31578,6 @@
       }
     ],
     "total_pts": 86.7,
-    "avg_pts": 8.67
-  },
-  {
-    "name": "Pope, Lynette and Baker, Brian",
-    "results": [
-      {
-        "comp_name": "2019 First Coast Classic",
-        "info": "L-B Closed Smooth Bronze 3-Dance (W/T/F)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "info": "L-B World Master's Pro/Am Smooth Closed Bronze Scholarship (W/T/F/VW)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "L-C Closed Bronze Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "L-C Closed American Smooth Bronze Best of the Best & Scholarship (W/T/F)",
-        "place": "Semis",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Savannah Dance Classic",
-        "info": "L-B1 American Smooth Closed Bronze 3-Dance (W/T/F)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Savannah Dance Classic",
-        "info": "L-B Pro/Am Bronze Closed American Smooth Scholarship (W/T/F)",
-        "place": "2",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 52.0,
     "avg_pts": 8.67
   },
   {
@@ -30986,139 +32156,6 @@
     "avg_pts": 8.45
   },
   {
-    "name": "Blakeslee, Jan and Gronek, Jean-Paul",
-    "results": [
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "L-SR1 Closed Silver Smooth 4 Dance (W/T/FT/VW)",
-        "place": "5",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "L-SR1 Open Silver Smooth 4 Dance (W/T/FT/VW)",
-        "place": "3",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "L-SR1 Pro/Am Open Smooth 4 Dance (W/T/FT/VW)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "L- Pro/Am Open Senior Smooth Scholarship (W/T/FT/VW)",
-        "place": "4",
-        "points": 12.5
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "L-SR1 Silver Smooth (W/T/F/VW) Closed Multi-Dance Challenge",
-        "place": "Semis",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "L-SR1 Silver Smooth (W/T/F/VW) Open Multi-Dance Challenge",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "G-SR Pro/Am DSS Closed Silver Smooth Scholarship (W/T/F/VW)",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "L-SR1 DSS Open Smooth (W/T/F/VW)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "info": "L-C Open Smooth Silver 3-Dance (W/T/F)",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "info": "L-C Closed Smooth Silver 3-Dance (W/T/F)",
-        "place": "6",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-B2 Pro/Am Closed Silver Smooth Multi-Dance (W/T/F/VW)",
-        "place": "Semis",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-SR1 Pro/Am Closed Senior Smooth Scholarship (W/T/FT)",
-        "place": "quarters",
-        "points": 0.8
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-SR! Pro/Am Open Senior Smooth Multi Dance (W/T/FT/VW)",
-        "place": "6",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-SR1 Pro/Am Open Senior Smooth Scholarship (W/T/FT/VW)",
-        "place": "quarters",
-        "points": 3.15
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-C2 Pro/Am Closed Silver Smooth 3-Dance Championship (W/T/FT)",
-        "place": "4",
-        "points": 12.5
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-SR Pro/Am Closed Silver Smooth Scholarship (W/T/FT)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-SR Pro/Am Open Smooth Scholarship (W/T/FT/VW)",
-        "place": "4",
-        "points": 12.5
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "L-SR1 Pro/Am Closed Silver Smooth Championship (W/T/FT/VW)",
-        "place": "3",
-        "points": 4.5
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "L-SR1 Pro/Am Open Silver Smooth Championship (W/T/FT/VW)",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "L- DCT Senior Closed Silver Smooth Scholarship (W/T/FT)",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "L- DCT Senior Open Smooth Scholarship (W/T/FT/VW)",
-        "place": "2",
-        "points": 17.5
-      }
-    ],
-    "total_pts": 176.75,
-    "avg_pts": 8.42
-  },
-  {
     "name": "Halper, Kat and Alvarez, David",
     "results": [
       {
@@ -31416,31 +32453,6 @@
     "avg_pts": 8.27
   },
   {
-    "name": "Stroz, Lisa and Kibel, Mitchel",
-    "results": [
-      {
-        "comp_name": "2019people[forrest vance]",
-        "info": "L-C Bronze American Smooth  Multi Dance (W/T/F)",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "2019people[forrest vance]",
-        "info": "L-C Closed Bronze Smooth Scholarship (W/T/F)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "2019people[forrest vance]",
-        "info": "L-C Bronze World Dancesport Series (W/T)",
-        "place": "3",
-        "points": 5.0
-      }
-    ],
-    "total_pts": 24.75,
-    "avg_pts": 8.25
-  },
-  {
     "name": "Au, Winnie and Spasov, Ivan",
     "results": [
       {
@@ -31677,6 +32689,43 @@
     ],
     "total_pts": 24.5,
     "avg_pts": 8.17
+  },
+  {
+    "name": "Berndt, Edward and Mokris, Ashley",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "4",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Silver  Full Silver C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "7",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Silver Scholarship Amer. Smooth (W,T,F,VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Silver Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 47.6,
+    "avg_pts": 9.52
   },
   {
     "name": "Leatherbury, Theresa and Nadeau, Stephen",
@@ -32065,6 +33114,19 @@
     "avg_pts": 8.0
   },
   {
+    "name": "Harrington, Kirsten and Munroe, Toby",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze JR Amer. Smooth Championship (W,T,F)",
+        "place": "2",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 8.0,
+    "avg_pts": 8.0
+  },
+  {
     "name": "Himmelreich, David and Archer, Shalene",
     "results": [
       {
@@ -32083,6 +33145,19 @@
       {
         "comp_name": "Michigan DanceSport Challenge",
         "info": "L-SR! Pro/Am Open Senior Smooth Multi Dance (W/T/FT/VW)",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 8.0,
+    "avg_pts": 8.0
+  },
+  {
+    "name": "Lasek, Ron and de la Torre, Yvette",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Senior  SR1 Amer. Smooth Championship (W,T,F)",
         "place": "5",
         "points": 8.0
       }
@@ -32290,6 +33365,61 @@
     "avg_pts": 7.96
   },
   {
+    "name": "Pope, Lynette and Baker, Brian",
+    "results": [
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "L-B Closed Smooth Bronze 3-Dance (W/T/F)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "L-B World Master's Pro/Am Smooth Closed Bronze Scholarship (W/T/F/VW)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "L-C Closed Bronze Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "L-C Closed American Smooth Bronze Best of the Best & Scholarship (W/T/F)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "info": "L-B1 American Smooth Closed Bronze 3-Dance (W/T/F)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "info": "L-B Pro/Am Bronze Closed American Smooth Scholarship (W/T/F)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C Amer. Smooth Championship (W,T,F)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS B Amer. Smooth (W,T,F)",
+        "place": "5",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 70.0,
+    "avg_pts": 8.75
+  },
+  {
     "name": "Mason, Christa and Dolgopolov, Dmitri",
     "results": [
       {
@@ -32358,6 +33488,37 @@
     "avg_pts": 7.92
   },
   {
+    "name": "Napp, Kathy and Kravets, Yuriy",
+    "results": [
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' WDSS/BofB Closed Bronze Smooth Championship (W/T/F)",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' Pro/Am Closed Bronze Smooth Scholarship (W/T/F)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze B Amer. Smooth Championship (W,T,F)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS C Amer. Smooth (W,T,F)",
+        "place": "3",
+        "points": 16.25
+      }
+    ],
+    "total_pts": 31.65,
+    "avg_pts": 7.91
+  },
+  {
     "name": "Marrero, Elizabeth and Kiss, Ferenc",
     "results": [
       {
@@ -32392,6 +33553,37 @@
       }
     ],
     "total_pts": 39.5,
+    "avg_pts": 7.9
+  },
+  {
+    "name": "Holub, Grace and Munroe, Toby",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "info": "L-B1 Closed Silver Smooth 4 Dance (W/T/F/VW)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "City Lights Ball",
+        "info": "L-B Closed Silver Smooth Scholarship (W/T/FT/VW)",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 31.6,
     "avg_pts": 7.9
   },
   {
@@ -32593,6 +33785,37 @@
     "avg_pts": 7.83
   },
   {
+    "name": "Pederson, Diana and Gregory, Matt",
+    "results": [
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-A Pro/Am Closed Bronze DSQ Smooth 3 Dance (W/T/FT)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-A Pro/Am Closed Bronze Smooth Scholarship (W/T/FT)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze A Amer. Smooth Championship (W,T,F)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS A Amer. Smooth (W,T,F)",
+        "place": "3",
+        "points": 9.75
+      }
+    ],
+    "total_pts": 31.25,
+    "avg_pts": 7.81
+  },
+  {
     "name": "Bamforth, Deb and Bergendahl, Scott",
     "results": [
       {
@@ -32610,37 +33833,6 @@
     ],
     "total_pts": 15.6,
     "avg_pts": 7.8
-  },
-  {
-    "name": "Correll, Kim and Nardozza, Robert",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "info": "L- Closed Bronze 'B' Smooth Best of the Best (W/T/F)",
-        "place": "3",
-        "points": 6.5
-      },
-      {
-        "comp_name": "The Snow Ball",
-        "info": "L- Closed Bronze 'B' Smooth Scholarship (W/T/F)",
-        "place": "2",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' WDSS/BofB  Closed Silver Smooth Championship (W/T/F)",
-        "place": "Semis",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' Pro/Am Closed Silver Smooth Scholarship (W/T/F/VW)",
-        "place": "quarters",
-        "points": 1.6
-      }
-    ],
-    "total_pts": 31.1,
-    "avg_pts": 7.78
   },
   {
     "name": "Marie, Georgianna and Burson, Chad",
@@ -32791,6 +33983,25 @@
     "avg_pts": 7.75
   },
   {
+    "name": "Beckerman, Dan and de la Torre, Yvette",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Silver  Full Silver C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Silver Scholarship Amer. Smooth (W,T,F,VW)",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 15.5,
+    "avg_pts": 7.75
+  },
+  {
     "name": "Fitzgerald, Lizbeth and Rykowski, Greg",
     "results": [
       {
@@ -32840,6 +34051,25 @@
       {
         "comp_name": "wisconsin19[martin cawston]",
         "info": "L-A Pro/Am Closed Silver Smooth Scholarship (W/T/FT)",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 15.5,
+    "avg_pts": 7.75
+  },
+  {
+    "name": "Wade, Kristen and Koogle, Scott",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS A Amer. Smooth (W,T,F,VW)",
         "place": "5",
         "points": 8.0
       }
@@ -33443,6 +34673,25 @@
     "avg_pts": 7.5
   },
   {
+    "name": "Demio, Robin and Parker, Golden",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "info": "L- Closed Newcomer Bronze 'C' Smooth Dancesport Series MDC (W/T/F)",
+        "place": "1",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C Amer. Smooth Championship (W,T,F)",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 7.5
+  },
+  {
     "name": "Hibel, Janet and DiLorenzo, Paolo",
     "results": [
       {
@@ -33711,11 +34960,37 @@
     "avg_pts": 7.5
   },
   {
+    "name": "Foy, Janet and Bales, Nathan",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Open Full Bronze C Amer. Smooth Championship (W,T,F)",
+        "place": "2",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
+  },
+  {
     "name": "Gadient, Breanna and Loufek, Spencer",
     "results": [
       {
         "comp_name": "The Snow Ball",
         "info": "L- Closed Silver 'A' Smooth Dancesport Series MDC  (W/T/F)",
+        "place": "4",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
+  },
+  {
+    "name": "Gaydusek, Doug and Morin, Nichola",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS A Amer. Smooth (W,T,F)",
         "place": "4",
         "points": 7.5
       }
@@ -33997,12 +35272,12 @@
     "avg_pts": 7.5
   },
   {
-    "name": "Roberts, Scott and Palmieri, Rachel",
+    "name": "Ramirez, Ching and Ishchenko, Volodymyr",
     "results": [
       {
-        "comp_name": "Majesty Dancesport",
-        "info": "G-MENS Closed Smooth 3-Dance Challenge (W/T/F)",
-        "place": "4",
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS C Amer. Smooth (W,T,F)",
+        "place": "6",
         "points": 7.5
       }
     ],
@@ -34010,11 +35285,11 @@
     "avg_pts": 7.5
   },
   {
-    "name": "Seyffer, Katy and Bales, Nathan",
+    "name": "Roberts, Scott and Palmieri, Rachel",
     "results": [
       {
-        "comp_name": "The Snow Ball",
-        "info": "L- Closed Bronze 'A' Smooth Scholarship (W/T/F)",
+        "comp_name": "Majesty Dancesport",
+        "info": "G-MENS Closed Smooth 3-Dance Challenge (W/T/F)",
         "place": "4",
         "points": 7.5
       }
@@ -34914,6 +36189,37 @@
       }
     ],
     "total_pts": 36.5,
+    "avg_pts": 7.3
+  },
+  {
+    "name": "Smith, Nancy and Hopkins, Hays",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "6",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Silver Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 4.2
+      }
+    ],
+    "total_pts": 29.2,
     "avg_pts": 7.3
   },
   {
@@ -36095,61 +37401,6 @@
     "avg_pts": 6.9
   },
   {
-    "name": "Barr, Marty and Baker, Brian",
-    "results": [
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-B2 Pro/Am Closed Silver Smooth Multi-Dance (W/T/F/VW)",
-        "place": "Semis",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-SR1 Pro/Am Closed Silver Smooth Scholarship (W/T/FT/VW)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-C2 Pro/Am Closed Silver Smooth 3-Dance Championship (W/T/FT)",
-        "place": "Semis",
-        "points": 3.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-SR Pro/Am Closed Silver Smooth Scholarship (W/T/FT)",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "L-C1 Closed Silver Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
-        "place": "3",
-        "points": 4.5
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "L-S1 Closed Silver GLOBAL American Smooth 3 dance Scholarship (W/T/F)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Savannah Dance Classic",
-        "info": "L-B2 American Smooth Closed Silver 4-Dance (W/T/F/VW)",
-        "place": "5",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Savannah Dance Classic",
-        "info": "L-SR1 Pro/Am Silver Closed American Smooth Scholarship (W/T/F/VW)",
-        "place": "4",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 55.1,
-    "avg_pts": 6.89
-  },
-  {
     "name": "Zadra, Lynda and Verazzano, Angelo",
     "results": [
       {
@@ -36304,6 +37555,73 @@
     ],
     "total_pts": 13.75,
     "avg_pts": 6.88
+  },
+  {
+    "name": "Barr, Marty and Baker, Brian",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-B2 Pro/Am Closed Silver Smooth Multi-Dance (W/T/F/VW)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-SR1 Pro/Am Closed Silver Smooth Scholarship (W/T/FT/VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-C2 Pro/Am Closed Silver Smooth 3-Dance Championship (W/T/FT)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-SR Pro/Am Closed Silver Smooth Scholarship (W/T/FT)",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "L-C1 Closed Silver Pro/Am 3-Dance Challenge American Smooth (W/T/FT)",
+        "place": "3",
+        "points": 4.5
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "L-S1 Closed Silver GLOBAL American Smooth 3 dance Scholarship (W/T/F)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "info": "L-B2 American Smooth Closed Silver 4-Dance (W/T/F/VW)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "info": "L-SR1 Pro/Am Silver Closed American Smooth Scholarship (W/T/F/VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver C1 Amer. Smooth Championship (W,T,F,VW)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 68.45,
+    "avg_pts": 6.85
   },
   {
     "name": "Moriarity, Patrick and Peterson, Grace",
@@ -36730,6 +38048,67 @@
     "avg_pts": 6.75
   },
   {
+    "name": "Fish, Brandie and Gregory, Matt",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "L-A Closed Bronze Pro/Am 3-dance Smooth Championship (W/T/FT)",
+        "place": "3",
+        "points": 3.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "L-B Closed Bronze Pro/Am 3-dance Smooth Championship (W/T/FT)",
+        "place": "6",
+        "points": 3.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "L-B Pro/Am Dancesport Series Closed Bronze Smooth Championship (W/T/FT)",
+        "place": "3",
+        "points": 3.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "L-A Pro/Am Closed Bronze Smooth Scholarship & Best of the Best (W/T/FT)",
+        "place": "3",
+        "points": 4.5
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "L-B Pro/Am Closed Bronze Smooth Scholarship & Best of the Best (W/T/FT)",
+        "place": "7",
+        "points": 3.75
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-B Pro/Am Closed Bronze DSQ Smooth 3 Dance (W/T/FT)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-B Pro/Am Closed Bronze Smooth Scholarship (W/T/FT)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze B Amer. Smooth Championship (W,T,F)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS B Amer. Smooth (W,T,F)",
+        "place": "3",
+        "points": 16.25
+      }
+    ],
+    "total_pts": 60.5,
+    "avg_pts": 6.72
+  },
+  {
     "name": "Golden, Jill and Daly, Jason",
     "results": [
       {
@@ -36784,6 +38163,31 @@
     ],
     "total_pts": 20.0,
     "avg_pts": 6.67
+  },
+  {
+    "name": "Moore, Michael and Corey, Jennifer",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "7",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Open Scholarship Amer. Smooth (W,T,F,VW)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 4.9
+      }
+    ],
+    "total_pts": 19.9,
+    "avg_pts": 6.63
   },
   {
     "name": "Brisco, Tom and Phillips, Symphony",
@@ -36901,31 +38305,6 @@
       }
     ],
     "total_pts": 32.6,
-    "avg_pts": 6.52
-  },
-  {
-    "name": "Tippett, David and Munroe, Harmony",
-    "results": [
-      {
-        "comp_name": "Emerald Ball",
-        "info": "G- 'B' Gentlemen's Open American Smooth Championship (W/T/F/VW)",
-        "place": "3",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "G- 'C' Gentlemen's Open American Smooth Championship (W/T/F/VW)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' Pro/Am Open American Smooth Scholarship (W/T/F/VW)",
-        "place": "quarters",
-        "points": 0.55
-      }
-    ],
-    "total_pts": 19.55,
     "avg_pts": 6.52
   },
   {
@@ -37828,6 +39207,61 @@
     "avg_pts": 6.17
   },
   {
+    "name": "Johnson, Linda and Merz, Timmy",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "L-SR1 Bronze Smooth (W/T/F) Closed Multi-Dance Challenge",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "L-SR Pro/Am DSS Closed Bronze Smooth Scholarship (W/T/F)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Bronze Pro-Am Multi-Dances Closed C Amer. Smooth (W,T,F)",
+        "place": "7",
+        "points": 2.5
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Cl. Bronze Pro-Am Scholarships C Amer. Smooth (W,T,F)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Cl Bronze Global Pro-Am Scholarships C Amer. Smooth (W,T,F)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C1 Amer. Smooth Championship (W,T,F)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS C Amer. Smooth (W,T,F)",
+        "place": "7",
+        "points": 6.25
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Bronze Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 49.25,
+    "avg_pts": 6.16
+  },
+  {
     "name": "Siclare, Karen and Campbell, John",
     "results": [
       {
@@ -38037,6 +39471,43 @@
     ],
     "total_pts": 24.2,
     "avg_pts": 6.05
+  },
+  {
+    "name": "Stroz, Lisa and Kibel, Mitchel",
+    "results": [
+      {
+        "comp_name": "2019people[forrest vance]",
+        "info": "L-C Bronze American Smooth  Multi Dance (W/T/F)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "2019people[forrest vance]",
+        "info": "L-C Closed Bronze Smooth Scholarship (W/T/F)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "2019people[forrest vance]",
+        "info": "L-C Bronze World Dancesport Series (W/T)",
+        "place": "3",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C Amer. Smooth Championship (W,T,F)",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS C Amer. Smooth (W,T,F)",
+        "place": "Semis",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 30.15,
+    "avg_pts": 6.03
   },
   {
     "name": "Lundeen, Sarah and Welch, Benjamin",
@@ -38268,12 +39739,38 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Desantis, Cho Cho and Bales, Nathan",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "5",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Eklund, Christian and Gentry, Rebecca",
     "results": [
       {
         "comp_name": "Washington Open Dancesport Competition",
         "info": "L-A Closed Bronze Smooth Multi-Dance Challenge (W/T/F)",
         "place": "2",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Fager, Andrew and Hotz, Ricci-Lee",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Bronze Scholarship Amer. Smooth (W,T,F)",
+        "place": "5",
         "points": 6.0
       }
     ],
@@ -38450,6 +39947,19 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Mullin, Terri and Bales, Nathan",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C Amer. Smooth Championship (W,T,F)",
+        "place": "6",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Odiorne, Linda and Kibel, Mitchel",
     "results": [
       {
@@ -38476,11 +39986,24 @@
     "avg_pts": 6.0
   },
   {
-    "name": "Russell, Tim and de la Torre, Yvette",
+    "name": "Peterson, Robb and Corey, Jennifer",
     "results": [
       {
-        "comp_name": "The Snow Ball",
-        "info": "G- Closed Bronze 'C' Global Gents Only Smooth MDC (W/T/F)",
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "5",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Pilibosian, Heidi and Bales, Nathan",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze A Amer. Smooth Championship (W,T,F)",
         "place": "2",
         "points": 6.0
       }
@@ -38660,124 +40183,6 @@
     "avg_pts": 5.87
   },
   {
-    "name": "Amadio, Julia and Reyes, Romney",
-    "results": [
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-C American Smooth Bronze Closed (W/T/F)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-C American Smooth Open Bronze (W/T/F)",
-        "place": "2",
-        "points": 7.5
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-C American Smooth Closed Bronze Scholarships (W/T/F)",
-        "place": "5",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 17.5,
-    "avg_pts": 5.83
-  },
-  {
-    "name": "Savage, Erica and Blizzard, Aaron",
-    "results": [
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-A2 Pro/Am Closed Bronze Smooth Multi-Dance (W/T)",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-A2 Pro/Am Closed Bronze Smooth Multi-Dance (FT/VW)",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-A Pro/Am Closed Bronze Smooth Scholarship (W/T/FT)",
-        "place": "6",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 17.5,
-    "avg_pts": 5.83
-  },
-  {
-    "name": "Mottram, Melanie and Zhyvkov, Tykhon",
-    "results": [
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' WDSS/BofB Closed Bronze Smooth Championship (W/T/F)",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' WDSS/BofB  Closed Bronze Smooth Championship (W/T/F)",
-        "place": "6",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' Pro/Am Closed Bronze Smooth Scholarship (W/T/F)",
-        "place": "6",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'B' Pro/Am Closed Bronze Smooth Scholarship (W/T/F)",
-        "place": "Semis",
-        "points": 4.75
-      }
-    ],
-    "total_pts": 23.25,
-    "avg_pts": 5.81
-  },
-  {
-    "name": "Johnson, Linda and Merz, Timmy",
-    "results": [
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "L-SR1 Bronze Smooth (W/T/F) Closed Multi-Dance Challenge",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "L-SR Pro/Am DSS Closed Bronze Smooth Scholarship (W/T/F)",
-        "place": "5",
-        "points": 6.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Bronze Pro-Am Multi-Dances Closed C Amer. Smooth (W,T,F)",
-        "place": "7",
-        "points": 2.5
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Cl. Bronze Pro-Am Scholarships C Amer. Smooth (W,T,F)",
-        "place": "Semis",
-        "points": 3.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Cl Bronze Global Pro-Am Scholarships C Amer. Smooth (W,T,F)",
-        "place": "3",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 29.0,
-    "avg_pts": 5.8
-  },
-  {
     "name": "Loving, Ada and Munson, Todd",
     "results": [
       {
@@ -38911,10 +40316,109 @@
         "info": "G- 'S1' Pro/Am Closed Bronze Smooth Scholarship (W/T/F)",
         "place": "Semis",
         "points": 3.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze D Amer. Smooth Championship (W,T,F)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C1 Amer. Smooth Championship (W,T,F)",
+        "place": "6",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Bronze Amer. Smooth (W,T,F,VW)",
+        "place": "5",
+        "points": 6.0
       }
     ],
-    "total_pts": 127.35,
-    "avg_pts": 5.79
+    "total_pts": 146.35,
+    "avg_pts": 5.85
+  },
+  {
+    "name": "Amadio, Julia and Reyes, Romney",
+    "results": [
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-C American Smooth Bronze Closed (W/T/F)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-C American Smooth Open Bronze (W/T/F)",
+        "place": "2",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-C American Smooth Closed Bronze Scholarships (W/T/F)",
+        "place": "5",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 17.5,
+    "avg_pts": 5.83
+  },
+  {
+    "name": "Savage, Erica and Blizzard, Aaron",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-A2 Pro/Am Closed Bronze Smooth Multi-Dance (W/T)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-A2 Pro/Am Closed Bronze Smooth Multi-Dance (FT/VW)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-A Pro/Am Closed Bronze Smooth Scholarship (W/T/FT)",
+        "place": "6",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 17.5,
+    "avg_pts": 5.83
+  },
+  {
+    "name": "Mottram, Melanie and Zhyvkov, Tykhon",
+    "results": [
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' WDSS/BofB Closed Bronze Smooth Championship (W/T/F)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' WDSS/BofB  Closed Bronze Smooth Championship (W/T/F)",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'C' Pro/Am Closed Bronze Smooth Scholarship (W/T/F)",
+        "place": "6",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'B' Pro/Am Closed Bronze Smooth Scholarship (W/T/F)",
+        "place": "Semis",
+        "points": 4.75
+      }
+    ],
+    "total_pts": 23.25,
+    "avg_pts": 5.81
   },
   {
     "name": "McCarthy and Phillips",
@@ -39027,25 +40531,6 @@
         "info": "L-B Pro/Am DCT Newcomer Smooth Scholarship (W/T/FT)",
         "place": "3",
         "points": 6.5
-      }
-    ],
-    "total_pts": 11.5,
-    "avg_pts": 5.75
-  },
-  {
-    "name": "Pederson, Diana and Gregory, Matt",
-    "results": [
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-A Pro/Am Closed Bronze DSQ Smooth 3 Dance (W/T/FT)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-A Pro/Am Closed Bronze Smooth Scholarship (W/T/FT)",
-        "place": "4",
-        "points": 7.5
       }
     ],
     "total_pts": 11.5,
@@ -39437,6 +40922,25 @@
     "avg_pts": 5.55
   },
   {
+    "name": "Hinkle, Beth and Koogle, Scott",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "6",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 11.1,
+    "avg_pts": 5.55
+  },
+  {
     "name": "Leszcynski, Lawrence and Harris, Kimberly",
     "results": [
       {
@@ -39563,6 +41067,25 @@
     "avg_pts": 5.5
   },
   {
+    "name": "Franklin, Melissa and Hopkins, Hays",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze B Amer. Smooth Championship (W,T,F)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS B Amer. Smooth (W,T,F)",
+        "place": "Semis",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 11.0,
+    "avg_pts": 5.5
+  },
+  {
     "name": "Groth, Paul and Preczewski, Pamela",
     "results": [
       {
@@ -39576,6 +41099,25 @@
         "info": "G-B2 Pro/Am Closed Bronze Smooth Multi-Dance (FT/VW)",
         "place": "2",
         "points": 7.0
+      }
+    ],
+    "total_pts": 11.0,
+    "avg_pts": 5.5
+  },
+  {
+    "name": "Napp, Tom and Corey, Jennifer",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Bronze  Full Bronze C Amer. Smooth Championship (W,T,F)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS C Amer. Smooth (W,T,F)",
+        "place": "Semis",
+        "points": 3.0
       }
     ],
     "total_pts": 11.0,
@@ -39750,55 +41292,6 @@
     ],
     "total_pts": 10.8,
     "avg_pts": 5.4
-  },
-  {
-    "name": "Fish, Brandie and Gregory, Matt",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "L-A Closed Bronze Pro/Am 3-dance Smooth Championship (W/T/FT)",
-        "place": "3",
-        "points": 3.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "L-B Closed Bronze Pro/Am 3-dance Smooth Championship (W/T/FT)",
-        "place": "6",
-        "points": 3.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "L-B Pro/Am Dancesport Series Closed Bronze Smooth Championship (W/T/FT)",
-        "place": "3",
-        "points": 3.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "L-A Pro/Am Closed Bronze Smooth Scholarship & Best of the Best (W/T/FT)",
-        "place": "3",
-        "points": 4.5
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "L-B Pro/Am Closed Bronze Smooth Scholarship & Best of the Best (W/T/FT)",
-        "place": "7",
-        "points": 3.75
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-B Pro/Am Closed Bronze DSQ Smooth 3 Dance (W/T/FT)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-B Pro/Am Closed Bronze Smooth Scholarship (W/T/FT)",
-        "place": "4",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 37.75,
-    "avg_pts": 5.39
   },
   {
     "name": "Arnold, Charlie and Lytvyn, Carly",
@@ -40595,6 +42088,31 @@
     "avg_pts": 5.17
   },
   {
+    "name": "Battalora, Peggy and Gregory, Matt",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "6",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS B Amer. Smooth (W,T,F,VW)",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 15.5,
+    "avg_pts": 5.17
+  },
+  {
     "name": "Grdina, Mary Jo and Delgado, Tomas",
     "results": [
       {
@@ -41181,12 +42699,12 @@
     "avg_pts": 5.0
   },
   {
-    "name": "Demio, Robin and Parker, Golden",
+    "name": "Di Cecco, Jane and Guida, Roberto",
     "results": [
       {
-        "comp_name": "The Snow Ball",
-        "info": "L- Closed Newcomer Bronze 'C' Smooth Dancesport Series MDC (W/T/F)",
-        "place": "1",
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "L-SR Closed Bronze American Smooth 3-Dance Championship (W/T/F)",
+        "place": "4",
         "points": 5.0
       }
     ],
@@ -41194,11 +42712,11 @@
     "avg_pts": 5.0
   },
   {
-    "name": "Di Cecco, Jane and Guida, Roberto",
+    "name": "Estebo, Teri and Bales, Nathan",
     "results": [
       {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "L-SR Closed Bronze American Smooth 3-Dance Championship (W/T/F)",
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C1 Amer. Smooth Championship (W,T,F)",
         "place": "4",
         "points": 5.0
       }
@@ -41400,6 +42918,49 @@
     ],
     "total_pts": 5.0,
     "avg_pts": 5.0
+  },
+  {
+    "name": "Reilly, Don and Morin, Nichola",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "G-C Bronze Closed Smooth Championships (W/T/FT)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-C Bronze Pro/Am Smooth Closed Scholarship (W/T/FT)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "G-COMB Bronze Pro/Am Gentlemen Only Closed Scholarship (W/T/FT)",
+        "place": "3",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Bronze  Full Bronze C Amer. Smooth Championship (W,T,F)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS C Amer. Smooth (W,T,F)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Bronze Scholarship Amer. Smooth (W,T,F)",
+        "place": "4",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 29.5,
+    "avg_pts": 4.92
   },
   {
     "name": "Bedrosyan, Joy and Levit, Sharone",
@@ -42434,6 +43995,25 @@
     "avg_pts": 4.5
   },
   {
+    "name": "Vasil, Becca and Munson, Todd",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze A Amer. Smooth Championship (W,T,F)",
+        "place": "3",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS A Amer. Smooth (W,T,F)",
+        "place": "5",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 4.5
+  },
+  {
     "name": "Bricker, Sharon and Grigorov, Ivan",
     "results": [
       {
@@ -42577,6 +44157,19 @@
     "avg_pts": 4.5
   },
   {
+    "name": "Hale, Tiffany and Bales, Nathan",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Silver Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 4.5,
+    "avg_pts": 4.5
+  },
+  {
     "name": "Lamoureux, Mary and Scalzi, Anthony",
     "results": [
       {
@@ -42713,6 +44306,19 @@
         "comp_name": "The Snow Ball",
         "info": "L- Closed Bronze 'A' Smooth Scholarship (W/T/F)",
         "place": "6",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 4.5,
+    "avg_pts": 4.5
+  },
+  {
+    "name": "Trygstad, Steve and Strashnikova, Diana",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Silver  Full Silver C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "4",
         "points": 4.5
       }
     ],
@@ -43576,29 +45182,71 @@
     "avg_pts": 4.17
   },
   {
-    "name": "Reilly, Don and Morin, Nichola",
+    "name": "Larkin, Ed and Corey, Jennifer",
     "results": [
       {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "G-C Bronze Closed Smooth Championships (W/T/FT)",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "L-C Bronze Pro/Am Smooth Closed Scholarship (W/T/FT)",
+        "comp_name": "beachbash2019",
+        "info": "L-C Pro/Am Closed Silver DSQ Smooth 4 Damce (W/T/FT/VW)",
         "place": "Semis",
         "points": 3.0
       },
       {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "G-COMB Bronze Pro/Am Gentlemen Only Closed Scholarship (W/T/FT)",
-        "place": "3",
-        "points": 4.5
+        "comp_name": "beachbash2019",
+        "info": "L-SR Pro/Am Closed Silver Smooth Scholarship (W/T/FT/VW)",
+        "place": "quarters",
+        "points": 0.8
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "G-C Pro/Am Men's Closed Silver Smooth Scholarship (W/T/FT/VW)",
+        "place": "7",
+        "points": 5.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "G-AD Pro/Am Men's Big Bash Open Supreme Smooth Scholarship (W/T/FT/VW)",
+        "place": "quarters",
+        "points": 2.7
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'S1' WDSS/BofB  Closed Silver Smooth Championship (W/T/F)",
+        "place": "quarters",
+        "points": 1.75
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "G- 'C' Gentlemen's Closed Silver American Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 3.75
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "L- 'S1' Pro/Am Closed Silver Smooth Scholarship (W/T/F/VW)",
+        "place": "round 1",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver C1 Amer. Smooth Championship (W,T,F,VW)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Silver Scholarship Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 10.0
       }
     ],
-    "total_pts": 12.5,
-    "avg_pts": 4.17
+    "total_pts": 41.6,
+    "avg_pts": 4.16
   },
   {
     "name": "O'Hare, Jean and Mustuc, Gherman",
@@ -43679,6 +45327,25 @@
       }
     ],
     "total_pts": 16.2,
+    "avg_pts": 4.05
+  },
+  {
+    "name": "Bourdelais, Pat and Gregory, Matt",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver C1 Amer. Smooth Championship (W,T,F,VW)",
+        "place": "6",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS C Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 8.1,
     "avg_pts": 4.05
   },
   {
@@ -43889,6 +45556,25 @@
         "info": "L-C Pro/Am Dancesport Series Closed Bronze Smooth Championship (W/T/FT)",
         "place": "2",
         "points": 5.0
+      }
+    ],
+    "total_pts": 8.0,
+    "avg_pts": 4.0
+  },
+  {
+    "name": "Taras, Irene and Merz, Timmy",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C Amer. Smooth Championship (W,T,F)",
+        "place": "7",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS B Amer. Smooth (W,T,F)",
+        "place": "Semis",
+        "points": 3.0
       }
     ],
     "total_pts": 8.0,
@@ -44359,7 +46045,7 @@
     "avg_pts": 3.75
   },
   {
-    "name": "Jansen, Paul and Buirgy, Molly",
+    "name": "Kolczak, Amy and McCan, Corbin",
     "results": [
       {
         "comp_name": "beachbash2019",
@@ -44369,19 +46055,25 @@
       },
       {
         "comp_name": "beachbash2019",
-        "info": "G-A/B Pro/Am Men's Closed Bronze Smooth Scholarship (W/T/FT)",
-        "place": "5",
-        "points": 6.0
+        "info": "L-B Pro/Am Closed Bronze Smooth Scholarship (W/T/FT)",
+        "place": "6",
+        "points": 4.5
       },
       {
-        "comp_name": "beachbash2019",
-        "info": "G-AD Pro/Am Men's Big Bash Open Supreme Smooth Scholarship (W/T/FT/VW)",
-        "place": "quarters",
-        "points": 2.7
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze B Amer. Smooth Championship (W,T,F)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS B Amer. Smooth (W,T,F)",
+        "place": "Semis",
+        "points": 3.0
       }
     ],
-    "total_pts": 11.1,
-    "avg_pts": 3.7
+    "total_pts": 14.9,
+    "avg_pts": 3.73
   },
   {
     "name": "Pisciotta, Nancy and Callahan, Joel",
@@ -44503,6 +46195,43 @@
     "avg_pts": 3.62
   },
   {
+    "name": "Jansen, Paul and Buirgy, Molly",
+    "results": [
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-B Pro/Am Closed Bronze DSQ Smooth 3 Dance (W/T/FT)",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "G-A/B Pro/Am Men's Closed Bronze Smooth Scholarship (W/T/FT)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "G-AD Pro/Am Men's Big Bash Open Supreme Smooth Scholarship (W/T/FT/VW)",
+        "place": "quarters",
+        "points": 2.7
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C Amer. Smooth Championship (W,T,F)",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Bronze Scholarship Amer. Smooth (W,T,F)",
+        "place": "6",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 18.0,
+    "avg_pts": 3.6
+  },
+  {
     "name": "Larsen, Jean and Callahan, Joel",
     "results": [
       {
@@ -44592,6 +46321,19 @@
       {
         "comp_name": "wisconsin19[martin cawston]",
         "info": "L-SR Pro/Am Closed Silver Smooth Scholarship (W/T/FT)",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 3.6,
+    "avg_pts": 3.6
+  },
+  {
+    "name": "Malik, Jay and Munroe, Harmony",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS C Amer. Smooth (W,T,F,VW)",
         "place": "Semis",
         "points": 3.6
       }
@@ -45060,25 +46802,6 @@
     "avg_pts": 3.45
   },
   {
-    "name": "Kolczak, Amy and McCan, Corbin",
-    "results": [
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-B Pro/Am Closed Bronze DSQ Smooth 3 Dance (W/T/FT)",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-B Pro/Am Closed Bronze Smooth Scholarship (W/T/FT)",
-        "place": "6",
-        "points": 4.5
-      }
-    ],
-    "total_pts": 6.9,
-    "avg_pts": 3.45
-  },
-  {
     "name": "Rogers, Anya and Kranz, Grigol",
     "results": [
       {
@@ -45096,6 +46819,37 @@
     ],
     "total_pts": 6.9,
     "avg_pts": 3.45
+  },
+  {
+    "name": "Eichner, Tina and Escuadra, Lucio",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "L-B Bronze Smooth (W/T/F) Closed Multi-Dance Challenge",
+        "place": "6",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "L-B Pro/Am DSS Closed Bronze Smooth Scholarship (W/T/F)",
+        "place": "8",
+        "points": 3.75
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze B Amer. Smooth Championship (W,T,F)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS B Amer. Smooth (W,T,F)",
+        "place": "Semis",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 13.75,
+    "avg_pts": 3.44
   },
   {
     "name": "Gagnon, Karen and Hernandez, Peter",
@@ -45133,25 +46887,6 @@
     ],
     "total_pts": 17.0,
     "avg_pts": 3.4
-  },
-  {
-    "name": "Eichner, Tina and Escuadra, Lucio",
-    "results": [
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "L-B Bronze Smooth (W/T/F) Closed Multi-Dance Challenge",
-        "place": "6",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "L-B Pro/Am DSS Closed Bronze Smooth Scholarship (W/T/F)",
-        "place": "8",
-        "points": 3.75
-      }
-    ],
-    "total_pts": 6.75,
-    "avg_pts": 3.38
   },
   {
     "name": "Epple, Pamela and Black, Lawrence",
@@ -45541,6 +47276,19 @@
     "avg_pts": 3.25
   },
   {
+    "name": "Barkalow, Leigh and Parker, Golden",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver C Amer. Smooth Championship (W,T,F,VW)",
+        "place": "Semis",
+        "points": 3.25
+      }
+    ],
+    "total_pts": 3.25,
+    "avg_pts": 3.25
+  },
+  {
     "name": "Joffrion, Bradley and Machado, Alana",
     "results": [
       {
@@ -45589,55 +47337,6 @@
     ],
     "total_pts": 12.8,
     "avg_pts": 3.2
-  },
-  {
-    "name": "Larkin, Ed and Corey, Jennifer",
-    "results": [
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-C Pro/Am Closed Silver DSQ Smooth 4 Damce (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 3.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-SR Pro/Am Closed Silver Smooth Scholarship (W/T/FT/VW)",
-        "place": "quarters",
-        "points": 0.8
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "G-C Pro/Am Men's Closed Silver Smooth Scholarship (W/T/FT/VW)",
-        "place": "7",
-        "points": 5.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "G-AD Pro/Am Men's Big Bash Open Supreme Smooth Scholarship (W/T/FT/VW)",
-        "place": "quarters",
-        "points": 2.7
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'S1' WDSS/BofB  Closed Silver Smooth Championship (W/T/F)",
-        "place": "quarters",
-        "points": 1.75
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "G- 'C' Gentlemen's Closed Silver American Smooth Championship (W/T/F/VW)",
-        "place": "Semis",
-        "points": 3.75
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'S1' Pro/Am Closed Silver Smooth Scholarship (W/T/F/VW)",
-        "place": "round 1",
-        "points": 5.0
-      }
-    ],
-    "total_pts": 22.0,
-    "avg_pts": 3.14
   },
   {
     "name": "Soulak, Pat and McHenry, Shinya",
@@ -45809,6 +47508,25 @@
       {
         "comp_name": "St. Louis Star Ball Championship",
         "info": "L-C Bronze Pro/Am Smooth Closed Scholarship (W/T/FT)",
+        "place": "Semis",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 3.0
+  },
+  {
+    "name": "Russell, Anita and Bales, Nathan",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "info": "L- Closed Bronze 'C' Smooth Scholarship (W/T/F)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS B Amer. Smooth (W,T,F)",
         "place": "Semis",
         "points": 3.0
       }
@@ -46031,6 +47749,19 @@
     "avg_pts": 3.0
   },
   {
+    "name": "Heinen, Nadine and Williard, James",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS C Amer. Smooth (W,T,F)",
+        "place": "Semis",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
+  },
+  {
     "name": "Howard, Linda and Akers, Gaberial",
     "results": [
       {
@@ -46122,6 +47853,19 @@
     "avg_pts": 3.0
   },
   {
+    "name": "Nalepa, Bogusia and Bales, Nathan",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS C Amer. Smooth (W,T,F)",
+        "place": "Semis",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
+  },
+  {
     "name": "Paige, Joan and Slimak, Andy",
     "results": [
       {
@@ -46154,19 +47898,6 @@
         "comp_name": "Philadelphia Dancesport Championships",
         "info": "L-C Closed Bronze American Smooth 4-Dance Championship (W/T/F/VW)",
         "place": "3",
-        "points": 3.0
-      }
-    ],
-    "total_pts": 3.0,
-    "avg_pts": 3.0
-  },
-  {
-    "name": "Russell, Anita and Bales, Nathan",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "info": "L- Closed Bronze 'C' Smooth Scholarship (W/T/F)",
-        "place": "Semis",
         "points": 3.0
       }
     ],
@@ -46625,17 +48356,17 @@
     "avg_pts": 2.7
   },
   {
-    "name": "Napp, Kathy and Kravets, Yuriy",
+    "name": "Tamburro, Marla and Munson, Todd",
     "results": [
       {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' WDSS/BofB Closed Bronze Smooth Championship (W/T/F)",
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C Amer. Smooth Championship (W,T,F)",
         "place": "Semis",
         "points": 2.4
       },
       {
-        "comp_name": "Emerald Ball",
-        "info": "L- 'C' Pro/Am Closed Bronze Smooth Scholarship (W/T/F)",
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS C Amer. Smooth (W,T,F)",
         "place": "Semis",
         "points": 3.0
       }
@@ -46724,6 +48455,55 @@
     ],
     "total_pts": 7.9,
     "avg_pts": 2.63
+  },
+  {
+    "name": "Honigsberg, Cheryl and Koogle, Scott",
+    "results": [
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-C Pro/Am Closed Bronze DSQ Smooth 3 Dance (W/T/FT)",
+        "place": "quarters",
+        "points": 0.3
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-SR Pro/Am Closed Bronze DSQ Smooth 3 Dance (W/T/FT)",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-SR Pro/Am Closed Bronze Smooth Scholarship (W/T/FT)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-C Pro/Am Closed Bronze Smooth Scholarship (W/T/FT)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C Amer. Smooth Championship (W,T,F)",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C1 Amer. Smooth Championship (W,T,F)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS C Amer. Smooth (W,T,F)",
+        "place": "Semis",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 18.1,
+    "avg_pts": 2.59
   },
   {
     "name": "Pelky, Carol and Fies, Jordin",
@@ -46899,6 +48679,19 @@
     "avg_pts": 2.4
   },
   {
+    "name": "Jackson, Kelly and McCan, Corbin",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C Amer. Smooth Championship (W,T,F)",
+        "place": "Semis",
+        "points": 2.4
+      }
+    ],
+    "total_pts": 2.4,
+    "avg_pts": 2.4
+  },
+  {
     "name": "Jacobs and Piedad",
     "results": [
       {
@@ -46938,6 +48731,19 @@
     "avg_pts": 2.4
   },
   {
+    "name": "Sheene, Jeptha and Williard, James",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze C Amer. Smooth Championship (W,T,F)",
+        "place": "Semis",
+        "points": 2.4
+      }
+    ],
+    "total_pts": 2.4,
+    "avg_pts": 2.4
+  },
+  {
     "name": "Tucker, Tailee and Miller, Winston",
     "results": [
       {
@@ -46968,37 +48774,6 @@
     ],
     "total_pts": 4.65,
     "avg_pts": 2.33
-  },
-  {
-    "name": "Honigsberg, Cheryl and Koogle, Scott",
-    "results": [
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-C Pro/Am Closed Bronze DSQ Smooth 3 Dance (W/T/FT)",
-        "place": "quarters",
-        "points": 0.3
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-SR Pro/Am Closed Bronze DSQ Smooth 3 Dance (W/T/FT)",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-SR Pro/Am Closed Bronze Smooth Scholarship (W/T/FT)",
-        "place": "Semis",
-        "points": 3.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-C Pro/Am Closed Bronze Smooth Scholarship (W/T/FT)",
-        "place": "Semis",
-        "points": 3.0
-      }
-    ],
-    "total_pts": 8.7,
-    "avg_pts": 2.17
   },
   {
     "name": "Cary, Larry and Ledogar, Karolina",
