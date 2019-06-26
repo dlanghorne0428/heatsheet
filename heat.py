@@ -35,6 +35,9 @@ def dance_style(s):
         return "Unknown"
     
 def pro_heat_level(info):
+    #TODO: for 2020, fix pro heat results to save the event title. 
+    if type(info) == int:
+        return info
     if "Rising Star" in info:
         return 10  #"Rising Star"
     elif "Novice" in info:
