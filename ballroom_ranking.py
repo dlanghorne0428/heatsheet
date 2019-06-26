@@ -95,7 +95,9 @@ class AppFrame(wx.Frame):
         st_heat = wx.StaticText(pnl, label="Event", pos=(720, 75))
         st_heat.SetFont(font)        
         self.heat_selection = wx.SpinCtrl(pnl, pos=(780,78), size=(60,24),
-                                               min=1, max=1, initial=1)     
+                                               min=1, max=1, initial=1)    
+        self.Bind(wx.EVT_SPINCTRL, self.OnHeatSelection, self.heat_selection)
+        self.heat_selection.Disable()
         self.st_max_heat = wx.StaticText(pnl, label="of 1", pos=(850, 75))
         self.st_max_heat.SetFont(font)          
 
@@ -470,6 +472,17 @@ class AppFrame(wx.Frame):
         else:  # non-pro heat
             return result["info"] == heat_title
         
+        
+    def Stop_Couple_History(self):
+        # clear the competition name
+        self.comp_name.ChangeValue("--Competition Name--")
+        self.heat_name.ChangeValue("--Heat Name--")
+        self.st_res.SetLabel("New Competition Results")
+        self.heat_selection.Disable()
+        self.butt_add_rslt.Disable()
+        self.heat_list_ctrl.DeleteAllItems()
+        self.viewMenu.Enable(self.ID_VIEW_COUPLE_HISTORY, True) 
+        
 
     def Show_Comp_Result(self):
         if self.couple_history_index < len(self.couple_result_history):
@@ -494,17 +507,9 @@ class AppFrame(wx.Frame):
                         if get_last_name(e["couple"]) == self.couple_last_name:
                             self.heat_list_ctrl.Select(i)
                             break
-                    self.butt_add_rslt.SetLabel("Show Next Result")
+                    self.butt_add_rslt.SetLabel("Done with History")
                     self.butt_add_rslt.Enable()
-                    self.couple_history_index += 1
                     break
-        else:
-            # clear the competition name
-            self.comp_name.ChangeValue("--Competition Name--")
-            self.heat_name.ChangeValue("--Heat Name--")
-            self.st_res.SetLabel("New Results")
-            self.butt_add_rslt.Disable()
-            self.heat_list_ctrl.DeleteAllItems()        
 
         
     def Build_Result(self, entry, title):
@@ -647,6 +652,15 @@ class AppFrame(wx.Frame):
         self.current_couples.sort_couples(key1="total_pts", key2="avg_pts", reverse=True)       
         self.SetListControl(self.current_couples)   
         
+        
+    def OnHeatSelection(self, event):
+        '''This method populates the report section based on a selected heat.'''
+        
+        # get the heat number    
+        self.couple_history_index = self.heat_selection.GetValue() - 1
+        self.Show_Comp_Result()
+
+        
     
     def OnViewCoupleHistory(self, event):
         if self.list_ctrl.GetSelectedItemCount() == 1:
@@ -658,7 +672,9 @@ class AppFrame(wx.Frame):
             self.st_res.SetLabel("Prev Competition Results")
             self.heat_selection.SetValue(1)
             self.heat_selection.SetMax(len(self.couple_result_history))
-            self.st_max_heat.SetLabel("of " + str(len(self.couple_result_history)))        
+            self.heat_selection.Enable()
+            self.st_max_heat.SetLabel("of " + str(len(self.couple_result_history)))
+            self.viewMenu.Enable(self.ID_VIEW_COUPLE_HISTORY, False) 
             self.Show_Comp_Result()
         else:
             md = wx.MessageDialog(self, "Please select a couple from the list.", caption="Error", style=wx.OK)
@@ -670,7 +686,7 @@ class AppFrame(wx.Frame):
         There are three states associated with the button:
           - Add Results to DB
           - Show Next Heat
-          - Show Next Result
+          - Done with History
         '''
         lab_text = self.butt_add_rslt.GetLabel()
         if lab_text == "Add Results to DB":
@@ -680,7 +696,7 @@ class AppFrame(wx.Frame):
         elif lab_text == "Show Next Heat":
             self.Setup_For_Next_Heat()
         else:
-            self.Show_Comp_Result()
+            self.Stop_Couple_History()
 
 
     def OnAddCompResults(self, event):
