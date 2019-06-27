@@ -35,6 +35,15 @@ class NdcaPremResults():
         return comp_name
     
     
+    def temp_result(self, rounds, accum_value):
+        if rounds == "S":
+            return "Semis-" + accum_value
+        elif rounds == "Q":
+            return "quarters-" + accum_value
+        else:
+            return "round 1-1"
+    
+    
     def process_scoresheet_for_event(self, heat_report, event_id):
         looking_for_final_round = True
         looking_for_final_summary = False
@@ -131,7 +140,16 @@ class NdcaPremResults():
                     looking_for_final_dance = True
                     dance_count = 0
                 else:
-                    i += 1            
+                    i += 1           
+            elif looking_for_quarterfinal:
+                if 'class="roundHeader"' in l:
+                    print("Found quarter-final")
+                    heat_report.set_rounds("Q")
+                    looking_for_quarterfinal = False
+                    looking_for_final_dance = True
+                    dance_count = 0
+                else:
+                    i += 1              
             elif looking_for_final_dance:
                 if 'class="eventResults"' in l:
                     dance_count += 1
@@ -143,6 +161,8 @@ class NdcaPremResults():
             elif looking_for_eliminations:
                 if "</table>" in l:
                     looking_for_eliminations = False
+                    if heat_report.rounds() == "S":
+                        looking_for_quarterfinal = True
                 else:
                     fields = l.split("</td>")
                     couple_field = fields[0].split("<td>")[1]
@@ -158,23 +178,26 @@ class NdcaPremResults():
                             entry = heat_report.entry(index)
                             if entry.dancer == dancer:
                                 entry.shirt_number = shirt_number
-                                entry.result = "Semis"
-                                entry.points = calc_points(entry.level, -2, rounds="S", accum=int(accum_value))
+                                if entry.result is None:
+                                    entry.result = self.temp_result(heat_report.rounds(), accum_value)
+                                #entry.points = calc_points(entry.level, -2, rounds="S", accum=int(accum_value))
                                 break
                             elif entry.partner == dancer:
                                 entry.swap_names()
                                 entry.shirt_number = shirt_number
-                                entry.result = "Semis"   
-                                entry.points = calc_points(entry.level, -2, rounds="S", accum=int(accum_value))
+                                if entry.result is None:
+                                    entry.result = self.temp_result(heat_report.rounds(), accum_value)
+                                #entry.points = calc_points(entry.level, -2, rounds="S", accum=int(accum_value))
                                 break                        
                         else:
                             h = heat_report.build_late_entry()
                             h.dancer = dancer
                             h.partner = partner
                             h.shirt_number = shirt_number
-                            h.result = "Semis"
+                            if h.result is None:
+                                h.result = self.temp_result(heat_report.rounds(), accum_value)
                             h.code = "LATE"
-                            h.points = calc_points(h.level, -2, rounds="S", accum=int(accum_value))
+                            #h.points = calc_points(h.level, -2, rounds="S", accum=int(accum_value))
                             heat_report.append(h)
                     i += 1
             else:
@@ -190,7 +213,23 @@ class NdcaPremResults():
         for index in range(heat_report.length()):
             e = heat_report.entry(index)
             if e.points is None and e.result is not None:
-                e.points = calc_points(e.level, e.result, num_competitors=total_entries, rounds=heat_report.rounds())
+                if type(e.result) == int:
+                    placement = e.result
+                    accum_value = 0                    
+                elif e.result.startswith("S"):
+                    accum_value = e.result[len("Semis")+1:]
+                    e.result = "Semis"
+                    placement = -2
+                elif e.result.startswith("q"):
+                    accum_value = e.result[len("quarters")+1:]
+                    e.result = "quarters"
+                    placement = -1
+
+                else:
+                    e.result = "round 1"
+                    placement = -1
+                    accum_value = 1
+                e.points = calc_points(e.level, placement, num_competitors=total_entries, rounds=heat_report.rounds(), accum=int(accum_value))
 #            print(e.dancer, "and", e.partner, "finish", e.result, "for", e.points, "points")    
                 
     
@@ -239,13 +278,13 @@ class NdcaPremResults():
 
 if __name__ == '__main__':
     results = NdcaPremResults()
-    results.open("http://www.ndcapremier.com/results.htm?cyi=748")
+    results.open("http://www.ndcapremier.com/results.htm?cyi=181")
     h = Heat()
-    h.info = "Professional Open Championships  Amer. Smooth Championship (W,T,F,VW)" #"Professional Open Championships  Int'l Ballroom Championship (W,T,VW,F,Q)"
+    h.info = "Professional  Amer. Smooth Championship (W,T,F,VW)"
     h.set_category("Pro heat")
     h.set_level()
-    h.dancer = "McCann, Stephen" #"Alitto, Oreste"
-    h.partner = "McCann, Elisa" # "Belozerova, Valeriia"
+    h.dancer = "Holzworth, John" #"Alitto, Oreste"
+    h.partner = "Wooding, Nicole" # "Belozerova, Valeriia"
     h.rounds = "F"
     hr = Heat_Report()
     hr.append(h)
