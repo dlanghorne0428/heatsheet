@@ -1,0 +1,684 @@
+{
+  "comp name": "Millennium Dancesport",
+  "heats": [
+    {
+      "number": 1,
+      "title": "Rising Star Professional American Smooth(W/T/FT/VW)",
+      "entries": [
+        {
+          "couple": "Afonkin, Igor and Anderson, Meghan",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "Zhyvkov, Tykhon and Zhyvkov, Yana",
+          "place": "2",
+          "points": 24.0
+        },
+        {
+          "couple": "McCann, Elisa and McCann, Stephen",
+          "place": "3",
+          "points": 19.5
+        },
+        {
+          "couple": "Zavialov, Dmitriy and Baumgartner, Katt",
+          "place": "4",
+          "points": 15.0
+        },
+        {
+          "couple": "Leonov, Maksim and Zhuchenko, Anastasia",
+          "place": "5",
+          "points": 12.0
+        },
+        {
+          "couple": "Abdullin, Ilya and Anastasijia",
+          "place": "6",
+          "points": 9.0
+        },
+        {
+          "couple": "Guthrie, Emily and Guthrie, Trevor",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Lebedev, Pavel and Khayrulina, Dinara",
+          "place": "Semis",
+          "points": 7.2
+        },
+        {
+          "couple": "Mora, Leo and Garced, Chrishina",
+          "place": "Semis",
+          "points": 4.5
+        },
+        {
+          "couple": "NalyVaychuk, Brianna and NalyVaychuk, Vladyslav",
+          "place": "Semis",
+          "points": 7.5
+        },
+        {
+          "couple": "Pohybil, Dmytro and Kushnir, Alona",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Rozenfeld, Evgenii and Shumakher, Mariia",
+          "place": "Semis",
+          "points": 7.5
+        },
+        {
+          "couple": "Johnson, Dusty and Grohoske, Ellie",
+          "place": "quarters",
+          "points": 0.3
+        },
+        {
+          "couple": "Proper, William and Elliott, Jennifer",
+          "place": "quarters",
+          "points": 3.0
+        },
+        {
+          "couple": "Saforonov, Vadim and Safonova, Alina",
+          "place": "quarters",
+          "points": 1.5
+        },
+        {
+          "couple": "Wayne, Christopher and Evan, Mallory",
+          "place": "quarters",
+          "points": 3.0
+        },
+        {
+          "couple": "Stowell, Aaron and Hofreiter, Brie",
+          "place": "quarters",
+          "points": 2.7
+        },
+        {
+          "couple": "Merenkov, Artem and Voilokova, Tatiana",
+          "place": "quarters",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Rising Star Professional International Latin(CC/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Stepanchuk, Pasha and Sabler, Gabrielle",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Kapitannikov, Makxim and Nesterova, Elena",
+          "place": "2",
+          "points": 8.0
+        },
+        {
+          "couple": "Elkin, Bozhidar and Dumanova, Elena",
+          "place": "3",
+          "points": 6.5
+        },
+        {
+          "couple": "Montagnese, Brad and Trigili, Tania",
+          "place": "4",
+          "points": 5.0
+        },
+        {
+          "couple": "Horvath-Krol, Dariusz and Zosin, Alisa",
+          "place": "5",
+          "points": 4.0
+        },
+        {
+          "couple": "Jenkins, Dylan and Jenkins, Nora",
+          "place": "6",
+          "points": 3.0
+        },
+        {
+          "couple": "Tozik, Vitalii and Downey, Angelica",
+          "place": "7",
+          "points": 2.5
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Rising Star Professional American Rhythm(C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Sese and Lozada",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "Zarek, Alexander and Kharchenko, Oleksandra",
+          "place": "2",
+          "points": 24.0
+        },
+        {
+          "couple": "Makhaye, Senzo and Strojek, Agnieszka",
+          "place": "3",
+          "points": 19.5
+        },
+        {
+          "couple": "Chen, Jonathan and Simanekova, Juanita",
+          "place": "4",
+          "points": 15.0
+        },
+        {
+          "couple": "Sharan, Slash and Vincitore, Rebecca",
+          "place": "5",
+          "points": 12.0
+        },
+        {
+          "couple": "Rodriguez, Nicolas and St. Ruk, Paulina",
+          "place": "6",
+          "points": 9.0
+        },
+        {
+          "couple": "Atasuntsov, Arkadi and Coe, Sabrina",
+          "place": "Semis",
+          "points": 6.3
+        },
+        {
+          "couple": "Borges, Israel and Cardenas, Natalie",
+          "place": "Semis",
+          "points": 6.9
+        },
+        {
+          "couple": "Cunningham, Charles and Elcoro, Evgeniia",
+          "place": "Semis",
+          "points": 3.9
+        },
+        {
+          "couple": "da Silva, Samuel and Milum, Lindsay",
+          "place": "Semis",
+          "points": 5.1
+        },
+        {
+          "couple": "Wayne, Christopher and Evan, Mallory",
+          "place": "Semis",
+          "points": 7.5
+        },
+        {
+          "couple": "Martinez, Juan and Bottinelli, Elayna",
+          "place": "Semis",
+          "points": 5.1
+        },
+        {
+          "couple": "Ballard, Vincent and Perez, Tania",
+          "place": "quarters",
+          "points": 2.1
+        },
+        {
+          "couple": "Britt, Will and Fulper-Smith, Mersey",
+          "place": "quarters",
+          "points": 3.0
+        },
+        {
+          "couple": "Formanek, Blake and Miller, Angela",
+          "place": "quarters",
+          "points": 3.0
+        },
+        {
+          "couple": "Vasicek and Tyrnova",
+          "place": "quarters",
+          "points": 0.3
+        },
+        {
+          "couple": "Whitmer, Daniel and Hooks, Sarah",
+          "place": "quarters",
+          "points": 2.4
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Rising Star Professional International Ballroom(W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Alitto, Oreeste and Belozerova, Valeria",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Belmega, Artem and Shevchenko, Anna",
+          "place": "2",
+          "points": 8.0
+        },
+        {
+          "couple": "Izyumov, Sergey and Zaver, Oksana",
+          "place": "3",
+          "points": 6.5
+        },
+        {
+          "couple": "Wills, Woodrow and Petkov, Neli",
+          "place": "4",
+          "points": 5.0
+        },
+        {
+          "couple": "Montagnese, Brad and Trigili, Tania",
+          "place": "5",
+          "points": 4.0
+        },
+        {
+          "couple": "Bilozorov, Anton and Filip, Samanta",
+          "place": "6",
+          "points": 3.0
+        },
+        {
+          "couple": "Kantin, Anthony and Kantin, Elise",
+          "place": "7",
+          "points": 2.5
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Open Professional American Smooth(W/T/FT/VW)",
+      "entries": [
+        {
+          "couple": "Cheremukhin, Nick and Viktorija",
+          "place": "1",
+          "points": 40.0
+        },
+        {
+          "couple": "Malkhasyan, Roman and Detkina, Galina",
+          "place": "2",
+          "points": 32.0
+        },
+        {
+          "couple": "Samchynskyy, Sergiy and Besarab, Yuliya",
+          "place": "3",
+          "points": 26.0
+        },
+        {
+          "couple": "Kostianets, Slava and Kostianets, Valeriia",
+          "place": "4",
+          "points": 20.0
+        },
+        {
+          "couple": "Vukosavljevic, Aleksandar and Nevena",
+          "place": "5",
+          "points": 16.0
+        },
+        {
+          "couple": "Pilipenchuk, Nikolai and Hudson, Sarika",
+          "place": "6",
+          "points": 12.0
+        },
+        {
+          "couple": "Afonkin, Igor and Anderson, Meghan",
+          "place": "Semis",
+          "points": 10.0
+        },
+        {
+          "couple": "Choi, Michael and Kleyman, Viktoriya",
+          "place": "Semis",
+          "points": 4.8
+        },
+        {
+          "couple": "Don, Adele and Don, Jang",
+          "place": "Semis",
+          "points": 8.4
+        },
+        {
+          "couple": "McCann, Elisa and McCann, Stephen",
+          "place": "Semis",
+          "points": 4.8
+        },
+        {
+          "couple": "Zappia, Enzo and Betts, Stephanie",
+          "place": "Semis",
+          "points": 10.0
+        },
+        {
+          "couple": "Zhyvkov, Tykhon and Zhyvkov, Yana",
+          "place": "Semis",
+          "points": 4.8
+        },
+        {
+          "couple": "Abdullin, Ilya and Anastasijia",
+          "place": "quarters",
+          "points": 4.0
+        },
+        {
+          "couple": "Guthrie, Emily and Guthrie, Trevor",
+          "place": "quarters",
+          "points": 2.4
+        },
+        {
+          "couple": "Lebedev, Pavel and Khayrulina, Dinara",
+          "place": "quarters",
+          "points": 2.8
+        },
+        {
+          "couple": "Leonov, Maksim and Zhuchenko, Anastasia",
+          "place": "quarters",
+          "points": 4.0
+        },
+        {
+          "couple": "Mora, Leo and Garced, Chrishina",
+          "place": "quarters",
+          "points": 0.4
+        },
+        {
+          "couple": "Rozenfeld, Evgenii and Shumakher, Mariia",
+          "place": "quarters",
+          "points": 4.0
+        },
+        {
+          "couple": "Wayne, Christopher and Evan, Mallory",
+          "place": "quarters",
+          "points": 0.8
+        },
+        {
+          "couple": "Zavialov, Dmitriy and Baumgartner, Katt",
+          "place": "quarters",
+          "points": 4.0
+        },
+        {
+          "couple": "Merenkov, Artem and Voilokova, Tatiana",
+          "place": "quarters",
+          "points": 0.4
+        },
+        {
+          "couple": "Martinez, Juan and Bottinelli, Elayna",
+          "place": "quarters",
+          "points": 0.4
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Open Professional International Latin(CC/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Kazlouski, Andrei and Sigvaldadottir, Asta",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "Bilopukhov, Mykhailo and Shchypilina, Anastasiia",
+          "place": "2",
+          "points": 24.0
+        },
+        {
+          "couple": "Tarnavskyy, Artur and Danilova, Anastasia",
+          "place": "3",
+          "points": 19.5
+        },
+        {
+          "couple": "Stepanchuk, Pasha and Sabler, Gabrielle",
+          "place": "4",
+          "points": 15.0
+        },
+        {
+          "couple": "Kudashev, Ivan and Sokolova, Ksusha",
+          "place": "5",
+          "points": 12.0
+        },
+        {
+          "couple": "Kapitannikov, Makxim and Nesterova, Elena",
+          "place": "6",
+          "points": 9.0
+        },
+        {
+          "couple": "Jenkins, Dylan and Jenkins, Nora",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Kantin, Anthony and Kantin, Elise",
+          "place": "Semis",
+          "points": 3.6
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Open Professional Cabaret Championships",
+      "entries": [
+        {
+          "couple": "Jensen, Shane and Jensen, Shannon",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "Smith, Craig and Harvey, Andrea",
+          "place": "2",
+          "points": 24.0
+        },
+        {
+          "couple": "Tsorokean, Alyenendrov and Wheeler, Maria",
+          "place": "3",
+          "points": 19.5
+        },
+        {
+          "couple": "Black, Jamie and Elliott, Samantha",
+          "place": "4",
+          "points": 15.0
+        },
+        {
+          "couple": "Pohl, Zachary and Freilich, Ariel",
+          "place": "5",
+          "points": 12.0
+        },
+        {
+          "couple": "Gore, Gerard and Grohoske, Ellie",
+          "place": "6",
+          "points": 9.0
+        },
+        {
+          "couple": "Guthrie, Emily and Guthrie, Trevor",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Kantin, Anthony and Ventura, Lisa",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Thomas, Joel and Barakat, Samantha",
+          "place": "Semis",
+          "points": 3.6
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Open Professional International Ballroom(W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Bieliei, Iaroslav and Bielieii, Liliia",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "Voskalchuk, Alexander and Voskalchuk, Veronika",
+          "place": "2",
+          "points": 24.0
+        },
+        {
+          "couple": "Shakhov, Vladislav and Popova, Ekaterina",
+          "place": "3",
+          "points": 19.5
+        },
+        {
+          "couple": "Di Brino, Stefano and Zubrowska, Bianka",
+          "place": "4",
+          "points": 15.0
+        },
+        {
+          "couple": "Alitto, Oreeste and Belozerova, Valeria",
+          "place": "5",
+          "points": 12.0
+        },
+        {
+          "couple": "Averkov, Serhiy and Barna, Olena",
+          "place": "6",
+          "points": 9.0
+        },
+        {
+          "couple": "Belmega, Artem and Shevchenko, Anna",
+          "place": "7",
+          "points": 7.5
+        },
+        {
+          "couple": "Bilozorov, Anton and Filip, Samanta",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Izyumov, Sergey and Zaver, Oksana",
+          "place": "Semis",
+          "points": 7.5
+        },
+        {
+          "couple": "Kantin, Anthony and Kantin, Elise",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Kazlauskas, Jonas and Ilo, Kathleen",
+          "place": "Semis",
+          "points": 7.5
+        },
+        {
+          "couple": "Mayorov, Evgeniy and Lisovskaya, Olga",
+          "place": "Semis",
+          "points": 7.5
+        },
+        {
+          "couple": "Wills, Woodrow and Petkov, Neli",
+          "place": "Semis",
+          "points": 3.9
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Open Professional American Rhythm(C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Paramonov, Andre and Paramonov, Natalie",
+          "place": "1",
+          "points": 40.0
+        },
+        {
+          "couple": "Jaksevicius, Danas and Haraguchi, Yuki",
+          "place": "2",
+          "points": 32.0
+        },
+        {
+          "couple": "Nikishkin, Dmitry and Shvets-Nikishkin, Olena",
+          "place": "3",
+          "points": 26.0
+        },
+        {
+          "couple": "Velednitsky, Ilya and Ilchenko, Mariya",
+          "place": "4",
+          "points": 20.0
+        },
+        {
+          "couple": "Jensen, Shane and Jensen, Shannon",
+          "place": "5",
+          "points": 16.0
+        },
+        {
+          "couple": "DeSoto, Aaron and DeSoto, Iryna",
+          "place": "6",
+          "points": 12.0
+        },
+        {
+          "couple": "Cortes, Alberto and Briones, Jessa Mae",
+          "place": "Semis",
+          "points": 10.0
+        },
+        {
+          "couple": "Don, Adele and Don, Jang",
+          "place": "Semis",
+          "points": 4.8
+        },
+        {
+          "couple": "Lockhart, Ryan and Newman, Danelle",
+          "place": "Semis",
+          "points": 7.6
+        },
+        {
+          "couple": "Sese and Lozada",
+          "place": "Semis",
+          "points": 4.8
+        },
+        {
+          "couple": "Tregubov, Anton and Sanchez, Ashley",
+          "place": "Semis",
+          "points": 9.2
+        },
+        {
+          "couple": "Ubillus, Kevin and Lareto, Milagros",
+          "place": "Semis",
+          "points": 4.8
+        },
+        {
+          "couple": "Abdullin, Ilya and Anastasijia",
+          "place": "quarters",
+          "points": 4.0
+        },
+        {
+          "couple": "Ballard, Vincent and Perez, Tania",
+          "place": "quarters",
+          "points": 0.4
+        },
+        {
+          "couple": "Britt, Will and Fulper-Smith, Mersey",
+          "place": "quarters",
+          "points": 0.4
+        },
+        {
+          "couple": "Cunningham, Charles and Elcoro, Evgeniia",
+          "place": "quarters",
+          "points": 0.4
+        },
+        {
+          "couple": "da Silva, Samuel and Milum, Lindsay",
+          "place": "quarters",
+          "points": 0.4
+        },
+        {
+          "couple": "Jackson, Ryan and Logan, Emily",
+          "place": "quarters",
+          "points": 0.4
+        },
+        {
+          "couple": "Makhaye, Senzo and Strojek, Agnieszka",
+          "place": "quarters",
+          "points": 4.0
+        },
+        {
+          "couple": "Papi, Riccardo and Moretti, Sabrina",
+          "place": "quarters",
+          "points": 4.0
+        },
+        {
+          "couple": "Sharan, Slash and Vincitore, Rebecca",
+          "place": "quarters",
+          "points": 0.4
+        },
+        {
+          "couple": "Wayne, Christopher and Evan, Mallory",
+          "place": "quarters",
+          "points": 4.0
+        },
+        {
+          "couple": "Whitmer, Daniel and Hooks, Sarah",
+          "place": "quarters",
+          "points": 0.4
+        },
+        {
+          "couple": "Zarek, Alexander and Kharchenko, Oleksandra",
+          "place": "quarters",
+          "points": 4.0
+        }
+      ]
+    }
+  ]
+}

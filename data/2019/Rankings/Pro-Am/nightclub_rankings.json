@@ -525,73 +525,6 @@
     "avg_pts": 15.62
   },
   {
-    "name": "Blakeslee, Jan and Gronek, Jean-Paul",
-    "results": [
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "L-B Silver Pro/Am Night Club 3 Dance (Hustle/NC 2 Step/West Coast)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "L-B Silver Pro/Am Night Club 3 Dance (Merengue/Salsa/Bachata)",
-        "place": "2",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "L-B Niteclub (HU/WC/SAL/MER)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-B Night Club Multi Dance (WC/Sal/Hus)",
-        "place": "4",
-        "points": 12.5
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-C2 Silver Night Club Championship (Hustle/NightClub2 Step/WC)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "L-B Closed Silver NightClub (Hustle/2Step/WC)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "L-B Closed Silver NightClub (Mer/Salsa/Bachata)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Pro-Am Night Club H/WC  C1 Nightclub Championship (H,WCS)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Pro-Am Night Club SAL/MER  C1 Nightclub Championship (SA,ME)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Pro-Am Night Club Scholarship C Nightclub (H,WCS,SA,ME)",
-        "place": "1",
-        "points": 25.0
-      }
-    ],
-    "total_pts": 154.75,
-    "avg_pts": 15.47
-  },
-  {
     "name": "Glazner, Carolyn and Jaksevicius, Danas",
     "results": [
       {
@@ -808,6 +741,19 @@
     "avg_pts": 15
   },
   {
+    "name": "David, Karen and Kwan, Gordon",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR2 Closed Silver Club Dance (WCS/H)",
+        "place": "1",
+        "points": 15
+      }
+    ],
+    "total_pts": 15,
+    "avg_pts": 15
+  },
+  {
     "name": "Gilbertson, Anna and Neterval, Tom",
     "results": [
       {
@@ -951,6 +897,61 @@
     "avg_pts": 15.0
   },
   {
+    "name": "Hansford, Carmen and Criado, Angel",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (WCS/H)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (SAL/BA)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (MER/SAL)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (NC2S/WCS)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Open Silver Club Dance (H/NC2S/WCS)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (H/NC2S/WCS)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (SAL/BA/MER)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Open Silver Club Dance (SAL/BA/MER)",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 118.0,
+    "avg_pts": 14.75
+  },
+  {
     "name": "Duchan, Sue and Wilson, Randy",
     "results": [
       {
@@ -968,6 +969,109 @@
     ],
     "total_pts": 29.25,
     "avg_pts": 14.62
+  },
+  {
+    "name": "Blakeslee, Jan and Gronek, Jean-Paul",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-B Silver Pro/Am Night Club 3 Dance (Hustle/NC 2 Step/West Coast)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-B Silver Pro/Am Night Club 3 Dance (Merengue/Salsa/Bachata)",
+        "place": "2",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "L-B Niteclub (HU/WC/SAL/MER)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-B Night Club Multi Dance (WC/Sal/Hus)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-C2 Silver Night Club Championship (Hustle/NightClub2 Step/WC)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "L-B Closed Silver NightClub (Hustle/2Step/WC)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "L-B Closed Silver NightClub (Mer/Salsa/Bachata)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Night Club H/WC  C1 Nightclub Championship (H,WCS)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Night Club SAL/MER  C1 Nightclub Championship (SA,ME)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Night Club Scholarship C Nightclub (H,WCS,SA,ME)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (WCS/H)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (SAL/BA)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (MER/SAL)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (NC2S/WCS)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (H/NC2S/WCS)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (SAL/BA/MER)",
+        "place": "2",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 220.75,
+    "avg_pts": 13.8
   },
   {
     "name": "Magedoff, Kari and Cabrera, Jonathan",
@@ -1153,6 +1257,25 @@
       }
     ],
     "total_pts": 25.0,
+    "avg_pts": 12.5
+  },
+  {
+    "name": "Voelpel, Larry and Kuehuel, Karmin",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "G-SR1 Closed Bronze Club Dance (MER/SAL)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "G-SR1 Open Bronze Club Dance (MER/SAL)",
+        "place": "1",
+        "points": 15
+      }
+    ],
+    "total_pts": 25,
     "avg_pts": 12.5
   },
   {
@@ -1522,6 +1645,25 @@
     "avg_pts": 10.2
   },
   {
+    "name": "Bell, Tara and Wyant, Kyle",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-A Closed Bronze Club Dance (WCS/H)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-A Closed Bronze Club Dance (SAL/BA)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 10.0
+  },
+  {
     "name": "Cusick, Barbara and Lopez, Jesse",
     "results": [
       {
@@ -1649,6 +1791,25 @@
         "info": "L-A1 Open Bronze Pro-Am 2 Dance Night Club (H/WC)",
         "place": "1",
         "points": 15
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Fischietto, Mary and Sylvestre, Anderson",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Bronze Club Dance (SAL/BA)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Bronze Club Dance (SAL/BA/MER)",
+        "place": "1",
+        "points": 10
       }
     ],
     "total_pts": 20,
@@ -1798,6 +1959,19 @@
     "avg_pts": 10.0
   },
   {
+    "name": "Olson, Debbie and Criado, Angel",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-C Closed Bronze Club Dance (MER/SAL)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 10,
+    "avg_pts": 10
+  },
+  {
     "name": "Rana, Sophia and Solano, Julius",
     "results": [
       {
@@ -1822,6 +1996,19 @@
     ],
     "total_pts": 10.0,
     "avg_pts": 10.0
+  },
+  {
+    "name": "Stahler, Sharon and Criado, Angel",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR2 Closed Bronze Club Dance (NC2S/WCS)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 10,
+    "avg_pts": 10
   },
   {
     "name": "Starer, Jacquelyn and Munteanu, Alexandru",
@@ -2471,6 +2658,49 @@
     ],
     "total_pts": 5.0,
     "avg_pts": 5.0
+  },
+  {
+    "name": "Voelpel, Mary Jo and Westphal, Donald",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (WCS/H)",
+        "place": "3",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (SAL/BA)",
+        "place": "3",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (MER/SAL)",
+        "place": "3",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (NC2S/WCS)",
+        "place": "3",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (H/NC2S/WCS)",
+        "place": "3",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Closed Silver Club Dance (SAL/BA/MER)",
+        "place": "3",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 27.0,
+    "avg_pts": 4.5
   },
   {
     "name": "Arkins and Gehlhausen",

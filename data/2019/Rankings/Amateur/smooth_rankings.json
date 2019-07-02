@@ -1,18 +1,5 @@
 [
   {
-    "name": "Anderson, Landon and Gasinski, Hannah",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "1",
-        "points": 40.0
-      }
-    ],
-    "total_pts": 40.0,
-    "avg_pts": 40.0
-  },
-  {
     "name": "Williams, Collin and Francia, Savana",
     "results": [
       {
@@ -30,6 +17,25 @@
     ],
     "total_pts": 67.0,
     "avg_pts": 33.5
+  },
+  {
+    "name": "Anderson, Landon and Gasinski, Hannah",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 40.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-A Amateur Open American Smooth Championship(W/T/F/VW)",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 56.0,
+    "avg_pts": 28.0
   },
   {
     "name": "McShinsky, Robert and Keck, Serena",
@@ -83,6 +89,19 @@
     "avg_pts": 25.0
   },
   {
+    "name": "Mendlik, Jim and Mendlik, Patsy",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "AC-SR2 Gold Open Smooth 4-Dance Challenge (W/T/F/VW)",
+        "place": "1",
+        "points": 25
+      }
+    ],
+    "total_pts": 25,
+    "avg_pts": 25
+  },
+  {
     "name": "Migliore, Trevor and Patterson, Breanna",
     "results": [
       {
@@ -132,6 +151,37 @@
     ],
     "total_pts": 70.0,
     "avg_pts": 23.33
+  },
+  {
+    "name": "Barba, Stephen and Ryan, Susan",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "AC-SR1 Gold Closed Smooth 3-Dance Challenge (W/T/F)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "AC-SR1 Gold Open Smooth 3-Dance Challenge (W/T/F)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "AC-C Gold Closed Smooth 4-Dance Challenge (W/T/F/VW)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "AC-C Gold Open Smooth 4-Dance Challenge (W/T/F/VW)",
+        "place": "1",
+        "points": 25
+      }
+    ],
+    "total_pts": 90,
+    "avg_pts": 22.5
   },
   {
     "name": "Bell, Scott and Oliver, Laura",
@@ -375,6 +425,25 @@
     "avg_pts": 20.0
   },
   {
+    "name": "Keck, Brandon and Keck, Serena",
+    "results": [
+      {
+        "comp_name": "Las Vegas Lights",
+        "info": "AC-A Open American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-A Amateur Open American Smooth Championship(W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 40.0,
+    "avg_pts": 20.0
+  },
+  {
     "name": "Shelton, Mike and Shelton, Daneen",
     "results": [
       {
@@ -508,32 +577,6 @@
       {
         "comp_name": "American Star Ball Championships",
         "info": "AC-J1 Amateur JR/Y Open Smooth Championship (W/T/FT/VW)",
-        "place": "1",
-        "points": 20
-      }
-    ],
-    "total_pts": 20,
-    "avg_pts": 20
-  },
-  {
-    "name": "Keck, Brandon and Keck, Serena",
-    "results": [
-      {
-        "comp_name": "Las Vegas Lights",
-        "info": "AC-A Open American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 20.0,
-    "avg_pts": 20.0
-  },
-  {
-    "name": "McShinsky, Robert and Harding, Jenna",
-    "results": [
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Amateur Open 4/5-Dance A Amer. Smooth (W,T,F,VW)",
         "place": "1",
         "points": 20
       }
@@ -793,6 +836,31 @@
     "avg_pts": 16.67
   },
   {
+    "name": "McShinsky, Robert and Harding, Jenna",
+    "results": [
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Amateur Open 4/5-Dance A Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-UN21 Amateur Open American Smooth Championship(W/T/F/VW)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-A Amateur Open American Smooth Championship(W/T/F/VW)",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 50.0,
+    "avg_pts": 16.67
+  },
+  {
     "name": "Ranivand, John and Bruce, Elizabeth",
     "results": [
       {
@@ -893,19 +961,6 @@
     "avg_pts": 16.0
   },
   {
-    "name": "Stevenson, Nathan and Harding, Rachel",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "5",
-        "points": 16.0
-      }
-    ],
-    "total_pts": 16.0,
-    "avg_pts": 16.0
-  },
-  {
     "name": "Rogers, Ed and Rogers, Trisha",
     "results": [
       {
@@ -941,37 +996,6 @@
     ],
     "total_pts": 76.0,
     "avg_pts": 15.2
-  },
-  {
-    "name": "Santoro, Sam and Zutter, Mary",
-    "results": [
-      {
-        "comp_name": "Music City Invitational",
-        "info": "AC-B2 Open Bronze 2 Dance Smooth (W/T)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "Music City Invitational",
-        "info": "AC-C1 Open Bronze 2 Dance Smooth (W/T)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "Music City Invitational",
-        "info": "AC-B2 Open Bronze 3 Dance Smooth (W/T/FT)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "Music City Invitational",
-        "info": "AC-C1 Open Bronze 3 Dance Smooth (W/T/FT)",
-        "place": "1",
-        "points": 15
-      }
-    ],
-    "total_pts": 60,
-    "avg_pts": 15.0
   },
   {
     "name": "Grzeskowski, John and Virijevich, Diana",
@@ -1194,6 +1218,25 @@
     "avg_pts": 15.0
   },
   {
+    "name": "Stevenson, Nathan and Harding, Rachel",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "5",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-A Amateur Open American Smooth Championship(W/T/F/VW)",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 29.0,
+    "avg_pts": 14.5
+  },
+  {
     "name": "Bankhead, Porter and McAllister, Ashlyn",
     "results": [
       {
@@ -1364,6 +1407,49 @@
     "avg_pts": 13.67
   },
   {
+    "name": "Santoro, Sam and Zutter, Mary",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "info": "AC-B2 Open Bronze 2 Dance Smooth (W/T)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Music City Invitational",
+        "info": "AC-C1 Open Bronze 2 Dance Smooth (W/T)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Music City Invitational",
+        "info": "AC-B2 Open Bronze 3 Dance Smooth (W/T/FT)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Music City Invitational",
+        "info": "AC-C1 Open Bronze 3 Dance Smooth (W/T/FT)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-SR3 Bronze Open American Smooth 3 -Dance Championship(W/T/FT)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-SR3 Bronze Closed American Smooth 3 -Dance Championship(W/T/FT)",
+        "place": "2",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 81.0,
+    "avg_pts": 13.5
+  },
+  {
     "name": "Sutherland, Andrew and Sutherland, Elizabeth",
     "results": [
       {
@@ -1383,10 +1469,16 @@
         "info": "AC-B American Smooth Closed Challenge(W/T/F)",
         "place": "1",
         "points": 15
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-SR1 Silver Closed American Smooth 3 -Dance Championship(W/T/FT)",
+        "place": "1",
+        "points": 15
       }
     ],
-    "total_pts": 38.0,
-    "avg_pts": 12.67
+    "total_pts": 53.0,
+    "avg_pts": 13.25
   },
   {
     "name": "Burt, Jordan and Stewart, Megan",
@@ -1786,6 +1878,37 @@
     "avg_pts": 10.0
   },
   {
+    "name": "Voelpel, Larry and Voelpel, Mary Jo",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "AC-B1 Amateur Closed Bronze Smooth Multi-Dance (W/T)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "AC-B2 Amateur Closed Bronze Smooth Multi-Dance (W/T)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "AC-SR1 Closed Bronze Smooth 2-Dance Challenges (W/T)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "AC-SR1 Bronze Closed Smooth 3-Dance Challenge (W/T/F)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 40,
+    "avg_pts": 10.0
+  },
+  {
     "name": "James, Clinton and Winship, Laura",
     "results": [
       {
@@ -1802,6 +1925,25 @@
       }
     ],
     "total_pts": 20,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Kniejski, Bob and Kniejski, Wini",
+    "results": [
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-SR3 Bronze Closed American Smooth 2 -Dance Championship(W/T)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-SR3 Bronze Closed American Smooth 3 -Dance Championship(W/T/FT)",
+        "place": "1",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 20.0,
     "avg_pts": 10.0
   },
   {
@@ -1856,25 +1998,6 @@
         "info": "AC-A Pre-Champ 4-Dance American Smooth (W/T/F/VW)",
         "place": "1",
         "points": 15
-      }
-    ],
-    "total_pts": 20,
-    "avg_pts": 10.0
-  },
-  {
-    "name": "Voelpel, Larry and Voelpel, Mary Jo",
-    "results": [
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "AC-B1 Amateur Closed Bronze Smooth Multi-Dance (W/T)",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "AC-B2 Amateur Closed Bronze Smooth Multi-Dance (W/T)",
-        "place": "1",
-        "points": 10
       }
     ],
     "total_pts": 20,
@@ -1970,6 +2093,19 @@
       {
         "comp_name": "Portland Open Dancesport Competition",
         "info": "Adult Amateur Closed Bronze 2-Dance Events 1 S Amer. Smooth (W,T)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 10,
+    "avg_pts": 10
+  },
+  {
+    "name": "Hubble, Nathan and Kim, Madeleine",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "AC-YTH-MA Bronze Closed Smooth 4-Dance Challenge (W/T/F/VW)",
         "place": "1",
         "points": 10
       }
@@ -2254,6 +2390,31 @@
     "avg_pts": 9.17
   },
   {
+    "name": "Jones, Alex and Fiallo, Katie",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-A Open Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 4.2
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-A Pre-Champ Smooth (W/T/F/VW)",
+        "place": "2",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-A Amateur American Smooth Pre-Champ(W/T/F)",
+        "place": "1",
+        "points": 15
+      }
+    ],
+    "total_pts": 26.7,
+    "avg_pts": 8.9
+  },
+  {
     "name": "Kyle, TJ and Croghan, Jane",
     "results": [
       {
@@ -2494,6 +2655,37 @@
     "avg_pts": 7.4
   },
   {
+    "name": "Calder, Beverly and Calder, Dr. Jim",
+    "results": [
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-SR3 Bronze Closed American Smooth 2 -Dance Championship(W/T)",
+        "place": "2",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-SR3 Amateur American Smooth Novice(W/T)",
+        "place": "1",
+        "points": 5
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-SR3 Amateur American Smooth Pre-Champ(W/T/F)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-SR3 Bronze Closed American Smooth 3 -Dance Championship(W/T/FT)",
+        "place": "3",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 28.0,
+    "avg_pts": 7.0
+  },
+  {
     "name": "Snow, Ethan and Musig, Tayva",
     "results": [
       {
@@ -2563,6 +2755,25 @@
     "avg_pts": 6.5
   },
   {
+    "name": "Rallison, Brodie and Rallison, Stephen",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-A Amateur Open American Smooth Championship(W/T/F/VW)",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 12.8,
+    "avg_pts": 6.4
+  },
+  {
     "name": "Sheperd, Maklain and Davis, Maddison",
     "results": [
       {
@@ -2580,6 +2791,19 @@
     ],
     "total_pts": 12.3,
     "avg_pts": 6.15
+  },
+  {
+    "name": "Harding, Tyler and Duncan, Misha",
+    "results": [
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-A Amateur Open American Smooth Championship(W/T/F/VW)",
+        "place": "6",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
   },
   {
     "name": "Michielini, James and Varanese, Lauren",
@@ -2606,25 +2830,6 @@
     ],
     "total_pts": 6.0,
     "avg_pts": 6.0
-  },
-  {
-    "name": "Jones, Alex and Fiallo, Katie",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "AC-A Open Smooth Championship (W/T/F/VW)",
-        "place": "Semis",
-        "points": 4.2
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "AC-A Pre-Champ Smooth (W/T/F/VW)",
-        "place": "2",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 11.7,
-    "avg_pts": 5.85
   },
   {
     "name": "Young, Joseph and Smith, Dee Dee",
@@ -2734,25 +2939,6 @@
     "avg_pts": 5.0
   },
   {
-    "name": "Lacson, Frank and Lacson, Jennifer",
-    "results": [
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC- Pre Novice Smooth (W/T)",
-        "place": "1",
-        "points": 5
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC- Novice Smooth (W/T/FT)",
-        "place": "1",
-        "points": 5
-      }
-    ],
-    "total_pts": 10,
-    "avg_pts": 5.0
-  },
-  {
     "name": "Hooker, William and Collins, Robyn",
     "results": [
       {
@@ -2764,6 +2950,25 @@
       {
         "comp_name": "Colorado Star Ball Championships",
         "info": "Amateur Novice 2 A Amer. Smooth (T,VW)",
+        "place": "1",
+        "points": 5
+      }
+    ],
+    "total_pts": 10,
+    "avg_pts": 5.0
+  },
+  {
+    "name": "Lacson, Frank and Lacson, Jennifer",
+    "results": [
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC- Pre Novice Smooth (W/T)",
+        "place": "1",
+        "points": 5
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC- Novice Smooth (W/T/FT)",
         "place": "1",
         "points": 5
       }
@@ -2863,24 +3068,24 @@
     "avg_pts": 5.0
   },
   {
+    "name": "Baldwin, Chayce and Baldwin, Jessie",
+    "results": [
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-A Amateur Open American Smooth Championship(W/T/F/VW)",
+        "place": "7",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 5.0,
+    "avg_pts": 5.0
+  },
+  {
     "name": "Chauchereau, Benjamin and Berneking, Lindsay",
     "results": [
       {
         "comp_name": "caopen19",
         "info": "AC-Y Amateur Youth Smooth Championship (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 4.8
-      }
-    ],
-    "total_pts": 4.8,
-    "avg_pts": 4.8
-  },
-  {
-    "name": "Rallison, Brodie and Rallison, Stephen",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
         "place": "Semis",
         "points": 4.8
       }

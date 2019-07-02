@@ -1,5 +1,18 @@
 [
   {
+    "name": "Gunnarsson, Gunnar and Doshoris, Marika",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Open",
+        "place": "2",
+        "points": 32.0
+      }
+    ],
+    "total_pts": 32.0,
+    "avg_pts": 32.0
+  },
+  {
     "name": "Kazlouski, Andrei and Sigvaldadottir, Asta",
     "results": [
       {
@@ -13,23 +26,16 @@
         "level": "Open",
         "place": "2",
         "points": 24.0
-      }
-    ],
-    "total_pts": 64.0,
-    "avg_pts": 32.0
-  },
-  {
-    "name": "Gunnarsson, Gunnar and Doshoris, Marika",
-    "results": [
+      },
       {
-        "comp_name": "NYDF 2019",
-        "level": "Open",
-        "place": "2",
-        "points": 32.0
+        "comp_name": "Millennium Dancesport",
+        "level": 20,
+        "place": "1",
+        "points": 30.0
       }
     ],
-    "total_pts": 32.0,
-    "avg_pts": 32.0
+    "total_pts": 94.0,
+    "avg_pts": 31.33
   },
   {
     "name": "Bager, Troels and Jeliazkova, Ina",
@@ -80,6 +86,56 @@
     ],
     "total_pts": 110.0,
     "avg_pts": 27.5
+  },
+  {
+    "name": "Bilopukhov, Mykhailo and Shchypilina, Anastasiia",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Open",
+        "place": "3",
+        "points": 26.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "level": "Open",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 20,
+        "place": "2",
+        "points": 24.0
+      }
+    ],
+    "total_pts": 120.0,
+    "avg_pts": 24.0
+  },
+  {
+    "name": "Likhachev, Evgeny and Levina, Maria",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "level": "Open",
+        "place": "2",
+        "points": 24.0
+      }
+    ],
+    "total_pts": 24.0,
+    "avg_pts": 24.0
   },
   {
     "name": "Tarnavskyy, Artur and Danilova, Anastasia",
@@ -161,67 +217,16 @@
         "level": 20,
         "place": "1",
         "points": 30.0
-      }
-    ],
-    "total_pts": 316.0,
-    "avg_pts": 24.31
-  },
-  {
-    "name": "Bilopukhov, Mykhailo and Shchypilina, Anastasiia",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "level": "Open",
-        "place": "1",
-        "points": 20.0
       },
       {
-        "comp_name": "NYDF 2019",
-        "level": "Open",
-        "place": "3",
-        "points": 26.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "level": "Open",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "level": "Open",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 96.0,
-    "avg_pts": 24.0
-  },
-  {
-    "name": "Likhachev, Evgeny and Levina, Maria",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "level": "Open",
-        "place": "2",
-        "points": 24.0
-      }
-    ],
-    "total_pts": 24.0,
-    "avg_pts": 24.0
-  },
-  {
-    "name": "Stepanchuk, Pasha and Sabler, Gabrielle",
-    "results": [
-      {
-        "comp_name": "Yankee Classic",
+        "comp_name": "Millennium Dancesport",
         "level": 20,
-        "place": "2",
-        "points": 24.0
+        "place": "3",
+        "points": 19.5
       }
     ],
-    "total_pts": 24.0,
-    "avg_pts": 24.0
+    "total_pts": 335.5,
+    "avg_pts": 23.96
   },
   {
     "name": "Bertini, Francesco and Bertini, Sabrina",
@@ -477,10 +482,47 @@
         "level": 20,
         "place": "3",
         "points": 19.5
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "level": 20,
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 20,
+        "place": "5",
+        "points": 12.0
       }
     ],
-    "total_pts": 163.8,
-    "avg_pts": 16.38
+    "total_pts": 205.8,
+    "avg_pts": 17.15
+  },
+  {
+    "name": "Stepanchuk, Pasha and Sabler, Gabrielle",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "level": 20,
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 10,
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 20,
+        "place": "4",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 49.0,
+    "avg_pts": 16.33
   },
   {
     "name": "Italyankin, Roman and Bokova, Alexandra",
@@ -611,6 +653,19 @@
     "avg_pts": 15.88
   },
   {
+    "name": "Bezukladnikov, Egor and Savikurki, Taina",
+    "results": [
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "4",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
+  },
+  {
     "name": "Kapitannikov, Maksim and Nesterova, Elena",
     "results": [
       {
@@ -630,23 +685,28 @@
         "level": "Open",
         "place": "3",
         "points": 13.0
-      }
-    ],
-    "total_pts": 45.0,
-    "avg_pts": 15.0
-  },
-  {
-    "name": "Bezukladnikov, Egor and Savikurki, Taina",
-    "results": [
+      },
       {
-        "comp_name": "atlopen19",
-        "level": "Open",
-        "place": "4",
-        "points": 15.0
+        "comp_name": "Celebrating Rock Legends!",
+        "level": 20,
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 10,
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 20,
+        "place": "6",
+        "points": 9.0
       }
     ],
-    "total_pts": 15.0,
-    "avg_pts": 15.0
+    "total_pts": 86.0,
+    "avg_pts": 14.33
   },
   {
     "name": "Dmytrenko, Dmytry and Hyzhko, Yelyzaveta",
@@ -844,10 +904,16 @@
         "level": 20,
         "place": "6",
         "points": 9.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "level": 20,
+        "place": "4",
+        "points": 15.0
       }
     ],
-    "total_pts": 285.0,
-    "avg_pts": 13.57
+    "total_pts": 300.0,
+    "avg_pts": 13.64
   },
   {
     "name": "Spirov, Rangel and Chernyavska, Veronika",
@@ -1353,10 +1419,16 @@
         "level": 20,
         "place": "3",
         "points": 13.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "level": 20,
+        "place": "5",
+        "points": 12.0
       }
     ],
-    "total_pts": 61.0,
-    "avg_pts": 10.17
+    "total_pts": 73.0,
+    "avg_pts": 10.43
   },
   {
     "name": "Escolme, Andrew and Baker, Amy",
@@ -1425,6 +1497,73 @@
     ],
     "total_pts": 79.4,
     "avg_pts": 9.93
+  },
+  {
+    "name": "Elkin, Bozhidar and Dumanova, Elena",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Rising Star",
+        "place": "6",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "level": "Open",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Open",
+        "place": "6",
+        "points": 9.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Open",
+        "place": "Semis",
+        "points": 6.9
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "level": 10,
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "level": 20,
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 10,
+        "place": "3",
+        "points": 6.5
+      }
+    ],
+    "total_pts": 98.4,
+    "avg_pts": 9.84
   },
   {
     "name": "Davies, Jake and Kalinina, Alyona",
@@ -1511,55 +1650,6 @@
     ],
     "total_pts": 64.4,
     "avg_pts": 9.2
-  },
-  {
-    "name": "Elkin, Bozhidar and Dumanova, Elena",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Rising Star",
-        "place": "6",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Heritage Classic",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Heritage Classic",
-        "level": "Open",
-        "place": "Semis",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "level": "Open",
-        "place": "6",
-        "points": 9.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Rising Star",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Open",
-        "place": "Semis",
-        "points": 6.9
-      }
-    ],
-    "total_pts": 62.4,
-    "avg_pts": 8.91
   },
   {
     "name": "Modrzynski, Przemyslaw and Zybura, Magdalena",
@@ -1714,10 +1804,22 @@
         "level": "Open",
         "place": "Semis",
         "points": 3.6
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "level": 10,
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "level": 20,
+        "place": "6",
+        "points": 9.0
       }
     ],
-    "total_pts": 104.6,
-    "avg_pts": 8.72
+    "total_pts": 120.6,
+    "avg_pts": 8.61
   },
   {
     "name": "Kulpin and Kulpina",
@@ -1799,6 +1901,75 @@
     ],
     "total_pts": 16.8,
     "avg_pts": 8.4
+  },
+  {
+    "name": "Goncharov, Dymytrii and Lutsenko, Tatyana",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "level": "Open",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 32.4,
+    "avg_pts": 8.1
+  },
+  {
+    "name": "Netsvetaev and Antonenko",
+    "results": [
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 4.2
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "level": "Open",
+        "place": "5",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 16.2,
+    "avg_pts": 8.1
+  },
+  {
+    "name": "Angelo, Miguel and Santos, Daniela",
+    "results": [
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Open",
+        "place": "6",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 16.0,
+    "avg_pts": 8.0
   },
   {
     "name": "Fulvi, Daniele and Criscione, Veronica",
@@ -1892,79 +2063,22 @@
         "level": "Open",
         "place": "3",
         "points": 10.0
-      }
-    ],
-    "total_pts": 123.8,
-    "avg_pts": 8.25
-  },
-  {
-    "name": "Goncharov, Dymytrii and Lutsenko, Tatyana",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "level": "Open",
-        "place": "6",
-        "points": 6.0
       },
       {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10.0
+        "comp_name": "Celebrating Rock Legends!",
+        "level": 10,
+        "place": "3",
+        "points": 5.0
       },
       {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "level": "Open",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Open",
-        "place": "quarters",
-        "points": 0.4
-      }
-    ],
-    "total_pts": 32.4,
-    "avg_pts": 8.1
-  },
-  {
-    "name": "Netsvetaev and Antonenko",
-    "results": [
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "level": "Rising Star",
+        "comp_name": "Celebrating Rock Legends!",
+        "level": 20,
         "place": "Semis",
-        "points": 4.2
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "level": "Open",
-        "place": "5",
-        "points": 12.0
+        "points": 6.3
       }
     ],
-    "total_pts": 16.2,
-    "avg_pts": 8.1
-  },
-  {
-    "name": "Angelo, Miguel and Santos, Daniela",
-    "results": [
-      {
-        "comp_name": "2019 Miami Vibe",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "level": "Open",
-        "place": "6",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 16.0,
-    "avg_pts": 8.0
+    "total_pts": 135.1,
+    "avg_pts": 7.95
   },
   {
     "name": "Minaev, Aleksei and Minaeva, Elena",
@@ -2597,128 +2711,6 @@
     "avg_pts": 5.38
   },
   {
-    "name": "Tozik, Vitalii and Downey, Angelica",
-    "results": [
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 3.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "level": "Open",
-        "place": "3",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 21.4,
-    "avg_pts": 5.35
-  },
-  {
-    "name": "Jenkins, Dylan and Jenkins, Nora",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Open",
-        "place": "7",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Heritage Classic",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Heritage Classic",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Open",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Rising Star",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "atlopen19",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "Savannah Dance Classic",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Savannah Dance Classic",
-        "level": "Open",
-        "place": "4",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "level": "Open",
-        "place": "7",
-        "points": 5.0
-      }
-    ],
-    "total_pts": 74.2,
-    "avg_pts": 5.3
-  },
-  {
     "name": "Caradese, Adriano and Hurley, Lauren",
     "results": [
       {
@@ -2818,6 +2810,146 @@
     "avg_pts": 5.15
   },
   {
+    "name": "Jenkins, Dylan and Jenkins, Nora",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "7",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "level": "Open",
+        "place": "4",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "level": "Open",
+        "place": "7",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 10,
+        "place": "6",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 20,
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 80.8,
+    "avg_pts": 5.05
+  },
+  {
+    "name": "Tozik, Vitalii and Downey, Angelica",
+    "results": [
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Rising Star",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Rising Star",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Open",
+        "place": "3",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 10,
+        "place": "7",
+        "points": 2.5
+      }
+    ],
+    "total_pts": 23.9,
+    "avg_pts": 4.78
+  },
+  {
     "name": "Seawright, Jordan and Novak, Tjasa",
     "results": [
       {
@@ -2905,6 +3037,25 @@
     "avg_pts": 4.53
   },
   {
+    "name": "Montagnese, Bradley and Tania, Trigili",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 10,
+        "place": "4",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 4.5
+  },
+  {
     "name": "Chibishev, Ihor and Zhosan, Diana",
     "results": [
       {
@@ -2940,19 +3091,6 @@
     ],
     "total_pts": 22.2,
     "avg_pts": 4.44
-  },
-  {
-    "name": "Montagnese, Bradley and Tania, Trigili",
-    "results": [
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 4.0
-      }
-    ],
-    "total_pts": 4.0,
-    "avg_pts": 4.0
   },
   {
     "name": "Panchenko, Sergei and Zakrevskaia, Natalia",
@@ -2992,25 +3130,6 @@
     ],
     "total_pts": 4.0,
     "avg_pts": 4.0
-  },
-  {
-    "name": "Matakov, Vesko and Mariscal, Andrea",
-    "results": [
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "level": "Open",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "level": "Open",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 7.6,
-    "avg_pts": 3.8
   },
   {
     "name": "Horvath-Krol, Dariusz and Zosin, Alisa",
@@ -3074,10 +3193,35 @@
         "level": 20,
         "place": "Semis",
         "points": 3.6
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 10,
+        "place": "5",
+        "points": 4.0
       }
     ],
-    "total_pts": 37.9,
-    "avg_pts": 3.79
+    "total_pts": 41.9,
+    "avg_pts": 3.81
+  },
+  {
+    "name": "Matakov, Vesko and Mariscal, Andrea",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "level": "Open",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 7.6,
+    "avg_pts": 3.8
   },
   {
     "name": "Pro, Lenny and Bekker, Natalie",
@@ -3131,10 +3275,16 @@
         "level": "Open",
         "place": "Semis",
         "points": 3.6
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 20,
+        "place": "Semis",
+        "points": 3.6
       }
     ],
-    "total_pts": 10.6,
-    "avg_pts": 3.53
+    "total_pts": 14.2,
+    "avg_pts": 3.55
   },
   {
     "name": "Guzovskyi, Mykyta and Serbina, Ekaterina",
@@ -3172,6 +3322,25 @@
     ],
     "total_pts": 17.4,
     "avg_pts": 3.48
+  },
+  {
+    "name": "Pashayev, Ruslan and Halversen, Rachel",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "level": 10,
+        "place": "4",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "level": 20,
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 6.6,
+    "avg_pts": 3.3
   },
   {
     "name": "Pavlovic, Nenad and Kogan, Vivienne",
