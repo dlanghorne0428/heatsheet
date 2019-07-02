@@ -536,6 +536,7 @@ class AppFrame(wx.Frame):
         ranking database. 
         '''
         db_index = 0
+        Name_Column = 1  # initialize variable
         while db_index > -1:            
             # if not found, search again by last name only. 
             db_index = self.current_couples.find_couple_by_last_name(entry["couple"], start=db_index)
@@ -548,7 +549,17 @@ class AppFrame(wx.Frame):
                     # if user says yes, add the result and update the entry name
                     self.current_couples.add_result_to_couple(db_index, result)
                     self.unsaved_updates = True
-                    entry["couple"] = db_name
+                    # give user option to update couple's name in database
+                    message = "Replace " + db_name + "\nwith " + entry["couple"]
+                    md = wx.MessageDialog(self, message, "Update couple name in database?", style=wx.YES_NO | wx.NO_DEFAULT)
+                    if md.ShowModal() == wx.ID_YES:            
+                        # set the name of this index to the replace string from the dialog
+                        # update both the GUI and the database object
+                        self.list_ctrl.SetItem(db_index, Name_Column, entry["couple"])
+                        self.current_couples.set_name_at_index(db_index, entry["couple"])              
+                    else:            
+                        entry["couple"] = db_name
+                    self.unsaved_updates = True
                     break
                 else:
                     db_index += 1  # try to find another match 
@@ -563,11 +574,20 @@ class AppFrame(wx.Frame):
             names = self.current_couples.get_list_of_names()
             md = wx.SingleChoiceDialog(self, message, caption="Find a Match", choices=names)
             if md.ShowModal() == wx.ID_OK:
-                # if user finds a match, add the result and update the entry name
+                # if user finds a match, add the result
                 db_index = md.GetSelection() 
                 self.current_couples.add_result_to_couple(db_index, result)  
+                # give user option to update couple's name in database
+                message = "Replace " + names[db_index] + "\nwith " + entry["couple"]
+                md = wx.MessageDialog(self, message, "Update couple name in database?", style=wx.YES_NO | wx.NO_DEFAULT)
+                if md.ShowModal() == wx.ID_YES:            
+                    # set the name of this index to the replace string from the dialog
+                    # update both the GUI and the database object
+                    self.list_ctrl.SetItem(db_index, Name_Column, entry["couple"])
+                    self.current_couples.set_name_at_index(db_index, entry["couple"])              
+                else:
+                    entry["couple"] = names[db_index]
                 self.unsaved_updates = True
-                entry["couple"] = names[db_index]
             else: # add the couple to the database
                 self.current_couples.add_couple(entry["couple"], result) 
                 self.unsaved_updates = True
@@ -712,7 +732,8 @@ class AppFrame(wx.Frame):
  
             # open the results file: 
             if self.current_db_index == 0:
-                self.comp_results = Comp_Results_File(folder_name + "/pro_results.json")  
+                self.comp_results = Comp_Results_File(folder_name + "/pro_results.json")
+                self.automation = False
             elif self.current_db_index == 1:
                 self.comp_results = Comp_Results_File(folder_name + "/pro-am_results.json") 
                 self.automation = True
