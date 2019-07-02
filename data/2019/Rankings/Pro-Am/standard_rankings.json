@@ -1437,6 +1437,25 @@
     "avg_pts": 22.5
   },
   {
+    "name": "Cramer, Elizabeth and Kravets, Yuriy",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open  C Int'l Ballroom Championship (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Open Scholarship DSS C Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 45.0,
+    "avg_pts": 22.5
+  },
+  {
     "name": "Galea, Carole and Tonizzo, Richard",
     "results": [
       {
@@ -1619,25 +1638,6 @@
       {
         "comp_name": "beachbash2019",
         "info": "L-B Pro/Am Open Ballroom Scholarship (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 25.0
-      }
-    ],
-    "total_pts": 45.0,
-    "avg_pts": 22.5
-  },
-  {
-    "name": "Cramer, Elizabeth and Kravets, Yuriy",
-    "results": [
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Pro-Am Open  C Int'l Ballroom Championship (W,T,VW,F,Q)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Pro-Am Open Scholarship DSS C Int'l Ballroom (W,T,VW,F,Q)",
         "place": "1",
         "points": 25.0
       }
@@ -2785,6 +2785,31 @@
     "avg_pts": 20.0
   },
   {
+    "name": "Green, Randi and Minaev, Aleksei",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Gold Closed Intl Ballroom 3-Dance Challenge (W/T/Q)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-C Closed Gold World Dancesport Series Ballroom (W/T/FT/VW/Q)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Gold Closed Intl Ballroom 5-Dance Challenge (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 60,
+    "avg_pts": 20.0
+  },
+  {
     "name": "Breit, Edna and Pilipenchuk, Nikolai",
     "results": [
       {
@@ -3488,6 +3513,19 @@
     "avg_pts": 20.0
   },
   {
+    "name": "Mullins, Sage and Tsorokean, Alyenendrov",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-JR Silver Open Intl Ballroom 5-Dance Challenge (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20
+      }
+    ],
+    "total_pts": 20,
+    "avg_pts": 20
+  },
+  {
     "name": "Fila, Maria and Urbaniak, Kamil",
     "results": [
       {
@@ -3931,31 +3969,6 @@
     "avg_pts": 19.17
   },
   {
-    "name": "Stratton, Terry and Kubis, Robert",
-    "results": [
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "L-C Open Pro/Am Open Ballroom 5-Dance (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 20
-      },
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "L-B Open Open Pro/Am Ballroom Scholarship (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 25
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-SR1 Pro/Am Open Senior Ballroom Scholarship (W/T/FT/QS)",
-        "place": "4",
-        "points": 12.5
-      }
-    ],
-    "total_pts": 57.5,
-    "avg_pts": 19.17
-  },
-  {
     "name": "Ma, Gerald and Bakhtiarova, Liana",
     "results": [
       {
@@ -4040,6 +4053,43 @@
       {
         "comp_name": "2019 First Coast Classic",
         "info": "L-B World Master's Pro/Am Ballroom Open Silver Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 95.0,
+    "avg_pts": 19.0
+  },
+  {
+    "name": "Nagy, Laura and Minaev, Aleksei",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-C Silver Closed Intl Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-C Open Qualifying World Dancesport Series Ballroom (W/T/FT/VW/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-C Closed Silver Pro/Am Rising Star Intl Ballroom (W/T/F/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Silver Closed Intl Ballroom 4-Dance Challenge (W/T/VW/F)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-C Open Intl Ballroom Scholarships (W/T/VW/F/Q)",
         "place": "1",
         "points": 25.0
       }
@@ -5475,25 +5525,6 @@
     "avg_pts": 17.5
   },
   {
-    "name": "Bouwer, Dave and Strashnikova, Diana",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "info": "G- Open Gold 'S1' Global Gents Only Ballroom MDC (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Pro-Am Men's Open  C Int'l Ballroom Championship (W,T,F,VW,Q)",
-        "place": "2",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 35.0,
-    "avg_pts": 17.5
-  },
-  {
     "name": "Anderson, Renee and Anderson, Scott",
     "results": [
       {
@@ -5564,6 +5595,25 @@
         "info": "L-C International Ballroom Closed Silver 4-Dance Scholarship (W/T/F/Q)",
         "place": "1",
         "points": 20.0
+      }
+    ],
+    "total_pts": 35.0,
+    "avg_pts": 17.5
+  },
+  {
+    "name": "Bouwer, Dave and Strashnikova, Diana",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "info": "G- Open Gold 'S1' Global Gents Only Ballroom MDC (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Men's Open  C Int'l Ballroom Championship (W,T,F,VW,Q)",
+        "place": "2",
+        "points": 10.0
       }
     ],
     "total_pts": 35.0,
@@ -7451,6 +7501,43 @@
     "avg_pts": 16.08
   },
   {
+    "name": "Stratton, Terry and Kubis, Robert",
+    "results": [
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "L-C Open Pro/Am Open Ballroom 5-Dance (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "L-B Open Open Pro/Am Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 25
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-SR1 Pro/Am Open Senior Ballroom Scholarship (W/T/FT/QS)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-C Open Qualifying World Dancesport Series Ballroom (W/T/FT/VW/Q)",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-C Open Intl Ballroom Scholarships (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 80.0,
+    "avg_pts": 16.0
+  },
+  {
     "name": "Bavaud, Annabel and Hudson, Eric",
     "results": [
       {
@@ -8680,6 +8767,37 @@
     "avg_pts": 15.0
   },
   {
+    "name": "Hanners, Ellie and Jones, Charles",
+    "results": [
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "info": "L-C Closed Bronze Pro-Am International Ballroom Scholarship (W/T/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "info": "L-B Closed Bronze Pro-Am International Ballroom Scholarship (W/T/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-B Bronze Closed Intl Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-CS Bronze Closed Intl Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 60.0,
+    "avg_pts": 15.0
+  },
+  {
     "name": "Koi, Carmen and Rogowski, Kamil",
     "results": [
       {
@@ -8891,25 +9009,6 @@
       {
         "comp_name": "Las Vegas Lights",
         "info": "L-S International Standard (W/T/F/VW/QS)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 30.0,
-    "avg_pts": 15.0
-  },
-  {
-    "name": "Hanners, Ellie and Jones, Charles",
-    "results": [
-      {
-        "comp_name": "2019 Indianapolis Open DanceSport",
-        "info": "L-C Closed Bronze Pro-Am International Ballroom Scholarship (W/T/Q)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "2019 Indianapolis Open DanceSport",
-        "info": "L-B Closed Bronze Pro-Am International Ballroom Scholarship (W/T/Q)",
         "place": "1",
         "points": 15.0
       }
@@ -10168,6 +10267,37 @@
         "info": "L-SR2 Closed Silver Sr Ballroom Challenge (W/T/F)",
         "place": "1",
         "points": 15
+      }
+    ],
+    "total_pts": 57.5,
+    "avg_pts": 14.38
+  },
+  {
+    "name": "Burden, Annette and Scheppler, Tony",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR Silver Closed Intl Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-C Closed Silver World Dancesport Series Ballroom (W/T/FT/VW/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-C Closed Silver Pro/Am Rising Star Intl Ballroom (W/T/F/Q)",
+        "place": "2",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Silver Closed Intl Ballroom 5-Dance Challenge (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 15.0
       }
     ],
     "total_pts": 57.5,
@@ -12246,6 +12376,43 @@
     "avg_pts": 12.92
   },
   {
+    "name": "Voelpel, Mary Jo and Gadirov, Tamerlan",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-SR1 Pro/Am Closed Senior Ballroom Scholarship (W/T/FT)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR 1 Closed Silver Ballroom 2-Dance Challenges (W/T)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L- Silver DFTC International Ballroom Challenge (W/T/F)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR 1 Closed Silver Ballroom 2-Dance Challenges (F/Q)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Silver Closed Intl Ballroom 5-Dance Challenge (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 64.5,
+    "avg_pts": 12.9
+  },
+  {
     "name": "Harrison, Jerry and Lazzari Pappacena, Francesca",
     "results": [
       {
@@ -12313,6 +12480,43 @@
     ],
     "total_pts": 25.5,
     "avg_pts": 12.75
+  },
+  {
+    "name": "Michaels, Michele and Kumer, Bill",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-B2 Pro/Am Closed Silver Ballroom Multi-Dance (W/T/F/QS)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-SR1 Pro/Am Closed Senior Ballroom Scholarship (W/T/FT)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-B Pro/Am Closed Silver Ballroom Scholarship (W/T/FT/QS)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Silver Closed Intl Ballroom 3-Dance Challenge (W/T/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-C Silver Closed Intl Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "2",
+        "points": 14.0
+      }
+    ],
+    "total_pts": 63.5,
+    "avg_pts": 12.7
   },
   {
     "name": "Kim, Juna and Bezukladnikov, Egor",
@@ -12956,6 +13160,25 @@
         "info": "L-B International Ballroom Closed Bronze 3-Dance Scholarship (W/T/Q)",
         "place": "1",
         "points": 15.0
+      }
+    ],
+    "total_pts": 25.0,
+    "avg_pts": 12.5
+  },
+  {
+    "name": "Olson, Eugenia and Ferris, Jim",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR2 Silver Closed Intl Ballroom 3-Dance Challenge (W/T/Q)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR Silver Closed Intl Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "2",
+        "points": 10.0
       }
     ],
     "total_pts": 25.0,
@@ -13982,19 +14205,6 @@
         "comp_name": "The Snow Ball",
         "info": "L- Closed Silver 'S' Ballroom Scholarship (W/T/Q)",
         "place": "2",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 12.0,
-    "avg_pts": 12.0
-  },
-  {
-    "name": "Voelpel, Mary Jo and Gadirov, Tamerlan",
-    "results": [
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-SR1 Pro/Am Closed Senior Ballroom Scholarship (W/T/FT)",
-        "place": "5",
         "points": 12.0
       }
     ],
@@ -15058,31 +15268,6 @@
     "avg_pts": 11.5
   },
   {
-    "name": "Michaels, Michele and Kumer, Bill",
-    "results": [
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-B2 Pro/Am Closed Silver Ballroom Multi-Dance (W/T/F/QS)",
-        "place": "3",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-SR1 Pro/Am Closed Senior Ballroom Scholarship (W/T/FT)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-B Pro/Am Closed Silver Ballroom Scholarship (W/T/FT/QS)",
-        "place": "5",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 34.5,
-    "avg_pts": 11.5
-  },
-  {
     "name": "Hardman and Ferguson",
     "results": [
       {
@@ -15822,31 +16007,6 @@
     "avg_pts": 11.17
   },
   {
-    "name": "McCaffery, Susan and Merz, Timmy",
-    "results": [
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Pro-Am Silver  Full Silver B Int'l Ballroom Championship (W,T,F,Q)",
-        "place": "2",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Pro-Am Silver Scholarship DSS A Int'l Ballroom (W,T,F,Q)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Pro-Am Global Scholarship Full Silver Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "4",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 33.5,
-    "avg_pts": 11.17
-  },
-  {
     "name": "Lauer, Julia and Burson, Chad",
     "results": [
       {
@@ -15866,6 +16026,31 @@
         "info": "L-C Closed Silver International Ballroom Scholarship (W/T/Q)",
         "place": "2",
         "points": 14.0
+      }
+    ],
+    "total_pts": 33.5,
+    "avg_pts": 11.17
+  },
+  {
+    "name": "McCaffery, Susan and Merz, Timmy",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver  Full Silver B Int'l Ballroom Championship (W,T,F,Q)",
+        "place": "2",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS A Int'l Ballroom (W,T,F,Q)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Silver Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "4",
+        "points": 10.0
       }
     ],
     "total_pts": 33.5,
@@ -19252,6 +19437,61 @@
     "avg_pts": 9.71
   },
   {
+    "name": "Mallory, Mike and Todero, Jessica",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "G-A Closed Bronze Ballroom 2-Dance Challenges (W/T)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "G-A Closed Bronze Ballroom 2-Dance Challenges (F/Q)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "G-B Closed Bronze Ballroom 2-Dance Challenges (W/T)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-A Bronze Closed Intl Ballroom 3-Dance Challenge (W/T/Q)",
+        "place": "3",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "G-B Bronze Closed Intl Ballroom 3-Dance Challenge (W/T/Q)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-B Bronze Closed Intl Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-A Bronze Closed Intl Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "G-B Closed Bronze Ballroom 2-Dance Challenges (F/Q)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 77.0,
+    "avg_pts": 9.62
+  },
+  {
     "name": "Warren, John and Popova, Ekaterina",
     "results": [
       {
@@ -19500,6 +19740,37 @@
     ],
     "total_pts": 47.0,
     "avg_pts": 9.4
+  },
+  {
+    "name": "Ivanson, Alyssa and Didier, Tony",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-A Bronze Closed Intl Ballroom 3-Dance Challenge (W/T/Q)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-A Bronze Closed Intl Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "2",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-A Closed Bronze World Dancesport Series Ballroom (W/T/FT/VW/Q)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-A Bronze Closed Intl Ballroom 5-Dance Challenge (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 37.5,
+    "avg_pts": 9.38
   },
   {
     "name": "Galea, Mike and Hansen, Claire",
@@ -20550,25 +20821,6 @@
     "avg_pts": 8.78
   },
   {
-    "name": "Peterson, Robb and Corey, Jennifer",
-    "results": [
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Pro-Am Bronze  Full Bronze B Int'l Ballroom Championship (W,T,Q)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Pro-Am Global Scholarship Full Bronze Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "4",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 17.5,
-    "avg_pts": 8.75
-  },
-  {
     "name": "Fulton, Barbara and Peters, Richard",
     "results": [
       {
@@ -20639,6 +20891,25 @@
         "info": "L-B Closed Silver Ballroom 4-Dance Scholarship (W/T/F/Q)",
         "place": "4",
         "points": 10.0
+      }
+    ],
+    "total_pts": 17.5,
+    "avg_pts": 8.75
+  },
+  {
+    "name": "Peterson, Robb and Corey, Jennifer",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze  Full Bronze B Int'l Ballroom Championship (W,T,Q)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Bronze Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "4",
+        "points": 7.5
       }
     ],
     "total_pts": 17.5,
@@ -21436,6 +21707,37 @@
     ],
     "total_pts": 24.5,
     "avg_pts": 8.17
+  },
+  {
+    "name": "Hansford, Carmen and Criado, Angel",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L- Silver DFTC International Ballroom Challenge (W/T/F)",
+        "place": "2",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-C Silver Closed Intl Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-C Closed Silver World Dancesport Series Ballroom (W/T/FT/VW/Q)",
+        "place": "2",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Silver Closed Intl Ballroom 4-Dance Challenge (W/T/VW/F)",
+        "place": "2",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 32.5,
+    "avg_pts": 8.12
   },
   {
     "name": "Paton, Nancy and Marletta, Andrea",
@@ -22928,25 +23230,6 @@
     "avg_pts": 7.5
   },
   {
-    "name": "Hale, Tiffany and Bales, Nathan",
-    "results": [
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Pro-Am Bronze Scholarship DSS A Int'l Ballroom (W,T,Q)",
-        "place": "2",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Pro-Am Global Scholarship Full Bronze Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "5",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 15.0,
-    "avg_pts": 7.5
-  },
-  {
     "name": "Clubb, Dottie and Fox, Lowell",
     "results": [
       {
@@ -22998,6 +23281,25 @@
         "info": "Pro-Am Bronze  Full Bronze B Int'l Ballroom Championship (W,T,Q)",
         "place": "3",
         "points": 3.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 7.5
+  },
+  {
+    "name": "Hale, Tiffany and Bales, Nathan",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Bronze Scholarship DSS A Int'l Ballroom (W,T,Q)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Bronze Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "5",
+        "points": 6.0
       }
     ],
     "total_pts": 15.0,
@@ -23461,6 +23763,79 @@
     ],
     "total_pts": 7.5,
     "avg_pts": 7.5
+  },
+  {
+    "name": "Miller-Vegas, Matthew and Vegas, Lisa",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-B Pro/Am Closed Bronze Ballroom Scholarship (W/T/QS)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "G-B Pro/Am Gents Closed Bronze Ballroom Scholarship (W/T/QS)",
+        "place": "2",
+        "points": 7.5
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "G-GC Closed Bronze Gentlemen International Ballroom 3-dance Challenge (W/T/Q)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "G-GB Closed Bronze Gentlemen International Ballroom 3-dance Challenge (W/T/Q)",
+        "place": "2",
+        "points": 5.0
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "L-B Bronze Closed Ballroom Dancesport Series Championship (W/T/F/QS)",
+        "place": "3",
+        "points": 3.0
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "L-B Closed Bronze Ballroom Scholarship & Best of the Best (W/T/QS)",
+        "place": "3",
+        "points": 4.5
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "L-C Closed Bronze Ballroom Scholarship & Best of the Best (W/T/QS)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-B Bronze Closed Intl Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "3",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-CS Bronze Closed Intl Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "G-B Closed Bronze World Dancesport Series Ballroom (W/T/FT/VW/Q)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "G-B Closed Bronze Pro/Am Rising Star Intl Ballroom (W/T/Q)",
+        "place": "1",
+        "points": 10
+      }
+    ],
+    "total_pts": 81.5,
+    "avg_pts": 7.41
   },
   {
     "name": "Werdal, David and Petkova, Neli",
@@ -23953,55 +24328,6 @@
     "avg_pts": 6.92
   },
   {
-    "name": "Miller-Vegas, Matthew and Vegas, Lisa",
-    "results": [
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-B Pro/Am Closed Bronze Ballroom Scholarship (W/T/QS)",
-        "place": "Semis",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "G-B Pro/Am Gents Closed Bronze Ballroom Scholarship (W/T/QS)",
-        "place": "2",
-        "points": 7.5
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "G-GC Closed Bronze Gentlemen International Ballroom 3-dance Challenge (W/T/Q)",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "G-GB Closed Bronze Gentlemen International Ballroom 3-dance Challenge (W/T/Q)",
-        "place": "2",
-        "points": 5.0
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "L-B Bronze Closed Ballroom Dancesport Series Championship (W/T/F/QS)",
-        "place": "3",
-        "points": 3.0
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "L-B Closed Bronze Ballroom Scholarship & Best of the Best (W/T/QS)",
-        "place": "3",
-        "points": 4.5
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "L-C Closed Bronze Ballroom Scholarship & Best of the Best (W/T/QS)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 48.0,
-    "avg_pts": 6.86
-  },
-  {
     "name": "Dunaif, Andrea and Tuft, Travis",
     "results": [
       {
@@ -24309,6 +24635,25 @@
         "comp_name": "Great Gatsby Gala",
         "info": "Pro/Am Bronze Scholarships C Int'l Ballroom (W,T,Q)",
         "place": "5",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 13.5,
+    "avg_pts": 6.75
+  },
+  {
+    "name": "Ryan, Susan and Ferris, Jim",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-SR1 Silver Closed Intl Ballroom 3-Dance Challenge (W/T/Q)",
+        "place": "2",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-C Silver Closed Intl Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "4",
         "points": 6.0
       }
     ],
@@ -24907,6 +25252,25 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Dirscherl, Suzanne and Bales, Nathan",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Silver Scholarship DSS B Int'l Ballroom (W,T,F,Q)",
+        "place": "4",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Pro-Am Global Scholarship Full Silver Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "6",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Prisco, Kelly and Di Lorenzo, Paolo",
     "results": [
       {
@@ -24945,31 +25309,25 @@
     "avg_pts": 6.0
   },
   {
-    "name": "Dirscherl, Suzanne and Bales, Nathan",
-    "results": [
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Pro-Am Silver Scholarship DSS B Int'l Ballroom (W,T,F,Q)",
-        "place": "4",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Pro-Am Global Scholarship Full Silver Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "6",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 12.0,
-    "avg_pts": 6.0
-  },
-  {
     "name": "Becker, Jane and Kulyba, Aleh",
     "results": [
       {
         "comp_name": "Yankee Classic",
         "info": "L-B International Ballroom Closed Bronze 3-Dance Scholarship (W/T/Q)",
         "place": "5",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Brennan, Maureen and Kondov, Toshko",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-A Bronze Closed Intl Ballroom 3-Dance Challenge (W/T/Q)",
+        "place": "2",
         "points": 6.0
       }
     ],
@@ -26944,6 +27302,19 @@
         "comp_name": "Majesty Dancesport",
         "info": "L-C Closed Ballroom 3-Dance Challenge (W/T/F)",
         "place": "6",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 4.5,
+    "avg_pts": 4.5
+  },
+  {
+    "name": "Garland, Momoe and Kovalenko, Dmytro",
+    "results": [
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "L-CS Bronze Closed Intl Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "3",
         "points": 4.5
       }
     ],

@@ -67,10 +67,16 @@
         "level": "Open",
         "place": "1",
         "points": 20.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 20,
+        "place": "1",
+        "points": 30.0
       }
     ],
-    "total_pts": 220.0,
-    "avg_pts": 20.0
+    "total_pts": 250.0,
+    "avg_pts": 20.83
   },
   {
     "name": "Ballard, Vince and Perez, Tania",
@@ -112,11 +118,11 @@
     "avg_pts": 20.0
   },
   {
-    "name": "Sepulveda, Clifton and Martinez, Mar",
+    "name": "Kaszas, Richard and Pangea, Foteini",
     "results": [
       {
-        "comp_name": "beachbash2019",
-        "level": "Open",
+        "comp_name": "Colorado Star Ball Championships",
+        "level": 20,
         "place": "1",
         "points": 20
       }
@@ -125,11 +131,11 @@
     "avg_pts": 20
   },
   {
-    "name": "Kaszas, Richard and Pangea, Foteini",
+    "name": "Sepulveda, Clifton and Martinez, Mar",
     "results": [
       {
-        "comp_name": "Colorado Star Ball Championships",
-        "level": 20,
+        "comp_name": "beachbash2019",
+        "level": "Open",
         "place": "1",
         "points": 20
       }
@@ -175,6 +181,43 @@
     "avg_pts": 19.2
   },
   {
+    "name": "Tsorokean, Alyenendrov and Wheeler, Maria",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "level": "Open",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "level": "Open",
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "level": 20,
+        "place": "1",
+        "points": 20
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 20,
+        "place": "3",
+        "points": 19.5
+      }
+    ],
+    "total_pts": 92.5,
+    "avg_pts": 18.5
+  },
+  {
     "name": "Tuft, Jaimee and Tuft, Travis",
     "results": [
       {
@@ -204,31 +247,6 @@
     ],
     "total_pts": 73.0,
     "avg_pts": 18.25
-  },
-  {
-    "name": "Tsorokean, Alyenendrov and Wheeler, Maria",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Open",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "2019 Indianapolis Open DanceSport",
-        "level": "Open",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "level": "Open",
-        "place": "1",
-        "points": 20
-      }
-    ],
-    "total_pts": 53.0,
-    "avg_pts": 17.67
   },
   {
     "name": "Sargsyan, Arsen and Gjonikaj, Xhesika",
@@ -318,19 +336,6 @@
     "avg_pts": 16.0
   },
   {
-    "name": "Guthrie, Trevor and Guthrie, Emily",
-    "results": [
-      {
-        "comp_name": "atlopen19",
-        "level": "Open",
-        "place": "2",
-        "points": 16.0
-      }
-    ],
-    "total_pts": 16.0,
-    "avg_pts": 16.0
-  },
-  {
     "name": "Sinitsa, Max and Seliverstova, Tatiana",
     "results": [
       {
@@ -400,6 +405,49 @@
     "avg_pts": 15.67
   },
   {
+    "name": "Smith, Craig and Harvey, Andrea",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "level": "Open",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Open",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 20,
+        "place": "2",
+        "points": 24.0
+      }
+    ],
+    "total_pts": 94.0,
+    "avg_pts": 15.67
+  },
+  {
     "name": "Merz, Timmy and Strashnikova, Diana",
     "results": [
       {
@@ -444,47 +492,16 @@
         "level": "Open",
         "place": "2",
         "points": 12.0
-      }
-    ],
-    "total_pts": 57.0,
-    "avg_pts": 14.25
-  },
-  {
-    "name": "Smith, Craig and Harvey, Andrea",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Open",
-        "place": "2",
-        "points": 16.0
       },
       {
-        "comp_name": "Heritage Classic",
-        "level": "Open",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Open",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "level": "Open",
-        "place": "2",
+        "comp_name": "Millennium Dancesport",
+        "level": 20,
+        "place": "5",
         "points": 12.0
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "level": "Open",
-        "place": "2",
-        "points": 10.0
       }
     ],
-    "total_pts": 70.0,
-    "avg_pts": 14.0
+    "total_pts": 69.0,
+    "avg_pts": 13.8
   },
   {
     "name": "Dawson, Staz and Gonyea, Jacklyn",
@@ -619,6 +636,37 @@
     "avg_pts": 12.75
   },
   {
+    "name": "Black, Jamie and Elliott, Samantha",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 20,
+        "place": "4",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 48.0,
+    "avg_pts": 12.0
+  },
+  {
     "name": "Bazylev, Alexei and Splender, Darya",
     "results": [
       {
@@ -704,31 +752,6 @@
       }
     ],
     "total_pts": 44.0,
-    "avg_pts": 11.0
-  },
-  {
-    "name": "Black, Jamie and Elliott, Samantha",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Open",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "level": "Open",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "level": "Open",
-        "place": "3",
-        "points": 13.0
-      }
-    ],
-    "total_pts": 33.0,
     "avg_pts": 11.0
   },
   {
@@ -842,6 +865,25 @@
     "avg_pts": 10.0
   },
   {
+    "name": "Guthrie, Trevor and Guthrie, Emily",
+    "results": [
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 20,
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 19.6,
+    "avg_pts": 9.8
+  },
+  {
     "name": "Dombrowik, Douglas and Fox, Angel",
     "results": [
       {
@@ -889,6 +931,19 @@
       }
     ],
     "total_pts": 18.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Gore, Gerard and Grohoske, Ellie",
+    "results": [
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 20,
+        "place": "6",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
     "avg_pts": 9.0
   },
   {
@@ -1050,31 +1105,6 @@
     "avg_pts": 6.5
   },
   {
-    "name": "Kantin, Anthony and Ventura, Lisa",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Open",
-        "place": "8",
-        "points": 5.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Open",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "level": "Open",
-        "place": "7",
-        "points": 5.0
-      }
-    ],
-    "total_pts": 18.0,
-    "avg_pts": 6.0
-  },
-  {
     "name": "Arndtson, Cody and Becker, Paris",
     "results": [
       {
@@ -1133,17 +1163,35 @@
     "avg_pts": 6.0
   },
   {
-    "name": "Thomas, Joel and Barakat, Samantha",
+    "name": "Kantin, Anthony and Ventura, Lisa",
     "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "8",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      },
       {
         "comp_name": "atlopen19",
         "level": "Open",
-        "place": "6",
-        "points": 6.0
+        "place": "7",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 20,
+        "place": "Semis",
+        "points": 3.6
       }
     ],
-    "total_pts": 6.0,
-    "avg_pts": 6.0
+    "total_pts": 21.6,
+    "avg_pts": 5.4
   },
   {
     "name": "Brochetti, Justin and Casali, Britta",
@@ -1185,9 +1233,22 @@
     "avg_pts": 5.0
   },
   {
-    "name": "Gore, Gerard and Grohoske, Ellie",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
+    "name": "Thomas, Joel and Barakat, Samantha",
+    "results": [
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "6",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": 20,
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 9.6,
+    "avg_pts": 4.8
   }
 ]

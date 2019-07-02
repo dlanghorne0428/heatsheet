@@ -1,0 +1,329 @@
+{
+  "comp name": "Celebrating Rock Legends!",
+  "heats": [
+    {
+      "number": 1,
+      "title": "Professional Rising Star Intl Latin (CC/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Elkin, Bozhidar and Dumanova, Elena",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Osai, Malachi and Chan, Freda",
+          "place": "2",
+          "points": 7.0
+        },
+        {
+          "couple": "Fulvi, Daniele and Criscione, Veronica",
+          "place": "3",
+          "points": 5.0
+        },
+        {
+          "couple": "Pashayev, Ruslan and Halversen, Rachel",
+          "place": "4",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Professional Rising Star Smooth (W/T/FT/VW)",
+      "entries": [
+        {
+          "couple": "Pohybil, Dmytro and Kushnir, Alona",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Miller, Drew and Humphrey, Krista",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Pickering, Martin and Botes, Natalie",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Krasnyanskiy, Dmitry and Frances, Esther",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Bonev, Aleksandar and Aidasheva, Olga",
+          "place": "5",
+          "points": 8.0
+        },
+        {
+          "couple": "Donelan, Dustin and Anderson, Georgietta",
+          "place": "6",
+          "points": 6.0
+        },
+        {
+          "couple": "Kindt, Thomas and Abel, Coral",
+          "place": "Semis",
+          "points": 2.4
+        },
+        {
+          "couple": "Aromas, Gil and Rupley, Andrea",
+          "place": "Semis",
+          "points": 2.4
+        },
+        {
+          "couple": "Blizzard, Aaron and Lu, Jenny",
+          "place": "Semis",
+          "points": 2.6
+        },
+        {
+          "couple": "Romero, Brandon and Tomasini, Anna",
+          "place": "Semis",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Professional Rising Star Intl Ballroom (W/T/VW/FT/Q)",
+      "entries": [
+        {
+          "couple": "Conte, Riccardo and Filippi, Eleonora",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Teleha, Oleg and Brecker, Michelle",
+          "place": "2",
+          "points": 6.0
+        },
+        {
+          "couple": "Berkey, Kent and Ota, Yuko",
+          "place": "3",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Professional Rising Star Rhythm (CC/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Shiller, Artem and Ray Shiller, Ginny",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Evans, Enoch and Gordeeva, Anastasia",
+          "place": "2",
+          "points": 8.0
+        },
+        {
+          "couple": "Donelan, Dustin and Anderson, Georgietta",
+          "place": "3",
+          "points": 6.5
+        },
+        {
+          "couple": "Olivas, Ernesto and Strong, Megan",
+          "place": "4",
+          "points": 5.0
+        },
+        {
+          "couple": "Solano, Julius and Tang, Emily",
+          "place": "5",
+          "points": 4.0
+        },
+        {
+          "couple": "Davis, Dwight and Vaidya, Uttara",
+          "place": "6",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Professional Open Showdance",
+      "entries": [
+        {
+          "couple": "Tsorokean, Alyenendrov and Wheeler, Maria",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Professional Open Intl Latin (CC/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Kudashev, Ivan and ., Ksusha",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "Kapitannikov, Maksim and Nesterova, Elena",
+          "place": "2",
+          "points": 24.0
+        },
+        {
+          "couple": "Elkin, Bozhidar and Dumanova, Elena",
+          "place": "3",
+          "points": 19.5
+        },
+        {
+          "couple": "Shipilov, Aleksei and Mitina, Julia",
+          "place": "4",
+          "points": 15.0
+        },
+        {
+          "couple": "Chopenko, Dmitrii and Khrapak, Valeria",
+          "place": "5",
+          "points": 12.0
+        },
+        {
+          "couple": "Osai, Malachi and Chan, Freda",
+          "place": "6",
+          "points": 9.0
+        },
+        {
+          "couple": "Fulvi, Daniele and Criscione, Veronica",
+          "place": "Semis",
+          "points": 6.3
+        },
+        {
+          "couple": "Pashayev, Ruslan and Halversen, Rachel",
+          "place": "Semis",
+          "points": 3.6
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Professional Open Smooth (W/T/FT/VW)",
+      "entries": [
+        {
+          "couple": "Pohybil, Dmytro and Kushnir, Alona",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "Miller, Drew and Humphrey, Krista",
+          "place": "2",
+          "points": 24.0
+        },
+        {
+          "couple": "Pickering, Martin and Botes, Natalie",
+          "place": "3",
+          "points": 19.5
+        },
+        {
+          "couple": "Krasnyanskiy, Dmitry and Frances, Esther",
+          "place": "4",
+          "points": 15.0
+        },
+        {
+          "couple": "Bonev, Aleksandar and Aidasheva, Olga",
+          "place": "5",
+          "points": 12.0
+        },
+        {
+          "couple": "Donelan, Dustin and Anderson, Georgietta",
+          "place": "6",
+          "points": 9.0
+        },
+        {
+          "couple": "Kindt, Thomas and Abel, Coral",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Aromas, Gil and Rupley, Andrea",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Blizzard, Aaron and Lu, Jenny",
+          "place": "Semis",
+          "points": 6.0
+        },
+        {
+          "couple": "Romero, Brandon and Tomasini, Anna",
+          "place": "Semis",
+          "points": 5.4
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Professional Open Rhythm (CC/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Kondov, Toshko and Dobson, Kristen",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "Shipilov, Aleksei and Mitina, Julia",
+          "place": "2",
+          "points": 24.0
+        },
+        {
+          "couple": "Shiller, Artem and Ray Shiller, Ginny",
+          "place": "3",
+          "points": 19.5
+        },
+        {
+          "couple": "Evans, Enoch and Gordeeva, Anastasia",
+          "place": "4",
+          "points": 15.0
+        },
+        {
+          "couple": "Donelan, Dustin and Anderson, Georgietta",
+          "place": "5",
+          "points": 12.0
+        },
+        {
+          "couple": "Olivas, Ernesto and Strong, Megan",
+          "place": "6",
+          "points": 9.0
+        },
+        {
+          "couple": "Davis, Dwight and Vaidya, Uttara",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Solano, Julius and Tang, Emily",
+          "place": "Semis",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Professional Open Intl Ballroom (W/T/VW/FT/Q)",
+      "entries": [
+        {
+          "couple": "Minaev, Aleksei and Minaev, Elena",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Conte, Riccardo and Filippi, Eleonora",
+          "place": "2",
+          "points": 14.0
+        },
+        {
+          "couple": "Teleha, Oleg and Brecker, Michelle",
+          "place": "3",
+          "points": 10.0
+        },
+        {
+          "couple": "Berkey, Kent and Ota, Yuko",
+          "place": "4",
+          "points": 6.0
+        }
+      ]
+    }
+  ]
+}
