@@ -75,6 +75,7 @@ class CompMngrHeatlist(Heatlist):
 
     def __init__(self):
         super().__init__()
+        self.fhand = None
         
     ############### EXTRACTION ROUTINES  #################################################
     # the following methods extract specific data items from lines in the CompMngr file
@@ -105,14 +106,13 @@ class CompMngrHeatlist(Heatlist):
     # and populates the data structures
     ##################################################################################
     # open the heatlist filename and process all the lines
-    def process(self, filename):
+    def open(self, filename):
         dancer = None       # variables for the current dancer
-        couple = None       # and the current couple
-        dancer_index = 0
+        found_last_dancer = False
 
         # open the file and loop through all the lines
-        fhand = open(filename,encoding="utf-8")
-        for line in fhand:
+        self.fhand = open(filename,encoding="utf-8")
+        for line in self.fhand:
             # look for TABLE_CODE to find the name of each dancer entered in the competition
             if "Show entries" in line:
                 dancer = CompMngrDancer(line.strip())
@@ -120,6 +120,20 @@ class CompMngrHeatlist(Heatlist):
             # if we see the line that says "size="", extract the name of the competition
             if 'size=' in line:
                 self.comp_name = self.get_comp_name(line.strip())
+            if "/table" in line:
+                print("Found", len(self.dancers), "dancers")
+                found_last_dancer = True
+            if "/div" in line:
+                if found_last_dancer:
+                    break; 
+            
+            
+    def get_next_dancer(self, dancer_index):
+        dancer = None       # variables for the current dancer
+        couple = None       # and the current couple
+        
+        while True:
+            line = self.fhand.readline()
             # A line with "Entries For" indicates the start of a new dancer's heat information
             if "Entries for" in line:
                 dancer_name = self.get_dancer_name(line.strip())
@@ -127,6 +141,7 @@ class CompMngrHeatlist(Heatlist):
                     dancer = self.dancers[dancer_index]
                     dancer_index += 1
                 else:  # search for dancer name
+                    print("Searching for dancer")
                     for d in self.dancers:
                         if d.name == dancer_name:
                             dancer = d
@@ -202,10 +217,16 @@ class CompMngrHeatlist(Heatlist):
                         self.max_formation_num = form_heat.heat_number                    
                     dancer.add_heat(form_heat)
                     self.formations.append(form_heat)
+                    
+            if "/div" in line:
+                break;
+            
+        return dancer_name
+                    
 
-
+    def complete_processing(self): 
         # close the file and sort the lists
-        fhand.close()
+        self.fhand.close()
         self.formations.sort()
         self.solos.sort()
         self.age_divisions.sort()

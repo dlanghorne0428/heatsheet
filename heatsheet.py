@@ -146,6 +146,7 @@ class HelloFrame(wx.Frame):
         self.heatlist = None
         self.scoresheet = None
         self.results_file = None
+        self.filename_from_url = None
         self.heat_type = None
         self.preOpenProcess()
 
@@ -462,9 +463,9 @@ class HelloFrame(wx.Frame):
             # save the current folder name for other files
             self.folder_name = get_folder_name(filename)
             self.heatlist = CompMngrHeatlist()
-            self.heatlist.process(filename)
-            self.heatlist.write_event_list_to_file(self.folder_name)
-            self.postOpenProcess()
+            self.heatlist.open(filename)
+            self.timer_state = TimerState.READ_DANCER
+            self.Initialize_Timer_and_ProgressBar()            
             
 
     def OnOpenURL(self, event):
@@ -481,12 +482,12 @@ class HelloFrame(wx.Frame):
             pathname = urllib.parse.urlparse(url).path
             split_path = pathname.split("/")
             # extract the filename to save it locally
-            filename_from_url = split_path[len(split_path)-1]
+            self.filename_from_url = split_path[len(split_path)-1]
             response = requests.get(url)
 
             # determine path to temporary filename
             default_path = "./data/" + str(self.curr_date.year) + "/Comps"
-            default_filename = default_path +"/" + filename_from_url
+            default_filename = default_path +"/" + self.filename_from_url
             output_file = open(default_filename, "wb")
             encoded_text = response.text.encode()
             output_file.write(encoded_text)
@@ -494,20 +495,10 @@ class HelloFrame(wx.Frame):
             
             # now that the data from the URL is saved to a file, process it
             self.heatlist = CompMngrHeatlist()
-            self.heatlist.process(default_filename) 
-            
-            # create a folder name and filename based on the name of the competition
-            new_folder_name = default_path + "/" + self.heatlist.comp_name
-            new_file_name = new_folder_name + "/" + filename_from_url
-            
-            # create the folder and move the file there
-            if not os.path.exists(new_folder_name):
-                os.makedirs(new_folder_name)
-            os.replace(default_filename, new_file_name)
-            self.folder_name = get_folder_name(new_file_name) 
-            self.heatlist.write_event_list_to_file(self.folder_name)
-            
-            self.postOpenProcess()
+            self.heatlist.open (default_filename) 
+            self.timer_state = TimerState.READ_DANCER
+            self.Initialize_Timer_and_ProgressBar()               
+        
 
     def Initialize_Timer_and_ProgressBar(self):
         '''Create a timer and progress bar to inform progress of long open process'''
@@ -570,16 +561,25 @@ class HelloFrame(wx.Frame):
         else:
             self.heatlist.complete_processing()
             self.progress_bar.Update(self.timer_event_count, "Completed")
-            # determine folder location for this comp
-            default_path = "./data/" + str(self.curr_date.year) + "/Comps"  
+            # determine folder location for this comp and create if necessary
+            default_path = "./data/" + str(self.curr_date.year) + "/Comps"
             self.folder_name = default_path + "/" + self.heatlist.comp_name
             if not os.path.exists(self.folder_name):
                 os.makedirs(self.folder_name)
+            if self.filename_from_url is not None:
+                default_filename = default_path + "/" + self.filename_from_url
+                new_filename = self.folder_name + "/" + self.filename_from_url
+                os.replace(default_filename, new_filename)
             self.heatlist.write_event_list_to_file(self.folder_name)
             self.postOpenProcess()  
             
     
     def Try_Next_Result(self):
+        '''
+        This method is controlled by the timer. It updates the progress bar and
+        asks the scoresheet to process the result of the next heat.
+        If no more heats, perform cleanup processing.
+        '''      
         if self.timer_event_count < len(self.heat_numbers):
             heat_number = self.heat_numbers[self.timer_event_count]
             self.Process_Result(heat_number)
@@ -592,6 +592,10 @@ class HelloFrame(wx.Frame):
             
 
     def Continue_Processing(self, event):
+        '''
+        This method is called by the timer. 
+        Based on the timer state, the next dancer or next heat result if processed.
+        '''
         if self.timer_state == TimerState.READ_DANCER:
             self.Try_Next_Dancer()
         else:  # READ_RESULTS
