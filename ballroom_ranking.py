@@ -116,7 +116,11 @@ class AppFrame(wx.Frame):
 
         # Creata a button to add the heat results to the database
         self.butt_add_rslt = wx.Button(pnl, label="Add Results to DB", pos=(760, 530))
-        self.Bind(wx.EVT_BUTTON, self.OnAddHeatResults, self.butt_add_rslt)            
+        self.Bind(wx.EVT_BUTTON, self.OnResultCLickOrTimer, self.butt_add_rslt)    
+        
+        # create a timer, calls the same method as the "add result" button
+        self.timer = wx.Timer(self)
+        self.Bind(wx.EVT_TIMER, self.OnResultCLickOrTimer, self.timer)          
 
         # create a menu bar
         self.makeMenuBar()
@@ -448,8 +452,9 @@ class AppFrame(wx.Frame):
         self.current_heat_idx += 1
         if self.current_heat_idx < len(self.heat_results):
             self.Display_Heat_Results(self.heat_results[self.current_heat_idx])
+            # if running in automated mode, start timer, otherwise return and wait for GUI event
             if self.automation:
-                self.Process_Heat()
+                self.timer.StartOnce(5) 
         else:
             # clear the competition name
             self.comp_name.ChangeValue("--Competition Name--")
@@ -632,8 +637,9 @@ class AppFrame(wx.Frame):
         # change button text for next action
         self.butt_add_rslt.SetLabel("Show Next Heat")  
         
+        # if running in automated mode, start timer. Otherwise, return and wait for GUI event.
         if self.automation:
-            self.Setup_For_Next_Heat()
+            self.timer.StartOnce(5)
         
         
     def Open_Ranking_Database(self, folder_name):
@@ -695,14 +701,16 @@ class AppFrame(wx.Frame):
             self.heat_selection.Enable()
             self.st_max_heat.SetLabel("of " + str(len(self.couple_result_history)))
             self.viewMenu.Enable(self.ID_VIEW_COUPLE_HISTORY, False) 
+            self.automation = False
             self.Show_Comp_Result()
         else:
             md = wx.MessageDialog(self, "Please select a couple from the list.", caption="Error", style=wx.OK)
             md.ShowModal()   
 
-    def OnAddHeatResults(self, event):
+
+    def OnResultCLickOrTimer(self, event):
         '''
-        This method handles the button clicks associated with the Comp Results.
+        This method handles the button clicks or timer events associated with the Comp Results.
         There are three states associated with the button:
           - Add Results to DB
           - Show Next Heat
@@ -733,6 +741,7 @@ class AppFrame(wx.Frame):
             # open the results file: 
             if self.current_db_index == 0:
                 self.comp_results = Comp_Results_File(folder_name + "/pro_results.json")
+                # no need for automation on pro heats - allow examination of each result
                 self.automation = False
             elif self.current_db_index == 1:
                 self.comp_results = Comp_Results_File(folder_name + "/pro-am_results.json") 
@@ -754,8 +763,9 @@ class AppFrame(wx.Frame):
             self.heat_selection.SetValue(1)
             self.heat_selection.SetMax(len(self.heat_results))
             self.st_max_heat.SetLabel("of " + str(len(self.heat_results)))
+            # if automated, start timer to simulate mouse click
             if self.automation:
-                self.Process_Heat()
+                self.timer.StartOnce(5)
 
 
 
