@@ -129,7 +129,34 @@ class Heat():
             summary.append("---")
         else:
             summary.append(self.result)
-        return summary      
+        return summary
+    
+    
+    def populate(self, info_list):
+        self.category = info_list[0]
+        
+        #extract heat number and extra info, if any
+        try:
+            self.heat_number = int(info_list[1])
+        except:
+            end_index = 0
+            while info_list[1][end_index].isdigit():
+                end_index += 1
+            self.heat_number = int(info_list[1][:end_index])
+            self.extra = info_list[1][end_index:]
+        
+        time_fields = info_list[2].split("@")
+        self.session = time_fields[0]
+        self.time = time_fields[1]
+        
+        self.info = info_list[3]
+        self.shirt_number = info_list[4]
+        
+        couple_fields = info_list[5].split(" and ")
+        self.dancer = couple_fields[0]
+        if len(couple_fields) == 2:
+            self.partner = couple_fields[1]
+
     
     
     def set_level(self):
