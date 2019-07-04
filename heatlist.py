@@ -1,5 +1,10 @@
+import json
 from operator import itemgetter
 from heat import Heat, Heat_Report, dance_style, non_pro_heat_level
+from dancer import Dancer
+from couple import Couple
+
+age_div_prefix_list = ("L-", "G-", "AC-", "Pro ", "AC-", "Professional", "AM/AM", "Amateur", "Youth", "MF-", "M/F") 
 
 class Heatlist():
 
@@ -23,8 +28,7 @@ class Heatlist():
     # the following methods extract specific data items from lines in the CompMngr file
     ######################################################################################
     # look for an age division on the given line. Return it or None if no age division found
-    def get_age_division(self, line, prefixes):
-        #prefixes = ("L-", "G-", "AC-", "Pro ")  # valid prefixes for division
+    def get_age_division(self, line, prefixes=age_div_prefix_list):
         return_val = None
         for p in prefixes:
             start_pos = line.find(p)
@@ -176,4 +180,112 @@ class Heatlist():
             if division == "* ALL *" or division in c.age_divisions:
                 results.append(c.pair_name)
         return results
+    
+    ############### COMMON FILE FORMAT ROUTINES  #########################################
+    # the following methods deal with saving heatlists in a common file format and
+    # reloading them. This eliminates the need to return to the original website source.
+    ######################################################################################    
+    
+    def get_next_dancer(self, dancer_index):
+        '''Read heat information for the next dance from the common file format.
+           Must be called after the file has alrady been opened.
+        '''
+        line = self.fp.readline().strip()
+        fields = line.split(":")
+        d = self.dancers[dancer_index]
+        num_heats = int(fields[-1])
+        for index in range(num_heats):
+            line = self.fp.readline().strip()
+            heat_info = json.loads(line)
+            h = Heat()
+            h.populate(heat_info)
+            d.add_heat(h)
+
+            if h.partner == "":
+                couple = None
+            else:
+                couple = Couple(h.dancer, h.partner)
+                new_couple = True  # assume this is a new couple
+                for c in self.couples:      
+                    if couple.same_names_as(c):
+                        new_couple = False
+                        couple = c   # set the couple variable to the existing couple object
+                        break
+                # if this actually is a new couple, add them to the couples list
+                if new_couple:
+                    self.couples.append(couple)
+                # add the heat to this couple
+                couple.add_heat(h)
+            
+            age_div = self.get_age_division(h.info)
+            if age_div is not None:
+                self.add_age_division(age_div)
+                d.add_age_division(age_div)
+                if couple is not None:
+                    couple.add_age_division(age_div)
+            
+            if h.category == "Solo":
+                if h.heat_number > self.max_solo_num:
+                    self.max_solo_num = h.heat_number   
+                if h not in self.solos:
+                    self.solos.append(h)
+            elif h.category == "Formation": 
+                if h.heat_number > self.max_formation_num:
+                    self.max_formation_num = h.heat_number 
+                self.formations.append(h)
+            elif h.category == "Pro heat":
+                if h.heat_number > self.max_pro_heat_num:
+                    self.max_pro_heat_num = h.heat_number      
+            else:
+                if h.heat_number > self.max_heat_num:
+                    self.max_heat_num = h.heat_number 
+                if h.multi_dance():
+                    self.add_multi_dance_heat(h.heat_number)
+                    self.add_event(h.info)
+            
+        return self.dancers[dancer_index].name
+    
+    
+    def complete_processing(self):
+        '''Complete the process of reading heatsheet data from the common file format.'''
+        self.fp.close()
+        self.formations.sort()
+        self.solos.sort()
+        self.age_divisions.sort()
+        self.multi_dance_heat_numbers.sort()
+        self.event_titles.sort()    
+        
+        
+    def open(self, filename):
+        '''Begin the process of reading heatsheet data from the common file format.'''
+        self.fp = open(filename, encoding="UTF-8")
+        line = self.fp.readline().strip()
+        self.comp_name = line.split(":")[1]
+        print(self.comp_name)
+        line = self.fp.readline().strip()
+        while True:
+            line = self.fp.readline().strip()
+            if line == "Heats":
+                break
+            else:
+                fields = line.split(":")
+                d = Dancer(fields[0], fields[1])
+                self.dancers.append(d)
+
+        
+    
+    def save(self, filename):
+        '''Save heatsheet data to a common file format.'''
+        fp = open(filename, "w", encoding="UTF-8")
+        fp.write("Comp Name:" + self.comp_name + "\n")
+        fp.write("Dancers" + "\n")
+        for d in self.dancers:
+            fp.write(d.name + ":" + d.code + "\n")  
+        fp.write("Heats" + "\n")
+        for d in self.dancers:
+            fp.write("Dancer:" + d.name + ":" + d.code + ":Heats:" + str(len(d.heats)) + "\n")
+            for h in d.heats:
+                json.dump(h.info_list(), fp)
+                fp.write("\n")
+        fp.close()
 
