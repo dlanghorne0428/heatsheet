@@ -14,6 +14,7 @@ import yattag
 from enum import Enum
 from datetime import date
 
+from heatlist import Heatlist
 from ndca_prem_heatlist import NdcaPremHeatlist, NdcaPremHeat
 from ndca_prem_results import NdcaPremResults
 from comp_organizer_heatlist import CompOrgHeatlist, CompOrgHeat
@@ -161,6 +162,7 @@ class HelloFrame(wx.Frame):
         self.ID_FILE_OPEN_URL = 90
         self.ID_FILE_OPEN_NDCA = 91
         self.ID_FILE_OPEN_CO = 92 
+        self.ID_FILE_OPEN_CM = 93
         self.ID_VIEW_FILTER_DIV = 101
         self.ID_VIEW_FILTER_DANCER = 102
         self.ID_VIEW_FILTER_COUPLE = 103
@@ -179,10 +181,12 @@ class HelloFrame(wx.Frame):
         # Make a file menu with Open, Open URL, Save As, Close, and Exit items
         self.fileMenu = wx.Menu()
         openItem = self.fileMenu.Append(wx.ID_OPEN)
-        openUrlItem = self.fileMenu.Append(self.ID_FILE_OPEN_URL, "Open URL...")
+        openCMgrItem = self.fileMenu.Append(self.ID_FILE_OPEN_CM, "Open File saved from CompMngr")
+        openUrlItem = self.fileMenu.Append(self.ID_FILE_OPEN_URL, "Open URL from CompMngr")
         openCompOrgItem = self.fileMenu.Append(self.ID_FILE_OPEN_CO, "Open URL from a CompOrganizer site")
         openNdcaItem = self.fileMenu.Append(self.ID_FILE_OPEN_NDCA, "Open URL from NDCA Premier")
         self.fileMenu.AppendSeparator()
+        saveItem = self.fileMenu.Append(wx.ID_SAVE)
         saveAsItem = self.fileMenu.Append(wx.ID_SAVEAS)
         self.fileMenu.AppendSeparator()
         closeItem = self.fileMenu.Append(wx.ID_CLOSE)
@@ -251,7 +255,9 @@ class HelloFrame(wx.Frame):
         # activated then the associated handler function will be called.
         self.Bind(wx.EVT_MENU, self.OnClose, closeItem)
         self.Bind(wx.EVT_MENU, self.OnOpen,  openItem)
+        self.Bind(wx.EVT_MENU, self.OnSave, saveItem)
         self.Bind(wx.EVT_MENU, self.OnSaveAs, saveAsItem)
+        self.Bind(wx.EVT_MENU, self.OnOpenCMgrFile, openCMgrItem)
         self.Bind(wx.EVT_MENU, self.OnOpenURL, openUrlItem)
         self.Bind(wx.EVT_MENU, self.OnOpenNDCA, openNdcaItem)
         self.Bind(wx.EVT_MENU, self.OnOpenCompOrg, openCompOrgItem)
@@ -333,8 +339,11 @@ class HelloFrame(wx.Frame):
         self.ResetAllControls()
         self.fileMenu.Enable(wx.ID_OPEN, True)
         self.fileMenu.Enable(self.ID_FILE_OPEN_URL, True)
+        self.fileMenu.Enable(self.ID_FILE_OPEN_CM, True)
         self.fileMenu.Enable(self.ID_FILE_OPEN_NDCA, True)
         self.fileMenu.Enable(self.ID_FILE_OPEN_CO, True)
+        self.fileMenu.Enable(wx.ID_SAVE, False)
+        self.fileMenu.Enable(wx.ID_SAVEAS, False)
         self.fileMenu.Enable(wx.ID_CLOSE, False)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DIV, False)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DANCER, False)
@@ -368,7 +377,10 @@ class HelloFrame(wx.Frame):
         self.fileMenu.Enable(wx.ID_OPEN, False)
         self.fileMenu.Enable(self.ID_FILE_OPEN_URL, False)
         self.fileMenu.Enable(self.ID_FILE_OPEN_NDCA, False)
+        self.fileMenu.Enable(self.ID_FILE_OPEN_CM, False)
         self.fileMenu.Enable(self.ID_FILE_OPEN_CO, False)
+        self.fileMenu.Enable(wx.ID_SAVE, True)
+        self.fileMenu.Enable(wx.ID_SAVEAS, True)
         self.fileMenu.Enable(wx.ID_CLOSE, True)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DIV, True)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DANCER, True)
@@ -447,16 +459,38 @@ class HelloFrame(wx.Frame):
     def OnExit(self, event):
         '''Close the frame, terminating the application.'''
         self.Close(True)
+        
+        
+    def OnSave(self, event):
+        filename = self.folder_name + "/heatlists.txt"
+        self.heatlist.save(filename)
+        fd = wx.MessageDialog(self, "Heatlist data saved.", style=wx.OK)
+        fd.ShowModal()
 
 
     def OnSaveAs(self, event):
         '''Generate the report from the Save As menu option.'''
         self.GenerateReport(self.report_title)
+        fd = wx.MessageDialog(self, "Report saved.", style=wx.OK)
+        fd.ShowModal()    
 
 
     def OnOpen(self, event):
-        '''Launch a file dialog, open a heatlist file in Comp_Mngr format, and process it.'''
+        '''Launch a file dialog, open a heatlist file in the common format, and process it.'''
 
+        fd = wx.FileDialog(self, "Open a Heatlist File", "./data", "", wildcard="*.txt")
+        if fd.ShowModal() == wx.ID_OK:
+            filename = fd.GetPath()
+            # save the current folder name for other files
+            self.folder_name = get_folder_name(filename)
+            self.heatlist = Heatlist()
+            self.heatlist.open(filename)
+            self.timer_state = TimerState.READ_DANCER
+            self.Initialize_Timer_and_ProgressBar()   
+            
+            
+    def OnOpenCMgrFile(self, event):
+        '''Launch a file dialog, open a heatlist file in Comp_Mngr format, and process it.'''            
         fd = wx.FileDialog(self, "Open a Heatlist File", "./data", "")
         if fd.ShowModal() == wx.ID_OK:
             filename = fd.GetPath()
@@ -465,7 +499,7 @@ class HelloFrame(wx.Frame):
             self.heatlist = CompMngrHeatlist()
             self.heatlist.open(filename)
             self.timer_state = TimerState.READ_DANCER
-            self.Initialize_Timer_and_ProgressBar()            
+            self.Initialize_Timer_and_ProgressBar()       
             
 
     def OnOpenURL(self, event):

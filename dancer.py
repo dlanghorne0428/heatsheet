@@ -1,7 +1,7 @@
 class Dancer():
-    def __init__(self):
-        self.name = ""
-        self.code = ""
+    def __init__(self, name="", code=""):
+        self.name = name
+        self.code = code
         self.heats = list()
         self.age_divisions = list()
         
