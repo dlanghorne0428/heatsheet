@@ -18,6 +18,7 @@ def get_partner(line):
         substr = line[start_pos:]
         stripped = substr.strip()
         return stripped
+
         #return line[start_pos:-1]
     else:
         return None
@@ -48,6 +49,13 @@ class CompOrgHeat(Heat):
                 index += 1
                 if index == len(number_string):
                     break
+            category_string = number_string[:index]
+            if category_string == "Solo ":
+                self.category = "Solo"
+            elif category_string == "Formation ":
+                self.category = "Formation"
+            elif category_string == "Pro heat ":
+                self.category = "Pro heat"
             try:
                 self.heat_number = int(number_string[index:])
             except:
@@ -158,17 +166,20 @@ class CompOrgHeatlist(Heatlist):
                 #print(dancer.name, "and", partner)
                 # partner found, go to next item
                 item_index += 1
-                # create a couple object for this dancer and partner 
-                couple = Couple(dancer.name, partner)
-                new_couple = True  # assume this is a new couple
-                for c in self.couples:
-                    if couple.same_names_as(c):
-                        new_couple = False
-                        couple = c   # set the couple variable to the existing couple object
-                        break
-                #if this actually is a new couple, add them to the couples list
-                if new_couple:
-                    self.couples.append(couple)
+                if len(partner) == 0:
+                    couple = None
+                else:
+                    # create a couple object for this dancer and partner 
+                    couple = Couple(dancer.name, partner)
+                    new_couple = True  # assume this is a new couple
+                    for c in self.couples:
+                        if couple.same_names_as(c):
+                            new_couple = False
+                            couple = c   # set the couple variable to the existing couple object
+                            break
+                    #if this actually is a new couple, add them to the couples list
+                    if new_couple:
+                        self.couples.append(couple)
             # no partner, check if this item has the start of a new heat
             elif "heatlist-sess" in items[item_index]:
                 # build heat object, which takes up the next five items
@@ -202,7 +213,8 @@ class CompOrgHeatlist(Heatlist):
                 
                 # add this heat to both the dancer and couple objects
                 dancer.add_heat(h)
-                couple.add_heat(h)
+                if couple is not None:
+                    couple.add_heat(h)
              
             else:
                 # try the next item
