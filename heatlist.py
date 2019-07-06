@@ -198,7 +198,7 @@ class Heatlist():
             line = self.fp.readline().strip()
             heat_info = json.loads(line)
             h = Heat()
-            h.populate(heat_info)
+            h.populate(heat_info, d.code)
             d.add_heat(h)
 
             if h.partner == "":

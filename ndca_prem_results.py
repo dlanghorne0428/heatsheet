@@ -41,7 +41,7 @@ class NdcaPremResults():
         elif rounds == "Q":
             return "quarters-" + accum_value
         else:
-            return "round 1-1"
+            return "round 1-" + accum_value
     
     
     def process_scoresheet_for_event(self, heat_report, event_id):
@@ -217,18 +217,18 @@ class NdcaPremResults():
                     placement = e.result
                     accum_value = 0                    
                 elif e.result.startswith("S"):
-                    accum_value = e.result[len("Semis")+1:]
+                    accum_value = e.result[len("Semis-"):]
                     e.result = "Semis"
                     placement = -2
                 elif e.result.startswith("q"):
-                    accum_value = e.result[len("quarters")+1:]
+                    accum_value = e.result[len("quarters-"):]
                     e.result = "quarters"
                     placement = -1
 
                 else:
+                    accum_value = e.result[len("round 1-"):]
                     e.result = "round 1"
-                    placement = -1
-                    accum_value = 1
+                    placement = -10
                 e.points = calc_points(e.level, placement, num_competitors=total_entries, rounds=heat_report.rounds(), accum=int(accum_value))
 #            print(e.dancer, "and", e.partner, "finish", e.result, "for", e.points, "points")    
                 

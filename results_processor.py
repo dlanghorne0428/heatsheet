@@ -337,7 +337,7 @@ class Results_Processor():
             # If this check is true, we found first round results for this heat
             elif heat_string in line and "First Round" in line and ("<p>" in line or "<h3>" in line):
                 temp_result = "round 1"    # indicate which round we are in
-                result_index = -1      # use this to pull values from the points table
+                result_index = -10         # use this to pull values from the points table
                 rounds = "R1"
                 heat_info_from_scoresheet = self.get_heat_info(line, heat_string, "First Round")
                 looking_for_recall_column = True  # enter the next state

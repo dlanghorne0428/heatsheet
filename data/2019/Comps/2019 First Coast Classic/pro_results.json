@@ -2,6 +2,7 @@
   "comp name": "2019 First Coast Classic",
   "heats": [
     {
+      "number": 1,
       "title": "Rising Star Professional American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
@@ -32,11 +33,12 @@
         {
           "couple": "Mendoza, Manuel and McKinley, Ruhiyyih",
           "place": "6",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 2,
       "title": "Rising Star Professional International Ballroom (W/T/VW/F/Q)",
       "entries": [
         {
@@ -55,23 +57,25 @@
           "points": 5.0
         },
         {
-          "couple": "Kantin, Anthony and Kantin, Elise",
+          "couple": "Kantin and Kantin",
           "place": "4",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 3,
       "title": "Rising Star Professional Theatre Arts",
       "entries": [
         {
           "couple": "Romero, Alexis and Yang, Yu-Wen",
           "place": "1",
-          "points": 10
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 4,
       "title": "Rising Star Professional International Latin (C/S/R/P/J)",
       "entries": [
         {
@@ -92,11 +96,12 @@
         {
           "couple": "Tozik, Vitalii and Downey, Angelica",
           "place": "4",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 5,
       "title": "Rising Star Professional American Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -127,12 +132,12 @@
         {
           "couple": "Kuzmenko, Andrea and Kuzmenko, Dmitriy",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Martinez, Juan and Bottinelli, Elayna",
           "place": "Semis",
-          "points": 2.4
+          "points": 1.4
         },
         {
           "couple": "Kulpin and Kulpina",
@@ -142,12 +147,13 @@
       ]
     },
     {
-      "title": "'Flight of the Bumblebee'",
+      "number": 6,
+      "title": "'Sound of Silence'",
       "entries": [
         {
           "couple": "Batih, Nazar and Cantley, Mariko",
           "place": "1",
-          "points": 20.0
+          "points": 18.0
         },
         {
           "couple": "Alekseev, Aleksei and Derevleva, Ekaterina",
@@ -157,11 +163,12 @@
         {
           "couple": "Puzhevich, Anastasia and Puzhevich, Igor",
           "place": "3",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 7,
       "title": "World Masters Open Professional American Rhythm  (C/R/SW/B/M)",
       "entries": [
         {
@@ -192,7 +199,7 @@
         {
           "couple": "Borges, Israel and Cardenas, Natalie",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Cunningham, Charles and Elcoro, Evgeniia",
@@ -202,16 +209,17 @@
         {
           "couple": "Kumar, Ramphis and Levina, Jenny",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.9
         },
         {
           "couple": "McLain and Williams",
           "place": "Semis",
-          "points": 3.6
+          "points": 1.5
         }
       ]
     },
     {
+      "number": 8,
       "title": "Open Professional International Ballroom (W/T/VW/FT/QS)",
       "entries": [
         {
@@ -240,13 +248,14 @@
           "points": 8.0
         },
         {
-          "couple": "Kantin, Anthony and Kantin, Elise",
+          "couple": "Kantin and Kantin",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 9,
       "title": "World Masters Open Professional American Smooth (W/T/FT/VW)",
       "entries": [
         {
@@ -277,11 +286,12 @@
         {
           "couple": "Stowell, Aaron and Hofreiter, Brie",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 10,
       "title": "Open Professional International Latin (C/S/R/PD/J)",
       "entries": [
         {
@@ -312,7 +322,8 @@
       ]
     },
     {
-      "title": "'Big Spender'",
+      "number": 11,
+      "title": "Cabaret",
       "entries": [
         {
           "couple": "Jensen, Shane and Jensen, Shannon",

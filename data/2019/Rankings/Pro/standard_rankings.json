@@ -102,7 +102,7 @@
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "1",
         "points": 30.0
       }
@@ -115,7 +115,7 @@
     "results": [
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "2",
         "points": 24.0
       }
@@ -219,7 +219,7 @@
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "3",
         "points": 19.5
       }
@@ -338,7 +338,7 @@
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "4",
         "points": 15.0
       }
@@ -505,7 +505,7 @@
       },
       {
         "comp_name": "Yankee Classic",
-        "level": 20,
+        "level": "Open",
         "place": "1",
         "points": 20.0
       }
@@ -542,7 +542,7 @@
       },
       {
         "comp_name": "2019 First Coast Classic",
-        "level": "Open",
+        "level": "Open Professional International Ballroom (W/T/VW/FT/QS)",
         "place": "1",
         "points": 20.0
       },
@@ -585,6 +585,31 @@
     ],
     "total_pts": 152.2,
     "avg_pts": 13.84
+  },
+  {
+    "name": "Tonizzo, Richard and Hansen, Claire",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "level": "Open",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "level": "Open",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "level": "Open",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 41.0,
+    "avg_pts": 13.67
   },
   {
     "name": "Minaev, Aleksei and Minaeva, Elena",
@@ -675,50 +700,25 @@
       },
       {
         "comp_name": "2019 Dancing a la Carte",
-        "level": "Rising Star",
+        "level": "Professional Rising Star Ballroom (W/T/VW/FT/QS)",
         "place": "1",
-        "points": 10.0
+        "points": 9.0
       },
       {
         "comp_name": "2019 Dancing a la Carte",
-        "level": "Open",
+        "level": "Professional Open Ballroom (W/T/VW/F/Q)",
         "place": "1",
-        "points": 20.0
+        "points": 18.0
       },
       {
         "comp_name": "Celebrating Rock Legends!",
-        "level": 20,
+        "level": "Open",
         "place": "1",
         "points": 20.0
       }
     ],
-    "total_pts": 232.5,
-    "avg_pts": 13.68
-  },
-  {
-    "name": "Tonizzo, Richard and Hansen, Claire",
-    "results": [
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "level": "Open",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Heritage Classic",
-        "level": "Open",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "level": "Open",
-        "place": "2",
-        "points": 16.0
-      }
-    ],
-    "total_pts": 41.0,
-    "avg_pts": 13.67
+    "total_pts": 229.5,
+    "avg_pts": 13.5
   },
   {
     "name": "Vadon, Barnabas and Kobor, Edina",
@@ -768,7 +768,7 @@
       },
       {
         "comp_name": "2019 First Coast Classic",
-        "level": "Open",
+        "level": "Open Professional International Ballroom (W/T/VW/FT/QS)",
         "place": "2",
         "points": 16.0
       },
@@ -798,7 +798,7 @@
       },
       {
         "comp_name": "Yankee Classic",
-        "level": 20,
+        "level": "Open",
         "place": "2",
         "points": 16.0
       }
@@ -854,7 +854,7 @@
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "Semis",
         "points": 7.5
       }
@@ -1007,25 +1007,25 @@
       },
       {
         "comp_name": "Yankee Classic",
-        "level": 10,
+        "level": "Rising Star",
         "place": "1",
         "points": 10.0
       },
       {
         "comp_name": "Yankee Classic",
-        "level": 20,
+        "level": "Open",
         "place": "3",
         "points": 13.0
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 10,
+        "level": "Rising Star",
         "place": "3",
         "points": 6.5
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "Semis",
         "points": 7.5
       }
@@ -1137,13 +1137,13 @@
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 10,
+        "level": "Rising Star",
         "place": "1",
         "points": 10.0
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "5",
         "points": 12.0
       }
@@ -1222,13 +1222,13 @@
       },
       {
         "comp_name": "Celebrating Rock Legends!",
-        "level": 10,
+        "level": "Rising Star",
         "place": "1",
         "points": 10.0
       },
       {
         "comp_name": "Celebrating Rock Legends!",
-        "level": 20,
+        "level": "Open",
         "place": "2",
         "points": 14.0
       }
@@ -1265,7 +1265,7 @@
       },
       {
         "comp_name": "Yankee Classic",
-        "level": 20,
+        "level": "Open",
         "place": "4",
         "points": 10.0
       }
@@ -1278,13 +1278,13 @@
     "results": [
       {
         "comp_name": "2019 First Coast Classic",
-        "level": "Rising Star",
+        "level": "Rising Star Professional International Ballroom (W/T/VW/F/Q)",
         "place": "2",
         "points": 7.0
       },
       {
         "comp_name": "2019 First Coast Classic",
-        "level": "Open",
+        "level": "Open Professional International Ballroom (W/T/VW/FT/QS)",
         "place": "4",
         "points": 10.0
       },
@@ -1327,7 +1327,7 @@
       },
       {
         "comp_name": "2019 First Coast Classic",
-        "level": "Open",
+        "level": "Open Professional International Ballroom (W/T/VW/FT/QS)",
         "place": "3",
         "points": 13.0
       },
@@ -1382,7 +1382,7 @@
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "6",
         "points": 9.0
       }
@@ -1455,13 +1455,13 @@
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 10,
+        "level": "Rising Star",
         "place": "2",
         "points": 8.0
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "7",
         "points": 7.5
       }
@@ -1548,7 +1548,7 @@
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "Semis",
         "points": 7.5
       }
@@ -1557,60 +1557,17 @@
     "avg_pts": 7.6
   },
   {
-    "name": "Alekseev, Aleksei and Derevleva, Ekaterina",
-    "results": [
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "level": "Open",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Rising Star",
-        "place": "3",
-        "points": 5.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "level": "Rising Star",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 Indianapolis Open DanceSport",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10
-      }
-    ],
-    "total_pts": 45.0,
-    "avg_pts": 7.5
-  },
-  {
     "name": "Spencer, Alexander and Spencer, Alina",
     "results": [
       {
         "comp_name": "2019 First Coast Classic",
-        "level": "Rising Star",
+        "level": "Rising Star Professional International Ballroom (W/T/VW/F/Q)",
         "place": "3",
         "points": 5.0
       },
       {
         "comp_name": "2019 First Coast Classic",
-        "level": "Open",
+        "level": "Open Professional International Ballroom (W/T/VW/FT/QS)",
         "place": "5",
         "points": 8.0
       },
@@ -1812,31 +1769,44 @@
       },
       {
         "comp_name": "Colorado Star Ball Championships",
-        "level": 10,
+        "level": "Rising Star",
         "place": "1",
         "points": 10.0
       },
       {
         "comp_name": "Colorado Star Ball Championships",
-        "level": 20,
+        "level": "Open",
         "place": "1",
         "points": 20
       },
       {
         "comp_name": "Celebrating Rock Legends!",
-        "level": 10,
+        "level": "Rising Star",
         "place": "2",
         "points": 6.0
       },
       {
         "comp_name": "Celebrating Rock Legends!",
-        "level": 20,
+        "level": "Open",
         "place": "3",
         "points": 10.0
       }
     ],
     "total_pts": 106.6,
     "avg_pts": 7.11
+  },
+  {
+    "name": "Chaoulski, Evgueni and Schilling, Sara",
+    "results": [
+      {
+        "comp_name": "2019 Dancing a la Carte",
+        "level": "Professional Open Ballroom (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 7.0,
+    "avg_pts": 7.0
   },
   {
     "name": "Gillis, Christian and Kamila,",
@@ -1890,6 +1860,49 @@
     "avg_pts": 6.93
   },
   {
+    "name": "Alekseev, Aleksei and Derevleva, Ekaterina",
+    "results": [
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 5.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "level": "Rising Star",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Rising Star Professional International Ballroom (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "level": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 41.0,
+    "avg_pts": 6.83
+  },
+  {
     "name": "Wills, Woodrow and Petkova, Neli",
     "results": [
       {
@@ -1936,13 +1949,13 @@
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 10,
+        "level": "Rising Star",
         "place": "4",
         "points": 5.0
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "Semis",
         "points": 3.9
       }
@@ -2095,31 +2108,31 @@
       },
       {
         "comp_name": "2019 Dancing a la Carte",
-        "level": "Rising Star",
+        "level": "Professional Rising Star Ballroom (W/T/VW/FT/QS)",
         "place": "3",
-        "points": 3.0
+        "points": 3.5
       },
       {
         "comp_name": "2019 Dancing a la Carte",
-        "level": "Open",
+        "level": "Professional Open Ballroom (W/T/VW/F/Q)",
         "place": "2",
         "points": 12.0
       },
       {
         "comp_name": "Yankee Classic",
-        "level": 10,
+        "level": "Rising Star",
         "place": "4",
         "points": 5.0
       },
       {
         "comp_name": "Yankee Classic",
-        "level": 20,
+        "level": "Open",
         "place": "6",
         "points": 6.0
       }
     ],
-    "total_pts": 124.2,
-    "avg_pts": 6.21
+    "total_pts": 124.7,
+    "avg_pts": 6.24
   },
   {
     "name": "Levin, Ivan and Levin, Maria",
@@ -2144,31 +2157,18 @@
       },
       {
         "comp_name": "Yankee Classic",
-        "level": 10,
+        "level": "Rising Star",
         "place": "2",
         "points": 8.0
       },
       {
         "comp_name": "Yankee Classic",
-        "level": 20,
+        "level": "Open",
         "place": "5",
         "points": 8.0
       }
     ],
     "total_pts": 30.0,
-    "avg_pts": 6.0
-  },
-  {
-    "name": "Chaoulski, Evgueni and Schilling, Sara",
-    "results": [
-      {
-        "comp_name": "2019 Dancing a la Carte",
-        "level": "Open",
-        "place": "3",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 6.0,
     "avg_pts": 6.0
   },
   {
@@ -2305,7 +2305,7 @@
       },
       {
         "comp_name": "Yankee Classic",
-        "level": 10,
+        "level": "Rising Star",
         "place": "5",
         "points": 4.0
       }
@@ -2423,13 +2423,13 @@
       },
       {
         "comp_name": "Celebrating Rock Legends!",
-        "level": 10,
+        "level": "Rising Star",
         "place": "3",
         "points": 3.0
       },
       {
         "comp_name": "Celebrating Rock Legends!",
-        "level": 20,
+        "level": "Open",
         "place": "4",
         "points": 6.0
       }
@@ -2457,6 +2457,67 @@
     "avg_pts": 4.6
   },
   {
+    "name": "Kantin, Anthony and Kantin, Elise",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "level": "Open",
+        "place": "7",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Rising Star Professional International Ballroom (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Open Professional International Ballroom (W/T/VW/FT/QS)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "level": "Rising Star",
+        "place": "2",
+        "points": 5.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Rising Star",
+        "place": "4",
+        "points": 3.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "level": "Open",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": "Rising Star",
+        "place": "7",
+        "points": 2.5
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "level": "Open",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 40.6,
+    "avg_pts": 4.51
+  },
+  {
     "name": "Montagnese, Bradley and Tania, Trigili",
     "results": [
       {
@@ -2467,7 +2528,7 @@
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 10,
+        "level": "Rising Star",
         "place": "5",
         "points": 4.0
       }
@@ -2522,74 +2583,13 @@
       },
       {
         "comp_name": "Colorado Star Ball Championships",
-        "level": 10,
+        "level": "Rising Star",
         "place": "2",
         "points": 5.0
       }
     ],
     "total_pts": 35.6,
     "avg_pts": 4.45
-  },
-  {
-    "name": "Kantin, Anthony and Kantin, Elise",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "level": "Open",
-        "place": "7",
-        "points": 5.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 3.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Open",
-        "place": "6",
-        "points": 6.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "level": "Rising Star",
-        "place": "2",
-        "points": 5.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "level": "Rising Star",
-        "place": "4",
-        "points": 3.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "level": "Open",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "level": 10,
-        "place": "7",
-        "points": 2.5
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "level": 20,
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 39.1,
-    "avg_pts": 4.34
   },
   {
     "name": "Bilozorov, Anton and Filip, Samanta",
@@ -2626,25 +2626,25 @@
       },
       {
         "comp_name": "2019 Dancing a la Carte",
-        "level": "Rising Star",
+        "level": "Professional Rising Star Ballroom (W/T/VW/FT/QS)",
         "place": "2",
         "points": 6.0
       },
       {
         "comp_name": "Yankee Classic",
-        "level": 10,
+        "level": "Rising Star",
         "place": "3",
         "points": 6.5
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 10,
+        "level": "Rising Star",
         "place": "6",
         "points": 3.0
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "Semis",
         "points": 3.6
       }

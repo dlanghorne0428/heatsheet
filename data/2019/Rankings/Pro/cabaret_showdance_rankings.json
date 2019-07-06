@@ -21,12 +21,6 @@
         "points": 20.0
       },
       {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Open",
-        "place": "1",
-        "points": 20.0
-      },
-      {
         "comp_name": "Michigan DanceSport Challenge",
         "level": "Open",
         "place": "1",
@@ -70,9 +64,15 @@
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "1",
         "points": 30.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Cabaret",
+        "place": "1",
+        "points": 20.0
       }
     ],
     "total_pts": 250.0,
@@ -122,7 +122,7 @@
     "results": [
       {
         "comp_name": "Colorado Star Ball Championships",
-        "level": 20,
+        "level": "Open",
         "place": "1",
         "points": 20
       }
@@ -159,12 +159,6 @@
         "points": 20.0
       },
       {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Open",
-        "place": "1",
-        "points": 20.0
-      },
-      {
         "comp_name": "The Windy City Open",
         "level": "Open",
         "place": "1",
@@ -175,10 +169,16 @@
         "level": "Open",
         "place": "2",
         "points": 16
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "'Sound of Silence'",
+        "place": "1",
+        "points": 18.0
       }
     ],
-    "total_pts": 96.0,
-    "avg_pts": 19.2
+    "total_pts": 94.0,
+    "avg_pts": 18.8
   },
   {
     "name": "Tsorokean, Alyenendrov and Wheeler, Maria",
@@ -190,12 +190,6 @@
         "points": 13.0
       },
       {
-        "comp_name": "2019 Indianapolis Open DanceSport",
-        "level": "Open",
-        "place": "1",
-        "points": 20.0
-      },
-      {
         "comp_name": "Great Gatsby Gala",
         "level": "Open",
         "place": "1",
@@ -203,19 +197,25 @@
       },
       {
         "comp_name": "Celebrating Rock Legends!",
-        "level": 20,
+        "level": "Open",
         "place": "1",
         "points": 20
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "3",
         "points": 19.5
+      },
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "level": "Professional Showdance",
+        "place": "1",
+        "points": 18.0
       }
     ],
-    "total_pts": 92.5,
-    "avg_pts": 18.5
+    "total_pts": 90.5,
+    "avg_pts": 18.1
   },
   {
     "name": "Tuft, Jaimee and Tuft, Travis",
@@ -258,14 +258,14 @@
         "points": 10.0
       },
       {
-        "comp_name": "2019 Dancing a la Carte",
+        "comp_name": "Yankee Classic",
         "level": "Open",
         "place": "1",
         "points": 20.0
       },
       {
-        "comp_name": "Yankee Classic",
-        "level": 20,
+        "comp_name": "2019 Dancing a la Carte",
+        "level": "Professional Showcase",
         "place": "1",
         "points": 20.0
       }
@@ -314,7 +314,7 @@
       },
       {
         "comp_name": "Yankee Classic",
-        "level": 20,
+        "level": "Open",
         "place": "2",
         "points": 14.0
       }
@@ -420,12 +420,6 @@
         "points": 16.0
       },
       {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Open",
-        "place": "2",
-        "points": 16.0
-      },
-      {
         "comp_name": "New Orleans Open",
         "level": "Open",
         "place": "2",
@@ -439,9 +433,15 @@
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "2",
         "points": 24.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Cabaret",
+        "place": "2",
+        "points": 16.0
       }
     ],
     "total_pts": 94.0,
@@ -495,7 +495,7 @@
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "5",
         "points": 12.0
       }
@@ -538,7 +538,7 @@
       },
       {
         "comp_name": "2019 Dancing a la Carte",
-        "level": "Open",
+        "level": "Professional Showcase",
         "place": "4",
         "points": 10.0
       }
@@ -583,7 +583,7 @@
     "results": [
       {
         "comp_name": "2019 First Coast Classic",
-        "level": "Open",
+        "level": "Cabaret",
         "place": "3",
         "points": 13.0
       }
@@ -596,7 +596,7 @@
     "results": [
       {
         "comp_name": "2019 Dancing a la Carte",
-        "level": "Open",
+        "level": "Professional Showcase",
         "place": "3",
         "points": 13.0
       }
@@ -627,7 +627,7 @@
       },
       {
         "comp_name": "2019 Indianapolis Open DanceSport",
-        "level": "Open",
+        "level": "Professional Showdance",
         "place": "2",
         "points": 12.0
       }
@@ -658,7 +658,7 @@
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "4",
         "points": 15.0
       }
@@ -715,7 +715,7 @@
       },
       {
         "comp_name": "Yankee Classic",
-        "level": 20,
+        "level": "Open",
         "place": "3",
         "points": 10.0
       }
@@ -778,7 +778,7 @@
     "results": [
       {
         "comp_name": "2019 First Coast Classic",
-        "level": "Open",
+        "level": "Cabaret",
         "place": "4",
         "points": 10.0
       }
@@ -875,7 +875,7 @@
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "Semis",
         "points": 3.6
       }
@@ -906,7 +906,7 @@
       },
       {
         "comp_name": "2019 Dancing a la Carte",
-        "level": "Open",
+        "level": "Professional Showcase",
         "place": "2",
         "points": 16.0
       }
@@ -925,7 +925,7 @@
       },
       {
         "comp_name": "2019 First Coast Classic",
-        "level": "Open",
+        "level": "'Sound of Silence'",
         "place": "2",
         "points": 12.0
       }
@@ -938,13 +938,32 @@
     "results": [
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "6",
         "points": 9.0
       }
     ],
     "total_pts": 9.0,
     "avg_pts": 9.0
+  },
+  {
+    "name": "Puzhevich, Igor and Puzhevich, Anastasia",
+    "results": [
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "level": "Open",
+        "place": "2",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "'Sound of Silence'",
+        "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 17.0,
+    "avg_pts": 8.5
   },
   {
     "name": "Antonelli, Vincent and Falciano, Stephanie",
@@ -972,30 +991,11 @@
     "avg_pts": 8.0
   },
   {
-    "name": "Puzhevich, Igor and Puzhevich, Anastasia",
-    "results": [
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "level": "Open",
-        "place": "2",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Open",
-        "place": "3",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 16.0,
-    "avg_pts": 8.0
-  },
-  {
     "name": "Bennett, Kemar and Nicol, Jessica",
     "results": [
       {
         "comp_name": "2019 Dancing a la Carte",
-        "level": "Open",
+        "level": "Professional Showcase",
         "place": "5",
         "points": 8.0
       }
@@ -1077,7 +1077,7 @@
       },
       {
         "comp_name": "Yankee Classic",
-        "level": 20,
+        "level": "Open",
         "place": "4",
         "points": 6.0
       }
@@ -1086,23 +1086,30 @@
     "avg_pts": 7.0
   },
   {
-    "name": "Romero, Alexis and Yang, Yu-Wen",
+    "name": "Astashenia, Yurii and Astashenia, Elena",
     "results": [
       {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Rising Star",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "level": "Rising Star",
-        "place": "3",
-        "points": 3.0
+        "comp_name": "2019 Dancing a la Carte",
+        "level": "Professional Showcase",
+        "place": "6",
+        "points": 7.0
       }
     ],
-    "total_pts": 13.0,
-    "avg_pts": 6.5
+    "total_pts": 7.0,
+    "avg_pts": 7.0
+  },
+  {
+    "name": "Lundt, Michael and Ilic-Lundt, Amanda",
+    "results": [
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "level": "Professional Showdance",
+        "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 7.0,
+    "avg_pts": 7.0
   },
   {
     "name": "Arndtson, Cody and Becker, Paris",
@@ -1124,36 +1131,10 @@
     "avg_pts": 6.0
   },
   {
-    "name": "Astashenia, Yurii and Astashenia, Elena",
-    "results": [
-      {
-        "comp_name": "2019 Dancing a la Carte",
-        "level": "Open",
-        "place": "6",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 6.0,
-    "avg_pts": 6.0
-  },
-  {
     "name": "Brouwer, Nathan and Weiner, Dena Anne",
     "results": [
       {
         "comp_name": "caopen19",
-        "level": "Open",
-        "place": "3",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 6.0,
-    "avg_pts": 6.0
-  },
-  {
-    "name": "Lundt, Michael and Ilic-Lundt, Amanda",
-    "results": [
-      {
-        "comp_name": "2019 Indianapolis Open DanceSport",
         "level": "Open",
         "place": "3",
         "points": 6.0
@@ -1172,12 +1153,6 @@
         "points": 5.0
       },
       {
-        "comp_name": "2019 First Coast Classic",
-        "level": "Open",
-        "place": "5",
-        "points": 8.0
-      },
-      {
         "comp_name": "atlopen19",
         "level": "Open",
         "place": "7",
@@ -1185,9 +1160,15 @@
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "Semis",
         "points": 3.6
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Cabaret",
+        "place": "5",
+        "points": 8.0
       }
     ],
     "total_pts": 21.6,
@@ -1243,12 +1224,31 @@
       },
       {
         "comp_name": "Millennium Dancesport",
-        "level": 20,
+        "level": "Open",
         "place": "Semis",
         "points": 3.6
       }
     ],
     "total_pts": 9.6,
     "avg_pts": 4.8
+  },
+  {
+    "name": "Romero, Alexis and Yang, Yu-Wen",
+    "results": [
+      {
+        "comp_name": "2019 First Coast Classic",
+        "level": "Rising Star Professional Theatre Arts",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "level": "Rising Star",
+        "place": "3",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 4.5
   }
 ]

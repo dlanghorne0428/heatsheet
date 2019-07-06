@@ -35,10 +35,10 @@ class Entry_Result():
     def set_points(self, p):
         self.entry["points"] = p
         
-    def format_as_columns(self):
-        info_list = [self.entry["couple"]]
-        info_list.append(self.entry["place"])
-        return info_list
+    #def format_as_columns(self):
+        #info_list = [self.entry["couple"]]
+        #info_list.append(self.entry["place"])
+        #return info_list
         
 
 class Heat_Result():

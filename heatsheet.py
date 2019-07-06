@@ -14,6 +14,7 @@ import yattag
 from enum import Enum
 from datetime import date
 
+from heat import Heat
 from heatlist import Heatlist
 from ndca_prem_heatlist import NdcaPremHeatlist, NdcaPremHeat
 from ndca_prem_results import NdcaPremResults
@@ -918,8 +919,12 @@ class HelloFrame(wx.Frame):
             h = CompMngrHeat(category=self.heat_category, number=num)
         elif type(self.heatlist) is CompOrgHeatlist:
             h = CompOrgHeat(category=self.heat_category, number=num)
-        else:
+        elif type(self.heatlist) is NdcaPremHeatlist:
             h = NdcaPremHeat(category=self.heat_category, number=num) 
+        else:
+            h = Heat()
+            h.category = self.heat_category
+            h.heat_number = num
             
         # get a heat report with the entries from the heatlist
         report = self.heatlist.build_heat_report(h, sorted=True, heat_type=self.heat_type)   

@@ -132,7 +132,7 @@ class Heat():
         return summary
     
     
-    def populate(self, info_list):
+    def populate(self, info_list, dancer_code):
         self.category = info_list[0]
         
         #extract heat number and extra info, if any
@@ -150,10 +150,12 @@ class Heat():
         self.time = time_fields[1]
         
         self.info = info_list[3]
+        self.set_level()
         self.shirt_number = info_list[4]
         
         couple_fields = info_list[5].split(" and ")
         self.dancer = couple_fields[0]
+        self.code = dancer_code
         if len(couple_fields) == 2:
             self.partner = couple_fields[1]
 
