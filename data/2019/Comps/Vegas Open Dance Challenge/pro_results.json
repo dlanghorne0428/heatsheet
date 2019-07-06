@@ -2,6 +2,7 @@
   "comp name": "Vegas Open Dance Challenge",
   "heats": [
     {
+      "number": 1,
       "title": "Professional Rising Star Rhythm (C/R/SW/B/M)",
       "entries": [
         {
@@ -10,7 +11,7 @@
           "points": 20.0
         },
         {
-          "couple": "Zegarra, Renzo and Zegarra, Andrea",
+          "couple": "Zegarra, Andrea and Zegarra, Renzo",
           "place": "2",
           "points": 16.0
         },
@@ -32,17 +33,17 @@
         {
           "couple": "Donelan, Dustin and Anderson, Georgietta",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Dominguez, Oliver and Lerma, Georgina",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         },
         {
           "couple": "Kibel, Mitchel and Camozzi, Sacha",
           "place": "Semis",
-          "points": 2.4
+          "points": 1.8
         },
         {
           "couple": "Merz, Timmy and Strashnikova, Diana",
@@ -57,16 +58,18 @@
       ]
     },
     {
-      "title": "Professional Showdance",
+      "number": 2,
+      "title": "Open Professional Showdance",
       "entries": [
         {
           "couple": "Merz, Timmy and Strashnikova, Diana",
           "place": "1",
-          "points": 20
+          "points": 12.0
         }
       ]
     },
     {
+      "number": 3,
       "title": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
       "entries": [
         {
@@ -87,11 +90,12 @@
         {
           "couple": "Cromwell, Robbie and Trimble, Ruth",
           "place": "4",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 4,
       "title": "Professional Rising Star Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -100,7 +104,7 @@
           "points": 30.0
         },
         {
-          "couple": "Zhyvkov, Yana and Zhyvkov, Tykhon",
+          "couple": "Zhyvkov, Tykhon and Zhyvkov, Yana",
           "place": "2",
           "points": 24.0
         },
@@ -122,17 +126,17 @@
         {
           "couple": "Dogoter, Igor and Gorshkova, Natalia",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Elser, David and Krug, Elizabeth",
           "place": "Semis",
-          "points": 3.6
+          "points": 4.5
         },
         {
           "couple": "Holzworth, John and Wooding, Nicole",
           "place": "Semis",
-          "points": 3.6
+          "points": 4.5
         },
         {
           "couple": "Kralev, Nikolay and DiBacco Daniells, Julianne",
@@ -142,7 +146,7 @@
         {
           "couple": "Merz, Timmy and Strashnikova, Diana",
           "place": "Semis",
-          "points": 3.6
+          "points": 4.5
         },
         {
           "couple": "Barney, Alan and Rund, Megan",
@@ -172,6 +176,7 @@
       ]
     },
     {
+      "number": 5,
       "title": "Professional Rising Star Latin (C/S/R/P/J)",
       "entries": [
         {
@@ -202,6 +207,7 @@
       ]
     },
     {
+      "number": 6,
       "title": "Open Professional Smooth (W/T/FT/VW)",
       "entries": [
         {
@@ -232,37 +238,37 @@
         {
           "couple": "Zappia, Enzo and Betts, Stephanie",
           "place": "6",
-          "points": 12.0
+          "points": 14.0
         },
         {
           "couple": "Kralev, Nikolay and DiBacco Daniells, Julianne",
           "place": "Semis",
-          "points": 4.8
+          "points": 6.0
         },
         {
           "couple": "Miller, Drew and Humphrey, Krista",
           "place": "Semis",
-          "points": 4.8
+          "points": 6.0
         },
         {
           "couple": "Sydorenko, Ilia and Kuts, Tetyana",
           "place": "Semis",
-          "points": 4.8
+          "points": 6.0
         },
         {
           "couple": "Zavialov, Dmitrii and Baumgartner, Katt",
           "place": "Semis",
-          "points": 4.8
+          "points": 6.0
         },
         {
-          "couple": "Zhyvkov, Yana and Zhyvkov, Tykhon",
+          "couple": "Zhyvkov, Tykhon and Zhyvkov, Yana",
           "place": "Semis",
           "points": 10.0
         },
         {
           "couple": "Leonov, Maksim and Zhuchenko, Anastasia",
           "place": "Semis",
-          "points": 4.8
+          "points": 6.0
         },
         {
           "couple": "Cromwell, Robbie and Trimble, Ruth",
@@ -292,6 +298,7 @@
       ]
     },
     {
+      "number": 7,
       "title": "Open Professional Rhythm (C/R/SW/B/M)",
       "entries": [
         {
@@ -322,27 +329,27 @@
         {
           "couple": "Pierce, Aaron and Stavrica, Ksenia",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Bernal, John and Carillo, Bailey",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.9
         },
         {
           "couple": "Donelan, Dustin and Anderson, Georgietta",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.6
         },
         {
           "couple": "Merz, Timmy and Strashnikova, Diana",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.6
         },
         {
           "couple": "Munson, Todd and Hotz, Ricci-Lee",
           "place": "Semis",
-          "points": 3.6
+          "points": 1.5
         },
         {
           "couple": "Wayne, Christopher and Evan, Mallory",
@@ -357,10 +364,11 @@
       ]
     },
     {
+      "number": 8,
       "title": "Open Professional International Ballroom (W/T/VW/F/Q)",
       "entries": [
         {
-          "couple": "Bieliei, Liliia and Bieliei, Iaroslav",
+          "couple": "Bieliei, Iaroslav and Bieliei, Liliia",
           "place": "1",
           "points": 30.0
         },
@@ -370,7 +378,7 @@
           "points": 24.0
         },
         {
-          "couple": "Di Brino, Stefano and Di Brino, Bianka",
+          "couple": "Di Brino, Bianka and Di Brino, Stefano",
           "place": "3",
           "points": 19.5
         },
@@ -387,7 +395,7 @@
         {
           "couple": "Mayorov, Evgeniy and Lisovskaya, Olga",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Babenko, Mikhail and Iaritenko, Kateryna",
@@ -397,15 +405,16 @@
         {
           "couple": "Cromwell, Robbie and Trimble, Ruth",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         }
       ]
     },
     {
+      "number": 9,
       "title": "Open Professional Latin (C/S/R/PD/J)",
       "entries": [
         {
-          "couple": "Bertini, Sabrina and Bertini, Francesco",
+          "couple": "Bertini, Francesco and Bertini, Sabrina",
           "place": "1",
           "points": 20.0
         },

@@ -2,12 +2,13 @@
   "comp name": "The Ball at the San Francisco Open Dancesport Championships",
   "heats": [
     {
+      "number": 1,
       "title": "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)",
       "entries": [
         {
           "couple": "Nunez, Antonio and Kashkina, Oxana",
           "place": "1",
-          "points": 10.0
+          "points": 9.0
         },
         {
           "couple": "Munson, Todd and Hotz, Ricci-Lee",
@@ -17,11 +18,12 @@
         {
           "couple": "Belbin, Andrew and Scully, Erin",
           "place": "3",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 2,
       "title": "Professional Rising Star Events Int'l Ballroom (W,T,VW,F,Q)",
       "entries": [
         {
@@ -52,6 +54,7 @@
       ]
     },
     {
+      "number": 3,
       "title": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
@@ -82,11 +85,12 @@
         {
           "couple": "Seawright, Jordan and Novak, Tjasa",
           "place": "6",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 4,
       "title": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
       "entries": [
         {
@@ -117,37 +121,18 @@
         {
           "couple": "Spasov, Ivan and Blyth, Sabine",
           "place": "6",
-          "points": 3.0
+          "points": 3.5
         },
         {
           "couple": "Cromwell, Robbie and Trimble, Ruth",
           "place": "7",
-          "points": 2.5
+          "points": 3.0
         }
       ]
     },
     {
-      "title": "Professional Open Championships  Show Dance Championship (SD)",
-      "entries": [
-        {
-          "couple": "Batih, Nazar and Cantley, Mariko",
-          "place": "2",
-          "points": 16
-        },
-        {
-          "couple": "Jensen, Shane and Jensen, Shannon",
-          "place": "1",
-          "points": 20
-        },
-        {
-          "couple": "Nunez, Tony and Kashkina, Ksenia",
-          "place": "3",
-          "points": 12
-        }
-      ]
-    },
-    {
-      "title": "Professional Open Championships  Int'l Ballroom Championship (W,T,VW,F,Q)",
+      "number": 6,
+      "title": "Professional Open Championships Int'l Ballroom Championship (W,T,VW,F,Q)",
       "entries": [
         {
           "couple": "Bieliei, Iaroslav and Gladiuk, Liliia",
@@ -177,7 +162,7 @@
         {
           "couple": "Babenko, Mikhail and Iaritenko, Kateryna",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Batih, Nazar and Cantley, Mariko",
@@ -185,19 +170,20 @@
           "points": 7.5
         },
         {
-          "couple": "Mayorov, Evgeniy and Lisovskaya, Olga",
-          "place": "Semis",
-          "points": 7.5
-        },
-        {
           "couple": "Wills, Woodrow and Petkova, Neli",
           "place": "Semis",
           "points": 4.2
+        },
+        {
+          "couple": "Mayorov, Evgeniy and Lisovskaya, Olga",
+          "place": "Semis",
+          "points": 7.5
         }
       ]
     },
     {
-      "title": "Professional Open Championships  Amer. Rhythm Championship (CC,R,SW,B,M)",
+      "number": 7,
+      "title": "Professional Open Championships Amer. Rhythm Championship (CC,R,SW,B,M)",
       "entries": [
         {
           "couple": "Jaksevicius, Danas and Haraguchi, Yuki",
@@ -227,17 +213,18 @@
         {
           "couple": "Munson, Todd and Hotz, Ricci-Lee",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Belbin, Andrew and Scully, Erin",
           "place": "7",
-          "points": 5.0
+          "points": 6.0
         }
       ]
     },
     {
-      "title": "Professional Open Championships  Int'l Latin Championship (CC,S,R,PD,J)",
+      "number": 8,
+      "title": "Professional Open Championships Int'l Latin Championship (CC,S,R,PD,J)",
       "entries": [
         {
           "couple": "Bager, Troels and Jeliazkova, Ina",
@@ -255,6 +242,11 @@
           "points": 19.5
         },
         {
+          "couple": "Gilin, Alon and Oblakova, Anna",
+          "place": "4",
+          "points": 15.0
+        },
+        {
           "couple": "Italyankin, Roman and Bokova, Alexandra",
           "place": "5",
           "points": 12.0
@@ -262,32 +254,22 @@
         {
           "couple": "Altukhov, Sasha and Murillo, Cheyenne",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Alisauskas, Lukas and Alisauskas, Simona",
           "place": "7",
-          "points": 7.5
-        },
-        {
-          "couple": "Davis, Jake and Kalinina, Alyona",
-          "place": "Semis",
-          "points": 6.3
-        },
-        {
-          "couple": "Elgueta, Italo and Shreiber, Robyn",
-          "place": "Semis",
-          "points": 3.6
-        },
-        {
-          "couple": "Gilin, Alon and Oblakova, Anna",
-          "place": "4",
-          "points": 15.0
+          "points": 9.0
         },
         {
           "couple": "Grant, Rhett and Wadsworth, Shelby",
           "place": "Semis",
-          "points": 3.6
+          "points": 1.8
+        },
+        {
+          "couple": "Elgueta, Italo and Shreiber, Robyn",
+          "place": "Semis",
+          "points": 0.3
         },
         {
           "couple": "Malakhov, Nikita and Vlesova, Nadezola",
@@ -297,22 +279,28 @@
         {
           "couple": "Matakov, Vesko and Mariscal, Andrea",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.6
+        },
+        {
+          "couple": "Davis, Jake and Kalinina, Alyona",
+          "place": "Semis",
+          "points": 6.3
+        },
+        {
+          "couple": "Seawright, Jordan and Novak, Tjasa",
+          "place": "Semis",
+          "points": 0.6
         },
         {
           "couple": "Modrzynski, Przemyslaw and Zybura, Magdalena",
           "place": "Semis",
           "points": 6.0
-        },
-        {
-          "couple": "Seawright, Jordan and Novak, Tjasa",
-          "place": "Semis",
-          "points": 3.6
         }
       ]
     },
     {
-      "title": "Professional Open Championships  Amer. Smooth Championship (W,T,F,VW)",
+      "number": 9,
+      "title": "Professional Open Championships Amer. Smooth Championship (W,T,F,VW)",
       "entries": [
         {
           "couple": "Cheremukhin, Nick and {Barashina}, Viktorija",

@@ -2,10 +2,11 @@
   "comp name": "atlopen19",
   "heats": [
     {
+      "number": 1,
       "title": "Professional Rising Star American Rhythm (C/R/SW/B/MA)",
       "entries": [
         {
-          "couple": "Gordeeva, Anastasia and Evans, Enoch",
+          "couple": "Wayne, Christopher and Evan, Mallory",
           "place": "1",
           "points": 20.0
         },
@@ -25,23 +26,29 @@
           "points": 10.0
         },
         {
+          "couple": "Evans, Enoch and Gordeeva, Anastasia",
+          "place": "5",
+          "points": 8.0
+        },
+        {
           "couple": "Rodriquez, Nicolas and Struk, Paulina",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Moraes, Aghali and Moraes, Tiffany",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         },
         {
           "couple": "Gartchev, Ivan and Boresow, Leah",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         }
       ]
     },
     {
+      "number": 2,
       "title": "Professional Rising Star International Ballroom (W/T/VW/FT/QS)",
       "entries": [
         {
@@ -62,11 +69,12 @@
         {
           "couple": "Kantin, Anthony and Kantin, Elise",
           "place": "4",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 3,
       "title": "Professional Rising Star American Smooth (W/T/FT/VW)",
       "entries": [
         {
@@ -97,16 +105,17 @@
         {
           "couple": "Wayne, Christopher and Evan, Mallory",
           "place": "6",
-          "points": 3.0
+          "points": 3.5
         },
         {
           "couple": "Greer, Aaron and Greer, Victoria",
           "place": "7",
-          "points": 2.5
+          "points": 3.0
         }
       ]
     },
     {
+      "number": 4,
       "title": "Professional Rising Star International Latin (C/S/R/PD/J)",
       "entries": [
         {
@@ -137,6 +146,7 @@
       ]
     },
     {
+      "number": 5,
       "title": "Professional Open American Rhythm (C/R/SW/B/MA)",
       "entries": [
         {
@@ -150,9 +160,9 @@
           "points": 24.0
         },
         {
-          "couple": "Gordeeva, Anastasia and Evans, Enoch",
+          "couple": "Wayne, Christopher and Evan, Mallory",
           "place": "3",
-          "points": 7.5
+          "points": 19.5
         },
         {
           "couple": "Bennett, Kemar and Nicol, Jessica",
@@ -167,21 +177,27 @@
         {
           "couple": "Rodriquez, Nicolas and Struk, Paulina",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
+        },
+        {
+          "couple": "Evans, Enoch and Gordeeva, Anastasia",
+          "place": "Semis",
+          "points": 7.5
         },
         {
           "couple": "Whitmer, Daniel and Hooks, Sarah",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         },
         {
           "couple": "Jackson, Ryan and Logan, Emily",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.6
         }
       ]
     },
     {
+      "number": 6,
       "title": "Professional Open International Ballroom (W/T/VW/FT/QS)",
       "entries": [
         {
@@ -212,6 +228,7 @@
       ]
     },
     {
+      "number": 7,
       "title": "Professional Open American Smooth (W/T/FT/VW)",
       "entries": [
         {
@@ -242,7 +259,7 @@
         {
           "couple": "Merz, Timmy and Strashnikova, Deannah",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Kyle, Roland and Ruffell, Lexi",
@@ -257,26 +274,27 @@
         {
           "couple": "Greer, Aaron and Greer, Victoria",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.9
         },
         {
           "couple": "Dawson, Staz and Gonyea, Jacklyn",
           "place": "Semis",
-          "points": 3.6
+          "points": 1.8
         },
         {
           "couple": "Wayne, Christopher and Evan, Mallory",
           "place": "Semis",
-          "points": 3.6
+          "points": 1.5
         },
         {
           "couple": "Jackson, Ryan and Logan, Emily",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         }
       ]
     },
     {
+      "number": 8,
       "title": "Professional Open International Latin (C/S/R/PD/J)",
       "entries": [
         {
@@ -307,22 +325,23 @@
         {
           "couple": "Kora, Iurii and Hryn, Alisa",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Jenkins, Dylan and Jenkins, Nora",
           "place": "Semis",
-          "points": 3.6
+          "points": 2.4
         },
         {
           "couple": "Kantin, Anthony and Kantin, Elise",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         }
       ]
     },
     {
-      "title": "Professional Showdance",
+      "number": 9,
+      "title": "Professional Open Showdance",
       "entries": [
         {
           "couple": "Jensen, Shane and Jensen, Shannon",
@@ -352,12 +371,12 @@
         {
           "couple": "Thomas, Joel and Barakat, Samantha",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Kantin, Anthony and Ventura, Lisa",
           "place": "7",
-          "points": 5.0
+          "points": 6.0
         }
       ]
     }

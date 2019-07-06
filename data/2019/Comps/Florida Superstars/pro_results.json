@@ -2,21 +2,23 @@
   "comp name": "Florida Superstars",
   "heats": [
     {
+      "number": 1,
       "title": "Professional Rising Star American Rhythm(C/R/S/B/M)",
       "entries": [
         {
           "couple": "Vasicek, Tomas and Tyrnova, Vitalija",
           "place": "1",
-          "points": 10.0
+          "points": 7.5
         },
         {
           "couple": "Parkhimovich, Eugene and Lukashova, Anna",
           "place": "2",
-          "points": 5.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 2,
       "title": "Professional Rising Star International Ballroom(W/T/V/F/Q)",
       "entries": [
         {
@@ -37,11 +39,12 @@
         {
           "couple": "Kantin, Anthony and Marshall, Elise",
           "place": "4",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 3,
       "title": "Professional Rising Star American Smooth(W/T/F/V)",
       "entries": [
         {
@@ -55,7 +58,7 @@
           "points": 8.0
         },
         {
-          "couple": "Guthrie, Trevor and Guthrie, Emily",
+          "couple": "Guthrie, Emily and Guthrie, Trevor",
           "place": "3",
           "points": 6.5
         },
@@ -65,32 +68,34 @@
           "points": 5.0
         },
         {
-          "couple": "Kuzmenko, Dmitriy and Kuzmenko, Andrea",
+          "couple": "Kuzmenko, Andrea and Kuzmenko, Dmitriy",
           "place": "5",
           "points": 4.0
         }
       ]
     },
     {
+      "number": 4,
       "title": "Professional Rising Star International Latin(C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Barov, Dmitry and Meller, Joanna",
           "place": "1",
-          "points": 10.0
+          "points": 7.5
         },
         {
-          "couple": "Jenkins, Nora and Jenkins, Dylan",
+          "couple": "Jenkins, Dylan and Jenkins, Nora",
           "place": "2",
-          "points": 5.0
+          "points": 3.5
         }
       ]
     },
     {
-      "title": "Professional Openr American Rhythm(C/R/S/B/M)",
+      "number": 5,
+      "title": "Professional Open American Rhythm(C/R/S/B/M)",
       "entries": [
         {
-          "couple": "Paramonov, Natalie and Paramonov, Andre",
+          "couple": "Paramonov, Andre and Paramonov, Natalie",
           "place": "1",
           "points": 20.0
         },
@@ -100,7 +105,7 @@
           "points": 16.0
         },
         {
-          "couple": "Jensen, Shannon and Jensen, Shane",
+          "couple": "Jensen, Shane and Jensen, Shannon",
           "place": "3",
           "points": 13.0
         },
@@ -110,18 +115,29 @@
           "points": 10.0
         },
         {
-          "couple": "Don, Jang and Don, Adele",
+          "couple": "Don, Adele and Don, Jang",
           "place": "5",
           "points": 8.0
         },
         {
           "couple": "Papi, Riccardo and Moretti, Sabrina",
           "place": "6",
+          "points": 7.0
+        },
+        {
+          "couple": "Kuzmenko, Andrea and Kuzmenko, Dmitriy",
+          "place": "Semis",
+          "points": 0.6
+        },
+        {
+          "couple": "Parkhimovich, Eugene and Lukashova, Anna",
+          "place": "Semis",
           "points": 6.0
         }
       ]
     },
     {
+      "number": 6,
       "title": "Professional Open International Ballroom(W/T/V/F/Q)",
       "entries": [
         {
@@ -130,7 +146,7 @@
           "points": 20.0
         },
         {
-          "couple": "Bieliei, Lilia and Bieliei, Iaroslav",
+          "couple": "Bieliei, Iaroslav and Bieliei, Lilia",
           "place": "2",
           "points": 16.0
         },
@@ -140,7 +156,7 @@
           "points": 13.0
         },
         {
-          "couple": "Pappacena, Francesca Lazzari and Pappacena, Emanuele",
+          "couple": "Pappacena, Emanuele and Pappacena, Francesca Lazzari",
           "place": "4",
           "points": 10.0
         },
@@ -152,16 +168,17 @@
         {
           "couple": "Spano, Mirko and Romano, Pamela",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Kantin, Anthony and Marshall, Elise",
           "place": "7",
-          "points": 5.0
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 7,
       "title": "Professional Open American Smooth(W/T/F/V)",
       "entries": [
         {
@@ -180,7 +197,7 @@
           "points": 19.5
         },
         {
-          "couple": "Don, Jang and Don, Adele",
+          "couple": "Don, Adele and Don, Jang",
           "place": "4",
           "points": 15.0
         },
@@ -192,27 +209,27 @@
         {
           "couple": "Choi, Michael and Kleyman, Viktoria",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
-          "couple": "Guthrie, Trevor and Guthrie, Emily",
+          "couple": "Guthrie, Emily and Guthrie, Trevor",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         },
         {
-          "couple": "Kuzmenko, Dmitriy and Kuzmenko, Andrea",
+          "couple": "Kuzmenko, Andrea and Kuzmenko, Dmitriy",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         },
         {
           "couple": "Mora, Leo and Garced, Christina",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         },
         {
           "couple": "Shtefil, Shandor and Barsukov, Aleksandra",
           "place": "Semis",
-          "points": 3.6
+          "points": 2.1
         },
         {
           "couple": "Wiatrowski, Radek and Zhenia, ",
@@ -222,11 +239,12 @@
         {
           "couple": "Merenkov, Artem and Voilokova, Tatiana",
           "place": "Semis",
-          "points": 3.6
+          "points": 3.3
         }
       ]
     },
     {
+      "number": 8,
       "title": "Professional Open International Latin(C/S/R/PD/J)",
       "entries": [
         {
@@ -257,20 +275,21 @@
         {
           "couple": "Barov, Dmitry and Meller, Joanna",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
-          "couple": "Jenkins, Nora and Jenkins, Dylan",
+          "couple": "Jenkins, Dylan and Jenkins, Nora",
           "place": "7",
-          "points": 5.0
+          "points": 6.0
         }
       ]
     },
     {
-      "title": "Professional Cabaret",
+      "number": 9,
+      "title": "Professional Open Cabaret",
       "entries": [
         {
-          "couple": "Jensen, Shannon and Jensen, Shane",
+          "couple": "Jensen, Shane and Jensen, Shannon",
           "place": "1",
           "points": 20.0
         },
@@ -297,12 +316,12 @@
         {
           "couple": "Alekseev, Alex and Derevleva, Ekaterina",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Brochetti, Justin and Casali, Britta",
           "place": "7",
-          "points": 5.0
+          "points": 6.0
         },
         {
           "couple": "Kantin, Anthony and Ventura, Lisa",

@@ -2,6 +2,7 @@
   "comp name": "2019people[forrest vance]",
   "heats": [
     {
+      "number": 1,
       "title": "Open Professional American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
@@ -32,26 +33,27 @@
         {
           "couple": "Sharan, Slash and Vincitore, Rebecca",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Aldana, Hugo and Nielson, Jenifer",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         },
         {
           "couple": "Jackson, Ryan and Logan, Emily",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.9
         },
         {
           "couple": "Kibel, Mitchel and Camozzi, Sacha",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         }
       ]
     },
     {
+      "number": 4,
       "title": "Open Professional American Smooth (W/T/FT/VW)",
       "entries": [
         {
@@ -82,31 +84,32 @@
         {
           "couple": "Tarasenko, Alesandr and Yuen, Bonnie",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Gore, Gerard and Barakat, Samantha",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.6
         },
         {
           "couple": "Jackson, Ryan and Logan, Emily",
           "place": "Semis",
-          "points": 3.6
+          "points": 1.2
         },
         {
           "couple": "James, Mychael and Swart, Samantha",
           "place": "Semis",
-          "points": 3.6
+          "points": 3.0
         },
         {
           "couple": "Naverrette and Kroll",
           "place": "Semis",
-          "points": 3.6
+          "points": 2.1
         }
       ]
     },
     {
+      "number": 5,
       "title": "Open Professional Latin (C/S/R/PD/J)",
       "entries": [
         {
@@ -115,7 +118,7 @@
           "points": 20.0
         },
         {
-          "couple": "Dmytrenko, Dmytry and Hyzhko, Yelyzaveta",
+          "couple": "Dmytrenko and Hyzhko",
           "place": "2",
           "points": 14.0
         },
@@ -127,7 +130,7 @@
         {
           "couple": "Chmelnitzki, Serge and Dib, Nadia",
           "place": "4",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     }

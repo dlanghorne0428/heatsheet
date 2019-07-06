@@ -1,7 +1,8 @@
 {
-  "comp name": "Indiana Challenge - Add web page option",
+  "comp name": "Indiana Challenge",
   "heats": [
     {
+      "number": 1,
       "title": "Rising Star Professional Rising Star American Smooth (W/T/FT/VW)",
       "entries": [
         {
@@ -25,48 +26,52 @@
           "points": 5.0
         },
         {
-          "couple": "Rohan, Valentyn and Rohan, Olha",
+          "couple": "Rohan, Olha and Rohan, Valentyn",
           "place": "5",
           "points": 4.0
         }
       ]
     },
     {
+      "number": 2,
       "title": "Rising Star Professional Rising Star International Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Minaev, Aleksei and Minaera, Elena",
           "place": "1",
-          "points": 10
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 3,
       "title": "Professional Showdance",
       "entries": [
         {
           "couple": "Haklin, Nick and Ford, Sarah",
           "place": "1",
-          "points": 20
+          "points": 12.0
         }
       ]
     },
     {
+      "number": 4,
       "title": "Rising Star Professional Rising Star International Ballroom (W/T/VW/FT/QS)",
       "entries": [
         {
           "couple": "Minaev, Aleksei and Minaera, Elena",
           "place": "1",
-          "points": 10.0
+          "points": 7.5
         },
         {
           "couple": "Esposito, Vincento and Matsubara, Yo",
           "place": "2",
-          "points": 5.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 5,
       "title": "Rising Star Professional Rising Star American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
@@ -97,16 +102,18 @@
       ]
     },
     {
+      "number": 6,
       "title": "Cabaret",
       "entries": [
         {
           "couple": "Dawson, Staz and Gonyea, Jacklyn",
           "place": "1",
-          "points": 20
+          "points": 12.0
         }
       ]
     },
     {
+      "number": 7,
       "title": "Open Open Professional American Smooth (W/T/FT/VW)",
       "entries": [
         {
@@ -137,7 +144,7 @@
         {
           "couple": "Dawson, Staz and Gonyea, Jacklyn",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Hutton, Colton and Eden, Cassandra",
@@ -145,19 +152,20 @@
           "points": 3.6
         },
         {
-          "couple": "Rohan, Valentyn and Rohan, Olha",
+          "couple": "Rohan, Olha and Rohan, Valentyn",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         }
       ]
     },
     {
+      "number": 8,
       "title": "Open Open Professional International Ballroom (W/T/VW/FT/QS)",
       "entries": [
         {
           "couple": "Minaev, Aleksei and Minaera, Elena",
           "place": "1",
-          "points": 20.0
+          "points": 18.0
         },
         {
           "couple": "Kazlauskas, Jonas and Ilo, Kathleen",
@@ -167,26 +175,28 @@
         {
           "couple": "Esposito, Vincento and Matsubara, Yo",
           "place": "3",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 9,
       "title": "Open Open Professional International Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Kazlauskas, Jonas and Ilo, Kathleen",
           "place": "1",
-          "points": 20.0
+          "points": 15.0
         },
         {
           "couple": "Minaev, Aleksei and Minaera, Elena",
           "place": "2",
-          "points": 10.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 10,
       "title": "Open Open Professional American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
@@ -217,12 +227,12 @@
         {
           "couple": "Dawson, Staz and Gonyea, Jacklyn",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Belbin, Andrew and Scully, Erin",
           "place": "7",
-          "points": 5.0
+          "points": 6.0
         }
       ]
     }

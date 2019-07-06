@@ -2,6 +2,7 @@
   "comp name": "Savannah Dance Classic",
   "heats": [
     {
+      "number": 1,
       "title": "Professional Rising Star American Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -32,17 +33,18 @@
         {
           "couple": "Trexler, Nathan and Bishop, Brittany",
           "place": "6",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 2,
       "title": "Professional Rising Star International Latin (CC/S/R/PD/J)",
       "entries": [
         {
           "couple": "Fulvi, Daniele and Criscione, Veronica",
           "place": "1",
-          "points": 10.0
+          "points": 9.0
         },
         {
           "couple": "Jenkins, Dylan and Jenkins, Nora",
@@ -52,26 +54,28 @@
         {
           "couple": "Salinas, Daryl and van Ginkel, Monise",
           "place": "3",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 3,
       "title": "Professional Rising Star International Standard (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Esposito, Vincenzo and Matsubara, Yo",
           "place": "1",
-          "points": 10.0
+          "points": 7.5
         },
         {
           "couple": "Churchun, Dmytro and Zavidova, Alina",
           "place": "2",
-          "points": 5.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 4,
       "title": "Professional Rising Star American Rhythm (CC/R/SW/B/M)",
       "entries": [
         {
@@ -102,22 +106,24 @@
         {
           "couple": "Amadis, Germine and Bembry, Torie",
           "place": "6",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
-      "title": "Cabaret",
+      "number": 5,
+      "title": "Pro Open Cabaret",
       "entries": [
         {
           "couple": "Jenkins, Dylan and Jenkins, Nora",
           "place": "1",
-          "points": 20
+          "points": 12.0
         }
       ]
     },
     {
-      "title": "Professional International Latin (CC/S/R/PD/J)",
+      "number": 6,
+      "title": "Professional Open International Latin (CC/S/R/PD/J)",
       "entries": [
         {
           "couple": "Shipilov, Aleksei and Mitina, Julia",
@@ -137,12 +143,13 @@
         {
           "couple": "Jenkins, Dylan and Jenkins, Nora",
           "place": "4",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
-      "title": "Professional American Smooth (W/T/F/VW)",
+      "number": 7,
+      "title": "Professional Open American Smooth (W/T/F/VW)",
       "entries": [
         {
           "couple": "Choi, Michael and Kleyman, Viktoriya",
@@ -172,17 +179,18 @@
         {
           "couple": "Greer, Aaron and Greer, Victoria",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Trexler, Nathan and Bishop, Brittany",
           "place": "7",
-          "points": 5.0
+          "points": 6.0
         }
       ]
     },
     {
-      "title": "Professional American Rhythm (CC/R/SW/B/M)",
+      "number": 8,
+      "title": "Professional Open American Rhythm (CC/R/SW/B/M)",
       "entries": [
         {
           "couple": "Kondov, Toshko and Dobson, Kristen",
@@ -212,12 +220,12 @@
         {
           "couple": "Donelan, Dustin and Anderson, Georgietta",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Divovic, Muhidin and Novak, Ashley",
           "place": "7",
-          "points": 5.0
+          "points": 6.0
         }
       ]
     }

@@ -2,6 +2,7 @@
   "comp name": "Heritage Classic",
   "heats": [
     {
+      "number": 1,
       "title": "<153>Professional Rising Star American Rhythm Competition (C/R/SW/B/M)",
       "entries": [
         {
@@ -15,7 +16,7 @@
           "points": 8.0
         },
         {
-          "couple": "Shiller, Ginny Ray and Shiller, Artem",
+          "couple": "Shiller, Artem and Shiller, Ginny Ray",
           "place": "3",
           "points": 6.5
         },
@@ -32,36 +33,38 @@
         {
           "couple": "Borges, Israel and Cardenas, Natalie",
           "place": "6",
-          "points": 3.0
+          "points": 3.5
         },
         {
           "couple": "Dawson, Staz and Gonyea, Jacklyn",
           "place": "7",
-          "points": 2.5
+          "points": 3.0
         }
       ]
     },
     {
+      "number": 2,
       "title": "<154>Professional Rising Star Int'l Ballroom Competition (W/T/VW/FT/QS)",
       "entries": [
         {
           "couple": "Conte, Riccardo and Filippi, Eleonora",
           "place": "1",
-          "points": 10.0
+          "points": 9.0
         },
         {
-          "couple": "Kostianets, Valeriia and Kostianets, Slava",
+          "couple": "Kostianets, Slava and Kostianets, Valeriia",
           "place": "2",
           "points": 6.0
         },
         {
           "couple": "Izyumov, Sergey and Zaver, Oksana",
           "place": "3",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 3,
       "title": "<152>Professional Rising Star American Smooth Competition (W/T/FT/VW)",
       "entries": [
         {
@@ -75,7 +78,7 @@
           "points": 16.0
         },
         {
-          "couple": "Guthrie, Trevor and Guthrie, Emily",
+          "couple": "Guthrie, Emily and Guthrie, Trevor",
           "place": "3",
           "points": 13.0
         },
@@ -92,12 +95,12 @@
         {
           "couple": "Stowell, Aaron and Hofreiter, Brie",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Bryant, Jeffrey and Bracken, Rachel",
           "place": "Semis",
-          "points": 2.4
+          "points": 2.0
         },
         {
           "couple": "Stockton, Andrew and Smith, Rachel",
@@ -107,6 +110,7 @@
       ]
     },
     {
+      "number": 4,
       "title": "<155>Professional Rising Star Int'l Latin Competition (C/S/R/PD/J)",
       "entries": [
         {
@@ -125,17 +129,18 @@
           "points": 5.0
         },
         {
-          "couple": "Jenkins, Nora and Jenkins, Dylan",
+          "couple": "Jenkins, Dylan and Jenkins, Nora",
           "place": "4",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 5,
       "title": "<151>Open Professional Cabaret/Exhibition Championship",
       "entries": [
         {
-          "couple": "Jensen, Shannon and Jensen, Shane",
+          "couple": "Jensen, Shane and Jensen, Shannon",
           "place": "1",
           "points": 20.0
         },
@@ -145,7 +150,7 @@
           "points": 16.0
         },
         {
-          "couple": "Tuft, Travis and Tuft, Jaimee",
+          "couple": "Tuft, Jaimee and Tuft, Travis",
           "place": "3",
           "points": 13.0
         },
@@ -162,6 +167,7 @@
       ]
     },
     {
+      "number": 6,
       "title": "<158>Open Professional Int'l Ballroom Championship(W/T/VW/FT/QS)",
       "entries": [
         {
@@ -192,10 +198,10 @@
         {
           "couple": "Conte, Riccardo and Filippi, Eleonora",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
-          "couple": "Kostianets, Valeriia and Kostianets, Slava",
+          "couple": "Kostianets, Slava and Kostianets, Valeriia",
           "place": "Semis",
           "points": 7.5
         },
@@ -207,6 +213,7 @@
       ]
     },
     {
+      "number": 7,
       "title": "<157>Open Professional American Rhythm Championship(C/R/SW/B/M)",
       "entries": [
         {
@@ -220,7 +227,7 @@
           "points": 24.0
         },
         {
-          "couple": "Jensen, Shannon and Jensen, Shane",
+          "couple": "Jensen, Shane and Jensen, Shannon",
           "place": "3",
           "points": 19.5
         },
@@ -237,35 +244,36 @@
         {
           "couple": "Abdullin, Ilya and Jerjomina, Anastasija",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Chen, Jonathan and Simanekova, Juanita",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         },
         {
           "couple": "Dawson, Staz and Gonyea, Jacklyn",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         },
         {
-          "couple": "Don, Jang and Don, Adele",
+          "couple": "Don, Adele and Don, Jang",
           "place": "Semis",
           "points": 7.5
         },
         {
-          "couple": "Shiller, Ginny Ray and Shiller, Artem",
+          "couple": "Shiller, Artem and Shiller, Ginny Ray",
           "place": "Semis",
-          "points": 3.6
+          "points": 1.5
         }
       ]
     },
     {
+      "number": 8,
       "title": "<156>Open Professional American Smooth Championship(W/T/FT/VW)",
       "entries": [
         {
-          "couple": "Tuft, Travis and Tuft, Jaimee",
+          "couple": "Tuft, Jaimee and Tuft, Travis",
           "place": "1",
           "points": 40.0
         },
@@ -275,7 +283,7 @@
           "points": 32.0
         },
         {
-          "couple": "Kostianets, Valeriia and Kostianets, Slava",
+          "couple": "Kostianets, Slava and Kostianets, Valeriia",
           "place": "3",
           "points": 26.0
         },
@@ -285,14 +293,19 @@
           "points": 20.0
         },
         {
-          "couple": "Don, Jang and Don, Adele",
+          "couple": "Don, Adele and Don, Jang",
           "place": "5",
           "points": 16.0
         },
         {
           "couple": "Choi, Michael and Kleyman, Viktoriya",
           "place": "6",
-          "points": 12.0
+          "points": 14.0
+        },
+        {
+          "couple": "Guthrie, Emily and Guthrie, Trevor",
+          "place": "Semis",
+          "points": 6.0
         },
         {
           "couple": "Mora, Leo and Garced, Christina",
@@ -300,19 +313,14 @@
           "points": 6.0
         },
         {
-          "couple": "Guthrie, Trevor and Guthrie, Emily",
+          "couple": "Rozenfeld, Evgenii and Shumakher, Maria",
           "place": "Semis",
-          "points": 4.8
+          "points": 6.0
         },
         {
           "couple": "Stowell, Aaron and Hofreiter, Brie",
           "place": "Semis",
-          "points": 4.8
-        },
-        {
-          "couple": "Rozenfeld, Evgenii and Shumakher, Maria",
-          "place": "Semis",
-          "points": 4.8
+          "points": 6.0
         },
         {
           "couple": "Bryant, Jeffrey and Bracken, Rachel",
@@ -332,6 +340,7 @@
       ]
     },
     {
+      "number": 9,
       "title": "<159>Open Professional Int'l Latin Championship(C/S/R/PD/J)",
       "entries": [
         {
@@ -362,7 +371,7 @@
         {
           "couple": "Davies, Jake and Kalinina, Alyona",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Elkin, Bozhidar and Dumanova, Elena",
@@ -370,9 +379,9 @@
           "points": 7.5
         },
         {
-          "couple": "Jenkins, Nora and Jenkins, Dylan",
+          "couple": "Jenkins, Dylan and Jenkins, Nora",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.9
         },
         {
           "couple": "Solomakha, Dmitriy and Sevillano, Gabriela",

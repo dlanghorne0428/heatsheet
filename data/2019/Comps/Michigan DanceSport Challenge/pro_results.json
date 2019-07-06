@@ -2,6 +2,7 @@
   "comp name": "Michigan DanceSport Challenge",
   "heats": [
     {
+      "number": 1,
       "title": "Professional Rising Star Rhythm (CC/R/SW/B/M)",
       "entries": [
         {
@@ -10,7 +11,7 @@
           "points": 20.0
         },
         {
-          "couple": "Shiller, Ginny Ray and Shiller, Artem",
+          "couple": "Shiller, Artem and Shiller, Ginny Ray",
           "place": "2",
           "points": 16.0
         },
@@ -32,7 +33,7 @@
         {
           "couple": "Evans, Enoch and Gordeeva, Anastasia",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Munson, Todd and Hotz, Ricci-Lee",
@@ -40,24 +41,25 @@
           "points": 4.8
         },
         {
-          "couple": "Blain, Mariel and Blain, Daniel",
+          "couple": "Blain, Daniel and Blain, Mariel",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.4
         },
         {
           "couple": "Carpenter, Kevin and Lickona, Monica",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         }
       ]
     },
     {
+      "number": 2,
       "title": "Professional Rising Star Ballroom (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Anufriiev, Mykhailo and Vietrynska, Anna",
           "place": "1",
-          "points": 10.0
+          "points": 9.0
         },
         {
           "couple": "Esposito, Vincenzo and Matsubara, Yo",
@@ -67,11 +69,12 @@
         {
           "couple": "Berkey, Kent and Ota, Yuko",
           "place": "3",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 3,
       "title": "Professional Rising Star Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -85,7 +88,7 @@
           "points": 16.0
         },
         {
-          "couple": "Zhyvkov, Yana and Zhyvkov, Tykhon",
+          "couple": "Zhyvkov, Tykhon and Zhyvkov, Yana",
           "place": "3",
           "points": 13.0
         },
@@ -102,12 +105,12 @@
         {
           "couple": "Nunez, Antonio and Kashkina, Ksenia",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Merz, Timmy and Strashnikova, Deannah",
           "place": "7",
-          "points": 5.0
+          "points": 6.0
         },
         {
           "couple": "Barney, Alan and Rund, Megan",
@@ -115,38 +118,39 @@
           "points": 3.2
         },
         {
-          "couple": "Blain, Mariel and Blain, Daniel",
+          "couple": "Blain, Daniel and Blain, Mariel",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         },
         {
           "couple": "Clark, Gage and Nicole, Randi",
           "place": "Semis",
-          "points": 2.4
+          "points": 1.2
         },
         {
           "couple": "Kempainen, Chris and Inveen, Bonnie",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         },
         {
           "couple": "Hutton, Colton and Eden, Cassandra",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         },
         {
           "couple": "Blizzard, Aaron and Lu, Jenny",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.6
         },
         {
           "couple": "Carpenter, Kevin and Sanders, Janique",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         }
       ]
     },
     {
+      "number": 4,
       "title": "Professional Rising Star Latin (CC/S/R/PD/J)",
       "entries": [
         {
@@ -167,11 +171,12 @@
         {
           "couple": "Anufriiev, Mykhailo and Vietrynska, Anna",
           "place": "4",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 6,
       "title": "Open Professional Rhythm (CC/R/SW/B/M)",
       "entries": [
         {
@@ -185,7 +190,7 @@
           "points": 32.0
         },
         {
-          "couple": "Burazer, Kristijan and Burazer, Anja",
+          "couple": "Burazer, Anja and Burazer, Kristijan",
           "place": "3",
           "points": 26.0
         },
@@ -202,27 +207,27 @@
         {
           "couple": "Papi, Riccardo and Moretti, Sabrina",
           "place": "6",
-          "points": 12.0
+          "points": 14.0
         },
         {
           "couple": "Pierce, Aaron and Stavrica, Ksenia",
           "place": "Semis",
-          "points": 4.8
+          "points": 6.0
         },
         {
           "couple": "Chen, Jonathan and Simanekova, Juanita",
           "place": "Semis",
-          "points": 4.8
+          "points": 6.0
         },
         {
-          "couple": "Shiller, Ginny Ray and Shiller, Artem",
+          "couple": "Shiller, Artem and Shiller, Ginny Ray",
           "place": "Semis",
-          "points": 4.8
+          "points": 6.0
         },
         {
           "couple": "Wayne, Christopher and Evan, Mallory",
           "place": "Semis",
-          "points": 4.8
+          "points": 6.0
         },
         {
           "couple": "Munson, Todd and Hotz, Ricci-Lee",
@@ -230,7 +235,7 @@
           "points": 3.2
         },
         {
-          "couple": "Blain, Mariel and Blain, Daniel",
+          "couple": "Blain, Daniel and Blain, Mariel",
           "place": "quarters",
           "points": 0.4
         },
@@ -247,6 +252,7 @@
       ]
     },
     {
+      "number": 7,
       "title": "Open Professional Ballroom (W/T/VW/F/Q)",
       "entries": [
         {
@@ -277,10 +283,11 @@
       ]
     },
     {
+      "number": 8,
       "title": "Professional Open Cabaret",
       "entries": [
         {
-          "couple": "Jensen, Shannon and Jensen, Shane",
+          "couple": "Jensen, Shane and Jensen, Shannon",
           "place": "1",
           "points": 20.0
         },
@@ -307,6 +314,7 @@
       ]
     },
     {
+      "number": 9,
       "title": "Open Professional Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -330,47 +338,47 @@
           "points": 20.0
         },
         {
-          "couple": "Zhyvkov, Yana and Zhyvkov, Tykhon",
+          "couple": "Zhyvkov, Tykhon and Zhyvkov, Yana",
           "place": "5",
           "points": 16.0
         },
         {
           "couple": "Zavialov, Dmitrii and Baumgartner, Katt",
           "place": "6",
-          "points": 12.0
+          "points": 14.0
         },
         {
           "couple": "Barney, Alan and Rund, Megan",
           "place": "Semis",
-          "points": 4.8
+          "points": 6.0
         },
         {
           "couple": "Derry, Patrick and Trutneva, Anastasia",
           "place": "Semis",
-          "points": 4.8
+          "points": 6.0
         },
         {
           "couple": "Pohl, Zachary and Freilich, Ariel",
           "place": "Semis",
-          "points": 4.8
+          "points": 6.0
         },
         {
           "couple": "Mora, Leo and Garced, Christina",
           "place": "Semis",
-          "points": 4.8
+          "points": 6.0
         },
         {
           "couple": "Merz, Timmy and Strashnikova, Deannah",
           "place": "Semis",
-          "points": 4.8
+          "points": 6.0
         },
         {
           "couple": "Levit, Sharone and Kolarova, Milena",
           "place": "Semis",
-          "points": 5.2
+          "points": 6.0
         },
         {
-          "couple": "Blain, Mariel and Blain, Daniel",
+          "couple": "Blain, Daniel and Blain, Mariel",
           "place": "quarters",
           "points": 2.4
         },
@@ -397,6 +405,7 @@
       ]
     },
     {
+      "number": 10,
       "title": "Open Professional Latin (CC/S/R/PD/J)",
       "entries": [
         {
@@ -427,17 +436,17 @@
         {
           "couple": "Elkin, Bozhidar and Dumanova, Elena",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Minaev, Aleksei and Minaeva, Elena",
           "place": "Semis",
-          "points": 3.6
+          "points": 1.8
         },
         {
           "couple": "Shvetsov, Artur and Linsong, Phoenix",
           "place": "Semis",
-          "points": 3.6
+          "points": 1.8
         }
       ]
     }

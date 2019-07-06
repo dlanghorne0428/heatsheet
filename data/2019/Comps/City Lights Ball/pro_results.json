@@ -2,10 +2,11 @@
   "comp name": "City Lights Ball",
   "heats": [
     {
+      "number": 1,
       "title": "Professional Rising Star Smooth  (W/T/F/VW)",
       "entries": [
         {
-          "couple": "McCann, Stephen and McCann, Elisa",
+          "couple": "McCann, Elisa and McCann, Stephen",
           "place": "1",
           "points": 10.0
         },
@@ -32,22 +33,24 @@
       ]
     },
     {
+      "number": 2,
       "title": "Professional Rising Star Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Modrzynski, Przemyslaw and Zybura, Magdalena",
           "place": "1",
-          "points": 10
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 3,
       "title": "Professional Rising Star Ballroom  (W/T/VW/F/QS)",
       "entries": [
         {
           "couple": "Alitto, Oreste and Belozerova, Valeriia",
           "place": "1",
-          "points": 10.0
+          "points": 9.0
         },
         {
           "couple": "Nemiro, Robert and Miner-Voigt, Lydia",
@@ -57,11 +60,12 @@
         {
           "couple": "Teleha, Oleh and ., Michelle",
           "place": "3",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 4,
       "title": "Professional Rising Star Rhythm (C/R/SW/B/M)",
       "entries": [
         {
@@ -92,6 +96,7 @@
       ]
     },
     {
+      "number": 5,
       "title": "Professional Open Rhythm (C/R/SW/B/M)",
       "entries": [
         {
@@ -122,6 +127,7 @@
       ]
     },
     {
+      "number": 6,
       "title": "Professional Open Ballroom (W/T/VW/F/QS)",
       "entries": [
         {
@@ -130,7 +136,7 @@
           "points": 20.0
         },
         {
-          "couple": "Bieliei, Liliia and Bieliei, Iaroslav",
+          "couple": "Bieliei, Iaroslav and Bieliei, Liliia",
           "place": "2",
           "points": 16.0
         },
@@ -152,16 +158,17 @@
         {
           "couple": "Nemiro, Robert and Miner-Voigt, Lydia",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Teleha, Oleh and ., Michelle",
           "place": "7",
-          "points": 5.0
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 7,
       "title": "Professional Open Latin (C/S/R/PD/J)",
       "entries": [
         {
@@ -170,7 +177,7 @@
           "points": 20.0
         },
         {
-          "couple": "Bertini, Sabrina and Bertini, Francesco",
+          "couple": "Bertini, Francesco and Bertini, Sabrina",
           "place": "2",
           "points": 16.0
         },
@@ -180,7 +187,7 @@
           "points": 13.0
         },
         {
-          "couple": "Alisauskas, Simona and Alisauskas, Lukas",
+          "couple": "Alisauskas, Lukas and Alisauskas, Simona",
           "place": "4",
           "points": 10.0
         },
@@ -192,16 +199,17 @@
         {
           "couple": "Modrzynski, Przemyslaw and Zybura, Magdalena",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Katona, Zsolt and Potys, Timea",
           "place": "7",
-          "points": 5.0
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 8,
       "title": "Professional Open Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -210,7 +218,7 @@
           "points": 20.0
         },
         {
-          "couple": "McCann, Stephen and McCann, Elisa",
+          "couple": "McCann, Elisa and McCann, Stephen",
           "place": "2",
           "points": 16.0
         },

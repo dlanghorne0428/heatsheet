@@ -2,6 +2,7 @@
   "comp name": "St. Louis Star Ball Championship",
   "heats": [
     {
+      "number": 1,
       "title": "Professional Rising Star American Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
@@ -32,20 +33,17 @@
         {
           "couple": "Wysocky, Patrick and Beetz, Alexis",
           "place": "6",
-          "points": 3.0
+          "points": 3.5
         },
         {
           "couple": "Arndtson, Cody and Becker, Paris",
           "place": "7",
-          "points": 2.5
+          "points": 3.0
         }
       ]
     },
     {
-      "title": "Professional Rising Star International Ballroom Championship (W/T/VW/FT/QS)",
-      "entries": []
-    },
-    {
+      "number": 3,
       "title": "Professional Rising Star American Rhythm Championship  (C/R/SW/B/M)",
       "entries": [
         {
@@ -76,17 +74,12 @@
         {
           "couple": "Evans, Enoch and Gordeeva, Anastasia",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Arndtson, Cody and Becker, Paris",
           "place": "Semis",
-          "points": 2.4
-        },
-        {
-          "couple": "Wysocky, Patrick and Beetz, Alexis",
-          "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         },
         {
           "couple": "Bennett, Kemar and Nicol, Jessica",
@@ -96,32 +89,39 @@
         {
           "couple": "Divovic, Muhidin and Novak, Ashley",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.8
         },
         {
-          "couple": "McAllister, Nikki and McAllister, Mike",
+          "couple": "Wysocky, Patrick and Beetz, Alexis",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
+        },
+        {
+          "couple": "McAllister, Mike and McAllister, Nikki",
+          "place": "Semis",
+          "points": 0.2
         }
       ]
     },
     {
+      "number": 4,
       "title": "Professional Rising Star International Latin Championship (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Kora, Iurii and Hryn, Alisa",
           "place": "1",
-          "points": 10
+          "points": 6.0
         }
       ]
     },
     {
-      "title": "Professional Cabaret Championship",
+      "number": 5,
+      "title": "Professional Open Cabaret Championship",
       "entries": [
         {
           "couple": "Pohl, Zachary and Freilich, Ariel",
           "place": "1",
-          "points": 20.0
+          "points": 18.0
         },
         {
           "couple": "Dawson, Staz and Gonyea, Jacklyn",
@@ -131,26 +131,28 @@
         {
           "couple": "Arndtson, Cody and Becker, Paris",
           "place": "3",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 6,
       "title": "Professional Open International Ballroom Championship (W/T/VW/FT/QS)",
       "entries": [
         {
           "couple": "DiBrino, Stefano and Zubrowska, Bianka",
           "place": "1",
-          "points": 20.0
+          "points": 15.0
         },
         {
           "couple": "Dudin, Danila and Zhigulskaya, Varvara",
           "place": "2",
-          "points": 10.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 7,
       "title": "Professional Open American Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
@@ -181,31 +183,32 @@
         {
           "couple": "Pohl, Zachary and Freilich, Ariel",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
+        },
+        {
+          "couple": "Dawson, Staz and Gonyea, Jacklyn",
+          "place": "Semis",
+          "points": 0.9
+        },
+        {
+          "couple": "Arndtson, Cody and Becker, Paris",
+          "place": "Semis",
+          "points": 0.3
+        },
+        {
+          "couple": "Wysocky, Patrick and Beetz, Alexis",
+          "place": "Semis",
+          "points": 1.2
         },
         {
           "couple": "Donelan, Dustin and Anderson, Georgietta",
           "place": "Semis",
           "points": 5.1
-        },
-        {
-          "couple": "Arndtson, Cody and Becker, Paris",
-          "place": "Semis",
-          "points": 3.6
-        },
-        {
-          "couple": "Wysocky, Patrick and Beetz, Alexis",
-          "place": "Semis",
-          "points": 3.6
-        },
-        {
-          "couple": "Dawson, Staz and Gonyea, Jacklyn",
-          "place": "Semis",
-          "points": 3.6
         }
       ]
     },
     {
+      "number": 8,
       "title": "Professional Open International Latin Championship (C/S/R/PD/J)",
       "entries": [
         {
@@ -226,11 +229,12 @@
         {
           "couple": "Kora, Iurii and Hryn, Alisa",
           "place": "4",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 9,
       "title": "Professional Open American Rhythm Championship (C/R/SW/B/M)",
       "entries": [
         {
@@ -261,12 +265,12 @@
         {
           "couple": "Lopez, Jhondarr and Osborn, Amber",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Bennett, Kemar and Nicol, Jessica",
           "place": "7",
-          "points": 7.5
+          "points": 9.0
         },
         {
           "couple": "Sharan, Slash and Vincitore, Rebecca",
@@ -274,34 +278,34 @@
           "points": 7.5
         },
         {
-          "couple": "Donelan, Dustin and Anderson, Georgietta",
+          "couple": "Evans, Enoch and Gordeeva, Anastasia",
           "place": "Semis",
-          "points": 3.6
-        },
-        {
-          "couple": "Arndtson, Cody and Becker, Paris",
-          "place": "Semis",
-          "points": 3.6
-        },
-        {
-          "couple": "Wysocky, Patrick and Beetz, Alexis",
-          "place": "Semis",
-          "points": 3.6
+          "points": 6.3
         },
         {
           "couple": "Dawson, Staz and Gonyea, Jacklyn",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
+        },
+        {
+          "couple": "Arndtson, Cody and Becker, Paris",
+          "place": "Semis",
+          "points": 0.3
         },
         {
           "couple": "Divovic, Muhidin and Novak, Ashley",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         },
         {
-          "couple": "Evans, Enoch and Gordeeva, Anastasia",
+          "couple": "Wysocky, Patrick and Beetz, Alexis",
           "place": "Semis",
-          "points": 6.3
+          "points": 0.6
+        },
+        {
+          "couple": "Donelan, Dustin and Anderson, Georgietta",
+          "place": "Semis",
+          "points": 2.1
         }
       ]
     }

@@ -2,6 +2,7 @@
   "comp name": "2019 Miami Vibe",
   "heats": [
     {
+      "number": 1,
       "title": "Professional Rising Star American Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -10,7 +11,7 @@
           "points": 10.0
         },
         {
-          "couple": "Kuzmenko, Dmitriy and Kuzmenko, Andrea",
+          "couple": "Kuzmenko, Andrea and Kuzmenko, Dmitriy",
           "place": "2",
           "points": 8.0
         },
@@ -30,48 +31,51 @@
           "points": 4.0
         },
         {
-          "couple": "Boldirev, Vadim and Boldirev, Karla",
+          "couple": "Boldirev, Karla and Boldirev, Vadim",
           "place": "6",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 2,
       "title": "Professional Rising Star International Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Angelo, Miguel and Santos, Daniela",
           "place": "1",
-          "points": 10.0
+          "points": 9.0
         },
         {
-          "couple": "Katashinskiy, Marina and Katashinskiy, Artemiy",
+          "couple": "Katashinskiy, Artemiy and Katashinskiy, Marina",
           "place": "2",
           "points": 6.0
         },
         {
-          "couple": "Kantin, Elise and Kantin, Anthony",
+          "couple": "Kantin, Anthony and Kantin, Elise",
           "place": "3",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 3,
       "title": "Professional Rising Star International Ballroom (W/T/VW/F/QS)",
       "entries": [
         {
-          "couple": "Katashinskiy, Marina and Katashinskiy, Artemiy",
+          "couple": "Katashinskiy, Artemiy and Katashinskiy, Marina",
           "place": "1",
-          "points": 10.0
+          "points": 7.5
         },
         {
-          "couple": "Kantin, Elise and Kantin, Anthony",
+          "couple": "Kantin, Anthony and Kantin, Elise",
           "place": "2",
-          "points": 5.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 4,
       "title": "Professional Rising Star American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
@@ -80,12 +84,12 @@
           "points": 10.0
         },
         {
-          "couple": "Puzhevich, Igor and Puzhevich, Anastasia",
+          "couple": "Puzhevich, Anastasia and Puzhevich, Igor",
           "place": "2",
           "points": 8.0
         },
         {
-          "couple": "Kuzmenko, Dmitriy and Kuzmenko, Andrea",
+          "couple": "Kuzmenko, Andrea and Kuzmenko, Dmitriy",
           "place": "3",
           "points": 6.5
         },
@@ -102,26 +106,28 @@
         {
           "couple": "Kumar, Ramphis and Levina, Jenny",
           "place": "6",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 5,
       "title": "Professional Cabaret",
       "entries": [
         {
           "couple": "Kudashev, Ivan and ., Ksusha",
           "place": "1",
-          "points": 20.0
+          "points": 15.0
         },
         {
-          "couple": "Katashinskiy, Marina and Katashinskiy, Artemiy",
+          "couple": "Katashinskiy, Artemiy and Katashinskiy, Marina",
           "place": "2",
-          "points": 10.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 6,
       "title": "Professional American Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -140,7 +146,7 @@
           "points": 19.5
         },
         {
-          "couple": "Don, Jang and Don, Adele",
+          "couple": "Don, Adele and Don, Jang",
           "place": "4",
           "points": 15.0
         },
@@ -152,7 +158,7 @@
         {
           "couple": "Shapoval, Sergei and Popovich, Mila",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Popov, Vladimir and Marie, Erin",
@@ -172,6 +178,7 @@
       ]
     },
     {
+      "number": 7,
       "title": "Professional International Latin (C/S/R/PD/J)",
       "entries": [
         {
@@ -202,16 +209,17 @@
         {
           "couple": "Angelo, Miguel and Santos, Daniela",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
-          "couple": "Katashinskiy, Marina and Katashinskiy, Artemiy",
+          "couple": "Katashinskiy, Artemiy and Katashinskiy, Marina",
           "place": "7",
-          "points": 5.0
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 8,
       "title": "Professional International Ballroom (W/T/VW/F/QS)",
       "entries": [
         {
@@ -220,7 +228,7 @@
           "points": 20.0
         },
         {
-          "couple": "Katashinskiy, Marina and Katashinskiy, Artemiy",
+          "couple": "Katashinskiy, Artemiy and Katashinskiy, Marina",
           "place": "2",
           "points": 14.0
         },
@@ -232,11 +240,12 @@
         {
           "couple": "Merenkov, Artem and Voilokova, Tatiana",
           "place": "4",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 9,
       "title": "Professional American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
@@ -245,7 +254,7 @@
           "points": 20.0
         },
         {
-          "couple": "Don, Jang and Don, Adele",
+          "couple": "Don, Adele and Don, Jang",
           "place": "2",
           "points": 16.0
         },
@@ -255,7 +264,7 @@
           "points": 13.0
         },
         {
-          "couple": "Puzhevich, Igor and Puzhevich, Anastasia",
+          "couple": "Puzhevich, Anastasia and Puzhevich, Igor",
           "place": "4",
           "points": 10.0
         },
