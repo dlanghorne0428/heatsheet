@@ -1,0 +1,498 @@
+{
+  "comp name": "DIVA Dancesport Challenge",
+  "heats": [
+    {
+      "number": 73,
+      "title": "L-B Bronze Open American Smooth 2-Dance (W/T)",
+      "entries": [
+        {
+          "couple": "Camm, Linda and Penney, Justin",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "L-B Silver Open American Smooth 2-Dance (W/T)",
+      "entries": [
+        {
+          "couple": "Landry, Marilyn and Pocius, Sid",
+          "place": "1",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "L-C Silver Closed American Smooth 2-Dance (W/T)",
+      "entries": [
+        {
+          "couple": "Adelman, Donna and DiLorenzo, Paolo",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "L-B Bronze Open International Ballroom 2-Dance (W/F)",
+      "entries": [
+        {
+          "couple": "Camm, Linda and Penney, Justin",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "L-B Gold Open International Ballroom 2-Dance (W/F)",
+      "entries": [
+        {
+          "couple": "Barrett, Margaret and Meshkov, Ruslan",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "L-B Bronze Closed American Smooth 2-Dance (W/T)",
+      "entries": [
+        {
+          "couple": "Kaiser, Gina and DiTommaso, Tommy",
+          "place": "1",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "L-B Silver Closed American Smooth 2-Dance (W/T)",
+      "entries": [
+        {
+          "couple": "Hibel, Janet and DiLorenzo, Paolo",
+          "place": "1",
+          "points": 11.25
+        },
+        {
+          "couple": "Camm, Linda and Penney, Justin",
+          "place": "2",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "G-A Silver Open American Smooth 3-Dance (W/T/F)",
+      "entries": [
+        {
+          "couple": "Nemeth, Michael and Seaton, Vicki",
+          "place": "1",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "L-B Bronze Open American Smooth 3-Dance (W/T/F)",
+      "entries": [
+        {
+          "couple": "Hauck, Lore and Varga, Tibor",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "L-B Silver Open American Smooth 3-Dance (W/T/F)",
+      "entries": [
+        {
+          "couple": "Landry, Marilyn and Pocius, Sid",
+          "place": "1",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "L-C Silver Open American Smooth 3-Dance (W/T/F)",
+      "entries": [
+        {
+          "couple": "Payzant, Sandie and Whitney, Kris",
+          "place": "1",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "L-B Bronze Open American Smooth 2-Dance (T/F)",
+      "entries": [
+        {
+          "couple": "Camm, Linda and Penney, Justin",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "L-B Silver Open American Smooth 2-Dance (T/F)",
+      "entries": [
+        {
+          "couple": "Landry, Marilyn and Pocius, Sid",
+          "place": "1",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "L-C Silver Closed American Smooth 2-Dance (T/F)",
+      "entries": [
+        {
+          "couple": "Adelman, Donna and DiLorenzo, Paolo",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "title": "L-B Bronze Open International Ballroom 2-Dance (W/Q)",
+      "entries": [
+        {
+          "couple": "Camm, Linda and Penney, Justin",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "title": "L-B Gold Open International Ballroom 2-Dance (W/Q)",
+      "entries": [
+        {
+          "couple": "Barrett, Margaret and Meshkov, Ruslan",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "title": "G-A Silver Closed American Smooth 3-Dance (W/T/F)",
+      "entries": [
+        {
+          "couple": "Nemeth, Michael and Seaton, Vicki",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "title": "L-C Silver Closed American Smooth 3-Dance (W/T/F)",
+      "entries": [
+        {
+          "couple": "Payzant, Sandie and Whitney, Kris",
+          "place": "1",
+          "points": 11.25
+        },
+        {
+          "couple": "Adelman, Donna and DiLorenzo, Paolo",
+          "place": "2",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "title": "L-B Silver Closed American Smooth 2-Dance (T/F)",
+      "entries": [
+        {
+          "couple": "Hibel, Janet and DiLorenzo, Paolo",
+          "place": "1",
+          "points": 11.25
+        },
+        {
+          "couple": "Camm, Linda and Penney, Justin",
+          "place": "2",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "L-B Bronze Open International Ballroom 2-Dance (F/T)",
+      "entries": [
+        {
+          "couple": "Camm, Linda and Penney, Justin",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "L-B Gold Open International Ballroom 2-Dance (F/T)",
+      "entries": [
+        {
+          "couple": "Barrett, Margaret and Meshkov, Ruslan",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "L-B Bronze Open International Ballroom 3-Dance (W/F/Q)",
+      "entries": [
+        {
+          "couple": "Camm, Linda and Penney, Justin",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "L-B Gold Open International Ballroom 3-Dance (W/F/Q)",
+      "entries": [
+        {
+          "couple": "Barrett, Margaret and Meshkov, Ruslan",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "L-C Silver Closed International Ballroom 3-Dance (W/F/Q)",
+      "entries": [
+        {
+          "couple": "Adelman, Donna and DiLorenzo, Paolo",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "L-B Bronze Closed American Smooth 3-Dance (W/T/F)",
+      "entries": [
+        {
+          "couple": "Kaiser, Gina and DiTommaso, Tommy",
+          "place": "1",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "L-B Silver Closed American Smooth 3-Dance (W/T/F)",
+      "entries": [
+        {
+          "couple": "Hibel, Janet and DiLorenzo, Paolo",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "L- American Smooth Open Scholarship(W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Payzant, Sandie and Whitney, Kris",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 182,
+      "title": "L-B Gold Open International Latin 2-Dance (C/R)",
+      "entries": [
+        {
+          "couple": "Lekht, Alice and Derimov, Igor",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 184,
+      "title": "L-A Silver Closed American Rhythm 2-Dance (C/R)",
+      "entries": [
+        {
+          "couple": "Shirer, Tanya and Garcia, Primo",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 186,
+      "title": "L-B Gold Open International Latin 3-Dance (C/S/R)",
+      "entries": [
+        {
+          "couple": "Lekht, Alice and Derimov, Igor",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 187,
+      "title": "L-A Bronze Closed American Rhythm 2-Dance (C/R)",
+      "entries": [
+        {
+          "couple": "Malnik, Nancy and Cook, David",
+          "place": "1",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 187,
+      "title": "L-B Bronze Closed American Rhythm 2-Dance (C/R)",
+      "entries": [
+        {
+          "couple": "Kaiser, Gina and DiTommaso, Tommy",
+          "place": "1",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 189,
+      "title": "L-B Gold Open International Latin 2-Dance (R/S)",
+      "entries": [
+        {
+          "couple": "Lekht, Alice and Derimov, Igor",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 191,
+      "title": "G-A Silver Closed American Rhythm 3-Dance (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Shirer, Tanya and Garcia, Primo",
+          "place": "1",
+          "points": 11.25
+        },
+        {
+          "couple": "Nemeth, Michael and Seaton, Vicki",
+          "place": "2",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 191,
+      "title": "L-C Silver Closed American Rhythm 3-Dance (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Payzant, Sandie and Whitney, Kris",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 192,
+      "title": "L-B Gold Open International Latin 2-Dance (C/J)",
+      "entries": [
+        {
+          "couple": "Lekht, Alice and Derimov, Igor",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 193,
+      "title": "L-A Bronze Closed American Rhythm 3-Dance (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Malnik, Nancy and Cook, David",
+          "place": "1",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 193,
+      "title": "L-B Bronze Closed American Rhythm 3-Dance (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Kaiser, Gina and DiTommaso, Tommy",
+          "place": "1",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 195,
+      "title": "L-A Silver Closed American Rhythm 2-Dance (R/M)",
+      "entries": [
+        {
+          "couple": "Shirer, Tanya and Garcia, Primo",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 196,
+      "title": "G-A Silver Open American Rhythm 3-Dance (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Nemeth, Michael and Seaton, Vicki",
+          "place": "1",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "number": 196,
+      "title": "L-C Silver Open American Rhythm 3-Dance (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Payzant, Sandie and Whitney, Kris",
+          "place": "1",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "number": 197,
+      "title": "L-A Silver Closed American Rhythm 2-Dance (SW/B)",
+      "entries": [
+        {
+          "couple": "Shirer, Tanya and Garcia, Primo",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 198,
+      "title": "L- American Rhythm Open Scholarship(C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Payzant, Sandie and Whitney, Kris",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    }
+  ]
+}

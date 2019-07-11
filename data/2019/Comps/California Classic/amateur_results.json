@@ -8,7 +8,7 @@
         {
           "couple": "Clark, Dean and Clark, Zlata",
           "place": "1",
-          "points": 5
+          "points": 3.0
         }
       ]
     },
@@ -19,7 +19,7 @@
         {
           "couple": "Clark, Dean and Clark, Zlata",
           "place": "1",
-          "points": 5
+          "points": 3.0
         }
       ]
     },
@@ -30,7 +30,7 @@
         {
           "couple": "Clark, Dean and Clark, Zlata",
           "place": "1",
-          "points": 5
+          "points": 3.0
         }
       ]
     },
@@ -41,7 +41,7 @@
         {
           "couple": "Clark, Dean and Clark, Zlata",
           "place": "1",
-          "points": 15
+          "points": 9.0
         }
       ]
     },
@@ -52,7 +52,7 @@
         {
           "couple": "Novikov, Michael and Dragunov, Dasha",
           "place": "1",
-          "points": 15
+          "points": 9.0
         }
       ]
     },
@@ -63,7 +63,7 @@
         {
           "couple": "Novikov, Daniel and Vishnevskiy, Mishella",
           "place": "1",
-          "points": 20
+          "points": 9.0
         }
       ]
     },
@@ -74,7 +74,7 @@
         {
           "couple": "Payton, Samuel and Clark, Cassandra",
           "place": "1",
-          "points": 15
+          "points": 9.0
         }
       ]
     },
@@ -85,7 +85,7 @@
         {
           "couple": "Payton, Samuel and Clark, Cassandra",
           "place": "1",
-          "points": 20
+          "points": 9.0
         }
       ]
     },
@@ -96,7 +96,7 @@
         {
           "couple": "Franklin, Pasha and Weiss, Hanna",
           "place": "1",
-          "points": 20
+          "points": 9.0
         }
       ]
     },
@@ -132,32 +132,32 @@
         {
           "couple": "Saba, Daniel and Chubay, Sofia",
           "place": "6",
-          "points": 7.5
+          "points": 8.75
         },
         {
           "couple": "Krupovlyanskiy, Mathew and Neminov, Isabella",
           "place": "Semis",
-          "points": 3.0
+          "points": 0.5
         },
         {
           "couple": "Novikov and Dragunov",
           "place": "Semis",
-          "points": 3.0
+          "points": 1.5
         },
         {
           "couple": "Chen, Joseph and Xue, Emily",
           "place": "Semis",
-          "points": 3.0
+          "points": 1.0
         },
         {
           "couple": "Rogatio, Vitaliy and Grigoryan, Karina",
           "place": "Semis",
-          "points": 3.0
+          "points": 0.5
         },
         {
           "couple": "Rogatin and Grigoryan",
           "place": "Semis",
-          "points": 3.0
+          "points": 0.5
         }
       ]
     },
@@ -168,7 +168,7 @@
         {
           "couple": "Novikov, Michael and Dragunov, Dasha",
           "place": "1",
-          "points": 15
+          "points": 9.0
         }
       ]
     },
@@ -179,57 +179,62 @@
         {
           "couple": "Novikov, Daniel and Vishnevskiy, Mishella",
           "place": "1",
-          "points": 30.0
+          "points": 25.0
         },
         {
           "couple": "Armstrong, Weldon Luis and Tatoosi, Emily",
           "place": "2",
-          "points": 24.0
+          "points": 20.0
         },
         {
           "couple": "Ginko, Sean and Armstrong, Scarlett",
           "place": "3",
-          "points": 19.5
+          "points": 16.25
         },
         {
           "couple": "Svediani, Daniel and Musayelyan, Angelina",
           "place": "4",
-          "points": 15
+          "points": 12.5
         },
         {
           "couple": "Shishkin, Nikita and Adigulian, Chloe",
           "place": "5",
-          "points": 12.0
+          "points": 10.0
         },
         {
           "couple": "Svediani, Nikolas and Nisali, Elinor",
           "place": "6",
-          "points": 9
+          "points": 8.75
         },
         {
           "couple": "Krupovlyanskiy, Mathew and Neminov, Isabella",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.25
         },
         {
           "couple": "Saba, Daniel and Chubay, Sofia",
           "place": "Semis",
-          "points": 3.6
+          "points": 2.25
         },
         {
           "couple": "Chen, Joseph and Xue, Emily",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.5
         },
         {
           "couple": "Heidenreich, Helios and Lin, Megan",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.25
         },
         {
-          "couple": "Rogatin, Vitaliy and Grigoryan, Karina",
+          "couple": "Rogatio, Vitaliy and Grigoryan, Karina",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.25
+        },
+        {
+          "couple": "Rogatin and Grigoryan",
+          "place": "Semis",
+          "points": 0.25
         }
       ]
     },
@@ -271,7 +276,7 @@
         {
           "couple": "Heidenreich, Helios and Zhao, Vera",
           "place": "1",
-          "points": 15
+          "points": 9.0
         }
       ]
     },
@@ -282,22 +287,22 @@
         {
           "couple": "Sinelnikov, Ivan and Rich, Veronica",
           "place": "1",
-          "points": 20.0
+          "points": 15.0
         },
         {
           "couple": "Nisali, Adiel and Belyy, Julia",
           "place": "2",
-          "points": 13.0
+          "points": 10.5
         },
         {
           "couple": "Khmelev and Babalyan",
           "place": "3",
-          "points": 10.0
+          "points": 7.5
         },
         {
           "couple": "Shishkin, Jeremy and Kirakosyan, Meline",
           "place": "4",
-          "points": 4.5
+          "points": 5.25
         }
       ]
     },
@@ -308,7 +313,7 @@
         {
           "couple": "Franklin, Pasha and Weiss, Hanna",
           "place": "1",
-          "points": 20
+          "points": 9.0
         }
       ]
     },
@@ -319,7 +324,7 @@
         {
           "couple": "Rogers, Ed and Rogers, Tirsha",
           "place": "1",
-          "points": 20
+          "points": 12.0
         }
       ]
     },
@@ -330,12 +335,12 @@
         {
           "couple": "Monokandilos, Mike and Zilberberg, Stella",
           "place": "1",
-          "points": 20.0
+          "points": 11.25
         },
         {
           "couple": "Franklin and Weiss",
           "place": "2",
-          "points": 10.0
+          "points": 5.25
         }
       ]
     },
@@ -346,12 +351,12 @@
         {
           "couple": "Lloyd, Charles and Weiss, Hanna",
           "place": "1",
-          "points": 20.0
+          "points": 15.0
         },
         {
           "couple": "Rogers, Ed and Rogers, Tirsha",
           "place": "2",
-          "points": 10.0
+          "points": 7.0
         }
       ]
     },
@@ -362,7 +367,7 @@
         {
           "couple": "Lloyd, Charles and Weiss, Hanna",
           "place": "1",
-          "points": 20
+          "points": 9.0
         }
       ]
     },
@@ -373,17 +378,17 @@
         {
           "couple": "Yeh, Glendy and Yeh, Terry",
           "place": "1",
-          "points": 20.0
+          "points": 13.5
         },
         {
           "couple": "Sanchez-Torres, Anthony and Sanchez-Torres, Marina",
           "place": "2",
-          "points": 12.0
+          "points": 9.0
         },
         {
           "couple": "Oishi, Steve and Donville, Emi",
           "place": "3",
-          "points": 6.0
+          "points": 5.25
         }
       ]
     },
@@ -394,7 +399,7 @@
         {
           "couple": "Monokandilos, Mike and Zilberberg, Stella",
           "place": "1",
-          "points": 20
+          "points": 12.0
         }
       ]
     }
