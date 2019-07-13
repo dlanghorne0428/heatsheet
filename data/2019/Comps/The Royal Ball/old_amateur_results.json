@@ -1,0 +1,770 @@
+{
+  "comp name": "The Royal Ball",
+  "heats": [
+    {
+      "number": 148,
+      "title": "Amateur Open Senior S1 Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Paiz, Gabriel and Castro-Paiz, Marisol",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 148,
+      "title": "Amateur Open Senior S2 Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Hudson, Henry and Hudson, Olivia",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "number": 150,
+      "title": "Ameteur Pre-Champ S1 AM/AM Int'l Latin (CC,S,J)",
+      "entries": [
+        {
+          "couple": "Paiz, Gabriel and Castro-Paiz, Marisol",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 150,
+      "title": "Ameteur Pre-Champ S2 AM/AM Int'l Latin (CC,S,J)",
+      "entries": [
+        {
+          "couple": "Hudson, Henry and Hudson, Olivia",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 255,
+      "title": "Ameteur Pre-Champ S2 AM/AM Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Hudson, Henry and Hudson, Olivia",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 261,
+      "title": "Amateur Open Senior S2 Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Hudson, Henry and Hudson, Olivia",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 317,
+      "title": "Ameteur Pre-Champ S1 AM/AM Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Satrain, Gil and Hernandez, Emmy",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 317,
+      "title": "Ameteur Pre-Champ S2 AM/AM Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Kim, Song and Suh, Nicole",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 320,
+      "title": "Amateur Open Senior S1 Int'l Ballroom (W,T,F,Q)",
+      "entries": [
+        {
+          "couple": "Satrain, Gil and Hernandez, Emmy",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 320,
+      "title": "Amateur Open Senior S2 Int'l Ballroom (W,T,F,Q)",
+      "entries": [
+        {
+          "couple": "Kim, Song and Suh, Nicole",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "number": 333,
+      "title": "Ameteur Pre-Champ J1 AM/AM Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Linnik, Michael and Huynh, Jolene",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 333,
+      "title": "Ameteur Pre-Champ J2 AM/AM Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Tran, Jericho and Philmore, Aurelia",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 333,
+      "title": "Ameteur Pre-Champ Y AM/AM Amer. Smooth (W,T,F)",
+      "entries": [
+        {
+          "couple": "Fox, Blake and Ascione, Nicole",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 334,
+      "title": "Amateur Open A Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Lloyd IV, Charles and Weiss, Hanna",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 334,
+      "title": "Amateur Open J1 Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Linnik, Michael and Huynh, Jolene",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "number": 334,
+      "title": "Amateur Open J2 Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Fox, Blake and Ascione, Nicole",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Tran, Jericho and Philmore, Aurelia",
+          "place": "2",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "number": 335,
+      "title": "Amateur Open Y Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Lloyd IV, Charles and Weiss, Hanna",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 349,
+      "title": "Ameteur Pre-Champ J1 AM/AM Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Novikov, Daniel and Vishnevskiy, Mishella",
+          "place": "1",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "number": 349,
+      "title": "Ameteur Pre-Champ P1 AM/AM Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Starodubov, Peter and Sinelnikov, Natalya",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 349,
+      "title": "Ameteur Pre-Champ P2 AM/AM Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Bader, Austin and Savchenko, Olivia",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Lasoff, Jason and Ivanitskyy, Jane",
+          "place": "2",
+          "points": 10.5
+        }
+      ]
+    },
+    {
+      "number": 349,
+      "title": "Ameteur Pre-Champ TB AM/AM Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Novikov, Michael and Dragunov, Dasha",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 350,
+      "title": "Amateur Open J2 Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Fox, Blake and Ascione, Nicole",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 350,
+      "title": "Amateur Open Kids P2 Int'l Ballroom (W,T,F,Q)",
+      "entries": [
+        {
+          "couple": "Novikov, Daniel and Vishnevskiy, Mishella",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Bader, Austin and Savchenko, Olivia",
+          "place": "2",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "number": 350,
+      "title": "Ameteur Pre-Champ Y AM/AM Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Franklin, Paul and Weiss, Hanna",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 351,
+      "title": "Amateur Open A Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Romanov, Ivan and Ivahno - Kalinuka, Katya",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 351,
+      "title": "Amateur Open Y Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Fox, Blake and Ascione, Nicole",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "number": 448,
+      "title": "Ameteur Pre-Champ A AM/AM Int'l Latin (CC,S,J)",
+      "entries": [
+        {
+          "couple": "Kozelchik, Max and Kozelchik, Altahir",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Murray, Stephen and Misrayim, Suryany",
+          "place": "2",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 448,
+      "title": "Ameteur Pre-Champ J2 AM/AM Int'l Latin (CC,S,J)",
+      "entries": [
+        {
+          "couple": "Nikitin, Marsel and Hoodyakova, Tonya",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Nazarov, Edward and Melikyan, Diana",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Yuchen Feng, Bryan and Simonyan, Valeria",
+          "place": "3",
+          "points": 9.75
+        },
+        {
+          "couple": "Lee, Brandon and Zhai, Sarah",
+          "place": "4",
+          "points": 7.5
+        },
+        {
+          "couple": "Li, Jason and Xu, Renee",
+          "place": "5",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 449,
+      "title": "Ameteur Pre-Champ P1 AM/AM Int'l Latin (CC,S,J)",
+      "entries": [
+        {
+          "couple": "Sevediani, Nikolas and Nisali, Elinor",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Shishkin, Michael and Moriakova, Alena",
+          "place": "2",
+          "points": 20.0
+        },
+        {
+          "couple": "Ivanov, Nikolai and Ivanov, Irishka",
+          "place": "3",
+          "points": 16.25
+        },
+        {
+          "couple": "Novikov, Michael and Dragunov, Dasha",
+          "place": "4",
+          "points": 12.5
+        },
+        {
+          "couple": "Rogatin, Vitaliy and Grigoryan, Karina",
+          "place": "5",
+          "points": 10.0
+        },
+        {
+          "couple": "Krupovlyanskiy, Mathew and Neminov, Isabella",
+          "place": "6",
+          "points": 7.5
+        },
+        {
+          "couple": "Saba, Daniel and Chubay, Sofia",
+          "place": "7",
+          "points": 6.25
+        },
+        {
+          "couple": "Brown, Cassius and Sinelnikov, Maya",
+          "place": "8",
+          "points": 6.25
+        },
+        {
+          "couple": "Indiana, Foley and Casabianca, Valentina",
+          "place": "Semis",
+          "points": 3.0
+        },
+        {
+          "couple": "Rojas, Matteo and Lopez, Eva",
+          "place": "Semis",
+          "points": 3.0
+        },
+        {
+          "couple": "Starodubov, Peter and Sinelnikov, Natalya",
+          "place": "Semis",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "number": 450,
+      "title": "Ameteur Pre-Champ P2 AM/AM Int'l Latin (CC,S,J)",
+      "entries": [
+        {
+          "couple": "Milstead, Robby and Dobson, Emily",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "de la Rosa, Brando and Saidkariev, Naeema",
+          "place": "2",
+          "points": 20.0
+        },
+        {
+          "couple": "Ginko, Sean and Tatoosi, Emily",
+          "place": "3",
+          "points": 16.25
+        },
+        {
+          "couple": "Svediani, Daniel and Musayelyan, Angelina",
+          "place": "4",
+          "points": 12.5
+        },
+        {
+          "couple": "Bader, hudson and Groysman, Milana",
+          "place": "5",
+          "points": 10.0
+        },
+        {
+          "couple": "Bader, Austin and Savchenko, Olivia",
+          "place": "Semis",
+          "points": 3.0
+        },
+        {
+          "couple": "Bader, McLaren and Skoblova, Angelina",
+          "place": "Semis",
+          "points": 3.0
+        },
+        {
+          "couple": "Lasoff, Jason and Ivanitskyy, Jane",
+          "place": "Semis",
+          "points": 3.0
+        },
+        {
+          "couple": "Petylo, Nikita and Algart, Zoe",
+          "place": "Semis",
+          "points": 3.0
+        },
+        {
+          "couple": "Foyez, Aleq and Semerdjian, Emily",
+          "place": "Semis",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "number": 451,
+      "title": "Ameteur Pre-Champ J1 AM/AM Int'l Latin (CC,S,J)",
+      "entries": [
+        {
+          "couple": "Nisali, Adiel and Belyy, Julia",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Shishkin, Jeremy and Kirakosyan, Meline",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Tedesco, Mark and Luzyanina, Kateryna",
+          "place": "3",
+          "points": 9.75
+        },
+        {
+          "couple": "Amirian, Marion and Laterovian, Annie",
+          "place": "4",
+          "points": 7.5
+        },
+        {
+          "couple": "Lee, Brandon and Zhai, Sarah",
+          "place": "5",
+          "points": 6.0
+        },
+        {
+          "couple": "Desailly, Stephne and Khazin, Sasha",
+          "place": "6",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 452,
+      "title": "Amateur Open Kids P2 Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Novikov, Daniel and Vishnevskiy, Mishella",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "de la Rosa, Brando and Saidkariev, Naeema",
+          "place": "2",
+          "points": 24.0
+        },
+        {
+          "couple": "Milstead, Robby and Dobson, Emily",
+          "place": "3",
+          "points": 19.5
+        },
+        {
+          "couple": "Ginko, Sean and Tatoosi, Emily",
+          "place": "4",
+          "points": 15.0
+        },
+        {
+          "couple": "Svediani, Daniel and Musayelyan, Angelina",
+          "place": "5",
+          "points": 12.0
+        },
+        {
+          "couple": "Bader, Austin and Savchenko, Olivia",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Bader, hudson and Groysman, Milana",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Bader, McLaren and Skoblova, Angelina",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Lasoff, Jason and Ivanitskyy, Jane",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Petylo, Nikita and Algart, Zoe",
+          "place": "Semis",
+          "points": 3.6
+        },
+        {
+          "couple": "Foyez, Aleq and Semerdjian, Emily",
+          "place": "Semis",
+          "points": 3.6
+        }
+      ]
+    },
+    {
+      "number": 453,
+      "title": "Amateur Open J2 Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Nikitin, Marsel and Hoodyakova, Tonya",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Sinelnikov, Ivan and Rich, Veronica",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Li, Jason and Xu, Renee",
+          "place": "3",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 453,
+      "title": "Ameteur Pre-Champ TB AM/AM Int'l Latin (CC,S,J)",
+      "entries": [
+        {
+          "couple": "Novikov, Michael and Dragunov, Dasha",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 454,
+      "title": "Amateur Open Kids TB Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Novikov, Michael and Dragunov, Dasha",
+          "place": "1",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "number": 454,
+      "title": "Ameteur Pre-Champ Y AM/AM Int'l Latin (CC,S,J)",
+      "entries": [
+        {
+          "couple": "Nazarov, Edward and Melikyan, Diana",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Vasilevskiy, Lior and Sigal, Gabriella",
+          "place": "2",
+          "points": 10.5
+        },
+        {
+          "couple": "Chiriboga, Leonardo and Garcia, Santanna",
+          "place": "3",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 455,
+      "title": "Amateur Open J1 Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Nisali, Adiel and Belyy, Julia",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Shishkin, Jeremy and Kirakosyan, Meline",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Tedesco, Mark and Luzyanina, Kateryna",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Yuchen Feng, Bryan and Simonyan, Valeria",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Lee, Brandon and Zhai, Sarah",
+          "place": "5",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "number": 456,
+      "title": "Amateur Open Y Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Voronel, Daniel and Rapp, Masha",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Sinelnikov, Ivan and Rich, Veronica",
+          "place": "2",
+          "points": 14.0
+        },
+        {
+          "couple": "Vasilevskiy, Lior and Sigal, Gabriella",
+          "place": "3",
+          "points": 10.0
+        },
+        {
+          "couple": "Chiriboga, Leonardo and Garcia, Santanna",
+          "place": "4",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 457,
+      "title": "Amateur Open A Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Romanov, Ivan and Ivahno - Kalinuka, Katya",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Khachaturov, Edgar and Pinkett, Monet",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Swiger, John and Shtykova, Arina",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Voronel, Daniel and Rapp, Masha",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Kozelchik, Max and Kozelchik, Altahir",
+          "place": "5",
+          "points": 8.0
+        },
+        {
+          "couple": "Airapetian, Iurii and Ramamurthy, Ella",
+          "place": "6",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 458,
+      "title": "Amateur Open Kids P1 Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Shishkin, Michael and Moriakova, Alena",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Sevediani, Nikolas and Nisali, Elinor",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Ivanov, Nikolai and Ivanov, Irishka",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Saba, Daniel and Chubay, Sofia",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Rogatin, Vitaliy and Grigoryan, Karina",
+          "place": "5",
+          "points": 8.0
+        },
+        {
+          "couple": "Krupovlyanskiy, Mathew and Neminov, Isabella",
+          "place": "6",
+          "points": 6.0
+        },
+        {
+          "couple": "Brown, Cassius and Sinelnikov, Maya",
+          "place": "7",
+          "points": 5.0
+        },
+        {
+          "couple": "Starodubov, Peter and Sinelnikov, Natalya",
+          "place": "8",
+          "points": 5.0
+        }
+      ]
+    }
+  ]
+}

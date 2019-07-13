@@ -2,6 +2,7 @@
   "comp name": "Philadelphia Dancesport Championships",
   "heats": [
     {
+      "number": 1,
       "title": "Professional Rising Star American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
@@ -25,14 +26,14 @@
           "points": 10.0
         },
         {
-          "couple": "Masko, Grey and Masko, Elizabeth",
+          "couple": "Masko, Elizabeth and Masko, Grey",
           "place": "5",
           "points": 8.0
         },
         {
           "couple": "Pozo, Cristian and Pasalano, Devyn",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Negado, Nikko and Giambona, Larisa",
@@ -45,13 +46,14 @@
           "points": 5.0
         },
         {
-          "couple": "Carpenter and Lickona",
+          "couple": "Carpenter, Kevin and Lickona, Monica",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         }
       ]
     },
     {
+      "number": 2,
       "title": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
       "entries": [
         {
@@ -70,7 +72,7 @@
           "points": 6.5
         },
         {
-          "couple": "Levin, Maria and Levin, Ivan",
+          "couple": "Levin, Ivan and Levin, Maria",
           "place": "4",
           "points": 5.0
         },
@@ -82,10 +84,11 @@
       ]
     },
     {
+      "number": 3,
       "title": "Professional Rising Star American Smooth (W/T/F/VW)",
       "entries": [
         {
-          "couple": "Kaliuzhnyi and Barrington",
+          "couple": "Kaliuzhnyi, Vitalii and Barrington, Talia",
           "place": "1",
           "points": 20.0
         },
@@ -112,26 +115,27 @@
         {
           "couple": "Lightner, Christian and Kenney, Kia",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
-          "couple": "DeSouza, Saori and DeSouza, Marcio",
+          "couple": "DeSouza, Marcio and DeSouza, Saori",
           "place": "Semis",
           "points": 3.2
         },
         {
           "couple": "Whitten, Chris and Michaud, Kristyn",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.8
         },
         {
           "couple": "Sovetov, Ivan and Mkrtchian, Valeria",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         }
       ]
     },
     {
+      "number": 4,
       "title": "Professional Rising Star International Latin (C/S/R/PD/J)",
       "entries": [
         {
@@ -162,12 +166,7 @@
         {
           "couple": "Shvetsov, Artur and LinSong, Phoenix",
           "place": "6",
-          "points": 6.0
-        },
-        {
-          "couple": "Coco, Fabio and Harrington, Nicole",
-          "place": "Semis",
-          "points": 2.4
+          "points": 7.0
         },
         {
           "couple": "Fulvi, Daniele and Criscione, Veronica",
@@ -175,18 +174,24 @@
           "points": 5.0
         },
         {
-          "couple": "Netsvetaev and Antonenko",
+          "couple": "Coco, Fabio and Harrington, Nicole",
+          "place": "Semis",
+          "points": 1.4
+        },
+        {
+          "couple": "Netsvetaev, Kirill and Antonenko, Aleksandra",
           "place": "Semis",
           "points": 4.2
         },
         {
-          "couple": "Horv\u00e1th-Kr\u00f3l and Zosin",
+          "couple": "Horv\u00e1th-Kr\u00f3l, Dariusz and Zosin, Alisa",
           "place": "Semis",
-          "points": 2.4
+          "points": 2.2
         }
       ]
     },
     {
+      "number": 5,
       "title": "Open Professional American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
@@ -217,26 +222,27 @@
         {
           "couple": "Azarov, Mykhailo and Makarenko, Tetyana",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Cunningham, Chuck and Elcoro, Evgeniia",
           "place": "Semis",
-          "points": 3.6
-        },
-        {
-          "couple": "Pozo, Cristian and Pasalano, Devyn",
-          "place": "Semis",
-          "points": 4.5
+          "points": 0.3
         },
         {
           "couple": "Shiller, Artem and Ray Shiller, Ginny",
           "place": "Semis",
           "points": 7.5
+        },
+        {
+          "couple": "Pozo, Cristian and Pasalano, Devyn",
+          "place": "Semis",
+          "points": 4.5
         }
       ]
     },
     {
+      "number": 6,
       "title": "Open Professional International Ballroom (W/T/VW/F/Q)",
       "entries": [
         {
@@ -245,7 +251,7 @@
           "points": 20.0
         },
         {
-          "couple": "Begunov and Demidova",
+          "couple": "Begunov, Andrey and Demidova, Anna",
           "place": "2",
           "points": 16.0
         },
@@ -267,25 +273,26 @@
         {
           "couple": "Conte, Riccardo and Filippi, Eleonora",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Anufriiev, Mykhailo and Vietrynska, Anna",
           "place": "7",
-          "points": 5.0
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 7,
       "title": "Open Professional American Smooth (W/T/F/VW)",
       "entries": [
         {
-          "couple": "Tuft, Travis and Tuft, Jaimee",
+          "couple": "Tuft, Jaimee and Tuft, Travis",
           "place": "1",
           "points": 30.0
         },
         {
-          "couple": "Kaliuzhnyi and Barrington",
+          "couple": "Kaliuzhnyi, Vitalii and Barrington, Talia",
           "place": "2",
           "points": 24.0
         },
@@ -300,34 +307,34 @@
           "points": 15.0
         },
         {
-          "couple": "Shapoval and Popovich",
+          "couple": "Shapoval, Sergei and Popovich, Mila",
           "place": "5",
           "points": 12.0
         },
         {
           "couple": "Popov, Vladimir and Marie, Erin",
           "place": "6",
-          "points": 9.0
-        },
-        {
-          "couple": "Clark, Jarrod and Maughan, Angela",
-          "place": "Semis",
-          "points": 3.6
-        },
-        {
-          "couple": "DeSouza, Saori and DeSouza, Marcio",
-          "place": "Semis",
-          "points": 3.6
-        },
-        {
-          "couple": "Mora, Leo and Garced, Christina",
-          "place": "Semis",
-          "points": 3.6
+          "points": 10.5
         },
         {
           "couple": "Lightner, Christian and Kenney, Kia",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
+        },
+        {
+          "couple": "Mora, Leo and Garced, Christina",
+          "place": "Semis",
+          "points": 3.3
+        },
+        {
+          "couple": "Clark, Jarrod and Maughan, Angela",
+          "place": "Semis",
+          "points": 0.9
+        },
+        {
+          "couple": "DeSouza, Marcio and DeSouza, Saori",
+          "place": "Semis",
+          "points": 0.3
         },
         {
           "couple": "Rozenfeld, Evgenii and Shumakher, Maria",
@@ -337,6 +344,7 @@
       ]
     },
     {
+      "number": 8,
       "title": "Open Professional International Latin (C/S/R/PD/J)",
       "entries": [
         {
@@ -360,14 +368,19 @@
           "points": 15.0
         },
         {
-          "couple": "Netsvetaev and Antonenko",
+          "couple": "Netsvetaev, Kirill and Antonenko, Aleksandra",
           "place": "5",
           "points": 12.0
         },
         {
-          "couple": "Osai and Chan",
+          "couple": "Osai, Malachi and Chan, Freda",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
+        },
+        {
+          "couple": "Fulvi, Daniele and Criscione, Veronica",
+          "place": "Semis",
+          "points": 4.8
         },
         {
           "couple": "Chibishev, Jhor and Zhosan, Diana",
@@ -377,25 +390,21 @@
         {
           "couple": "Coco, Fabio and Harrington, Nicole",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.6
         },
         {
-          "couple": "Fulvi, Daniele and Criscione, Veronica",
+          "couple": "Horv\u00e1th-Kr\u00f3l, Dariusz and Zosin, Alisa",
           "place": "Semis",
-          "points": 4.8
-        },
-        {
-          "couple": "Horv\u00e1th-Kr\u00f3l and Zosin",
-          "place": "Semis",
-          "points": 3.6
+          "points": 3.3
         }
       ]
     },
     {
-      "title": "Professional Exhibition",
+      "number": 9,
+      "title": "Professional Open Exhibition",
       "entries": [
         {
-          "couple": "Tuft, Travis and Tuft, Jaimee",
+          "couple": "Tuft, Jaimee and Tuft, Travis",
           "place": "1",
           "points": 20.0
         },
@@ -412,7 +421,7 @@
         {
           "couple": "Zhukovskyi, Nikita and ., Angelina",
           "place": "4",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     }

@@ -2,6 +2,7 @@
   "comp name": "2019 Dancing a la Carte",
   "heats": [
     {
+      "number": 1,
       "title": "Professional Rising Star Latin (CC/S/R/PD/J)",
       "entries": [
         {
@@ -15,7 +16,7 @@
           "points": 8.0
         },
         {
-          "couple": "Hustiuc, Daniel and Li, Jessica",
+          "couple": "Hustiuc and Li",
           "place": "3",
           "points": 6.5
         },
@@ -32,6 +33,7 @@
       ]
     },
     {
+      "number": 2,
       "title": "Professional Rising Star Smooth (W/T/FT/VW)",
       "entries": [
         {
@@ -60,14 +62,14 @@
           "points": 8.0
         },
         {
-          "couple": "Whitten, Chris and Michaud, Kristyn",
+          "couple": "Whitten and Michaud",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Herard, Duncan and Santiago, Christina",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         },
         {
           "couple": "Astashenia, Elena and Astashenia, Yurii",
@@ -77,22 +79,23 @@
         {
           "couple": "Weeks, David and Wilkens, Annie",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.8
         },
         {
           "couple": "McGurn, Rob and Gurry, Laura",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.4
         }
       ]
     },
     {
+      "number": 3,
       "title": "Professional Rising Star Ballroom (W/T/VW/FT/QS)",
       "entries": [
         {
           "couple": "Minaev, Aleksei and Minaeva, Elena",
           "place": "1",
-          "points": 10.0
+          "points": 9.0
         },
         {
           "couple": "Bilozorov, Anton and Filip, Samanta",
@@ -102,11 +105,12 @@
         {
           "couple": "Anufriiev, Mykhailo and Vietrynska, Anna",
           "place": "3",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 4,
       "title": "Professional Rising Star Rhythm (CC/R/SW/B/M)",
       "entries": [
         {
@@ -137,12 +141,12 @@
         {
           "couple": "Ivashchenko, Alex and Ivashchenko, Ashley",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Herard, Duncan and Santiago, Christina",
           "place": "Semis",
-          "points": 2.4
+          "points": 2.2
         },
         {
           "couple": "Jones, Lucas Michael and O'Hara, Alexandra",
@@ -152,6 +156,7 @@
       ]
     },
     {
+      "number": 5,
       "title": "Professional Showcase",
       "entries": [
         {
@@ -182,11 +187,12 @@
         {
           "couple": "Astashenia, Elena and Astashenia, Yurii",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 6,
       "title": "Professional Open Latin (CC/S/R/PD/J)",
       "entries": [
         {
@@ -200,7 +206,7 @@
           "points": 16.0
         },
         {
-          "couple": "Hustiuc, Daniel and Li, Jessica",
+          "couple": "Hustiuc and Li",
           "place": "3",
           "points": 13.0
         },
@@ -217,6 +223,7 @@
       ]
     },
     {
+      "number": 7,
       "title": "Professional Open Smooth (W/T/FT/VW)",
       "entries": [
         {
@@ -247,21 +254,22 @@
         {
           "couple": "Santapaola, Chris and DeView, Rachel",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Herard, Duncan and Santiago, Christina",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.6
         },
         {
           "couple": "McGurn, Rob and Gurry, Laura",
           "place": "Semis",
-          "points": 3.6
+          "points": 1.5
         }
       ]
     },
     {
+      "number": 8,
       "title": "Professional Open Rhythm (CC/R/SW/B/M)",
       "entries": [
         {
@@ -292,7 +300,7 @@
         {
           "couple": "Dawson, Staz and Gonyea, Jacklyn",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Ivashchenko, Alex and Ivashchenko, Ashley",
@@ -302,7 +310,7 @@
         {
           "couple": "Herard, Duncan and Santiago, Christina",
           "place": "Semis",
-          "points": 3.6
+          "points": 1.2
         },
         {
           "couple": "Wright, Harrison and Speer, Catherine",
@@ -312,17 +320,18 @@
         {
           "couple": "Jones, Lucas Michael and O'Hara, Alexandra",
           "place": "Semis",
-          "points": 3.6
+          "points": 1.8
         }
       ]
     },
     {
+      "number": 9,
       "title": "Professional Open Ballroom (W/T/VW/F/Q)",
       "entries": [
         {
           "couple": "Minaev, Aleksei and Minaeva, Elena",
           "place": "1",
-          "points": 20.0
+          "points": 18.0
         },
         {
           "couple": "Anufriiev, Mykhailo and Vietrynska, Anna",
@@ -332,7 +341,7 @@
         {
           "couple": "Chaoulski, Evgueni and Schilling, Sara",
           "place": "3",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     }

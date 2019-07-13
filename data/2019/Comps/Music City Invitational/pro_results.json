@@ -2,22 +2,24 @@
   "comp name": "Music City Invitational",
   "heats": [
     {
-      "title": "Show Dance",
+      "number": 1,
+      "title": "Open Show Dance",
       "entries": [
         {
           "couple": "Ballard, Vincent and Perez, Tania",
           "place": "1",
-          "points": 20.0
+          "points": 15.0
         },
         {
           "couple": "Sanderson, Dan and Hicks, Kristin",
           "place": "2",
-          "points": 10.0
+          "points": 7.0
         }
       ]
     },
     {
-      "title": "International Standard (W/T/Q)",
+      "number": 2,
+      "title": "International Rising Star Standard (W/T/Q)",
       "entries": [
         {
           "couple": "Dawson, Staz and Gonyea, Jacklyn",
@@ -37,21 +39,38 @@
         {
           "couple": "Hoffman, Ian and Houska, Melissa",
           "place": "4",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
-      "title": "Theater Arts (TA)",
+      "number": 3,
+      "title": "Open Theater Arts (TA)",
       "entries": [
         {
-          "couple": "Gonyea, Jacklyn and Dawson, Staz",
+          "couple": "Black, Jamie and Elliott, Samantha",
           "place": "1",
-          "points": 20
+          "points": 20.0
+        },
+        {
+          "couple": "Gore, Gerard and Grohoske, Ellie",
+          "place": "2",
+          "points": 14.0
+        },
+        {
+          "couple": "Dawson, Staz and Gonyea, Jacklyn",
+          "place": "3",
+          "points": 10.0
+        },
+        {
+          "couple": "Thomas, Joel and Barakat, Samantha",
+          "place": "4",
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 5,
       "title": "Open Professional American Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -75,39 +94,39 @@
           "points": 15.0
         },
         {
-          "couple": "Madanchi, Christa and Madanchi, Carl",
+          "couple": "Madanchi, Carl and Madanchi, Christa",
           "place": "5",
           "points": 12.0
         },
         {
           "couple": "Stockton, Andrew and Smith, Rachel",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Lipford, Stephen and Collins, Shayne",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         },
         {
           "couple": "Gore, Gerard and Barakat, Samantha",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         },
         {
           "couple": "Cunningham, Ben and Miller, Rachel",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.9
         },
         {
           "couple": "Whitmer, Daniel and Treto, Laura",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         },
         {
           "couple": "Jackson, Ryan and Logan, Emily",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         },
         {
           "couple": "Bryant, Jeffery and Bracken, Rachel",
@@ -117,6 +136,7 @@
       ]
     },
     {
+      "number": 6,
       "title": "Open Professional American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
@@ -147,7 +167,7 @@
         {
           "couple": "Belbin, Andrew and Scully, Erin",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Winslow, Ryan and Elkin-Crenshaw, Milly",
@@ -162,7 +182,7 @@
         {
           "couple": "Hawkins, Aaron and Herald, Amanda",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         }
       ]
     }

@@ -2,7 +2,8 @@
   "comp name": "Eastern United States DanceSport Championship",
   "heats": [
     {
-      "title": "EUSDC Professional Exhibition",
+      "number": 1,
+      "title": "EUSDC Professional Open Exhibition",
       "entries": [
         {
           "couple": "Batih, Nazar and Cantley, Mariko",
@@ -22,11 +23,12 @@
         {
           "couple": "Golubev, Valerii and Golubeva, Margarita",
           "place": "4",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 2,
       "title": "EUSDC Pro Rising Star American Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -50,29 +52,29 @@
           "points": 10.0
         },
         {
-          "couple": "Kenner, Ryan and Kenner, Laura",
+          "couple": "Kenner, Laura and Kenner, Ryan",
           "place": "5",
           "points": 8.0
         },
         {
           "couple": "Pickering, Martin and Botes, Natalie",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "McGurn, Rob and Gurry, Laura",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.4
         },
         {
           "couple": "Santapaola, Christopher and DeView, Rachel",
           "place": "Semis",
-          "points": 2.4
+          "points": 1.8
         },
         {
           "couple": "Scalzi, Anthony and Gilday, Zhenia",
           "place": "Semis",
-          "points": 2.4
+          "points": 1.6
         },
         {
           "couple": "Serbulenco, Vladimir and Strancaric, Ivana",
@@ -82,6 +84,7 @@
       ]
     },
     {
+      "number": 3,
       "title": "EUSDC Pro Rising Star Int'l Latin (C/S/R/PD/J)",
       "entries": [
         {
@@ -112,6 +115,7 @@
       ]
     },
     {
+      "number": 4,
       "title": "EUSDC Pro Open American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
@@ -140,9 +144,9 @@
           "points": 12.0
         },
         {
-          "couple": "Shiller, Ginny Ray and Shiller, Artem",
+          "couple": "Shiller, Artem and Shiller, Ginny Ray",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Azarov, Mykhailo and Makarenko, Tetyana",
@@ -152,22 +156,22 @@
         {
           "couple": "Divovic, Muhidin and Novak, Ashley",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         },
         {
           "couple": "Golubev, Valerii and Golubeva, Margarita",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.6
         },
         {
           "couple": "Jones, Lucas and O'Hara, Alexandra",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         },
         {
           "couple": "Martinez, Theo and Wain, Kelly",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         },
         {
           "couple": "Sovetov, Ivan and Mkrtchian, Valeria",
@@ -177,6 +181,7 @@
       ]
     },
     {
+      "number": 5,
       "title": "EUSDC Pro Open Int'l Ballroom (W/T/VW/F/Q)",
       "entries": [
         {
@@ -207,17 +212,18 @@
         {
           "couple": "Anufriiev, Mykhailo and Vietrynska, Anna",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
-      "title": "EUSDC Professional Cabaret",
+      "number": 6,
+      "title": "EUSDC Professional Open Cabaret",
       "entries": [
         {
           "couple": "Azarov, Mykhailo and Makarenko, Tetyana",
           "place": "1",
-          "points": 20.0
+          "points": 18.0
         },
         {
           "couple": "Golubev, Valerii and Golubeva, Margarita",
@@ -227,11 +233,12 @@
         {
           "couple": "Sovetov, Ivan and Mkrtchian, Valeria",
           "place": "3",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 7,
       "title": "EUSDC Pro Rising Star American Rhythm (C/R/SW/B/M)",
       "entries": [
         {
@@ -260,14 +267,14 @@
           "points": 8.0
         },
         {
-          "couple": "Shiller, Ginny Ray and Shiller, Artem",
+          "couple": "Shiller, Artem and Shiller, Ginny Ray",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Azarov, Mykhailo and Makarenko, Tetyana",
           "place": "7",
-          "points": 5.0
+          "points": 6.0
         },
         {
           "couple": "Germain, Zachary and Caskie, Jenna",
@@ -282,12 +289,12 @@
         {
           "couple": "Jones, Lucas and O'Hara, Alexandra",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         },
         {
           "couple": "Santapaola, Christopher and DeView, Rachel",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.4
         },
         {
           "couple": "Burke, Daniel and Dragasevic, Ivana",
@@ -297,11 +304,12 @@
         {
           "couple": "Wright, Harrison and Speer, Catherine",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         }
       ]
     },
     {
+      "number": 8,
       "title": "EUSDC Pro Rising Star Int'l Ballroom (W/T/VW/F/Q)",
       "entries": [
         {
@@ -332,6 +340,7 @@
       ]
     },
     {
+      "number": 9,
       "title": "EUSDC Pro Open Int'l Latin (C/S/R/PD/J)",
       "entries": [
         {
@@ -362,7 +371,7 @@
         {
           "couple": "Gelashvili, Levan and Kolman, Lily",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Coco, Fabio and Harrington, Nicole",
@@ -382,6 +391,7 @@
       ]
     },
     {
+      "number": 10,
       "title": "EUSDC Pro Open American Smooth (W/T/F/VW)",
       "entries": [
         {
@@ -412,7 +422,7 @@
         {
           "couple": "McGurn, Rob and Gurry, Laura",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     }

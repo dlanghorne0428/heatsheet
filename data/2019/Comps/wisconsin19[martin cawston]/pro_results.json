@@ -2,7 +2,8 @@
   "comp name": "wisconsin19[martin cawston]",
   "heats": [
     {
-      "title": "Professional Rising Star Rhythm  (C/R/SW/B/M)\r",
+      "number": 1,
+      "title": "Professional Rising Star Rhythm  (C/R/SW/B/M)",
       "entries": [
         {
           "couple": "Makhaye, Senzo and Strojek, Agnieszka",
@@ -15,7 +16,7 @@
           "points": 16.0
         },
         {
-          "couple": "Shiller, Ginny and Shiller, Artem",
+          "couple": "Shiller, Artem and Shiller, Ginny",
           "place": "3",
           "points": 13.0
         },
@@ -32,12 +33,12 @@
         {
           "couple": "Rodriguez, Nicolas and Struk, Paulina",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Donelan, Dustin and Anderson, Georgietta",
           "place": "Semis",
-          "points": 2.4
+          "points": 1.8
         },
         {
           "couple": "Evans, Enoch and Gordeeva, Anastasia",
@@ -47,32 +48,33 @@
         {
           "couple": "Treu, Kyle and Treu, Madelaine",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.6
         },
         {
           "couple": "Wysocky, Patrick and Beetz, Alexis",
           "place": "Semis",
-          "points": 2.4
+          "points": 2.2
         },
         {
           "couple": "Rassmusen, Matt and Daigle, Kayla",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         },
         {
           "couple": "Lachman, Alec and Zapiain, Sarah",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         }
       ]
     },
     {
-      "title": "Professional Rising Star Ballroom (W/T/VW/FT/QS)\r",
+      "number": 2,
+      "title": "Professional Rising Star Ballroom (W/T/VW/FT/QS)",
       "entries": [
         {
           "couple": "Izyumov, Sergey and Zaver, Oksana",
           "place": "1",
-          "points": 10.0
+          "points": 9.0
         },
         {
           "couple": "Minaev, Aleksei and Minaeva, Elena",
@@ -80,14 +82,15 @@
           "points": 6.0
         },
         {
-          "couple": "Levin, Maria and Levin, Ivan",
+          "couple": "Levin, Ivan and Levin, Maria",
           "place": "3",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
-      "title": "Professional Rising Star Smooth (W/T/FT/VW)\r",
+      "number": 3,
+      "title": "Professional Rising Star Smooth (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Kaliuzhnyi, Vatalii and Barrington, Talia",
@@ -95,7 +98,7 @@
           "points": 30.0
         },
         {
-          "couple": "McCann, Stephen and McCann, Elisa",
+          "couple": "McCann, Elisa and McCann, Stephen",
           "place": "2",
           "points": 24.0
         },
@@ -117,37 +120,37 @@
         {
           "couple": "Bonev, Aleksandar and ., Olga",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Pickering, Martin and Botes, Natalie",
           "place": "Semis",
-          "points": 3.6
+          "points": 4.5
         },
         {
           "couple": "Donelan, Dustin and Anderson, Georgietta",
           "place": "Semis",
-          "points": 3.6
+          "points": 4.5
         },
         {
           "couple": "Wayne, Christopher and Evan, Mallory",
           "place": "Semis",
-          "points": 3.6
+          "points": 4.5
         },
         {
           "couple": "Welch, Benjamin and Lyons, Rae",
           "place": "Semis",
-          "points": 3.6
+          "points": 4.5
         },
         {
           "couple": "Romero, Brandon and Tomasini, Anna",
           "place": "Semis",
-          "points": 3.6
+          "points": 4.5
         },
         {
           "couple": "Leonard and Mirmirzalieva",
           "place": "Semis",
-          "points": 3.6
+          "points": 4.5
         },
         {
           "couple": "Cagelski, Rane and Larson, Sarah",
@@ -177,35 +180,38 @@
       ]
     },
     {
-      "title": "Professional Cabaret\r",
+      "number": 4,
+      "title": "Professional Open Cabaret",
       "entries": [
         {
-          "couple": "Jensen, Shannon and Jensen, Shane",
+          "couple": "Jensen, Shane and Jensen, Shannon",
           "place": "1",
-          "points": 20.0
+          "points": 15.0
         },
         {
           "couple": "Izyumov, Sergey and Zaver, Oksana",
           "place": "2",
-          "points": 10.0
+          "points": 7.0
         }
       ]
     },
     {
-      "title": "Professional Rising Star Latin (C/S/R/PD/J)\r",
+      "number": 5,
+      "title": "Professional Rising Star Latin (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Minaev, Aleksei and Minaeva, Elena",
           "place": "1",
-          "points": 10
+          "points": 6.0
         }
       ]
     },
     {
-      "title": "Professional Open Rhythm Championship (C/R/SW/B/M)\r",
+      "number": 6,
+      "title": "Professional Open Rhythm Championship (C/R/SW/B/M)",
       "entries": [
         {
-          "couple": "Jensen, Shannon and Jensen, Shane",
+          "couple": "Jensen, Shane and Jensen, Shannon",
           "place": "1",
           "points": 30.0
         },
@@ -230,19 +236,19 @@
           "points": 12.0
         },
         {
-          "couple": "Shiller, Ginny and Shiller, Artem",
+          "couple": "Shiller, Artem and Shiller, Ginny",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Donelan, Dustin and Anderson, Georgietta",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.6
         },
         {
           "couple": "Evans, Enoch and Gordeeva, Anastasia",
           "place": "Semis",
-          "points": 3.6
+          "points": 1.8
         },
         {
           "couple": "Chen, Jonathan and Simanekova, Juanita",
@@ -252,7 +258,8 @@
       ]
     },
     {
-      "title": "Professional Open Ballroom Championship (W/T/VW/FT/QS)\r",
+      "number": 7,
+      "title": "Professional Open Ballroom Championship (W/T/VW/FT/QS)",
       "entries": [
         {
           "couple": "Di Brino, Stefano and Zubrowska, Bianka",
@@ -270,14 +277,15 @@
           "points": 10.0
         },
         {
-          "couple": "Levin, Maria and Levin, Ivan",
+          "couple": "Levin, Ivan and Levin, Maria",
           "place": "4",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
-      "title": "Professional Open Smooth Championship (W/T/FT/VW)\r",
+      "number": 8,
+      "title": "Professional Open Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
           "couple": "Afonkin, Igor and Anderson, Meghan",
@@ -290,7 +298,7 @@
           "points": 24.0
         },
         {
-          "couple": "McCann, Stephen and McCann, Elisa",
+          "couple": "McCann, Elisa and McCann, Stephen",
           "place": "3",
           "points": 19.5
         },
@@ -307,12 +315,12 @@
         {
           "couple": "Morth, Jay and Trinidad, Samantha",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Cagelski, Rane and Larson, Sarah",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         },
         {
           "couple": "Pickering, Martin and Botes, Natalie",
@@ -322,7 +330,7 @@
         {
           "couple": "Donelan, Dustin and Anderson, Georgietta",
           "place": "Semis",
-          "points": 3.6
+          "points": 1.2
         },
         {
           "couple": "Wayne, Christopher and Evan, Mallory",
@@ -332,17 +340,18 @@
         {
           "couple": "Welch, Benjamin and Lyons, Rae",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         },
         {
           "couple": "Leonard and Mirmirzalieva",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.3
         }
       ]
     },
     {
-      "title": "Professional Open Latin Championship (C/S/R/PD/J)\r",
+      "number": 9,
+      "title": "Professional Open Latin Championship (C/S/R/PD/J)",
       "entries": [
         {
           "couple": "Tarnavskyy, Artur and Danilova, Anastasia",
@@ -362,7 +371,7 @@
         {
           "couple": "Minaev, Aleksei and Minaeva, Elena",
           "place": "4",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     }

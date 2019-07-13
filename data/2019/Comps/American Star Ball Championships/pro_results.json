@@ -2,6 +2,7 @@
   "comp name": "American Star Ball Championships",
   "heats": [
     {
+      "number": 1,
       "title": "Professional Open Cabaret/Showdance",
       "entries": [
         {
@@ -22,11 +23,12 @@
         {
           "couple": "Antonelli, Vincent and Falciano, Stephanie",
           "place": "4",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 2,
       "title": "Professional Rising Star Rhythm (CC/R/SW/B/M)",
       "entries": [
         {
@@ -57,7 +59,7 @@
         {
           "couple": "Reyes, Felix and Perry-Tran, Nghi",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Pozo, Cristian and Pasalano, Devyn-Nicole",
@@ -72,17 +74,18 @@
         {
           "couple": "Flores, Jayson and Bradley, Krystal",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         }
       ]
     },
     {
+      "number": 3,
       "title": "Professional Open Ballroom Championship (W/T/VW/FT/QS)",
       "entries": [
         {
           "couple": "Pappacena, Emanuele and Lazzari, Francesca",
           "place": "1",
-          "points": 20.0
+          "points": 18.0
         },
         {
           "couple": "Stoynov, Simeon and Stoynova, Kora",
@@ -92,11 +95,12 @@
         {
           "couple": "Anufriiev, Mykhailo and Vietrynska, Anna",
           "place": "3",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 4,
       "title": "Professional Open Latin Championship (CC/S/R/PD/J)",
       "entries": [
         {
@@ -127,7 +131,7 @@
         {
           "couple": "Stoynov, Simeon and Stoynova, Kora",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Nabiullin, Alexandr and Ryabova, Valeriya",
@@ -142,11 +146,12 @@
         {
           "couple": "Horv\u00e1th-Kr\u00f3l, Dariusz and Zosin, Alisa",
           "place": "Semis",
-          "points": 3.6
+          "points": 2.7
         }
       ]
     },
     {
+      "number": 5,
       "title": "Professional Rising Star Smooth (W/T/FT/VW)",
       "entries": [
         {
@@ -177,6 +182,7 @@
       ]
     },
     {
+      "number": 6,
       "title": "Professional Rising Star Latin (CC/S/R/PD/J)",
       "entries": [
         {
@@ -207,11 +213,12 @@
         {
           "couple": "Pavlovic, Nenad and Kogan, Vivienne",
           "place": "6",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 7,
       "title": "Professional Open Smooth Championship (W/T/FT/VW)",
       "entries": [
         {
@@ -232,17 +239,18 @@
         {
           "couple": "Anufriiev and Vietrynska",
           "place": "4",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 8,
       "title": "Professional Rising Star Ballroom (W/T/VW/FT/QS)",
       "entries": [
         {
           "couple": "Balestra, Krizia and Balestra, Luca",
           "place": "1",
-          "points": 10.0
+          "points": 9.0
         },
         {
           "couple": "Anufriiev, Mykhailo and Vietrynska, Anna",
@@ -252,11 +260,12 @@
         {
           "couple": "Esposito, Vincenzo and Matsubara, Yo",
           "place": "3",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 9,
       "title": "Professional Open Rhythm Championship (CC/R/SW/B/M)",
       "entries": [
         {
@@ -287,7 +296,7 @@
         {
           "couple": "Pozo and Pasalano",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     }

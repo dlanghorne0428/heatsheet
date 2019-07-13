@@ -2,6 +2,7 @@
   "comp name": "Washington Open Dancesport Competition",
   "heats": [
     {
+      "number": 1,
       "title": "Open Professional Ballroom  (W/T/VW/FT/QS)",
       "entries": [
         {
@@ -32,11 +33,12 @@
         {
           "couple": "Berkey, Kent and Ota, Yuko",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 2,
       "title": "Open Professional Rhythm  (CC/R/SW/BOL/MA)",
       "entries": [
         {
@@ -67,26 +69,28 @@
         {
           "couple": "Leone, Paul and Spencer, Rachael",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
-      "title": "Professional Exhibition Showdance",
+      "number": 3,
+      "title": "Open Professional Exhibition Showdance",
       "entries": [
         {
-          "couple": ",, Ksusha and Kudashev, Ivan",
+          "couple": "Kudashev and Sokolova",
           "place": "1",
-          "points": 20.0
+          "points": 15.0
         },
         {
           "couple": "Roa, Edwin and Jimenez, Lorin",
           "place": "2",
-          "points": 10.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 4,
       "title": "Open Professional  Smooth (W/T/FT/VW)",
       "entries": [
         {
@@ -117,7 +121,7 @@
         {
           "couple": "Kyle, Roland and Ruffell, Lexi",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Davis, Steven and Davidson, Elizabeth",
@@ -125,27 +129,28 @@
           "points": 5.4
         },
         {
-          "couple": "DeSouza, Saori and DeSouza, Marcio",
+          "couple": "DeSouza, Marcio and DeSouza, Saori",
           "place": "Semis",
           "points": 3.6
         },
         {
           "couple": "Seigler, Justin and Petersen, Lynda",
           "place": "Semis",
-          "points": 3.6
+          "points": 2.7
         },
         {
           "couple": "Serbulenco, Vladimir and Strancaric, Ivana",
           "place": "Semis",
-          "points": 3.6
+          "points": 3.3
         }
       ]
     },
     {
+      "number": 5,
       "title": "Open Professional  Latin  (CC/S/R/PD/J)",
       "entries": [
         {
-          "couple": ",, Ksusha and Kudashev, Ivan",
+          "couple": "Kudashev and Sokolova",
           "place": "1",
           "points": 20.0
         },
@@ -172,12 +177,12 @@
         {
           "couple": "Gelashvili, Levan and Kolman, Lily",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Chibishev, Ihor and Zhosan, Diana",
           "place": "7",
-          "points": 5.0
+          "points": 6.0
         }
       ]
     }

@@ -2,6 +2,7 @@
   "comp name": "2019 Platinum DanceSport Classic",
   "heats": [
     {
+      "number": 1,
       "title": "Open Professional Rhythm (C/R/Sw/B/M)",
       "entries": [
         {
@@ -32,21 +33,22 @@
         {
           "couple": "Borger, Israel and Cardenas, Natalie",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Katona, Zsolt and Potys, Timea",
           "place": "Semis",
-          "points": 3.6
+          "points": 3.3
         },
         {
           "couple": "Napoleon and Grob",
           "place": "Semis",
-          "points": 3.6
+          "points": 3.0
         }
       ]
     },
     {
+      "number": 2,
       "title": "Open Professional Standard (W/T/V/F/Q)",
       "entries": [
         {
@@ -77,31 +79,33 @@
         {
           "couple": "Wlodzimierz and Koltuniuk",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Telha, Oleg and Brecker, Michelle",
           "place": "7",
-          "points": 5.0
+          "points": 6.0
         }
       ]
     },
     {
-      "title": "Professional Show Dance",
+      "number": 3,
+      "title": "Open Professional Show Dance",
       "entries": [
         {
           "couple": "Kudashov, Ivan and ., Ksusha",
           "place": "1",
-          "points": 20.0
+          "points": 15.0
         },
         {
           "couple": "Puzhevich and Puzhevich",
           "place": "2",
-          "points": 10.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 4,
       "title": "Open Professional Smooth (W/T/F/V)",
       "entries": [
         {
@@ -132,11 +136,12 @@
         {
           "couple": "Stowell, Aaron and Hofreiter, Brie",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 5,
       "title": "Open Professional Latin (C/S/R/P/J)",
       "entries": [
         {
@@ -155,6 +160,11 @@
           "points": 13.0
         },
         {
+          "couple": "Shipilov and Mitina",
+          "place": "3",
+          "points": 13.0
+        },
+        {
           "couple": "Alekseev, Aleksei and Derevleva, Ekaterina",
           "place": "4",
           "points": 10.0
@@ -167,16 +177,17 @@
         {
           "couple": "Katona, Zsolt and Potys, Timea",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
-          "couple": "Caradese, Adriano and Hurley, Lauren",
+          "couple": "Camardese and Hurley",
           "place": "7",
-          "points": 5.0
+          "points": 6.0
         }
       ]
     },
     {
+      "number": 6,
       "title": "Professional Rising Star Rhythm (C/R/Sw/B/M)",
       "entries": [
         {
@@ -207,26 +218,27 @@
         {
           "couple": "Borger, Israel and Cardenas, Natalie",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Katona, Zsolt and Potys, Timea",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         },
         {
           "couple": "Napoleon, Hugues and Grob, Ashley",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         },
         {
           "couple": "Kumar, Ramphis and Levina, Jenny",
           "place": "Semis",
-          "points": 2.4
+          "points": 1.4
         }
       ]
     },
     {
+      "number": 7,
       "title": "Professional Rising Star Standard (W/T/V/F/Q)",
       "entries": [
         {
@@ -257,6 +269,7 @@
       ]
     },
     {
+      "number": 8,
       "title": "Professional Rising Star Smooth (W/T/F/V)",
       "entries": [
         {
@@ -287,10 +300,16 @@
       ]
     },
     {
+      "number": 9,
       "title": "Professional Rising Star Latin (C/S/R/P/J)",
       "entries": [
         {
           "couple": "Shiplov, Aleksei and Mitina, Julia",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Shipilov and Mitina",
           "place": "1",
           "points": 10.0
         },
@@ -305,9 +324,9 @@
           "points": 5.0
         },
         {
-          "couple": "Caradese, Adriano and Hurley, Lauren",
+          "couple": "Camardese and Hurley",
           "place": "4",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     }

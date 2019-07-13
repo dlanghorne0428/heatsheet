@@ -2,6 +2,7 @@
   "comp name": "Nashville Starz Dance Spectacular",
   "heats": [
     {
+      "number": 1,
       "title": "Professional Rising Star Amer. Rhythm (CC,R,SW,B,M)",
       "entries": [
         {
@@ -32,21 +33,22 @@
         {
           "couple": "Evans, Enoch and Gordeeva, Anastasia",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         },
         {
           "couple": "Parks, Anthony and Blunt, Sophia",
           "place": "Semis",
-          "points": 2.4
+          "points": 2.0
         },
         {
           "couple": "Bullard, Jacody and Reyes, Jordyn",
           "place": "Semis",
-          "points": 2.4
+          "points": 1.4
         }
       ]
     },
     {
+      "number": 2,
       "title": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
       "entries": [
         {
@@ -77,12 +79,7 @@
         {
           "couple": "Greer, Aaron and Greer, Victoria",
           "place": "6",
-          "points": 6.0
-        },
-        {
-          "couple": "Parks, Anthony and Blunt, Sophia",
-          "place": "Semis",
-          "points": 2.4
+          "points": 7.0
         },
         {
           "couple": "Clark, Gage and Nicole, Randi",
@@ -92,27 +89,33 @@
         {
           "couple": "McKerlie, Mike and Drake, Anya",
           "place": "Semis",
-          "points": 2.4
+          "points": 0.2
         },
         {
           "couple": "Perpich, Brandon and Perpich, Kristen",
           "place": "Semis",
-          "points": 2.4
+          "points": 2.2
         },
         {
           "couple": "Travis, Todd and Whitesell, Leslie",
           "place": "Semis",
-          "points": 2.4
+          "points": 1.2
+        },
+        {
+          "couple": "Parks, Anthony and Blunt, Sophia",
+          "place": "Semis",
+          "points": 0.2
         }
       ]
     },
     {
+      "number": 3,
       "title": "Professional Rising Star Int'l Ballroom (W,T,VW,F,Q)",
       "entries": [
         {
           "couple": "Goncharov, Dymytrii and Lutsenko, Tatyana",
           "place": "1",
-          "points": 10.0
+          "points": 9.0
         },
         {
           "couple": "Davis, Brogen and Davis, Katherine",
@@ -122,11 +125,12 @@
         {
           "couple": "Dudin, Danila and Zhigulskaya, Varvara",
           "place": "3",
-          "points": 3.0
+          "points": 3.5
         }
       ]
     },
     {
+      "number": 4,
       "title": "Professional Rising Star Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
@@ -157,6 +161,7 @@
       ]
     },
     {
+      "number": 5,
       "title": "Professional Open Int'l Ballroom (W,T,VW,F,Q)",
       "entries": [
         {
@@ -177,11 +182,12 @@
         {
           "couple": "Dudin, Danila and Zhigulskaya, Varvara",
           "place": "4",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     },
     {
+      "number": 6,
       "title": "Professional Open Amer. Rhythm (CC,R,SW,B,M)",
       "entries": [
         {
@@ -212,21 +218,22 @@
         {
           "couple": "Evans, Enoch and Gordeeva, Anastasia",
           "place": "6",
-          "points": 9.0
+          "points": 10.5
         },
         {
           "couple": "Parks, Anthony and Blunt, Sophia",
           "place": "Semis",
-          "points": 3.6
+          "points": 0.6
         },
         {
           "couple": "Bullard, Jacody and Reyes, Jordyn",
           "place": "Semis",
-          "points": 3.6
+          "points": 1.8
         }
       ]
     },
     {
+      "number": 7,
       "title": "Professional Open Amer. Smooth (W,T,F,VW)",
       "entries": [
         {
@@ -257,12 +264,7 @@
         {
           "couple": "Greer, Aaron and Greer, Victoria",
           "place": "6",
-          "points": 9.0
-        },
-        {
-          "couple": "Parks, Anthony and Blunt, Sophia",
-          "place": "Semis",
-          "points": 3.6
+          "points": 10.5
         },
         {
           "couple": "Clark, Gage and Nicole, Randi",
@@ -272,16 +274,22 @@
         {
           "couple": "Perpich, Brandon and Perpich, Kristen",
           "place": "Semis",
-          "points": 3.6
+          "points": 1.8
         },
         {
           "couple": "Travis, Todd and Whitesell, Leslie",
           "place": "Semis",
-          "points": 3.6
+          "points": 2.4
+        },
+        {
+          "couple": "Parks, Anthony and Blunt, Sophia",
+          "place": "Semis",
+          "points": 0.3
         }
       ]
     },
     {
+      "number": 8,
       "title": "Professional Open Int'l Latin (CC,S,R,PD,J)",
       "entries": [
         {
@@ -312,7 +320,7 @@
         {
           "couple": "Kora, Iurii and Hryn, Alisa",
           "place": "6",
-          "points": 6.0
+          "points": 7.0
         }
       ]
     }

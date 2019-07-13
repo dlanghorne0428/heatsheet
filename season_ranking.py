@@ -5,18 +5,18 @@ from operator import itemgetter
 from comp_results_file import Comp_Results_File
 
 
-def event_level(e):
-    '''
-    This routine determines the level (Open, Rising Star, or Novice)
-    from the title string. This only support Professional Event Categories.
-    '''
-    if "Rising Star" in e:
-        level = "Rising Star"
-    elif "Novice" in e:
-        level = "Novice"
-    else:  # open is the default
-        level = "Open"
-    return level
+#def event_level(e):
+    #'''
+    #This routine determines the level (Open, Rising Star, or Novice)
+    #from the title string. This only support Professional Event Categories.
+    #'''
+    #if "Rising Star" in e:
+        #level = "Rising Star"
+    #elif "Novice" in e:
+        #level = "Novice"
+    #else:  # open is the default
+        #level = "Open"
+    #return level
 
 
 def get_last_name(couple_names):
@@ -41,8 +41,6 @@ class RankingDataFile():
     
     It is implemented as a JSON file, containing a list of couples, 
     their results at each comp, their total points and their average points.
-    
-    #TODO: support adding new couples
     '''    
     
     def __init__(self, filename):
@@ -63,11 +61,24 @@ class RankingDataFile():
         '''
         couple = self.info[index]
         # make sure this is a new result
-        if result not in couple["results"]:
-            couple["results"].append(result)
-            couple["total_pts"] += result["points"]
-            couple["total_pts"] = round(couple["total_pts"], 2)
-            couple["avg_pts"] = round(couple["total_pts"] / len(couple["results"]), 2)  
+        if result in couple["results"]:
+            pass
+        else:
+            for r in couple["results"]:
+                if r["comp_name"] == result["comp_name"]:
+                    if r["info"] == result["info"]:
+                        r["place"] = result["place"]
+                        old_points = r["points"]
+                        r["points"] = result["points"]
+                        couple["total_pts"] += (r["points"] - old_points)
+                        couple["total_pts"] = round(couple["total_pts"], 2)
+                        couple["avg_pts"] = round(couple["total_pts"] / len(couple["results"]), 2)   
+                        break
+            else:  # new result    
+                couple["results"].append(result)
+                couple["total_pts"] += result["points"]
+                couple["total_pts"] = round(couple["total_pts"], 2)
+                couple["avg_pts"] = round(couple["total_pts"] / len(couple["results"]), 2)  
             
           
     def delete_all_results_from_couple(self, index):

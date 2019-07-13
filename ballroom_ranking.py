@@ -73,7 +73,7 @@ class AppFrame(wx.Frame):
 
 
         # Use a ListCtrl widget for the report information
-        self.list_ctrl = wx.ListCtrl(pnl, wx.ID_ANY, pos = (10,125), size=(580, 400),
+        self.list_ctrl = wx.ListCtrl(pnl, wx.ID_ANY, pos = (10,125), size=(580, 520),
                                      style=wx.LC_REPORT | wx.LC_HRULES | wx.LC_VRULES)
 
         # create the columns for the report
@@ -109,18 +109,19 @@ class AppFrame(wx.Frame):
         # Use a ListCtrl widget for the heat results
         st_heat_results = wx.StaticText(pnl, label="Heat Results", pos=(770, 185))
         st_heat_results.SetFont(font)        
-        self.heat_list_ctrl = wx.ListCtrl(pnl, wx.ID_ANY, pos = (640,215), size=(360, 310),
+        self.heat_list_ctrl = wx.ListCtrl(pnl, wx.ID_ANY, pos = (640,215), size=(416, 430),
                                           style=wx.LC_REPORT | wx.LC_HRULES | wx.LC_VRULES)           
         self.heat_list_ctrl.AppendColumn("Couple", format=wx.LIST_FORMAT_LEFT, width=288)
-        self.heat_list_ctrl.AppendColumn("Place", format=wx.LIST_FORMAT_CENTER, width=72) 
+        self.heat_list_ctrl.AppendColumn("Place", format=wx.LIST_FORMAT_CENTER, width=64) 
+        self.heat_list_ctrl.AppendColumn("Points", format=wx.LIST_FORMAT_CENTER, width=64) 
 
         # Creata a button to add the heat results to the database
-        self.butt_add_rslt = wx.Button(pnl, label="Add Results to DB", pos=(760, 530))
-        self.Bind(wx.EVT_BUTTON, self.OnResultCLickOrTimer, self.butt_add_rslt)    
+        self.butt_add_rslt = wx.Button(pnl, label="Add Results to DB", pos=(760, 650))
+        self.Bind(wx.EVT_BUTTON, self.OnResultClickOrTimer, self.butt_add_rslt)    
         
         # create a timer, calls the same method as the "add result" button
         self.timer = wx.Timer(self)
-        self.Bind(wx.EVT_TIMER, self.OnResultCLickOrTimer, self.timer)          
+        self.Bind(wx.EVT_TIMER, self.OnResultClickOrTimer, self.timer)          
 
         # create a menu bar
         self.makeMenuBar()
@@ -351,6 +352,7 @@ class AppFrame(wx.Frame):
         for e in entry_list:
             entry_item = [e["couple"]]
             entry_item.append(e["place"])
+            entry_item.append(e["points"])
             self.heat_list_ctrl.Append(entry_item)
 
 
@@ -466,16 +468,7 @@ class AppFrame(wx.Frame):
         
     
     def Matching_Heat(self, result, heat_title):
-        if self.current_db_index == 0:  # pro heat
-            couple_style_index = self.styles.GetSelection()
-            heat_style_index = self.GetStyleFromHeatTitle(heat_title, prompt=False)
-            heat_level = pro_heat_level(heat_title)
-            if couple_style_index == heat_style_index and pro_heat_level(result["level"]) == heat_level:
-                return True
-            else:
-                return False
-        else:  # non-pro heat
-            return result["info"] == heat_title
+        return result["info"] == heat_title
         
         
     def Stop_Couple_History(self):
@@ -525,11 +518,7 @@ class AppFrame(wx.Frame):
         '''
         result = dict()
         result["comp_name"] = self.comp_name.GetValue()
-        if self.current_db_index == 0:
-            #TODO: For 2020, save the title for pro heat levels as well. 
-            result["level"] = pro_heat_level(title)
-        else:
-            result["info"] = title
+        result["info"] = title
         result["place"] = entry["place"]
         result["points"] = entry["points"]  
         return result
@@ -708,7 +697,7 @@ class AppFrame(wx.Frame):
             md.ShowModal()   
 
 
-    def OnResultCLickOrTimer(self, event):
+    def OnResultClickOrTimer(self, event):
         '''
         This method handles the button clicks or timer events associated with the Comp Results.
         There are three states associated with the button:
@@ -766,7 +755,6 @@ class AppFrame(wx.Frame):
             # if automated, start timer to simulate mouse click
             if self.automation:
                 self.timer.StartOnce(5)
-
 
 
     def OnFind(self, event):
@@ -1013,6 +1001,6 @@ if __name__ == '__main__':
     # When this module is run (not imported) then create the app, the
     # frame, show it, and start the event loop.
     app = wx.App()
-    frm = AppFrame(None, title='Ballroom Competition Ranking System', size=(1024, 600))
+    frm = AppFrame(None, title='Ballroom Competition Ranking System', size=(1080, 720))
     frm.Show()
     app.MainLoop()
