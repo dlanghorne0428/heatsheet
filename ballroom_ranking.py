@@ -468,17 +468,7 @@ class AppFrame(wx.Frame):
         
     
     def Matching_Heat(self, result, heat_title):
-        if self.current_db_index == 0:  # pro heat
-            #return result["level"] in heat_title
-            couple_style_index = self.styles.GetSelection()
-            heat_style_index = self.GetStyleFromHeatTitle(heat_title, prompt=False)
-            #heat_level = pro_heat_level(heat_title)
-            if couple_style_index == heat_style_index and result["level"] in heat_title:
-                return True
-            else:
-                return False
-        else:  # non-pro heat
-            return result["info"] == heat_title
+        return result["info"] == heat_title
         
         
     def Stop_Couple_History(self):
@@ -528,12 +518,7 @@ class AppFrame(wx.Frame):
         '''
         result = dict()
         result["comp_name"] = self.comp_name.GetValue()
-        if self.current_db_index == 0:
-            #TODO: For 2020, save the title for pro heat levels as well. 
-            #result["level"] = pro_heat_level(title)
-            result["level"] = title
-        else:
-            result["info"] = title
+        result["info"] = title
         result["place"] = entry["place"]
         result["points"] = entry["points"]  
         return result
@@ -770,7 +755,6 @@ class AppFrame(wx.Frame):
             # if automated, start timer to simulate mouse click
             if self.automation:
                 self.timer.StartOnce(5)
-
 
 
     def OnFind(self, event):
