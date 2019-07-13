@@ -245,6 +245,14 @@ class NdcaPremResults():
                     self.process_scoresheet_for_event(heat_report, e.id)
         if sorted:
             heat_report.sort()
+            
+            
+    def event_id(self, title):
+        for e in self.events:
+            if e.name == title:
+                return e.id
+        else:
+            return None
                 
 
     def open(self, url):
