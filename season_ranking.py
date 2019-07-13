@@ -66,8 +66,7 @@ class RankingDataFile():
         else:
             for r in couple["results"]:
                 if r["comp_name"] == result["comp_name"]:
-                    if r["level"] in result["level"]:
-                        r["level"] = result["level"]
+                    if r["info"] == result["info"]:
                         r["place"] = result["place"]
                         old_points = r["points"]
                         r["points"] = result["points"]
