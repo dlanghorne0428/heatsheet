@@ -10,6 +10,7 @@ class CompOrgResults(Results_Processor):
         ''' Initialize the class.'''
         super().__init__()
         self.comp_id = None
+        self.comp_name = None
         
 
     def open(self, url):
