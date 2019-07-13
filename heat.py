@@ -5,6 +5,8 @@ def is_multi_dance(s):
     right_pos = s.find(')')
     if left_pos == -1 or right_pos == -1:
         return False
+    elif "Mixed" in s or "Solo Star" in s:
+        return False
     elif "/" in s[left_pos:right_pos] or "," in s[left_pos:right_pos]:
         return True
     else:
@@ -26,7 +28,7 @@ def dance_style(s):
         return "Latin"
     elif "Standard" in s or "Ballroom" in s or "Balroom" in s or "Ballrom" in s:
         return "Standard"  
-    elif "Nightclub" in s or "Night Club" in s or "NightClub" in s or "Niteclub" in s or "Caribbean" in s:
+    elif "Nightclub" in s or "Night Club" in s or "NightClub" in s or "Niteclub" in s or "Nite Club" in s or "Caribbean" in s:
         return "Nightclub"
     elif "Country" in s:
         return "Country"
@@ -79,6 +81,12 @@ def non_pro_heat_level(info):
             print("Unknown level for heat", info)
         return 15    
     
+    
+# return a blank set of heat information
+def dummy_heat_info():
+    result = ("-----", "-----", "-----", "-----", "-----", "-----")
+    return result  
+
 
 class Heat():
     def __init__(self):
@@ -132,7 +140,7 @@ class Heat():
         return summary
     
     
-    def populate(self, info_list, dancer_code):
+    def populate(self, info_list, dancer_code=0):
         self.category = info_list[0]
         
         #extract heat number and extra info, if any
@@ -174,12 +182,7 @@ class Heat():
 
     def amateur_heat(self):
         return is_amateur_heat(self.info)
-
    
-    # return a blank set of heat information
-    def dummy_info(self):
-        result = ("-----", "-----", "-----", "-----", "-----", "-----")
-        return result    
     
     # override < operator to sort heats by time. 
     # If times are the same, sort by info. 
