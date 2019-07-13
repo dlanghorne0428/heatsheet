@@ -125,12 +125,25 @@ class Comp_Results_File():
             
         if heat_result.length() > 0:        
             heat_result.sort_entries()
-            self.info["heats"].append(heat_result.heat)        
+            self.info["heats"].append(heat_result.heat)    
+            
+    
+    def save_updated_heat_result(self, heat_result):
+        self.info["heats"].append(heat_result)
             
         
     def get_heats(self):
         ''' return all the heat results.'''
         return self.info["heats"]
+    
+    def get_heat(self, index):
+        ''' return the results of a single heat.'''
+        return self.info["heats"][index]
+    
+    
+    def num_heats(self):
+        return len(self.info["heats"])
+        
     
     def close(self):
         ''' If the file is open for writing, dump the 
