@@ -70,6 +70,31 @@
     "avg_pts": 26.0
   },
   {
+    "name": "Keck, Brandon and Keck, Serena",
+    "results": [
+      {
+        "comp_name": "Las Vegas Lights",
+        "info": "AC-A Open American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-A Amateur Open American Smooth Championship(W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult American Championships  AD Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 60.0,
+    "avg_pts": 20.0
+  },
+  {
     "name": "Butler, Nate and Reni, Gioia",
     "results": [
       {
@@ -86,25 +111,6 @@
       }
     ],
     "total_pts": 40,
-    "avg_pts": 20.0
-  },
-  {
-    "name": "Keck, Brandon and Keck, Serena",
-    "results": [
-      {
-        "comp_name": "Las Vegas Lights",
-        "info": "AC-A Open American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "AC-A Amateur Open American Smooth Championship(W/T/F/VW)",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 40.0,
     "avg_pts": 20.0
   },
   {
@@ -164,31 +170,6 @@
     ],
     "total_pts": 18.75,
     "avg_pts": 18.75
-  },
-  {
-    "name": "Torres, Steve and Barron, Nicole",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-A Open American Smooth Championships (W/T/F/VW)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "AC-A Open Smooth Championship (W/T/F/VW)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "6",
-        "points": 14.0
-      }
-    ],
-    "total_pts": 56.0,
-    "avg_pts": 18.67
   },
   {
     "name": "Fox, Blake and Ascione, Nicole",
@@ -258,6 +239,37 @@
     ],
     "total_pts": 18.0,
     "avg_pts": 18.0
+  },
+  {
+    "name": "Torres, Steve and Barron, Nicole",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-A Open American Smooth Championships (W/T/F/VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-A Open Smooth Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "6",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult American Championships  AD Amer. Smooth Championship (W,T,F,VW)",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 69.0,
+    "avg_pts": 17.25
   },
   {
     "name": "Lalicker, Hayden and Borcea, Jacquelyn",
@@ -359,10 +371,16 @@
         "info": "AC- Adult Open American Smooth (W/T/F/VW)",
         "place": "1",
         "points": 18.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult American Championships  AD Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 16.0
       }
     ],
-    "total_pts": 175.5,
-    "avg_pts": 15.95
+    "total_pts": 191.5,
+    "avg_pts": 15.96
   },
   {
     "name": "Janik, Wes and Janik, Jem",
@@ -699,25 +717,6 @@
     "avg_pts": 12.25
   },
   {
-    "name": "Shelton, Mike and Shelton, Daneen",
-    "results": [
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Amateur  SR2 Amer. Smooth Championship (W,T,F,VW)",
-        "place": "1",
-        "points": 12
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Amateur  SR3 Amer. Smooth Championship (W,T,F,VW)",
-        "place": "1",
-        "points": 12
-      }
-    ],
-    "total_pts": 24,
-    "avg_pts": 12.0
-  },
-  {
     "name": "Blanchard, Adam and Gunnell, Tiawna",
     "results": [
       {
@@ -734,6 +733,25 @@
       }
     ],
     "total_pts": 24.0,
+    "avg_pts": 12.0
+  },
+  {
+    "name": "Shelton, Mike and Shelton, Daneen",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Amateur  SR2 Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 12
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Amateur  SR3 Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 12
+      }
+    ],
+    "total_pts": 24,
     "avg_pts": 12.0
   },
   {
@@ -1149,10 +1167,16 @@
         "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
         "place": "quarters",
         "points": 4.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult American Championships  AD Amer. Smooth Championship (W,T,F,VW)",
+        "place": "4",
+        "points": 10.0
       }
     ],
-    "total_pts": 32.0,
-    "avg_pts": 10.67
+    "total_pts": 42.0,
+    "avg_pts": 10.5
   },
   {
     "name": "Hudson, Henry and Hudson, Olivia",
@@ -1630,19 +1654,6 @@
     "avg_pts": 9.0
   },
   {
-    "name": "Ready, Terry and Tod, Marty",
-    "results": [
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Amateur Syllabus 1 SR4 Amer. Smooth (W,F)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 9.0,
-    "avg_pts": 9.0
-  },
-  {
     "name": "Bell, Aidan and Prince, Aliya",
     "results": [
       {
@@ -1726,6 +1737,19 @@
       {
         "comp_name": "Patriot Dance Festival",
         "info": "AC-A1 Am. Smooth Closed Silver Multi-Dance (W/T/F/VW)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Ready, Terry and Tod, Marty",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Amateur Syllabus 1 SR4 Amer. Smooth (W,F)",
         "place": "1",
         "points": 9.0
       }
@@ -1934,6 +1958,19 @@
       {
         "comp_name": "Majesty Dancesport",
         "info": "AC-A Open Smooth 3-Dance Challenge (W/T/F)",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 8.0,
+    "avg_pts": 8.0
+  },
+  {
+    "name": "Lam, Eric and Baltazar, Karen",
+    "results": [
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult American Championships  AD Amer. Smooth Championship (W,T,F,VW)",
         "place": "5",
         "points": 8.0
       }
@@ -2175,6 +2212,19 @@
       }
     ],
     "total_pts": 14.0,
+    "avg_pts": 7.0
+  },
+  {
+    "name": "DePuy, Devin and DePuy, Lois",
+    "results": [
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult American Championships  AD Amer. Smooth Championship (W,T,F,VW)",
+        "place": "6",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 7.0,
     "avg_pts": 7.0
   },
   {
@@ -2757,6 +2807,19 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Man Lo, Chi and Lo, Esther",
+    "results": [
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult Novice Open 3-Dance S3 Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Tan, Nathan and Wales, Robyn",
     "results": [
       {
@@ -3226,25 +3289,6 @@
     "avg_pts": 3.0
   },
   {
-    "name": "Hooker, William and Collins, Robyn",
-    "results": [
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Amateur Novice 1 A Amer. Smooth (W,F)",
-        "place": "1",
-        "points": 3
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Amateur Novice 2 A Amer. Smooth (T,VW)",
-        "place": "1",
-        "points": 3
-      }
-    ],
-    "total_pts": 6,
-    "avg_pts": 3.0
-  },
-  {
     "name": "Cardoza, Adam and Quackenbush, Adeline",
     "results": [
       {
@@ -3280,6 +3324,25 @@
       }
     ],
     "total_pts": 6.0,
+    "avg_pts": 3.0
+  },
+  {
+    "name": "Hooker, William and Collins, Robyn",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Amateur Novice 1 A Amer. Smooth (W,F)",
+        "place": "1",
+        "points": 3
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Amateur Novice 2 A Amer. Smooth (T,VW)",
+        "place": "1",
+        "points": 3
+      }
+    ],
+    "total_pts": 6,
     "avg_pts": 3.0
   },
   {
