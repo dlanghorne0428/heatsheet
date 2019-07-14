@@ -15,8 +15,25 @@ class Couple():
     def same_names_as(self, c):
         if self.pair_name == c.pair_name:
             return True
+        elif self.name1 == c.name2 and self.name2 == c.name1:
+            return True
         else:
             return False
+        
+    def swap_names(self):
+        temp = self.name1
+        self.name1 = self.name2
+        self.name2 = temp
+        self.pair_name = self.name1 + " and " + self.name2
+        
+    def update_names(self, names):
+        self.pair_name = names
+        l = names.split(" and ")
+        self.name1 = l[0]
+        self.name2 = l[1]
+        for h in self.heats:
+            h.dancer = self.name1
+            h.partner = self.name2
 
     # this method adds the age division, d, to the list of age divisions
     # that this couple is competing in

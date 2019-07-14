@@ -18,6 +18,13 @@ from comp_results_file import Comp_Results_File
         #level = "Open"
     #return level
 
+def get_name(couple_names, dancer=True):
+    fields = couple_names.split(" and ")
+    if dancer:
+        return fields[0]
+    else:
+        return fields[1]
+    
 
 def get_last_name(couple_names):
     '''
@@ -126,6 +133,32 @@ class RankingDataFile():
             else:
                 index += 1
         else:        
+            return -1  
+        
+    
+    def find_couple_by_dancer(self, couple_name, start=0):
+        dancer_name = get_name(couple_name)
+        index = start
+        while index < len(self.info):
+            db_dancer_name = get_name(self.info[index]["name"])
+            if db_dancer_name == dancer_name:
+                return index
+            else:
+                index += 1
+        else:
+            return -1
+        
+    
+    def find_couple_by_partner(self, couple_name, start=0):
+        partner_name = get_name(couple_name, False)
+        index = start
+        while index < len(self.info):
+            db_partner_name = get_name(self.info[index]["name"], False)
+            if db_partner_name == partner_name:
+                return index
+            else:
+                index += 1
+        else:
             return -1    
         
 

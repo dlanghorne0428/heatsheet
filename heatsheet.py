@@ -167,6 +167,7 @@ class HelloFrame(wx.Frame):
         self.ID_FILE_OPEN_CO = 92 
         self.ID_FILE_OPEN_CM = 93
         self.ID_EDIT_RESCORE_RESULTS = 140
+        self.ID_EDIT_REORDER_COUPLES = 145
         self.ID_VIEW_FILTER_DIV = 101
         self.ID_VIEW_FILTER_DANCER = 102
         self.ID_VIEW_FILTER_COUPLE = 103
@@ -200,6 +201,8 @@ class HelloFrame(wx.Frame):
         self.editMenu = wx.Menu()
         rescore_comp_item = self.editMenu.Append(self.ID_EDIT_RESCORE_RESULTS, "Rescore Comp Results",
                                                  "Rescore the results of a previous competition")
+        reorder_couple_item = self.editMenu.Append(self.ID_EDIT_REORDER_COUPLES, "Reorder Couple Names",
+                                                   "Put the couple names in the correct order")
 
         # Now a View Menu for filtering data and generating reports
         self.viewMenu = wx.Menu()
@@ -273,6 +276,7 @@ class HelloFrame(wx.Frame):
         self.Bind(wx.EVT_MENU, self.OnOpenCompOrg, openCompOrgItem)
         self.Bind(wx.EVT_MENU, self.OnExit,  exitItem)
         self.Bind(wx.EVT_MENU, self.OnRescoreComp, rescore_comp_item)
+        self.Bind(wx.EVT_MENU, self.OnReorderCoupleNames, reorder_couple_item)
         self.Bind(wx.EVT_MENU, self.OnFilterByDivision, filtDivItem)
         self.Bind(wx.EVT_MENU, self.OnFilterByDancer, filtDcrItem)
         self.Bind(wx.EVT_MENU, self.OnFilterByCouple, filtCplItem)
@@ -357,6 +361,7 @@ class HelloFrame(wx.Frame):
         self.fileMenu.Enable(wx.ID_SAVEAS, False)
         self.fileMenu.Enable(wx.ID_CLOSE, False)
         self.editMenu.Enable(self.ID_EDIT_RESCORE_RESULTS, True)
+        self.editMenu.Enable(self.ID_EDIT_REORDER_COUPLES, False)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DIV, False)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DANCER, False)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_COUPLE, False)
@@ -395,6 +400,7 @@ class HelloFrame(wx.Frame):
         self.fileMenu.Enable(wx.ID_SAVEAS, True)
         self.fileMenu.Enable(wx.ID_CLOSE, True)
         self.editMenu.Enable(self.ID_EDIT_RESCORE_RESULTS, False)
+        self.editMenu.Enable(self.ID_EDIT_REORDER_COUPLES, True)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DIV, True)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_DANCER, True)
         self.viewMenu.Enable(self.ID_VIEW_FILTER_COUPLE, True)
@@ -930,6 +936,56 @@ class HelloFrame(wx.Frame):
         col_title.SetText(title)
         self.list_ctrl.SetColumn(col_index, col_title)        
         
+        
+    def load_ranking_file_for_heat(self, h):
+        folder_name = "./data/" + str(self.curr_date.year) + "/Rankings/" 
+        if h.category == "Solo" or h.category == "Formation":
+            return None
+        if h.category == "Pro heat":
+            folder_name += "Pro"
+        elif is_amateur_heat(h):
+            folder_name += "Amateur"
+        else:
+            folder_name += "Pro-Am"
+        style = dance_style(h.info)
+        if style == "Smooth":
+            pathname = folder_name + "/smooth_rankings.json"
+        elif style == "Rhythm":
+            pathname = folder_name + "/rhythm_rankings.json"
+        elif style == "Standard":
+            pathname = folder_name + "/standard_rankings.json"
+        elif style == "Latin":
+            pathname = folder_name + "/latin_rankings.json"
+        elif style == "Nightclub":
+            pathname = folder_name + "/nightclub_rankings.json"
+        else:
+            pathname = folder_name + "/cabaret_showdance_rankings.json"
+        
+        return RankingDataFile(pathname)
+    
+    
+    def OnReorderCoupleNames(self, event):
+        for c in self.heatlist.couples:
+            if len(c.heats) > 0:
+                h = c.heats[0]
+                self.current_couples_list = self.load_ranking_file_for_heat(h)
+                index = self.current_couples_list.find_couple(c.pair_name)
+                if index == -1:
+                    c.swap_names()
+                    index = self.current_couples_list.find_couple(c.pair_name)
+                if index == -1:
+                    # if not found, search again by dancer name only. 
+                    db_index = self.current_couples_list.find_couple_by_dancer(c.pair_name)
+                    if db_index > -1:
+                        # if found this time, ask user if this is a match
+                        db_name = self.current_couples_list.get_name_at_index(db_index)
+                        message = c.pair_name + "\n\t with \n" + db_name
+                        md = wx.MessageDialog(self, message, caption="Match?", style=wx.YES_NO)
+                        if md.ShowModal() == wx.ID_YES: 
+                            c.update_names(db_name)
+
+                    
+                                                            
     
     def Process_Result(self, num):
         Results_Column = 6 
@@ -1149,23 +1205,32 @@ class HelloFrame(wx.Frame):
         Ranking_Column = 6  
         self.ChangeColumnTitle(Ranking_Column, "Ranking")
         item_index = 0
-        folder_name = "./data/" + str(self.curr_date.year) + "/Rankings" + "/Pro"  # for now
+        
+        folder_name = "./data/" + str(self.curr_date.year) + "/Rankings/" + self.heat_type
         
         # open the five ranking files
         self.smooth_couples = RankingDataFile(folder_name + "/smooth_rankings.json")
         self.rhythm_couples = RankingDataFile(folder_name + "/rhythm_rankings.json")
         self.standard_couples = RankingDataFile(folder_name + "/standard_rankings.json")
         self.latin_couples = RankingDataFile(folder_name + "/latin_rankings.json")
+        self.nightclub_couples = RankingDataFile(folder_name + "/nightclub_rankings.json")
         self.showdance_couples = RankingDataFile(folder_name + "/cabaret_showdance_rankings.json")         
 
+        if self.heat_type == "Pro":
+            self.heat_numbers = range(1, self.heatlist.max_pro_heat_num + 1)
+            self.heat_category = "Pro heat"            
+        else:
+            self.heat_numbers = self.heatlist.multi_dance_heat_numbers
+            self.heat_category = "Heat"
+
         # loop through all the pro heats
-        for num in range(1, self.heatlist.max_pro_heat_num + 1):
+        for num in self.heat_numbers:
             if type(self.heatlist) is CompMngrHeatlist:
-                h = CompMngrHeat(category="Pro heat", number=num)
+                h = CompMngrHeat(category=self.heat_category, number=num)
             elif type(self.heatlist) is CompOrgHeat:
-                h = CompOrgHeat(category="Pro heat", number=num)
-            else:
-                h = NdcaPremHeat(category="Pro heat", number=num)            
+                h = CompOrgHeat(category=self.heat_category, number=num)
+            else: 
+                h = NdcaPremHeat(category=self.heat_category, number=num)  
             
             # get a heat report with the entries from the heatlist
             report = self.heatlist.build_heat_report(h, sorted=True)
@@ -1180,7 +1245,9 @@ class HelloFrame(wx.Frame):
                 elif "Latin" == style:
                     self.current_couples = self.latin_couples
                 elif "Standard" == style:
-                    self.current_couples = self.standard_couples      
+                    self.current_couples = self.standard_couples   
+                elif "Nightclub" == style:
+                    self.current_couples = self.nightclub_couples                      
                 else:
                     self.current_couples = self.showdance_couples
                     
@@ -1190,14 +1257,20 @@ class HelloFrame(wx.Frame):
                 for i in range(report.length()):
                     e = report.entry(i)
                     # find the couple in the database and get the name as stored in the database
+                    rank = "0"
                     index = self.find_matching_couple_in_ranking(e)
-                    db_name = self.current_couples.get_name_at_index(index)
-                    # get the ranking for the couple, which may include ties.
-                    rank = self.current_couples.find_highest_rank(index)
+                    if index > -1:
+                        db_name = self.current_couples.get_name_at_index(index)
+                        # get the ranking for the couple, which may include ties.
+                        rank = self.current_couples.find_highest_rank(index)
                     if rank == "0":
                         # couple not found in the ranking database
                         self.list_ctrl.SetItem(item_index, Ranking_Column, "Unknown")
                     else:
+                        # update the couple name in the heatlist for future use
+                        c = self.heatlist.find_couple(e.dancer + " and " + e.partner)
+                        if c is not None and c.pair_name != db_name:
+                            c.update_names(db_name)
                         # update the ranking and the couple name in the GUI
                         self.list_ctrl.SetItem(item_index, Ranking_Column, rank)
                         self.list_ctrl.SetItem(item_index, Name_Column, db_name)
