@@ -107,7 +107,11 @@ class NdcaPremResults():
                 for r in rows: 
                     fields = r.split("</td>")
                     couple_field = fields[0].split("<td>")[1]
-                    result_place = int(fields[col_count-1].split("<td>")[1])
+                    result_field = fields[col_count-1].split("<td>")[1]
+                    try:
+                        result_place = int(result_field)
+                    except:
+                        result_place = None
                     sub_fields = couple_field.split(" &amp; ")
                     first_space = sub_fields[0].find(" ")
                     shirt_number = sub_fields[0][:first_space]
@@ -117,12 +121,14 @@ class NdcaPremResults():
                         entry = heat_report.entry(index)
                         if entry.dancer == dancer:
                             entry.shirt_number = shirt_number
-                            entry.result = result_place
+                            if entry.result is None:
+                                entry.result = result_place
                             break
                         elif entry.partner == dancer:
                             entry.swap_names()
                             entry.shirt_number = shirt_number
-                            entry.result = result_place
+                            if entry.result is None:
+                                entry.result = result_place
                             break
                     else:
                         h = heat_report.build_late_entry()
