@@ -42,7 +42,7 @@ def pro_heat_level(info):
         return info
     if "Rising Star" in info:
         return 10  #"Rising Star"
-    elif "Novice" in info:
+    elif "Novice" in info or "Basics" in info:
         return 5   #"Novice"
     else:
         return 20  #"Open"  
@@ -202,10 +202,14 @@ class Heat():
             else:  # if we get to here, either both times are in the 12:xx hour or both are in
                    # some other hour, just sort the times.
                 if self.time == h.time:
-                    if self.info == h.info:
-                        return self.shirt_number < h.shirt_number
+                    if self.heat_number == h.heat_number:
+                        if self.info == h.info:
+                            return self.shirt_number < h.shirt_number
+                        else:
+                            return self.info < h.info                        
                     else:
-                        return self.info < h.info
+                        return self.heat_number < h.heat_number
+
                 else:
                     return self.time < h.time
         else: # use the session numbers to determine order
