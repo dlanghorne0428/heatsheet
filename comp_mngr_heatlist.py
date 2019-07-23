@@ -21,9 +21,12 @@ class CompMngrHeat(Heat):
             fields = line.split("<td>")
             # get the session number, heat number, and multi-round info
             heat_time = fields[1].split("</td>")[0]
-            heat_time_fields = heat_time.split("@")
-            self.session = heat_time_fields[0]
-            heat_time = heat_time_fields[1]
+            if "@" in heat_time:
+                heat_time_fields = heat_time.split("@")
+                self.session = heat_time_fields[0]
+                heat_time = heat_time_fields[1]
+            else:
+                self.session = ""
             if "<br>" in heat_time:
                 time_fields = heat_time.split("<br>")
                 if len(time_fields) == 4:
