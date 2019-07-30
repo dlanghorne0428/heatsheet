@@ -1,5 +1,18 @@
 [
   {
+    "name": "Smith, Kush and Escolme, Andrew",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 25.0,
+    "avg_pts": 25.0
+  },
+  {
     "name": "Voigt, Dana and Wilson, Randy",
     "results": [
       {
@@ -30,37 +43,6 @@
     ],
     "total_pts": 39.0,
     "avg_pts": 19.5
-  },
-  {
-    "name": "Kelly, Diane and Hammaker, Micah",
-    "results": [
-      {
-        "comp_name": "Twin Cities Open",
-        "info": "L-C Night Club Open Championship (WC/NC/HU)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Twin Cities Open",
-        "info": "L-C Night Club Open Championship (Merg/Bach/Sal)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Twin Cities Open",
-        "info": "L-SR Night Club Open Championship (WC/NC/HU)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Twin Cities Open",
-        "info": "L-SR Night Club Open Championship (Merg/Bach/Sal)",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 75.0,
-    "avg_pts": 18.75
   },
   {
     "name": "Howsden, Rose and Munson, Todd",
@@ -146,19 +128,6 @@
     "avg_pts": 16.0
   },
   {
-    "name": "Jones, Marsha and Botello, Eric",
-    "results": [
-      {
-        "comp_name": "Twin Cities Open",
-        "info": "L-SR Night Club Open Championship (Merg/Bach/Sal)",
-        "place": "2",
-        "points": 16.0
-      }
-    ],
-    "total_pts": 16.0,
-    "avg_pts": 16.0
-  },
-  {
     "name": "Esau, Julie and Fernandez, Leon",
     "results": [
       {
@@ -178,11 +147,37 @@
     "avg_pts": 15.0
   },
   {
+    "name": "Clemens, Kelly and Escolme, Andrew",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Silver Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
+  },
+  {
     "name": "Dow, Dawn and Kibel, Mitchel",
     "results": [
       {
         "comp_name": "City Lights Ball",
         "info": "L-C Open Open Nightclub Scholarship (WC/Hus/Sal)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Guevara, Leyanis and Sharov, Alex",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-B Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
         "place": "1",
         "points": 15.0
       }
@@ -247,6 +242,49 @@
     ],
     "total_pts": 29.25,
     "avg_pts": 14.62
+  },
+  {
+    "name": "Kelly, Diane and Hammaker, Micah",
+    "results": [
+      {
+        "comp_name": "Twin Cities Open",
+        "info": "L-C Night Club Open Championship (WC/NC/HU)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Twin Cities Open",
+        "info": "L-C Night Club Open Championship (Merg/Bach/Sal)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Twin Cities Open",
+        "info": "L-SR Night Club Open Championship (WC/NC/HU)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Twin Cities Open",
+        "info": "L-SR Night Club Open Championship (Merg/Bach/Sal)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "L-C Pro/Am Closed Bronze Night Club Championship (H/Salsa/ME)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "L-S1 Pro/Am Closed Bronze Night Club Championship (H/Salsa/ME)",
+        "place": "1",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 86.0,
+    "avg_pts": 14.33
   },
   {
     "name": "Kliniewski, Dawn and Palmiter, Kelly",
@@ -391,6 +429,50 @@
     ],
     "total_pts": 27.0,
     "avg_pts": 13.5
+  },
+  {
+    "name": "Underwood, Susan and Kerekes, Tibor",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-B Silver Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "1",
+        "points": 13.5
+      }
+    ],
+    "total_pts": 13.5,
+    "avg_pts": 13.5
+  },
+  {
+    "name": "Delcore, Paula and Kerekes, Tibor",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "L-B Niteclub (HU/WC/SAL/MER)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "L-C Silver Nightclub Challenges (SAL/H/WCS)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Silver Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "2",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 53.0,
+    "avg_pts": 13.25
   },
   {
     "name": "Berndt, Edward and Mokris, Ashley",
@@ -601,6 +683,31 @@
     "avg_pts": 12.0
   },
   {
+    "name": "Tuck, Sheila and Radon, Tommy",
+    "results": [
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "L-SR1 Gold Star Nightclub Challenges (SAL/H/WCS)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C1 Silver Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C1 Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 36.0,
+    "avg_pts": 12.0
+  },
+  {
     "name": "Law, Amy and Stutts, Eddie",
     "results": [
       {
@@ -769,19 +876,6 @@
     "avg_pts": 12.0
   },
   {
-    "name": "Tuck, Sheila and Radon, Tommy",
-    "results": [
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "L-SR1 Gold Star Nightclub Challenges (SAL/H/WCS)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 12.0,
-    "avg_pts": 12.0
-  },
-  {
     "name": "Zimmermann, Janis and Marcis, Milan",
     "results": [
       {
@@ -824,6 +918,25 @@
     ],
     "total_pts": 47.75,
     "avg_pts": 11.94
+  },
+  {
+    "name": "Bordonaro, Chris and Masko, Grey",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Silver Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "3",
+        "points": 16.25
+      }
+    ],
+    "total_pts": 23.75,
+    "avg_pts": 11.88
   },
   {
     "name": "Kirkegaard, SuzAnne and Kempainen, Chris",
@@ -903,6 +1016,25 @@
     "avg_pts": 11.25
   },
   {
+    "name": "Smith, Jacquie and Roca Fabra, Joan",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C1 Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "3",
+        "points": 9.75
+      }
+    ],
+    "total_pts": 22.25,
+    "avg_pts": 11.12
+  },
+  {
     "name": "Fish, Brandie and Gregory, Matt",
     "results": [
       {
@@ -947,25 +1079,6 @@
     "avg_pts": 10.62
   },
   {
-    "name": "Delcore, Paula and Kerekes, Tibor",
-    "results": [
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "L-B Niteclub (HU/WC/SAL/MER)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "L-C Silver Nightclub Challenges (SAL/H/WCS)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 21.0,
-    "avg_pts": 10.5
-  },
-  {
     "name": "Jourden, Danielle and Glosson, Sherrad",
     "results": [
       {
@@ -982,6 +1095,19 @@
       }
     ],
     "total_pts": 21.0,
+    "avg_pts": 10.5
+  },
+  {
+    "name": "Baba, Meg and Escolme, Andrew",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-B Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "2",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 10.5,
     "avg_pts": 10.5
   },
   {
@@ -1007,6 +1133,19 @@
       }
     ],
     "total_pts": 30.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Barrow, Kara-Lee and Ilyushenov, Dmitry",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Bronze Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "1",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
     "avg_pts": 10.0
   },
   {
@@ -1049,6 +1188,25 @@
     "avg_pts": 10.0
   },
   {
+    "name": "Biard, Karen and Stall, Chad",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Silver Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "5",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 19.75,
+    "avg_pts": 9.88
+  },
+  {
     "name": "Judt, Jasmin and Glosson, Sherrad",
     "results": [
       {
@@ -1079,67 +1237,6 @@
     ],
     "total_pts": 19.25,
     "avg_pts": 9.62
-  },
-  {
-    "name": "LaPointe, Lauren and Bar, Louis",
-    "results": [
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "L-A Niteclub (HU/WC)",
-        "place": "2",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "L-A Niteclub 2(SAL/MER)",
-        "place": "3",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "L-B Niteclub (HU/WC)",
-        "place": "3",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "L-B Niteclub 2(SAL/MER)",
-        "place": "3",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "L-A Niteclub (HU/WC/SAL/MER)",
-        "place": "2",
-        "points": 9.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-A NightClub Open Argentine Mix (T/V/MIL)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-B NightClub Open Argentine Mix (T/V/MIL)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-B NightClub Open Swing Mix (H/WCS/NC2)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "L-A NightClub Open Swing Mix (H/WCS/NC2)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 86.25,
-    "avg_pts": 9.58
   },
   {
     "name": "Whiteside, Suky and Fernandez, Leon",
@@ -1194,6 +1291,37 @@
       }
     ],
     "total_pts": 76.5,
+    "avg_pts": 9.56
+  },
+  {
+    "name": "Jones, Marsha and Botello, Eric",
+    "results": [
+      {
+        "comp_name": "Twin Cities Open",
+        "info": "L-SR Night Club Open Championship (Merg/Bach/Sal)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "L-C Pro/Am Closed Bronze Night Club Championship (H/Salsa/ME)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "L-S1 Pro/Am Closed Bronze Night Club Championship (H/Salsa/ME)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "L-S1 Pro/Am Closed Silver Night Club Championship (H/Salsa/ME/WC)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 38.25,
     "avg_pts": 9.56
   },
   {
@@ -1494,6 +1622,85 @@
     "avg_pts": 9.07
   },
   {
+    "name": "LaPointe, Lauren and Bar, Louis",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "L-A Niteclub (HU/WC)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "L-A Niteclub 2(SAL/MER)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "L-B Niteclub (HU/WC)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "L-B Niteclub 2(SAL/MER)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "L-A Niteclub (HU/WC/SAL/MER)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-A NightClub Open Argentine Mix (T/V/MIL)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-B NightClub Open Argentine Mix (T/V/MIL)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-B NightClub Open Swing Mix (H/WCS/NC2)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "L-A NightClub Open Swing Mix (H/WCS/NC2)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-B Silver Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-B Open Advanced Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-B Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "4",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 108.75,
+    "avg_pts": 9.06
+  },
+  {
     "name": "Friedman, Gary and Strojek, Agnieszka",
     "results": [
       {
@@ -1507,6 +1714,25 @@
         "info": "G-SR Silver Closed Night Club 3 Dance (Salsa/Merengue/WC)",
         "place": "1",
         "points": 9.0
+      }
+    ],
+    "total_pts": 18.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Gaston, Jo-C and Stall, Chad",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C1 Bronze Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C1 Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "2",
+        "points": 12.0
       }
     ],
     "total_pts": 18.0,
@@ -1538,6 +1764,19 @@
         "comp_name": "wisconsin19[martin cawston]",
         "info": "L-B2 Silver Night Club Championship (Hustle/NightClub2 Step/WC)",
         "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Cameron, Jeff and Toth, Maggie",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-B Silver Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "2",
         "points": 9.0
       }
     ],
@@ -1636,19 +1875,6 @@
     "avg_pts": 9.0
   },
   {
-    "name": "King, Tim and Toth, Maggie",
-    "results": [
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "G-C Caribbean Mix (SAL/BA/MER)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 9.0,
-    "avg_pts": 9.0
-  },
-  {
     "name": "Kramarova, Olga and Enriquez, Sam",
     "results": [
       {
@@ -1699,6 +1925,58 @@
     ],
     "total_pts": 9.0,
     "avg_pts": 9.0
+  },
+  {
+    "name": "Swyer, Carol and Masko, Grey",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C1 Bronze Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Wenger, Lindsay and Escolme, Andrew",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-B Bronze Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Wright, Roberta and Escolme, Andrew",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-A Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Khvalova, Irina and Thibault, Richard",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "6",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 8.75,
+    "avg_pts": 8.75
   },
   {
     "name": "Magedoff, Kari and Cabrera, Jonathan",
@@ -2099,12 +2377,38 @@
     "avg_pts": 7.5
   },
   {
+    "name": "Patterson, Alisha and Escolme, Andrew",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-A Bronze Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "1",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
+  },
+  {
     "name": "Rodeschin, Joann and Harris, Rodney",
     "results": [
       {
         "comp_name": "2019 Tri-State DanceSport Championships",
         "info": "L-S1 TSDSC Closed Bronze Night Club Championship (Salsa/Hustle/WCS)",
         "place": "1",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
+  },
+  {
+    "name": "Rooney, Martin and Toth, Maggie",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C1 Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "4",
         "points": 7.5
       }
     ],
@@ -2153,25 +2457,6 @@
       }
     ],
     "total_pts": 28.5,
-    "avg_pts": 7.12
-  },
-  {
-    "name": "Chavez, Esperanza and Barsuk, Pavlo",
-    "results": [
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-SR Pro/Am Closed Silver Nite Club Challenge (Hustle/N2Step/WCS)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "All-Star Dance Challenge",
-        "info": "L-B2 Nightclub Closed Silver (N/W/H/S)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 14.25,
     "avg_pts": 7.12
   },
   {
@@ -2233,6 +2518,19 @@
     "avg_pts": 7.0
   },
   {
+    "name": "Rogozinski, Kathy and Kerekes, Tibor",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Bronze Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "2",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 7.0,
+    "avg_pts": 7.0
+  },
+  {
     "name": "Lavinsky, Peggy and Khutsidze, Aleko",
     "results": [
       {
@@ -2250,6 +2548,25 @@
     ],
     "total_pts": 13.75,
     "avg_pts": 6.88
+  },
+  {
+    "name": "Preston, Ioana and Gombkoto, Imre",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-B Bronze Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-B Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "3",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 13.5,
+    "avg_pts": 6.75
   },
   {
     "name": "Blank, Cindy and Blanc, Michael",
@@ -2275,6 +2592,31 @@
     ],
     "total_pts": 20.0,
     "avg_pts": 6.67
+  },
+  {
+    "name": "Chavez, Esperanza and Barsuk, Pavlo",
+    "results": [
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-SR Pro/Am Closed Silver Nite Club Challenge (Hustle/N2Step/WCS)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "All-Star Dance Challenge",
+        "info": "L-B2 Nightclub Closed Silver (N/W/H/S)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "L-S1 Pro/Am Closed Silver Night Club Championship (H/Salsa/ME/WC)",
+        "place": "2",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 19.5,
+    "avg_pts": 6.5
   },
   {
     "name": "Bartley, Barb and Glosson, Sherrad",
@@ -2547,6 +2889,19 @@
         "comp_name": "American Star Ball Championships",
         "info": "L-B Closed Bronze NightClub (Mer/Salsa/Bachata)",
         "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Gluck, Cliff and Toth, Maggie",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Silver Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "5",
         "points": 6.0
       }
     ],
@@ -2926,6 +3281,38 @@
     "avg_pts": 5.17
   },
   {
+    "name": "King, Tim and Toth, Maggie",
+    "results": [
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "G-C Caribbean Mix (SAL/BA/MER)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "Semis",
+        "points": 1.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 5.0
+  },
+  {
+    "name": "Barrow, David and Sheina, Mila",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Bronze Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "3",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 5.0,
+    "avg_pts": 5.0
+  },
+  {
     "name": "Shink, Shari and Munson, Todd",
     "results": [
       {
@@ -2950,31 +3337,6 @@
     ],
     "total_pts": 5.0,
     "avg_pts": 5.0
-  },
-  {
-    "name": "Gingery, Don and Beletsky, Aggie",
-    "results": [
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "G-B Bronze Pro/Am Night Club 3 Dance (Merengue/Salsa/Bachata)",
-        "place": "2",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "G-SR Bronze Night Club Challenge (SAL/HUS/WCS)",
-        "place": "2",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "G-SR Bronze Night Club Challenge (SAL/BACH/MER)",
-        "place": "1",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 13.0,
-    "avg_pts": 4.33
   },
   {
     "name": "Voeks, Bob and Lovstad, Taylor",
@@ -3003,11 +3365,86 @@
     "avg_pts": 4.0
   },
   {
+    "name": "Gingery, Don and Beletsky, Aggie",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "G-B Bronze Pro/Am Night Club 3 Dance (Merengue/Salsa/Bachata)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "G-SR Bronze Night Club Challenge (SAL/HUS/WCS)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "G-SR Bronze Night Club Challenge (SAL/BACH/MER)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Bronze Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "4",
+        "points": 3.5
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C1 Bronze Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "Semis",
+        "points": 0.25
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C1 Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "5",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 26.25,
+    "avg_pts": 3.75
+  },
+  {
     "name": "Bockman, Rick and Shiller, Ginny Ray",
     "results": [
       {
         "comp_name": "Virginia State Championships",
         "info": "L-C Bronze Best of the Best Club Dance (HU/SAL/WC)",
+        "place": "3",
+        "points": 3.5
+      }
+    ],
+    "total_pts": 3.5,
+    "avg_pts": 3.5
+  },
+  {
+    "name": "Kent, Evie and Calnan, Branden",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-A Bronze Nightclub Challenge (Sal/Hus/WCS)",
+        "place": "2",
+        "points": 3.5
+      }
+    ],
+    "total_pts": 3.5,
+    "avg_pts": 3.5
+  },
+  {
+    "name": "Mateleska, Jenny and Timar, Krisztian",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-B Bronze Nightclub Challenge (Sal/Hus/WCS)",
         "place": "3",
         "points": 3.5
       }
@@ -3066,6 +3503,19 @@
     ],
     "total_pts": 2.25,
     "avg_pts": 2.25
+  },
+  {
+    "name": "Starer, Jacquelyn and Bogre, Jani",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-C Best of the Best Caribbean Mix Challenges (Sal/Bac/Mer)",
+        "place": "Semis",
+        "points": 1.0
+      }
+    ],
+    "total_pts": 1.0,
+    "avg_pts": 1.0
   },
   {
     "name": "Holt, David and Dobson, Kristen",

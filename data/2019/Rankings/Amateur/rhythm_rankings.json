@@ -513,45 +513,7 @@
     "avg_pts": 10.5
   },
   {
-    "name": "Gad, Aniket and Ablorh, Tsotso",
-    "results": [
-      {
-        "comp_name": "Yankee Classic",
-        "info": "AC- Adult Pre-Championship Rhythm (R/C/SW)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Yankee Classic",
-        "info": "AC- \"World Masters Amateur American Rhythm Championships\" (C/R/SW/B/M)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 20.25,
-    "avg_pts": 10.12
-  },
-  {
-    "name": "Weyerman, Phillip and Burnett, Arielle",
-    "results": [
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "AC- Amateur Pre-Champ Rhythm (C/R/SW/B)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "AC- Amateur Open Rhythm Scholarships (C/R/SW/B/M)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 20.25,
-    "avg_pts": 10.12
-  },
-  {
-    "name": "Gleba, Chet and Gleba, Kathy",
+    "name": "Gleba, Chet and Gleba, Kathleen",
     "results": [
       {
         "comp_name": "Maryland DanceSport Championships",
@@ -588,10 +550,54 @@
         "info": "AC-C Pro/Am Open Silver Rhythm Championship (CC/R/SW/B)",
         "place": "1",
         "points": 12.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "AC-C1 Closed Silver American Rhythm Scholarship (C/R/SW/B)",
+        "place": "1",
+        "points": 12.0
       }
     ],
-    "total_pts": 60.0,
-    "avg_pts": 10.0
+    "total_pts": 72.0,
+    "avg_pts": 10.29
+  },
+  {
+    "name": "Gad, Aniket and Ablorh, Tsotso",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "AC- Adult Pre-Championship Rhythm (R/C/SW)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "AC- \"World Masters Amateur American Rhythm Championships\" (C/R/SW/B/M)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 20.25,
+    "avg_pts": 10.12
+  },
+  {
+    "name": "Weyerman, Phillip and Burnett, Arielle",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "AC- Amateur Pre-Champ Rhythm (C/R/SW/B)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "AC- Amateur Open Rhythm Scholarships (C/R/SW/B/M)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 20.25,
+    "avg_pts": 10.12
   },
   {
     "name": "Ward, Walter and Ward, Janice",
@@ -782,6 +788,19 @@
     "avg_pts": 9.0
   },
   {
+    "name": "Ambrose, Dave and Ambrose, Karen",
+    "results": [
+      {
+        "comp_name": "Virginia State Championships",
+        "info": "AC-B1   American Rhythm Closed Silver Championship (CC/R/SW)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 9.0
+  },
+  {
     "name": "Bell, Aidan and Prince, Aliya",
     "results": [
       {
@@ -917,19 +936,6 @@
       {
         "comp_name": "2019 Desert Classic DanceSport Festival",
         "info": "AC-Y Pre-Teen  Amateur American Rhythm (C/R/SW)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 9.0,
-    "avg_pts": 9.0
-  },
-  {
-    "name": "Ambrose, Dave and Ambrose, Karen",
-    "results": [
-      {
-        "comp_name": "Virginia State Championships",
-        "info": "AC-B1   American Rhythm Closed Silver Championship (CC/R/SW)",
         "place": "1",
         "points": 9.0
       }
@@ -1334,6 +1340,25 @@
     "avg_pts": 6.5
   },
   {
+    "name": "Everitt, Matthew and desJardins-Park, Caroline",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "AC-AD PreChamp American Rhyhtm (C/R/SW/M)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "AC-AD Novice American Rhythm (C/R/SW)",
+        "place": "1",
+        "points": 3.75
+      }
+    ],
+    "total_pts": 12.75,
+    "avg_pts": 6.38
+  },
+  {
     "name": "Page, Jonathan and Page, Mariana",
     "results": [
       {
@@ -1453,6 +1478,25 @@
         "info": "AC-PT Bronze Closed Rhythm (CC/R/SW)",
         "place": "1",
         "points": 6.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Rusu, Alex and DuBoff, Lilah",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "AC-AD PreNovcie American Rhythm (C/R)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "AC-AD PreNovice American Rhythm (SW/M)",
+        "place": "1",
+        "points": 3.0
       }
     ],
     "total_pts": 12.0,
@@ -2020,6 +2064,19 @@
       }
     ],
     "total_pts": 3.5,
+    "avg_pts": 1.75
+  },
+  {
+    "name": "Chaskin, Grant and DuBoff, Lilah",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "AC-AD Novice American Rhythm (C/R/SW)",
+        "place": "2",
+        "points": 1.75
+      }
+    ],
+    "total_pts": 1.75,
     "avg_pts": 1.75
   }
 ]

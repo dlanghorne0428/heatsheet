@@ -79,10 +79,16 @@
         "info": "TA/Showdance/Cabaret",
         "place": "1",
         "points": 12.0
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "Professional Cabaret Championship",
+        "place": "1",
+        "points": 12.0
       }
     ],
-    "total_pts": 246.0,
-    "avg_pts": 18.92
+    "total_pts": 258.0,
+    "avg_pts": 18.43
   },
   {
     "name": "Fumagalli, Davide and Macaluso, Debora",
@@ -557,6 +563,25 @@
     "avg_pts": 12.25
   },
   {
+    "name": "Visnakovs, Slava and Zukaite, Atile",
+    "results": [
+      {
+        "comp_name": "atlopen19",
+        "info": "Professional Open Showdance",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Volunteer State Dance Challenge",
+        "info": "Showdance",
+        "place": "2",
+        "points": 14.0
+      }
+    ],
+    "total_pts": 24.0,
+    "avg_pts": 12.0
+  },
+  {
     "name": "Bazylev, Alexei and Splender, Darya",
     "results": [
       {
@@ -620,6 +645,37 @@
     ],
     "total_pts": 12.0,
     "avg_pts": 12.0
+  },
+  {
+    "name": "Guthrie, Trevor and Guthrie, Emily",
+    "results": [
+      {
+        "comp_name": "atlopen19",
+        "info": "Professional Open Showdance",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Open Professional Cabaret Championships",
+        "place": "Semis",
+        "points": 2.1
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Theatre Arts_Cabaret  Open Cabaret",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Volunteer State Dance Challenge",
+        "info": "Showdance",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 46.1,
+    "avg_pts": 11.53
   },
   {
     "name": "Golubev, Valerii and Golubeva, Margarita",
@@ -809,12 +865,12 @@
     "avg_pts": 10.0
   },
   {
-    "name": "Visnakovs, Slava and Zukaite, Atile",
+    "name": "Spadoni, Simone and Caporale, Simona",
     "results": [
       {
-        "comp_name": "atlopen19",
-        "info": "Professional Open Showdance",
-        "place": "4",
+        "comp_name": "Volunteer State Dance Challenge",
+        "info": "Showdance",
+        "place": "3",
         "points": 10.0
       }
     ],
@@ -870,31 +926,6 @@
     ],
     "total_pts": 35.0,
     "avg_pts": 8.75
-  },
-  {
-    "name": "Guthrie, Trevor and Guthrie, Emily",
-    "results": [
-      {
-        "comp_name": "atlopen19",
-        "info": "Professional Open Showdance",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Open Professional Cabaret Championships",
-        "place": "Semis",
-        "points": 2.1
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Theatre Arts_Cabaret  Open Cabaret",
-        "place": "5",
-        "points": 8.0
-      }
-    ],
-    "total_pts": 26.1,
-    "avg_pts": 8.7
   },
   {
     "name": "Sovetov, Ivan and Mkrtchian, Valeria",
@@ -1106,6 +1137,19 @@
         "comp_name": "2019 Indianapolis Open DanceSport",
         "info": "Professional Showdance",
         "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 7.0,
+    "avg_pts": 7.0
+  },
+  {
+    "name": "McClish, Devan and Mortimer, Brooke",
+    "results": [
+      {
+        "comp_name": "Volunteer State Dance Challenge",
+        "info": "Showdance",
+        "place": "4",
         "points": 7.0
       }
     ],
