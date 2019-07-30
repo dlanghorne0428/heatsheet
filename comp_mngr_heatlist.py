@@ -150,7 +150,7 @@ class CompMngrHeatlist(Heatlist):
                             dancer = d
                             break
             # A line with "With " indicates the start of a new partner for the current dancer
-            if "With " in line:
+            elif "With " in line:
                 partner = self.get_dancer_name(line.strip(), line.find("With ") + 5)
                 if "/" in partner:
                     couple = None
@@ -168,16 +168,18 @@ class CompMngrHeatlist(Heatlist):
                     if new_couple:
                         self.couples.append(couple)
 
-            # Look for age divisions
-            if couple is not None:
-                age_div = self.get_age_division(line.strip())
-                if age_div is not None:
-                    self.add_age_division(age_div)
-                    couple.add_age_division(age_div)
-                    dancer.add_age_division(age_div)
-
+            # look for lines with pro heat number information
+            elif "Pro heat " in line:
+                if couple is not None:
+                    # turn that heat info into an object and add it to the couple
+                    pro_heat = CompMngrHeat("Pro heat", line, dancer.name, dancer.code, partner)
+                    if pro_heat.heat_number > self.max_pro_heat_num:
+                        self.max_pro_heat_num = pro_heat.heat_number
+                    couple.add_heat(pro_heat)
+                    dancer.add_heat(pro_heat)
+                            
             # look for lines with heat number information
-            if "Heat " in line:
+            elif "Heat " in line:
                 if couple is not None:
                     # turn this line into a heat object and add it to the couple and dancer
                     heat_obj = CompMngrHeat("Heat", line, dancer.name, dancer.code, partner)
@@ -190,7 +192,7 @@ class CompMngrHeatlist(Heatlist):
                     dancer.add_heat(heat_obj)
 
             # look for lines with solo number information
-            if "Solo " in line:
+            elif "Solo " in line:
                 if couple is not None:
                     # turn this line into a heat object and add it to the couple and dancer
                     solo_obj = CompMngrHeat("Solo", line, dancer.name, dancer.code, partner)
@@ -202,17 +204,7 @@ class CompMngrHeatlist(Heatlist):
                     if solo_obj not in self.solos:
                         self.solos.append(solo_obj)
 
-            # look for lines with pro heat number information
-            if "Pro heat " in line:
-                if couple is not None:
-                    # turn that heat info into an object and add it to the couple
-                    pro_heat = CompMngrHeat("Pro heat", line, dancer.name, dancer.code, partner)
-                    if pro_heat.heat_number > self.max_pro_heat_num:
-                        self.max_pro_heat_num = pro_heat.heat_number
-                    couple.add_heat(pro_heat)
-                    dancer.add_heat(pro_heat)
-
-            if "Formation" in line:
+            elif "Formation" in line:
                 if dancer is not None:
                     # turn that heat info into an object and add it to the couple
                     form_heat = CompMngrHeat("Formation", line, dancer.name, dancer.code, "")
@@ -221,8 +213,16 @@ class CompMngrHeatlist(Heatlist):
                     dancer.add_heat(form_heat)
                     self.formations.append(form_heat)
                     
-            if "/div" in line:
+            elif "/div" in line:
                 break;
+            
+            # Look for age divisions
+            if couple is not None:
+                age_div = self.get_age_division(line.strip())
+                if age_div is not None:
+                    self.add_age_division(age_div)
+                    couple.add_age_division(age_div)
+                    dancer.add_age_division(age_div)            
             
         return dancer_name
                     
