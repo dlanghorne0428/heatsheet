@@ -1,0 +1,923 @@
+{
+  "comp name": "Orlando Dance Classic",
+  "heats": [
+    {
+      "number": 112,
+      "title": "G-C Closed Smooth 3-Dance Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "L'Esperance, Paula and Dimitrov, Oleg",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Rothenberg, Leslie and Smith, Joseph",
+          "place": "2",
+          "points": 20.0
+        },
+        {
+          "couple": "Alberti, Deborah and Quiles, Hector",
+          "place": "3",
+          "points": 16.25
+        },
+        {
+          "couple": "McColgan, Molly and Rivera, Eddie",
+          "place": "4",
+          "points": 12.5
+        },
+        {
+          "couple": "Lewenthal, Lisa and Proper, William",
+          "place": "5",
+          "points": 10.0
+        },
+        {
+          "couple": "Pearson, Marilyn and Alekseev, Aleksei",
+          "place": "6",
+          "points": 8.75
+        },
+        {
+          "couple": "Wood, Sharyn and Hyskell, Brent",
+          "place": "7",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 112,
+      "title": "L-C Closed Smooth 3-Dance Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Bender, Stephanie and Humphries, Carson",
+          "place": "Semis",
+          "points": 0.5
+        },
+        {
+          "couple": "Washenko, Ann and Maphis, Stefan",
+          "place": "Semis",
+          "points": 0.25
+        },
+        {
+          "couple": "Camm, Linda and Penney, Justin",
+          "place": "Semis",
+          "points": 1.25
+        },
+        {
+          "couple": "Hairston, Elaine and Smith, Jeffrey",
+          "place": "Semis",
+          "points": 1.5
+        },
+        {
+          "couple": "Jensik, Janet and Velychko, Andriy",
+          "place": "Semis",
+          "points": 0.25
+        },
+        {
+          "couple": "Reed, James and Novak, Ashley",
+          "place": "Semis",
+          "points": 1.25
+        }
+      ]
+    },
+    {
+      "number": 113,
+      "title": "L-A Open Smooth 3-Dance Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Treat, Tammy and Shtefil, Shandor",
+          "place": "1",
+          "points": 18.0
+        },
+        {
+          "couple": "McCain, Christopher and McCain, Nicole",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Kazlova, Yuliya and Coberg, Bryan",
+          "place": "3",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "number": 114,
+      "title": "L-B Open Smooth 3-Dance Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Treat, Tammy and Shtefil, Shandor",
+          "place": "1",
+          "points": 18.0
+        },
+        {
+          "couple": "McNamara, Tom and Shackel Forte, Karena",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Lehosit, Ren\u00e9e and Feeley, Michael",
+          "place": "3",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "number": 115,
+      "title": "L-C Open Smooth 3-Dance Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Markell, Judy and Cherdantsau, Pavel",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Laukhuf, Eva and Wienc, Bogdan",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Rothenberg, Leslie and Smith, Joseph",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Minard, Donna and Proper, William",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Ross, Nati and Rivera, Eddie",
+          "place": "5",
+          "points": 8.0
+        },
+        {
+          "couple": "Wood, Sharyn and Hyskell, Brent",
+          "place": "6",
+          "points": 7.0
+        },
+        {
+          "couple": "Liang, Diana and Bumbak, Jan",
+          "place": "7",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 116,
+      "title": "L-A Closed Smooth 3-Dance Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Boghos, Kaylee and Rivera, Eddie",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Patton, Nicole and Proper, William",
+          "place": "2",
+          "points": 10.5
+        },
+        {
+          "couple": "McCain, Christopher and McCain, Nicole",
+          "place": "3",
+          "points": 7.5
+        },
+        {
+          "couple": "Kazlova, Yuliya and Coberg, Bryan",
+          "place": "4",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 116,
+      "title": "L-JR Closed Smooth 3-Dance Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Lewis, Marin and Bumbak, Jan",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 117,
+      "title": "L-B Closed Smooth 3-Dance Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Sha, Sandra and Shtefil, Shandor",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Davidson, Lynnette and Maphis, Stefan",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "McNamara, Tom and Shackel Forte, Karena",
+          "place": "3",
+          "points": 9.75
+        },
+        {
+          "couple": "Pearson, Marilyn and Alekseev, Aleksei",
+          "place": "4",
+          "points": 7.5
+        },
+        {
+          "couple": "Holden, Julia and Penalba, Samuel",
+          "place": "5",
+          "points": 6.0
+        },
+        {
+          "couple": "DeBord, Courtney and Bowers, Dustin",
+          "place": "6",
+          "points": 5.25
+        },
+        {
+          "couple": "Hoffman, Bernadette and Quiles, Hector",
+          "place": "7",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 118,
+      "title": "G-MENS Closed Smooth 3-Dance Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "McNamara, Tom and Shackel Forte, Karena",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Roberts, Scott and Palmieri, Rachel",
+          "place": "2",
+          "points": 10.5
+        },
+        {
+          "couple": "Reed, James and Novak, Ashley",
+          "place": "3",
+          "points": 7.5
+        },
+        {
+          "couple": "Forestier, Ian and Harrington, Shelley",
+          "place": "4",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 119,
+      "title": "L-A American Smooth Scholarship (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Sha, Sandra and Shtefil, Shandor",
+          "place": "1",
+          "points": 22.5
+        },
+        {
+          "couple": "Boghos, Kaylee and Rivera, Eddie",
+          "place": "2",
+          "points": 15.0
+        },
+        {
+          "couple": "McCain, Christopher and McCain, Nicole",
+          "place": "3",
+          "points": 8.75
+        }
+      ]
+    },
+    {
+      "number": 119,
+      "title": "L-JR JR American Smooth Scholarship (W/T/F)",
+      "entries": [
+        {
+          "couple": "McGirt, Presley and Perkins, Russell",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 120,
+      "title": "L-B American Smooth Scholarship (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Markell, Judy and Cherdantsau, Pavel",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Treat, Tammy and Shtefil, Shandor",
+          "place": "2",
+          "points": 20.0
+        },
+        {
+          "couple": "Laukhuf, Eva and Wienc, Bogdan",
+          "place": "3",
+          "points": 16.25
+        },
+        {
+          "couple": "Rothenberg, Leslie and Smith, Joseph",
+          "place": "4",
+          "points": 12.5
+        },
+        {
+          "couple": "McNamara, Tom and Shackel Forte, Karena",
+          "place": "5",
+          "points": 10.0
+        },
+        {
+          "couple": "Liang, Diana and Bumbak, Jan",
+          "place": "6",
+          "points": 8.75
+        },
+        {
+          "couple": "Lehosit, Ren\u00e9e and Feeley, Michael",
+          "place": "7",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 121,
+      "title": "L-A Closed Ballroom 3-Dance Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Kazlova, Yuliya and Coberg, Bryan",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 121,
+      "title": "L-B Closed Ballroom 3-Dance Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Matsuda, Yuki and Velychko, Andriy",
+          "place": "1",
+          "points": 13.5
+        },
+        {
+          "couple": "Saprounova, Vera and Rivera, Eddie",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Licht, Linda and Quiles, Hector",
+          "place": "3",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 121,
+      "title": "L-JR Closed Ballroom 3-Dance Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Letkemann, Greta and Cherdantsau, Pavel",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 122,
+      "title": "L-C Closed Ballroom 3-Dance Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Rothenberg, Leslie and Smith, Joseph",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Branigan, Christina and Dimitrov, Oleg",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Camm, Linda and Penney, Justin",
+          "place": "3",
+          "points": 9.75
+        },
+        {
+          "couple": "Nuesa, Myra and Jasecki, Michael",
+          "place": "4",
+          "points": 7.5
+        },
+        {
+          "couple": "Ross, Nati and Rivera, Eddie",
+          "place": "5",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 122,
+      "title": "L-C Open Ballroom 3-Dance Challenge (W/T/F)",
+      "entries": [
+        {
+          "couple": "Laukhuf, Eva and Wienc, Bogdan",
+          "place": "1",
+          "points": 18.0
+        },
+        {
+          "couple": "Alberti, Deborah and Quiles, Hector",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Liang, Diana and Reigis, Aidas",
+          "place": "3",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "number": 123,
+      "title": "L-A International Ballroom Scholarship (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Laukhuf, Eva and Wienc, Bogdan",
+          "place": "1",
+          "points": 18.75
+        },
+        {
+          "couple": "Liang, Diana and Reigis, Aidas",
+          "place": "2",
+          "points": 8.75
+        }
+      ]
+    },
+    {
+      "number": 282,
+      "title": "L-C Open Rhythm 3-Dance Challenge (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Laukhuf, Eva and Wienc, Bogdan",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Ross, Nati and Rivera, Eddie",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Mak, Emily and De La Cruz, Melbin",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "L'Esperance, Paula and Dimitrov, Oleg",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Minard, Donna and Proper, William",
+          "place": "5",
+          "points": 8.0
+        },
+        {
+          "couple": "Wood, Sharyn and Hyskell, Brent",
+          "place": "6",
+          "points": 7.0
+        },
+        {
+          "couple": "Washenko, Ann and Maphis, Stefan",
+          "place": "7",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 283,
+      "title": "G-MENS Closed Rhythm 3-Dance Challenge (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Wright, James and Libertore, Isabella",
+          "place": "1",
+          "points": 13.5
+        },
+        {
+          "couple": "McNamara, Tom and Shackel Forte, Karena",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Reed, James and Novak, Ashley",
+          "place": "3",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 283,
+      "title": "L-A Open Rhythm 3-Dance Challenge (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Boghos, Kaylee and Rivera, Eddie",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Lysik, Cheryl and Shtefil, Shandor",
+          "place": "2",
+          "points": 14.0
+        },
+        {
+          "couple": "Shaw, Rebeckah and Reigis, Aidas",
+          "place": "3",
+          "points": 10.0
+        },
+        {
+          "couple": "Kazlova, Yuliya and Coberg, Bryan",
+          "place": "4",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "number": 284,
+      "title": "L-B Open Rhythm 3-Dance Challenge (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Lysik, Cheryl and Shtefil, Shandor",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Baginski, Jane and Rivera, Eddie",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "McNamara, Tom and Shackel Forte, Karena",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Wright, James and Libertore, Isabella",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Lehosit, Ren\u00e9e and Feeley, Michael",
+          "place": "5",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "number": 285,
+      "title": "L-A Closed Rhythm 3-Dance Challenge (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Patton, Nicole and Proper, William",
+          "place": "1",
+          "points": 13.5
+        },
+        {
+          "couple": "Kazlova, Yuliya and Coberg, Bryan",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "DePadilla, Lace and Bowers, Dustin",
+          "place": "3",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 285,
+      "title": "L-JR Closed Rhythm 3-Dance Challenge (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Lewis, Marin and Bumbak, Jan",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 286,
+      "title": "L-B Closed Rhythm 3-Dance Challenge (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Shirer, Tanya and Garcia, Primo",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Sha, Sandra and Shtefil, Shandor",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Lee, Rhonda and Rivera, Eddie",
+          "place": "3",
+          "points": 9.75
+        },
+        {
+          "couple": "Holden, Julia and Penalba, Samuel",
+          "place": "4",
+          "points": 7.5
+        },
+        {
+          "couple": "McNamara, Tom and Shackel Forte, Karena",
+          "place": "5",
+          "points": 6.0
+        },
+        {
+          "couple": "DeBord, Courtney and Bowers, Dustin",
+          "place": "6",
+          "points": 5.25
+        },
+        {
+          "couple": "Davidson, Lynnette and Maphis, Stefan",
+          "place": "7",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 287,
+      "title": "L-C Closed Rhythm 3-Dance Challenge (C/R/SW)",
+      "entries": [
+        {
+          "couple": "Lewenthal, Lisa and Proper, William",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Alberti, Deborah and Quiles, Hector",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Mak, Emily and De La Cruz, Melbin",
+          "place": "3",
+          "points": 9.75
+        },
+        {
+          "couple": "Hairston, Elaine and Smith, Jeffrey",
+          "place": "4",
+          "points": 7.5
+        },
+        {
+          "couple": "L'Esperance, Paula and Dimitrov, Oleg",
+          "place": "5",
+          "points": 6.0
+        },
+        {
+          "couple": "Bender, Stephanie and Humphries, Carson",
+          "place": "6",
+          "points": 5.25
+        },
+        {
+          "couple": "Wood, Sharyn and Hyskell, Brent",
+          "place": "7",
+          "points": 4.5
+        },
+        {
+          "couple": "Jensik, Janet and Velychko, Andriy",
+          "place": "8",
+          "points": 3.75
+        }
+      ]
+    },
+    {
+      "number": 288,
+      "title": "L-A American Rhythm Scholarship (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Boghos, Kaylee and Rivera, Eddie",
+          "place": "1",
+          "points": 18.75
+        },
+        {
+          "couple": "Sha, Sandra and Shtefil, Shandor",
+          "place": "2",
+          "points": 8.75
+        }
+      ]
+    },
+    {
+      "number": 288,
+      "title": "L-JR JR American Rhythm Scholarship (C/R/SW)",
+      "entries": [
+        {
+          "couple": "McGirt, Presley and Perkins, Russell",
+          "place": "1",
+          "points": 18.75
+        },
+        {
+          "couple": "Perez, Yariel and Espinosa, Jailene",
+          "place": "2",
+          "points": 8.75
+        }
+      ]
+    },
+    {
+      "number": 289,
+      "title": "L-B American Rhythm Scholarship (C/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Lysik, Cheryl and Shtefil, Shandor",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Baginski, Jane and Rivera, Eddie",
+          "place": "2",
+          "points": 20.0
+        },
+        {
+          "couple": "Laukhuf, Eva and Wienc, Bogdan",
+          "place": "3",
+          "points": 16.25
+        },
+        {
+          "couple": "Wright, James and Libertore, Isabella",
+          "place": "4",
+          "points": 12.5
+        },
+        {
+          "couple": "McNamara, Tom and Shackel Forte, Karena",
+          "place": "5",
+          "points": 10.0
+        },
+        {
+          "couple": "Lehosit, Ren\u00e9e and Feeley, Michael",
+          "place": "6",
+          "points": 8.75
+        }
+      ]
+    },
+    {
+      "number": 290,
+      "title": "L-A Open Latin 3-Dance Challenge (C/S/R)",
+      "entries": [
+        {
+          "couple": "Perkins, Belgica and Shtefil, Shandor",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Shaw, Rebeckah and Reigis, Aidas",
+          "place": "2",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "number": 290,
+      "title": "L-JR Open Latin 3-Dance Challenge (C/S/R)",
+      "entries": [
+        {
+          "couple": "Smith, Ainsley and Kopf, Colby",
+          "place": "1",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "number": 291,
+      "title": "L-C Open Latin 3-Dance Challenge (C/S/R)",
+      "entries": [
+        {
+          "couple": "McElroy, Jan and Velychko, Andriy",
+          "place": "1",
+          "points": 18.0
+        },
+        {
+          "couple": "Laukhuf, Eva and Wienc, Bogdan",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Branigan, Christina and Dimitrov, Oleg",
+          "place": "3",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "number": 292,
+      "title": "L-A Closed Latin 3-Dance Challenge (C/S/R)",
+      "entries": [
+        {
+          "couple": "Perkins, Belgica and Shtefil, Shandor",
+          "place": "1",
+          "points": 11.25
+        },
+        {
+          "couple": "Kazlova, Yuliya and Coberg, Bryan",
+          "place": "2",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 292,
+      "title": "L-JR Closed Latin 3-Dance Challenge (C/S/R)",
+      "entries": [
+        {
+          "couple": "Letkemann, Greta and Cherdantsau, Pavel",
+          "place": "1",
+          "points": 11.25
+        },
+        {
+          "couple": "Lewis, Marin and Bumbak, Jan",
+          "place": "2",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 293,
+      "title": "L-B Closed Latin 3-Dance Challenge (C/S/R)",
+      "entries": [
+        {
+          "couple": "Perkins, Belgica and Shtefil, Shandor",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Howington, Jane and Cherdantsau, Pavel",
+          "place": "2",
+          "points": 10.5
+        },
+        {
+          "couple": "Saprounova, Vera and Rivera, Eddie",
+          "place": "3",
+          "points": 7.5
+        },
+        {
+          "couple": "Licht, Linda and Quiles, Hector",
+          "place": "4",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 293,
+      "title": "L-C Closed Latin 3-Dance Challenge (C/S/R)",
+      "entries": [
+        {
+          "couple": "Liang, Diana and Bumbak, Jan",
+          "place": "1",
+          "points": 11.25
+        },
+        {
+          "couple": "Branigan, Christina and Dimitrov, Oleg",
+          "place": "2",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 294,
+      "title": "L-A International Latin Scholarship (C/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Perkins, Belgica and Shtefil, Shandor",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Shaw, Rebeckah and Reigis, Aidas",
+          "place": "2",
+          "points": 17.5
+        },
+        {
+          "couple": "McElroy, Jan and Velychko, Andriy",
+          "place": "3",
+          "points": 12.5
+        },
+        {
+          "couple": "Laukhuf, Eva and Wienc, Bogdan",
+          "place": "4",
+          "points": 8.75
+        }
+      ]
+    },
+    {
+      "number": 294,
+      "title": "L-JR JR International Latin Scholarship (C/S/R)",
+      "entries": [
+        {
+          "couple": "Letkemann, Greta and Cherdantsau, Pavel",
+          "place": "1",
+          "points": 18.75
+        },
+        {
+          "couple": "Smith, Ainsley and Kopf, Colby",
+          "place": "2",
+          "points": 8.75
+        }
+      ]
+    }
+  ]
+}

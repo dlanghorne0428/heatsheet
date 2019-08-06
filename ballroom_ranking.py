@@ -746,6 +746,7 @@ class AppFrame(wx.Frame):
             # populate the first heat
             self.current_heat_idx = 0
             self.Display_Heat_Results(self.heat_results[0])
+            self.st_res.SetLabel("Add Results to DB")
             # enable the button to add the heat results
             self.butt_add_rslt.Enable()
             
