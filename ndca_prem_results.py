@@ -52,6 +52,7 @@ class NdcaPremResults():
         looking_for_recall_column = False
         looking_for_finalists = False
         looking_for_quarterfinal = False
+        looking_for_round_one = False
         process_finalists = False
         looking_for_semifinal = False
         url = "http://www.ndcapremier.com/scripts/results.asp?cyi=" + self.comp_id + "&event=" + event_id
@@ -155,7 +156,16 @@ class NdcaPremResults():
                     looking_for_final_dance = True
                     dance_count = 0
                 else:
-                    i += 1              
+                    i += 1        
+            elif looking_for_round_one:
+                if 'class="roundHeader"' in l:
+                    print("Found First Round")
+                    heat_report.set_rounds("R1")
+                    looking_for_round_one = False
+                    looking_for_final_dance = True
+                    dance_count = 0
+                else:
+                    i += 1                  
             elif looking_for_final_dance:
                 if 'class="eventResults"' in l:
                     dance_count += 1
@@ -169,6 +179,8 @@ class NdcaPremResults():
                     looking_for_eliminations = False
                     if heat_report.rounds() == "S":
                         looking_for_quarterfinal = True
+                    elif heat_report.rounds() == "Q":
+                        looking_for_round_one = True
                 else:
                     fields = l.split("</td>")
                     couple_field = fields[0].split("<td>")[1]
