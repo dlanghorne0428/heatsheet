@@ -2,6 +2,7 @@ import requests
 from calc_points import calc_points
 from heat import Heat, Heat_Report
 from ndca_prem_heatlist import get_name
+from instructor_list import Instructor_List
 
 class NdcaPremEvent():
     def __init__(self, line):
@@ -19,6 +20,7 @@ class NdcaPremResults():
         self.categories = []
         self.comp_id = None
         self.events = []
+        self.instructors = Instructor_List()
         
         
     def get_comp_name(self, comp_id):
@@ -121,12 +123,18 @@ class NdcaPremResults():
                         entry = heat_report.entry(index)
                         if entry.dancer == dancer:
                             entry.shirt_number = shirt_number
+                            if entry.dancer in self.instructors.names:
+                                print("Instructor:", entry.dancer)
+                                entry.swap_names()
                             if entry.result is None:
                                 entry.result = result_place
                             break
                         elif entry.partner == dancer:
-                            entry.swap_names()
                             entry.shirt_number = shirt_number
+                            if entry.partner in self.instructors.names:
+                                print("Instructor:", entry.dancer)
+                            else:
+                                print("Unknown Instructor:", entry.dancer, entry.partner)
                             if entry.result is None:
                                 entry.result = result_place
                             break
@@ -134,6 +142,14 @@ class NdcaPremResults():
                         h = heat_report.build_late_entry()
                         h.dancer = dancer
                         h.partner = partner
+                        if h.dancer in self.instructors.names:
+                            print("Instructor:", h.dancer)
+                            h.swap_names()
+                        elif h.partner in self.instructors.names:
+                            print("Instructor:", h.partner)
+                        else:
+                            print("Unknown Instructor:", h.dancer, h.partner)
+                            
                         h.shirt_number = shirt_number
                         h.result = result_place
                         h.code = "LATE"
@@ -184,22 +200,33 @@ class NdcaPremResults():
                             entry = heat_report.entry(index)
                             if entry.dancer == dancer:
                                 entry.shirt_number = shirt_number
+                                if entry.dancer in self.instructors.names:
+                                    print("Instructor:", entry.dancer)
+                                    entry.swap_names()                            
                                 if entry.result is None:
                                     entry.result = self.temp_result(heat_report.rounds(), accum_value)
-                                #entry.points = calc_points(entry.level, -2, rounds="S", accum=int(accum_value))
                                 break
                             elif entry.partner == dancer:
-                                entry.swap_names()
                                 entry.shirt_number = shirt_number
+                                if entry.partner in self.instructors.names:
+                                    print("Instructor:", entry.dancer)
+                                else:
+                                    print("Unknown Instructor:", entry.dancer, entry.partner)
                                 if entry.result is None:
                                     entry.result = self.temp_result(heat_report.rounds(), accum_value)
-                                #entry.points = calc_points(entry.level, -2, rounds="S", accum=int(accum_value))
                                 break                        
                         else:
                             h = heat_report.build_late_entry()
                             h.dancer = dancer
                             h.partner = partner
                             h.shirt_number = shirt_number
+                            if h.dancer in self.instructors.names:
+                                print("Instructor:", h.dancer)
+                                h.swap_names()
+                            elif h.partner in self.instructors.names:
+                                print("Instructor:", h.partner)
+                            else:
+                                print("Unknown Instructor:", h.dancer, h.partner)                        
                             if h.result is None:
                                 h.result = self.temp_result(heat_report.rounds(), accum_value)
                             h.code = "LATE"
