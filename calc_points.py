@@ -32,7 +32,7 @@ def calc_points(level, placement, num_competitors = 6, rounds = "F", accum = 0):
             elif placement == -1: # quarters
                 percent = min(15, max(10, accum))
             elif placement == -10: # round 1
-                percent = min(15, max(10, accum))              
+                percent = min(5, max(1, accum))              
             else:
                 percent = percent_table[place]      
         else:

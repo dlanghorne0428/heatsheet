@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "name": "Loving, Ada and Munson, Todd",
+    "results": [
+      {
+        "comp_name": "San Antonio Classic",
+        "info": "L-C Pro/Am CW (2-Step/Polka)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "San Antonio Classic",
+        "info": "L- Country 3-Dance (2-Step/CWaltz/Pol)",
+        "place": "1",
+        "points": 13.5
+      }
+    ],
+    "total_pts": 22.5,
+    "avg_pts": 11.25
+  },
+  {
+    "name": "Tam, Harry and Bagayeva, Olga",
+    "results": [
+      {
+        "comp_name": "San Antonio Classic",
+        "info": "L- Country 3-Dance (2-Step/CWaltz/Pol)",
+        "place": "2",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Law, Amy and Anderson, Cameron",
+    "results": [
+      {
+        "comp_name": "San Antonio Classic",
+        "info": "L- Country 3-Dance (2-Step/CWaltz/Pol)",
+        "place": "3",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 5.25,
+    "avg_pts": 5.25
+  }
+]
