@@ -1,7 +1,9 @@
 import requests
 from calc_points import calc_points
+from dancer import format_name
 from heat import Heat, Heat_Report
 from ndca_prem_heatlist import get_name
+from instructor_list import Instructor_List
 
 class NdcaPremEvent():
     def __init__(self, line):
@@ -19,7 +21,15 @@ class NdcaPremResults():
         self.categories = []
         self.comp_id = None
         self.events = []
+        self.instructors = Instructor_List()
         
+        
+    def order_pro_am_couple(self, entry):
+        if entry.dancer in self.instructors.names:
+            entry.swap_names()
+        elif entry.partner not in self.instructors.names:
+            print("Instructor Unknown: ", entry.dancer, "or", entry.partner)
+            
         
     def get_comp_name(self, comp_id):
         url = "http://www.ndcapremier.com/scripts/compyears.asp?cyi=" + comp_id
@@ -116,25 +126,33 @@ class NdcaPremResults():
                     sub_fields = couple_field.split(" &amp; ")
                     first_space = sub_fields[0].find(" ")
                     shirt_number = sub_fields[0][:first_space]
-                    dancer = get_name(sub_fields[0][first_space+1:])
-                    partner = get_name(sub_fields[1])
+                    dancer_name_list = list()
+                    dancer_name = sub_fields[0][first_space+1:]
+                    for s in range(1, len(dancer_name.split())):
+                        dancer_name_list.append(format_name(dancer_name, split_on=s))
+                    partner_name_list = list()
+                    partner_name = sub_fields[1]
+                    for s in range(1, len(partner_name.split())):
+                        partner_name_list.append(format_name(partner_name, split_on=s))                
                     for index in range(heat_report.length()):
                         entry = heat_report.entry(index)
-                        if entry.dancer == dancer:
+                        if entry.dancer in dancer_name_list:
                             entry.shirt_number = shirt_number
+                            self.order_pro_am_couple(entry)
                             if entry.result is None:
                                 entry.result = result_place
                             break
-                        elif entry.partner == dancer:
-                            entry.swap_names()
+                        elif entry.partner in dancer_name_list:
                             entry.shirt_number = shirt_number
+                            self.order_pro_am_couple(entry)
                             if entry.result is None:
                                 entry.result = result_place
                             break
                     else:
                         h = heat_report.build_late_entry()
-                        h.dancer = dancer
-                        h.partner = partner
+                        h.dancer = dancer_name_list[0]
+                        h.partner = partner_name_list[0]
+                        self.order_pro_am_couple(h)
                         h.shirt_number = shirt_number
                         h.result = result_place
                         h.code = "LATE"
@@ -190,28 +208,36 @@ class NdcaPremResults():
                         sub_fields = couple_field.split(" &amp; ")
                         first_space = sub_fields[0].find(" ")
                         shirt_number = sub_fields[0][:first_space]
-                        dancer = get_name(sub_fields[0][first_space+1:])
-                        partner = get_name(sub_fields[1])
+                        dancer_name_list = list()
+                        dancer_name = sub_fields[0][first_space+1:]
+                        for s in range(1, len(dancer_name.split())):
+                            dancer_name_list.append(format_name(dancer_name, split_on=s))
+                        partner_name_list = list()
+                        partner_name = sub_fields[1]
+                        for s in range(1, len(partner_name.split())):
+                            partner_name_list.append(format_name(partner_name, split_on=s))                       
+                        #dancer = get_name(sub_fields[0][first_space+1:])
+                        #partner = get_name(sub_fields[1])
                         for index in range(heat_report.length()):
                             entry = heat_report.entry(index)
-                            if entry.dancer == dancer:
+                            if entry.dancer in dancer_name_list:
                                 entry.shirt_number = shirt_number
+                                self.order_pro_am_couple(entry)
                                 if entry.result is None:
                                     entry.result = self.temp_result(heat_report.rounds(), accum_value)
-                                #entry.points = calc_points(entry.level, -2, rounds="S", accum=int(accum_value))
                                 break
-                            elif entry.partner == dancer:
-                                entry.swap_names()
+                            elif entry.partner == dancer_name_list:
                                 entry.shirt_number = shirt_number
+                                self.order_pro_am_couple(entry)
                                 if entry.result is None:
                                     entry.result = self.temp_result(heat_report.rounds(), accum_value)
-                                #entry.points = calc_points(entry.level, -2, rounds="S", accum=int(accum_value))
                                 break                        
                         else:
                             h = heat_report.build_late_entry()
-                            h.dancer = dancer
-                            h.partner = partner
+                            h.dancer = dancer_name_list[0]
+                            h.partner = partner_name_list[0]
                             h.shirt_number = shirt_number
+                            self.order_pro_am_couple(h)
                             if h.result is None:
                                 h.result = self.temp_result(heat_report.rounds(), accum_value)
                             h.code = "LATE"

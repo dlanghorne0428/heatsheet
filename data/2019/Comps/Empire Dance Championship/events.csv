@@ -34,14 +34,12 @@ Empire Dance Championship,Novice Amateur 3-Dance Events AD Int'l Ballroom (W,T,Q
 Empire Dance Championship,Novice Amateur 3-Dance Events AD Int'l Latin (CC,S,R),Latin,5
 Empire Dance Championship,Novice Amateur 3-Dance Events J1 Int'l Latin (CC,S,R),Latin,5
 Empire Dance Championship,Novice Amateur 3-Dance Events S1 Int'l Latin (CC,S,R),Latin,5
-Empire Dance Championship,Novice Amateur 3-Dance Events S2 Amer. Smooth (W,T,F),Smooth,5
 Empire Dance Championship,Novice Amateur 3-Dance Events S2 Int'l Latin (CC,S,R),Latin,5
 Empire Dance Championship,Novice Amateur 3-Dance Events S3 Int'l Latin (CC,S,R),Latin,5
 Empire Dance Championship,Novice Amateur 3-Dance Events YH Int'l Latin (CC,S,R),Latin,5
 Empire Dance Championship,Novice Amateur 3-Dance Events mJ1 Int'l Latin (CC,S,R),Latin,5
 Empire Dance Championship,Novice Amateur 3-Dance Events mJ2 Int'l Latin (CC,S,R),Latin,5
 Empire Dance Championship,Novice Amateur NP 3-Dance Events J1 Int'l Latin (CC,S,R),Latin,5
-Empire Dance Championship,Novice Amateur NP 3-Dance Events J2 Int'l Latin (CC,S,R),Latin,5
 Empire Dance Championship,Open Amateur 4/5 Dance Championships  AD Amer. Smooth Championship (W,T,F,VW),Smooth,20
 Empire Dance Championship,Open Amateur 4/5 Dance Championships  J1 Int'l Latin Championship (CC,S,R,PD,J),Latin,20
 Empire Dance Championship,Open Amateur 4/5 Dance Championships  J2 Int'l Ballroom Championship (W,T,VW,F,Q),Standard,20
@@ -54,10 +52,10 @@ Empire Dance Championship,Open Amateur 4/5 Dance J1 Int'l Ballroom Championship 
 Empire Dance Championship,Open Amateur 5-Dance Scholarships AD Int'l Ballroom (W,T,VW,F,Q),Standard,25
 Empire Dance Championship,Open Amateur 5-Dance Scholarships AD Int'l Latin (CC,S,R,PD,J),Latin,25
 Empire Dance Championship,PreChamp Amateur 4-Dance Events AD Amer. Smooth (W,T,F,VW),Smooth,15
+Empire Dance Championship,PreChamp Amateur 4-Dance Events AD Amer. Smooth (W,T,F,VW) /J,Smooth,15
 Empire Dance Championship,PreChamp Amateur 4-Dance Events AD Int'l Ballroom (W,T,F,Q),Standard,15
 Empire Dance Championship,PreChamp Amateur 4-Dance Events AD Int'l Latin (CC,S,R,J),Latin,15
 Empire Dance Championship,PreChamp Amateur 4-Dance Events J1 Int'l Latin (CC,S,R,J),Latin,15
-Empire Dance Championship,PreChamp Amateur 4-Dance Events S2 Amer. Smooth (W,T,F,VW),Smooth,15
 Empire Dance Championship,PreChamp Amateur 4-Dance Events S2 Int'l Ballroom (W,T,F,Q),Standard,15
 Empire Dance Championship,PreChamp Amateur 4-Dance Events S3 Int'l Ballroom (W,T,F,Q),Standard,15
 Empire Dance Championship,PreChamp Amateur 4-Dance Events S3 Int'l Latin (CC,S,R,J),Latin,15
@@ -68,7 +66,6 @@ Empire Dance Championship,ProAm 2-Dance Championships  Closed Bronze A3 Int'l Ba
 Empire Dance Championship,ProAm 2-Dance Championships  Closed Bronze B1 Amer. Smooth Championship (W,T),Smooth,10
 Empire Dance Championship,ProAm 2-Dance Championships  Closed Bronze B1 Int'l Ballroom Championship (W,T),Standard,10
 Empire Dance Championship,ProAm 2-Dance Championships  Closed Bronze B2 Amer. Smooth Championship (W,T),Smooth,10
-Empire Dance Championship,ProAm 2-Dance Championships  Closed Bronze B3 Amer. Rhythm Championship (CC,R),Rhythm,10
 Empire Dance Championship,ProAm 2-Dance Championships  Closed Bronze B3 Amer. Smooth Championship (W,T),Smooth,10
 Empire Dance Championship,ProAm 2-Dance Championships  Closed Bronze B3 Int'l Latin Championship (CC,R),Latin,10
 Empire Dance Championship,ProAm 2-Dance Championships  Closed Bronze C2 Amer. Smooth Championship (W,T),Smooth,10
@@ -85,6 +82,7 @@ Empire Dance Championship,ProAm 2-Dance Championships  Open Silver B3 Amer. Smoo
 Empire Dance Championship,ProAm 2-Dance Championships  Open Silver C1 Amer. Smooth Championship (W,T),Smooth,20
 Empire Dance Championship,ProAm 2-Dance Closed Bronze A2 Amer. Rhythm Championship (CC,R),Rhythm,10
 Empire Dance Championship,ProAm 2-Dance Closed Bronze A2 Int'l Latin Championship (CC,R),Latin,10
+Empire Dance Championship,ProAm 2-Dance Closed Bronze A3 Amer. Smooth Championship (W,T),Smooth,10
 Empire Dance Championship,ProAm 2-Dance Closed Bronze A3 Int'l Latin Championship (CC,R),Latin,10
 Empire Dance Championship,ProAm 2-Dance Closed Bronze B1 Amer. Rhythm Championship (CC,R),Rhythm,10
 Empire Dance Championship,ProAm 2-Dance Closed Bronze B1 Int'l Latin Championship (CC,R),Latin,10
@@ -93,21 +91,18 @@ Empire Dance Championship,ProAm 2-Dance Closed Bronze C1 Amer. Rhythm Championsh
 Empire Dance Championship,ProAm 2-Dance Closed Bronze C1 Amer. Smooth Championship (W,T),Smooth,10
 Empire Dance Championship,ProAm 2-Dance Closed Bronze C1 Int'l Latin Championship (CC,R),Latin,10
 Empire Dance Championship,ProAm 2-Dance Closed Gold A1 Int'l Latin Championship (CC,R),Latin,20
-Empire Dance Championship,ProAm 2-Dance Closed Gold B1 Int'l Ballroom Championship (W,T),Standard,20
 Empire Dance Championship,ProAm 2-Dance Closed Silver B1 Amer. Rhythm Championship (CC,R),Rhythm,15
 Empire Dance Championship,ProAm 2-Dance Closed Silver B1 Amer. Smooth Championship (W,T),Smooth,15
 Empire Dance Championship,ProAm 2-Dance Closed Silver B1 Int'l Ballroom Championship (W,T),Standard,15
 Empire Dance Championship,ProAm 2-Dance Closed Silver B1 Int'l Latin Championship (CC,R),Latin,15
 Empire Dance Championship,ProAm 2-Dance Closed Silver B2 Amer. Rhythm Championship (CC,R),Rhythm,15
 Empire Dance Championship,ProAm 2-Dance Closed Silver B2 Amer. Smooth Championship (W,T),Smooth,15
-Empire Dance Championship,ProAm 2-Dance Closed Silver B2 Int'l Latin Championship (CC,R),Latin,15
 Empire Dance Championship,ProAm 2-Dance Closed Silver B3 Amer. Smooth Championship (W,T),Smooth,15
 Empire Dance Championship,ProAm 2-Dance Closed Silver B3 Int'l Ballroom Championship (W,T),Standard,15
 Empire Dance Championship,ProAm 2-Dance Closed Silver B3 Int'l Latin Championship (CC,R),Latin,15
 Empire Dance Championship,ProAm 2-Dance Open Bronze A2 Int'l Latin Championship (CC,R),Latin,15
 Empire Dance Championship,ProAm 2-Dance Open Bronze B1 Amer. Rhythm Championship (CC,R),Rhythm,15
 Empire Dance Championship,ProAm 2-Dance Open Bronze B1 Amer. Smooth Championship (W,T),Smooth,15
-Empire Dance Championship,ProAm 2-Dance Open Bronze B3 Amer. Rhythm Championship (CC,R),Rhythm,15
 Empire Dance Championship,ProAm 2-Dance Open Bronze B3 Amer. Smooth Championship (W,T),Smooth,15
 Empire Dance Championship,ProAm 2-Dance Open Bronze C1 Amer. Rhythm Championship (CC,R),Rhythm,15
 Empire Dance Championship,ProAm 2-Dance Open Bronze C1 Int'l Ballroom Championship (W,T),Standard,15
@@ -118,6 +113,7 @@ Empire Dance Championship,ProAm 2-Dance Open Silver B1 Amer. Rhythm Championship
 Empire Dance Championship,ProAm 2-Dance Open Silver B1 Amer. Smooth Championship (W,T),Smooth,20
 Empire Dance Championship,ProAm 2-Dance Open Silver B1 Int'l Ballroom Championship (W,T),Standard,20
 Empire Dance Championship,ProAm 2-Dance Open Silver B2 Int'l Latin Championship (CC,R),Latin,20
+Empire Dance Championship,ProAm 2-Dance Open Silver mA3 AM/AM Int'l Latin Championship (CC,R),Latin,20
 Empire Dance Championship,ProAm 3-Dance Championships  Closed Bronze A1 Int'l Ballroom Championship (W,T,F),Standard,10
 Empire Dance Championship,ProAm 3-Dance Championships  Closed Bronze A2 Amer. Smooth Championship (W,T,F),Smooth,10
 Empire Dance Championship,ProAm 3-Dance Championships  Closed Bronze A3 Amer. Smooth Championship (W,T,F),Smooth,10
@@ -133,7 +129,6 @@ Empire Dance Championship,ProAm 3-Dance Championships  Closed Bronze B3 Int'l La
 Empire Dance Championship,ProAm 3-Dance Championships  Closed Bronze C1 Amer. Rhythm Championship (CC,R,M),Rhythm,10
 Empire Dance Championship,ProAm 3-Dance Championships  Closed Bronze mC3 Int'l Latin Championship (CC,S,R),Latin,10
 Empire Dance Championship,ProAm 3-Dance Championships  Closed Bronze mLA2 AM/AM Int'l Latin Championship (CC,S,R),Latin,10
-Empire Dance Championship,ProAm 3-Dance Championships  Closed Bronze mLB1 AM/AM Int'l Ballroom Championship (W,T,F),Standard,10
 Empire Dance Championship,ProAm 3-Dance Championships  Closed Gold B2 Amer. Smooth Championship (W,T,F),Smooth,20
 Empire Dance Championship,ProAm 3-Dance Championships  Closed Gold C2 Int'l Ballroom Championship (W,T,F),Standard,20
 Empire Dance Championship,ProAm 3-Dance Championships  Closed Gold C3 Int'l Ballroom Championship (W,T,F),Standard,20
@@ -166,6 +161,7 @@ Empire Dance Championship,ProAm 3-Dance Championships  Open Silver C2 Amer. Smoo
 Empire Dance Championship,ProAm 3-Dance Closed Bronze A2 Amer. Rhythm Championship (CC,R,M),Rhythm,10
 Empire Dance Championship,ProAm 3-Dance Closed Bronze A2 Int'l Latin Championship (CC,S,R),Latin,10
 Empire Dance Championship,ProAm 3-Dance Closed Bronze A3 Amer. Rhythm Championship (CC,R,M),Rhythm,10
+Empire Dance Championship,ProAm 3-Dance Closed Bronze B2 Amer. Rhythm Championship (CC,R,M),Rhythm,10
 Empire Dance Championship,ProAm 3-Dance Closed Bronze B2 Int'l Ballroom Championship (W,T,F),Standard,10
 Empire Dance Championship,ProAm 3-Dance Closed Bronze B2 Int'l Latin Championship (CC,S,R),Latin,10
 Empire Dance Championship,ProAm 3-Dance Closed Bronze B3 Int'l Ballroom Championship (W,T,F),Standard,10
@@ -187,7 +183,6 @@ Empire Dance Championship,ProAm 3-Dance Closed Silver B1 Int'l Latin Championshi
 Empire Dance Championship,ProAm 3-Dance Closed Silver B2 Amer. Rhythm Championship (CC,R,M),Rhythm,15
 Empire Dance Championship,ProAm 3-Dance Closed Silver B2 Amer. Smooth Championship (W,T,F),Smooth,15
 Empire Dance Championship,ProAm 3-Dance Closed Silver B3 Amer. Rhythm Championship (CC,R,M),Rhythm,15
-Empire Dance Championship,ProAm 3-Dance Closed Silver B3 Int'l Latin Championship (CC,S,R),Latin,15
 Empire Dance Championship,ProAm 3-Dance Closed Silver C1 Amer. Rhythm Championship (CC,R,M),Rhythm,15
 Empire Dance Championship,ProAm 3-Dance Closed Silver C1 Int'l Latin Championship (CC,S,R),Latin,15
 Empire Dance Championship,ProAm 3-Dance Closed Silver C2 Int'l Latin Championship (CC,S,R),Latin,15
@@ -195,13 +190,16 @@ Empire Dance Championship,ProAm 3-Dance Open Bronze A2 Int'l Latin Championship 
 Empire Dance Championship,ProAm 3-Dance Open Bronze B1 Amer. Rhythm Championship (CC,R,M),Rhythm,15
 Empire Dance Championship,ProAm 3-Dance Open Bronze B1 Amer. Smooth Championship (W,T,F),Smooth,15
 Empire Dance Championship,ProAm 3-Dance Open Bronze B1 Int'l Ballroom Championship (W,T,F),Standard,15
+Empire Dance Championship,ProAm 3-Dance Open Bronze C1 Amer. Rhythm Championship (CC,R,M),Rhythm,15
 Empire Dance Championship,ProAm 3-Dance Open Gold A1 Int'l Latin Championship (CC,S,R),Latin,25
 Empire Dance Championship,ProAm 3-Dance Open Gold B1 Int'l Ballroom Championship (W,T,F),Standard,25
 Empire Dance Championship,ProAm 3-Dance Open Gold B2 Amer. Smooth Championship (W,T,F),Smooth,25
 Empire Dance Championship,ProAm 3-Dance Open Gold B2 Int'l Latin Championship (CC,S,R),Latin,25
 Empire Dance Championship,ProAm 3-Dance Open Gold C1 Amer. Rhythm Championship (CC,R,M),Rhythm,25
+Empire Dance Championship,ProAm 3-Dance Open Gold C1 Int'l Latin Championship (CC,S,R),Latin,25
 Empire Dance Championship,ProAm 3-Dance Open Gold mYH AM/AM Int'l Latin Championship (CC,S,R),Latin,25
 Empire Dance Championship,ProAm 3-Dance Open Silver A1 Amer. Rhythm Championship (CC,R,M),Rhythm,20
+Empire Dance Championship,ProAm 3-Dance Open Silver A3 AM/AM Int'l Latin Championship (CC,S,R),Latin,20
 Empire Dance Championship,ProAm 3-Dance Open Silver A3 Amer. Rhythm Championship (CC,R,M),Rhythm,20
 Empire Dance Championship,ProAm 3-Dance Open Silver B1 Amer. Smooth Championship (W,T,F),Smooth,20
 Empire Dance Championship,ProAm 3-Dance Open Silver B1 Int'l Ballroom Championship (W,T,F),Standard,20
@@ -230,7 +228,6 @@ Empire Dance Championship,ProAm 4/5 Dance Championships  Closed Silver B1 Amer. 
 Empire Dance Championship,ProAm 4/5 Dance Championships  Closed Silver B1 Int'l Ballroom Championship (W,T,VW,F,Q),Standard,15
 Empire Dance Championship,ProAm 4/5 Dance Championships  Closed Silver B2 Int'l Latin Championship (CC,S,R,PD,J),Latin,15
 Empire Dance Championship,ProAm 4/5 Dance Championships  Closed Silver B3 Int'l Ballroom Championship (W,T,VW,F,Q),Standard,15
-Empire Dance Championship,ProAm 4/5 Dance Championships  Closed Silver C2 Amer. Smooth Championship (W,T,F,VW),Smooth,15
 Empire Dance Championship,ProAm 4/5 Dance Championships  Closed Silver J1 Int'l Ballroom Championship (W,T,VW,F,Q),Standard,15
 Empire Dance Championship,ProAm 4/5 Dance Championships  Open Bronze B1 Int'l Latin Championship (CC,S,R,PD,J),Latin,15
 Empire Dance Championship,ProAm 4/5 Dance Championships  Open Gold A2 Amer. Smooth Championship (W,T,F,VW),Smooth,25
@@ -265,7 +262,6 @@ Empire Dance Championship,ProAm 4/5 Dance Championships  Rising Star B1 Amer. Rh
 Empire Dance Championship,ProAm 4/5 Dance Championships  Rising Star B1 Int'l Latin Championship (CC,S,R,PD,J),Latin,20
 Empire Dance Championship,ProAm 4/5 Dance Championships  Rising Star GB2 Amer. Smooth Championship (W,T,F,VW),Smooth,20
 Empire Dance Championship,ProAm 4/5 Dance Closed Bronze A2 Amer. Rhythm Championship (CC,R,SW,B,M),Rhythm,10
-Empire Dance Championship,ProAm 4/5 Dance Closed Bronze A2 Amer. Smooth Championship (W,T,F,VW),Smooth,10
 Empire Dance Championship,ProAm 4/5 Dance Closed Bronze B1 Amer. Rhythm Championship (CC,R,SW,B,M),Rhythm,10
 Empire Dance Championship,ProAm 4/5 Dance Closed Bronze B1 Amer. Smooth Championship (W,T,F,VW),Smooth,10
 Empire Dance Championship,ProAm 4/5 Dance Closed Bronze B1 Int'l Ballroom Championship (W,T,VW,F,Q),Standard,10
@@ -279,7 +275,6 @@ Empire Dance Championship,ProAm 4/5 Dance Closed Bronze YH Amer. Rhythm Champion
 Empire Dance Championship,ProAm 4/5 Dance Closed Gold B1 Int'l Ballroom Championship (W,T,VW,F,Q),Standard,20
 Empire Dance Championship,ProAm 4/5 Dance Closed Silver A1 Amer. Rhythm Championship (CC,R,SW,B,M),Rhythm,15
 Empire Dance Championship,ProAm 4/5 Dance Closed Silver A1 Amer. Smooth Championship (W,T,F,VW),Smooth,15
-Empire Dance Championship,ProAm 4/5 Dance Closed Silver A3 Amer. Rhythm Championship (CC,R,SW,B,M),Rhythm,15
 Empire Dance Championship,ProAm 4/5 Dance Closed Silver A3 Amer. Smooth Championship (W,T,F,VW),Smooth,15
 Empire Dance Championship,ProAm 4/5 Dance Closed Silver A3 Int'l Ballroom Championship (W,T,VW,F,Q),Standard,15
 Empire Dance Championship,ProAm 4/5 Dance Closed Silver B1 Amer. Smooth Championship (W,T,F,VW),Smooth,15
@@ -301,6 +296,7 @@ Empire Dance Championship,ProAm 4/5 Dance Open Bronze B1 Amer. Smooth Championsh
 Empire Dance Championship,ProAm 4/5 Dance Open Bronze B1 Int'l Ballroom Championship (W,T,VW,F,Q),Standard,15
 Empire Dance Championship,ProAm 4/5 Dance Open Bronze B2 Amer. Rhythm Championship (CC,R,SW,B,M),Rhythm,15
 Empire Dance Championship,ProAm 4/5 Dance Open Bronze C1 Amer. Rhythm Championship (CC,R,SW,B,M),Rhythm,15
+Empire Dance Championship,ProAm 4/5 Dance Open Bronze GB1 Int'l Ballroom Championship (W,T,VW,F,Q),Standard,15
 Empire Dance Championship,ProAm 4/5 Dance Open Gold A1 Int'l Latin Championship (CC,S,R,PD,J),Latin,25
 Empire Dance Championship,ProAm 4/5 Dance Open Gold B1 Amer. Rhythm Championship (CC,R,SW,B,M),Rhythm,25
 Empire Dance Championship,ProAm 4/5 Dance Open Gold B2 Amer. Rhythm Championship (CC,R,SW,B,M),Rhythm,25
@@ -308,25 +304,23 @@ Empire Dance Championship,ProAm 4/5 Dance Open Gold C1 Amer. Rhythm Championship
 Empire Dance Championship,ProAm 4/5 Dance Open Gold C1 Amer. Smooth Championship (W,T,F,VW),Smooth,25
 Empire Dance Championship,ProAm 4/5 Dance Open Gold C1 Int'l Latin Championship (CC,S,R,PD,J),Latin,25
 Empire Dance Championship,ProAm 4/5 Dance Open Gold C3 Int'l Latin Championship (CC,S,R,PD,J),Latin,25
-Empire Dance Championship,ProAm 4/5 Dance Open Gold GB1 Int'l Ballroom Championship (W,T,VW,F,Q),Standard,25
-Empire Dance Championship,ProAm 4/5 Dance Open Gold GB2 Int'l Latin Championship (CC,S,R,PD,J),Latin,25
-Empire Dance Championship,ProAm 4/5 Dance Open Gold YH Int'l Latin Championship (CC,S,R,PD,J),Latin,25
 Empire Dance Championship,ProAm 4/5 Dance Open Silver A1 Int'l Latin Championship (CC,S,R,PD,J),Latin,20
 Empire Dance Championship,ProAm 4/5 Dance Open Silver B1 Amer. Smooth Championship (W,T,F,VW),Smooth,20
 Empire Dance Championship,ProAm 4/5 Dance Open Silver B1 Int'l Ballroom Championship (W,T,VW,F,Q),Standard,20
-Empire Dance Championship,ProAm 4/5 Dance Open Silver B2 Int'l Latin Championship (CC,S,R,PD,J),Latin,20
+Empire Dance Championship,ProAm 4/5 Dance Open Silver B2 Amer. Rhythm Championship (CC,R,SW,B,M),Rhythm,20
+Empire Dance Championship,ProAm 4/5 Dance Open Silver C2 Amer. Smooth Championship (W,T,F,VW),Smooth,20
+Empire Dance Championship,ProAm 4/5 Dance Open Silver GB2 Int'l Latin Championship (CC,S,R,PD,J),Latin,20
 Empire Dance Championship,ProAm 4/5 Dance Rising Star A1 Int'l Latin Championship (CC,S,R,PD,J),Latin,20
 Empire Dance Championship,ProAm 4/5 Dance Rising Star A2 Int'l Ballroom Championship (W,T,VW,F,Q),Standard,20
 Empire Dance Championship,ProAm 4/5 Dance Rising Star A2 Int'l Latin Championship (CC,S,R,PD,J),Latin,20
 Empire Dance Championship,ProAm 4/5 Dance Rising Star A3 Amer. Rhythm Championship (CC,R,SW,B,M),Rhythm,20
 Empire Dance Championship,ProAm 4/5 Dance Rising Star A3 Amer. Smooth Championship (W,T,F,VW),Smooth,20
-Empire Dance Championship,ProAm 4/5 Dance Rising Star A3 Int'l Latin Championship (CC,S,R,PD,J),Latin,20
 Empire Dance Championship,ProAm 4/5 Dance Rising Star B1 Amer. Smooth Championship (W,T,F,VW),Smooth,20
 Empire Dance Championship,ProAm 4/5 Dance Rising Star B1 Int'l Ballroom Championship (W,T,VW,F,Q),Standard,20
 Empire Dance Championship,ProAm 4/5 Dance Rising Star B2 Int'l Ballroom Championship (W,T,VW,F,Q),Standard,20
+Empire Dance Championship,ProAm 4/5 Dance Rising Star B3 Int'l Latin Championship (CC,S,R,PD,J),Latin,20
 Empire Dance Championship,ProAm 4/5 Dance Rising Star GB1 Amer. Rhythm Championship (CC,R,SW,B,M),Rhythm,20
 Empire Dance Championship,ProAm 4/5 Dance Rising Star GB1 Amer. Smooth Championship (W,T,F,VW),Smooth,20
-Empire Dance Championship,ProAm 4/5 Dance Rising Star YH Int'l Latin Championship (CC,S,R,PD,J),Latin,20
 Empire Dance Championship,ProAm American 6-Dance Closed Bronze B (W,T,F,CC,R,SW),Unknown,10
 Empire Dance Championship,ProAm American 6-Dance Closed Bronze C (W,T,F,CC,R,SW),Unknown,10
 Empire Dance Championship,ProAm American 6-Dance Closed Silver C (W,T,F,CC,R,SW),Unknown,15
@@ -335,8 +329,7 @@ Empire Dance Championship,ProAm American 9-Dance Closed Silver (W,T,F,VW,CC,R,SW
 Empire Dance Championship,ProAm American 9-Dance Open Gold (W,T,F,VW,CC,R,SW,B,M),Unknown,25
 Empire Dance Championship,ProAm American 9-Dance Open Scholarship (W,T,F,VW,CC,R,SW,B,M),Unknown,25
 Empire Dance Championship,ProAm International 10-Dance Open Gold B (W,T,VW,F,Q,CC,S,R,PD,J),Unknown,25
-Empire Dance Championship,ProAm International 10-Dance Open Gold C (W,T,VW,F,Q,CC,S,R,PD),Unknown,25
-Empire Dance Championship,ProAm International 10-Dance Open Gold P2 (W,T,VW,F,Q,CC,S,R,PD),Unknown,25
+Empire Dance Championship,ProAm International 10-Dance Open Gold P2 (W,T,VW,F,Q,CC,S,R,PD,J),Unknown,25
 Empire Dance Championship,ProAm International 6-Dance Closed Bronze A (W,T,F,CC,S,R),Unknown,10
 Empire Dance Championship,ProAm International 6-Dance Closed Bronze B (W,T,F,CC,S,R),Unknown,10
 Empire Dance Championship,ProAm International 6-Dance Closed Bronze C (W,T,F,CC,S,R),Unknown,10
@@ -350,7 +343,6 @@ Empire Dance Championship,ProAm Open Senior Scholarships S2 Amer. Rhythm (CC,R,S
 Empire Dance Championship,ProAm Open Senior Scholarships S2 Amer. Smooth (W,T,F,VW),Smooth,25
 Empire Dance Championship,ProAm Open Senior Scholarships S2 Int'l Ballroom (W,T,F,Q),Standard,25
 Empire Dance Championship,ProAm Open Senior Scholarships S2 Int'l Latin (CC,S,R,PD),Latin,25
-Empire Dance Championship,ProAm Scholarships Closed Bronze A Amer. Rhythm (CC,R,SW,B,M),Rhythm,15
 Empire Dance Championship,ProAm Scholarships Closed Bronze A Amer. Smooth (W,T,F,VW),Smooth,15
 Empire Dance Championship,ProAm Scholarships Closed Bronze A Int'l Ballroom (W,T,VW,F,Q),Standard,15
 Empire Dance Championship,ProAm Scholarships Closed Bronze A Int'l Latin (CC,S,R,PD,J),Latin,15
@@ -375,6 +367,7 @@ Empire Dance Championship,ProAm Scholarships Closed Gold C Amer. Rhythm (CC,R,SW
 Empire Dance Championship,ProAm Scholarships Closed Gold C Amer. Smooth (W,T,F,VW),Smooth,25
 Empire Dance Championship,ProAm Scholarships Closed Gold C Int'l Ballroom (W,T,VW,F,Q),Standard,25
 Empire Dance Championship,ProAm Scholarships Closed Gold C Int'l Latin (CC,S,R,PD,J),Latin,25
+Empire Dance Championship,ProAm Scholarships Closed Gold D Amer. Rhythm (CC,R,SW,B,M),Rhythm,25
 Empire Dance Championship,ProAm Scholarships Closed Gold D Amer. Smooth (W,T,F,VW),Smooth,25
 Empire Dance Championship,ProAm Scholarships Closed Gold D Int'l Ballroom (W,T,VW,F,Q),Standard,25
 Empire Dance Championship,ProAm Scholarships Closed Silver A Amer. Rhythm (CC,R,SW,B,M),Rhythm,20
