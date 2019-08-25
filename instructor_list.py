@@ -74,7 +74,8 @@ class Instructor_List():
         print("Total number of professionals:", len(self.names))
         
         
-# main
-instructors = Instructor_List()
-print(instructors.names)
+'''Main program'''
+if __name__ == '__main__':
+    instructors = Instructor_List()
+    print(instructors.names)
         
