@@ -15,6 +15,7 @@ from enum import Enum
 from datetime import date
 
 from calc_points import calc_points
+from dancer import format_name
 from heat import Heat, Heat_Report, dummy_heat_info, non_pro_heat_level
 from heatlist import Heatlist
 from ndca_prem_heatlist import NdcaPremHeatlist, NdcaPremHeat
@@ -585,6 +586,19 @@ class HelloFrame(wx.Frame):
             url = text_dialog.GetValue() 
             self.heatlist = NdcaPremHeatlist()    
             self.heatlist.open(url)
+            for d in self.heatlist.dancers:
+                name_fields = d.name.split()
+                if len(name_fields) == 2:
+                    d.name = format_name(d.name)
+                else:
+                    name_choices = list()
+                    for s in range(1, len(name_fields)):
+                        name_choices.append(format_name(d.name, split_on=s))
+                    md = wx.SingleChoiceDialog(self, d.name, caption="Select Name Format", choices=name_choices)
+                    if md.ShowModal() == wx.ID_OK:
+                        # let user decide how to split the name
+                        choice_index = md.GetSelection()
+                        d.name = name_choices[choice_index]
             self.timer_state = TimerState.READ_DANCER
             self.Initialize_Timer_and_ProgressBar()
                      
