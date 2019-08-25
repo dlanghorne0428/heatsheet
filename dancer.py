@@ -1,3 +1,17 @@
+def format_name(orig_name, split_on=1):
+    '''This method converts the name into last, first format.'''
+    name = ""
+    fields = orig_name.split()
+    for f in range(split_on, len(fields)):
+        if f > split_on:
+            name += " "
+        name += fields[f]
+    name += ","
+    for f in range(0, split_on):
+        name += " " + fields[f]
+    return name
+
+
 class Dancer():
     def __init__(self, name="", code=""):
         self.name = name
@@ -16,3 +30,4 @@ class Dancer():
         if d not in self.age_divisions:
             self.age_divisions.append(d)
             self.age_divisions.sort() 
+            
