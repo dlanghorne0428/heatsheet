@@ -1,23 +1,18 @@
 import requests
 
 from couple import Couple
-from dancer import Dancer
+from dancer import Dancer, format_name
 from heat import Heat, Heat_Report
 from heatlist import Heatlist
 
 
 def get_name(line):
     '''This method converts the dancer's name into last, first format.'''
+    fields = line.split()
+    if len(fields) > 2:
+        print("Name split problem", line)
     first_space_pos = line.find(" ")
     return line[first_space_pos+1:] + ", " + line[:first_space_pos]  
-
-def get_partner(line):
-    '''This method searches for the partner's name on the given line.'''
-    if 'partner-name' in line:
-        start_pos = line.find("With ") + len("With ")
-        return get_name(line[start_pos:-5])
-    else:
-        return None
 
 
 class NdcaPremHeat(Heat):
@@ -90,7 +85,8 @@ class NdcaPremDancer(Dancer):
         
         # find the dancer's name
         fields = line.split(">")
-        self.name = get_name(fields[1])
+        #self.name = get_name(fields[1])
+        self.name = fields[1]
         
         # find the ID code for this dancer
         pos = fields[0].find("competitor=") + len("competitor=")
@@ -121,6 +117,21 @@ class NdcaPremHeatlist(Heatlist):
         return comp_name
     
         
+    def get_partner(self, line):
+        '''This method searches for the partner's name on the given line.'''
+        if 'partner-name' in line:
+            start_pos = line.find("With ") + len("With ")
+            name = line[start_pos:-5]
+            name_fields = name.split()
+            for f in range(1, len(name_fields)):
+                name_scramble = format_name(name, split_on=f)
+                for d in self.dancers:
+                    if d.name == name_scramble:
+                        return d.name
+        else:
+            return None
+        
+        
     def get_age_division(self, line):
         '''
         This method looks for an age division on the given line. 
@@ -145,7 +156,7 @@ class NdcaPremHeatlist(Heatlist):
             # parse all the rows with heat information
             while row_index < len(rows) - 1:
                 # check if this item specifies a partner name
-                p = get_partner(rows[row_index])
+                p = self.get_partner(rows[row_index])
                 if p is not None:
                     partner = p
                     # partner found, skip row with headings
