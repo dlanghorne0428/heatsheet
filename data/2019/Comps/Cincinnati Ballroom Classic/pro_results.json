@@ -1,0 +1,243 @@
+{
+  "comp name": "Cincinnati Ballroom Classic",
+  "heats": [
+    {
+      "number": 1,
+      "title": "Professional Rising Star American Rhythm (CC/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Shiller, Artem and Shiller, Ginny Ray",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Merz, Timmy and Strashnikova, Diana",
+          "place": "2",
+          "points": 7.0
+        },
+        {
+          "couple": "Katona, Zsolt and Potys, Timea",
+          "place": "3",
+          "points": 5.0
+        },
+        {
+          "couple": "Davis, Dwight and Vaidya, Uttara",
+          "place": "4",
+          "points": 3.5
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Professional Rising Star American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Mora, Leo and Garced, Christina",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Merz, Timmy and Strashnikova, Diana",
+          "place": "2",
+          "points": 7.0
+        },
+        {
+          "couple": "Perpich, Brandon and Perpich, Kristen",
+          "place": "3",
+          "points": 5.0
+        },
+        {
+          "couple": "Pellicori, Fabio and Whitesell, Leslie",
+          "place": "3",
+          "points": 5.0
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Professional Rising Star International Latin (CC/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Elkin, Bozhidar and Dumanova, Elena",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Spadoni, Simone and Caporale, Simona",
+          "place": "2",
+          "points": 7.0
+        },
+        {
+          "couple": "Katona, Zsolt and Potys, Timea",
+          "place": "3",
+          "points": 5.0
+        },
+        {
+          "couple": "Pashayev and Halversen",
+          "place": "4",
+          "points": 3.5
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Professional American Rhythm (CC/R/SW/B/M)",
+      "entries": [
+        {
+          "couple": "Jensen, Shane and Jensen, Shannon",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "Kondov, Toshko and Dobson, Kristen",
+          "place": "2",
+          "points": 24.0
+        },
+        {
+          "couple": "Shiller, Artem and Shiller, Ginny Ray",
+          "place": "3",
+          "points": 19.5
+        },
+        {
+          "couple": "Lewis, Ryan and Rutherford, Lindsey",
+          "place": "4",
+          "points": 15.0
+        },
+        {
+          "couple": "Merz, Timmy and Strashnikova, Diana",
+          "place": "5",
+          "points": 12.0
+        },
+        {
+          "couple": "Katona, Zsolt and Potys, Timea",
+          "place": "6",
+          "points": 10.5
+        },
+        {
+          "couple": "Davis, Dwight and Vaidya, Uttara",
+          "place": "Semis",
+          "points": 1.8
+        },
+        {
+          "couple": "Stockton, Andrew and Fulper-Smith, Mersey",
+          "place": "Semis",
+          "points": 1.5
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Professional International Latin (CC/S/R/PD/J)",
+      "entries": [
+        {
+          "couple": "Elkin, Bozhidar and Dumanova, Elena",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Minaev, Aleksei and Minaeva, Elena",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Spadoni, Simone and Caporale, Simona",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Katona, Zsolt and Potys, Timea",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Pashayev and Halversen",
+          "place": "5",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Professional American Smooth (W/T/F/VW)",
+      "entries": [
+        {
+          "couple": "Zavialov, Dmitrii and Baumgartner, Katt",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "Shapoval, Sergei and Popovich, Mila",
+          "place": "2",
+          "points": 24.0
+        },
+        {
+          "couple": "Mora, Leo and Garced, Christina",
+          "place": "3",
+          "points": 19.5
+        },
+        {
+          "couple": "Elser, David and Krug, Elizabeth",
+          "place": "4",
+          "points": 15.0
+        },
+        {
+          "couple": "Merz, Timmy and Strashnikova, Diana",
+          "place": "5",
+          "points": 12.0
+        },
+        {
+          "couple": "Pellicori, Fabio and Whitesell, Leslie",
+          "place": "6",
+          "points": 10.5
+        },
+        {
+          "couple": "Perpich, Brandon and Perpich, Kristen",
+          "place": "Semis",
+          "points": 3.9
+        },
+        {
+          "couple": "Stockton, Andrew and Smith, Rachel",
+          "place": "Semis",
+          "points": 0.9
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Professional International Ballroom (W/T/VW/F/Q)",
+      "entries": [
+        {
+          "couple": "Minaev, Aleksei and Minaeva, Elena",
+          "place": "1",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Cabaret",
+      "entries": [
+        {
+          "couple": "Jensen, Shane and Jensen, Shannon",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Tsorokean, Alyenendrov and Wheeler, Maria",
+          "place": "2",
+          "points": 14.0
+        },
+        {
+          "couple": "Minaev, Aleksei and Minaeva, Elena",
+          "place": "3",
+          "points": 10.0
+        },
+        {
+          "couple": "Spadoni, Simone and Caporale, Simona",
+          "place": "4",
+          "points": 7.0
+        }
+      ]
+    }
+  ]
+}

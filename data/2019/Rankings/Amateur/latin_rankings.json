@@ -13,25 +13,6 @@
     "avg_pts": 55.0
   },
   {
-    "name": "Lopez, Joel and Bespechnova, Kristina",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
-        "place": "1",
-        "points": 50.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Amateur Open Scholarships A Int'l Latin (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 35.0
-      }
-    ],
-    "total_pts": 85.0,
-    "avg_pts": 42.5
-  },
-  {
     "name": "Timchenko, Andrew and Smodleva, Barbara",
     "results": [
       {
@@ -49,6 +30,31 @@
     ],
     "total_pts": 80.0,
     "avg_pts": 40.0
+  },
+  {
+    "name": "Lopez, Joel and Bespechnova, Kristina",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 50.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Amateur Open Scholarships A Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 35.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 32.0
+      }
+    ],
+    "total_pts": 117.0,
+    "avg_pts": 39.0
   },
   {
     "name": "Livshiz, Tal and Keselman, Ilana",
@@ -88,6 +94,31 @@
     "avg_pts": 36.55
   },
   {
+    "name": "Chernositov, Alexander and Grishanina, Arina",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "AC-AD Open Int'l Latin (C/S/R/PD/J)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Amateur 5-Dance Scholarships AD Int'l Latin (CC,S,R,PD,J)",
+        "place": "3",
+        "points": 35.75
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 40.0
+      }
+    ],
+    "total_pts": 105.75,
+    "avg_pts": 35.25
+  },
+  {
     "name": "Stepanchuk, Pasha and Sabler, Gabrielle",
     "results": [
       {
@@ -111,25 +142,6 @@
     ],
     "total_pts": 104.5,
     "avg_pts": 34.83
-  },
-  {
-    "name": "Chernositov, Alexander and Grishanina, Arina",
-    "results": [
-      {
-        "comp_name": "The DBDC 2019",
-        "info": "AC-AD Open Int'l Latin (C/S/R/PD/J)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Amateur 5-Dance Scholarships AD Int'l Latin (CC,S,R,PD,J)",
-        "place": "3",
-        "points": 35.75
-      }
-    ],
-    "total_pts": 65.75,
-    "avg_pts": 32.88
   },
   {
     "name": "Shamseili, Sam and Lakovitsky, Liza",
@@ -219,59 +231,22 @@
         "info": "Amateur Youth Events  J1 Int'l Latin Championship (CC,S,R,PD,J)",
         "place": "1",
         "points": 20.0
-      }
-    ],
-    "total_pts": 261.0,
-    "avg_pts": 29.0
-  },
-  {
-    "name": "Grygorchuk, Nikita and Spektor, Naomi",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "AC- Amateur Latin Under 21 Scholarship(CC/S/R/PD/J)",
-        "place": "1",
-        "points": 45.0
       },
       {
-        "comp_name": "beachbash2019",
-        "info": "AC- Open Amateur Latin Scholarship (CC/S/R/PD/J)",
-        "place": "2",
-        "points": 17.5
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC-Y Amateur Youth Open Latin Scholarship (CC/S/R/PD/J)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Youth Int'l Latin Scholarship {Fordney Fdn BofB} (C/S/R/PD/J)",
-        "place": "1",
-        "points": 35.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC- Adult Open Championship Int'l Latin (C/S/R/PD/J)",
-        "place": "3",
-        "points": 26.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Under 21 Int'l Championships  Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Youth Events  YH Int'l Latin Championship (CC,S,R,PD,J)",
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J1 Open Amateur International Latin Championship (C/S/R/PD/J)",
         "place": "1",
         "points": 20.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-JR Junior International Latin Grand Slam (C/S/R/PD/J)",
+        "place": "1",
+        "points": 35.0
       }
     ],
-    "total_pts": 198.5,
-    "avg_pts": 28.36
+    "total_pts": 316.0,
+    "avg_pts": 28.73
   },
   {
     "name": "Tarasov, Nikolai and Nolan, Sarah",
@@ -311,10 +286,16 @@
         "info": "AC-A Open Amateur International Latin Scholarship (C/S/R/PD/J)",
         "place": "1",
         "points": 35.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 26.0
       }
     ],
-    "total_pts": 169.0,
-    "avg_pts": 28.17
+    "total_pts": 195.0,
+    "avg_pts": 27.86
   },
   {
     "name": "Zhychuk, Artem and Shevchenko, Natasha",
@@ -383,92 +364,6 @@
     ],
     "total_pts": 162.0,
     "avg_pts": 27.0
-  },
-  {
-    "name": "Tegshjargal, Bumchin and Klets, Michelle",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "info": "AC- Open Amateur Latin Scholarship (CC/S/R/PD/J)",
-        "place": "2",
-        "points": 28.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC- Amateur Latin Under 21 Scholarship(CC/S/R/PD/J)",
-        "place": "2",
-        "points": 36.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC- Open Amateur Latin Scholarship (CC/S/R/PD/J)",
-        "place": "3",
-        "points": 29.25
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Under 21 International Latin Championship (C/S/R/PD/J)",
-        "place": "2",
-        "points": 32.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 10.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Amateur Open Scholarships A Int'l Latin (CC,S,R,PD,J)",
-        "place": "4",
-        "points": 17.5
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Amateur Under 21 - International Latin (C/S/R/PD/J)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "AC-A Open Amateur International Latin Scholarship (C/S/R/PD/J)",
-        "place": "2",
-        "points": 28.0
-      }
-    ],
-    "total_pts": 235.75,
-    "avg_pts": 26.19
-  },
-  {
-    "name": "Lujan, Justin and Zilman, Julia",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Junior I PreChamp Latin (CC/S/J)",
-        "place": "1",
-        "points": 35.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Junior 1 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
-        "place": "4",
-        "points": 22.5
-      },
-      {
-        "comp_name": "2019people[forrest vance]",
-        "info": "AC-JR Open International Latin Scholarship (C/S/R/P/J)",
-        "place": "1",
-        "points": 18.75
-      }
-    ],
-    "total_pts": 76.25,
-    "avg_pts": 25.42
   },
   {
     "name": "De La Rosa, Brando and Arroyo, Alexa",
@@ -546,6 +441,140 @@
     ],
     "total_pts": 25.0,
     "avg_pts": 25.0
+  },
+  {
+    "name": "Tegshjargal, Bumchin and Klets, Michelle",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "info": "AC- Open Amateur Latin Scholarship (CC/S/R/PD/J)",
+        "place": "2",
+        "points": 28.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC- Amateur Latin Under 21 Scholarship(CC/S/R/PD/J)",
+        "place": "2",
+        "points": 36.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC- Open Amateur Latin Scholarship (CC/S/R/PD/J)",
+        "place": "3",
+        "points": 29.25
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Under 21 International Latin Championship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 32.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 10.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Amateur Open Scholarships A Int'l Latin (CC,S,R,PD,J)",
+        "place": "4",
+        "points": 17.5
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Amateur Under 21 - International Latin (C/S/R/PD/J)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "AC-A Open Amateur International Latin Scholarship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 28.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "6",
+        "points": 14.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 24.0
+      }
+    ],
+    "total_pts": 273.75,
+    "avg_pts": 24.89
+  },
+  {
+    "name": "Grygorchuk, Nikita and Spektor, Naomi",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "AC- Amateur Latin Under 21 Scholarship(CC/S/R/PD/J)",
+        "place": "1",
+        "points": 45.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC- Open Amateur Latin Scholarship (CC/S/R/PD/J)",
+        "place": "2",
+        "points": 17.5
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC-Y Amateur Youth Open Latin Scholarship (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Youth Int'l Latin Scholarship {Fordney Fdn BofB} (C/S/R/PD/J)",
+        "place": "1",
+        "points": 35.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC- Adult Open Championship Int'l Latin (C/S/R/PD/J)",
+        "place": "3",
+        "points": 26.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Under 21 Int'l Championships  Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Youth Events  YH Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "4",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 219.5,
+    "avg_pts": 24.39
   },
   {
     "name": "Milstead, Robby and Dobson, Emily",
@@ -695,10 +724,22 @@
         "info": "AC-J2 Youth Championship Latin 5-Dance (C/S/R/PD/J)",
         "place": "1",
         "points": 20.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J1 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-JR Junior International Latin Grand Slam (C/S/R/PD/J)",
+        "place": "4",
+        "points": 17.5
       }
     ],
-    "total_pts": 311.5,
-    "avg_pts": 23.96
+    "total_pts": 345.0,
+    "avg_pts": 23.0
   },
   {
     "name": "Beradmore, Oliver and Cunningham, Zoe",
@@ -1052,10 +1093,22 @@
         "info": "Open Amateur 5-Dance Scholarships AD Int'l Latin (CC,S,R,PD,J)",
         "place": "Semis",
         "points": 13.75
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "5",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 30.0
       }
     ],
-    "total_pts": 43.75,
-    "avg_pts": 21.88
+    "total_pts": 89.75,
+    "avg_pts": 22.44
   },
   {
     "name": "Daich, Idan and Dolmaya, Rumi",
@@ -1217,6 +1270,37 @@
     ],
     "total_pts": 107.0,
     "avg_pts": 21.4
+  },
+  {
+    "name": "Lu, Jianchen and Yang, Bingyan",
+    "results": [
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Amateur 4/5 Dance Championships  YH Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 6.3
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J2 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 26.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-JR Junior International Latin Grand Slam (C/S/R/PD/J)",
+        "place": "2",
+        "points": 28.0
+      }
+    ],
+    "total_pts": 84.3,
+    "avg_pts": 21.07
   },
   {
     "name": "de la Rosa, Brando and Saidkarieva, Naeema",
@@ -1439,55 +1523,6 @@
     "avg_pts": 20.43
   },
   {
-    "name": "Ginko, Sean and Tatoosi, Emily",
-    "results": [
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Ameteur Pre-Champ P2 AM/AM Int'l Latin (CC,S,J)",
-        "place": "3",
-        "points": 16.25
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Amateur Open Kids P2 Int'l Latin (CC,S,R,J)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC-PT2 Pre Teen 2 Latin 3 Dance (CC/S/J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC-PT2 Pre Teen 2 Latin 5 Dance (CC/S/R/PD/J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 2 Int'l Latin 3-Dance (C/S/J)",
-        "place": "1",
-        "points": 35.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 2  Int'l Latin 5-Dance {Fordney Fdn Bof B} (C/S/R/PD/J)",
-        "place": "7",
-        "points": 10.5
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC-Y Pre-Teen2  Amateur International Latin Scholarship (C/S/R/PD/J)",
-        "place": "2",
-        "points": 36.0
-      }
-    ],
-    "total_pts": 142.75,
-    "avg_pts": 20.39
-  },
-  {
     "name": "Finkelstein, Misha and Ishchak, Yulia",
     "results": [
       {
@@ -1673,6 +1708,43 @@
     ],
     "total_pts": 20.0,
     "avg_pts": 20.0
+  },
+  {
+    "name": "Lujan, Justin and Zilman, Julia",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Junior I PreChamp Latin (CC/S/J)",
+        "place": "1",
+        "points": 35.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Junior 1 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
+        "place": "4",
+        "points": 22.5
+      },
+      {
+        "comp_name": "2019people[forrest vance]",
+        "info": "AC-JR Open International Latin Scholarship (C/S/R/P/J)",
+        "place": "1",
+        "points": 18.75
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J1 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-JR Junior International Latin Grand Slam (C/S/R/PD/J)",
+        "place": "7",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 99.75,
+    "avg_pts": 19.95
   },
   {
     "name": "Nevinchany, Roman and Zimmerman, Zoe",
@@ -1907,6 +1979,159 @@
     ],
     "total_pts": 135.75,
     "avg_pts": 19.39
+  },
+  {
+    "name": "Bezzant, Matthew and Werner, Abigail",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-Y Junior Amateur International Latin Championship (C/S/R/PD/J) Quarter-final",
+        "place": "quarters",
+        "points": 0.4
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC- Amateur Latin Under 21 Scholarship(CC/S/R/PD/J)",
+        "place": "6",
+        "points": 15.75
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Youth Open Championships  Open YH AM/AM Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Amateur Open Scholarships U21 Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 35.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC- Open Amateur Latin Scholarship (CC/S/R/PD/J)",
+        "place": "3",
+        "points": 12.5
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC-Y Amateur Youth Open Latin Scholarship (CC/S/R/PD/J)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 32.0
+      }
+    ],
+    "total_pts": 135.65,
+    "avg_pts": 19.38
+  },
+  {
+    "name": "Bonkovskyy, Oleksiy and Lujan, Kiersten",
+    "results": [
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC-YH Amateur Youth Open Latin 5 Dance (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC-Y Amateur Youth Open Latin Scholarship (CC/S/R/PD/J)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Youth Int'l Latin Scholarship {Fordney Fdn BofB} (C/S/R/PD/J)",
+        "place": "5",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC- Adult Open Championship Int'l Latin (C/S/R/PD/J)",
+        "place": "5",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019people[forrest vance]",
+        "info": "AC-YTH Open International Latin Scholarship (C/S/R/P/J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 40.0
+      }
+    ],
+    "total_pts": 116.25,
+    "avg_pts": 19.38
+  },
+  {
+    "name": "Ginko, Sean and Tatoosi, Emily",
+    "results": [
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Ameteur Pre-Champ P2 AM/AM Int'l Latin (CC,S,J)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Amateur Open Kids P2 Int'l Latin (CC,S,R,J)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC-PT2 Pre Teen 2 Latin 3 Dance (CC/S/J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC-PT2 Pre Teen 2 Latin 5 Dance (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 2 Int'l Latin 3-Dance (C/S/J)",
+        "place": "1",
+        "points": 35.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 2  Int'l Latin 5-Dance {Fordney Fdn Bof B} (C/S/R/PD/J)",
+        "place": "7",
+        "points": 10.5
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC-Y Pre-Teen2  Amateur International Latin Scholarship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 36.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J1 Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-PT2 Closed PT Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 171.25,
+    "avg_pts": 19.03
   },
   {
     "name": "Zhelasko, Erik and Frydman, Michelle",
@@ -2214,79 +2439,6 @@
     ],
     "total_pts": 55.0,
     "avg_pts": 18.33
-  },
-  {
-    "name": "Nisali, Adiel and Belyy, Julia",
-    "results": [
-      {
-        "comp_name": "California Classic",
-        "info": "AC-JR Junior Pre-Champ International Latin (C/S/J)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "California Classic",
-        "info": "AC-JR Junior International Latin (C/S/R/PD/J)",
-        "place": "2",
-        "points": 10.5
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Junior I PreChamp Latin (CC/S/J)",
-        "place": "2",
-        "points": 28.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Junior I Latin Championship (CC/S/R/PD/J)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Ameteur Pre-Champ J1 AM/AM Int'l Latin (CC,S,J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Amateur Open J1 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Junior 1 Int'l Latin 3-Dance (C/S/J)",
-        "place": "1",
-        "points": 35.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Junior 1 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
-        "place": "3",
-        "points": 29.25
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC-Y Junior1 Amateur International Latin Scholarship (C/S/R/PD/J)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC-Y Junior2 Amateur International Latin Scholarship (C/S/R/PD/J)",
-        "place": "5",
-        "points": 14.0
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "AC-J2 Youth Amateur International Latin Scholarship (C/S/R/PD/J)",
-        "place": "6",
-        "points": 8.75
-      }
-    ],
-    "total_pts": 201.25,
-    "avg_pts": 18.3
   },
   {
     "name": "Terleckas, Jonas and Castro, Ruby",
@@ -2762,49 +2914,6 @@
     "avg_pts": 17.31
   },
   {
-    "name": "Bezzant, Matthew and Werner, Abigail",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-Y Junior Amateur International Latin Championship (C/S/R/PD/J) Quarter-final",
-        "place": "quarters",
-        "points": 0.4
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC- Amateur Latin Under 21 Scholarship(CC/S/R/PD/J)",
-        "place": "6",
-        "points": 15.75
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Youth Open Championships  Open YH AM/AM Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Amateur Open Scholarships U21 Int'l Latin (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 35.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC- Open Amateur Latin Scholarship (CC/S/R/PD/J)",
-        "place": "3",
-        "points": 12.5
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC-Y Amateur Youth Open Latin Scholarship (CC/S/R/PD/J)",
-        "place": "2",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 103.65,
-    "avg_pts": 17.28
-  },
-  {
     "name": "Fridman, Ilan and Zarkhin, Zlata",
     "results": [
       {
@@ -2987,6 +3096,91 @@
     ],
     "total_pts": 100.0,
     "avg_pts": 16.67
+  },
+  {
+    "name": "Nisali, Adiel and Belyy, Julia",
+    "results": [
+      {
+        "comp_name": "California Classic",
+        "info": "AC-JR Junior Pre-Champ International Latin (C/S/J)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "California Classic",
+        "info": "AC-JR Junior International Latin (C/S/R/PD/J)",
+        "place": "2",
+        "points": 10.5
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Junior I PreChamp Latin (CC/S/J)",
+        "place": "2",
+        "points": 28.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Junior I Latin Championship (CC/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Ameteur Pre-Champ J1 AM/AM Int'l Latin (CC,S,J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Amateur Open J1 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Junior 1 Int'l Latin 3-Dance (C/S/J)",
+        "place": "1",
+        "points": 35.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Junior 1 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
+        "place": "3",
+        "points": 29.25
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC-Y Junior1 Amateur International Latin Scholarship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC-Y Junior2 Amateur International Latin Scholarship (C/S/R/PD/J)",
+        "place": "5",
+        "points": 14.0
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "AC-J2 Youth Amateur International Latin Scholarship (C/S/R/PD/J)",
+        "place": "6",
+        "points": 8.75
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J1 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-JR Junior International Latin Grand Slam (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 216.5,
+    "avg_pts": 16.65
   },
   {
     "name": "Palcauskas, Tomas and Acas, Greta",
@@ -3305,49 +3499,6 @@
     ],
     "total_pts": 47.5,
     "avg_pts": 15.83
-  },
-  {
-    "name": "Wong, Bosco and Condie, Stella",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-PT1 Closed International Latin Championships (C/S/R/P/J)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-PT1 Pre-Championship International Latin 4-Dance (C/S/R/J)",
-        "place": "1",
-        "points": 15
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-PT1 Novice Open International Latin 3-Dance (C/S/R)",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur PreTeen 1 PreChamp Latin (CC/S/J)",
-        "place": "2",
-        "points": 28.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 2  Int'l Latin 5-Dance {Fordney Fdn Bof B} (C/S/R/PD/J)",
-        "place": "quarters",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 1 F Int'l Latin 4-Dance {Fordney Fdn Bof B} (C/S/R/J)",
-        "place": "2",
-        "points": 28.0
-      }
-    ],
-    "total_pts": 94.25,
-    "avg_pts": 15.71
   },
   {
     "name": "Zhychuk, Artem and Jay, Amy",
@@ -3686,85 +3837,6 @@
     "avg_pts": 15.47
   },
   {
-    "name": "Sinelnikov, Ivan and Rich, Veronica",
-    "results": [
-      {
-        "comp_name": "California Classic",
-        "info": "AC-JR Junior Pre-Champ International Latin (C/S/J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "California Classic",
-        "info": "AC-JR Junior International Latin (C/S/R/PD/J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "City Lights Ball",
-        "info": "AC-JR2 Open Latin 5 Dance(CC/S/R/PD/J)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "City Lights Ball",
-        "info": "AC-JR2 JR 1 Pre-Champ Latin (C/S/J))",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "City Lights Ball",
-        "info": "AC-Y JR 2 Open Latin Scholarship (C/S/R/PD/J)",
-        "place": "2",
-        "points": 15.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Junior II Latin Championship (CC/S/R/PD/J)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Amateur Open J2 Int'l Latin (CC,S,R,PD,J)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Amateur Open Y Int'l Latin (CC,S,R,J)",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC-J2 Junior 2 Latin 5 Dance (CC/S/R/PD/J)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC-J2 Junior 1 Latin 5 Dance (CC/S/R/PD/J)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Junior 2 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
-        "place": "2",
-        "points": 36.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC-Y Junior2 Amateur International Latin Scholarship (C/S/R/PD/J)",
-        "place": "3",
-        "points": 22.75
-      }
-    ],
-    "total_pts": 184.75,
-    "avg_pts": 15.4
-  },
-  {
     "name": "Kotenko, Vasyl and Zohrabian, Anita",
     "results": [
       {
@@ -3911,43 +3983,6 @@
     "avg_pts": 15.29
   },
   {
-    "name": "Bonkovskyy, Oleksiy and Lujan, Kiersten",
-    "results": [
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC-YH Amateur Youth Open Latin 5 Dance (CC/S/R/PD/J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC-Y Amateur Youth Open Latin Scholarship (CC/S/R/PD/J)",
-        "place": "3",
-        "points": 16.25
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Youth Int'l Latin Scholarship {Fordney Fdn BofB} (C/S/R/PD/J)",
-        "place": "5",
-        "points": 14.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC- Adult Open Championship Int'l Latin (C/S/R/PD/J)",
-        "place": "5",
-        "points": 16.0
-      },
-      {
-        "comp_name": "2019people[forrest vance]",
-        "info": "AC-YTH Open International Latin Scholarship (C/S/R/P/J)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 76.25,
-    "avg_pts": 15.25
-  },
-  {
     "name": "Bartninkas, Benas and Bickus, Gabia",
     "results": [
       {
@@ -3983,6 +4018,182 @@
     ],
     "total_pts": 76.0,
     "avg_pts": 15.2
+  },
+  {
+    "name": "Wong, Bosco and Condie, Stella",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-PT1 Closed International Latin Championships (C/S/R/P/J)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-PT1 Pre-Championship International Latin 4-Dance (C/S/R/J)",
+        "place": "1",
+        "points": 15
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-PT1 Novice Open International Latin 3-Dance (C/S/R)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur PreTeen 1 PreChamp Latin (CC/S/J)",
+        "place": "2",
+        "points": 28.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 2  Int'l Latin 5-Dance {Fordney Fdn Bof B} (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 1 F Int'l Latin 4-Dance {Fordney Fdn Bof B} (C/S/R/J)",
+        "place": "2",
+        "points": 28.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-PT2 Closed PT Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 106.25,
+    "avg_pts": 15.18
+  },
+  {
+    "name": "Tatoosi, Anthony and Lloyd, Vendela",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "info": "AC-JR2 Open Latin 5 Dance(CC/S/R/PD/J)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "City Lights Ball",
+        "info": "AC-JR1 Open Latin 5 Dance(CC/S/R/PD/J)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "City Lights Ball",
+        "info": "AC-Y JR 1 Open Latin Scholarship (C/S/R/PD/J)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Junior II Latin Championship (CC/S/R/PD/J)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Junior I Latin Championship (CC/S/R/PD/J)",
+        "place": "4",
+        "points": 20.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J2 Junior & Youth International Latin Championship (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 10.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J1 Junior & Youth International Latin Championship (C/S/R/P/J)",
+        "place": "6",
+        "points": 14.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Amateur Open Scholarships J2 Int'l Latin (CC,S,R,PD,J)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Youth Open Championships  Open YH AM/AM Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC-J2 Junior 2 Latin 5 Dance (CC/S/R/PD/J)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC-Y Amateur Youth Open Latin Scholarship (CC/S/R/PD/J)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Junior 2 Int'l Latin 3-Dance (C/S/J)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Junior 2 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC-Y Junior2 Pre-Championship International Latin (C/S/J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC-Y Junior2 Amateur International Latin Scholarship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 28.0
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "AC-J2 Youth Amateur International Latin Scholarship (C/S/R/PD/J)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "AC-J2 Youth Championship Latin 5-Dance (C/S/R/PD/J)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J2 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 0.4
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-JR Junior International Latin Grand Slam (C/S/R/PD/J)",
+        "place": "3",
+        "points": 22.75
+      }
+    ],
+    "total_pts": 302.15,
+    "avg_pts": 15.11
   },
   {
     "name": "Rybczynski, Oskar and Zavlin, Daniella",
@@ -4415,115 +4626,6 @@
     "avg_pts": 14.82
   },
   {
-    "name": "Tatoosi, Anthony and Lloyd, Vendela",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "info": "AC-JR2 Open Latin 5 Dance(CC/S/R/PD/J)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "City Lights Ball",
-        "info": "AC-JR1 Open Latin 5 Dance(CC/S/R/PD/J)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "City Lights Ball",
-        "info": "AC-Y JR 1 Open Latin Scholarship (C/S/R/PD/J)",
-        "place": "4",
-        "points": 12.5
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Junior II Latin Championship (CC/S/R/PD/J)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Junior I Latin Championship (CC/S/R/PD/J)",
-        "place": "4",
-        "points": 20.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J2 Junior & Youth International Latin Championship (C/S/R/P/J)",
-        "place": "Semis",
-        "points": 10.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J1 Junior & Youth International Latin Championship (C/S/R/P/J)",
-        "place": "6",
-        "points": 14.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Amateur Open Scholarships J2 Int'l Latin (CC,S,R,PD,J)",
-        "place": "4",
-        "points": 12.5
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Youth Open Championships  Open YH AM/AM Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC-J2 Junior 2 Latin 5 Dance (CC/S/R/PD/J)",
-        "place": "4",
-        "points": 7.5
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC-Y Amateur Youth Open Latin Scholarship (CC/S/R/PD/J)",
-        "place": "5",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Junior 2 Int'l Latin 3-Dance (C/S/J)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Junior 2 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 9.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC-Y Junior2 Pre-Championship International Latin (C/S/J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC-Y Junior2 Amateur International Latin Scholarship (C/S/R/PD/J)",
-        "place": "2",
-        "points": 28.0
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "AC-J2 Youth Amateur International Latin Scholarship (C/S/R/PD/J)",
-        "place": "4",
-        "points": 12.5
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "AC-J2 Youth Championship Latin 5-Dance (C/S/R/PD/J)",
-        "place": "4",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 249.0,
-    "avg_pts": 14.65
-  },
-  {
     "name": "Maimon, David and Farcon, Jhailyn",
     "results": [
       {
@@ -4688,6 +4790,97 @@
     ],
     "total_pts": 130.0,
     "avg_pts": 14.44
+  },
+  {
+    "name": "Sinelnikov, Ivan and Rich, Veronica",
+    "results": [
+      {
+        "comp_name": "California Classic",
+        "info": "AC-JR Junior Pre-Champ International Latin (C/S/J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "California Classic",
+        "info": "AC-JR Junior International Latin (C/S/R/PD/J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "City Lights Ball",
+        "info": "AC-JR2 Open Latin 5 Dance(CC/S/R/PD/J)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "City Lights Ball",
+        "info": "AC-JR2 JR 1 Pre-Champ Latin (C/S/J))",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "City Lights Ball",
+        "info": "AC-Y JR 2 Open Latin Scholarship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 15.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Junior II Latin Championship (CC/S/R/PD/J)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Amateur Open J2 Int'l Latin (CC,S,R,PD,J)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Amateur Open Y Int'l Latin (CC,S,R,J)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC-J2 Junior 2 Latin 5 Dance (CC/S/R/PD/J)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC-J2 Junior 1 Latin 5 Dance (CC/S/R/PD/J)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Junior 2 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
+        "place": "2",
+        "points": 36.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC-Y Junior2 Amateur International Latin Scholarship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 22.75
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J2 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-JR Junior International Latin Grand Slam (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 202.0,
+    "avg_pts": 14.43
   },
   {
     "name": "Zavialov, Victor and Konchin, Nicole",
@@ -5583,6 +5776,31 @@
     "avg_pts": 13.0
   },
   {
+    "name": "Savitskyy, Taras and Koshkina, Yulia",
+    "results": [
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "5",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Amateur 5-Dance Scholarships AD Int'l Latin (CC,S,R,PD,J)",
+        "place": "round 1",
+        "points": 2.75
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "4",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 38.75,
+    "avg_pts": 12.92
+  },
+  {
     "name": "Lema, Sean and Klavansky, Nicole S.",
     "results": [
       {
@@ -5600,6 +5818,25 @@
     ],
     "total_pts": 25.5,
     "avg_pts": 12.75
+  },
+  {
+    "name": "Schuman, Hayden and Snow, Chloe",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 0.4
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 25.4,
+    "avg_pts": 12.7
   },
   {
     "name": "Lander, Liran and Stanevicius, Isabella",
@@ -5873,6 +6110,43 @@
     "avg_pts": 12.45
   },
   {
+    "name": "Buss, Carston and Cole, Ashton",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "AC- Amateur Latin Under 21 Scholarship(CC/S/R/PD/J)",
+        "place": "Semis",
+        "points": 7.2
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Amateur Youth International Latin Championship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Amateur Under 21 - International Latin (C/S/R/PD/J)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "4",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "7",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 62.2,
+    "avg_pts": 12.44
+  },
+  {
     "name": "Besyedin, Amanda and Besyedin, Andriy",
     "results": [
       {
@@ -5960,49 +6234,6 @@
     "avg_pts": 12.38
   },
   {
-    "name": "Gibson, Damon and McSeveney, Ceilidh",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR1 Junior Amateur International Latin Championship (C/S/R/PD/J)",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR JR International Latin Scholarships (C/S/R/P/J)",
-        "place": "5",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR1 Pre-Championship International Latin 4-Dance (C/S/R/J)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Junior I Latin Championship (CC/S/R/PD/J)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Junior 2 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 6.75
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Junior 1 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 6.75
-      }
-    ],
-    "total_pts": 74.0,
-    "avg_pts": 12.33
-  },
-  {
     "name": "Badalbayev, Ilyah and Rabinovich, Ariana",
     "results": [
       {
@@ -6028,6 +6259,37 @@
     "avg_pts": 12.33
   },
   {
+    "name": "Wang, Shengzhe and Li, Sinuo",
+    "results": [
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Amateur 4/5 Dance Championships  YH Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J2 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "6",
+        "points": 14.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-JR Junior International Latin Grand Slam (C/S/R/PD/J)",
+        "place": "5",
+        "points": 14.0
+      }
+    ],
+    "total_pts": 49.0,
+    "avg_pts": 12.25
+  },
+  {
     "name": "Kosarev, Kristofer and Tehourbanov, Sophia",
     "results": [
       {
@@ -6045,6 +6307,37 @@
     ],
     "total_pts": 24.5,
     "avg_pts": 12.25
+  },
+  {
+    "name": "Zheng, Jianxiang and Hou, Routong",
+    "results": [
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Amateur 4/5 Dance Championships  U21 Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "7",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Amateur 5-Dance Scholarships AD Int'l Latin (CC,S,R,PD,J)",
+        "place": "quarters",
+        "points": 8.25
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "7",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 19.5
+      }
+    ],
+    "total_pts": 48.75,
+    "avg_pts": 12.19
   },
   {
     "name": "Parra, Peter and Braylovskiy, Jacklyn",
@@ -6304,9 +6597,15 @@
         "info": "AC- Amateur Under 21 - International Latin (C/S/R/PD/J)",
         "place": "3",
         "points": 16.25
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "5",
+        "points": 12.0
       }
     ],
-    "total_pts": 60.0,
+    "total_pts": 72.0,
     "avg_pts": 12.0
   },
   {
@@ -6335,6 +6634,37 @@
         "info": "Youth Amateur Closed Silver 3-Dance Events J2 Int'l Latin (CC,R,S)",
         "place": "2",
         "points": 9.0
+      }
+    ],
+    "total_pts": 48.0,
+    "avg_pts": 12.0
+  },
+  {
+    "name": "Chpak, Daniel and Chpak, Katherine",
+    "results": [
+      {
+        "comp_name": "Cincinnati Ballroom Classic",
+        "info": "AC-YTH Open Gold Open Latin 5-Dance (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Cincinnati Ballroom Classic",
+        "info": "AC-JR Am/Am International Latin (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "AC-J International Latin Open Championship (C/S/R/P/J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "AC-Y International Latin Open Championship (C/S/R/P/J)",
+        "place": "1",
+        "points": 12.0
       }
     ],
     "total_pts": 48.0,
@@ -6574,6 +6904,25 @@
         "info": "AC-Y Teddy Bear (C/S/J)",
         "place": "1",
         "points": 15.0
+      }
+    ],
+    "total_pts": 24.0,
+    "avg_pts": 12.0
+  },
+  {
+    "name": "Lavigne, Luc and Latulippe, Josee",
+    "results": [
+      {
+        "comp_name": "Boca Ballroom Dancesport Competition",
+        "info": "AC-S1 Latin Open International Latin Multi-Dance (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Boca Ballroom Dancesport Competition",
+        "info": "AC-S2 Latin Open International Latin Multi-Dance (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 12.0
       }
     ],
     "total_pts": 24.0,
@@ -6879,6 +7228,19 @@
     "avg_pts": 12.0
   },
   {
+    "name": "Yankelevich, Thomas and Luchianova, Alissa",
+    "results": [
+      {
+        "comp_name": "Cincinnati Ballroom Classic",
+        "info": "AC-JR 1 Silver Open Latin (CC/S/R)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
     "name": "Yee, Thomas and Lin, Maria",
     "results": [
       {
@@ -6915,119 +7277,6 @@
     ],
     "total_pts": 35.9,
     "avg_pts": 11.97
-  },
-  {
-    "name": "Raffloer, Ryan and Howard, Bethany",
-    "results": [
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "AC- Open Amateur Latin Scholarship (CC/S/R/PD/J)",
-        "place": "1",
-        "points": 18.75
-      },
-      {
-        "comp_name": "Yankee Classic",
-        "info": "AC- \"World Masters Amateur International Latin Championships\" (C/S/R/P/J)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "AC-A Amateur Open International Latin Championship(CC/S/R/PD/J)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Adult Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "quarters",
-        "points": 4.0
-      }
-    ],
-    "total_pts": 47.75,
-    "avg_pts": 11.94
-  },
-  {
-    "name": "Chang, Ronald and Chang, Leanne",
-    "results": [
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Youth Amateur Open 5-Dance Scholarships YH Int'l Latin (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Youth Amateur Open 5-Dance Scholarships J2 Int'l Latin (CC,S,R,PD,J)",
-        "place": "2",
-        "points": 8.75
-      }
-    ],
-    "total_pts": 23.75,
-    "avg_pts": 11.88
-  },
-  {
-    "name": "Marquez, Alejendre and Raurell, Sofia",
-    "results": [
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "info": "AC-Y Pre-Champ Latin (C/S/R/J)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "info": "AC-JR2 Pre-Champ Latin (C/S/R/J)",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "info": "AC-JR2 PDC Open Latin (C/S/R/P/J)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 35.25,
-    "avg_pts": 11.75
-  },
-  {
-    "name": "Poghosyan, Levon and Semerdjian, Natalie",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Junior I PreChamp Latin (CC/S/J)",
-        "place": "4",
-        "points": 17.5
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Junior I Latin Championship (CC/S/R/PD/J)",
-        "place": "Semis",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 23.5,
-    "avg_pts": 11.75
-  },
-  {
-    "name": "Stepanchuk, Pasha and Markovich, Julia",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-SJ2 Junior & Youth International Latin Championship (C/S/R/P/J)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "AC-LJ2 Amateur JR/Y Pre-Champ Latin (CC/S/R/J)",
-        "place": "2",
-        "points": 10.5
-      }
-    ],
-    "total_pts": 23.5,
-    "avg_pts": 11.75
   },
   {
     "name": "Novikov, Michael and Dragunov, Dasha",
@@ -7121,10 +7370,197 @@
         "info": "Amateur Youth 3-Dance Events Closed P1 Int'l Latin (CC,S,R)",
         "place": "5",
         "points": 10.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-PT1 Closed PT Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 15.0
       }
     ],
-    "total_pts": 176.0,
-    "avg_pts": 11.73
+    "total_pts": 191.0,
+    "avg_pts": 11.94
+  },
+  {
+    "name": "Raffloer, Ryan and Howard, Bethany",
+    "results": [
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "AC- Open Amateur Latin Scholarship (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 18.75
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "AC- \"World Masters Amateur International Latin Championships\" (C/S/R/P/J)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-A Amateur Open International Latin Championship(CC/S/R/PD/J)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "quarters",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 47.75,
+    "avg_pts": 11.94
+  },
+  {
+    "name": "Ongpin, Jesse and Castelan, Judith",
+    "results": [
+      {
+        "comp_name": "Desert Sol Dancesport",
+        "info": "AM Novice 3-Dance A AM/AM Int'l Latin (CC,S,R)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Desert Sol Dancesport",
+        "info": "AM PreChamp 4-Dance A AM/AM Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Adult Amateur Open Novice Events A Int'l Latin (CC,S,R,J)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Adult Amateur Open PreChamp Events A Int'l Latin (CC,S,R,J)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "3",
+        "points": 16.25
+      }
+    ],
+    "total_pts": 59.5,
+    "avg_pts": 11.9
+  },
+  {
+    "name": "Chang, Ronald and Chang, Leanne",
+    "results": [
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Youth Amateur Open 5-Dance Scholarships YH Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Youth Amateur Open 5-Dance Scholarships J2 Int'l Latin (CC,S,R,PD,J)",
+        "place": "2",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 23.75,
+    "avg_pts": 11.88
+  },
+  {
+    "name": "Zhang, Heyang and Li, Yi",
+    "results": [
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Amateur 4/5 Dance Championships  YH Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J2 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-JR Junior International Latin Grand Slam (C/S/R/PD/J)",
+        "place": "6",
+        "points": 12.25
+      }
+    ],
+    "total_pts": 47.25,
+    "avg_pts": 11.81
+  },
+  {
+    "name": "Marquez, Alejendre and Raurell, Sofia",
+    "results": [
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "info": "AC-Y Pre-Champ Latin (C/S/R/J)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "info": "AC-JR2 Pre-Champ Latin (C/S/R/J)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "info": "AC-JR2 PDC Open Latin (C/S/R/P/J)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 35.25,
+    "avg_pts": 11.75
+  },
+  {
+    "name": "Poghosyan, Levon and Semerdjian, Natalie",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Junior I PreChamp Latin (CC/S/J)",
+        "place": "4",
+        "points": 17.5
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Junior I Latin Championship (CC/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 23.5,
+    "avg_pts": 11.75
+  },
+  {
+    "name": "Stepanchuk, Pasha and Markovich, Julia",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-SJ2 Junior & Youth International Latin Championship (C/S/R/P/J)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "AC-LJ2 Amateur JR/Y Pre-Champ Latin (CC/S/R/J)",
+        "place": "2",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 23.5,
+    "avg_pts": 11.75
   },
   {
     "name": "Bucio, Raul and Hudson, Jael",
@@ -7283,67 +7719,6 @@
     "avg_pts": 11.57
   },
   {
-    "name": "Khachaturov, Edgar and Pinkett, Monet",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "info": "AC- Open Amateur Latin Scholarship (CC/S/R/PD/J)",
-        "place": "6",
-        "points": 12.25
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
-        "place": "round 1",
-        "points": 7.5
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Amateur Open A Int'l Latin (CC,S,R,PD,J)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Amateur Open Scholarships A Int'l Latin (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 8.75
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC- Open Amateur Latin Scholarship (CC/S/R/PD/J)",
-        "place": "4",
-        "points": 8.75
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC- Adult Open Championship Int'l Latin (C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 7.2
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "AC-A Amateur Open International Latin Championship(CC/S/R/PD/J)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Adult Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
-        "place": "3",
-        "points": 19.5
-      }
-    ],
-    "total_pts": 103.95,
-    "avg_pts": 11.55
-  },
-  {
     "name": "Kadyanov, Alexander and Kasim, Amina",
     "results": [
       {
@@ -7479,6 +7854,56 @@
     "avg_pts": 11.46
   },
   {
+    "name": "Kogan, Daniel and Hajduk, Gabriela",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "AC-JR1 Closed Gold 4-Dance Int Latin (C/S/R/J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "AC-J1 Closed Int'l Latin 3-Dance Championship (C/S/R)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Youth Novice Open Events J1 Int'l Latin (CC,S,R)",
+        "place": "1",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 34.0,
+    "avg_pts": 11.33
+  },
+  {
+    "name": "Zinkovsky, Nicholas and Zaychikov, Sabina",
+    "results": [
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Youth Amateur Closed Gold 4-Dance Events P1 Int'l Latin (CC,S,R,J)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Youth Amateur Open PreChamp Events P1 Int'l Latin (CC,S,R,J)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Youth Amateur Open 5-Dance Events P1 Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 34.0,
+    "avg_pts": 11.33
+  },
+  {
     "name": "Zhukov, Yegor and Cherkas, Adyson",
     "results": [
       {
@@ -7570,145 +7995,16 @@
         "info": "AC-PT2 Youth Championship Latin 5-Dance (C/S/R/PD/J)",
         "place": "2",
         "points": 16.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-PT2 Closed PT Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 9.75
       }
     ],
-    "total_pts": 170.5,
-    "avg_pts": 11.37
-  },
-  {
-    "name": "Ivanov, Irishka and Ivanov, Nikolai",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur PreTeen 1 PreChamp Latin (CC/S/J)",
-        "place": "3",
-        "points": 22.75
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur PreTeen Latin Grand Slam Scholarship(CC/S/R/PD/J) Quarter-final",
-        "place": "quarters",
-        "points": 4.5
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Ameteur Pre-Champ P1 AM/AM Int'l Latin (CC,S,J)",
-        "place": "3",
-        "points": 16.25
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Amateur Open Kids P1 Int'l Latin (CC,S,R,J)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Youth Amateur Silver 4-Dance Events P1 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Youth Amateur PreChampionships P1 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Youth Amateur Closed 5-Dance Events Scholarship P2 Int'l Latin (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 2.1
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 1 Int'l Latin 3- Dance (C/S/J)",
-        "place": "Semis",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 1 F Int'l Latin 4-Dance {Fordney Fdn Bof B} (C/S/R/J)",
-        "place": "Semis",
-        "points": 5.25
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur PreTeen Latin Grand Slam Scholarship(CC/S/R/PD/J)",
-        "place": "quarters",
-        "points": 4.5
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC-Y Pre-Teen1 Pre-Championship International Latin (C/S/J)",
-        "place": "3",
-        "points": 16.25
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC-Y Pre-Teen2 Pre-Championship International Latin (C/S/J)",
-        "place": "Semis",
-        "points": 5.25
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC-Y Pre-Teen1 Amateur International Latin Scholarship  (C/S/R/J)",
-        "place": "3",
-        "points": 22.75
-      }
-    ],
-    "total_pts": 147.85,
-    "avg_pts": 11.37
-  },
-  {
-    "name": "Kogan, Daniel and Hajduk, Gabriela",
-    "results": [
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "AC-JR1 Closed Gold 4-Dance Int Latin (C/S/R/J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "AC-J1 Closed Int'l Latin 3-Dance Championship (C/S/R)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Youth Novice Open Events J1 Int'l Latin (CC,S,R)",
-        "place": "1",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 34.0,
-    "avg_pts": 11.33
-  },
-  {
-    "name": "Zinkovsky, Nicholas and Zaychikov, Sabina",
-    "results": [
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Youth Amateur Closed Gold 4-Dance Events P1 Int'l Latin (CC,S,R,J)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Youth Amateur Open PreChamp Events P1 Int'l Latin (CC,S,R,J)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Youth Amateur Open 5-Dance Events P1 Int'l Latin (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 34.0,
-    "avg_pts": 11.33
+    "total_pts": 180.25,
+    "avg_pts": 11.27
   },
   {
     "name": "Firsov, Maxim and Zhukova, Tais",
@@ -7981,101 +8277,23 @@
     "avg_pts": 11.13
   },
   {
-    "name": "Eldridge, Seth and Sorenson, Lyndsey",
+    "name": "Valentine, Matthew and Matthews, Madilyn",
     "results": [
       {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-Y Under 21 Amateur International Latin (C/S/R/P/J)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-A Amateur International Latin Open 5-Dance (C/S/R/P/J)",
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
         "place": "Semis",
-        "points": 4.8
+        "points": 6.0
       },
       {
-        "comp_name": "caopen19",
-        "info": "AC- Amateur Latin Under 21 Scholarship(CC/S/R/PD/J)",
-        "place": "4",
-        "points": 22.5
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC- Open Amateur Latin Scholarship (CC/S/R/PD/J)",
-        "place": "Semis",
-        "points": 6.75
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Under 21 International Latin Championship (C/S/R/PD/J) Quarter-final",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
-        "place": "round 1",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC- Adult Open Championship Int'l Latin (C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Las Vegas Lights",
-        "info": "AC-A Open International Latin (CC/S/R/PD/J)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Under 21 International Latin Championship (C/S/R/PD/J)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Amateur Under 21 - International Latin (C/S/R/PD/J)",
-        "place": "4",
-        "points": 12.5
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "AC-A Open Amateur International Latin Scholarship (C/S/R/PD/J)",
-        "place": "5",
-        "points": 14.0
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "AC-U21 Open Amateur International Latin Scholarship (C/S/R/PD/J)",
-        "place": "2",
-        "points": 17.5
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Amateur 4/5 Dance Championships  U21 Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Amateur 5-Dance Scholarships AD Int'l Latin (CC,S,R,PD,J)",
-        "place": "quarters",
-        "points": 7.15
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "3",
+        "points": 16.25
       }
     ],
-    "total_pts": 166.7,
-    "avg_pts": 11.11
+    "total_pts": 22.25,
+    "avg_pts": 11.12
   },
   {
     "name": "Stamper, Alan and Chau, Taylor",
@@ -8103,29 +8321,71 @@
     "avg_pts": 11.08
   },
   {
-    "name": "Buss, Carston and Cole, Ashton",
+    "name": "Khachaturov, Edgar and Pinkett, Monet",
     "results": [
       {
-        "comp_name": "caopen19",
-        "info": "AC- Amateur Latin Under 21 Scholarship(CC/S/R/PD/J)",
-        "place": "Semis",
-        "points": 7.2
+        "comp_name": "City Lights Ball",
+        "info": "AC- Open Amateur Latin Scholarship (CC/S/R/PD/J)",
+        "place": "6",
+        "points": 12.25
       },
       {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Amateur Youth International Latin Championship (C/S/R/PD/J)",
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "round 1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Amateur Open A Int'l Latin (CC,S,R,PD,J)",
         "place": "2",
         "points": 16.0
       },
       {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Amateur Open Scholarships A Int'l Latin (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 8.75
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC- Open Amateur Latin Scholarship (CC/S/R/PD/J)",
+        "place": "4",
+        "points": 8.75
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC- Adult Open Championship Int'l Latin (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 7.2
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-A Amateur Open International Latin Championship(CC/S/R/PD/J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
         "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Amateur Under 21 - International Latin (C/S/R/PD/J)",
-        "place": "5",
-        "points": 10.0
+        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.0
       }
     ],
-    "total_pts": 33.2,
-    "avg_pts": 11.07
+    "total_pts": 109.95,
+    "avg_pts": 11.0
   },
   {
     "name": "Vladimirov, Alexander and Simanovich, Michelle",
@@ -8176,6 +8436,31 @@
       {
         "comp_name": "Millennium Dancesport",
         "info": "AC-JR1 Silver Open International Latin 3 -Dance Championship(CC/S/R)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 33.0,
+    "avg_pts": 11.0
+  },
+  {
+    "name": "Knights, Eamonn and Jones, Ida",
+    "results": [
+      {
+        "comp_name": "2019 Atlantic DanceSport Challenge",
+        "info": "AC-SR1 Amateur ADC Latin Challenge (C/S/R/P/J)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "AC-C International Latin Open Championship (C/S/R/P/J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "AC-B International Latin Open Championship (C/S/R/P/J)",
         "place": "1",
         "points": 12.0
       }
@@ -8345,6 +8630,116 @@
     "avg_pts": 10.95
   },
   {
+    "name": "Thialan, Caitanya and Nam, Jee",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-A Pre-Championship International Latin 4-Dance (C/S/R/J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-A Amateur International Latin Open 5-Dance (C/S/R/P/J) Quarter-final",
+        "place": "quarters",
+        "points": 3.2
+      },
+      {
+        "comp_name": "Desert Sol Dancesport",
+        "info": "AM Open 4/5 Dance A AM/AM Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Desert Sol Dancesport",
+        "info": "AM PreChamp 4-Dance A AM/AM Int'l Latin (CC,S,R,J)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Desert Sol Dancesport",
+        "info": "AM Open Scholarships A AM/AM Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC- Pre Champ Latin (CC/S/R/J)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 0.8
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 87.5,
+    "avg_pts": 10.94
+  },
+  {
+    "name": "Gibson, Damon and McSeveney, Ceilidh",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR1 Junior Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR JR International Latin Scholarships (C/S/R/P/J)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR1 Pre-Championship International Latin 4-Dance (C/S/R/J)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Junior I Latin Championship (CC/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Junior 2 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.75
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Junior 1 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.75
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J1 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-JR Junior International Latin Grand Slam (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 87.25,
+    "avg_pts": 10.91
+  },
+  {
     "name": "He, Lucas and Pan, Jillia",
     "results": [
       {
@@ -8413,37 +8808,6 @@
     "avg_pts": 10.82
   },
   {
-    "name": "Ongpin, Jesse and Castelan, Judith",
-    "results": [
-      {
-        "comp_name": "Desert Sol Dancesport",
-        "info": "AM Novice 3-Dance A AM/AM Int'l Latin (CC,S,R)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Desert Sol Dancesport",
-        "info": "AM PreChamp 4-Dance A AM/AM Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Adult Amateur Open Novice Events A Int'l Latin (CC,S,R,J)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Adult Amateur Open PreChamp Events A Int'l Latin (CC,S,R,J)",
-        "place": "2",
-        "points": 16.0
-      }
-    ],
-    "total_pts": 43.25,
-    "avg_pts": 10.81
-  },
-  {
     "name": "Capek, Filip and Lorenzo, Valentina",
     "results": [
       {
@@ -8479,6 +8843,212 @@
     ],
     "total_pts": 54.0,
     "avg_pts": 10.8
+  },
+  {
+    "name": "Eldridge, Seth and Sorenson, Lyndsey",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-Y Under 21 Amateur International Latin (C/S/R/P/J)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-A Amateur International Latin Open 5-Dance (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC- Amateur Latin Under 21 Scholarship(CC/S/R/PD/J)",
+        "place": "4",
+        "points": 22.5
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC- Open Amateur Latin Scholarship (CC/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.75
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Under 21 International Latin Championship (C/S/R/PD/J) Quarter-final",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "round 1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC- Adult Open Championship Int'l Latin (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Las Vegas Lights",
+        "info": "AC-A Open International Latin (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Under 21 International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Amateur Under 21 - International Latin (C/S/R/PD/J)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "AC-A Open Amateur International Latin Scholarship (C/S/R/PD/J)",
+        "place": "5",
+        "points": 14.0
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "AC-U21 Open Amateur International Latin Scholarship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 17.5
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Amateur 4/5 Dance Championships  U21 Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Amateur 5-Dance Scholarships AD Int'l Latin (CC,S,R,PD,J)",
+        "place": "quarters",
+        "points": 7.15
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "6",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 183.2,
+    "avg_pts": 10.78
+  },
+  {
+    "name": "Ivanov, Irishka and Ivanov, Nikolai",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur PreTeen 1 PreChamp Latin (CC/S/J)",
+        "place": "3",
+        "points": 22.75
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur PreTeen Latin Grand Slam Scholarship(CC/S/R/PD/J) Quarter-final",
+        "place": "quarters",
+        "points": 4.5
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Ameteur Pre-Champ P1 AM/AM Int'l Latin (CC,S,J)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Amateur Open Kids P1 Int'l Latin (CC,S,R,J)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Youth Amateur Silver 4-Dance Events P1 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Youth Amateur PreChampionships P1 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Youth Amateur Closed 5-Dance Events Scholarship P2 Int'l Latin (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 2.1
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 1 Int'l Latin 3- Dance (C/S/J)",
+        "place": "Semis",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 1 F Int'l Latin 4-Dance {Fordney Fdn Bof B} (C/S/R/J)",
+        "place": "Semis",
+        "points": 5.25
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur PreTeen Latin Grand Slam Scholarship(CC/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.5
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC-Y Pre-Teen1 Pre-Championship International Latin (C/S/J)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC-Y Pre-Teen2 Pre-Championship International Latin (C/S/J)",
+        "place": "Semis",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC-Y Pre-Teen1 Amateur International Latin Scholarship  (C/S/R/J)",
+        "place": "3",
+        "points": 22.75
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-PT1 Closed PT Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-PT2 Closed PT Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "6",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 160.6,
+    "avg_pts": 10.71
   },
   {
     "name": "Mingioni, Max and Estrina, Zoe",
@@ -9052,49 +9622,6 @@
     "avg_pts": 10.36
   },
   {
-    "name": "Thialan, Caitanya and Nam, Jee",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-A Pre-Championship International Latin 4-Dance (C/S/R/J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-A Amateur International Latin Open 5-Dance (C/S/R/P/J) Quarter-final",
-        "place": "quarters",
-        "points": 3.2
-      },
-      {
-        "comp_name": "Desert Sol Dancesport",
-        "info": "AM Open 4/5 Dance A AM/AM Int'l Latin (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Desert Sol Dancesport",
-        "info": "AM PreChamp 4-Dance A AM/AM Int'l Latin (CC,S,R,J)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Desert Sol Dancesport",
-        "info": "AM Open Scholarships A AM/AM Int'l Latin (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC- Pre Champ Latin (CC/S/R/J)",
-        "place": "1",
-        "points": 11.25
-      }
-    ],
-    "total_pts": 61.7,
-    "avg_pts": 10.28
-  },
-  {
     "name": "Poda, Vladislav and Iarmolenko, Olga",
     "results": [
       {
@@ -9564,6 +10091,31 @@
       }
     ],
     "total_pts": 40.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Fisher, Talan and Brunson, Zara",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Latin (C/R)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Latin (S/J)",
+        "place": "1",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "5",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 30.0,
     "avg_pts": 10.0
   },
   {
@@ -10190,25 +10742,6 @@
     "avg_pts": 9.75
   },
   {
-    "name": "Baker, Bronson and Haslam, Jiaxin",
-    "results": [
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Pre-Championship International Latin (C/S/R/J)",
-        "place": "1",
-        "points": 13.5
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Amateur Youth International Latin Championship (C/S/R/PD/J)",
-        "place": "7",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 19.5,
-    "avg_pts": 9.75
-  },
-  {
     "name": "Kois, Sebastian and Sieczka, Klaudia",
     "results": [
       {
@@ -10271,6 +10804,19 @@
       {
         "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
         "info": "Amateur PreChampionship Events A Int'l Latin (CC,S,R,J)",
+        "place": "3",
+        "points": 9.75
+      }
+    ],
+    "total_pts": 9.75,
+    "avg_pts": 9.75
+  },
+  {
+    "name": "Connelley, Ryley and Schuman, Hannah",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Latin (C/R)",
         "place": "3",
         "points": 9.75
       }
@@ -10433,9 +10979,52 @@
         "info": "AC-Y Preteen 1 F Int'l Latin 4-Dance {Fordney Fdn Bof B} (C/S/R/J)",
         "place": "Semis",
         "points": 5.25
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-PT1 Closed PT Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 9.75
       }
     ],
-    "total_pts": 97.0,
+    "total_pts": 106.75,
+    "avg_pts": 9.7
+  },
+  {
+    "name": "Blancas, Enrique and Baker, Hannah",
+    "results": [
+      {
+        "comp_name": "Las Vegas Lights",
+        "info": "AC-Y International Latin (CC/S/R/PD/J)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Las Vegas Lights",
+        "info": "AC-A Open International Latin (CC/S/R/PD/J)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "2",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 48.5,
     "avg_pts": 9.7
   },
   {
@@ -10631,54 +11220,35 @@
     "avg_pts": 9.64
   },
   {
-    "name": "Fox, Blake and Ascione, Nicole",
+    "name": "Maier, Ben and Maier, Lucy",
     "results": [
       {
-        "comp_name": "Las Vegas Lights",
-        "info": "AC-J International Latin (CC/S/R/J)",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "Las Vegas Lights",
-        "info": "AC-Y International Latin (CC/S/R/PD/J)",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Amateur Youth International Latin Championship (C/S/R/PD/J)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Amateur Under 21 - International Latin (C/S/R/PD/J)",
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
         "place": "Semis",
-        "points": 3.0
-      }
-    ],
-    "total_pts": 38.5,
-    "avg_pts": 9.62
-  },
-  {
-    "name": "Blancas, Enrique and Baker, Hannah",
-    "results": [
-      {
-        "comp_name": "Las Vegas Lights",
-        "info": "AC-Y International Latin (CC/S/R/PD/J)",
-        "place": "2",
-        "points": 5.25
+        "points": 6.0
       },
       {
-        "comp_name": "Las Vegas Lights",
-        "info": "AC-A Open International Latin (CC/S/R/PD/J)",
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 1.2
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Pre-Champ Amateur International Latin (C/S/R/J)",
         "place": "2",
-        "points": 14.0
+        "points": 20.0
       }
     ],
-    "total_pts": 19.25,
-    "avg_pts": 9.62
+    "total_pts": 38.45,
+    "avg_pts": 9.61
   },
   {
     "name": "Song, Leonard and Song, Lauren",
@@ -11198,25 +11768,6 @@
     "avg_pts": 9.38
   },
   {
-    "name": "Savitskyy, Taras and Koshkina, Yulia",
-    "results": [
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Adult Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "5",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Amateur 5-Dance Scholarships AD Int'l Latin (CC,S,R,PD,J)",
-        "place": "round 1",
-        "points": 2.75
-      }
-    ],
-    "total_pts": 18.75,
-    "avg_pts": 9.38
-  },
-  {
     "name": "Dinh, Don and Knowles, Penelope",
     "results": [
       {
@@ -11372,6 +11923,37 @@
     "avg_pts": 9.1
   },
   {
+    "name": "Baker, Bronson and Haslam, Jiaxin",
+    "results": [
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Pre-Championship International Latin (C/S/R/J)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Amateur Youth International Latin Championship (C/S/R/PD/J)",
+        "place": "7",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "4",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 36.0,
+    "avg_pts": 9.0
+  },
+  {
     "name": "Chu, Michael and Wang, Alison",
     "results": [
       {
@@ -11460,6 +12042,25 @@
         "info": "Amateur Youth 3-Dance Events Closed P2 Int'l Latin (CC,S,R) /J",
         "place": "1",
         "points": 9.0
+      }
+    ],
+    "total_pts": 18.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Jolley, Matthew and Nan, Tabitha",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-PT1 Closed PT Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-PT2 Closed PT Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "5",
+        "points": 6.0
       }
     ],
     "total_pts": 18.0,
@@ -11722,19 +12323,6 @@
       {
         "comp_name": "City Lights Ball",
         "info": "AC-MXGPT1 Pre Teen 1 Closed Latin (CC/S/R/J)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 9.0,
-    "avg_pts": 9.0
-  },
-  {
-    "name": "Knights, Eamonn and Jones, Ida",
-    "results": [
-      {
-        "comp_name": "2019 Atlantic DanceSport Challenge",
-        "info": "AC-SR1 Amateur ADC Latin Challenge (C/S/R/P/J)",
         "place": "1",
         "points": 9.0
       }
@@ -12092,6 +12680,19 @@
     ],
     "total_pts": 17.75,
     "avg_pts": 8.88
+  },
+  {
+    "name": "Zakirzynov, Daniel and Lujan, Ana",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 8.8
+      }
+    ],
+    "total_pts": 8.8,
+    "avg_pts": 8.8
   },
   {
     "name": "Bader, Hudson and Groysman, Milana",
@@ -12651,25 +13252,6 @@
         "info": "AC-MLJ1 Novice Latin (C/S/R)",
         "place": "1",
         "points": 3.75
-      }
-    ],
-    "total_pts": 17.25,
-    "avg_pts": 8.62
-  },
-  {
-    "name": "Zheng, Jianxiang and Hou, Routong",
-    "results": [
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Amateur 4/5 Dance Championships  U21 Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "7",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Amateur 5-Dance Scholarships AD Int'l Latin (CC,S,R,PD,J)",
-        "place": "quarters",
-        "points": 8.25
       }
     ],
     "total_pts": 17.25,
@@ -13677,6 +14259,49 @@
     "avg_pts": 8.15
   },
   {
+    "name": "Fox, Blake and Ascione, Nicole",
+    "results": [
+      {
+        "comp_name": "Las Vegas Lights",
+        "info": "AC-J International Latin (CC/S/R/J)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "Las Vegas Lights",
+        "info": "AC-Y International Latin (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Amateur Youth International Latin Championship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Amateur Under 21 - International Latin (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 7.6
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 2.7
+      }
+    ],
+    "total_pts": 48.8,
+    "avg_pts": 8.13
+  },
+  {
     "name": "Greenberg, Evan and Simanovich, Victoria",
     "results": [
       {
@@ -14281,6 +14906,31 @@
     ],
     "total_pts": 31.3,
     "avg_pts": 7.83
+  },
+  {
+    "name": "Adams, Trey and McCoy, Poet",
+    "results": [
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "info": "AC-PT Silver Junior Amateur International Latin Challenge (C/R/J)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Cincinnati Ballroom Classic",
+        "info": "AC-PT International Latin Closed Silver 4-Dance (CC/S/R/J)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Cincinnati Ballroom Classic",
+        "info": "AC-PT 1 Silver Closed Latin 4-Dance (CC/S/R/J)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 23.25,
+    "avg_pts": 7.75
   },
   {
     "name": "Liu, Richard and Lee, Joyce",
@@ -14945,6 +15595,25 @@
     "avg_pts": 7.5
   },
   {
+    "name": "Shepherd, Maklain and Davis, Maddison",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Latin (C/R)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "Semis",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 7.5
+  },
+  {
     "name": "Sinitsin, Ivan and Sinitsin, Polina",
     "results": [
       {
@@ -14983,12 +15652,12 @@
     "avg_pts": 7.5
   },
   {
-    "name": "Andrews, Parker and Rebollo, Bella",
+    "name": "Fitzgerald, Peter and Harrison, Taylor",
     "results": [
       {
-        "comp_name": "2019 Indianapolis Open DanceSport",
-        "info": "AC-PT Bronze Junior Amateur International Latin Challenge (C/R/J)",
-        "place": "1",
+        "comp_name": "2019 NV Ball",
+        "info": "AC-PT2 Closed PT Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "4",
         "points": 7.5
       }
     ],
@@ -15106,19 +15775,6 @@
         "comp_name": "NYDF 2019",
         "info": "AC-A International Latin Pre-Championship (C/S/R/J)",
         "place": "7",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 7.5,
-    "avg_pts": 7.5
-  },
-  {
-    "name": "Zhang, Heyang and Li, Yi",
-    "results": [
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Amateur 4/5 Dance Championships  YH Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "Semis",
         "points": 7.5
       }
     ],
@@ -15408,6 +16064,97 @@
     ],
     "total_pts": 22.0,
     "avg_pts": 7.33
+  },
+  {
+    "name": "May, Michael and English, Pallany",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Under 21 International Latin Championship (C/S/R/PD/J) Quarter-final",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-Y Junior & Youth International Latin Championship (C/S/R/P/J) Quarter-final",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "info": "AC-Y <436>Youth Amateur Open Int'l Latin 5-Dance Championship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "info": "AC- <414>Under 21 Amateur Int'l Latin Open 5-Dance Championship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "AC- Under 21 Open International Latin Championship (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "AC-Y TSDSC International Latin Open Championship** (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-UN21 Amateur Open International Latin Championship(CC/S/R/PD/J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Under 21 International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-Y Junior & Youth International Latin Championship (C/S/R/P/J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Youth Events  YH Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Amateur 4/5 Dance Championships  U21 Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Amateur 4/5 Dance Championships  YH Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "5",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 4.8
+      }
+    ],
+    "total_pts": 101.7,
+    "avg_pts": 7.26
   },
   {
     "name": "Linder, Erik and Luzarraga, Katya",
@@ -16174,6 +16921,31 @@
     "avg_pts": 7.0
   },
   {
+    "name": "Lifshitz, Tal and Dang, Maya",
+    "results": [
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "AC-MA Closed Bronze Championship International Latin (CC/S/R)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "AC-MA Closed Bronze DanceSport Series International Latin (C/S/R/PD/J)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "AC-MA Closed Bronze Scholarship International Latin Best of the Best Qualifier (CC/S/R)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 21.0,
+    "avg_pts": 7.0
+  },
+  {
     "name": "Eydlin, Benjamin and Lerner, Gabrielle",
     "results": [
       {
@@ -16628,6 +17400,109 @@
     "avg_pts": 6.88
   },
   {
+    "name": "Rodriguez, Oscar Adrian and Chen, Chrystal Bella",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "info": "AC- Pre Champ Latin (CC/S/R/J)",
+        "place": "4",
+        "points": 5.25
+      },
+      {
+        "comp_name": "City Lights Ball",
+        "info": "AC- Novice Latin (CC/S/J)",
+        "place": "4",
+        "points": 1.75
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-A International Latin Novice Open (C/S/R)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-A International Latin Pre-Championship (C/S/R/J)",
+        "place": "Semis",
+        "points": 0.25
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Amateur PreChampionship Events A Int'l Latin (CC,S,R,J)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Dance Stars Festival",
+        "info": "Amateur Multi-Dance Open 4 dance Advanced AM Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC- Adult Novice Int'l Latin (C/S/R)",
+        "place": "1",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC- Adult Pre-Championship Int'l Latin (C/S/R/J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "All-Star Dance Challenge",
+        "info": "AC-A Novice Internnational Latin (C/R/J)",
+        "place": "2",
+        "points": 1.75
+      },
+      {
+        "comp_name": "All-Star Dance Challenge",
+        "info": "AC-A Pre-Champ International Latin (C/S/R/J)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Amateur Novice 3-Dance A Int'l Latin (CC,R,J)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Amateur PreChampionship 4-Dance A Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "AC-A Amateur Pre-Championship International Latin (C/S/R/J)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Latin (C/R)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Latin (S/J)",
+        "place": "2",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "4",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 109.75,
+    "avg_pts": 6.86
+  },
+  {
     "name": "Myastkovetsky, Alexander and Zelenyak, Gabriella",
     "results": [
       {
@@ -16706,6 +17581,25 @@
       }
     ],
     "total_pts": 20.25,
+    "avg_pts": 6.75
+  },
+  {
+    "name": "Andrews, Parker and Rebollo, Bella",
+    "results": [
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "info": "AC-PT Bronze Junior Amateur International Latin Challenge (C/R/J)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Cincinnati Ballroom Classic",
+        "info": "AC-PT International Latin Closed Bronze 3-Dance (CC/S/R)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 13.5,
     "avg_pts": 6.75
   },
   {
@@ -16803,85 +17697,6 @@
     ],
     "total_pts": 6.75,
     "avg_pts": 6.75
-  },
-  {
-    "name": "May, Michael and English, Pallany",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Under 21 International Latin Championship (C/S/R/PD/J) Quarter-final",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-Y Junior & Youth International Latin Championship (C/S/R/P/J) Quarter-final",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Heritage Classic",
-        "info": "AC-Y <436>Youth Amateur Open Int'l Latin 5-Dance Championship (C/S/R/PD/J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Heritage Classic",
-        "info": "AC- <414>Under 21 Amateur Int'l Latin Open 5-Dance Championship (C/S/R/PD/J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "AC- Under 21 Open International Latin Championship (C/S/R/P/J)",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "AC-Y TSDSC International Latin Open Championship** (C/S/R/P/J)",
-        "place": "Semis",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "AC-UN21 Amateur Open International Latin Championship(CC/S/R/PD/J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Under 21 International Latin Championship (C/S/R/PD/J)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-Y Junior & Youth International Latin Championship (C/S/R/P/J)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Youth Events  YH Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Amateur 4/5 Dance Championships  U21 Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Amateur 4/5 Dance Championships  YH Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "6",
-        "points": 10.5
-      }
-    ],
-    "total_pts": 80.9,
-    "avg_pts": 6.74
   },
   {
     "name": "Bulgakov, Michael and Gekker, Abigail",
@@ -17203,91 +18018,6 @@
     "avg_pts": 6.62
   },
   {
-    "name": "Rodriguez, Oscar and Chen, Chrystal",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "info": "AC- Pre Champ Latin (CC/S/R/J)",
-        "place": "4",
-        "points": 5.25
-      },
-      {
-        "comp_name": "City Lights Ball",
-        "info": "AC- Novice Latin (CC/S/J)",
-        "place": "4",
-        "points": 1.75
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-A International Latin Novice Open (C/S/R)",
-        "place": "2",
-        "points": 8.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-A International Latin Pre-Championship (C/S/R/J)",
-        "place": "Semis",
-        "points": 0.25
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Amateur PreChampionship Events A Int'l Latin (CC,S,R,J)",
-        "place": "4",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Dance Stars Festival",
-        "info": "Amateur Multi-Dance Open 4 dance Advanced AM Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC- Adult Novice Int'l Latin (C/S/R)",
-        "place": "1",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC- Adult Pre-Championship Int'l Latin (C/S/R/J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "All-Star Dance Challenge",
-        "info": "AC-A Novice Internnational Latin (C/R/J)",
-        "place": "2",
-        "points": 1.75
-      },
-      {
-        "comp_name": "All-Star Dance Challenge",
-        "info": "AC-A Pre-Champ International Latin (C/S/R/J)",
-        "place": "3",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Amateur Novice 3-Dance A Int'l Latin (CC,R,J)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Amateur PreChampionship 4-Dance A Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "AC-A Amateur Pre-Championship International Latin (C/S/R/J)",
-        "place": "3",
-        "points": 9.75
-      }
-    ],
-    "total_pts": 85.75,
-    "avg_pts": 6.6
-  },
-  {
     "name": "Alfassi, Ori and Alfassi, Danielle",
     "results": [
       {
@@ -17378,55 +18108,6 @@
     ],
     "total_pts": 59.25,
     "avg_pts": 6.58
-  },
-  {
-    "name": "Groysman, Eric and Muraru, Alice",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J) Quarter-final",
-        "place": "quarters",
-        "points": 3.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "AC-A TSDSC Open International Latin Championship (C/S/R/P/J)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC- Adult Open Championship Int'l Latin (C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 6.8
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
-        "place": "quarters",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Adult Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "The DBDC 2019",
-        "info": "AC-AD Open Int'l Latin (C/S/R/PD/J)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Amateur 5-Dance Scholarships AD Int'l Latin (CC,S,R,PD,J)",
-        "place": "quarters",
-        "points": 8.25
-      }
-    ],
-    "total_pts": 45.55,
-    "avg_pts": 6.51
   },
   {
     "name": "Teplouhov, Anton and Galeyeva, Angelina",
@@ -17592,6 +18273,98 @@
     "avg_pts": 6.47
   },
   {
+    "name": "Christensen, Gabriel and Matthews, Cydnee",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J1 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "7",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J2 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-JR Junior International Latin Grand Slam (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J1 Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J2 Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "1",
+        "points": 13.5
+      }
+    ],
+    "total_pts": 32.3,
+    "avg_pts": 6.46
+  },
+  {
+    "name": "Groysman, Eric and Muraru, Alice",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J) Quarter-final",
+        "place": "quarters",
+        "points": 3.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "AC-A TSDSC Open International Latin Championship (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC- Adult Open Championship Int'l Latin (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.8
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "AC-AD Open Int'l Latin (C/S/R/PD/J)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Amateur 5-Dance Scholarships AD Int'l Latin (CC,S,R,PD,J)",
+        "place": "quarters",
+        "points": 8.25
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 51.55,
+    "avg_pts": 6.44
+  },
+  {
     "name": "Khelmer, Samuel and Guzman, Alisa",
     "results": [
       {
@@ -17673,6 +18446,25 @@
         "info": "AC-A Amateur International Latin Novice(CC/S/R)",
         "place": "1",
         "points": 3.75
+      }
+    ],
+    "total_pts": 12.75,
+    "avg_pts": 6.38
+  },
+  {
+    "name": "Simkins, Zachary and Wiser, Hailie",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "6",
+        "points": 8.75
       }
     ],
     "total_pts": 12.75,
@@ -17926,19 +18718,6 @@
     "avg_pts": 6.3
   },
   {
-    "name": "Lu, Jianchen and Yang, Bingyan",
-    "results": [
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Amateur 4/5 Dance Championships  YH Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 6.3
-      }
-    ],
-    "total_pts": 6.3,
-    "avg_pts": 6.3
-  },
-  {
     "name": "Makogon, Lukas and Mojsa, Paula",
     "results": [
       {
@@ -18142,6 +18921,25 @@
     ],
     "total_pts": 56.15,
     "avg_pts": 6.24
+  },
+  {
+    "name": "Liu, Braden and Zenger, Alayna",
+    "results": [
+      {
+        "comp_name": "Heart of America DanceSport Championships",
+        "info": "AC-A Open Amateur Latin Championship (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 12.4,
+    "avg_pts": 6.2
   },
   {
     "name": "Apostolakopoulos, Peter and Edwards, Corinne",
@@ -18367,6 +19165,25 @@
     "avg_pts": 6.12
   },
   {
+    "name": "Keck, Dallin and Tuaileva, Mya",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J1 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-JR Junior International Latin Grand Slam (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 12.25,
+    "avg_pts": 6.12
+  },
+  {
     "name": "Nadelson, David and Nadelson, Lizabella",
     "results": [
       {
@@ -18496,6 +19313,37 @@
     ],
     "total_pts": 30.25,
     "avg_pts": 6.05
+  },
+  {
+    "name": "Yin, Pengkai and Li, Jiaxin",
+    "results": [
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Amateur 4/5 Dance Championships  YH Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J2 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-JR Junior International Latin Grand Slam (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 24.15,
+    "avg_pts": 6.04
   },
   {
     "name": "Hall, John and Zavodchikov, Natalia",
@@ -18822,11 +19670,37 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Foley, Deana and Foley, John",
+    "results": [
+      {
+        "comp_name": "Cincinnati Ballroom Classic",
+        "info": "AC-B International Latin Closed Bronze 3-Dance (CC/S/R)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Gamazaychikov, Mark and Zemelshtern, Sofia",
     "results": [
       {
         "comp_name": "2019 Atlantic DanceSport Challenge",
         "info": "AC-JR1 PT/JR Amateur Closed Bronze Latin (C/S/J)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Grabiel, Kaelin and Netherton, James",
+    "results": [
+      {
+        "comp_name": "Heart of America DanceSport Championships",
+        "info": "L-J1 Bronze Pro/Am Closed Latin Championship (CC/R/J)",
         "place": "1",
         "points": 6.0
       }
@@ -18939,19 +19813,6 @@
     "avg_pts": 6.0
   },
   {
-    "name": "Knighton, Brittany and Knighton, Jai",
-    "results": [
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "AC-A Amateur Open International Latin Championship(CC/S/R/PD/J)",
-        "place": "7",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 6.0,
-    "avg_pts": 6.0
-  },
-  {
     "name": "Krumhorn, Nathan and Aleksonis, Greta",
     "results": [
       {
@@ -18984,6 +19845,19 @@
         "comp_name": "Eastern United States DanceSport Championship",
         "info": "AC-J1 Closed Silver Latin (C/S/R/J)",
         "place": "5",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Mansfield, Frank and Hemphill, Carlye",
+    "results": [
+      {
+        "comp_name": "Heart of America DanceSport Championships",
+        "info": "AC-GC Bronze Amateur Closed Latin Championship (CC/R/J)",
+        "place": "1",
         "points": 6.0
       }
     ],
@@ -19075,19 +19949,6 @@
         "comp_name": "2019people[forrest vance]",
         "info": "AC-PT Bronze International Latin Closed 2-Dance (C/R)",
         "place": "1",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 6.0,
-    "avg_pts": 6.0
-  },
-  {
-    "name": "Wang, Shengzhe and Li, Sinuo",
-    "results": [
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Amateur 4/5 Dance Championships  YH Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "Semis",
         "points": 6.0
       }
     ],
@@ -19360,73 +20221,6 @@
     ],
     "total_pts": 17.5,
     "avg_pts": 5.83
-  },
-  {
-    "name": "Pollack, Daniel and Pollack, Alexis",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-Y Under 21 Amateur International Latin (C/S/R/P/J)",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC- Amateur Latin Under 21 Scholarship(CC/S/R/PD/J)",
-        "place": "Semis",
-        "points": 7.65
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Under 21 International Latin Championship (C/S/R/PD/J) Quarter-final",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-Y Junior & Youth International Latin Championship (C/S/R/P/J) Quarter-final",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Under 21 International Latin Championship (C/S/R/PD/J)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-Y Junior & Youth International Latin Championship (C/S/R/P/J)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Amateur Under 21 - International Latin (C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 3.25
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 2.7
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "AC-A Open Amateur International Latin Scholarship (C/S/R/PD/J)",
-        "place": "6",
-        "points": 12.25
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "AC-U21 Open Amateur International Latin Scholarship (C/S/R/PD/J)",
-        "place": "3",
-        "points": 12.5
-      }
-    ],
-    "total_pts": 57.95,
-    "avg_pts": 5.79
   },
   {
     "name": "Kuzmiankou, Anton and Kazakevich, Lana",
@@ -20494,6 +21288,85 @@
     "avg_pts": 5.27
   },
   {
+    "name": "Pollack, Daniel and Pollack, Alexis",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-Y Under 21 Amateur International Latin (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC- Amateur Latin Under 21 Scholarship(CC/S/R/PD/J)",
+        "place": "Semis",
+        "points": 7.65
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Under 21 International Latin Championship (C/S/R/PD/J) Quarter-final",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-Y Junior & Youth International Latin Championship (C/S/R/P/J) Quarter-final",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Under 21 International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-Y Junior & Youth International Latin Championship (C/S/R/P/J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Amateur Under 21 - International Latin (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 3.25
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 2.7
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "AC-A Open Amateur International Latin Scholarship (C/S/R/PD/J)",
+        "place": "6",
+        "points": 12.25
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "AC-U21 Open Amateur International Latin Scholarship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 12.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 2.8
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 2.4
+      }
+    ],
+    "total_pts": 63.15,
+    "avg_pts": 5.26
+  },
+  {
     "name": "Busche, Michael and Chatterjee, Fiona",
     "results": [
       {
@@ -20636,6 +21509,25 @@
     "avg_pts": 5.25
   },
   {
+    "name": "Bradley, Jon and Taylor, Ruby",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-PT1 Closed PT Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-PT2 Closed PT Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "7",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 10.5,
+    "avg_pts": 5.25
+  },
+  {
     "name": "Holt, Anthony and Antonelli, Nicole",
     "results": [
       {
@@ -20690,19 +21582,6 @@
       }
     ],
     "total_pts": 10.5,
-    "avg_pts": 5.25
-  },
-  {
-    "name": "Adams, Trey and McCoy, Poet",
-    "results": [
-      {
-        "comp_name": "2019 Indianapolis Open DanceSport",
-        "info": "AC-PT Silver Junior Amateur International Latin Challenge (C/R/J)",
-        "place": "2",
-        "points": 5.25
-      }
-    ],
-    "total_pts": 5.25,
     "avg_pts": 5.25
   },
   {
@@ -21154,6 +22033,56 @@
     "avg_pts": 5.17
   },
   {
+    "name": "Hu, Kaixi and Wang, Yiran",
+    "results": [
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Amateur 4/5 Dance Championships  U21 Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Amateur 5-Dance Scholarships AD Int'l Latin (CC,S,R,PD,J)",
+        "place": "quarters",
+        "points": 5.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 5.4
+      }
+    ],
+    "total_pts": 20.5,
+    "avg_pts": 5.12
+  },
+  {
+    "name": "Haslam, Dantes and Gough, Eden",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J1 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "8",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J1 Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "3",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 10.25,
+    "avg_pts": 5.12
+  },
+  {
     "name": "Volkov, Barry and Volkov, Vivien",
     "results": [
       {
@@ -21294,19 +22223,6 @@
       }
     ],
     "total_pts": 10.0,
-    "avg_pts": 5.0
-  },
-  {
-    "name": "Baker, Carson and Hancock, Sofia",
-    "results": [
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Amateur Youth International Latin Championship (C/S/R/PD/J)",
-        "place": "8",
-        "points": 5.0
-      }
-    ],
-    "total_pts": 5.0,
     "avg_pts": 5.0
   },
   {
@@ -21807,25 +22723,6 @@
     "avg_pts": 4.6
   },
   {
-    "name": "Hu, Kaixi and Wang, Yiran",
-    "results": [
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Amateur 4/5 Dance Championships  U21 Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Amateur 5-Dance Scholarships AD Int'l Latin (CC,S,R,PD,J)",
-        "place": "quarters",
-        "points": 5.5
-      }
-    ],
-    "total_pts": 9.1,
-    "avg_pts": 4.55
-  },
-  {
     "name": "Khelmer, Brian and Naroditskiy, Leah",
     "results": [
       {
@@ -21870,6 +22767,25 @@
         "info": "Youth Amateur PreChampionships YH Int'l Latin (CC,S,R,J)",
         "place": "5",
         "points": 6.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 4.5
+  },
+  {
+    "name": "Brinkerhoff, Crew and Deloach, Skylar",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-PT1 Closed PT Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "6",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-PT2 Closed PT Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "8",
+        "points": 3.75
       }
     ],
     "total_pts": 9.0,
@@ -22739,6 +23655,32 @@
     "avg_pts": 4.0
   },
   {
+    "name": "Martinez, Marcos and Cordon, Saiidi",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 4.0,
+    "avg_pts": 4.0
+  },
+  {
+    "name": "Rojo, Cesar and Burgess, Whitney",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 4.0,
+    "avg_pts": 4.0
+  },
+  {
     "name": "Rubezin, Michael and Maglioccheti, Elise",
     "results": [
       {
@@ -22843,6 +23785,49 @@
     ],
     "total_pts": 15.75,
     "avg_pts": 3.94
+  },
+  {
+    "name": "Safsten, Robert and Safsten, Sarah",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "AC- Amateur Novice Latin (S/R)",
+        "place": "Semis",
+        "points": 0.75
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Pre-Championship Latin (CC/S/R) Quarter-final",
+        "place": "quarters",
+        "points": 1.75
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Pre-Championship Latin (CC/S/R)",
+        "place": "quarters",
+        "points": 1.75
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Latin (C/R)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Latin (S/J)",
+        "place": "3",
+        "points": 3.25
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "5",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 23.5,
+    "avg_pts": 3.92
   },
   {
     "name": "Simanovsky, Andrey and Lai, Ming-Sum",
@@ -23113,6 +24098,31 @@
     ],
     "total_pts": 11.15,
     "avg_pts": 3.72
+  },
+  {
+    "name": "Baker, Carson and Hancock, Sofia",
+    "results": [
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Amateur Youth International Latin Championship (C/S/R/PD/J)",
+        "place": "8",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-JR Junior International Latin Grand Slam (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 0.7
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J2 Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "3",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 10.95,
+    "avg_pts": 3.65
   },
   {
     "name": "Chavol, Aviel and Sargsyan, Erika",
@@ -23654,6 +24664,37 @@
     "avg_pts": 3.38
   },
   {
+    "name": "Christensen, Isaac and Palmer, Kate",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J2 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-JR Junior International Latin Grand Slam (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 2.45
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "Semis",
+        "points": 1.75
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J2 Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "2",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 13.5,
+    "avg_pts": 3.38
+  },
+  {
     "name": "Asatryan, Alan and Asatryan, Ariel",
     "results": [
       {
@@ -23746,6 +24787,25 @@
     ],
     "total_pts": 6.5,
     "avg_pts": 3.25
+  },
+  {
+    "name": "Knighton, Brittany and Knighton, Jai",
+    "results": [
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-A Amateur Open International Latin Championship(CC/S/R/PD/J)",
+        "place": "7",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 6.4,
+    "avg_pts": 3.2
   },
   {
     "name": "Sun, Justin and Tran, Kaylee",
@@ -24098,12 +25158,57 @@
     "avg_pts": 3.0
   },
   {
+    "name": "Sanders, Thomas and Evans, Lorna",
+    "results": [
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "AC-P2 Closed Bronze International Novice (C/R)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "AC-P2 Closed Bronze International Novice (S/J)",
+        "place": "1",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 3.0
+  },
+  {
     "name": "DeWaal, Trevor and DeWaal, Kylie",
     "results": [
       {
         "comp_name": "Portland Open Dancesport Competition",
         "info": "Youth Amateur Closed Bronze 2-Dance Events P2 Int'l Latin (CC,R)",
         "place": "7",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
+  },
+  {
+    "name": "Guzzi, Al and Miller, Marcia",
+    "results": [
+      {
+        "comp_name": "Boca Ballroom Dancesport Competition",
+        "info": "AC-S1 Amateur Novice International Latin Multi-Dance (CC/S/R)",
+        "place": "1",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
+  },
+  {
+    "name": "Kapadia, Xerxes and Bishamber, Sabrina",
+    "results": [
+      {
+        "comp_name": "Boca Ballroom Dancesport Competition",
+        "info": "AC-A Amateur Novice International Latin Multi-Dance (CC/S/R)",
+        "place": "1",
         "points": 3.0
       }
     ],
@@ -24414,6 +25519,49 @@
     ],
     "total_pts": 28.2,
     "avg_pts": 2.82
+  },
+  {
+    "name": "Theurer, Brandon and Bassett, Jennifer",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "AC- Amateur Novice Latin (S/R)",
+        "place": "Semis",
+        "points": 0.15
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Pre-Championship Latin (CC/S/R) Quarter-final",
+        "place": "quarters",
+        "points": 0.35
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Pre-Championship Latin (CC/S/R)",
+        "place": "quarters",
+        "points": 0.35
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Latin (C/R)",
+        "place": "6",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Latin (S/J)",
+        "place": "5",
+        "points": 2.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "6",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 16.85,
+    "avg_pts": 2.81
   },
   {
     "name": "Pazniakou, Artsiom and Goryaynova, Daria",
@@ -25066,19 +26214,6 @@
     "avg_pts": 2.42
   },
   {
-    "name": "Yin, Pengkai and Li, Jiaxin",
-    "results": [
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Amateur 4/5 Dance Championships  YH Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 2.4
-      }
-    ],
-    "total_pts": 2.4,
-    "avg_pts": 2.4
-  },
-  {
     "name": "Moe, Tristan and Davidson, Arianna",
     "results": [
       {
@@ -25201,6 +26336,25 @@
       }
     ],
     "total_pts": 6.45,
+    "avg_pts": 2.15
+  },
+  {
+    "name": "Jennings, Wyatt and Zenger, Lyvia",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 0.3
+      }
+    ],
+    "total_pts": 4.3,
     "avg_pts": 2.15
   },
   {
@@ -25567,6 +26721,31 @@
     "avg_pts": 1.6
   },
   {
+    "name": "Butler, Mackay and Hanselmann, Raetchel",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Latin (C/R)",
+        "place": "Semis",
+        "points": 0.75
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Latin (S/J)",
+        "place": "4",
+        "points": 2.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "Semis",
+        "points": 1.5
+      }
+    ],
+    "total_pts": 4.75,
+    "avg_pts": 1.58
+  },
+  {
     "name": "Volkov, Barry and Nosovitskiy, Rebecca",
     "results": [
       {
@@ -25648,31 +26827,6 @@
     ],
     "total_pts": 1.5,
     "avg_pts": 1.5
-  },
-  {
-    "name": "Safsten, Robert and Safsten, Sarah",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "AC- Amateur Novice Latin (S/R)",
-        "place": "Semis",
-        "points": 0.75
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Pre-Championship Latin (CC/S/R) Quarter-final",
-        "place": "quarters",
-        "points": 1.75
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Pre-Championship Latin (CC/S/R)",
-        "place": "quarters",
-        "points": 1.75
-      }
-    ],
-    "total_pts": 4.25,
-    "avg_pts": 1.42
   },
   {
     "name": "Shafran, Alec and Nikolaev, Nicole",
@@ -25763,6 +26917,31 @@
     "avg_pts": 1.3
   },
   {
+    "name": "Ford, Parley and Shepherd, Zaylie",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J2 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 0.9
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 0.4
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-JR Junior International Latin Grand Slam (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 2.45
+      }
+    ],
+    "total_pts": 3.75,
+    "avg_pts": 1.25
+  },
+  {
     "name": "Porotsky, Sean and Sultanova, Hannah",
     "results": [
       {
@@ -25818,6 +26997,31 @@
     ],
     "total_pts": 2.2,
     "avg_pts": 1.1
+  },
+  {
+    "name": "Soelberg, Landon and Smith, Brooklyn",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Latin (C/R)",
+        "place": "Semis",
+        "points": 0.9
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Latin (S/J)",
+        "place": "6",
+        "points": 1.75
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "Semis",
+        "points": 0.5
+      }
+    ],
+    "total_pts": 3.15,
+    "avg_pts": 1.05
   },
   {
     "name": "Jensen, August and Hopkin, Faith",
@@ -25920,6 +27124,25 @@
     "avg_pts": 0.94
   },
   {
+    "name": "Smith, Zach and McOmber, Kennidy",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 0.4
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "Semis",
+        "points": 1.25
+      }
+    ],
+    "total_pts": 1.65,
+    "avg_pts": 0.82
+  },
+  {
     "name": "Babayants, Nicholas and Kazanjian, Maya",
     "results": [
       {
@@ -26014,6 +27237,50 @@
     ],
     "total_pts": 2.0,
     "avg_pts": 0.67
+  },
+  {
+    "name": "Simkins, Mason and Crisostomo, Evelyn",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 0.4
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 0.9
+      }
+    ],
+    "total_pts": 1.3,
+    "avg_pts": 0.65
+  },
+  {
+    "name": "Curtis, Tyler and Jorgensen, Caroline",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Latin (C/R)",
+        "place": "Semis",
+        "points": 0.15
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Latin (S/J)",
+        "place": "7",
+        "points": 1.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "Semis",
+        "points": 0.25
+      }
+    ],
+    "total_pts": 1.9,
+    "avg_pts": 0.63
   },
   {
     "name": "Bjarnasson, Bragi Geir and Eyjolfsdottir, Magdealena",
@@ -26153,6 +27420,19 @@
       }
     ],
     "total_pts": 0.8,
+    "avg_pts": 0.4
+  },
+  {
+    "name": "Ascione, Eric and Smith, Vashti",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 0.4,
     "avg_pts": 0.4
   },
   {
@@ -26455,6 +27735,25 @@
     "avg_pts": 0.33
   },
   {
+    "name": "Baines, Caden and Eisert, Brianna",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 0.4
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "Semis",
+        "points": 0.25
+      }
+    ],
+    "total_pts": 0.65,
+    "avg_pts": 0.33
+  },
+  {
     "name": "De Bellis, Luke and Wong, Sophia",
     "results": [
       {
@@ -26546,31 +27845,6 @@
     "avg_pts": 0.3
   },
   {
-    "name": "Theurer, Brandon and Bassett, Jenny",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "AC- Amateur Novice Latin (S/R)",
-        "place": "Semis",
-        "points": 0.15
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Pre-Championship Latin (CC/S/R) Quarter-final",
-        "place": "quarters",
-        "points": 0.35
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Pre-Championship Latin (CC/S/R)",
-        "place": "quarters",
-        "points": 0.35
-      }
-    ],
-    "total_pts": 0.85,
-    "avg_pts": 0.28
-  },
-  {
     "name": "Bader, McLaren and Skoblova, Angelina",
     "results": [
       {
@@ -26588,6 +27862,19 @@
     ],
     "total_pts": 0.55,
     "avg_pts": 0.28
+  },
+  {
+    "name": "Horne, Carson and Baines, Chloe",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Pre-Champ Amateur International Latin (C/S/R/J)",
+        "place": "Semis",
+        "points": 0.25
+      }
+    ],
+    "total_pts": 0.25,
+    "avg_pts": 0.25
   },
   {
     "name": "Indiana, Foley and Casabianca, Valentina",
