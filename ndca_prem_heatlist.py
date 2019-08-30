@@ -30,43 +30,58 @@ class NdcaPremHeat(Heat):
         if len(line) > 0:
             # split the heat information into fields
             cols = line.split("</td>")
-            # find the session
-            start_pos = cols[0].find("-sess") + len("-sess") + 2
-            self.session = cols[0][start_pos:]
-            # find the heat time
-            start_pos = cols[2].find("-time") + len("-time") + 2
-            self.time = cols[2][start_pos:]
-            # find the heat number and convert to integer
-            start_pos = cols[1].find("-heat") + len("-heat") + 2      
-            number_string = cols[1][start_pos:]
-            if len(number_string) == 0:
-                self.heat_number = 0
-                self.extra = ""
-            else:
-                try:
-                    self.heat_number = int(number_string)
-                except:
-                    # extract non-digit info into the extra property
-                    index = 0
-                    while number_string[index].isdigit():
-                        index += 1
-                        self.heat_number = int(number_string[:index])
-                        self.extra = number_string[index:]
+            for c in cols:
+                # find the session
+                start_pos = c.find("-sess")
+                if start_pos > -1:
+                    start_pos += len("-sess") + 2
+                    self.session = c[start_pos:]
+                    continue
                 
-            # find the heat description information    
-            start_pos = cols[3].find("-desc") + len("-desc") + 2
-            self.info = cols[3][start_pos:]
-            
-            # set the category and level if necessary
-            if "Professional" in self.info:
-                self.category = "Pro heat"
-            elif "Formation" in self.info:
-                self.category = "Formation"
-            elif "Solo Star" in self.info:
-                self.category = "Heat"
-            elif "Solo" in self.info:
-                self.category = "Solo"
-            self.set_level()
+                # find the heat time
+                start_pos = c.find("-time-round")
+                if start_pos > -1:
+                    start_pos += len("-time-round") + 2
+                    end_pos = c.find("</div>")
+                    self.time = c[start_pos:end_pos]
+                    continue
+                
+                # find the heat number and convert to integer
+                start_pos = c.find("-heat")
+                if start_pos > -1:
+                    start_pos +=  len("-heat") + 2      
+                    number_string = c[start_pos:]
+                    if len(number_string) == 0:
+                        self.heat_number = 0
+                        self.extra = ""
+                    else:
+                        try:
+                            self.heat_number = int(number_string)
+                        except:
+                            # extract non-digit info into the extra property
+                            index = 0
+                            while number_string[index].isdigit():
+                                index += 1
+                                self.heat_number = int(number_string[:index])
+                                self.extra = number_string[index:]
+                    continue
+                
+                # find the heat description information    
+                start_pos = c.find("-desc")
+                if start_pos > -1:
+                    start_pos += len("-desc") + 2
+                    self.info = c[start_pos:]
+                    # set the category and level if necessary
+                    if "Professional" in self.info:
+                        self.category = "Pro heat"
+                    elif "Formation" in self.info:
+                        self.category = "Formation"
+                    elif "Solo Star" in self.info:
+                        self.category = "Heat"
+                    elif "Solo" in self.info:
+                        self.category = "Solo"
+                        self.set_level()
+                    continue
                 
             # save the dancer name, scoresheet code, and partner name
             self.dancer = dancer.name
@@ -120,14 +135,18 @@ class NdcaPremHeatlist(Heatlist):
     def get_partner(self, line):
         '''This method searches for the partner's name on the given line.'''
         if 'partner-name' in line:
-            start_pos = line.find("With ") + len("With ")
-            name = line[start_pos:-5]
-            name_fields = name.split()
-            for f in range(1, len(name_fields)):
-                name_scramble = format_name(name, split_on=f)
-                for d in self.dancers:
-                    if d.name == name_scramble:
-                        return d.name
+            fields = line.split("</tr>")
+            for f in fields:
+                start_pos = f.find("With ") + len("With ")
+                if start_pos > -1:
+                    name = f[start_pos:-5]
+                    name_fields = name.split()
+                    for f in range(1, len(name_fields)):
+                        name_scramble = format_name(name, split_on=f)
+                        for d in self.dancers:
+                            if d.name == name_scramble:
+                                return d.name
+                    break
         else:
             return None
         
@@ -146,21 +165,20 @@ class NdcaPremHeatlist(Heatlist):
         This method extracts heat information from the heat_data read in from a URL.
         The information is saved into the specified dancer object.
         '''        
-        fields = heat_data.split("</div>")
+        fields = heat_data.split("<table>")
         # isolate the list of heats
-        if len(fields) == 5:
-            rows = fields[3].split("</tr>")
+        if len(fields)  == 2:
+            rows = fields[1].split("</tr>")
             if len(rows) <= 1:
                 print("Error parsing heat rows")
             row_index = 0
+            #field_index = 3
             # parse all the rows with heat information
             while row_index < len(rows) - 1:
                 # check if this item specifies a partner name
                 p = self.get_partner(rows[row_index])
                 if p is not None:
                     partner = p
-                    # partner found, skip row with headings
-                    row_index += 1
                     # create a couple object for this dancer and partner 
                     couple = Couple(dancer.name, partner)
                     new_couple = True  # assume this is a new couple
