@@ -19,9 +19,15 @@
         "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
         "place": "1",
         "points": 50.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 40.0
       }
     ],
-    "total_pts": 120.0,
+    "total_pts": 160.0,
     "avg_pts": 40.0
   },
   {
@@ -50,10 +56,16 @@
         "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
         "place": "2",
         "points": 40.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 32.0
       }
     ],
-    "total_pts": 140.0,
-    "avg_pts": 35.0
+    "total_pts": 172.0,
+    "avg_pts": 34.4
   },
   {
     "name": "Gunnarsson, Gunnar and Doshoris, Marika",
@@ -112,10 +124,16 @@
         "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
         "place": "3",
         "points": 32.5
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "4",
+        "points": 20.0
       }
     ],
-    "total_pts": 220.5,
-    "avg_pts": 31.5
+    "total_pts": 240.5,
+    "avg_pts": 30.06
   },
   {
     "name": "Bilopukhov, Mykhailo and Shchypilina, Anastasiia",
@@ -173,10 +191,16 @@
         "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
         "place": "4",
         "points": 25.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 26.0
       }
     ],
-    "total_pts": 216.5,
-    "avg_pts": 24.06
+    "total_pts": 242.5,
+    "avg_pts": 24.25
   },
   {
     "name": "Langella, Nino and Vaidilaite, Andra",
@@ -363,10 +387,89 @@
         "info": "Open Professional Latin (CC/S/R/PD/J)",
         "place": "1",
         "points": 20.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "5",
+        "points": 16.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 40.0
       }
     ],
-    "total_pts": 404.5,
-    "avg_pts": 22.47
+    "total_pts": 460.5,
+    "avg_pts": 23.02
+  },
+  {
+    "name": "Bertini, Francesco and Bertini, Sabrina",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "info": "Professional Open Latin (C/S/R/PD/J)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "Open Professional Latin Championship (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "Open Professional Latin (C/S/R/PD/J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "Open Professional Latin (CC/S/R/PD/J)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "Professional Open Latin (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Open Professional International Latin Championship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Professional Open Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Professional Open Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "6",
+        "points": 14.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 32.0
+      }
+    ],
+    "total_pts": 217.0,
+    "avg_pts": 21.7
   },
   {
     "name": "Mulyavka, Ivan and Rooba, Karin",
@@ -436,61 +539,6 @@
     "avg_pts": 21.4
   },
   {
-    "name": "Bertini, Francesco and Bertini, Sabrina",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "info": "Professional Open Latin (C/S/R/PD/J)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "Open Professional Latin Championship (CC/S/R/PD/J)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "Open Professional Latin (C/S/R/PD/J)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "Open Professional Latin (CC/S/R/PD/J)",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "Professional Open Latin (CC/S/R/PD/J)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Open Professional International Latin Championship (C/S/R/PD/J)",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Professional Open Events Int'l Latin (CC,S,R,PD,J)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Professional Open Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 171.0,
-    "avg_pts": 21.38
-  },
-  {
     "name": "Kiselev, Andrey and Kiseleva, Anastasia",
     "results": [
       {
@@ -539,6 +587,98 @@
     ],
     "total_pts": 97.5,
     "avg_pts": 19.5
+  },
+  {
+    "name": "Stepanchuk, Pasha and Sabler, Gabrielle",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "\"World Masters Professional Open International  Latin\" (C/S/R/P/J)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Rising Star Professional International Latin(CC/S/R/PD/J)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Open Professional International Latin(CC/S/R/PD/J)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Open Championships  Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 10.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "Bob Medeiros Professional Latin Medal (C/S/R/PD/J)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "6",
+        "points": 14.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star Int'l Latin (C/S/R/PD/J)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US Open to the World Professional Rising Star Latin (C/S/R/PD/J)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 8.8
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "4",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 203.8,
+    "avg_pts": 18.53
+  },
+  {
+    "name": "Favilla, Manuel and Maidiuk, Natalia",
+    "results": [
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 10.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 26.0
+      }
+    ],
+    "total_pts": 36.0,
+    "avg_pts": 18.0
   },
   {
     "name": "Ivanov, Ilya and Tikhenko, Yana",
@@ -670,59 +810,28 @@
         "info": "Professional Open International Latin (C/S/R/PD/J)",
         "place": "3",
         "points": 19.5
-      }
-    ],
-    "total_pts": 256.1,
-    "avg_pts": 17.07
-  },
-  {
-    "name": "Stepanchuk, Pasha and Sabler, Gabrielle",
-    "results": [
-      {
-        "comp_name": "Yankee Classic",
-        "info": "\"World Masters Professional Open International  Latin\" (C/S/R/P/J)",
-        "place": "2",
-        "points": 24.0
       },
       {
-        "comp_name": "Millennium Dancesport",
-        "info": "Rising Star Professional International Latin(CC/S/R/PD/J)",
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Latin Show Dance Championship",
         "place": "1",
-        "points": 10.0
+        "points": 20.0
       },
       {
-        "comp_name": "Millennium Dancesport",
-        "info": "Open Professional International Latin(CC/S/R/PD/J)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Open Championships  Int'l Latin Championship (CC,S,R,PD,J)",
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
         "place": "Semis",
-        "points": 10.0
+        "points": 6.0
       },
       {
-        "comp_name": "The DBDC 2019",
-        "info": "Bob Medeiros Professional Latin Medal (C/S/R/PD/J)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
         "place": "6",
         "points": 14.0
       }
     ],
-    "total_pts": 115.0,
-    "avg_pts": 16.43
+    "total_pts": 296.1,
+    "avg_pts": 16.45
   },
   {
     "name": "Kazlauskas, Jonas and Ilo, Kathleen",
@@ -853,71 +962,22 @@
         "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
         "place": "Semis",
         "points": 10.0
-      }
-    ],
-    "total_pts": 264.8,
-    "avg_pts": 15.58
-  },
-  {
-    "name": "Kapitannikov, Maksim and Nesterova, Elena",
-    "results": [
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Professional Open Events Int'l Latin (CC,S,R,PD,J)",
-        "place": "2",
-        "points": 12.0
       },
       {
-        "comp_name": "2019people[forrest vance]",
-        "info": "Open Professional Latin (C/S/R/PD/J)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Professional Open Events Int'l Latin (CC,S,R,PD,J)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Celebrating Rock Legends!",
-        "info": "Professional Open Intl Latin (CC/S/R/PD/J)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Rising Star Professional International Latin(CC/S/R/PD/J)",
-        "place": "2",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Open Professional International Latin(CC/S/R/PD/J)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "Open Professional International Latin Championship (C/S/R/PD/J)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
         "place": "Semis",
-        "points": 10.0
+        "points": 7.2
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "5",
+        "points": 16.0
       }
     ],
-    "total_pts": 136.5,
-    "avg_pts": 15.17
+    "total_pts": 288.0,
+    "avg_pts": 15.16
   },
   {
     "name": "Alisauskas, Lukas and Alisauskas, Simona",
@@ -1005,10 +1065,34 @@
         "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
         "place": "quarters",
         "points": 7.5
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star Int'l Latin (C/S/R/PD/J)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US Open to the World Professional Rising Star Latin (C/S/R/PD/J)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 7.2
       }
     ],
-    "total_pts": 211.5,
-    "avg_pts": 15.11
+    "total_pts": 272.7,
+    "avg_pts": 15.15
   },
   {
     "name": "Bezukladnikov, Egor and Savikurki, Taina",
@@ -1024,77 +1108,77 @@
     "avg_pts": 15.0
   },
   {
-    "name": "Malakhov, Nikita and Vlasova, Nadezda",
+    "name": "Kapitannikov, Maksim and Nesterova, Elena",
     "results": [
       {
-        "comp_name": "NYDF 2019",
-        "info": "Open Professional International Latin Championships (C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 6.8
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Professional Open Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "2",
+        "points": 12.0
       },
       {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "Open Professional Latin (C/S/R/P/J)",
-        "place": "4",
+        "comp_name": "2019people[forrest vance]",
+        "info": "Open Professional Latin (C/S/R/PD/J)",
+        "place": "1",
         "points": 20.0
       },
       {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Professional Open Championships Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "Open Professional International Latin (C/S/R/PD/J)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "Professional Open Latin Championship (CC/S/R/PD/J)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "Professional International Latin (C/S/R/PD/J)",
+        "comp_name": "Great Gatsby Gala",
+        "info": "Professional Open Events Int'l Latin (CC,S,R,PD,J)",
         "place": "3",
         "points": 13.0
       },
       {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Open Championships  Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 6.0
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "Professional Open Intl Latin (CC/S/R/PD/J)",
+        "place": "2",
+        "points": 24.0
       },
       {
-        "comp_name": "The DBDC 2019",
-        "info": "Bob Medeiros Professional Latin Medal (C/S/R/PD/J)",
-        "place": "4",
-        "points": 15.0
+        "comp_name": "Millennium Dancesport",
+        "info": "Rising Star Professional International Latin(CC/S/R/PD/J)",
+        "place": "2",
+        "points": 8.0
       },
       {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 8.8
+        "comp_name": "Millennium Dancesport",
+        "info": "Open Professional International Latin(CC/S/R/PD/J)",
+        "place": "6",
+        "points": 10.5
       },
       {
         "comp_name": "2019 NV Ball",
         "info": "Open Professional International Latin Championship (C/S/R/PD/J)",
-        "place": "3",
-        "points": 19.5
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "2",
+        "points": 24.0
       },
       {
         "comp_name": "Embassy Ballroom Championships",
         "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
         "place": "Semis",
         "points": 10.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star Int'l Latin (C/S/R/PD/J)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.0
       }
     ],
-    "total_pts": 154.6,
-    "avg_pts": 14.05
+    "total_pts": 160.0,
+    "avg_pts": 14.55
   },
   {
     "name": "Dmytrenko, Dmytry and Hyzhko, Yelyzaveta",
@@ -1102,6 +1186,19 @@
       {
         "comp_name": "2019people[forrest vance]",
         "info": "Open Professional Latin (C/S/R/PD/J)",
+        "place": "2",
+        "points": 14.0
+      }
+    ],
+    "total_pts": 14.0,
+    "avg_pts": 14.0
+  },
+  {
+    "name": "Guthrie, Trevor and Guthrie, Emily",
+    "results": [
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Latin Show Dance Championship",
         "place": "2",
         "points": 14.0
       }
@@ -1261,10 +1358,16 @@
         "info": "Professional Rising Star International Latin (C/S/R/P/J)",
         "place": "3",
         "points": 13.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star Int'l Latin (C/S/R/PD/J)",
+        "place": "6",
+        "points": 10.5
       }
     ],
-    "total_pts": 345.0,
-    "avg_pts": 13.8
+    "total_pts": 355.5,
+    "avg_pts": 13.67
   },
   {
     "name": "Spirov, Rangel and Chernyavska, Veronica",
@@ -1340,6 +1443,91 @@
     "avg_pts": 13.5
   },
   {
+    "name": "Malakhov, Nikita and Vlasova, Nadezda",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Open Professional International Latin Championships (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.8
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "Open Professional Latin (C/S/R/P/J)",
+        "place": "4",
+        "points": 20.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Professional Open Championships Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "Open Professional International Latin (C/S/R/PD/J)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "Professional Open Latin Championship (CC/S/R/PD/J)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "Professional International Latin (C/S/R/PD/J)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Open Championships  Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "Bob Medeiros Professional Latin Medal (C/S/R/PD/J)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 8.8
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "Open Professional International Latin Championship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 10.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "7",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 172.6,
+    "avg_pts": 13.28
+  },
+  {
     "name": "Studenny, Kamil and Kaplii, Anna",
     "results": [
       {
@@ -1357,6 +1545,56 @@
     ],
     "total_pts": 26.5,
     "avg_pts": 13.25
+  },
+  {
+    "name": "Gilin, Alon and Oblakova, Anna",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Open Professional International Latin Championships (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "Open Professional Latin (CC/S/R/PD/J)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Professional Open Championships Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Open Professional International Latin Championship (C/S/R/PD/J)",
+        "place": "4",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 51.0,
+    "avg_pts": 12.75
+  },
+  {
+    "name": "Kitsun, Andrey and Oblakova, Anna",
+    "results": [
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "quarters",
+        "points": 5.5
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US Open to the World Professional Rising Star Latin (C/S/R/PD/J)",
+        "place": "3",
+        "points": 19.5
+      }
+    ],
+    "total_pts": 25.0,
+    "avg_pts": 12.5
   },
   {
     "name": "Drobotov, Roman and Kazbekova, Liya",
@@ -1432,41 +1670,22 @@
         "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
         "place": "3",
         "points": 19.5
-      }
-    ],
-    "total_pts": 158.0,
-    "avg_pts": 13.17
-  },
-  {
-    "name": "Gilin, Alon and Oblakova, Anna",
-    "results": [
+      },
       {
-        "comp_name": "NYDF 2019",
-        "info": "Open Professional International Latin Championships (C/S/R/PD/J)",
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star Int'l Latin (C/S/R/PD/J)",
         "place": "Semis",
-        "points": 6.0
+        "points": 7.5
       },
       {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "Open Professional Latin (CC/S/R/PD/J)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Professional Open Championships Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Open Professional International Latin Championship (C/S/R/PD/J)",
-        "place": "4",
-        "points": 15.0
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.0
       }
     ],
-    "total_pts": 51.0,
-    "avg_pts": 12.75
+    "total_pts": 169.5,
+    "avg_pts": 12.11
   },
   {
     "name": "Goschin, Alexander and Goschina, Anita",
@@ -1480,6 +1699,25 @@
     ],
     "total_pts": 12.0,
     "avg_pts": 12.0
+  },
+  {
+    "name": "Altukhov, Sasha and Murillo, Cheyenne",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "info": "Professional Open International Latin(C/S/R/PD/J)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Professional Open Championships Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "6",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 23.5,
+    "avg_pts": 11.75
   },
   {
     "name": "Barov, Dmitry and Meller, Joanna",
@@ -1585,10 +1823,28 @@
         "info": "Professional Open International Latin (C/S/R/PD/J)",
         "place": "6",
         "points": 10.5
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star Int'l Latin (C/S/R/PD/J)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US Open to the World Professional Rising Star Latin (C/S/R/PD/J)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 3.6
       }
     ],
-    "total_pts": 201.5,
-    "avg_pts": 11.85
+    "total_pts": 227.6,
+    "avg_pts": 11.38
   },
   {
     "name": "Diallo, Umario and Marie, Tessa",
@@ -1664,144 +1920,22 @@
         "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
         "place": "4",
         "points": 15.0
-      }
-    ],
-    "total_pts": 142.0,
-    "avg_pts": 11.83
-  },
-  {
-    "name": "Altukhov, Sasha and Murillo, Cheyenne",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "info": "Professional Open International Latin(C/S/R/PD/J)",
-        "place": "3",
-        "points": 13.0
       },
       {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Professional Open Championships Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "6",
-        "points": 10.5
-      }
-    ],
-    "total_pts": 23.5,
-    "avg_pts": 11.75
-  },
-  {
-    "name": "Savich, Stanislav and Prosser, Nicole",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "Rising Star Professional International Latin (C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "Open Professional Latin (C/S/R/P/J)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "Professional Rising Star International Latin (C/S/R/PD/J)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "Professional Open Latin Championship (CC/S/R/PD/J)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "2019 Dancing a la Carte",
-        "info": "Professional Rising Star Latin (CC/S/R/PD/J)",
-        "place": "2",
-        "points": 8.0
-      },
-      {
-        "comp_name": "2019 Dancing a la Carte",
-        "info": "Professional Open Latin (CC/S/R/PD/J)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Yankee Classic",
-        "info": "Professional Rising Star International Latin (C/S/R/P/J)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Yankee Classic",
-        "info": "\"World Masters Professional Open International  Latin\" (C/S/R/P/J)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star Int'l Latin (C/S/R/PD/J)",
         "place": "Semis",
         "points": 7.5
       },
       {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Open Championships  Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Virginia State Championships",
-        "info": "Pro Rising Star International Latin (C/S/R/P/J)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Virginia State Championships",
-        "info": "Pro Open International Latin (C/S/R/P/J)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "The DBDC 2019",
-        "info": "Bob Medeiros Professional Latin Medal (C/S/R/PD/J)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "The DBDC 2019",
-        "info": "Rising Star Professional Latin (C/S/R/PD/J)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
         "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Professional Rising Star Int'l Latin (CC,S,R,PD,J)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Rising Star International Latin (C/S/R/P/J)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Open International Latin (C/S/R/PD/J)",
-        "place": "5",
-        "points": 12.0
+        "points": 3.2
       }
     ],
-    "total_pts": 194.5,
-    "avg_pts": 10.81
+    "total_pts": 152.7,
+    "avg_pts": 10.91
   },
   {
     "name": "Nabiullin, Alexandr and Ryabova, Valeriya",
@@ -2060,61 +2194,6 @@
     "avg_pts": 10.1
   },
   {
-    "name": "Chopenko, Dmitrii and Khrapak, Valeria",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "info": "Open Professional International Latin (C/S/R/PD/J)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "Professional Open International Latin Championship (C/S/R/PD/J)",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "Professional Rising Star Latin (CC/S/R/PD/J)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "Open Professional Int'l Latin (C/S/R/P/J)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "2019 Indianapolis Open DanceSport",
-        "info": "Professional Open International Latin (C/S/R/PD/J)",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Professional Open Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Celebrating Rock Legends!",
-        "info": "Professional Open Intl Latin (CC/S/R/PD/J)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Open International Latin (C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 80.5,
-    "avg_pts": 10.06
-  },
-  {
     "name": "Escolme, Andrew and Baker, Amy",
     "results": [
       {
@@ -2126,6 +2205,145 @@
     ],
     "total_pts": 10.0,
     "avg_pts": 10.0
+  },
+  {
+    "name": "Savich, Stanislav and Prosser, Nicole",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Rising Star Professional International Latin (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "Open Professional Latin (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "Professional Rising Star International Latin (C/S/R/PD/J)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "Professional Open Latin Championship (CC/S/R/PD/J)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 Dancing a la Carte",
+        "info": "Professional Rising Star Latin (CC/S/R/PD/J)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2019 Dancing a la Carte",
+        "info": "Professional Open Latin (CC/S/R/PD/J)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "Professional Rising Star International Latin (C/S/R/P/J)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "\"World Masters Professional Open International  Latin\" (C/S/R/P/J)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Open Championships  Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Virginia State Championships",
+        "info": "Pro Rising Star International Latin (C/S/R/P/J)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Virginia State Championships",
+        "info": "Pro Open International Latin (C/S/R/P/J)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "Bob Medeiros Professional Latin Medal (C/S/R/PD/J)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "Rising Star Professional Latin (C/S/R/PD/J)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Professional Rising Star Int'l Latin (CC,S,R,PD,J)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Rising Star International Latin (C/S/R/P/J)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Open International Latin (C/S/R/PD/J)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star Int'l Latin (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.9
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US Open to the World Professional Rising Star Latin (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 218.9,
+    "avg_pts": 9.95
   },
   {
     "name": "Hustiuc, Daniel and Li, Jessica",
@@ -2201,65 +2419,71 @@
     "avg_pts": 9.84
   },
   {
-    "name": "Kozhukhar, Oleksandr and Sayotovich, Rachel",
+    "name": "Chopenko, Dmitrii and Khrapak, Valeria",
     "results": [
       {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Professional Rising Star Int'l Latin (CC,S,R,PD,J)",
-        "place": "1",
+        "comp_name": "The Snow Ball",
+        "info": "Open Professional International Latin (C/S/R/PD/J)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Open International Latin Championship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "Professional Rising Star Latin (CC/S/R/PD/J)",
+        "place": "2",
         "points": 7.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "Open Professional Int'l Latin (C/S/R/P/J)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "info": "Professional Open International Latin (C/S/R/PD/J)",
+        "place": "3",
+        "points": 10.0
       },
       {
         "comp_name": "Colorado Star Ball Championships",
         "info": "Professional Open Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "2",
-        "points": 16.0
+        "place": "3",
+        "points": 13.0
       },
       {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "Professional Open Intl Latin (CC/S/R/PD/J)",
         "place": "5",
         "points": 12.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Open Championships  Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Twin Cities Open",
-        "info": "Professional Rising Star Latin (C/S/R/PD/J)",
-        "place": "1",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Twin Cities Open",
-        "info": "Professional Open Latin Championship (C/S/R/PD/J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Rising Star International Latin (C/S/R/P/J)",
-        "place": "4",
-        "points": 10.0
       },
       {
         "comp_name": "Capital Dancesport Championships",
         "info": "Professional Open International Latin (C/S/R/PD/J)",
         "place": "Semis",
-        "points": 6.6
+        "points": 7.5
       },
       {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star Int'l Latin (C/S/R/PD/J)",
         "place": "Semis",
-        "points": 7.2
+        "points": 7.5
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US Open to the World Professional Rising Star Latin (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 7.5
       }
     ],
-    "total_pts": 87.3,
-    "avg_pts": 9.7
+    "total_pts": 95.5,
+    "avg_pts": 9.55
   },
   {
     "name": "Alekseev, Aleksei and Derevleva, Ekaterina",
@@ -2335,10 +2559,101 @@
         "info": "Professional Rising Star International Latin (C/S/R/P/J)",
         "place": "5",
         "points": 8.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Latin Show Dance Championship",
+        "place": "3",
+        "points": 10.0
       }
     ],
-    "total_pts": 113.1,
-    "avg_pts": 9.42
+    "total_pts": 123.1,
+    "avg_pts": 9.47
+  },
+  {
+    "name": "Kozhukhar, Oleksandr and Sayotovich, Rachel",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Professional Rising Star Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Professional Open Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Open Championships  Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Twin Cities Open",
+        "info": "Professional Rising Star Latin (C/S/R/PD/J)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Twin Cities Open",
+        "info": "Professional Open Latin Championship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Rising Star International Latin (C/S/R/P/J)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Open International Latin (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.6
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 7.2
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star Int'l Latin (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US Open to the World Professional Rising Star Latin (C/S/R/PD/J)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 117.8,
+    "avg_pts": 9.06
   },
   {
     "name": "Voloshko, Andrii and Kyrylenko, Kateryna",
@@ -2358,61 +2673,6 @@
     ],
     "total_pts": 18.0,
     "avg_pts": 9.0
-  },
-  {
-    "name": "Kamniev, Oleksandr and Kamnieva, Kateryna",
-    "results": [
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "Professional Rising Star Latin (C/S/R/P/J)",
-        "place": "3",
-        "points": 6.5
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "Open Professional Latin (C/S/R/PD/J)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Professional Rising Star International Latin (C/S/R/PD/J)",
-        "place": "3",
-        "points": 6.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Open Professional International Latin Championship (C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Professional Open Events Int'l Latin (CC,S,R,PD,J)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "Open Professional International Latin Championship (C/S/R/PD/J)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 71.0,
-    "avg_pts": 8.88
   },
   {
     "name": "Modrzynski, Przemyslaw and Zybura, Magdalena",
@@ -2536,10 +2796,34 @@
         "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
         "place": "quarters",
         "points": 7.5
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star Int'l Latin (C/S/R/PD/J)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US Open to the World Professional Rising Star Latin (C/S/R/PD/J)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.0
       }
     ],
-    "total_pts": 176.5,
-    "avg_pts": 8.82
+    "total_pts": 213.5,
+    "avg_pts": 8.9
   },
   {
     "name": "Myung, Jinwoo and Jung, Yu Seon",
@@ -2762,6 +3046,73 @@
     "avg_pts": 8.35
   },
   {
+    "name": "Kamniev, Oleksandr and Kamnieva, Kateryna",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "Professional Rising Star Latin (C/S/R/P/J)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "Open Professional Latin (C/S/R/PD/J)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Professional Rising Star International Latin (C/S/R/PD/J)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Open Professional International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Professional Open Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "Open Professional International Latin Championship (C/S/R/PD/J)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 10.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.4
+      }
+    ],
+    "total_pts": 81.4,
+    "avg_pts": 8.14
+  },
+  {
     "name": "Netsvetaev and Antonenko",
     "results": [
       {
@@ -2837,6 +3188,25 @@
     "avg_pts": 7.9
   },
   {
+    "name": "Lifshitz, Richard and Robinson, Laura",
+    "results": [
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 9.2
+      }
+    ],
+    "total_pts": 15.2,
+    "avg_pts": 7.6
+  },
+  {
     "name": "Nikitin, Kirill and Kanchukova, Jenya",
     "results": [
       {
@@ -2848,6 +3218,116 @@
     ],
     "total_pts": 7.5,
     "avg_pts": 7.5
+  },
+  {
+    "name": "Minaev, Aleksei and Minaeva, Elena",
+    "results": [
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Professional Open Int'l Latin (CC,S,R,PD,J)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Pro Open Int'l Latin (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "Rising Star Professional Rising Star International Latin (C/S/R/PD/J)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "Open Open Professional International Latin (C/S/R/PD/J)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "Open Professional Latin (CC/S/R/PD/J)",
+        "place": "Semis",
+        "points": 1.8
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "Professional Rising Star Latin (C/S/R/PD/J)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "Professional Open Latin Championship (C/S/R/PD/J)",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "Professional Rising Star International Latin (C/S/R/PD/J)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "Professional Open International Latin (C/S/R/PD/J)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 Dancing a la Carte",
+        "info": "Professional Rising Star Latin (CC/S/R/PD/J)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2019 Dancing a la Carte",
+        "info": "Professional Open Latin (CC/S/R/PD/J)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Twin Cities Open",
+        "info": "Professional Rising Star Latin (C/S/R/PD/J)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Twin Cities Open",
+        "info": "Professional Open Latin Championship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Cincinnati Ballroom Classic",
+        "info": "Professional International Latin (CC/S/R/PD/J)",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 101.8,
+    "avg_pts": 7.27
+  },
+  {
+    "name": "Nomura, Naoto and Yamasaki, Karin",
+    "results": [
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Professional Rising Star Int'l Latin (CC,S,R,PD,J)",
+        "place": "6",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 14.5,
+    "avg_pts": 7.25
   },
   {
     "name": "Osai, Malachi and Chan, Freda",
@@ -2977,120 +3457,35 @@
         "info": "Professional Open International Latin (C/S/R/PD/J)",
         "place": "Semis",
         "points": 0.3
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star Int'l Latin (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US Open to the World Professional Rising Star Latin (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 4.5
       }
     ],
-    "total_pts": 154.9,
-    "avg_pts": 7.38
+    "total_pts": 163.9,
+    "avg_pts": 7.13
   },
   {
-    "name": "Minaev, Aleksei and Minaeva, Elena",
+    "name": "Visnakovs, Slava and Zukaite, Atile",
     "results": [
       {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Professional Open Int'l Latin (CC,S,R,PD,J)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Pro Open Int'l Latin (C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "Rising Star Professional Rising Star International Latin (C/S/R/PD/J)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "Open Open Professional International Latin (C/S/R/PD/J)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "Open Professional Latin (CC/S/R/PD/J)",
-        "place": "Semis",
-        "points": 1.8
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "Professional Rising Star Latin (C/S/R/PD/J)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "Professional Open Latin Championship (C/S/R/PD/J)",
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Latin Show Dance Championship",
         "place": "4",
         "points": 7.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "Professional Rising Star International Latin (C/S/R/PD/J)",
-        "place": "2",
-        "points": 8.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "Professional Open International Latin (C/S/R/PD/J)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "2019 Dancing a la Carte",
-        "info": "Professional Rising Star Latin (CC/S/R/PD/J)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "2019 Dancing a la Carte",
-        "info": "Professional Open Latin (CC/S/R/PD/J)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Twin Cities Open",
-        "info": "Professional Rising Star Latin (C/S/R/PD/J)",
-        "place": "2",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Twin Cities Open",
-        "info": "Professional Open Latin Championship (C/S/R/PD/J)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Cincinnati Ballroom Classic",
-        "info": "Professional International Latin (CC/S/R/PD/J)",
-        "place": "2",
-        "points": 16.0
       }
     ],
-    "total_pts": 101.8,
-    "avg_pts": 7.27
-  },
-  {
-    "name": "Nomura, Naoto and Yamasaki, Karin",
-    "results": [
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Professional Rising Star Int'l Latin (CC,S,R,PD,J)",
-        "place": "6",
-        "points": 10.5
-      }
-    ],
-    "total_pts": 14.5,
-    "avg_pts": 7.25
+    "total_pts": 7.0,
+    "avg_pts": 7.0
   },
   {
     "name": "Slisarenko, Taras and Konieva, Anastasiia",
@@ -3383,19 +3778,6 @@
     "avg_pts": 6.0
   },
   {
-    "name": "Lifshitz, Richard and Robinson, Laura",
-    "results": [
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 6.0,
-    "avg_pts": 6.0
-  },
-  {
     "name": "Moscarelli, Francesco and Kalinichenko, Anna",
     "results": [
       {
@@ -3660,19 +4042,6 @@
     "avg_pts": 5.5
   },
   {
-    "name": "Kitsun, Andrey and Oblakova, Anna",
-    "results": [
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
-        "place": "quarters",
-        "points": 5.5
-      }
-    ],
-    "total_pts": 5.5,
-    "avg_pts": 5.5
-  },
-  {
     "name": "Morehouse, Philip and Kusznierewicz, Klaudia",
     "results": [
       {
@@ -3764,6 +4133,171 @@
     ],
     "total_pts": 20.8,
     "avg_pts": 5.2
+  },
+  {
+    "name": "Tozik, Vitalii and Downey, Angelica",
+    "results": [
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "Rising Star Professional International Latin (C/S/R/P/J)",
+        "place": "4",
+        "points": 3.5
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "info": "Professional Rising Star International Latin(C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 0.2
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "info": "Pro Rising Star - Latin (C/S/R/PD/J)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "info": "Pro Open - Latin (CC/S/R/PD/J)",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Rising Star Professional International Latin(CC/S/R/PD/J)",
+        "place": "7",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Florida State DanceSport Championships",
+        "info": "Pro Rising Star - International Latin (C/S/R/PD/J) Championship",
+        "place": "3",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Florida State DanceSport Championships",
+        "info": "Vernon Brock Pro Open -International Latin (CC/S/R/PD/J) Championship",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Boca Ballroom Dancesport Competition",
+        "info": "Professional Rising Star Latin (CC/S/R/PD/J)",
+        "place": "3",
+        "points": 3.5
+      }
+    ],
+    "total_pts": 38.2,
+    "avg_pts": 4.78
+  },
+  {
+    "name": "Solomakha, Dmitriy and Sevillano, Gabriela",
+    "results": [
+      {
+        "comp_name": "Heritage Classic",
+        "info": "<159>Open Professional Int'l Latin Championship(C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 3.9
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "Open Professional Latin (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "Professional Rising Star Latin (CC/S/R/PD/J)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "Professional Open Latin (CC/S/R/PD/J)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "info": "Professional Rising Star International Latin(C/S/R/PD/J)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "info": "Professional Open International Latin(C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Open Championships  Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "quarters",
+        "points": 0.4
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Professional Rising Star Int'l Latin (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "Rising Star Professional International Latin (C/S/R/PD/J)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star Int'l Latin (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 3.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US Open to the World Professional Rising Star Latin (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 56.1,
+    "avg_pts": 4.67
+  },
+  {
+    "name": "Podolski, Denis and Kalinuka, Oksana",
+    "results": [
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Professional Rising Star International Latin (C/S/R/PD/J)",
+        "place": "7",
+        "points": 3.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "Professional Rising Star International Latin Championships (C/S/R/PD/J)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "Professional Open International Latin (C/S/R/PD/J)",
+        "place": "7",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 18.5,
+    "avg_pts": 4.62
   },
   {
     "name": "Jenkins, Dylan and Jenkins, Nora",
@@ -3875,10 +4409,133 @@
         "info": "Vernon Brock Pro Open -International Latin (CC/S/R/PD/J) Championship",
         "place": "2",
         "points": 14.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star Int'l Latin (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 0.3
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US Open to the World Professional Rising Star Latin (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 0.9
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 2.4
       }
     ],
-    "total_pts": 92.1,
-    "avg_pts": 5.12
+    "total_pts": 95.7,
+    "avg_pts": 4.56
+  },
+  {
+    "name": "Grzelak, Krystof and Krzystoszek, Natalia",
+    "results": [
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 4.5,
+    "avg_pts": 4.5
+  },
+  {
+    "name": "Seawright, Jordan and Novak, Tjasa",
+    "results": [
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "6",
+        "points": 3.5
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Professional Open Championships Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 0.6
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "Professional Open Latin (CC/S/R/PD/J)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "Rising Star Professional International Latin (C/S/R/PD/J)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "Open Professional International Latin Championship (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
+        "place": "quarters",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 31.4,
+    "avg_pts": 4.49
+  },
+  {
+    "name": "Montagnese, Brad and Trigili, Tania",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "Professional Rising Star Latin (C/S/R/P/J)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Rising Star Professional International Latin(CC/S/R/PD/J)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Boca Ballroom Dancesport Competition",
+        "info": "Open Professional Latin (CC/S/R/PD/J)",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Boca Ballroom Dancesport Competition",
+        "info": "Professional Rising Star Latin (CC/S/R/PD/J)",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Rising Star International Latin (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 1.4
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star Int'l Latin (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 26.4,
+    "avg_pts": 4.4
   },
   {
     "name": "Shvetsov, Artur and LinSong, Phoenix",
@@ -3984,262 +4641,34 @@
         "info": "Professional Rising Star International Latin (C/S/R/P/J)",
         "place": "Semis",
         "points": 5.0
-      }
-    ],
-    "total_pts": 84.0,
-    "avg_pts": 4.94
-  },
-  {
-    "name": "Solomakha, Dmitriy and Sevillano, Gabriela",
-    "results": [
-      {
-        "comp_name": "Heritage Classic",
-        "info": "<159>Open Professional Int'l Latin Championship(C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 3.9
       },
       {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "Open Professional Latin (C/S/R/P/J)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "Professional Rising Star Latin (CC/S/R/PD/J)",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "Professional Open Latin (CC/S/R/PD/J)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "info": "Professional Rising Star International Latin(C/S/R/PD/J)",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "info": "Professional Open International Latin(C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 0.3
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Open Championships  Int'l Latin Championship (CC,S,R,PD,J)",
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star Int'l Latin (C/S/R/PD/J)",
         "place": "quarters",
-        "points": 4.0
+        "points": 3.0
       },
       {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
+        "comp_name": "United States Dance Championships",
+        "info": "US Open to the World Professional Rising Star Latin (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 3.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
         "place": "quarters",
         "points": 0.4
       },
       {
-        "comp_name": "Empire Dance Championship",
-        "info": "Professional Rising Star Int'l Latin (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "Rising Star Professional International Latin (C/S/R/PD/J)",
-        "place": "6",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 48.6,
-    "avg_pts": 4.86
-  },
-  {
-    "name": "Tozik, Vitalii and Downey, Angelica",
-    "results": [
-      {
-        "comp_name": "2019 First Coast Classic",
-        "info": "Rising Star Professional International Latin (C/S/R/P/J)",
-        "place": "4",
-        "points": 3.5
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "info": "Professional Rising Star International Latin(C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 0.2
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "info": "Pro Rising Star - Latin (C/S/R/PD/J)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "info": "Pro Open - Latin (CC/S/R/PD/J)",
-        "place": "3",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Rising Star Professional International Latin(CC/S/R/PD/J)",
-        "place": "7",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Florida State DanceSport Championships",
-        "info": "Pro Rising Star - International Latin (C/S/R/PD/J) Championship",
-        "place": "3",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Florida State DanceSport Championships",
-        "info": "Vernon Brock Pro Open -International Latin (CC/S/R/PD/J) Championship",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Boca Ballroom Dancesport Competition",
-        "info": "Professional Rising Star Latin (CC/S/R/PD/J)",
-        "place": "3",
-        "points": 3.5
-      }
-    ],
-    "total_pts": 38.2,
-    "avg_pts": 4.78
-  },
-  {
-    "name": "Montagnese, Brad and Trigili, Tania",
-    "results": [
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "Professional Rising Star Latin (C/S/R/P/J)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Rising Star Professional International Latin(CC/S/R/PD/J)",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Boca Ballroom Dancesport Competition",
-        "info": "Open Professional Latin (CC/S/R/PD/J)",
-        "place": "4",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Boca Ballroom Dancesport Competition",
-        "info": "Professional Rising Star Latin (CC/S/R/PD/J)",
-        "place": "2",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Rising Star International Latin (C/S/R/P/J)",
-        "place": "Semis",
-        "points": 1.4
-      }
-    ],
-    "total_pts": 23.4,
-    "avg_pts": 4.68
-  },
-  {
-    "name": "Podolski, Denis and Kalinuka, Oksana",
-    "results": [
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Professional Rising Star International Latin (C/S/R/PD/J)",
-        "place": "7",
-        "points": 3.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "Professional Rising Star International Latin Championships (C/S/R/PD/J)",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "Professional Open International Latin (C/S/R/PD/J)",
-        "place": "7",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 4.5
-      }
-    ],
-    "total_pts": 18.5,
-    "avg_pts": 4.62
-  },
-  {
-    "name": "Grzelak, Krystof and Krzystoszek, Natalia",
-    "results": [
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 4.5
-      }
-    ],
-    "total_pts": 4.5,
-    "avg_pts": 4.5
-  },
-  {
-    "name": "Seawright, Jordan and Novak, Tjasa",
-    "results": [
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
-        "place": "6",
-        "points": 3.5
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Professional Open Championships Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 0.6
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "Professional Open Latin (CC/S/R/PD/J)",
-        "place": "Semis",
-        "points": 7.5
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "Rising Star Professional International Latin (C/S/R/PD/J)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "Open Professional International Latin Championship (C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 0.3
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
         "place": "quarters",
-        "points": 5.0
+        "points": 1.6
       }
     ],
-    "total_pts": 31.4,
-    "avg_pts": 4.49
+    "total_pts": 92.0,
+    "avg_pts": 4.38
   },
   {
     "name": "Grant, Rhett and Wadsworth, Shelby",
@@ -4297,10 +4726,16 @@
         "info": "Open Professional International Latin Championship (C/S/R/PD/J)",
         "place": "Semis",
         "points": 0.3
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star Int'l Latin (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 3.0
       }
     ],
-    "total_pts": 39.9,
-    "avg_pts": 4.43
+    "total_pts": 42.9,
+    "avg_pts": 4.29
   },
   {
     "name": "Coco, Fabio and Harrington, Nicole",
@@ -4364,49 +4799,6 @@
     "avg_pts": 4.21
   },
   {
-    "name": "Chibishev, Ihor and Zhosan, Diana",
-    "results": [
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "Open Professional Latin (C/S/R/P/J)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "Open Professional International Latin (C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "Open Professional  Latin  (CC/S/R/PD/J)",
-        "place": "7",
-        "points": 6.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "Professional Rising Star Latin (CC/S/R/PD/J)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Yankee Classic",
-        "info": "\"World Masters Professional Open International  Latin\" (C/S/R/P/J)",
-        "place": "Semis",
-        "points": 1.2
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Open Championships  Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "quarters",
-        "points": 2.8
-      }
-    ],
-    "total_pts": 24.8,
-    "avg_pts": 4.13
-  },
-  {
     "name": "Tanaskovic, Danko and Roffle, Janine",
     "results": [
       {
@@ -4425,6 +4817,19 @@
       {
         "comp_name": "NYDF 2019",
         "info": "Open Professional International Latin Championships (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 4.0,
+    "avg_pts": 4.0
+  },
+  {
+    "name": "Falkenberg, Daniel and Sablina, Zhanna",
+    "results": [
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
         "place": "quarters",
         "points": 4.0
       }
@@ -4530,6 +4935,55 @@
     ],
     "total_pts": 25.9,
     "avg_pts": 3.7
+  },
+  {
+    "name": "Chibishev, Ihor and Zhosan, Diana",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "Open Professional Latin (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "Open Professional International Latin (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "Open Professional  Latin  (CC/S/R/PD/J)",
+        "place": "7",
+        "points": 6.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "Professional Rising Star Latin (CC/S/R/PD/J)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "\"World Masters Professional Open International  Latin\" (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 1.2
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Open Championships  Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "quarters",
+        "points": 2.8
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 25.2,
+    "avg_pts": 3.6
   },
   {
     "name": "Horv\u00e1th-Kr\u00f3l, Dariusz and Zosin, Alisa",
@@ -4769,6 +5223,19 @@
     "avg_pts": 3.0
   },
   {
+    "name": "Kypus, Marek and Tietzova, Jaroslava",
+    "results": [
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US Open to the World Professional Rising Star Latin (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
+  },
+  {
     "name": "Ly, Han and Li, Crystal",
     "results": [
       {
@@ -4793,6 +5260,25 @@
     ],
     "total_pts": 3.0,
     "avg_pts": 3.0
+  },
+  {
+    "name": "Nakagawa, Tomohiro and Mori, Momoko",
+    "results": [
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US Open to the World Professional Rising Star Latin (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 3.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 1.6
+      }
+    ],
+    "total_pts": 4.6,
+    "avg_pts": 2.3
   },
   {
     "name": "Isaiev, Valentyn and Andriekute, Neda",
@@ -5021,10 +5507,16 @@
         "info": "Open Professional Events Int'l Latin (CC,S,R,PD,J)",
         "place": "round 1",
         "points": 0.5
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "WDC US Open to the World Professional Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 0.4
       }
     ],
-    "total_pts": 0.5,
-    "avg_pts": 0.5
+    "total_pts": 0.9,
+    "avg_pts": 0.45
   },
   {
     "name": "Jaye Loewe, Thomas and Kysel, Edita",
