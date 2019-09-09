@@ -57,10 +57,16 @@
         "info": "Professional Open International Ballroom (W/T/VW/F/Q)",
         "place": "1",
         "points": 30.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 40.0
       }
     ],
-    "total_pts": 140.0,
-    "avg_pts": 28.0
+    "total_pts": 180.0,
+    "avg_pts": 30.0
   },
   {
     "name": "Bieliei, Iaroslav and Biellei, Liliia",
@@ -148,10 +154,16 @@
         "info": "Open Professional International Ballroom Championship (W/T/VW/F/QS)",
         "place": "1",
         "points": 30.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "2",
+        "points": 32.0
       }
     ],
-    "total_pts": 388.0,
-    "avg_pts": 27.71
+    "total_pts": 420.0,
+    "avg_pts": 28.0
   },
   {
     "name": "Voskalchuk, Alexander and Voskalchuk, Veronika",
@@ -191,10 +203,16 @@
         "info": "Professional Open International Ballroom (W/T/VW/F/QS)",
         "place": "1",
         "points": 30.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "3",
+        "points": 26.0
       }
     ],
-    "total_pts": 162.0,
-    "avg_pts": 27.0
+    "total_pts": 188.0,
+    "avg_pts": 26.86
   },
   {
     "name": "Homm, Rudy and Kanevskaya, Katia",
@@ -252,10 +270,16 @@
         "info": "Professional Open International Ballroom(W/T/V/F/Q)",
         "place": "1",
         "points": 20.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "4",
+        "points": 20.0
       }
     ],
-    "total_pts": 206.5,
-    "avg_pts": 22.94
+    "total_pts": 226.5,
+    "avg_pts": 22.65
   },
   {
     "name": "Shakhov, Vladislav and Popova, Ekaterina",
@@ -313,10 +337,16 @@
         "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
         "place": "4",
         "points": 20.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "5",
+        "points": 16.0
       }
     ],
-    "total_pts": 188.0,
-    "avg_pts": 20.89
+    "total_pts": 204.0,
+    "avg_pts": 20.4
   },
   {
     "name": "Colac, Igor and Milotti, Roxane",
@@ -381,10 +411,29 @@
         "info": "Professional Open International Ballroom (W/T/VW/F/QS)",
         "place": "2",
         "points": 24.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 10.0
       }
     ],
-    "total_pts": 141.0,
-    "avg_pts": 17.62
+    "total_pts": 151.0,
+    "avg_pts": 16.78
+  },
+  {
+    "name": "Gayenko, Igor and Schuchynska, Olga",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "Rising Star International Ballroom (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 16.0,
+    "avg_pts": 16.0
   },
   {
     "name": "Ursache, Valeriu and Bakhtiarova, Liana",
@@ -436,48 +485,16 @@
         "info": "Open Professional International Ballroom Championship (W/T/VW/F/QS)",
         "place": "3",
         "points": 19.5
-      }
-    ],
-    "total_pts": 132.5,
-    "avg_pts": 16.56
-  },
-  {
-    "name": "End, Andres and End, Veronika",
-    "results": [
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Int'l Ballroom Championship (W,T,VW,F,Q)",
-        "place": "3",
-        "points": 26.0
       },
       {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "Professional Open International Ballroom (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
+        "comp_name": "Embassy Ballroom Championships",
         "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
         "place": "Semis",
         "points": 10.0
       }
     ],
-    "total_pts": 48.0,
-    "avg_pts": 16.0
-  },
-  {
-    "name": "Gayenko, Igor and Schuchynska, Olga",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "Rising Star International Ballroom (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 16.0
-      }
-    ],
-    "total_pts": 16.0,
-    "avg_pts": 16.0
+    "total_pts": 142.5,
+    "avg_pts": 15.83
   },
   {
     "name": "Mykhailov, Andrii and Bohachova, Anna",
@@ -523,47 +540,35 @@
     "avg_pts": 15.67
   },
   {
-    "name": "Radvan, Cristian and Kudeldo, Kristina",
+    "name": "End, Andres and End, Veronika",
     "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "Open Professional International Ballroom Championships (W/T/VW/F/QS)",
-        "place": "4",
-        "points": 20.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "Open Professional Ballroom (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Open Professional International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "6",
-        "points": 14.0
-      },
       {
         "comp_name": "Manhattan Dance Championships",
         "info": "Professional Int'l Ballroom Championship (W,T,VW,F,Q)",
-        "place": "4",
-        "points": 20.0
+        "place": "3",
+        "points": 26.0
       },
       {
-        "comp_name": "The DBDC 2019",
-        "info": "Peter Eggleton Professional Ballroom Cup (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 15.0
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "Professional Open International Ballroom (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 12.0
       },
       {
         "comp_name": "Empire Dance Championship",
         "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
         "place": "Semis",
         "points": 10.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "6",
+        "points": 14.0
       }
     ],
-    "total_pts": 94.0,
-    "avg_pts": 15.67
+    "total_pts": 62.0,
+    "avg_pts": 15.5
   },
   {
     "name": "Begunov, Andrey and Demidova, Anna",
@@ -640,6 +645,74 @@
     "avg_pts": 15.0
   },
   {
+    "name": "Bezukladnikov, Egor and Savikurki, Taina",
+    "results": [
+      {
+        "comp_name": "atlopen19",
+        "info": "Professional Open International Ballroom (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "Rising Star Professional International Ballroom (W/T/VW/F/QS)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 29.0,
+    "avg_pts": 14.5
+  },
+  {
+    "name": "Radvan, Cristian and Kudeldo, Kristina",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Open Professional International Ballroom Championships (W/T/VW/F/QS)",
+        "place": "4",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "Open Professional Ballroom (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Open Professional International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "6",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Int'l Ballroom Championship (W,T,VW,F,Q)",
+        "place": "4",
+        "points": 20.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "Peter Eggleton Professional Ballroom Cup (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 100.0,
+    "avg_pts": 14.29
+  },
+  {
     "name": "Wojciechowski, Oskar and Holody, Karolina",
     "results": [
       {
@@ -671,29 +744,16 @@
         "info": "Open Professional International Ballroom Championship (W/T/VW/F/QS)",
         "place": "2",
         "points": 24.0
-      }
-    ],
-    "total_pts": 73.9,
-    "avg_pts": 14.78
-  },
-  {
-    "name": "Bezukladnikov, Egor and Savikurki, Taina",
-    "results": [
-      {
-        "comp_name": "atlopen19",
-        "info": "Professional Open International Ballroom (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 20.0
       },
       {
-        "comp_name": "2019 NV Ball",
-        "info": "Rising Star Professional International Ballroom (W/T/VW/F/QS)",
-        "place": "1",
-        "points": 9.0
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 10.0
       }
     ],
-    "total_pts": 29.0,
-    "avg_pts": 14.5
+    "total_pts": 83.9,
+    "avg_pts": 13.98
   },
   {
     "name": "Di Brino, Stefano and Di Brino, Bianka",
@@ -775,10 +835,16 @@
         "info": "Professional Open International Ballroom (W/T/VW/F/QS)",
         "place": "3",
         "points": 19.5
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 6.0
       }
     ],
-    "total_pts": 186.9,
-    "avg_pts": 14.38
+    "total_pts": 192.9,
+    "avg_pts": 13.78
   },
   {
     "name": "Pappacena, Emanuele and Pappacena, Francesca Lazzari",
@@ -1195,55 +1261,6 @@
     "avg_pts": 11.3
   },
   {
-    "name": "Kostianets, Slava and Kostianets, Valeriia",
-    "results": [
-      {
-        "comp_name": "Heritage Classic",
-        "info": "<154>Professional Rising Star Int'l Ballroom Competition (W/T/VW/FT/QS)",
-        "place": "2",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Heritage Classic",
-        "info": "<158>Open Professional Int'l Ballroom Championship(W/T/VW/FT/QS)",
-        "place": "Semis",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Rising Star Events Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "Professional Rising Star International Ballroom  Championships  (W/T/VW/FT/Q)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "The DBDC 2019",
-        "info": "Rising Star Professional Ballroom (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Professional Rising Star Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "Open Professional International Ballroom Championship (W/T/VW/F/QS)",
-        "place": "5",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 76.5,
-    "avg_pts": 10.93
-  },
-  {
     "name": "Balestra, Krizia and Balestra, Luca",
     "results": [
       {
@@ -1402,53 +1419,59 @@
     "avg_pts": 10.68
   },
   {
-    "name": "Sterban, Radu and Cletova, Xenia",
+    "name": "Kostianets, Slava and Kostianets, Valeriia",
     "results": [
       {
-        "comp_name": "City Lights Ball",
-        "info": "Professional Open Ballroom (W/T/VW/F/QS)",
-        "place": "4",
-        "points": 10.0
+        "comp_name": "Heritage Classic",
+        "info": "<154>Professional Rising Star Int'l Ballroom Competition (W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 6.0
       },
       {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Professional Open Championships Int'l Ballroom Championship (W,T,VW,F,Q)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "Professional Open Ballroom (W/T/VW/FT/QS)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Open Professional International Ballroom Championship (W/T/VW/F/Q)",
+        "comp_name": "Heritage Classic",
+        "info": "<158>Open Professional Int'l Ballroom Championship(W/T/VW/FT/QS)",
         "place": "Semis",
-        "points": 10.0
+        "points": 7.5
       },
       {
         "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Int'l Ballroom Championship (W,T,VW,F,Q)",
-        "place": "Semis",
-        "points": 10.0
+        "info": "Professional Rising Star Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "Professional Rising Star International Ballroom  Championships  (W/T/VW/FT/Q)",
+        "place": "1",
+        "points": 9.0
       },
       {
         "comp_name": "The DBDC 2019",
-        "info": "Peter Eggleton Professional Ballroom Cup (W/T/VW/F/Q)",
-        "place": "6",
-        "points": 10.5
+        "info": "Rising Star Professional Ballroom (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 10.0
       },
       {
         "comp_name": "Empire Dance Championship",
-        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "Semis",
-        "points": 6.0
+        "info": "Professional Rising Star Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "Open Professional International Ballroom Championship (W/T/VW/F/QS)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "2",
+        "points": 8.0
       }
     ],
-    "total_pts": 72.0,
-    "avg_pts": 10.29
+    "total_pts": 84.5,
+    "avg_pts": 10.56
   },
   {
     "name": "Katashinskiy, Artemiy and Katashinskiy, Marina",
@@ -1641,65 +1664,120 @@
     "avg_pts": 9.76
   },
   {
-    "name": "Stoynov, Simeon and Stoynova, Kora",
+    "name": "Skriptsov, Aleksandr and Skriptsova, Aida",
     "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "info": "Open Professional International Ballroom (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 18.0
-      },
       {
         "comp_name": "Golden Star Dancesport Championships",
         "info": "Open Professional International Ballroom (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 12.0
+        "place": "Semis",
+        "points": 5.1
       },
       {
-        "comp_name": "Emerald Ball",
-        "info": "Open Professional International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "quarters",
-        "points": 4.0
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "Rising Star International Ballroom (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 10.0
       },
       {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Professional Open Events Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "2",
-        "points": 14.0
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "info": "Open Professional Standard (W/T/V/F/Q)",
+        "place": "4",
+        "points": 10.0
       },
       {
-        "comp_name": "American Star Ball Championships",
-        "info": "Professional Open Ballroom Championship (W/T/VW/FT/QS)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "info": "Pro Open - Ballroom (W/T/VW/FT/QS)",
+        "comp_name": "2019 First Coast Classic",
+        "info": "Open Professional International Ballroom (W/T/VW/FT/QS)",
         "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "Rising Star Professional Ballroom (W/T/VW/F/Q)",
+        "place": "2",
         "points": 7.0
       },
       {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Int'l Ballroom Championship (W,T,VW,F,Q)",
-        "place": "quarters",
-        "points": 2.8
+        "comp_name": "2019 Miami Vibe",
+        "info": "Professional International Ballroom (W/T/VW/F/QS)",
+        "place": "3",
+        "points": 10.0
       },
       {
-        "comp_name": "2019 NV Ball",
-        "info": "Open Professional International Ballroom Championship (W/T/VW/F/QS)",
+        "comp_name": "Florida State DanceSport Championships",
+        "info": "Pro Rising Star - International Ballroom(W/T/VW/FT/QS) Championship",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Florida State DanceSport Championships",
+        "info": "Pierre Allaire & Mireille Veilleux Pro Open - International Ballroom(W/T/VW/FT/QS) Championship",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Boca Ballroom Dancesport Competition",
+        "info": "Open Professional Ballroom (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 86.1,
+    "avg_pts": 9.57
+  },
+  {
+    "name": "Sterban, Radu and Cletova, Xenia",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "info": "Professional Open Ballroom (W/T/VW/F/QS)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Professional Open Championships Int'l Ballroom Championship (W,T,VW,F,Q)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "Professional Open Ballroom (W/T/VW/FT/QS)",
         "place": "6",
         "points": 10.5
       },
       {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Open International Ballroom (W/T/VW/F/QS)",
+        "comp_name": "Emerald Ball",
+        "info": "Open Professional International Ballroom Championship (W/T/VW/F/Q)",
         "place": "Semis",
-        "points": 7.5
+        "points": 10.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Int'l Ballroom Championship (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 10.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "Peter Eggleton Professional Ballroom Cup (W/T/VW/F/Q)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 4.0
       }
     ],
-    "total_pts": 87.8,
-    "avg_pts": 9.76
+    "total_pts": 76.0,
+    "avg_pts": 9.5
   },
   {
     "name": "Alitto, Oreste and Belozerova, Valeriia",
@@ -1775,138 +1853,144 @@
         "info": "Open Professional International Ballroom Championship (W/T/VW/F/QS)",
         "place": "4",
         "points": 15.0
-      }
-    ],
-    "total_pts": 115.3,
-    "avg_pts": 9.61
-  },
-  {
-    "name": "Skriptsov, Aleksandr and Skriptsova, Aida",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "Open Professional International Ballroom (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 5.1
       },
       {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "Rising Star International Ballroom (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "info": "Open Professional Standard (W/T/V/F/Q)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "info": "Open Professional International Ballroom (W/T/VW/FT/QS)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "Rising Star Professional Ballroom (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "Professional International Ballroom (W/T/VW/F/QS)",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Florida State DanceSport Championships",
-        "info": "Pro Rising Star - International Ballroom(W/T/VW/FT/QS) Championship",
-        "place": "2",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Florida State DanceSport Championships",
-        "info": "Pierre Allaire & Mireille Veilleux Pro Open - International Ballroom(W/T/VW/FT/QS) Championship",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Boca Ballroom Dancesport Competition",
-        "info": "Open Professional Ballroom (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 13.0
-      }
-    ],
-    "total_pts": 86.1,
-    "avg_pts": 9.57
-  },
-  {
-    "name": "Averkov, Serhiy and Barna, Olena",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "info": "Professional Open Ballroom (W/T/VW/F/QS)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "Open Professional International Ballroom Championships (W/T/VW/F/QS)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "Open Professional International Ballroom (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "Professional Open Ballroom (W/T/VW/FT/QS)",
-        "place": "Semis",
-        "points": 3.9
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Open Professional International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 7.6
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Open Professional International Ballroom(W/T/VW/F/Q)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Int'l Ballroom Championship (W,T,VW,F,Q)",
-        "place": "Semis",
-        "points": 8.4
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "Professional Open International Ballroom (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 7.5
-      },
-      {
-        "comp_name": "The DBDC 2019",
-        "info": "Peter Eggleton Professional Ballroom Cup (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
+        "comp_name": "Embassy Ballroom Championships",
         "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
         "place": "quarters",
         "points": 4.0
       }
     ],
-    "total_pts": 87.9,
-    "avg_pts": 8.79
+    "total_pts": 119.3,
+    "avg_pts": 9.18
+  },
+  {
+    "name": "Stoynov, Simeon and Stoynova, Kora",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "info": "Open Professional International Ballroom (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "Open Professional International Ballroom (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Open Professional International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Professional Open Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "Professional Open Ballroom Championship (W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "info": "Pro Open - Ballroom (W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Int'l Ballroom Championship (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 2.8
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "Open Professional International Ballroom Championship (W/T/VW/F/QS)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Open International Ballroom (W/T/VW/F/QS)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 91.8,
+    "avg_pts": 9.18
+  },
+  {
+    "name": "Levin, Ivan and Levin, Maria",
+    "results": [
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "Professional Rising Star Ballroom (W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "Professional Open Ballroom Championship (W/T/VW/FT/QS)",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "\"World Masters Professional Open International Ballroom\" (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "Professional Open International Ballroom (W/T/VW/F/QS)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Professional Rising Star Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Rising Star International Ballroom (W/T/VW/F/QS)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Open International Ballroom (W/T/VW/F/QS)",
+        "place": "Semis",
+        "points": 3.6
+      }
+    ],
+    "total_pts": 76.1,
+    "avg_pts": 8.46
   },
   {
     "name": "Belmeha, Artem and Shevchenko, Anna",
@@ -2000,71 +2084,95 @@
         "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
         "place": "quarters",
         "points": 4.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 4.0
       }
     ],
-    "total_pts": 128.5,
-    "avg_pts": 8.57
+    "total_pts": 142.5,
+    "avg_pts": 8.38
   },
   {
-    "name": "Levin, Ivan and Levin, Maria",
+    "name": "Averkov, Serhiy and Barna, Olena",
     "results": [
       {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "Professional Rising Star Ballroom (W/T/VW/FT/QS)",
+        "comp_name": "City Lights Ball",
+        "info": "Professional Open Ballroom (W/T/VW/F/QS)",
         "place": "3",
-        "points": 3.5
+        "points": 13.0
       },
       {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "Professional Open Ballroom Championship (W/T/VW/FT/QS)",
+        "comp_name": "NYDF 2019",
+        "info": "Open Professional International Ballroom Championships (W/T/VW/F/QS)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "Open Professional International Ballroom (W/T/VW/F/Q)",
         "place": "4",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Yankee Classic",
-        "info": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Yankee Classic",
-        "info": "\"World Masters Professional Open International Ballroom\" (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "Professional Open International Ballroom (W/T/VW/F/QS)",
-        "place": "1",
         "points": 15.0
       },
       {
-        "comp_name": "Empire Dance Championship",
-        "info": "Professional Rising Star Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Rising Star International Ballroom (W/T/VW/F/QS)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Open International Ballroom (W/T/VW/F/QS)",
+        "comp_name": "beachbash2019",
+        "info": "Professional Open Ballroom (W/T/VW/FT/QS)",
         "place": "Semis",
-        "points": 3.6
+        "points": 3.9
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Open Professional International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 7.6
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Open Professional International Ballroom(W/T/VW/F/Q)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Int'l Ballroom Championship (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 8.4
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "Professional Open International Ballroom (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "Peter Eggleton Professional Ballroom Cup (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 4.0
       }
     ],
-    "total_pts": 76.1,
-    "avg_pts": 8.46
+    "total_pts": 91.9,
+    "avg_pts": 8.35
   },
   {
     "name": "Vadon, Barnabas and Kobor, Edina",
@@ -2363,59 +2471,16 @@
         "info": "Open Professional International Ballroom Championship (W/T/VW/F/Q)",
         "place": "Semis",
         "points": 6.0
-      }
-    ],
-    "total_pts": 22.0,
-    "avg_pts": 7.33
-  },
-  {
-    "name": "Mayorov, Evgeniy and Lisovskaya, Olga",
-    "results": [
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "Open Professional International Ballroom (W/T/VW/F/Q)",
-        "place": "6",
-        "points": 10.5
       },
       {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Professional Open Championships Int'l Ballroom Championship (W,T,VW,F,Q)",
-        "place": "Semis",
-        "points": 7.5
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "info": "Professional Open International Ballroom(W/T/V/F/Q)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Open Professional International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Open Professional International Ballroom(W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Empire Dance Championship",
+        "comp_name": "Embassy Ballroom Championships",
         "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "Open Professional International Ballroom Championship (W/T/VW/F/QS)",
         "place": "Semis",
-        "points": 7.5
+        "points": 6.0
       }
     ],
-    "total_pts": 51.0,
-    "avg_pts": 7.29
+    "total_pts": 28.0,
+    "avg_pts": 7.0
   },
   {
     "name": "Stockton, Andrew and Smith, Rachel",
@@ -2534,6 +2599,61 @@
     ],
     "total_pts": 75.2,
     "avg_pts": 6.84
+  },
+  {
+    "name": "Mayorov, Evgeniy and Lisovskaya, Olga",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "Open Professional International Ballroom (W/T/VW/F/Q)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Professional Open Championships Int'l Ballroom Championship (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "info": "Professional Open International Ballroom(W/T/V/F/Q)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Open Professional International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Open Professional International Ballroom(W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "Open Professional International Ballroom Championship (W/T/VW/F/QS)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 3.2
+      }
+    ],
+    "total_pts": 54.2,
+    "avg_pts": 6.78
   },
   {
     "name": "Davis, Brogen and Davis, Katherine",
@@ -2665,25 +2785,6 @@
     "avg_pts": 6.32
   },
   {
-    "name": "Bielli, Mattia and Hughes, Taisiia",
-    "results": [
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Professional Rising Star Events Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "Professional Rising Star International Ballroom  Championships  (W/T/VW/FT/Q)",
-        "place": "3",
-        "points": 3.5
-      }
-    ],
-    "total_pts": 12.5,
-    "avg_pts": 6.25
-  },
-  {
     "name": "Wlodzimierz, Pawel and Koltuniuk, Justyna",
     "results": [
       {
@@ -2800,6 +2901,164 @@
     ],
     "total_pts": 28.5,
     "avg_pts": 5.7
+  },
+  {
+    "name": "Esposito, Vincenzo and Matsubara, Yo",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "Professional Rising Star Ballroom (W/T/VW/FT/QS)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "info": "Professional Rising Star Standard (W/T/V/F/Q)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "Rising Star Professional Rising Star International Ballroom (W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "Open Open Professional International Ballroom (W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "Rising Star Professional Ballroom (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "Professional Rising Star Ballroom (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "info": "Professional Rising Star International Ballroom(W/T/V/F/Q)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "Open Professional Ballroom  (W/T/VW/FT/QS)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "Professional Rising Star Ballroom (W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "info": "Professional Rising Star International Standard (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Rising Star Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.2
+      },
+      {
+        "comp_name": "Virginia State Championships",
+        "info": "Pro Open International Ballroom (W/T/VW/F/QS)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Volunteer State Dance Challenge",
+        "info": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Volunteer State Dance Challenge",
+        "info": "Professional International Ballroom (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Florida State DanceSport Championships",
+        "info": "Pro Rising Star - International Ballroom(W/T/VW/FT/QS) Championship",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Florida State DanceSport Championships",
+        "info": "Pierre Allaire & Mireille Veilleux Pro Open - International Ballroom(W/T/VW/FT/QS) Championship",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Heart of America DanceSport Championships",
+        "info": "Professional Rising Star Ballroom (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Heart of America DanceSport Championships",
+        "info": "Professional Open Ballroom Championship (W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Rising Star International Ballroom (W/T/VW/F/QS)",
+        "place": "Semis",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 118.2,
+    "avg_pts": 5.63
+  },
+  {
+    "name": "Bielli, Mattia and Hughes, Taisiia",
+    "results": [
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Professional Rising Star Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "Professional Rising Star International Ballroom  Championships  (W/T/VW/FT/Q)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "5",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 16.5,
+    "avg_pts": 5.5
   },
   {
     "name": "Anufriiev, Mykhailo and Vietrynska, Anna",
@@ -2947,143 +3206,72 @@
         "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
         "place": "quarters",
         "points": 1.2
-      }
-    ],
-    "total_pts": 136.1,
-    "avg_pts": 5.67
-  },
-  {
-    "name": "Esposito, Vincenzo and Matsubara, Yo",
-    "results": [
+      },
       {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "Professional Rising Star Ballroom (W/T/VW/FT/QS)",
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Int'l Ballroom (W,T,VW,F,Q)",
         "place": "4",
         "points": 5.0
       },
       {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "info": "Professional Rising Star Standard (W/T/V/F/Q)",
-        "place": "5",
-        "points": 4.0
-      },
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 141.5,
+    "avg_pts": 5.44
+  },
+  {
+    "name": "Hughes, Michael and Brown, Keely",
+    "results": [
       {
-        "comp_name": "Indiana Challenge",
-        "info": "Rising Star Professional Rising Star International Ballroom (W/T/VW/FT/QS)",
-        "place": "2",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "Open Open Professional International Ballroom (W/T/VW/FT/QS)",
-        "place": "3",
-        "points": 7.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "Rising Star Professional Ballroom (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "Professional Rising Star Ballroom (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "info": "Professional Rising Star International Ballroom(W/T/V/F/Q)",
+        "comp_name": "Twin Cities Open",
+        "info": "Professional Rising Star Ballroom (W/T/VW/F/QS)",
         "place": "3",
         "points": 3.5
       },
       {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "Open Professional Ballroom  (W/T/VW/FT/QS)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "Professional Rising Star Ballroom (W/T/VW/FT/QS)",
-        "place": "3",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Savannah Dance Classic",
-        "info": "Professional Rising Star International Standard (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Yankee Classic",
-        "info": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Rising Star Events Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "Semis",
-        "points": 0.2
-      },
-      {
-        "comp_name": "Virginia State Championships",
-        "info": "Pro Open International Ballroom (W/T/VW/F/QS)",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Volunteer State Dance Challenge",
-        "info": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Volunteer State Dance Challenge",
-        "info": "Professional International Ballroom (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Florida State DanceSport Championships",
-        "info": "Pro Rising Star - International Ballroom(W/T/VW/FT/QS) Championship",
-        "place": "3",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Florida State DanceSport Championships",
-        "info": "Pierre Allaire & Mireille Veilleux Pro Open - International Ballroom(W/T/VW/FT/QS) Championship",
+        "comp_name": "Twin Cities Open",
+        "info": "Professional Open Ballroom Championship (W/T/VW/F/QS)",
         "place": "3",
         "points": 7.0
       },
       {
         "comp_name": "Heart of America DanceSport Championships",
         "info": "Professional Rising Star Ballroom (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 9.0
+        "place": "3",
+        "points": 3.5
       },
       {
         "comp_name": "Heart of America DanceSport Championships",
         "info": "Professional Open Ballroom Championship (W/T/VW/FT/QS)",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Rising Star International Ballroom (W/T/VW/F/QS)",
-        "place": "Semis",
-        "points": 5.0
+        "place": "4",
+        "points": 7.0
       }
     ],
-    "total_pts": 118.2,
-    "avg_pts": 5.63
+    "total_pts": 21.0,
+    "avg_pts": 5.25
+  },
+  {
+    "name": "Kitsun, Andrey and Oblakova, Anna",
+    "results": [
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 10.5,
+    "avg_pts": 5.25
   },
   {
     "name": "Teleha, Oleg and Brecker, Michelle",
@@ -3195,41 +3383,22 @@
         "info": "Open Professional International Ballroom Championship (W/T/VW/F/QS)",
         "place": "Semis",
         "points": 0.3
-      }
-    ],
-    "total_pts": 100.4,
-    "avg_pts": 5.58
-  },
-  {
-    "name": "Hughes, Michael and Brown, Keely",
-    "results": [
+      },
       {
-        "comp_name": "Twin Cities Open",
-        "info": "Professional Rising Star Ballroom (W/T/VW/F/QS)",
-        "place": "3",
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "6",
         "points": 3.5
       },
       {
-        "comp_name": "Twin Cities Open",
-        "info": "Professional Open Ballroom Championship (W/T/VW/F/QS)",
-        "place": "3",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Heart of America DanceSport Championships",
-        "info": "Professional Rising Star Ballroom (W/T/VW/FT/QS)",
-        "place": "3",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Heart of America DanceSport Championships",
-        "info": "Professional Open Ballroom Championship (W/T/VW/FT/QS)",
-        "place": "4",
-        "points": 7.0
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Open Professional Events Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
       }
     ],
-    "total_pts": 21.0,
-    "avg_pts": 5.25
+    "total_pts": 104.3,
+    "avg_pts": 5.21
   },
   {
     "name": "Lipford, Stephen and Collins, Shayne",

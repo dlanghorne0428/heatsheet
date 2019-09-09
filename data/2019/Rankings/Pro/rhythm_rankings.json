@@ -91,10 +91,16 @@
         "info": "Open Professional American Rhythm Championship (C/R/SW/B/M)",
         "place": "1",
         "points": 20.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World Professional Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "1",
+        "points": 30.0
       }
     ],
-    "total_pts": 430.0,
-    "avg_pts": 28.67
+    "total_pts": 460.0,
+    "avg_pts": 28.75
   },
   {
     "name": "Nikishkin, Dmitry and Shvets-Nikishkin, Olena",
@@ -236,10 +242,16 @@
         "info": "Open Professional Rhythm (CC/R/SW/B/M)",
         "place": "1",
         "points": 30.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World Professional Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "3",
+        "points": 19.5
       }
     ],
-    "total_pts": 617.5,
-    "avg_pts": 26.85
+    "total_pts": 637.0,
+    "avg_pts": 26.54
   },
   {
     "name": "Velednitsky, Ilya and Ilchenko, Mariya",
@@ -406,10 +418,16 @@
         "info": "Professional Open American Rhythm (C/R/SW/B/M)",
         "place": "1",
         "points": 40.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World Professional Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "2",
+        "points": 24.0
       }
     ],
-    "total_pts": 350.3,
-    "avg_pts": 23.35
+    "total_pts": 374.3,
+    "avg_pts": 23.39
   },
   {
     "name": "Jensen, Shane and Jensen, Shannon",
@@ -606,55 +624,6 @@
     "avg_pts": 19.47
   },
   {
-    "name": "Escolme, Andrew and Baker, Amy",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "Open Professional American Rhythm (C/R/SW/B/M)",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Pro Open American Rhythm (C/R/SW/B/M)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "Open Professional American Rhythm Championships (C/R/SW/B/M)",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "Yankee Classic",
-        "info": "Professional Open American Rhythm (C/R/SW/B/M)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Open Amer. Rhythm Championship (CC,R,SW,B,M)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "The DBDC 2019",
-        "info": "Open Professional Rhythm (C/R/SW/B/M)",
-        "place": "2",
-        "points": 16.0
-      }
-    ],
-    "total_pts": 133.5,
-    "avg_pts": 19.07
-  },
-  {
     "name": "Cortes, Alberto and Briones, Jessa",
     "results": [
       {
@@ -722,53 +691,59 @@
     "avg_pts": 18.7
   },
   {
-    "name": "Pigotskyy, Oleksiy and Crandall, Natalie",
+    "name": "Escolme, Andrew and Baker, Amy",
     "results": [
       {
-        "comp_name": "The Snow Ball",
+        "comp_name": "Golden Star Dancesport Championships",
         "info": "Open Professional American Rhythm (C/R/SW/B/M)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Pro Open American Rhythm (C/R/SW/B/M)",
         "place": "2",
         "points": 24.0
       },
       {
-        "comp_name": "City Lights Ball",
-        "info": "Professional Open Rhythm (C/R/SW/B/M)",
+        "comp_name": "NYDF 2019",
+        "info": "Open Professional American Rhythm Championships (C/R/SW/B/M)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "Professional Open American Rhythm (C/R/SW/B/M)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)",
         "place": "1",
         "points": 20.0
       },
       {
-        "comp_name": "caopen19",
-        "info": "Open Professional Rhythm Championship (C/R/SW/B/M)",
-        "place": "3",
-        "points": 19.5
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Open Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "6",
+        "points": 10.5
       },
       {
-        "comp_name": "Vegas Open Dance Challenge",
+        "comp_name": "The DBDC 2019",
         "info": "Open Professional Rhythm (C/R/SW/B/M)",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "Professional Open Rhythm Championship (C/R/SW/B/M)",
         "place": "2",
-        "points": 24.0
+        "points": 16.0
       },
       {
-        "comp_name": "Emerald Ball",
-        "info": "Open Professional American Rhythm Championship (C/R/SW/B/M)",
-        "place": "Semis",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "Open Professional American Rhythm Championship (C/R/SW/B/M)",
-        "place": "3",
-        "points": 13.0
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World Professional Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "4",
+        "points": 15.0
       }
     ],
-    "total_pts": 130.0,
-    "avg_pts": 18.57
+    "total_pts": 148.5,
+    "avg_pts": 18.56
   },
   {
     "name": "Shipilov, Aleksei and Mitina, Julia",
@@ -945,6 +920,61 @@
     ],
     "total_pts": 18.0,
     "avg_pts": 18.0
+  },
+  {
+    "name": "Pigotskyy, Oleksiy and Crandall, Natalie",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "info": "Open Professional American Rhythm (C/R/SW/B/M)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "City Lights Ball",
+        "info": "Professional Open Rhythm (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "Open Professional Rhythm Championship (C/R/SW/B/M)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "Open Professional Rhythm (C/R/SW/B/M)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "Professional Open Rhythm Championship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Open Professional American Rhythm Championship (C/R/SW/B/M)",
+        "place": "Semis",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "Open Professional American Rhythm Championship (C/R/SW/B/M)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World Professional Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "5",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 142.0,
+    "avg_pts": 17.75
   },
   {
     "name": "DeSoto, Aaron and DeSoto, Iryna",
@@ -1307,10 +1337,22 @@
         "info": "Professional Open American Rhythm (C/R/SW/B/M)",
         "place": "Semis",
         "points": 10.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World Professional Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "7",
+        "points": 9.0
       }
     ],
-    "total_pts": 294.3,
-    "avg_pts": 14.71
+    "total_pts": 323.3,
+    "avg_pts": 14.7
   },
   {
     "name": "Tregubov, Anton and Sanchez, Ashley",
@@ -1514,10 +1556,16 @@
         "info": "Open Professional American Rhythm Championship (C/R/SW/B/M)",
         "place": "4",
         "points": 10.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World Professional Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "6",
+        "points": 10.5
       }
     ],
-    "total_pts": 167.1,
-    "avg_pts": 13.92
+    "total_pts": 177.6,
+    "avg_pts": 13.66
   },
   {
     "name": "Bennett, Kemar and Nicol, Jessica",
@@ -2029,10 +2077,16 @@
         "info": "Professional Rising Star American Rhythm (C/R/SW/B/M)",
         "place": "5",
         "points": 12.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "3",
+        "points": 13.0
       }
     ],
-    "total_pts": 160.3,
-    "avg_pts": 11.45
+    "total_pts": 173.3,
+    "avg_pts": 11.55
   },
   {
     "name": "Ustymovych, Igor and Santiago, Briana",
@@ -2236,10 +2290,22 @@
         "info": "Rising Star Professional American Rhythm (C/R/SW/B/M)",
         "place": "1",
         "points": 10.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World Professional Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "Semis",
+        "points": 7.5
       }
     ],
-    "total_pts": 206.5,
-    "avg_pts": 10.87
+    "total_pts": 230.0,
+    "avg_pts": 10.95
   },
   {
     "name": "Masko, Grey and Hayner, Elizabeth",
@@ -2782,6 +2848,73 @@
     "avg_pts": 9.6
   },
   {
+    "name": "Papi, Riccardo and Moretti, Sabrina",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "info": "Professional Open American Rhythm(C/R/S/B/M)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Open Professional American Rhythm Championships (C/R/SW/B/M)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "Open Professional Rhythm (CC/R/SW/B/M)",
+        "place": "6",
+        "points": 14.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "Professional Open Rhythm (CC/R/SW/B/M)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "info": "Professional Open American Rhythm(C/R/S/B/M)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Open Professional American Rhythm Championship (C/R/SW/B/M)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Open Professional American Rhythm(C/R/SW/B/M)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Open Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Professional Events Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Open American Rhythm (C/R/SW/B/M)",
+        "place": "Semis",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 94.5,
+    "avg_pts": 9.45
+  },
+  {
     "name": "Nunez, Antonio and Kashkina, Ksenia",
     "results": [
       {
@@ -2885,77 +3018,22 @@
         "info": "Open Professional Rhythm (CC/R/SW/B/M)",
         "place": "4",
         "points": 15.0
-      }
-    ],
-    "total_pts": 162.5,
-    "avg_pts": 9.56
-  },
-  {
-    "name": "Papi, Riccardo and Moretti, Sabrina",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "info": "Professional Open American Rhythm(C/R/S/B/M)",
-        "place": "6",
-        "points": 7.0
       },
       {
-        "comp_name": "NYDF 2019",
-        "info": "Open Professional American Rhythm Championships (C/R/SW/B/M)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "Open Professional Rhythm (CC/R/SW/B/M)",
-        "place": "6",
-        "points": 14.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "Professional Open Rhythm (CC/R/SW/B/M)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "info": "Professional Open American Rhythm(C/R/S/B/M)",
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)",
         "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Open Professional American Rhythm Championship (C/R/SW/B/M)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Open Professional American Rhythm(C/R/SW/B/M)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Open Amer. Rhythm Championship (CC,R,SW,B,M)",
-        "place": "Semis",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Professional Events Amer. Rhythm (CC,R,SW,B,M)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Open American Rhythm (C/R/SW/B/M)",
-        "place": "Semis",
         "points": 10.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World Professional Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "Semis",
+        "points": 3.3
       }
     ],
-    "total_pts": 94.5,
-    "avg_pts": 9.45
+    "total_pts": 175.8,
+    "avg_pts": 9.25
   },
   {
     "name": "Chen, Jonathan and Simanekova, Juanita",
@@ -3484,6 +3562,62 @@
     "avg_pts": 7.86
   },
   {
+    "name": "Gurkov, Dmytro and Bailey, Celeste",
+    "results": [
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World Professional Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "Semis",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
+  },
+  {
+    "name": "Azarov, Mykhailo and Makarenko, Tetyana",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Pro Open American Rhythm (C/R/SW/B/M)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Pro Rising Star American Rhythm (C/R/SW/B/M)",
+        "place": "7",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "Open Professional American Rhythm (C/R/SW/B/M)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "info": "Pro Rising Star - Rhythm (CC/R/SW/B/M) Championship",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Florida State DanceSport Championships",
+        "info": "Pro Rising Star - American Rhythm (CC/R/SW/B/M) Championship",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Florida State DanceSport Championships",
+        "info": "Sam Sodano Pro Open - American Rhythm (CC/R/SW/B/M) Championship",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 44.0,
+    "avg_pts": 7.33
+  },
+  {
     "name": "Zegarra, Renzo and Zegarra, Andrea",
     "results": [
       {
@@ -3551,53 +3685,16 @@
         "info": "Professional Open American Rhythm (C/R/SW/B/M)",
         "place": "5",
         "points": 8.0
-      }
-    ],
-    "total_pts": 81.7,
-    "avg_pts": 7.43
-  },
-  {
-    "name": "Azarov, Mykhailo and Makarenko, Tetyana",
-    "results": [
+      },
       {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Pro Open American Rhythm (C/R/SW/B/M)",
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)",
         "place": "Semis",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Pro Rising Star American Rhythm (C/R/SW/B/M)",
-        "place": "7",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "Open Professional American Rhythm (C/R/SW/B/M)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "info": "Pro Rising Star - Rhythm (CC/R/SW/B/M) Championship",
-        "place": "2",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Florida State DanceSport Championships",
-        "info": "Pro Rising Star - American Rhythm (CC/R/SW/B/M) Championship",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Florida State DanceSport Championships",
-        "info": "Sam Sodano Pro Open - American Rhythm (CC/R/SW/B/M) Championship",
-        "place": "5",
-        "points": 8.0
+        "points": 5.0
       }
     ],
-    "total_pts": 44.0,
-    "avg_pts": 7.33
+    "total_pts": 86.7,
+    "avg_pts": 7.23
   },
   {
     "name": "Germain, Zachary and Caskie, Jenna",
@@ -3917,6 +4014,91 @@
     "avg_pts": 6.85
   },
   {
+    "name": "Cunningham, Charles and Elcoro, Evgeniia",
+    "results": [
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "Rising Star Professional American Rhythm (C/R/SW/B/M)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "World Masters Open Professional American Rhythm  (C/R/SW/B/M)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "Open Professional American Rhythm (C/R/SW/B/M)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "Professional Rising Star American Rhythm (C/R/SW/B/M)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "info": "Pro Rising Star - Rhythm (CC/R/SW/B/M) Championship",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "info": "Pro Open - Rhythm (CC/R/SW/B/M)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Rising Star Professional American Rhythm(C/R/SW/B/M)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Open Professional American Rhythm(C/R/SW/B/M)",
+        "place": "quarters",
+        "points": 0.4
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "Professional American Rhythm (C/R/SW/B/M)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Florida State DanceSport Championships",
+        "info": "Pro Rising Star - American Rhythm (CC/R/SW/B/M) Championship",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Florida State DanceSport Championships",
+        "info": "Sam Sodano Pro Open - American Rhythm (CC/R/SW/B/M) Championship",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Boca Ballroom Dancesport Competition",
+        "info": "Professional Rising Star Rhythm (CC/R/SW/B/M)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Boca Ballroom Dancesport Competition",
+        "info": "Open Professional Rhythm (CC/R/SW/B/M)",
+        "place": "6",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 86.2,
+    "avg_pts": 6.63
+  },
+  {
     "name": "Sharan, Slash and Vincitore, Rebecca",
     "results": [
       {
@@ -4014,95 +4196,22 @@
         "info": "Professional Open American Rhythm (C/R/SW/B/M)",
         "place": "quarters",
         "points": 4.0
-      }
-    ],
-    "total_pts": 107.7,
-    "avg_pts": 6.73
-  },
-  {
-    "name": "Cunningham, Charles and Elcoro, Evgeniia",
-    "results": [
-      {
-        "comp_name": "2019 First Coast Classic",
-        "info": "Rising Star Professional American Rhythm (C/R/SW/B/M)",
-        "place": "1",
-        "points": 10.0
       },
       {
-        "comp_name": "2019 First Coast Classic",
-        "info": "World Masters Open Professional American Rhythm  (C/R/SW/B/M)",
-        "place": "Semis",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "Open Professional American Rhythm (C/R/SW/B/M)",
-        "place": "Semis",
-        "points": 0.3
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "Professional Rising Star American Rhythm (C/R/SW/B/M)",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "info": "Pro Rising Star - Rhythm (CC/R/SW/B/M) Championship",
-        "place": "3",
-        "points": 6.5
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "info": "Pro Open - Rhythm (CC/R/SW/B/M)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Rising Star Professional American Rhythm(C/R/SW/B/M)",
-        "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Open Professional American Rhythm(C/R/SW/B/M)",
-        "place": "quarters",
-        "points": 0.4
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "Professional American Rhythm (C/R/SW/B/M)",
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)",
         "place": "5",
         "points": 8.0
       },
       {
-        "comp_name": "Florida State DanceSport Championships",
-        "info": "Pro Rising Star - American Rhythm (CC/R/SW/B/M) Championship",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Florida State DanceSport Championships",
-        "info": "Sam Sodano Pro Open - American Rhythm (CC/R/SW/B/M) Championship",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Boca Ballroom Dancesport Competition",
-        "info": "Professional Rising Star Rhythm (CC/R/SW/B/M)",
-        "place": "2",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Boca Ballroom Dancesport Competition",
-        "info": "Open Professional Rhythm (CC/R/SW/B/M)",
-        "place": "6",
-        "points": 10.5
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World Professional Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "Semis",
+        "points": 0.6
       }
     ],
-    "total_pts": 86.2,
-    "avg_pts": 6.63
+    "total_pts": 116.3,
+    "avg_pts": 6.46
   },
   {
     "name": "Atasuntsov, Arkadi and Coe, Sabrina",
@@ -4828,6 +4937,61 @@
     "avg_pts": 4.6
   },
   {
+    "name": "Golubev, Valerii and Golubeva, Margarita",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Pro Open American Rhythm (C/R/SW/B/M)",
+        "place": "Semis",
+        "points": 0.6
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Pro Rising Star American Rhythm (C/R/SW/B/M)",
+        "place": "Semis",
+        "points": 2.6
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Rising Star Professional American Rhythm (C/R/SW/B/M)",
+        "place": "Semis",
+        "points": 2.8
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "Rising Star Professional Rhythm (C/R/SW/B/M)",
+        "place": "Semis",
+        "points": 7.2
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "Professional Rising Star Rhythm (CC/R/SW/B/M)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "Semis",
+        "points": 1.4
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Rising Star American Rhythm (C/R/SW/B/M)",
+        "place": "quarters",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Open American Rhythm (C/R/SW/B/M)",
+        "place": "quarters",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 34.6,
+    "avg_pts": 4.33
+  },
+  {
     "name": "Dominguez, Oliver and Lerma, Georgina",
     "results": [
       {
@@ -4883,25 +5047,68 @@
         "info": "Rising Star Professional American Rhythm (C/R/SW/B/M)",
         "place": "4",
         "points": 5.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World Professional Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "Semis",
+        "points": 0.3
       }
     ],
-    "total_pts": 39.2,
-    "avg_pts": 4.36
+    "total_pts": 46.5,
+    "avg_pts": 4.23
   },
   {
-    "name": "Golubev, Valerii and Golubeva, Margarita",
+    "name": "Jackson, Ryan and Logan, Emily",
     "results": [
       {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Pro Open American Rhythm (C/R/SW/B/M)",
+        "comp_name": "Music City Invitational",
+        "info": "Open Professional American Rhythm (C/R/SW/B/M)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "Professional Open American Rhythm (C/R/SW/B/MA)",
         "place": "Semis",
         "points": 0.6
       },
       {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Pro Rising Star American Rhythm (C/R/SW/B/M)",
+        "comp_name": "2019people[forrest vance]",
+        "info": "Open Professional American Rhythm (C/R/SW/B/M)",
         "place": "Semis",
-        "points": 2.6
+        "points": 0.9
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Open Professional American Rhythm(C/R/SW/B/M)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 16.9,
+    "avg_pts": 4.22
+  },
+  {
+    "name": "Pozo, Cristian and Pasalano, Devyn-Nicole",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "Professional Rising Star Rhythm (CC/R/SW/B/M)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "Professional Open Rhythm Championship (CC/R/SW/B/M)",
+        "place": "Semis",
+        "points": 1.8
       },
       {
         "comp_name": "NYDF 2019",
@@ -4913,35 +5120,41 @@
         "comp_name": "2019 Tri-State DanceSport Championships",
         "info": "Rising Star Professional Rhythm (C/R/SW/B/M)",
         "place": "Semis",
-        "points": 7.2
+        "points": 4.5
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "Open Professional Rhythm (C/R/SW/B/M)",
+        "place": "Semis",
+        "points": 1.2
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "Professional Rising Star American Rhythm (C/R/SW/B/M)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "Open Professional American Rhythm (C/R/SW/B/M)",
+        "place": "Semis",
+        "points": 4.5
       },
       {
         "comp_name": "American Star Ball Championships",
         "info": "Professional Rising Star Rhythm (CC/R/SW/B/M)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)",
         "place": "Semis",
-        "points": 1.4
+        "points": 5.0
       },
       {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Rising Star American Rhythm (C/R/SW/B/M)",
-        "place": "quarters",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Open American Rhythm (C/R/SW/B/M)",
-        "place": "quarters",
-        "points": 4.0
+        "comp_name": "American Star Ball Championships",
+        "info": "Professional Open Rhythm Championship (CC/R/SW/B/M)",
+        "place": "6",
+        "points": 7.0
       }
     ],
-    "total_pts": 34.6,
-    "avg_pts": 4.33
+    "total_pts": 37.8,
+    "avg_pts": 4.2
   },
   {
     "name": "Bernal, John and Carrillo, Bailey",
@@ -5035,102 +5248,22 @@
         "info": "Rising Star Professional American Rhythm (C/R/SW/B/M)",
         "place": "5",
         "points": 4.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "7",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World Professional Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "Semis",
+        "points": 0.3
       }
     ],
-    "total_pts": 64.5,
-    "avg_pts": 4.3
-  },
-  {
-    "name": "Jackson, Ryan and Logan, Emily",
-    "results": [
-      {
-        "comp_name": "Music City Invitational",
-        "info": "Open Professional American Rhythm (C/R/SW/B/M)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "Professional Open American Rhythm (C/R/SW/B/MA)",
-        "place": "Semis",
-        "points": 0.6
-      },
-      {
-        "comp_name": "2019people[forrest vance]",
-        "info": "Open Professional American Rhythm (C/R/SW/B/M)",
-        "place": "Semis",
-        "points": 0.9
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Open Professional American Rhythm(C/R/SW/B/M)",
-        "place": "quarters",
-        "points": 0.4
-      }
-    ],
-    "total_pts": 16.9,
-    "avg_pts": 4.22
-  },
-  {
-    "name": "Pozo, Cristian and Pasalano, Devyn-Nicole",
-    "results": [
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "Professional Rising Star Rhythm (CC/R/SW/B/M)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "Professional Open Rhythm Championship (CC/R/SW/B/M)",
-        "place": "Semis",
-        "points": 1.8
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "Rising Star Professional American Rhythm (C/R/SW/B/M)",
-        "place": "Semis",
-        "points": 2.8
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "Rising Star Professional Rhythm (C/R/SW/B/M)",
-        "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "Open Professional Rhythm (C/R/SW/B/M)",
-        "place": "Semis",
-        "points": 1.2
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "Professional Rising Star American Rhythm (C/R/SW/B/M)",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "Open Professional American Rhythm (C/R/SW/B/M)",
-        "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "Professional Rising Star Rhythm (CC/R/SW/B/M)",
-        "place": "Semis",
-        "points": 5.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "Professional Open Rhythm Championship (CC/R/SW/B/M)",
-        "place": "6",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 37.8,
-    "avg_pts": 4.2
+    "total_pts": 70.8,
+    "avg_pts": 4.16
   },
   {
     "name": "Welch, Ben and Lyons, Rae",
@@ -5310,10 +5443,16 @@
         "info": "Professional American Rhythm (CC/R/SW/B/M)",
         "place": "6",
         "points": 7.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "Semis",
+        "points": 2.6
       }
     ],
-    "total_pts": 61.3,
-    "avg_pts": 3.83
+    "total_pts": 63.9,
+    "avg_pts": 3.76
   },
   {
     "name": "Moore, Matthew and Greenslit, Shelby",
@@ -5364,19 +5503,6 @@
       }
     ],
     "total_pts": 10.5,
-    "avg_pts": 3.5
-  },
-  {
-    "name": "Lettig, Joseph and Varlam, Madalina",
-    "results": [
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "Rising Star Professional American Rhythm (C/R/SW/B/M)",
-        "place": "6",
-        "points": 3.5
-      }
-    ],
-    "total_pts": 3.5,
     "avg_pts": 3.5
   },
   {
@@ -5511,6 +5637,70 @@
     "avg_pts": 3.15
   },
   {
+    "name": "Brann, James and Iurman, Vanessa",
+    "results": [
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "info": "Pro Rising Star - Rhythm (CC/R/SW/B/M) Championship",
+        "place": "7",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
+  },
+  {
+    "name": "Formanek, Blake and Miller, Angela",
+    "results": [
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Rising Star Professional American Rhythm(C/R/SW/B/M)",
+        "place": "quarters",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
+  },
+  {
+    "name": "McLain and Williams",
+    "results": [
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "Rising Star Professional American Rhythm (C/R/SW/B/M)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "World Masters Open Professional American Rhythm  (C/R/SW/B/M)",
+        "place": "Semis",
+        "points": 1.5
+      }
+    ],
+    "total_pts": 5.5,
+    "avg_pts": 2.75
+  },
+  {
+    "name": "da Silva, Samuel and Milum, Lindsay",
+    "results": [
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Rising Star Professional American Rhythm(C/R/SW/B/M)",
+        "place": "Semis",
+        "points": 5.1
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Open Professional American Rhythm(C/R/SW/B/M)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 5.5,
+    "avg_pts": 2.75
+  },
+  {
     "name": "Belbin, Andrew and Scully, Erin",
     "results": [
       {
@@ -5590,74 +5780,22 @@
         "info": "Professional Open Rhythm Championship (C/R/SW/B/M)",
         "place": "Semis",
         "points": 0.3
-      }
-    ],
-    "total_pts": 40.5,
-    "avg_pts": 3.12
-  },
-  {
-    "name": "Brann, James and Iurman, Vanessa",
-    "results": [
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "info": "Pro Rising Star - Rhythm (CC/R/SW/B/M) Championship",
-        "place": "7",
-        "points": 3.0
-      }
-    ],
-    "total_pts": 3.0,
-    "avg_pts": 3.0
-  },
-  {
-    "name": "Formanek, Blake and Miller, Angela",
-    "results": [
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Rising Star Professional American Rhythm(C/R/SW/B/M)",
-        "place": "quarters",
-        "points": 3.0
-      }
-    ],
-    "total_pts": 3.0,
-    "avg_pts": 3.0
-  },
-  {
-    "name": "McLain and Williams",
-    "results": [
-      {
-        "comp_name": "2019 First Coast Classic",
-        "info": "Rising Star Professional American Rhythm (C/R/SW/B/M)",
-        "place": "5",
-        "points": 4.0
       },
       {
-        "comp_name": "2019 First Coast Classic",
-        "info": "World Masters Open Professional American Rhythm  (C/R/SW/B/M)",
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)",
         "place": "Semis",
-        "points": 1.5
-      }
-    ],
-    "total_pts": 5.5,
-    "avg_pts": 2.75
-  },
-  {
-    "name": "da Silva, Samuel and Milum, Lindsay",
-    "results": [
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Rising Star Professional American Rhythm(C/R/SW/B/M)",
-        "place": "Semis",
-        "points": 5.1
+        "points": 0.2
       },
       {
-        "comp_name": "Millennium Dancesport",
-        "info": "Open Professional American Rhythm(C/R/SW/B/M)",
-        "place": "quarters",
-        "points": 0.4
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World Professional Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "Semis",
+        "points": 0.3
       }
     ],
-    "total_pts": 5.5,
-    "avg_pts": 2.75
+    "total_pts": 41.0,
+    "avg_pts": 2.73
   },
   {
     "name": "Kumar, Ramphis and Levina, Jenny",
@@ -5930,6 +6068,25 @@
     ],
     "total_pts": 2.0,
     "avg_pts": 2.0
+  },
+  {
+    "name": "Lettig, Joseph and Varlam, Madalina",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "Rising Star Professional American Rhythm (C/R/SW/B/M)",
+        "place": "6",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "Semis",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 3.9,
+    "avg_pts": 1.95
   },
   {
     "name": "Martinez, Theo and Wain, Kelly",

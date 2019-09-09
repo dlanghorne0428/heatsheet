@@ -138,13 +138,17 @@ class NdcaPremResults():
                         entry = heat_report.entry(index)
                         if entry.dancer in dancer_name_list:
                             entry.shirt_number = shirt_number
-                            self.order_pro_am_couple(entry)
+                            if entry.category == "Heat" and not entry.amateur_heat():
+                                self.order_pro_am_couple(entry)
                             if entry.result is None:
                                 entry.result = result_place
                             break
                         elif entry.partner in dancer_name_list:
                             entry.shirt_number = shirt_number
-                            self.order_pro_am_couple(entry)
+                            if entry.category == "Heat" and not entry.amateur_heat():
+                                self.order_pro_am_couple(entry)
+                            else:
+                                entry.swap_names()
                             if entry.result is None:
                                 entry.result = result_place
                             break
@@ -222,13 +226,17 @@ class NdcaPremResults():
                             entry = heat_report.entry(index)
                             if entry.dancer in dancer_name_list:
                                 entry.shirt_number = shirt_number
-                                self.order_pro_am_couple(entry)
+                                if entry.category == "Heat" and not entry.amateur_heat():
+                                    self.order_pro_am_couple(entry)
                                 if entry.result is None:
                                     entry.result = self.temp_result(heat_report.rounds(), accum_value)
                                 break
-                            elif entry.partner == dancer_name_list:
+                            elif entry.partner in dancer_name_list:
                                 entry.shirt_number = shirt_number
-                                self.order_pro_am_couple(entry)
+                                if entry.category == "Heat" and not entry.amateur_heat():
+                                    self.order_pro_am_couple(entry)
+                                else:
+                                    entry.swap_names()
                                 if entry.result is None:
                                     entry.result = self.temp_result(heat_report.rounds(), accum_value)
                                 break                        

@@ -7,7 +7,7 @@
 var prevblock = "block_menu";
 var prevprevblock = "block_menu";
 function ShowBlock(blockID)
-{  
+{
   document.getElementById(prevblock).style.visibility="hidden";
   document.getElementById(blockID).style.visibility="visible";
   prevprevblock = prevblock;
@@ -19,14 +19,14 @@ function GoBack()
   ShowBlock(prevprevblock);
 }
 function ShowPersonData(blockID)
-{  
+{
   PersonDataWindow=window.open("","PersonDataWindow");
   PersonDataWindow.document.open();
   PersonDataWindow.document.write('<html><head><title>PersonData</title><html><body>');
-  PersonDataWindow.document.write(document.getElementById(blockID).innerHTML);  
+  PersonDataWindow.document.write(document.getElementById(blockID).innerHTML);
   PersonDataWindow.document.write('</body></html>');
-  PersonDataWindow.document.close();  
-  PersonDataWindow.focus(); 
+  PersonDataWindow.document.close();
+  PersonDataWindow.focus();
 }
 function PrintWindow()
 {
@@ -347,6 +347,7 @@ function PrintWindow()
 <tr><td>Goddard, Joan</td><td><input type="button" value="Show entries" onclick="ShowPersonData('TABLE_CODE_1830')"></td></tr>
 <tr><td>Goncharov, Dymytrii</td><td><input type="button" value="Show entries" onclick="ShowPersonData('TABLE_CODE_83886338')"></td></tr>
 <tr><td>Gonzalez, Janice</td><td><input type="button" value="Show entries" onclick="ShowPersonData('TABLE_CODE_1860')"></td></tr>
+<tr><td>Gordeeva, Anastasia</td><td><input type="button" value="Show entries" onclick="ShowPersonData('TABLE_CODE_6790')"></td></tr>
 <tr><td>Gore, Gerard</td><td><input type="button" value="Show entries" onclick="ShowPersonData('TABLE_CODE_6726')"></td></tr>
 <tr><td>Gorjatsev, Kirill</td><td><input type="button" value="Show entries" onclick="ShowPersonData('TABLE_CODE_1882')"></td></tr>
 <tr><td>Gorolevici, Anatoli</td><td><input type="button" value="Show entries" onclick="ShowPersonData('TABLE_CODE_1887')"></td></tr>
@@ -877,6 +878,7 @@ function PrintWindow()
 <tr><td>Smith, Gisele</td><td><input type="button" value="Show entries" onclick="ShowPersonData('TABLE_CODE_4938')"></td></tr>
 <tr><td>Smith, Janice</td><td><input type="button" value="Show entries" onclick="ShowPersonData('TABLE_CODE_4939')"></td></tr>
 <tr><td>Smith, Kush</td><td><input type="button" value="Show entries" onclick="ShowPersonData('TABLE_CODE_4941')"></td></tr>
+<tr><td>Soccadato, Jacqueline</td><td><input type="button" value="Show entries" onclick="ShowPersonData('TABLE_CODE_4956')"></td></tr>
 <tr><td>Sochacki, Slawek</td><td><input type="button" value="Show entries" onclick="ShowPersonData('TABLE_CODE_4957')"></td></tr>
 <tr><td>Sokolova, Ksusha</td><td><input type="button" value="Show entries" onclick="ShowPersonData('TABLE_CODE_6508')"></td></tr>
 <tr><td>Solano, Julius</td><td><input type="button" value="Show entries" onclick="ShowPersonData('TABLE_CODE_4962')"></td></tr>
@@ -1953,6 +1955,41 @@ function PrintWindow()
 <table border="2" cellspacing="0" bordercolor="#000000">
 <tr><td>Session@Time</td><td>Number</td><td>Heat</td><td>Event</td></tr>
 <tr><td>Session 10- Friday Evening@09:15PM Friday<br>Later rounds:<br>10@10:30PM Friday<br>10@11:15PM Friday</td><td>120</td><td>Pro heat 15</td><td>US National Professional Int'l Latin Championship (C/S/R/PD/J)</td></tr>
+</table>
+</div>
+<div id="TABLE_CODE_6299" style="visibility:hidden; Position:Absolute; left:5%; top:10%">
+<strong>Entries for Baginski, Jane</strong><br>
+<br><strong>With Forestier, Ian</strong>
+<table border="2" cellspacing="0" bordercolor="#000000">
+<tr><td>Session@Time</td><td>Number</td><td>Heat</td><td>Event</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@07:18AM Wednesday</td><td>517</td><td>Heat 677 [Ballroom B]</td><td>AC-B1 Full Silver American Waltz</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@07:19AM Wednesday</td><td>517</td><td>Heat 678 [Ballroom B]</td><td>AC-B1 Pre-Silver American Tango</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@07:21AM Wednesday</td><td>517</td><td>Heat 679 [Ballroom B]</td><td>AC-B1 Pre-Silver American Foxtrot</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@07:22AM Wednesday</td><td>517</td><td>Heat 680 [Ballroom B]</td><td>AC-B1 Pre-Silver American Viennese Waltz</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@07:36AM Wednesday</td><td>517</td><td>Heat 681 [Ballroom B]</td><td>AC-B2 Full Silver American Waltz</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@07:37AM Wednesday</td><td>517</td><td>Heat 682 [Ballroom B]</td><td>AC-B1 Full Silver American Tango</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@07:39AM Wednesday</td><td>517</td><td>Heat 683 [Ballroom B]</td><td>AC-B1 Full Silver American Foxtrot</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@07:40AM Wednesday</td><td>517</td><td>Heat 684 [Ballroom B]</td><td>AC-B1 Full Silver American Viennese Waltz</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@08:13AM Wednesday</td><td>517</td><td>Heat 698 [Ballroom B]</td><td>AC-B2 Full Silver American Tango</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@08:15AM Wednesday</td><td>517</td><td>Heat 699 [Ballroom B]</td><td>AC-B2 Full Silver American Foxtrot</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@08:16AM Wednesday</td><td>517</td><td>Heat 700 [Ballroom B]</td><td>AC-B2 Full Silver American Viennese Waltz</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@09:05AM Wednesday</td><td>517</td><td>Heat 713 [Ballroom B]</td><td>AC-B1 Int. Silver American Waltz</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@09:06AM Wednesday</td><td>517</td><td>Heat 714 [Ballroom B]</td><td>AC-B1 Int. Silver American Tango</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@09:08AM Wednesday</td><td>517</td><td>Heat 715 [Ballroom B]</td><td>AC-B1 Int. Silver American Foxtrot</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@09:09AM Wednesday</td><td>517</td><td>Heat 716 [Ballroom A]</td><td>AC-B1 Int. Silver American Viennese Waltz</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@09:17AM Wednesday</td><td>517</td><td>Heat 721 [Ballroom B]</td><td>AC-B1 Pre-Silver American Waltz</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@09:18AM Wednesday</td><td>517</td><td>Heat 722 [Ballroom B]</td><td>AC-B2 Int. Silver American Tango</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@09:20AM Wednesday</td><td>517</td><td>Heat 723 [Ballroom B]</td><td>AC-B2 Int. Silver American Foxtrot</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@09:21AM Wednesday</td><td>517</td><td>Heat 724 [Ballroom B]</td><td>AC-B2 Int. Silver American Viennese Waltz</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@09:23AM Wednesday</td><td>517</td><td>Heat 725 [Ballroom B]</td><td>AC-B2 Int. Silver American Waltz</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@09:24AM Wednesday</td><td>517</td><td>Heat 726 [Ballroom B]</td><td>AC-B2 Pre-Silver American Tango</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@09:26AM Wednesday</td><td>517</td><td>Heat 727 [Ballroom B]</td><td>AC-B2 Pre-Silver American Foxtrot</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@09:27AM Wednesday</td><td>517</td><td>Heat 728 [Ballroom B]</td><td>AC-B2 Pre-Silver American Viennese Waltz</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@09:35AM Wednesday</td><td>517</td><td>Heat 729 [Ballroom B]</td><td>AC-B2 Pre-Silver American Waltz</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@09:47AM Wednesday</td><td>517</td><td>Heat 737 [Ballroom A]</td><td>AC-B2 Pre-Gold American Waltz</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@09:48AM Wednesday</td><td>517</td><td>Heat 738 [Ballroom A]</td><td>AC-B2 Pre-Gold American Tango</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@09:50AM Wednesday</td><td>517</td><td>Heat 739 [Ballroom A]</td><td>AC-B2 Pre-Gold American Foxtrot</td></tr>
+<tr><td>Session 5 - Wednesday Daytime@09:51AM Wednesday</td><td>517</td><td>Heat 740 [Ballroom A]</td><td>AC-B2 Pre-Gold American Viennese Waltz</td></tr>
 </table>
 </div>
 <div id="TABLE_CODE_6299" style="visibility:hidden; Position:Absolute; left:5%; top:10%">
@@ -28236,9 +28273,9 @@ function PrintWindow()
 <tr><td>Session 11 - Saturday Daytime @12:11PM Saturday<br>Later rounds:<br>11@01:04PM Saturday</td><td>218</td><td>Heat 1321</td><td>L-C Open Gold US National Pro/Am Ballroom Scholarship Championship (W/T/VW/F/Q)</td></tr>
 </table>
 </div>
-<div id="TABLE_CODE_4941" style="visibility:hidden; Position:Absolute; left:5%; top:10%">
-<strong>Entries for Smith, Kush</strong><br>
-<br><strong>With Escolme, Andrew</strong>
+<div id="TABLE_CODE_4956" style="visibility:hidden; Position:Absolute; left:5%; top:10%">
+<strong>Entries for Soccadato, Jacqueline</strong><br>
+<br><strong>With Terziev, Delyan</strong>
 <table border="2" cellspacing="0" bordercolor="#000000">
 <tr><td>Session@Time</td><td>Number</td><td>Heat</td><td>Event</td></tr>
 <tr><td>Session 1- Monday Daytime@02:39PM Monday</td><td>193</td><td>Heat 152</td><td>L-B1 Pre-Silver American Cha Cha</td></tr>
