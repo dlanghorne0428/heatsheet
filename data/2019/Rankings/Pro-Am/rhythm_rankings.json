@@ -290,37 +290,11 @@
     "avg_pts": 25.0
   },
   {
-    "name": "Beliinfante, Lita and De La Cruz, Melbin",
-    "results": [
-      {
-        "comp_name": "United States Dance Championships",
-        "info": "L-C Closed Bronze US National Pro/Am Rhythm Scholarship Championship (C/R/SW/B/M)",
-        "place": "1",
-        "points": 25.0
-      }
-    ],
-    "total_pts": 25.0,
-    "avg_pts": 25.0
-  },
-  {
     "name": "Jaffee, Cherri and Kazlauskas, Jonas",
     "results": [
       {
         "comp_name": "2019 Indianapolis Open DanceSport",
         "info": "L-C Closed Bronze Pro-Am American Rhythm Scholarship (C/R/SW)",
-        "place": "1",
-        "points": 25.0
-      }
-    ],
-    "total_pts": 25.0,
-    "avg_pts": 25.0
-  },
-  {
-    "name": "McCleod, Leslie and De La Cruz, Melbin",
-    "results": [
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Open Pro-Am Scholarships SR Amer. Rhythm (CC,R,SW,B,M)",
         "place": "1",
         "points": 25.0
       }
@@ -5820,10 +5794,16 @@
         "info": "World ProAm Closed Bronze C Amer. Rhythm Championship (CC,R,SW,M)",
         "place": "1",
         "points": 20.0
+      }, 
+	    {
+        "comp_name": "United States Dance Championships",
+        "info": "L-C Closed Bronze US National Pro/Am Rhythm Scholarship Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 25.0
       }
     ],
-    "total_pts": 147.0,
-    "avg_pts": 16.33
+    "total_pts": 172.0,
+    "avg_pts": 17.2
   },
   {
     "name": "Kniejski, Wini and Tsyhankov, Sasha",
@@ -6714,6 +6694,12 @@
     "name": "McLeod, Leslie and De La Cruz, Melbin",
     "results": [
       {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Open Pro-Am Scholarships SR Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "1",
+        "points": 25.0
+      },
+			{
         "comp_name": "Majesty Dancesport",
         "info": "L-C Open Rhythm 3-Dance Challenge (C/R/SW)",
         "place": "1",
@@ -7050,8 +7036,8 @@
         "points": 14.0
       }
     ],
-    "total_pts": 868.0,
-    "avg_pts": 15.5
+    "total_pts": 893.0,
+    "avg_pts": 15.67
   },
   {
     "name": "Ross, Nati and Rivera, Eddie",

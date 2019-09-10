@@ -11732,19 +11732,6 @@
     "avg_pts": 15.0
   },
   {
-    "name": "DLine, Irina and Bowers III, Johnathan",
-    "results": [
-      {
-        "comp_name": "2019 Baltimore Dancesport Challenge",
-        "info": "L-B Gold Open Smooth Dancesport Challenge (W/T/F/VW)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 15.0,
-    "avg_pts": 15.0
-  },
-  {
     "name": "Dalsimer, Mary and Rzepnicki, Tom",
     "results": [
       {
@@ -11946,19 +11933,6 @@
         "comp_name": "Vegas Open Dance Challenge",
         "info": "L-C Pro/Am DSS Closed Silver Smooth Scholarship (W/T/F/VW)",
         "place": "4",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 15.0,
-    "avg_pts": 15.0
-  },
-  {
-    "name": "Volpiella-Levy and Tabaka",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "L-C Closed Bronze American Smooth Scholarship (W/T/F)",
-        "place": "1",
         "points": 15.0
       }
     ],
@@ -22349,19 +22323,6 @@
     "avg_pts": 12.0
   },
   {
-    "name": "DeJoannis, Erica and Baris, Mike",
-    "results": [
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "L-B Closed Silver Smooth Scholarship (W/T/F/VW)",
-        "place": "2",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 12.0,
-    "avg_pts": 12.0
-  },
-  {
     "name": "Fairclough, Ronnie and Guthrie, Trevor",
     "results": [
       {
@@ -23089,37 +23050,6 @@
         "info": "ProAm Scholarships Open C Amer. Smooth (W,T,F,VW)",
         "place": "6",
         "points": 8.75
-      }
-    ],
-    "total_pts": 47.5,
-    "avg_pts": 11.88
-  },
-  {
-    "name": "Gonies Tierney, Sandra and Tocker, Julz",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "L-A Closed Bronze Pro/Am 3-dance Smooth Championship (W/T/FT)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "L-B Closed Bronze Pro/Am 3-dance Smooth Championship (W/T/FT)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "L-A Pro/Am Closed Bronze Smooth Scholarship & Best of the Best (W/T/FT)",
-        "place": "1",
-        "points": 13.5
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "L-B Pro/Am Closed Bronze Smooth Scholarship & Best of the Best (W/T/FT)",
-        "place": "1",
-        "points": 15.0
       }
     ],
     "total_pts": 47.5,
@@ -29558,19 +29488,6 @@
     "avg_pts": 10.5
   },
   {
-    "name": "Cooke, Jennifer and Churchun, Dmytro",
-    "results": [
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "L-C Closed Bronze Championship American Smooth  (W/T/F)",
-        "place": "6",
-        "points": 10.5
-      }
-    ],
-    "total_pts": 10.5,
-    "avg_pts": 10.5
-  },
-  {
     "name": "Kelley, Joann and Vasilyev, Sergey",
     "results": [
       {
@@ -32147,6 +32064,18 @@
     "name": "Ehmann, Jessica and McCann, Stephen",
     "results": [
       {
+        "comp_name": "caopen19",
+        "info": "L-B Pro/Am Dancesport Series Closed Bronze Smooth Championship (W/T/FT)",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "L-B Pro/Am Closed Bronze Smooth Scholarship & Best of the Best (W/T/FT)",
+        "place": "6",
+        "points": 5.25
+      },
+			{
         "comp_name": "City Lights Ball",
         "info": "L-B2 Closed Bronze Smooth 3 Dance (W/T/F)",
         "place": "1",
@@ -32213,8 +32142,8 @@
         "points": 7.0
       }
     ],
-    "total_pts": 111.25,
-    "avg_pts": 10.11
+    "total_pts": 122.5,
+    "avg_pts": 9.42
   },
   {
     "name": "Ruggio, Cheryl and Gott, Philip",
@@ -34325,7 +34254,13 @@
   {
     "name": "Dline, Irina and Bowers III, Jonathan",
     "results": [
-      {
+	  	{
+        "comp_name": "2019 Baltimore Dancesport Challenge",
+        "info": "L-B Gold Open Smooth Dancesport Challenge (W/T/F/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+			{
         "comp_name": "Washington Open Dancesport Competition",
         "info": "L-B Open Smooth Multi-Dance Challenge (W/T/F/VW)",
         "place": "2",
@@ -34336,10 +34271,16 @@
         "info": "L-B   American Smooth Open Gold Championship (W/T/F/VW)",
         "place": "3",
         "points": 12.5
+      },
+		  {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "L-C Open Gold Championship American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 0.35
       }
     ],
-    "total_pts": 19.5,
-    "avg_pts": 9.75
+    "total_pts": 34.85,
+    "avg_pts": 8.71
   },
   {
     "name": "Grossman, Erica and Bennett, Kemar",
@@ -41733,7 +41674,7 @@
     "avg_pts": 8.5
   },
   {
-    "name": "HIrschbiel, Susan and Dunn, Brent",
+    "name": "Hirschbiel, Susan and Dunn, Brent",
     "results": [
       {
         "comp_name": "Florida Superstars",
@@ -43061,43 +43002,6 @@
     ],
     "total_pts": 41.3,
     "avg_pts": 8.26
-  },
-  {
-    "name": "Tierney, Sandra and Tocker, Julz",
-    "results": [
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "L-B Pro/Am Closed Silver American Smooth Championships (W/T)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "L-B Pro/Am Closed Silver American Smooth Championships (F/VW)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "L-B Pro/Am Closed Silver American Smooth Scholarships (W/T/F/VW)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "World ProAm Closed Silver B Amer. Smooth Championship (W,T,F,VW)",
-        "place": "Semis",
-        "points": 0.25
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "World ProAm Open B Amer. Smooth Championship (W,T,F,VW)",
-        "place": "quarters",
-        "points": 4.0
-      }
-    ],
-    "total_pts": 41.25,
-    "avg_pts": 8.25
   },
   {
     "name": "Busjeet, Nessa and Senko, Alex",
@@ -53056,10 +52960,16 @@
         "info": "L-B Silver Pro/Am Closed Smooth Scholarship (W/T/F)",
         "place": "5",
         "points": 8.0
+      },
+	    {
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "L-B Closed Silver Smooth Scholarship (W/T/F/VW)",
+        "place": "2",
+        "points": 12.0
       }
     ],
-    "total_pts": 13.25,
-    "avg_pts": 6.62
+    "total_pts": 25.25,
+    "avg_pts": 8.42
   },
   {
     "name": "Jackson, Meredith and Anatoliy, Alosha",
@@ -53415,19 +53325,6 @@
       }
     ],
     "total_pts": 13.0,
-    "avg_pts": 6.5
-  },
-  {
-    "name": " Xu, Mary and Minev, Hristo",
-    "results": [
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Bronze Pro-Am Multi-Dances Closed C Amer. Smooth (W,T,F)",
-        "place": "3",
-        "points": 6.5
-      }
-    ],
-    "total_pts": 6.5,
     "avg_pts": 6.5
   },
   {
@@ -57782,10 +57679,16 @@
         "info": "L-B   American Smooth Closed Bronze Championship (F/VW)",
         "place": "4",
         "points": 5.0
+      }, 
+			{
+        "comp_name": "Capital Dancesport Championships",
+        "info": "L-C Closed Bronze Championship American Smooth  (W/T/F)",
+        "place": "6",
+        "points": 10.5
       }
     ],
-    "total_pts": 11.5,
-    "avg_pts": 5.75
+    "total_pts": 22.0,
+    "avg_pts": 7.33
   },
   {
     "name": "Force, Chris and Ray, Lynnsay",
@@ -58516,25 +58419,6 @@
         "comp_name": "Boston Dancesport Cup",
         "info": "L-D Scholarship Bronze Smooth (W/T/F)",
         "place": "2",
-        "points": 5.25
-      }
-    ],
-    "total_pts": 11.25,
-    "avg_pts": 5.62
-  },
-  {
-    "name": "Ehman, Jessica and McCann, Stephen",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "L-B Pro/Am Dancesport Series Closed Bronze Smooth Championship (W/T/FT)",
-        "place": "2",
-        "points": 6.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "L-B Pro/Am Closed Bronze Smooth Scholarship & Best of the Best (W/T/FT)",
-        "place": "6",
         "points": 5.25
       }
     ],
@@ -65204,9 +65088,33 @@
     "avg_pts": 4.38
   },
   {
-    "name": "Goines Teriney, Sandra and Tocker, Julz",
+    "name": "Tierney, Sandra Goines and Tocker, Julz",
     "results": [
       {
+        "comp_name": "caopen19",
+        "info": "L-A Closed Bronze Pro/Am 3-dance Smooth Championship (W/T/FT)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "L-B Closed Bronze Pro/Am 3-dance Smooth Championship (W/T/FT)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "L-A Pro/Am Closed Bronze Smooth Scholarship & Best of the Best (W/T/FT)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "L-B Pro/Am Closed Bronze Smooth Scholarship & Best of the Best (W/T/FT)",
+        "place": "1",
+        "points": 15.0
+      },
+			{
         "comp_name": "City Lights Ball",
         "info": "L-B1 Closed Bronze Smooth 3 Dance (W/T/F)",
         "place": "2",
@@ -65217,10 +65125,40 @@
         "info": "L-B Closed Bronze Smooth Scholarship (W/T/F)",
         "place": "4",
         "points": 5.25
+      },
+	      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "L-B Pro/Am Closed Silver American Smooth Championships (W/T)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "L-B Pro/Am Closed Silver American Smooth Championships (F/VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "L-B Pro/Am Closed Silver American Smooth Scholarships (W/T/F/VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World ProAm Closed Silver B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "Semis",
+        "points": 0.25
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World ProAm Open B Amer. Smooth Championship (W,T,F,VW)",
+        "place": "quarters",
+        "points": 4.0
       }
     ],
-    "total_pts": 8.75,
-    "avg_pts": 4.38
+    "total_pts": 97.5,
+    "avg_pts": 8.86
   },
   {
     "name": "Messina, Maria Gabriella and Bordonaro, Zachary",
@@ -68155,6 +68093,12 @@
     "results": [
       {
         "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Bronze Pro-Am Multi-Dances Closed C Amer. Smooth (W,T,F)",
+        "place": "3",
+        "points": 6.5
+      },
+			{
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
         "info": "Cl. Bronze Pro-Am Scholarships C Amer. Smooth (W,T,F)",
         "place": "Semis",
         "points": 1.0
@@ -68166,8 +68110,8 @@
         "points": 6.0
       }
     ],
-    "total_pts": 7.0,
-    "avg_pts": 3.5
+    "total_pts": 13.5,
+    "avg_pts": 4.5
   },
   {
     "name": "Abe, Victoria and Hopwood, Joseph",
@@ -69231,14 +69175,20 @@
     "name": "Volpicella-Levy, Susan and Tabaka, Bogdan",
     "results": [
       {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "L-C Closed Bronze American Smooth Scholarship (W/T/F)",
+        "place": "1",
+        "points": 15.0
+      },  
+			{
         "comp_name": "Manhattan Dance Championships",
         "info": "Pro/Am C Global Cl. Silver Scholarships Amer. Smooth (W,T,F,VW)",
         "place": "quarters",
         "points": 3.2
       }
     ],
-    "total_pts": 3.2,
-    "avg_pts": 3.2
+    "total_pts": 18.2,
+    "avg_pts": 9.1
   },
   {
     "name": "Amadio, Julia and Reyes, Romney",
@@ -72908,19 +72858,6 @@
       {
         "comp_name": "2019people[forrest vance]",
         "info": "L-S1 Open Smooth Scholarship (W/T/F/VW)",
-        "place": "Semis",
-        "points": 0.35
-      }
-    ],
-    "total_pts": 0.35,
-    "avg_pts": 0.35
-  },
-  {
-    "name": "Oline, Irina and Bowers, III, Johnathan",
-    "results": [
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "L-C Open Gold Championship American Smooth (W/T/F/VW)",
         "place": "Semis",
         "points": 0.35
       }
