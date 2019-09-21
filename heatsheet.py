@@ -151,7 +151,6 @@ class HelloFrame(wx.Frame):
         self.heatlist = None
         self.scoresheet = None
         self.results_file = None
-        self.filename_from_url = None
         self.heat_type = None
         self.preOpenProcess()
 
@@ -378,6 +377,7 @@ class HelloFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_COMP_PROAM_MULTI, False)
         self.viewMenu.Enable(self.ID_VIEW_COMP_AMAM_MULTI, False)  
         self.folder_name = "./data"
+        self.filename_from_url = None
         self.SetStatusText("Choose File->Open to open a heatlist file")
 
 
@@ -1200,10 +1200,10 @@ class HelloFrame(wx.Frame):
                 couple_names = c.partner + " and " +  c.dancer
                 index = self.current_couples.find_couple(couple_names)
             elif attempt == 3:
-                index = self.current_couples.find_couple_by_last_name(couple_names)
+                index = self.current_couples.find_couple_by_dancer(couple_names, last_name_only=True)
             elif attempt == 4:
                 couple_names = c.dancer + " and " + c.partner
-                index = self.current_couples.find_couple_by_last_name(couple_names)            
+                index = self.current_couples.find_couple_by_partner(couple_names, last_name_only=True)            
             else:
                 break
         
