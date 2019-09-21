@@ -546,6 +546,61 @@
     "avg_pts": 14.11
   },
   {
+    "name": "Black, Jamie and Elliott, Samantha",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "info": "Professional Open Cabaret",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "Professional Open Exhibition",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "Professional Open Showdance",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Open Professional Cabaret Championships",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Music City Invitational",
+        "info": "Open Theater Arts (TA)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Cabaret Championship",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "World Professional Cabaret/Exhibition Championship",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2019 Ultimate Dancesport Challenge",
+        "info": "Professional Showdance",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 104.0,
+    "avg_pts": 13.0
+  },
+  {
     "name": "Garcia, Uriel and Rowe, Vera",
     "results": [
       {
@@ -645,78 +700,16 @@
         "info": "World Professional Cabaret/Exhibition Championship",
         "place": "4",
         "points": 10.0
-      }
-    ],
-    "total_pts": 148.0,
-    "avg_pts": 12.33
-  },
-  {
-    "name": "Black, Jamie and Elliott, Samantha",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "info": "Professional Open Cabaret",
-        "place": "4",
-        "points": 10.0
       },
       {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "Professional Open Exhibition",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "Professional Open Showdance",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Open Professional Cabaret Championships",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Music City Invitational",
-        "info": "Open Theater Arts (TA)",
+        "comp_name": "Galaxy Dance Festival",
+        "info": "Professional Cabaret",
         "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "United States Dance Championships",
-        "info": "US National Professional Cabaret Championship",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "United States Dance Championships",
-        "info": "World Professional Cabaret/Exhibition Championship",
-        "place": "5",
-        "points": 8.0
+        "points": 18.0
       }
     ],
-    "total_pts": 84.0,
-    "avg_pts": 12.0
-  },
-  {
-    "name": "Slisarenko, Taras and Konieva, Anastasiia",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "Professional Open Cabaret",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "Professional Theater Arts/Cabaret",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 24.0,
-    "avg_pts": 12.0
+    "total_pts": 166.0,
+    "avg_pts": 12.77
   },
   {
     "name": "Visnakovs, Slava and Zukaite, Atile",
@@ -788,6 +781,50 @@
     ],
     "total_pts": 12.0,
     "avg_pts": 12.0
+  },
+  {
+    "name": "Silantev, Anton and Akopova, Olga",
+    "results": [
+      {
+        "comp_name": "Galaxy Dance Festival",
+        "info": "Professional Cabaret",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
+    "name": "Gore, Gerard and Grohoske, Ellie",
+    "results": [
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Open Professional Cabaret Championships",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Music City Invitational",
+        "info": "Open Theater Arts (TA)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "World Professional Cabaret/Exhibition Championship",
+        "place": "7",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Ultimate Dancesport Challenge",
+        "info": "Professional Showdance",
+        "place": "2",
+        "points": 14.0
+      }
+    ],
+    "total_pts": 44.5,
+    "avg_pts": 11.12
   },
   {
     "name": "Golubev, Valerii and Golubeva, Margarita",
@@ -889,6 +926,31 @@
     "avg_pts": 10.68
   },
   {
+    "name": "Slisarenko, Taras and Konieva, Anastasiia",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "Professional Open Cabaret",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "Professional Theater Arts/Cabaret",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Galaxy Dance Festival",
+        "info": "Professional Cabaret",
+        "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 31.0,
+    "avg_pts": 10.33
+  },
+  {
     "name": "Haklin, Nick and Ford, Sarah",
     "results": [
       {
@@ -963,31 +1025,6 @@
     "avg_pts": 10.2
   },
   {
-    "name": "Gore, Gerard and Grohoske, Ellie",
-    "results": [
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Open Professional Cabaret Championships",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Music City Invitational",
-        "info": "Open Theater Arts (TA)",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "United States Dance Championships",
-        "info": "World Professional Cabaret/Exhibition Championship",
-        "place": "7",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 30.5,
-    "avg_pts": 10.17
-  },
-  {
     "name": "Dawson, Staz and Gonyea, Jacklyn",
     "results": [
       {
@@ -1057,6 +1094,19 @@
     "avg_pts": 10.0
   },
   {
+    "name": "Martinez, Juan and Bottinelli, Elayna",
+    "results": [
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Theatrical Dance Championship (PD)",
+        "place": "3",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
+  },
+  {
     "name": "Minaev, Aleksei and Minaeva, Elena",
     "results": [
       {
@@ -1070,11 +1120,11 @@
     "avg_pts": 10.0
   },
   {
-    "name": "Martinez, Juan and Bottinelli, Elayna",
+    "name": "Netsvetraev, Kirill and Antonenko, Aleksandra",
     "results": [
       {
-        "comp_name": "United States Dance Championships",
-        "info": "US National Professional Theatrical Dance Championship (PD)",
+        "comp_name": "2019 Ultimate Dancesport Challenge",
+        "info": "Professional Showdance",
         "place": "3",
         "points": 10.0
       }
@@ -1164,10 +1214,16 @@
         "info": "Cabaret",
         "place": "4",
         "points": 7.0
+      },
+      {
+        "comp_name": "2019 Ultimate Dancesport Challenge",
+        "info": "Professional Showdance",
+        "place": "4",
+        "points": 7.0
       }
     ],
-    "total_pts": 17.0,
-    "avg_pts": 8.5
+    "total_pts": 24.0,
+    "avg_pts": 8.0
   },
   {
     "name": "Sovetov, Ivan and Mkrtchian, Valeria",
