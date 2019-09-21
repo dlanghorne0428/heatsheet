@@ -524,69 +524,83 @@ class AppFrame(wx.Frame):
         return result
 
 
+    def Update_Couple_Name(self, entry, db_index, new_name): 
+        '''give user option to update couple's name in database.'''
+        Name_Column = 1  # initialize variable
+        current_name = self.current_couples.get_name_at_index(db_index)
+        message = "Replace " + current_name + "\nwith " + new_name
+        md = wx.MessageDialog(self, message, "Update couple name in database?", style=wx.YES_NO | wx.NO_DEFAULT)
+        if md.ShowModal() == wx.ID_YES:            
+            # set the name of this index to the replace string from the dialog
+            # update both the GUI and the database object
+            self.list_ctrl.SetItem(db_index, Name_Column, new_name)
+            self.current_couples.set_name_at_index(db_index, new_name)   
+        else:
+            # update entry to the name of the matching couple
+            entry["couple"] = current_name
+        
+
     def Handle_No_Match_Couple(self, entry, result):
         '''
         This routine is called when the couple's entire name was not found in the 
         ranking database. 
         '''
+        # sort the couples by name to assist in finding a match
+        self.current_couples.sort_couples()
+        
+        matching_names = list()
+        matching_indices = list()
+
         db_index = 0
-        Name_Column = 1  # initialize variable
         while db_index > -1:            
-            # if not found, search again by last name only. 
-            db_index = self.current_couples.find_couple_by_last_name(entry["couple"], start=db_index)
+            # search by dancer's name 
+            db_index = self.current_couples.find_couple_by_dancer(entry["couple"], start=db_index, last_name_only=True)
             if db_index > -1:
-                # if found this time, ask user if this is a match
-                db_name = self.current_couples.get_name_at_index(db_index)
-                message = entry["couple"] + "\n\t with \n" + db_name
-                md = wx.MessageDialog(self, message, caption="Match?", style=wx.YES_NO)
-                if md.ShowModal() == wx.ID_YES:
-                    # if user says yes, add the result and update the entry name
-                    self.current_couples.add_result_to_couple(db_index, result)
-                    self.unsaved_updates = True
-                    # give user option to update couple's name in database
-                    message = "Replace " + db_name + "\nwith " + entry["couple"]
-                    md = wx.MessageDialog(self, message, "Update couple name in database?", style=wx.YES_NO | wx.NO_DEFAULT)
-                    if md.ShowModal() == wx.ID_YES:            
-                        # set the name of this index to the replace string from the dialog
-                        # update both the GUI and the database object
-                        self.list_ctrl.SetItem(db_index, Name_Column, entry["couple"])
-                        self.current_couples.set_name_at_index(db_index, entry["couple"])              
-                    else:            
-                        entry["couple"] = db_name
-                    self.unsaved_updates = True
-                    break
-                else:
-                    db_index += 1  # try to find another match 
+                # if found, add this couple to list of possible matches
+                matching_names.append(self.current_couples.get_name_at_index(db_index))
+                matching_indices.append(db_index)
+                db_index += 1
+                
+        db_index = 0        
+        while db_index > -1:            
+            # search by partner's name 
+            db_index = self.current_couples.find_couple_by_partner(entry["couple"], start=db_index, last_name_only=True)
+            if db_index > -1:
+                # if found, add this couple to list of possible matches, unless it is already there
+                if db_index not in matching_indices:
+                    matching_names.append(self.current_couples.get_name_at_index(db_index))
+                    matching_indices.append(db_index)
+                db_index += 1        
+                
+        # Build a dialog with the names of the existing couples
+        message = "Search the list of couples for\n\n\t" + entry["couple"] + \
+            ".\n\nSelect a matching couple and Press OK.\nTo add them as a new couple, Press Cancel."
+        md = wx.SingleChoiceDialog(self, message, caption="Possible Matches", choices=matching_names)
+        if md.ShowModal() == wx.ID_OK:
+            db_index = matching_indices[md.GetSelection()]
+            new_name = matching_names[md.GetSelection()]
+            self.current_couples.add_result_to_couple(db_index, result)
+            self.Update_Couple_Name(entry, db_index, entry["couple"])
 
         else:
-            # if match not found again, try to match manually
+            # if match not found again, try to match manually from the entire list of couples
             message = "Search the list of couples for\n\n\t" + entry["couple"] + \
                 ".\n\nSelect a matching couple and Press OK.\nTo add them as a new couple, Press Cancel."
-            # sort the couples by name to assist in finding a match
-            self.current_couples.sort_couples()
             # Build a dialog with the names of the existing couples
             names = self.current_couples.get_list_of_names()
             md = wx.SingleChoiceDialog(self, message, caption="Find a Match", choices=names)
             if md.ShowModal() == wx.ID_OK:
                 # if user finds a match, add the result
-                db_index = md.GetSelection() 
+                db_index = md.GetSelection()
+                new_name = names[db_index]
                 self.current_couples.add_result_to_couple(db_index, result)  
-                # give user option to update couple's name in database
-                message = "Replace " + names[db_index] + "\nwith " + entry["couple"]
-                md = wx.MessageDialog(self, message, "Update couple name in database?", style=wx.YES_NO | wx.NO_DEFAULT)
-                if md.ShowModal() == wx.ID_YES:            
-                    # set the name of this index to the replace string from the dialog
-                    # update both the GUI and the database object
-                    self.list_ctrl.SetItem(db_index, Name_Column, entry["couple"])
-                    self.current_couples.set_name_at_index(db_index, entry["couple"])              
-                else:
-                    entry["couple"] = names[db_index]
-                self.unsaved_updates = True
+                self.Update_Couple_Name(entry, db_index, entry["couple"])
             else: # add the couple to the database
                 self.current_couples.add_couple(entry["couple"], result) 
-                self.unsaved_updates = True
-            # re-sort by ranking
-            self.current_couples.sort_couples(key1="avg_pts", key2="total_pts", reverse=True)
+                
+        # re-sort by ranking
+        self.current_couples.sort_couples(key1="avg_pts", key2="total_pts", reverse=True)
+        self.unsaved_updates = True
 
 
     def Process_Heat(self):
