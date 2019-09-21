@@ -42,7 +42,7 @@ def pro_heat_level(info):
         return info
     if "Rising Star" in info:
         return 10  #"Rising Star"
-    elif "Novice" in info or "Basics" in info:
+    elif "Novice" in info or "Basics" in info or "Pre-Champ" in info:
         return 5   #"Novice"
     else:
         return 20  #"Open"  
