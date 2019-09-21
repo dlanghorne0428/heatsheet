@@ -5,20 +5,11 @@ from operator import itemgetter
 from comp_results_file import Comp_Results_File
 
 
-#def event_level(e):
-    #'''
-    #This routine determines the level (Open, Rising Star, or Novice)
-    #from the title string. This only support Professional Event Categories.
-    #'''
-    #if "Rising Star" in e:
-        #level = "Rising Star"
-    #elif "Novice" in e:
-        #level = "Novice"
-    #else:  # open is the default
-        #level = "Open"
-    #return level
-
 def get_name(couple_names, dancer=True):
+    '''
+    This function splits a string with two couple names to return
+    the name of the one of the dancers in the couple.
+    '''
     fields = couple_names.split(" and ")
     if dancer:
         return fields[0]
@@ -26,18 +17,22 @@ def get_name(couple_names, dancer=True):
         return fields[1]
     
 
-def get_last_name(couple_names):
+def get_last_name(couple_names, dancer=True):
     '''
     This function splits a string with two couple names to return
-    the last name of the first dancer in the couple.
+    the last name of the one of the dancers in the couple.
     '''
-    if "," in couple_names:
+    if dancer:
+        name = get_name(couple_names)
+    else:
+        name = get_name(couple_names, False)
+    if "," in name:
         # there is a comma, so return the portion of the string in 
         # front of the first comma
-        f = couple_names.split(",")[0]
+        f = name.split(",")[0]
     else:
-        # return the entire name of the first dancer
-        f = couple_names.split(" and ")[0]
+        # return the entire name 
+        f = name.split(" and ")[0]
     return f
 
 
@@ -136,11 +131,22 @@ class RankingDataFile():
             return -1  
         
     
-    def find_couple_by_dancer(self, couple_name, start=0):
-        dancer_name = get_name(couple_name)
+    def find_couple_by_dancer(self, couple_name, start=0, last_name_only=False):
+        ''' 
+        This routine searches the list for the specified couple 
+        based on the dancer's name only, with an option to only
+        consider the last name.
+        '''        
+        if last_name_only:
+            dancer_name = get_last_name(couple_name)
+        else:
+            dancer_name = get_name(couple_name)
         index = start
         while index < len(self.info):
-            db_dancer_name = get_name(self.info[index]["name"])
+            if last_name_only:
+                db_dancer_name = get_last_name(self.info[index]["name"])
+            else:
+                db_dancer_name = get_name(self.info[index]["name"])
             if db_dancer_name == dancer_name:
                 return index
             else:
@@ -149,11 +155,22 @@ class RankingDataFile():
             return -1
         
     
-    def find_couple_by_partner(self, couple_name, start=0):
-        partner_name = get_name(couple_name, False)
+    def find_couple_by_partner(self, couple_name, start=0, last_name_only=False):
+        ''' 
+        This routine searches the list for the specified couple 
+        based on the partner's name only, with an option to only
+        consider the last name.
+        '''            
+        if last_name_only:
+            partner_name = get_last_name(couple_name, False)
+        else:
+            partner_name = get_name(couple_name, False)
         index = start
         while index < len(self.info):
-            db_partner_name = get_name(self.info[index]["name"], False)
+            if last_name_only:
+                db_partner_name = get_last_name(self.info[index]["name"], False)
+            else:
+                db_partner_name = get_name(self.info[index]["name"], False)
             if db_partner_name == partner_name:
                 return index
             else:
