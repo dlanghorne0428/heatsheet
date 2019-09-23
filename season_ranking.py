@@ -112,25 +112,6 @@ class RankingDataFile():
             return str(index+1)
 
     
-    def find_couple_by_last_name(self, couple_name, start=0):
-        ''' 
-        This routine searches the list for the specified couple 
-        based on last name only.
-        '''
-        couple_last_name = get_last_name(couple_name)
-        index = start
-        while index < len(self.info):
-            db_last_name = get_last_name(self.info[index]["name"])
-            # search for the couple, using last names only
-            if db_last_name == couple_last_name:
-                # exit loop after couple found, let user determine match
-                return index
-            else:
-                index += 1
-        else:        
-            return -1  
-        
-    
     def find_couple_by_dancer(self, couple_name, start=0, last_name_only=False):
         ''' 
         This routine searches the list for the specified couple 
