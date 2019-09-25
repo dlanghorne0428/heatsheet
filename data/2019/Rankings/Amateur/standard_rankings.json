@@ -4039,37 +4039,6 @@
     "avg_pts": 12.75
   },
   {
-    "name": "Coats, Carlie and Yarborough, Jan",
-    "results": [
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "PreChamp Amateur 4-Dance Events S3 Int'l Ballroom (W,T,F,Q)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "PreChamp Amateur 4-Dance Events S2 Int'l Ballroom (W,T,F,Q)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Championship Amateur 4-Dance Events Open S3 Int'l Ballroom (W,T,F,Q)",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Championship Amateur 4-Dance Events Open S2 Int'l Ballroom (W,T,F,Q)",
-        "place": "4",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 51.0,
-    "avg_pts": 12.75
-  },
-  {
     "name": "Chpak, Daniel and Chpak, Katherine",
     "results": [
       {
@@ -4095,6 +4064,37 @@
         "info": "AC-JR Junior Open Standard Scholarship (W/T/VW/F/QS)",
         "place": "1",
         "points": 15.0
+      }
+    ],
+    "total_pts": 51.0,
+    "avg_pts": 12.75
+  },
+  {
+    "name": "Coats, Carlie and Yarborough, Jan",
+    "results": [
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "PreChamp Amateur 4-Dance Events S3 Int'l Ballroom (W,T,F,Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "PreChamp Amateur 4-Dance Events S2 Int'l Ballroom (W,T,F,Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Championship Amateur 4-Dance Events Open S3 Int'l Ballroom (W,T,F,Q)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Championship Amateur 4-Dance Events Open S2 Int'l Ballroom (W,T,F,Q)",
+        "place": "4",
+        "points": 7.0
       }
     ],
     "total_pts": 51.0,
@@ -5394,25 +5394,6 @@
     "avg_pts": 11.25
   },
   {
-    "name": "Caralis, Barb and Caralis, Jim",
-    "results": [
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "AC-B2 Amateur Closed Silver Ballroom Multi-Dance (W/T/F/QS)",
-        "place": "1",
-        "points": 13.5
-      },
-      {
-        "comp_name": "motown2019[blake%20kish]",
-        "info": "AC-C Silver Pre-Champ Ballroom 5 Dance (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 22.5,
-    "avg_pts": 11.25
-  },
-  {
     "name": "Badea, Stefan and Varlam, Madalina",
     "results": [
       {
@@ -5426,6 +5407,25 @@
         "info": "AC- Amateur Open International Ballroom  Scholarships (W/T/VW/F/Q)",
         "place": "4",
         "points": 12.5
+      }
+    ],
+    "total_pts": 22.5,
+    "avg_pts": 11.25
+  },
+  {
+    "name": "Caralis, Barb and Caralis, Jim",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "AC-B2 Amateur Closed Silver Ballroom Multi-Dance (W/T/F/QS)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "motown2019[blake%20kish]",
+        "info": "AC-C Silver Pre-Champ Ballroom 5 Dance (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 9.0
       }
     ],
     "total_pts": 22.5,
@@ -7143,6 +7143,31 @@
     "avg_pts": 9.75
   },
   {
+    "name": "McAuley, Kevin and McAuley, Sara",
+    "results": [
+      {
+        "comp_name": "Heritage Classic",
+        "info": "AC-B <418>Amateur Int'l Ballroom Pre-Champ 4-Dance (W/T/FT/QS)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "info": "AC-SRIII Silver Open International Ballroom 3 Dance Championship(W/F/QS)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Encore Dancesport Competition",
+        "info": "AC-A Amateur International Ballroom Open 3 Dance(W/T/F)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 29.25,
+    "avg_pts": 9.75
+  },
+  {
     "name": "Kois, Sebastian and Sieczka, Klaudia",
     "results": [
       {
@@ -8787,25 +8812,6 @@
       }
     ],
     "total_pts": 34.5,
-    "avg_pts": 8.62
-  },
-  {
-    "name": "McAuley, Kevin and McAuley, Sara",
-    "results": [
-      {
-        "comp_name": "Heritage Classic",
-        "info": "AC-B <418>Amateur Int'l Ballroom Pre-Champ 4-Dance (W/T/FT/QS)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "info": "AC-SRIII Silver Open International Ballroom 3 Dance Championship(W/F/QS)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 17.25,
     "avg_pts": 8.62
   },
   {
