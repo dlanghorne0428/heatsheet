@@ -926,6 +926,49 @@
     "avg_pts": 10.68
   },
   {
+    "name": "Izyumov, Sergey and Zaver, Oksana",
+    "results": [
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "Professional Open Cabaret",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "info": "Pro Rising Star - Theatre Arts Championship",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "info": "Pro Open - Showdance",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "Professional Open Cabaret/Show Dance Championship",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Showdance",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "motown2019[blake%20kish]",
+        "info": "Cabaret",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 63.0,
+    "avg_pts": 10.5
+  },
+  {
     "name": "Slisarenko, Taras and Konieva, Anastasiia",
     "results": [
       {
@@ -982,43 +1025,6 @@
         "info": "Professional Cabaret",
         "place": "2",
         "points": 7.0
-      }
-    ],
-    "total_pts": 51.0,
-    "avg_pts": 10.2
-  },
-  {
-    "name": "Izyumov, Sergey and Zaver, Oksana",
-    "results": [
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "Professional Open Cabaret",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "info": "Pro Rising Star - Theatre Arts Championship",
-        "place": "2",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "info": "Pro Open - Showdance",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Yankee Classic",
-        "info": "Professional Open Cabaret/Show Dance Championship",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Showdance",
-        "place": "2",
-        "points": 16.0
       }
     ],
     "total_pts": 51.0,
@@ -1201,31 +1207,6 @@
     "avg_pts": 8.71
   },
   {
-    "name": "Spadoni, Simone and Caporale, Simona",
-    "results": [
-      {
-        "comp_name": "Volunteer State Dance Challenge",
-        "info": "Showdance",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Cincinnati Ballroom Classic",
-        "info": "Cabaret",
-        "place": "4",
-        "points": 7.0
-      },
-      {
-        "comp_name": "2019 Ultimate Dancesport Challenge",
-        "info": "Professional Showdance",
-        "place": "4",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 24.0,
-    "avg_pts": 8.0
-  },
-  {
     "name": "Sovetov, Ivan and Mkrtchian, Valeria",
     "results": [
       {
@@ -1244,6 +1225,31 @@
         "comp_name": "Eastern United States DanceSport Championship",
         "info": "EUSDC Professional Open Cabaret",
         "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 24.0,
+    "avg_pts": 8.0
+  },
+  {
+    "name": "Spadoni, Simone and Caporale, Simona",
+    "results": [
+      {
+        "comp_name": "Volunteer State Dance Challenge",
+        "info": "Showdance",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Cincinnati Ballroom Classic",
+        "info": "Cabaret",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2019 Ultimate Dancesport Challenge",
+        "info": "Professional Showdance",
+        "place": "4",
         "points": 7.0
       }
     ],
