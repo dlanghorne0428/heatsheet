@@ -231,9 +231,11 @@ class AppFrame(wx.Frame):
         self.Bind(wx.EVT_MENU, self.OnViewCoupleHistory, viewHistoryItem)
         self.Bind(wx.EVT_MENU, self.OnAddCompResults, addCompItem)
         self.Bind(wx.EVT_MENU, self.OnFindSetup, findItem)
-        self.Bind(wx.EVT_FIND, self.OnFind)
+        self.Bind(wx.EVT_FIND, self.OnFind) 
+        self.Bind(wx.EVT_FIND_NEXT, self.OnFind)
         self.Bind(wx.EVT_MENU, self.OnReplaceSetup, replItem)
         self.Bind(wx.EVT_FIND_REPLACE, self.OnReplace)
+        self.Bind(wx.EVT_FIND_REPLACE_ALL, self.OnReplace)
         self.Bind(wx.EVT_MENU, self.OnAddNewCouple, addItem)
         self.Bind(wx.EVT_MENU, self.OnClearAllResults, clearItem)    
         self.Bind(wx.EVT_MENU, self.OnAbout, aboutItem)
@@ -262,6 +264,7 @@ class AppFrame(wx.Frame):
         self.db_cat.Disable()
         self.butt_add_rslt.Disable()
         self.unsaved_updates = False
+        self.last_find_index = -1
 
 
     def PostOpenProcess(self):
@@ -776,59 +779,96 @@ class AppFrame(wx.Frame):
         '''
         This method processes the find event from the Find or FindReplace dialog.
         '''
-        # get the string from the dialog and search for it.
-        # for now, assume the last name is entered - TODO, make a more general search
+        if self.fr_data.Flags & wx.FR_WHOLEWORD:
+            md = wx.MessageDialog(self, "Searching by WHOLEWORD not supported", caption="Not Yet Implemented", style=wx.OK)
+            md.ShowModal()            
+        # get the string from the dialog
         fstring = self.fr_data.GetFindString()
-        index = self.current_couples.find_couple_by_last_name(fstring)
-        if index == -1:
+        # get the direction of the search
+        if self.fr_data.Flags & wx.FR_DOWN:
+            index = self.last_find_index + 1
+            end_index = self.current_couples.length()
+        else:
+            if self.last_find_index == -1:
+                index = self.current_couples.length() - 1
+            else:
+                index = self.last_find_index - 1
+            end_index = 0
+        while index != end_index:
+            cstring = self.current_couples.get_name_at_index(index)
+            if self.fr_data.Flags & wx.FR_MATCHCASE == 0:
+                fstring = fstring.lower()
+                cstring = cstring.lower()
+            if fstring in cstring:
+                # if found, remove highlighting from previous entry
+                self.Highlight_Entry(self.last_find_index, select=False)
+                # highlight the entry that was found and remember the index
+                self.Highlight_Entry(index, focus=True)
+                self.last_find_index = index  
+                break
+            else:
+                if self.fr_data.Flags & wx.FR_DOWN:
+                    index += 1
+                else:
+                    index -= 1
+        else:
             # if not found, display error dialog
             md = wx.MessageDialog(self, "Couple Not Found", caption="Error", style=wx.OK)
             md.ShowModal()
-        else:
-            # if found, remove highlighting from previous entry
-            if self.last_find_index > -1:
-                self.Highlight_Entry(self.last_find_index, select=False)
-            # highlight the entry that was found and remember the index
-            self.Highlight_Entry(index, focus=True)
-            self.last_find_index = index
-
+            
 
     def OnReplace(self, event):
-        ''' This method processes the replace event from the FindReplace dialog.'''        
-        Name_Column = 1
-        # get the find and replace strings and search for the find string
+        ''' This method processes the replace event from the FindReplace dialog.''' 
+        # get the find and replace strings
         rstring = self.fr_data.GetReplaceString()
         fstring = self.fr_data.GetFindString()
-        index = self.current_couples.find_couple_by_last_name(fstring)
+        index = self.last_find_index
+        # Make sure index is valid
         if index == -1:
-            # if the find string not found, display error
-            md = wx.MessageDialog(self, "Couple Not Found", caption="Error", style=wx.OK)
-            md.ShowModal()
+            md = wx.MessageDialog(self, "Please use Find to select a couple from the list.", caption="Error", style=wx.OK)
+            md.ShowModal()  
         else:
-            # if find string found, clear previous highlighting
-            if self.last_find_index > -1:
-                self.Highlight_Entry(self.last_find_index, select=False)
-            # highlight the modified entry and remember the index
-            self.Highlight_Entry(index, focus=True)
-            self.last_find_index = index
-            # get the full name at this index from the list
-            curr_string = self.list_ctrl.GetItem(index, Name_Column).GetText()
-            # prompt the user to make sure they want to replace
-            message = "Replace " + curr_string + "\nwith " + rstring
-            md = wx.MessageDialog(self, message, "Are You Sure?", style=wx.YES_NO | wx.NO_DEFAULT)
-            if md.ShowModal() == wx.ID_YES:            
-                # set the name of this index to the replace string from the dialog
-                # update both the GUI and the database object
-                self.list_ctrl.SetItem(index, Name_Column, rstring)
-                self.current_couples.set_name_at_index(index, rstring)
-                self.unsaved_updates = True
+            cstring = self.current_couples.get_name_at_index(index)
+            if fstring not in cstring:
+                # if the find string not found, display error
+                message = "Cannot find " +  fstring + " in " + cstring + "."
+                md = wx.MessageDialog(self, message, caption="Error", style=wx.OK)
+                md.ShowModal()
+            else:
+                if fstring == cstring:
+                    new_string = rstring
+                else: 
+                    fields = cstring.split(fstring)
+                    new_string = fields[0] + rstring + fields[1]
+                    index = 2
+                    while index < len(fields):
+                        e = event.GetEventType()
+                        if e == wx.wxEVT_FIND_REPLACE_ALL:
+                            # replace all occurrences with rstring
+                            new_string += rstring + fields[index]
+                        else:
+                            # other occurrences are not replaced.
+                            new_string += fstring + fields[index]
+                        index += 1
+                # prompt the user to make sure they want to replace
+                message = "Replace " + cstring + "\nwith " + new_string
+                md = wx.MessageDialog(self, message, "Are You Sure?", style=wx.YES_NO | wx.NO_DEFAULT)
+                if md.ShowModal() == wx.ID_YES:            
+                    # set the name of this index to the replace string from the dialog
+                    # update both the GUI and the database object
+                    Name_Column = 1
+                    self.list_ctrl.SetItem(index, Name_Column, new_string)
+                    self.current_couples.set_name_at_index(index, new_string)
+                    self.unsaved_updates = True
 
 
     def OnFindSetup(self, event):
         '''
         This method is called from the menu to find a couple by last name.
         '''
-        self.last_find_index = -1
+        if self.last_find_index > -1:
+            self.Highlight_Entry(self.last_find_index, select=False)  
+            self.last_find_index = -1
         self.fr_data = wx.FindReplaceData()
         self.fr_data.SetFlags(wx.FR_DOWN)
         self.fr_dia = wx.FindReplaceDialog(self.list_ctrl, self.fr_data, "Find Couple")
@@ -839,18 +879,19 @@ class AppFrame(wx.Frame):
         '''
         This method is called from the menu to replace/update a couple's name.
         '''
-        if self.list_ctrl.GetSelectedItemCount() == 1:
-            index = self.list_ctrl.GetNextSelected(-1)
-            self.last_find_index = index
-            self.fr_data = wx.FindReplaceData()
+        #if self.last_find_index > -1:
+        #    index = self.last_find_index
+        self.fr_data = wx.FindReplaceData()
+        if self.last_find_index > -1:   
+            index = self.last_find_index
             self.fr_data.SetFindString(self.current_couples.get_name_at_index(index))
-            self.fr_data.SetReplaceString(self.current_couples.get_name_at_index(index))
-            self.fr_data.SetFlags(wx.FR_DOWN)
-            self.fr_dia = wx.FindReplaceDialog(self.list_ctrl, self.fr_data, "Replace Couple Name", wx.FR_REPLACEDIALOG)
-            self.fr_dia.Show()
-        else:
-            md = wx.MessageDialog(self, "Please select a couple from the list.", caption="Error", style=wx.OK)
-            md.ShowModal()            
+            self.fr_data.SetReplaceString(self.current_couples.get_name_at_index(index))   
+        self.fr_data.SetFlags(wx.FR_DOWN)
+        self.fr_dia = wx.FindReplaceDialog(self.list_ctrl, self.fr_data, "Replace Couple Name", wx.FR_REPLACEDIALOG)
+        self.fr_dia.Show()
+        #else:
+        #    md = wx.MessageDialog(self, "Please select a couple from the list.", caption="Error", style=wx.OK)
+        #    md.ShowModal()            
 
 
     def OnClearAllResults(self, event):
