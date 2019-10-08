@@ -14,7 +14,7 @@ def is_multi_dance(s):
     
     
 def is_amateur_heat(s):
-    if "AC-" in s or "Amateur" in s or "AM/AM" in s:
+    if "AC-" in s or "Amateur" in s or "AM/AM" in s or "AmAm" in s:
         return True
     else:
         return False
