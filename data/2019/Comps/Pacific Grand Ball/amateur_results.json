@@ -1,0 +1,916 @@
+{
+  "comp name": "Pacific Grand Ball",
+  "heats": [
+    {
+      "number": 17,
+      "title": "Open Silver Multi-Dance Events JR AM/AM Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Absey, Benjamin and Ax, Katya",
+          "place": "1",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Open Silver Multi-Dance Events YH AM/AM Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Marynets, Maxim and Sepe, Mia",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Closed Silver Multi-Dance Events JR AM/AM Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Podgomy, Ivan and Kelley, Paloma",
+          "place": "1",
+          "points": 13.5
+        },
+        {
+          "couple": "Zakharov, Andrey and Libov, Victoria",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Khosla, Abhinav and Libov, Veronica",
+          "place": "3",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "AmAm 3-Dance Events Closed Bronze A AM/AM Int'l Ballroom (W,F,Q)",
+      "entries": [
+        {
+          "couple": "Rutledge, Kevin and Santagata, Jordan",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Ramirez, Joel Daniel and Yao, Renee",
+          "place": "2",
+          "points": 7.0
+        },
+        {
+          "couple": "Hwang, Michael and Luedi, Sophie",
+          "place": "3",
+          "points": 5.0
+        },
+        {
+          "couple": "Delavega, Ryan and Chang, Jackie",
+          "place": "4",
+          "points": 3.5
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "AmAm 4-Dance Events Closed Gold A AM/AM Int'l Ballroom (W,T,F,Q)",
+      "entries": [
+        {
+          "couple": "Vasylyev, Sergiy and Mueller, Letitia",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "AmAm 3-Dance Events Closed Silver A AM/AM Int'l Ballroom (W,F,Q)",
+      "entries": [
+        {
+          "couple": "Zhang, Yang and Chen, Cynthia",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Ramirez, Joel Daniel and Yao, Renee",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Hwang, Michael and Luedi, Sophie",
+          "place": "3",
+          "points": 9.75
+        },
+        {
+          "couple": "Rutledge, Kevin and Santagata, Jordan",
+          "place": "4",
+          "points": 7.5
+        },
+        {
+          "couple": "Delavega, Ryan and Chang, Jackie",
+          "place": "5",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Open Silver Multi-Dance Events mJR AM/AM Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Tran, Hai and Needleman, Sophie",
+          "place": "1",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "title": "AmAm 3-Dance Events Closed Bronze P1 AM/AM Int'l Latin (CC,R,J)",
+      "entries": [
+        {
+          "couple": "Podgomy, Ivan and Kelley, Paloma",
+          "place": "1",
+          "points": 7.5
+        },
+        {
+          "couple": "Ovechkin, Artem and Weinkauf, Emma",
+          "place": "2",
+          "points": 3.5
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "title": "AmAm 3-Dance Events Closed Silver P2 AM/AM Int'l Latin (CC,R,J)",
+      "entries": [
+        {
+          "couple": "Schwanderer, Renn and Fomin, Sofia",
+          "place": "1",
+          "points": 13.5
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "title": "AmAm 4-Dance Events Closed Gold P2 AM/AM Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Parrot, David and Pravdin, Genna",
+          "place": "1",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Open Multi-Dance Events mYH AM/AM Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Rubashevsky, Danya and Wang, Can",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "AmAm 3-Dance Events Closed Bronze P2 AM/AM Int'l Latin (CC,R,J)",
+      "entries": [
+        {
+          "couple": "Schwanderer, Renn and Fomin, Sofia",
+          "place": "1",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "AmAm 3-Dance Events Closed Silver P1 AM/AM Int'l Latin (CC,R,J)",
+      "entries": [
+        {
+          "couple": "Finkelstein, Alexander and Savchenkova, Daria",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Grigorovitch, Matthew and Akhanova, Maria",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Podgomy, Ivan and Kelley, Paloma",
+          "place": "3",
+          "points": 9.75
+        },
+        {
+          "couple": "Zakharov, Andrey and Libov, Victoria",
+          "place": "4",
+          "points": 7.5
+        },
+        {
+          "couple": "Ovechkin, Artem and Weinkauf, Emma",
+          "place": "5",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "Closed Bronze Multi-Dance Events mJR AM/AM Int'l Latin (CC,R,J)",
+      "entries": [
+        {
+          "couple": "Rubashevsky, Danya and Goldberg, Rebecca",
+          "place": "1",
+          "points": 10.0
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "title": "AmAm 4-Dance Events Closed Gold P1 AM/AM Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Chen, Brandon and Moudry, Isabella",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Parra, Peter and Braylovskiy, Jacklyn",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Finkelstein, Alexander and Savchenkova, Daria",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Grigorovitch, Matthew and Akhanova, Maria",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Khosla, Abhinav and Libov, Veronica",
+          "place": "5",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Open Multi-Dance Events mJR AM/AM Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Rubashevsky, Danya and Wang, Can",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Open Silver Multi-Dance Events JR AM/AM Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Absey, Benjamin and Ax, Katya",
+          "place": "1",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Open Silver Multi-Dance Events YH AM/AM Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Marynets, Maxim and Sepe, Mia",
+          "place": "1",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "title": "Closed Bronze Multi-Dance Events mB1 AM/AM Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Kleinrath, James and Tam, Iris",
+          "place": "1",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "title": "Closed Silver Multi-Dance Events JR AM/AM Int'l Ballroom (W,T,F,Q)",
+      "entries": [
+        {
+          "couple": "Absey, Benjamin and Ax, Katya",
+          "place": "1",
+          "points": 11.25
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "title": "AmAm 3-Dance Events Closed Bronze A AM/AM Int'l Latin (CC,R,J)",
+      "entries": [
+        {
+          "couple": "Rutledge, Kevin and Santagata, Jordan",
+          "place": "1",
+          "points": 6.0
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "title": "AmAm 3-Dance Events Closed Bronze P1 AM/AM Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Finkelstein, Alexander and Savchenkova, Daria",
+          "place": "1",
+          "points": 7.5
+        },
+        {
+          "couple": "Grigorovitch, Matthew and Akhanova, Maria",
+          "place": "2",
+          "points": 3.5
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "title": "Closed Bronze Multi-Dance Events mB2 AM/AM Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Kleinrath, James and Plasai, Sue",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "title": "Open Silver Multi-Dance Events JR AM/AM Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Absey, Benjamin and Ax, Katya",
+          "place": "1",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "title": "AmAm 3-Dance Events Closed Silver P1 AM/AM Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Finkelstein, Alexander and Savchenkova, Daria",
+          "place": "1",
+          "points": 11.25
+        },
+        {
+          "couple": "Grigorovitch, Matthew and Akhanova, Maria",
+          "place": "2",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "title": "AmAm 3-Dance Events Closed Silver A AM/AM Int'l Latin (CC,R,J)",
+      "entries": [
+        {
+          "couple": "Rutledge, Kevin and Santagata, Jordan",
+          "place": "1",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "title": "AmAm 3-Dance Events Closed Silver S1 AM/AM Int'l Latin (CC,R,J)",
+      "entries": [
+        {
+          "couple": "Perelmutov, Timur and Perelmutova, Yelena",
+          "place": "1",
+          "points": 11.25
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "title": "AmAm 4-Dance Events Closed Gold P1 AM/AM Int'l Ballroom (W,T,F,Q)",
+      "entries": [
+        {
+          "couple": "Chen, Brandon and Moudry, Isabella",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Parra, Peter and Braylovskiy, Jacklyn",
+          "place": "2",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "title": "AmAm 4-Dance Events Closed Gold P2 AM/AM Int'l Ballroom (W,T,F,Q)",
+      "entries": [
+        {
+          "couple": "Parrot, David and Pravdin, Genna",
+          "place": "1",
+          "points": 18.0
+        }
+      ]
+    },
+    {
+      "number": 101,
+      "title": "AmAm 3-Dance Events Novice J2 Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Absey, Benjamin and Ax, Katya",
+          "place": "1",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "number": 102,
+      "title": "AmAm 3-Dance Events Novice A  Int'l Ballroom (W,T,Q)",
+      "entries": [
+        {
+          "couple": "Fatkullin, Ibrahim and Jennings, Amy",
+          "place": "1",
+          "points": 4.5
+        },
+        {
+          "couple": "Wolf, Brian and Delchamps, Vivian",
+          "place": "2",
+          "points": 3.0
+        },
+        {
+          "couple": "Yang, Alex and Patterson, Genevieve",
+          "place": "3",
+          "points": 1.75
+        }
+      ]
+    },
+    {
+      "number": 103,
+      "title": "AmAm 4-Dance Events PreChamp J1 Int'l Ballroom (W,T,F,Q)",
+      "entries": [
+        {
+          "couple": "Braverman, Artem and Young, Allison",
+          "place": "1",
+          "points": 11.25
+        },
+        {
+          "couple": "Rabinovich, Paul and Ilieva, Raya",
+          "place": "2",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 103,
+      "title": "AmAm 4-Dance Events PreChamp J2  Int'l Ballroom (W,T,F,Q)",
+      "entries": [
+        {
+          "couple": "Gribanovsky, Pavlik and Poda, Alexandra",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Absey, Benjamin and Ax, Katya",
+          "place": "2",
+          "points": 10.5
+        }
+      ]
+    },
+    {
+      "number": 104,
+      "title": "AmAm 4-Dance Events PreChamp A  Int'l Ballroom (W,T,F,Q)",
+      "entries": [
+        {
+          "couple": "Fatkullin, Ibrahim and Jennings, Amy",
+          "place": "1",
+          "points": 11.25
+        },
+        {
+          "couple": "Wolf, Brian and Delchamps, Vivian",
+          "place": "2",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 105,
+      "title": "AmAm 5-Dance Events Open J1 Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Kalachev, Matvey and Markova, Sasha",
+          "place": "1",
+          "points": 18.0
+        },
+        {
+          "couple": "Braverman, Artem and Young, Allison",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "Rabinovich, Paul and Ilieva, Raya",
+          "place": "3",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "number": 105,
+      "title": "AmAm 5-Dance Events Open J2 Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Mattos, Anthony and Zinchenko, Eva",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Gribanovsky, Pavlik and Poda, Alexandra",
+          "place": "2",
+          "points": 16.0
+        }
+      ]
+    },
+    {
+      "number": 106,
+      "title": "AmAm 5-Dance Events Preteen Scholarship Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Karasik, Jacob and Kwan, Jaslyn",
+          "place": "1",
+          "points": 22.5
+        },
+        {
+          "couple": "Parrot, David and Pravdin, Genna",
+          "place": "2",
+          "points": 15.0
+        },
+        {
+          "couple": "Chen, Brandon and Moudry, Isabella",
+          "place": "3",
+          "points": 8.75
+        }
+      ]
+    },
+    {
+      "number": 107,
+      "title": "AmAm 5-Dance Events Open S1 Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Jockel, Peter and Jockel, Teresa",
+          "place": "1",
+          "points": 12.0
+        }
+      ]
+    },
+    {
+      "number": 107,
+      "title": "AmAm 5-Dance Events Youth Scholarship Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Li, Tyler and Lowe, Anjelica",
+          "place": "1",
+          "points": 22.5
+        },
+        {
+          "couple": "Berenshteyn, Maksim and Petrenko, Katerina",
+          "place": "2",
+          "points": 15.0
+        }
+      ]
+    },
+    {
+      "number": 108,
+      "title": "AmAm 5-Dance Events Junior Scholarship Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Mattos, Anthony and Zinchenko, Eva",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Kalachev, Matvey and Markova, Sasha",
+          "place": "2",
+          "points": 17.5
+        },
+        {
+          "couple": "Karasik, Jacob and Kwan, Jaslyn",
+          "place": "3",
+          "points": 12.5
+        },
+        {
+          "couple": "Absey, Benjamin and Ax, Katya",
+          "place": "4",
+          "points": 8.75
+        }
+      ]
+    },
+    {
+      "number": 109,
+      "title": "AmAm 5-Dance Events Open S2  Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Getchell, David and Gonzalez, Allison",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Chow, Jon and Chow, Elaine",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Kawanami, Hiroshi and Kawanami, Juliana",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Jockel, Peter and Jockel, Teresa",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Ghoneimy, Adel and Chow, Karen",
+          "place": "5",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "number": 110,
+      "title": "AmAm 5-Dance Events Adult Scholarship Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Li, Tyler and Lowe, Anjelica",
+          "place": "1",
+          "points": 22.5
+        },
+        {
+          "couple": "Henzie, Chris and Fernandez, Rebecca",
+          "place": "2",
+          "points": 15.0
+        },
+        {
+          "couple": "Fatkullin, Ibrahim and Jennings, Amy",
+          "place": "3",
+          "points": 8.75
+        }
+      ]
+    },
+    {
+      "number": 110,
+      "title": "AmAm 5-Dance Events Open YH Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Berenshteyn, Maksim and Petrenko, Katerina",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "number": 111,
+      "title": "AmAm 3-Dance Events Novice J1 Int'l Latin (CC,R,J)",
+      "entries": [
+        {
+          "couple": "Lopez, Alex and Parde, Jordan",
+          "place": "1",
+          "points": 3.75
+        },
+        {
+          "couple": "Braverman, Artem and Young, Allison",
+          "place": "2",
+          "points": 1.75
+        }
+      ]
+    },
+    {
+      "number": 111,
+      "title": "AmAm 3-Dance Events Novice YH Int'l Latin (CC,R,J)",
+      "entries": [
+        {
+          "couple": "Marynets, Maxim and Sepe, Mia",
+          "place": "1",
+          "points": 4.5
+        }
+      ]
+    },
+    {
+      "number": 112,
+      "title": "AmAm 3-Dance Events Novice J2 Int'l Latin (CC,R,J)",
+      "entries": [
+        {
+          "couple": "Absey, Benjamin and Ax, Katya",
+          "place": "1",
+          "points": 3.0
+        }
+      ]
+    },
+    {
+      "number": 112,
+      "title": "AmAm 4-Dance Events PreChamp YH Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Poda, Vladislav and Levin, Hannah",
+          "place": "1",
+          "points": 13.5
+        },
+        {
+          "couple": "Marynets, Maxim and Sepe, Mia",
+          "place": "2",
+          "points": 9.0
+        }
+      ]
+    },
+    {
+      "number": 113,
+      "title": "AmAm 5-Dance Events Open J1 Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Kalachev, Matvey and Markova, Sasha",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Rabinovich, Paul and Ilieva, Raya",
+          "place": "2",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "number": 113,
+      "title": "AmAm 5-Dance Events Open J2  Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Mattos, Anthony and Zinchenko, Eva",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Gribanovsky, Pavlik and Poda, Alexandra",
+          "place": "2",
+          "points": 14.0
+        }
+      ]
+    },
+    {
+      "number": 113,
+      "title": "AmAm 5-Dance Events Open P1 AM/AM Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Chen, Brandon and Moudry, Isabella",
+          "place": "1",
+          "points": 20.0
+        }
+      ]
+    },
+    {
+      "number": 114,
+      "title": "AmAm 4-Dance Events PreChamp J1  Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Lopez, Alex and Parde, Jordan",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Braverman, Artem and Young, Allison",
+          "place": "2",
+          "points": 10.5
+        },
+        {
+          "couple": "Rabinovich, Paul and Ilieva, Raya",
+          "place": "3",
+          "points": 7.5
+        },
+        {
+          "couple": "Shee, Regan and Kashper, Gabrielle",
+          "place": "4",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 115,
+      "title": "AmAm 5-Dance Events Youth Scholarship Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Li, Tyler and Lowe, Anjelica",
+          "place": "1",
+          "points": 22.5
+        },
+        {
+          "couple": "Berenshteyn, Maksim and Petrenko, Katerina",
+          "place": "2",
+          "points": 15.0
+        },
+        {
+          "couple": "Poda, Vladislav and Levin, Hannah",
+          "place": "3",
+          "points": 8.75
+        }
+      ]
+    },
+    {
+      "number": 116,
+      "title": "AmAm 4-Dance Events PreChamp J2 Int'l Latin (CC,S,R,J)",
+      "entries": [
+        {
+          "couple": "Gribanovsky, Pavlik and Poda, Alexandra",
+          "place": "1",
+          "points": 13.5
+        },
+        {
+          "couple": "Shee, Regan and Kashper, Gabrielle",
+          "place": "2",
+          "points": 9.0
+        },
+        {
+          "couple": "Absey, Benjamin and Ax, Katya",
+          "place": "3",
+          "points": 5.25
+        }
+      ]
+    },
+    {
+      "number": 117,
+      "title": "AmAm 5-Dance Events Preteen Scholarship Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Karasik, Jacob and Kwan, Jaslyn",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Chen, Brandon and Moudry, Isabella",
+          "place": "2",
+          "points": 17.5
+        },
+        {
+          "couple": "Parrot, David and Pravdin, Genna",
+          "place": "3",
+          "points": 12.5
+        },
+        {
+          "couple": "Yanovich, Sasha and Ovechkina, Alena",
+          "place": "4",
+          "points": 8.75
+        }
+      ]
+    },
+    {
+      "number": 118,
+      "title": "AmAm 5-Dance Events Junior Scholarship Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Mattos, Anthony and Zinchenko, Eva",
+          "place": "1",
+          "points": 25.0
+        },
+        {
+          "couple": "Karasik, Jacob and Kwan, Jaslyn",
+          "place": "2",
+          "points": 17.5
+        },
+        {
+          "couple": "Kalachev, Matvey and Markova, Sasha",
+          "place": "3",
+          "points": 12.5
+        },
+        {
+          "couple": "Absey, Benjamin and Ax, Katya",
+          "place": "4",
+          "points": 8.75
+        }
+      ]
+    },
+    {
+      "number": 119,
+      "title": "AmAm 5-Dance Events Open YH  Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Berenshteyn, Maksim and Petrenko, Katerina",
+          "place": "1",
+          "points": 15.0
+        },
+        {
+          "couple": "Poda, Vladislav and Levin, Hannah",
+          "place": "2",
+          "points": 7.0
+        }
+      ]
+    }
+  ]
+}

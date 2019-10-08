@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>SCORESHEETS BY PERSON</title>
+<meta name="GENERATOR" content="CompMngr 3">
+<script language="JavaScript" type="text/javascript">
+function save_button()
+{
+  if (document.person_list.PERSON_LIST.value == "")
+  {
+    alert("No person specified.");
+    return false;
+  }
+}
+</script>
+</head>
+<body bgcolor="#FFFFFF">
+<p align="center"><font face="Arial" size="6" color="#000000"><strong>Nashville Ballroom Bash</strong></font>&nbsp</p>
+<p align=center><font size="5" color="#000000"><strong>Scoresheet lookup for Persons</strong></font></p>
+<form name=person_list action="http://www.compmngr.com/cgi-bin/ScoresheetHandler.pl" method=post onsubmit="return save_button()">
+<input type="hidden" name="DATA_FILE" value="<root>/nashbash19[david medeiros]/nashbash19_scoresheetsbyperson.dat">
+<input type="hidden" name="COMP_NAME" value="Nashville Ballroom Bash">
+<table width="100%%" cellspacing="20"><tr>
+<td width="50%%" align="right" valign="top"><p>
+<strong>Click on name then<br>on 'Retrieve' button</strong><br>
+<select multiple size="20" name="PERSON_LIST">
+<option value='2451=Addison, Donna'>Addison, Donna
+<option value='2429=Alan, Bronson (107)'>Alan, Bronson (107)
+<option value='1509=Archer, Shalene'>Archer, Shalene
+<option value='2410=Arthur, Frances'>Arthur, Frances
+<option value='2431=Atlakson, Carli'>Atlakson, Carli
+<option value='2450=Belinky, Alan (307)'>Belinky, Alan (307)
+<option value='2459=Burgess, Greg (308)'>Burgess, Greg (308)
+<option value='2417=Burgess, Lisa'>Burgess, Lisa
+<option value='2256=Champion, Rachel'>Champion, Rachel
+<option value='2352=Chumney, Carol'>Chumney, Carol
+<option value='2430=Elkin, Lilly'>Elkin, Lilly
+<option value='2422=Elliott, Charles (306)'>Elliott, Charles (306)
+<option value='2464=Erwin, Jenny'>Erwin, Jenny
+<option value='2449=Fisher, Jessi'>Fisher, Jessi
+<option value='2456=Ford, April'>Ford, April
+<option value='1688=Glaskox, Blake (103)'>Glaskox, Blake (103)
+<option value='2419=Greenslit, Shelby'>Greenslit, Shelby
+<option value='2461=Harris, Beckey'>Harris, Beckey
+<option value='2445=Head, Shirin'>Head, Shirin
+<option value='2458=Hosale, Mikey (110)'>Hosale, Mikey (110)
+<option value='2448=Johnson, Tye (109)'>Johnson, Tye (109)
+<option value='2446=Kaminski, Chloe'>Kaminski, Chloe
+<option value='2460=Lane, Ben (309)'>Lane, Ben (309)
+<option value='2463=Liao, Cathy'>Liao, Cathy
+<option value='1951=Lowe, Kristina'>Lowe, Kristina
+<option value='2457=Max, Becky'>Max, Becky
+<option value='2398=McClish, Devan (105)'>McClish, Devan (105)
+<option value='2257=Michelle, Greg (304)'>Michelle, Greg (304)
+<option value='2416=Moore, Matthew (106)'>Moore, Matthew (106)
+<option value='2443=Moore, Melinda'>Moore, Melinda
+<option value='1079=Reneau, Charles (302)'>Reneau, Charles (302)
+<option value='2351=Sahakyan, Arman (111)'>Sahakyan, Arman (111)
+<option value='2148=Traugott, Tom (303)'>Traugott, Tom (303)
+<option value='1558=Wayne, Christopher (102)'>Wayne, Christopher (102)
+<option value='2444=Winslow, Ryan (108)'>Winslow, Ryan (108)
+<option value='1481=Woods, Dennis (101)'>Woods, Dennis (101)
+<option value='2462=Yasuyo, Yaki'>Yasuyo, Yaki
+</select><br>
+<input type=submit value="Retrieve scoresheets" name="SUBMIT">
+</p></td>
+<td align="left" valign="top"><p>
+<strong>List of Judges</strong><br>
+01 David Nyemchek<br>
+02 Tamsyn DeVillers<br>
+03 Chantal LeClerc<br>
+</p></td>
+</tr></table>
+</form>
+</body>
+</html>
