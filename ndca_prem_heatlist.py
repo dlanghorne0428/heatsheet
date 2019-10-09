@@ -1,4 +1,5 @@
 import requests
+import html
 
 from couple import Couple
 from dancer import Dancer, format_name
@@ -80,7 +81,7 @@ class NdcaPremHeat(Heat):
                         self.category = "Heat"
                     elif "Solo" in self.info:
                         self.category = "Solo"
-                        self.set_level()
+                    self.set_level()
                     continue
                 
             # save the dancer name, scoresheet code, and partner name
@@ -146,7 +147,8 @@ class NdcaPremHeatlist(Heatlist):
                         for d in self.dancers:
                             if d.name == name_scramble:
                                 return d.name
-                    break
+                    print("No match found for partner named", name)
+                    return None
         else:
             return None
         
@@ -270,7 +272,9 @@ class NdcaPremHeatlist(Heatlist):
             if 'class="team"' in competitors[c]: 
                 #print(c)
                 continue
-            d = NdcaPremDancer(competitors[c])
+            safe = html.unescape(competitors[c])
+            print(competitors[c], safe)
+            d = NdcaPremDancer(safe) # competitors[c])
             #print(d.name, d.code)
             try:
                 code_num = int(d.code)
