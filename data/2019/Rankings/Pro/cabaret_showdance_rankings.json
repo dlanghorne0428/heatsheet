@@ -1,5 +1,18 @@
 [
   {
+    "name": "Zhyvkov, Tykhon and Zhyvkov, Yana",
+    "results": [
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Open Showdance",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 20.0
+  },
+  {
     "name": "Jensen, Shane and Jensen, Shannon",
     "results": [
       {
@@ -121,10 +134,16 @@
         "info": "World Professional Cabaret/Exhibition Championship",
         "place": "1",
         "points": 20.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Cabaret",
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 373.0,
-    "avg_pts": 18.65
+    "total_pts": 393.0,
+    "avg_pts": 18.71
   },
   {
     "name": "Fumagalli, Davide and Macaluso, Debora",
@@ -183,10 +202,35 @@
         "info": "World Professional Cabaret/Exhibition Championship",
         "place": "2",
         "points": 16.0
+      },
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "Open Professional Showdance  Open Show Dance",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Cabaret",
+        "place": "2",
+        "points": 16.0
       }
     ],
-    "total_pts": 120.0,
-    "avg_pts": 17.14
+    "total_pts": 154.0,
+    "avg_pts": 17.11
+  },
+  {
+    "name": "Di Brino, Stefano and Zubrowska, Bianka",
+    "results": [
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Open Showdance",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 16.0,
+    "avg_pts": 16.0
   },
   {
     "name": "Sinitsa, Max and Seliverstova, Tatiana",
@@ -213,6 +257,55 @@
     ],
     "total_pts": 16.0,
     "avg_pts": 16.0
+  },
+  {
+    "name": "Tsorokean, Alyenendrov and Wheeler, Maria",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "info": "Professional Open Cabaret",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Professional Open Showdance",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "Professional Open Showdance",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Open Professional Cabaret Championships",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "2019 Indianapolis Open DanceSport",
+        "info": "Professional Showdance",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "Cincinnati Ballroom Classic",
+        "info": "Cabaret",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Professional Cabaret",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 108.5,
+    "avg_pts": 15.5
   },
   {
     "name": "Sargsyan, Arsen and Gjonikaj, Xhesika",
@@ -307,6 +400,19 @@
     "avg_pts": 15.29
   },
   {
+    "name": "Ballard, Vince and Perez, Tania",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "info": "Open Show Dance",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
+  },
+  {
     "name": "Kudashev, Ivan and Ksusha",
     "results": [
       {
@@ -356,66 +462,16 @@
         "info": "Professional Showdance",
         "place": "1",
         "points": 20.0
-      }
-    ],
-    "total_pts": 120.0,
-    "avg_pts": 15.0
-  },
-  {
-    "name": "Ballard, Vince and Perez, Tania",
-    "results": [
-      {
-        "comp_name": "Music City Invitational",
-        "info": "Open Show Dance",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 15.0,
-    "avg_pts": 15.0
-  },
-  {
-    "name": "Tsorokean, Alyenendrov and Wheeler, Maria",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "info": "Professional Open Cabaret",
-        "place": "3",
-        "points": 13.0
       },
       {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Professional Open Showdance",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Celebrating Rock Legends!",
-        "info": "Professional Open Showdance",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Open Professional Cabaret Championships",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "2019 Indianapolis Open DanceSport",
-        "info": "Professional Showdance",
-        "place": "1",
-        "points": 18.0
-      },
-      {
-        "comp_name": "Cincinnati Ballroom Classic",
-        "info": "Cabaret",
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Professional Cabaret",
         "place": "2",
         "points": 14.0
       }
     ],
-    "total_pts": 88.5,
-    "avg_pts": 14.75
+    "total_pts": 134.0,
+    "avg_pts": 14.89
   },
   {
     "name": "Smith, Craig and Harvey, Andrea",
@@ -479,10 +535,16 @@
         "info": "World Professional Cabaret/Exhibition Championship",
         "place": "3",
         "points": 13.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Cabaret",
+        "place": "3",
+        "points": 13.0
       }
     ],
-    "total_pts": 147.0,
-    "avg_pts": 14.7
+    "total_pts": 160.0,
+    "avg_pts": 14.55
   },
   {
     "name": "Azarov, Mykhailo and Makarenko, Tetyana",
@@ -827,43 +889,6 @@
     "avg_pts": 11.12
   },
   {
-    "name": "Golubev, Valerii and Golubeva, Margarita",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Professional Open Exhibition",
-        "place": "4",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Professional Open Cabaret",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "Open Professional Theater Arts/Cabaret",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "Professional Open Cabaret/Showdance",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Showdance",
-        "place": "4",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 55.0,
-    "avg_pts": 11.0
-  },
-  {
     "name": "Merz, Timmy and Strashnikova, Diana",
     "results": [
       {
@@ -967,6 +992,74 @@
     ],
     "total_pts": 63.0,
     "avg_pts": 10.5
+  },
+  {
+    "name": "Golubev, Valerii and Golubeva, Margarita",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Professional Open Exhibition",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Professional Open Cabaret",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Open Professional Theater Arts/Cabaret",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "Professional Open Cabaret/Showdance",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Showdance",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Professional Cabaret",
+        "place": "4",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 62.0,
+    "avg_pts": 10.33
+  },
+  {
+    "name": "Alekseev, Aleksei and Derevleva, Ekaterina",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "info": "Professional Open Cabaret",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "'Sound of Silence'",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "Open Professional Showdance  Open Show Dance",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 31.0,
+    "avg_pts": 10.33
   },
   {
     "name": "Slisarenko, Taras and Konieva, Anastasiia",
@@ -1074,6 +1167,25 @@
     "avg_pts": 10.0
   },
   {
+    "name": "Nunez, Tony and Kashkina, Ksenia",
+    "results": [
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Open Showcance",
+        "place": "3",
+        "points": 7
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Open Showdance",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 10.0
+  },
+  {
     "name": "Austin III, James and Monroe, Violet",
     "results": [
       {
@@ -1126,6 +1238,19 @@
     "avg_pts": 10.0
   },
   {
+    "name": "Nakaaki, Jun and Nakaaki, Aki",
+    "results": [
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Open Showdance",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
+  },
+  {
     "name": "Netsvetraev, Kirill and Antonenko, Aleksandra",
     "results": [
       {
@@ -1137,25 +1262,6 @@
     ],
     "total_pts": 10.0,
     "avg_pts": 10.0
-  },
-  {
-    "name": "Alekseev, Alex and Derevleva, Ekaterina",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "info": "Professional Open Cabaret",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "info": "'Sound of Silence'",
-        "place": "2",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 19.0,
-    "avg_pts": 9.5
   },
   {
     "name": "Dombrowik, Douglas and Fox, Angel",
@@ -1201,10 +1307,16 @@
         "info": "World Professional Cabaret/Exhibition Championship",
         "place": "6",
         "points": 7.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Cabaret",
+        "place": "4",
+        "points": 10.0
       }
     ],
-    "total_pts": 61.0,
-    "avg_pts": 8.71
+    "total_pts": 71.0,
+    "avg_pts": 8.88
   },
   {
     "name": "Sovetov, Ivan and Mkrtchian, Valeria",
@@ -1226,35 +1338,16 @@
         "info": "EUSDC Professional Open Cabaret",
         "place": "3",
         "points": 7.0
-      }
-    ],
-    "total_pts": 24.0,
-    "avg_pts": 8.0
-  },
-  {
-    "name": "Spadoni, Simone and Caporale, Simona",
-    "results": [
+      },
       {
-        "comp_name": "Volunteer State Dance Challenge",
-        "info": "Showdance",
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Professional Cabaret",
         "place": "3",
         "points": 10.0
-      },
-      {
-        "comp_name": "Cincinnati Ballroom Classic",
-        "info": "Cabaret",
-        "place": "4",
-        "points": 7.0
-      },
-      {
-        "comp_name": "2019 Ultimate Dancesport Challenge",
-        "info": "Professional Showdance",
-        "place": "4",
-        "points": 7.0
       }
     ],
-    "total_pts": 24.0,
-    "avg_pts": 8.0
+    "total_pts": 34.0,
+    "avg_pts": 8.5
   },
   {
     "name": "Bennett, Kemar and Nicol, Jessica",
@@ -1283,6 +1376,19 @@
     "avg_pts": 8.0
   },
   {
+    "name": "Suzuki, Akira and Furukawa, Reina",
+    "results": [
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Open Showdance",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 8.0,
+    "avg_pts": 8.0
+  },
+  {
     "name": "Wills, Woodrow and Petkova, Neli",
     "results": [
       {
@@ -1294,6 +1400,37 @@
     ],
     "total_pts": 8.0,
     "avg_pts": 8.0
+  },
+  {
+    "name": "Spadoni, Simone and Caporale, Simona",
+    "results": [
+      {
+        "comp_name": "Volunteer State Dance Challenge",
+        "info": "Showdance",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Cincinnati Ballroom Classic",
+        "info": "Cabaret",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2019 Ultimate Dancesport Challenge",
+        "info": "Professional Showdance",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "Open Professional Showdance  Open Show Dance",
+        "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 31.0,
+    "avg_pts": 7.75
   },
   {
     "name": "Zhukovskyi, Nikita and Boiko, Angelina",
@@ -1358,10 +1495,16 @@
         "info": "Professional Theatre Arts-Showdance  Open Show Dance",
         "place": "2",
         "points": 7.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Cabaret",
+        "place": "5",
+        "points": 8.0
       }
     ],
-    "total_pts": 29.0,
-    "avg_pts": 7.25
+    "total_pts": 37.0,
+    "avg_pts": 7.4
   },
   {
     "name": "Arndtson, Cody and Becker, Paris",
@@ -1474,19 +1617,6 @@
         "info": "Showdance",
         "place": "4",
         "points": 7.0
-      }
-    ],
-    "total_pts": 7.0,
-    "avg_pts": 7.0
-  },
-  {
-    "name": "Nunez, Tony and Kashkina, Ksenia",
-    "results": [
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Open Showcance",
-        "place": "3",
-        "points": 7
       }
     ],
     "total_pts": 7.0,

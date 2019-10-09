@@ -328,10 +328,22 @@
         "info": "US National Professional American Smooth Championship (W/T/F/VW)",
         "place": "4",
         "points": 25.0
+      },
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "Open Professional Events Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 30.0
       }
     ],
-    "total_pts": 271.0,
-    "avg_pts": 27.1
+    "total_pts": 321.0,
+    "avg_pts": 26.75
   },
   {
     "name": "Karchev, Nikolay and Tarnowska, Anna",
@@ -383,7 +395,7 @@
     "avg_pts": 23.6
   },
   {
-    "name": "Novikov, Yegor and Smirnova, Aleksandra",
+    "name": "Novikov, Yegor and Smirnov, Alexandra",
     "results": [
       {
         "comp_name": "Vegas Open Dance Challenge",
@@ -438,10 +450,16 @@
         "info": "US National Professional American Smooth Championship (W/T/F/VW)",
         "place": "5",
         "points": 20.0
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 30.0
       }
     ],
-    "total_pts": 190.5,
-    "avg_pts": 21.17
+    "total_pts": 220.5,
+    "avg_pts": 22.05
   },
   {
     "name": "Afonkin, Igor and Anderson, Meghan",
@@ -625,85 +643,6 @@
     "avg_pts": 20.96
   },
   {
-    "name": "Samchynskyy, Sergiy and Besarab, Yuliya",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "info": "Professional Open American Smooth(W/T/F/V)",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "Open Professional American Smooth Championships (W/T/F/VW)",
-        "place": "3",
-        "points": 26.0
-      },
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "Open Professional Smooth (W/T/F/VW)",
-        "place": "2",
-        "points": 32.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "Professional Open Smooth (W/T/FT/VW)",
-        "place": "5",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Open Professional American Smooth Championship (W/T/F/VW)",
-        "place": "5",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Open Professional American Smooth(W/T/FT/VW)",
-        "place": "3",
-        "points": 26.0
-      },
-      {
-        "comp_name": "2019 Miami Vibe",
-        "info": "Professional American Smooth (W/T/F/VW)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Open Championships  Amer. Smooth Championship (W,T,F,VW)",
-        "place": "3",
-        "points": 26.0
-      },
-      {
-        "comp_name": "The DBDC 2019",
-        "info": "Open Professional Smooth (W/T/F/VW)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Professional Events Amer. Smooth (W,T,F,VW)",
-        "place": "4",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "World Professional Amer. Smooth Championship (W,T,F,VW)",
-        "place": "6",
-        "points": 14.0
-      },
-      {
-        "comp_name": "United States Dance Championships",
-        "info": "US National Professional American Smooth Championship (W/T/F/VW)",
-        "place": "6",
-        "points": 17.5
-      }
-    ],
-    "total_pts": 249.0,
-    "avg_pts": 20.75
-  },
-  {
     "name": "Vukosavljevic, Aleksandar and Urosevic, Nevena",
     "results": [
       {
@@ -801,10 +740,101 @@
         "info": "US National Professional American Smooth Championship (W/T/F/VW)",
         "place": "Semis",
         "points": 10.5
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "2",
+        "points": 24.0
       }
     ],
-    "total_pts": 312.2,
-    "avg_pts": 19.51
+    "total_pts": 336.2,
+    "avg_pts": 19.78
+  },
+  {
+    "name": "Samchynskyy, Sergiy and Besarab, Yuliya",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "info": "Professional Open American Smooth(W/T/F/V)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Open Professional American Smooth Championships (W/T/F/VW)",
+        "place": "3",
+        "points": 26.0
+      },
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "Open Professional Smooth (W/T/F/VW)",
+        "place": "2",
+        "points": 32.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "Professional Open Smooth (W/T/FT/VW)",
+        "place": "5",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Open Professional American Smooth Championship (W/T/F/VW)",
+        "place": "5",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Open Professional American Smooth(W/T/FT/VW)",
+        "place": "3",
+        "points": 26.0
+      },
+      {
+        "comp_name": "2019 Miami Vibe",
+        "info": "Professional American Smooth (W/T/F/VW)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Open Championships  Amer. Smooth Championship (W,T,F,VW)",
+        "place": "3",
+        "points": 26.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "Open Professional Smooth (W/T/F/VW)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Professional Events Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World Professional Amer. Smooth Championship (W,T,F,VW)",
+        "place": "6",
+        "points": 14.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional American Smooth Championship (W/T/F/VW)",
+        "place": "6",
+        "points": 17.5
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 0.3
+      }
+    ],
+    "total_pts": 249.3,
+    "avg_pts": 19.18
   },
   {
     "name": "Pigotskyy, Oleksiy and Crandall, Natalie",
@@ -866,85 +896,6 @@
     ],
     "total_pts": 167.4,
     "avg_pts": 18.6
-  },
-  {
-    "name": "Kaliuzhnyi, Vitalii and Barrington, Talia",
-    "results": [
-      {
-        "comp_name": "The Windy City Open",
-        "info": "Professional Rising Star Am. Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "Open Professional Am. Smooth (W/T/F/VW)",
-        "place": "3",
-        "points": 26.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "Open Professional American Smooth (W/T/F/VW)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Open Professional American Smooth Championship (W/T/F/VW)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "Professional Open Smooth Championship (W/T/FT/VW)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Professional Events Amer. Smooth (W,T,F,VW)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Open American Smooth (W/T/F/VW)",
-        "place": "6",
-        "points": 14.0
-      }
-    ],
-    "total_pts": 211.5,
-    "avg_pts": 17.62
   },
   {
     "name": "Pilipenchuk, Nikolai and Hudson, Sarika",
@@ -1062,10 +1013,101 @@
         "info": "US National Professional American Smooth Championship (W/T/F/VW)",
         "place": "Semis",
         "points": 10.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Open Professional Smooth (W/T/FT/VW)",
+        "place": "1",
+        "points": 30.0
       }
     ],
-    "total_pts": 322.5,
-    "avg_pts": 16.97
+    "total_pts": 352.5,
+    "avg_pts": 17.62
+  },
+  {
+    "name": "Kaliuzhnyi, Vitalii and Barrington, Talia",
+    "results": [
+      {
+        "comp_name": "The Windy City Open",
+        "info": "Professional Rising Star Am. Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "Open Professional Am. Smooth (W/T/F/VW)",
+        "place": "3",
+        "points": 26.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Open Professional American Smooth Championship (W/T/F/VW)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "Professional Open Smooth Championship (W/T/FT/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Professional Events Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Open American Smooth (W/T/F/VW)",
+        "place": "6",
+        "points": 14.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "5",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 223.5,
+    "avg_pts": 17.19
   },
   {
     "name": "Kostianets, Slava and Kostianets, Valeriia",
@@ -1153,10 +1195,16 @@
         "info": "Open Professional American Smooth (W/T/FT/VW)",
         "place": "2",
         "points": 32.0
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 24.0
       }
     ],
-    "total_pts": 225.5,
-    "avg_pts": 16.11
+    "total_pts": 249.5,
+    "avg_pts": 16.63
   },
   {
     "name": "Seifert, Ben and Mattingly, Ashley",
@@ -1353,10 +1401,95 @@
         "info": "US National Professional American Smooth Championship (W/T/F/VW)",
         "place": "Semis",
         "points": 10.0
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "3",
+        "points": 19.5
       }
     ],
-    "total_pts": 463.5,
-    "avg_pts": 15.45
+    "total_pts": 542.5,
+    "avg_pts": 15.96
+  },
+  {
+    "name": "Zakrzewski, Mariusz and Ray, Lynnsay",
+    "results": [
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Open Professional American Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Professional Open Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 32.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "Open Professional Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 1.8
+      },
+      {
+        "comp_name": "Heart of America DanceSport Championships",
+        "info": "Professional Open Smooth Championship (W/T/FT/VW)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "Open Professional American Smooth Championship (W/T/F/VW)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "World Professional Amer. Smooth Championship (W,T,F,VW)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional American Smooth Championship (W/T/F/VW)",
+        "place": "quarters",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Professional Open Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 135.8,
+    "avg_pts": 15.09
   },
   {
     "name": "McCann, Stephen and McCann, Elisa",
@@ -1546,10 +1679,16 @@
         "info": "Open Professional American Smooth (W/T/FT/VW)",
         "place": "4",
         "points": 20.0
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 15.0
       }
     ],
-    "total_pts": 453.7,
-    "avg_pts": 14.64
+    "total_pts": 468.7,
+    "avg_pts": 14.65
   },
   {
     "name": "Don, Jang and Don, Adele",
@@ -1716,61 +1855,6 @@
     "avg_pts": 14.56
   },
   {
-    "name": "Zakrzewski, Mariusz and Ray, Lynnsay",
-    "results": [
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Open Professional American Smooth Championship (W/T/F/VW)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Professional Open Amer. Smooth Championship (W,T,F,VW)",
-        "place": "2",
-        "points": 32.0
-      },
-      {
-        "comp_name": "The DBDC 2019",
-        "info": "Open Professional Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 1.8
-      },
-      {
-        "comp_name": "Heart of America DanceSport Championships",
-        "info": "Professional Open Smooth Championship (W/T/FT/VW)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "Open Professional American Smooth Championship (W/T/F/VW)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "World Professional Amer. Smooth Championship (W,T,F,VW)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "United States Dance Championships",
-        "info": "US National Professional American Smooth Championship (W/T/F/VW)",
-        "place": "quarters",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 115.8,
-    "avg_pts": 14.47
-  },
-  {
     "name": "Zappia, Enzo and Betts, Stephanie",
     "results": [
       {
@@ -1868,6 +1952,73 @@
     "avg_pts": 14.25
   },
   {
+    "name": "Sovetov, Ivan and Mkrtchian, Valeria",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Pro Rising Star American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Pro Open American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "Rising Star Professional Smooth (W/T/F/VW)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 0.2
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "Open Professional  Smooth (W/T/FT/VW)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Rising Star Professional Smooth (W/T/FT/VW)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Open Professional Smooth (W/T/FT/VW)",
+        "place": "2",
+        "points": 24.0
+      }
+    ],
+    "total_pts": 141.2,
+    "avg_pts": 14.12
+  },
+  {
     "name": "Pohybil, Dmytro and Kushnir, Alona",
     "results": [
       {
@@ -1935,10 +2086,22 @@
         "info": "US National Professional Rising Star American Smooth (W/T/F/VW)",
         "place": "Semis",
         "points": 4.5
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Rising Star Professional Smooth (W/T/FT/VW)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Open Professional Smooth (W/T/FT/VW)",
+        "place": "3",
+        "points": 19.5
       }
     ],
-    "total_pts": 150.7,
-    "avg_pts": 13.7
+    "total_pts": 178.2,
+    "avg_pts": 13.71
   },
   {
     "name": "Popov, Vladimir and Marie, Erin",
@@ -2219,61 +2382,6 @@
     "avg_pts": 13.46
   },
   {
-    "name": "Sovetov, Ivan and Mkrtchian, Valeria",
-    "results": [
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "2",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Pro Rising Star American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Pro Open American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "Rising Star Professional Smooth (W/T/F/VW)",
-        "place": "3",
-        "points": 6.5
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 0.2
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "Open Professional  Smooth (W/T/FT/VW)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "United States Dance Championships",
-        "info": "US National Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "5",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 107.2,
-    "avg_pts": 13.4
-  },
-  {
     "name": "Barabash, Volodymyr and Rudenco, Yulia",
     "results": [
       {
@@ -2334,6 +2442,25 @@
     ],
     "total_pts": 48.5,
     "avg_pts": 12.12
+  },
+  {
+    "name": "Heggie, Dillon and Alanis, Dominique",
+    "results": [
+      {
+        "comp_name": "Sapphire DanceSport",
+        "info": "Open Professional Smooth (W/T/F/VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "Open Professional Events Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 14.0
+      }
+    ],
+    "total_pts": 24.0,
+    "avg_pts": 12.0
   },
   {
     "name": "Mandanchi, Carl and Mandanchi, Christa",
@@ -2699,6 +2826,73 @@
     "avg_pts": 10.5
   },
   {
+    "name": "Abdullin, Ilya and Jerjomina, Anastasija",
+    "results": [
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Rising Star Professional American Smooth(W/T/FT/VW)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Open Professional American Smooth(W/T/FT/VW)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Open Championships  Amer. Smooth Championship (W,T,F,VW)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Virginia State Championships",
+        "info": "Pro Rising Star American Smooth (W/T/F/VW)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "4",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 104.0,
+    "avg_pts": 10.4
+  },
+  {
     "name": "Campbell, Kyle and Campbell, Christina",
     "results": [
       {
@@ -2752,19 +2946,6 @@
     ],
     "total_pts": 81.5,
     "avg_pts": 10.19
-  },
-  {
-    "name": "Heggie, Dillon and Alanis, Dominique",
-    "results": [
-      {
-        "comp_name": "Sapphire DanceSport",
-        "info": "Open Professional Smooth (W/T/F/VW)",
-        "place": "4",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 10.0,
-    "avg_pts": 10.0
   },
   {
     "name": "Shtefil, Shandor and Barsukov, Aleksandra",
@@ -2947,6 +3128,43 @@
     ],
     "total_pts": 147.4,
     "avg_pts": 9.83
+  },
+  {
+    "name": "Dogoter, Igor and Gorshkova, Natalia",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "Professional Rising Star Smooth (W/T/F/VW)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "Rising Star Professional American Smooth (W/T/F/VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "Open Professional American Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "5",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 48.8,
+    "avg_pts": 9.76
   },
   {
     "name": "Leonov, Maksim and Zhuchenko, Anastasia",
@@ -3155,35 +3373,192 @@
     "avg_pts": 9.7
   },
   {
-    "name": "Pellicori, Fabio and Whitesell, Leslie",
+    "name": "Holzworth, John and Wooding, Nicole",
     "results": [
       {
-        "comp_name": "Cincinnati Ballroom Classic",
+        "comp_name": "The Snow Ball",
         "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 6.6
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "Professional Rising Star Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "Open Professional Smooth (W/T/FT/VW)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Rising Star American Smooth Championship (W/T/FT/VW)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Open American Smooth Championship (W/T/FT/VW)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
         "place": "3",
-        "points": 5.0
+        "points": 6.5
       },
       {
-        "comp_name": "Cincinnati Ballroom Classic",
-        "info": "Professional American Smooth (W/T/F/VW)",
-        "place": "6",
-        "points": 10.5
+        "comp_name": "beachbash2019",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 6.0
       },
       {
-        "comp_name": "motown2019[blake%20kish]",
+        "comp_name": "beachbash2019",
+        "info": "Professional Open Smooth (W/T/FT/VW)",
+        "place": "quarters",
+        "points": 0.8
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "quarters",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Professional Rising Star Events American Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2019people[forrest vance]",
+        "info": "Open Professional American Smooth (W/T/FT/VW)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Professional Open Amer. Smooth Championship (W,T,F,VW)",
+        "place": "5",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "Professional Rising Star American Smooth Championships (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 1.8
+      },
+      {
+        "comp_name": "Volunteer State Dance Challenge",
         "info": "Professional Rising Star American Smooth (W/T/F/VW)",
         "place": "2",
         "points": 8.0
       },
       {
-        "comp_name": "motown2019[blake%20kish]",
-        "info": "Professional Open American Smooth (W/T/F/VW)",
+        "comp_name": "Volunteer State Dance Challenge",
+        "info": "Professional American Smooth (W/T/F/VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Galaxy Dance Festival",
+        "info": "Professional American Smooth Rising Star (W/T/F/VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Galaxy Dance Festival",
+        "info": "Open Professional American Smooth (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
         "place": "1",
-        "points": 15.0
+        "points": 9.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Professional Open Amer. Smooth (W,T,F,VW)",
+        "place": "3",
+        "points": 13.0
       }
     ],
-    "total_pts": 38.5,
-    "avg_pts": 9.62
+    "total_pts": 229.6,
+    "avg_pts": 9.57
+  },
+  {
+    "name": "Anufriiev, Mykhailo and Vietrynska, Anna",
+    "results": [
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "Professional Open Smooth Championship (W/T/FT/VW)",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2019 Dancing a la Carte",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 Dancing a la Carte",
+        "info": "Professional Open Smooth (W/T/FT/VW)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "Professional Open American Smooth (W/T/F/VW)",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 46.0,
+    "avg_pts": 9.2
   },
   {
     "name": "Rozenfeld, Evgenii and Shumakher, Maria",
@@ -3331,241 +3706,71 @@
         "info": "US National Professional Rising Star American Smooth (W/T/F/VW)",
         "place": "Semis",
         "points": 5.1
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 0.2
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "6",
+        "points": 10.5
       }
     ],
-    "total_pts": 227.9,
-    "avg_pts": 9.5
+    "total_pts": 238.6,
+    "avg_pts": 9.18
   },
   {
-    "name": "Holzworth, John and Wooding, Nicole",
+    "name": "Stefanov, Slava and Stefanov, Jessica",
     "results": [
       {
-        "comp_name": "The Snow Ball",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 6.6
-      },
-      {
-        "comp_name": "The Snow Ball",
-        "info": "Open Professional American Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "Professional Rising Star Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "Open Professional Smooth (W/T/FT/VW)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "Professional Rising Star American Smooth Championship (W/T/FT/VW)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "Professional Open American Smooth Championship (W/T/FT/VW)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
-        "place": "3",
-        "points": 6.5
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "Professional Open Smooth (W/T/FT/VW)",
-        "place": "quarters",
-        "points": 0.8
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "quarters",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Professional Rising Star Events American Smooth (W,T,F,VW)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "2019people[forrest vance]",
-        "info": "Open Professional American Smooth (W/T/FT/VW)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "comp_name": "chicago19",
+        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
         "place": "4",
         "points": 10.0
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Professional Open Amer. Smooth Championship (W,T,F,VW)",
-        "place": "5",
-        "points": 16.0
       },
       {
         "comp_name": "2019 Desert Classic DanceSport Festival",
         "info": "Professional Rising Star American Smooth Championships (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 1.8
-      },
-      {
-        "comp_name": "Volunteer State Dance Challenge",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "2",
+        "place": "5",
         "points": 8.0
       },
       {
-        "comp_name": "Volunteer State Dance Challenge",
-        "info": "Professional American Smooth (W/T/F/VW)",
-        "place": "4",
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "Professional Open American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 2.1
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "Professional Rising Star Smooth Championship (W/T/F/VW)",
+        "place": "1",
         "points": 10.0
       },
       {
-        "comp_name": "Galaxy Dance Festival",
-        "info": "Professional American Smooth Rising Star (W/T/F/VW)",
+        "comp_name": "Heart of America DanceSport Championships",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
         "place": "3",
         "points": 13.0
       },
       {
-        "comp_name": "Galaxy Dance Festival",
-        "info": "Open Professional American Smooth (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 207.6,
-    "avg_pts": 9.44
-  },
-  {
-    "name": "Anufriiev, Mykhailo and Vietrynska, Anna",
-    "results": [
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "Professional Open Smooth Championship (W/T/FT/VW)",
-        "place": "4",
-        "points": 7.0
-      },
-      {
-        "comp_name": "2019 Dancing a la Carte",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 Dancing a la Carte",
-        "info": "Professional Open Smooth (W/T/FT/VW)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Yankee Classic",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Yankee Classic",
-        "info": "Professional Open American Smooth (W/T/F/VW)",
-        "place": "4",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 46.0,
-    "avg_pts": 9.2
-  },
-  {
-    "name": "Abdullin, Ilya and Jerjomina, Anastasija",
-    "results": [
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Rising Star Professional American Smooth(W/T/FT/VW)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Open Professional American Smooth(W/T/FT/VW)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Open Championships  Amer. Smooth Championship (W,T,F,VW)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Virginia State Championships",
-        "info": "Pro Rising Star American Smooth (W/T/F/VW)",
-        "place": "2",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
         "comp_name": "Capital Dancesport Championships",
         "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "3",
-        "points": 19.5
+        "place": "Semis",
+        "points": 5.1
       },
       {
-        "comp_name": "United States Dance Championships",
-        "info": "US National Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 7.5
+        "comp_name": "Seattle Star Ball",
+        "info": "Professional Open Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 16.0
       }
     ],
-    "total_pts": 73.0,
-    "avg_pts": 9.12
+    "total_pts": 64.2,
+    "avg_pts": 9.17
   },
   {
     "name": "Johnson, Dusty and Grohoske, Ellie",
@@ -3817,6 +4022,49 @@
     "avg_pts": 8.84
   },
   {
+    "name": "Pellicori, Fabio and Whitesell, Leslie",
+    "results": [
+      {
+        "comp_name": "Cincinnati Ballroom Classic",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "3",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Cincinnati Ballroom Classic",
+        "info": "Professional American Smooth (W/T/F/VW)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "motown2019[blake%20kish]",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "motown2019[blake%20kish]",
+        "info": "Professional Open American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Rising Star Professional Smooth (W/T/FT/VW)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Open Professional Smooth (W/T/FT/VW)",
+        "place": "6",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 53.0,
+    "avg_pts": 8.83
+  },
+  {
     "name": "Lebedev, Pavel and Khayrulina, Dinara",
     "results": [
       {
@@ -3902,74 +4150,7 @@
     "avg_pts": 8.61
   },
   {
-    "name": "Stowell, Aaron and Hofreiter, Brie",
-    "results": [
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "info": "Open Professional Smooth (W/T/F/V)",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "2019 Platinum DanceSport Classic",
-        "info": "Professional Rising Star Smooth (W/T/F/V)",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Heritage Classic",
-        "info": "<152>Professional Rising Star American Smooth Competition (W/T/FT/VW)",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Heritage Classic",
-        "info": "<156>Open Professional American Smooth Championship(W/T/FT/VW)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "info": "World Masters Open Professional American Smooth (W/T/FT/VW)",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "info": "Professional Rising Star American Smooth(W/T/F/V)",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Savannah Dance Classic",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "2",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Savannah Dance Classic",
-        "info": "Professional Open American Smooth (W/T/F/VW)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Rising Star Professional American Smooth(W/T/FT/VW)",
-        "place": "quarters",
-        "points": 2.7
-      },
-      {
-        "comp_name": "2019 Ultimate Dancesport Challenge",
-        "info": "Open Professional American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 80.7,
-    "avg_pts": 8.07
-  },
-  {
-    "name": "Camarata, Kevin and Camarata, Michelle",
+    "name": "Camarata II, Kevin and Camarata, Michelle",
     "results": [
       {
         "comp_name": "The Windy City Open",
@@ -4036,53 +4217,95 @@
         "info": "Professional Open Amer. Smooth Championship (W,T,F,VW)",
         "place": "Semis",
         "points": 9.2
-      }
-    ],
-    "total_pts": 88.6,
-    "avg_pts": 8.05
-  },
-  {
-    "name": "Stefanov, Slava and Stefanov, Jessica",
-    "results": [
+      },
       {
-        "comp_name": "chicago19",
-        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
-        "place": "4",
+        "comp_name": "Southwestern Invitational",
+        "info": "Open Professional Events Amer. Smooth (W,T,F,VW)",
+        "place": "3",
         "points": 10.0
       },
       {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "Professional Rising Star American Smooth Championships (W/T/FT/VW)",
-        "place": "5",
+        "comp_name": "Seattle Star Ball",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Professional Open Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 114.6,
+    "avg_pts": 8.19
+  },
+  {
+    "name": "Stowell, Aaron and Hofreiter, Brie",
+    "results": [
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "info": "Open Professional Smooth (W/T/F/V)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2019 Platinum DanceSport Classic",
+        "info": "Professional Rising Star Smooth (W/T/F/V)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "info": "<152>Professional Rising Star American Smooth Competition (W/T/FT/VW)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "info": "<156>Open Professional American Smooth Championship(W/T/FT/VW)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "World Masters Open Professional American Smooth (W/T/FT/VW)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "info": "Professional Rising Star American Smooth(W/T/F/V)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "2",
         "points": 8.0
       },
       {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "comp_name": "Savannah Dance Classic",
         "info": "Professional Open American Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 2.1
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "Professional Rising Star Smooth Championship (W/T/F/VW)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Heart of America DanceSport Championships",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
         "place": "3",
         "points": 13.0
       },
       {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 5.1
+        "comp_name": "Millennium Dancesport",
+        "info": "Rising Star Professional American Smooth(W/T/FT/VW)",
+        "place": "quarters",
+        "points": 2.7
+      },
+      {
+        "comp_name": "2019 Ultimate Dancesport Challenge",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 48.2,
-    "avg_pts": 8.03
+    "total_pts": 80.7,
+    "avg_pts": 8.07
   },
   {
     "name": "Bonev, Aleksandar and Aidasheva, Olga",
@@ -4336,6 +4559,79 @@
     "avg_pts": 7.83
   },
   {
+    "name": "Elser, David and Krug, Elizabeth",
+    "results": [
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Professional Open Amer. Smooth (W,T,F,VW)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "Professional Rising Star Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "Open Professional Smooth (W/T/FT/VW)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "Professional Rising Star Am. Smooth (W/T/F/VW)",
+        "place": "7",
+        "points": 6.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "Open Professional Am. Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Professional Open Amer. Smooth Championship (W,T,F,VW)",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "Cincinnati Ballroom Classic",
+        "info": "Professional American Smooth (W/T/F/VW)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Rising Star Professional Smooth (W/T/FT/VW)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Open Professional Smooth (W/T/FT/VW)",
+        "place": "5",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 85.3,
+    "avg_pts": 7.75
+  },
+  {
     "name": "Doroshenko, Roman and Savushkina, Iryna",
     "results": [
       {
@@ -4456,122 +4752,6 @@
     ],
     "total_pts": 84.0,
     "avg_pts": 7.64
-  },
-  {
-    "name": "Elser, David and Krug, Elizabeth",
-    "results": [
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Professional Open Amer. Smooth (W,T,F,VW)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "Professional Rising Star Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "Open Professional Smooth (W/T/FT/VW)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "Professional Rising Star Am. Smooth (W/T/F/VW)",
-        "place": "7",
-        "points": 6.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "Open Professional Am. Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Professional Open Amer. Smooth Championship (W,T,F,VW)",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "Cincinnati Ballroom Classic",
-        "info": "Professional American Smooth (W/T/F/VW)",
-        "place": "4",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 68.3,
-    "avg_pts": 7.59
-  },
-  {
-    "name": "Dawson, Staz and Gonyea, Jacklyn",
-    "results": [
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "Open Open Professional American Smooth (W/T/FT/VW)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Heritage Classic",
-        "info": "<152>Professional Rising Star American Smooth Competition (W/T/FT/VW)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Heritage Classic",
-        "info": "<156>Open Professional American Smooth Championship(W/T/FT/VW)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "Professional Open American Smooth Championship (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 0.9
-      },
-      {
-        "comp_name": "Music City Invitational",
-        "info": "Open Professional American Smooth (W/T/F/VW)",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "Open Professional Am. Smooth (W/T/F/VW)",
-        "place": "quarters",
-        "points": 1.6
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "Professional Open American Smooth (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 1.8
-      },
-      {
-        "comp_name": "2019 Dancing a la Carte",
-        "info": "Professional Open Smooth (W/T/FT/VW)",
-        "place": "5",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 60.3,
-    "avg_pts": 7.54
   },
   {
     "name": "Morth, Jay and Trinidad, Samantha",
@@ -4708,67 +4888,6 @@
     "avg_pts": 7.5
   },
   {
-    "name": "Krasnyanskiy, Dmitry and Frances, Esther",
-    "results": [
-      {
-        "comp_name": "atlopen19",
-        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "2019 Dancing a la Carte",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
-        "place": "Semis",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Professional Open Amer. Smooth Championship (W,T,F,VW)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Celebrating Rock Legends!",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Celebrating Rock Legends!",
-        "info": "Professional Open Smooth (W/T/FT/VW)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Boca Ballroom Dancesport Competition",
-        "info": "Open Professional Smooth (W/T/F/VW)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Boca Ballroom Dancesport Competition",
-        "info": "Professional Rising Star Smooth (W/T/F/VW)",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "2019 Ultimate Dancesport Challenge",
-        "info": "Rising Star Professional American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 66.5,
-    "avg_pts": 7.39
-  },
-  {
     "name": "Lightner, Christian and Kenney, Kia",
     "results": [
       {
@@ -4872,10 +4991,22 @@
         "info": "Professional Rising Star American Smooth (W/T/F/VW)",
         "place": "Semis",
         "points": 4.5
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 7.5
       }
     ],
-    "total_pts": 120.2,
-    "avg_pts": 7.07
+    "total_pts": 137.7,
+    "avg_pts": 7.25
   },
   {
     "name": "Silantev, Anton and Akopova, Olga",
@@ -4897,6 +5028,19 @@
     "avg_pts": 7.0
   },
   {
+    "name": "Catalan, Mateo and Lenore, Allison",
+    "results": [
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "Open Professional Events Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 7.0,
+    "avg_pts": 7.0
+  },
+  {
     "name": "Jackson, Ryan and Grohoske, Ellie",
     "results": [
       {
@@ -4910,29 +5054,167 @@
     "avg_pts": 7.0
   },
   {
-    "name": "Dogoter, Igor and Gorshkova, Natalia",
+    "name": "Guthrie, Trevor and Guthrie, Emily",
     "results": [
       {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "Professional Rising Star Smooth (W/T/F/VW)",
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "info": "Professional Rising Star American Smooth(W/T/F/V)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "info": "Professional Open American Smooth(W/T/F/V)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Rising Star Professional American Smooth (W/T/F/VW)",
+        "place": "7",
+        "points": 6.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Open Professional American Smooth Championships (W/T/F/VW)",
+        "place": "quarters",
+        "points": 3.2
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "info": "<152>Professional Rising Star American Smooth Competition (W/T/FT/VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "info": "<156>Open Professional American Smooth Championship(W/T/FT/VW)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "Rising Star Professional Smooth (W/T/F/VW)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "Open Professional Smooth (W/T/F/VW)",
         "place": "6",
         "points": 10.5
       },
       {
-        "comp_name": "2019 NV Ball",
-        "info": "Rising Star Professional American Smooth (W/T/F/VW)",
-        "place": "4",
+        "comp_name": "New Orleans Open",
+        "info": "Professional Rising Star American Smooth(W/T/F/V)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "New Orleans Open",
+        "info": "Professional Open American Smooth(W/T/F/V)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Open Professional American Smooth Championship (W/T/F/VW)",
+        "place": "quarters",
+        "points": 0.4
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "Professional Open American Smooth (W/T/FT/VW)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Rising Star Professional American Smooth(W/T/FT/VW)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Open Professional American Smooth(W/T/FT/VW)",
+        "place": "quarters",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Open Championships  Amer. Smooth Championship (W,T,F,VW)",
+        "place": "quarters",
+        "points": 0.8
+      },
+      {
+        "comp_name": "Volunteer State Dance Challenge",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "1",
         "points": 10.0
       },
       {
-        "comp_name": "2019 NV Ball",
-        "info": "Open Professional American Smooth Championship (W/T/F/VW)",
+        "comp_name": "Volunteer State Dance Challenge",
+        "info": "Professional American Smooth (W/T/F/VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
         "place": "Semis",
-        "points": 0.3
+        "points": 4.5
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Open American Smooth (W/T/F/VW)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "quarters",
+        "points": 3.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "7",
+        "points": 9.0
       }
     ],
-    "total_pts": 20.8,
-    "avg_pts": 6.93
+    "total_pts": 179.1,
+    "avg_pts": 6.89
   },
   {
     "name": "Gullett, Orion and Petersen, Brittany",
@@ -4966,48 +5248,138 @@
     "avg_pts": 6.8
   },
   {
-    "name": "Santapaola, Christopher and DeView, Rachel",
+    "name": "Dawson, Staz and Gonyea, Jacklyn",
     "results": [
       {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Pro Rising Star American Smooth (W/T/F/VW)",
+        "comp_name": "Indiana Challenge",
+        "info": "Open Open Professional American Smooth (W/T/FT/VW)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "info": "<152>Professional Rising Star American Smooth Competition (W/T/FT/VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Heritage Classic",
+        "info": "<156>Open Professional American Smooth Championship(W/T/FT/VW)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Open American Smooth Championship (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 0.9
+      },
+      {
+        "comp_name": "Music City Invitational",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "Open Professional Am. Smooth (W/T/F/VW)",
+        "place": "quarters",
+        "points": 1.6
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "Professional Open American Smooth (W/T/FT/VW)",
         "place": "Semis",
         "points": 1.8
       },
       {
         "comp_name": "2019 Dancing a la Carte",
         "info": "Professional Open Smooth (W/T/FT/VW)",
-        "place": "6",
-        "points": 10.5
+        "place": "5",
+        "points": 12.0
       },
       {
-        "comp_name": "Yankee Classic",
-        "info": "Professional Open American Smooth (W/T/F/VW)",
-        "place": "5",
-        "points": 8.0
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Open Professional Smooth (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 0.6
       }
     ],
-    "total_pts": 20.3,
+    "total_pts": 60.9,
     "avg_pts": 6.77
   },
   {
-    "name": "Seigler, Justin and Noreen, Malinee",
+    "name": "Krasnyanskiy, Dmitry and Frances, Esther",
     "results": [
       {
-        "comp_name": "2019 Ultimate Dancesport Challenge",
-        "info": "Rising Star Professional American Smooth (W/T/F/VW)",
-        "place": "2",
-        "points": 3.5
+        "comp_name": "atlopen19",
+        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2019 Dancing a la Carte",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Professional Open Amer. Smooth Championship (W,T,F,VW)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "Professional Open Smooth (W/T/FT/VW)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Boca Ballroom Dancesport Competition",
+        "info": "Open Professional Smooth (W/T/F/VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Boca Ballroom Dancesport Competition",
+        "info": "Professional Rising Star Smooth (W/T/F/VW)",
+        "place": "4",
+        "points": 5.0
       },
       {
         "comp_name": "2019 Ultimate Dancesport Challenge",
+        "info": "Rising Star Professional American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
         "info": "Open Professional American Smooth (W/T/F/VW)",
-        "place": "3",
-        "points": 10.0
+        "place": "Semis",
+        "points": 0.3
       }
     ],
-    "total_pts": 13.5,
-    "avg_pts": 6.75
+    "total_pts": 73.8,
+    "avg_pts": 6.71
   },
   {
     "name": "Mora, Leo and Garced, Christina",
@@ -5227,157 +5599,6 @@
     "avg_pts": 6.69
   },
   {
-    "name": "Guthrie, Trevor and Guthrie, Emily",
-    "results": [
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "info": "Professional Rising Star American Smooth(W/T/F/V)",
-        "place": "3",
-        "points": 6.5
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "info": "Professional Open American Smooth(W/T/F/V)",
-        "place": "Semis",
-        "points": 0.3
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "Rising Star Professional American Smooth (W/T/F/VW)",
-        "place": "7",
-        "points": 6.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "Open Professional American Smooth Championships (W/T/F/VW)",
-        "place": "quarters",
-        "points": 3.2
-      },
-      {
-        "comp_name": "Heritage Classic",
-        "info": "<152>Professional Rising Star American Smooth Competition (W/T/FT/VW)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Heritage Classic",
-        "info": "<156>Open Professional American Smooth Championship(W/T/FT/VW)",
-        "place": "Semis",
-        "points": 6.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "Rising Star Professional Smooth (W/T/F/VW)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "Open Professional Smooth (W/T/F/VW)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "info": "Professional Rising Star American Smooth(W/T/F/V)",
-        "place": "2",
-        "points": 8.0
-      },
-      {
-        "comp_name": "New Orleans Open",
-        "info": "Professional Open American Smooth(W/T/F/V)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Open Professional American Smooth Championship (W/T/F/VW)",
-        "place": "quarters",
-        "points": 0.4
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
-        "place": "2",
-        "points": 8.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "Professional Open American Smooth (W/T/FT/VW)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Rising Star Professional American Smooth(W/T/FT/VW)",
-        "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Open Professional American Smooth(W/T/FT/VW)",
-        "place": "quarters",
-        "points": 2.4
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
-        "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Open Championships  Amer. Smooth Championship (W,T,F,VW)",
-        "place": "quarters",
-        "points": 0.8
-      },
-      {
-        "comp_name": "Volunteer State Dance Challenge",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Volunteer State Dance Challenge",
-        "info": "Professional American Smooth (W/T/F/VW)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Open American Smooth (W/T/F/VW)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "United States Dance Championships",
-        "info": "US National Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "quarters",
-        "points": 3.0
-      }
-    ],
-    "total_pts": 157.1,
-    "avg_pts": 6.55
-  },
-  {
     "name": "Merenkov, Artem and Merenkov, Tatiana",
     "results": [
       {
@@ -5461,6 +5682,49 @@
     ],
     "total_pts": 84.4,
     "avg_pts": 6.49
+  },
+  {
+    "name": "Spasov, Ivan and Blyth, Sabine",
+    "results": [
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "place": "6",
+        "points": 3.5
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "Professional Rising Star Smooth Championship (W/T/F/VW)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "Professional Open Smooth Championship (W/T/F/VW)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "Rising Star Professional American Smooth (W/T/F/VW)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 38.5,
+    "avg_pts": 6.42
   },
   {
     "name": "Kralev, Nikolay and DiBacco Daniells, Julianne",
@@ -5584,37 +5848,6 @@
     "avg_pts": 6.2
   },
   {
-    "name": "Serbulenco, Vladimir and Strancaric, Ivana",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Pro Rising Star American Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 5.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "Rising Star Professional Smooth (W/T/F/VW)",
-        "place": "6",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "Open Professional  Smooth (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 3.3
-      },
-      {
-        "comp_name": "2019 Dancing a la Carte",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "3",
-        "points": 13.0
-      }
-    ],
-    "total_pts": 24.8,
-    "avg_pts": 6.2
-  },
-  {
     "name": "Merz, Timmy and Strashnikova, Diana",
     "results": [
       {
@@ -5719,6 +5952,25 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Jensen, August and Scheetz, Nanette",
+    "results": [
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Professional Open Amer. Smooth (W,T,F,VW)",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 11.5,
+    "avg_pts": 5.75
+  },
+  {
     "name": "Greer, Aaron and Greer, Victoria",
     "results": [
       {
@@ -5793,54 +6045,41 @@
     "avg_pts": 5.7
   },
   {
-    "name": "Spasov, Ivan and Blyth, Sabine",
+    "name": "Serbulenco, Vladimir and Strancaric, Ivana",
     "results": [
       {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Pro Rising Star American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "Rising Star Professional Smooth (W/T/F/VW)",
         "place": "6",
         "points": 3.5
       },
       {
-        "comp_name": "International Grand Ball",
-        "info": "Professional Rising Star Smooth Championship (W/T/F/VW)",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "Professional Open Smooth Championship (W/T/F/VW)",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "Rising Star Professional American Smooth (W/T/F/VW)",
-        "place": "6",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 22.5,
-    "avg_pts": 5.62
-  },
-  {
-    "name": "Roberts, Michael and Sansing, Skylor",
-    "results": [
-      {
-        "comp_name": "Yankee Classic",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "3",
-        "points": 6.5
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "Open Professional  Smooth (W/T/FT/VW)",
         "place": "Semis",
-        "points": 4.5
+        "points": 3.3
+      },
+      {
+        "comp_name": "2019 Dancing a la Carte",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 3.6
       }
     ],
-    "total_pts": 11.0,
-    "avg_pts": 5.5
+    "total_pts": 28.4,
+    "avg_pts": 5.68
   },
   {
     "name": "Glosson, Sherrad and Meade, Aubrey",
@@ -5856,6 +6095,44 @@
         "info": "Professional Open American Smooth (W/T/F/VW)",
         "place": "2",
         "points": 7.0
+      }
+    ],
+    "total_pts": 11.0,
+    "avg_pts": 5.5
+  },
+  {
+    "name": "Nakaaki, Jun and Nakaaki, Aki",
+    "results": [
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 11.0,
+    "avg_pts": 5.5
+  },
+  {
+    "name": "Roberts, Michael and Sansing, Skylor",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 4.5
       }
     ],
     "total_pts": 11.0,
@@ -5953,6 +6230,127 @@
     "avg_pts": 5.38
   },
   {
+    "name": "Nunez, Antonio and Kashkina, Ksenia",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "Professional Rising Star Smooth (W/T/F/VW)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "Open Professional Am. Smooth (W/T/F/VW)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "Professional Open Smooth (W/T/FT/VW)",
+        "place": "quarters",
+        "points": 0.4
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Professional Rising Star Events American Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 2.2
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 5.1
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "Professional Rising Star American Smooth Championships (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 1.8
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "Professional Open American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "Twin Cities Open",
+        "info": "Professional Rising Star Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "Twin Cities Open",
+        "info": "Professional Open Smooth Championship (W/T/F/VW)",
+        "place": "7",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Boca Ballroom Dancesport Competition",
+        "info": "Open Professional Smooth (W/T/F/VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Boca Ballroom Dancesport Competition",
+        "info": "Professional Rising Star Smooth (W/T/F/VW)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "quarters",
+        "points": 2.7
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional American Smooth Championship (W/T/F/VW)",
+        "place": "round 1",
+        "points": 1.5
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "6",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 101.2,
+    "avg_pts": 5.33
+  },
+  {
     "name": "Mayo, Sean and Camargo, Alexandria",
     "results": [
       {
@@ -5989,6 +6387,164 @@
     ],
     "total_pts": 10.5,
     "avg_pts": 5.25
+  },
+  {
+    "name": "Santapaola, Christopher and DeView, Rachel",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Pro Rising Star American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 1.8
+      },
+      {
+        "comp_name": "2019 Dancing a la Carte",
+        "info": "Professional Open Smooth (W/T/FT/VW)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "Professional Open American Smooth (W/T/F/VW)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 0.3
+      }
+    ],
+    "total_pts": 20.6,
+    "avg_pts": 5.15
+  },
+  {
+    "name": "Wayne, Christopher and Evan, Mallory",
+    "results": [
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "Professional Open Smooth Championship (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 5.4
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
+        "place": "6",
+        "points": 3.5
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "Professional Open American Smooth (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 1.5
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 3.2
+      },
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Professional Open Amer. Smooth Championship (W,T,F,VW)",
+        "place": "Semis",
+        "points": 4.8
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Rising Star Professional American Smooth(W/T/FT/VW)",
+        "place": "quarters",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Open Professional American Smooth(W/T/FT/VW)",
+        "place": "quarters",
+        "points": 0.8
+      },
+      {
+        "comp_name": "Twin Cities Open",
+        "info": "Professional Rising Star Smooth (W/T/F/VW)",
+        "place": "7",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Twin Cities Open",
+        "info": "Professional Open Smooth Championship (W/T/F/VW)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "Professional Rising Star Smooth Championship (W/T/F/VW)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "Professional Open Smooth Championship (W/T/F/VW)",
+        "place": "7",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Heart of America DanceSport Championships",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Heart of America DanceSport Championships",
+        "info": "Professional Open Smooth Championship (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Open American Smooth (W/T/F/VW)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "quarters",
+        "points": 1.5
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "US National Professional American Smooth Championship (W/T/F/VW)",
+        "place": "round 1",
+        "points": 2.5
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Rising Star Professional Smooth (W/T/FT/VW)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Open Professional Smooth (W/T/FT/VW)",
+        "place": "4",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 102.7,
+    "avg_pts": 5.13
   },
   {
     "name": "Davis, Steven and Davidson, Elizabeth",
@@ -6115,113 +6671,29 @@
     "avg_pts": 4.96
   },
   {
-    "name": "Nunez, Antonio and Kashkina, Ksenia",
+    "name": "Savchenko, Dmitry and Nunez, Tania",
     "results": [
       {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "Professional Rising Star Smooth (W/T/F/VW)",
-        "place": "6",
-        "points": 7.0
+        "comp_name": "The DBDC 2019",
+        "info": "Rising Star Professional Smooth (W/T/F/VW)",
+        "place": "4",
+        "points": 5.0
       },
       {
-        "comp_name": "The Windy City Open",
-        "info": "Open Professional Am. Smooth (W/T/F/VW)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "comp_name": "Empire Dance Championship",
         "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 1.4
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
         "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "Professional Open Smooth (W/T/FT/VW)",
-        "place": "quarters",
-        "points": 0.4
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Professional Rising Star Events American Smooth (W,T,F,VW)",
-        "place": "Semis",
-        "points": 2.2
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
-        "place": "Semis",
-        "points": 5.1
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "Professional Rising Star American Smooth Championships (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 1.8
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "Professional Open American Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 0.3
-      },
-      {
-        "comp_name": "Twin Cities Open",
-        "info": "Professional Rising Star Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 3.6
-      },
-      {
-        "comp_name": "Twin Cities Open",
-        "info": "Professional Open Smooth Championship (W/T/F/VW)",
-        "place": "7",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Boca Ballroom Dancesport Competition",
-        "info": "Open Professional Smooth (W/T/F/VW)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Boca Ballroom Dancesport Competition",
-        "info": "Professional Rising Star Smooth (W/T/F/VW)",
-        "place": "2",
         "points": 8.0
-      },
-      {
-        "comp_name": "United States Dance Championships",
-        "info": "US National Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "quarters",
-        "points": 2.7
-      },
-      {
-        "comp_name": "United States Dance Championships",
-        "info": "US National Professional American Smooth Championship (W/T/F/VW)",
-        "place": "round 1",
-        "points": 1.5
       }
     ],
-    "total_pts": 80.7,
-    "avg_pts": 4.75
+    "total_pts": 14.4,
+    "avg_pts": 4.8
   },
   {
     "name": "Trexler, Nathan and Bishop, Brittany",
@@ -6241,109 +6713,6 @@
     ],
     "total_pts": 9.5,
     "avg_pts": 4.75
-  },
-  {
-    "name": "Donelan, Dustin and Anderson, Georgietta",
-    "results": [
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "Professional Rising Star Smooth (W/T/F/VW)",
-        "place": "quarters",
-        "points": 3.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "Professional Rising Star American Smooth Championship (W/T/FT/VW)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "Professional Open American Smooth Championship (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 5.1
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "Professional Open Smooth Championship (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 1.2
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Professional Rising Star Events American Smooth (W,T,F,VW)",
-        "place": "Semis",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
-        "place": "Semis",
-        "points": 1.2
-      },
-      {
-        "comp_name": "Savannah Dance Classic",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Savannah Dance Classic",
-        "info": "Professional Open American Smooth (W/T/F/VW)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Celebrating Rock Legends!",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Celebrating Rock Legends!",
-        "info": "Professional Open Smooth (W/T/FT/VW)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Twin Cities Open",
-        "info": "Professional Rising Star Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 2.8
-      },
-      {
-        "comp_name": "Twin Cities Open",
-        "info": "Professional Open Smooth Championship (W/T/F/VW)",
-        "place": "8",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Heart of America DanceSport Championships",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 1.0
-      },
-      {
-        "comp_name": "Heart of America DanceSport Championships",
-        "info": "Professional Open Smooth Championship (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 0.3
-      }
-    ],
-    "total_pts": 75.6,
-    "avg_pts": 4.72
   },
   {
     "name": "Stockton, Andrew and Smith, Rachel",
@@ -6462,119 +6831,119 @@
     "avg_pts": 4.59
   },
   {
-    "name": "Wayne, Christopher and Evan, Mallory",
+    "name": "Donelan, Dustin and Anderson, Georgietta",
     "results": [
       {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "Professional Open Smooth Championship (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 5.4
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
-        "place": "6",
-        "points": 3.5
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "Professional Open American Smooth (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 1.5
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
-        "place": "Semis",
-        "points": 3.2
-      },
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Professional Open Amer. Smooth Championship (W,T,F,VW)",
-        "place": "Semis",
-        "points": 4.8
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Rising Star Professional American Smooth(W/T/FT/VW)",
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "Professional Rising Star Smooth (W/T/F/VW)",
         "place": "quarters",
         "points": 3.0
       },
       {
-        "comp_name": "Millennium Dancesport",
-        "info": "Open Professional American Smooth(W/T/FT/VW)",
-        "place": "quarters",
-        "points": 0.8
-      },
-      {
-        "comp_name": "Twin Cities Open",
-        "info": "Professional Rising Star Smooth (W/T/F/VW)",
-        "place": "7",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Twin Cities Open",
-        "info": "Professional Open Smooth Championship (W/T/F/VW)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "Professional Rising Star Smooth Championship (W/T/F/VW)",
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Rising Star American Smooth Championship (W/T/FT/VW)",
         "place": "5",
         "points": 4.0
       },
       {
-        "comp_name": "International Grand Ball",
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Open American Smooth Championship (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 5.1
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "Professional Open Smooth Championship (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 1.2
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Professional Rising Star Events American Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 1.2
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Savannah Dance Classic",
+        "info": "Professional Open American Smooth (W/T/F/VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "Professional Open Smooth (W/T/FT/VW)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Twin Cities Open",
+        "info": "Professional Rising Star Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 2.8
+      },
+      {
+        "comp_name": "Twin Cities Open",
         "info": "Professional Open Smooth Championship (W/T/F/VW)",
-        "place": "7",
-        "points": 6.0
+        "place": "8",
+        "points": 7.5
       },
       {
         "comp_name": "Heart of America DanceSport Championships",
         "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "5",
-        "points": 8.0
+        "place": "Semis",
+        "points": 1.0
       },
       {
         "comp_name": "Heart of America DanceSport Championships",
         "info": "Professional Open Smooth Championship (W/T/FT/VW)",
         "place": "Semis",
-        "points": 7.5
+        "points": 0.3
       },
       {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Rising Star Professional Smooth (W/T/FT/VW)",
+        "place": "6",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Open Professional Smooth (W/T/FT/VW)",
         "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Open American Smooth (W/T/F/VW)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "United States Dance Championships",
-        "info": "US National Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "quarters",
-        "points": 1.5
-      },
-      {
-        "comp_name": "United States Dance Championships",
-        "info": "US National Professional American Smooth Championship (W/T/F/VW)",
-        "place": "round 1",
-        "points": 2.5
+        "points": 3.3
       }
     ],
-    "total_pts": 81.2,
-    "avg_pts": 4.51
+    "total_pts": 82.4,
+    "avg_pts": 4.58
   },
   {
     "name": "Kuzmenko, Dmitriy and Kuzmenko, Andrea",
@@ -6948,43 +7317,6 @@
     "avg_pts": 4.0
   },
   {
-    "name": "Whitten, Chris and Michaud, Kristyn",
-    "results": [
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 0.8
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "2019 Dancing a la Carte",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Yankee Classic",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
-        "place": "quarters",
-        "points": 3.0
-      }
-    ],
-    "total_pts": 19.8,
-    "avg_pts": 3.96
-  },
-  {
     "name": "Welch, Benjamin and Lyons, Rae",
     "results": [
       {
@@ -7132,6 +7464,92 @@
     "avg_pts": 3.73
   },
   {
+    "name": "Leonard, Charles and Mirzalieva, Kamilla",
+    "results": [
+      {
+        "comp_name": "The Windy City Open",
+        "info": "Professional Rising Star Am. Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 0.6
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "Open Professional Am. Smooth (W/T/F/VW)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "Professional Open Smooth Championship (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 0.2
+      },
+      {
+        "comp_name": "motown2019[blake%20kish]",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 29.6,
+    "avg_pts": 3.7
+  },
+  {
+    "name": "Seigler, Justin and Noreen, Malinee",
+    "results": [
+      {
+        "comp_name": "2019 Ultimate Dancesport Challenge",
+        "info": "Rising Star Professional American Smooth (W/T/F/VW)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2019 Ultimate Dancesport Challenge",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 1.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 0.3
+      }
+    ],
+    "total_pts": 14.8,
+    "avg_pts": 3.7
+  },
+  {
     "name": "Koogle, Scott and Wailes, Faith",
     "results": [
       {
@@ -7182,47 +7600,47 @@
     "avg_pts": 3.5
   },
   {
-    "name": "Leonard, Charles and Mirzalieva, Kamilla",
+    "name": "Whitten, Chris and Michaud, Kristyn",
     "results": [
       {
-        "comp_name": "The Windy City Open",
-        "info": "Professional Rising Star Am. Smooth (W/T/F/VW)",
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
         "place": "Semis",
-        "points": 0.6
+        "points": 0.8
       },
       {
-        "comp_name": "The Windy City Open",
-        "info": "Open Professional Am. Smooth (W/T/F/VW)",
-        "place": "quarters",
+        "comp_name": "American Star Ball Championships",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
+        "place": "5",
         "points": 4.0
       },
       {
-        "comp_name": "wisconsin19[martin cawston]",
+        "comp_name": "2019 Dancing a la Carte",
         "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 4.5
+        "place": "6",
+        "points": 7.0
       },
       {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "Professional Open Smooth Championship (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 0.3
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 0.2
-      },
-      {
-        "comp_name": "motown2019[blake%20kish]",
+        "comp_name": "Yankee Classic",
         "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 10.0
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "place": "quarters",
+        "points": 3.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 0.4
       }
     ],
-    "total_pts": 19.6,
-    "avg_pts": 3.27
+    "total_pts": 20.2,
+    "avg_pts": 3.37
   },
   {
     "name": "Boldirev, Vadim and Boldirev, Karla",
@@ -7354,25 +7772,6 @@
     ],
     "total_pts": 12.9,
     "avg_pts": 3.23
-  },
-  {
-    "name": "Savchenko, Dmitry and Nunez, Tania",
-    "results": [
-      {
-        "comp_name": "The DBDC 2019",
-        "info": "Rising Star Professional Smooth (W/T/F/VW)",
-        "place": "4",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
-        "place": "Semis",
-        "points": 1.4
-      }
-    ],
-    "total_pts": 6.4,
-    "avg_pts": 3.2
   },
   {
     "name": "Weeks, David and Wilkens, Annie",
@@ -7513,6 +7912,25 @@
         "comp_name": "The Snow Ball",
         "info": "Professional Rising Star American Smooth (W/T/F/VW)",
         "place": "quarters",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 5.0,
+    "avg_pts": 2.5
+  },
+  {
+    "name": "Suzuki, Akira and Furukawa, Reina",
+    "results": [
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 2.0
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
         "points": 3.0
       }
     ],
@@ -7792,6 +8210,25 @@
     "avg_pts": 2.07
   },
   {
+    "name": "Sveshnikov, Artur and Gliebova, Svitlana",
+    "results": [
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 3.8
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 0.3
+      }
+    ],
+    "total_pts": 4.1,
+    "avg_pts": 2.05
+  },
+  {
     "name": "Cromwell, Robbie and Trimble, Ruth",
     "results": [
       {
@@ -7881,6 +8318,19 @@
     ],
     "total_pts": 28.1,
     "avg_pts": 2.01
+  },
+  {
+    "name": "Dioquino and Nerdahl, Shawn",
+    "results": [
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 2.0
+      }
+    ],
+    "total_pts": 2.0,
+    "avg_pts": 2.0
   },
   {
     "name": "Tucker, James and Kenner, Madelaine",
@@ -7977,31 +8427,6 @@
     "avg_pts": 1.8
   },
   {
-    "name": "Klimov, Artur and Chaldysheva, Anna",
-    "results": [
-      {
-        "comp_name": "The DBDC 2019",
-        "info": "Rising Star Professional Smooth (W/T/F/VW)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
-        "place": "Semis",
-        "points": 0.6
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Professional Events Amer. Smooth (W,T,F,VW)",
-        "place": "quarters",
-        "points": 0.8
-      }
-    ],
-    "total_pts": 5.4,
-    "avg_pts": 1.8
-  },
-  {
     "name": "Travis, Todd and Whitesell, Leslie",
     "results": [
       {
@@ -8045,6 +8470,37 @@
     ],
     "total_pts": 1.75,
     "avg_pts": 1.75
+  },
+  {
+    "name": "Klimov, Artur and Chaldysheva, Anna",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "Rising Star Professional Smooth (W/T/F/VW)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 0.6
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Professional Events Amer. Smooth (W,T,F,VW)",
+        "place": "quarters",
+        "points": 0.8
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Open Professional American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 1.5
+      }
+    ],
+    "total_pts": 6.9,
+    "avg_pts": 1.73
   },
   {
     "name": "Callahan, Joel and Callahan, Kimberly",
@@ -8153,6 +8609,55 @@
     "avg_pts": 1.58
   },
   {
+    "name": "Baltierra, Andre and Gill, Danae",
+    "results": [
+      {
+        "comp_name": "beachbash2019",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "quarters",
+        "points": 0.3
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 0.2
+      },
+      {
+        "comp_name": "Great Gatsby Gala",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 0.2
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 2.0
+      },
+      {
+        "comp_name": "Hawaii Star Ball",
+        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
+        "place": "Semis",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 10.5,
+    "avg_pts": 1.5
+  },
+  {
     "name": "Arndtson, Cody and Becker, Paris",
     "results": [
       {
@@ -8257,17 +8762,29 @@
     "avg_pts": 1.25
   },
   {
-    "name": "Osorno, Anthony and Messina, Mandi",
+    "name": "Kindt, Thomas and Abel, Coral",
     "results": [
       {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
-        "place": "quarters",
-        "points": 1.2
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 0.2
+      },
+      {
+        "comp_name": "Celebrating Rock Legends!",
+        "info": "Professional Open Smooth (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Rising Star Professional Smooth (W/T/FT/VW)",
+        "place": "7",
+        "points": 3.0
       }
     ],
-    "total_pts": 1.2,
-    "avg_pts": 1.2
+    "total_pts": 3.5,
+    "avg_pts": 1.17
   },
   {
     "name": "Safonov, Vadim and Safonova, Alina",
@@ -8293,43 +8810,6 @@
     ],
     "total_pts": 3.5,
     "avg_pts": 1.17
-  },
-  {
-    "name": "Baltierra, Andre and Gill, Danae",
-    "results": [
-      {
-        "comp_name": "beachbash2019",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "quarters",
-        "points": 0.3
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
-        "place": "Semis",
-        "points": 0.2
-      },
-      {
-        "comp_name": "Great Gatsby Gala",
-        "info": "Professional Open Events Amer. Smooth (W,T,F,VW)",
-        "place": "Semis",
-        "points": 0.3
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
-        "place": "Semis",
-        "points": 0.2
-      }
-    ],
-    "total_pts": 5.5,
-    "avg_pts": 1.1
   },
   {
     "name": "Williard, James and Melville, Ashley",
@@ -8474,6 +8954,25 @@
     ],
     "total_pts": 0.8,
     "avg_pts": 0.8
+  },
+  {
+    "name": "Osorno, Anthony and Messina, Mandi",
+    "results": [
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Rising Star Events Amer. Smooth (W,T,F,VW)",
+        "place": "quarters",
+        "points": 1.2
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Rising Star American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 0.2
+      }
+    ],
+    "total_pts": 1.4,
+    "avg_pts": 0.7
   },
   {
     "name": "Cegelski, Rane and Larson, Sarah",
@@ -8755,25 +9254,6 @@
       }
     ],
     "total_pts": 1.0,
-    "avg_pts": 0.25
-  },
-  {
-    "name": "Kindt, Thomas and Abel, Coral",
-    "results": [
-      {
-        "comp_name": "Celebrating Rock Legends!",
-        "info": "Professional Rising Star Smooth (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 0.2
-      },
-      {
-        "comp_name": "Celebrating Rock Legends!",
-        "info": "Professional Open Smooth (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 0.3
-      }
-    ],
-    "total_pts": 0.5,
     "avg_pts": 0.25
   },
   {
