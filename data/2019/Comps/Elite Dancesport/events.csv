@@ -6,19 +6,15 @@ Elite Dancesport,Amateur American 9-Dance S1 Amer. Rhythm (CC,R,SW,B,M),Rhythm,1
 Elite Dancesport,Amateur American 9-Dance S1 Amer. Smooth (W,T,F,VW),Smooth,15
 Elite Dancesport,Amateur Int'l 10-Dance A (W,T,VW,F,Q,CC,S,R,PD,J),Unknown,15
 Elite Dancesport,Amateur Int'l 10-Dance A Int'l Ballroom (W,T,VW,F,Q),Standard,15
-Elite Dancesport,Amateur Int'l 10-Dance A Int'l Latin (CC,S,R,PD),Latin,15
-Elite Dancesport,Amateur Int'l 6-Dance JR (W,T,Q,CC,R,J),Unknown,15
-Elite Dancesport,Amateur Int'l 6-Dance JR Int'l Ballroom (W,T,Q),Standard,15
-Elite Dancesport,Amateur Int'l 6-Dance JR Int'l Latin (CC,R,J),Latin,15
+Elite Dancesport,Amateur Int'l 10-Dance A Int'l Latin (CC,S,R,PD,J),Latin,15
 Elite Dancesport,Amateur Int'l 6-Dance PT (W,T,Q,CC,R,J),Unknown,15
 Elite Dancesport,Amateur Int'l 6-Dance PT Int'l Ballroom (W,T,Q),Standard,15
 Elite Dancesport,Amateur Int'l 6-Dance PT Int'l Latin (CC,R,J),Latin,15
+Elite Dancesport,Amateur Novice Events A Amer. Rhythm (CC,R,SW),Rhythm,5
 Elite Dancesport,Amateur Novice Events A Int'l Ballroom (W,T,Q),Standard,5
 Elite Dancesport,Amateur Novice Events A Int'l Latin (CC,S,R),Latin,5
 Elite Dancesport,Amateur Novice Events J1 Int'l Latin (CC,S,R),Latin,5
-Elite Dancesport,Amateur Novice Events J2 Int'l Ballroom (W,T,Q),Standard,5
 Elite Dancesport,Amateur Novice Events J2 Int'l Latin (CC,S,R),Latin,5
-Elite Dancesport,Amateur Novice Events S1 Amer. Rhythm (CC,R,SW),Rhythm,5
 Elite Dancesport,Amateur Novice Events S3 Amer. Rhythm (CC,R,SW),Rhythm,5
 Elite Dancesport,Amateur Novice Events S3 Int'l Ballroom (W,T,Q),Standard,5
 Elite Dancesport,Amateur Novice Events YH Int'l Latin (CC,S,R) /J2,Latin,5
@@ -28,10 +24,10 @@ Elite Dancesport,Amateur Novice Smooth S4 Amer. Smooth (W,T),Smooth,5
 Elite Dancesport,Amateur Open 4-5 Dance Events A Amer. Smooth (W,T,F,VW),Smooth,20
 Elite Dancesport,Amateur Open 4-5 Dance Events A Int'l Ballroom (W,T,VW,F,Q),Standard,20
 Elite Dancesport,Amateur Open 4-5 Dance Events A Int'l Latin (CC,S,R,PD,J),Latin,20
-Elite Dancesport,Amateur Open 4-5 Dance Events J1 Int'l Ballroom (W,T,VW,F,Q),Standard,20
-Elite Dancesport,Amateur Open 4-5 Dance Events J1 Int'l Latin (CC,S,R,PD,J),Latin,20
-Elite Dancesport,Amateur Open 4-5 Dance Events J2 Int'l Ballroom (W,T,VW,F,Q),Standard,20
-Elite Dancesport,Amateur Open 4-5 Dance Events J2 Int'l Latin (CC,S,R,PD,J),Latin,20
+Elite Dancesport,Amateur Open 4-5 Dance Events J1 Int'l Ballroom BofB (W,T,VW,F,Q),Standard,20
+Elite Dancesport,Amateur Open 4-5 Dance Events J1 Int'l Latin BofB (CC,S,R,PD,J),Latin,20
+Elite Dancesport,Amateur Open 4-5 Dance Events J2 Int'l Ballroom BofB (W,T,VW,F,Q),Standard,20
+Elite Dancesport,Amateur Open 4-5 Dance Events J2 Int'l Latin BofB (CC,S,R,PD,J),Latin,20
 Elite Dancesport,Amateur Open 4-5 Dance Events S1 Int'l Latin (CC,S,R,PD,J),Latin,20
 Elite Dancesport,Amateur Open 4-5 Dance Events S2 Int'l Ballroom (W,T,VW,F,Q),Standard,20
 Elite Dancesport,Amateur Open 4-5 Dance Events S2 Int'l Latin (CC,S,R,PD,J),Latin,20
@@ -39,10 +35,9 @@ Elite Dancesport,Amateur Open 4-5 Dance Events S3 Int'l Ballroom (W,T,VW,F,Q),St
 Elite Dancesport,Amateur Open 4-5 Dance Events U21 Amer. Smooth (W,T,F,VW),Smooth,20
 Elite Dancesport,Amateur Open 4-5 Dance Events U21 Int'l Latin (CC,S,R,PD,J),Latin,20
 Elite Dancesport,Amateur Open 4-5 Dance Events YH Amer. Smooth (W,T,F,VW),Smooth,20
-Elite Dancesport,Amateur Open 4-5 Dance Events YH Int'l Ballroom (W,T,VW,F,Q),Standard,20
-Elite Dancesport,Amateur Open 4-5 Dance Events YH Int'l Latin (CC,S,R,PD,J),Latin,20
+Elite Dancesport,Amateur Open 4-5 Dance Events YH Int'l Ballroom BofB (W,T,VW,F,Q),Standard,20
+Elite Dancesport,Amateur Open 4-5 Dance Events YH Int'l Latin BofB (CC,S,R,PD,J),Latin,20
 Elite Dancesport,Amateur Pre-Novice Events A Amer. Rhythm (CC,R),Rhythm,5
-Elite Dancesport,Amateur Pre-Novice Events A Int'l Latin (CC,R),Latin,5
 Elite Dancesport,Amateur Pre-Novice Events J1 Int'l Latin (CC,R),Latin,5
 Elite Dancesport,Amateur Pre-Novice Events S3 Amer. Rhythm (CC,R),Rhythm,5
 Elite Dancesport,Amateur Pre-Novice Events S3 Amer. Smooth (W,T),Smooth,5
@@ -73,17 +68,11 @@ Elite Dancesport,Elite Journey Point 10-Dance Open P2 AM/AM (W,T,VW,F,Q,S,CC,R,P
 Elite Dancesport,Elite Journey Point 10-Dance Open P2 Int'l Ballroom (W,T,VW,F,Q),Standard,20
 Elite Dancesport,Elite Journey Point 10-Dance Open P2 Int'l Latin (S,CC,R,PD,J),Latin,20
 Elite Dancesport,Elite Journey Point 2-Dance Closed Bronze P1 AM/AM (W,CC),Unknown,10
-Elite Dancesport,Elite Journey Point 2-Dance Closed Bronze P2 AM/AM (W,CC),Unknown,10
 Elite Dancesport,Elite Journey Point 2-Dance Closed Bronze TB AM/AM (W,CC),Unknown,10
-Elite Dancesport,Elite Journey Point 4-Dance Closed Bronze TB AM/AM (W,Q,CC,J),Unknown,10
-Elite Dancesport,Elite Journey Point 4-Dance Closed Bronze TB Int'l Ballroom (W,Q),Standard,10
-Elite Dancesport,Elite Journey Point 4-Dance Closed Bronze TB Int'l Latin (CC,J),Latin,10
+Elite Dancesport,Elite Journey Point 2-Dance Closed Bronze TB AM/AM (W,CC) /J,Unknown,10
 Elite Dancesport,Elite Journey Point 6-Dance Closed Siver P1 AM/AM (W,T,Q,CC,S,J),Unknown,15
 Elite Dancesport,Elite Journey Point 6-Dance Closed Siver P1 Int'l Ballroom (W,T,Q),Standard,15
 Elite Dancesport,Elite Journey Point 6-Dance Closed Siver P1 Int'l Latin (CC,S,J),Latin,15
-Elite Dancesport,Elite Journey Point 8-Dance Closed Gold P1 AM/AM (W,T,F,Q,CC,S,R,J),Unknown,20
-Elite Dancesport,Elite Journey Point 8-Dance Closed Gold P1 Int'l Ballroom (W,T,F,Q),Standard,20
-Elite Dancesport,Elite Journey Point 8-Dance Closed Gold P1 Int'l Latin (CC,S,R,J),Latin,20
 Elite Dancesport,NIghtclub 2-Dance B Nightclub (SA,ME),Nightclub,15
 Elite Dancesport,NIghtclub 2-Dance C Nightclub (SA,ME),Nightclub,15
 Elite Dancesport,NIghtclub 2-Dance SR Nightclub (SA,ME),Nightclub,15
@@ -99,8 +88,8 @@ Elite Dancesport,Preteen Amateur 2-Dance Events Closed P2 Int'l Ballroom (W,T),S
 Elite Dancesport,Preteen Amateur 2-Dance Events Closed P2 Int'l Latin (CC,R),Latin,15
 Elite Dancesport,Preteen Amateur 2-Dance Events Closed TB Int'l Ballroom (W,T),Standard,15
 Elite Dancesport,Preteen Amateur 2-Dance Events Closed TB Int'l Latin (CC,R),Latin,15
+Elite Dancesport,Preteen Amateur 2-Dance Events Closed TB Int'l Latin (CC,R) /J,Latin,15
 Elite Dancesport,Preteen Amateur 2-Dance Events Open P1 Int'l Latin (CC,R),Latin,20
-Elite Dancesport,Preteen Amateur 2-Dance Events Open P2 Int'l Latin (CC,R),Latin,20
 Elite Dancesport,Preteen Amateur 3-Dance Events Closed P1 Int'l Ballroom (W,T,Q),Standard,15
 Elite Dancesport,Preteen Amateur 3-Dance Events Closed P1 Int'l Latin (CC,S,R),Latin,15
 Elite Dancesport,Preteen Amateur 3-Dance Events Closed P2 Int'l Ballroom (W,T,Q),Standard,15
@@ -108,10 +97,9 @@ Elite Dancesport,Preteen Amateur 3-Dance Events Closed P2 Int'l Latin (CC,S,R),L
 Elite Dancesport,Preteen Amateur 3-Dance Events Closed TB Int'l Ballroom (W,T,Q),Standard,15
 Elite Dancesport,Preteen Amateur 3-Dance Events Closed TB Int'l Latin (CC,S,R),Latin,15
 Elite Dancesport,Preteen Amateur 3-Dance Events Open P1 Int'l Latin (CC,S,R),Latin,20
-Elite Dancesport,Preteen Amateur 3-Dance Events Open P2 Int'l Ballroom (W,T,Q),Standard,20
 Elite Dancesport,Preteen Amateur 3-Dance Events Open P2 Int'l Latin (CC,S,R),Latin,20
-Elite Dancesport,Preteen Amateur 4-5 Dance Events Closed P1 Int'l Latin (CC,S,R,PD,J),Latin,15
-Elite Dancesport,Preteen Amateur 4-5 Dance Events Closed P2 Int'l Latin (CC,S,R,PD,J),Latin,15
+Elite Dancesport,Preteen Amateur 4-5 Dance Events Closed P1 Int'l Latin BofB (CC,S,R,PD,J),Latin,15
+Elite Dancesport,Preteen Amateur 4-5 Dance Events Closed P2 Int'l Latin BofB (CC,S,R,PD,J),Latin,15
 Elite Dancesport,Preteen Amateur 4-5 Dance Events Closed TB Int'l Latin (CC,S,R,PD,J),Latin,15
 Elite Dancesport,Preteen Amateur 4-5 Dance Events Open P1 Int'l Latin (CC,S,R,PD,J),Latin,20
 Elite Dancesport,Preteen Amateur 4-5 Dance Events Open P2 Int'l Ballroom (W,T,VW,F,Q),Standard,20
@@ -120,7 +108,6 @@ Elite Dancesport,Pro-Am American Open 6-Dance Challenge C (W,T,F,CC,R,SW),Unknow
 Elite Dancesport,Pro-Am American Open 9-Dance Challenge B (W,T,F,VW,CC,R,SW,B,M),Unknown,20
 Elite Dancesport,Pro-Am American Open 9-Dance Challenge C (W,T,F,VW,CC,R,SW,B,M),Unknown,20
 Elite Dancesport,Pro-Am American Open 9-Dance Challenge SR (W,T,F,VW,CC,R,SW,B,M),Unknown,20
-Elite Dancesport,Pro-Am Bronze Multi Dance Closed A AM/AM Int'l Latin (CC,S,R),Latin,10
 Elite Dancesport,Pro-Am Bronze Multi Dance Closed A Amer. Rhythm (CC,R,SW),Rhythm,10
 Elite Dancesport,Pro-Am Bronze Multi Dance Closed A Amer. Smooth (W,T,F),Smooth,10
 Elite Dancesport,Pro-Am Bronze Multi Dance Closed A Int'l Latin (CC,S,R),Latin,10
@@ -147,25 +134,24 @@ Elite Dancesport,Pro-Am Bronze Multi Dance Closed J1 Amer. Smooth (W,T,F),Smooth
 Elite Dancesport,Pro-Am Bronze Multi Dance Closed J1 Int'l Latin (CC,S,R),Latin,10
 Elite Dancesport,Pro-Am Bronze Multi Dance Closed J2 Int'l Ballroom (W,T,Q),Standard,10
 Elite Dancesport,Pro-Am Bronze Multi Dance Closed P1 Int'l Latin (CC,S,R),Latin,10
-Elite Dancesport,Pro-Am Bronze Multi Dance Closed P2 AM/AM Int'l Ballroom (W,T,Q),Standard,10
 Elite Dancesport,Pro-Am Bronze Multi Dance Closed P2 AM/AM Int'l Latin (CC,S,R),Latin,10
-Elite Dancesport,Pro-Am Bronze Multi Dance Closed TB AM/AM Int'l Latin (CC,S,R),Latin,10
+Elite Dancesport,Pro-Am Bronze Multi Dance Closed P2 Int'l Latin (CC,S,R),Latin,10
 Elite Dancesport,Pro-Am Bronze Multi Dance Closed TB Int'l Ballroom (W,T,Q),Standard,10
 Elite Dancesport,Pro-Am Bronze Multi Dance Closed TB Int'l Latin (CC,S,R),Latin,10
 Elite Dancesport,Pro-Am Bronze Multi Dance Closed YH Amer. Rhythm (CC,R,SW),Rhythm,10
-Elite Dancesport,Pro-Am Bronze Multi Dance Closed YH Int'l Latin (CC,S,R),Latin,10
+Elite Dancesport,Pro-Am Bronze Multi Dance Closed mA AM/AM Int'l Latin (CC,S,R),Latin,10
+Elite Dancesport,Pro-Am Bronze Multi Dance Closed mP2 AM/AM Int'l Latin (CC,S,R),Latin,10
+Elite Dancesport,Pro-Am Bronze Multi Dance Closed mTB AM/AM Int'l Latin (CC,S,R),Latin,10
 Elite Dancesport,Pro-Am Bronze Multi Dance Open A Amer. Rhythm (CC,R,SW),Rhythm,15
-Elite Dancesport,Pro-Am Bronze Multi Dance Open A Int'l Latin (CC,S,R),Latin,15
 Elite Dancesport,Pro-Am Bronze Multi Dance Open B Amer. Smooth (W,T,F),Smooth,15
-Elite Dancesport,Pro-Am Bronze Multi Dance Open B Int'l Latin (CC,S,R),Latin,15
 Elite Dancesport,Pro-Am Bronze Multi Dance Open C1 Amer. Rhythm (CC,R,SW),Rhythm,15
 Elite Dancesport,Pro-Am Bronze Multi Dance Open C1 Amer. Smooth (W,T,F),Smooth,15
 Elite Dancesport,Pro-Am Bronze Multi Dance Open C1 Int'l Ballroom (W,T,Q),Standard,15
 Elite Dancesport,Pro-Am Bronze Multi Dance Open C2 Amer. Rhythm (CC,R,SW),Rhythm,15
 Elite Dancesport,Pro-Am Bronze Multi Dance Open C2 Amer. Smooth (W,T,F),Smooth,15
 Elite Dancesport,Pro-Am Bronze Multi Dance Open D Int'l Latin (CC,S,R),Latin,15
-Elite Dancesport,Pro-Am Bronze Multi Dance Open J1 AM/AM Int'l Latin (CC,S,R),Latin,15
-Elite Dancesport,Pro-Am Bronze Multi Dance Open YH Int'l Latin (CC,S,R),Latin,15
+Elite Dancesport,Pro-Am Bronze Multi Dance Open J1 Int'l Latin (CC,S,R),Latin,15
+Elite Dancesport,Pro-Am Bronze Multi Dance Open mJ1 AM/AM Int'l Latin (CC,S,R),Latin,15
 Elite Dancesport,Pro-Am Closed Bronze Scholarship A Amer. Rhythm (CC,R,SW),Rhythm,15
 Elite Dancesport,Pro-Am Closed Bronze Scholarship A Amer. Smooth (W,T,F),Smooth,15
 Elite Dancesport,Pro-Am Closed Bronze Scholarship B Amer. Rhythm (CC,R,SW),Rhythm,15
@@ -180,21 +166,23 @@ Elite Dancesport,Pro-Am Closed Bronze Scholarship SR Amer. Rhythm (CC,R,SW),Rhyt
 Elite Dancesport,Pro-Am Closed Bronze Scholarship SR Amer. Smooth (W,T,F),Smooth,15
 Elite Dancesport,Pro-Am Closed Bronze Scholarship SR Int'l Ballroom (W,T,Q),Standard,15
 Elite Dancesport,Pro-Am Closed Bronze Scholarship SR Int'l Latin (CC,S,R),Latin,15
-Elite Dancesport,Pro-Am Closed Silver Scholarship A Amer. Rhythm (CC,R,SW,M),Rhythm,20
-Elite Dancesport,Pro-Am Closed Silver Scholarship A Amer. Smooth (W,T,F,VW),Smooth,20
-Elite Dancesport,Pro-Am Closed Silver Scholarship A Int'l Latin (CC,S,R,J),Latin,20
-Elite Dancesport,Pro-Am Closed Silver Scholarship B Amer. Rhythm (CC,R,SW,M),Rhythm,20
-Elite Dancesport,Pro-Am Closed Silver Scholarship B Amer. Smooth (W,T,F,VW),Smooth,20
-Elite Dancesport,Pro-Am Closed Silver Scholarship B Int'l Ballroom (W,T,F,Q),Standard,20
-Elite Dancesport,Pro-Am Closed Silver Scholarship B Int'l Latin (CC,S,R,J),Latin,20
-Elite Dancesport,Pro-Am Closed Silver Scholarship C Amer. Rhythm (CC,R,SW,M),Rhythm,20
-Elite Dancesport,Pro-Am Closed Silver Scholarship C Amer. Smooth (W,T,F,VW),Smooth,20
-Elite Dancesport,Pro-Am Closed Silver Scholarship C Int'l Ballroom (W,T,F,Q),Standard,20
-Elite Dancesport,Pro-Am Closed Silver Scholarship C Int'l Latin (CC,S,R,J),Latin,20
-Elite Dancesport,Pro-Am Closed Silver Scholarship SR Amer. Rhythm (CC,R,SW,M),Rhythm,20
-Elite Dancesport,Pro-Am Closed Silver Scholarship SR Amer. Smooth (W,T,F,VW),Smooth,20
-Elite Dancesport,Pro-Am Closed Silver Scholarship SR Int'l Ballroom (W,T,F,Q),Standard,20
-Elite Dancesport,Pro-Am Closed Silver Scholarship SR Int'l Latin (CC,S,R,J),Latin,20
+Elite Dancesport,Pro-Am Closed Silver Scholarship A Amer. Rhythm BofB (CC,R,SW,M),Rhythm,20
+Elite Dancesport,Pro-Am Closed Silver Scholarship A Amer. Smooth BofB (W,T,F,VW),Smooth,20
+Elite Dancesport,Pro-Am Closed Silver Scholarship A Int'l Ballroom BofB (W,T,F,Q),Standard,20
+Elite Dancesport,Pro-Am Closed Silver Scholarship A Int'l Latin BofB (CC,S,R,J),Latin,20
+Elite Dancesport,Pro-Am Closed Silver Scholarship B Amer. Rhythm BofB (CC,R,SW,M),Rhythm,20
+Elite Dancesport,Pro-Am Closed Silver Scholarship B Amer. Smooth BofB (W,T,F,VW),Smooth,20
+Elite Dancesport,Pro-Am Closed Silver Scholarship B Int'l Ballroom BofB (W,T,F,Q),Standard,20
+Elite Dancesport,Pro-Am Closed Silver Scholarship B Int'l Latin BofB (CC,S,R,J),Latin,20
+Elite Dancesport,Pro-Am Closed Silver Scholarship C Amer. Rhythm BofB (CC,R,SW,M),Rhythm,20
+Elite Dancesport,Pro-Am Closed Silver Scholarship C Amer. Smooth BofB (W,T,F,VW),Smooth,20
+Elite Dancesport,Pro-Am Closed Silver Scholarship C Int'l Ballroom BofB (W,T,F,Q),Standard,20
+Elite Dancesport,Pro-Am Closed Silver Scholarship C Int'l Latin BofB (CC,S,R,J),Latin,20
+Elite Dancesport,Pro-Am Closed Silver Scholarship SR Amer. Rhythm BofB (CC,R,SW,M),Rhythm,20
+Elite Dancesport,Pro-Am Closed Silver Scholarship SR Amer. Smooth BofB (W,T,F,VW),Smooth,20
+Elite Dancesport,Pro-Am Closed Silver Scholarship SR Int'l Ballroom BofB (W,T,F,Q),Standard,20
+Elite Dancesport,Pro-Am Closed Silver Scholarship SR Int'l Latin BofB (CC,S,R,J),Latin,20
+Elite Dancesport,Pro-Am Gents Only Multi Dance Closed A Amer. Rhythm (CC,R,SW,B,M),Rhythm,15
 Elite Dancesport,Pro-Am Gents Only Multi Dance Closed A Amer. Smooth (W,T,F,VW),Smooth,15
 Elite Dancesport,Pro-Am Gents Only Multi Dance Closed C Amer. Rhythm (CC,R,SW,B,M),Rhythm,15
 Elite Dancesport,Pro-Am Gents Only Multi Dance Closed C Amer. Smooth (W,T,F,VW),Smooth,15
@@ -213,17 +201,16 @@ Elite Dancesport,Pro-Am Global Senior Open Scholarship Int'l Ballroom (W,T,VW,F,
 Elite Dancesport,Pro-Am Global Senior Open Scholarship Int'l Latin (CC,S,R,PD,J),Latin,25
 Elite Dancesport,Pro-Am Gold Multi Dance Closed C Amer. Rhythm (CC,R,SW,B,M),Rhythm,20
 Elite Dancesport,Pro-Am Gold Multi Dance Closed C Amer. Smooth (W,T,F,VW),Smooth,20
-Elite Dancesport,Pro-Am Gold Multi Dance Closed C Int'l Latin (CC,S,R,PD,J),Latin,20
 Elite Dancesport,Pro-Am Gold Multi Dance Closed C1 Amer. Rhythm (CC,R,SW,B,M),Rhythm,20
 Elite Dancesport,Pro-Am Gold Multi Dance Closed C1 Int'l Ballroom (W,T,VW,F,Q),Standard,20
 Elite Dancesport,Pro-Am Gold Multi Dance Closed C2 Amer. Smooth (W,T,F,VW),Smooth,20
 Elite Dancesport,Pro-Am Gold Multi Dance Closed C2 Int'l Ballroom (W,T,VW,F,Q),Standard,20
 Elite Dancesport,Pro-Am Gold Multi Dance Closed P1 Int'l Latin (CC,S,R,PD,J),Latin,20
-Elite Dancesport,Pro-Am Gold Multi Dance Closed P2 AM/AM Int'l Latin (CC,S,R,PD,J),Latin,20
 Elite Dancesport,Pro-Am Gold Multi Dance Closed TB Int'l Latin (CC,S,R,PD,J),Latin,20
+Elite Dancesport,Pro-Am Gold Multi Dance Closed mP2 AM/AM Int'l Latin (CC,S,R,PD,J),Latin,20
 Elite Dancesport,Pro-Am Gold Multi Dance Open B Amer. Smooth (W,T,F,VW),Smooth,25
-Elite Dancesport,Pro-Am Gold Multi Dance Open B Int'l Latin (CC,S,R,PD,J),Latin,25
 Elite Dancesport,Pro-Am Gold Multi Dance Open C Amer. Smooth (W,T,F,VW),Smooth,25
+Elite Dancesport,Pro-Am Gold Multi Dance Open C Int'l Ballroom (W,T,VW,F,Q),Standard,25
 Elite Dancesport,Pro-Am Gold Multi Dance Open C Int'l Latin (CC,S,R,PD,J),Latin,25
 Elite Dancesport,Pro-Am Gold Multi Dance Open C1 Amer. Rhythm (CC,R,SW,B,M),Rhythm,25
 Elite Dancesport,Pro-Am Gold Multi Dance Open C1 Amer. Smooth (W,T,F,VW),Smooth,25
@@ -234,9 +221,12 @@ Elite Dancesport,Pro-Am Gold Multi Dance Open C2 Amer. Smooth (W,T,F,VW),Smooth,
 Elite Dancesport,Pro-Am Gold Multi Dance Open C2 Int'l Ballroom (W,T,VW,F,Q),Standard,25
 Elite Dancesport,Pro-Am Gold Multi Dance Open C2 Int'l Latin (CC,S,R,PD,J),Latin,25
 Elite Dancesport,Pro-Am Gold Multi Dance Open D Int'l Ballroom (W,T,VW,F,Q),Standard,25
-Elite Dancesport,Pro-Am Gold Multi Dance Open J1 AM/AM Int'l Latin (CC,S,R,PD,J),Latin,25
+Elite Dancesport,Pro-Am Gold Multi Dance Open J1 Int'l Latin (CC,S,R,PD,J),Latin,25
 Elite Dancesport,Pro-Am Gold Multi Dance Open J2 Int'l Latin (CC,S,R,PD,J),Latin,25
 Elite Dancesport,Pro-Am Gold Multi Dance Open YH Amer. Smooth (W,T,F,VW),Smooth,25
+Elite Dancesport,Pro-Am Gold Multi Dance Open YH Int'l Latin (CC,S,R,PD,J),Latin,25
+Elite Dancesport,Pro-Am Gold Multi Dance Open mJ1 AM/AM Int'l Latin (CC,S,R,PD,J),Latin,25
+Elite Dancesport,Pro-Am Gold Multi Dance Open mP2 AM/AM Int'l Latin (CC,S,R,PD,J),Latin,25
 Elite Dancesport,Pro-Am Open Scholarship A Amer. Rhythm (CC,R,SW,B,M),Rhythm,25
 Elite Dancesport,Pro-Am Open Scholarship A Amer. Smooth (W,T,F,VW),Smooth,25
 Elite Dancesport,Pro-Am Open Scholarship A Int'l Latin (CC,S,R,PD,J),Latin,25
@@ -248,8 +238,10 @@ Elite Dancesport,Pro-Am Open Scholarship C Amer. Rhythm (CC,R,SW,B,M),Rhythm,25
 Elite Dancesport,Pro-Am Open Scholarship C Amer. Smooth (W,T,F,VW),Smooth,25
 Elite Dancesport,Pro-Am Open Scholarship C Int'l Ballroom (W,T,VW,F,Q),Standard,25
 Elite Dancesport,Pro-Am Open Scholarship C Int'l Latin (CC,S,R,PD,J),Latin,25
+Elite Dancesport,Pro-Am Silver Multi Dance Closed A Amer. Rhythm (CC,R,SW,M),Rhythm,15
 Elite Dancesport,Pro-Am Silver Multi Dance Closed A Amer. Smooth (W,T,F,VW),Smooth,15
 Elite Dancesport,Pro-Am Silver Multi Dance Closed A Int'l Latin (CC,S,R,J),Latin,15
+Elite Dancesport,Pro-Am Silver Multi Dance Closed B Amer. Rhythm (CC,R,SW,M),Rhythm,15
 Elite Dancesport,Pro-Am Silver Multi Dance Closed B Amer. Smooth (W,T,F,VW),Smooth,15
 Elite Dancesport,Pro-Am Silver Multi Dance Closed B Int'l Ballroom (W,T,F,Q),Standard,15
 Elite Dancesport,Pro-Am Silver Multi Dance Closed B Int'l Latin (CC,S,R,J),Latin,15
@@ -266,16 +258,14 @@ Elite Dancesport,Pro-Am Silver Multi Dance Closed C2 Amer. Smooth (W,T,F,VW),Smo
 Elite Dancesport,Pro-Am Silver Multi Dance Closed C2 Int'l Ballroom (W,T,F,Q),Standard,15
 Elite Dancesport,Pro-Am Silver Multi Dance Closed C2 Int'l Latin (CC,S,R,J),Latin,15
 Elite Dancesport,Pro-Am Silver Multi Dance Closed D Int'l Ballroom (W,T,F,Q),Standard,15
-Elite Dancesport,Pro-Am Silver Multi Dance Closed J1 Int'l Latin (CC,S,R,J),Latin,15
 Elite Dancesport,Pro-Am Silver Multi Dance Closed J2 Int'l Latin (CC,S,R,J),Latin,15
-Elite Dancesport,Pro-Am Silver Multi Dance Closed P1 Amer. Smooth (W,T,F,VW),Smooth,15
 Elite Dancesport,Pro-Am Silver Multi Dance Closed P1 Int'l Latin (CC,S,R,J),Latin,15
-Elite Dancesport,Pro-Am Silver Multi Dance Closed P2 AM/AM Int'l Latin (CC,S,R,J),Latin,15
 Elite Dancesport,Pro-Am Silver Multi Dance Closed P2 Int'l Latin (CC,S,R,J),Latin,15
-Elite Dancesport,Pro-Am Silver Multi Dance Closed P2 Int'l Latin (CC,S,R,J) /J,Latin,15
-Elite Dancesport,Pro-Am Silver Multi Dance Closed TB AM/AM Int'l Latin (CC,S,R,J),Latin,15
 Elite Dancesport,Pro-Am Silver Multi Dance Closed TB Int'l Latin (CC,S,R,J),Latin,15
 Elite Dancesport,Pro-Am Silver Multi Dance Closed YH Amer. Rhythm (CC,R,SW,M),Rhythm,15
+Elite Dancesport,Pro-Am Silver Multi Dance Closed mP1 AM/AM Int'l Latin (CC,S,R,J),Latin,15
+Elite Dancesport,Pro-Am Silver Multi Dance Closed mP2 AM/AM Int'l Latin (CC,S,R,J),Latin,15
+Elite Dancesport,Pro-Am Silver Multi Dance Closed mTB AM/AM Int'l Latin (CC,S,R,J),Latin,15
 Elite Dancesport,Pro-Am Silver Multi Dance Open B Amer. Rhythm (CC,R,SW,M),Rhythm,20
 Elite Dancesport,Pro-Am Silver Multi Dance Open B Int'l Latin (CC,S,R,J),Latin,20
 Elite Dancesport,Pro-Am Silver Multi Dance Open C Amer. Smooth (W,T,F,VW),Smooth,20
@@ -285,12 +275,12 @@ Elite Dancesport,Pro-Am Silver Multi Dance Open C1 Amer. Smooth (W,T,F,VW),Smoot
 Elite Dancesport,Pro-Am Silver Multi Dance Open C2 Amer. Rhythm (CC,R,SW,M),Rhythm,20
 Elite Dancesport,Pro-Am Silver Multi Dance Open C2 Amer. Smooth (W,T,F,VW),Smooth,20
 Elite Dancesport,Pro-Am Silver Multi Dance Open C2 Int'l Latin (CC,S,R,J),Latin,20
-Elite Dancesport,Pro-Am Silver Multi Dance Open J1 AM/AM Int'l Latin (CC,S,R,J),Latin,20
 Elite Dancesport,Pro-Am Silver Multi Dance Open J1 Int'l Latin (CC,S,R,J),Latin,20
-Elite Dancesport,Pro-Am Silver Multi Dance Open P2 AM/AM Int'l Latin (CC,S,R,J),Latin,20
 Elite Dancesport,Pro-Am Silver Multi Dance Open P2 Int'l Latin (CC,S,R,J),Latin,20
+Elite Dancesport,Pro-Am Silver Multi Dance Open mJ1 AM/AM Int'l Latin (CC,S,R,J),Latin,20
+Elite Dancesport,Pro-Am Silver Multi Dance Open mP1 AM/AM Int'l Latin (CC,S,R,J),Latin,20
+Elite Dancesport,Pro-Am Silver Multi Dance Open mP2 AM/AM Int'l Latin (CC,S,R,J),Latin,20
 Elite Dancesport,Pro-Am WDSS Open Multi Dance A Amer. Rhythm (CC,R,SW,B,M),Rhythm,20
-Elite Dancesport,Pro-Am WDSS Open Multi Dance A Int'l Latin (CC,S,R,PD,J),Latin,20
 Elite Dancesport,Pro-Am WDSS Open Multi Dance B Int'l Latin (CC,S,R,PD,J),Latin,20
 Elite Dancesport,Pro-Am WDSS Open Multi Dance C Amer. Rhythm (CC,R,SW,B,M),Rhythm,20
 Elite Dancesport,Pro-Am WDSS Open Multi Dance C Amer. Smooth (W,T,F,VW),Smooth,20
