@@ -530,97 +530,6 @@
     "avg_pts": 20.68
   },
   {
-    "name": "Novikov, Daniel and Vishnevskiy, Mishella",
-    "results": [
-      {
-        "comp_name": "California Classic",
-        "info": "AC-PT PreTeen International Ballroom (W/T/F/Q)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur PreTeen II Closed Ballroom Championship (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Junior I Ballroom Championship (W/T/VW/FT/QS)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur PreTeen Ballroom Grand Slam Scholarship (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 35.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J1 Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Ameteur Pre-Champ J1 AM/AM Int'l Ballroom (W,T,Q)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Amateur Open Kids P2 Int'l Ballroom (W,T,F,Q)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 2 Int'l Ballroom 5-Dance {Fordney Fdn Bof B} (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 35.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Youth Events  J1 Int'l Ballroom Championship (W,T,VW,F,Q)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-J1 Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-JR Junior International Ballroom Grand Slam (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "P/J/Y 5-Dance Events Scholarship J2 AM/AM Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "2",
-        "points": 28.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "P/J/Y 5-Dance Events Scholarship J1 AM/AM Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "2",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 283.75,
-    "avg_pts": 20.27
-  },
-  {
     "name": "Berenshteyn, Maksim and Petrenko, Katerina",
     "results": [
       {
@@ -795,6 +704,19 @@
     "avg_pts": 20.0
   },
   {
+    "name": "Lefter Anghelescu, Rares and Hartopeanu, Maria",
+    "results": [
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-YTH Open Ballroom 5-Dance Championship(W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 20.0
+  },
+  {
     "name": "Levenkov, Michael and Bates, Kyera",
     "results": [
       {
@@ -931,6 +853,103 @@
     "avg_pts": 19.75
   },
   {
+    "name": "Novikov, Daniel and Vishnevskiy, Mishella",
+    "results": [
+      {
+        "comp_name": "California Classic",
+        "info": "AC-PT PreTeen International Ballroom (W/T/F/Q)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur PreTeen II Closed Ballroom Championship (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Junior I Ballroom Championship (W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur PreTeen Ballroom Grand Slam Scholarship (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 35.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J1 Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Ameteur Pre-Champ J1 AM/AM Int'l Ballroom (W,T,Q)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Amateur Open Kids P2 Int'l Ballroom (W,T,F,Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 2 Int'l Ballroom 5-Dance {Fordney Fdn Bof B} (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 35.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Youth Events  J1 Int'l Ballroom Championship (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J1 Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-JR Junior International Ballroom Grand Slam (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "P/J/Y 5-Dance Events Scholarship J2 AM/AM Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "2",
+        "points": 28.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "P/J/Y 5-Dance Events Scholarship J1 AM/AM Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Open 4-5 Dance Events J1 Int'l Ballroom BofB (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 295.75,
+    "avg_pts": 19.72
+  },
+  {
     "name": "Linder, Eric and Meshkausk, Shelly",
     "results": [
       {
@@ -1052,25 +1071,6 @@
     ],
     "total_pts": 93.0,
     "avg_pts": 18.6
-  },
-  {
-    "name": "Lozovnoy, Mark and Lozovnoy, Nina",
-    "results": [
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "AC-J2 Amateur Open Ballroom Championship (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 18.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "AC-Y JR2 Open Amateur Ballroom Scholarship (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 18.75
-      }
-    ],
-    "total_pts": 36.75,
-    "avg_pts": 18.38
   },
   {
     "name": "Kalachev, Matvey and Markova, Sasha",
@@ -1289,6 +1289,37 @@
     ],
     "total_pts": 71.5,
     "avg_pts": 17.88
+  },
+  {
+    "name": "Lozovnoy, Mark and Lozovnoy, Nina",
+    "results": [
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "AC-J2 Amateur Open Ballroom Championship (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "AC-Y JR2 Open Amateur Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 18.75
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-YTH Open Ballroom 5-Dance Championship(W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-Y Amateur Youth Open Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "2",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 70.75,
+    "avg_pts": 17.69
   },
   {
     "name": "Matusovskiy, Matthew and Klavansky, Nicole",
@@ -1558,6 +1589,31 @@
     ],
     "total_pts": 277.0,
     "avg_pts": 17.31
+  },
+  {
+    "name": "Ilo, Markus and Bleeke, Annika",
+    "results": [
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "P/J/Y 5-Dance Events Scholarship YH AM/AM Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Amateur Open U21 Int'l Ballroom Championship (W,T,VW,F,Q)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-Y Amateur Youth Open Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 51.25,
+    "avg_pts": 17.08
   },
   {
     "name": "Ginzburg, Joshua and Elkin, Sophia",
@@ -1925,6 +1981,31 @@
     ],
     "total_pts": 79.75,
     "avg_pts": 15.95
+  },
+  {
+    "name": "Yeh, Terry and Yeh, Glendy",
+    "results": [
+      {
+        "comp_name": "California Classic",
+        "info": "AC- Masters Amateur International Ballroom  Competition (Over 50  (W/T/F/Q)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Open 4-5 Dance Events S2 Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Open 4-5 Dance Events S3 Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 47.5,
+    "avg_pts": 15.83
   },
   {
     "name": "Karasik, Jacob and Kwan, Jaslyn",
@@ -2759,6 +2840,73 @@
     "avg_pts": 14.8
   },
   {
+    "name": "Bezzant, Matthew and Keck, Serena",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Ballroom Under 21 Scholarship(W/T/VW/FT/QS)",
+        "place": "5",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-UN21 Amateur Open International Ballroom Championship(W/T/VW/F/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-YTH Amateur Open International Ballroom Championship(W/T/VW/F/Q)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Amateur Youth International Ballroom (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Amateur Under 21 - International Ballroom (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 10.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Amateur Open A Int'l Ballroom Championship (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Open Amateur Scholarship U21 Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Open 4-5 Dance Events YH Int'l Ballroom BofB (W,T,VW,F,Q)",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 147.5,
+    "avg_pts": 14.75
+  },
+  {
     "name": "Bell, Scott and Oliver, Laura",
     "results": [
       {
@@ -2819,61 +2967,6 @@
     ],
     "total_pts": 87.5,
     "avg_pts": 14.58
-  },
-  {
-    "name": "Bezzant, Matthew and Keck, Serena",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Ballroom Under 21 Scholarship(W/T/VW/FT/QS)",
-        "place": "5",
-        "points": 14.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "AC-UN21 Amateur Open International Ballroom Championship(W/T/VW/F/Q)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "AC-YTH Amateur Open International Ballroom Championship(W/T/VW/F/Q)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Amateur Youth International Ballroom (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Amateur Under 21 - International Ballroom (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 10.5
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-U21 Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-Y Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Amateur Open A Int'l Ballroom Championship (W,T,VW,F,Q)",
-        "place": "quarters",
-        "points": 4.0
-      }
-    ],
-    "total_pts": 116.5,
-    "avg_pts": 14.56
   },
   {
     "name": "Ischenko, Dmitry and Ischenko, Tatiana",
@@ -3102,6 +3195,67 @@
     ],
     "total_pts": 28.35,
     "avg_pts": 14.18
+  },
+  {
+    "name": "Pavlyk, Andrew and Sydor, Melania",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-PTII Closed International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-PTII Junior Amateur International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "AC-PT2 Closed Pre-Teen Ballroom 4 Dance (W/T/FT/Q)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "AC-PT2 Open Pre-Teen Ballroom 5 Dance (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "AC-JR Amateur Pre Champ Open Ballroom (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "AC-JR Amateur Open Ballroom (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-JR1 Open Ballroom 5-Dance Championship(W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-Y Amateur JR Open Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 127.5,
+    "avg_pts": 14.17
   },
   {
     "name": "Maidaniuk, Misha and Gamburg, Rachel",
@@ -3606,6 +3760,73 @@
     "avg_pts": 13.62
   },
   {
+    "name": "Fox, Blake and Ascione, Nicole",
+    "results": [
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Amateur Open J2 Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Amateur Open Y Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Las Vegas Lights",
+        "info": "AC-J International Standard (W/T/F/QS)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Las Vegas Lights",
+        "info": "AC-Y International Standard (W/T/F/VW/QS)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Amateur Youth International Ballroom (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Amateur Under 21 - International Ballroom (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Pre-Champ Amateur International Ballroom (W/T/F/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur PreChamp Events YH Int'l Ballroom (W,T,F,Q)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Open 4-5 Dance Events YH Int'l Ballroom BofB (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 135.5,
+    "avg_pts": 13.55
+  },
+  {
     "name": "Chen, Jihai and Ishiguro, Amy",
     "results": [
       {
@@ -3687,19 +3908,6 @@
       {
         "comp_name": "Seattle Star Ball",
         "info": "Amateur Silver 2-Dance A Int'l Ballroom (T,VW)",
-        "place": "1",
-        "points": 13.5
-      }
-    ],
-    "total_pts": 13.5,
-    "avg_pts": 13.5
-  },
-  {
-    "name": "Yeh, Glendy and Yeh, Terry",
-    "results": [
-      {
-        "comp_name": "California Classic",
-        "info": "AC- Masters Amateur International Ballroom  Competition (Over 50  (W/T/F/Q)",
         "place": "1",
         "points": 13.5
       }
@@ -3854,59 +4062,41 @@
     "avg_pts": 13.42
   },
   {
-    "name": "Shvartsman, Alex and Doliwa, Sophie",
+    "name": "Zajac, Karol and Kolodziejczyk, Olivia",
     "results": [
       {
         "comp_name": "Indiana Challenge",
-        "info": "AC-J1 Junior Amateur Open Gold Ballroom 5-Dance (W/T/VW/FT/QS)",
+        "info": "AC-J2 Junior Amateur Open Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 18.75
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "AC-YA Open Int'l Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 8.75
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "AC-Y Closed Championship Ballroom 4 dance (W/T/F/QS)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "AC-Y Open Championship Ballroom Open (W/T/VW/FT/QS)",
         "place": "1",
         "points": 15.0
       },
       {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "AC-PT1 Amateur Closed Gold Ballroom 3-Dance Championship (W/T/QS)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "AC-PT2 Amateur Closed Gold Ballroom 3-Dance Championship (W/T/QS)",
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-YTH Closed Gold Ballroom Championship (W/T/VW/F/Q)",
         "place": "1",
         "points": 15.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "AC-Y PT Closed Amateur Ballroom Scholarship (W/T/QS)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 1 Int'l Ballroom 3- Dance (W/T/Q)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 1 Int'l Ballroom 4-Dance {Fordney Fdn Bof B} (W/T/F/Q)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "P/J/Y 3-Dance Events Cl. Championship P2 AM/AM Int'l Ballroom (W,T,Q)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "P/J/Y 5-Dance Events Cl. Championship P2 AM/AM Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "7",
-        "points": 6.0
       }
     ],
-    "total_pts": 106.0,
-    "avg_pts": 13.25
+    "total_pts": 66.5,
+    "avg_pts": 13.3
   },
   {
     "name": "Ignatyev, Ilya and Sherman, Olivia",
@@ -4125,25 +4315,6 @@
       }
     ],
     "total_pts": 52.5,
-    "avg_pts": 13.12
-  },
-  {
-    "name": "Ilo, Markus and Bleeke, Annika",
-    "results": [
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "P/J/Y 5-Dance Events Scholarship YH AM/AM Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "3",
-        "points": 16.25
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Amateur Open U21 Int'l Ballroom Championship (W,T,VW,F,Q)",
-        "place": "4",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 26.25,
     "avg_pts": 13.12
   },
   {
@@ -4481,92 +4652,6 @@
     "avg_pts": 12.88
   },
   {
-    "name": "Zajac, Karol and Kolodziejczyk, Olivia",
-    "results": [
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "AC-J2 Junior Amateur Open Ballroom Scholarship (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 18.75
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "AC-YA Open Int'l Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 8.75
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "AC-Y Closed Championship Ballroom 4 dance (W/T/F/QS)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "AC-Y Open Championship Ballroom Open (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 51.5,
-    "avg_pts": 12.88
-  },
-  {
-    "name": "Fox, Blake and Ascione, Nicole",
-    "results": [
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Amateur Open J2 Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Amateur Open Y Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Las Vegas Lights",
-        "info": "AC-J International Standard (W/T/F/QS)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Las Vegas Lights",
-        "info": "AC-Y International Standard (W/T/F/VW/QS)",
-        "place": "2",
-        "points": 9.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Amateur Youth International Ballroom (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 7.5
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Amateur Under 21 - International Ballroom (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 7.5
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-Y Pre-Champ Amateur International Ballroom (W/T/F/Q)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-Y Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 24.0
-      }
-    ],
-    "total_pts": 102.0,
-    "avg_pts": 12.75
-  },
-  {
     "name": "Coats, Carlie and Yarborough, Jan",
     "results": [
       {
@@ -4615,6 +4700,73 @@
     ],
     "total_pts": 25.5,
     "avg_pts": 12.75
+  },
+  {
+    "name": "Shvartsman, Alex and Doliwa, Sophia",
+    "results": [
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "AC-J1 Junior Amateur Open Gold Ballroom 5-Dance (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "AC-PT1 Amateur Closed Gold Ballroom 3-Dance Championship (W/T/QS)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "AC-PT2 Amateur Closed Gold Ballroom 3-Dance Championship (W/T/QS)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "AC-Y PT Closed Amateur Ballroom Scholarship (W/T/QS)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 1 Int'l Ballroom 3- Dance (W/T/Q)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 1 Int'l Ballroom 4-Dance {Fordney Fdn Bof B} (W/T/F/Q)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "P/J/Y 3-Dance Events Cl. Championship P2 AM/AM Int'l Ballroom (W,T,Q)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "P/J/Y 5-Dance Events Cl. Championship P2 AM/AM Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "7",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-PT2 Closed Gold Ballroom Championship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-Y Amateur PT Closed Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 14.0
+      }
+    ],
+    "total_pts": 127.0,
+    "avg_pts": 12.7
   },
   {
     "name": "Blevkhman, Nickolas and Kobus, Alyssa",
@@ -4803,29 +4955,131 @@
     "avg_pts": 12.25
   },
   {
-    "name": "Zajac, Karol and Zajaczkowski, Julia",
+    "name": "Zakirzyanov, Kirill and Snitko, Valerie",
     "results": [
       {
-        "comp_name": "Indiana Challenge",
-        "info": "AC-J3 Junior Amateur Open Gold Ballroom 5-Dance (W/T/VW/FT/QS)",
-        "place": "2",
-        "points": 8.75
+        "comp_name": "Boston Dancesport Cup",
+        "info": "AC-PT1 Champ Ballroom (W/T/VW/F/QS)",
+        "place": "1",
+        "points": 12.0
       },
       {
-        "comp_name": "The Windy City Open",
-        "info": "AC-Y Pre-Champ Int'l Ballroom (W/T/F/Q)",
+        "comp_name": "Boston Dancesport Cup",
+        "info": "AC-PT2 Champ Ballroom (W/T/VW/F/QS)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-PTII Closed International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "AC-PT1 Closed Pre-Teen Ballroom 4 Dance (W/T/FT/Q)",
         "place": "1",
-        "points": 9.0
+        "points": 13.5
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "AC-PT Closed Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "AC-PT2 Closed Pre-Teen Ballroom 4 Dance (W/T/FT/Q)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "AC-PT2 TSDSC International Ballroom Closed Championship* (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "AC-P2 Closed Int'l Ballroom 5-Dance Championship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "AC-Y Amateur Pre Teen Closed Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "AC-PT2 Amateur Pre Teen Closed Ballroom Championship (W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 9.75
       },
       {
         "comp_name": "chicago19",
-        "info": "AC-Y Grand Slam Ballroom Scholarship (W/T/VW/F/QS)",
+        "info": "AC-PT2 Closed Gold Ballroom 4 dance (W/T/F/QS)",
         "place": "1",
-        "points": 18.75
+        "points": 12.0
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "AC-PT2 Closed Championship Ballroom 4 dance (W/T/F/QS)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "AC-PT Grand Slam Ballroom Scholarship (W/T/VW/F/QS)",
+        "place": "1",
+        "points": 22.5
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-PT2 Amateur Open International Ballroom Championship(W/T/VW/F/Q)",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Youth 5-Dance Events Closed P2 Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Closed Amateur 4/5 Dance Championships  P2 Int'l Ballroom Championship (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "P/J/Y 5-Dance Events Cl. Championship P2 AM/AM Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-PT2 Closed Gold Ballroom Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-Y Amateur PT Closed Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 36.5,
-    "avg_pts": 12.17
+    "total_pts": 243.0,
+    "avg_pts": 12.15
   },
   {
     "name": "Rome, Mark and Zhukova, Olga",
@@ -5061,6 +5315,19 @@
       {
         "comp_name": "Sapphire DanceSport",
         "info": "AC-B2 Open Silver Standard Four-Dance (W/T/F/Q)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
+    "name": "Koniecko, Adam and Pawlusiewicz, Maya",
+    "results": [
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-JR2 Closed Gold Ballroom Championship (W/T/VW/F/Q)",
         "place": "1",
         "points": 12.0
       }
@@ -5656,55 +5923,6 @@
     "avg_pts": 11.81
   },
   {
-    "name": "Pavlyk, Andrew and Sydor, Melania",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-PTII Closed International Ballroom Championships (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-PTII Junior Amateur International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "AC-PT2 Closed Pre-Teen Ballroom 4 Dance (W/T/FT/Q)",
-        "place": "2",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "AC-PT2 Open Pre-Teen Ballroom 5 Dance (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Cleveland Dancesport Challenge",
-        "info": "AC-JR Amateur Pre Champ Open Ballroom (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Cleveland Dancesport Challenge",
-        "info": "AC-JR Amateur Open Ballroom (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 82.5,
-    "avg_pts": 11.79
-  },
-  {
     "name": "Zhang, Alec Zhiwei and Xie, Zhuoshi",
     "results": [
       {
@@ -5925,6 +6143,37 @@
     "avg_pts": 11.62
   },
   {
+    "name": "Zajac, Karol and Zajaczkowski, Julia",
+    "results": [
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "AC-J3 Junior Amateur Open Gold Ballroom 5-Dance (W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 8.75
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "AC-Y Pre-Champ Int'l Ballroom (W/T/F/Q)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "AC-Y Grand Slam Ballroom Scholarship (W/T/VW/F/QS)",
+        "place": "1",
+        "points": 18.75
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-YTH Open Ballroom 5-Dance Championship(W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 46.5,
+    "avg_pts": 11.62
+  },
+  {
     "name": "Efimov, Mark and Michtchenko, Olesya",
     "results": [
       {
@@ -5961,6 +6210,55 @@
     ],
     "total_pts": 23.25,
     "avg_pts": 11.62
+  },
+  {
+    "name": "Chpak, Daniel and Chpak, Katherine",
+    "results": [
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "AC-J International Ballroom Open Championship (W/T/VW/F/QS)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "AC-Y International Ballroom Open Championship (W/T/VW/F/QS)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "motown2019[blake%20kish]",
+        "info": "AC-Y Amateur Open Ballroom 5 Dance  (W/T/VW/F/QS)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "motown2019[blake%20kish]",
+        "info": "AC-JR Junior Open Standard Scholarship (W/T/VW/F/QS)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "AC-JR Amateur Pre Champ Open Ballroom (W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "AC-JR Amateur Open Ballroom (W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-Y Amateur Youth Open Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "3",
+        "points": 16.25
+      }
+    ],
+    "total_pts": 81.25,
+    "avg_pts": 11.61
   },
   {
     "name": "Shiloshvili, Sean and Frumkin, Elizabeth",
@@ -6024,119 +6322,47 @@
     "avg_pts": 11.58
   },
   {
-    "name": "Zakirzyanov, Kirill and Snitko, Valerie",
+    "name": "Romanov, Ivan and Ivahno-Kalinuka, Katya",
     "results": [
       {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "AC-PT1 Champ Ballroom (W/T/VW/F/QS)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "AC-PT2 Champ Ballroom (W/T/VW/F/QS)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-PTII Closed International Ballroom Championships (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "AC-PT1 Closed Pre-Teen Ballroom 4 Dance (W/T/FT/Q)",
-        "place": "1",
-        "points": 13.5
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "AC-PT Closed Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "AC-PT2 Closed Pre-Teen Ballroom 4 Dance (W/T/FT/Q)",
-        "place": "3",
-        "points": 5.25
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
+        "comp_name": "caopen19",
+        "info": "AC- Open Amateur Ballroom Scholarship (W/T/VW/FT/QS)",
         "place": "5",
-        "points": 10.0
+        "points": 14.0
       },
       {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "AC-PT2 TSDSC International Ballroom Closed Championship* (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "AC-P2 Closed Int'l Ballroom 5-Dance Championship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "AC-Y Amateur Pre Teen Closed Ballroom Scholarship (W/T/VW/FT/QS)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "AC-PT2 Amateur Pre Teen Closed Ballroom Championship (W/T/VW/FT/QS)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "AC-PT2 Closed Gold Ballroom 4 dance (W/T/F/QS)",
+        "comp_name": "The Royal Ball",
+        "info": "Amateur Open A Int'l Ballroom (W,T,VW,F,Q)",
         "place": "1",
         "points": 12.0
       },
       {
-        "comp_name": "chicago19",
-        "info": "AC-PT2 Closed Championship Ballroom 4 dance (W/T/F/QS)",
-        "place": "1",
-        "points": 11.25
+        "comp_name": "Emerald Ball",
+        "info": "AC- Adult Open Championship Int'l Ballroom (W/T/VW/F/Q)",
+        "place": "6",
+        "points": 10.5
       },
       {
-        "comp_name": "chicago19",
-        "info": "AC-PT Grand Slam Ballroom Scholarship (W/T/VW/F/QS)",
-        "place": "1",
-        "points": 22.5
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "AC-PT2 Amateur Open International Ballroom Championship(W/T/VW/F/Q)",
-        "place": "1",
-        "points": 18.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Youth 5-Dance Events Closed P2 Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Closed Amateur 4/5 Dance Championships  P2 Int'l Ballroom Championship (W,T,VW,F,Q)",
-        "place": "1",
-        "points": 13.5
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 12.0
       },
       {
         "comp_name": "Embassy Ballroom Championships",
-        "info": "P/J/Y 5-Dance Events Cl. Championship P2 AM/AM Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "4",
-        "points": 10.0
+        "info": "Amateur Open A Int'l Ballroom Championship (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Open Amateur Scholarship A Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 15.0
       }
     ],
-    "total_pts": 208.0,
-    "avg_pts": 11.56
+    "total_pts": 69.5,
+    "avg_pts": 11.58
   },
   {
     "name": "Fan, David and Hernandez, Haley",
@@ -6158,25 +6384,6 @@
     "avg_pts": 11.55
   },
   {
-    "name": "Hunt, Mason and Burton, Kaitlyn",
-    "results": [
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "School Age 2 Dance Full Silver HS AM/AM Int'l Ballroom (W,Q)",
-        "place": "5",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "School Age 2 Dance Full Gold HS AM/AM Int'l Ballroom (W,Q)",
-        "place": "3",
-        "points": 13.0
-      }
-    ],
-    "total_pts": 23.0,
-    "avg_pts": 11.5
-  },
-  {
     "name": "Liu, Braden and Zenger, Alayna",
     "results": [
       {
@@ -6196,10 +6403,35 @@
         "info": "AC-A Amateur Open International Ballroom (W/T/VW/F/Q)",
         "place": "1",
         "points": 15.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Open 4-5 Dance Events A Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 12.0
       }
     ],
-    "total_pts": 34.0,
-    "avg_pts": 11.33
+    "total_pts": 46.0,
+    "avg_pts": 11.5
+  },
+  {
+    "name": "Hunt, Mason and Burton, Kaitlyn",
+    "results": [
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "School Age 2 Dance Full Silver HS AM/AM Int'l Ballroom (W,Q)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "School Age 2 Dance Full Gold HS AM/AM Int'l Ballroom (W,Q)",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 23.0,
+    "avg_pts": 11.5
   },
   {
     "name": "Gribanovsky, Pavlik and Poda, Alexandra",
@@ -6370,6 +6602,25 @@
     "avg_pts": 11.25
   },
   {
+    "name": "Makogon, Lukas and Kreczman, Amelia",
+    "results": [
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-JR1 Open Ballroom 5-Dance Championship(W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-Y Amateur JR Open Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 22.5,
+    "avg_pts": 11.25
+  },
+  {
     "name": "Stompel, Samuel and Birger, Anastasia",
     "results": [
       {
@@ -6387,6 +6638,68 @@
     ],
     "total_pts": 22.5,
     "avg_pts": 11.25
+  },
+  {
+    "name": "Young, Brandon and Liao, Elaine",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Preteen Amateur 2-Dance Events Closed TB Int'l Ballroom (W,T)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 11.25,
+    "avg_pts": 11.25
+  },
+  {
+    "name": "Krive, Daniel and Anbinder, Maya",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 0.25
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "AC-PT2 Amateur Closed Gold Ballroom 3-Dance Championship (W/T/QS)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "AC-Y PT Closed Amateur Ballroom Scholarship (W/T/QS)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "AC-PT2 Closed Championship Ballroom 4 dance (W/T/F/QS)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "AC-PT Grand Slam Ballroom Scholarship (W/T/VW/F/QS)",
+        "place": "2",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-JR1 Open Ballroom 5-Dance Championship(W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-Y Amateur JR Open Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 17.5
+      }
+    ],
+    "total_pts": 78.5,
+    "avg_pts": 11.21
   },
   {
     "name": "Fridman, Ilan and Zarkhin, Zlata",
@@ -6509,6 +6822,31 @@
     ],
     "total_pts": 77.25,
     "avg_pts": 11.04
+  },
+  {
+    "name": "Jennings, Wyatt and Zenger, Lyvia",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Open 4-5 Dance Events YH Int'l Ballroom BofB (W,T,VW,F,Q)",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 33.0,
+    "avg_pts": 11.0
   },
   {
     "name": "Selpackis, Dmitriy and Selpackis, Eva",
@@ -6734,86 +7072,6 @@
     "avg_pts": 10.93
   },
   {
-    "name": "Romanov, Ivan and Ivahno-Kalinuka, Katya",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "AC- Open Amateur Ballroom Scholarship (W/T/VW/FT/QS)",
-        "place": "5",
-        "points": 14.0
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Amateur Open A Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC- Adult Open Championship Int'l Ballroom (W/T/VW/F/Q)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Amateur Open A Int'l Ballroom Championship (W,T,VW,F,Q)",
-        "place": "Semis",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 54.5,
-    "avg_pts": 10.9
-  },
-  {
-    "name": "Chpak, Dan and Chpak, Katherine",
-    "results": [
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "AC-J International Ballroom Open Championship (W/T/VW/F/QS)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "AC-Y International Ballroom Open Championship (W/T/VW/F/QS)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "motown2019[blake%20kish]",
-        "info": "AC-Y Amateur Open Ballroom 5 Dance  (W/T/VW/F/QS)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "motown2019[blake%20kish]",
-        "info": "AC-JR Junior Open Standard Scholarship (W/T/VW/F/QS)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Cleveland Dancesport Challenge",
-        "info": "AC-JR Amateur Pre Champ Open Ballroom (W/T/VW/FT/QS)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Cleveland Dancesport Challenge",
-        "info": "AC-JR Amateur Open Ballroom (W/T/VW/FT/QS)",
-        "place": "2",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 65.0,
-    "avg_pts": 10.83
-  },
-  {
     "name": "Dango, Paul and Dango, Nancy",
     "results": [
       {
@@ -6936,6 +7194,103 @@
     "avg_pts": 10.77
   },
   {
+    "name": "Kim, Song and Suh, Nicole",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "info": "AC- SR 2 Open Amateur Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "6",
+        "points": 8.75
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC- Amateur Pre-Championship Ballroom (W/T/QS)",
+        "place": "Semis",
+        "points": 5.25
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC- The Masters Ballroom Championship (W/T/FT/QS)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Ameteur Pre-Champ S2 AM/AM Int'l Ballroom (W,T,Q)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Amateur Open Senior S2 Int'l Ballroom (W,T,F,Q)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Amateur Open Championships  S3 Int'l Ballroom Championship (W,T,VW,F,Q)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC- Senior Open Ballroom (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC- Masters Open Ballroom (W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Pre-Championship International Ballroom (W/T/F/Q)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-B Pre-Champ Amateur International Ballroom (W/T/F/Q)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-B Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Adult Amateur PreChampionship Events Int'l Ballroom (W,T,F,Q)",
+        "place": "6",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Masters Amateur Open Int'l Ballroom (W,T,F,Q)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Open 4-5 Dance Events S2 Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Open 4-5 Dance Events S3 Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 160.75,
+    "avg_pts": 10.72
+  },
+  {
     "name": "Lee, Joshua and Kung, Elizabeth",
     "results": [
       {
@@ -7002,6 +7357,31 @@
     ],
     "total_pts": 21.2,
     "avg_pts": 10.6
+  },
+  {
+    "name": "Sojka, Patryk and Leja, Justyna",
+    "results": [
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "AC-J1 Silver Junior Amateur Closed Ballroom 3-Dance (W/T/QS)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "AC-PT2 Closed Silver Ballroom 4 dance (W/T/F/QS)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-JR1 Closed Silver Ballroom Championship (W/T/Q)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 31.5,
+    "avg_pts": 10.5
   },
   {
     "name": "Barsukov, Dany and Matiushenok, Deana",
@@ -7093,6 +7473,25 @@
         "info": "AC-MGJR1 Silver Ballroom (W/FT/Q)",
         "place": "1",
         "points": 9.0
+      }
+    ],
+    "total_pts": 21.0,
+    "avg_pts": 10.5
+  },
+  {
+    "name": "Linnik, Michael and Gold, Maxena",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur PreChamp Events J2 Int'l Ballroom (W,T,F,Q)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Open 4-5 Dance Events J2 Int'l Ballroom BofB (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 12.0
       }
     ],
     "total_pts": 21.0,
@@ -7382,43 +7781,6 @@
     "avg_pts": 10.25
   },
   {
-    "name": "Kowalik, Marcin and Nowak, Veronica",
-    "results": [
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "AC-J2 Junior Amateur Open Gold Ballroom 5-Dance (W/T/VW/FT/QS)",
-        "place": "2",
-        "points": 8.75
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "AC-J2 Pre-Champ Int'l Ballroom (W/T/F/Q)",
-        "place": "3",
-        "points": 5.25
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "AC-J2 Amateur Open Ballroom Championship (W/T/VW/FT/QS)",
-        "place": "3",
-        "points": 7.0
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "AC-J2 Closed Championship Ballroom 4 dance (W/T/F/QS)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "AC-J2 Closed Gold Ballroom 4 dance (W/T/F/QS)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 51.0,
-    "avg_pts": 10.2
-  },
-  {
     "name": "Perez, Norberto and Perez, Suzane",
     "results": [
       {
@@ -7551,25 +7913,6 @@
     "avg_pts": 10.12
   },
   {
-    "name": "Sojka, Patryk and Leja, Justyna",
-    "results": [
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "AC-J1 Silver Junior Amateur Closed Ballroom 3-Dance (W/T/QS)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "AC-PT2 Closed Silver Ballroom 4 dance (W/T/F/QS)",
-        "place": "1",
-        "points": 11.25
-      }
-    ],
-    "total_pts": 20.25,
-    "avg_pts": 10.12
-  },
-  {
     "name": "Starke, Aaron and Lerman, Beata",
     "results": [
       {
@@ -7587,43 +7930,6 @@
     ],
     "total_pts": 20.25,
     "avg_pts": 10.12
-  },
-  {
-    "name": "Dzyoba, Ostap and Gatych, Victoria",
-    "results": [
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "AC-J3 Junior Amateur Open Gold Ballroom 5-Dance (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 18.75
-      },
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "AC-J2 Junior Amateur Open Ballroom Scholarship (W/T/VW/FT/QS)",
-        "place": "2",
-        "points": 8.75
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "AC-Y Open Int'l Ballroom 5-Dance (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 7.0
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "AC-Y Open Championship Ballroom Open (W/T/VW/FT/QS)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "AC-Y Grand Slam Ballroom Scholarship (W/T/VW/F/QS)",
-        "place": "2",
-        "points": 8.75
-      }
-    ],
-    "total_pts": 50.25,
-    "avg_pts": 10.05
   },
   {
     "name": "Fatkullin, Ibrahim and Jennings, Amy",
@@ -7701,25 +8007,6 @@
         "info": "AC-B International Ballroom Open Championship (W/T/VW/F/QS)",
         "place": "5",
         "points": 8.0
-      }
-    ],
-    "total_pts": 20.0,
-    "avg_pts": 10.0
-  },
-  {
-    "name": "Jennings, Wyatt and Zenger, Lyvia",
-    "results": [
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-U21 Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-Y Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 12.0
       }
     ],
     "total_pts": 20.0,
@@ -7806,89 +8093,53 @@
     "avg_pts": 9.97
   },
   {
-    "name": "Kim, Song and Suh, Nicole",
+    "name": "Dzyoba, Ostap and Gatych, Victoria",
     "results": [
       {
-        "comp_name": "City Lights Ball",
-        "info": "AC- SR 2 Open Amateur Ballroom Scholarship (W/T/VW/FT/QS)",
-        "place": "6",
+        "comp_name": "Indiana Challenge",
+        "info": "AC-J3 Junior Amateur Open Gold Ballroom 5-Dance (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 18.75
+      },
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "AC-J2 Junior Amateur Open Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "2",
         "points": 8.75
       },
       {
-        "comp_name": "caopen19",
-        "info": "AC- Amateur Pre-Championship Ballroom (W/T/QS)",
-        "place": "Semis",
-        "points": 5.25
+        "comp_name": "The Windy City Open",
+        "info": "AC-Y Open Int'l Ballroom 5-Dance (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 7.0
       },
       {
-        "comp_name": "caopen19",
-        "info": "AC- The Masters Ballroom Championship (W/T/FT/QS)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Ameteur Pre-Champ S2 AM/AM Int'l Ballroom (W,T,Q)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Amateur Open Senior S2 Int'l Ballroom (W,T,F,Q)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Amateur Open Championships  S3 Int'l Ballroom Championship (W,T,VW,F,Q)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC- Senior Open Ballroom (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC- Masters Open Ballroom (W/T/VW/FT/QS)",
+        "comp_name": "chicago19",
+        "info": "AC-Y Open Championship Ballroom Open (W/T/VW/FT/QS)",
         "place": "2",
         "points": 7.0
       },
       {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Pre-Championship International Ballroom (W/T/F/Q)",
-        "place": "3",
-        "points": 9.75
+        "comp_name": "chicago19",
+        "info": "AC-Y Grand Slam Ballroom Scholarship (W/T/VW/F/QS)",
+        "place": "2",
+        "points": 8.75
       },
       {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-B Pre-Champ Amateur International Ballroom (W/T/F/Q)",
-        "place": "1",
-        "points": 11.25
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-YTH Open Ballroom 5-Dance Championship(W/T/VW/FT/QS)",
+        "place": "4",
+        "points": 7.0
       },
       {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-B Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Adult Amateur PreChampionship Events Int'l Ballroom (W,T,F,Q)",
-        "place": "6",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Masters Amateur Open Int'l Ballroom (W,T,F,Q)",
-        "place": "6",
-        "points": 10.5
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-Y Amateur Youth Open Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "4",
+        "points": 12.5
       }
     ],
-    "total_pts": 128.75,
-    "avg_pts": 9.9
+    "total_pts": 69.75,
+    "avg_pts": 9.96
   },
   {
     "name": "Kheyfets, Matthew and Sadykhov, Sima",
@@ -8386,6 +8637,55 @@
     "avg_pts": 9.72
   },
   {
+    "name": "Kowalik, Marcin and Nowak, Veronica",
+    "results": [
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "AC-J2 Junior Amateur Open Gold Ballroom 5-Dance (W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 8.75
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "AC-J2 Pre-Champ Int'l Ballroom (W/T/F/Q)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "AC-J2 Amateur Open Ballroom Championship (W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "AC-J2 Closed Championship Ballroom 4 dance (W/T/F/QS)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "AC-J2 Closed Gold Ballroom 4 dance (W/T/F/QS)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-YTH Closed Gold Ballroom Championship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-Y Amateur Youth Open Ballroom Scholarships (W/T/VW/FT/Q)",
+        "place": "5",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 68.0,
+    "avg_pts": 9.71
+  },
+  {
     "name": "Souers, Ron and Harrill, Debbie",
     "results": [
       {
@@ -8665,6 +8965,25 @@
     "avg_pts": 9.5
   },
   {
+    "name": "Xu, Binghong and Mong, Cecilia",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Senior 4 Events Int'l Ballroom (W,T,F,Q)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Open 4-5 Dance Events S3 Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 19.0,
+    "avg_pts": 9.5
+  },
+  {
     "name": "Proescher, Jonathan and Kogan, Maria",
     "results": [
       {
@@ -8726,41 +9045,59 @@
     "avg_pts": 9.42
   },
   {
-    "name": "Krive, Daniel and Anbainder, Maya",
+    "name": "Palti, Jacob and Krzosek, Sophia",
     "results": [
       {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 0.25
+        "comp_name": "Indiana Challenge",
+        "info": "AC-J1 Bronze Junior Amateur Closed Ballroom 3-Dance (W/T/QS)",
+        "place": "1",
+        "points": 9.0
       },
       {
         "comp_name": "wisconsin19[martin cawston]",
-        "info": "AC-PT2 Amateur Closed Gold Ballroom 3-Dance Championship (W/T/QS)",
-        "place": "2",
-        "points": 7.0
+        "info": "AC-PT2 Amateur Closed Bronze Ballroom 3-Dance Championship (W/T/QS)",
+        "place": "1",
+        "points": 10.0
       },
       {
         "comp_name": "wisconsin19[martin cawston]",
         "info": "AC-Y PT Closed Amateur Ballroom Scholarship (W/T/QS)",
-        "place": "3",
-        "points": 19.5
+        "place": "4",
+        "points": 15.0
       },
       {
         "comp_name": "chicago19",
-        "info": "AC-PT2 Closed Championship Ballroom 4 dance (W/T/F/QS)",
+        "info": "AC-PT2 Closed Bronze Ballroom 3 dance (W/T/QS)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "AC-PT2 Closed Silver Ballroom 4 dance (W/T/F/QS)",
         "place": "2",
         "points": 5.25
       },
       {
         "comp_name": "chicago19",
         "info": "AC-PT Grand Slam Ballroom Scholarship (W/T/VW/F/QS)",
-        "place": "2",
-        "points": 15.0
+        "place": "3",
+        "points": 8.75
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-PT2 Closed Silver Ballroom Championship (W/T/Q)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-Y Amateur PT Closed Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 10.0
       }
     ],
-    "total_pts": 47.0,
-    "avg_pts": 9.4
+    "total_pts": 75.25,
+    "avg_pts": 9.41
   },
   {
     "name": "Lee, Sean and Razmus, Alyssa",
@@ -9229,49 +9566,6 @@
     "avg_pts": 9.02
   },
   {
-    "name": "Palti, Jacob and Krzosek, Sophia",
-    "results": [
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "AC-J1 Bronze Junior Amateur Closed Ballroom 3-Dance (W/T/QS)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "AC-PT2 Amateur Closed Bronze Ballroom 3-Dance Championship (W/T/QS)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "AC-Y PT Closed Amateur Ballroom Scholarship (W/T/QS)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "AC-PT2 Closed Bronze Ballroom 3 dance (W/T/QS)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "AC-PT2 Closed Silver Ballroom 4 dance (W/T/F/QS)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "AC-PT Grand Slam Ballroom Scholarship (W/T/VW/F/QS)",
-        "place": "3",
-        "points": 8.75
-      }
-    ],
-    "total_pts": 54.0,
-    "avg_pts": 9.0
-  },
-  {
     "name": "Test, Jonathan and Roberge, Sarah-\u00c8ve",
     "results": [
       {
@@ -9372,6 +9666,25 @@
     "avg_pts": 9.0
   },
   {
+    "name": "Kosachov, Dmytro and McCormick, Madigan",
+    "results": [
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-LPT2 Closed Bronze Ballroom Championship (W/T/QS)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-LPT Amateur PT Closed Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 18.0,
+    "avg_pts": 9.0
+  },
+  {
     "name": "Migliore, Trevor and Patterson, Breanna",
     "results": [
       {
@@ -9402,6 +9715,25 @@
       {
         "comp_name": "2019 Atlantic DanceSport Challenge",
         "info": "AC-SR2 Amateur Closed Silver Ballroom (W/T/F/Q)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 18.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "de la Rosa, Brando and Saidkariev, Naeema",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Preteen Amateur 2-Dance Events Closed P2 Int'l Ballroom (W,T)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Preteen Amateur 3-Dance Events Closed P2 Int'l Ballroom (W,T,Q)",
         "place": "1",
         "points": 9.0
       }
@@ -9571,6 +9903,19 @@
       {
         "comp_name": "Dance Stars Festival",
         "info": "Amateur Multi-Dance Closed 3 dance Full Silver J1 Int'l Ballroom (W,T,Q)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Novikov, Michael and Novikova, Angelina",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Preteen Amateur 2-Dance Events Closed P1 Int'l Ballroom (W,T)",
         "place": "1",
         "points": 9.0
       }
@@ -10236,6 +10581,85 @@
     "avg_pts": 8.69
   },
   {
+    "name": "Novikov, Michael and Dragunov, Dasha",
+    "results": [
+      {
+        "comp_name": "California Classic",
+        "info": "AC-TB Teddy Bear (W/Q)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Ameteur Pre-Champ TB AM/AM Int'l Ballroom (W,T,Q)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Dance Stars Festival",
+        "info": "Amateur Multi-Dance Closed 3 dance Full Bronze P1 Int'l Ballroom (W,T,Q)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Dance Stars Festival",
+        "info": "JPC 4 dance Bronze Syllabus B TB AM/AM (W,Q,CC,J)",
+        "place": "1",
+        "points": 10
+      },
+      {
+        "comp_name": "Dance Stars Festival",
+        "info": "Amateur Multi-Dance Closed 3 dance Full Bronze TB Int'l Ballroom (W,T,Q)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 1 Int'l Ballroom 3- Dance (W/T/Q)",
+        "place": "7",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Teddy Bear Int'l Ballroom (W/Q)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "Dance Stars Festival",
+        "info": "JPC 6 dance Closed Syllabus G TB AM/AM (W,T,Q,CC,J,S)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Youth 3-Dance Events Closed P1 Int'l Ballroom (W,T,Q)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "P/J/Y 3-Dance Events Cl. Championship P1 AM/AM Int'l Ballroom (W,T,Q)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Preteen Amateur 3-Dance Events Closed P1 Int'l Ballroom (W,T,Q)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Preteen Amateur 3-Dance Events Closed TB Int'l Ballroom (W,T,Q)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 104.0,
+    "avg_pts": 8.67
+  },
+  {
     "name": "Glukhovskiy, Yanni and Seleznyova, Julia",
     "results": [
       {
@@ -10427,73 +10851,6 @@
     ],
     "total_pts": 25.25,
     "avg_pts": 8.42
-  },
-  {
-    "name": "Novikov, Michael and Dragunov, Dasha",
-    "results": [
-      {
-        "comp_name": "California Classic",
-        "info": "AC-TB Teddy Bear (W/Q)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Ameteur Pre-Champ TB AM/AM Int'l Ballroom (W,T,Q)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Dance Stars Festival",
-        "info": "Amateur Multi-Dance Closed 3 dance Full Bronze P1 Int'l Ballroom (W,T,Q)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Dance Stars Festival",
-        "info": "JPC 4 dance Bronze Syllabus B TB AM/AM (W,Q,CC,J)",
-        "place": "1",
-        "points": 10
-      },
-      {
-        "comp_name": "Dance Stars Festival",
-        "info": "Amateur Multi-Dance Closed 3 dance Full Bronze TB Int'l Ballroom (W,T,Q)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 1 Int'l Ballroom 3- Dance (W/T/Q)",
-        "place": "7",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Teddy Bear Int'l Ballroom (W/Q)",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "Dance Stars Festival",
-        "info": "JPC 6 dance Closed Syllabus G TB AM/AM (W,T,Q,CC,J,S)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Youth 3-Dance Events Closed P1 Int'l Ballroom (W,T,Q)",
-        "place": "2",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "P/J/Y 3-Dance Events Cl. Championship P1 AM/AM Int'l Ballroom (W,T,Q)",
-        "place": "4",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 83.75,
-    "avg_pts": 8.38
   },
   {
     "name": "Leyzerovych, Yan and Tulchinsky, Eva",
@@ -11069,61 +11426,6 @@
     "avg_pts": 8.24
   },
   {
-    "name": "Long, Misha and Bersten, Isabella",
-    "results": [
-      {
-        "comp_name": "The Snow Ball",
-        "info": "AC-P1 Closed Bronze Ballroom (W/T/Q)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "AC-PT1 Amateur Closed Bronze Ballroom 3-Dance Championship (W/T/QS)",
-        "place": "1",
-        "points": 7.5
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "AC-Y PT Closed Amateur Ballroom Scholarship (W/T/QS)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Go Wild Dancesport",
-        "info": "AC-PT1 Closed Bronze Ballroom 4-Dance (W/T/F/Q)",
-        "place": "2",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "AC-TB Bronze Closed International Ballroom 2 -Dance Championship(W/T)",
-        "place": "1",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "AC-TB Bronze Closed International Ballroom 3 -Dance Championship(W/F/QS)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Twin Cities Open",
-        "info": "AC-PT Bronze Amateur Closed Ballroom 3 Dance (W/T/QS)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Twin Cities Open",
-        "info": "AC-PT Silver Amateur Closed Ballroom 3 Dance (W/T/QS)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 65.5,
-    "avg_pts": 8.19
-  },
-  {
     "name": "Leggett, Zoar and Leggett, Cheryl",
     "results": [
       {
@@ -11246,6 +11548,31 @@
     ],
     "total_pts": 32.5,
     "avg_pts": 8.12
+  },
+  {
+    "name": "Tempas, Laurel and Tempas, Robert",
+    "results": [
+      {
+        "comp_name": "The Windy City Open",
+        "info": "AC-S3 Pre-Champ Int'l Ballroom (W/T/F/Q)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "AC-S3 Open Int'l Ballroom Multi-Dance (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-C Amateur Open Ballroom Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 24.25,
+    "avg_pts": 8.08
   },
   {
     "name": "Kogan, Daniel and Hajduk, Gabriela",
@@ -11585,6 +11912,79 @@
     "avg_pts": 7.75
   },
   {
+    "name": "Long, Misha and Bersten, Isabella",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "info": "AC-P1 Closed Bronze Ballroom (W/T/Q)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "AC-PT1 Amateur Closed Bronze Ballroom 3-Dance Championship (W/T/QS)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "AC-Y PT Closed Amateur Ballroom Scholarship (W/T/QS)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Go Wild Dancesport",
+        "info": "AC-PT1 Closed Bronze Ballroom 4-Dance (W/T/F/Q)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-TB Bronze Closed International Ballroom 2 -Dance Championship(W/T)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-TB Bronze Closed International Ballroom 3 -Dance Championship(W/F/QS)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Twin Cities Open",
+        "info": "AC-PT Bronze Amateur Closed Ballroom 3 Dance (W/T/QS)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Twin Cities Open",
+        "info": "AC-PT Silver Amateur Closed Ballroom 3 Dance (W/T/QS)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-PT1 Closed Silver Ballroom Championship (W/T/Q)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-PT1 Closed Bronze Ballroom Championship (W/T/QS)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-Y Amateur PT Closed Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "4",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 85.0,
+    "avg_pts": 7.73
+  },
+  {
     "name": "Martynenko, Ivan and Dargis, Daniela",
     "results": [
       {
@@ -11827,6 +12227,43 @@
     "avg_pts": 7.62
   },
   {
+    "name": "Oishi, Steve and Donville, Emi",
+    "results": [
+      {
+        "comp_name": "California Classic",
+        "info": "AC- Masters Amateur International Ballroom  Competition (Over 50  (W/T/F/Q)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Pre-Championship International Ballroom (W/T/F/Q)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Novice International Ballroom (W/F/Q)",
+        "place": "3",
+        "points": 2.5
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur PreChamp Events S3 Int'l Ballroom (W,T,F,Q)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Open 4-5 Dance Events S3 Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 38.0,
+    "avg_pts": 7.6
+  },
+  {
     "name": "Rutten, Dino and Tseytlin, Lora",
     "results": [
       {
@@ -11942,19 +12379,6 @@
       }
     ],
     "total_pts": 15.0,
-    "avg_pts": 7.5
-  },
-  {
-    "name": "Artinian, Anthony and Uehara, Hana",
-    "results": [
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "P/J/Y 5-Dance Events Scholarship YH AM/AM Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "7",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 7.5,
     "avg_pts": 7.5
   },
   {
@@ -12727,6 +13151,177 @@
     "avg_pts": 7.0
   },
   {
+    "name": "Bader, Austin and Savchenko, Olivia",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur PreTeen II PreChamp Ballroom (W/T/QS)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur PreTeen II Closed Ballroom Championship (W/T/VW/FT/QS)",
+        "place": "Semis",
+        "points": 0.5
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur PreTeen Ballroom Grand Slam Scholarship (W/T/VW/FT/QS)",
+        "place": "Semis",
+        "points": 0.7
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Ameteur Pre-Champ P2 AM/AM Int'l Ballroom (W,T,Q)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Amateur Open Kids P2 Int'l Ballroom (W,T,F,Q)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 2 Int'l Ballroom 3-Dance (W/T/Q)",
+        "place": "Semis",
+        "points": 0.75
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 2 Int'l Ballroom 5-Dance {Fordney Fdn Bof B} (W/T/VW/F/Q)",
+        "place": "quarters",
+        "points": 3.15
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC-Y Pre-Teen2 Pre-Championship International Ballroom (W/T/Q)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC-Y Pre-Teen2 Amateur  International Ballroom (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 5.25
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "AC-PT2 Youth Championship Ballroom 5-Dance (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "AC-PT2 Youth Amateur International Ballroom Scholarship(W/T/VW/F/Q)",
+        "place": "2",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "P/J/Y 3-Dance Events Cl. Championship P2 AM/AM Int'l Ballroom (W,T,Q)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "P/J/Y 5-Dance Events Cl. Championship P2 AM/AM Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Preteen Amateur 4-5 Dance Events Open P2 Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 97.1,
+    "avg_pts": 6.94
+  },
+  {
+    "name": "Artinian, Anthony and Uehara, Hana",
+    "results": [
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "P/J/Y 5-Dance Events Scholarship YH AM/AM Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "7",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur PreChamp Events YH Int'l Ballroom (W,T,F,Q)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Open 4-5 Dance Events YH Int'l Ballroom BofB (W,T,VW,F,Q)",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 20.75,
+    "avg_pts": 6.92
+  },
+  {
+    "name": "Boyarskiy, Benjamin and Boyarskiy, Goldie",
+    "results": [
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "AC-J2 Bronze Junior Amateur Closed Ballroom 3-Dance (W/T/QS)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "AC-J1 Junior Amateur Open Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 8.75
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "AC-J1 Novice Int'l Ballroom (W/T/Q)",
+        "place": "2",
+        "points": 1.75
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "AC-J1 Closed Silver Int'l Ballroom 4-Dance (W/T/F/Q)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "AC-JR Open Int'l Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "6",
+        "points": 8.75
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "AC-J1 Amateur Closed Silver Ballroom 3-Dance Championship (W/T/QS)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "AC-Y JR Closed Amateur Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-JR2 Closed Silver Ballroom Championship (W/T/Q)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 55.25,
+    "avg_pts": 6.91
+  },
+  {
     "name": "Barton, Rhevv and Heinz, Ashley",
     "results": [
       {
@@ -13286,91 +13881,6 @@
     "avg_pts": 6.56
   },
   {
-    "name": "Bader, Austin and Savchenko, Olivia",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur PreTeen II PreChamp Ballroom (W/T/QS)",
-        "place": "5",
-        "points": 10.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur PreTeen II Closed Ballroom Championship (W/T/VW/FT/QS)",
-        "place": "Semis",
-        "points": 0.5
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur PreTeen Ballroom Grand Slam Scholarship (W/T/VW/FT/QS)",
-        "place": "Semis",
-        "points": 0.7
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Ameteur Pre-Champ P2 AM/AM Int'l Ballroom (W,T,Q)",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Amateur Open Kids P2 Int'l Ballroom (W,T,F,Q)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 2 Int'l Ballroom 3-Dance (W/T/Q)",
-        "place": "Semis",
-        "points": 0.75
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 2 Int'l Ballroom 5-Dance {Fordney Fdn Bof B} (W/T/VW/F/Q)",
-        "place": "quarters",
-        "points": 3.15
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC-Y Pre-Teen2 Pre-Championship International Ballroom (W/T/Q)",
-        "place": "4",
-        "points": 7.5
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC-Y Pre-Teen2 Amateur  International Ballroom (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 5.25
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "AC-PT2 Youth Championship Ballroom 5-Dance (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "AC-PT2 Youth Amateur International Ballroom Scholarship(W/T/VW/F/Q)",
-        "place": "2",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "P/J/Y 3-Dance Events Cl. Championship P2 AM/AM Int'l Ballroom (W,T,Q)",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "P/J/Y 5-Dance Events Cl. Championship P2 AM/AM Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "6",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 85.1,
-    "avg_pts": 6.55
-  },
-  {
     "name": "Kleinrath, James and Tam, Iris",
     "results": [
       {
@@ -13586,55 +14096,6 @@
     ],
     "total_pts": 25.25,
     "avg_pts": 6.31
-  },
-  {
-    "name": "Boyarskiy, Benjamin and Boyarskiy, Goldie",
-    "results": [
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "AC-J2 Bronze Junior Amateur Closed Ballroom 3-Dance (W/T/QS)",
-        "place": "2",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "AC-J1 Junior Amateur Open Ballroom Scholarship (W/T/VW/FT/QS)",
-        "place": "3",
-        "points": 8.75
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "AC-J1 Novice Int'l Ballroom (W/T/Q)",
-        "place": "2",
-        "points": 1.75
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "AC-J1 Closed Silver Int'l Ballroom 4-Dance (W/T/F/Q)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "AC-JR Open Int'l Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "6",
-        "points": 8.75
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "AC-J1 Amateur Closed Silver Ballroom 3-Dance Championship (W/T/QS)",
-        "place": "3",
-        "points": 5.25
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "AC-Y JR Closed Amateur Ballroom Scholarship (W/T/VW/FT/QS)",
-        "place": "3",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 44.0,
-    "avg_pts": 6.29
   },
   {
     "name": "Affonso, Christopher and Hatleberg, Holly",
@@ -13859,25 +14320,6 @@
       {
         "comp_name": "International Grand Ball",
         "info": "AC-Y Youth Championship Ballroom 5-Dance (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 12.25,
-    "avg_pts": 6.12
-  },
-  {
-    "name": "Tempas, Laurel and Tempas, Robert",
-    "results": [
-      {
-        "comp_name": "The Windy City Open",
-        "info": "AC-S3 Pre-Champ Int'l Ballroom (W/T/F/Q)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "AC-S3 Open Int'l Ballroom Multi-Dance (W/T/VW/F/Q)",
         "place": "3",
         "points": 7.0
       }
@@ -14312,6 +14754,19 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Krive, Aidan and Pazin, Daniela",
+    "results": [
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-JV2 Closed Bronze Ballroom Championship (W/T/QS)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Krukov, Anthony and Babichenko, Mira",
     "results": [
       {
@@ -14479,6 +14934,49 @@
     ],
     "total_pts": 6.0,
     "avg_pts": 6.0
+  },
+  {
+    "name": "Fridman, Aidan and Ter-Saakyants, Michelle",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J1 Junior & Youth International Ballroom Novice (W/T/Q)",
+        "place": "5",
+        "points": 2.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J1 Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
+        "place": "Semis",
+        "points": 1.0
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "AC-J1 Open Championship Ballroom Open (W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "AC-J Grand Slam Ballroom Scholarship (W/T/VW/F/QS)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-JR1 Open Ballroom 5-Dance Championship(W/T/VW/FT/QS)",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-Y Amateur JR Open Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "4",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 35.75,
+    "avg_pts": 5.96
   },
   {
     "name": "Zhang, Chi and Yao, Renee",
@@ -14742,6 +15240,49 @@
     "avg_pts": 5.69
   },
   {
+    "name": "Fisher, Talan and Brunson, Mina",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Ballroom  (W/Q)",
+        "place": "3",
+        "points": 3.25
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice International Ballroom  (T/F)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Pre-Champ Amateur International Ballroom (W/T/F/Q)",
+        "place": "6",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur PreChamp Events YH Int'l Ballroom (W,T,F,Q)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Novice Events A Int'l Ballroom (W,T,Q)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Open 4-5 Dance Events YH Int'l Ballroom BofB (W,T,VW,F,Q)",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 34.0,
+    "avg_pts": 5.67
+  },
+  {
     "name": "Churavy, John and Churavy, Pat",
     "results": [
       {
@@ -14864,6 +15405,31 @@
     ],
     "total_pts": 38.75,
     "avg_pts": 5.54
+  },
+  {
+    "name": "Chereshnyuk, Marco and Negrea, Sophia",
+    "results": [
+      {
+        "comp_name": "The Windy City Open",
+        "info": "AC-PT2 Closed Bronze Int'l Ballroom 3-Dance (W/T/Q)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "AC-PT2 Amateur Closed Bronze Ballroom 3-Dance Championship (W/T/QS)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-PT2 Closed Bronze Ballroom Championship (W/T/QS)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 16.5,
+    "avg_pts": 5.5
   },
   {
     "name": "Chacon, Kirill and Zhang, Cynthia",
@@ -15059,19 +15625,19 @@
     "avg_pts": 5.25
   },
   {
-    "name": "Chereshnyuk, Marco and Negrea, Sophia",
+    "name": "Kois, Sebastian and Koszarek, Gabriela",
     "results": [
       {
-        "comp_name": "The Windy City Open",
-        "info": "AC-PT2 Closed Bronze Int'l Ballroom 3-Dance (W/T/Q)",
-        "place": "3",
-        "points": 3.5
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-JR2 Closed Silver Ballroom Championship (W/T/Q)",
+        "place": "2",
+        "points": 5.25
       },
       {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "AC-PT2 Amateur Closed Bronze Ballroom 3-Dance Championship (W/T/QS)",
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-JR1 Closed Silver Ballroom Championship (W/T/Q)",
         "place": "2",
-        "points": 7.0
+        "points": 5.25
       }
     ],
     "total_pts": 10.5,
@@ -15089,6 +15655,25 @@
       {
         "comp_name": "Portland Open Dancesport Competition",
         "info": "Youth Amateur Closed Silver 3-Dance Events J1 Int'l Ballroom (W,F,Q)",
+        "place": "2",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 10.5,
+    "avg_pts": 5.25
+  },
+  {
+    "name": "Sojka, Patryk and Gliwa, Maja",
+    "results": [
+      {
+        "comp_name": "The Windy City Open",
+        "info": "AC-PT2 Closed Silver Int'l Ballroom 4-Dance (W/T/F/Q)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-PT2 Closed Silver Ballroom Championship (W/T/Q)",
         "place": "2",
         "points": 5.25
       }
@@ -15213,12 +15798,25 @@
     "avg_pts": 5.25
   },
   {
-    "name": "Sojka, Patryk and Gliwa, Maja",
+    "name": "Saba, Daniel and Chubay, Sofia",
     "results": [
       {
-        "comp_name": "The Windy City Open",
-        "info": "AC-PT2 Closed Silver Int'l Ballroom 4-Dance (W/T/F/Q)",
-        "place": "3",
+        "comp_name": "Elite Dancesport",
+        "info": "Preteen Amateur 3-Dance Events Closed P1 Int'l Ballroom (W,T,Q)",
+        "place": "2",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 5.25,
+    "avg_pts": 5.25
+  },
+  {
+    "name": "Silverman, Loren and Timofeeva, Olga",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Preteen Amateur 2-Dance Events Closed TB Int'l Ballroom (W,T)",
+        "place": "2",
         "points": 5.25
       }
     ],
@@ -15302,6 +15900,68 @@
     "avg_pts": 5.12
   },
   {
+    "name": "Rizun, Bryan and Minkov, Jessica",
+    "results": [
+      {
+        "comp_name": "The Windy City Open",
+        "info": "AC-PT1 Closed Bronze Int'l Ballroom 3-Dance (W/T/Q)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "AC-PT1 Closed Bronze Ballroom 3 dance (W/T/QS)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-PT1 Bronze Closed International Ballroom 2 -Dance Championship(W/T)",
+        "place": "3",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-PT1 Bronze Closed International Ballroom 3 -Dance Championship(W/F/QS)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-PT1 Closed Bronze Ballroom Championship (W/T/QS)",
+        "place": "1",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 25.5,
+    "avg_pts": 5.1
+  },
+  {
+    "name": "Toga, Satoru and Hong, Jeanne",
+    "results": [
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Masters Amateur Open Int'l Ballroom (W,T,F,Q)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Open 4-5 Dance Events S2 Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Open 4-5 Dance Events S3 Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 15.3,
+    "avg_pts": 5.1
+  },
+  {
     "name": "Tsapov, Alexander and Opletayev, Kathlyn",
     "results": [
       {
@@ -15356,37 +16016,6 @@
     ],
     "total_pts": 20.25,
     "avg_pts": 5.06
-  },
-  {
-    "name": "Fridman, Aidan and Ter-Saakyants, Michelle",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J1 Junior & Youth International Ballroom Novice (W/T/Q)",
-        "place": "5",
-        "points": 2.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J1 Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
-        "place": "Semis",
-        "points": 1.0
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "AC-J1 Open Championship Ballroom Open (W/T/VW/FT/QS)",
-        "place": "3",
-        "points": 7.0
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "AC-J Grand Slam Ballroom Scholarship (W/T/VW/F/QS)",
-        "place": "5",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 20.0,
-    "avg_pts": 5.0
   },
   {
     "name": "Kalenyuk, Oleksandr and Kane, Yana",
@@ -15781,31 +16410,6 @@
     "avg_pts": 4.59
   },
   {
-    "name": "Oishi, Steve and Donville, Emi",
-    "results": [
-      {
-        "comp_name": "California Classic",
-        "info": "AC- Masters Amateur International Ballroom  Competition (Over 50  (W/T/F/Q)",
-        "place": "3",
-        "points": 5.25
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Pre-Championship International Ballroom (W/T/F/Q)",
-        "place": "5",
-        "points": 6.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Novice International Ballroom (W/F/Q)",
-        "place": "3",
-        "points": 2.5
-      }
-    ],
-    "total_pts": 13.75,
-    "avg_pts": 4.58
-  },
-  {
     "name": "DeLavega, Ryan and Chang, Jackie",
     "results": [
       {
@@ -15862,37 +16466,6 @@
         "info": "AC-S3 Pre-Champ Ballroom 4-Dance (W/T/FT/QS)",
         "place": "1",
         "points": 9.0
-      }
-    ],
-    "total_pts": 18.0,
-    "avg_pts": 4.5
-  },
-  {
-    "name": "Rizun, Bryan and Minkov, Jessica",
-    "results": [
-      {
-        "comp_name": "The Windy City Open",
-        "info": "AC-PT1 Closed Bronze Int'l Ballroom 3-Dance (W/T/Q)",
-        "place": "2",
-        "points": 3.5
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "AC-PT1 Closed Bronze Ballroom 3 dance (W/T/QS)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "AC-PT1 Bronze Closed International Ballroom 2 -Dance Championship(W/T)",
-        "place": "3",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "AC-PT1 Bronze Closed International Ballroom 3 -Dance Championship(W/F/QS)",
-        "place": "3",
-        "points": 3.5
       }
     ],
     "total_pts": 18.0,
@@ -16201,6 +16774,25 @@
     "avg_pts": 4.12
   },
   {
+    "name": "Yi, Dae Yung and Lee, Lisa",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Novice Events S3 Int'l Ballroom (W,T,Q)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur PreChamp Events S3 Int'l Ballroom (W,T,F,Q)",
+        "place": "2",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 8.25,
+    "avg_pts": 4.12
+  },
+  {
     "name": "Malakhov, Timofey and Mandelov, Tatiana",
     "results": [
       {
@@ -16297,31 +16889,6 @@
       }
     ],
     "total_pts": 28.0,
-    "avg_pts": 4.0
-  },
-  {
-    "name": "Fisher, Talan and Brunson, Zara",
-    "results": [
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-A Novice International Ballroom  (W/Q)",
-        "place": "3",
-        "points": 3.25
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-A Novice International Ballroom  (T/F)",
-        "place": "2",
-        "points": 3.5
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-Y Pre-Champ Amateur International Ballroom (W/T/F/Q)",
-        "place": "6",
-        "points": 5.25
-      }
-    ],
-    "total_pts": 12.0,
     "avg_pts": 4.0
   },
   {
@@ -17163,6 +17730,19 @@
     "avg_pts": 3.0
   },
   {
+    "name": "Quan, Robert and Solano, Frances",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Pre-Novice Events S4 Int'l Ballroom (W,T)",
+        "place": "1",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
+  },
+  {
     "name": "Sanders, Thomas and Evans, Lorna",
     "results": [
       {
@@ -17818,19 +18398,6 @@
       {
         "comp_name": "Eastern United States DanceSport Championship",
         "info": "AC-A Open Ballroom Championship (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 0.3
-      }
-    ],
-    "total_pts": 0.3,
-    "avg_pts": 0.3
-  },
-  {
-    "name": "Toga, Satoru and Hong, Jeanne",
-    "results": [
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Masters Amateur Open Int'l Ballroom (W,T,F,Q)",
         "place": "Semis",
         "points": 0.3
       }

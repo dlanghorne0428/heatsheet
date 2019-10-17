@@ -122,11 +122,11 @@
     "avg_pts": 15.0
   },
   {
-    "name": "Tang, Kaifeng and Tu, Yejun",
+    "name": "O'Rourke, John and Tsai, Emily",
     "results": [
       {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "AC- EUS Closed Syllabus Rhythm Championship (C/R/SW)",
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur American SR2 Amer. Rhythm Championship (CC,R,SW,B,M)",
         "place": "1",
         "points": 15.0
       }
@@ -135,11 +135,11 @@
     "avg_pts": 15.0
   },
   {
-    "name": "O'Rourke, John and Tsai, Emily",
+    "name": "Tang, Kaifeng and Tu, Yejun",
     "results": [
       {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur American SR2 Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC- EUS Closed Syllabus Rhythm Championship (C/R/SW)",
         "place": "1",
         "points": 15.0
       }
@@ -491,6 +491,55 @@
     "avg_pts": 12.0
   },
   {
+    "name": "Rogers, Edward and Rogers, Trisha",
+    "results": [
+      {
+        "comp_name": "California Classic",
+        "info": "AC- Adult Amateur Open American Rhythm Competition (C/R/SW/B/M)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC- Open Amateur Rhythm Scholarship (CC/R/SW/B/M)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "AC- Open Amateur Rhythm Scholarship (CC/R/SW/B/M)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC- Adult Open American Rhythm (C/R/SW/B/M)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Open Amateur American Rhythm Championship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Amateur Open A Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Open Amateur Scholarship A Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 83.0,
+    "avg_pts": 11.86
+  },
+  {
     "name": "Ranivand, John and Bruce, Elizabeth",
     "results": [
       {
@@ -588,47 +637,17 @@
     "avg_pts": 11.4
   },
   {
-    "name": "Rogers, Edward and Rogers, Trisha",
+    "name": "Hankins, Bryant and Hynes, Vicki",
     "results": [
       {
-        "comp_name": "California Classic",
-        "info": "AC- Adult Amateur Open American Rhythm Competition (C/R/SW/B/M)",
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-B Amateur Closed Silver Rhythm Championship (C/R/SW)",
         "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC- Open Amateur Rhythm Scholarship (CC/R/SW/B/M)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "AC- Open Amateur Rhythm Scholarship (CC/R/SW/B/M)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC- Adult Open American Rhythm (C/R/SW/B/M)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Open Amateur American Rhythm Championship (C/R/SW/B/M)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Amateur Open A Amer. Rhythm Championship (CC,R,SW,B,M)",
-        "place": "2",
-        "points": 7.0
+        "points": 11.25
       }
     ],
-    "total_pts": 68.0,
-    "avg_pts": 11.33
+    "total_pts": 11.25,
+    "avg_pts": 11.25
   },
   {
     "name": "Schmalzried, Andrew and Wagner, Taya",
@@ -2301,6 +2320,31 @@
     "avg_pts": 5.0
   },
   {
+    "name": "Latorre, Trajano and Griffith Nosacka, Catherine",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-B Silver Amateur American Rhythm Novice 2-Dance (C/R)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-B Amateur Closed Bronze Rhythm Championship (C/R/SW)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "AC-B Amateur Closed Silver Rhythm Championship (C/R/SW)",
+        "place": "2",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 14.25,
+    "avg_pts": 4.75
+  },
+  {
     "name": "Bass, Jared and Martinez, Lilliana",
     "results": [
       {
@@ -2512,6 +2556,19 @@
     "avg_pts": 3.0
   },
   {
+    "name": "Akahoshi, Dean and Clement, Melissa",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Novice Events A Amer. Rhythm (CC,R,SW)",
+        "place": "1",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
+  },
+  {
     "name": "Bambic, Michael and Bambic, Victoria",
     "results": [
       {
@@ -2551,19 +2608,6 @@
     "avg_pts": 3.0
   },
   {
-    "name": "Latorre, Trajano and Griffith Nosacka, Catherine",
-    "results": [
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "AC-B Silver Amateur American Rhythm Novice 2-Dance (C/R)",
-        "place": "1",
-        "points": 3.0
-      }
-    ],
-    "total_pts": 3.0,
-    "avg_pts": 3.0
-  },
-  {
     "name": "Wright, Mark and Lindley, Jean",
     "results": [
       {
@@ -2577,7 +2621,20 @@
     "avg_pts": 3.0
   },
   {
-    "name": "Mower, William and Mower, Suzanne",
+    "name": "Rodriguez, Oscar and Chen, Chrystal",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Pre-Novice Events A Amer. Rhythm (CC,R)",
+        "place": "1",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
+  },
+  {
+    "name": "Mower, William and Raab, Suzanne",
     "results": [
       {
         "comp_name": "Great Gatsby Gala",
@@ -2588,6 +2645,31 @@
       {
         "comp_name": "2019 Desert Classic DanceSport Festival",
         "info": "AC- Novice American Rhythm (C/R/SW)",
+        "place": "2",
+        "points": 1.75
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Novice Events S3 Amer. Rhythm (CC,R,SW)",
+        "place": "1",
+        "points": 3.75
+      }
+    ],
+    "total_pts": 8.5,
+    "avg_pts": 2.83
+  },
+  {
+    "name": "Boggio, Ray and Huynh, Tuyen",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Pre-Novice Events S3 Amer. Rhythm (CC,R)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Novice Events S3 Amer. Rhythm (CC,R,SW)",
         "place": "2",
         "points": 1.75
       }
