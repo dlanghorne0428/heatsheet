@@ -324,31 +324,6 @@
     "avg_pts": 14.33
   },
   {
-    "name": "Kliniewski, Dawn and Palmiter, Kelly",
-    "results": [
-      {
-        "comp_name": "Michigan DanceSport Challenge",
-        "info": "L-B Night Club Multi Dance (WC/Sal/Hus)",
-        "place": "2",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "L-B Silver Nightclub Challenges (SAL/H/WCS)",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "L-B Caribbean Mix (SAL/BA/MER)",
-        "place": "1",
-        "points": 11.25
-      }
-    ],
-    "total_pts": 42.5,
-    "avg_pts": 14.17
-  },
-  {
     "name": "Zavodchikov, Natalia and Demidov, Dmitry",
     "results": [
       {
@@ -462,11 +437,11 @@
     "avg_pts": 13.5
   },
   {
-    "name": "Underwood, Susan and Kerekes, Tibor",
+    "name": "Frieberg, Lori and Nu\u00f1ez, Antonio",
     "results": [
       {
-        "comp_name": "The DBDC 2019",
-        "info": "L-B Silver Nightclub Challenge (Sal/Hus/WCS)",
+        "comp_name": "Elite Dancesport",
+        "info": "NIghtclub 2-Dance SR Nightclub (SA,ME)",
         "place": "1",
         "points": 13.5
       }
@@ -480,6 +455,19 @@
       {
         "comp_name": "2019 Constitution State Dancesport Championships",
         "info": "L-C Closed Nightclub Championship (HU/SAL)",
+        "place": "1",
+        "points": 13.5
+      }
+    ],
+    "total_pts": 13.5,
+    "avg_pts": 13.5
+  },
+  {
+    "name": "Underwood, Susan and Kerekes, Tibor",
+    "results": [
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "L-B Silver Nightclub Challenge (Sal/Hus/WCS)",
         "place": "1",
         "points": 13.5
       }
@@ -631,6 +619,55 @@
     "avg_pts": 12.5
   },
   {
+    "name": "Kliniewska, Dawn and Palmiter, Kelly",
+    "results": [
+      {
+        "comp_name": "Michigan DanceSport Challenge",
+        "info": "L-B Night Club Multi Dance (WC/Sal/Hus)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "L-B Silver Nightclub Challenges (SAL/H/WCS)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "L-B Caribbean Mix (SAL/BA/MER)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "L-B Open Nightclub Championship (HU/NC2Step/WC)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "L-B Silver Nightclub Championship (Mer/Sal/Bach)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "L-B Open Nightclub Championship (Mer/Sal/Bach)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "L-B Silver Nightclub Championship (HU/NC2Step/WC)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 86.75,
+    "avg_pts": 12.39
+  },
+  {
     "name": "Hansford, Carmen and Criado, Angel",
     "results": [
       {
@@ -747,25 +784,6 @@
       {
         "comp_name": "caopen19",
         "info": "L-B Open Silver Nightclub Championship (WCS/NC2/HU)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 24.0,
-    "avg_pts": 12.0
-  },
-  {
-    "name": "Reyes, Lito and Carrillo, Bailey",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "G-C Open to All Levels Nightclub Championship (BA/MER/SAL)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "G-C Open to All Levels Nightclub Championship (WCS/NC2/HU)",
         "place": "1",
         "points": 12.0
       }
@@ -1062,6 +1080,31 @@
     "avg_pts": 11.84
   },
   {
+    "name": "Reyes, Lito and Carrillo, Bailey",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "G-C Open to All Levels Nightclub Championship (BA/MER/SAL)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "G-C Open to All Levels Nightclub Championship (WCS/NC2/HU)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "NIghtclub 2-Dance C Nightclub (SA,ME)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 35.25,
+    "avg_pts": 11.75
+  },
+  {
     "name": "Kirkegaard, SuzAnne and Kempainen, Chris",
     "results": [
       {
@@ -1154,6 +1197,19 @@
       {
         "comp_name": "Maryland DanceSport Championships",
         "info": "L-B Silver Pro/Am Night Club 3 Dance (Merengue/Salsa/Bachata)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 11.25,
+    "avg_pts": 11.25
+  },
+  {
+    "name": "Dejesa, Yhing and Nu\u00f1ez, Antonio",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "NIghtclub 2-Dance B Nightclub (SA,ME)",
         "place": "1",
         "points": 11.25
       }
@@ -1992,44 +2048,6 @@
     "avg_pts": 9.5
   },
   {
-    "name": "DeBraal, Sally and Blanc, Michael",
-    "results": [
-      {
-        "comp_name": "chicago19",
-        "info": "L-C Open Nightclub 3-Dance Challenge (WC/NC2/HUS)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "chicago19",
-        "info": "L-C Open Nightclub 3-Dance Challenge (Bac/Mer/Sal)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 19.0,
-    "avg_pts": 9.5
-  },
-  {
-    "name": "Griseto, Gloria and Blanc, Michael",
-    "results": [
-      {
-        "comp_name": "St. Louis Star Ball Championship",
-        "info": "L-C Bronze Closed Night Club 3 Dance (Salsa/Merengue/WC)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "wisconsin19[martin cawston]",
-        "info": "L-C1 Bronze Night Club Championship (Hustle/NightClub2 Step/WC)",
-        "place": "1",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 19.0,
-    "avg_pts": 9.5
-  },
-  {
     "name": "Sherman, Emily and Kempainen, Chris",
     "results": [
       {
@@ -2041,25 +2059,6 @@
       {
         "comp_name": "Twin Cities Open",
         "info": "L-B Night Club Open Championship (WC/NC/HU)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 19.0,
-    "avg_pts": 9.5
-  },
-  {
-    "name": "Von Martens-Crooks, Heidi and Kuka, Michael",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "L-C1 Open to All Levels Nightclub Championship (WCS/NC2/HU)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "beachbash2019",
-        "info": "L-SR Pro/Am Open Night Club Championship (H/NightClub/WC)",
         "place": "1",
         "points": 12.0
       }
@@ -2697,6 +2696,31 @@
     "avg_pts": 8.5
   },
   {
+    "name": "Griseto, Gloria and Blanc, Michael",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-C Bronze Closed Night Club 3 Dance (Salsa/Merengue/WC)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "wisconsin19[martin cawston]",
+        "info": "L-C1 Bronze Night Club Championship (Hustle/NightClub2 Step/WC)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "L-SR Bronze Nightclub Championship (HU/NC2Step/WC)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 25.0,
+    "avg_pts": 8.33
+  },
+  {
     "name": "Loving, Ada and Munson, Todd",
     "results": [
       {
@@ -2830,10 +2854,41 @@
         "info": "L-B Bronze Pro/Am Night Club Closed Scholarship (WC/Sal/Hus)",
         "place": "2",
         "points": 5.25
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "NIghtclub 2-Dance SR Nightclub (SA,ME)",
+        "place": "2",
+        "points": 9.0
       }
     ],
-    "total_pts": 180.75,
-    "avg_pts": 8.22
+    "total_pts": 189.75,
+    "avg_pts": 8.25
+  },
+  {
+    "name": "Von Martens-Crook, Heidi and Kuka, Michael",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "L-C1 Open to All Levels Nightclub Championship (WCS/NC2/HU)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "beachbash2019",
+        "info": "L-SR Pro/Am Open Night Club Championship (H/NightClub/WC)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "NIghtclub 2-Dance SR Nightclub (SA,ME)",
+        "place": "3",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 24.25,
+    "avg_pts": 8.08
   },
   {
     "name": "Bell, Tara and Wyant, Kyle",
@@ -2948,10 +3003,16 @@
         "info": "L-C Night Club Open Championship (Merg/Bach/Sal)",
         "place": "2",
         "points": 7.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "L-C Bronze Nightclub Championship (HU/NC2Step/WC)",
+        "place": "1",
+        "points": 7.5
       }
     ],
-    "total_pts": 23.5,
-    "avg_pts": 7.83
+    "total_pts": 31.0,
+    "avg_pts": 7.75
   },
   {
     "name": "Bourdelais, Pat and Gregory, Matt",
@@ -2977,6 +3038,50 @@
     ],
     "total_pts": 23.25,
     "avg_pts": 7.75
+  },
+  {
+    "name": "DeBraal, Sally and Blanc, Michael",
+    "results": [
+      {
+        "comp_name": "chicago19",
+        "info": "L-C Open Nightclub 3-Dance Challenge (WC/NC2/HUS)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "chicago19",
+        "info": "L-C Open Nightclub 3-Dance Challenge (Bac/Mer/Sal)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "L-C Bronze Nightclub Championship (HU/NC2Step/WC)",
+        "place": "2",
+        "points": 3.5
+      }
+    ],
+    "total_pts": 22.5,
+    "avg_pts": 7.5
+  },
+  {
+    "name": "Carpenter, Patty and Solano, Julius",
+    "results": [
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "L-B Closed Bronze NightClub (Mer/Salsa/Bachata)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "L-C Closed Nightclub Championship (HU/SAL)",
+        "place": "2",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 7.5
   },
   {
     "name": "Voelpel, Larry and Kuehuel, Karmin",
@@ -3011,25 +3116,6 @@
         "info": "L-S1 Night Club MultiDance(WC/SAL/HU)",
         "place": "3",
         "points": 9.75
-      }
-    ],
-    "total_pts": 15.0,
-    "avg_pts": 7.5
-  },
-  {
-    "name": "Carpenter, Patty and Solano, Julius",
-    "results": [
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "L-B Closed Bronze NightClub (Mer/Salsa/Bachata)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "2019 Constitution State Dancesport Championships",
-        "info": "L-C Closed Nightclub Championship (HU/SAL)",
-        "place": "2",
-        "points": 9.0
       }
     ],
     "total_pts": 15.0,
@@ -3248,10 +3334,16 @@
         "info": "L-C1 Closed Bronze Nightclub 3-Dance Challenge (WC/NC2/HUS)",
         "place": "1",
         "points": 6.0
+      },
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "L-B Bronze Nightclub Championship (HU/NC2Step/WC)",
+        "place": "1",
+        "points": 6.0
       }
     ],
-    "total_pts": 20.0,
-    "avg_pts": 6.67
+    "total_pts": 26.0,
+    "avg_pts": 6.5
   },
   {
     "name": "Chavez, Esperanza and Barsuk, Pavlo",
@@ -3844,6 +3936,19 @@
     "avg_pts": 5.25
   },
   {
+    "name": "Flynn, Bridget and Doss, Byron",
+    "results": [
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "L-B Silver Nightclub Championship (HU/NC2Step/WC)",
+        "place": "2",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 5.25,
+    "avg_pts": 5.25
+  },
+  {
     "name": "Gancayco, Lauren and Krajewski, Peter",
     "results": [
       {
@@ -3922,6 +4027,19 @@
     "avg_pts": 5.25
   },
   {
+    "name": "Shelly, Damon and Marshukova, Ekaterina",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "NIghtclub 2-Dance C Nightclub (SA,ME)",
+        "place": "2",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 5.25,
+    "avg_pts": 5.25
+  },
+  {
     "name": "Simcox, Mary and Daly, Jason",
     "results": [
       {
@@ -3953,6 +4071,19 @@
       {
         "comp_name": "Philadelphia Dancesport Championships",
         "info": "L-B Caribbean Mix (SAL/BA/MER)",
+        "place": "2",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 5.25,
+    "avg_pts": 5.25
+  },
+  {
+    "name": "Reyes, Lito and Hopwood, Alexandra",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "NIghtclub 2-Dance B Nightclub (SA,ME)",
         "place": "2",
         "points": 5.25
       }
@@ -4207,6 +4338,19 @@
     ],
     "total_pts": 3.5,
     "avg_pts": 3.5
+  },
+  {
+    "name": "Miller, Barbara and Kliphuis, Hans",
+    "results": [
+      {
+        "comp_name": "Chicago Harvest Moon Ball Championships",
+        "info": "L-C Newcomer Nightclub Championship (HU/NC2Step/WC)",
+        "place": "1",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
   },
   {
     "name": "Shafii, Sharon and Marcis, Milan",

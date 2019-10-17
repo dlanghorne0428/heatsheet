@@ -65,6 +65,7 @@ class NdcaPremResults():
         looking_for_round_one = False
         process_finalists = False
         looking_for_semifinal = False
+        total_entries = 0
         url = "http://www.ndcapremier.com/scripts/results.asp?cyi=" + self.comp_id + "&event=" + event_id
         # this should be based on event id
         num_dances = heat_report.description().count(",") + 1
@@ -123,6 +124,7 @@ class NdcaPremResults():
                         result_place = int(result_field)
                     except:
                         result_place = None
+                    total_entries += 1
                     sub_fields = couple_field.split(" &amp; ")
                     first_space = sub_fields[0].find(" ")
                     shirt_number = sub_fields[0][:first_space]
@@ -255,12 +257,10 @@ class NdcaPremResults():
             else:
                 i+= 1
 
-        
-        total_entries = heat_report.length()        
+             
         for index in range(heat_report.length()):
             e = heat_report.entry(index)
             if e.result is None:
-                total_entries -= 1
                 e.rounds = heat_report.rounds()
         for index in range(heat_report.length()):
             e = heat_report.entry(index)
