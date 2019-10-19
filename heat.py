@@ -5,7 +5,7 @@ def is_multi_dance(s):
     right_pos = s.find(')')
     if left_pos == -1 or right_pos == -1:
         return False
-    elif "Mixed" in s or "Solo Star" in s:
+    elif "Mixed" in s or "Solo Star" in s or "NP" in s:
         return False
     elif "/" in s[left_pos:right_pos] or "," in s[left_pos:right_pos]:
         return True
