@@ -251,19 +251,6 @@
     "avg_pts": 18.0
   },
   {
-    "name": "O'Rourke, John and Tsai, Emily",
-    "results": [
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur American SR2 Amer. Smooth Championship (W,T,F,VW)",
-        "place": "1",
-        "points": 18.0
-      }
-    ],
-    "total_pts": 18.0,
-    "avg_pts": 18.0
-  },
-  {
     "name": "Perkins, Andrew and Lujan, Ana",
     "results": [
       {
@@ -275,25 +262,6 @@
     ],
     "total_pts": 18.0,
     "avg_pts": 18.0
-  },
-  {
-    "name": "Hesse, Regan and Hesse, Teresa",
-    "results": [
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Pre-Champ SR4 Amer. Smooth (W,T,F)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur American SR4 Amer. Smooth Championship (W,T,F,VW)",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 35.0,
-    "avg_pts": 17.5
   },
   {
     "name": "Torres, Steve and Barron, Nicole",
@@ -551,19 +519,6 @@
     "avg_pts": 15.0
   },
   {
-    "name": "Marynets, Maxim and Sepe, Mia",
-    "results": [
-      {
-        "comp_name": "Pacific Grand Ball",
-        "info": "Open Silver Multi-Dance Events YH AM/AM Amer. Smooth (W,T,F,VW)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 15.0,
-    "avg_pts": 15.0
-  },
-  {
     "name": "Spencer, Daniel and Calobrisi, Emily",
     "results": [
       {
@@ -575,37 +530,6 @@
     ],
     "total_pts": 15.0,
     "avg_pts": 15.0
-  },
-  {
-    "name": "Walker, Don and Wolf, Sharon",
-    "results": [
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Adult Amateur Open PreChamp Events S Amer. Smooth (W,T,F)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Adult Amateur Open 5-Dance Events S Amer. Smooth (W,T,F,VW)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Pre-Champ SR3 Amer. Smooth (W,T,F)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur American SR3 Amer. Smooth Championship (W,T,F,VW)",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 59.0,
-    "avg_pts": 14.75
   },
   {
     "name": "Lloyd, Charles and Weiss, Hanna",
@@ -894,56 +818,6 @@
     "avg_pts": 13.5
   },
   {
-    "name": "Wort, Steven and Wort, Tracy",
-    "results": [
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Pre-Champ SR3 Amer. Smooth (W,T,F)",
-        "place": "2",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur American SR3 Amer. Smooth Championship (W,T,F,VW)",
-        "place": "2",
-        "points": 16.0
-      }
-    ],
-    "total_pts": 26.5,
-    "avg_pts": 13.25
-  },
-  {
-    "name": "Migliore, Trevor and Patterson, Breanna",
-    "results": [
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "AC- Amateur Open Smooth Scholarships (W/T/F/VW)",
-        "place": "1",
-        "points": 18.75
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Amateur Open A Amer. Smooth Championship (W,T,F,VW)",
-        "place": "Semis",
-        "points": 6.3
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Pre-Champ A Amer. Smooth (W,T,F)",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur American A Amer. Smooth Championship (W,T,F,VW)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 51.3,
-    "avg_pts": 12.82
-  },
-  {
     "name": "Davis, Ben and McCall, Alexis",
     "results": [
       {
@@ -1010,6 +884,37 @@
     ],
     "total_pts": 63.0,
     "avg_pts": 12.6
+  },
+  {
+    "name": "Walker, Don and Wolf, Sharon",
+    "results": [
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Adult Amateur Open PreChamp Events S Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Adult Amateur Open 5-Dance Events S Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Pre-Champ SR3 Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur American SR3 Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 50.25,
+    "avg_pts": 12.56
   },
   {
     "name": "McShinsky, Robert and Harding, Jenna",
@@ -1097,6 +1002,37 @@
     ],
     "total_pts": 12.25,
     "avg_pts": 12.25
+  },
+  {
+    "name": "Migliore, Trevor and Patterson, Breanna",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "AC- Amateur Open Smooth Scholarships (W/T/F/VW)",
+        "place": "1",
+        "points": 18.75
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Amateur Open A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "Semis",
+        "points": 6.3
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Pre-Champ A Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur American A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 48.3,
+    "avg_pts": 12.07
   },
   {
     "name": "Blanchard, Adam and Gunnell, Tiawna",
@@ -1305,12 +1241,38 @@
     "avg_pts": 12.0
   },
   {
+    "name": "Marynets, Maxim and Sepe, Mia",
+    "results": [
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "Open Silver Multi-Dance Events YH AM/AM Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
     "name": "Morton, Mike and Bront, Julia",
     "results": [
       {
         "comp_name": "Eastern United States DanceSport Championship",
         "info": "AC- EUS Closed Syllabus Smooth Championship (W/T/F)",
         "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
+    "name": "O'Rourke, John and Tsai, Emily",
+    "results": [
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur American SR2 Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
         "points": 12.0
       }
     ],
@@ -1433,25 +1395,6 @@
     "avg_pts": 11.81
   },
   {
-    "name": "Abaya, Brandon and Abaya, Ella",
-    "results": [
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Pre-Champ PT2 Amer. Smooth (W,T,F) /J",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Amer. PT2 Amer. Smooth Championship (W,T,F,VW) /J",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 23.25,
-    "avg_pts": 11.62
-  },
-  {
     "name": "Woyak, Daniel and Ly, Monica",
     "results": [
       {
@@ -1554,19 +1497,6 @@
       }
     ],
     "total_pts": 45.0,
-    "avg_pts": 11.25
-  },
-  {
-    "name": "Luhman, Brian and Koda, Alexis",
-    "results": [
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "PreChamp Amateur 4-Dance Events AD Amer. Smooth (W,T,F,VW)",
-        "place": "1",
-        "points": 11.25
-      }
-    ],
-    "total_pts": 11.25,
     "avg_pts": 11.25
   },
   {
@@ -1769,35 +1699,42 @@
     "avg_pts": 10.56
   },
   {
-    "name": "Schwartz, Charles and Schwartz, Ann-Marie",
+    "name": "Abaya, Brandon and Abaya, Ella",
     "results": [
       {
-        "comp_name": "Empire Dance Championship",
-        "info": "Closed Amateur 3-Dance Events Closed Silver S3 Amer. Smooth (W,T,F)",
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Pre-Champ PT2 Amer. Smooth (W,T,F) /J",
         "place": "1",
-        "points": 11.25
+        "points": 9.0
       },
       {
-        "comp_name": "Empire Dance Championship",
-        "info": "Closed Amateur 4-Dance Events Closed Gold S2 Amer. Smooth (W,T,F,VW)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Closed Amateur 4-Dance Events Closed Gold S3 Amer. Smooth (W,T,F,VW)",
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Amer. PT2 Amer. Smooth Championship (W,T,F,VW) /J",
         "place": "1",
         "points": 12.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Amateur 4/5 Dance Championships  AD Amer. Smooth Championship (W,T,F,VW)",
-        "place": "2",
-        "points": 7.0
       }
     ],
-    "total_pts": 42.25,
-    "avg_pts": 10.56
+    "total_pts": 21.0,
+    "avg_pts": 10.5
+  },
+  {
+    "name": "Hesse, Regan and Hesse, Teresa",
+    "results": [
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Pre-Champ SR4 Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur American SR4 Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 21.0,
+    "avg_pts": 10.5
   },
   {
     "name": "Hudson, Henry and Hudson, Olivia",
@@ -2061,6 +1998,37 @@
       }
     ],
     "total_pts": 90.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Schwartz, Charles and Schwartz, Ann-Marie",
+    "results": [
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Closed Amateur 3-Dance Events Closed Silver S3 Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Closed Amateur 4-Dance Events Closed Gold S2 Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Closed Amateur 4-Dance Events Closed Gold S3 Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Amateur 4/5 Dance Championships  AD Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 40.0,
     "avg_pts": 10.0
   },
   {
@@ -2622,6 +2590,19 @@
       {
         "comp_name": "All-Star Dance Challenge",
         "info": "AC-A1 Closed Silver American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Luhman, Brian and Koda, Alexis",
+    "results": [
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "PreChamp Amateur 4-Dance Events AD Amer. Smooth (W,T,F,VW)",
         "place": "1",
         "points": 9.0
       }
@@ -3276,6 +3257,31 @@
     "avg_pts": 7.08
   },
   {
+    "name": "Van Horn, Martin and Van Horn, Lisa",
+    "results": [
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "AC-A Novice 3-Dance American Smooth (W/T/F)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "AC-A Pre-Champ 4-Dance American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "PreChamp Amateur 4-Dance Events AD Amer. Smooth (W,T,F,VW) /J",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 21.0,
+    "avg_pts": 7.0
+  },
+  {
     "name": "Narayan, Ravi and Sumukti, Synthia",
     "results": [
       {
@@ -3570,6 +3576,25 @@
     "avg_pts": 6.12
   },
   {
+    "name": "Wort, Steven and Wort, Tracy",
+    "results": [
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Pre-Champ SR3 Amer. Smooth (W,T,F)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur American SR3 Amer. Smooth Championship (W,T,F,VW)",
+        "place": "2",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 12.25,
+    "avg_pts": 6.12
+  },
+  {
     "name": "Yelin, Boris and Hutter, Amanda",
     "results": [
       {
@@ -3714,7 +3739,7 @@
     "avg_pts": 6.0
   },
   {
-    "name": "Richard Colesanti, Giovanni and Rubin, Ella",
+    "name": "Colesanti, Giovanni Richard and Rubin, Ella",
     "results": [
       {
         "comp_name": "Empire Dance Championship",
@@ -3763,25 +3788,6 @@
       {
         "comp_name": "Philadelphia Dancesport Championships",
         "info": "AC-SR 1 PreChamp American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 12.0,
-    "avg_pts": 6.0
-  },
-  {
-    "name": "Van Horn, Lisa and Van Horn, Martin",
-    "results": [
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "AC-A Novice 3-Dance American Smooth (W/T/F)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "AC-A Pre-Champ 4-Dance American Smooth (W/T/F/VW)",
         "place": "1",
         "points": 9.0
       }
@@ -4101,6 +4107,19 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Silverman, Loren and Altshul, Michelle",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Elite Journey Point 2-Dance Closed Bronze TB AM/AM (W,CC) /J",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Spicer, Erica and Spicer, Joe",
     "results": [
       {
@@ -4158,19 +4177,6 @@
       {
         "comp_name": "2019 Constitution State Dancesport Championships",
         "info": "AC-J1 Junior Closed Bronze American Smooth Championships  (W/T/F)",
-        "place": "1",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 6.0,
-    "avg_pts": 6.0
-  },
-  {
-    "name": "Silverman, Loren and Altshul, Michelle",
-    "results": [
-      {
-        "comp_name": "Elite Dancesport",
-        "info": "Elite Journey Point 2-Dance Closed Bronze TB AM/AM (W,CC) /J",
         "place": "1",
         "points": 6.0
       }
