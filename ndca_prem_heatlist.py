@@ -148,7 +148,7 @@ class NdcaPremHeatlist(Heatlist):
                             if d.name == name_scramble:
                                 return d.name
                     print("No match found for partner named", name)
-                    return "Unknown"
+                    return None
         else:
             return None
         

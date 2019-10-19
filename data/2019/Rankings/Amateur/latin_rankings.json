@@ -44,7 +44,7 @@
     "avg_pts": 39.0
   },
   {
-    "name": "Livshiz, Tal and Keselman, Ilana",
+    "name": "Livshitz, Tal and Keselman, Ilana",
     "results": [
       {
         "comp_name": "Golden Star Dancesport Championships",
@@ -1219,73 +1219,6 @@
     "avg_pts": 22.44
   },
   {
-    "name": "de la Rosa, Brando and Saidkarieva, Naeema",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur PreTeen Latin Grand Slam Scholarship(CC/S/R/PD/J)",
-        "place": "5",
-        "points": 18.0
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Ameteur Pre-Champ P2 AM/AM Int'l Latin (CC,S,J)",
-        "place": "2",
-        "points": 20.0
-      },
-      {
-        "comp_name": "The Royal Ball",
-        "info": "Amateur Open Kids P2 Int'l Latin (CC,S,R,J)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Youth Amateur PreChampionships P2 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Youth Amateur Closed 5-Dance Events Scholarship P2 Int'l Latin (CC,S,R,PD,J)",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 2 Int'l Latin 3-Dance (C/S/J)",
-        "place": "2",
-        "points": 28.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 2  Int'l Latin 5-Dance {Fordney Fdn Bof B} (C/S/R/PD/J)",
-        "place": "6",
-        "points": 12.25
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "P/J/Y 3-Dance Events Cl. Championship P2 AM/AM Int'l Latin (CC,S,R)",
-        "place": "1",
-        "points": 40.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "P/J/Y 5-Dance Events Cl. Championship P2 AM/AM Int'l Latin (CC,S,R,PD,J)",
-        "place": "4",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Elite Dancesport",
-        "info": "Preteen Amateur 4-5 Dance Events Closed P2 Int'l Latin BofB (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 221.75,
-    "avg_pts": 22.18
-  },
-  {
     "name": "Mattos, Anthony and Zinchenko, Eva",
     "results": [
       {
@@ -1364,7 +1297,7 @@
         "comp_name": "Pacific Grand Ball",
         "info": "AmAm 5-Dance Events Open J2  Int'l Latin (CC,S,R,PD,J)",
         "place": "1",
-        "points": 15.0
+        "points": 20.0
       },
       {
         "comp_name": "Pacific Grand Ball",
@@ -1373,8 +1306,75 @@
         "points": 25.0
       }
     ],
-    "total_pts": 309.0,
-    "avg_pts": 22.07
+    "total_pts": 314.0,
+    "avg_pts": 22.43
+  },
+  {
+    "name": "de la Rosa, Brando and Saidkarieva, Naeema",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur PreTeen Latin Grand Slam Scholarship(CC/S/R/PD/J)",
+        "place": "5",
+        "points": 18.0
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Ameteur Pre-Champ P2 AM/AM Int'l Latin (CC,S,J)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "The Royal Ball",
+        "info": "Amateur Open Kids P2 Int'l Latin (CC,S,R,J)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Youth Amateur PreChampionships P2 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Youth Amateur Closed 5-Dance Events Scholarship P2 Int'l Latin (CC,S,R,PD,J)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 2 Int'l Latin 3-Dance (C/S/J)",
+        "place": "2",
+        "points": 28.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 2  Int'l Latin 5-Dance {Fordney Fdn Bof B} (C/S/R/PD/J)",
+        "place": "6",
+        "points": 12.25
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "P/J/Y 3-Dance Events Cl. Championship P2 AM/AM Int'l Latin (CC,S,R)",
+        "place": "1",
+        "points": 40.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "P/J/Y 5-Dance Events Cl. Championship P2 AM/AM Int'l Latin (CC,S,R,PD,J)",
+        "place": "4",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Preteen Amateur 4-5 Dance Events Closed P2 Int'l Latin BofB (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 221.75,
+    "avg_pts": 22.18
   },
   {
     "name": "Daich, Idan and Dolmaya, Rumi",
@@ -1949,6 +1949,19 @@
     "avg_pts": 20
   },
   {
+    "name": "Levenkov, Michael and Bates, Kyera",
+    "results": [
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Gold 4-Dance PT1 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 20.0
+  },
+  {
     "name": "Stompel, Samuel and Birger, Anastasia",
     "results": [
       {
@@ -2403,6 +2416,19 @@
     "avg_pts": 18.75
   },
   {
+    "name": "Golovach, Igor and Micken, Stephanie",
+    "results": [
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "ProAm 3-Dance Open Gold mYH AM/AM Int'l Latin Championship (CC,S,R)",
+        "place": "1",
+        "points": 18.75
+      }
+    ],
+    "total_pts": 18.75,
+    "avg_pts": 18.75
+  },
+  {
     "name": "Hayutt, Ethan and Lepin, Anastasia",
     "results": [
       {
@@ -2740,6 +2766,19 @@
     "avg_pts": 18.0
   },
   {
+    "name": "Gershaft, David and Krivenkova, Elza",
+    "results": [
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Gold 4-Dance J1 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 18.0
+      }
+    ],
+    "total_pts": 18.0,
+    "avg_pts": 18.0
+  },
+  {
     "name": "Bezzant, Matthew and Werner, Abigail",
     "results": [
       {
@@ -3057,6 +3096,25 @@
         "info": "AC-YA Open Int'l LatinScholarship (C/S/R/P/J)",
         "place": "1",
         "points": 25.0
+      }
+    ],
+    "total_pts": 35.0,
+    "avg_pts": 17.5
+  },
+  {
+    "name": "Rubashevsky, Danya and Wang, Can",
+    "results": [
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "Open Multi-Dance Events mYH AM/AM Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "Open Multi-Dance Events mJR AM/AM Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 20.0
       }
     ],
     "total_pts": 35.0,
@@ -3554,6 +3612,31 @@
     ],
     "total_pts": 239.0,
     "avg_pts": 17.07
+  },
+  {
+    "name": "Butaud, Wade and Butaud, Kim",
+    "results": [
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "AM Open Senior AM/AM Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "AM Open S2 AM/AM Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "AM Open S1 AM/AM Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 18.0
+      }
+    ],
+    "total_pts": 51.0,
+    "avg_pts": 17.0
   },
   {
     "name": "Firestein, Max and Simone Gorin, Alexis",
@@ -4503,6 +4586,31 @@
     "avg_pts": 15.5
   },
   {
+    "name": "Matthew, Kai and Denysovets, Vlada",
+    "results": [
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 2  Int'l Latin 5-Dance {Fordney Fdn Bof B} (C/S/R/PD/J)",
+        "place": "3",
+        "points": 22.75
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Pre-Champ J1 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur JR Open Scholarship JR AM/AM Int'l Latin (CC,S,R,PD,J)",
+        "place": "3",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 46.5,
+    "avg_pts": 15.5
+  },
+  {
     "name": "Kolodziej, David and Chilovich, Sofia",
     "results": [
       {
@@ -4575,31 +4683,6 @@
     ],
     "total_pts": 106.25,
     "avg_pts": 15.18
-  },
-  {
-    "name": "Butaud, Wade and Butaud, Kim",
-    "results": [
-      {
-        "comp_name": "Southwestern Invitational",
-        "info": "AM Open Senior AM/AM Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Southwestern Invitational",
-        "info": "AM Open S2 AM/AM Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Southwestern Invitational",
-        "info": "AM Open S1 AM/AM Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 45.0,
-    "avg_pts": 15.0
   },
   {
     "name": "Connelly, Ryley and Smith, Jenna",
@@ -4730,19 +4813,6 @@
     "avg_pts": 15.0
   },
   {
-    "name": "Golovach, Igor and Micken, Stephanie",
-    "results": [
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "ProAm 3-Dance Open Gold mYH AM/AM Int'l Latin Championship (CC,S,R)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 15.0,
-    "avg_pts": 15.0
-  },
-  {
     "name": "Joson, Austin and Correli, Nomi",
     "results": [
       {
@@ -4834,6 +4904,19 @@
     "avg_pts": 15.0
   },
   {
+    "name": "Nicholson, Scott and Letuchaya, Liliana",
+    "results": [
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Pre-Champ mLJ1 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
+  },
+  {
     "name": "Nicholson, Scott and Odintsova, Alina",
     "results": [
       {
@@ -4865,19 +4948,6 @@
       {
         "comp_name": "Eastern United States DanceSport Championship",
         "info": "AC-J1 Closed Silver Latin (C/S/R/J)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 15.0,
-    "avg_pts": 15.0
-  },
-  {
-    "name": "Sinelnikov, Ivan and Kaner, Ayden",
-    "results": [
-      {
-        "comp_name": "Elite Dancesport",
-        "info": "Pro-Am Gold Multi Dance Open mP2 AM/AM Int'l Latin (CC,S,R,PD,J)",
         "place": "1",
         "points": 15.0
       }
@@ -4930,6 +5000,19 @@
       {
         "comp_name": "2019 Constitution State Dancesport Championships",
         "info": "AC-PT2 Junior Closed Silver International Latin Championship  (C/S/R/J)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Sinelnikov, Ivan and Kaner, Ayden",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Pro-Am Gold Multi Dance Open mP2 AM/AM Int'l Latin (CC,S,R,PD,J)",
         "place": "1",
         "points": 15.0
       }
@@ -5635,28 +5718,22 @@
     "avg_pts": 14.35
   },
   {
-    "name": "Matthew, Kai and Denysovets, Vlada",
+    "name": "Ogden, Rocky and Murstein, Anna",
     "results": [
       {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 2  Int'l Latin 5-Dance {Fordney Fdn Bof B} (C/S/R/PD/J)",
-        "place": "3",
-        "points": 22.75
-      },
-      {
         "comp_name": "Seattle Star Ball",
-        "info": "Amateur Pre-Champ J1 Int'l Latin (CC,S,R,J)",
+        "info": "Amateur Silver 2-Dance SR2 Int'l Latin (PD,J)",
         "place": "1",
-        "points": 11.25
+        "points": 13.5
       },
       {
         "comp_name": "Seattle Star Ball",
-        "info": "Amateur JR Open Scholarship JR AM/AM Int'l Latin (CC,S,R,PD,J)",
-        "place": "3",
-        "points": 8.75
+        "info": "Amateur Silver 3-Dance SR2 Int'l Latin (CC,S,R)",
+        "place": "1",
+        "points": 15.0
       }
     ],
-    "total_pts": 42.75,
+    "total_pts": 28.5,
     "avg_pts": 14.25
   },
   {
@@ -5786,6 +5863,79 @@
     ],
     "total_pts": 113.4,
     "avg_pts": 14.18
+  },
+  {
+    "name": "Griffin, Erik and Marriott, Sophia",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Junior I Latin Championship (CC/S/R/PD/J)",
+        "place": "5",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Junior 2 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
+        "place": "5",
+        "points": 18.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Junior 1 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
+        "place": "5",
+        "points": 18.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Youth Amateur Open 5-Dance Events J1 Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Youth Amateur Open 5-Dance Scholarships J2 Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 18.75
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Youth Events  J2 Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Youth Events  J1 Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "P/J/Y 5-Dance Events Scholarship J2 AM/AM Int'l Latin (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 7.2
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "P/J/Y 5-Dance Events Scholarship J1 AM/AM Int'l Latin (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 9.9
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Int'l J1 Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur JR Open Scholarship JR AM/AM Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 22.5
+      }
+    ],
+    "total_pts": 155.85,
+    "avg_pts": 14.17
   },
   {
     "name": "Dorfman, Samuel Nicholas and Rakov, Avita",
@@ -5928,79 +6078,6 @@
     ],
     "total_pts": 28.0,
     "avg_pts": 14.0
-  },
-  {
-    "name": "Griffin, Erik and Marriott, Sophia",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Junior I Latin Championship (CC/S/R/PD/J)",
-        "place": "5",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Junior 2 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
-        "place": "5",
-        "points": 18.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Junior 1 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
-        "place": "5",
-        "points": 18.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Youth Amateur Open 5-Dance Events J1 Int'l Latin (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Youth Amateur Open 5-Dance Scholarships J2 Int'l Latin (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 18.75
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Youth Events  J2 Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Youth Events  J1 Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "P/J/Y 5-Dance Events Scholarship J2 AM/AM Int'l Latin (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 7.2
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "P/J/Y 5-Dance Events Scholarship J1 AM/AM Int'l Latin (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 9.9
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Int'l J1 Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur JR Open Scholarship JR AM/AM Int'l Latin (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 22.5
-      }
-    ],
-    "total_pts": 152.85,
-    "avg_pts": 13.9
   },
   {
     "name": "Shishkin, Michael and Armstrong, Scarlet",
@@ -6269,6 +6346,25 @@
         "info": "AC-B Pro/Am Open International Latin Scholarship (C/S/R/PD/J)",
         "place": "1",
         "points": 15.0
+      }
+    ],
+    "total_pts": 27.0,
+    "avg_pts": 13.5
+  },
+  {
+    "name": "Hoberock, Cisco Keanu and Hoberock, Keylee Milania",
+    "results": [
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Silver 2-Dance mGP1 Int'l Latin (PD,J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Gold 4-Dance mGP1 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 12.0
       }
     ],
     "total_pts": 27.0,
@@ -7081,6 +7177,79 @@
     "avg_pts": 12.65
   },
   {
+    "name": "Chen, Brandon and Moudry, Isabella",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "info": "AC-PT1 Pre Teen 1 Closed Latin (CC/S/J)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "City Lights Ball",
+        "info": "AC-PT1 Pre Teen 1 Closed Latin (CC/S/R/J)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Youth Amateur Novice Events P1 Int'l Latin (CC,S,R)",
+        "place": "3",
+        "points": 3.25
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Youth Amateur PreChampionships P1 Int'l Latin (CC,S,R,J)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "All-Star Dance Challenge",
+        "info": "AC-PT1 Gold Latin (C/S/R/J)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "All-Star Dance Challenge",
+        "info": "AC-PT Amateur Closed Latin Scholarships (C/S/R/PD/J)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "AC-PT1 Youth Pre-Championship Latin 4-Dance (C/S/R/J)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "AC-PT1 Youth Championship Latin 5-Dance (C/S/R/PD/J)",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "AmAm 4-Dance Events Closed Gold P1 AM/AM Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "AmAm 5-Dance Events Open P1 AM/AM Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "AmAm 5-Dance Events Preteen Scholarship Int'l Latin (CC,S,R,PD,J)",
+        "place": "2",
+        "points": 17.5
+      }
+    ],
+    "total_pts": 138.0,
+    "avg_pts": 12.55
+  },
+  {
     "name": "Koniecko, Adam and Pawlusiewicz, Maya",
     "results": [
       {
@@ -7676,7 +7845,7 @@
     "avg_pts": 12.25
   },
   {
-    "name": "Gunnarsson, Peter and Oddr, Polina",
+    "name": "Gunnarsson, Petur and Oddr, Polina",
     "results": [
       {
         "comp_name": "Embassy Ballroom Championships",
@@ -8147,25 +8316,6 @@
     "avg_pts": 12.0
   },
   {
-    "name": "Fidom, Ewoud and Klareich, Nikki",
-    "results": [
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "ProAm 2-Dance Open Silver mA3 AM/AM Int'l Latin Championship (CC,R)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "ProAm 3-Dance Open Silver A3 AM/AM Int'l Latin Championship (CC,S,R)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 24.0,
-    "avg_pts": 12.0
-  },
-  {
     "name": "Heidenreich, Helios and Heidenreich, Selina",
     "results": [
       {
@@ -8253,25 +8403,6 @@
       {
         "comp_name": "Boca Ballroom Dancesport Competition",
         "info": "AC-S2 Latin Open International Latin Multi-Dance (CC/S/R/PD/J)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 24.0,
-    "avg_pts": 12.0
-  },
-  {
-    "name": "Rubashevsky, Danya and Wang, Can",
-    "results": [
-      {
-        "comp_name": "Pacific Grand Ball",
-        "info": "Open Multi-Dance Events mYH AM/AM Int'l Latin (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Pacific Grand Ball",
-        "info": "Open Multi-Dance Events mJR AM/AM Int'l Latin (CC,S,R,PD,J)",
         "place": "1",
         "points": 12.0
       }
@@ -8371,19 +8502,6 @@
     "avg_pts": 12.0
   },
   {
-    "name": "Gershaft, David and Krivenkova, Elza",
-    "results": [
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Gold 4-Dance J1 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 12.0,
-    "avg_pts": 12.0
-  },
-  {
     "name": "Ginzburg, Joshua and Morgovsky, Ema",
     "results": [
       {
@@ -8402,19 +8520,6 @@
       {
         "comp_name": "2019 Tri-State DanceSport Championships",
         "info": "AC-LPT Open Latin Multi-Dance (C/S/R/P/J)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 12.0,
-    "avg_pts": 12.0
-  },
-  {
-    "name": "Levenkov, Michael and Bates, Kyera",
-    "results": [
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Gold 4-Dance PT1 Int'l Latin (CC,S,R,J)",
         "place": "1",
         "points": 12.0
       }
@@ -8618,6 +8723,79 @@
     "avg_pts": 12.0
   },
   {
+    "name": "Abaya, Brandon and Kim, Nastya",
+    "results": [
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 2 Int'l Latin 3-Dance (C/S/J)",
+        "place": "quarters",
+        "points": 2.45
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 2  Int'l Latin 5-Dance {Fordney Fdn Bof B} (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 2.8
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Junior 1 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 1.8
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Youth Amateur 4-Dance Scholarships P2 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 22.5
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Youth Amateur Open 5-Dance Events P2 Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "AC-PT US Open to the World Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "AC-JR US Open to the World Int'l Latin Championship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Novice PT2 Int'l Latin (CC,S,J)",
+        "place": "1",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Pre-Champ J1 Int'l Latin (CC,S,R,J)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Int'l PT2 Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur PT Closed Scholarship Full Gold PT Int'l Latin (CC,R,J)",
+        "place": "1",
+        "points": 18.75
+      }
+    ],
+    "total_pts": 131.8,
+    "avg_pts": 11.98
+  },
+  {
     "name": "Zhukov, Yegor and Cherkas, Adyson",
     "results": [
       {
@@ -8788,6 +8966,31 @@
     "avg_pts": 11.94
   },
   {
+    "name": "Liu, Leo and Lin, Nicky",
+    "results": [
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Pre-Champ PT2 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Int'l PT2 Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur PT Closed Scholarship Full Gold PT Int'l Latin (CC,R,J)",
+        "place": "2",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 35.75,
+    "avg_pts": 11.92
+  },
+  {
     "name": "Ongpin, Jesse and Castelan, Judith",
     "results": [
       {
@@ -8842,79 +9045,6 @@
     ],
     "total_pts": 23.75,
     "avg_pts": 11.88
-  },
-  {
-    "name": "Chen, Brandon and Moudry, Isabella",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "info": "AC-PT1 Pre Teen 1 Closed Latin (CC/S/J)",
-        "place": "4",
-        "points": 12.5
-      },
-      {
-        "comp_name": "City Lights Ball",
-        "info": "AC-PT1 Pre Teen 1 Closed Latin (CC/S/R/J)",
-        "place": "4",
-        "points": 7.5
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Youth Amateur Novice Events P1 Int'l Latin (CC,S,R)",
-        "place": "3",
-        "points": 3.25
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Youth Amateur PreChampionships P1 Int'l Latin (CC,S,R,J)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "All-Star Dance Challenge",
-        "info": "AC-PT1 Gold Latin (C/S/R/J)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "All-Star Dance Challenge",
-        "info": "AC-PT Amateur Closed Latin Scholarships (C/S/R/PD/J)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "AC-PT1 Youth Pre-Championship Latin 4-Dance (C/S/R/J)",
-        "place": "1",
-        "points": 13.5
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "AC-PT1 Youth Championship Latin 5-Dance (C/S/R/PD/J)",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Pacific Grand Ball",
-        "info": "AmAm 4-Dance Events Closed Gold P1 AM/AM Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Pacific Grand Ball",
-        "info": "AmAm 5-Dance Events Open P1 AM/AM Int'l Latin (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Pacific Grand Ball",
-        "info": "AmAm 5-Dance Events Preteen Scholarship Int'l Latin (CC,S,R,PD,J)",
-        "place": "2",
-        "points": 17.5
-      }
-    ],
-    "total_pts": 130.0,
-    "avg_pts": 11.82
   },
   {
     "name": "Zhang, Heyang and Li, Yi",
@@ -10465,79 +10595,6 @@
     "avg_pts": 10.98
   },
   {
-    "name": "Abaya, Brandon and Kim, Nastya",
-    "results": [
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 2 Int'l Latin 3-Dance (C/S/J)",
-        "place": "quarters",
-        "points": 2.45
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 2  Int'l Latin 5-Dance {Fordney Fdn Bof B} (C/S/R/PD/J)",
-        "place": "quarters",
-        "points": 2.8
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Junior 1 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
-        "place": "quarters",
-        "points": 1.8
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Youth Amateur 4-Dance Scholarships P2 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 22.5
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Youth Amateur Open 5-Dance Events P2 Int'l Latin (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "United States Dance Championships",
-        "info": "AC-PT US Open to the World Int'l Latin Championship (C/S/R/PD/J)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "United States Dance Championships",
-        "info": "AC-JR US Open to the World Int'l Latin Championship (C/S/R/PD/J)",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Novice PT2 Int'l Latin (CC,S,J)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Pre-Champ J1 Int'l Latin (CC,S,R,J)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Int'l PT2 Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur PT Closed Scholarship Full Gold PT Int'l Latin (CC,R,J)",
-        "place": "1",
-        "points": 18.75
-      }
-    ],
-    "total_pts": 120.55,
-    "avg_pts": 10.96
-  },
-  {
     "name": "Thialan, Caitanya and Nam, Jee",
     "results": [
       {
@@ -11255,6 +11312,25 @@
     "avg_pts": 10.55
   },
   {
+    "name": "Sinelnikov, Ivan and Chubay, Sofia",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Pro-Am Silver Multi Dance Open mP1 AM/AM Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Pro-Am Silver Multi Dance Closed mP1 AM/AM Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 21.0,
+    "avg_pts": 10.5
+  },
+  {
     "name": "Church, JT and Loiselle, Rachel",
     "results": [
       {
@@ -11285,25 +11361,6 @@
       {
         "comp_name": "Eastern United States DanceSport Championship",
         "info": "AC-MLY Fordney Foundation Open Latin Championship (C/S/R/P/J)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 21.0,
-    "avg_pts": 10.5
-  },
-  {
-    "name": "Hoberock, Cisco Keanu and Hoberock, Keylee Milania",
-    "results": [
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Silver 2-Dance mGP1 Int'l Latin (PD,J)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Gold 4-Dance mGP1 Int'l Latin (CC,S,R,J)",
         "place": "1",
         "points": 12.0
       }
@@ -11437,25 +11494,6 @@
       {
         "comp_name": "North Carolina Open",
         "info": "AC-MGJR1 Silver Latin (CC/S/R)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 21.0,
-    "avg_pts": 10.5
-  },
-  {
-    "name": "Sinelnikov, Ivan and Chubay, Sofia",
-    "results": [
-      {
-        "comp_name": "Elite Dancesport",
-        "info": "Pro-Am Silver Multi Dance Open mP1 AM/AM Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Elite Dancesport",
-        "info": "Pro-Am Silver Multi Dance Closed mP1 AM/AM Int'l Latin (CC,S,R,J)",
         "place": "1",
         "points": 9.0
       }
@@ -11895,6 +11933,25 @@
     "avg_pts": 10.12
   },
   {
+    "name": "Heal, Landon and Borissenko, Liza",
+    "results": [
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "School Age 2 Dance Full Silver EL AM/AM Int'l Latin (CC,R)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "School Age 2 Dance Full Silver JH AM/AM Int'l Latin (CC,R)",
+        "place": "6",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 20.25,
+    "avg_pts": 10.12
+  },
+  {
     "name": "Ma, Bojiaer and Stolerman, Katya",
     "results": [
       {
@@ -12032,6 +12089,19 @@
       {
         "comp_name": "2019 Atlantic DanceSport Challenge",
         "info": "AC-PT1 PT/JR Amateur Closed Bronze Latin (C/S/J)",
+        "place": "1",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
+  },
+  {
+    "name": "Rubashevsky, Danya and Goldberg, Rebecca",
+    "results": [
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "Closed Bronze Multi-Dance Events mJR AM/AM Int'l Latin (CC,R,J)",
         "place": "1",
         "points": 10.0
       }
@@ -13089,6 +13159,37 @@
     "avg_pts": 9.7
   },
   {
+    "name": "Serrallach, Xavier and Thacker, Barbara",
+    "results": [
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Closed Amateur 4-Dance Events Closed Gold S1 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Novice Amateur 3-Dance Events S1 Int'l Latin (CC,S,R)",
+        "place": "1",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Novice Amateur 3-Dance Events S2 Int'l Latin (CC,S,R)",
+        "place": "1",
+        "points": 3.75
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Closed Amateur 4-Dance Events Closed Gold S2 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 38.75,
+    "avg_pts": 9.69
+  },
+  {
     "name": "Badalbayev, Daniel and Fingerman, Ella",
     "results": [
       {
@@ -13231,6 +13332,43 @@
     "avg_pts": 9.6
   },
   {
+    "name": "Song, Leonard and Song, Lauren",
+    "results": [
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Youth PreChampionship Events J1 Int'l Latin (CC,S,R,J)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Youth PreChampionship Events J2 Int'l Latin (CC,S,R,J)",
+        "place": "7",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Closed Amateur 3-Dance Events Closed Silver J1 Int'l Latin (CC,S,R)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Closed Amateur 4-Dance Events Closed Gold J1 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Closed Amateur 4-Dance Events Closed Gold J2 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 48.0,
+    "avg_pts": 9.6
+  },
+  {
     "name": "Espiritu, Joseph and Podzikowski, Kelani",
     "results": [
       {
@@ -13279,6 +13417,37 @@
     ],
     "total_pts": 19.2,
     "avg_pts": 9.6
+  },
+  {
+    "name": "Poda, Vladislav and Levin, Hannah",
+    "results": [
+      {
+        "comp_name": "International Grand Ball",
+        "info": "AC-Y Youth Pre-Championship Latin 4-Dance (C/S/R/J)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "AmAm 4-Dance Events PreChamp YH Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "AmAm 5-Dance Events Youth Scholarship Int'l Latin (CC,S,R,PD,J)",
+        "place": "3",
+        "points": 8.75
+      },
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "AmAm 5-Dance Events Open YH  Int'l Latin (CC,S,R,PD,J)",
+        "place": "2",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 38.25,
+    "avg_pts": 9.56
   },
   {
     "name": "Machalani, Anthony and Mai, Maxine",
@@ -13343,6 +13512,31 @@
         "info": "AC-PT2 Junior Closed 5-Dance International Latin (C/S/R/P/J)",
         "place": "2",
         "points": 20.0
+      }
+    ],
+    "total_pts": 28.5,
+    "avg_pts": 9.5
+  },
+  {
+    "name": "Marynets, Maxim and Sepe, Mia",
+    "results": [
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "Open Silver Multi-Dance Events YH AM/AM Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "AmAm 3-Dance Events Novice YH Int'l Latin (CC,R,J)",
+        "place": "1",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "AmAm 4-Dance Events PreChamp YH Int'l Latin (CC,S,R,J)",
+        "place": "2",
+        "points": 9.0
       }
     ],
     "total_pts": 28.5,
@@ -13815,6 +14009,37 @@
     "avg_pts": 9.33
   },
   {
+    "name": "Wu, Jeremy and Zhao, Annie",
+    "results": [
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Youth Novice Open Events J1 Int'l Latin (CC,S,R)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Youth PreChampionship Events J1 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Novice Amateur 3-Dance Events J1 Int'l Latin (CC,S,R)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "PreChamp Amateur 4-Dance Events J1 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 37.25,
+    "avg_pts": 9.31
+  },
+  {
     "name": "Swiger, John and Shtykova, Arina",
     "results": [
       {
@@ -13992,43 +14217,6 @@
     "avg_pts": 9.17
   },
   {
-    "name": "Song, Leonard and Song, Lauren",
-    "results": [
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Youth PreChampionship Events J1 Int'l Latin (CC,S,R,J)",
-        "place": "5",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Youth PreChampionship Events J2 Int'l Latin (CC,S,R,J)",
-        "place": "7",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Closed Amateur 3-Dance Events Closed Silver J1 Int'l Latin (CC,S,R)",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Closed Amateur 4-Dance Events Closed Gold J1 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Closed Amateur 4-Dance Events Closed Gold J2 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 45.75,
-    "avg_pts": 9.15
-  },
-  {
     "name": "Boyarskiy, Benjamin and Boyarskiy, Goldie",
     "results": [
       {
@@ -14171,6 +14359,55 @@
     "avg_pts": 9.08
   },
   {
+    "name": "Teston, Norbert and Khalina, Marina",
+    "results": [
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Adult Amateur PreNovice Events B Int'l Latin (CC,R,J)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Adult Amateur Open Novice Events B Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Adult Amateur Open PreChamp Events A Int'l Latin (CC,S,R,J)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Novice A Int'l Latin (CC,S,J)",
+        "place": "1",
+        "points": 3.75
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Pre-Champ A Int'l Latin (CC,S,R,J)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Pre-Champ SR1 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Int'l SR1 Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 63.25,
+    "avg_pts": 9.04
+  },
+  {
     "name": "Yankelevich, Tom and Folmer, Victoria",
     "results": [
       {
@@ -14275,34 +14512,28 @@
     "avg_pts": 9.0
   },
   {
-    "name": "Poda, Vladislav and Levin, Hannah",
+    "name": "Chu, Michael and Wang, Alison",
     "results": [
       {
-        "comp_name": "International Grand Ball",
-        "info": "AC-Y Youth Pre-Championship Latin 4-Dance (C/S/R/J)",
+        "comp_name": "Empire Dance Championship",
+        "info": "Novice Amateur 3-Dance Events S3 Int'l Latin (CC,S,R)",
         "place": "1",
-        "points": 9.0
+        "points": 5.0
       },
       {
-        "comp_name": "Pacific Grand Ball",
-        "info": "AmAm 4-Dance Events PreChamp YH Int'l Latin (CC,S,R,J)",
+        "comp_name": "Empire Dance Championship",
+        "info": "PreChamp Amateur 4-Dance Events S3 Int'l Latin (CC,S,R,J)",
         "place": "1",
-        "points": 11.25
+        "points": 15.0
       },
       {
-        "comp_name": "Pacific Grand Ball",
-        "info": "AmAm 5-Dance Events Youth Scholarship Int'l Latin (CC,S,R,PD,J)",
-        "place": "3",
-        "points": 8.75
-      },
-      {
-        "comp_name": "Pacific Grand Ball",
-        "info": "AmAm 5-Dance Events Open YH  Int'l Latin (CC,S,R,PD,J)",
+        "comp_name": "Empire Dance Championship",
+        "info": "Closed Amateur 4-Dance Events Closed Gold S2 Int'l Latin (CC,S,R,J)",
         "place": "2",
         "points": 7.0
       }
     ],
-    "total_pts": 36.0,
+    "total_pts": 27.0,
     "avg_pts": 9.0
   },
   {
@@ -14463,25 +14694,6 @@
         "comp_name": "2019 Tri-State DanceSport Championships",
         "info": "AC-PT2 Closed Silver 4-Dance Int Latin (C/S/R/J)",
         "place": "2",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 18.0,
-    "avg_pts": 9.0
-  },
-  {
-    "name": "Ogden, Rocky and Murstein, Anna",
-    "results": [
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Silver 2-Dance SR2 Int'l Latin (PD,J)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Silver 3-Dance SR2 Int'l Latin (CC,S,R)",
-        "place": "1",
         "points": 9.0
       }
     ],
@@ -14838,38 +15050,12 @@
     "avg_pts": 9.0
   },
   {
-    "name": "Murray, Nikolai and Misrayim, Sury",
-    "results": [
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Adult Amateur PreChampionship Events Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 9.0,
-    "avg_pts": 9.0
-  },
-  {
     "name": "Murray, Stephen and Kevly, Rebecca",
     "results": [
       {
         "comp_name": "Elite Dancesport",
         "info": "Pro-Am Silver Multi Dance Closed mTB AM/AM Int'l Latin (CC,S,R,J)",
         "place": "2",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 9.0,
-    "avg_pts": 9.0
-  },
-  {
-    "name": "Nicholson, Scott and Letuchaya, Liliana",
-    "results": [
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Pre-Champ mLJ1 Int'l Latin (CC,S,R,J)",
-        "place": "1",
         "points": 9.0
       }
     ],
@@ -15122,6 +15308,55 @@
     "avg_pts": 8.98
   },
   {
+    "name": "Gribanovsky, Pavlik and Poda, Alexandra",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Junior II Latin Championship (CC/S/R/PD/J)",
+        "place": "Semis",
+        "points": 0.6
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Youth Amateur PreChampionships J2 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Amateur Open Scholarships J2 Int'l Latin (CC,S,R,PD,J)",
+        "place": "7",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Dance Stars Festival",
+        "info": "Amateur Multi-Dance Open 5 dance Open J2 Int'l Latin (CC,S,R,PD,J)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Dance Stars Festival",
+        "info": "Amateur Multi-Dance Open 4 dance Full Gold J2 Int'l Latin (CC,S,R,J)",
+        "place": "2",
+        "points": 8.75
+      },
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "AmAm 5-Dance Events Open J2  Int'l Latin (CC,S,R,PD,J)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "AmAm 4-Dance Events PreChamp J2 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 13.5
+      }
+    ],
+    "total_pts": 62.6,
+    "avg_pts": 8.94
+  },
+  {
     "name": "Groysman, Eric and Rubarkh, Brianna",
     "results": [
       {
@@ -15339,6 +15574,67 @@
     "avg_pts": 8.86
   },
   {
+    "name": "Boudzko, Anton and Botchev, Kalina",
+    "results": [
+      {
+        "comp_name": "City Lights Ball",
+        "info": "AC-JR2 Open Latin 5 Dance(CC/S/R/PD/J)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "City Lights Ball",
+        "info": "AC-Y JR 2 Open Latin Scholarship (C/S/R/PD/J)",
+        "place": "3",
+        "points": 8.75
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC-Y Amateur Junior II Latin Championship (CC/S/R/PD/J)",
+        "place": "Semis",
+        "points": 2.4
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Junior 2 Int'l Latin 3-Dance (C/S/J)",
+        "place": "7",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Junior 2 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
+        "place": "Semis",
+        "points": 6.75
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "P/J/Y 5-Dance Events Scholarship J2 AM/AM Int'l Latin (CC,S,R,PD,J)",
+        "place": "Semis",
+        "points": 6.75
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "P/J/Y 5-Dance Events Scholarship YH AM/AM Int'l Latin (CC,S,R,PD,J)",
+        "place": "quarters",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur International YH Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur JR Open Scholarship JR AM/AM Int'l Latin (CC,S,R,PD,J)",
+        "place": "2",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 79.65,
+    "avg_pts": 8.85
+  },
+  {
     "name": "Lasocki, Emil and Mosz, Marianna",
     "results": [
       {
@@ -15539,37 +15835,6 @@
       }
     ],
     "total_pts": 52.5,
-    "avg_pts": 8.75
-  },
-  {
-    "name": "Wu, Jeremy and Zhao, Annie",
-    "results": [
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Youth Novice Open Events J1 Int'l Latin (CC,S,R)",
-        "place": "2",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Youth PreChampionship Events J1 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Novice Amateur 3-Dance Events J1 Int'l Latin (CC,S,R)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "PreChamp Amateur 4-Dance Events J1 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 35.0,
     "avg_pts": 8.75
   },
   {
@@ -16111,25 +16376,6 @@
     "avg_pts": 8.62
   },
   {
-    "name": "Linnik, Michael and Gold, Maxena",
-    "results": [
-      {
-        "comp_name": "Elite Dancesport",
-        "info": "Amateur PreChamp Events J2 Int'l Latin (CC,S,R,J)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Elite Dancesport",
-        "info": "Amateur Open 4-5 Dance Events J2 Int'l Latin BofB (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 17.25,
-    "avg_pts": 8.62
-  },
-  {
     "name": "Vitenko, Andriy and Dolghii, Sonya",
     "results": [
       {
@@ -16143,6 +16389,25 @@
         "info": "AC-MLJ1 Novice Latin (C/S/R)",
         "place": "1",
         "points": 3.75
+      }
+    ],
+    "total_pts": 17.25,
+    "avg_pts": 8.62
+  },
+  {
+    "name": "Linnik, Michael and Gold, Maxena",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur PreChamp Events J2 Int'l Latin (CC,S,R,J)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Open 4-5 Dance Events J2 Int'l Latin BofB (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 12.0
       }
     ],
     "total_pts": 17.25,
@@ -16238,6 +16503,31 @@
     ],
     "total_pts": 120.45,
     "avg_pts": 8.6
+  },
+  {
+    "name": "Kojinov, Denis and Chevalier, Jeanette",
+    "results": [
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "AM Syllabus Novice 3-Dance Closed Bronze mLP1 AM/AM Int'l Latin (CC,S,R)",
+        "place": "2",
+        "points": 1.75
+      },
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "AM Open S2 AM/AM Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "AM Open S1 AM/AM Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 25.75,
+    "avg_pts": 8.58
   },
   {
     "name": "Vitenko, Andriy and Ioukhnikov, Karolina",
@@ -16458,35 +16748,41 @@
     "avg_pts": 8.5
   },
   {
-    "name": "Serrallach, Xavier and Thacker, Barbara",
+    "name": "Randelovic, Miroslav and Mardakhaev, Dory",
     "results": [
       {
-        "comp_name": "Empire Dance Championship",
-        "info": "Closed Amateur 4-Dance Events Closed Gold S1 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 12.0
+        "comp_name": "NYDF 2019",
+        "info": "AC-SJ1 Junior & Youth International Latin Pre-Championship (C/S/R/J)",
+        "place": "4",
+        "points": 5.25
       },
       {
         "comp_name": "Empire Dance Championship",
-        "info": "Novice Amateur 3-Dance Events S1 Int'l Latin (CC,S,R)",
+        "info": "Novice Amateur 3-Dance Events mJ1 Int'l Latin (CC,S,R)",
         "place": "1",
-        "points": 3.75
+        "points": 5.0
       },
       {
         "comp_name": "Empire Dance Championship",
-        "info": "Novice Amateur 3-Dance Events S2 Int'l Latin (CC,S,R)",
+        "info": "Novice Amateur 3-Dance Events mJ2 Int'l Latin (CC,S,R)",
         "place": "1",
-        "points": 3.0
+        "points": 5.0
       },
       {
         "comp_name": "Empire Dance Championship",
-        "info": "Closed Amateur 4-Dance Events Closed Gold S2 Int'l Latin (CC,S,R,J)",
+        "info": "PreChamp Amateur 4-Dance Events mJ1 Int'l Latin (CC,S,R,J)",
         "place": "1",
-        "points": 15.0
+        "points": 13.5
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "PreChamp Amateur 4-Dance Events mJ2 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 13.5
       }
     ],
-    "total_pts": 33.75,
-    "avg_pts": 8.44
+    "total_pts": 42.25,
+    "avg_pts": 8.45
   },
   {
     "name": "Schulte, Fernando and Margolin, Mia",
@@ -16919,6 +17215,37 @@
     "avg_pts": 8.25
   },
   {
+    "name": "Chirdon, Christopher and Chambers, Carissa",
+    "results": [
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult Novice Open 3-Dance AD Int'l Latin (CC,S,R)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult PreChampionships AD Int'l Latin (CC,S,R,J)",
+        "place": "2",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Novice Amateur 3-Dance Events AD Int'l Latin (CC,S,R)",
+        "place": "2",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "PreChamp Amateur 4-Dance Events AD Int'l Latin (CC,S,R,J)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 33.0,
+    "avg_pts": 8.25
+  },
+  {
     "name": "Spadoni, Simone and Bibbins, Glennis",
     "results": [
       {
@@ -16947,31 +17274,6 @@
       }
     ],
     "total_pts": 33.0,
-    "avg_pts": 8.25
-  },
-  {
-    "name": "Liu, Leo and Lin, Nicky",
-    "results": [
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Pre-Champ PT2 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Int'l PT2 Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur PT Closed Scholarship Full Gold PT Int'l Latin (CC,R,J)",
-        "place": "2",
-        "points": 8.75
-      }
-    ],
-    "total_pts": 24.75,
     "avg_pts": 8.25
   },
   {
@@ -17030,6 +17332,55 @@
     ],
     "total_pts": 16.5,
     "avg_pts": 8.25
+  },
+  {
+    "name": "Teplouhov, Anton and Galeyeva, Angelina",
+    "results": [
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Youth Amateur Closed Gold 4-Dance Events YH Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Adult Amateur PreNovice Events A Int'l Latin (CC,R,J)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Adult Amateur Closed Gold 4-Dance Events A Int'l Latin (CC,S,R,J)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Youth Amateur Open Novice Events YH Int'l Latin (CC,S,R,J)",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Adult Amateur Open Novice Events A Int'l Latin (CC,S,R,J)",
+        "place": "Semis",
+        "points": 1.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Gold 4-Dance YH Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Novice YH Int'l Latin (CC,S,J)",
+        "place": "1",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 57.5,
+    "avg_pts": 8.21
   },
   {
     "name": "Naret, David and Khalitoglu, Melissa",
@@ -17388,6 +17739,104 @@
     "avg_pts": 8.11
   },
   {
+    "name": "Miroshnichenko, Mikhail and Suevsky, Allyson",
+    "results": [
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 2 Int'l Latin 3-Dance (C/S/J)",
+        "place": "quarters",
+        "points": 0.7
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 2  Int'l Latin 5-Dance {Fordney Fdn Bof B} (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 0.7
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Youth Amateur Closed Bronze 2-Dance Events P2 Int'l Latin (CC,R)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Youth Amateur Closed Bronze 2-Dance Events ( P2 Int'l Latin (S,J)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Youth Amateur Closed Bronze 2-Dance Events P1 Int'l Latin (CC,R)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Youth Amateur Closed Bronze 2-Dance Events ( P1 Int'l Latin (S,J)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Youth Amateur Open PreChamp Events P1 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Youth Amateur Open PreChamp Events P2 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Silver 2-Dance PT2 Int'l Latin (PD,J)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Silver 3-Dance PT2 Int'l Latin (CC,S,R)",
+        "place": "2",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 80.65,
+    "avg_pts": 8.07
+  },
+  {
+    "name": "Perelmutov, Timur and Perelmutova, Yelena",
+    "results": [
+      {
+        "comp_name": "All-Star Dance Challenge",
+        "info": "AC-S1 Closed Silver International Latin (C/R/J)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "All-Star Dance Challenge",
+        "info": "AC-S2 Pre-Novice International Latin (S/R)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "All-Star Dance Challenge",
+        "info": "AC-S2 Closed Silver International Latin (C/R/J)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "AmAm 3-Dance Events Closed Silver S1 AM/AM Int'l Latin (CC,R,J)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 32.25,
+    "avg_pts": 8.06
+  },
+  {
     "name": "Melnyk, Daniel and Rosenfeld, Jaclyn",
     "results": [
       {
@@ -17681,116 +18130,6 @@
     "avg_pts": 7.98
   },
   {
-    "name": "Boudzko, Anton and Botchev, Kalina",
-    "results": [
-      {
-        "comp_name": "City Lights Ball",
-        "info": "AC-JR2 Open Latin 5 Dance(CC/S/R/PD/J)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "City Lights Ball",
-        "info": "AC-Y JR 2 Open Latin Scholarship (C/S/R/PD/J)",
-        "place": "3",
-        "points": 8.75
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Junior II Latin Championship (CC/S/R/PD/J)",
-        "place": "Semis",
-        "points": 2.4
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Junior 2 Int'l Latin 3-Dance (C/S/J)",
-        "place": "7",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Junior 2 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
-        "place": "Semis",
-        "points": 6.75
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "P/J/Y 5-Dance Events Scholarship J2 AM/AM Int'l Latin (CC,S,R,PD,J)",
-        "place": "Semis",
-        "points": 6.75
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "P/J/Y 5-Dance Events Scholarship YH AM/AM Int'l Latin (CC,S,R,PD,J)",
-        "place": "quarters",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur International YH Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur JR Open Scholarship JR AM/AM Int'l Latin (CC,S,R,PD,J)",
-        "place": "2",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 71.65,
-    "avg_pts": 7.96
-  },
-  {
-    "name": "Gribanovsky, Pavlik and Poda, Alexandra",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "AC-Y Amateur Junior II Latin Championship (CC/S/R/PD/J)",
-        "place": "Semis",
-        "points": 0.6
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Youth Amateur PreChampionships J2 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Amateur Open Scholarships J2 Int'l Latin (CC,S,R,PD,J)",
-        "place": "7",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Dance Stars Festival",
-        "info": "Amateur Multi-Dance Open 5 dance Open J2 Int'l Latin (CC,S,R,PD,J)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Dance Stars Festival",
-        "info": "Amateur Multi-Dance Open 4 dance Full Gold J2 Int'l Latin (CC,S,R,J)",
-        "place": "2",
-        "points": 8.75
-      },
-      {
-        "comp_name": "Pacific Grand Ball",
-        "info": "AmAm 5-Dance Events Open J2  Int'l Latin (CC,S,R,PD,J)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Pacific Grand Ball",
-        "info": "AmAm 4-Dance Events PreChamp J2 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 13.5
-      }
-    ],
-    "total_pts": 55.6,
-    "avg_pts": 7.94
-  },
-  {
     "name": "Kuznetsov, Nick and Grijuc, Denisse",
     "results": [
       {
@@ -17945,37 +18284,6 @@
     "avg_pts": 7.88
   },
   {
-    "name": "Chirdon, Christopher and Chambers, Carissa",
-    "results": [
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Adult Novice Open 3-Dance AD Int'l Latin (CC,S,R)",
-        "place": "1",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Adult PreChampionships AD Int'l Latin (CC,S,R,J)",
-        "place": "2",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Novice Amateur 3-Dance Events AD Int'l Latin (CC,S,R)",
-        "place": "2",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "PreChamp Amateur 4-Dance Events AD Int'l Latin (CC,S,R,J)",
-        "place": "2",
-        "points": 10.5
-      }
-    ],
-    "total_pts": 31.5,
-    "avg_pts": 7.88
-  },
-  {
     "name": "Zakharov, Andrey and Libov, Victoria",
     "results": [
       {
@@ -18036,73 +18344,6 @@
     ],
     "total_pts": 31.4,
     "avg_pts": 7.85
-  },
-  {
-    "name": "Miroshnichenko, Mikhail and Suevsky, Allyson",
-    "results": [
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 2 Int'l Latin 3-Dance (C/S/J)",
-        "place": "quarters",
-        "points": 0.7
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 2  Int'l Latin 5-Dance {Fordney Fdn Bof B} (C/S/R/PD/J)",
-        "place": "quarters",
-        "points": 0.7
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Youth Amateur Closed Bronze 2-Dance Events P2 Int'l Latin (CC,R)",
-        "place": "2",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Youth Amateur Closed Bronze 2-Dance Events ( P2 Int'l Latin (S,J)",
-        "place": "1",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Youth Amateur Closed Bronze 2-Dance Events P1 Int'l Latin (CC,R)",
-        "place": "1",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Youth Amateur Closed Bronze 2-Dance Events ( P1 Int'l Latin (S,J)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Youth Amateur Open PreChamp Events P1 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 18.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Youth Amateur Open PreChamp Events P2 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Silver 2-Dance PT2 Int'l Latin (PD,J)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Silver 3-Dance PT2 Int'l Latin (CC,S,R)",
-        "place": "2",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 78.4,
-    "avg_pts": 7.84
   },
   {
     "name": "Feng, Bryan Yuchen and Simonyan, Valeria",
@@ -18241,6 +18482,31 @@
         "info": "AC-PT 1 Silver Closed Latin 4-Dance (CC/S/R/J)",
         "place": "1",
         "points": 9.0
+      }
+    ],
+    "total_pts": 23.25,
+    "avg_pts": 7.75
+  },
+  {
+    "name": "Chen, Raymond and Li, Mandy",
+    "results": [
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Closed Amateur 3-Dance Events Closed Silver J1 Int'l Latin (CC,S,R)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "AC-J1 Junior Closed Silver International Latin Championship  (C/S/R/J)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "AC-J1 Junior Closed 5-Dance International Latin (C/S/R/P/J)",
+        "place": "2",
+        "points": 5.25
       }
     ],
     "total_pts": 23.25,
@@ -18899,37 +19165,6 @@
     "avg_pts": 7.5
   },
   {
-    "name": "Perelmutov, Timur and Perelmutova, Yelena",
-    "results": [
-      {
-        "comp_name": "All-Star Dance Challenge",
-        "info": "AC-S1 Closed Silver International Latin (C/R/J)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "All-Star Dance Challenge",
-        "info": "AC-S2 Pre-Novice International Latin (S/R)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "All-Star Dance Challenge",
-        "info": "AC-S2 Closed Silver International Latin (C/R/J)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Pacific Grand Ball",
-        "info": "AmAm 3-Dance Events Closed Silver S1 AM/AM Int'l Latin (CC,R,J)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 30.0,
-    "avg_pts": 7.5
-  },
-  {
     "name": "Ratush, Michael and Shtern, Nicole",
     "results": [
       {
@@ -19316,6 +19551,49 @@
     ],
     "total_pts": 22.45,
     "avg_pts": 7.48
+  },
+  {
+    "name": "Schwanderer, Renn and Fomin, Sofia",
+    "results": [
+      {
+        "comp_name": "All-Star Dance Challenge",
+        "info": "AC-PT1 Newcomer Latin (S/R)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "All-Star Dance Challenge",
+        "info": "AC-PT1 Bronze Latin (C/R/J)",
+        "place": "3",
+        "points": 5.0
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "AC-PT2 Youth Closed Bronze Latin 3-Dance (C/R/J)",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "International Grand Ball",
+        "info": "AC-PT2 Youth Closed Silver Latin 4-Dance (C/S/R/J)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "AmAm 3-Dance Events Closed Silver P2 AM/AM Int'l Latin (CC,R,J)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "Pacific Grand Ball",
+        "info": "AmAm 3-Dance Events Closed Bronze P2 AM/AM Int'l Latin (CC,R,J)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 44.75,
+    "avg_pts": 7.46
   },
   {
     "name": "Tedesco, Mark and Luzyanina, Kateryna",
@@ -19712,6 +19990,37 @@
     "avg_pts": 7.3
   },
   {
+    "name": "Rutten, Dino and Tseytlin, Lora",
+    "results": [
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Junior 2 Int'l Latin 3-Dance (C/S/J)",
+        "place": "Semis",
+        "points": 1.75
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Junior 2 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
+        "place": "quarters",
+        "points": 0.45
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Pre-Champ J2 Int'l Latin (CC,S,R,J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Int'l J2 Int'l Latin Championship (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 29.2,
+    "avg_pts": 7.3
+  },
+  {
     "name": "Bulgakov, Michael and Gekker, Abigail",
     "results": [
       {
@@ -19973,55 +20282,6 @@
     "avg_pts": 7.26
   },
   {
-    "name": "Teston, Norbert and Khalina, Marina",
-    "results": [
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Adult Amateur PreNovice Events B Int'l Latin (CC,R,J)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Adult Amateur Open Novice Events B Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Adult Amateur Open PreChamp Events A Int'l Latin (CC,S,R,J)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Novice A Int'l Latin (CC,S,J)",
-        "place": "1",
-        "points": 3.75
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Pre-Champ A Int'l Latin (CC,S,R,J)",
-        "place": "2",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Pre-Champ SR1 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Int'l SR1 Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 50.75,
-    "avg_pts": 7.25
-  },
-  {
     "name": "Linder, Erik and Luzarraga, Katya",
     "results": [
       {
@@ -20047,25 +20307,6 @@
     "avg_pts": 7.25
   },
   {
-    "name": "Krabek, Robert and Hofer, Leila",
-    "results": [
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Amateur Novice Events Open A Int'l Latin (CC,R,J)",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Amateur PreChampionship Events A Int'l Latin (CC,S,R,J)",
-        "place": "7",
-        "points": 4.5
-      }
-    ],
-    "total_pts": 14.5,
-    "avg_pts": 7.25
-  },
-  {
     "name": "Lasalle, Chance and Khachaturova, Elizabeth",
     "results": [
       {
@@ -20079,6 +20320,25 @@
         "info": "Amateur Open 4-5 Dance Events J1 Int'l Latin BofB (CC,S,R,PD,J)",
         "place": "4",
         "points": 7.0
+      }
+    ],
+    "total_pts": 14.5,
+    "avg_pts": 7.25
+  },
+  {
+    "name": "Krabek, Robert and Hofer, Leila",
+    "results": [
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Amateur Novice Events Open A Int'l Latin (CC,R,J)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Amateur PreChampionship Events A Int'l Latin (CC,S,R,J)",
+        "place": "7",
+        "points": 4.5
       }
     ],
     "total_pts": 14.5,
@@ -20631,25 +20891,6 @@
         "comp_name": "beachbash2019",
         "info": "AC-J2-M Junior 2 Latin 5 Dance (CC/S/R/PD/J)",
         "place": "3",
-        "points": 5.25
-      }
-    ],
-    "total_pts": 14.25,
-    "avg_pts": 7.12
-  },
-  {
-    "name": "Heal, Landon and Borissenko, Liza",
-    "results": [
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "School Age 2 Dance Full Silver EL AM/AM Int'l Latin (CC,R)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "School Age 2 Dance Full Silver JH AM/AM Int'l Latin (CC,R)",
-        "place": "6",
         "points": 5.25
       }
     ],
@@ -21433,6 +21674,55 @@
     "avg_pts": 6.93
   },
   {
+    "name": "Huang, Steven and Curmei, Mihaela",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "AC- Amateur Novice Latin (S/R)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "caopen19",
+        "info": "AC- Amateur Pre-Championship Latin (CC/S/R)",
+        "place": "Semis",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC- Adult Novice Int'l Latin (C/S/R)",
+        "place": "2",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC- Adult Pre-Championship Int'l Latin (C/S/R/J)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Portland Open Dancesport Competition",
+        "info": "Adult Amateur Open Novice Events A Int'l Latin (CC,S,R,J)",
+        "place": "Semis",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Novice Amateur 3-Dance Events AD Int'l Latin (CC,S,R)",
+        "place": "1",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "PreChamp Amateur 4-Dance Events AD Int'l Latin (CC,S,R,J)",
+        "place": "3",
+        "points": 9.75
+      }
+    ],
+    "total_pts": 48.5,
+    "avg_pts": 6.93
+  },
+  {
     "name": "Vasilevskiy, Lior and Sigal, Gabriella",
     "results": [
       {
@@ -21631,6 +21921,25 @@
     "avg_pts": 6.88
   },
   {
+    "name": "Nelson, Andrew and Lewis, Megan",
+    "results": [
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "School Age 2 Dance Full Bronze HS AM/AM Int'l Latin (CC,R)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "School Age 2 Dance Full Silver HS AM/AM Int'l Latin (CC,R)",
+        "place": "8",
+        "points": 3.75
+      }
+    ],
+    "total_pts": 13.75,
+    "avg_pts": 6.88
+  },
+  {
     "name": "Yong, Kenneith and Davies, Kirsty Mary",
     "results": [
       {
@@ -21754,55 +22063,6 @@
     "avg_pts": 6.79
   },
   {
-    "name": "Teplouhov, Anton and Galeyeva, Angelina",
-    "results": [
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Youth Amateur Closed Gold 4-Dance Events YH Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Adult Amateur PreNovice Events A Int'l Latin (CC,R,J)",
-        "place": "2",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Adult Amateur Closed Gold 4-Dance Events A Int'l Latin (CC,S,R,J)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Youth Amateur Open Novice Events YH Int'l Latin (CC,S,R,J)",
-        "place": "2",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Adult Amateur Open Novice Events A Int'l Latin (CC,S,R,J)",
-        "place": "Semis",
-        "points": 1.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Gold 4-Dance YH Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Novice YH Int'l Latin (CC,S,J)",
-        "place": "1",
-        "points": 3.0
-      }
-    ],
-    "total_pts": 47.5,
-    "avg_pts": 6.79
-  },
-  {
     "name": "Piszczor, Kevin and Tulowiecka, Kaya",
     "results": [
       {
@@ -21889,31 +22149,6 @@
         "comp_name": "Yankee Classic",
         "info": "AC- Adult Pre-Championship Latin (C/S/R/J)",
         "place": "4",
-        "points": 5.25
-      }
-    ],
-    "total_pts": 20.25,
-    "avg_pts": 6.75
-  },
-  {
-    "name": "Marynets, Maxim and Sepe, Mia",
-    "results": [
-      {
-        "comp_name": "Pacific Grand Ball",
-        "info": "Open Silver Multi-Dance Events YH AM/AM Int'l Latin (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Pacific Grand Ball",
-        "info": "AmAm 3-Dance Events Novice YH Int'l Latin (CC,R,J)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Pacific Grand Ball",
-        "info": "AmAm 4-Dance Events PreChamp YH Int'l Latin (CC,S,R,J)",
-        "place": "2",
         "points": 5.25
       }
     ],
@@ -22086,49 +22321,6 @@
     "avg_pts": 6.73
   },
   {
-    "name": "Schwanderer, Renn and Fomin, Sofia",
-    "results": [
-      {
-        "comp_name": "All-Star Dance Challenge",
-        "info": "AC-PT1 Newcomer Latin (S/R)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "All-Star Dance Challenge",
-        "info": "AC-PT1 Bronze Latin (C/R/J)",
-        "place": "3",
-        "points": 5.0
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "AC-PT2 Youth Closed Bronze Latin 3-Dance (C/R/J)",
-        "place": "2",
-        "points": 6.0
-      },
-      {
-        "comp_name": "International Grand Ball",
-        "info": "AC-PT2 Youth Closed Silver Latin 4-Dance (C/S/R/J)",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "Pacific Grand Ball",
-        "info": "AmAm 3-Dance Events Closed Silver P2 AM/AM Int'l Latin (CC,R,J)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Pacific Grand Ball",
-        "info": "AmAm 3-Dance Events Closed Bronze P2 AM/AM Int'l Latin (CC,R,J)",
-        "place": "1",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 40.25,
-    "avg_pts": 6.71
-  },
-  {
     "name": "Leyzerovych, Yan and Tulchinsky, Eva",
     "results": [
       {
@@ -22177,55 +22369,6 @@
     ],
     "total_pts": 13.25,
     "avg_pts": 6.62
-  },
-  {
-    "name": "Huang, Steven and Curmei, Mihaela",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "AC- Amateur Novice Latin (S/R)",
-        "place": "4",
-        "points": 7.5
-      },
-      {
-        "comp_name": "caopen19",
-        "info": "AC- Amateur Pre-Championship Latin (CC/S/R)",
-        "place": "Semis",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC- Adult Novice Int'l Latin (C/S/R)",
-        "place": "2",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC- Adult Pre-Championship Int'l Latin (C/S/R/J)",
-        "place": "3",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Portland Open Dancesport Competition",
-        "info": "Adult Amateur Open Novice Events A Int'l Latin (CC,S,R,J)",
-        "place": "Semis",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Novice Amateur 3-Dance Events AD Int'l Latin (CC,S,R)",
-        "place": "1",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "PreChamp Amateur 4-Dance Events AD Int'l Latin (CC,S,R,J)",
-        "place": "3",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 46.25,
-    "avg_pts": 6.61
   },
   {
     "name": "Alfassi, Ori and Alfassi, Danielle",
@@ -22360,31 +22503,6 @@
       }
     ],
     "total_pts": 39.0,
-    "avg_pts": 6.5
-  },
-  {
-    "name": "Chen, Raymond and Li, Mandy",
-    "results": [
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Closed Amateur 3-Dance Events Closed Silver J1 Int'l Latin (CC,S,R)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "2019 Constitution State Dancesport Championships",
-        "info": "AC-J1 Junior Closed Silver International Latin Championship  (C/S/R/J)",
-        "place": "2",
-        "points": 9.0
-      },
-      {
-        "comp_name": "2019 Constitution State Dancesport Championships",
-        "info": "AC-J1 Junior Closed 5-Dance International Latin (C/S/R/P/J)",
-        "place": "2",
-        "points": 5.25
-      }
-    ],
-    "total_pts": 19.5,
     "avg_pts": 6.5
   },
   {
@@ -22954,31 +23072,6 @@
     "avg_pts": 6.33
   },
   {
-    "name": "Chu, Michael and Wang, Alison",
-    "results": [
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Novice Amateur 3-Dance Events S3 Int'l Latin (CC,S,R)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "PreChamp Amateur 4-Dance Events S3 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Closed Amateur 4-Dance Events Closed Gold S2 Int'l Latin (CC,S,R,J)",
-        "place": "2",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 19.0,
-    "avg_pts": 6.33
-  },
-  {
     "name": "Goldovt, Raymond and Sarram, Ava",
     "results": [
       {
@@ -23171,6 +23264,25 @@
     "avg_pts": 6.25
   },
   {
+    "name": "Lin, Tristan and Lee, Saleen Grace",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J2 Junior & Youth International Latin Novice (C/S/R/)",
+        "place": "6",
+        "points": 8.75
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Novice Amateur 3-Dance Events YH Int'l Latin (CC,S,R)",
+        "place": "1",
+        "points": 3.75
+      }
+    ],
+    "total_pts": 12.5,
+    "avg_pts": 6.25
+  },
+  {
     "name": "Zhylkajdar and Lam",
     "results": [
       {
@@ -23334,6 +23446,61 @@
     ],
     "total_pts": 87.1,
     "avg_pts": 6.22
+  },
+  {
+    "name": "Cojocari, Matvey and Oransky, Alexis",
+    "results": [
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Teddy Bear Int'l Latin (C/J)",
+        "place": "2",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Emerald Ball",
+        "info": "AC-Y Preteen 1 F Int'l Latin 4-Dance {Fordney Fdn Bof B} (C/S/R/J)",
+        "place": "quarters",
+        "points": 0.35
+      },
+	      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC-Y Teddy Bear (C/S/J)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC-Y Pre-Teen1 Pre-Championship International Latin (C/S/J)",
+        "place": "Semis",
+        "points": 1.25
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC-Y Pre-Teen1 Amateur International Latin Scholarship  (C/S/R/J)",
+        "place": "Semis",
+        "points": 3.15
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Preteen Amateur 2-Dance Events Closed TB Int'l Latin (CC,R)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Preteen Amateur 3-Dance Events Closed TB Int'l Latin (CC,S,R)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Preteen Amateur 4-5 Dance Events Closed TB Int'l Latin (CC,S,R,PD,J)",
+        "place": "2",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 45.25,
+    "avg_pts": 5.66
   },
   {
     "name": "Apostolakopoulos, Peter and Edwards, Corinne",
@@ -24107,19 +24274,6 @@
     "avg_pts": 6.0
   },
   {
-    "name": "Colesanti, Giovanni Richard and Rubin, Ella",
-    "results": [
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Closed Amateur 2-Dance Events Closed Bronze J2 Int'l Latin (CC,R)",
-        "place": "1",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 6.0,
-    "avg_pts": 6.0
-  },
-  {
     "name": "Detweiler, David and Sanders, Kailie",
     "results": [
       {
@@ -24419,6 +24573,19 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Richard Colesanti, Giovanni and Rubin, Ella",
+    "results": [
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Closed Amateur 2-Dance Events Closed Bronze J2 Int'l Latin (CC,R)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Rosicker, Arunas and Verenzuela, Stephanie",
     "results": [
       {
@@ -24437,19 +24604,6 @@
       {
         "comp_name": "City Lights Ball",
         "info": "AC-MXLTB Teddy Bear Closed  Bronze Latin (CC/S/J)",
-        "place": "1",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 6.0,
-    "avg_pts": 6.0
-  },
-  {
-    "name": "Rubashevsky, Danya and Goldberg, Rebecca",
-    "results": [
-      {
-        "comp_name": "Pacific Grand Ball",
-        "info": "Closed Bronze Multi-Dance Events mJR AM/AM Int'l Latin (CC,R,J)",
         "place": "1",
         "points": 6.0
       }
@@ -24634,62 +24788,6 @@
     ],
     "total_pts": 41.5,
     "avg_pts": 5.93
-  },
-  {
-    "name": "Lin, Tristan and Lee, Saleen Grace",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J2 Junior & Youth International Latin Novice (C/S/R/)",
-        "place": "6",
-        "points": 8.75
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Novice Amateur 3-Dance Events YH Int'l Latin (CC,S,R)",
-        "place": "1",
-        "points": 3.0
-      }
-    ],
-    "total_pts": 11.75,
-    "avg_pts": 5.88
-  },
-  {
-    "name": "Randelovic, Miroslav and Mardakhaev, Dory",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-SJ1 Junior & Youth International Latin Pre-Championship (C/S/R/J)",
-        "place": "4",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Novice Amateur 3-Dance Events mJ1 Int'l Latin (CC,S,R)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Novice Amateur 3-Dance Events mJ2 Int'l Latin (CC,S,R)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "PreChamp Amateur 4-Dance Events mJ1 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "PreChamp Amateur 4-Dance Events mJ2 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 29.25,
-    "avg_pts": 5.85
   },
   {
     "name": "Chin, Maxwell and Stein, Margarita",
@@ -24961,37 +25059,6 @@
     ],
     "total_pts": 34.85,
     "avg_pts": 5.81
-  },
-  {
-    "name": "Rutten, Dino and Tseytlin, Lora",
-    "results": [
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Junior 2 Int'l Latin 3-Dance (C/S/J)",
-        "place": "Semis",
-        "points": 1.75
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Junior 2 Int'l Latin {Fordney Fdn Bof B} (C/S/R/PD/J)",
-        "place": "quarters",
-        "points": 0.45
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Pre-Champ J2 Int'l Latin (CC,S,R,J)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Int'l J2 Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 23.2,
-    "avg_pts": 5.8
   },
   {
     "name": "Rabinovich, Paul and Ilieva, Raya",
@@ -25352,61 +25419,6 @@
     ],
     "total_pts": 17.0,
     "avg_pts": 5.67
-  },
-  {
-    "name": "Cojocari, Matvey and Oransky, Alexis",
-    "results": [
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Teddy Bear Int'l Latin (C/J)",
-        "place": "2",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Emerald Ball",
-        "info": "AC-Y Preteen 1 F Int'l Latin 4-Dance {Fordney Fdn Bof B} (C/S/R/J)",
-        "place": "quarters",
-        "points": 0.35
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC-Y Teddy Bear (C/S/J)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC-Y Pre-Teen1 Pre-Championship International Latin (C/S/J)",
-        "place": "Semis",
-        "points": 1.25
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC-Y Pre-Teen1 Amateur International Latin Scholarship  (C/S/R/J)",
-        "place": "Semis",
-        "points": 3.15
-      },
-      {
-        "comp_name": "Elite Dancesport",
-        "info": "Preteen Amateur 2-Dance Events Closed TB Int'l Latin (CC,R)",
-        "place": "3",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Elite Dancesport",
-        "info": "Preteen Amateur 3-Dance Events Closed TB Int'l Latin (CC,S,R)",
-        "place": "3",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Elite Dancesport",
-        "info": "Preteen Amateur 4-5 Dance Events Closed TB Int'l Latin (CC,S,R,PD,J)",
-        "place": "2",
-        "points": 5.25
-      }
-    ],
-    "total_pts": 45.25,
-    "avg_pts": 5.66
   },
   {
     "name": "Parrot, David and Pravdin, Genna",
@@ -26126,31 +26138,6 @@
     "avg_pts": 5.25
   },
   {
-    "name": "Kojinov, Denis and Chevalier, Jeanette",
-    "results": [
-      {
-        "comp_name": "Southwestern Invitational",
-        "info": "AM Syllabus Novice 3-Dance Closed Bronze mLP1 AM/AM Int'l Latin (CC,S,R)",
-        "place": "2",
-        "points": 1.75
-      },
-      {
-        "comp_name": "Southwestern Invitational",
-        "info": "AM Open S2 AM/AM Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Southwestern Invitational",
-        "info": "AM Open S1 AM/AM Int'l Latin Championship (CC,S,R,PD,J)",
-        "place": "2",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 15.75,
-    "avg_pts": 5.25
-  },
-  {
     "name": "Meng, Alex and Chen, Joanna",
     "results": [
       {
@@ -26568,6 +26555,37 @@
     ],
     "total_pts": 10.4,
     "avg_pts": 5.2
+  },
+  {
+    "name": "Balan, Daniel and Rashid, Aina",
+    "results": [
+      {
+        "comp_name": "Sapphire DanceSport",
+        "info": "AC-PRT Closed Newcomer Latin Three-Dance (C/S/R)",
+        "place": "1",
+        "points": 3.75
+      },
+      {
+        "comp_name": "Sapphire DanceSport",
+        "info": "AC-PRT Closed Bronze Latin Three-Dance (C/S/R)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "AM Syllabus Novice 3-Dance Closed Bronze P2 AM/AM Int'l Latin (CC,S,R)",
+        "place": "1",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "AM Syllabus Novice 3-Dance Closed Bronze mLP1 AM/AM Int'l Latin (CC,S,R)",
+        "place": "1",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 20.75,
+    "avg_pts": 5.19
   },
   {
     "name": "Podgorny, Ivan and Oreshkina, Mila",
@@ -27253,25 +27271,6 @@
     "avg_pts": 4.88
   },
   {
-    "name": "Nelson, Andrew and Lewis, Megan",
-    "results": [
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "School Age 2 Dance Full Bronze HS AM/AM Int'l Latin (CC,R)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "School Age 2 Dance Full Silver HS AM/AM Int'l Latin (CC,R)",
-        "place": "8",
-        "points": 3.75
-      }
-    ],
-    "total_pts": 9.75,
-    "avg_pts": 4.88
-  },
-  {
     "name": "Shpigelskiy, Eric and Tansky, Guiliana",
     "results": [
       {
@@ -27492,37 +27491,6 @@
       }
     ],
     "total_pts": 32.85,
-    "avg_pts": 4.69
-  },
-  {
-    "name": "Balan, Daniel and Rashid, Aina",
-    "results": [
-      {
-        "comp_name": "Sapphire DanceSport",
-        "info": "AC-PRT Closed Newcomer Latin Three-Dance (C/S/R)",
-        "place": "1",
-        "points": 3.75
-      },
-      {
-        "comp_name": "Sapphire DanceSport",
-        "info": "AC-PRT Closed Bronze Latin Three-Dance (C/S/R)",
-        "place": "1",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Southwestern Invitational",
-        "info": "AM Syllabus Novice 3-Dance Closed Bronze P2 AM/AM Int'l Latin (CC,S,R)",
-        "place": "1",
-        "points": 3.75
-      },
-      {
-        "comp_name": "Southwestern Invitational",
-        "info": "AM Syllabus Novice 3-Dance Closed Bronze mLP1 AM/AM Int'l Latin (CC,S,R)",
-        "place": "1",
-        "points": 3.75
-      }
-    ],
-    "total_pts": 18.75,
     "avg_pts": 4.69
   },
   {
@@ -28627,19 +28595,6 @@
     "avg_pts": 4.0
   },
   {
-    "name": "Koven, Sophia and Rogatin, Vitaliy",
-    "results": [
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "P/J/Y 3-Dance Events Cl. Championship P2 AM/AM Int'l Latin (CC,S,R)",
-        "place": "quarters",
-        "points": 4.0
-      }
-    ],
-    "total_pts": 4.0,
-    "avg_pts": 4.0
-  },
-  {
     "name": "Kwan, Maddox and Gedeon, Gracie",
     "results": [
       {
@@ -28888,6 +28843,61 @@
     ],
     "total_pts": 11.75,
     "avg_pts": 3.92
+  },
+  {
+    "name": "Chien, Michael and Huque, Zeeshan",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-A International Latin Novice Open (C/S/R)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-A International Latin Pre-Championship (C/S/R/J)",
+        "place": "Semis",
+        "points": 1.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult Novice Open 3-Dance AD Int'l Latin (CC,S,R)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult PreChampionships AD Int'l Latin (CC,S,R,J)",
+        "place": "4",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Novice Amateur 3-Dance Events AD Int'l Latin (CC,S,R)",
+        "place": "3",
+        "points": 1.75
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "PreChamp Amateur 4-Dance Events AD Int'l Latin (CC,S,R,J)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "AC-A Adult Amatuer Novice International Latin (C/S/R)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "AC-A Adult Amatuer Pre-Championship International Latin (C/S/R/J)",
+        "place": "2",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 31.25,
+    "avg_pts": 3.91
   },
   {
     "name": "Tsapov, Alexander and Opletayev, Kathlyn",
@@ -29210,61 +29220,6 @@
     "avg_pts": 3.65
   },
   {
-    "name": "Chien, Michael and Huque, Zeeshan",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-A International Latin Novice Open (C/S/R)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-A International Latin Pre-Championship (C/S/R/J)",
-        "place": "Semis",
-        "points": 1.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Adult Novice Open 3-Dance AD Int'l Latin (CC,S,R)",
-        "place": "2",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Adult PreChampionships AD Int'l Latin (CC,S,R,J)",
-        "place": "4",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Novice Amateur 3-Dance Events AD Int'l Latin (CC,S,R)",
-        "place": "3",
-        "points": 1.75
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "PreChamp Amateur 4-Dance Events AD Int'l Latin (CC,S,R,J)",
-        "place": "4",
-        "points": 5.25
-      },
-      {
-        "comp_name": "2019 Constitution State Dancesport Championships",
-        "info": "AC-A Adult Amatuer Novice International Latin (C/S/R)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "2019 Constitution State Dancesport Championships",
-        "info": "AC-A Adult Amatuer Pre-Championship International Latin (C/S/R/J)",
-        "place": "2",
-        "points": 5.25
-      }
-    ],
-    "total_pts": 29.0,
-    "avg_pts": 3.62
-  },
-  {
     "name": "Linmik, Michael and Muynh, Jolene",
     "results": [
       {
@@ -29303,6 +29258,25 @@
         "info": "AC-A International Latin Pre-Championship (C/S/R/J)",
         "place": "Semis",
         "points": 0.75
+      }
+    ],
+    "total_pts": 7.25,
+    "avg_pts": 3.62
+  },
+  {
+    "name": "Balan, Maxim and Jarkynbaeva, Aylin",
+    "results": [
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "AM Syllabus Novice 2-Dance Closed Bronze mLP1 AM/AM Int'l Latin (CC,R)",
+        "place": "1",
+        "points": 3.75
+      },
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "AM Syllabus Novice 3-Dance Closed Bronze mLP1 AM/AM Int'l Latin (CC,S,R)",
+        "place": "2",
+        "points": 3.5
       }
     ],
     "total_pts": 7.25,
@@ -30321,6 +30295,25 @@
     "avg_pts": 3.0
   },
   {
+    "name": "Balan, Maxim and Scalise, Isabella",
+    "results": [
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "AM Syllabus Novice 2-Dance Closed Bronze P2 AM/AM Int'l Latin (CC,R)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Southwestern Invitational",
+        "info": "AM Syllabus Novice 3-Dance Closed Bronze P2 AM/AM Int'l Latin (CC,S,R)",
+        "place": "2",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 3.0
+  },
+  {
     "name": "Golombek, Alan and Le, Thuy",
     "results": [
       {
@@ -30922,25 +30915,6 @@
     "avg_pts": 2.77
   },
   {
-    "name": "Balan, Maxim and Jarkynbaeva, Aylin",
-    "results": [
-      {
-        "comp_name": "Southwestern Invitational",
-        "info": "AM Syllabus Novice 2-Dance Closed Bronze mLP1 AM/AM Int'l Latin (CC,R)",
-        "place": "1",
-        "points": 3.75
-      },
-      {
-        "comp_name": "Southwestern Invitational",
-        "info": "AM Syllabus Novice 3-Dance Closed Bronze mLP1 AM/AM Int'l Latin (CC,S,R)",
-        "place": "2",
-        "points": 1.75
-      }
-    ],
-    "total_pts": 5.5,
-    "avg_pts": 2.75
-  },
-  {
     "name": "Besyedin, Andriy and Cao, Lucy",
     "results": [
       {
@@ -30973,7 +30947,7 @@
     "avg_pts": 2.75
   },
   {
-    "name": "Yuwono, Albert and Tungka, Tania Christabella",
+    "name": "Yuwono, Albert and Christabella Tungka, Tania",
     "results": [
       {
         "comp_name": "Empire Dance Championship",
@@ -31466,25 +31440,6 @@
     "avg_pts": 2.45
   },
   {
-    "name": "Balan, Maxim and Scalise, Isabella",
-    "results": [
-      {
-        "comp_name": "Southwestern Invitational",
-        "info": "AM Syllabus Novice 2-Dance Closed Bronze P2 AM/AM Int'l Latin (CC,R)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Southwestern Invitational",
-        "info": "AM Syllabus Novice 3-Dance Closed Bronze P2 AM/AM Int'l Latin (CC,S,R)",
-        "place": "2",
-        "points": 1.75
-      }
-    ],
-    "total_pts": 4.75,
-    "avg_pts": 2.38
-  },
-  {
     "name": "Moe, Tristan and Davidson, Arianna",
     "results": [
       {
@@ -31508,6 +31463,25 @@
     ],
     "total_pts": 7.05,
     "avg_pts": 2.35
+  },
+  {
+    "name": "van Wyk, Riaan and van den Berg, Marzanne",
+    "results": [
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Novice Amateur 3-Dance Events S1 Int'l Latin (CC,S,R)",
+        "place": "2",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Open Amateur 5-Dance Scholarships AD Int'l Latin (CC,S,R,PD,J)",
+        "place": "round 1",
+        "points": 0.55
+      }
+    ],
+    "total_pts": 4.55,
+    "avg_pts": 2.27
   },
   {
     "name": "Xu, Nova and Xu, Renee",
@@ -32262,25 +32236,6 @@
     ],
     "total_pts": 1.2,
     "avg_pts": 1.2
-  },
-  {
-    "name": "van Wyk, Riaan and van den Berg, Marzanne",
-    "results": [
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Novice Amateur 3-Dance Events S1 Int'l Latin (CC,S,R)",
-        "place": "2",
-        "points": 1.75
-      },
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Open Amateur 5-Dance Scholarships AD Int'l Latin (CC,S,R,PD,J)",
-        "place": "round 1",
-        "points": 0.55
-      }
-    ],
-    "total_pts": 2.3,
-    "avg_pts": 1.15
   },
   {
     "name": "Porotsky, Sean and Sultanova, Hannah",

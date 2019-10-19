@@ -19,6 +19,25 @@
     "avg_pts": 17.5
   },
   {
+    "name": "Hesse, Regan and Hesse, Teresa",
+    "results": [
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Pre-Champ SR4 Amer. Rhythm (CC,R,SW)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur American SR4 Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 33.5,
+    "avg_pts": 16.75
+  },
+  {
     "name": "Ulbrich, Christopher and Melville, Lindsey",
     "results": [
       {
@@ -103,6 +122,19 @@
     "avg_pts": 15.0
   },
   {
+    "name": "O'Rourke, John and Tsai, Emily",
+    "results": [
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur American SR2 Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
+  },
+  {
     "name": "Tang, Kaifeng and Tu, Yejun",
     "results": [
       {
@@ -114,6 +146,25 @@
     ],
     "total_pts": 15.0,
     "avg_pts": 15.0
+  },
+  {
+    "name": "Wort, Steven and Wort, Tracy",
+    "results": [
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur Pre-Champ SR3 Amer. Rhythm (CC,R,SW)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "Seattle Star Ball",
+        "info": "Amateur American SR3 Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "1",
+        "points": 18.0
+      }
+    ],
+    "total_pts": 29.25,
+    "avg_pts": 14.62
   },
   {
     "name": "Bartlett, James and Jane, Catherine",
@@ -380,19 +431,6 @@
       {
         "comp_name": "Southwestern Invitational",
         "info": "AM Open YH AM/AM Amer. Rhythm Championship (CC,R,SW,B,M)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 12.0,
-    "avg_pts": 12.0
-  },
-  {
-    "name": "O'Rourke, John and Tsai, Emily",
-    "results": [
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur American SR2 Amer. Rhythm Championship (CC,R,SW,B,M)",
         "place": "1",
         "points": 12.0
       }
@@ -706,44 +744,6 @@
     "avg_pts": 10.5
   },
   {
-    "name": "Hesse, Regan and Hesse, Teresa",
-    "results": [
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Pre-Champ SR4 Amer. Rhythm (CC,R,SW)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur American SR4 Amer. Rhythm Championship (CC,R,SW,B,M)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 21.0,
-    "avg_pts": 10.5
-  },
-  {
-    "name": "Wort, Steven and Wort, Tracy",
-    "results": [
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur Pre-Champ SR3 Amer. Rhythm (CC,R,SW)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Seattle Star Ball",
-        "info": "Amateur American SR3 Amer. Rhythm Championship (CC,R,SW,B,M)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 21.0,
-    "avg_pts": 10.5
-  },
-  {
     "name": "Gleba, Chet and Gleba, Kathleen",
     "results": [
       {
@@ -835,6 +835,19 @@
     ],
     "total_pts": 20.25,
     "avg_pts": 10.12
+  },
+  {
+    "name": "Richard Colesanti, Giovanni and Rubin, Ella",
+    "results": [
+      {
+        "comp_name": "Empire Dance Championship",
+        "info": "Closed Amateur 2-Dance Events Closed Bronze YH Amer. Rhythm (CC,R)",
+        "place": "1",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
   },
   {
     "name": "Ward, Walter and Ward, Janice",
@@ -2160,19 +2173,6 @@
     "avg_pts": 6.0
   },
   {
-    "name": "Colesanti, Giovanni Richard and Rubin, Ella",
-    "results": [
-      {
-        "comp_name": "Empire Dance Championship",
-        "info": "Closed Amateur 2-Dance Events Closed Bronze YH Amer. Rhythm (CC,R)",
-        "place": "1",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 6.0,
-    "avg_pts": 6.0
-  },
-  {
     "name": "Sarioz, Berk and Bront, Julia",
     "results": [
       {
@@ -2608,11 +2608,11 @@
     "avg_pts": 3.0
   },
   {
-    "name": "Rodriguez, Oscar and Chen, Chrystal",
+    "name": "Wright, Mark and Lindley, Jean",
     "results": [
       {
-        "comp_name": "Elite Dancesport",
-        "info": "Amateur Pre-Novice Events A Amer. Rhythm (CC,R)",
+        "comp_name": "Hawaii Star Ball",
+        "info": "AC- Senior 2 Pre-Novice American Rhythm (C/R)",
         "place": "1",
         "points": 3.0
       }
@@ -2621,11 +2621,11 @@
     "avg_pts": 3.0
   },
   {
-    "name": "Wright, Mark and Lindley, Jean",
+    "name": "Rodriguez, Oscar and Chen, Chrystal",
     "results": [
       {
-        "comp_name": "Hawaii Star Ball",
-        "info": "AC- Senior 2 Pre-Novice American Rhythm (C/R)",
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Pre-Novice Events A Amer. Rhythm (CC,R)",
         "place": "1",
         "points": 3.0
       }
