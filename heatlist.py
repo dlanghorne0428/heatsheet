@@ -15,6 +15,7 @@ class Heatlist():
         self.couples = list()   # store a list of the couples competing
         self.solos = list()     # store a list of the solo performances (as heat objects)
         self.formations = list()    # store a list of the formation performances (as heat objects)
+        self.team_matches = list()  # store a list of team matches (as heat objects)
         self.event_titles = list() 
         self.multi_dance_heat_numbers = list()  # store a list of multi dance non-pro heat (as integers)
         self.age_divisions = ["* ALL *"]   # store a list of the age divisions
@@ -22,6 +23,7 @@ class Heatlist():
         self.max_pro_heat_num = 0  # store the largest pro heat number in the comp
         self.max_solo_num = 0      # store the largest solo number in the comp
         self.max_formation_num = 0 # store the largest formation number in the comp
+        self.max_team_match_num = 0
 
 
     ############### EXTRACTION ROUTINES  #################################################
@@ -233,6 +235,10 @@ class Heatlist():
                 if h.heat_number > self.max_formation_num:
                     self.max_formation_num = h.heat_number 
                 self.formations.append(h)
+            elif h.category == "Team match": 
+                if h.heat_number > self.max_team_match_num:
+                    self.max_team_match_num = h.heat_number 
+                self.team_matches.append(h)            
             elif h.category == "Pro heat":
                 if h.heat_number > self.max_pro_heat_num:
                     self.max_pro_heat_num = h.heat_number      
