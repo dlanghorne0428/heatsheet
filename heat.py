@@ -72,7 +72,7 @@ def non_pro_heat_level(info):
         return 20 + extra_points(info, False)
     elif "Pre-Champ" in info or "PreChamp" in info or "Pre Champ" in info:
         return 15 
-    elif "Champ" in info:
+    elif "Champ" in info or "Grand Slam" in info:
         return 20  
     elif "Scholar" in info:
         return 25
