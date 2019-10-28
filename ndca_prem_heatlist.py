@@ -280,7 +280,7 @@ class NdcaPremHeatlist(Heatlist):
                 #print(c)
                 continue
             safe = html.unescape(competitors[c])
-            print(competitors[c], safe)
+            #print(competitors[c], safe)
             d = NdcaPremDancer(safe) # competitors[c])
             #print(d.name, d.code)
             try:
