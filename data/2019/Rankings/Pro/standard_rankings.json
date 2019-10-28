@@ -184,10 +184,16 @@
         "info": "WDC US Open to the World Professional Int'l Ballroom Championship  (W/T/VW/F/Q)",
         "place": "2",
         "points": 32.0
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Open Professional Ballroom (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 30.0
       }
     ],
-    "total_pts": 484.0,
-    "avg_pts": 28.47
+    "total_pts": 514.0,
+    "avg_pts": 28.56
   },
   {
     "name": "Voskalchuk, Alexander and Voskalchuk, Veronika",
@@ -494,10 +500,16 @@
         "info": "Open Professional International Ballroom (W/T/VW/F/Q)",
         "place": "3",
         "points": 19.5
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Open Professional Ballroom (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 24.0
       }
     ],
-    "total_pts": 180.5,
-    "avg_pts": 16.41
+    "total_pts": 204.5,
+    "avg_pts": 17.04
   },
   {
     "name": "Gayenko, Igor and Schuchynska, Olga",
@@ -959,10 +971,16 @@
         "info": "US National Professional Int'l Ballroom Championship (W/T/VW/F/Q)",
         "place": "Semis",
         "points": 6.0
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Open Professional Ballroom (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 19.5
       }
     ],
-    "total_pts": 106.0,
-    "avg_pts": 13.25
+    "total_pts": 125.5,
+    "avg_pts": 13.94
   },
   {
     "name": "Pappacena, Emanuele and Pappacena, Francesca Lazzari",
@@ -1372,9 +1390,15 @@
         "info": "Open Professional International Ballroom Championship (W/T/VW/F/QS)",
         "place": "1",
         "points": 18.0
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Open Professional Ballroom (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 12.0
       }
     ],
-    "total_pts": 391.5,
+    "total_pts": 403.5,
     "avg_pts": 12.23
   },
   {
@@ -1584,10 +1608,16 @@
         "info": "WDC US Open to the World Professional Int'l Ballroom Championship  (W/T/VW/F/Q)",
         "place": "Semis",
         "points": 6.0
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Open Professional Ballroom (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 15.0
       }
     ],
-    "total_pts": 196.0,
-    "avg_pts": 11.53
+    "total_pts": 211.0,
+    "avg_pts": 11.72
   },
   {
     "name": "Kazlauskas, Jonas and Ilo, Kathleen",
@@ -1954,10 +1984,16 @@
         "info": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
         "place": "2",
         "points": 8.0
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Rising Star Professional Ballroom (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 10.0
       }
     ],
-    "total_pts": 260.75,
-    "avg_pts": 10.43
+    "total_pts": 270.75,
+    "avg_pts": 10.41
   },
   {
     "name": "Katashinskiy, Artemiy and Katashinskiy, Marina",
@@ -2219,7 +2255,7 @@
     "avg_pts": 9.82
   },
   {
-    "name": "Izyumov, Sergey and Zaver, Oksana",
+    "name": "Izyumov, Sergey and Izyumova, Oksana",
     "results": [
       {
         "comp_name": "Golden Star Dancesport Championships",
@@ -2364,10 +2400,16 @@
         "info": "Professional Open International Ballroom (W/T/VW/F/QS)",
         "place": "2",
         "points": 7.0
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Open Professional Ballroom (W/T/VW/F/Q)",
+        "place": "6",
+        "points": 10.5
       }
     ],
-    "total_pts": 227.5,
-    "avg_pts": 9.48
+    "total_pts": 238.0,
+    "avg_pts": 9.52
   },
   {
     "name": "Skriptsov, Aleksandr and Skriptsova, Aida",
@@ -2938,6 +2980,37 @@
     "avg_pts": 7.75
   },
   {
+    "name": "Spencer, Alexander and Spencer, Alina",
+    "results": [
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "Rising Star Professional International Ballroom (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "Open Professional International Ballroom (W/T/VW/FT/QS)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "Professional Rising Star International Ballroom (W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "atlopen19",
+        "info": "Professional Open International Ballroom (W/T/VW/FT/QS)",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 30.0,
+    "avg_pts": 7.5
+  },
+  {
     "name": "Pavlyuk, Mechyslav and Arnold, Gemma",
     "results": [
       {
@@ -2987,41 +3060,16 @@
         "info": "Professional Open International Ballroom (W/T/VW/F/QS)",
         "place": "Semis",
         "points": 4.8
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Open Professional Ballroom (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 3.0
       }
     ],
-    "total_pts": 61.4,
-    "avg_pts": 7.67
-  },
-  {
-    "name": "Spencer, Alexander and Spencer, Alina",
-    "results": [
-      {
-        "comp_name": "2019 First Coast Classic",
-        "info": "Rising Star Professional International Ballroom (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 5.0
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "info": "Open Professional International Ballroom (W/T/VW/FT/QS)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "Professional Rising Star International Ballroom (W/T/VW/FT/QS)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "atlopen19",
-        "info": "Professional Open International Ballroom (W/T/VW/FT/QS)",
-        "place": "4",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 30.0,
-    "avg_pts": 7.5
+    "total_pts": 64.4,
+    "avg_pts": 7.16
   },
   {
     "name": "Levin, Ivan and Levin, Maria",
@@ -3109,10 +3157,22 @@
         "info": "Rising Star Professional International Ballroom (W/T/VW/F/QS)",
         "place": "1",
         "points": 10.0
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Rising Star Professional Ballroom (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Open Professional Ballroom (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 2.7
       }
     ],
-    "total_pts": 103.8,
-    "avg_pts": 7.41
+    "total_pts": 113.5,
+    "avg_pts": 7.09
   },
   {
     "name": "Stockton, Andrew and Smith, Rachel",
@@ -4066,6 +4126,25 @@
     "avg_pts": 5.25
   },
   {
+    "name": "Grinin, Evgenii and Morozova, Olga",
+    "results": [
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Rising Star Professional Ballroom (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 5.0
+  },
+  {
     "name": "Lipford, Stephen and Collins, Shayne",
     "results": [
       {
@@ -4082,19 +4161,6 @@
       }
     ],
     "total_pts": 10.0,
-    "avg_pts": 5.0
-  },
-  {
-    "name": "Grinin, Evgenii and Morozova, Olga",
-    "results": [
-      {
-        "comp_name": "2019 Constitution State Dancesport Championships",
-        "info": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 5.0
-      }
-    ],
-    "total_pts": 5.0,
     "avg_pts": 5.0
   },
   {
@@ -4304,10 +4370,16 @@
         "info": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
         "place": "6",
         "points": 3.5
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Open Professional Ballroom (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 0.6
       }
     ],
-    "total_pts": 155.3,
-    "avg_pts": 4.85
+    "total_pts": 155.9,
+    "avg_pts": 4.72
   },
   {
     "name": "Badea, Stefan and Varlam, Madalina",
@@ -4786,10 +4858,22 @@
         "info": "Professional Rising Star International Ballroom (W/T/VW/F/Q)",
         "place": "5",
         "points": 4.0
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Rising Star Professional Ballroom (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Open Professional Ballroom (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 2.4
       }
     ],
-    "total_pts": 55.8,
-    "avg_pts": 3.28
+    "total_pts": 61.7,
+    "avg_pts": 3.25
   },
   {
     "name": "Hoffman, Ian and Houska, Melissa",
