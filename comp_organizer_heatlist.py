@@ -95,7 +95,7 @@ class CompOrgHeat(Heat):
             elif "Formation" in self.info:
                 self.category = "Formation"
                 print("Formation")
-            elif "Team Match" in self.info:
+            elif "Team Match" in self.info or "Team match" in self.info:
                 self.category = "Team match"
                 print("Team match")            
             elif "Solo Star" in self.info:

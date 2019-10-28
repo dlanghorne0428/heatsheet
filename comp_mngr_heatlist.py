@@ -213,7 +213,7 @@ class CompMngrHeatlist(Heatlist):
                     dancer.add_heat(form_heat)
                     self.formations.append(form_heat)
                     
-            elif "Team match" in line:
+            elif "Team match" in line or "Team Match" in line:
                 if dancer is not None:
                     # turn that heat info into an object and add it to the couple
                     team_heat = CompMngrHeat("Team match", line, dancer.name, dancer.code, "")
