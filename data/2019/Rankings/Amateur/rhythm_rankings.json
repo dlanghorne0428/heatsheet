@@ -453,6 +453,19 @@
     "avg_pts": 12.0
   },
   {
+    "name": "Shtern, Daniel and Markman, Anna",
+    "results": [
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "AC-JR2 Paragon Open American Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
     "name": "Rogers, Edward and Rogers, Trisha",
     "results": [
       {
@@ -744,6 +757,44 @@
     "avg_pts": 10.5
   },
   {
+    "name": "Gad, Aniket and Ablorh, Tsotso",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "AC- Adult Pre-Championship Rhythm (R/C/SW)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "AC- \"World Masters Amateur American Rhythm Championships\" (C/R/SW/B/M)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 20.25,
+    "avg_pts": 10.12
+  },
+  {
+    "name": "Weyerman, Phillip and Burnett, Arielle",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "AC- Amateur Pre-Champ Rhythm (C/R/SW/B)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "AC- Amateur Open Rhythm Scholarships (C/R/SW/B/M)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 20.25,
+    "avg_pts": 10.12
+  },
+  {
     "name": "Gleba, Chet and Gleba, Kathleen",
     "results": [
       {
@@ -793,48 +844,16 @@
         "info": "AC-S1 Closed Silver American Rhythm Championship (C/R/SW/B)",
         "place": "1",
         "points": 9.0
-      }
-    ],
-    "total_pts": 81.0,
-    "avg_pts": 10.12
-  },
-  {
-    "name": "Gad, Aniket and Ablorh, Tsotso",
-    "results": [
-      {
-        "comp_name": "Yankee Classic",
-        "info": "AC- Adult Pre-Championship Rhythm (R/C/SW)",
-        "place": "2",
-        "points": 5.25
       },
       {
-        "comp_name": "Yankee Classic",
-        "info": "AC- \"World Masters Amateur American Rhythm Championships\" (C/R/SW/B/M)",
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "AC-SS1 WPDS Closed Silver Rhythm Championship (C/R/SW/B)",
         "place": "1",
-        "points": 15.0
+        "points": 9.0
       }
     ],
-    "total_pts": 20.25,
-    "avg_pts": 10.12
-  },
-  {
-    "name": "Weyerman, Phillip and Burnett, Arielle",
-    "results": [
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "AC- Amateur Pre-Champ Rhythm (C/R/SW/B)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "AC- Amateur Open Rhythm Scholarships (C/R/SW/B/M)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 20.25,
-    "avg_pts": 10.12
+    "total_pts": 90.0,
+    "avg_pts": 10.0
   },
   {
     "name": "Ward, Walter and Ward, Janice",
@@ -1307,37 +1326,6 @@
     "avg_pts": 8.33
   },
   {
-    "name": "Rodriguez, Ramon and Glassberg, Heather",
-    "results": [
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "AC-A1 Bronze American Rhythm 3 Dance  (C/R/SW)",
-        "place": "1",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "AC-A2 Bronze American Rhythm 3 Dance  (C/R/SW)",
-        "place": "1",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "AC-A1 Silver American Rhythm 4 Dance  (C/R/SW/MA)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Washington Open Dancesport Competition",
-        "info": "AC-A2 Silver American Rhythm 4 Dance  (C/R/SW/MA)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 33.0,
-    "avg_pts": 8.25
-  },
-  {
     "name": "Mitchell, Clay and Curran, Emily",
     "results": [
       {
@@ -1363,6 +1351,37 @@
         "info": "AC- Amateur Open Rhythm Scholarship(CC/R/SW/B/M)",
         "place": "1",
         "points": 15.0
+      }
+    ],
+    "total_pts": 33.0,
+    "avg_pts": 8.25
+  },
+  {
+    "name": "Rodriguez, Ramon and Glassberg, Heather",
+    "results": [
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "AC-A1 Bronze American Rhythm 3 Dance  (C/R/SW)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "AC-A2 Bronze American Rhythm 3 Dance  (C/R/SW)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "AC-A1 Silver American Rhythm 4 Dance  (C/R/SW/MA)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Washington Open Dancesport Competition",
+        "info": "AC-A2 Silver American Rhythm 4 Dance  (C/R/SW/MA)",
+        "place": "1",
+        "points": 9.0
       }
     ],
     "total_pts": 33.0,
