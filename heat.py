@@ -32,6 +32,8 @@ def dance_style(s):
         return "Nightclub"
     elif "Country" in s:
         return "Country"
+    elif "Cabaret" in s:
+        return "Cabaret"
     else:
         print("Unknown style for heat", s)
         return "Unknown"
