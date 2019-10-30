@@ -298,7 +298,7 @@ class NdcaPremResults():
                     e.result = "round 1"
                     placement = -10
                 e.points = calc_points(e.level, placement, num_competitors=total_entries, rounds=heat_report.rounds(), accum=int(accum_value))
-                print(e.dancer, "and", e.partner, "finish", e.result, "for", e.points, "points")    
+                #print(e.dancer, "and", e.partner, "finish", e.result, "for", e.points, "points")    
                 
     
     
