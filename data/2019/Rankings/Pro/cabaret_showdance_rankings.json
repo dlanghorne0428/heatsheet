@@ -140,10 +140,16 @@
         "info": "Professional Cabaret",
         "place": "1",
         "points": 20.0
+      },
+      {
+        "comp_name": "Grand National Dancesport Championships",
+        "info": "Professional Cabaret Championship  Open Cabaret",
+        "place": "1",
+        "points": 15.0
       }
     ],
-    "total_pts": 393.0,
-    "avg_pts": 18.71
+    "total_pts": 408.0,
+    "avg_pts": 18.55
   },
   {
     "name": "Fumagalli, Davide and Macaluso, Debora",
@@ -1086,49 +1092,6 @@
     "avg_pts": 10.5
   },
   {
-    "name": "Golubev, Valerii and Golubeva, Margarita",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Professional Open Exhibition",
-        "place": "4",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Professional Open Cabaret",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "Open Professional Theater Arts/Cabaret",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "Professional Open Cabaret/Showdance",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Showdance",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Cleveland Dancesport Challenge",
-        "info": "Professional Cabaret",
-        "place": "4",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 62.0,
-    "avg_pts": 10.33
-  },
-  {
     "name": "Alekseev, Aleksei and Derevleva, Ekaterina",
     "results": [
       {
@@ -1317,6 +1280,55 @@
     ],
     "total_pts": 10.0,
     "avg_pts": 10.0
+  },
+  {
+    "name": "Golubev, Valerii and Golubeva, Margarita",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Professional Open Exhibition",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Professional Open Cabaret",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Open Professional Theater Arts/Cabaret",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "Professional Open Cabaret/Showdance",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Showdance",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Professional Cabaret",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Grand National Dancesport Championships",
+        "info": "Professional Cabaret Championship  Open Cabaret",
+        "place": "2",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 69.0,
+    "avg_pts": 9.86
   },
   {
     "name": "Dombrowik, Douglas and Fox, Angel",

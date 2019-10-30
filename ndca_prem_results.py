@@ -50,6 +50,8 @@ class NdcaPremResults():
             return "Semis-" + accum_value
         elif rounds == "Q":
             return "quarters-" + accum_value
+        elif rounds == "R2":
+            return "round 2-" + accum_value
         else:
             return "round 1-" + accum_value
     
@@ -62,7 +64,7 @@ class NdcaPremResults():
         looking_for_recall_column = False
         looking_for_finalists = False
         looking_for_quarterfinal = False
-        looking_for_round_one = False
+        looking_for_prelim_round = False
         process_finalists = False
         looking_for_semifinal = False
         total_entries = 0
@@ -181,13 +183,22 @@ class NdcaPremResults():
                     dance_count = 0
                 else:
                     i += 1        
-            elif looking_for_round_one:
-                if 'class="roundHeader"' in l:
-                    print("Found First Round")
-                    heat_report.set_rounds("R1")
-                    looking_for_round_one = False
+            elif looking_for_prelim_round:
+                if 'class="roundHeader">Second' in l:
+                    print("Found Second Round")
+                    heat_report.set_rounds("R2")
+                    looking_for_prelim_round = False
                     looking_for_final_dance = True
                     dance_count = 0
+                elif 'class="roundHeader">First' in l:
+                    print("Found First Round")
+                    if heat_report.rounds() == "R2":
+                        heat_report.set_rounds("R21")
+                    else:
+                        heat_report.set_rounds("R1")
+                    looking_for_prelim_round = False
+                    looking_for_final_dance = True
+                    dance_count = 0                
                 else:
                     i += 1                  
             elif looking_for_final_dance:
@@ -204,7 +215,9 @@ class NdcaPremResults():
                     if heat_report.rounds() == "S":
                         looking_for_quarterfinal = True
                     elif heat_report.rounds() == "Q":
-                        looking_for_round_one = True
+                        looking_for_prelim_round = True
+                    elif heat_report.rounds() == "R2":
+                        looking_for_prelim_round = True
                 else:
                     fields = l.split("</td>")
                     couple_field = fields[0].split("<td>")[1]
@@ -276,13 +289,16 @@ class NdcaPremResults():
                     accum_value = e.result[len("quarters-"):]
                     e.result = "quarters"
                     placement = -1
-
+                elif e.result.startswith("round 2-"):
+                    accum_value = e.result[len("round 2-"):]
+                    e.result = "round 2"
+                    placement = -5
                 else:
                     accum_value = e.result[len("round 1-"):]
                     e.result = "round 1"
                     placement = -10
                 e.points = calc_points(e.level, placement, num_competitors=total_entries, rounds=heat_report.rounds(), accum=int(accum_value))
-#            print(e.dancer, "and", e.partner, "finish", e.result, "for", e.points, "points")    
+                #print(e.dancer, "and", e.partner, "finish", e.result, "for", e.points, "points")    
                 
     
     
@@ -338,13 +354,13 @@ class NdcaPremResults():
 
 if __name__ == '__main__':
     results = NdcaPremResults()
-    results.open("http://www.ndcapremier.com/results.htm?cyi=181")
+    results.open("http://www.ndcapremier.com/results.htm?cyi=398")
     h = Heat()
-    h.info = "Professional  Amer. Smooth Championship (W,T,F,VW)"
+    h.info = "WDC World Professional Latin Int'l Latin Championship (CC,S,R,PD,J)"
     h.set_category("Pro heat")
     h.set_level()
-    h.dancer = "Holzworth, John" #"Alitto, Oreste"
-    h.partner = "Wooding, Nicole" # "Belozerova, Valeriia"
+    h.dancer = "Bager, Troels" #"Alitto, Oreste"
+    h.partner = "Jeliazkova, Ina" # "Belozerova, Valeriia"
     h.rounds = "F"
     hr = Heat_Report()
     hr.append(h)

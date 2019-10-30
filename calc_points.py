@@ -24,7 +24,7 @@ def calc_points(level, placement, num_competitors = 6, rounds = "F", accum = 0):
             elif placement == -1: # quarters
                 percent = min(10, max(1, accum))            
             else:
-                percent = percent_table[place]         
+                percent = percent_table[place]              
         elif rounds == "R1":
             max_pts = level + 30
             if placement == -2: # semis
@@ -35,6 +35,18 @@ def calc_points(level, placement, num_competitors = 6, rounds = "F", accum = 0):
                 percent = min(5, max(1, accum))              
             else:
                 percent = percent_table[place]      
+        elif rounds == "R21":
+            max_pts = level + 40
+            if placement == -2: # semis
+                percent = min(30, max(25, accum))
+            elif placement == -1: # quarters
+                percent = min(20, max(15, accum))
+            elif placement == -5: # round 2
+                percent = min(12, max(7, accum))            
+            elif placement == -10: # round 1
+                percent = min(5, max(1, accum))              
+            else:
+                percent = percent_table[place]     
         else:
             percent = percent_table[place]   
         return max_pts * percent / 100 
