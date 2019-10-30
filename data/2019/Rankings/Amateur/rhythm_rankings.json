@@ -453,6 +453,19 @@
     "avg_pts": 12.0
   },
   {
+    "name": "Shtern, Daniel and Markman, Anna",
+    "results": [
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "AC-JR2 Paragon Open American Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
     "name": "Rogers, Edward and Rogers, Trisha",
     "results": [
       {
@@ -744,6 +757,44 @@
     "avg_pts": 10.5
   },
   {
+    "name": "Gad, Aniket and Ablorh, Tsotso",
+    "results": [
+      {
+        "comp_name": "Yankee Classic",
+        "info": "AC- Adult Pre-Championship Rhythm (R/C/SW)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "AC- \"World Masters Amateur American Rhythm Championships\" (C/R/SW/B/M)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 20.25,
+    "avg_pts": 10.12
+  },
+  {
+    "name": "Weyerman, Phillip and Burnett, Arielle",
+    "results": [
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "AC- Amateur Pre-Champ Rhythm (C/R/SW/B)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Vegas Open Dance Challenge",
+        "info": "AC- Amateur Open Rhythm Scholarships (C/R/SW/B/M)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 20.25,
+    "avg_pts": 10.12
+  },
+  {
     "name": "Gleba, Chet and Gleba, Kathleen",
     "results": [
       {
@@ -793,48 +844,16 @@
         "info": "AC-S1 Closed Silver American Rhythm Championship (C/R/SW/B)",
         "place": "1",
         "points": 9.0
-      }
-    ],
-    "total_pts": 81.0,
-    "avg_pts": 10.12
-  },
-  {
-    "name": "Gad, Aniket and Ablorh, Tsotso",
-    "results": [
-      {
-        "comp_name": "Yankee Classic",
-        "info": "AC- Adult Pre-Championship Rhythm (R/C/SW)",
-        "place": "2",
-        "points": 5.25
       },
       {
-        "comp_name": "Yankee Classic",
-        "info": "AC- \"World Masters Amateur American Rhythm Championships\" (C/R/SW/B/M)",
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "AC-SS1 WPDS Closed Silver Rhythm Championship (C/R/SW/B)",
         "place": "1",
-        "points": 15.0
+        "points": 9.0
       }
     ],
-    "total_pts": 20.25,
-    "avg_pts": 10.12
-  },
-  {
-    "name": "Weyerman, Phillip and Burnett, Arielle",
-    "results": [
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "AC- Amateur Pre-Champ Rhythm (C/R/SW/B)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Vegas Open Dance Challenge",
-        "info": "AC- Amateur Open Rhythm Scholarships (C/R/SW/B/M)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 20.25,
-    "avg_pts": 10.12
+    "total_pts": 90.0,
+    "avg_pts": 10.0
   },
   {
     "name": "Ward, Walter and Ward, Janice",
@@ -1226,6 +1245,19 @@
     "avg_pts": 9.0
   },
   {
+    "name": "Yearian, Thomas and Yearian, Ann",
+    "results": [
+      {
+        "comp_name": "Hotlanta 2019",
+        "info": "AC-- Closed Military Ballroom Closed Rhythm Challenge (CC/R/SW)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 9.0
+  },
+  {
     "name": "Santoro, Sam and Zutter, Mary",
     "results": [
       {
@@ -1292,6 +1324,37 @@
     ],
     "total_pts": 25.0,
     "avg_pts": 8.33
+  },
+  {
+    "name": "Mitchell, Clay and Curran, Emily",
+    "results": [
+      {
+        "comp_name": "Nebraska Dance Festival",
+        "info": "AC-A Closed Bronze Rhythm 3 Dance (CC/R/SW)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Nebraska Dance Festival",
+        "info": "AC-A Closed Bronze Rhythm 2 Dance (CC/R)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Nebraska Dance Festival",
+        "info": "AC-A Closed Bronze Rhythm 2 Dance (SW/B)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Nebraska Dance Festival",
+        "info": "AC- Amateur Open Rhythm Scholarship(CC/R/SW/B/M)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 33.0,
+    "avg_pts": 8.25
   },
   {
     "name": "Rodriguez, Ramon and Glassberg, Heather",
@@ -1927,25 +1990,6 @@
     "avg_pts": 6.0
   },
   {
-    "name": "Slaughter, Ann and Slaughter, Tom",
-    "results": [
-      {
-        "comp_name": "Music City Invitational",
-        "info": "AC-C1 Closed Bronze 2 Dance Rhythm (CC/R)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Music City Invitational",
-        "info": "AC-C1 Closed Bronze 3 Dance Rhythm (CC/R/SW)",
-        "place": "1",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 12.0,
-    "avg_pts": 6.0
-  },
-  {
     "name": "Zema, Paul and Schramm, Megan",
     "results": [
       {
@@ -2224,6 +2268,43 @@
     "avg_pts": 5.5
   },
   {
+    "name": "Slaughter, Ann and Slaughter, Tom",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "info": "AC-C1 Closed Bronze 2 Dance Rhythm (CC/R)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Music City Invitational",
+        "info": "AC-C1 Closed Bronze 3 Dance Rhythm (CC/R/SW)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Nebraska Dance Festival",
+        "info": "AC-B Newcomer Rhythm 3 Dance (CC/R/SW)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Nebraska Dance Festival",
+        "info": "AC-C Closed Bronze Rhythm 3 Dance (CC/R/SW)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Nebraska Dance Festival",
+        "info": "AC-SR1 Closed Bronze Rhythm 3 Dance (CC/R/SW)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 27.0,
+    "avg_pts": 5.4
+  },
+  {
     "name": "Calder, Beverly and Calder, Dr. Jim",
     "results": [
       {
@@ -2421,6 +2502,19 @@
     "avg_pts": 3.75
   },
   {
+    "name": "Keyes, Christopher and Johnson, Kelsey",
+    "results": [
+      {
+        "comp_name": "Hotlanta 2019",
+        "info": "AC-COL Novice American Rhythm 3 Dance  (CC/R/SW)",
+        "place": "1",
+        "points": 3.75
+      }
+    ],
+    "total_pts": 3.75,
+    "avg_pts": 3.75
+  },
+  {
     "name": "Bakas, Kallen and Tsoukalas, Kathy",
     "results": [
       {
@@ -2556,6 +2650,25 @@
     "avg_pts": 3.0
   },
   {
+    "name": "Rodriguez, Oscar and Chen, Chrystal",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Amateur Pre-Novice Events A Amer. Rhythm (CC,R)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "2019 Autumn Dance Classic",
+        "info": "AC-A Gold American Rhythm Syllabus Novice 3 Dance (C/R/SW)",
+        "place": "1",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 3.0
+  },
+  {
     "name": "Akahoshi, Dean and Clement, Melissa",
     "results": [
       {
@@ -2595,6 +2708,19 @@
     "avg_pts": 3.0
   },
   {
+    "name": "Everett, Jake and Luong, Izzy",
+    "results": [
+      {
+        "comp_name": "2019 Autumn Dance Classic",
+        "info": "AC-JR I Silver American Rhythm Syllabus Novice 3 Dance (C/R/SW)",
+        "place": "1",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
+  },
+  {
     "name": "Goncharov, Yevgeny and Simakhina, Svetlana",
     "results": [
       {
@@ -2608,11 +2734,11 @@
     "avg_pts": 3.0
   },
   {
-    "name": "Rodriguez, Oscar and Chen, Chrystal",
+    "name": "Ostapenko, Jonathan and Luong, Izzy",
     "results": [
       {
-        "comp_name": "Elite Dancesport",
-        "info": "Amateur Pre-Novice Events A Amer. Rhythm (CC,R)",
+        "comp_name": "2019 Autumn Dance Classic",
+        "info": "AC-PT2 Gold American Rhythm Syllabus Novice 3 Dance (C/R/SW)",
         "place": "1",
         "points": 3.0
       }
@@ -2657,6 +2783,25 @@
     ],
     "total_pts": 8.5,
     "avg_pts": 2.83
+  },
+  {
+    "name": "Bo-o, Alexander and Bajramovic, Alma",
+    "results": [
+      {
+        "comp_name": "Hotlanta 2019",
+        "info": "AC-COL Newcomer American Rhythm 3 Dance  (CC/R/SW)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Hotlanta 2019",
+        "info": "AC-COL Novice American Rhythm 3 Dance  (CC/R/SW)",
+        "place": "2",
+        "points": 1.75
+      }
+    ],
+    "total_pts": 4.75,
+    "avg_pts": 2.38
   },
   {
     "name": "Boggio, Ray and Huynh, Tuyen",

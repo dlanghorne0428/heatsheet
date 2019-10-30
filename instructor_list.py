@@ -73,9 +73,16 @@ class Instructor_List():
         add_pro_am_instructors(self.names, RankingDataFile("./data/2019/Rankings/Pro-Am/country_rankings.json"))
         print("Total number of professionals:", len(self.names))
         
+    def save_to_file(self, filename):
+        output_file = open(filename, "w", encoding="UTF-8")
+        for name in self.names:
+            output_file.write(name + "\n")
+        output_file.close()        
+        
         
 '''Main program'''
 if __name__ == '__main__':
     instructors = Instructor_List()
     print(instructors.names)
+    instructors.save_to_file("data\2019\Rankings\professionals.txt")
         

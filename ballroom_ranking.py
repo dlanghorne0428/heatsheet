@@ -401,6 +401,8 @@ class AppFrame(wx.Frame):
             index = 4
         elif "Country" == style:
             index = 5
+        elif "Cabaret" == style:
+            index = 6
         else:
             index = 6
             if prompt:
@@ -539,8 +541,12 @@ class AppFrame(wx.Frame):
             self.list_ctrl.SetItem(db_index, Name_Column, new_name)
             self.current_couples.set_name_at_index(db_index, new_name)   
         else:
-            # update entry to the name of the matching couple
+            # update entry to the name of the matching couple and add them to the aliases 
             entry["couple"] = current_name
+            alias = [new_name, current_name]
+            if alias not in self.aliases:
+                self.aliases.append(alias)
+                print(self.aliases)
         
 
     def Handle_No_Match_Couple(self, entry, result):
@@ -616,11 +622,19 @@ class AppFrame(wx.Frame):
         h = self.heat_results[self.current_heat_idx]
         entries = h["entries"]
         for entry in entries: 
-            # extract the couple's name from the entry
-            couple = entry["couple"]
             
             # build a result dictionary with the comp name, level, placement, and points
             result = self.Build_Result(entry, h["title"])
+            
+            # search for the couple in the list of aliases:
+            for alias in self.aliases:
+                if alias[0] == entry["couple"]:
+                    print("replacing", entry["couple"], "with", alias[1])
+                    entry["couple"] = alias[1]
+                    break
+                
+            # extract the couple's name from the entry
+            couple = entry["couple"]    
             
             # search for the couple in the database
             db_index = self.current_couples.find_couple(couple)
@@ -755,6 +769,9 @@ class AppFrame(wx.Frame):
             else:
                 self.comp_results = Comp_Results_File(folder_name + "/amateur_results.json")  
                 self.automation = True
+                
+            # clear the list of aliases for couple names
+            self.aliases = list()
                 
             # populate the competition name
             self.comp_name.ChangeValue(self.comp_results.get_comp_name())

@@ -140,10 +140,16 @@
         "info": "Professional Cabaret",
         "place": "1",
         "points": 20.0
+      },
+      {
+        "comp_name": "Grand National Dancesport Championships",
+        "info": "Professional Cabaret Championship  Open Cabaret",
+        "place": "1",
+        "points": 15.0
       }
     ],
-    "total_pts": 393.0,
-    "avg_pts": 18.71
+    "total_pts": 408.0,
+    "avg_pts": 18.55
   },
   {
     "name": "Fumagalli, Davide and Macaluso, Debora",
@@ -214,13 +220,19 @@
         "info": "Professional Cabaret",
         "place": "2",
         "points": 16.0
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Professional Cabaret",
+        "place": "1",
+        "points": 18.0
       }
     ],
-    "total_pts": 154.0,
-    "avg_pts": 17.11
+    "total_pts": 172.0,
+    "avg_pts": 17.2
   },
   {
-    "name": "Di Brino, Stefano and Zubrowska, Bianka",
+    "name": "Di Brino, Stefano and Zubrowska DiBrino, Bianka",
     "results": [
       {
         "comp_name": "Hawaii Star Ball",
@@ -259,7 +271,7 @@
     "avg_pts": 16.0
   },
   {
-    "name": "Tsorokean, Alyenendrov and Wheeler, Maria",
+    "name": "Tsorokean, Alyenendrov and Tsorokean, Maria",
     "results": [
       {
         "comp_name": "Florida Superstars",
@@ -400,7 +412,7 @@
     "avg_pts": 15.29
   },
   {
-    "name": "Ballard, Vince and Perez, Tania",
+    "name": "Ballard, Vincent and Perez, Tania",
     "results": [
       {
         "comp_name": "Music City Invitational",
@@ -413,7 +425,7 @@
     "avg_pts": 15.0
   },
   {
-    "name": "Kudashev, Ivan and Ksusha",
+    "name": "Kudashev, Ivan and Sokolova, Ksusha",
     "results": [
       {
         "comp_name": "2019 Platinum DanceSport Classic",
@@ -608,10 +620,16 @@
         "info": "Pro Open  Theatre Arts Championship",
         "place": "2",
         "points": 7.0
+      },
+      {
+        "comp_name": "Hotlanta 2019",
+        "info": "Professional Duel de Cabaret",
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 127.0,
-    "avg_pts": 14.11
+    "total_pts": 147.0,
+    "avg_pts": 14.7
   },
   {
     "name": "Black, Jamie and Elliott, Samantha",
@@ -774,10 +792,53 @@
         "info": "Professional Cabaret",
         "place": "1",
         "points": 18.0
+      },
+      {
+        "comp_name": "Hotlanta 2019",
+        "info": "Professional Duel de Cabaret",
+        "place": "3",
+        "points": 13.0
       }
     ],
-    "total_pts": 166.0,
-    "avg_pts": 12.77
+    "total_pts": 179.0,
+    "avg_pts": 12.79
+  },
+  {
+    "name": "Gore, Gerard and Grohoske, Ellie",
+    "results": [
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "Open Professional Cabaret Championships",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Music City Invitational",
+        "info": "Open Theater Arts (TA)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "United States Dance Championships",
+        "info": "World Professional Cabaret/Exhibition Championship",
+        "place": "7",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Ultimate Dancesport Challenge",
+        "info": "Professional Showdance",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Hotlanta 2019",
+        "info": "Professional Duel de Cabaret",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 60.5,
+    "avg_pts": 12.1
   },
   {
     "name": "Visnakovs, Slava and Zukaite, Atile",
@@ -875,37 +936,6 @@
     ],
     "total_pts": 12.0,
     "avg_pts": 12.0
-  },
-  {
-    "name": "Gore, Gerard and Grohoske, Ellie",
-    "results": [
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "Open Professional Cabaret Championships",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Music City Invitational",
-        "info": "Open Theater Arts (TA)",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "United States Dance Championships",
-        "info": "World Professional Cabaret/Exhibition Championship",
-        "place": "7",
-        "points": 6.0
-      },
-      {
-        "comp_name": "2019 Ultimate Dancesport Challenge",
-        "info": "Professional Showdance",
-        "place": "2",
-        "points": 14.0
-      }
-    ],
-    "total_pts": 44.5,
-    "avg_pts": 11.12
   },
   {
     "name": "Haklin, Nick and Ford, Sarah",
@@ -1007,10 +1037,16 @@
         "info": "US National Professional Theatrical Dance Championship (PD)",
         "place": "3",
         "points": 10.0
+      },
+      {
+        "comp_name": "Hotlanta 2019",
+        "info": "Professional Duel de Cabaret",
+        "place": "4",
+        "points": 10.0
       }
     ],
-    "total_pts": 64.1,
-    "avg_pts": 10.68
+    "total_pts": 74.1,
+    "avg_pts": 10.59
   },
   {
     "name": "Izyumov, Sergey and Zaver, Oksana",
@@ -1054,49 +1090,6 @@
     ],
     "total_pts": 63.0,
     "avg_pts": 10.5
-  },
-  {
-    "name": "Golubev, Valerii and Golubeva, Margarita",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Professional Open Exhibition",
-        "place": "4",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Professional Open Cabaret",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "Open Professional Theater Arts/Cabaret",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "Professional Open Cabaret/Showdance",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Showdance",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Cleveland Dancesport Challenge",
-        "info": "Professional Cabaret",
-        "place": "4",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 62.0,
-    "avg_pts": 10.33
   },
   {
     "name": "Alekseev, Aleksei and Derevleva, Ekaterina",
@@ -1192,7 +1185,7 @@
     "avg_pts": 10.0
   },
   {
-    "name": "Nunez, Tony and Kashkina, Ksenia",
+    "name": "Nunez, Antonio and Kashkina, Ksenia",
     "results": [
       {
         "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
@@ -1289,6 +1282,55 @@
     "avg_pts": 10.0
   },
   {
+    "name": "Golubev, Valerii and Golubeva, Margarita",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Professional Open Exhibition",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Professional Open Cabaret",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Open Professional Theater Arts/Cabaret",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "Professional Open Cabaret/Showdance",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Showdance",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "Professional Cabaret",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Grand National Dancesport Championships",
+        "info": "Professional Cabaret Championship  Open Cabaret",
+        "place": "2",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 69.0,
+    "avg_pts": 9.86
+  },
+  {
     "name": "Dombrowik, Douglas and Fox, Angel",
     "results": [
       {
@@ -1338,10 +1380,16 @@
         "info": "Professional Cabaret",
         "place": "4",
         "points": 10.0
+      },
+      {
+        "comp_name": "Hotlanta 2019",
+        "info": "Professional Duel de Cabaret",
+        "place": "6",
+        "points": 7.0
       }
     ],
-    "total_pts": 71.0,
-    "avg_pts": 8.88
+    "total_pts": 78.0,
+    "avg_pts": 8.67
   },
   {
     "name": "Sovetov, Ivan and Mkrtchian, Valeria",
@@ -1373,6 +1421,62 @@
     ],
     "total_pts": 34.0,
     "avg_pts": 8.5
+  },
+  {
+    "name": "Zhukovskyi, Nikita and Boiko, Angelina",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Open Professional Theater Arts/Cabaret",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "Open Professional Cabaret",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "Professional Open Exhibition",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Yankee Classic",
+        "info": "Professional Open Cabaret/Show Dance Championship",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Theatre Arts_Cabaret  Open Cabaret",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Professional Cabaret",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 50.0,
+    "avg_pts": 8.33
+  },
+  {
+    "name": "Artemev, Fedor and Artemeva, Ekaterina",
+    "results": [
+      {
+        "comp_name": "Hotlanta 2019",
+        "info": "Professional Duel de Cabaret",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 8.0,
+    "avg_pts": 8.0
   },
   {
     "name": "Bennett, Kemar and Nicol, Jessica",
@@ -1456,43 +1560,6 @@
     ],
     "total_pts": 31.0,
     "avg_pts": 7.75
-  },
-  {
-    "name": "Zhukovskyi, Nikita and Boiko, Angelina",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "Open Professional Theater Arts/Cabaret",
-        "place": "3",
-        "points": 7.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "Open Professional Cabaret",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "Professional Open Exhibition",
-        "place": "4",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Yankee Classic",
-        "info": "Professional Open Cabaret/Show Dance Championship",
-        "place": "4",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Theatre Arts_Cabaret  Open Cabaret",
-        "place": "6",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 38.0,
-    "avg_pts": 7.6
   },
   {
     "name": "Antonelli, Vincent and Falciano, Stephanie",
@@ -1588,6 +1655,19 @@
       {
         "comp_name": "caopen19",
         "info": "Professional Open Cabaret",
+        "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 7.0,
+    "avg_pts": 7.0
+  },
+  {
+    "name": "Cromwell, Robbie and Trimble, Ruth",
+    "results": [
+      {
+        "comp_name": "Elite Dancesport",
+        "info": "Professional Exhibition_Cabaret  Open Show Dance",
         "place": "3",
         "points": 7.0
       }
@@ -1700,11 +1780,11 @@
     "avg_pts": 7.0
   },
   {
-    "name": "Cromwell, Robbie and Trimble, Ruth",
+    "name": "Nojic, Miljan and Jurenec, Ana",
     "results": [
       {
-        "comp_name": "Elite Dancesport",
-        "info": "Professional Exhibition_Cabaret  Open Show Dance",
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Professional Cabaret",
         "place": "3",
         "points": 7.0
       }
@@ -1724,6 +1804,32 @@
     ],
     "total_pts": 6.0,
     "avg_pts": 6.0
+  },
+  {
+    "name": "Panesi, Maximiliano and Delano, Valentina",
+    "results": [
+      {
+        "comp_name": "Hotlanta 2019",
+        "info": "Professional Duel de Cabaret",
+        "place": "7",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Jackson, Ryan and Parks Johnson, Jaclyn",
+    "results": [
+      {
+        "comp_name": "Hotlanta 2019",
+        "info": "Professional Duel de Cabaret",
+        "place": "9",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 5.0,
+    "avg_pts": 5.0
   },
   {
     "name": "Kantin, Anthony and Ventura, Lisa",
@@ -1776,10 +1882,16 @@
         "info": "Open Theater Arts (TA)",
         "place": "4",
         "points": 7.0
+      },
+      {
+        "comp_name": "Hotlanta 2019",
+        "info": "Professional Duel de Cabaret",
+        "place": "8",
+        "points": 5.0
       }
     ],
-    "total_pts": 14.3,
-    "avg_pts": 4.77
+    "total_pts": 19.3,
+    "avg_pts": 4.83
   },
   {
     "name": "Romero, Alexis and Yang, Yu-Wen",
