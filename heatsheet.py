@@ -1216,10 +1216,15 @@ class HelloFrame(wx.Frame):
                 couple_names = c.partner + " and " +  c.dancer
                 index = self.current_couples.find_couple(couple_names)
             elif attempt == 3:
+                couple_names = c.dancer + " and " + c.partner
                 index = self.current_couples.find_couple_by_dancer(couple_names, last_name_only=True)
             elif attempt == 4:
-                couple_names = c.dancer + " and " + c.partner
                 index = self.current_couples.find_couple_by_partner(couple_names, last_name_only=True)            
+            elif attempt == 5:
+                couple_names = c.partner + " and " + c.dancer
+                index = self.current_couples.find_couple_by_dancer(couple_names, last_name_only=True)
+            elif attempt == 6:
+                index = self.current_couples.find_couple_by_partner(couple_names, last_name_only=True)    
             else:
                 break
         
