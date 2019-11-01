@@ -77,7 +77,7 @@ class NdcaPremHeat(Heat):
                         self.category = "Pro heat"
                     elif "Formation" in self.info:
                         self.category = "Formation"
-                    elif "Team match" in self.info or Team Match in self.info:
+                    elif "Team match" in self.info or "Team Match" in self.info:
                         self.category = "Team match"                    
                     elif "Solo Star" in self.info:
                         self.category = "Heat"
