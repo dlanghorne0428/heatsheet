@@ -179,10 +179,12 @@ class HelloFrame(wx.Frame):
         self.ID_VIEW_MINIPROG_DANCER = 120
         self.ID_VIEW_MINIPROG_COUPLE = 121
         self.ID_VIEW_COMP_PRO_HEATS = 130
-        self.ID_VIEW_COMP_SOLOS = 131
-        self.ID_VIEW_COMP_FORMATIONS = 132
-        self.ID_VIEW_COMP_PROAM_MULTI = 133
-        self.ID_VIEW_COMP_AMAM_MULTI = 134
+        self.ID_VIEW_COMP_PROAM_MULTI = 131
+        self.ID_VIEW_COMP_AMAM_MULTI = 132  
+        self.ID_VIEW_COMP_SOLOS = 133
+        self.ID_VIEW_COMP_FORMATIONS = 134
+        self.ID_VIEW_COMP_TEAM_MATCHES = 135
+     
 
         # Make a file menu with Open, Open URL, Save As, Close, and Exit items
         self.fileMenu = wx.Menu()
@@ -242,6 +244,8 @@ class HelloFrame(wx.Frame):
                                             "View all the solos in this competition.")
         compFormItem = self.viewMenu.Append(self.ID_VIEW_COMP_FORMATIONS, "All Formations in Comp",
                                             "View all the formations in this competition.")
+        teamMatchFormItem = self.viewMenu.Append(self.ID_VIEW_COMP_TEAM_MATCHES, "All Team Matches in Comp",
+                                                "View all the team matches in this competition.")        
     
         
 
@@ -290,6 +294,7 @@ class HelloFrame(wx.Frame):
         self.Bind(wx.EVT_MENU, self.OnCompProHeats, compProItem)
         self.Bind(wx.EVT_MENU, self.OnCompSolos, compSoloItem)
         self.Bind(wx.EVT_MENU, self.OnCompFormations, compFormItem)
+        self.Bind(wx.EVT_MENU, self.OnCompTeamMatches, teamMatchFormItem)
         self.Bind(wx.EVT_MENU, self.OnProAmMultiDances, compProAmItem)
         self.Bind(wx.EVT_MENU, self.OnAmAmMultiDances, compAmAmItem)
         self.Bind(wx.EVT_MENU, self.OnAbout, aboutItem)
@@ -375,6 +380,7 @@ class HelloFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_COMP_PRO_HEATS, False)
         self.viewMenu.Enable(self.ID_VIEW_COMP_SOLOS, False)
         self.viewMenu.Enable(self.ID_VIEW_COMP_FORMATIONS, False)
+        self.viewMenu.Enable(self.ID_VIEW_COMP_TEAM_MATCHES, False)       
         self.viewMenu.Enable(self.ID_VIEW_COMP_PROAM_MULTI, False)
         self.viewMenu.Enable(self.ID_VIEW_COMP_AMAM_MULTI, False)  
         self.folder_name = "./data"
@@ -421,7 +427,10 @@ class HelloFrame(wx.Frame):
             self.heat_cat.Append("Solo")
         if len(self.heatlist.formations) > 0:
             self.viewMenu.Enable(self.ID_VIEW_COMP_FORMATIONS, True)
-            self.heat_cat.Append("Formation")        
+            self.heat_cat.Append("Formation")    
+        if len(self.heatlist.team_matches) > 0:
+            self.viewMenu.Enable(self.ID_VIEW_COMP_TEAM_MATCHES, True)
+            self.heat_cat.Append("Team match")         
         self.viewMenu.Enable(self.ID_VIEW_COMP_PROAM_MULTI, True)
         self.viewMenu.Enable(self.ID_VIEW_COMP_AMAM_MULTI, True)
         self.heat_cat.SetSelection(0)    # default to Heat
@@ -803,8 +812,8 @@ class HelloFrame(wx.Frame):
         # loop through all the heats for this dancer
         for h in heat_list:
             
-            # find all the couples (or dancers if formation) in that heat
-            if h.category == "Formation":
+            # find all the couples (or dancers if formation or team match) in that heat
+            if h.category == "Formation" or h.category == "Team match":
                 competitors = self.heatlist.list_of_dancers_in_heat(h)
             else:
                 competitors = self.heatlist.list_of_couples_in_heat(h, sortby="info")
@@ -960,7 +969,7 @@ class HelloFrame(wx.Frame):
         
     def load_ranking_file_for_heat(self, h):
         folder_name = "./data/" + str(self.curr_date.year) + "/Rankings/" 
-        if h.category == "Solo" or h.category == "Formation":
+        if h.category == "Solo" or h.category == "Formation" or h.category =="Team match":
             return None
         if h.category == "Pro heat":
             folder_name += "Pro"
@@ -1207,10 +1216,15 @@ class HelloFrame(wx.Frame):
                 couple_names = c.partner + " and " +  c.dancer
                 index = self.current_couples.find_couple(couple_names)
             elif attempt == 3:
+                couple_names = c.dancer + " and " + c.partner
                 index = self.current_couples.find_couple_by_dancer(couple_names, last_name_only=True)
             elif attempt == 4:
-                couple_names = c.dancer + " and " + c.partner
                 index = self.current_couples.find_couple_by_partner(couple_names, last_name_only=True)            
+            elif attempt == 5:
+                couple_names = c.partner + " and " + c.dancer
+                index = self.current_couples.find_couple_by_dancer(couple_names, last_name_only=True)
+            elif attempt == 6:
+                index = self.current_couples.find_couple_by_partner(couple_names, last_name_only=True)    
             else:
                 break
         
@@ -1422,6 +1436,13 @@ class HelloFrame(wx.Frame):
         for f in self.heatlist.formations:
             self.list_ctrl.Append(f.info_list())
         self.report_title = "List of Formations"
+        
+    def OnCompTeamMatches(self, event):
+        '''This method generates a list of all the team matches in the competition.'''
+        self.list_ctrl.DeleteAllItems()
+        for tm in self.heatlist.team_matches:
+            self.list_ctrl.Append(tm.info_list())
+        self.report_title = "List of Team Matches"
 
 '''Main program'''
 if __name__ == '__main__':

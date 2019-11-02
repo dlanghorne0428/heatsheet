@@ -213,6 +213,15 @@ class CompMngrHeatlist(Heatlist):
                     dancer.add_heat(form_heat)
                     self.formations.append(form_heat)
                     
+            elif "Team match" in line or "Team Match" in line:
+                if dancer is not None:
+                    # turn that heat info into an object and add it to the couple
+                    team_heat = CompMngrHeat("Team match", line, dancer.name, dancer.code, "")
+                    if team_heat.heat_number > self.max_team_match_num:
+                        self.max_team_match_num = team_heat.heat_number                    
+                    dancer.add_heat(team_heat)
+                    self.team_matches.append(team_heat)            
+                    
             elif "/div" in line:
                 break;
             

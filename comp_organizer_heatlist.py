@@ -54,6 +54,8 @@ class CompOrgHeat(Heat):
                 self.category = "Solo"
             elif category_string == "Formation ":
                 self.category = "Formation"
+            elif category_string == "Team match ":
+                self.category = "Team match"
             elif category_string == "Pro heat ":
                 self.category = "Pro heat"
             try:
@@ -93,6 +95,9 @@ class CompOrgHeat(Heat):
             elif "Formation" in self.info:
                 self.category = "Formation"
                 print("Formation")
+            elif "Team Match" in self.info or "Team match" in self.info:
+                self.category = "Team match"
+                print("Team match")            
             elif "Solo Star" in self.info:
                 self.category = "Heat"
                 print("Solo Star")
@@ -190,6 +195,10 @@ class CompOrgHeatlist(Heatlist):
                     # special processing for formation heats
                     self.formations.append(h)
                     self.max_formation_num = max(h.heat_number, self.max_formation_num)
+                if h.category == "Team match":
+                    # special processing for team match heats
+                    self.team_matches.append(h)
+                    self.max_team_match_num = max(h.heat_number, self.max_team_match_num) 
                 elif h.category == "Solo":
                     # special processing for solo heats
                     if h not in self.solos:

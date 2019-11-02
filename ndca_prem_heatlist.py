@@ -77,6 +77,8 @@ class NdcaPremHeat(Heat):
                         self.category = "Pro heat"
                     elif "Formation" in self.info:
                         self.category = "Formation"
+                    elif "Team match" in self.info or "Team Match" in self.info:
+                        self.category = "Team match"                    
                     elif "Solo Star" in self.info:
                         self.category = "Heat"
                     elif "Solo" in self.info:
@@ -201,6 +203,11 @@ class NdcaPremHeatlist(Heatlist):
                         # special processing for formations
                         self.formations.append(h)
                         self.max_formation_num = max(h.heat_number, self.max_formation_num)
+                    elif h.category == "Team match":
+                        # special processing for team matches
+                        if h not in self.team_matches:
+                            self.team_matches.append(h)
+                            self.max_team_match_num = max(h.heat_number, self.max_team_match_num)                    
                     elif h.category == "Solo":
                         # special processing for solos
                         if h not in self.solos:
@@ -224,7 +231,7 @@ class NdcaPremHeatlist(Heatlist):
                     
                     # save heat object to both the dancer and couple
                     dancer.add_heat(h)
-                    if h.category != "Formation":   
+                    if h.category != "Formation" and h.category != "Team match":   
                         couple.add_heat(h)
 
                 # go to the next row    
@@ -273,7 +280,7 @@ class NdcaPremHeatlist(Heatlist):
                 #print(c)
                 continue
             safe = html.unescape(competitors[c])
-            print(competitors[c], safe)
+            #print(competitors[c], safe)
             d = NdcaPremDancer(safe) # competitors[c])
             #print(d.name, d.code)
             try:
