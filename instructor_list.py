@@ -84,5 +84,5 @@ class Instructor_List():
 if __name__ == '__main__':
     instructors = Instructor_List()
     print(instructors.names)
-    instructors.save_to_file("data\2019\Rankings\professionals.txt")
+    instructors.save_to_file("data/2019/Rankings/professionals.txt")
         
