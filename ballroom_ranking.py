@@ -10,9 +10,10 @@ import wx
 import yattag
 from datetime import date
 
-from season_ranking import RankingDataFile, get_last_name
+from season_ranking import RankingDataFile, get_last_name, get_name
 from comp_results_file import Comp_Results_File
 from heat import dance_style, pro_heat_level
+from instructor_list import Instructor_List
 
 ''' These are the separate dance styles being ranked '''
 Dance_Styles = [
@@ -134,6 +135,9 @@ class AppFrame(wx.Frame):
         
         # default is manual examination for heat results
         self.automation = False
+        
+        # read in the list of instructors
+        self.instructors = Instructor_List()
 
         # set default state of menu items and buttons
         self.PreOpenProcess()
@@ -546,7 +550,7 @@ class AppFrame(wx.Frame):
             alias = [new_name, current_name]
             if alias not in self.aliases:
                 self.aliases.append(alias)
-                print(self.aliases)
+                #print(self.aliases)
         
 
     def Handle_No_Match_Couple(self, entry, result):
@@ -604,8 +608,46 @@ class AppFrame(wx.Frame):
                 new_name = names[db_index]
                 self.current_couples.add_result_to_couple(db_index, result)  
                 self.Update_Couple_Name(entry, db_index, entry["couple"])
-            else: # add the couple to the database
-                self.current_couples.add_couple(entry["couple"], result) 
+            else: 
+                # get instructor (partner) of this couple
+                student_name = get_name(entry["couple"])
+                instructor_name = get_name(entry["couple"], False)
+                # if this is an existing instructor, add the couple
+                if instructor_name in self.instructors.names:
+                    self.current_couples.add_couple(entry["couple"], result) 
+                elif student_name in self.instructors.names:
+                    new_couple = instructor_name + " and " + student_name
+                    self.current_couples.add_couple(new_couple, result)
+                else: 
+                    # ask the user which name is the instructor
+                    message = "Select the instructor."
+                    md = wx.SingleChoiceDialog(self, message, caption="Unknown Instructor", choices=[student_name, instructor_name],
+                                               style=wx.DEFAULT_DIALOG_STYLE | wx.RESIZE_BORDER | wx.OK | wx.CENTRE)
+                    if md.ShowModal() == wx.ID_OK:
+                        if md.GetSelection() == 0:
+                            # swap names
+                            student_name = instructor_name
+                            instructor_name = get_name(entry["couple"])
+                        new_couple = student_name + " and " + instructor_name
+                    
+                    # now look to match the instructor with slightly different spelling of name
+                    message = "Search the list of instructors for " + instructor_name + \
+                        ".\n\nSelect the matching name and Press OK. If no match, Press Cancel."
+                    md = wx.SingleChoiceDialog(self, message, caption="Match the instructor's name", choices=self.instructors.names)
+                    if md.ShowModal() == wx.ID_OK:
+                        # if user finds a match, change instructor name, and add the result
+                        db_index = md.GetSelection()
+                        new_name = self.instructors.names[db_index]
+                        new_couple = student_name + " and " + new_name
+                        alias = [entry["couple"], new_couple]
+                        if alias not in self.aliases:
+                            self.aliases.append(alias)                        
+                        self.current_couples.add_couple(new_couple, result)
+                    else:
+                        # new instructor, add the result, and add the instructor
+                        self.current_couples.add_couple(new_couple, result)
+                        self.instructors.names.append(instructor_name)
+                        self.instructors.names.sort()
                 
         # re-sort by ranking
         self.current_couples.sort_couples(key1="avg_pts", key2="total_pts", reverse=True)
@@ -964,6 +1006,7 @@ class AppFrame(wx.Frame):
         self.nightclub_couples.save()
         self.country_couples.save()
         self.showdance_couples.save()  
+        self.instructors.save_to_file("data/2019/Rankings/professionals.txt")
         self.unsaved_updates = False
 
 
