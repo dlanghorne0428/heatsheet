@@ -146,10 +146,16 @@
         "info": "Professional Cabaret Championship  Open Cabaret",
         "place": "1",
         "points": 15.0
+      },
+      {
+        "comp_name": "Hollywood Dancesport",
+        "info": "Professional Open Cabaret",
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 408.0,
-    "avg_pts": 18.55
+    "total_pts": 428.0,
+    "avg_pts": 18.61
   },
   {
     "name": "Fumagalli, Davide and Macaluso, Debora",
@@ -314,10 +320,16 @@
         "info": "Professional Cabaret",
         "place": "1",
         "points": 20.0
+      },
+      {
+        "comp_name": "Hollywood Dancesport",
+        "info": "Professional Open Cabaret",
+        "place": "2",
+        "points": 16.0
       }
     ],
-    "total_pts": 108.5,
-    "avg_pts": 15.5
+    "total_pts": 124.5,
+    "avg_pts": 15.56
   },
   {
     "name": "Sargsyan, Arsen and Gjonikaj, Xhesika",
@@ -361,55 +373,6 @@
     ],
     "total_pts": 92.0,
     "avg_pts": 15.33
-  },
-  {
-    "name": "Batih, Nazar and Cantley, Mariko",
-    "results": [
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "Professional Open Cabaret",
-        "place": "1",
-        "points": 18.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Professional Open Exhibition",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "The Windy City Open",
-        "info": "Professional Open Cabaret",
-        "place": "1",
-        "points": 18.0
-      },
-      {
-        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
-        "info": "Open",
-        "place": "2",
-        "points": 13
-      },
-      {
-        "comp_name": "2019 First Coast Classic",
-        "info": "'Sound of Silence'",
-        "place": "1",
-        "points": 18.0
-      },
-      {
-        "comp_name": "Boca Ballroom Dancesport Competition",
-        "info": "Open Professional Cabaret",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "Professional Showdance",
-        "place": "3",
-        "points": 13.0
-      }
-    ],
-    "total_pts": 107.0,
-    "avg_pts": 15.29
   },
   {
     "name": "Ballard, Vincent and Perez, Tania",
@@ -486,6 +449,128 @@
     "avg_pts": 14.89
   },
   {
+    "name": "Batih, Nazar and Cantley, Mariko",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "Professional Open Cabaret",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Professional Open Exhibition",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "The Windy City Open",
+        "info": "Professional Open Cabaret",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "The Ball at the San Francisco Open Dancesport Championships",
+        "info": "Open",
+        "place": "2",
+        "points": 13
+      },
+      {
+        "comp_name": "2019 First Coast Classic",
+        "info": "'Sound of Silence'",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "Boca Ballroom Dancesport Competition",
+        "info": "Open Professional Cabaret",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "Professional Showdance",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Commonwealth Classic",
+        "info": "Professional Cabaret",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 119.0,
+    "avg_pts": 14.88
+  },
+  {
+    "name": "Azarov, Mykhailo and Makarenko, Tetyana",
+    "results": [
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Professional Open Exhibition",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "EUSDC Professional Open Cabaret",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Open Professional Theater Arts/Cabaret",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "2019 Tri-State DanceSport Championships",
+        "info": "Open Professional Cabaret",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "Professional Open Exhibition",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Crown Jewel of Dancesport",
+        "info": "Pro Rising Star - Theatre Arts Championship",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Professional Theatre Arts_Cabaret  Open Cabaret",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Florida State DanceSport Championships",
+        "info": "Mary Gill Pro Showdance",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Florida State DanceSport Championships",
+        "info": "Pro Open  Theatre Arts Championship",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Hotlanta 2019",
+        "info": "Professional Duel de Cabaret",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 147.0,
+    "avg_pts": 14.7
+  },
+  {
     "name": "Smith, Craig and Harvey, Andrea",
     "results": [
       {
@@ -559,77 +644,16 @@
         "info": "Professional Exhibition_Cabaret  Open Show Dance",
         "place": "1",
         "points": 18.0
+      },
+      {
+        "comp_name": "Hollywood Dancesport",
+        "info": "Professional Open Cabaret",
+        "place": "3",
+        "points": 13.0
       }
     ],
-    "total_pts": 178.0,
-    "avg_pts": 14.83
-  },
-  {
-    "name": "Azarov, Mykhailo and Makarenko, Tetyana",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Professional Open Exhibition",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "EUSDC Professional Open Cabaret",
-        "place": "1",
-        "points": 18.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "Open Professional Theater Arts/Cabaret",
-        "place": "1",
-        "points": 18.0
-      },
-      {
-        "comp_name": "2019 Tri-State DanceSport Championships",
-        "info": "Open Professional Cabaret",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "Professional Open Exhibition",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "Crown Jewel of Dancesport",
-        "info": "Pro Rising Star - Theatre Arts Championship",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Professional Theatre Arts_Cabaret  Open Cabaret",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Florida State DanceSport Championships",
-        "info": "Mary Gill Pro Showdance",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Florida State DanceSport Championships",
-        "info": "Pro Open  Theatre Arts Championship",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Hotlanta 2019",
-        "info": "Professional Duel de Cabaret",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 147.0,
-    "avg_pts": 14.7
+    "total_pts": 191.0,
+    "avg_pts": 14.69
   },
   {
     "name": "Black, Jamie and Elliott, Samantha",
@@ -925,19 +949,6 @@
     "avg_pts": 12.0
   },
   {
-    "name": "Silantev, Anton and Akopova, Olga",
-    "results": [
-      {
-        "comp_name": "Galaxy Dance Festival",
-        "info": "Professional Cabaret",
-        "place": "2",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 12.0,
-    "avg_pts": 12.0
-  },
-  {
     "name": "Haklin, Nick and Ford, Sarah",
     "results": [
       {
@@ -978,6 +989,25 @@
       }
     ],
     "total_pts": 66.0,
+    "avg_pts": 11.0
+  },
+  {
+    "name": "Silantev, Anton and Akopova, Olga",
+    "results": [
+      {
+        "comp_name": "Galaxy Dance Festival",
+        "info": "Professional Cabaret",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Hollywood Dancesport",
+        "info": "Professional Open Cabaret",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 22.0,
     "avg_pts": 11.0
   },
   {
@@ -1562,6 +1592,25 @@
     "avg_pts": 7.75
   },
   {
+    "name": "Brouwer, Nathan and Weiner, Dena Anne",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "Professional Open Cabaret",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Hollywood Dancesport",
+        "info": "Professional Open Cabaret",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 7.5
+  },
+  {
     "name": "Antonelli, Vincent and Falciano, Stephanie",
     "results": [
       {
@@ -1650,19 +1699,6 @@
     "avg_pts": 7.0
   },
   {
-    "name": "Brouwer, Nathan and Weiner, Dena Anne",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "Professional Open Cabaret",
-        "place": "3",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 7.0,
-    "avg_pts": 7.0
-  },
-  {
     "name": "Cromwell, Robbie and Trimble, Ruth",
     "results": [
       {
@@ -1728,6 +1764,19 @@
     "avg_pts": 7.0
   },
   {
+    "name": "Nojic, Miljan and Jurenec, Ana",
+    "results": [
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "Professional Cabaret",
+        "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 7.0,
+    "avg_pts": 7.0
+  },
+  {
     "name": "Radon, Tommy and Palmiter, Kelly",
     "results": [
       {
@@ -1773,19 +1822,6 @@
         "comp_name": "Florida State DanceSport Championships",
         "info": "Mary Gill Pro Showdance",
         "place": "2",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 7.0,
-    "avg_pts": 7.0
-  },
-  {
-    "name": "Nojic, Miljan and Jurenec, Ana",
-    "results": [
-      {
-        "comp_name": "Paragon Open DanceSport Championships",
-        "info": "Professional Cabaret",
-        "place": "3",
         "points": 7.0
       }
     ],
