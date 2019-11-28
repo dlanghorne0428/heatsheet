@@ -305,15 +305,16 @@ class Results_Processor():
                                         print(e.heat_number, "- Same name - skipping:", e.dancer, e.partner, e.result, couple_names)
                             
                         else:    # this code runs when competitor not found in heat
-                            late_entry = heat_report.build_late_entry(entry)
-                            late_entry.shirt_number = self.get_shirt_number(current_competitor)
-                            couple_names = self.get_couple_names(current_competitor)
-                            late_entry.dancer = couple_names[0] 
-                            late_entry.partner = couple_names[1]
-                            late_entry.result = result_place
-                            late_entry.info = heat_info_from_scoresheet
-                            late_entry.code = "LATE"                            
-                            heat_report.append(late_entry)
+                            if len(couple_names) > 1:
+                                late_entry = heat_report.build_late_entry(entry)
+                                late_entry.shirt_number = self.get_shirt_number(current_competitor)
+                                couple_names = self.get_couple_names(current_competitor)
+                                late_entry.dancer = couple_names[0] 
+                                late_entry.partner = couple_names[1]
+                                late_entry.result = result_place
+                                late_entry.info = heat_info_from_scoresheet
+                                late_entry.code = "LATE"                            
+                                heat_report.append(late_entry)
                         
                         # reset for next line of the scoresheet    
                         count = 0
@@ -352,7 +353,7 @@ class Results_Processor():
                 looking_for_recall_column = True  # enter the next state
                     
             # If this check is true, we found quarter-final results for this heat
-            elif heat_string in line and "Quarter-final" in line and ("<p>" in line or "<h3>" in line):
+            elif heat_string in line and "QUARTER-FINAL" in line.upper() and ("<p>" in line or "<h3>" in line):
                 temp_result = "quarters"    # indicate which round we are in
                 result_index = -1      # use this to pull values from the points table
                 # if we haven't seen a prelim round, set rounds indicator to quarters
@@ -362,7 +363,7 @@ class Results_Processor():
                 looking_for_recall_column = True  # enter the next state
                 
             # If this check is true, we found Semi-final results for this heat            
-            elif heat_string in line and "Semi-final" in line and ("<p>" in line or "<h3>" in line):
+            elif heat_string in line and "SEMI-FINAL" in line.upper() and ("<p>" in line or "<h3>" in line):
                 temp_result = "Semis"
                 result_index = -2
                 if rounds == "F":
