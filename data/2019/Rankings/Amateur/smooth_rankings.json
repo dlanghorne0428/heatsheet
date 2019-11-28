@@ -225,19 +225,6 @@
     "avg_pts": 19.5
   },
   {
-    "name": "Datoc, Antoinette and Datoc, Pat",
-    "results": [
-      {
-        "comp_name": "atlopen19",
-        "info": "AC- Amateur Open Championship Smooth (W/T/FT/VW)",
-        "place": "1",
-        "points": 18.0
-      }
-    ],
-    "total_pts": 18.0,
-    "avg_pts": 18.0
-  },
-  {
     "name": "Lai, Daniel and Wu, Lisa",
     "results": [
       {
@@ -262,37 +249,6 @@
     ],
     "total_pts": 18.0,
     "avg_pts": 18.0
-  },
-  {
-    "name": "Torres, Steve and Barron, Nicole",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-A Open American Smooth Championships (W/T/F/VW)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "AC-A Open Smooth Championship (W/T/F/VW)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "6",
-        "points": 14.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Adult American Championships  AD Amer. Smooth Championship (W,T,F,VW)",
-        "place": "3",
-        "points": 13.0
-      }
-    ],
-    "total_pts": 69.0,
-    "avg_pts": 17.25
   },
   {
     "name": "Lalicker, Hayden and Borcea, Jacquelyn",
@@ -437,10 +393,16 @@
         "info": "Amateur Open 4-5 Dance Events YH Amer. Smooth (W,T,F,VW)",
         "place": "1",
         "points": 15.0
+      },
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-YA Junior Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "1",
+        "points": 15.0
       }
     ],
-    "total_pts": 190.0,
-    "avg_pts": 15.83
+    "total_pts": 205.0,
+    "avg_pts": 15.77
   },
   {
     "name": "Janik, Wes and Janik, Jem",
@@ -468,6 +430,43 @@
     "avg_pts": 15.25
   },
   {
+    "name": "Torres, Steve and Barron, Nicole",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-A Open American Smooth Championships (W/T/F/VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-A Open Smooth Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "6",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult American Championships  AD Amer. Smooth Championship (W,T,F,VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-A Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "5",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 75.0,
+    "avg_pts": 15.0
+  },
+  {
     "name": "Lynch, Mike and Lynch, Rose-Ann",
     "results": [
       {
@@ -487,9 +486,47 @@
         "info": "AC-C American Smooth Open Championship (W/T/F/VW)",
         "place": "1",
         "points": 15.0
+      },
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-C Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "1",
+        "points": 15.0
       }
     ],
-    "total_pts": 45.0,
+    "total_pts": 60.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Datoc, Antoinette and Datoc, Pat",
+    "results": [
+      {
+        "comp_name": "atlopen19",
+        "info": "AC- Amateur Open Championship Smooth (W/T/FT/VW)",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-C Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 30.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Beach, Logan and Wright, Melina",
+    "results": [
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-A Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
     "avg_pts": 15.0
   },
   {
@@ -623,10 +660,16 @@
         "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
         "place": "4",
         "points": 10.0
+      },
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-A Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "2",
+        "points": 12.0
       }
     ],
-    "total_pts": 220.25,
-    "avg_pts": 14.68
+    "total_pts": 232.25,
+    "avg_pts": 14.52
   },
   {
     "name": "Bankhead, Porter and McAllister, Ashlyn",
@@ -1377,74 +1420,6 @@
     "avg_pts": 11.88
   },
   {
-    "name": "Morris, Connor and Morris, Abby",
-    "results": [
-      {
-        "comp_name": "2019 Alamo Star Ball",
-        "info": "AC-JR Open Pro Am American Smooth 3 Dance Championship(W/T/F)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Sapphire DanceSport",
-        "info": "AC-YTH Open Bronze Smooth Three-Dance (W/T/F)",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "Sapphire DanceSport",
-        "info": "AC-YTH Open Silver Smooth Four-Dance (W/T/F/VW)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Heart of America DanceSport Championships",
-        "info": "AC-Y Open Amateur Smooth Championship (W/T/FT/VW)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 47.25,
-    "avg_pts": 11.81
-  },
-  {
-    "name": "Woyak, Daniel and Ly, Monica",
-    "results": [
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "AC-A Open Smooth Championship (W/T/F/VW)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW) Quarter-final",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Adult American Championships  AD Amer. Smooth Championship (W,T,F,VW)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "The DBDC 2019",
-        "info": "AC-AD Open American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 57.0,
-    "avg_pts": 11.4
-  },
-  {
     "name": "Dango, Paul and Dango, Nancy",
     "results": [
       {
@@ -1510,6 +1485,19 @@
       }
     ],
     "total_pts": 45.0,
+    "avg_pts": 11.25
+  },
+  {
+    "name": "Hurst, C.J. and Hurst, Lorie",
+    "results": [
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-B Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 11.25,
     "avg_pts": 11.25
   },
   {
@@ -1681,25 +1669,6 @@
     "avg_pts": 11.0
   },
   {
-    "name": "DePuy, Devin and DePuy, Lois",
-    "results": [
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Adult American Championships  AD Amer. Smooth Championship (W,T,F,VW)",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Paragon Open DanceSport Championships",
-        "info": "AC-C Pargon Open American Smooth Championship (W/T/F/VW)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 22.0,
-    "avg_pts": 11.0
-  },
-  {
     "name": "Baker, Bronson and Haslam, Jiaxin",
     "results": [
       {
@@ -1725,10 +1694,53 @@
         "info": "AC-Y Amateur American Smooth Championship (W/T/F/VW)",
         "place": "2",
         "points": 16.0
+      },
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-YA Junior Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "2",
+        "points": 10.5
       }
     ],
-    "total_pts": 42.25,
-    "avg_pts": 10.56
+    "total_pts": 52.75,
+    "avg_pts": 10.55
+  },
+  {
+    "name": "Morris, Connor and Morris, Abby",
+    "results": [
+      {
+        "comp_name": "2019 Alamo Star Ball",
+        "info": "AC-JR Open Pro Am American Smooth 3 Dance Championship(W/T/F)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Sapphire DanceSport",
+        "info": "AC-YTH Open Bronze Smooth Three-Dance (W/T/F)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "Sapphire DanceSport",
+        "info": "AC-YTH Open Silver Smooth Four-Dance (W/T/F/VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Heart of America DanceSport Championships",
+        "info": "AC-Y Open Amateur Smooth Championship (W/T/FT/VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-YA Junior Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "4",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 52.5,
+    "avg_pts": 10.5
   },
   {
     "name": "Abaya, Brandon and Abaya, Ella",
@@ -1807,23 +1819,47 @@
     "avg_pts": 10.5
   },
   {
-    "name": "Miller, Don and Miller, Joan",
+    "name": "Woyak, Daniel and Ly, Monica",
     "results": [
       {
-        "comp_name": "The Snow Ball",
-        "info": "AC- 'S3' Adult Amateur Open Smooth MDC (W/T/F/VW)",
-        "place": "1",
-        "points": 12.0
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-A Open Smooth Championship (W/T/F/VW)",
+        "place": "2",
+        "points": 24.0
       },
       {
-        "comp_name": "The Snow Ball",
-        "info": "AC- 'S3' Adult Amateur PreChampionship Smooth MDC (W/T/F/VW)",
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW) Quarter-final",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult American Championships  AD Amer. Smooth Championship (W,T,F,VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "AC-AD Open American Smooth (W/T/F/VW)",
         "place": "1",
-        "points": 9.0
+        "points": 15.0
+      },
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-A Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "6",
+        "points": 5.25
       }
     ],
-    "total_pts": 21.0,
-    "avg_pts": 10.5
+    "total_pts": 62.25,
+    "avg_pts": 10.38
   },
   {
     "name": "Keck, David and Cole, Arynne",
@@ -2037,6 +2073,19 @@
     "avg_pts": 9.75
   },
   {
+    "name": "Ziecik, Michael and Liang, Cherie",
+    "results": [
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-C Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "3",
+        "points": 9.75
+      }
+    ],
+    "total_pts": 9.75,
+    "avg_pts": 9.75
+  },
+  {
     "name": "Rogers, Edward and Rogers, Trisha",
     "results": [
       {
@@ -2199,46 +2248,28 @@
     "avg_pts": 9.5
   },
   {
-    "name": "Chiou, Justin and Bundus, Hannah",
+    "name": "DePuy, Devin and DePuy, Lois",
     "results": [
       {
-        "comp_name": "NYDF 2019",
-        "info": "AC-A American Smooth Pre-Championship (W/T/F/VW)",
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult American Championships  AD Amer. Smooth Championship (W,T,F,VW)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "AC-C Pargon Open American Smooth Championship (W/T/F/VW)",
         "place": "1",
         "points": 15.0
       },
       {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW) Quarter-final",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Cincinnati Ballroom Classic",
-        "info": "AC-A1 Am/Am American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Cleveland Dancesport Challenge",
-        "info": "AC-A Amateur Pre Champ Open Smooth (W/T/FT/VW)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Cleveland Dancesport Challenge",
-        "info": "AC-A Amateur Open Smooth (W/T/FT/VW)",
-        "place": "1",
-        "points": 12.0
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-C Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "5",
+        "points": 6.0
       }
     ],
-    "total_pts": 56.0,
+    "total_pts": 28.0,
     "avg_pts": 9.33
   },
   {
@@ -2546,6 +2577,55 @@
     ],
     "total_pts": 36.7,
     "avg_pts": 9.18
+  },
+  {
+    "name": "Chiou, Justin and Bundus, Hannah",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-A American Smooth Pre-Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW) Quarter-final",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Cincinnati Ballroom Classic",
+        "info": "AC-A1 Am/Am American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "AC-A Amateur Pre Champ Open Smooth (W/T/FT/VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "AC-A Amateur Open Smooth (W/T/FT/VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-A Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "4",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 63.5,
+    "avg_pts": 9.07
   },
   {
     "name": "Caralis, Barb and Caralis, Jim",
@@ -2870,6 +2950,50 @@
     "avg_pts": 8.88
   },
   {
+    "name": "Miller, Don and Miller, Joan",
+    "results": [
+      {
+        "comp_name": "The Snow Ball",
+        "info": "AC- 'S3' Adult Amateur Open Smooth MDC (W/T/F/VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "The Snow Ball",
+        "info": "AC- 'S3' Adult Amateur PreChampionship Smooth MDC (W/T/F/VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-C Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "6",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 26.25,
+    "avg_pts": 8.75
+  },
+  {
+    "name": "Maier, Benson and Thompson, Elisabeth",
+    "results": [
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-YA Junior Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-A Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "3",
+        "points": 9.75
+      }
+    ],
+    "total_pts": 17.25,
+    "avg_pts": 8.62
+  },
+  {
     "name": "Santoro, Sam and Zutter, Mary",
     "results": [
       {
@@ -2992,6 +3116,31 @@
     ],
     "total_pts": 16.5,
     "avg_pts": 8.25
+  },
+  {
+    "name": "Li, Jungchi and Lingling, Chiang",
+    "results": [
+      {
+        "comp_name": "Hollywood Dancesport",
+        "info": "AC-SRIII Novice American Smooth (W/T)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Hollywood Dancesport",
+        "info": "AC-SRIII Pre-Champ American Smooth (W/T/F)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Hollywood Dancesport",
+        "info": "AC-SRIII American Smooth Open Championship(W/T/F/VW)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 24.0,
+    "avg_pts": 8.0
   },
   {
     "name": "McOmber, Sterling and Ascione, Lexi",
@@ -3177,6 +3326,19 @@
     "avg_pts": 7.5
   },
   {
+    "name": "Arnold, Clifford and Gast, Cynthia",
+    "results": [
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-C Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "4",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
+  },
+  {
     "name": "Easton, George and Easton, Audrey",
     "results": [
       {
@@ -3266,37 +3428,6 @@
     ],
     "total_pts": 7.5,
     "avg_pts": 7.5
-  },
-  {
-    "name": "Eldridge, Paul and Howard, Debra",
-    "results": [
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-B Novice American Smooth (W/T)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-B Novice American Smooth (F/VW)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-B Pre-Champ Amateur American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-B Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 29.25,
-    "avg_pts": 7.31
   },
   {
     "name": "Stockdale, Amber and Stockdale, Uriah",
@@ -3494,6 +3625,43 @@
     "avg_pts": 7.0
   },
   {
+    "name": "Eldridge, Paul and Howard, Debra",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-B Novice American Smooth (W/T)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-B Novice American Smooth (F/VW)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-B Pre-Champ Amateur American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-B Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-C Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "7",
+        "points": 4.5
+      }
+    ],
+    "total_pts": 33.75,
+    "avg_pts": 6.75
+  },
+  {
     "name": "Brooks, Jason and Tribble, Audrey",
     "results": [
       {
@@ -3634,6 +3802,25 @@
     ],
     "total_pts": 66.0,
     "avg_pts": 6.6
+  },
+  {
+    "name": "Chen, Sean and Gong, Mengsha",
+    "results": [
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Amateur Open A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "Semis",
+        "points": 0.9
+      },
+      {
+        "comp_name": "Hollywood Dancesport",
+        "info": "AC-A American Smooth Open Championship(W/T/F/VW)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.9,
+    "avg_pts": 6.45
   },
   {
     "name": "Rodriguez, Ramon and Glassberg, Heather",
@@ -3893,6 +4080,25 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Richards, Charles and Richards, Jessica",
+    "results": [
+      {
+        "comp_name": "Grand National Dancesport Championships",
+        "info": "Amateur Adult Novice 2-Dance Events AD Amer. Smooth (W,T)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Grand National Dancesport Championships",
+        "info": "Amateur Adult Rising Star 3-Dance Events AD Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Small, David and Small, Eleanor",
     "results": [
       {
@@ -3944,25 +4150,6 @@
         "info": "AC-PT2 Amateur Closed Bronze Smooth 3-Dance Championship (W/T/FT)",
         "place": "1",
         "points": 6.0
-      }
-    ],
-    "total_pts": 12.0,
-    "avg_pts": 6.0
-  },
-  {
-    "name": "Richards, Charles and Richards, Jessica",
-    "results": [
-      {
-        "comp_name": "Grand National Dancesport Championships",
-        "info": "Amateur Adult Novice 2-Dance Events AD Amer. Smooth (W,T)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Grand National Dancesport Championships",
-        "info": "Amateur Adult Rising Star 3-Dance Events AD Amer. Smooth (W,T,F)",
-        "place": "1",
-        "points": 9.0
       }
     ],
     "total_pts": 12.0,
@@ -4177,6 +4364,19 @@
     "avg_pts": 6.0
   },
   {
+    "name": "McBride, Jim and Jung-McBride, Jean",
+    "results": [
+      {
+        "comp_name": "North American Imperial Star Ball",
+        "info": "AC-S3 Closed Bronze Smooth 2-Dance (W/T)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Michielini, James and Varanese, Lauren",
     "results": [
       {
@@ -4339,6 +4539,55 @@
     "avg_pts": 5.75
   },
   {
+    "name": "Slaughter, Ann and Slaughter, Tom",
+    "results": [
+      {
+        "comp_name": "Music City Invitational",
+        "info": "AC-C1 Closed Bronze 2 Dance Smooth (W/T)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Music City Invitational",
+        "info": "AC-C1 Closed Bronze 3 Dance Smooth (W/T/FT)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Nebraska Dance Festival",
+        "info": "AC-B Newcomer Smooth 3 Dance (W/T/FT)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Nebraska Dance Festival",
+        "info": "AC-SR1 Closed Bronze Smooth 3 Dance (W/T/FT)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Nebraska Dance Festival",
+        "info": "AC-C Closed Bronze Smooth 3 Dance (W/T/FT)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "North American Imperial Star Ball",
+        "info": "AC-C Closed Bronze Smooth 3-Dance (W/T/F)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "North American Imperial Star Ball",
+        "info": "AC-SR Closed Bronze Smooth 3-Dance (W/T/F)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 39.0,
+    "avg_pts": 5.57
+  },
+  {
     "name": "Fisher, Talan and Brunson, Zara",
     "results": [
       {
@@ -4399,43 +4648,6 @@
     ],
     "total_pts": 11.0,
     "avg_pts": 5.5
-  },
-  {
-    "name": "Slaughter, Ann and Slaughter, Tom",
-    "results": [
-      {
-        "comp_name": "Music City Invitational",
-        "info": "AC-C1 Closed Bronze 2 Dance Smooth (W/T)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Music City Invitational",
-        "info": "AC-C1 Closed Bronze 3 Dance Smooth (W/T/FT)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Nebraska Dance Festival",
-        "info": "AC-B Newcomer Smooth 3 Dance (W/T/FT)",
-        "place": "1",
-        "points": 3.0
-      },
-      {
-        "comp_name": "Nebraska Dance Festival",
-        "info": "AC-SR1 Closed Bronze Smooth 3 Dance (W/T/FT)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Nebraska Dance Festival",
-        "info": "AC-C Closed Bronze Smooth 3 Dance (W/T/FT)",
-        "place": "1",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 27.0,
-    "avg_pts": 5.4
   },
   {
     "name": "Whittum, Terry and Jordan, Patti",
@@ -4521,6 +4733,19 @@
     "avg_pts": 5.25
   },
   {
+    "name": "Middleton, Charles and Middleton, Wendy",
+    "results": [
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-B Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "2",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 5.25,
+    "avg_pts": 5.25
+  },
+  {
     "name": "Busche, Michael and Chatterjee, Fiona",
     "results": [
       {
@@ -4568,6 +4793,31 @@
     ],
     "total_pts": 36.0,
     "avg_pts": 5.14
+  },
+  {
+    "name": "Martinez, Louie and Van Halen, Janie",
+    "results": [
+      {
+        "comp_name": "Hollywood Dancesport",
+        "info": "AC-SRII Bronze Closed American Smooth 2 Dance Championship (W/T)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Hollywood Dancesport",
+        "info": "AC-SRII Novice American Smooth (W/T)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Hollywood Dancesport",
+        "info": "AC-SRII Bronze Closed American Smooth 3 Dance Championship (W/T/FT)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 5.0
   },
   {
     "name": "Mower, William and Raab, Suzanne",
@@ -4844,6 +5094,19 @@
       }
     ],
     "total_pts": 7.5,
+    "avg_pts": 3.75
+  },
+  {
+    "name": "Mahovsky, Ronald and Hetherington, Denise",
+    "results": [
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-C Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "8",
+        "points": 3.75
+      }
+    ],
+    "total_pts": 3.75,
     "avg_pts": 3.75
   },
   {
@@ -5252,6 +5515,19 @@
     "avg_pts": 3.0
   },
   {
+    "name": "Axilrod, Peter and Axilrod, Sandra",
+    "results": [
+      {
+        "comp_name": "Caribbean Dancesport Classic",
+        "info": "AC-S2 Novice American Smooth (W/T/F)",
+        "place": "1",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
+  },
+  {
     "name": "Bambic, Michael and Bambic, Victoria",
     "results": [
       {
@@ -5570,19 +5846,6 @@
     ],
     "total_pts": 1.2,
     "avg_pts": 1.2
-  },
-  {
-    "name": "Chen, Sean and Gong, Mengsha",
-    "results": [
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Amateur Open A Amer. Smooth Championship (W,T,F,VW)",
-        "place": "Semis",
-        "points": 0.9
-      }
-    ],
-    "total_pts": 0.9,
-    "avg_pts": 0.9
   },
   {
     "name": "Espiritu, Joseph and Podzikowski, Kelani",
