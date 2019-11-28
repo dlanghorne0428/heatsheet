@@ -12,7 +12,7 @@ from datetime import date
 
 from season_ranking import RankingDataFile, get_last_name, get_name
 from comp_results_file import Comp_Results_File
-from heat import dance_style, pro_heat_level
+from heat import dance_style, pro_heat_level, is_amateur_heat
 from instructor_list import Instructor_List
 
 ''' These are the separate dance styles being ranked '''
@@ -281,6 +281,7 @@ class AppFrame(wx.Frame):
         # populate the database category control
         self.db_cat.Enable()
         self.SetDatabaseControl(Ranking_Databases)      
+        self.db_category = Ranking_Databases[0]
         # set the state of the menu items
         self.fileMenu.Enable(wx.ID_OPEN, False)
         self.fileMenu.Enable(wx.ID_SAVE, True)
@@ -450,7 +451,7 @@ class AppFrame(wx.Frame):
         listCtrl on that item.
         '''
         self.list_ctrl.Select(index, select)
-        if focus:
+        if focus and index > -1:
             self.list_ctrl.Focus(index)        
 
 
@@ -608,7 +609,7 @@ class AppFrame(wx.Frame):
                 new_name = names[db_index]
                 self.current_couples.add_result_to_couple(db_index, result)  
                 self.Update_Couple_Name(entry, db_index, entry["couple"])
-            else: 
+            elif self.db_category == "Pro-Am":
                 # get instructor (partner) of this couple
                 student_name = get_name(entry["couple"])
                 instructor_name = get_name(entry["couple"], False)
@@ -648,6 +649,8 @@ class AppFrame(wx.Frame):
                         self.current_couples.add_couple(new_couple, result)
                         self.instructors.names.append(instructor_name)
                         self.instructors.names.sort()
+            else:
+                self.current_couples.add_couple(entry["couple"], result)
                 
         # re-sort by ranking
         self.current_couples.sort_couples(key1="avg_pts", key2="total_pts", reverse=True)
