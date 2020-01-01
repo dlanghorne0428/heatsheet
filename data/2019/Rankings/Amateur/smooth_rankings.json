@@ -32,31 +32,6 @@
     "avg_pts": 26.0
   },
   {
-    "name": "McShinsky, Robert and Keck, Serena",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
-        "place": "2",
-        "points": 28.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "3",
-        "points": 26.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "3",
-        "points": 13.0
-      }
-    ],
-    "total_pts": 67.0,
-    "avg_pts": 22.33
-  },
-  {
     "name": "Keck, Brandon and Keck, Serena",
     "results": [
       {
@@ -112,10 +87,41 @@
         "info": "Open Amateur Scholarship A Amer. Smooth (W,T,F,VW)",
         "place": "1",
         "points": 22.5
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 40.0
       }
     ],
-    "total_pts": 189.5,
-    "avg_pts": 21.06
+    "total_pts": 229.5,
+    "avg_pts": 22.95
+  },
+  {
+    "name": "McShinsky, Robert and Keck, Serena",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
+        "place": "2",
+        "points": 28.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "3",
+        "points": 26.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 67.0,
+    "avg_pts": 22.33
   },
   {
     "name": "Butler, Nate and Reni, Gioia",
@@ -225,6 +231,62 @@
     "avg_pts": 19.5
   },
   {
+    "name": "Stevenson, Nathan and Harding, Rachel",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "5",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Millennium Dancesport",
+        "info": "AC-A Amateur Open American Smooth Championship(W/T/F/VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Amateur Open A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "3",
+        "points": 26.0
+      }
+    ],
+    "total_pts": 110.0,
+    "avg_pts": 18.33
+  },
+  {
+    "name": "Cowpland and Shelkovvy",
+    "results": [
+      {
+        "comp_name": "2019 Yuletide Ball ",
+        "info": "L- Gold DFTC American Smooth Championship (W/T/F)",
+        "place": "1",
+        "points": 18.0
+      }
+    ],
+    "total_pts": 18.0,
+    "avg_pts": 18.0
+  },
+  {
     "name": "Lai, Daniel and Wu, Lisa",
     "results": [
       {
@@ -268,56 +330,6 @@
     ],
     "total_pts": 34.0,
     "avg_pts": 17.0
-  },
-  {
-    "name": "Stevenson, Nathan and Harding, Rachel",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "5",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Millennium Dancesport",
-        "info": "AC-A Amateur Open American Smooth Championship(W/T/F/VW)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-A Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Amateur Open A Amer. Smooth Championship (W,T,F,VW)",
-        "place": "3",
-        "points": 19.5
-      }
-    ],
-    "total_pts": 84.0,
-    "avg_pts": 16.8
-  },
-  {
-    "name": "Bartlett, James and Jane, Catherine",
-    "results": [
-      {
-        "comp_name": "Majesty Dancesport",
-        "info": "AC-A Open Smooth 3-Dance Challenge (W/T/F)",
-        "place": "2",
-        "points": 16.0
-      }
-    ],
-    "total_pts": 16.0,
-    "avg_pts": 16.0
   },
   {
     "name": "Fox, Blake and Ascione, Nicole",
@@ -399,10 +411,73 @@
         "info": "AC-YA Junior Amateur American Smooth 4-Dance (W/T/FT/VW)",
         "place": "1",
         "points": 15.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "5",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-Y Junior American Smooth Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 205.0,
-    "avg_pts": 15.77
+    "total_pts": 241.0,
+    "avg_pts": 16.07
+  },
+  {
+    "name": "Davis, Derrick and Munson, Peyton",
+    "results": [
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Amateur Open A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "4",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 32.0,
+    "avg_pts": 16.0
+  },
+  {
+    "name": "Bartlett, James and Jane, Catherine",
+    "results": [
+      {
+        "comp_name": "Majesty Dancesport",
+        "info": "AC-A Open Smooth 3-Dance Challenge (W/T/F)",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 16.0,
+    "avg_pts": 16.0
+  },
+  {
+    "name": "Ford, Parley and Jolley, Natalie",
+    "results": [
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-J2 Junior Pre-Champ American Smooth (W/T/F)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-J2 Junior American Smooth Championship (W/T/F/VW)",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 31.0,
+    "avg_pts": 15.5
   },
   {
     "name": "Janik, Wes and Janik, Jem",
@@ -430,74 +505,6 @@
     "avg_pts": 15.25
   },
   {
-    "name": "Torres, Steve and Barron, Nicole",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-A Open American Smooth Championships (W/T/F/VW)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Eastern United States DanceSport Championship",
-        "info": "AC-A Open Smooth Championship (W/T/F/VW)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "6",
-        "points": 14.0
-      },
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Adult American Championships  AD Amer. Smooth Championship (W,T,F,VW)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Ohio Star Ball",
-        "info": "AC-A Amateur American Smooth 4-Dance (W/T/FT/VW)",
-        "place": "5",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 75.0,
-    "avg_pts": 15.0
-  },
-  {
-    "name": "Lynch, Mike and Lynch, Rose-Ann",
-    "results": [
-      {
-        "comp_name": "2019 Baltimore Dancesport Challenge",
-        "info": "AC-C Gold Amateur Open Smooth (W/T/FT/VW)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "2019 Baltimore Dancesport Challenge",
-        "info": "AC-B Gold Amateur Open Smooth (W/T/FT/VW)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Capital Dancesport Championships",
-        "info": "AC-C American Smooth Open Championship (W/T/F/VW)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Ohio Star Ball",
-        "info": "AC-C Amateur American Smooth 4-Dance (W/T/FT/VW)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 60.0,
-    "avg_pts": 15.0
-  },
-  {
     "name": "Datoc, Antoinette and Datoc, Pat",
     "results": [
       {
@@ -514,32 +521,6 @@
       }
     ],
     "total_pts": 30.0,
-    "avg_pts": 15.0
-  },
-  {
-    "name": "Beach, Logan and Wright, Melina",
-    "results": [
-      {
-        "comp_name": "Ohio Star Ball",
-        "info": "AC-A Amateur American Smooth 4-Dance (W/T/FT/VW)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 15.0,
-    "avg_pts": 15.0
-  },
-  {
-    "name": "Coker, Adam and Pope, Natalie",
-    "results": [
-      {
-        "comp_name": "Galaxy Dance Festival",
-        "info": "AC-A Amateur Open American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 15.0,
     "avg_pts": 15.0
   },
   {
@@ -672,6 +653,68 @@
     "avg_pts": 14.52
   },
   {
+    "name": "Lynch, Mike and Lynch, Rose-Ann",
+    "results": [
+      {
+        "comp_name": "2019 Baltimore Dancesport Challenge",
+        "info": "AC-C Gold Amateur Open Smooth (W/T/FT/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2019 Baltimore Dancesport Challenge",
+        "info": "AC-B Gold Amateur Open Smooth (W/T/FT/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Capital Dancesport Championships",
+        "info": "AC-C American Smooth Open Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-C Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2019 Yuletide Ball ",
+        "info": "L- Gold DFTC American Smooth Championship (W/T/F)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 Yuletide Ball ",
+        "info": "AC-SR III American Smooth Open Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 87.0,
+    "avg_pts": 14.5
+  },
+  {
+    "name": "Beach, Logan and Wright, Melina",
+    "results": [
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-A Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "6",
+        "points": 14.0
+      }
+    ],
+    "total_pts": 29.0,
+    "avg_pts": 14.5
+  },
+  {
     "name": "Bankhead, Porter and McAllister, Ashlyn",
     "results": [
       {
@@ -685,10 +728,22 @@
         "info": "AC-Y Amateur Youth Smooth Championship (W/T/FT/VW)",
         "place": "5",
         "points": 16.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-Y Junior Pre-Champ American Smooth (W/T/F)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-Y Junior American Smooth Championship (W/T/F/VW)",
+        "place": "3",
+        "points": 13.0
       }
     ],
-    "total_pts": 28.5,
-    "avg_pts": 14.25
+    "total_pts": 56.5,
+    "avg_pts": 14.12
   },
   {
     "name": "Phillips, Jaxon and Peregrine, Raleigh",
@@ -752,6 +807,49 @@
     ],
     "total_pts": 27.5,
     "avg_pts": 13.75
+  },
+  {
+    "name": "Torres, Steve and Barron, Nicole",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-A Open American Smooth Championships (W/T/F/VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Eastern United States DanceSport Championship",
+        "info": "AC-A Open Smooth Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "6",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult American Championships  AD Amer. Smooth Championship (W,T,F,VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-A Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 81.0,
+    "avg_pts": 13.5
   },
   {
     "name": "Barba, Stephen and Ryan, Susan",
@@ -859,6 +957,73 @@
     ],
     "total_pts": 27.0,
     "avg_pts": 13.5
+  },
+  {
+    "name": "Simkins, Mason and Cole, Ashton",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-Y Junior & Youth American Smooth Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 6.4
+      },
+      {
+        "comp_name": "Las Vegas Lights",
+        "info": "AC-Y American Smooth (W/T/F/VW)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Las Vegas Lights",
+        "info": "AC-A Open American Smooth (W/T/F/VW)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Amateur Under 21 - American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2019 Desert Classic DanceSport Festival",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-U21 Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Amateur Open A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "2",
+        "points": 32.0
+      }
+    ],
+    "total_pts": 133.15,
+    "avg_pts": 13.32
   },
   {
     "name": "Davis, Ben and McCall, Alexis",
@@ -1193,19 +1358,6 @@
     "avg_pts": 12.0
   },
   {
-    "name": "Davis, Derrick and Munson, Peyton",
-    "results": [
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Amateur Open A Amer. Smooth Championship (W,T,F,VW)",
-        "place": "5",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 12.0,
-    "avg_pts": 12.0
-  },
-  {
     "name": "DiMaio, Joseph and George, Deborah",
     "results": [
       {
@@ -1420,6 +1572,111 @@
     "avg_pts": 11.88
   },
   {
+    "name": "Lee, Adam and Ma, Rachel",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Pre-Champ Amateur American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Amateur Open A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "8",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult Pre-Champ American Smooth (W/T/F)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 59.0,
+    "avg_pts": 11.8
+  },
+  {
+    "name": "Keck, David and Cole, Arynne",
+    "results": [
+      {
+        "comp_name": "Las Vegas Lights",
+        "info": "AC-J American Smooth (W/T/VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Las Vegas Lights",
+        "info": "AC-J American Smooth (W/T/F/VW)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J2 Pre-Champ Amateur American Smooth (W/T/F/VW)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J1 Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J2 Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-J2 Junior Pre-Champ American Smooth (W/T/F)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-J2 Junior American Smooth Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 82.25,
+    "avg_pts": 11.75
+  },
+  {
+    "name": "Purcell, Jax and McOmber, Kennidy",
+    "results": [
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-J2 Junior Pre-Champ American Smooth (W/T/F)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-J2 Junior American Smooth Championship (W/T/F/VW)",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 22.75,
+    "avg_pts": 11.38
+  },
+  {
     "name": "Dango, Paul and Dango, Nancy",
     "results": [
       {
@@ -1527,67 +1784,6 @@
     "avg_pts": 11.25
   },
   {
-    "name": "Simkins, Mason and Cole, Ashton",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-Y Junior & Youth American Smooth Championship (W/T/F/VW)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "Semis",
-        "points": 6.4
-      },
-      {
-        "comp_name": "Las Vegas Lights",
-        "info": "AC-Y American Smooth (W/T/F/VW)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Las Vegas Lights",
-        "info": "AC-A Open American Smooth (W/T/F/VW)",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Amateur Under 21 - American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "2019 Desert Classic DanceSport Festival",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-A Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "4",
-        "points": 15.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-U21 Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Amateur Open A Amer. Smooth Championship (W,T,F,VW)",
-        "place": "6",
-        "points": 10.5
-      }
-    ],
-    "total_pts": 101.15,
-    "avg_pts": 11.24
-  },
-  {
     "name": "Crook, Ryan and Thompson, Elisabeth",
     "results": [
       {
@@ -1644,29 +1840,35 @@
     "avg_pts": 11.1
   },
   {
-    "name": "Lee, Adam and Ma, Rachel",
+    "name": "McOmber, Sterling and Ascione, Lexi",
     "results": [
       {
         "comp_name": "2019 NV Ball",
-        "info": "AC-A Pre-Champ Amateur American Smooth (W/T/F/VW)",
+        "info": "AC-J1 Pre-Champ Amateur American Smooth (W/T/F/VW)",
         "place": "1",
-        "points": 15.0
+        "points": 9.0
       },
       {
         "comp_name": "2019 NV Ball",
-        "info": "AC-A Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "6",
-        "points": 10.5
+        "info": "AC-J1 Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "2",
+        "points": 7.0
       },
       {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Amateur Open A Amer. Smooth Championship (W,T,F,VW)",
-        "place": "8",
-        "points": 7.5
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-J1 Junior Pre-Champ American Smooth (W/T/F)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-J1 Junior American Smooth Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 15.0
       }
     ],
-    "total_pts": 33.0,
-    "avg_pts": 11.0
+    "total_pts": 42.25,
+    "avg_pts": 10.56
   },
   {
     "name": "Baker, Bronson and Haslam, Jiaxin",
@@ -1704,6 +1906,67 @@
     ],
     "total_pts": 52.75,
     "avg_pts": 10.55
+  },
+  {
+    "name": "Chiou, Justin and Bundus, Hannah",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-A American Smooth Pre-Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW) Quarter-final",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Cincinnati Ballroom Classic",
+        "info": "AC-A1 Am/Am American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "AC-A Amateur Pre Champ Open Smooth (W/T/FT/VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Cleveland Dancesport Challenge",
+        "info": "AC-A Amateur Open Smooth (W/T/FT/VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-A Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult Pre-Champ American Smooth (W/T/F)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 94.5,
+    "avg_pts": 10.5
   },
   {
     "name": "Morris, Connor and Morris, Abby",
@@ -1754,6 +2017,25 @@
       {
         "comp_name": "Seattle Star Ball",
         "info": "Amateur Amer. PT2 Amer. Smooth Championship (W,T,F,VW) /J",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 21.0,
+    "avg_pts": 10.5
+  },
+  {
+    "name": "Antipin, Angela and Antipin, Maksim",
+    "results": [
+      {
+        "comp_name": "2019 Yuletide Ball ",
+        "info": "AC-A American Smooth Pre-Champ  (W/T/F/VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2019 Yuletide Ball ",
+        "info": "AC-A American Smooth Open Championship (W/T/F/VW)",
         "place": "1",
         "points": 12.0
       }
@@ -1862,102 +2144,60 @@
     "avg_pts": 10.38
   },
   {
-    "name": "Keck, David and Cole, Arynne",
+    "name": "Maier, Benson and Thompson, Elisabeth",
     "results": [
       {
-        "comp_name": "Las Vegas Lights",
-        "info": "AC-J American Smooth (W/T/VW)",
-        "place": "1",
-        "points": 9.0
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-YA Junior Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "3",
+        "points": 7.5
       },
       {
-        "comp_name": "Las Vegas Lights",
-        "info": "AC-J American Smooth (W/T/F/VW)",
-        "place": "2",
-        "points": 5.25
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-A Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "3",
+        "points": 9.75
       },
       {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-J2 Pre-Champ Amateur American Smooth (W/T/F/VW)",
-        "place": "2",
-        "points": 9.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-J1 Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-J2 Amateur American Smooth Championship (W/T/F/VW)",
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-Y Junior Pre-Champ American Smooth (W/T/F)",
         "place": "2",
         "points": 12.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-Y Junior American Smooth Championship (W/T/F/VW)",
+        "place": "2",
+        "points": 16.0
       }
     ],
-    "total_pts": 50.25,
-    "avg_pts": 10.05
+    "total_pts": 51.25,
+    "avg_pts": 10.25
   },
   {
-    "name": "Gleba, Chet and Gleba, Kathleen",
+    "name": "Hoffman, Shanden and Sulik, Sabrina",
     "results": [
       {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "AC-C Open Bronze Smooth 3 Dance (W/T/FT)",
-        "place": "1",
-        "points": 9.0
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult Pre-Champ American Smooth (W/T/F)",
+        "place": "3",
+        "points": 16.25
       },
       {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "AC-C Closed Silver Smooth 4 Dance (W/T/FT/VW)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "AC-C Open Silver Smooth 4 Dance (W/T/FT/VW)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Philadelphia Dancesport Championships",
-        "info": "AC-SSC Closed Silver American Smooth 4-Dance Championship (W/T/F/VW)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "AC-C Pro/Am Closed Silver Smooth Championship (W/T/FT/VW)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "American Star Ball Championships",
-        "info": "AC-C Pro/Am Open Silver Smooth Championship (W/T/FT/VW)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "The DBDC 2019",
-        "info": "AC-C1 Closed Silver American Smooth Scholarship (W/T/F/VW)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "2019 Constitution State Dancesport Championships",
-        "info": "AC-C Closed Silver American Smooth Championship (W/T/FT/VW)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "2019 Constitution State Dancesport Championships",
-        "info": "AC-S1 Closed Silver American Smooth Championship (W/T/FT/VW)",
-        "place": "1",
-        "points": 9.0
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "quarters",
+        "points": 4.0
       }
     ],
-    "total_pts": 90.0,
-    "avg_pts": 10.0
+    "total_pts": 20.25,
+    "avg_pts": 10.12
   },
   {
     "name": "Schwartz, Charles and Schwartz, Ann-Marie",
@@ -2058,6 +2298,159 @@
     ],
     "total_pts": 10.0,
     "avg_pts": 10.0
+  },
+  {
+    "name": "Gleba, Chet and Gleba, Kathleen",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "AC-C Open Bronze Smooth 3 Dance (W/T/FT)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "AC-C Closed Silver Smooth 4 Dance (W/T/FT/VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "AC-C Open Silver Smooth 4 Dance (W/T/FT/VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Philadelphia Dancesport Championships",
+        "info": "AC-SSC Closed Silver American Smooth 4-Dance Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "AC-C Pro/Am Closed Silver Smooth Championship (W/T/FT/VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "American Star Ball Championships",
+        "info": "AC-C Pro/Am Open Silver Smooth Championship (W/T/FT/VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "The DBDC 2019",
+        "info": "AC-C1 Closed Silver American Smooth Scholarship (W/T/F/VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "AC-C Closed Silver American Smooth Championship (W/T/FT/VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2019 Constitution State Dancesport Championships",
+        "info": "AC-S1 Closed Silver American Smooth Championship (W/T/FT/VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Kings Ball",
+        "info": "AC-SR1 Closed Silver Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2019 Yuletide Ball ",
+        "info": "AC-SR III Silver 2-Dance Challenge Smooth (W/T)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2019 Yuletide Ball ",
+        "info": "AC-SR III Silver 3-Dance Challenge Smooth (W/T/F)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 119.25,
+    "avg_pts": 9.94
+  },
+  {
+    "name": "Harrison, Jerry and Harrison, Nancy",
+    "results": [
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-C Amateur Adult Pre-Champ American Smooth (W/T/F)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-C Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2019 Yuletide Ball ",
+        "info": "L- Gold DFTC American Smooth Championship (W/T/F)",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2019 Yuletide Ball ",
+        "info": "AC-SR III American Smooth Pre-Champ  (W/T/F/VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2019 Yuletide Ball ",
+        "info": "AC-SR III American Smooth Open Championship (W/T/F/VW)",
+        "place": "2",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 49.25,
+    "avg_pts": 9.85
+  },
+  {
+    "name": "DePuy, Devin and DePuy, Lois",
+    "results": [
+      {
+        "comp_name": "Manhattan Dance Championships",
+        "info": "Amateur Adult American Championships  AD Amer. Smooth Championship (W,T,F,VW)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Paragon Open DanceSport Championships",
+        "info": "AC-C Pargon Open American Smooth Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Ohio Star Ball",
+        "info": "AC-C Amateur American Smooth 4-Dance (W/T/FT/VW)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Kings Ball",
+        "info": "AC-SR2 Pre-Champ Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Kings Ball",
+        "info": "AC-SR2 KB Open Smooth Challenge (W/T/F/VW)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 49.0,
+    "avg_pts": 9.8
   },
   {
     "name": "Sterlin, Sanilo and Jedrzejowski, Paulina",
@@ -2210,6 +2603,25 @@
     "avg_pts": 9.5
   },
   {
+    "name": "Coker, Adam and Pope, Natalie",
+    "results": [
+      {
+        "comp_name": "Galaxy Dance Festival",
+        "info": "AC-A Amateur Open American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "quarters",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 19.0,
+    "avg_pts": 9.5
+  },
+  {
     "name": "Grzeskowski, John and Virijevich, Diana",
     "results": [
       {
@@ -2246,31 +2658,6 @@
     ],
     "total_pts": 19.0,
     "avg_pts": 9.5
-  },
-  {
-    "name": "DePuy, Devin and DePuy, Lois",
-    "results": [
-      {
-        "comp_name": "Manhattan Dance Championships",
-        "info": "Amateur Adult American Championships  AD Amer. Smooth Championship (W,T,F,VW)",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Paragon Open DanceSport Championships",
-        "info": "AC-C Pargon Open American Smooth Championship (W/T/F/VW)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Ohio Star Ball",
-        "info": "AC-C Amateur American Smooth 4-Dance (W/T/FT/VW)",
-        "place": "5",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 28.0,
-    "avg_pts": 9.33
   },
   {
     "name": "Linnik, Michael and Huynh, Jolene",
@@ -2383,6 +2770,49 @@
     ],
     "total_pts": 37.0,
     "avg_pts": 9.25
+  },
+  {
+    "name": "Buss, Carston and Bramwell, Liesel",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Pre-Champ Amateur American Smooth (W/T/F/VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-Y Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 6.3
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Amateur Open A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "Semis",
+        "points": 5.4
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult Pre-Champ American Smooth (W/T/F)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 55.2,
+    "avg_pts": 9.2
   },
   {
     "name": "Ranivand, John and Bruce, Elizabeth",
@@ -2548,84 +2978,23 @@
     "avg_pts": 9.19
   },
   {
-    "name": "Buss, Carston and Bramwell, Liesel",
+    "name": "Ambrose, Dave and Ambrose, Karen",
     "results": [
       {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-A Pre-Champ Amateur American Smooth (W/T/F/VW)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-Y Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-A Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "Semis",
-        "points": 6.3
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Amateur Open A Amer. Smooth Championship (W,T,F,VW)",
-        "place": "Semis",
-        "points": 5.4
-      }
-    ],
-    "total_pts": 36.7,
-    "avg_pts": 9.18
-  },
-  {
-    "name": "Chiou, Justin and Bundus, Hannah",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-A American Smooth Pre-Championship (W/T/F/VW)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW) Quarter-final",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Cincinnati Ballroom Classic",
-        "info": "AC-A1 Am/Am American Smooth (W/T/F/VW)",
+        "comp_name": "2019 Yuletide Ball ",
+        "info": "AC-SS-B2 Closed Silver Pro/Am American Smooth Multi-Dance Challenge (W/T/F/VW)",
         "place": "1",
         "points": 9.0
       },
       {
-        "comp_name": "Cleveland Dancesport Challenge",
-        "info": "AC-A Amateur Pre Champ Open Smooth (W/T/FT/VW)",
+        "comp_name": "2019 Yuletide Ball ",
+        "info": "AC-SS-C1 Closed Silver Pro/Am American Smooth Multi-Dance Challenge (W/T/F/VW)",
         "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Cleveland Dancesport Challenge",
-        "info": "AC-A Amateur Open Smooth (W/T/FT/VW)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Ohio Star Ball",
-        "info": "AC-A Amateur American Smooth 4-Dance (W/T/FT/VW)",
-        "place": "4",
-        "points": 7.5
+        "points": 9.0
       }
     ],
-    "total_pts": 63.5,
-    "avg_pts": 9.07
+    "total_pts": 18.0,
+    "avg_pts": 9.0
   },
   {
     "name": "Caralis, Barb and Caralis, Jim",
@@ -2834,19 +3203,6 @@
     "avg_pts": 9.0
   },
   {
-    "name": "Ready, Terry and Tod, Marty",
-    "results": [
-      {
-        "comp_name": "Colorado Star Ball Championships",
-        "info": "Amateur Syllabus 1 SR4 Amer. Smooth (W,F)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 9.0,
-    "avg_pts": 9.0
-  },
-  {
     "name": "Richter, Tim and Vardaka, Marianna",
     "results": [
       {
@@ -2931,6 +3287,25 @@
     "avg_pts": 8.88
   },
   {
+    "name": "Smith, Zachary and Maier, Lucy",
+    "results": [
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-Y Junior Pre-Champ American Smooth (W/T/F)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-Y Junior American Smooth Championship (W/T/F/VW)",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 17.75,
+    "avg_pts": 8.88
+  },
+  {
     "name": "Weyerman, Phillip and Burnett, Arielle",
     "results": [
       {
@@ -2975,23 +3350,23 @@
     "avg_pts": 8.75
   },
   {
-    "name": "Maier, Benson and Thompson, Elisabeth",
+    "name": "Judd, Caleb and Christensen, Kyra",
     "results": [
       {
-        "comp_name": "Ohio Star Ball",
-        "info": "AC-YA Junior Amateur American Smooth 4-Dance (W/T/FT/VW)",
-        "place": "3",
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-J2 Junior Pre-Champ American Smooth (W/T/F)",
+        "place": "4",
         "points": 7.5
       },
       {
-        "comp_name": "Ohio Star Ball",
-        "info": "AC-A Amateur American Smooth 4-Dance (W/T/FT/VW)",
-        "place": "3",
-        "points": 9.75
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-J2 Junior American Smooth Championship (W/T/F/VW)",
+        "place": "4",
+        "points": 10.0
       }
     ],
-    "total_pts": 17.25,
-    "avg_pts": 8.62
+    "total_pts": 17.5,
+    "avg_pts": 8.75
   },
   {
     "name": "Santoro, Sam and Zutter, Mary",
@@ -3035,37 +3410,6 @@
     ],
     "total_pts": 51.0,
     "avg_pts": 8.5
-  },
-  {
-    "name": "Burt, Jordan and Stewart, Megan",
-    "results": [
-      {
-        "comp_name": "Las Vegas Lights",
-        "info": "AC-A Pre-Champ American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 13.5
-      },
-      {
-        "comp_name": "Las Vegas Lights",
-        "info": "AC-A Open American Smooth (W/T/F/VW)",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-A Pre-Champ Amateur American Smooth (W/T/F/VW)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-A Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "Semis",
-        "points": 0.6
-      }
-    ],
-    "total_pts": 33.85,
-    "avg_pts": 8.46
   },
   {
     "name": "Mitchell, Clay and Curran, Emily",
@@ -3140,25 +3484,6 @@
       }
     ],
     "total_pts": 24.0,
-    "avg_pts": 8.0
-  },
-  {
-    "name": "McOmber, Sterling and Ascione, Lexi",
-    "results": [
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-J1 Pre-Champ Amateur American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-J1 Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "2",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 16.0,
     "avg_pts": 8.0
   },
   {
@@ -3238,10 +3563,22 @@
         "info": "AC-Y Amateur American Smooth Championship (W/T/F/VW)",
         "place": "4",
         "points": 10.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-Y Junior Pre-Champ American Smooth (W/T/F)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-Y Junior American Smooth Championship (W/T/F/VW)",
+        "place": "4",
+        "points": 10.0
       }
     ],
-    "total_pts": 39.5,
-    "avg_pts": 7.9
+    "total_pts": 55.5,
+    "avg_pts": 7.93
   },
   {
     "name": "Kyle, TJ and Croghan, Jane",
@@ -3430,6 +3767,25 @@
     "avg_pts": 7.5
   },
   {
+    "name": "Fisher, Talan and Brunson, Mina",
+    "results": [
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-Y Junior Pre-Champ American Smooth (W/T/F)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-Y Junior American Smooth Championship (W/T/F/VW)",
+        "place": "6",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 14.5,
+    "avg_pts": 7.25
+  },
+  {
     "name": "Mower, William and Raab, Suzanne",
     "results": [
       {
@@ -3508,6 +3864,49 @@
     ],
     "total_pts": 43.0,
     "avg_pts": 7.17
+  },
+  {
+    "name": "Burt, Jordan and Stewart, Megan",
+    "results": [
+      {
+        "comp_name": "Las Vegas Lights",
+        "info": "AC-A Pre-Champ American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "Las Vegas Lights",
+        "info": "AC-A Open American Smooth (W/T/F/VW)",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Pre-Champ Amateur American Smooth (W/T/F/VW)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 0.6
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult Pre-Champ American Smooth (W/T/F)",
+        "place": "7",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "quarters",
+        "points": 1.6
+      }
+    ],
+    "total_pts": 42.95,
+    "avg_pts": 7.16
   },
   {
     "name": "Kouri, Patty and Kouri, Tom",
@@ -3774,6 +4173,25 @@
     "avg_pts": 6.75
   },
   {
+    "name": "Lowe, Brian and Rose, Camn",
+    "results": [
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-J2 Junior Pre-Champ American Smooth (W/T/F)",
+        "place": "6",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-J2 Junior American Smooth Championship (W/T/F/VW)",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 13.25,
+    "avg_pts": 6.62
+  },
+  {
     "name": "Crisostomo, Logan and Oboy, Lauren",
     "results": [
       {
@@ -3860,6 +4278,37 @@
     "avg_pts": 6.45
   },
   {
+    "name": "Munden, Preston and Finnigan, Ella",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J2 Pre-Champ Amateur American Smooth (W/T/F/VW)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-J2 Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-J2 Junior Pre-Champ American Smooth (W/T/F)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-J2 Junior American Smooth Championship (W/T/F/VW)",
+        "place": "6",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 25.25,
+    "avg_pts": 6.31
+  },
+  {
     "name": "Rodriguez, Ramon and Glassberg, Heather",
     "results": [
       {
@@ -3916,18 +4365,18 @@
     "avg_pts": 6.15
   },
   {
-    "name": "Munden, Preston and Finnigan, Ella",
+    "name": "Cole, Bridger and Fox, Katelyn",
     "results": [
       {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-J2 Pre-Champ Amateur American Smooth (W/T/F/VW)",
-        "place": "3",
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-J1 Junior Pre-Champ American Smooth (W/T/F)",
+        "place": "2",
         "points": 5.25
       },
       {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-J2 Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "3",
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-J1 Junior American Smooth Championship (W/T/F/VW)",
+        "place": "2",
         "points": 7.0
       }
     ],
@@ -4022,6 +4471,31 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Goggin, Aidan and Saadah, Madelyn",
+    "results": [
+      {
+        "comp_name": "2019 Baltimore Dancesport Challenge",
+        "info": "AC-YTH Bronze Closed Smooth (W/T/FT)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Yuletide Ball ",
+        "info": "AC-Y Closed Bronze  Closed American Smooth 3-Dance (W/T/F)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Yuletide Ball ",
+        "info": "AC-Y Open Novice American Smooth (W/T/F)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 18.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Brown, David and Brown, Bonnie",
     "results": [
       {
@@ -4071,6 +4545,25 @@
       {
         "comp_name": "Eastern United States DanceSport Championship",
         "info": "AC-A Closed Bronze (F/VW)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Gaskin, Noah and Bowman, Dakota",
+    "results": [
+      {
+        "comp_name": "2019 Yuletide Ball ",
+        "info": "AC-JR Closed Bronze  Closed American Smooth 3-Dance (W/T/F)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2019 Yuletide Ball ",
+        "info": "AC-JR Open Novice American Smooth (W/T/F)",
         "place": "1",
         "points": 6.0
       }
@@ -4258,6 +4751,19 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Carter, McCarty and Ralph, Carli Treu",
+    "results": [
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Cartwright, Joseph and Wagner, Taya",
     "results": [
       {
@@ -4315,19 +4821,6 @@
       {
         "comp_name": "Twin Cities Open",
         "info": "AC-SR1 Bronze Amateur Closed Smooth 3 Dance (W/T/FT)",
-        "place": "1",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 6.0,
-    "avg_pts": 6.0
-  },
-  {
-    "name": "Goggin, Aidan and Saadah, Madelyn",
-    "results": [
-      {
-        "comp_name": "2019 Baltimore Dancesport Challenge",
-        "info": "AC-YTH Bronze Closed Smooth (W/T/FT)",
         "place": "1",
         "points": 6.0
       }
@@ -4576,6 +5069,25 @@
     "avg_pts": 5.75
   },
   {
+    "name": "Erickson, Payton and Brinkmeyer, Maxahna",
+    "results": [
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-Y Junior Pre-Champ American Smooth (W/T/F)",
+        "place": "6",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-Y Junior American Smooth Championship (W/T/F/VW)",
+        "place": "7",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 11.25,
+    "avg_pts": 5.62
+  },
+  {
     "name": "Slaughter, Ann and Slaughter, Tom",
     "results": [
       {
@@ -4687,6 +5199,50 @@
     "avg_pts": 5.5
   },
   {
+    "name": "Ready, Terry and Tod, Marty",
+    "results": [
+      {
+        "comp_name": "Colorado Star Ball Championships",
+        "info": "Amateur Syllabus 1 SR4 Amer. Smooth (W,F)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-C Amateur American Smooth Novice  (W/F)",
+        "place": "2",
+        "points": 1.75
+      }
+    ],
+    "total_pts": 10.75,
+    "avg_pts": 5.38
+  },
+  {
+    "name": "Jurani, Pat and Jurani, Rose",
+    "results": [
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-C Amateur American Smooth Novice  (W/F)",
+        "place": "1",
+        "points": 3.75
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-C Amateur Adult Pre-Champ American Smooth (W/T/F)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-C Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "2",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 16.0,
+    "avg_pts": 5.33
+  },
+  {
     "name": "Whittum, Terry and Jordan, Patti",
     "results": [
       {
@@ -4757,6 +5313,19 @@
     "avg_pts": 5.25
   },
   {
+    "name": "Ledbetter, Alan and Ledbetter, Anne",
+    "results": [
+      {
+        "comp_name": "2019 Yuletide Ball ",
+        "info": "AC-SR III Silver 3-Dance Challenge Smooth (W/T/F)",
+        "place": "2",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 5.25,
+    "avg_pts": 5.25
+  },
+  {
     "name": "Middleton, Charles and Middleton, Wendy",
     "results": [
       {
@@ -4781,6 +5350,31 @@
     ],
     "total_pts": 5.25,
     "avg_pts": 5.25
+  },
+  {
+    "name": "Holt, Anthony and Antonelli, Toni Nicole",
+    "results": [
+      {
+        "comp_name": "Las Vegas Lights",
+        "info": "AC-A Novice American Smooth (W/T/F)",
+        "place": "3",
+        "points": 1.75
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur American Smooth Novice  (W/F)",
+        "place": "1",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult Pre-Champ American Smooth (W/T/F)",
+        "place": "6",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 15.5,
+    "avg_pts": 5.17
   },
   {
     "name": "Busche, Michael and Chatterjee, Fiona",
@@ -5147,6 +5741,37 @@
     "avg_pts": 3.67
   },
   {
+    "name": "Espiritu, Joseph and Podzikowski, Kelani",
+    "results": [
+      {
+        "comp_name": "caopen19",
+        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 1.05
+      },
+      {
+        "comp_name": "Embassy Ballroom Championships",
+        "info": "Amateur Open A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult Pre-Champ American Smooth (W/T/F)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "quarters",
+        "points": 3.2
+      }
+    ],
+    "total_pts": 14.55,
+    "avg_pts": 3.64
+  },
+  {
     "name": "McOmber, Kennidy and McOmber, Kyle",
     "results": [
       {
@@ -5285,31 +5910,6 @@
     ],
     "total_pts": 6.4,
     "avg_pts": 3.2
-  },
-  {
-    "name": "Peterson, Anthony and Gibbons, Megan",
-    "results": [
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-A Novice American Smooth (W/T)",
-        "place": "4",
-        "points": 1.75
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-A Novice American Smooth (F/VW)",
-        "place": "3",
-        "points": 1.75
-      },
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-A Pre-Champ Amateur American Smooth (W/T/F/VW)",
-        "place": "5",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 9.5,
-    "avg_pts": 3.17
   },
   {
     "name": "Jensen, August and Hopkin, Faith",
@@ -5682,6 +6282,43 @@
     "avg_pts": 2.83
   },
   {
+    "name": "Peterson, Anthony and Gibbons, Megan",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice American Smooth (W/T)",
+        "place": "4",
+        "points": 1.75
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Novice American Smooth (F/VW)",
+        "place": "3",
+        "points": 1.75
+      },
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Pre-Champ Amateur American Smooth (W/T/F/VW)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur American Smooth Novice  (W/F)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult Pre-Champ American Smooth (W/T/F)",
+        "place": "Semis",
+        "points": 0.5
+      }
+    ],
+    "total_pts": 13.5,
+    "avg_pts": 2.7
+  },
+  {
     "name": "Peacock, Adam M and Raynor, Andrea",
     "results": [
       {
@@ -5795,25 +6432,31 @@
     "avg_pts": 1.75
   },
   {
+    "name": "Phippen, Jackson and Casper, Kiaya",
+    "results": [
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur American Smooth Novice  (W/F)",
+        "place": "3",
+        "points": 2.5
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult Pre-Champ American Smooth (W/T/F)",
+        "place": "Semis",
+        "points": 1.0
+      }
+    ],
+    "total_pts": 3.5,
+    "avg_pts": 1.75
+  },
+  {
     "name": "Bankhead, Brody and Holker, Ashley",
     "results": [
       {
         "comp_name": "caopen19",
         "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
         "place": "Semis",
-        "points": 1.75
-      }
-    ],
-    "total_pts": 1.75,
-    "avg_pts": 1.75
-  },
-  {
-    "name": "Holt, Anthony and Antonelli, Nicole",
-    "results": [
-      {
-        "comp_name": "Las Vegas Lights",
-        "info": "AC-A Novice American Smooth (W/T/F)",
-        "place": "3",
         "points": 1.75
       }
     ],
@@ -5834,6 +6477,44 @@
     "avg_pts": 1.75
   },
   {
+    "name": "Knighton, Brittany and Knighton, Jai",
+    "results": [
+      {
+        "comp_name": "2019 NV Ball",
+        "info": "AC-A Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 1.2
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult American Smooth Championship (W/T/F/VW)",
+        "place": "quarters",
+        "points": 2.0
+      }
+    ],
+    "total_pts": 3.2,
+    "avg_pts": 1.6
+  },
+  {
+    "name": "Christensen, Bryce and Jorgensen, Caroline",
+    "results": [
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur American Smooth Novice  (W/F)",
+        "place": "4",
+        "points": 1.75
+      },
+      {
+        "comp_name": "Holiday Dance Classic",
+        "info": "AC-A Amateur Adult Pre-Champ American Smooth (W/T/F)",
+        "place": "Semis",
+        "points": 1.25
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 1.5
+  },
+  {
     "name": "Disbrow, Jason and Do, Michelle",
     "results": [
       {
@@ -5845,38 +6526,6 @@
     ],
     "total_pts": 1.2,
     "avg_pts": 1.2
-  },
-  {
-    "name": "Knighton, Brittany and Knighton, Jai",
-    "results": [
-      {
-        "comp_name": "2019 NV Ball",
-        "info": "AC-A Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "Semis",
-        "points": 1.2
-      }
-    ],
-    "total_pts": 1.2,
-    "avg_pts": 1.2
-  },
-  {
-    "name": "Espiritu, Joseph and Podzikowski, Kelani",
-    "results": [
-      {
-        "comp_name": "caopen19",
-        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 1.05
-      },
-      {
-        "comp_name": "Embassy Ballroom Championships",
-        "info": "Amateur Open A Amer. Smooth Championship (W,T,F,VW)",
-        "place": "Semis",
-        "points": 0.3
-      }
-    ],
-    "total_pts": 1.35,
-    "avg_pts": 0.68
   },
   {
     "name": "Chiriboga, Leonardo and Luchetti, Sofia",
