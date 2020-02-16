@@ -13,7 +13,7 @@ from datetime import date
 from season_ranking import RankingDataFile, get_last_name, get_name
 from comp_results_file import Comp_Results_File
 from heat import dance_style, pro_heat_level, is_amateur_heat
-from instructor_list import Instructor_List
+from instructor_list import Dancer_List
 
 ''' These are the separate dance styles being ranked '''
 Dance_Styles = [
@@ -137,7 +137,7 @@ class AppFrame(wx.Frame):
         self.automation = False
         
         # read in the list of instructors
-        self.instructors = Instructor_List()
+        self.instructors = Dancer_List()
 
         # set default state of menu items and buttons
         self.PreOpenProcess()
