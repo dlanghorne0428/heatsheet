@@ -90,6 +90,19 @@ class RankingDataFile():
         couple["avg_pts"] = 0
         
     
+    def is_junior(self, index):
+        couple = self.info[index]
+        for r in couple["results"]:
+            if "-Y" in r["info"] or "-J" in r["info"] or "-PT" in r["info"] or "-TB" in r["info"]:
+                return True
+            elif "PT" in r["info"]:
+                return True
+            elif "JR" in r["info"]:
+                return True            
+        else:
+            return False
+        
+    
     def find_highest_rank(self, index):
         '''
         This routine is called on a list of couples sorted by ranking.
