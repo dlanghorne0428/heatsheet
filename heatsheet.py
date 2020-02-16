@@ -27,7 +27,7 @@ from comp_mngr_results import CompMngrResults
 from comp_results_file import Comp_Results_File
 from season_ranking import RankingDataFile, get_name
 from heat import is_amateur_heat, is_multi_dance, dance_style
-from instructor_list import Instructor_List
+from dancer_list import Dancer_List, Dancer_Type
 
 
 def get_folder_name(filename):
@@ -889,7 +889,7 @@ class HelloFrame(wx.Frame):
         self.report_title = "All Pro-Am Multi Dance Heats"
         self.heat_type = "Pro-Am"
         
-        instructors = Instructor_List()
+        instructors = Dancer_List(dancer_type=Dancer_Type.PRO)
         
         # for each non-pro multi-dance heat, find the couples and populate the GUI
         for num in self.heatlist.multi_dance_heat_numbers:

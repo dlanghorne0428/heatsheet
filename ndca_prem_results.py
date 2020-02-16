@@ -3,7 +3,7 @@ from calc_points import calc_points
 from dancer import format_name
 from heat import Heat, Heat_Report
 from ndca_prem_heatlist import get_name
-from instructor_list import Instructor_List
+from dancer_list import Dancer_List, Dancer_Type
 
 class NdcaPremEvent():
     def __init__(self, line):
@@ -21,7 +21,7 @@ class NdcaPremResults():
         self.categories = []
         self.comp_id = None
         self.events = []
-        self.instructors = Instructor_List()
+        self.instructors = Dancer_List(dancer_type=Dancer_Type.PRO)
         
         
     def order_pro_am_couple(self, entry):
