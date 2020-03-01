@@ -176,7 +176,8 @@ class NdcaPremHeatlist(Heatlist):
             if len(rows) <= 1:
                 print("Error parsing heat rows")
             row_index = 0
-            #field_index = 3
+            partner = None
+            couple = None
             # parse all the rows with heat information
             while row_index < len(rows) - 1:
                 # check if this item specifies a partner name
@@ -226,12 +227,12 @@ class NdcaPremHeatlist(Heatlist):
                     if age is not None:
                         self.add_age_division(age)
                         dancer.add_age_division(age)
-                        couple.add_age_division(age)
-                        # update maximum heat numbers 
+                        if couple is not None:
+                            couple.add_age_division(age)
                     
                     # save heat object to both the dancer and couple
                     dancer.add_heat(h)
-                    if h.category != "Formation" and h.category != "Team match":   
+                    if couple is not None: 
                         couple.add_heat(h)
 
                 # go to the next row    
