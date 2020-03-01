@@ -143,13 +143,6 @@ class Heatlist():
         if info not in self.event_titles:
             self.event_titles.append(info)
             
-    def write_event_list_to_file(self, folder_name):
-        filename = folder_name + "/events.csv"
-        f = open(filename, "w")
-        for title in self.event_titles:
-            level = non_pro_heat_level(title)
-            f.write(self.comp_name + ',' + title + ',' + dance_style(title) + "," + str(level) + "\n")
-        f.close()
 
     ############### AGE DIVISION ROUTINES  ###############################################
     # the following methods deal with age divisions
