@@ -24,6 +24,7 @@ function ShowPersonData(blockID)
   PersonDataWindow.document.open();
   PersonDataWindow.document.write('<html><head><title>PersonData</title><html><body>');
   PersonDataWindow.document.write(document.getElementById(blockID).innerHTML);  
+  PersonDataWindow.document.write('</body></html>');
   PersonDataWindow.document.close();  
   PersonDataWindow.focus(); 
 }

@@ -1,0 +1,364 @@
+{
+  "comp name": "Nashville Starz Dance Spectacular",
+  "heats": [
+    {
+      "number": 1,
+      "title": "Professional Rising Star Amer. Rhythm (CC,R,SW,B,M)",
+      "entries": [
+        {
+          "couple": "Nyemchek, David and Wilder, Maysen",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Sanchez, Sergio and Lutsenko, Tatyana",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Solodov, Sergei and Maslennikova, Ekaterina",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Rodriguez, Nicolas and Struk, Paulina",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Chen, Jonathan and Simanekova, Juanita",
+          "place": "5",
+          "points": 8.0
+        },
+        {
+          "couple": "Munson, Todd and Hotz, Ricci-Lee",
+          "place": "6",
+          "points": 7.0
+        },
+        {
+          "couple": "Garcia, Nicolas and Jenkins, Nora",
+          "place": "Semis",
+          "points": 0.2
+        },
+        {
+          "couple": "Les, Viktor Valentin and Korpitz, Sandra",
+          "place": "Semis",
+          "points": 5.0
+        },
+        {
+          "couple": "Matta, Juan and Ahearn, Alison",
+          "place": "Semis",
+          "points": 0.2
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Professional Rising Star Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Grinin, Evgenii and Morozova, Olga",
+          "place": "1",
+          "points": 9.0
+        },
+        {
+          "couple": "Spano, Mirko and Romano, Pamela",
+          "place": "2",
+          "points": 6.0
+        },
+        {
+          "couple": "Davis, Brogen and Davis, Katherine",
+          "place": "3",
+          "points": 3.5
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Professional Rising Star Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Nalyvaychuk, Vladyslav and Nalyvaychuk, Brianna",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Pohybil, Dmytro and Kushnir, Alona",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Guthrie, Trevor and Guthrie, Emily",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Solodov, Sergei and Maslennikova, Ekaterina",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Lightner, Christian and Kenney, Kia",
+          "place": "5",
+          "points": 8.0
+        },
+        {
+          "couple": "Elser, David and Krug, Elizabeth",
+          "place": "6",
+          "points": 7.0
+        },
+        {
+          "couple": "Wayne, Christopher and Evan, Mallory",
+          "place": "7",
+          "points": 6.0
+        },
+        {
+          "couple": "Camarata II, Kevin and Camarata, Michelle",
+          "place": "Semis",
+          "points": 1.0
+        },
+        {
+          "couple": "Grinin, Evgenii and Morozova, Olga",
+          "place": "Semis",
+          "points": 4.8
+        },
+        {
+          "couple": "Miraglia, Alessio and Jenkins, Nora",
+          "place": "Semis",
+          "points": 1.8
+        },
+        {
+          "couple": "Dawson, Staz and Gonyea, Jacklyn",
+          "place": "Semis",
+          "points": 0.8
+        },
+        {
+          "couple": "Winslow, Ryan and Greenslit, Shelby",
+          "place": "Semis",
+          "points": 0.2
+        },
+        {
+          "couple": "Vickers, Caleb and Elkin, Lilly",
+          "place": "Semis",
+          "points": 0.2
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Professional Rising Star Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Shipilov, Aleksei and Mitina, Julia",
+          "place": "1",
+          "points": 10.0
+        },
+        {
+          "couple": "Fulvi, Daniele and Criscione, Veronica",
+          "place": "2",
+          "points": 8.0
+        },
+        {
+          "couple": "Spadoni, Simone and Caporale, Simona",
+          "place": "3",
+          "points": 6.5
+        },
+        {
+          "couple": "Kora, Iurii and Hryn, Alisa",
+          "place": "4",
+          "points": 5.0
+        },
+        {
+          "couple": "Jenkins, Dylan and Jenkins, Nora",
+          "place": "5",
+          "points": 4.0
+        },
+        {
+          "couple": "Salinas, Daryl and van Ginkel, Monise",
+          "place": "6",
+          "points": 3.5
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Professional Open Amer. Rhythm (CC,R,SW,B,M)",
+      "entries": [
+        {
+          "couple": "Shipilov, Aleksei and Mitina, Julia",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "Nyemchek, David and Wilder, Maysen",
+          "place": "2",
+          "points": 24.0
+        },
+        {
+          "couple": "Sanchez, Sergio and Lutsenko, Tatyana",
+          "place": "3",
+          "points": 19.5
+        },
+        {
+          "couple": "Wayne, Christopher and Evan, Mallory",
+          "place": "4",
+          "points": 15.0
+        },
+        {
+          "couple": "Chen, Jonathan and Simanekova, Juanita",
+          "place": "5",
+          "points": 12.0
+        },
+        {
+          "couple": "Munson, Todd and Hotz, Ricci-Lee",
+          "place": "6",
+          "points": 10.5
+        },
+        {
+          "couple": "Garcia, Nicolas and Jenkins, Nora",
+          "place": "Semis",
+          "points": 0.3
+        },
+        {
+          "couple": "Les, Viktor Valentin and Korpitz, Sandra",
+          "place": "Semis",
+          "points": 7.5
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Professional Exhibition  Open Variable",
+      "entries": [
+        {
+          "couple": "Grinin, Evgenii and Morozova, Olga",
+          "place": "1",
+          "points": 18.0
+        },
+        {
+          "couple": "Spadoni, Simone and Caporale, Simona",
+          "place": "2",
+          "points": 12.0
+        },
+        {
+          "couple": "McClish, Devan and Mortimer, Brooke",
+          "place": "3",
+          "points": 7.0
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Professional Open Int'l Ballroom (W,T,VW,F,Q)",
+      "entries": [
+        {
+          "couple": "Wojciechowski, Oskar and Holody, Karolina",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Minaev, Aleksei and Minaeva, Elena",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Grinin, Evgenii and Morozova, Olga",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Spano, Mirko and Romano, Pamela",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Davis, Brogen and Davis, Katherine",
+          "place": "5",
+          "points": 8.0
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Professional Open Amer. Smooth (W,T,F,VW)",
+      "entries": [
+        {
+          "couple": "Pilipenchuk, Nikolai and Hudson, Sarika",
+          "place": "1",
+          "points": 30.0
+        },
+        {
+          "couple": "Nalyvaychuk, Vladyslav and Nalyvaychuk, Brianna",
+          "place": "2",
+          "points": 24.0
+        },
+        {
+          "couple": "Guthrie, Trevor and Guthrie, Emily",
+          "place": "3",
+          "points": 19.5
+        },
+        {
+          "couple": "Lightner, Christian and Kenney, Kia",
+          "place": "4",
+          "points": 15.0
+        },
+        {
+          "couple": "Elser, David and Krug, Elizabeth",
+          "place": "5",
+          "points": 12.0
+        },
+        {
+          "couple": "Wayne, Christopher and Evan, Mallory",
+          "place": "6",
+          "points": 10.5
+        },
+        {
+          "couple": "Miraglia, Alessio and Jenkins, Nora",
+          "place": "Semis",
+          "points": 4.5
+        },
+        {
+          "couple": "Dawson, Staz and Gonyea, Jacklyn",
+          "place": "Semis",
+          "points": 0.6
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Professional Open Int'l Latin (CC,S,R,PD,J)",
+      "entries": [
+        {
+          "couple": "Shipilov, Aleksei and Mitina, Julia",
+          "place": "1",
+          "points": 20.0
+        },
+        {
+          "couple": "Fulvi, Daniele and Criscione, Veronica",
+          "place": "2",
+          "points": 16.0
+        },
+        {
+          "couple": "Minaev, Aleksei and Minaeva, Elena",
+          "place": "3",
+          "points": 13.0
+        },
+        {
+          "couple": "Spadoni, Simone and Caporale, Simona",
+          "place": "4",
+          "points": 10.0
+        },
+        {
+          "couple": "Kora, Iurii and Hryn, Alisa",
+          "place": "5",
+          "points": 8.0
+        },
+        {
+          "couple": "Jenkins, Dylan and Jenkins, Nora",
+          "place": "6",
+          "points": 7.0
+        }
+      ]
+    }
+  ]
+}
