@@ -36,6 +36,10 @@ def get_last_name(couple_names, dancer=True):
     return f
 
 
+def swap_names(couple_names):
+    return get_name(couple_names, False) + " and " + get_name(couple_names, True)
+
+
 class RankingDataFile():
     '''
     This class maintains a year-long results file for a particular style,
@@ -171,7 +175,58 @@ class RankingDataFile():
                 index += 1
         else:
             return -1    
-        
+ 
+ 
+    def find_partial_matching_couples(self, couple_name):
+        matching_names = list()
+        matching_indices = list()
+
+        db_index = 0
+        while db_index > -1:            
+            # search by dancer's name 
+            db_index = self.find_couple_by_dancer(couple_name, start=db_index, last_name_only=True)
+            if db_index > -1:
+                # if found, add this couple to list of possible matches
+                matching_names.append(self.get_name_at_index(db_index))
+                matching_indices.append(db_index)
+                db_index += 1
+                
+        db_index = 0        
+        while db_index > -1:            
+            # search by partner's name 
+            db_index = self.find_couple_by_partner(couple_name, start=db_index, last_name_only=True)
+            if db_index > -1:
+                # if found, add this couple to list of possible matches, unless it is already there
+                if db_index not in matching_indices:
+                    matching_names.append(self.get_name_at_index(db_index))
+                    matching_indices.append(db_index)
+                db_index += 1
+                
+        couple_name = swap_names(couple_name)
+                
+        db_index = 0
+        while db_index > -1:            
+            # search by dancer's name 
+            db_index = self.find_couple_by_dancer(couple_name, start=db_index, last_name_only=True)
+            if db_index > -1:
+                # if found, add this couple to list of possible matches
+                matching_names.append(self.get_name_at_index(db_index))
+                matching_indices.append(db_index)
+                db_index += 1
+                
+        db_index = 0        
+        while db_index > -1:            
+            # search by partner's name 
+            db_index = self.find_couple_by_partner(couple_name, start=db_index, last_name_only=True)
+            if db_index > -1:
+                # if found, add this couple to list of possible matches, unless it is already there
+                if db_index not in matching_indices:
+                    matching_names.append(self.get_name_at_index(db_index))
+                    matching_indices.append(db_index)
+                db_index += 1        
+                
+        return matching_names
+    
 
     def find_couple(self, couple_name):
         ''' 
