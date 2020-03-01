@@ -302,7 +302,7 @@ class NdcaPremResults():
                 
     
     
-    def determine_heat_results(self, heat_report, sorted=True):
+    def determine_heat_results(self, heat_report):
         event_names = list()
         for index in range(heat_report.length()):
             if heat_report.description(index) not in event_names:
@@ -311,8 +311,7 @@ class NdcaPremResults():
             for e in self.events:
                 if e.name == event_name:
                     self.process_scoresheet_for_event(heat_report, e.id)
-        if sorted:
-            heat_report.sort()
+
             
             
     def event_id(self, title):
