@@ -562,100 +562,37 @@ class AppFrame(wx.Frame):
         # sort the couples by name to assist in finding a match
         self.current_couples.sort_couples()
         
-        matching_names = list()
-        matching_indices = list()
-
-        db_index = 0
-        while db_index > -1:            
-            # search by dancer's name 
-            db_index = self.current_couples.find_couple_by_dancer(entry["couple"], start=db_index, last_name_only=True)
-            if db_index > -1:
-                # if found, add this couple to list of possible matches
-                matching_names.append(self.current_couples.get_name_at_index(db_index))
-                matching_indices.append(db_index)
-                db_index += 1
-                
-        db_index = 0        
-        while db_index > -1:            
-            # search by partner's name 
-            db_index = self.current_couples.find_couple_by_partner(entry["couple"], start=db_index, last_name_only=True)
-            if db_index > -1:
-                # if found, add this couple to list of possible matches, unless it is already there
-                if db_index not in matching_indices:
-                    matching_names.append(self.current_couples.get_name_at_index(db_index))
-                    matching_indices.append(db_index)
-                db_index += 1        
-                
-        # Build a dialog with the names of the existing couples
-        message = "Search the list of couples for\n\n\t" + entry["couple"] + \
-            ".\n\nSelect a matching couple and Press OK.\nTo add them as a new couple, Press Cancel."
-        md = wx.SingleChoiceDialog(self, message, caption="Possible Matches", choices=matching_names)
-        if md.ShowModal() == wx.ID_OK:
-            db_index = matching_indices[md.GetSelection()]
-            new_name = matching_names[md.GetSelection()]
-            self.current_couples.add_result_to_couple(db_index, result)
-            self.Update_Couple_Name(entry, db_index, entry["couple"])
-
+        if self.db_category == "Pro":
+            leader = get_name(entry["couple"])
+            follower = get_name(entry["couple"], False)                       
+            new_couple = leader + " and " + follower
+            print("Adding", new_couple)
+            self.current_couples.add_couple(new_couple, result)
+        elif self.db_category == "Pro-Am":
+            # get instructor (partner) of this couple
+            student_name = get_name(entry["couple"])
+            instructor_name = get_name(entry["couple"], False)
+            # if this is an existing instructor, add the couple
+            if instructor_name in self.instructors.names:
+                print("Adding", entry["couple"])
+                self.current_couples.add_couple(entry["couple"], result) 
+            elif student_name in self.instructors.names:
+                new_couple = instructor_name + " and " + student_name
+                print("Adding", new_couple)
+                self.current_couples.add_couple(new_couple, result)
+            else: 
+                new_couple = student_name + " and " + instructor_name
+                self.current_couples.add_couple(new_couple, result)
+                print("Adding", new_couple, "- new instructor")
+                self.instructors.names.append(instructor_name)
+                self.instructors.names.sort()
         else:
-            # if match not found again, try to match manually from the entire list of couples
-            message = "Search the list of couples for\n\n\t" + entry["couple"] + \
-                ".\n\nSelect a matching couple and Press OK.\nTo add them as a new couple, Press Cancel."
-            # Build a dialog with the names of the existing couples
-            names = self.current_couples.get_list_of_names()
-            md = wx.SingleChoiceDialog(self, message, caption="Find a Match", choices=names)
-            if md.ShowModal() == wx.ID_OK:
-                # if user finds a match, add the result
-                db_index = md.GetSelection()
-                new_name = names[db_index]
-                self.current_couples.add_result_to_couple(db_index, result)  
-                self.Update_Couple_Name(entry, db_index, entry["couple"])
-            elif self.db_category == "Pro-Am":
-                # get instructor (partner) of this couple
-                student_name = get_name(entry["couple"])
-                instructor_name = get_name(entry["couple"], False)
-                # if this is an existing instructor, add the couple
-                if instructor_name in self.instructors.names:
-                    self.current_couples.add_couple(entry["couple"], result) 
-                elif student_name in self.instructors.names:
-                    new_couple = instructor_name + " and " + student_name
-                    self.current_couples.add_couple(new_couple, result)
-                else: 
-                    # ask the user which name is the instructor
-                    message = "Select the instructor."
-                    md = wx.SingleChoiceDialog(self, message, caption="Unknown Instructor", choices=[student_name, instructor_name],
-                                               style=wx.DEFAULT_DIALOG_STYLE | wx.RESIZE_BORDER | wx.OK | wx.CENTRE)
-                    if md.ShowModal() == wx.ID_OK:
-                        if md.GetSelection() == 0:
-                            # swap names
-                            student_name = instructor_name
-                            instructor_name = get_name(entry["couple"])
-                        new_couple = student_name + " and " + instructor_name
-                    
-                    # now look to match the instructor with slightly different spelling of name
-                    message = "Search the list of instructors for " + instructor_name + \
-                        ".\n\nSelect the matching name and Press OK. If no match, Press Cancel."
-                    md = wx.SingleChoiceDialog(self, message, caption="Match the instructor's name", choices=self.instructors.names)
-                    if md.ShowModal() == wx.ID_OK:
-                        # if user finds a match, change instructor name, and add the result
-                        db_index = md.GetSelection()
-                        new_name = self.instructors.names[db_index]
-                        new_couple = student_name + " and " + new_name
-                        alias = [entry["couple"], new_couple]
-                        if alias not in self.aliases:
-                            self.aliases.append(alias)                        
-                        self.current_couples.add_couple(new_couple, result)
-                    else:
-                        # new instructor, add the result, and add the instructor
-                        self.current_couples.add_couple(new_couple, result)
-                        self.instructors.names.append(instructor_name)
-                        self.instructors.names.sort()
-            else:
-                self.current_couples.add_couple(entry["couple"], result)
-                
+            self.current_couples.add_couple(entry["couple"], result)    
+            
         # re-sort by ranking
         self.current_couples.sort_couples(key1="avg_pts", key2="total_pts", reverse=True)
-        self.unsaved_updates = True
-
+        self.unsaved_updates = True        
+    
 
     def Process_Heat(self):
         '''
@@ -1009,7 +946,7 @@ class AppFrame(wx.Frame):
         self.nightclub_couples.save()
         self.country_couples.save()
         self.showdance_couples.save()  
-        self.instructors.save_to_file("data/2019/Rankings/professionals.txt")
+        self.instructors.save_to_file(self.folder_name + "/Rankings/professionals.txt")
         self.unsaved_updates = False
 
 
