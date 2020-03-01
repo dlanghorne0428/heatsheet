@@ -1,7 +1,8 @@
 import json
 from operator import itemgetter
 
-from heat import Heat, Heat_Report
+from heat import Heat, Heat_Report, prefix_removed
+
 
 ''' This module writes the results of a competition to a JSON file.
     There are three classes: 
@@ -95,6 +96,8 @@ class Comp_Results_File():
     def get_comp_name(self):
         ''' return the name of the competition.'''
         return self.info["comp name"]
+    
+
         
     def save_heat(self, heat_report):
         ''' add a set of heat results to the structure.'''        
@@ -106,7 +109,7 @@ class Comp_Results_File():
         
         while index < heat_report.length():
             e = heat_report.entry(index)
-            if e.info != current_info:
+            if prefix_removed(e.info) != prefix_removed(current_info):
                 if heat_result.length() > 0:
                     heat_result.sort_entries()
                     self.info["heats"].append(heat_result.heat)
