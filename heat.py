@@ -14,7 +14,7 @@ def is_multi_dance(s):
     
     
 def is_amateur_heat(s):
-    if "AC-" in s or "Amateur" in s or "AM/AM" in s or "AmAm" in s:
+    if "AC-" in s or "AA-" in s or "Amateur" in s or "YY-" in s or "AM/AM" in s or "AmAm" in s:
         return True
     else:
         return False
@@ -32,7 +32,7 @@ def dance_style(s):
         return "Nightclub"
     elif "Country" in s:
         return "Country"
-    elif "Cabaret" in s:
+    elif "Cabaret" in s or "Theatre" in s or "Theater" in s or "Exhibition" in s:
         return "Cabaret"
     else:
         print("Unknown style for heat", s)
@@ -87,7 +87,20 @@ def non_pro_heat_level(info):
 # return a blank set of heat information
 def dummy_heat_info():
     result = ("-----", "-----", "-----", "-----", "-----", "-----")
-    return result  
+    return result 
+
+
+def prefix_removed(info):
+    if info.startswith("L-"):
+        return info[2:]
+    elif info.startswith("G-"):
+        return info[2:]
+    elif info.startswith("AP-"):
+        return info[3:]
+    elif info.startswith("PA-"):
+        return info[3:]  
+    else:
+        return info
 
 
 class Heat():
@@ -205,10 +218,12 @@ class Heat():
                    # some other hour, just sort the times.
                 if self.time == h.time:
                     if self.heat_number == h.heat_number:
-                        if self.info == h.info:
+                        self_no_prefix = prefix_removed(self.info)
+                        h_no_prefix = prefix_removed(h.info)
+                        if self_no_prefix == h_no_prefix:
                             return self.shirt_number < h.shirt_number
                         else:
-                            return self.info < h.info                        
+                            return self_no_prefix < h_no_prefix                       
                     else:
                         return self.heat_number < h.heat_number
 
@@ -235,7 +250,7 @@ class Heat_Report():
     def length(self):
         return len(self.entries)
     
-    def entry(self, index):
+    def entry(self, index = 0):
         return self.entries[index]
     
     def description(self, index = 0):
