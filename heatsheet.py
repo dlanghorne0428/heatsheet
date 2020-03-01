@@ -25,7 +25,7 @@ from comp_organizer_results import CompOrgResults
 from comp_mngr_heatlist import CompMngrHeatlist, CompMngrHeat
 from comp_mngr_results import CompMngrResults
 from comp_results_file import Comp_Results_File
-from season_ranking import RankingDataFile, get_name
+from season_ranking import RankingDataFile, get_name, swap_names
 from heat import is_amateur_heat, is_multi_dance, dance_style
 from dancer_list import Dancer_List, Dancer_Type
 
@@ -146,7 +146,11 @@ class HelloFrame(wx.Frame):
         self.timer_state = None
         
         # save the current date
-        self.curr_date = date.today()        
+        self.curr_date = date.today()      
+        
+        # open the current list of instructors
+        self.instructors = Dancer_List(dancer_type=Dancer_Type.PRO)   
+        self.aliases = list()
 
         # declare a heatlist, scoresheet, and result_file object
         self.heatlist = None
@@ -651,7 +655,6 @@ class HelloFrame(wx.Frame):
                 default_filename = default_path + "/" + self.filename_from_url
                 new_filename = self.folder_name + "/" + self.filename_from_url
                 os.replace(default_filename, new_filename)
-            self.heatlist.write_event_list_to_file(self.folder_name)
             self.postOpenProcess()  
             
     
@@ -854,12 +857,71 @@ class HelloFrame(wx.Frame):
         self.ResetAllControls()
 
 
+    def FindAlias(self, name):
+        # check if alias has been found in this heatsheet
+        for alias in self.aliases:
+            if alias[0] == name:
+                return alias[1]
+        else:
+            return None
+
+
+    def AddAlias(self, new_name, current_name):
+        alias = [new_name, current_name]
+        if alias not in self.aliases:
+            self.aliases.append(alias)        
+
+    def FindInstructorName(self, name):
+        alias = self.FindAlias(name) 
+        if alias is not None:
+            return alias
+        else:     
+            # look to match with slightly different spelling of name
+            message = "Search the list of professionals for " + name + \
+                ".\n\nSelect the matching name and Press OK. If no match, Press Cancel."
+            md = wx.SingleChoiceDialog(self, message, caption="Match the name", choices=self.instructors.names)
+            if md.ShowModal() == wx.ID_OK:
+                # if user finds a match, create a new alias, and return the existing name
+                db_index = md.GetSelection()
+                existing_name = self.instructors.names[db_index]
+                self.AddAlias(name, existing_name)
+                return existing_name
+            else: 
+                # no match, add new instructor to list and use that name
+                self.instructors.names.append(name)
+                self.instructors.names.sort()    
+                return name
+                
+    
+    def Create_New_Pro_Couple(self, couple_name):
+        leader = get_name(couple_name)
+        follower = get_name(couple_name, False) 
+        if leader not in self.instructors.names:
+            leader = self.FindInstructorName(leader)
+        if follower not in self.instructors.names:
+            follower = self.FindInstructorName(follower)
+            
+        order = list()
+        order.append(leader + " and " + follower)
+        order.append(follower + " and " + leader)
+        # determine who is the leader of this couple
+        message = "Select the leader/follower order of this couple and Press OK. If no match, Press Cancel."
+        md = wx.SingleChoiceDialog(self, message, caption="Who's the leader?", choices=order, 
+                                   style=wx.DEFAULT_DIALOG_STYLE | wx.RESIZE_BORDER | wx.OK | wx.CENTRE) 
+        if md.ShowModal() == wx.ID_OK:
+            index = md.GetSelection()
+        else:
+            index = 0
+        return order[index]       
+            
+
     def OnCompProHeats(self, event):
         '''This method generates a mini-program for all the pro heats.'''
         self.list_ctrl.DeleteAllItems()
         self.report_title = "All Pro Heats"
-        self.heat_type = "Pro"
+        self.heat_type = "Pro"     
         
+             
         # for each pro heat, find the couples and populate the GUI
         for num in range(1, self.heatlist.max_pro_heat_num + 1):
             if type(self.heatlist) is CompMngrHeatlist:
@@ -868,10 +930,47 @@ class HelloFrame(wx.Frame):
                 h = CompOrgHeat(category="Pro heat", number=num)
             else:
                 h = NdcaPremHeat(category="Pro heat", number=num)
-                
+                                
             competitors = self.heatlist.list_of_couples_in_heat(h)
             if len(competitors) > 0:
+                h.info = competitors[0][3]  
+                self.current_couples_list = self.load_ranking_file_for_heat(h)
+                
                 for c in competitors:
+                    couple_name = c[5]
+                    alias_couple = self.FindAlias(couple_name)
+                    if alias_couple is None:
+                        index = self.current_couples_list.find_couple(couple_name)
+                        if index == -1:
+                            couple_name = swap_names(couple_name)
+                            index = self.current_couples_list.find_couple(couple_name)
+                            if index == -1:
+                                couple_name = swap_names(couple_name)
+                                matching_names = self.current_couples_list.find_partial_matching_couples(couple_name)
+                                if len(matching_names) > 0:
+                                    # Build a dialog with the names of the existing couples
+                                    message = "Search the list of couples for\n\n\t" + couple_name + \
+                                        ".\n\nSelect a matching couple and Press OK.\nIf no match found, Press Cancel."
+                                    md = wx.SingleChoiceDialog(self, message, caption="Possible Matches", choices=matching_names)
+                                    if md.ShowModal() == wx.ID_OK:
+                                        matching_couple_name = matching_names[md.GetSelection()] 
+                                        self.AddAlias(couple_name, matching_couple_name)
+                                        c[5] = matching_couple_name
+                                    else:
+                                        new_couple_name = self.Create_New_Pro_Couple(couple_name)
+                                        self.AddAlias(couple_name, new_couple_name)
+                                        c[5] = new_couple_name
+                                else:
+                                    new_couple_name = self.Create_New_Pro_Couple(couple_name)
+                                    self.AddAlias(couple_name, new_couple_name)
+                                    c[5] = new_couple_name
+                            else: 
+                                c[5] = couple_name
+                        else:
+                            pass  # entry matches as is 
+                    else:
+                        c[5] = alias_couple
+
                     self.list_ctrl.Append(c)
                 self.list_ctrl.Append(dummy_heat_info())
                 
@@ -881,6 +980,85 @@ class HelloFrame(wx.Frame):
         self.butt_rslt_ndca.Enable()
         self.butt_rslt_co.Enable()
         self.butt_rank.Enable()
+        
+        # save list of instructors
+        self.instructors.save_to_file("./data/" + str(self.curr_date.year) + "/Rankings/professionals.txt")
+ 
+ 
+    def Create_New_ProAm_Couple(self, couple_name):
+        leader = get_name(couple_name)
+        follower = get_name(couple_name, False) 
+        order = list()
+        if leader in self.instructors.names:
+            new_couple = follower + " and " + leader
+        elif follower  in self.instructors.names:
+            new_couple = leader + " and " + follower
+        else:   
+            # ask the user which name is the instructor
+            message = "Select the instructor."
+            md = wx.SingleChoiceDialog(self, message, caption="Unknown Instructor", choices=[leader, follower],
+                                                       style=wx.DEFAULT_DIALOG_STYLE | wx.RESIZE_BORDER | wx.OK | wx.CENTRE)
+            if md.ShowModal() == wx.ID_OK:
+                if md.GetSelection() == 0:
+                    # swap names
+                    student_name = follower
+                    instructor_name = leader
+                else: 
+                    student_name = leader
+                    instructor_name = follower
+        
+                # now look to match the instructor with slightly different spelling of name
+                message = "Search the list of instructors for " + instructor_name + \
+                                    ".\n\nSelect the matching name and Press OK. If no match, Press Cancel."
+                md = wx.SingleChoiceDialog(self, message, caption="Match the instructor's name", choices=self.instructors.names)
+                if md.ShowModal() == wx.ID_OK:
+                    # if user finds a match, change instructor name, and add the result
+                    db_index = md.GetSelection()
+                    new_name = self.instructors.names[db_index]
+                    new_couple = student_name + " and " + new_name
+
+                else:
+                    # new instructor, create the couple and add the instructor
+                    new_couple = student_name + " and " + instructor_name
+                    self.instructors.names.append(instructor_name)
+                    self.instructors.names.sort()
+
+        return new_couple
+    
+    
+    def FindMatchingCouple(self, couple_name):
+        alias_couple = self.FindAlias(couple_name)
+        if alias_couple is None:
+            index = self.current_couples_list.find_couple(couple_name)
+            if index == -1:
+                couple_name = swap_names(couple_name)
+                index = self.current_couples_list.find_couple(couple_name)
+                if index == -1:                                
+                    couple_name = swap_names(couple_name)
+                    matching_names = self.current_couples_list.find_partial_matching_couples(couple_name)
+                    if len(matching_names) > 0:
+                        # Build a dialog with the names of the existing couples
+                        message = "Search the list of couples for\n\n\t" + couple_name + \
+                            ".\n\nSelect a matching couple and Press OK.\nIf no match found, Press Cancel."
+                        md = wx.SingleChoiceDialog(self, message, caption="Possible Matches", choices=matching_names)
+                        if md.ShowModal() == wx.ID_OK:
+                            matching_couple_name = matching_names[md.GetSelection()] 
+                            self.AddAlias(couple_name, matching_couple_name)
+                            return matching_couple_name
+                        else:
+                            new_couple_name = self.Create_New_ProAm_Couple(couple_name)
+                            self.AddAlias(couple_name, new_couple_name)
+                            return new_couple_name
+                    else:
+                        new_couple_name = self.Create_New_ProAm_Couple(couple_name)
+                        self.AddAlias(couple_name, new_couple_name)
+                        return new_couple_name
+                else:
+                    return couple_name
+            else:
+                return couple_name
+        else:
+            return alias_couple        
  
  
     def OnProAmMultiDances(self, event):
@@ -888,8 +1066,6 @@ class HelloFrame(wx.Frame):
         self.list_ctrl.DeleteAllItems()
         self.report_title = "All Pro-Am Multi Dance Heats"
         self.heat_type = "Pro-Am"
-        
-        instructors = Dancer_List(dancer_type=Dancer_Type.PRO)
         
         # for each non-pro multi-dance heat, find the couples and populate the GUI
         for num in self.heatlist.multi_dance_heat_numbers:
@@ -900,21 +1076,27 @@ class HelloFrame(wx.Frame):
             else:
                 h = NdcaPremHeat(category="Heat", number=num)
                 
-            competitors = self.heatlist.list_of_couples_in_heat(h, sortby="info")                   
-            if len(competitors) > 0:
+            #competitors = self.heatlist.list_of_couples_in_heat(h, sortby="info")                   
+            #if len(competitors) > 0:
+            report = self.heatlist.build_heat_report(h, sorted=True, heat_type="Pro-Am")
+            if report.length() > 0:
                 multi_dance_entry_found = False
-                for c in competitors:
-                    if is_multi_dance(c[3]) and not is_amateur_heat(c[3]): 
+                self.current_couples_list = self.load_ranking_file_for_heat(report.entry())
+                
+                for index in range(report.length()):
+                    e = report.entry(index)
+                    couple_name = e.dancer + " and " + e.partner
+                    if e.multi_dance() and not e.amateur_heat(): 
                         multi_dance_entry_found = True
-                        dancer = get_name(c[5])
-                        partner = get_name(c[5], False)
-                        if dancer not in instructors.names and partner not in instructors.names:
-                            print("Can't find instructor", dancer, partner)
-                        self.list_ctrl.Append(c)
+                        
+                        self.current_couples_list = self.load_ranking_file_for_heat(e)
+                        new_couple_name = self.FindMatchingCouple(couple_name)
+                        
+                        info_list = e.info_list()
+                        info_list[5] = new_couple_name
+                        self.list_ctrl.Append(info_list)
                 if multi_dance_entry_found:
                     self.list_ctrl.Append(dummy_heat_info())
-                    
-            #print("Item Count:", self.list_ctrl.GetItemCount())
                 
         # enable the buttons that process the results and get rankings
         self.butt_rslt.Enable()
@@ -973,7 +1155,7 @@ class HelloFrame(wx.Frame):
             return None
         if h.category == "Pro heat":
             folder_name += "Pro"
-        elif is_amateur_heat(h):
+        elif is_amateur_heat(h.info):
             folder_name += "Amateur"
         else:
             folder_name += "Pro-Am"
@@ -1043,17 +1225,27 @@ class HelloFrame(wx.Frame):
                 # if there is a late entry, add that info to the GUI
                 if e.code == "LATE":
                     curr_item = self.list_ctrl.GetItem(self.item_index, 0)
-                    self.list_ctrl.InsertItem(curr_item)  
+                    self.list_ctrl.InsertItem(curr_item) 
+                    couple_names = e.dancer + " and " + e.partner
+                    print(couple_names, "is a late entry")
+                    
+                    new_couple = self.FindMatchingCouple(couple_names)
+                    
+                    self.list_ctrl.SetItem(self.item_index, 5, couple_names)  
+                    
+                else: # update report with couple name ordering from the GUI
+                    couple_names = self.list_ctrl.GetItemText(self.item_index, 5)
+                    e.dancer = get_name(couple_names, True)
+                    e.partner = get_name(couple_names, False)
                     
                 # for all couples, update the info from the heat report on the GUI
                 self.list_ctrl.SetItem(self.item_index, 0, e.category)
                 self.list_ctrl.SetItem(self.item_index, 1, str(e.heat_number) + e.extra)
                 self.list_ctrl.SetItem(self.item_index, 2, e.time)
-                # the names may have been re-ordered by processing the scoresheet
-                couple_names = e.dancer + " and " + e.partner
                 self.list_ctrl.SetItem(self.item_index, 3, e.info)   
                 self.list_ctrl.SetItem(self.item_index, 4, e.shirt_number)
-                self.list_ctrl.SetItem(self.item_index, 5, couple_names)    
+                # don't overwrite the couple names
+                #self.list_ctrl.SetItem(self.item_index, 5, e.dancer + " and " + e.partner)  
                 self.list_ctrl.SetItem(self.item_index, Results_Column, str(e.result))
                 self.item_index += 1
 
@@ -1091,7 +1283,6 @@ class HelloFrame(wx.Frame):
 
 
     def Build_Filename_For_Results(self, pathname):
-        #comp_name = self.heatlist.comp_name
         if len(pathname) > 0:
             pathname = pathname + "/"
         if self.heat_type == "Pro":
