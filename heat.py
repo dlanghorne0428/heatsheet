@@ -18,6 +18,14 @@ def is_amateur_heat(s):
         return True
     else:
         return False
+
+ 
+def is_junior_heat(s):
+    if "-Y" in s or "-J" in s or "PT" in s or "-TB" in s or "JR" in s:
+        return True
+    else:
+        return False
+    
     
 def dance_style(s):
     if "Smooth" in s:
@@ -197,7 +205,11 @@ class Heat():
 
     def amateur_heat(self):
         return is_amateur_heat(self.info)
-   
+
+
+    def junior_heat(self):
+        return is_junior_heat(self.info)   
+    
     
     # override < operator to sort heats by time. 
     # If times are the same, sort by info. 
