@@ -126,8 +126,11 @@ class Heatlist():
                         if ht.multi_dance() and ht.amateur_heat():
                             report.append(ht)
                     elif heat_type == "Pro-Am":
-                        if ht.multi_dance() and not ht.amateur_heat():
-                            report.append(ht)                        
+                        if ht.multi_dance() and not ht.amateur_heat() and not ht.junior_heat():
+                            report.append(ht)   
+                    elif heat_type == "Jr.Pro-Am":
+                        if ht.multi_dance() and not ht.amateur_heat() and ht.junior_heat():
+                            report.append(ht)                       
                     else:  # pro heat
                         report.append(ht)
         if sorted:
@@ -196,7 +199,7 @@ class Heatlist():
             h.populate(heat_info, d.code)
             d.add_heat(h)
 
-            if h.partner == "":
+            if h.partner == "" or h.partner == h.dancer:
                 couple = None
             else:
                 couple = Couple(h.dancer, h.partner)
