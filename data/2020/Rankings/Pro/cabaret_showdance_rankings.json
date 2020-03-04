@@ -1,5 +1,31 @@
 [
   {
+    "name": "Azarov, Mykhailo and Makarenko, Tetyana",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Professional Theater Arts/Cabaret",
+        "place": "1",
+        "points": 30.0
+      }
+    ],
+    "total_pts": 30.0,
+    "avg_pts": 30.0
+  },
+  {
+    "name": "Batih, Nazar and Cantley, Mariko",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Professional Exhibtion OP  Theatrical",
+        "place": "1",
+        "points": 18.0
+      }
+    ],
+    "total_pts": 18.0,
+    "avg_pts": 18.0
+  },
+  {
     "name": "Grinin, Evgenii and Morozova, Olga",
     "results": [
       {
@@ -24,6 +50,25 @@
     ],
     "total_pts": 18.0,
     "avg_pts": 18.0
+  },
+  {
+    "name": "Kudashev, Ivan and Sokolova, Ksusha",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Professional Cabaret OP  Cabaret",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Professional Theater Arts/Cabaret",
+        "place": "4",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 33.0,
+    "avg_pts": 16.5
   },
   {
     "name": "Jensen, Shane and Jensen, Shannon",
@@ -70,29 +115,48 @@
         "info": "Professional Show Dance",
         "place": "2",
         "points": 7.0
-      }
-    ],
-    "total_pts": 55.0,
-    "avg_pts": 13.75
-  },
-  {
-    "name": "Golubev, Valerii and Golubeva, Margarita",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "Open Professional Caberet",
-        "place": "2",
-        "points": 12.0
       },
       {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "Professional Open Cabaret",
+        "comp_name": "NYDF 2019",
+        "info": "Professional Theater Arts/Cabaret",
         "place": "2",
-        "points": 12.0
+        "points": 24.0
       }
     ],
-    "total_pts": 24.0,
-    "avg_pts": 12.0
+    "total_pts": 79.0,
+    "avg_pts": 15.8
+  },
+  {
+    "name": "Favilla, Manuel and Maidiuk, Natalia",
+    "results": [
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "Professional Showdance",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Smith, Craig and Harvey, Andrea",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "info": "Professional Cabaret",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Professional Theater Arts/Cabaret",
+        "place": "3",
+        "points": 19.5
+      }
+    ],
+    "total_pts": 26.5,
+    "avg_pts": 13.25
   },
   {
     "name": "Nugent, Joseph and Zenger, Kyla",
@@ -100,6 +164,19 @@
       {
         "comp_name": "City Lights Open",
         "info": "Professional Cabaret",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
+    "name": "Nunez, Antonio and Kashkina, Ksenia",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Professional Exhibtion OP  Theatrical",
         "place": "2",
         "points": 12.0
       }
@@ -121,6 +198,32 @@
     "avg_pts": 12.0
   },
   {
+    "name": "Pohl, Zachary and Freilich, Ariel",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Professional Theater Arts/Cabaret",
+        "place": "5",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
+    "name": "Gore, Gerard and Grohoske, Ellie",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Professional Theater Arts/Cabaret",
+        "place": "6",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 10.5,
+    "avg_pts": 10.5
+  },
+  {
     "name": "Lockhart, Ryan and Newman, Danelle",
     "results": [
       {
@@ -128,10 +231,72 @@
         "info": "Professional Cabaret",
         "place": "1",
         "points": 12.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Professional Theater Arts/Cabaret",
+        "place": "9",
+        "points": 7.5
       }
     ],
-    "total_pts": 12.0,
-    "avg_pts": 12.0
+    "total_pts": 19.5,
+    "avg_pts": 9.75
+  },
+  {
+    "name": "Golubev, Valerii and Golubeva, Margarita",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "Open Professional Caberet",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "Professional Open Cabaret",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Professional Cabaret OP  Cabaret",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Professional Theater Arts/Cabaret",
+        "place": "8",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 38.5,
+    "avg_pts": 9.62
+  },
+  {
+    "name": "Zhukovskyi, Nikita and Boiko, Angelina",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "Open Professional Caberet",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Professional Cabaret OP  Cabaret",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Professional Theater Arts/Cabaret",
+        "place": "7",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 28.0,
+    "avg_pts": 9.33
   },
   {
     "name": "Spadoni, Simone and Caporale, Simona",
@@ -147,10 +312,35 @@
         "info": "Professional Open Cabaret",
         "place": "3",
         "points": 7.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Professional Exhibtion OP  Theatrical",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "Professional Showdance",
+        "place": "2",
+        "points": 7.0
       }
     ],
-    "total_pts": 19.0,
-    "avg_pts": 9.5
+    "total_pts": 33.0,
+    "avg_pts": 8.25
+  },
+  {
+    "name": "Jacobsen, Abdiel and Bendul, Kristine",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Professional Theater Arts/Cabaret",
+        "place": "10",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
   },
   {
     "name": "Cromwell, Robbie and Trimble, Ruth",
@@ -171,32 +361,6 @@
       {
         "comp_name": "Nashville Starz Dance Spectacular",
         "info": "Professional Exhibition  Open Variable",
-        "place": "3",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 7.0,
-    "avg_pts": 7.0
-  },
-  {
-    "name": "Smith, Craig and Harvey, Andrea",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "info": "Professional Cabaret",
-        "place": "3",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 7.0,
-    "avg_pts": 7.0
-  },
-  {
-    "name": "Zhukovskyi, Nikita and Boiko, Angelina",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "Open Professional Caberet",
         "place": "3",
         "points": 7.0
       }
@@ -247,19 +411,7 @@
     "avg_pts": 0
   },
   {
-    "name": "Azarov, Mykhailo and Makarenko, Tetyana",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Ballard, Vincent and Perez, Tania",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Batih, Nazar and Cantley, Mariko",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -349,12 +501,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Gore, Gerard and Grohoske, Ellie",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Guthrie, Trevor and Guthrie, Emily",
     "results": [],
     "total_pts": 0,
@@ -379,12 +525,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Jacobsen, Abdiel and Bendul, Kristine",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Jenkins, Dylan and Jenkins, Nora",
     "results": [],
     "total_pts": 0,
@@ -404,12 +544,6 @@
   },
   {
     "name": "Katashinskiy, Artemiy and Katashinskiy, Marina",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Kudashev, Ivan and Sokolova, Ksusha",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -481,19 +615,7 @@
     "avg_pts": 0
   },
   {
-    "name": "Nunez, Antonio and Kashkina, Ksenia",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Panesi, Maximiliano and Delano, Valentina",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Pohl, Zachary and Freilich, Ariel",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
