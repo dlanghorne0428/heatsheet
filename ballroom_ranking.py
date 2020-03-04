@@ -31,6 +31,7 @@ Dance_Styles = [
 Ranking_Databases = [
     "Pro",
     "Pro-Am",
+    "Jr.Pro-Am",
     "Amateur"
 ]
     
@@ -502,6 +503,8 @@ class AppFrame(wx.Frame):
                 filename = self.folder_name + "/Comps/" + result["comp_name"] + "/pro_results.json"
             elif self.current_db_index == 1:   
                 filename = self.folder_name + "/Comps/" + result["comp_name"] + "/pro-am_results.json"
+            elif self.current_db_index == 2:   
+                filename = self.folder_name + "/Comps/" + result["comp_name"] + "/junior_pro-am_results.json"            
             else:
                 filename = self.folder_name + "/Comps/" + result["comp_name"] + "/amateur_results.json"      
             comp_data = Comp_Results_File(filename)
@@ -568,7 +571,7 @@ class AppFrame(wx.Frame):
             new_couple = leader + " and " + follower
             print("Adding", new_couple)
             self.current_couples.add_couple(new_couple, result)
-        elif self.db_category == "Pro-Am":
+        elif self.db_category in ("Pro-Am", "Jr.Pro-Am"):
             # get instructor (partner) of this couple
             student_name = get_name(entry["couple"])
             instructor_name = get_name(entry["couple"], False)
@@ -748,6 +751,9 @@ class AppFrame(wx.Frame):
             elif self.current_db_index == 1:
                 self.comp_results = Comp_Results_File(folder_name + "/pro-am_results.json") 
                 self.automation = True
+            elif self.current_db_index == 2:
+                self.comp_results = Comp_Results_File(folder_name + "/junior_pro-am_results.json") 
+                self.automation = True            
             else:
                 self.comp_results = Comp_Results_File(folder_name + "/amateur_results.json")  
                 self.automation = True
