@@ -149,7 +149,7 @@ class Heat():
         summary.append(self.shirt_number)
 
         dancer_info = ""
-        if len(self.partner) > 0:
+        if self.partner is None:
             dancer_info = self.dancer + " and " + self.partner
         else:
             dancer_info = self.dancer
