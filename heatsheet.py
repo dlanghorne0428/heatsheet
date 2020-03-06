@@ -151,8 +151,7 @@ class HelloFrame(wx.Frame):
         # open the current list of instructors and students
         self.instructors = Dancer_List(dancer_type=Dancer_Type.PRO)
         self.adult_students = Dancer_List(dancer_type=Dancer_Type.ADULT_STUDENT)
-        self.pro_aliases = list()
-        self.couple_aliases = list()
+        self.junior_students = Dancer_List(dancer_type=Dancer_Type.JUNIOR_STUDENT)
 
         # declare a heatlist, scoresheet, and result_file object
         self.heatlist = None
@@ -445,6 +444,12 @@ class HelloFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_COMP_PROAM_MULTI, True)
         self.viewMenu.Enable(self.ID_VIEW_COMP_JR_PROAM_MULTI, True)
         self.viewMenu.Enable(self.ID_VIEW_COMP_AMAM_MULTI, True)
+        
+        # reset alias lists for this comp
+        self.pro_aliases = list()
+        self.couple_aliases = list()
+        self.adult_student_aliases = list()        
+        self.junior_student_aliases = list()  
         self.heat_cat.SetSelection(0)    # default to Heat
         self.heat_selection.SetMax(self.heatlist.max_heat_num)
         self.SetStatusText("Select a Division, Dancer, or Couple")
@@ -880,25 +885,38 @@ class HelloFrame(wx.Frame):
             alias_list.append(alias)        
 
 
-    def FindInstructorName(self, name):
-        alias = self.FindAlias(self.pro_aliases, name) 
+    def Find_Name_From_Database(self, name, dancer_type=Dancer_Type.PRO):
+        if dancer_type == Dancer_Type.PRO:
+            alias_list = self.pro_aliases
+            dancer_list = self.instructors.names
+            phrase = "professionals"
+        elif dancer_type == Dancer_Type.ADULT_STUDENT:
+            alias_list = self.adult_student_aliases
+            dancer_list = self.adult_students.names
+            phrase = "pro-am students"
+        else: # dancer_type == Dancer_Type.JUNIOR_STUDENT:
+            alias_list = self.junior_student_aliases
+            dancer_list = self.junior_students.names
+            phrase = "junior pro-am students"        
+            
+        alias = self.FindAlias(alias_list, name) 
         if alias is not None:
             return alias
         else:     
             # look to match with slightly different spelling of name
-            message = "Search the list of professionals for " + name + \
+            message = "Search the list of " + phrase + " for " + name + \
                 ".\n\nSelect the matching name and Press OK. If no match, Press Cancel."
-            md = wx.SingleChoiceDialog(self, message, caption="Match the name", choices=self.instructors.names)
+            md = wx.SingleChoiceDialog(self, message, caption="Match the name", choices=dancer_list)
             if md.ShowModal() == wx.ID_OK:
                 # if user finds a match, create a new alias, and return the existing name
                 db_index = md.GetSelection()
-                existing_name = self.instructors.names[db_index]
-                self.AddAlias(self.pro_aliases, name, existing_name)
+                existing_name = dancer_list[db_index]
+                self.AddAlias(alias_list, name, existing_name)
                 return existing_name
             else: 
                 # no match, add new instructor to list and use that name
-                self.instructors.names.append(name)
-                self.instructors.names.sort()    
+                dancer_list.append(name)
+                dancer_list.sort()    
                 return name
                 
     
@@ -906,9 +924,9 @@ class HelloFrame(wx.Frame):
         leader = get_name(couple_name)
         follower = get_name(couple_name, False) 
         if leader not in self.instructors.names:
-            leader = self.FindInstructorName(leader)
+            leader = self.Find_Name_From_Database(leader)
         if follower not in self.instructors.names:
-            follower = self.FindInstructorName(follower)
+            follower = self.Find_Name_From_Database(follower)
             
         order = list()
         order.append(leader + " and " + follower)
@@ -962,14 +980,16 @@ class HelloFrame(wx.Frame):
         self.instructors.save_to_file("./data/" + str(self.curr_date.year) + "/Rankings/professionals.txt")
  
  
-    def Create_New_ProAm_Couple(self, couple_name):
+    def Create_New_ProAm_Couple(self, couple_name, heat_type):
         leader = get_name(couple_name)
         follower = get_name(couple_name, False) 
         order = list()
         if leader in self.instructors.names:
-            new_couple = follower + " and " + leader
+            instructor_name = leader
+            student_name = follower
         elif follower  in self.instructors.names:
-            new_couple = leader + " and " + follower
+            instructor_name = follower
+            student_name = leader
         else:   
             # ask the user which name is the instructor
             message = "Select the instructor."
@@ -985,10 +1005,17 @@ class HelloFrame(wx.Frame):
                     instructor_name = follower
         
                 # now look to match the instructor with slightly different spelling of name
-                instructor_name = self.FindInstructorName(instructor_name)
-                new_couple = student_name + " and " + instructor_name
+                instructor_name = self.Find_Name_From_Database(instructor_name)
+        
+        # match this student
+        if heat_type == "Pro-Am":
+            if student_name not in self.adult_students.names:
+                student_name = self.Find_Name_From_Database(student_name, dancer_type=Dancer_Type.ADULT_STUDENT)
+        else:  # heat_type == "Jr.Pro-Am" 
+            if student_name not in self.junior_students.names:
+                student_name = self.Find_Name_From_Database(student_name, dancer_type=Dancer_Type.JUNIOR_STUDENT)        
 
-        return new_couple
+        return student_name + " and " + instructor_name
     
     
     def FindMatchingCouple(self, couple_name, heat_type):
@@ -1014,14 +1041,14 @@ class HelloFrame(wx.Frame):
                             if heat_type == "Pro":
                                 new_couple_name = self.Create_New_Pro_Couple(couple_name)
                             else:
-                                new_couple_name = self.Create_New_ProAm_Couple(couple_name)
+                                new_couple_name = self.Create_New_ProAm_Couple(couple_name, heat_type)
                             self.AddAlias(self.couple_aliases, couple_name, new_couple_name)
                             return new_couple_name
                     else:
                         if heat_type == "Pro":
                             new_couple_name = self.Create_New_Pro_Couple(couple_name)
                         else:
-                            new_couple_name = self.Create_New_ProAm_Couple(couple_name)
+                            new_couple_name = self.Create_New_ProAm_Couple(couple_name, heat_type)
                         self.AddAlias(self.couple_aliases, couple_name, new_couple_name)
                         return new_couple_name
                 else:
@@ -1204,7 +1231,7 @@ class HelloFrame(wx.Frame):
             for index in range(report.length()):
                 e = report.entry(index)
                 
-                # if there is a late entry, add that info to the GUI
+                # if there is a late entry, add that info to the GUI and full name to the report
                 if e.code == "LATE":
                     curr_item = self.list_ctrl.GetItem(self.item_index, 0)
                     self.list_ctrl.InsertItem(curr_item) 
@@ -1212,7 +1239,8 @@ class HelloFrame(wx.Frame):
                     print(couple_names, "is a late entry")
                     
                     new_couple = self.FindMatchingCouple(couple_names, self.heat_type)
-                    
+                    e.dancer = get_name(new_couple, True)
+                    e.partner = get_name(new_couple, False)                    
                     self.list_ctrl.SetItem(self.item_index, 5, new_couple)  
                     
                 else: # update report
