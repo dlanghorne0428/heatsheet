@@ -1,5 +1,18 @@
 [
   {
+    "name": "Mock, Robin and Telona Jr., Felipe",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-B Open  Nightclub Championship (BA/MER/SAL)\r",
+        "place": "1",
+        "points": 18.0
+      }
+    ],
+    "total_pts": 18.0,
+    "avg_pts": 18.0
+  },
+  {
     "name": "Lindsay, Cindy and Samchynskyy, Sergiy",
     "results": [
       {
@@ -13,12 +26,70 @@
     "avg_pts": 15.0
   },
   {
+    "name": "DeJesa, Yhing and Nunez, Antonio",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-B Closed Silver Nightclub Championship (BA/MER/SAL)\r",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-B Closed Silver Nightclub Championship (WCS/NC2/HU)\r",
+        "place": "1",
+        "points": 13.5
+      }
+    ],
+    "total_pts": 24.75,
+    "avg_pts": 12.38
+  },
+  {
+    "name": "Chen, Jenny and Nunez, Antonio",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-B Open Silver Nightclub Championship (BA/MER/SAL)\r",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
+    "name": "Jones, Jan and Novikov, Alexander",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-B Open  Nightclub Championship (BA/MER/SAL)\r",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
     "name": "Pack, Becca and De La Cruz, Melbin",
     "results": [
       {
         "comp_name": "Golden Star Dancesport Championships",
         "info": "L-B1 Full Silver Club 3 Dance (Hustle,Merengue,Salsa)",
         "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
+    "name": "Reyes, Lito and Carrillo, Bailey",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "G-B Open  Nightclub Championship (WCS/NC2/HU)\r",
+        "place": "1",
         "points": 12.0
       }
     ],
@@ -71,11 +142,99 @@
     "avg_pts": 9.5
   },
   {
+    "name": "Harrell, Darlene and Leary, Alonzo",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Nightclub S/B/M Multi-Dance Events Closed Silver C Nightclub (SA,BA,ME)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Nightclub S/H/WCS Multi-Dance Events Closed Silver C Nightclub (SA,H,WCS)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Nightclub S/B/M Multi-Dance Events Closed Silver B Nightclub (SA,BA,ME)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Nightclub S/H/WCS Multi-Dance Events Closed Silver B Nightclub (SA,H,WCS)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 36.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Jones, Marsha and Botello, Eric",
+    "results": [
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-SR1 Silver Club Dance Challenge (Bachata/Merengue/Salsa)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-SR1 Bronze Club Dance Challenge (Bachata/Merengue/Salsa)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-SR1 Gold Club Dance Challenge (Bachata/Merengue/Salsa)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 27.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Greenberg, Michele and Radon, Tommy",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Nightclub S/B/M Multi-Dance Events Closed Silver S1 Nightclub (SA,BA,ME)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Nightclub S/H/WCS Multi-Dance Events Closed Silver S1 Nightclub (SA,H,WCS)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 18.0,
+    "avg_pts": 9.0
+  },
+  {
     "name": "Barnett, Charlene and Wilson, Randy",
     "results": [
       {
         "comp_name": "The Snow Ball 2020",
         "info": "AP-C Closed Silver Nightclub (WC/N2/H)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Cohen, Gail and Radon, Tommy",
+    "results": [
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-B Silver Club Dance Challenge (Bachata/Merengue/Salsa)",
         "place": "1",
         "points": 9.0
       }
@@ -97,6 +256,37 @@
     "avg_pts": 9.0
   },
   {
+    "name": "Blakeslee, Jan and Gronek, Jean-Paul",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-B Pro/Am Closed Silver Night Club 3 Dance (Hustle/NC 2 Step/West Coast)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-B Pro/Am Closed Silver Night Club 3 Dance (Merengue/Salsa/Bachata)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-B Closed Silver Nightclub Championship (BA/MER/SAL)\r",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-B Closed Silver Nightclub Championship (WCS/NC2/HU)\r",
+        "place": "2",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 32.25,
+    "avg_pts": 8.06
+  },
+  {
     "name": "Moore, Rebecca and Labrado, Rafael",
     "results": [
       {
@@ -110,12 +300,38 @@
     "avg_pts": 8.0
   },
   {
+    "name": "Hammersly, Katherine and Kashkina, Ksenia",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-B Closed Bronze Nightclub Championship (BA/MER/SAL)\r",
+        "place": "1",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
+  },
+  {
     "name": "Katz, Alyssa and Sopin, Ricardo",
     "results": [
       {
         "comp_name": "Golden Star Dancesport Championships",
         "info": "L-B1 Full Silver Club 3 Dance (Hustle,Merengue,Salsa)",
         "place": "4",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
+  },
+  {
+    "name": "Tanzer, Laraine and Nunez, Antonio",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-B Closed Bronze Nightclub Championship (WCS/NC2/HU)\r",
+        "place": "1",
         "points": 7.5
       }
     ],
@@ -149,6 +365,38 @@
     "avg_pts": 7.5
   },
   {
+    "name": "Athanasakos, Nina and Rodica, Matic",
+    "results": [
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-C Bronze Club Dance Challenge (Bachata/Merengue/Salsa)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-C Silver Club Dance Challenge (Bachata/Merengue/Salsa)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 14.75,
+    "avg_pts": 7.38
+  },
+  {
+    "name": "Reyes, Lito and Hopwood, Alexandra",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-B Open  Nightclub Championship (BA/MER/SAL)\r",
+        "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 7.0,
+    "avg_pts": 7.0
+  },
+  {
     "name": "Khouri, Grace and Lerum, Troy",
     "results": [
       {
@@ -162,11 +410,113 @@
     "avg_pts": 6.5
   },
   {
+    "name": "Kelly, Diane and Hammaker, Micah",
+    "results": [
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-C Bronze Club Dance Challenge (Bachata/Merengue/Salsa)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-C Silver Club Dance Challenge (Bachata/Merengue/Salsa)",
+        "place": "2",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 12.75,
+    "avg_pts": 6.38
+  },
+  {
+    "name": "Krieger, Elaine and McKeever, Michael",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Nightclub S/H/WCS Multi-Dance Events Closed Bronze C Nightclub (SA,H,WCS)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Nightclub S/B/M Multi-Dance Events Closed Bronze B Nightclub (SA,BA,ME)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Nightclub S/B/M Multi-Dance Events Closed Bronze C Nightclub (SA,BA,ME)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Nightclub S/H/WCS Multi-Dance Events Closed Bronze B Nightclub (SA,H,WCS)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 24.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Berumed, Susan and Suvorov, Oleg",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-A Closed Bronze Nightclub Championship (WCS/NC2/HU)\r",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Ferris, Samantha and Doroshenko, Roman",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Nightclub S/H/WCS Multi-Dance Events Closed Bronze A Nightclub (SA,H,WCS)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Gingery, Don and Beletsky, Aggie",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-B Pro/Am Closed Bronze Night Club 3 Dance (Merengue/Salsa/Bachata)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Loving, Ada and Hotz, Ricci-Lee",
     "results": [
       {
         "comp_name": "The Snow Ball 2020",
         "info": "AP-S2 Closed Bronze Nightclub (WC/N2/H)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Mullineaux, Joey and Wilson, Kenneth",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-B Pro/Am Closed Bronze Night Club 3 Dance (Merengue/Salsa/Bachata)",
         "place": "1",
         "points": 6.0
       }
@@ -214,6 +564,25 @@
     "avg_pts": 5.0
   },
   {
+    "name": "Tanzer, Laraine and Poloyapoy, Jerswin",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-B Closed Bronze Nightclub Championship (BA/MER/SAL)\r",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-B Closed Silver Nightclub Championship (WCS/NC2/HU)\r",
+        "place": "3",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 8.75,
+    "avg_pts": 4.38
+  },
+  {
     "name": "McGann, Kaye and Kibel, Mitchel",
     "results": [
       {
@@ -251,6 +620,89 @@
     ],
     "total_pts": 3.5,
     "avg_pts": 3.5
+  },
+  {
+    "name": "Williams, Marianne and Suvorov, Oleg",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-B Closed Bronze Nightclub Championship (WCS/NC2/HU)\r",
+        "place": "2",
+        "points": 3.5
+      }
+    ],
+    "total_pts": 3.5,
+    "avg_pts": 3.5
+  },
+  {
+    "name": "Gazzanigo, Robin and Leary, Alonzo",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Nightclub S/H/WCS Multi-Dance Events Newcomer C Nightclub (SA,H,WCS)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Nightclub S/B/M Multi-Dance Events Newcomer B Nightclub (SA,BA,ME)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Nightclub S/B/M Multi-Dance Events Newcomer C Nightclub (SA,BA,ME)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Nightclub S/H/WCS Multi-Dance Events Newcomer B Nightclub (SA,H,WCS)",
+        "place": "1",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 3.0
+  },
+  {
+    "name": "Hill, Kathy and Elsbury, Craig",
+    "results": [
+      {
+        "comp_name": "Texas Challenge DanceSport",
+        "info": "L-C Nightclub Newcomer 2-Dance (SAL/MER)",
+        "place": "1",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
+  },
+  {
+    "name": "King, Aubrey and Timar, Krisztian",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Nightclub S/B/M Multi-Dance Events Newcomer A Nightclub (SA,BA,ME)",
+        "place": "1",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
+  },
+  {
+    "name": "Reed, Lee Ann and Doroshenko, Roman",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Nightclub S/H/WCS Multi-Dance Events Newcomer S1 Nightclub (SA,H,WCS)",
+        "place": "1",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
   },
   {
     "name": "Ambrose, Dave and Shiller, Ginny Ray",
@@ -332,12 +784,6 @@
   },
   {
     "name": "Biard, Karen and Stall, Chad",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Blakeslee, Jan and Gronek, Jean-Paul",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -518,12 +964,6 @@
   },
   {
     "name": "DeBraal, Sally and Blanc, Michael",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "DeJesa, Yhing and Nunez, Antonio",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -727,12 +1167,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Gingery, Don and Beletsky, Aggie",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Glazner, Carolyn and Jaksevicius, Danas",
     "results": [],
     "total_pts": 0,
@@ -853,12 +1287,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Jones, Marsha and Botello, Eric",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Jourden, Danielle and Glosson, Sherrad",
     "results": [],
     "total_pts": 0,
@@ -889,12 +1317,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Kelly, Diane and Hammaker, Micah",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Kelly, Elena and Castillo, Juan",
     "results": [],
     "total_pts": 0,
@@ -908,12 +1330,6 @@
   },
   {
     "name": "Khvalova, Irina and Thibault, Richard",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "King, Aubrey and Timar, Krisztian",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -1322,18 +1738,6 @@
   },
   {
     "name": "Raphelson, Martha and Avila, Ignacio",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Reyes, Lito and Carrillo, Bailey",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Reyes, Lito and Hopwood, Alexandra",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0

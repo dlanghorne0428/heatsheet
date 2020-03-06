@@ -3,6 +3,7 @@ import json
 from operator import itemgetter
 
 from comp_results_file import Comp_Results_File
+from heat import is_junior_heat
 
 
 def get_name(couple_names, dancer=True):
@@ -97,12 +98,8 @@ class RankingDataFile():
     def is_junior(self, index):
         couple = self.info[index]
         for r in couple["results"]:
-            if "-Y" in r["info"] or "-J" in r["info"] or "-PT" in r["info"] or "-TB" in r["info"]:
+            if is_junior_heat(r["info"]):
                 return True
-            elif "PT" in r["info"]:
-                return True
-            elif "JR" in r["info"]:
-                return True            
         else:
             return False
         

@@ -48,7 +48,12 @@ def calc_points(level, placement, num_competitors = 6, rounds = "F", accum = 0):
             else:
                 percent = percent_table[place]     
         else:
-            percent = percent_table[place]   
+            if num_competitors >= 10:
+                max_pts = level + 10
+            if place >= len(percent_table):
+                percent = percent_table[-1] 
+            else:
+                percent = percent_table[place]   
         return max_pts * percent / 100 
     elif num_competitors == 4:
         percent_table = [100, 70, 50, 35];
