@@ -152,6 +152,8 @@ class HelloFrame(wx.Frame):
         self.instructors = Dancer_List(dancer_type=Dancer_Type.PRO)
         self.adult_students = Dancer_List(dancer_type=Dancer_Type.ADULT_STUDENT)
         self.junior_students = Dancer_List(dancer_type=Dancer_Type.JUNIOR_STUDENT)
+        self.adult_amateurs = Dancer_List(dancer_type=Dancer_Type.ADULT_AMATEUR)
+        self.junior_amateurs = Dancer_List(dancer_type=Dancer_Type.JUNIOR_AMATEUR)
 
         # declare a heatlist, scoresheet, and result_file object
         self.heatlist = None
@@ -190,6 +192,7 @@ class HelloFrame(wx.Frame):
         self.ID_VIEW_COMP_FORMATIONS = 134
         self.ID_VIEW_COMP_TEAM_MATCHES = 135
         self.ID_VIEW_COMP_JR_PROAM_MULTI = 136
+        self.ID_VIEW_COMP_JR_AM_MULTI = 137  
      
 
         # Make a file menu with Open, Open URL, Save As, Close, and Exit items
@@ -248,6 +251,8 @@ class HelloFrame(wx.Frame):
                                             "View all the amateur multi-dance heats in this competition.")
         compJrProAmItem = self.viewMenu.Append(self.ID_VIEW_COMP_JR_PROAM_MULTI, "All Junior Pro-Am Multi-Dances in Comp",
                                                "View all the junior pro/am multi-dance heats in this competition.")    
+        compJrAmAmItem = self.viewMenu.Append(self.ID_VIEW_COMP_JR_AM_MULTI, "All Junior Amateur Multi-Dances in Comp",
+                                                   "View all the junior amateur multi-dance heats in this competition.")       
         compSoloItem = self.viewMenu.Append(self.ID_VIEW_COMP_SOLOS, "All Solos in Comp",
                                             "View all the solos in this competition.")
         compFormItem = self.viewMenu.Append(self.ID_VIEW_COMP_FORMATIONS, "All Formations in Comp",
@@ -305,7 +310,8 @@ class HelloFrame(wx.Frame):
         self.Bind(wx.EVT_MENU, self.OnCompTeamMatches, teamMatchFormItem)
         self.Bind(wx.EVT_MENU, self.OnAdultProAmMultiDances, compProAmItem)
         self.Bind(wx.EVT_MENU, self.OnJuniorProAmMultiDances, compJrProAmItem)
-        self.Bind(wx.EVT_MENU, self.OnAmAmMultiDances, compAmAmItem)
+        self.Bind(wx.EVT_MENU, self.OnAdultAmAmMultiDances, compAmAmItem)
+        self.Bind(wx.EVT_MENU, self.OnJuniorAmAmMultiDances, compJrAmAmItem)
         self.Bind(wx.EVT_MENU, self.OnAbout, aboutItem)
 
 
@@ -393,6 +399,7 @@ class HelloFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_COMP_PROAM_MULTI, False)
         self.viewMenu.Enable(self.ID_VIEW_COMP_JR_PROAM_MULTI, False)
         self.viewMenu.Enable(self.ID_VIEW_COMP_AMAM_MULTI, False)  
+        self.viewMenu.Enable(self.ID_VIEW_COMP_JR_AM_MULTI, False)
         self.folder_name = "./data"
         self.filename_from_url = None
         self.SetStatusText("Choose File->Open to open a heatlist file")
@@ -444,12 +451,15 @@ class HelloFrame(wx.Frame):
         self.viewMenu.Enable(self.ID_VIEW_COMP_PROAM_MULTI, True)
         self.viewMenu.Enable(self.ID_VIEW_COMP_JR_PROAM_MULTI, True)
         self.viewMenu.Enable(self.ID_VIEW_COMP_AMAM_MULTI, True)
+        self.viewMenu.Enable(self.ID_VIEW_COMP_JR_AM_MULTI, True)
         
         # reset alias lists for this comp
         self.pro_aliases = list()
         self.couple_aliases = list()
         self.adult_student_aliases = list()        
         self.junior_student_aliases = list()  
+        self.adult_amateur_aliases = list()    
+        self.junior_amateur_aliases = list()
         self.heat_cat.SetSelection(0)    # default to Heat
         self.heat_selection.SetMax(self.heatlist.max_heat_num)
         self.SetStatusText("Select a Division, Dancer, or Couple")
@@ -894,10 +904,18 @@ class HelloFrame(wx.Frame):
             alias_list = self.adult_student_aliases
             dancer_list = self.adult_students.names
             phrase = "pro-am students"
-        else: # dancer_type == Dancer_Type.JUNIOR_STUDENT:
+        elif dancer_type == Dancer_Type.ADULT_AMATEUR:
+            alias_list = self.adult_amateur_aliases
+            dancer_list = self.adult_amateurs.names
+            phrase = "adult amateurs" 
+        elif dancer_type == Dancer_Type.JUNIOR_STUDENT:
             alias_list = self.junior_student_aliases
             dancer_list = self.junior_students.names
-            phrase = "junior pro-am students"        
+            phrase = "junior pro-am students"   
+        else: # dancer_type == Dancer_Type.JUNIOR_AMATEUR
+            alias_list = self.junior_amateur_aliases
+            dancer_list = self.junior_amateurs.names
+            phrase = "junior amateurs"          
             
         alias = self.FindAlias(alias_list, name) 
         if alias is not None:
@@ -1040,6 +1058,8 @@ class HelloFrame(wx.Frame):
                         else:
                             if heat_type == "Pro":
                                 new_couple_name = self.Create_New_Pro_Couple(couple_name)
+                            elif heat_type == "Amateur" or heat_type == "Jr.Amateur":
+                                new_couple_name = self.Create_New_Amateur_Couple(couple_name, heat_type)
                             else:
                                 new_couple_name = self.Create_New_ProAm_Couple(couple_name, heat_type)
                             self.AddAlias(self.couple_aliases, couple_name, new_couple_name)
@@ -1047,6 +1067,8 @@ class HelloFrame(wx.Frame):
                     else:
                         if heat_type == "Pro":
                             new_couple_name = self.Create_New_Pro_Couple(couple_name)
+                        elif heat_type == "Amateur" or heat_type == "Jr.Amateur":
+                            new_couple_name = self.Create_New_Amateur_Couple(couple_name, heat_type)                        
                         else:
                             new_couple_name = self.Create_New_ProAm_Couple(couple_name, heat_type)
                         self.AddAlias(self.couple_aliases, couple_name, new_couple_name)
@@ -1086,7 +1108,7 @@ class HelloFrame(wx.Frame):
                     if e.multi_dance() and not e.amateur_heat(): 
                         multi_dance_entry_found = True
                         
-                        self.current_couples_list = self.load_ranking_file_for_heat(e)
+                        #self.current_couples_list = self.load_ranking_file_for_heat(e)
                         new_couple_name = self.FindMatchingCouple(couple_name, self.heat_type)
                         
                         info_list = e.info_list()
@@ -1112,12 +1134,41 @@ class HelloFrame(wx.Frame):
         self.heat_type = "Jr.Pro-Am"
         self.FindProAmMultiDances()
         
+        
+    def Create_New_Amateur_Couple(self, couple_name, heat_type):
+        if heat_type == "Amateur":
+            database_names = self.adult_amateurs.names
+            dancer_type = Dancer_Type.ADULT_AMATEUR
+        else:
+            database_names = self.junior_amateurs.names
+            dancer_type = Dancer_Type.JUNIOR_AMATEUR
+            
+        leader = get_name(couple_name)
+        follower = get_name(couple_name, False) 
+        
+        if leader not in database_names:
+            leader = self.Find_Name_From_Database(leader, dancer_type)
+        if follower not in database_names:
+            follower = self.Find_Name_From_Database(follower, dancer_type)
+            
+        order = list()
+        order.append(leader + " and " + follower)
+        order.append(follower + " and " + leader)
+        # determine who is the leader of this couple
+        message = "Select the leader/follower order of this couple and Press OK. If no match, Press Cancel."
+        md = wx.SingleChoiceDialog(self, message, caption="Who's the leader?", choices=order, 
+                                   style=wx.DEFAULT_DIALOG_STYLE | wx.RESIZE_BORDER | wx.OK | wx.CENTRE) 
+        if md.ShowModal() == wx.ID_OK:
+            index = md.GetSelection()
+        else:
+            index = 0
+        return order[index]    
+        
     
-    def OnAmAmMultiDances(self, event):
+    def FindAmAmMultiDances(self):
         '''This method generates a mini-program for all the amateur multi-dance heats.'''
         self.list_ctrl.DeleteAllItems()
         self.report_title = "All Amateur Multi Dance Heats"
-        self.heat_type = "Amateur"
         
         # for each amateur multi-dance heat, find the couples and populate the GUI
         for num in self.heatlist.multi_dance_heat_numbers:
@@ -1128,23 +1179,38 @@ class HelloFrame(wx.Frame):
             else:
                 h = NdcaPremHeat(category="Heat", number=num)
                 
-            competitors = self.heatlist.list_of_couples_in_heat(h, sortby="info")                   
-            if len(competitors) > 0:
+            report = self.heatlist.build_heat_report(h, sorted=True, heat_type=self.heat_type)
+            if report.length() > 0:
                 multi_dance_entry_found = False
-                for c in competitors:
-                    if is_multi_dance(c[3]) and is_amateur_heat(c[3]): 
+                self.current_couples_list = self.load_ranking_file_for_heat(report.entry())
+                for index in range(report.length()):
+                    e = report.entry(index)
+                    couple_name = e.dancer + " and " + e.partner
+                    if e.multi_dance() and e.amateur_heat(): 
                         multi_dance_entry_found = True
-                        self.list_ctrl.Append(c)
+                        new_couple_name = self.FindMatchingCouple(couple_name, self.heat_type)
+                        info_list = e.info_list()
+                        info_list[5] = new_couple_name                  
+                        self.list_ctrl.Append(info_list)
+
                 if multi_dance_entry_found:
                     self.list_ctrl.Append(dummy_heat_info())
                     
-            #print("Item Count:", self.list_ctrl.GetItemCount())
-                
         # enable the buttons that process the results and get rankings
         self.butt_rslt.Enable()
         self.butt_rslt_url.Enable()
         self.butt_rslt_ndca.Enable()
         self.butt_rslt_co.Enable()
+        
+ 
+    def OnAdultAmAmMultiDances(self, event):
+        self.heat_type = "Amateur"
+        self.FindAmAmMultiDances()
+        
+ 
+    def OnJuniorAmAmMultiDances(self, event):
+        self.heat_type = "Jr.Amateur"
+        self.FindAmAmMultiDances() 
         
     
     def ChangeColumnTitle(self, col_index, title):
@@ -1163,7 +1229,10 @@ class HelloFrame(wx.Frame):
         if h.category == "Pro heat":
             folder_name += "Pro"
         elif is_amateur_heat(h.info):
-            folder_name += "Amateur"
+            if is_junior_heat(h.info):
+                folder_name += "Jr.Amateur"
+            else:
+                folder_name += "Amateur"
         elif is_junior_heat(h.info):
             folder_name += "Jr.Pro-Am"
         else:
@@ -1300,9 +1369,11 @@ class HelloFrame(wx.Frame):
         elif self.heat_type == "Pro-Am":
             results_filename = pathname + "pro-am_results.json"
         elif self.heat_type == "Jr.Pro-Am":
-            results_filename = pathname + "junior_pro-am_results.json"        
+            results_filename = pathname + "junior_pro-am_results.json"   
+        elif self.heat_type == "Amateur":
+            results_filename = pathname + "amateur_results.json"        
         else:
-            results_filename = pathname + "amateur_results.json"
+            results_filename = pathname + "junior_amateur_results.json"
 
         return results_filename
         
