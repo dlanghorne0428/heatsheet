@@ -115,25 +115,6 @@
     "avg_pts": 26.0
   },
   {
-    "name": "Duffy, Jan and Jonyla, Tadas",
-    "results": [
-      {
-        "comp_name": "California Chic Classic 2020",
-        "info": "L-SR Pro/Am Open Senior Int'l Ballroom Multi-Dance (W/T/F)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "California Chic Classic 2020",
-        "info": "L-SR Pro/Am Open Senior Int'l Ballroom Scholarship (W/T/F)",
-        "place": "1",
-        "points": 35.0
-      }
-    ],
-    "total_pts": 51.0,
-    "avg_pts": 25.5
-  },
-  {
     "name": "Reith, Leslie and Bezrodnov, Sergei",
     "results": [
       {
@@ -151,6 +132,19 @@
     ],
     "total_pts": 51.0,
     "avg_pts": 25.5
+  },
+  {
+    "name": "Kononova, Alisa and Malov, Bohdan",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-A International Ballroom Open Advanced Scholarship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 25.0,
+    "avg_pts": 25.0
   },
   {
     "name": "Smith, Janice and Gozzi, Davide",
@@ -192,19 +186,6 @@
     "avg_pts": 25.0
   },
   {
-    "name": "Kononova, Alisa and Malov, Bohdan",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-A International Ballroom Open Advanced Scholarship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25.0
-      }
-    ],
-    "total_pts": 25.0,
-    "avg_pts": 25.0
-  },
-  {
     "name": "Schneider, Patricia and Alitto, Oreste",
     "results": [
       {
@@ -228,6 +209,31 @@
     ],
     "total_pts": 74.0,
     "avg_pts": 24.67
+  },
+  {
+    "name": "Duffy, Jan and Jonyla, Tadas",
+    "results": [
+      {
+        "comp_name": "California Chic Classic 2020",
+        "info": "L-SR Pro/Am Open Senior Int'l Ballroom Multi-Dance (W/T/F)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "California Chic Classic 2020",
+        "info": "L-SR Pro/Am Open Senior Int'l Ballroom Scholarship (W/T/F)",
+        "place": "1",
+        "points": 35.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Open Ballroom Scholarship (W/T/FT/QS)",
+        "place": "1",
+        "points": 22.5
+      }
+    ],
+    "total_pts": 73.5,
+    "avg_pts": 24.5
   },
   {
     "name": "MacArthur, Anne and Izyumov, Sergey",
@@ -715,6 +721,19 @@
     "avg_pts": 20.0
   },
   {
+    "name": "Delmonico, Courtney and Pali, Erik",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-A International Ballroom Open Advanced Scholarship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 20.0,
+    "avg_pts": 20.0
+  },
+  {
     "name": "Lau, Vivian and Koukareko, Anton",
     "results": [
       {
@@ -760,19 +779,6 @@
         "comp_name": "The Snow Ball 2020",
         "info": "AP-S1 Closed Silver Ballroom Scholarship (W/T/Q)",
         "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 20.0,
-    "avg_pts": 20.0
-  },
-  {
-    "name": "Delmonico, Courtney and Pali, Erik",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-A International Ballroom Open Advanced Scholarship (W/T/VW/F/Q)",
-        "place": "2",
         "points": 20.0
       }
     ],
@@ -1201,6 +1207,19 @@
     "avg_pts": 17.5
   },
   {
+    "name": "Manning, Frances and Jonyla, Tadas",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C Open Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 17.5
+      }
+    ],
+    "total_pts": 17.5,
+    "avg_pts": 17.5
+  },
+  {
     "name": "Robinson-Harris, Tracey and Shiloshvili, Thomas",
     "results": [
       {
@@ -1227,25 +1246,6 @@
     "avg_pts": 17.5
   },
   {
-    "name": "Eberle, Mark and Kostianets, Valeriia",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "G-SR1 Open Pro/Am Gentlemen Ballroom Championship (W/T/FT/Q)\r",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-C Pro/Am Closed Gold Ballroom Scholarship & Best of the Best (W/T/FT/QS)\r",
-        "place": "1",
-        "points": 18.75
-      }
-    ],
-    "total_pts": 34.75,
-    "avg_pts": 17.38
-  },
-  {
     "name": "Bradford, Jill and Stefano, Andrea",
     "results": [
       {
@@ -1259,6 +1259,25 @@
         "info": "L-C Open International Ballroom Scholarship(W/T/VW/F/Q)",
         "place": "1",
         "points": 25.0
+      }
+    ],
+    "total_pts": 34.0,
+    "avg_pts": 17.0
+  },
+  {
+    "name": "Marchack, Doreen and Malko, Evgeny",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Closed Silver Ballroom Scholarship (W/T/FT/QS)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 2 Closed Silver Ballroom Scholarship (W/T/FT/QS)",
+        "place": "1",
+        "points": 18.0
       }
     ],
     "total_pts": 34.0,
@@ -1567,11 +1586,11 @@
     "avg_pts": 16.25
   },
   {
-    "name": "Lee, Lisa and Bezukladnikov, Egor",
+    "name": "Ghorab, Aurora and Tuft, Travis",
     "results": [
       {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-C Pro/Am Open Ballroom Scholarship & Best of the Best (W/T/VW/F/Q)\r",
+        "comp_name": "NYDF 2019",
+        "info": "L-A International Ballroom Open Advanced Scholarship (W/T/VW/F/Q)",
         "place": "3",
         "points": 16.25
       }
@@ -1580,11 +1599,11 @@
     "avg_pts": 16.25
   },
   {
-    "name": "Ghorab, Aurora and Tuft, Travis",
+    "name": "Lee, Lisa and Bezukladnikov, Egor",
     "results": [
       {
-        "comp_name": "NYDF 2019",
-        "info": "L-A International Ballroom Open Advanced Scholarship (W/T/VW/F/Q)",
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-C Pro/Am Open Ballroom Scholarship & Best of the Best (W/T/VW/F/Q)\r",
         "place": "3",
         "points": 16.25
       }
@@ -1719,6 +1738,49 @@
     "avg_pts": 15.75
   },
   {
+    "name": "Hsu, Julie and Jonyla, Tadas",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-C Pro/Am Closed Silver Ballroom Scholarship & Best of the Best (W/T/FT/QS)\r",
+        "place": "7",
+        "points": 6.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-SR1 DCT Senior Closed Silver Ballroom Scholarship (W/T/QS)\r",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-SR1 Closed Gold Pro/Am 3-dance Ballroom Championship (W/T/Q)\r",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-SR1 Pro/Am Dancesport Series Closed Gold Ballroom Championship (W/T/F/QS)\r",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Closed Silver Ballroom Scholarship (W/T/FT/QS)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Closed Gold Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 94.0,
+    "avg_pts": 15.67
+  },
+  {
     "name": "Farrow, Rae Ann and Roslender, Gert",
     "results": [
       {
@@ -1823,6 +1885,37 @@
     ],
     "total_pts": 76.5,
     "avg_pts": 15.3
+  },
+  {
+    "name": "Eberle, Mark and Kostianets, Valeriia",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "G-SR1 Open Pro/Am Gentlemen Ballroom Championship (W/T/FT/Q)\r",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-C Pro/Am Closed Gold Ballroom Scholarship & Best of the Best (W/T/FT/QS)\r",
+        "place": "1",
+        "points": 18.75
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Closed Gold Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 17.5
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C Open Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "4",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 61.0,
+    "avg_pts": 15.25
   },
   {
     "name": "Jiang, Beverly and Wang, Alex",
@@ -2039,11 +2132,50 @@
     "avg_pts": 15.0
   },
   {
+    "name": "Allison, Diane and Kuvshynov, Yuriy",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C Closed Gold Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
+  },
+  {
     "name": "Chang, Julie and Padriezas, Valdas",
     "results": [
       {
         "comp_name": "Aloha Ball",
         "info": "Pro Am Open Scholarship Open B Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Giampaolo, Joan and Nemiro, Robert",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Open Ballroom Scholarship (W/T/FT/QS)",
+        "place": "2",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Huynh, Christine and Spasov, Ivan",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-A Open Ballroom Scholarship (W/T/VW/FT/QS)",
         "place": "1",
         "points": 15.0
       }
@@ -2071,6 +2203,19 @@
         "comp_name": "Eastern United States Dancesport Championships",
         "info": "Closed Gold 5-Dance Scholarship Events S2 Int'l Ballroom (W,T,VW,F,Q)",
         "place": "2",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Mitchell, Curtis and Bokova, Alexandra",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "G-A Gent's Open Ballroom Scholarship (W/T/FT/QS)",
+        "place": "1",
         "points": 15.0
       }
     ],
@@ -2409,43 +2554,6 @@
     "avg_pts": 14.27
   },
   {
-    "name": "Eberle, Emily and Kiselev, Sergey",
-    "results": [
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "ProAm Closed Gold Scholarship SR Int'l Ballroom (W,T,VW,F,Q)",
-        "place": "2",
-        "points": 8.75
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-SR1 Closed Gold Pro/Am 3-dance Ballroom Championship (W/T/Q)\r",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-SR1 DCT Senior Closed Gold Ballroom Scholarship (W/T/F/Q)\r",
-        "place": "1",
-        "points": 18.75
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-SR International Ballroom Gold Championship (W/T/F/Q)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-SR International Ballroom Gold Scholarship (W/T/F/Q)",
-        "place": "3",
-        "points": 22.75
-      }
-    ],
-    "total_pts": 70.25,
-    "avg_pts": 14.05
-  },
-  {
     "name": "Ciabatoni, Linda and Homm, Rudeger",
     "results": [
       {
@@ -2658,6 +2766,55 @@
     "avg_pts": 13.58
   },
   {
+    "name": "Eberle, Emily and Kiselev, Sergey",
+    "results": [
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "ProAm Closed Gold Scholarship SR Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "2",
+        "points": 8.75
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-SR1 Closed Gold Pro/Am 3-dance Ballroom Championship (W/T/Q)\r",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-SR1 DCT Senior Closed Gold Ballroom Scholarship (W/T/F/Q)\r",
+        "place": "1",
+        "points": 18.75
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-SR International Ballroom Gold Championship (W/T/F/Q)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-SR International Ballroom Gold Scholarship (W/T/F/Q)",
+        "place": "3",
+        "points": 22.75
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C2 Closed Gold Ballroom 5 Dance (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Closed Gold Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 94.75,
+    "avg_pts": 13.54
+  },
+  {
     "name": "Cosby, Lisa and Neil, Michael",
     "results": [
       {
@@ -2738,6 +2895,25 @@
       {
         "comp_name": "Denver Dancesport Jam",
         "info": "ProAm Scholarship Open GL Int'l Ballroom (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 27.0,
+    "avg_pts": 13.5
+  },
+  {
+    "name": "Rae, Aimee and Koukareko, Anton",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B1 Open Ballroom 5 Dance (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B Open Ballroom Scholarship (W/T/VW/FT/QS)",
         "place": "1",
         "points": 15.0
       }
@@ -3187,23 +3363,35 @@
     "avg_pts": 12.62
   },
   {
-    "name": "Broermann, Rene\u00e9 and Sviridov, Dmitry",
+    "name": "Mah, Agnes and Seniauskas, Julius",
     "results": [
       {
         "comp_name": "NYDF 2019",
-        "info": "L-C International Ballroom Silver Championship (W/T/F/Q)",
-        "place": "5",
-        "points": 10.0
+        "info": "L-C World Dancesport Series International Ballroom Open Championship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 4.2
       },
       {
         "comp_name": "NYDF 2019",
-        "info": "L-C International Ballroom Silver Scholarship (W/T/F/Q)",
-        "place": "4",
+        "info": "L-C International Ballroom Open Advanced Scholarship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 5.95
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C World Pro/Am Ballroom DanceSport Series (W/T/VW/FT/QS)",
+        "place": "1",
         "points": 15.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C Open Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 25.0
       }
     ],
-    "total_pts": 25.0,
-    "avg_pts": 12.5
+    "total_pts": 50.15,
+    "avg_pts": 12.54
   },
   {
     "name": "Renick, Barbara and Liduch, Rostislav",
@@ -3218,6 +3406,37 @@
         "comp_name": "caopen20[suzanne nyemchek]",
         "info": "L-SR1 DCT Senior Closed Bronze Ballroom Scholarship (W/T/QS)\r",
         "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C1 Closed Bronze Ballroom 3 Dance (W/T/OS)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Closed Bronze Ballroom Scholarship (W/T/QS)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 50.0,
+    "avg_pts": 12.5
+  },
+  {
+    "name": "Broermann, Rene\u00e9 and Sviridov, Dmitry",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-C International Ballroom Silver Championship (W/T/F/Q)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-C International Ballroom Silver Scholarship (W/T/F/Q)",
+        "place": "4",
         "points": 15.0
       }
     ],
@@ -3455,37 +3674,6 @@
     "avg_pts": 12.33
   },
   {
-    "name": "Hsu, Julie and Jonyla, Tadas",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-C Pro/Am Closed Silver Ballroom Scholarship & Best of the Best (W/T/FT/QS)\r",
-        "place": "7",
-        "points": 6.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-SR1 DCT Senior Closed Silver Ballroom Scholarship (W/T/QS)\r",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-SR1 Closed Gold Pro/Am 3-dance Ballroom Championship (W/T/Q)\r",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-SR1 Pro/Am Dancesport Series Closed Gold Ballroom Championship (W/T/F/QS)\r",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 49.0,
-    "avg_pts": 12.25
-  },
-  {
     "name": "Cummings, Jack and DeSouza, Saori",
     "results": [
       {
@@ -3600,6 +3788,25 @@
     "avg_pts": 12.19
   },
   {
+    "name": "Lien, Shirley and Seniauskas, Julius",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C2 Closed Silver Ballroom 4 Dance (W/T/FT/QS)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Closed Silver Ballroom Scholarship (W/T/FT/QS)",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 24.25,
+    "avg_pts": 12.12
+  },
+  {
     "name": "Stare, Arta and Klepadlo, Marek",
     "results": [
       {
@@ -3617,6 +3824,37 @@
     ],
     "total_pts": 24.25,
     "avg_pts": 12.12
+  },
+  {
+    "name": "Zhang, Jane Yuqing and Malko, Evgeny",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B1 Closed Silver Ballroom 4 Dance (W/T/FT/QS)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B2 Closed Silver Ballroom 4 Dance (W/T/FT/QS)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B Closed Silver Ballroom Scholarship (W/T/FT/QS)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C Closed Silver Ballroom Scholarship (W/T/FT/QS)",
+        "place": "1",
+        "points": 18.0
+      }
+    ],
+    "total_pts": 48.0,
+    "avg_pts": 12.0
   },
   {
     "name": "Hubchenko, Joseph and Rivera, Denise",
@@ -3804,6 +4042,19 @@
     "avg_pts": 12.0
   },
   {
+    "name": "Dale, Sophie and Dowsett, Ikaika",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-A Closed Silver Ballroom Scholarship (W/T/FT/QS)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
     "name": "Ellis, Tina and Zejda, Jiri",
     "results": [
       {
@@ -3848,6 +4099,19 @@
       {
         "comp_name": "Indiana Challenge",
         "info": "L-C World Pro/Am Ballrom Open DanceSport Series (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
+    "name": "Miller, Vinie and Treijs, Karlis",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-A1 Open Ballroom 5 Dance (W/T/VW/FT/QS)",
         "place": "1",
         "points": 12.0
       }
@@ -4326,31 +4590,6 @@
     "avg_pts": 11.33
   },
   {
-    "name": "Tam, Iris and Koukareko, Anton",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-C Closed Bronze Pro/Am 3-dance Ballroom Championship (W/T/Q)\r",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-C Pro/Am Dancesport Series Closed Bronze Ballroom Championship (W/T/QS)\r",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-C Pro/Am Closed Bronze Ballroom Scholarship & Best of the Best (W/T/QS)\r",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 34.0,
-    "avg_pts": 11.33
-  },
-  {
     "name": "Ouk, Trang and Senko, Alex",
     "results": [
       {
@@ -4597,6 +4836,49 @@
     "avg_pts": 11.0
   },
   {
+    "name": "Tam, Iris and Koukareko, Anton",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-C Closed Bronze Pro/Am 3-dance Ballroom Championship (W/T/Q)\r",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-C Pro/Am Dancesport Series Closed Bronze Ballroom Championship (W/T/QS)\r",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-C Pro/Am Closed Bronze Ballroom Scholarship & Best of the Best (W/T/QS)\r",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B2 Closed Bronze Ballroom 3 Dance (W/T/OS)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B2 Closed Bronze Ballroom 4 Dance (W/T/FT/QS)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C Closed Bronze Ballroom Scholarship (W/T/QS)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 65.5,
+    "avg_pts": 10.92
+  },
+  {
     "name": "Liesenfelt, Rhonda and Meshkov, Ruslan",
     "results": [
       {
@@ -4823,6 +5105,25 @@
     "avg_pts": 10.5
   },
   {
+    "name": "Kitade, Ayako and Minev, Hristo",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C1 Closed Silver Ballroom 3 Dance (W/T/OS)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C Closed Silver Ballroom Scholarship (W/T/FT/QS)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 21.0,
+    "avg_pts": 10.5
+  },
+  {
     "name": "Lindahl, Lynne and Kisialiou, Ihar",
     "results": [
       {
@@ -4858,6 +5159,19 @@
       }
     ],
     "total_pts": 21.0,
+    "avg_pts": 10.5
+  },
+  {
+    "name": "Custodio, Ellison and Pavlov, Youriy",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C Closed Bronze Ballroom Scholarship (W/T/QS)",
+        "place": "2",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 10.5,
     "avg_pts": 10.5
   },
   {
@@ -5309,6 +5623,25 @@
     "avg_pts": 9.75
   },
   {
+    "name": "Sanchez-Torres, Marina and Cheremukhin, Nick",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C World Pro/Am Ballroom DanceSport Series (W/T/VW/FT/QS)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C Open Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 19.5,
+    "avg_pts": 9.75
+  },
+  {
     "name": "Battalora, Peggy and Kibel, Mitchel",
     "results": [
       {
@@ -5634,6 +5967,31 @@
     "avg_pts": 9.08
   },
   {
+    "name": "Yun, YoungJu and Solares, Christian",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C2 Closed Silver Ballroom 4 Dance (W/T/FT/QS)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Closed Silver Ballroom Scholarship (W/T/FT/QS)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 2 Closed Silver Ballroom Scholarship (W/T/FT/QS)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 27.25,
+    "avg_pts": 9.08
+  },
+  {
     "name": "Wu, Ibis and Averkov, Serhiy",
     "results": [
       {
@@ -5914,6 +6272,19 @@
     "avg_pts": 9.0
   },
   {
+    "name": "Solano, Frances and Pavlov, Youriy",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 2 Closed Bronze Ballroom Scholarship (W/T/QS)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 9.0
+  },
+  {
     "name": "Stadler, Julie and Medeiros, David",
     "results": [
       {
@@ -6139,25 +6510,6 @@
     "avg_pts": 8.75
   },
   {
-    "name": "Mayor, Laureen and Dowsett, Ikaika",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-SR1 Pro/Am Dancesport Series Closed Bronze Ballroom Championship (W/T/QS)\r",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-SR1 DCT Senior Closed Bronze Ballroom Scholarship (W/T/QS)\r",
-        "place": "2",
-        "points": 10.5
-      }
-    ],
-    "total_pts": 17.5,
-    "avg_pts": 8.75
-  },
-  {
     "name": "Montananus, Douglas and Jacobs, Olga",
     "results": [
       {
@@ -6254,6 +6606,19 @@
     "avg_pts": 8.75
   },
   {
+    "name": "Hwang, Helen and Treijs, Karlis",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Open Ballroom Scholarship (W/T/FT/QS)",
+        "place": "3",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 8.75,
+    "avg_pts": 8.75
+  },
+  {
     "name": "Krank, Wendy and Yeh, JC",
     "results": [
       {
@@ -6299,6 +6664,19 @@
         "comp_name": "caopen20[suzanne nyemchek]",
         "info": "L-A Pro/Am Open Ballroom Scholarship & Best of the Best (W/T/VW/F/Q)\r",
         "place": "6",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 8.75,
+    "avg_pts": 8.75
+  },
+  {
+    "name": "Morimura, Kayo and Dowsett, Ikaika",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Closed Gold Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "4",
         "points": 8.75
       }
     ],
@@ -6457,6 +6835,25 @@
     "avg_pts": 8.52
   },
   {
+    "name": "Gu, Isabella and Chong, Sidney",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-A World Dancesport Series International Ballroom Open Championship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-A International Ballroom Open Advanced Scholarship (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 17.0,
+    "avg_pts": 8.5
+  },
+  {
     "name": "Simpson, Sunny and Rodriguez, Nelson",
     "results": [
       {
@@ -6495,23 +6892,35 @@
     "avg_pts": 8.5
   },
   {
-    "name": "Gu, Isabella and Chong, Sidney",
+    "name": "Mayor, Laureen and Dowsett, Ikaika",
     "results": [
       {
-        "comp_name": "NYDF 2019",
-        "info": "L-A World Dancesport Series International Ballroom Open Championship (W/T/VW/F/Q)",
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-SR1 Pro/Am Dancesport Series Closed Bronze Ballroom Championship (W/T/QS)\r",
         "place": "2",
         "points": 7.0
       },
       {
-        "comp_name": "NYDF 2019",
-        "info": "L-A International Ballroom Open Advanced Scholarship (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 10.0
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-SR1 DCT Senior Closed Bronze Ballroom Scholarship (W/T/QS)\r",
+        "place": "2",
+        "points": 10.5
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C1 Closed Bronze Ballroom 3 Dance (W/T/OS)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C1 Closed Bronze Ballroom 4 Dance (W/T/FT/QS)",
+        "place": "1",
+        "points": 9.0
       }
     ],
-    "total_pts": 17.0,
-    "avg_pts": 8.5
+    "total_pts": 33.5,
+    "avg_pts": 8.38
   },
   {
     "name": "Branigan, Christina and Dimitrov, Oleg",
@@ -6710,6 +7119,38 @@
       }
     ],
     "total_pts": 16.0,
+    "avg_pts": 8.0
+  },
+  {
+    "name": "Linck, Helene and Ksovreli, Giorgi",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C1 Closed Silver Ballroom 4 Dance (W/T/FT/QS)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Closed Silver Ballroom Scholarship (W/T/FT/QS)",
+        "place": "6",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 16.0,
+    "avg_pts": 8.0
+  },
+  {
+    "name": "Chan, Jane and Dowsett, Ikaika",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Closed Silver Ballroom Scholarship (W/T/FT/QS)",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 8.0,
     "avg_pts": 8.0
   },
   {
@@ -7144,6 +7585,25 @@
     "avg_pts": 7.5
   },
   {
+    "name": "Smith, Mary and Dowsett, Ikaika",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C2 Closed Bronze Ballroom 3 Dance (W/T/OS)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C2 Closed Bronze Ballroom 4 Dance (W/T/FT/QS)",
+        "place": "1",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 7.5
+  },
+  {
     "name": "Davis, Elizabeth and Timar, Krisztian",
     "results": [
       {
@@ -7507,6 +7967,31 @@
     "avg_pts": 7.0
   },
   {
+    "name": "McClammy, Sarah and Kuvshynov, Yuriy",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-A1 Closed Bronze Ballroom 3 Dance (W/T/OS)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-A1 Closed Bronze Ballroom 4 Dance (W/T/FT/QS)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-A Closed Bronze Ballroom Scholarship (W/T/QS)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 21.0,
+    "avg_pts": 7.0
+  },
+  {
     "name": "Rees, Lisa and Yakunin, Konstantin",
     "results": [
       {
@@ -7630,6 +8115,19 @@
       }
     ],
     "total_pts": 14.0,
+    "avg_pts": 7.0
+  },
+  {
+    "name": "Banks, Wendy and Pavlov, Youriy",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 2 Closed Silver Ballroom Scholarship (W/T/FT/QS)",
+        "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 7.0,
     "avg_pts": 7.0
   },
   {
@@ -7854,6 +8352,25 @@
     "avg_pts": 6.75
   },
   {
+    "name": "Ericksen, Jon and Novikova, Alla",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C1 Closed Bronze Ballroom 3 Dance (W/T/OS)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Closed Bronze Ballroom Scholarship (W/T/QS)",
+        "place": "3",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 13.5,
+    "avg_pts": 6.75
+  },
+  {
     "name": "Maiale, Nancy and Azarov, Mykhailo",
     "results": [
       {
@@ -8034,6 +8551,49 @@
     ],
     "total_pts": 13.0,
     "avg_pts": 6.5
+  },
+  {
+    "name": "Clark-Bartlett, Mary and Kuvshynov, Yuriy",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C1 Closed Bronze Ballroom 3 Dance (W/T/OS)",
+        "place": "3",
+        "points": 5.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B2 Closed Bronze Ballroom 3 Dance (W/T/OS)",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B2 Closed Bronze Ballroom 4 Dance (W/T/FT/QS)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C1 Closed Bronze Ballroom 4 Dance (W/T/FT/QS)",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C Closed Bronze Ballroom Scholarship (W/T/QS)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Closed Bronze Ballroom Scholarship (W/T/QS)",
+        "place": "2",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 38.5,
+    "avg_pts": 6.42
   },
   {
     "name": "Ling, Joyce and Bezukladnikov, Egor",
@@ -8323,6 +8883,31 @@
     ],
     "total_pts": 18.2,
     "avg_pts": 6.07
+  },
+  {
+    "name": "Pesic, Peter and Miller, Mary",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C2 Closed Bronze Ballroom 3 Dance (W/T/OS)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "G-C1 Closed Bronze Ballroom 4 Dance (W/T/FT/QS)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "G-C2 Closed Bronze Ballroom 4 Dance (W/T/FT/QS)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 18.0,
+    "avg_pts": 6.0
   },
   {
     "name": "Barr, Brenda and Anderson, Scott",
@@ -8966,6 +9551,25 @@
     "avg_pts": 5.33
   },
   {
+    "name": "Chavez, Esperanza and Barsuk, Pavlo",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-SR International Ballroom Silver Scholarship (W/T/F/Q)",
+        "place": "Semis",
+        "points": 3.6
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C Closed Silver Ballroom Scholarship (W/T/FT/QS)",
+        "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 10.6,
+    "avg_pts": 5.3
+  },
+  {
     "name": "Grim, Rita and Bondarenko, Sergiy",
     "results": [
       {
@@ -9117,25 +9721,6 @@
     ],
     "total_pts": 10.25,
     "avg_pts": 5.12
-  },
-  {
-    "name": "Mah, Agnes and Seniauskas, Julius",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-C World Dancesport Series International Ballroom Open Championship (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 4.2
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-C International Ballroom Open Advanced Scholarship (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 5.95
-      }
-    ],
-    "total_pts": 10.15,
-    "avg_pts": 5.08
   },
   {
     "name": "Francheschi, Kristin and Hamza, Mazen",
@@ -9464,6 +10049,25 @@
     "avg_pts": 4.38
   },
   {
+    "name": "Epple, Pamela and Black, Lawrence",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C1 Closed Bronze Ballroom 4 Dance (W/T/FT/QS)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Closed Bronze Ballroom Scholarship (W/T/QS)",
+        "place": "4",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 8.75,
+    "avg_pts": 4.38
+  },
+  {
     "name": "Moriarity, Patrick and Peterson, Grace",
     "results": [
       {
@@ -9660,6 +10264,31 @@
     "avg_pts": 4.17
   },
   {
+    "name": "Chow, Maria and Ksovreli, Giorgi",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C1 Closed Bronze Ballroom 3 Dance (W/T/OS)",
+        "place": "4",
+        "points": 3.5
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B2 Closed Bronze Ballroom 3 Dance (W/T/OS)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C Closed Bronze Ballroom Scholarship (W/T/QS)",
+        "place": "4",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 12.25,
+    "avg_pts": 4.08
+  },
+  {
     "name": "Moskowitz, Kris and Perez, Miguel",
     "results": [
       {
@@ -9748,19 +10377,6 @@
     "avg_pts": 3.62
   },
   {
-    "name": "Chavez, Esperanza and Barsuk, Pavlo",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-SR International Ballroom Silver Scholarship (W/T/F/Q)",
-        "place": "Semis",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 3.6,
-    "avg_pts": 3.6
-  },
-  {
     "name": "Helpern, Marty and Cooper, Katya",
     "results": [
       {
@@ -9772,6 +10388,25 @@
       {
         "comp_name": "2020 Platinum DanceSport Classic",
         "info": "G-C Gentlemen's Closed Bronze Standard (W/T/Q)",
+        "place": "2",
+        "points": 3.5
+      }
+    ],
+    "total_pts": 7.0,
+    "avg_pts": 3.5
+  },
+  {
+    "name": "Weng, Ssu and Black, Lawrence",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C2 Closed Bronze Ballroom 3 Dance (W/T/OS)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C2 Closed Bronze Ballroom 4 Dance (W/T/FT/QS)",
         "place": "2",
         "points": 3.5
       }
@@ -10361,12 +10996,6 @@
   },
   {
     "name": "Allen, Sarah and Placidi, Stefano",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Allison, Diane and Kuvshynov, Yuriy",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -11266,12 +11895,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Chan, Jane and Dowsett, Ikaika",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Chan, Ken and Hansen, Claire",
     "results": [],
     "total_pts": 0,
@@ -11590,12 +12213,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Clark-Bartlett, Mary and Kuvshynov, Yuriy",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Clemons, Diane and Doroshenko, Roman",
     "results": [],
     "total_pts": 0,
@@ -11890,12 +12507,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Custodio, Ellison and Pavlov, Youriy",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Cyr, Nancy and Milojkovic, Mica",
     "results": [],
     "total_pts": 0,
@@ -11933,12 +12544,6 @@
   },
   {
     "name": "Dale, Sophie and Agrello, Giacomo",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Dale, Sophie and Dowsett, Ikaika",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -12287,18 +12892,6 @@
   },
   {
     "name": "Englar, Ryane and Fox, Lowell",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Epple, Pamela and Black, Lawrence",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Ericksen, Jon and Novikova, Alla",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -12725,12 +13318,6 @@
   },
   {
     "name": "Gerson, Nancy and Wiatrowski, Radek",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Giampaolo, Joan and Nemiro, Robert",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -13487,12 +14074,6 @@
   },
   {
     "name": "Hutyra, John and Corey, Jennifer",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Huynh, Christine and Spasov, Ivan",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -14452,12 +15033,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Lien, Shirley and Seniauskas, Julius",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Lin, Betty and Faraci, Andrea",
     "results": [],
     "total_pts": 0,
@@ -14465,12 +15040,6 @@
   },
   {
     "name": "Lin, Wendy and Mikushov, Igor",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Linck, Helene and Ksovreli, Giorgi",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -14776,12 +15345,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Manning, Frances and Jonyla, Tadas",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Mantius, Andreas and Tsikalyuk, Olga",
     "results": [],
     "total_pts": 0,
@@ -14891,12 +15454,6 @@
   },
   {
     "name": "McCauley, Linda and Hopkins, Hays",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "McClammy, Sarah and Kuvshynov, Yuriy",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -15089,12 +15646,6 @@
   },
   {
     "name": "Miller, Dana and Gozzi, Davide",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Miller, Vinie and Treijs, Karlis",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -15922,12 +16473,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Rae, Aimee and Koukareko, Anton",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Rajendran, Karen and Moreno, Loui",
     "results": [],
     "total_pts": 0,
@@ -16715,12 +17260,6 @@
   },
   {
     "name": "Smith, Lauri and Scott, Michael",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Smith, Mary and Dowsett, Ikaika",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -17734,12 +18273,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Weng, Ssu and Black, Lawrence",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Werdal, David and Kalinina, Alyona",
     "results": [],
     "total_pts": 0,
@@ -18227,12 +18760,6 @@
   },
   {
     "name": "Zhang, Delia and Avdeev, Mikhail",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Zhang, Jane Yuqing and Malko, Evgeny",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0

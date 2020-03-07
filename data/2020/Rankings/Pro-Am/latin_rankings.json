@@ -442,11 +442,11 @@
     "avg_pts": 22.5
   },
   {
-    "name": "Lyon, Christina and Nazarov, Evgeny",
+    "name": "Fox, Nora and Danailov, Plamen",
     "results": [
       {
-        "comp_name": "California Chic Classic 2020",
-        "info": "L-B Pro/Am Open  International Latin Scholarship (C/S/R/PD/J)",
+        "comp_name": "NYDF 2019",
+        "info": "L-SR2 Senior International Latin Open Advanced Scholarship (C/S/R/P/J)",
         "place": "1",
         "points": 22.5
       }
@@ -455,11 +455,11 @@
     "avg_pts": 22.5
   },
   {
-    "name": "Fox, Nora and Danailov, Plamen",
+    "name": "Lyon, Christina and Nazarov, Evgeny",
     "results": [
       {
-        "comp_name": "NYDF 2019",
-        "info": "L-SR2 Senior International Latin Open Advanced Scholarship (C/S/R/P/J)",
+        "comp_name": "California Chic Classic 2020",
+        "info": "L-B Pro/Am Open  International Latin Scholarship (C/S/R/PD/J)",
         "place": "1",
         "points": 22.5
       }
@@ -1398,6 +1398,31 @@
     "avg_pts": 15.33
   },
   {
+    "name": "Goddard, Joan and Escolme, Andrew",
+    "results": [
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "L-C Open Latin Scholarship (C/S/R/P/J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C World Pro/Am Latin DanceSport Series (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Open Latin Scholarship (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 18.75
+      }
+    ],
+    "total_pts": 45.75,
+    "avg_pts": 15.25
+  },
+  {
     "name": "Benchetrit, Gaelle and Ivanov, Ilya",
     "results": [
       {
@@ -1480,6 +1505,25 @@
         "info": "L-D Open International Latin Scholarship(C/S/R/PD/J)",
         "place": "1",
         "points": 15.0
+      }
+    ],
+    "total_pts": 30.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Kuan, Katherine and Zeglen, Jakub",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B1 Open Latin 5 Dance (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-A1 Open Latin 5 Dance (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 12.0
       }
     ],
     "total_pts": 30.0,
@@ -1582,19 +1626,6 @@
     "avg_pts": 15.0
   },
   {
-    "name": "Goddard, Joan and Escolme, Andrew",
-    "results": [
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "L-C Open Latin Scholarship (C/S/R/P/J)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 15.0,
-    "avg_pts": 15.0
-  },
-  {
     "name": "Hope, Robin and Pierre-Antoine, Emmanuel",
     "results": [
       {
@@ -1613,6 +1644,19 @@
       {
         "comp_name": "Aloha Ball",
         "info": "Pro Am Open Scholarship Open A Int'l Latin (CC,S,R,PD,J)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Laverde, Josephine G. and Ksovreli, Giorgi",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-A Open Latin Scholarship (CC/S/R/PD/J)",
         "place": "1",
         "points": 15.0
       }
@@ -1785,43 +1829,6 @@
     "avg_pts": 14.62
   },
   {
-    "name": "Shreiber, Robyn and Elgueta, Italo",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-C Open  Pro/Am 3-dance Latin Championship (CC/S/R)\r",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-C World Pro/Am Dancesport Series Open Latin (CC/S/R/PD/J)\r",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-C Pro/Am Open Latin Scholarship & Best of the Best (C/S/R/PD/J)\r",
-        "place": "4",
-        "points": 17.5
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-C World Dancesport Series Internaional Latin Open Championship (C/S/R/P/J)",
-        "place": "Semis",
-        "points": 8.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-C International Latin Open Advanced Scholarship (C/S/R/P/J)",
-        "place": "Semis",
-        "points": 7.65
-      }
-    ],
-    "total_pts": 72.65,
-    "avg_pts": 14.53
-  },
-  {
     "name": "Stengel, Wes and Voronovich, Nikolay",
     "results": [
       {
@@ -1920,6 +1927,55 @@
     ],
     "total_pts": 42.75,
     "avg_pts": 14.25
+  },
+  {
+    "name": "Shreiber, Robyn and Elgueta, Italo",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-C Open  Pro/Am 3-dance Latin Championship (CC/S/R)\r",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-C World Pro/Am Dancesport Series Open Latin (CC/S/R/PD/J)\r",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-C Pro/Am Open Latin Scholarship & Best of the Best (C/S/R/PD/J)\r",
+        "place": "4",
+        "points": 17.5
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-C World Dancesport Series Internaional Latin Open Championship (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 8.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-C International Latin Open Advanced Scholarship (C/S/R/P/J)",
+        "place": "Semis",
+        "points": 7.65
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B2 Open Latin 5 Dance (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C Open Latin Scholarship (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 99.65,
+    "avg_pts": 14.24
   },
   {
     "name": "Ouk, Trang and Senko, Alex",
@@ -2267,6 +2323,44 @@
         "info": "L-C Open Silver Pro/Am 3-dance Latin Championship (CC/S/R)\r",
         "place": "1",
         "points": 18.0
+      }
+    ],
+    "total_pts": 27.0,
+    "avg_pts": 13.5
+  },
+  {
+    "name": "Juanillo, Margie and Hauer, Matthew",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C2 Open Latin 5 Dance (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 2 Open Latin Scholarship (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 27.0,
+    "avg_pts": 13.5
+  },
+  {
+    "name": "Liu, Li and Lynn, Parker",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B1 Open Latin 5 Dance (CC/S/R/PD/J)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B Open Latin Scholarship (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 15.0
       }
     ],
     "total_pts": 27.0,
@@ -3176,6 +3270,19 @@
     "avg_pts": 12.0
   },
   {
+    "name": "Chavez, Esperanza and Barsuk, Pavlo",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C Closed Silver Latin Scholarship (CC/S/R/J)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
     "name": "Correli, Nomi and Joson, Austin",
     "results": [
       {
@@ -3369,49 +3476,6 @@
     "avg_pts": 11.78
   },
   {
-    "name": "Tam, Iris and Shmigeljuk, Artjom",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-C Closed Bronze Pro/Am 3-dance Latin Championship (CC/S/R)\r",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-C Open Bronze Pro/Am 3-dance Latin Championship (CC/S/R)\r",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-C Pro/Am Dancesport Series Closed Bronze Latin Championship (CC/S/J)\r",
-        "place": "1",
-        "points": 7.5
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-C Pro/Am Closed Bronze Latin Scholarship & Best of the Best (CC/S/R)\r",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-C International Latin Bronze Championship (C/S/R)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-C International Latin Bronze Scholarship (C/S/R)",
-        "place": "3",
-        "points": 16.25
-      }
-    ],
-    "total_pts": 69.0,
-    "avg_pts": 11.5
-  },
-  {
     "name": "Macey, Sharon and Ivanov, Ilya",
     "results": [
       {
@@ -3518,6 +3582,25 @@
     "avg_pts": 11.44
   },
   {
+    "name": "Allen, Pam and Davies, Jake",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-SR International Latin Silver Championship (C/S/R/J)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-SR International Latin Silver Scholarship (C/S/R/J)",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 22.75,
+    "avg_pts": 11.38
+  },
+  {
     "name": "Erikson, Jo and Pashev, Radomir",
     "results": [
       {
@@ -3548,25 +3631,6 @@
       {
         "comp_name": "caopen20[suzanne nyemchek]",
         "info": "L-C Pro/Am Closed Silver Latin Scholarship & Best of the Best (CC/S/R/J)\r",
-        "place": "3",
-        "points": 13.0
-      }
-    ],
-    "total_pts": 22.75,
-    "avg_pts": 11.38
-  },
-  {
-    "name": "Allen, Pam and Davies, Jake",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-SR International Latin Silver Championship (C/S/R/J)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-SR International Latin Silver Scholarship (C/S/R/J)",
         "place": "3",
         "points": 13.0
       }
@@ -4051,6 +4115,25 @@
     "avg_pts": 10.5
   },
   {
+    "name": "Griffin, Carol and Ksovreli, Giorgi",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C2 Closed Silver Latin 4 Dance (CC/S/R/J)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 2 Closed Silver Latin Scholarship (CC/S/R/J)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 21.0,
+    "avg_pts": 10.5
+  },
+  {
     "name": "Jacobson, Mairin and Smith, Ron",
     "results": [
       {
@@ -4242,25 +4325,6 @@
     "avg_pts": 10.39
   },
   {
-    "name": "Zamora, Rica and Vasic, Sinisa",
-    "results": [
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "L-SR2 Pro/Am Open Latin 5 Dance (CC/S/R/PD/J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-SR2 Senior International Latin Open Advanced Scholarship (C/S/R/P/J)",
-        "place": "3",
-        "points": 8.75
-      }
-    ],
-    "total_pts": 20.75,
-    "avg_pts": 10.38
-  },
-  {
     "name": "Broff, David and Schilling, Sara",
     "results": [
       {
@@ -4299,6 +4363,25 @@
     "avg_pts": 10.38
   },
   {
+    "name": "Panchenko, Sergei and Saengkeo, Tatiana",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C1 Open Latin 5 Dance (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Open Latin Scholarship (CC/S/R/PD/J)",
+        "place": "2",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 20.75,
+    "avg_pts": 10.38
+  },
+  {
     "name": "Wang, Fifi and Terziev, Delyan",
     "results": [
       {
@@ -4311,6 +4394,25 @@
         "comp_name": "NYDF 2019",
         "info": "L-SR1 Senior International Latin Open Advanced Scholarship (C/S/R/P/J)",
         "place": "8",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 20.75,
+    "avg_pts": 10.38
+  },
+  {
+    "name": "Zamora, Rica and Vasic, Sinisa",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-SR2 Pro/Am Open Latin 5 Dance (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-SR2 Senior International Latin Open Advanced Scholarship (C/S/R/P/J)",
+        "place": "3",
         "points": 8.75
       }
     ],
@@ -4355,25 +4457,6 @@
     "avg_pts": 10.36
   },
   {
-    "name": "Di Iorio, Gisa and Cortes, Alberto",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-B World Dancesport Series Internaional Latin Open Championship (C/S/R/P/J)",
-        "place": "5",
-        "points": 16.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-B International Latin Open Advanced Scholarship (C/S/R/P/J)",
-        "place": "quarters",
-        "points": 4.5
-      }
-    ],
-    "total_pts": 20.5,
-    "avg_pts": 10.25
-  },
-  {
     "name": "Armour, Gerdette and Strinadko, Andre",
     "results": [
       {
@@ -4387,6 +4470,25 @@
         "info": "L-B International Latin Bronze Scholarship (C/S/R)",
         "place": "4",
         "points": 12.5
+      }
+    ],
+    "total_pts": 20.5,
+    "avg_pts": 10.25
+  },
+  {
+    "name": "Di Iorio, Gisa and Cortes, Alberto",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-B World Dancesport Series Internaional Latin Open Championship (C/S/R/P/J)",
+        "place": "5",
+        "points": 16.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-B International Latin Open Advanced Scholarship (C/S/R/P/J)",
+        "place": "quarters",
+        "points": 4.5
       }
     ],
     "total_pts": 20.5,
@@ -4446,6 +4548,67 @@
     ],
     "total_pts": 81.45,
     "avg_pts": 10.18
+  },
+  {
+    "name": "Tam, Iris and Shmigeljuk, Artjom",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-C Closed Bronze Pro/Am 3-dance Latin Championship (CC/S/R)\r",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-C Open Bronze Pro/Am 3-dance Latin Championship (CC/S/R)\r",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-C Pro/Am Dancesport Series Closed Bronze Latin Championship (CC/S/J)\r",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-C Pro/Am Closed Bronze Latin Scholarship & Best of the Best (CC/S/R)\r",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-C International Latin Bronze Championship (C/S/R)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-C International Latin Bronze Scholarship (C/S/R)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B2 Closed Bronze Latin 3 Dance (CC/S/R)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B2 Closed Bronze Latin 4 Dance (CC/S/R/J)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C Closed Bronze Latin Scholarship (CC/S/R)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 91.5,
+    "avg_pts": 10.17
   },
   {
     "name": "Le, Chris and Bokova, Alexandra",
@@ -5376,12 +5539,12 @@
     "avg_pts": 8.75
   },
   {
-    "name": "Liao, Cathy and Sahakyan, Arman",
+    "name": "Fayad, Tarik and Sabler, Gabrielle",
     "results": [
       {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-B Platinum Open Latin Scholarship (C/S/R/P/J)",
-        "place": "2",
+        "comp_name": "NYDF 2019",
+        "info": "L-A International Latin Gold Scholarship (C/S/R/J)",
+        "place": "3",
         "points": 8.75
       }
     ],
@@ -5389,12 +5552,12 @@
     "avg_pts": 8.75
   },
   {
-    "name": "Fayad, Tarik and Sabler, Gabrielle",
+    "name": "Liao, Cathy and Sahakyan, Arman",
     "results": [
       {
-        "comp_name": "NYDF 2019",
-        "info": "L-A International Latin Gold Scholarship (C/S/R/J)",
-        "place": "3",
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-B Platinum Open Latin Scholarship (C/S/R/P/J)",
+        "place": "2",
         "points": 8.75
       }
     ],
@@ -5882,37 +6045,6 @@
     "avg_pts": 8.15
   },
   {
-    "name": "Serpa, Monica and Shmigeljuk, Artjom",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-B Open  Pro/Am 3-dance Latin Championship (CC/S/R)\r",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-B World Pro/Am Dancesport Series Open Latin (CC/S/R/PD/J)\r",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-B World Dancesport Series Internaional Latin Open Championship (C/S/R/P/J)",
-        "place": "quarters",
-        "points": 4.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-B International Latin Open Advanced Scholarship (C/S/R/P/J)",
-        "place": "quarters",
-        "points": 1.35
-      }
-    ],
-    "total_pts": 32.35,
-    "avg_pts": 8.09
-  },
-  {
     "name": "Schwarz, Kaylee and Grytsak, Evgenii",
     "results": [
       {
@@ -6013,25 +6145,6 @@
     "avg_pts": 8.0
   },
   {
-    "name": "Corcoran, Elisa and D'Arpino, Giovanni",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-B International Latin Bronze Scholarship (C/S/R)",
-        "place": "5",
-        "points": 10.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-A International Latin Bronze Scholarship (C/S/R)",
-        "place": "5",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 16.0,
-    "avg_pts": 8.0
-  },
-  {
     "name": "Anderson, Renee and Anderson, Scott",
     "results": [
       {
@@ -6045,6 +6158,25 @@
         "info": "AP-C Closed Silver Latin Scholarship (C/R/J)",
         "place": "2",
         "points": 7.0
+      }
+    ],
+    "total_pts": 16.0,
+    "avg_pts": 8.0
+  },
+  {
+    "name": "Corcoran, Elisa and D'Arpino, Giovanni",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-B International Latin Bronze Scholarship (C/S/R)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-A International Latin Bronze Scholarship (C/S/R)",
+        "place": "5",
+        "points": 6.0
       }
     ],
     "total_pts": 16.0,
@@ -6317,6 +6449,43 @@
     "avg_pts": 7.88
   },
   {
+    "name": "Serpa, Monica and Shmigeljuk, Artjom",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-B Open  Pro/Am 3-dance Latin Championship (CC/S/R)\r",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-B World Pro/Am Dancesport Series Open Latin (CC/S/R/PD/J)\r",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-B World Dancesport Series Internaional Latin Open Championship (C/S/R/P/J)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-B International Latin Open Advanced Scholarship (C/S/R/P/J)",
+        "place": "quarters",
+        "points": 1.35
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B1 Open Latin 5 Dance (CC/S/R/PD/J)",
+        "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 39.35,
+    "avg_pts": 7.87
+  },
+  {
     "name": "Kazakevich, Marina and Gotchev, Mitch",
     "results": [
       {
@@ -6586,6 +6755,25 @@
       {
         "comp_name": "Indiana Challenge",
         "info": "L-B Bronze Pro/Am Latin Closed Scholarship (C/R/J)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 7.5
+  },
+  {
+    "name": "McClammy, Sarah and Kuvshynov, Yuriy",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-A1 Closed Bronze Latin 4 Dance (CC/S/R/J)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-A Closed Bronze Latin Scholarship (CC/S/R)",
         "place": "1",
         "points": 9.0
       }
@@ -7595,6 +7783,31 @@
     "avg_pts": 6.2
   },
   {
+    "name": "Simpson, Jean and Ksovreli, Giorgi",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-B2 Closed Bronze Latin 3 Dance (CC/S/R)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C1 Closed Bronze Latin 3 Dance (CC/S/R)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Closed Bronze Latin Scholarship (CC/S/R)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 18.5,
+    "avg_pts": 6.17
+  },
+  {
     "name": "Garcia, Ruben and Zotova, Anna",
     "results": [
       {
@@ -7683,6 +7896,25 @@
     "avg_pts": 6.12
   },
   {
+    "name": "Bhardwaj, Saumya and Chong, Sidney",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-A International Latin Silver Championship (C/S/R/J)",
+        "place": "4",
+        "points": 5.25
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-A International Latin Silver Scholarship (C/S/R/J)",
+        "place": "6",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 12.25,
+    "avg_pts": 6.12
+  },
+  {
     "name": "Branigan, Christina and Dimitrov, Oleg",
     "results": [
       {
@@ -7721,25 +7953,6 @@
     "avg_pts": 6.12
   },
   {
-    "name": "Xu, Marlene and Bardahan, Ilie",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-SR1 Closed Silver Pro/Am 3-dance Latin Championship (CC/S/R)\r",
-        "place": "6",
-        "points": 5.25
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-SR1 DCT Senior Closed Silver Latin Scholarship (CC/S/R)\r",
-        "place": "6",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 12.25,
-    "avg_pts": 6.12
-  },
-  {
     "name": "Slattery, Lorraine and Shevelev, Kirill",
     "results": [
       {
@@ -7759,17 +7972,17 @@
     "avg_pts": 6.12
   },
   {
-    "name": "Bhardwaj, Saumya and Chong, Sidney",
+    "name": "Xu, Marlene and Bardahan, Ilie",
     "results": [
       {
-        "comp_name": "NYDF 2019",
-        "info": "L-A International Latin Silver Championship (C/S/R/J)",
-        "place": "4",
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-SR1 Closed Silver Pro/Am 3-dance Latin Championship (CC/S/R)\r",
+        "place": "6",
         "points": 5.25
       },
       {
-        "comp_name": "NYDF 2019",
-        "info": "L-A International Latin Silver Scholarship (C/S/R/J)",
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-SR1 DCT Senior Closed Silver Latin Scholarship (CC/S/R)\r",
         "place": "6",
         "points": 7.0
       }
@@ -7880,6 +8093,19 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Gallipani, Victoria and Anisimov, Sergey",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-SR International Latin Bronze Scholarship (C/S/R)",
+        "place": "5",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Howard, Helen and Shevelev, Kirill",
     "results": [
       {
@@ -7964,19 +8190,6 @@
         "comp_name": "NYDF 2019",
         "info": "G-C Gentlemen's International Latin Bronze Championship (C/S/R)",
         "place": "2",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 6.0,
-    "avg_pts": 6.0
-  },
-  {
-    "name": "Gallipani, Victoria and Anisimov, Sergey",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-SR International Latin Bronze Scholarship (C/S/R)",
-        "place": "5",
         "points": 6.0
       }
     ],
@@ -10216,12 +10429,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Belle, Luisa and Kurakin, Dmitry",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Belzberg, Lorinda and Bartashevich, Genya",
     "results": [],
     "total_pts": 0,
@@ -10949,12 +11156,6 @@
   },
   {
     "name": "Chau, Alice and Leonov, Maksim",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Chavez, Esperanza and Barsuk, Pavlo",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -13372,12 +13573,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Juanillo, Margie and Hauer, Matthew",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Juskelis, Rima and Rybczynski, Erwin",
     "results": [],
     "total_pts": 0,
@@ -13799,12 +13994,6 @@
   },
   {
     "name": "Kristoff-Powder, Tanya and Cherdantsau, Pavel",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Kuan, Katherine and Zeglen, Jakub",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -15623,12 +15812,6 @@
   },
   {
     "name": "Panambo, Pure and Skimelis, Vaidas",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Panchenko, Sergei and Saengkeo, Tatiana",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -18388,13 +18571,13 @@
     "avg_pts": 0
   },
   {
-    "name": "Zhang, Sabrina and Tarasov, Andrey",
+    "name": "Zhang, Sabrina and Engelgardt, Stas",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
   },
   {
-    "name": "Zhang, Sabrina and Engelgardt, Stas",
+    "name": "Zhang, Sabrina and Tarasov, Andrey",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
