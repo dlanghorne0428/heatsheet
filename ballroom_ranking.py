@@ -32,7 +32,8 @@ Ranking_Databases = [
     "Pro",
     "Pro-Am",
     "Jr.Pro-Am",
-    "Amateur"
+    "Amateur",
+    "Jr.Amateur"
 ]
     
 
@@ -504,9 +505,11 @@ class AppFrame(wx.Frame):
             elif self.current_db_index == 1:   
                 filename = self.folder_name + "/Comps/" + result["comp_name"] + "/pro-am_results.json"
             elif self.current_db_index == 2:   
-                filename = self.folder_name + "/Comps/" + result["comp_name"] + "/junior_pro-am_results.json"            
+                filename = self.folder_name + "/Comps/" + result["comp_name"] + "/junior_pro-am_results.json"     
+            elif self.current_db_index == 3:
+                filename = self.folder_name + "/Comps/" + result["comp_name"] + "/amateur_results.json"               
             else:
-                filename = self.folder_name + "/Comps/" + result["comp_name"] + "/amateur_results.json"      
+                filename = self.folder_name + "/Comps/" + result["comp_name"] + "/junior_amateur_results.json"      
             comp_data = Comp_Results_File(filename)
             heat_data = comp_data.get_heats()
             for h in heat_data:
@@ -753,9 +756,12 @@ class AppFrame(wx.Frame):
                 self.automation = True
             elif self.current_db_index == 2:
                 self.comp_results = Comp_Results_File(folder_name + "/junior_pro-am_results.json") 
+                self.automation = True    
+            elif self.current_db_index == 3:
+                self.comp_results = Comp_Results_File(folder_name + "/amateur_results.json")  
                 self.automation = True            
             else:
-                self.comp_results = Comp_Results_File(folder_name + "/amateur_results.json")  
+                self.comp_results = Comp_Results_File(folder_name + "/junior_amateur_results.json")  
                 self.automation = True
                 
             # clear the list of aliases for couple names
