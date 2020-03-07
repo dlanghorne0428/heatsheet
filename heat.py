@@ -21,7 +21,8 @@ def is_amateur_heat(s):
 
  
 def is_junior_heat(s):
-    if "-Y" in s or "-J" in s or "PT" in s or "-TB" in s or "JR" in s:
+    if "-Y" in s or "-J" in s or "PT" in s or "-TB" in s or "JR" in s or "YY" in s or "J1" in s or "J2" in s or "-LY" in s or "Teddy Bear" in s or \
+       "Preteen" in s or "YH" in s or "P1" in s or "P2" in s:
         return True
     else:
         return False
@@ -149,7 +150,7 @@ class Heat():
         summary.append(self.shirt_number)
 
         dancer_info = ""
-        if self.partner is None:
+        if self.partner is not None:
             dancer_info = self.dancer + " and " + self.partner
         else:
             dancer_info = self.dancer
