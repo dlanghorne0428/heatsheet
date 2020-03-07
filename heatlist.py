@@ -123,8 +123,11 @@ class Heatlist():
             for ht in c.heats:
                 if heat == ht:
                     if heat_type == "Amateur":
-                        if ht.multi_dance() and ht.amateur_heat():
+                        if ht.multi_dance() and ht.amateur_heat() and not ht.junior_heat():
                             report.append(ht)
+                    elif heat_type == "Jr.Amateur":
+                        if ht.multi_dance() and ht.amateur_heat() and ht.junior_heat():
+                            report.append(ht)                    
                     elif heat_type == "Pro-Am":
                         if ht.multi_dance() and not ht.amateur_heat() and not ht.junior_heat():
                             report.append(ht)   
@@ -136,6 +139,7 @@ class Heatlist():
         if sorted:
             report.sort()
         return report
+    
     
     # add to list of non-pro multi dance heats
     def add_multi_dance_heat(self, num):
