@@ -107,8 +107,8 @@ Crown, Jennifer:251
 Cummings, Jack:90
 Cyr, Nancy:232
 D`Arpino, Giovanni:675
-Dance Group1, Brillianc:683
-Dance Group1, Brilliance:682
+Group1, Brillianc Dance:683
+Group1, Brilliance Dance:682
 Dance1, Jani:692
 Dance2, Jani:693
 Danilova, Anastasiya:201
@@ -696,7 +696,7 @@ Dancer:Affonso, Christopher:209:Heats:27
 ["Heat", "714", "06@Sunday 1:18 PM", "YH Int'l Ballroom Single Dance AC-mLP2 Open Bronze Int'l Tango", "???", "Affonso, Christopher and Saint Germain, Laurynn Noemy", "---"]
 ["Heat", "716", "06@Sunday 1:21 PM", "YH Int'l Ballroom Single Dance AC-mLP2 Open Bronze Int'l Foxtrot", "???", "Affonso, Christopher and Saint Germain, Laurynn Noemy", "---"]
 ["Heat", "717", "06@Sunday 1:22 PM", "YH Int'l Ballroom Single Dance AC-mLP2 Open Bronze Int'l Quickstep", "???", "Affonso, Christopher and Saint Germain, Laurynn Noemy", "---"]
-["Heat", "718", "06@Sunday 1:38 PM", "Youth Amateur 3-Dance Events Closed Bronze mLP1 Int'l Ballroom (W,T,Q)", "???", "Affonso, Christopher and Sanchez, Rosario", "---"]
+["Heat", "718", "06@Sunday 1:38 PM", "Youth Amateur 3-Dance Events Closed Bronze mLP1 Int'l Ballroom (W,T,Q)", "302", "Affonso, Christopher and Sanchez, Rosario", 1]
 ["Heat", "721", "06@Sunday 1:49 PM", "Youth Amateur 3-Dance Events Closed Bronze mLJ1 Int'l Ballroom (W,T,Q)", "???", "Affonso, Christopher and Doricent, Isabel", "---"]
 ["Heat", "726", "06@Sunday 2:17 PM", "Fordney Foundation Open Events J2 AM/AM Int'l Ballroom (W,T,VW,F,Q)", "???", "Affonso, Christopher and Hatleberg, Holly", "---"]
 ["Heat", "729", "06@Sunday 2:25 PM", "Amateur PreChamp 4-Dance Events J2 Int'l Ballroom (W,T,F,Q)", "???", "Affonso, Christopher and Hatleberg, Holly", "---"]
@@ -769,15 +769,15 @@ Dancer:Agranovich, Olivia:396:Heats:28
 ["Heat", "806", "06@Sunday 5:10 PM", "YH Int'l Latin Single Dance AC-mGP2 Open Gold Int'l Rumba", "???", "Agranovich, Olivia and Ribaudo, Leo", "---"]
 ["Heat", "807", "06@Sunday 5:11 PM", "YH Int'l Latin Single Dance AC-mGP2 Open Gold Int'l Jive", "???", "Agranovich, Olivia and Ribaudo, Leo", "---"]
 Dancer:Alabi, Daniel:433:Heats:2
-["Heat", "767", "06@Sunday 3:57 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Rhythm (CC,R,SW)", "???", "Alabi, Daniel and Pelts, Talia", "---"]
-["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "???", "Alabi, Daniel and Pelts, Talia", "---"]
+["Heat", "767", "06@Sunday 3:57 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Rhythm (CC,R,SW)", "303", "Alabi, Daniel and Pelts, Talia", 2]
+["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "303", "Alabi, Daniel and Pelts, Talia", 7]
 Dancer:Alam, Tanzeem:114:Heats:1
-["Heat", "279", "02@Friday 9:10 PM", "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)", "???", "Alam, Tanzeem and Shah, Fahmil", "---"]
+["Heat", "279", "02@Friday 9:10 PM", "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)", "408", "Shah, Fahmil and Alam, Tanzeem", 5]
 Dancer:Albain, Christine:129:Heats:4
-["Heat", "679", "06@Sunday 11:54 AM", "Amateur PreChamp 4-Dance Events A Amer. Smooth (W,T,F,VW)", "???", "Albain, Christine and Sawyer, Nick", "---"]
-["Heat", "707", "06@Sunday 12:59 PM", "Amateur Novice 3-Dance Events A Amer. Smooth (W,T,F)", "???", "Albain, Christine and Sawyer, Nick", "---"]
-["Heat", "758", "06@Sunday 3:37 PM", "Amateur PreChamp 4-Dance Events A Amer. Rhythm (CC,R,SW,B)", "???", "Albain, Christine and Sawyer, Nick", "---"]
-["Heat", "794", "06@Sunday 4:49 PM", "Amateur Novice 3-Dance Events A Amer. Rhythm (CC,R,SW)", "???", "Albain, Christine and Sawyer, Nick", "---"]
+["Heat", "679", "06@Sunday 11:54 AM", "Amateur PreChamp 4-Dance Events A Amer. Smooth (W,T,F,VW)", "406", "Sawyer, Nick and Albain, Christine", 4]
+["Heat", "707", "06@Sunday 12:59 PM", "Amateur Novice 3-Dance Events A Amer. Smooth (W,T,F)", "406", "Sawyer, Nick and Albain, Christine", 2]
+["Heat", "758", "06@Sunday 3:37 PM", "Amateur PreChamp 4-Dance Events A Amer. Rhythm (CC,R,SW,B)", "406", "Sawyer, Nick and Albain, Christine", 1]
+["Heat", "794", "06@Sunday 4:49 PM", "Amateur Novice 3-Dance Events A Amer. Rhythm (CC,R,SW)", "406", "Sawyer, Nick and Albain, Christine", 1]
 Dancer:Alderfer, Bradley:306:Heats:17
 ["Heat", "651", "05@Sunday 10:01 AM", "Int'l Ballroom Single Dance G-B2 Open Silver Int'l Waltz", "???", "Alderfer, Bradley and Clark, Amanda", "---"]
 ["Heat", "652", "05@Sunday 10:02 AM", "Int'l Ballroom Single Dance G-B2 Open Silver Int'l Tango", "???", "Alderfer, Bradley and Clark, Amanda", "---"]
@@ -797,10 +797,10 @@ Dancer:Alderfer, Bradley:306:Heats:17
 ["Heat", "644", "05@Sunday 9:52 AM", "Int'l Ballroom Single Dance G-B1 Int. Gold Int'l Foxtrot", "???", "Alderfer, Bradley and Clark, Amanda", "---"]
 ["Heat", "645", "05@Sunday 9:53 AM", "Int'l Ballroom Single Dance G-B1 Int. Gold Int'l Quickstep", "???", "Alderfer, Bradley and Clark, Amanda", "---"]
 Dancer:Allaway, Emily:449:Heats:6
-["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "Allaway, Emily and Namburi, Praneeth", "---"]
+["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "388", "Namburi, Praneeth and Allaway, Emily", 6]
 ["Heat", "693", "06@Sunday 12:25 PM", "Amateur 2-Dance Events (1) Closed Silver A Amer. Smooth (W,T)", "???", "Allaway, Emily and Namburi, Praneeth", "---"]
 ["Heat", "694", "06@Sunday 12:28 PM", "Amateur 2-Dance Events (2) Closed Silver A Amer. Smooth (F,VW)", "???", "Allaway, Emily and Namburi, Praneeth", "---"]
-["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "???", "Allaway, Emily and Namburi, Praneeth", "---"]
+["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "388", "Namburi, Praneeth and Allaway, Emily", 5]
 ["Heat", "727", "06@Sunday 2:11 PM", "Amateur 2-Dance Events (1) Closed Silver A Int'l Ballroom (W,Q)", "???", "Allaway, Emily and Namburi, Praneeth", "---"]
 ["Heat", "728", "06@Sunday 2:14 PM", "Amateur 2-Dance Events (2) Closed Silver A Int'l Ballroom (T,F)", "???", "Allaway, Emily and Namburi, Praneeth", "---"]
 Dancer:Almeda, Galina:507:Heats:8
@@ -882,16 +882,16 @@ Dancer:Andriekute, Neda:172:Heats:2
 ["Pro heat", "2", "02@Friday 8:35 PM", "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)", "???", "Andriekute, Neda and Isaiev, Valentyn", "---"]
 ["Pro heat", "9", "04@Saturday 10:48 PM", "Professional Open Events Int'l Latin (CC,S,R,PD,J)", "???", "Andriekute, Neda and Isaiev, Valentyn", "---"]
 Dancer:Andryeyeva, Taysiya:591:Heats:1
-["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "???", "Andryeyeva, Taysiya and Gorbatso, Oleg", "---"]
+["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "437", "Gorbatso, Oleg and Andryeyeva, Taysiya", "Semis"]
 Dancer:Antipin, Angela:156:Heats:1
-["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "???", "Antipin, Angela and Antipin, Maksim", "---"]
+["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "305", "Antipin, Maksim and Antipin, Angela", 3]
 Dancer:Antipin, Maksim:155:Heats:1
 ["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "???", "Antipin, Maksim and Antipin, Angela", "---"]
 Dancer:Antonenko, Aleksandra:220:Heats:2
 ["Pro heat", "2", "02@Friday 8:35 PM", "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)", "???", "Antonenko, Aleksandra and Netsvetaev, Kirill", "---"]
 ["Pro heat", "9", "04@Saturday 10:48 PM", "Professional Open Events Int'l Latin (CC,S,R,PD,J)", "???", "Antonenko, Aleksandra and Netsvetaev, Kirill", "---"]
 Dancer:Aravena, Laura:228:Heats:1
-["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "???", "Aravena, Laura and Hirst, Charles", "---"]
+["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "347", "Hirst, Charles and Aravena, Laura", 6]
 Dancer:Arkhipenko, Maxim:189:Heats:1
 ["Pro heat", "6", "04@Saturday 7:40 PM", "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)", "???", "Arkhipenko, Maxim and Diego-Moffitt, Zahara", "---"]
 Dancer:Astacio, Jaselys:208:Heats:12
@@ -949,7 +949,7 @@ Dancer:Astafiev, Vlad:565:Heats:40
 ["Heat", "467", "03@Saturday 2:10 PM", "Closed Bronze Scholarship Events S1 Amer. Smooth (W,T,F)", "???", "Astafiev, Vlad and Ricciardi, Margaret", "---"]
 ["Heat", "552", "03@Saturday 5:30 PM", "Closed Silver Scholarship Events S1 Amer. Smooth (W,T,F,VW)", "???", "Astafiev, Vlad and Ricciardi, Margaret", "---"]
 Dancer:Atwater, Emily:82:Heats:1
-["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "???", "Atwater, Emily and Salazar, Nino", "---"]
+["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "404", "Salazar, Nino and Atwater, Emily", "Semis"]
 Dancer:Baker, Amy:253:Heats:60
 ["Heat", "86", "01@Friday 10:14 AM", "American Rhythm Single Dance G-B1 Newcomer II Amer. Cha Cha", "???", "Baker, Amy and Lucas, Robert", "---"]
 ["Heat", "87", "01@Friday 10:15 AM", "American Rhythm Single Dance G-B1 Newcomer II Amer. Rumba", "???", "Baker, Amy and Lucas, Robert", "---"]
@@ -1028,9 +1028,9 @@ Dancer:Barress, Lydia:656:Heats:6
 ["Heat", "717", "06@Sunday 1:22 PM", "YH Int'l Ballroom Single Dance L-J2 Open Gold Int'l Quickstep", "???", "Barress, Lydia and Issaev, Basil", "---"]
 ["Heat", "721", "06@Sunday 1:49 PM", "Youth Amateur 5-Dance Events Champ J2 Int'l Ballroom (W,T,VW,F,Q)", "???", "Barress, Lydia and Issaev, Basil", "---"]
 Dancer:Barron, Nicole:196:Heats:3
-["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "???", "Barron, Nicole and Torres, Steve", "---"]
-["Heat", "277", "02@Friday 7:53 PM", "Amateur Rising Star Events A Int'l Ballroom (W,T,VW,F,Q)", "???", "Barron, Nicole and Torres, Steve", "---"]
-["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "???", "Barron, Nicole and Torres, Steve", "---"]
+["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "424", "Torres, Steve and Barron, Nicole", "Semis"]
+["Heat", "277", "02@Friday 7:53 PM", "Amateur Rising Star Events A Int'l Ballroom (W,T,VW,F,Q)", "424", "Torres, Steve and Barron, Nicole", 2]
+["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "424", "Torres, Steve and Barron, Nicole", 1]
 Dancer:Barsoum, David:514:Heats:10
 ["Heat", "743", "06@Sunday 3:10 PM", "YH Int'l Latin Single Dance AC-J2 Closed Silver Int'l Cha Cha", "???", "Barsoum, David and Oskonbaeva, Vanessa", "---"]
 ["Heat", "744", "06@Sunday 3:11 PM", "YH Int'l Latin Single Dance AC-J2 Closed Silver Int'l Samba", "???", "Barsoum, David and Oskonbaeva, Vanessa", "---"]
@@ -1100,8 +1100,8 @@ Dancer:Battin, Tom:669:Heats:18
 ["Heat", "411", "03@Saturday 12:14 PM", "American Smooth Single Dance G-B2 Newcomer II Amer. Tango", "???", "Battin, Tom and Sealey, Kendall", "---"]
 ["Heat", "412", "03@Saturday 12:15 PM", "American Smooth Single Dance G-B2 Newcomer II Amer. Foxtrot", "???", "Battin, Tom and Sealey, Kendall", "---"]
 Dancer:Beal, Aaron:94:Heats:2
-["Heat", "679", "06@Sunday 11:54 AM", "Amateur PreChamp 4-Dance Events A Amer. Smooth (W,T,F,VW)", "???", "Beal, Aaron and Zhang, Ying", "---"]
-["Heat", "707", "06@Sunday 12:59 PM", "Amateur Novice 3-Dance Events A Amer. Smooth (W,T,F)", "???", "Beal, Aaron and Zhang, Ying", "---"]
+["Heat", "679", "06@Sunday 11:54 AM", "Amateur PreChamp 4-Dance Events A Amer. Smooth (W,T,F,VW)", "308", "Beal, Aaron and Zhang, Ying", 3]
+["Heat", "707", "06@Sunday 12:59 PM", "Amateur Novice 3-Dance Events A Amer. Smooth (W,T,F)", "308", "Beal, Aaron and Zhang, Ying", 3]
 Dancer:Bekker, Natalya:503:Heats:6
 ["Heat", "666", "05@Sunday 10:21 AM", "Int'l Ballroom Single Dance L-A3 Op. Advanced Int'l Waltz", "???", "Bekker, Natalya and Shiloshvili, Thomas", "---"]
 ["Heat", "667", "05@Sunday 10:23 AM", "Int'l Ballroom Single Dance L-A3 Op. Advanced Int'l Tango", "???", "Bekker, Natalya and Shiloshvili, Thomas", "---"]
@@ -1153,9 +1153,9 @@ Dancer:Berenji, Manijeh:262:Heats:21
 ["Heat", "456", "03@Saturday 1:25 PM", "American Smooth Single Dance L-A2 PreBronze Amer. Viennese Waltz", "???", "Berenji, Manijeh and Gombkoto, Imre", "---"]
 ["Heat", "468", "03@Saturday 2:14 PM", "Closed Bronze Scholarship Events B Amer. Smooth (W,T,F)", "???", "Berenji, Manijeh and Gombkoto, Imre", "---"]
 Dancer:Bernier, Jessica:606:Heats:3
-["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "???", "Bernier, Jessica and Elmourad, Jad", "---"]
-["Heat", "812", "06@Sunday 5:39 PM", "Amateur Novice 3-Dance Events A Int'l Latin (CC,S,R)", "???", "Bernier, Jessica and Elmourad, Jad", "---"]
-["Heat", "817", "06@Sunday 6:06 PM", "Amateur Gold 4-Dance Events A Int'l Latin (CC,S,R,J)", "???", "Bernier, Jessica and Elmourad, Jad", "---"]
+["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "441", "Elmourad, Jad and Bernier, Jessica", 2]
+["Heat", "812", "06@Sunday 5:39 PM", "Amateur Novice 3-Dance Events A Int'l Latin (CC,S,R)", "441", "Elmourad, Jad and Bernier, Jessica", 3]
+["Heat", "817", "06@Sunday 6:06 PM", "Amateur Gold 4-Dance Events A Int'l Latin (CC,S,R,J)", "441", "Elmourad, Jad and Bernier, Jessica", 1]
 Dancer:Bic, Pavel:538:Heats:2
 ["Pro heat", "5", "02@Friday 10:22 PM", "Professional Open Events Int'l Ballroom (W,T,VW,F,Q)", "???", "Bic, Pavel and Oh, Angelina", "---"]
 ["Pro heat", "7", "04@Saturday 8:05 PM", "Professional Rising Star Events Int'l Ballroom (W,T,VW,F,Q)", "???", "Bic, Pavel and Oh, Angelina", "---"]
@@ -1312,18 +1312,18 @@ Dancer:Bowman, Debbie:575:Heats:39
 ["Heat", "538", "03@Saturday 4:24 PM", "American Smooth Single Dance L-B1 Open Silver Amer. Viennese Waltz", "???", "Bowman, Debbie and DeSouza, Marcio", "---"]
 ["Heat", "553", "03@Saturday 5:36 PM", "Closed Silver Scholarship Events C Amer. Smooth (W,T,F,VW)", "???", "Bowman, Debbie and DeSouza, Marcio", "---"]
 Dancer:Bramwell, Liesel:419:Heats:3
-["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "???", "Bramwell, Liesel and Kyle, TJ", "---"]
-["Heat", "277A", "02@Friday 7:43 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Ballroom (W,T,VW,F,Q)", "???", "Bramwell, Liesel and Kyle, TJ", "---"]
-["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "???", "Bramwell, Liesel and Buss, Carston", "---"]
+["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "368", "Kyle, TJ and Bramwell, Liesel", 6]
+["Heat", "277A", "02@Friday 7:43 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Ballroom (W,T,VW,F,Q)", "368", "Kyle, TJ and Bramwell, Liesel", 4]
+["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "312", "Buss, Carston and Bramwell, Liesel", 2]
 Dancer:Branch, Matthew:661:Heats:2
-["Heat", "812", "06@Sunday 5:39 PM", "Amateur Novice 3-Dance Events A Int'l Latin (CC,S,R)", "???", "Branch, Matthew and Zhang, Mengke", "---"]
-["Heat", "817A", "06@Sunday 6:12 PM", "Amateur PreChamp 4-Dance Events A Int'l Latin (CC,S,R,J)", "???", "Branch, Matthew and Zhang, Mengke", "---"]
+["Heat", "812", "06@Sunday 5:39 PM", "Amateur Novice 3-Dance Events A Int'l Latin (CC,S,R)", "423", "Branch, Matthew and Zhang, Mengke", 2]
+["Heat", "817A", "06@Sunday 6:12 PM", "Amateur PreChamp 4-Dance Events A Int'l Latin (CC,S,R,J)", "423", "Branch, Matthew and Zhang, Mengke", 2]
 Dancer:Branch, Steven:44:Heats:5
 ["Heat", "719", "06@Sunday 1:43 PM", "Amateur 2-Dance Events (1) Closed Silver S3 Int'l Ballroom (W,Q)", "???", "Branch, Steven and Kenner, Shawn", "---"]
 ["Heat", "720", "06@Sunday 1:46 PM", "Amateur 2-Dance Events (2) Closed Silver S3 Int'l Ballroom (T,F)", "???", "Branch, Steven and Kenner, Shawn", "---"]
 ["Heat", "724", "06@Sunday 2:05 PM", "Amateur 2-Dance Events (1) Closed Silver S2 Int'l Ballroom (W,Q)", "???", "Branch, Steven and Kenner, Shawn", "---"]
 ["Heat", "725", "06@Sunday 2:08 PM", "Amateur 2-Dance Events (2) Closed Silver S2 Int'l Ballroom (T,F)", "???", "Branch, Steven and Kenner, Shawn", "---"]
-["Heat", "742", "06@Sunday 3:00 PM", "Amateur Gold 4-Dance Events S3 Int'l Ballroom (W,T,F,Q)", "???", "Branch, Steven and Kenner, Shawn", "---"]
+["Heat", "742", "06@Sunday 3:00 PM", "Amateur Gold 4-Dance Events S3 Int'l Ballroom (W,T,F,Q)", "310", "Branch, Steven and Kenner, Shawn", 1]
 Dancer:Brennman, Breeanna:116:Heats:10
 ["Heat", "580", "05@Sunday 7:24 AM", "Int'l Ballroom Single Dance L-A1 Full Bronze Int'l Foxtrot", "???", "Brennman, Breeanna and Plumley, Cris", "---"]
 ["Heat", "597", "05@Sunday 7:47 AM", "Int'l Ballroom Single Dance L-A1 Int. Bronze Int'l Waltz", "???", "Brennman, Breeanna and Plumley, Cris", "---"]
@@ -1424,16 +1424,16 @@ Dancer:Burlingame, Jeanne:616:Heats:21
 ["Heat", "640", "05@Sunday 9:46 AM", "Int'l Ballroom Single Dance L-C1 Full Silver Int'l Foxtrot", "???", "Burlingame, Jeanne and DeSouza, Marcio", "---"]
 ["Heat", "641", "05@Sunday 9:48 AM", "Int'l Ballroom Single Dance L-C1 Full Silver Int'l Quickstep", "???", "Burlingame, Jeanne and DeSouza, Marcio", "---"]
 Dancer:Buss, Carston:417:Heats:4
-["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "???", "Buss, Carston and Cole, Ashton", "---"]
+["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "312", "Buss, Carston and Cole, Ashton", "Semis"]
 ["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "???", "Buss, Carston and Bramwell, Liesel", "---"]
-["Heat", "559", "04@Saturday 8:40 PM", "Amateur Rising Star Events A Int'l Latin (CC,S,R,PD,J)", "???", "Buss, Carston and Cole, Ashton", "---"]
-["Heat", "818A", "04@Saturday 8:58 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Latin (CC,S,R,PD,J)", "???", "Buss, Carston and Cole, Ashton", "---"]
+["Heat", "559", "04@Saturday 8:40 PM", "Amateur Rising Star Events A Int'l Latin (CC,S,R,PD,J)", "312", "Buss, Carston and Cole, Ashton", 2]
+["Heat", "818A", "04@Saturday 8:58 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Latin (CC,S,R,PD,J)", "312", "Buss, Carston and Cole, Ashton", 6]
 Dancer:Caliandro, Gianni:530:Heats:1
 ["Pro heat", "5", "02@Friday 10:22 PM", "Professional Open Events Int'l Ballroom (W,T,VW,F,Q)", "???", "Caliandro, Gianni and Esposito, Arianna", "---"]
 Dancer:Calobrisi, Emily:2:Heats:3
-["Heat", "279", "02@Friday 9:10 PM", "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)", "???", "Calobrisi, Emily and Spencer, Daniel", "---"]
-["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "???", "Calobrisi, Emily and Spencer, Daniel", "---"]
-["Heat", "679", "06@Sunday 11:54 AM", "Amateur PreChamp 4-Dance Events A Amer. Smooth (W,T,F,VW)", "???", "Calobrisi, Emily and Spencer, Daniel", "---"]
+["Heat", "279", "02@Friday 9:10 PM", "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)", "414", "Spencer, Daniel and Calobrisi, Emily", 6]
+["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "414", "Spencer, Daniel and Calobrisi, Emily", "Semis"]
+["Heat", "679", "06@Sunday 11:54 AM", "Amateur PreChamp 4-Dance Events A Amer. Smooth (W,T,F,VW)", "414", "Spencer, Daniel and Calobrisi, Emily", 2]
 Dancer:Cantley, Mariko:13:Heats:2
 ["Pro heat", "5", "02@Friday 10:22 PM", "Professional Open Events Int'l Ballroom (W,T,VW,F,Q)", "???", "Cantley, Mariko and Batih, Nazar", "---"]
 ["Pro heat", "1", "02@Friday 8:03 PM", "Professional Exhibtion OP  Theatrical", "???", "Cantley, Mariko and Batih, Nazar", "---"]
@@ -1474,7 +1474,7 @@ Dancer:Carroll, Holly:501:Heats:14
 ["Heat", "660", "05@Sunday 10:13 AM", "Int'l Ballroom Single Dance L-C1 Full Gold Int'l Quickstep", "???", "Carroll, Holly and Shiloshvili, Thomas", "---"]
 ["Heat", "632", "05@Sunday 9:25 AM", "Int'l Ballroom Single Dance L-C1 Open Gold Int'l Quickstep", "???", "Carroll, Holly and Shiloshvili, Thomas", "---"]
 Dancer:Carzis, Electra:562:Heats:1
-["Heat", "279", "02@Friday 9:10 PM", "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)", "???", "Carzis, Electra and Gad, Aniket", "---"]
+["Heat", "279", "02@Friday 9:10 PM", "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)", "335", "Gad, Aniket and Carzis, Electra", 3]
 Dancer:Cassidy, Vin:290:Heats:11
 ["Heat", "101", "01@Friday 10:34 AM", "American Rhythm Single Dance G-B1 Int. Bronze Amer. Bolero", "???", "Cassidy, Vin and Toth, Maggie", "---"]
 ["Heat", "102", "01@Friday 10:35 AM", "American Rhythm Single Dance G-B1 Int. Bronze Amer. Mambo", "???", "Cassidy, Vin and Toth, Maggie", "---"]
@@ -1488,7 +1488,7 @@ Dancer:Cassidy, Vin:290:Heats:11
 ["Heat", "43", "01@Friday 9:06 AM", "American Rhythm Single Dance G-B1 PreBronze Amer. Bolero", "???", "Cassidy, Vin and Toth, Maggie", "---"]
 ["Heat", "44", "01@Friday 9:07 AM", "American Rhythm Single Dance G-B1 PreBronze Amer. Mambo", "???", "Cassidy, Vin and Toth, Maggie", "---"]
 Dancer:Castelan, Judith:176:Heats:1
-["Heat", "278", "02@Friday 8:20 PM", "Amateur Events S1 Int'l Latin Championship (CC,S,R,PD,J)", "???", "Castelan, Judith and Ongpin, Jesse", "---"]
+["Heat", "278", "02@Friday 8:20 PM", "Amateur Events S1 Int'l Latin Championship (CC,S,R,PD,J)", "390", "Ongpin, Jesse and Castelan, Judith", 1]
 Dancer:Celi, Frank:602:Heats:12
 ["Heat", "86", "01@Friday 10:14 AM", "American Rhythm Single Dance G-B2 Full Bronze Amer. Cha Cha", "???", "Celi, Frank and Canuel, Beth", "---"]
 ["Heat", "87", "01@Friday 10:15 AM", "American Rhythm Single Dance G-B2 Full Bronze Amer. Rumba", "???", "Celi, Frank and Canuel, Beth", "---"]
@@ -1503,24 +1503,24 @@ Dancer:Celi, Frank:602:Heats:12
 ["Heat", "67", "01@Friday 9:38 AM", "American Rhythm Single Dance G-B2 Int. Bronze Amer. Rumba", "???", "Celi, Frank and Canuel, Beth", "---"]
 ["Heat", "68", "01@Friday 9:39 AM", "American Rhythm Single Dance G-B2 Int. Bronze Amer. Swing", "???", "Celi, Frank and Canuel, Beth", "---"]
 Dancer:Chalmers, Rebecca:697:Heats:12
-["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "Chalmers, Rebecca and Mischo, Seth", "---"]
+["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "463", "Mischo, Seth and Chalmers, Rebecca", "Semis"]
 ["Heat", "693", "06@Sunday 12:25 PM", "Amateur 2-Dance Events (1) Closed Silver A Amer. Smooth (W,T)", "???", "Chalmers, Rebecca and Mischo, Seth", "---"]
 ["Heat", "694", "06@Sunday 12:28 PM", "Amateur 2-Dance Events (2) Closed Silver A Amer. Smooth (F,VW)", "???", "Chalmers, Rebecca and Mischo, Seth", "---"]
-["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "???", "Chalmers, Rebecca and Mischo, Seth", "---"]
+["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "463", "Mischo, Seth and Chalmers, Rebecca", "Semis"]
 ["Heat", "727", "06@Sunday 2:11 PM", "Amateur 2-Dance Events (1) Closed Silver A Int'l Ballroom (W,Q)", "???", "Chalmers, Rebecca and Mischo, Seth", "---"]
 ["Heat", "728", "06@Sunday 2:14 PM", "Amateur 2-Dance Events (2) Closed Silver A Int'l Ballroom (T,F)", "???", "Chalmers, Rebecca and Mischo, Seth", "---"]
-["Heat", "767", "06@Sunday 3:57 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Rhythm (CC,R,SW)", "???", "Chalmers, Rebecca and Mischo, Seth", "---"]
+["Heat", "767", "06@Sunday 3:57 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Rhythm (CC,R,SW)", "463", "Mischo, Seth and Chalmers, Rebecca", 5]
 ["Heat", "792", "06@Sunday 4:49 PM", "Amateur 2-Dance Events (1) Closed Silver A Amer. Rhythm (CC,R)", "???", "Chalmers, Rebecca and Mischo, Seth", "---"]
 ["Heat", "793", "06@Sunday 4:49 PM", "Amateur 2-Dance Events (2) Closed Silver A Amer. Rhythm (SW,M)", "???", "Chalmers, Rebecca and Mischo, Seth", "---"]
-["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "???", "Chalmers, Rebecca and Mischo, Seth", "---"]
+["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "463", "Mischo, Seth and Chalmers, Rebecca", "Semis"]
 ["Heat", "813", "06@Sunday 5:42 PM", "Amateur 2-Dance Events (1) Closed Silver A Int'l Latin (CC,R)", "???", "Chalmers, Rebecca and Mischo, Seth", "---"]
 ["Heat", "814", "06@Sunday 5:45 PM", "Amateur 2-Dance Events (2) Closed Silver A Int'l Latin (S,J)", "???", "Chalmers, Rebecca and Mischo, Seth", "---"]
 Dancer:Champagne, Bianca:168:Heats:2
 ["Pro heat", "2", "02@Friday 8:35 PM", "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)", "???", "Champagne, Bianca and Corriveau, Vincent", "---"]
 ["Pro heat", "9", "04@Saturday 10:48 PM", "Professional Open Events Int'l Latin (CC,S,R,PD,J)", "???", "Champagne, Bianca and Corriveau, Vincent", "---"]
 Dancer:Chan, Danica:453:Heats:2
-["Heat", "723", "06@Sunday 2:05 PM", "Amateur PreChamp 4-Dance Events A Int'l Ballroom (W,T,F,Q)", "???", "Chan, Danica and Xu, Yimeng", "---"]
-["Heat", "748", "06@Sunday 3:17 PM", "Collegiate Open Events AM/AM Int'l Ballroom (W,T,VW,F,Q)", "???", "Chan, Danica and Xu, Yimeng", "---"]
+["Heat", "723", "06@Sunday 2:05 PM", "Amateur PreChamp 4-Dance Events A Int'l Ballroom (W,T,F,Q)", "430", "Xu, Yimeng and Chan, Danica", 1]
+["Heat", "748", "06@Sunday 3:17 PM", "Collegiate Open Events AM/AM Int'l Ballroom (W,T,VW,F,Q)", "430", "Xu, Yimeng and Chan, Danica", 1]
 Dancer:Chang, Mary:567:Heats:20
 ["Heat", "380", "03@Saturday 10:11 AM", "Closed Silver 4-Dance Events C Int'l Latin (CC,S,R,J)", "???", "Chang, Mary and Astafiev, Vlad", "---"]
 ["Heat", "387", "03@Saturday 11:00 AM", "Closed Silver Scholarship Events C Int'l Latin (CC,S,R,J)", "???", "Chang, Mary and Astafiev, Vlad", "---"]
@@ -1589,7 +1589,7 @@ Dancer:Chen, Angie:139:Heats:11
 ["Heat", "784", "06@Sunday 4:37 PM", "YH Int'l Latin Single Dance AC-P1 Closed Bronze Int'l Samba", "???", "Chen, Angie and Dew, Duncan", "---"]
 ["Heat", "785", "06@Sunday 4:39 PM", "YH Int'l Latin Single Dance AC-P1 Closed Bronze Int'l Rumba", "???", "Chen, Angie and Dew, Duncan", "---"]
 ["Heat", "786", "06@Sunday 4:40 PM", "YH Int'l Latin Single Dance AC-P1 Closed Bronze Int'l Jive", "???", "Chen, Angie and Dew, Duncan", "---"]
-["Heat", "809", "06@Sunday 5:27 PM", "Youth Amateur 3-Dance Events Closed Bronze P1 Int'l Latin (CC,R,J)", "???", "Chen, Angie and Dew, Duncan", "---"]
+["Heat", "809", "06@Sunday 5:27 PM", "Youth Amateur 3-Dance Events Closed Bronze P1 Int'l Latin (CC,R,J)", "321", "Dew, Duncan and Chen, Angie", 2]
 Dancer:Chernozhukova, Olga:672:Heats:6
 ["Heat", "2", "01@Friday 8:01 AM", "American Rhythm Single Dance L-A3 Newcomer II Amer. Rumba", "???", "Chernozhukova, Olga and Locic, Milan", "---"]
 ["Heat", "3", "01@Friday 8:02 AM", "American Rhythm Single Dance L-A3 Newcomer II Amer. Swing", "???", "Chernozhukova, Olga and Locic, Milan", "---"]
@@ -1598,7 +1598,7 @@ Dancer:Chernozhukova, Olga:672:Heats:6
 ["Heat", "41", "01@Friday 9:03 AM", "American Rhythm Single Dance L-A3 Newcomer I Amer. Rumba", "???", "Chernozhukova, Olga and Locic, Milan", "---"]
 ["Heat", "42", "01@Friday 9:05 AM", "American Rhythm Single Dance L-A3 Newcomer I Amer. Swing", "???", "Chernozhukova, Olga and Locic, Milan", "---"]
 Dancer:Claeys, Keith:493:Heats:31
-["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "???", "Claeys, Keith and Ning, Shen", "---"]
+["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "314", "Claeys, Keith and Ning, Shen", "Semis"]
 ["Heat", "730", "06@Sunday 2:48 PM", "YH Int'l Latin Single Dance AC-mLP1 Newcomer Int'l Cha Cha", "???", "Claeys, Keith and Levkovich, Sasha", "---"]
 ["Heat", "731", "06@Sunday 2:50 PM", "YH Int'l Latin Single Dance AC-mLP1 Newcomer Int'l Samba", "???", "Claeys, Keith and Levkovich, Sasha", "---"]
 ["Heat", "732", "06@Sunday 2:51 PM", "YH Int'l Latin Single Dance AC-mLP1 Newcomer Int'l Rumba", "???", "Claeys, Keith and Levkovich, Sasha", "---"]
@@ -1687,7 +1687,7 @@ Dancer:Cole, Maria:119:Heats:10
 ["Heat", "616", "05@Sunday 9:04 AM", "Int'l Ballroom Single Dance L-B2 PreSilver Int'l Foxtrot", "???", "Cole, Maria and Plumley, Cris", "---"]
 ["Heat", "647", "05@Sunday 9:56 AM", "Int'l Ballroom Single Dance L-C1 PreSilver Int'l Tango", "???", "Cole, Maria and Plumley, Cris", "---"]
 Dancer:Collette, Sylvain:552:Heats:1
-["Heat", "560", "04@Saturday 8:50 PM", "Amateur Events S1 Int'l Ballroom Championship (W,T,VW,F,Q)", "???", "Collette, Sylvain and Trudeau, Caroline", "---"]
+["Heat", "560", "04@Saturday 8:50 PM", "Amateur Events S1 Int'l Ballroom Championship (W,T,VW,F,Q)", "315", "Collette, Sylvain and Trudeau, Caroline", 1]
 Dancer:Colon, Gabby:687:Heats:8
 ["Heat", "759", "06@Sunday 3:45 PM", "YH Int'l Latin Single Dance L-YH Closed Bronze Int'l Cha Cha", "???", "Colon, Gabby and Gelzhinsky, Peter", "---"]
 ["Heat", "760", "06@Sunday 3:46 PM", "YH Int'l Latin Single Dance L-YH Closed Bronze Int'l Samba", "???", "Colon, Gabby and Gelzhinsky, Peter", "---"]
@@ -1698,9 +1698,9 @@ Dancer:Colon, Gabby:687:Heats:8
 ["Heat", "797", "06@Sunday 4:56 PM", "YH Int'l Latin Single Dance L-YH Open Bronze Int'l Rumba", "???", "Colon, Gabby and Gelzhinsky, Peter", "---"]
 ["Heat", "798", "06@Sunday 4:57 PM", "YH Int'l Latin Single Dance L-YH Open Bronze Int'l Jive", "???", "Colon, Gabby and Gelzhinsky, Peter", "---"]
 Dancer:Cometa, George:46:Heats:3
-["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "???", "Cometa, George and Kanter, Bella", "---"]
-["Heat", "277", "02@Friday 7:53 PM", "Amateur Rising Star Events A Int'l Ballroom (W,T,VW,F,Q)", "???", "Cometa, George and Kanter, Bella", "---"]
-["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "???", "Cometa, George and Wills, Amelia", "---"]
+["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "316", "Cometa, George and Kanter, Bella", "Semis"]
+["Heat", "277", "02@Friday 7:53 PM", "Amateur Rising Star Events A Int'l Ballroom (W,T,VW,F,Q)", "316", "Cometa, George and Kanter, Bella", 5]
+["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "316", "Cometa, George and Wills, Amelia", 5]
 Dancer:Connors, Susan:296:Heats:16
 ["Heat", "81", "01@Friday 10:07 AM", "American Rhythm Single Dance L-B1 Full Bronze Amer. Cha Cha", "???", "Connors, Susan and Kerekes, Tibor", "---"]
 ["Heat", "82", "01@Friday 10:08 AM", "American Rhythm Single Dance L-B1 Full Bronze Amer. Rumba", "???", "Connors, Susan and Kerekes, Tibor", "---"]
@@ -1814,10 +1814,10 @@ Dancer:Cyr, Nancy:232:Heats:8
 Dancer:D`Arpino, Giovanni:675:Heats:2
 ["Pro heat", "2", "02@Friday 8:35 PM", "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)", "???", "D`Arpino, Giovanni and Vari, Francesca", "---"]
 ["Pro heat", "9", "04@Saturday 10:48 PM", "Professional Open Events Int'l Latin (CC,S,R,PD,J)", "???", "D`Arpino, Giovanni and Vari, Francesca", "---"]
-Dancer:Dance Group1, Brillianc:683:Heats:1
-["Solo", "5", "02@Friday 7:40 PM", "Solo Brilliance Dance Group", "???", "Dance Group1, Brillianc and Dance Group1, Brilliance", "---"]
-Dancer:Dance Group1, Brilliance:682:Heats:1
-["Solo", "5", "02@Friday 7:40 PM", "Solo Brilliance Dance Group", "???", "Dance Group1, Brilliance and Dance Group1, Brillianc", "---"]
+Dancer:Group1, Brillianc Dance:683:Heats:1
+["Solo", "5", "02@Friday 7:40 PM", "Solo Brilliance Dance Group", "???", "Group1, Brillianc Dance and Group1, Brilliance Dance", "---"]
+Dancer:Group1, Brilliance Dance:682:Heats:1
+["Solo", "5", "02@Friday 7:40 PM", "Solo Brilliance Dance Group", "???", "Group1, Brilliance Dance and Group1, Brillianc Dance", "---"]
 Dancer:Dance1, Jani:692:Heats:1
 ["Solo", "10", "03@Saturday 4:35 PM", "Solo Salsa Performance", "???", "Dance1, Jani and Dance2, Jani", "---"]
 Dancer:Dance2, Jani:693:Heats:1
@@ -1842,8 +1842,8 @@ Dancer:Dashevsky, Yafa:409:Heats:16
 ["Heat", "801", "06@Sunday 5:03 PM", "YH Int'l Latin Single Dance AC-J1 Closed Gold Int'l Rumba", "???", "Dashevsky, Yafa and Shmelev, Andrew", "---"]
 ["Heat", "803", "06@Sunday 5:06 PM", "YH Int'l Latin Single Dance AC-J1 Closed Gold Int'l Jive", "???", "Dashevsky, Yafa and Shmelev, Andrew", "---"]
 Dancer:Davis, Derrick:423:Heats:2
-["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "???", "Davis, Derrick and McShinsky, Jenna", "---"]
-["Heat", "277A", "02@Friday 7:43 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Ballroom (W,T,VW,F,Q)", "???", "Davis, Derrick and McShinsky, Jenna", "---"]
+["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "319", "Davis, Derrick and McShinsky, Jenna", "Semis"]
+["Heat", "277A", "02@Friday 7:43 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Ballroom (W,T,VW,F,Q)", "319", "Davis, Derrick and McShinsky, Jenna", 5]
 Dancer:Davis, John:191:Heats:13
 ["Heat", "567", "05@Sunday 7:06 AM", "Int'l Ballroom Single Dance AC-B2 Full Bronze Int'l Waltz", "???", "Davis, John and Davis, Pateresa", "---"]
 ["Heat", "568", "05@Sunday 7:08 AM", "Int'l Ballroom Single Dance AC-B2 Full Bronze Int'l Tango", "???", "Davis, John and Davis, Pateresa", "---"]
@@ -1936,8 +1936,8 @@ Dancer:Delmonico, Courtney:275:Heats:6
 ["Heat", "549", "03@Saturday 5:12 PM", "WDSS 4-Dance Events Op. Advanced A Amer. Smooth (W,T,F,VW)", "???", "Delmonico, Courtney and Kirrane, Donovan", "---"]
 ["Heat", "555", "03@Saturday 5:48 PM", "Open Advanced 4-Dance Scholarship Events A Amer. Smooth (W,T,F,VW)", "???", "Delmonico, Courtney and Kirrane, Donovan", "---"]
 Dancer:Delmy, Cedric:665:Heats:2
-["Heat", "812", "06@Sunday 5:39 PM", "Amateur Novice 3-Dance Events A Int'l Latin (CC,S,R)", "???", "Delmy, Cedric and Schwartz, Rachael", "---"]
-["Heat", "818", "06@Sunday 6:18 PM", "Collegiate Open Events AM/AM Int'l Latin (CC,S,R,PD,J)", "???", "Delmy, Cedric and Schwartz, Rachael", "---"]
+["Heat", "812", "06@Sunday 5:39 PM", "Amateur Novice 3-Dance Events A Int'l Latin (CC,S,R)", "455", "Delmy, Cedric and Schwartz, Rachael", 4]
+["Heat", "818", "06@Sunday 6:18 PM", "Collegiate Open Events AM/AM Int'l Latin (CC,S,R,PD,J)", "455", "Delmy, Cedric and Schwartz, Rachael", 2]
 Dancer:DeLoge, Nina:500:Heats:9
 ["Heat", "592", "05@Sunday 7:40 AM", "Int'l Ballroom Single Dance L-B2 Full Bronze Int'l Waltz", "???", "DeLoge, Nina and Shiloshvili, Thomas", "---"]
 ["Heat", "593", "05@Sunday 7:41 AM", "Int'l Ballroom Single Dance L-B2 Full Bronze Int'l Tango", "???", "DeLoge, Nina and Shiloshvili, Thomas", "---"]
@@ -1961,12 +1961,12 @@ Dancer:DePedro, Donna:233:Heats:11
 ["Heat", "645", "05@Sunday 9:53 AM", "Int'l Ballroom Single Dance L-B1 Full Silver Int'l Quickstep", "???", "DePedro, Donna and Milojkovic, Mica", "---"]
 ["Heat", "648", "05@Sunday 9:57 AM", "Int'l Ballroom Single Dance L-B1 Full Silver Int'l Viennese Waltz", "???", "DePedro, Donna and Milojkovic, Mica", "---"]
 Dancer:desJardins-Park, Caroline:432:Heats:6
-["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "desJardins-Park, Caroline and Lam, Vanessa", "---"]
-["Heat", "698", "06@Sunday 12:36 PM", "Amateur Gold 4-Dance Events A Amer. Smooth (W,T,F,VW)", "???", "desJardins-Park, Caroline and Lam, Vanessa", "---"]
-["Heat", "707", "06@Sunday 12:59 PM", "Amateur Novice 3-Dance Events A Amer. Smooth (W,T,F)", "???", "desJardins-Park, Caroline and Lam, Vanessa", "---"]
-["Heat", "712", "06@Sunday 1:10 PM", "Collegiate Open Events AM/AM Amer. Smooth (W,T,F,VW)", "???", "desJardins-Park, Caroline and Lam, Vanessa", "---"]
-["Heat", "812", "06@Sunday 5:39 PM", "Amateur Novice 3-Dance Events A Int'l Latin (CC,S,R)", "???", "desJardins-Park, Caroline and DiFrancesco, Emily", "---"]
-["Heat", "817A", "06@Sunday 6:12 PM", "Amateur PreChamp 4-Dance Events A Int'l Latin (CC,S,R,J)", "???", "desJardins-Park, Caroline and DiFrancesco, Emily", "---"]
+["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "369", "Lam, Van and desJardins-Park, Caroline", 2]
+["Heat", "698", "06@Sunday 12:36 PM", "Amateur Gold 4-Dance Events A Amer. Smooth (W,T,F,VW)", "369", "Lam, Van and desJardins-Park, Caroline", 1]
+["Heat", "707", "06@Sunday 12:59 PM", "Amateur Novice 3-Dance Events A Amer. Smooth (W,T,F)", "369", "Lam, Van and desJardins-Park, Caroline", 1]
+["Heat", "712", "06@Sunday 1:10 PM", "Collegiate Open Events AM/AM Amer. Smooth (W,T,F,VW)", "369", "Lam, Van and desJardins-Park, Caroline", 1]
+["Heat", "812", "06@Sunday 5:39 PM", "Amateur Novice 3-Dance Events A Int'l Latin (CC,S,R)", "324", "desJardins-Park, Caroline and DiFrancesco, Emily", 5]
+["Heat", "817A", "06@Sunday 6:12 PM", "Amateur PreChamp 4-Dance Events A Int'l Latin (CC,S,R,J)", "324", "desJardins-Park, Caroline and DiFrancesco, Emily", 3]
 Dancer:DeSouza, Marcio:574:Heats:230
 ["Heat", "81", "01@Friday 10:07 AM", "American Rhythm Single Dance L-A1 Int. Silver Amer. Cha Cha", "???", "DeSouza, Marcio and Sulin, Olivia", "---"]
 ["Heat", "82", "01@Friday 10:08 AM", "American Rhythm Single Dance L-A1 Int. Silver Amer. Rumba", "???", "DeSouza, Marcio and Sulin, Olivia", "---"]
@@ -2274,10 +2274,10 @@ Dancer:Diana, Owen:292:Heats:12
 ["Heat", "75", "01@Friday 9:49 AM", "American Rhythm Single Dance G-A1 Int. Bronze Amer. Mambo", "???", "Diana, Owen and Toth, Maggie", "---"]
 ["Heat", "264", "01@Friday 4:00 PM", "Closed Syllabus Gent's Only Events GA Amer. Rhythm (CC,R,SW,B)", "???", "Diana, Owen and Toth, Maggie", "---"]
 Dancer:Diao, James:91:Heats:6
-["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "Diao, James and Wu, Gloria", "---"]
+["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "323", "Diao, James and Wu, Gloria", 1]
 ["Heat", "693", "06@Sunday 12:25 PM", "Amateur 2-Dance Events (1) Closed Silver A Amer. Smooth (W,T)", "???", "Diao, James and Wu, Gloria", "---"]
 ["Heat", "694", "06@Sunday 12:28 PM", "Amateur 2-Dance Events (2) Closed Silver A Amer. Smooth (F,VW)", "???", "Diao, James and Wu, Gloria", "---"]
-["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "???", "Diao, James and Wu, Gloria", "---"]
+["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "323", "Diao, James and Wu, Gloria", 3]
 ["Heat", "727", "06@Sunday 2:11 PM", "Amateur 2-Dance Events (1) Closed Silver A Int'l Ballroom (W,Q)", "???", "Diao, James and Wu, Gloria", "---"]
 ["Heat", "728", "06@Sunday 2:14 PM", "Amateur 2-Dance Events (2) Closed Silver A Int'l Ballroom (T,F)", "???", "Diao, James and Wu, Gloria", "---"]
 Dancer:DiCicco, Vanessa:568:Heats:8
@@ -2325,7 +2325,7 @@ Dancer:Donlon, Mykala:244:Heats:15
 ["Heat", "805", "06@Sunday 5:08 PM", "YH Int'l Latin Single Dance L-P2 PreBronze Int'l Samba", "???", "Donlon, Mykala and Martinez Campos, Ramon", "---"]
 ["Heat", "806", "06@Sunday 5:10 PM", "YH Int'l Latin Single Dance L-P2 PreBronze Int'l Rumba", "???", "Donlon, Mykala and Martinez Campos, Ramon", "---"]
 ["Heat", "807", "06@Sunday 5:11 PM", "YH Int'l Latin Single Dance L-P2 PreBronze Int'l Jive", "???", "Donlon, Mykala and Martinez Campos, Ramon", "---"]
-["Heat", "809", "06@Sunday 5:27 PM", "Youth Amateur 3-Dance Events Closed Bronze P2 Int'l Latin (CC,R,J)", "???", "Donlon, Mykala and Martinez Campos, Ramon", "---"]
+["Heat", "809", "06@Sunday 5:27 PM", "Youth Amateur 3-Dance Events Closed Bronze P2 Int'l Latin (CC,R,J)", "142", "Martinez Campos, Ramon and Donlon, Mykala", 1]
 Dancer:Donoho, Miki:25:Heats:66
 ["Heat", "444", "03@Saturday 1:09 PM", "American Smooth Single Dance L-C1 Open Bronze Amer. Waltz", "???", "Donoho, Miki and Smith, George", "---"]
 ["Heat", "445", "03@Saturday 1:10 PM", "American Smooth Single Dance L-C1 Open Bronze Amer. Tango", "???", "Donoho, Miki and Smith, George", "---"]
@@ -2394,10 +2394,10 @@ Dancer:Donoho, Miki:25:Heats:66
 ["Heat", "647", "05@Sunday 9:56 AM", "Int'l Ballroom Single Dance L-C1 PreSilver Int'l Tango", "???", "Donoho, Miki and Smith, George", "---"]
 ["Heat", "649", "05@Sunday 9:58 AM", "Int'l Ballroom Single Dance L-C1 PreSilver Int'l Foxtrot", "???", "Donoho, Miki and Smith, George", "---"]
 Dancer:Doost, Hamid:646:Heats:6
-["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "Doost, Hamid and Zhang, Sonia", "---"]
+["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "450", "Doost, Hamid and Zhang, Sonia", 5]
 ["Heat", "693", "06@Sunday 12:25 PM", "Amateur 2-Dance Events (1) Closed Silver A Amer. Smooth (W,T)", "???", "Doost, Hamid and Zhang, Sonia", "---"]
 ["Heat", "694", "06@Sunday 12:28 PM", "Amateur 2-Dance Events (2) Closed Silver A Amer. Smooth (F,VW)", "???", "Doost, Hamid and Zhang, Sonia", "---"]
-["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "???", "Doost, Hamid and Zhang, Sonia", "---"]
+["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "450", "Doost, Hamid and Zhang, Sonia", 8]
 ["Heat", "727", "06@Sunday 2:11 PM", "Amateur 2-Dance Events (1) Closed Silver A Int'l Ballroom (W,Q)", "???", "Doost, Hamid and Zhang, Sonia", "---"]
 ["Heat", "728", "06@Sunday 2:14 PM", "Amateur 2-Dance Events (2) Closed Silver A Int'l Ballroom (T,F)", "???", "Doost, Hamid and Zhang, Sonia", "---"]
 Dancer:Doricent, Isabel:211:Heats:10
@@ -2636,9 +2636,9 @@ Dancer:Drevitch Kelly, Susan:182:Heats:11
 ["Heat", "347", "03@Saturday 9:19 AM", "Int'l Latin Single Dance L-B2 Int. Silver Int'l Paso Doble", "???", "Drevitch Kelly, Susan and Ondrias, Jan", "---"]
 ["Heat", "348", "03@Saturday 9:20 AM", "Int'l Latin Single Dance L-B2 Int. Silver Int'l Jive", "???", "Drevitch Kelly, Susan and Ondrias, Jan", "---"]
 Dancer:Druzhynin, Nikita:309:Heats:1
-["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "???", "Druzhynin, Nikita and Primeau, Virginie", "---"]
+["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "326", "Druzhynin, Nikita and Primeau, Virginia", 1]
 Dancer:Dubinsky, Valerie:43:Heats:1
-["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "???", "Dubinsky, Valerie and Krupskii, Vladislav", "---"]
+["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "366", "Krubskii, Vladislaw and Dubinsky, Valerie", 5]
 Dancer:Dugan, Debbie:278:Heats:6
 ["Heat", "572", "05@Sunday 7:13 AM", "Int'l Ballroom Single Dance L-B1 Int. Bronze Int'l Waltz", "???", "Dugan, Debbie and Pali, Erik", "---"]
 ["Heat", "573", "05@Sunday 7:14 AM", "Int'l Ballroom Single Dance L-B1 Int. Bronze Int'l Tango", "???", "Dugan, Debbie and Pali, Erik", "---"]
@@ -2698,9 +2698,9 @@ Dancer:Eckford, Therese:285:Heats:10
 ["Heat", "440", "03@Saturday 1:04 PM", "American Smooth Single Dance L-A3 Newcomer II Amer. Waltz", "???", "Eckford, Therese and Timar, Krisztian", "---"]
 ["Heat", "441", "03@Saturday 1:05 PM", "American Smooth Single Dance L-A3 Newcomer II Amer. Tango", "???", "Eckford, Therese and Timar, Krisztian", "---"]
 Dancer:Elkin, Sophia:527:Heats:3
-["Heat", "818A", "04@Saturday 8:58 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Latin (CC,S,R,PD,J)", "???", "Elkin, Sophia and Ginzburg, Joshua", "---"]
-["Heat", "726", "06@Sunday 2:17 PM", "Fordney Foundation Open Events YH AM/AM Int'l Ballroom (W,T,VW,F,Q)", "???", "Elkin, Sophia and Ginzburg, Joshua", "---"]
-["Heat", "816", "06@Sunday 5:59 PM", "Fordney Foundation Open Events YH AM/AM Int'l Latin (CC,S,R,PD,J)", "???", "Elkin, Sophia and Ginzburg, Joshua", "---"]
+["Heat", "818A", "04@Saturday 8:58 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Latin (CC,S,R,PD,J)", "338", "Ginzburg, Joshua and Elkin, Sophia", 3]
+["Heat", "726", "06@Sunday 2:17 PM", "Fordney Foundation Open Events YH AM/AM Int'l Ballroom (W,T,VW,F,Q)", "338", "Ginzburg, Joshua and Elkin, Sophia", 2]
+["Heat", "816", "06@Sunday 5:59 PM", "Fordney Foundation Open Events YH AM/AM Int'l Latin (CC,S,R,PD,J)", "338", "Ginzburg, Joshua and Elkin, Sophia", 1]
 Dancer:Ellis, Tina:98:Heats:22
 ["Heat", "386", "03@Saturday 10:51 AM", "Closed Silver Scholarship Events B Int'l Latin (CC,S,R,J)", "???", "Ellis, Tina and Zejda, Jiri", "---"]
 ["Heat", "334", "03@Saturday 9:02 AM", "Int'l Latin Single Dance L-A2 PreSilver Int'l Cha Cha", "???", "Ellis, Tina and Zejda, Jiri", "---"]
@@ -2987,17 +2987,17 @@ Dancer:Ferris, Samantha:9:Heats:76
 ["Heat", "610", "05@Sunday 8:31 AM", "WDSS 3-Dance Events Closed Bronze A Int'l Ballroom (W,T,Q)", "???", "Ferris, Samantha and Doroshenko, Roman", "---"]
 ["Heat", "612", "05@Sunday 8:40 AM", "Closed Bronze Scholarship Events A Int'l Ballroom (W,T,Q)", "???", "Ferris, Samantha and Doroshenko, Roman", "---"]
 Dancer:Fiallo, Katie:31:Heats:2
-["Heat", "279", "02@Friday 9:10 PM", "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)", "???", "Fiallo, Katie and Jones, Alex", "---"]
-["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "???", "Fiallo, Katie and Jones, Alex", "---"]
+["Heat", "279", "02@Friday 9:10 PM", "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)", "359", "Jones, Alex and Fiallo, Katie", 7]
+["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "359", "Jones, Alex and Fiallo, Katie", "Semis"]
 Dancer:Filip, Samanta:342:Heats:1
 ["Pro heat", "7", "04@Saturday 8:05 PM", "Professional Rising Star Events Int'l Ballroom (W,T,VW,F,Q)", "???", "Filip, Samanta and Bilozorov, Anton", "---"]
 Dancer:Filipczak, Kevin:40:Heats:1
-["Heat", "818A", "04@Saturday 8:58 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Latin (CC,S,R,PD,J)", "???", "Filipczak, Kevin and Khodarkovsky, Chantal", "---"]
+["Heat", "818A", "04@Saturday 8:58 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Latin (CC,S,R,PD,J)", "330", "Filipczak, Kevin and Khodarkovsky, Chantal", 2]
 Dancer:Finkelstein, Misha:374:Heats:1
-["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "???", "Finkelstein, Misha and Ishchak, Yulia", "---"]
+["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "331", "Finkelstein, Misha and Ishchak, Yulia", 4]
 Dancer:Firestein, Max:370:Heats:2
-["Heat", "279", "02@Friday 9:10 PM", "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)", "???", "Firestein, Max and Mtchedlidze, Nicole", "---"]
-["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "???", "Firestein, Max and Mtchedlidze, Nicole", "---"]
+["Heat", "279", "02@Friday 9:10 PM", "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)", "332", "Firestein, Max and Mtchedlidze, Nicole", 1]
+["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "332", "Firestein, Max and Mtchedlidze, Nicole", 1]
 Dancer:Fisher, JoAnne:29:Heats:155
 ["Heat", "86", "01@Friday 10:14 AM", "American Rhythm Single Dance L-B2 Full Bronze Amer. Cha Cha", "???", "Fisher, JoAnne and Turiashvili, Kakha", "---"]
 ["Heat", "87", "01@Friday 10:15 AM", "American Rhythm Single Dance L-B2 Full Bronze Amer. Rumba", "???", "Fisher, JoAnne and Turiashvili, Kakha", "---"]
@@ -3155,26 +3155,26 @@ Dancer:Fisher, JoAnne:29:Heats:155
 ["Heat", "485", "03@Saturday 3:04 PM", "American Smooth Single Dance L-C1 PreSilver Amer. Viennese Waltz", "???", "Fisher, JoAnne and Turiashvili, Kakha", "---"]
 ["Heat", "486", "03@Saturday 3:05 PM", "Nightclub Single Dance L-C1 PreSilver Peabody", "???", "Fisher, JoAnne and Turiashvili, Kakha", "---"]
 Dancer:Flaherty, Patrick:607:Heats:5
-["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "???", "Flaherty, Patrick and Kenney, Katie", "---"]
-["Heat", "742", "06@Sunday 3:00 PM", "Amateur Gold 4-Dance Events A Int'l Ballroom (W,T,F,Q)", "???", "Flaherty, Patrick and Kenney, Katie", "---"]
-["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "???", "Flaherty, Patrick and Kenney, Katie", "---"]
-["Heat", "812", "06@Sunday 5:39 PM", "Amateur Novice 3-Dance Events A Int'l Latin (CC,S,R)", "???", "Flaherty, Patrick and Kenney, Katie", "---"]
-["Heat", "817", "06@Sunday 6:06 PM", "Amateur Gold 4-Dance Events A Int'l Latin (CC,S,R,J)", "???", "Flaherty, Patrick and Kenney, Katie", "---"]
+["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "442", "Flaherty, Patrick and Kenney, Katie", 2]
+["Heat", "742", "06@Sunday 3:00 PM", "Amateur Gold 4-Dance Events A Int'l Ballroom (W,T,F,Q)", "442", "Flaherty, Patrick and Kenney, Katie", 1]
+["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "442", "Flaherty, Patrick and Kenney, Katie", 5]
+["Heat", "812", "06@Sunday 5:39 PM", "Amateur Novice 3-Dance Events A Int'l Latin (CC,S,R)", "442", "Flaherty, Patrick and Kenney, Katie", 6]
+["Heat", "817", "06@Sunday 6:06 PM", "Amateur Gold 4-Dance Events A Int'l Latin (CC,S,R,J)", "442", "Flaherty, Patrick and Kenney, Katie", 3]
 Dancer:Follow, BYU:685:Heats:4
 ["Solo", "6", "02@Friday 8:15 PM", "Solo Roses & Violets - Viennese Waltz", "???", "Follow, BYU and Lead, BYU", "---"]
 ["Solo", "7", "02@Friday 9:05 PM", "Solo Suspense Tango", "???", "Follow, BYU and Lead, BYU", "---"]
 ["Solo", "9", "04@Saturday 10:43 PM", "Solo Let's Get Lousd - Cha Cha", "???", "Follow, BYU and Lead, BYU", "---"]
 ["Solo", "8", "04@Saturday 9:28 PM", "Solo Boogie Woogie Bugle Boy - Jive", "???", "Follow, BYU and Lead, BYU", "---"]
 Dancer:Foster, Adam:466:Heats:6
-["Heat", "767", "06@Sunday 3:57 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Rhythm (CC,R,SW)", "???", "Foster, Adam and Matthews, Nora", "---"]
+["Heat", "767", "06@Sunday 3:57 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Rhythm (CC,R,SW)", "333", "Foster, Adam and Matthews, Nora", 6]
 ["Heat", "792", "06@Sunday 4:49 PM", "Amateur 2-Dance Events (1) Closed Silver A Amer. Rhythm (CC,R)", "???", "Foster, Adam and Matthews, Nora", "---"]
 ["Heat", "793", "06@Sunday 4:49 PM", "Amateur 2-Dance Events (2) Closed Silver A Amer. Rhythm (SW,M)", "???", "Foster, Adam and Matthews, Nora", "---"]
-["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "???", "Foster, Adam and Matthews, Nora", "---"]
+["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "333", "Foster, Adam and Matthews, Nora", "Semis"]
 ["Heat", "813", "06@Sunday 5:42 PM", "Amateur 2-Dance Events (1) Closed Silver A Int'l Latin (CC,R)", "???", "Foster, Adam and Matthews, Nora", "---"]
 ["Heat", "814", "06@Sunday 5:45 PM", "Amateur 2-Dance Events (2) Closed Silver A Int'l Latin (S,J)", "???", "Foster, Adam and Matthews, Nora", "---"]
 Dancer:Francia, Savana:536:Heats:2
-["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "???", "Francia, Savana and Greenhouse, Max", "---"]
-["Heat", "277", "02@Friday 7:53 PM", "Amateur Rising Star Events A Int'l Ballroom (W,T,VW,F,Q)", "???", "Francia, Savana and Greenhouse, Max", "---"]
+["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "343", "Greenhouse, Max and Francia, Savana", "Semis"]
+["Heat", "277", "02@Friday 7:53 PM", "Amateur Rising Star Events A Int'l Ballroom (W,T,VW,F,Q)", "343", "Greenhouse, Max and Francia, Savana", 3]
 Dancer:Franzoni, Lauryn:384:Heats:10
 ["Heat", "419", "03@Saturday 12:24 PM", "American Smooth Single Dance L-B2 Int. Bronze Amer. Waltz", "???", "Franzoni, Lauryn and Sverrisson, Gunnar", "---"]
 ["Heat", "420", "03@Saturday 12:25 PM", "American Smooth Single Dance L-B2 Int. Bronze Amer. Tango", "???", "Franzoni, Lauryn and Sverrisson, Gunnar", "---"]
@@ -3222,11 +3222,11 @@ Dancer:Fraser, Afton:549:Heats:34
 ["Heat", "461", "03@Saturday 1:41 PM", "Closed Bronze 3-Dance Events C Amer. Smooth (W,T,F)", "???", "Fraser, Afton and Schmidt, Elmar", "---"]
 ["Heat", "465", "03@Saturday 2:05 PM", "WDSS 3-Dance Events Closed Bronze C Amer. Smooth (W,T,F)", "???", "Fraser, Afton and Schmidt, Elmar", "---"]
 Dancer:Fridberg, Biana:599:Heats:2
-["Heat", "815", "06@Sunday 5:48 PM", "Amateur PreChamp 4-Dance Events YH Int'l Latin (CC,S,R,J)", "???", "Fridberg, Biana and Goldovt, Raymond", "---"]
-["Heat", "816", "06@Sunday 5:59 PM", "Fordney Foundation Open Events YH AM/AM Int'l Latin (CC,S,R,PD,J)", "???", "Fridberg, Biana and Goldovt, Raymond", "---"]
+["Heat", "815", "06@Sunday 5:48 PM", "Amateur PreChamp 4-Dance Events YH Int'l Latin (CC,S,R,J)", "439", "Goldovt, Raymond and Fridberg, Biana", 2]
+["Heat", "816", "06@Sunday 5:59 PM", "Fordney Foundation Open Events YH AM/AM Int'l Latin (CC,S,R,PD,J)", "439", "Goldovt, Raymond and Fridberg, Biana", 3]
 Dancer:Fung, Wan Yu:443:Heats:2
-["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "???", "Fung, Wan Yu and Murthy, Adarsh", "---"]
-["Heat", "817", "06@Sunday 6:06 PM", "Amateur Gold 4-Dance Events A Int'l Latin (CC,S,R,J)", "???", "Fung, Wan Yu and Murthy, Adarsh", "---"]
+["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "387", "Murthy, Adarsh and Fung, Wan Yu", 6]
+["Heat", "817", "06@Sunday 6:06 PM", "Amateur Gold 4-Dance Events A Int'l Latin (CC,S,R,J)", "387", "Murthy, Adarsh and Fung, Wan Yu", 4]
 Dancer:Gaber, Philip:506:Heats:8
 ["Heat", "763", "06@Sunday 3:52 PM", "YH Int'l Latin Single Dance AC-P2 Closed Bronze Int'l Cha Cha", "???", "Gaber, Philip and Almeda, Galina", "---"]
 ["Heat", "764", "06@Sunday 3:53 PM", "YH Int'l Latin Single Dance AC-P2 Closed Bronze Int'l Samba", "???", "Gaber, Philip and Almeda, Galina", "---"]
@@ -3272,9 +3272,9 @@ Dancer:Gad, Aniket:560:Heats:36
 ["Heat", "371", "03@Saturday 9:50 AM", "Int'l Latin Single Dance G-A1 Int. Gold Int'l Rumba", "???", "Gad, Aniket and Kolarovic, Jelena", "---"]
 ["Heat", "372", "03@Saturday 9:51 AM", "Int'l Latin Single Dance G-A1 Int. Gold Int'l Paso Doble", "???", "Gad, Aniket and Kolarovic, Jelena", "---"]
 ["Heat", "373", "03@Saturday 9:53 AM", "Int'l Latin Single Dance G-A1 Int. Gold Int'l Jive", "???", "Gad, Aniket and Kolarovic, Jelena", "---"]
-["Heat", "758", "06@Sunday 3:37 PM", "Collegiate Open Events AM/AM Amer. Rhythm (CC,R,SW,B,M)", "???", "Gad, Aniket and Yelin, Boris", "---"]
+["Heat", "758", "06@Sunday 3:37 PM", "Collegiate Open Events AM/AM Amer. Rhythm (CC,R,SW,B,M)", "431", "Yelin, Boris and Gad, Aniket", 2]
 Dancer:Garber, Ron:315:Heats:1
-["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "???", "Garber, Ron and Petriti, Klaudia", "---"]
+["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "336", "Garber, Ron and Petriti, Klaudia", 2]
 Dancer:Gavrilov, Alexey:343:Heats:30
 ["Heat", "387", "03@Saturday 11:00 AM", "Open Advanced 5-Dance Scholarship Events C Int'l Latin (CC,S,R,PD,J)", "???", "Gavrilov, Alexey and Dressel, Doreen", "---"]
 ["Heat", "364", "03@Saturday 9:41 AM", "Int'l Latin Single Dance L-B2 Open Gold Int'l Cha Cha", "???", "Gavrilov, Alexey and Dressel, Doreen", "---"]
@@ -3500,7 +3500,7 @@ Dancer:Gelzhinsky, Peter:130:Heats:78
 ["Heat", "806", "06@Sunday 5:10 PM", "YH Int'l Latin Single Dance L-J2 PreGold Int'l Rumba", "???", "Gelzhinsky, Peter and Oviedo, Alexandra", "---"]
 ["Heat", "807", "06@Sunday 5:11 PM", "YH Int'l Latin Single Dance L-J2 PreGold Int'l Jive", "???", "Gelzhinsky, Peter and Oviedo, Alexandra", "---"]
 Dancer:Gelzhinsky, Stanislav:638:Heats:1
-["Heat", "279", "02@Friday 9:10 PM", "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)", "???", "Gelzhinsky, Stanislav and Pope, Cecilie", "---"]
+["Heat", "279", "02@Friday 9:10 PM", "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)", "448", "Gelzhinsky, Stanislav and Pope, Cecilie", 4]
 Dancer:Gerber, Isabel:519:Heats:8
 ["Heat", "753", "06@Sunday 3:30 PM", "YH Int'l Latin Single Dance AC-J1 Closed Silver Int'l Cha Cha", "???", "Gerber, Isabel and Ibraev, Daniel", "---"]
 ["Heat", "754", "06@Sunday 3:32 PM", "YH Int'l Latin Single Dance AC-J1 Closed Silver Int'l Samba", "???", "Gerber, Isabel and Ibraev, Daniel", "---"]
@@ -3557,7 +3557,7 @@ Dancer:Ginzburg, Joshua:526:Heats:13
 ["Heat", "806", "06@Sunday 5:10 PM", "YH Int'l Latin Single Dance AC-mLJ1 Open Gold Int'l Rumba", "???", "Ginzburg, Joshua and Podolskaya, Sasha", "---"]
 ["Heat", "807", "06@Sunday 5:11 PM", "YH Int'l Latin Single Dance AC-mLJ1 Open Gold Int'l Jive", "???", "Ginzburg, Joshua and Podolskaya, Sasha", "---"]
 ["Heat", "809", "06@Sunday 5:27 PM", "Amateur Novice 3-Dance Events mLJ1 Int'l Latin (CC,S,R)", "???", "Ginzburg, Joshua and Podolskaya, Sasha", "---"]
-["Heat", "815", "06@Sunday 5:48 PM", "Amateur Novice 3-Dance Events mLP2 Int'l Latin (CC,S,R)", "???", "Ginzburg, Joshua and Yalli, Anna", "---"]
+["Heat", "815", "06@Sunday 5:48 PM", "Amateur Novice 3-Dance Events mLP2 Int'l Latin (CC,S,R)", "338", "Ginzburg, Joshua and Yalli, Anna", 1]
 ["Heat", "816", "06@Sunday 5:59 PM", "Fordney Foundation Open Events YH AM/AM Int'l Latin (CC,S,R,PD,J)", "???", "Ginzburg, Joshua and Elkin, Sophia", "---"]
 Dancer:Gizdarska, Simona:585:Heats:5
 ["Heat", "470", "03@Saturday 2:44 PM", "American Smooth Single Dance L-A1 PreSilver Amer. Waltz", "???", "Gizdarska, Simona and Muise, Christopher", "---"]
@@ -4178,12 +4178,12 @@ Dancer:Guzovskyi, Mykyta:34:Heats:2
 ["Pro heat", "2", "02@Friday 8:35 PM", "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)", "???", "Guzovskyi, Mykyta and Serbina, Ekaterina", "---"]
 ["Pro heat", "9", "04@Saturday 10:48 PM", "Professional Open Events Int'l Latin (CC,S,R,PD,J)", "???", "Guzovskyi, Mykyta and Serbina, Ekaterina", "---"]
 Dancer:Hacke, Samuel:634:Heats:1
-["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "???", "Hacke, Samuel and Hermanova, Katarina", "---"]
+["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "446", "Hacke, Samuel and Hermanova, Katarina", 2]
 Dancer:Hackett, Christopher:157:Heats:4
-["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "???", "Hackett, Christopher and Rusinko, Klara", "---"]
-["Heat", "679", "06@Sunday 11:54 AM", "Amateur PreChamp 4-Dance Events A Amer. Smooth (W,T,F,VW)", "???", "Hackett, Christopher and Rusinko, Klara", "---"]
-["Heat", "723", "06@Sunday 2:05 PM", "Amateur PreChamp 4-Dance Events A Int'l Ballroom (W,T,F,Q)", "???", "Hackett, Christopher and Rusinko, Klara", "---"]
-["Heat", "742A", "06@Sunday 3:06 PM", "Amateur Novice 3-Dance Events A Int'l Ballroom (W,T,Q)", "???", "Hackett, Christopher and Rusinko, Klara", "---"]
+["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "344", "Hackett, Christopher and Rusinko, Klara", "Semis"]
+["Heat", "679", "06@Sunday 11:54 AM", "Amateur PreChamp 4-Dance Events A Amer. Smooth (W,T,F,VW)", "344", "Hackett, Christopher and Rusinko, Klara", 1]
+["Heat", "723", "06@Sunday 2:05 PM", "Amateur PreChamp 4-Dance Events A Int'l Ballroom (W,T,F,Q)", "344", "Hackett, Christopher and Rusinko, Klara", 3]
+["Heat", "742A", "06@Sunday 3:06 PM", "Amateur Novice 3-Dance Events A Int'l Ballroom (W,T,Q)", "344", "Hackett, Christopher and Rusinko, Klara", 2]
 Dancer:Hanna, Carolyn:655:Heats:9
 ["Heat", "656", "05@Sunday 10:08 AM", "Int'l Ballroom Single Dance L-B2 Open Silver Int'l Waltz", "???", "Hanna, Carolyn and Issaev, Basil", "---"]
 ["Heat", "657", "05@Sunday 10:09 AM", "Int'l Ballroom Single Dance L-B2 Open Silver Int'l Tango", "???", "Hanna, Carolyn and Issaev, Basil", "---"]
@@ -4518,7 +4518,7 @@ Dancer:Hauer, Matthew:339:Heats:12
 ["Heat", "265", "01@Friday 4:08 PM", "Open Advanced 5-Dance Events S1 Amer. Rhythm (CC,R,SW,B,M)", "???", "Hauer, Matthew and Silverstein, Carol", "---"]
 ["Heat", "274", "01@Friday 5:09 PM", "Open Advanced 5-Dance Scholarship Events S1 Amer. Rhythm (CC,R,SW,B,M)", "???", "Hauer, Matthew and Silverstein, Carol", "---"]
 Dancer:Hayes, David:612:Heats:1
-["Heat", "560", "04@Saturday 8:50 PM", "Amateur Events S1 Int'l Ballroom Championship (W,T,VW,F,Q)", "???", "Hayes, David and Hayes, Felicia", "---"]
+["Heat", "560", "04@Saturday 8:50 PM", "Amateur Events S1 Int'l Ballroom Championship (W,T,VW,F,Q)", "443", "Hayes, David and Hayes, Felicia", 2]
 Dancer:Hayes, Felicia:613:Heats:1
 ["Heat", "560", "04@Saturday 8:50 PM", "Amateur Events S1 Int'l Ballroom Championship (W,T,VW,F,Q)", "???", "Hayes, Felicia and Hayes, David", "---"]
 Dancer:Hayutt, Ethan:223:Heats:2
@@ -4646,9 +4646,9 @@ Dancer:Hou, Stewart:257:Heats:12
 ["Heat", "367", "03@Saturday 9:45 AM", "Int'l Latin Single Dance G-B1 Open Gold Int'l Paso Doble", "???", "Hou, Stewart and Baker, Amy", "---"]
 ["Heat", "368", "03@Saturday 9:46 AM", "Int'l Latin Single Dance G-B1 Open Gold Int'l Jive", "???", "Hou, Stewart and Baker, Amy", "---"]
 Dancer:Hutter, Amanda:559:Heats:3
-["Heat", "723", "06@Sunday 2:05 PM", "Amateur PreChamp 4-Dance Events A Int'l Ballroom (W,T,F,Q)", "???", "Hutter, Amanda and Testa, Christian", "---"]
-["Heat", "742A", "06@Sunday 3:06 PM", "Amateur Novice 3-Dance Events A Int'l Ballroom (W,T,Q)", "???", "Hutter, Amanda and Testa, Christian", "---"]
-["Heat", "748", "06@Sunday 3:17 PM", "Collegiate Open Events AM/AM Int'l Ballroom (W,T,VW,F,Q)", "???", "Hutter, Amanda and Testa, Christian", "---"]
+["Heat", "723", "06@Sunday 2:05 PM", "Amateur PreChamp 4-Dance Events A Int'l Ballroom (W,T,F,Q)", "422", "Testa, Christian and Hutter, Amanda", 2]
+["Heat", "742A", "06@Sunday 3:06 PM", "Amateur Novice 3-Dance Events A Int'l Ballroom (W,T,Q)", "422", "Testa, Christian and Hutter, Amanda", 1]
+["Heat", "748", "06@Sunday 3:17 PM", "Collegiate Open Events AM/AM Int'l Ballroom (W,T,VW,F,Q)", "422", "Testa, Christian and Hutter, Amanda", 3]
 Dancer:Iakushev, Oleg:5:Heats:2
 ["Pro heat", "2", "02@Friday 8:35 PM", "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)", "???", "Iakushev, Oleg and Iakusheva, Viktoriia", "---"]
 ["Pro heat", "9", "04@Saturday 10:48 PM", "Professional Open Events Int'l Latin (CC,S,R,PD,J)", "???", "Iakushev, Oleg and Iakusheva, Viktoriia", "---"]
@@ -4681,7 +4681,7 @@ Dancer:Ilo, Kathleen:162:Heats:2
 ["Pro heat", "5", "02@Friday 10:22 PM", "Professional Open Events Int'l Ballroom (W,T,VW,F,Q)", "???", "Ilo, Kathleen and Kazlauskas, Jonas", "---"]
 ["Pro heat", "9", "04@Saturday 10:48 PM", "Professional Open Events Int'l Latin (CC,S,R,PD,J)", "???", "Ilo, Kathleen and Kazlauskas, Jonas", "---"]
 Dancer:Ioukhnikov, Karolina:542:Heats:1
-["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "???", "Ioukhnikov, Karolina and Vitenko, Andriy", "---"]
+["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "428", "Vitenko, Andriy and Ioukhnikov, Karolina", 6]
 Dancer:Isaiev, Valentyn:171:Heats:2
 ["Pro heat", "2", "02@Friday 8:35 PM", "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)", "???", "Isaiev, Valentyn and Andriekute, Neda", "---"]
 ["Pro heat", "9", "04@Saturday 10:48 PM", "Professional Open Events Int'l Latin (CC,S,R,PD,J)", "???", "Isaiev, Valentyn and Andriekute, Neda", "---"]
@@ -4754,8 +4754,8 @@ Dancer:Ivanov, Kalina:494:Heats:8
 ["Heat", "796", "06@Sunday 4:54 PM", "YH Int'l Latin Single Dance AC-mLP2 Closed Bronze Int'l Samba", "???", "Ivanov, Kalina and Claeys, Keith", "---"]
 ["Heat", "798", "06@Sunday 4:57 PM", "YH Int'l Latin Single Dance AC-mLP2 Closed Bronze Int'l Jive", "???", "Ivanov, Kalina and Claeys, Keith", "---"]
 Dancer:Jacob, Gino:454:Heats:2
-["Heat", "812", "06@Sunday 5:39 PM", "Amateur Novice 3-Dance Events A Int'l Latin (CC,S,R)", "???", "Jacob, Gino and Yang-Tran, Tiffany", "---"]
-["Heat", "817A", "06@Sunday 6:12 PM", "Amateur PreChamp 4-Dance Events A Int'l Latin (CC,S,R,J)", "???", "Jacob, Gino and Yang-Tran, Tiffany", "---"]
+["Heat", "812", "06@Sunday 5:39 PM", "Amateur Novice 3-Dance Events A Int'l Latin (CC,S,R)", "355", "Jacob, Gino and Yang-Tran, Tiffany", 1]
+["Heat", "817A", "06@Sunday 6:12 PM", "Amateur PreChamp 4-Dance Events A Int'l Latin (CC,S,R,J)", "355", "Jacob, Gino and Yang-Tran, Tiffany", 1]
 Dancer:Jaffe, Don R:88:Heats:49
 ["Heat", "474", "03@Saturday 2:49 PM", "American Smooth Single Dance G-C1 Open Silver Amer. Waltz", "???", "Jaffe, Don R and Gorolevici, Irina", "---"]
 ["Heat", "475", "03@Saturday 2:51 PM", "American Smooth Single Dance G-C1 Open Silver Amer. Tango", "???", "Jaffe, Don R and Gorolevici, Irina", "---"]
@@ -4919,10 +4919,10 @@ Dancer:Jenereaux, Joyce:152:Heats:33
 ["Heat", "465", "03@Saturday 2:05 PM", "WDSS 3-Dance Events Closed Bronze S1 Amer. Smooth (W,T,F)", "???", "Jenereaux, Joyce and Phillips, Clive", "---"]
 ["Heat", "467", "03@Saturday 2:10 PM", "Closed Bronze Scholarship Events S1 Amer. Smooth (W,T,F)", "???", "Jenereaux, Joyce and Phillips, Clive", "---"]
 Dancer:Jennings, Wyatt:421:Heats:4
-["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "???", "Jennings, Wyatt and Keck, Serena", "---"]
-["Heat", "277A", "02@Friday 7:43 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Ballroom (W,T,VW,F,Q)", "???", "Jennings, Wyatt and Keck, Serena", "---"]
-["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "???", "Jennings, Wyatt and Keck, Serena", "---"]
-["Heat", "818A", "04@Saturday 8:58 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Latin (CC,S,R,PD,J)", "???", "Jennings, Wyatt and Keck, Serena", "---"]
+["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "358", "Jennings, Wyatt and Keck, Serena", 4]
+["Heat", "277A", "02@Friday 7:43 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Ballroom (W,T,VW,F,Q)", "358", "Jennings, Wyatt and Keck, Serena", 3]
+["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "358", "Jennings, Wyatt and Keck, Serena", "Semis"]
+["Heat", "818A", "04@Saturday 8:58 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Latin (CC,S,R,PD,J)", "358", "Jennings, Wyatt and Keck, Serena", 7]
 Dancer:Jensik, Melissa:271:Heats:9
 ["Heat", "499", "03@Saturday 3:23 PM", "American Smooth Single Dance L-A2 Op. Advanced Amer. Waltz", "???", "Jensik, Melissa and Hannigan, Dave", "---"]
 ["Heat", "500", "03@Saturday 3:24 PM", "American Smooth Single Dance L-A2 Op. Advanced Amer. Tango", "???", "Jensik, Melissa and Hannigan, Dave", "---"]
@@ -5240,23 +5240,23 @@ Dancer:Kerekes, Tibor:295:Heats:86
 ["Heat", "553", "03@Saturday 5:36 PM", "Closed Silver Scholarship Events C Amer. Smooth (W,T,F,VW)", "???", "Kerekes, Tibor and Delcore, Paula", "---"]
 ["Heat", "556", "03@Saturday 5:54 PM", "Open Advanced 4-Dance Scholarship Events S1 Amer. Smooth (W,T,F,VW)", "???", "Kerekes, Tibor and Scheer, Pamela", "---"]
 Dancer:Keys, Josh:469:Heats:12
-["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "Keys, Josh and Leone, Madison", "---"]
+["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "361", "Keys, Josh and Leone, Madison", 7]
 ["Heat", "693", "06@Sunday 12:25 PM", "Amateur 2-Dance Events (1) Closed Silver A Amer. Smooth (W,T)", "???", "Keys, Josh and Leone, Madison", "---"]
 ["Heat", "694", "06@Sunday 12:28 PM", "Amateur 2-Dance Events (2) Closed Silver A Amer. Smooth (F,VW)", "???", "Keys, Josh and Leone, Madison", "---"]
-["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "???", "Keys, Josh and Leone, Madison", "---"]
+["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "361", "Keys, Josh and Leone, Madison", "Semis"]
 ["Heat", "727", "06@Sunday 2:11 PM", "Amateur 2-Dance Events (1) Closed Silver A Int'l Ballroom (W,Q)", "???", "Keys, Josh and Leone, Madison", "---"]
 ["Heat", "728", "06@Sunday 2:14 PM", "Amateur 2-Dance Events (2) Closed Silver A Int'l Ballroom (T,F)", "???", "Keys, Josh and Leone, Madison", "---"]
-["Heat", "767", "06@Sunday 3:57 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Rhythm (CC,R,SW)", "???", "Keys, Josh and Tao, Vivian", "---"]
+["Heat", "767", "06@Sunday 3:57 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Rhythm (CC,R,SW)", "361", "Keys, Josh and Tao, Vivian", 3]
 ["Heat", "792", "06@Sunday 4:49 PM", "Amateur 2-Dance Events (1) Closed Silver A Amer. Rhythm (CC,R)", "???", "Keys, Josh and Tao, Vivian", "---"]
 ["Heat", "793", "06@Sunday 4:49 PM", "Amateur 2-Dance Events (2) Closed Silver A Amer. Rhythm (SW,M)", "???", "Keys, Josh and Tao, Vivian", "---"]
-["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "???", "Keys, Josh and Tao, Vivian", "---"]
+["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "361", "Keys, Josh and Tao, Vivian", 1]
 ["Heat", "813", "06@Sunday 5:42 PM", "Amateur 2-Dance Events (1) Closed Silver A Int'l Latin (CC,R)", "???", "Keys, Josh and Tao, Vivian", "---"]
 ["Heat", "814", "06@Sunday 5:45 PM", "Amateur 2-Dance Events (2) Closed Silver A Int'l Latin (S,J)", "???", "Keys, Josh and Tao, Vivian", "---"]
 Dancer:Khelmer, Brian:202:Heats:4
-["Heat", "721", "06@Sunday 1:49 PM", "Fordney Foundation Preteen Closed Syllabus Events P1 AM/AM Int'l Ballroom (W,T,VW,F,Q)", "???", "Khelmer, Brian and Sherman, Emma", "---"]
-["Heat", "726", "06@Sunday 2:17 PM", "Fordney Foundation Preteen Closed Syllabus Events P2 AM/AM Int'l Ballroom (W,T,VW,F,Q)", "???", "Khelmer, Brian and Sherman, Emma", "---"]
-["Heat", "816", "06@Sunday 5:59 PM", "Fordney Foundation Preteen Closed Syllabus Events P1 AM/AM Int'l Latin (CC,S,R,PD,J)", "???", "Khelmer, Brian and Sherman, Emma", "---"]
-["Heat", "818", "06@Sunday 6:18 PM", "Fordney Foundation Preteen Closed Syllabus Events P2 AM/AM Int'l Latin (CC,S,R,PD,J)", "???", "Khelmer, Brian and Sherman, Emma", "---"]
+["Heat", "721", "06@Sunday 1:49 PM", "Fordney Foundation Preteen Closed Syllabus Events P1 AM/AM Int'l Ballroom (W,T,VW,F,Q)", "362", "Khelmer, Brian and Sherman, Emma", 1]
+["Heat", "726", "06@Sunday 2:17 PM", "Fordney Foundation Preteen Closed Syllabus Events P2 AM/AM Int'l Ballroom (W,T,VW,F,Q)", "362", "Khelmer, Brian and Sherman, Emma", 1]
+["Heat", "816", "06@Sunday 5:59 PM", "Fordney Foundation Preteen Closed Syllabus Events P1 AM/AM Int'l Latin (CC,S,R,PD,J)", "362", "Khelmer, Brian and Sherman, Emma", 1]
+["Heat", "818", "06@Sunday 6:18 PM", "Fordney Foundation Preteen Closed Syllabus Events P2 AM/AM Int'l Latin (CC,S,R,PD,J)", "362", "Khelmer, Brian and Sherman, Emma", 1]
 Dancer:Khodarkovsky, Chantal:41:Heats:1
 ["Heat", "818A", "04@Saturday 8:58 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Latin (CC,S,R,PD,J)", "???", "Khodarkovsky, Chantal and Filipczak, Kevin", "---"]
 Dancer:Khomenko, Anastasiya:413:Heats:2
@@ -5266,19 +5266,19 @@ Dancer:Khomenko, Kharyton:412:Heats:2
 ["Pro heat", "3", "02@Friday 8:48 PM", "Professional Rising Star Events Amer. Smooth (W,T,F,VW)", "???", "Khomenko, Kharyton and Khomenko, Anastasiya", "---"]
 ["Pro heat", "10", "04@Saturday 11:08 PM", "Professional Open Events Amer. Smooth (W,T,F,VW)", "???", "Khomenko, Kharyton and Khomenko, Anastasiya", "---"]
 Dancer:Kiang, Michael:470:Heats:5
-["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "Kiang, Michael and Liao, Isabel Jiah-Yih", "---"]
-["Heat", "698", "06@Sunday 12:36 PM", "Amateur Gold 4-Dance Events A Amer. Smooth (W,T,F,VW)", "???", "Kiang, Michael and Liao, Isabel Jiah-Yih", "---"]
-["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "???", "Kiang, Michael and Liao, Isabel Jiah-Yih", "---"]
+["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "363", "Kiang, Michael and Liao, Isabel Jiah-Yih", 8]
+["Heat", "698", "06@Sunday 12:36 PM", "Amateur Gold 4-Dance Events A Amer. Smooth (W,T,F,VW)", "363", "Kiang, Michael and Liao, Isabel Jiah-Yih", 2]
+["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "363", "Kiang, Michael and Liao, Isabel Jiah-Yih", 4]
 ["Heat", "727", "06@Sunday 2:11 PM", "Amateur 2-Dance Events (1) Closed Silver A Int'l Ballroom (W,Q)", "???", "Kiang, Michael and Liao, Isabel Jiah-Yih", "---"]
 ["Heat", "728", "06@Sunday 2:14 PM", "Amateur 2-Dance Events (2) Closed Silver A Int'l Ballroom (T,F)", "???", "Kiang, Michael and Liao, Isabel Jiah-Yih", "---"]
 Dancer:Kim, Hyun Jung:436:Heats:7
-["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "Kim, Hyun Jung and Zheng, Jenny", "---"]
+["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "433", "Kim, Hyun Jung and Zheng, Jenny", "Semis"]
 ["Heat", "693", "06@Sunday 12:25 PM", "Amateur 2-Dance Events (1) Closed Silver A Amer. Smooth (W,T)", "???", "Kim, Hyun Jung and Zheng, Jenny", "---"]
 ["Heat", "694", "06@Sunday 12:28 PM", "Amateur 2-Dance Events (2) Closed Silver A Amer. Smooth (F,VW)", "???", "Kim, Hyun Jung and Zheng, Jenny", "---"]
-["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "???", "Kim, Hyun Jung and Spencer-Wallace, Tucker", "---"]
+["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "415", "Kim, Hyun Jung and Kim, Hyun Jung", 6]
 ["Heat", "727", "06@Sunday 2:11 PM", "Amateur 2-Dance Events (1) Closed Silver A Int'l Ballroom (W,Q)", "???", "Kim, Hyun Jung and Spencer-Wallace, Tucker", "---"]
 ["Heat", "728", "06@Sunday 2:14 PM", "Amateur 2-Dance Events (2) Closed Silver A Int'l Ballroom (T,F)", "???", "Kim, Hyun Jung and Spencer-Wallace, Tucker", "---"]
-["Heat", "742", "06@Sunday 3:00 PM", "Amateur Gold 4-Dance Events A Int'l Ballroom (W,T,F,Q)", "???", "Kim, Hyun Jung and Spencer-Wallace, Tucker", "---"]
+["Heat", "742", "06@Sunday 3:00 PM", "Amateur Gold 4-Dance Events A Int'l Ballroom (W,T,F,Q)", "415", "Kim, Hyun Jung and Kim, Hyun Jung", 3]
 Dancer:King, Aubrey:287:Heats:16
 ["Heat", "128", "01@Friday 11:21 AM", "Newcomer 3-Dance Events A Amer. Rhythm (CC,R,SW)", "???", "King, Aubrey and Timar, Krisztian", "---"]
 ["Heat", "130", "01@Friday 11:30 AM", "Nightclub S/B/M Multi-Dance Events Newcomer A Nightclub (SA,BA,ME)", "???", "King, Aubrey and Timar, Krisztian", "---"]
@@ -5309,8 +5309,8 @@ Dancer:King, Tim:293:Heats:11
 ["Heat", "13", "01@Friday 8:16 AM", "American Rhythm Single Dance G-B1 Full Bronze Amer. Mambo", "???", "King, Tim and Toth, Maggie", "---"]
 ["Heat", "267", "01@Friday 4:23 PM", "Closed Syllabus Gent's Only Events GB Amer. Rhythm (CC,R,SW,B)", "???", "King, Tim and Toth, Maggie", "---"]
 Dancer:Kioresku, Anastasia:174:Heats:2
-["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "???", "Kioresku, Anastasia and Kioresku, Oleksiy", "---"]
-["Heat", "818A", "04@Saturday 8:58 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Latin (CC,S,R,PD,J)", "???", "Kioresku, Anastasia and Kioresku, Oleksiy", "---"]
+["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "365", "Kioresku, Oleksiy and Kioresku, Anastasia", "Semis"]
+["Heat", "818A", "04@Saturday 8:58 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Latin (CC,S,R,PD,J)", "365", "Kioresku, Oleksiy and Kioresku, Anastasia", 5]
 Dancer:Kioresku, Oleksiy:173:Heats:2
 ["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "???", "Kioresku, Oleksiy and Kioresku, Anastasia", "---"]
 ["Heat", "818A", "04@Saturday 8:58 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Latin (CC,S,R,PD,J)", "???", "Kioresku, Oleksiy and Kioresku, Anastasia", "---"]
@@ -5333,7 +5333,7 @@ Dancer:Kisucky, Nicole:318:Heats:7
 ["Heat", "759", "06@Sunday 3:45 PM", "YH Int'l Latin Single Dance L-P1 Closed Bronze Int'l Cha Cha", "???", "Kisucky, Nicole and Kisucky, Patrik", "---"]
 ["Heat", "761", "06@Sunday 3:47 PM", "YH Int'l Latin Single Dance L-P1 Closed Bronze Int'l Rumba", "???", "Kisucky, Nicole and Kisucky, Patrik", "---"]
 ["Heat", "762", "06@Sunday 3:49 PM", "YH Int'l Latin Single Dance L-P1 Closed Bronze Int'l Jive", "???", "Kisucky, Nicole and Kisucky, Patrik", "---"]
-["Heat", "809", "06@Sunday 5:27 PM", "Youth Amateur 3-Dance Events Closed Bronze P1 Int'l Latin (CC,R,J)", "???", "Kisucky, Nicole and Kisucky, Patrik", "---"]
+["Heat", "809", "06@Sunday 5:27 PM", "Youth Amateur 3-Dance Events Closed Bronze P1 Int'l Latin (CC,R,J)", "134", "Kisucky, Patrik and Kisucky, Nicole", 1]
 Dancer:Kisucky, Patrik:317:Heats:7
 ["Heat", "753", "06@Sunday 3:30 PM", "YH Int'l Latin Single Dance L-P1 PreBronze Int'l Cha Cha", "???", "Kisucky, Patrik and Kisucky, Nicole", "---"]
 ["Heat", "755", "06@Sunday 3:33 PM", "YH Int'l Latin Single Dance L-P1 PreBronze Int'l Rumba", "???", "Kisucky, Patrik and Kisucky, Nicole", "---"]
@@ -5343,7 +5343,7 @@ Dancer:Kisucky, Patrik:317:Heats:7
 ["Heat", "762", "06@Sunday 3:49 PM", "YH Int'l Latin Single Dance L-P1 Closed Bronze Int'l Jive", "???", "Kisucky, Patrik and Kisucky, Nicole", "---"]
 ["Heat", "809", "06@Sunday 5:27 PM", "Youth Amateur 3-Dance Events Closed Bronze P1 Int'l Latin (CC,R,J)", "???", "Kisucky, Patrik and Kisucky, Nicole", "---"]
 Dancer:Kiyan, Olga:194:Heats:1
-["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "???", "Kiyan, Olga and Solomon, Alexander", "---"]
+["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "413", "Solomon, Alexander and Kiyan, Olga", "Semis"]
 Dancer:Kneller, Sasha:513:Heats:14
 ["Heat", "695", "06@Sunday 12:31 PM", "YH Int'l Ballroom Single Dance AC-P1 PreBronze Int'l Waltz", "???", "Kneller, Sasha and Maksimov, Danil", "---"]
 ["Heat", "696", "06@Sunday 12:33 PM", "YH Int'l Ballroom Single Dance AC-P1 PreBronze Int'l Tango", "???", "Kneller, Sasha and Maksimov, Danil", "---"]
@@ -5396,10 +5396,10 @@ Dancer:Kolarovic, Jelena:564:Heats:17
 ["Heat", "372", "03@Saturday 9:51 AM", "Int'l Latin Single Dance G-A1 Int. Gold Int'l Paso Doble", "???", "Kolarovic, Jelena and Gad, Aniket", "---"]
 ["Heat", "373", "03@Saturday 9:53 AM", "Int'l Latin Single Dance G-A1 Int. Gold Int'l Jive", "???", "Kolarovic, Jelena and Gad, Aniket", "---"]
 Dancer:Koshkina, Yulia:645:Heats:1
-["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "???", "Koshkina, Yulia and Savitskyy, Taras", "---"]
+["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "449", "Savitskyy, Taras and Koshkina, Yulia", 3]
 Dancer:Kouznetsov, Sophia:180:Heats:2
-["Heat", "277A", "02@Friday 7:43 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Ballroom (W,T,VW,F,Q)", "???", "Kouznetsov, Sophia and Radionov, Sam", "---"]
-["Heat", "726", "06@Sunday 2:17 PM", "Fordney Foundation Open Events YH AM/AM Int'l Ballroom (W,T,VW,F,Q)", "???", "Kouznetsov, Sophia and Radionov, Sam", "---"]
+["Heat", "277A", "02@Friday 7:43 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Ballroom (W,T,VW,F,Q)", "398", "Radionov, Sam and Kouznetsov, Sophia", 2]
+["Heat", "726", "06@Sunday 2:17 PM", "Fordney Foundation Open Events YH AM/AM Int'l Ballroom (W,T,VW,F,Q)", "398", "Radionov, Sam and Kouznetsov, Sophia", 1]
 Dancer:Kovalcikova, Lenka:668:Heats:1
 ["Pro heat", "5", "02@Friday 10:22 PM", "Professional Open Events Int'l Ballroom (W,T,VW,F,Q)", "???", "Kovalcikova, Lenka and Pedrinelli, Oscar", "---"]
 Dancer:Kozhemiakina, Isabella:401:Heats:5
@@ -5686,21 +5686,21 @@ Dancer:Lakas, Kelly:72:Heats:12
 ["Heat", "268", "01@Friday 4:23 PM", "WDSS 5-Dance Events Op. Advanced B Amer. Rhythm (CC,R,SW,B,M)", "???", "Lakas, Kelly and Grytsak, Evgenii", "---"]
 ["Heat", "272", "01@Friday 4:54 PM", "Open Advanced 5-Dance Scholarship Events B Amer. Rhythm (CC,R,SW,B,M)", "???", "Lakas, Kelly and Grytsak, Evgenii", "---"]
 Dancer:Lalicker, Kateri:463:Heats:4
-["Heat", "767", "06@Sunday 3:57 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Rhythm (CC,R,SW)", "???", "Lalicker, Kateri and Seeley, Faith", "---"]
+["Heat", "767", "06@Sunday 3:57 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Rhythm (CC,R,SW)", "407", "Lalicker, Kateri and Seeley, Faith", 8]
 ["Heat", "777", "06@Sunday 4:24 PM", "Amateur 2-Dance Events (1) Closed Bronze A Amer. Rhythm (CC,R)", "???", "Lalicker, Kateri and Seeley, Faith", "---"]
-["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "???", "Lalicker, Kateri and Seeley, Faith", "---"]
+["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "407", "Lalicker, Kateri and Seeley, Faith", "Semis"]
 ["Heat", "810", "06@Sunday 5:33 PM", "Amateur 2-Dance Events (1) Closed Bronze A Int'l Latin (CC,R)", "???", "Lalicker, Kateri and Seeley, Faith", "---"]
 Dancer:Lam, Vanessa:431:Heats:7
 ["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "Lam, Vanessa and desJardins-Park, Caroline", "---"]
 ["Heat", "698", "06@Sunday 12:36 PM", "Amateur Gold 4-Dance Events A Amer. Smooth (W,T,F,VW)", "???", "Lam, Vanessa and desJardins-Park, Caroline", "---"]
 ["Heat", "707", "06@Sunday 12:59 PM", "Amateur Novice 3-Dance Events A Amer. Smooth (W,T,F)", "???", "Lam, Vanessa and desJardins-Park, Caroline", "---"]
 ["Heat", "712", "06@Sunday 1:10 PM", "Collegiate Open Events AM/AM Amer. Smooth (W,T,F,VW)", "???", "Lam, Vanessa and desJardins-Park, Caroline", "---"]
-["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "???", "Lam, Vanessa and McKerman, Chunmel", "---"]
+["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "369", "McKerman, Chunmel and Lam, Van", 4]
 ["Heat", "813", "06@Sunday 5:42 PM", "Amateur 2-Dance Events (1) Closed Silver A Int'l Latin (CC,R)", "???", "Lam, Vanessa and McKerman, Chunmel", "---"]
 ["Heat", "814", "06@Sunday 5:45 PM", "Amateur 2-Dance Events (2) Closed Silver A Int'l Latin (S,J)", "???", "Lam, Vanessa and McKerman, Chunmel", "---"]
 Dancer:Lama, Sean:234:Heats:2
-["Heat", "559", "04@Saturday 8:40 PM", "Amateur Rising Star Events A Int'l Latin (CC,S,R,PD,J)", "???", "Lama, Sean and Simaityte, Goda", "---"]
-["Heat", "818A", "04@Saturday 8:58 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Latin (CC,S,R,PD,J)", "???", "Lama, Sean and Simaityte, Goda", "---"]
+["Heat", "559", "04@Saturday 8:40 PM", "Amateur Rising Star Events A Int'l Latin (CC,S,R,PD,J)", "370", "Lama, Sean and Simaityte, Goda", 1]
+["Heat", "818A", "04@Saturday 8:58 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Latin (CC,S,R,PD,J)", "370", "Lama, Sean and Simaityte, Goda", 4]
 Dancer:Lambert, Chase:319:Heats:103
 ["Heat", "81", "01@Friday 10:07 AM", "American Rhythm Single Dance L-A2 Full Bronze Amer. Cha Cha", "???", "Lambert, Chase and Melendez-Rios, Nyssa", "---"]
 ["Heat", "82", "01@Friday 10:08 AM", "American Rhythm Single Dance L-A2 Full Bronze Amer. Rumba", "???", "Lambert, Chase and Melendez-Rios, Nyssa", "---"]
@@ -5815,12 +5815,12 @@ Dancer:Lamberton, Peter:335:Heats:8
 ["Heat", "412", "03@Saturday 12:15 PM", "American Smooth Single Dance G-B2 Newcomer II Amer. Foxtrot", "???", "Lamberton, Peter and Mooney, Rachael", "---"]
 ["Heat", "413", "03@Saturday 12:16 PM", "American Smooth Single Dance G-B2 Newcomer II Amer. Viennese Waltz", "???", "Lamberton, Peter and Mooney, Rachael", "---"]
 Dancer:Lapine, Olivia:457:Heats:6
-["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "Lapine, Olivia and Morningstar, Max", "---"]
+["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "385", "Morningstar, Max and Lapine, Olivia", "Semis"]
 ["Heat", "683", "06@Sunday 12:04 PM", "Amateur 2-Dance Events (1) Closed Bronze A Amer. Smooth (W,T)", "???", "Lapine, Olivia and Morningstar, Max", "---"]
 ["Heat", "684", "06@Sunday 12:07 PM", "Amateur 2-Dance Events (2) Closed Bronze A Amer. Smooth (F,VW)", "???", "Lapine, Olivia and Morningstar, Max", "---"]
 ["Heat", "719", "06@Sunday 1:43 PM", "Amateur 2-Dance Events (1) Closed Bronze A Int'l Ballroom (W,Q)", "???", "Lapine, Olivia and Morningstar, Max", "---"]
 ["Heat", "720", "06@Sunday 1:46 PM", "Amateur 2-Dance Events (2) Closed Bronze A Int'l Ballroom (T,F)", "???", "Lapine, Olivia and Morningstar, Max", "---"]
-["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "???", "Lapine, Olivia and Morningstar, Max", "---"]
+["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "385", "Morningstar, Max and Lapine, Olivia", "Semis"]
 Dancer:Larkin, Hallie:56:Heats:16
 ["Heat", "661", "05@Sunday 10:15 AM", "Int'l Ballroom Single Dance L-B2 Int. Gold Int'l Waltz", "???", "Larkin, Hallie and Zinshtein, Ronen", "---"]
 ["Heat", "662", "05@Sunday 10:16 AM", "Int'l Ballroom Single Dance L-B2 Int. Gold Int'l Tango", "???", "Larkin, Hallie and Zinshtein, Ronen", "---"]
@@ -6132,14 +6132,14 @@ Dancer:Leary, Alonzo:197:Heats:246
 ["Heat", "466", "03@Saturday 2:05 PM", "Newcomer Scholarship Events C Amer. Smooth (W,T,F)", "???", "Leary, Alonzo and Gazzanigo, Robin", "---"]
 ["Heat", "469", "03@Saturday 2:19 PM", "Newcomer Scholarship Events B Amer. Smooth (W,T,F)", "???", "Leary, Alonzo and Gazzanigo, Robin", "---"]
 Dancer:Lee, Patrick:77:Heats:8
-["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "Lee, Patrick and Mattox, Carly", "---"]
+["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "372", "Lee, Patrick and Mattox, Carly", 4]
 ["Heat", "693", "06@Sunday 12:25 PM", "Amateur 2-Dance Events (1) Closed Silver A Amer. Smooth (W,T)", "???", "Lee, Patrick and Mattox, Carly", "---"]
 ["Heat", "694", "06@Sunday 12:28 PM", "Amateur 2-Dance Events (2) Closed Silver A Amer. Smooth (F,VW)", "???", "Lee, Patrick and Mattox, Carly", "---"]
-["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "???", "Lee, Patrick and Mattox, Carly", "---"]
-["Heat", "742", "06@Sunday 3:00 PM", "Amateur Gold 4-Dance Events A Int'l Ballroom (W,T,F,Q)", "???", "Lee, Patrick and Mattox, Carly", "---"]
-["Heat", "748", "06@Sunday 3:17 PM", "Collegiate Open Events AM/AM Int'l Ballroom (W,T,VW,F,Q)", "???", "Lee, Patrick and Mattox, Carly", "---"]
-["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "???", "Lee, Patrick and Mattox, Carly", "---"]
-["Heat", "817", "06@Sunday 6:06 PM", "Amateur Gold 4-Dance Events A Int'l Latin (CC,S,R,J)", "???", "Lee, Patrick and Mattox, Carly", "---"]
+["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "372", "Lee, Patrick and Mattox, Carly", 1]
+["Heat", "742", "06@Sunday 3:00 PM", "Amateur Gold 4-Dance Events A Int'l Ballroom (W,T,F,Q)", "372", "Lee, Patrick and Mattox, Carly", 2]
+["Heat", "748", "06@Sunday 3:17 PM", "Collegiate Open Events AM/AM Int'l Ballroom (W,T,VW,F,Q)", "372", "Lee, Patrick and Mattox, Carly", 4]
+["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "372", "Lee, Patrick and Mattox, Carly", 8]
+["Heat", "817", "06@Sunday 6:06 PM", "Amateur Gold 4-Dance Events A Int'l Latin (CC,S,R,J)", "372", "Lee, Patrick and Mattox, Carly", 5]
 Dancer:Lemire, Judith:230:Heats:66
 ["Heat", "389", "03@Saturday 11:45 AM", "American Smooth Single Dance L-B1 Open Bronze Amer. Waltz", "???", "Lemire, Judith and Smith, George", "---"]
 ["Heat", "390", "03@Saturday 11:46 AM", "American Smooth Single Dance L-B1 Open Bronze Amer. Tango", "???", "Lemire, Judith and Smith, George", "---"]
@@ -6332,8 +6332,8 @@ Dancer:Lin, Yulan:87:Heats:56
 ["Heat", "640", "05@Sunday 9:46 AM", "Int'l Ballroom Single Dance L-B1 Int. Gold Int'l Foxtrot", "???", "Lin, Yulan and Gorolevici, Anatoli", "---"]
 ["Heat", "648", "05@Sunday 9:57 AM", "Int'l Ballroom Single Dance L-B2 Full Gold Int'l Viennese Waltz", "???", "Lin, Yulan and Gorolevici, Anatoli", "---"]
 Dancer:Linder, Erik:520:Heats:36
-["Heat", "277A", "02@Friday 7:43 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Ballroom (W,T,VW,F,Q)", "???", "Linder, Erik and Linder, Shelly", "---"]
-["Heat", "818A", "04@Saturday 8:58 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Latin (CC,S,R,PD,J)", "???", "Linder, Erik and Linder, Shelly", "---"]
+["Heat", "277A", "02@Friday 7:43 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Ballroom (W,T,VW,F,Q)", "374", "Linder, Erik and Linder, Shelly", 1]
+["Heat", "818A", "04@Saturday 8:58 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Latin (CC,S,R,PD,J)", "374", "Linder, Erik and Linder, Shelly", 1]
 ["Heat", "685", "06@Sunday 12:10 PM", "YH Int'l Ballroom Single Dance AC-mLP1 PreBronze Int'l Waltz", "???", "Linder, Erik and Davituliani, Anastasia", "---"]
 ["Heat", "686", "06@Sunday 12:11 PM", "YH Int'l Ballroom Single Dance AC-mLP1 PreBronze Int'l Tango", "???", "Linder, Erik and Davituliani, Anastasia", "---"]
 ["Heat", "687", "06@Sunday 12:13 PM", "YH Int'l Ballroom Single Dance AC-mLP1 PreBronze Int'l Quickstep", "???", "Linder, Erik and Davituliani, Anastasia", "---"]
@@ -6366,8 +6366,8 @@ Dancer:Linder, Erik:520:Heats:36
 ["Heat", "805", "06@Sunday 5:08 PM", "YH Int'l Latin Single Dance AC-mLP1 Open Bronze Int'l Samba", "???", "Linder, Erik and Katz, Ariella", "---"]
 ["Heat", "806", "06@Sunday 5:10 PM", "YH Int'l Latin Single Dance AC-mLP1 Open Bronze Int'l Rumba", "???", "Linder, Erik and Katz, Ariella", "---"]
 ["Heat", "807", "06@Sunday 5:11 PM", "YH Int'l Latin Single Dance AC-mLP1 Open Bronze Int'l Jive", "???", "Linder, Erik and Katz, Ariella", "---"]
-["Heat", "815", "06@Sunday 5:48 PM", "Amateur Novice 3-Dance Events mLU Int'l Latin (CC,S,R)", "???", "Linder, Erik and Moore, Caeley", "---"]
-["Heat", "816", "06@Sunday 5:59 PM", "Amateur PreChamp 4-Dance Events mLU Int'l Latin (CC,S,R,J)", "???", "Linder, Erik and Moore, Caeley", "---"]
+["Heat", "815", "06@Sunday 5:48 PM", "Amateur Novice 3-Dance Events mLU Int'l Latin (CC,S,R)", "374", "Linder, Erik and Moore, Caeley", 1]
+["Heat", "816", "06@Sunday 5:59 PM", "Amateur PreChamp 4-Dance Events mLU Int'l Latin (CC,S,R,J)", "374", "Linder, Erik and Moore, Caeley", 1]
 Dancer:Linder, Shelly:521:Heats:2
 ["Heat", "277A", "02@Friday 7:43 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Ballroom (W,T,VW,F,Q)", "???", "Linder, Shelly and Linder, Erik", "---"]
 ["Heat", "818A", "04@Saturday 8:58 PM", "Youth Amateur 5-Dance Events Champ U21 Int'l Latin (CC,S,R,PD,J)", "???", "Linder, Shelly and Linder, Erik", "---"]
@@ -6389,20 +6389,20 @@ Dancer:Liu, Annie:206:Heats:6
 ["Heat", "362", "03@Saturday 9:38 AM", "Int'l Latin Single Dance L-A1 PreGold Int'l Paso Doble", "???", "Liu, Annie and Zabrodin, Igor", "---"]
 ["Heat", "363", "03@Saturday 9:40 AM", "Int'l Latin Single Dance L-A1 PreGold Int'l Jive", "???", "Liu, Annie and Zabrodin, Igor", "---"]
 Dancer:Liu, Rachel:439:Heats:16
-["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "Liu, Rachel and Rao, Arjun", "---"]
+["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "399", "Rao, Arjun and Liu, Rachel", 3]
 ["Heat", "683", "06@Sunday 12:04 PM", "Amateur 2-Dance Events (1) Closed Bronze A Amer. Smooth (W,T)", "???", "Liu, Rachel and Rao, Arjun", "---"]
 ["Heat", "684", "06@Sunday 12:07 PM", "Amateur 2-Dance Events (2) Closed Bronze A Amer. Smooth (F,VW)", "???", "Liu, Rachel and Rao, Arjun", "---"]
 ["Heat", "693", "06@Sunday 12:25 PM", "Amateur 2-Dance Events (1) Closed Silver A Amer. Smooth (W,T)", "???", "Liu, Rachel and Rao, Arjun", "---"]
 ["Heat", "694", "06@Sunday 12:28 PM", "Amateur 2-Dance Events (2) Closed Silver A Amer. Smooth (F,VW)", "???", "Liu, Rachel and Rao, Arjun", "---"]
 ["Heat", "719", "06@Sunday 1:43 PM", "Amateur 2-Dance Events (1) Closed Bronze A Int'l Ballroom (W,Q)", "???", "Liu, Rachel and Rao, Arjun", "---"]
 ["Heat", "720", "06@Sunday 1:46 PM", "Amateur 2-Dance Events (2) Closed Bronze A Int'l Ballroom (T,F)", "???", "Liu, Rachel and Rao, Arjun", "---"]
-["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "???", "Liu, Rachel and Rao, Arjun", "---"]
+["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "399", "Rao, Arjun and Liu, Rachel", 7]
 ["Heat", "727", "06@Sunday 2:11 PM", "Amateur 2-Dance Events (1) Closed Silver A Int'l Ballroom (W,Q)", "???", "Liu, Rachel and Rao, Arjun", "---"]
 ["Heat", "728", "06@Sunday 2:14 PM", "Amateur 2-Dance Events (2) Closed Silver A Int'l Ballroom (T,F)", "???", "Liu, Rachel and Rao, Arjun", "---"]
-["Heat", "767", "06@Sunday 3:57 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Rhythm (CC,R,SW)", "???", "Liu, Rachel and Rao, Arjun", "---"]
+["Heat", "767", "06@Sunday 3:57 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Rhythm (CC,R,SW)", "399", "Rao, Arjun and Liu, Rachel", 4]
 ["Heat", "792", "06@Sunday 4:49 PM", "Amateur 2-Dance Events (1) Closed Silver A Amer. Rhythm (CC,R)", "???", "Liu, Rachel and Rao, Arjun", "---"]
 ["Heat", "793", "06@Sunday 4:49 PM", "Amateur 2-Dance Events (2) Closed Silver A Amer. Rhythm (SW,M)", "???", "Liu, Rachel and Rao, Arjun", "---"]
-["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "???", "Liu, Rachel and Rao, Arjun", "---"]
+["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "399", "Rao, Arjun and Liu, Rachel", "Semis"]
 ["Heat", "813", "06@Sunday 5:42 PM", "Amateur 2-Dance Events (1) Closed Silver A Int'l Latin (CC,R)", "???", "Liu, Rachel and Rao, Arjun", "---"]
 ["Heat", "814", "06@Sunday 5:45 PM", "Amateur 2-Dance Events (2) Closed Silver A Int'l Latin (S,J)", "???", "Liu, Rachel and Rao, Arjun", "---"]
 Dancer:Liverman, Avra:131:Heats:8
@@ -6430,8 +6430,8 @@ Dancer:Locic, Milan:671:Heats:14
 ["Heat", "427", "03@Saturday 12:47 PM", "American Smooth Single Dance L-B2 Full Bronze Amer. Waltz", "???", "Locic, Milan and Mroszczyk, Alice", "---"]
 ["Heat", "428", "03@Saturday 12:48 PM", "American Smooth Single Dance L-B2 Full Bronze Amer. Tango", "???", "Locic, Milan and Mroszczyk, Alice", "---"]
 Dancer:Loh, Novell:681:Heats:2
-["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "???", "Loh, Novell and Tomkowski, Sebastian", "---"]
-["Heat", "559", "04@Saturday 8:40 PM", "Amateur Rising Star Events A Int'l Latin (CC,S,R,PD,J)", "???", "Loh, Novell and Tomkowski, Sebastian", "---"]
+["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "457", "Tomkowski, Sebastian and Loh, Novell", "Semis"]
+["Heat", "559", "04@Saturday 8:40 PM", "Amateur Rising Star Events A Int'l Latin (CC,S,R,PD,J)", "457", "Tomkowski, Sebastian and Loh, Novell", 3]
 Dancer:Lozada, Mae:65:Heats:1
 ["Pro heat", "6", "04@Saturday 7:40 PM", "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)", "???", "Lozada, Mae and Sese, Kristian", "---"]
 Dancer:Lucas, Robert:258:Heats:16
@@ -6482,10 +6482,10 @@ Dancer:Luo, Manlin:55:Heats:15
 ["Heat", "324", "03@Saturday 7:55 AM", "Int'l Latin Single Dance AC-mLC1 Open Bronze Int'l Paso Doble", "???", "Luo, Manlin and Munteanu, Alexandru", "---"]
 ["Heat", "325", "03@Saturday 7:57 AM", "Int'l Latin Single Dance AC-mLC1 Open Bronze Int'l Jive", "???", "Luo, Manlin and Munteanu, Alexandru", "---"]
 Dancer:Luo, Max:464:Heats:6
-["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "Luo, Max and Tao, Vivian", "---"]
+["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "377", "Luo, Max and Tao, Vivian", "Semis"]
 ["Heat", "693", "06@Sunday 12:25 PM", "Amateur 2-Dance Events (1) Closed Silver A Amer. Smooth (W,T)", "???", "Luo, Max and Tao, Vivian", "---"]
 ["Heat", "694", "06@Sunday 12:28 PM", "Amateur 2-Dance Events (2) Closed Silver A Amer. Smooth (F,VW)", "???", "Luo, Max and Tao, Vivian", "---"]
-["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "???", "Luo, Max and Tao, Vivian", "---"]
+["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "377", "Luo, Max and Tao, Vivian", "Semis"]
 ["Heat", "727", "06@Sunday 2:11 PM", "Amateur 2-Dance Events (1) Closed Silver A Int'l Ballroom (W,Q)", "???", "Luo, Max and Tao, Vivian", "---"]
 ["Heat", "728", "06@Sunday 2:14 PM", "Amateur 2-Dance Events (2) Closed Silver A Int'l Ballroom (T,F)", "???", "Luo, Max and Tao, Vivian", "---"]
 Dancer:Lurito, Rita:551:Heats:32
@@ -6530,7 +6530,7 @@ Dancer:Luvisi, Sara:288:Heats:7
 ["Heat", "52", "01@Friday 9:18 AM", "American Rhythm Single Dance L-B1 Int. Bronze Amer. Rumba", "???", "Luvisi, Sara and Timar, Krisztian", "---"]
 ["Heat", "53", "01@Friday 9:19 AM", "American Rhythm Single Dance L-B1 Int. Bronze Amer. Swing", "???", "Luvisi, Sara and Timar, Krisztian", "---"]
 Dancer:Ly, Monica:76:Heats:1
-["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "???", "Ly, Monica and Woyak, Daniel", "---"]
+["Heat", "558", "04@Saturday 7:30 PM", "Amateur Events A Amer. Smooth Championship (W,T,F,VW)", "429", "Woyak, Daniel and Ly, Monica", 4]
 Dancer:Ma, Lesley (Shou-Ing):97:Heats:11
 ["Heat", "650", "05@Sunday 10:00 AM", "Int'l Ballroom Single Dance L-B2 Full Gold Int'l Quickstep", "???", "Ma, Lesley (Shou-Ing) and Zejda, Jiri", "---"]
 ["Heat", "661", "05@Sunday 10:15 AM", "Int'l Ballroom Single Dance L-B2 Int. Gold Int'l Waltz", "???", "Ma, Lesley (Shou-Ing) and Zejda, Jiri", "---"]
@@ -6599,9 +6599,9 @@ Dancer:Malovana, Veronika:534:Heats:8
 ["Heat", "765", "06@Sunday 3:54 PM", "YH Int'l Latin Single Dance AC-mLP1 PreBronze Int'l Rumba", "???", "Malovana, Veronika and Malovanyi, Andrii", "---"]
 ["Heat", "766", "06@Sunday 3:56 PM", "YH Int'l Latin Single Dance AC-mLP1 PreBronze Int'l Jive", "???", "Malovana, Veronika and Malovanyi, Andrii", "---"]
 Dancer:Malovana, Viktoriia:329:Heats:3
-["Heat", "812", "06@Sunday 5:39 PM", "Amateur Novice 3-Dance Events YH Int'l Latin (CC,S,R)", "???", "Malovana, Viktoriia and Ulbrich, Devin", "---"]
-["Heat", "815", "06@Sunday 5:48 PM", "Amateur PreChamp 4-Dance Events YH Int'l Latin (CC,S,R,J)", "???", "Malovana, Viktoriia and Ulbrich, Devin", "---"]
-["Heat", "818", "06@Sunday 6:18 PM", "Collegiate Open Events AM/AM Int'l Latin (CC,S,R,PD,J)", "???", "Malovana, Viktoriia and Ulbrich, Devin", "---"]
+["Heat", "812", "06@Sunday 5:39 PM", "Amateur Novice 3-Dance Events YH Int'l Latin (CC,S,R)", "426", "Ulbrich, Devin and Malovana, Viktoriia", 1]
+["Heat", "815", "06@Sunday 5:48 PM", "Amateur PreChamp 4-Dance Events YH Int'l Latin (CC,S,R,J)", "426", "Ulbrich, Devin and Malovana, Viktoriia", 3]
+["Heat", "818", "06@Sunday 6:18 PM", "Collegiate Open Events AM/AM Int'l Latin (CC,S,R,PD,J)", "426", "Ulbrich, Devin and Malovana, Viktoriia", 1]
 Dancer:Malovanyi, Andrii:532:Heats:18
 ["Heat", "730", "06@Sunday 2:48 PM", "YH Int'l Latin Single Dance AC-mLP1 Newcomer Int'l Cha Cha", "???", "Malovanyi, Andrii and Malovana, Veronika", "---"]
 ["Heat", "731", "06@Sunday 2:50 PM", "YH Int'l Latin Single Dance AC-mLP1 Newcomer Int'l Samba", "???", "Malovanyi, Andrii and Malovana, Veronika", "---"]
@@ -6622,16 +6622,16 @@ Dancer:Malovanyi, Andrii:532:Heats:18
 ["Heat", "802", "06@Sunday 5:04 PM", "YH Int'l Latin Single Dance AC-J1 Open Gold Int'l Paso Doble", "???", "Malovanyi, Andrii and Safar, Sienna", "---"]
 ["Heat", "803", "06@Sunday 5:06 PM", "YH Int'l Latin Single Dance AC-J1 Open Gold Int'l Jive", "???", "Malovanyi, Andrii and Safar, Sienna", "---"]
 Dancer:Malyava, Andrew:372:Heats:1
-["Heat", "279", "02@Friday 9:10 PM", "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)", "???", "Malyava, Andrew and Shtern, Nicole", "---"]
+["Heat", "279", "02@Friday 9:10 PM", "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)", "380", "Malyava, Andrew and Shtern, Nicole", 2]
 Dancer:Margossian, Charles:446:Heats:10
-["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "Margossian, Charles and Yang, Catalina", "---"]
+["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "381", "Margossian, Charles and Yang, Catalina", "Semis"]
 ["Heat", "683", "06@Sunday 12:04 PM", "Amateur 2-Dance Events (1) Closed Bronze A Amer. Smooth (W,T)", "???", "Margossian, Charles and Yang, Catalina", "---"]
 ["Heat", "684", "06@Sunday 12:07 PM", "Amateur 2-Dance Events (2) Closed Bronze A Amer. Smooth (F,VW)", "???", "Margossian, Charles and Yang, Catalina", "---"]
 ["Heat", "693", "06@Sunday 12:25 PM", "Amateur 2-Dance Events (1) Closed Silver A Amer. Smooth (W,T)", "???", "Margossian, Charles and Yang, Catalina", "---"]
 ["Heat", "694", "06@Sunday 12:28 PM", "Amateur 2-Dance Events (2) Closed Silver A Amer. Smooth (F,VW)", "???", "Margossian, Charles and Yang, Catalina", "---"]
 ["Heat", "719", "06@Sunday 1:43 PM", "Amateur 2-Dance Events (1) Closed Bronze A Int'l Ballroom (W,Q)", "???", "Margossian, Charles and Yang, Catalina", "---"]
 ["Heat", "720", "06@Sunday 1:46 PM", "Amateur 2-Dance Events (2) Closed Bronze A Int'l Ballroom (T,F)", "???", "Margossian, Charles and Yang, Catalina", "---"]
-["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "???", "Margossian, Charles and Yang, Catalina", "---"]
+["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "381", "Margossian, Charles and Yang, Catalina", "Semis"]
 ["Heat", "727", "06@Sunday 2:11 PM", "Amateur 2-Dance Events (1) Closed Silver A Int'l Ballroom (W,Q)", "???", "Margossian, Charles and Yang, Catalina", "---"]
 ["Heat", "728", "06@Sunday 2:14 PM", "Amateur 2-Dance Events (2) Closed Silver A Int'l Ballroom (T,F)", "???", "Margossian, Charles and Yang, Catalina", "---"]
 Dancer:Marie, Tessa:664:Heats:1
@@ -7294,10 +7294,10 @@ Dancer:Morningstar, Max:456:Heats:12
 ["Heat", "719", "06@Sunday 1:43 PM", "Amateur 2-Dance Events (1) Closed Bronze A Int'l Ballroom (W,Q)", "???", "Morningstar, Max and Lapine, Olivia", "---"]
 ["Heat", "720", "06@Sunday 1:46 PM", "Amateur 2-Dance Events (2) Closed Bronze A Int'l Ballroom (T,F)", "???", "Morningstar, Max and Lapine, Olivia", "---"]
 ["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "???", "Morningstar, Max and Lapine, Olivia", "---"]
-["Heat", "767", "06@Sunday 3:57 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Rhythm (CC,R,SW)", "???", "Morningstar, Max and Wainapel, Samantha", "---"]
+["Heat", "767", "06@Sunday 3:57 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Rhythm (CC,R,SW)", "385", "Morningstar, Max and Wainapel, Samantha", 7]
 ["Heat", "777", "06@Sunday 4:24 PM", "Amateur 2-Dance Events (1) Closed Bronze A Amer. Rhythm (CC,R)", "???", "Morningstar, Max and Wainapel, Samantha", "---"]
 ["Heat", "778", "06@Sunday 4:27 PM", "Amateur 2-Dance Events (2) Closed Bronze A Amer. Rhythm (SW,M)", "???", "Morningstar, Max and Wainapel, Samantha", "---"]
-["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "???", "Morningstar, Max and Wainapel, Samantha", "---"]
+["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "385", "Morningstar, Max and Wainapel, Samantha", "Semis"]
 ["Heat", "810", "06@Sunday 5:33 PM", "Amateur 2-Dance Events (1) Closed Bronze A Int'l Latin (CC,R)", "???", "Morningstar, Max and Wainapel, Samantha", "---"]
 ["Heat", "811", "06@Sunday 5:36 PM", "Amateur 2-Dance Events (2) Closed Bronze A Int'l Latin (S,J)", "???", "Morningstar, Max and Wainapel, Samantha", "---"]
 Dancer:Morrissette, Adele:27:Heats:33
@@ -7347,14 +7347,14 @@ Dancer:Mtchedlidze, Nicole:371:Heats:2
 ["Heat", "279", "02@Friday 9:10 PM", "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)", "???", "Mtchedlidze, Nicole and Firestein, Max", "---"]
 ["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "???", "Mtchedlidze, Nicole and Firestein, Max", "---"]
 Dancer:Mu, Yu Chun:441:Heats:2
-["Heat", "758", "06@Sunday 3:37 PM", "Collegiate Open Events AM/AM Amer. Rhythm (CC,R,SW,B,M)", "???", "Mu, Yu Chun and Pascual, Johannes", "---"]
-["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "???", "Mu, Yu Chun and Pascual, Johannes", "---"]
+["Heat", "758", "06@Sunday 3:37 PM", "Collegiate Open Events AM/AM Amer. Rhythm (CC,R,SW,B,M)", "393", "Pascual, Johannes and Mu, Yu Chun", 1]
+["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "393", "Pascual, Johannes and Mu, Yu Chun", "Semis"]
 Dancer:Mueller, Peter:657:Heats:8
 ["Heat", "666", "05@Sunday 10:21 AM", "Int'l Ballroom Single Dance AC-B2 Gold Star Int'l Waltz", "???", "Mueller, Peter and Mueller, Teresa", "---"]
 ["Heat", "667", "05@Sunday 10:23 AM", "Int'l Ballroom Single Dance AC-B2 Gold Star Int'l Tango", "???", "Mueller, Peter and Mueller, Teresa", "---"]
 ["Heat", "669", "05@Sunday 10:25 AM", "Int'l Ballroom Single Dance AC-B2 Gold Star Int'l Foxtrot", "???", "Mueller, Peter and Mueller, Teresa", "---"]
-["Heat", "672", "05@Sunday 10:52 AM", "Amateur PreChamp 4-Dance Events S3 Int'l Ballroom (W,T,F,Q)", "???", "Mueller, Peter and Mueller, Teresa", "---"]
-["Heat", "610", "05@Sunday 8:31 AM", "Amateur Novice 3-Dance Events S3 Int'l Ballroom (W,T,Q)", "???", "Mueller, Peter and Mueller, Teresa", "---"]
+["Heat", "672", "05@Sunday 10:52 AM", "Amateur PreChamp 4-Dance Events S3 Int'l Ballroom (W,T,F,Q)", "454", "Mueller, Peter and Mueller, Teresa", 1]
+["Heat", "610", "05@Sunday 8:31 AM", "Amateur Novice 3-Dance Events S3 Int'l Ballroom (W,T,Q)", "454", "Mueller, Peter and Mueller, Teresa", 1]
 ["Heat", "646", "05@Sunday 9:54 AM", "Int'l Ballroom Single Dance AC-B1 Open Gold Int'l Waltz", "???", "Mueller, Peter and Mueller, Teresa", "---"]
 ["Heat", "647", "05@Sunday 9:56 AM", "Int'l Ballroom Single Dance AC-B1 Open Gold Int'l Tango", "???", "Mueller, Peter and Mueller, Teresa", "---"]
 ["Heat", "649", "05@Sunday 9:58 AM", "Int'l Ballroom Single Dance AC-B1 Open Gold Int'l Foxtrot", "???", "Mueller, Peter and Mueller, Teresa", "---"]
@@ -7578,7 +7578,7 @@ Dancer:Murphy, Colleen:416:Heats:8
 Dancer:Murthy, Adarsh:442:Heats:7
 ["Heat", "719", "06@Sunday 1:43 PM", "Amateur 2-Dance Events (1) Closed Bronze A Int'l Ballroom (W,Q)", "???", "Murthy, Adarsh and Poh, Wenya", "---"]
 ["Heat", "720", "06@Sunday 1:46 PM", "Amateur 2-Dance Events (2) Closed Bronze A Int'l Ballroom (T,F)", "???", "Murthy, Adarsh and Poh, Wenya", "---"]
-["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "???", "Murthy, Adarsh and Poh, Wenya", "---"]
+["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "387", "Murthy, Adarsh and Poh, Wenya", "Semis"]
 ["Heat", "727", "06@Sunday 2:11 PM", "Amateur 2-Dance Events (1) Closed Silver A Int'l Ballroom (W,Q)", "???", "Murthy, Adarsh and Poh, Wenya", "---"]
 ["Heat", "728", "06@Sunday 2:14 PM", "Amateur 2-Dance Events (2) Closed Silver A Int'l Ballroom (T,F)", "???", "Murthy, Adarsh and Poh, Wenya", "---"]
 ["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "???", "Murthy, Adarsh and Fung, Wan Yu", "---"]
@@ -7639,8 +7639,8 @@ Dancer:Netsvetaev, Kirill:219:Heats:2
 ["Pro heat", "2", "02@Friday 8:35 PM", "Professional Rising Star Events Int'l Latin (CC,S,R,PD,J)", "???", "Netsvetaev, Kirill and Antonenko, Aleksandra", "---"]
 ["Pro heat", "9", "04@Saturday 10:48 PM", "Professional Open Events Int'l Latin (CC,S,R,PD,J)", "???", "Netsvetaev, Kirill and Antonenko, Aleksandra", "---"]
 Dancer:Newcomer, Kathleen:127:Heats:2
-["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "???", "Newcomer, Kathleen and Penner, Ethan", "---"]
-["Heat", "277", "02@Friday 7:53 PM", "Amateur Rising Star Events A Int'l Ballroom (W,T,VW,F,Q)", "???", "Newcomer, Kathleen and Penner, Ethan", "---"]
+["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "394", "Penner, Ethan and Newcomer, Kathleen", "Semis"]
+["Heat", "277", "02@Friday 7:53 PM", "Amateur Rising Star Events A Int'l Ballroom (W,T,VW,F,Q)", "394", "Penner, Ethan and Newcomer, Kathleen", 6]
 Dancer:Nicholls, Albert:582:Heats:11
 ["Heat", "155", "01@Friday 12:56 PM", "American Rhythm Single Dance G-C1 Int. Silver Amer. Cha Cha", "???", "Nicholls, Albert and DeSouza, Saori", "---"]
 ["Heat", "156", "01@Friday 12:57 PM", "American Rhythm Single Dance G-C1 Int. Silver Amer. Rumba", "???", "Nicholls, Albert and DeSouza, Saori", "---"]
@@ -7996,8 +7996,8 @@ Dancer:Pignone, Brian:263:Heats:7
 ["Heat", "41", "01@Friday 9:03 AM", "American Rhythm Single Dance G-A2 Newcomer I Amer. Rumba", "???", "Pignone, Brian and Baker, Amy", "---"]
 ["Heat", "42", "01@Friday 9:05 AM", "American Rhythm Single Dance G-A2 Newcomer I Amer. Swing", "???", "Pignone, Brian and Baker, Amy", "---"]
 Dancer:Platt, Guy:698:Heats:2
-["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "???", "Platt, Guy and Wang, Charlene", "---"]
-["Heat", "559", "04@Saturday 8:40 PM", "Amateur Rising Star Events A Int'l Latin (CC,S,R,PD,J)", "???", "Platt, Guy and Wang, Charlene", "---"]
+["Heat", "561", "04@Saturday 11:18 PM", "Amateur Events A Int'l Latin Championship (CC,S,R,PD,J)", "464", "Platt, Guy and Wang, Charlene", "Semis"]
+["Heat", "559", "04@Saturday 8:40 PM", "Amateur Rising Star Events A Int'l Latin (CC,S,R,PD,J)", "464", "Platt, Guy and Wang, Charlene", 4]
 Dancer:Plumley, Cris:115:Heats:50
 ["Heat", "650", "05@Sunday 10:00 AM", "Int'l Ballroom Single Dance L-C1 PreSilver Int'l Quickstep", "???", "Plumley, Cris and Cole, Maria", "---"]
 ["Heat", "651", "05@Sunday 10:01 AM", "Int'l Ballroom Single Dance L-C1 Int. Silver Int'l Waltz", "???", "Plumley, Cris and Stratton, Carol", "---"]
@@ -8111,10 +8111,10 @@ Dancer:Potagal, Lilia:387:Heats:8
 ["Heat", "785", "06@Sunday 4:39 PM", "YH Int'l Latin Single Dance AC-mLP2 Open Gold Int'l Rumba", "???", "Potagal, Lilia and Vasilenko, Nikita", "---"]
 ["Heat", "786", "06@Sunday 4:40 PM", "YH Int'l Latin Single Dance AC-mLP2 Open Gold Int'l Jive", "???", "Potagal, Lilia and Vasilenko, Nikita", "---"]
 Dancer:Potagal, Margaret:405:Heats:4
-["Heat", "726", "06@Sunday 2:17 PM", "Fordney Foundation Open Events YH AM/AM Int'l Ballroom (W,T,VW,F,Q)", "???", "Potagal, Margaret and Potagal, Michael", "---"]
-["Heat", "748", "06@Sunday 3:17 PM", "Collegiate Open Events AM/AM Int'l Ballroom (W,T,VW,F,Q)", "???", "Potagal, Margaret and Potagal, Michael", "---"]
-["Heat", "815", "06@Sunday 5:48 PM", "Amateur PreChamp 4-Dance Events YH Int'l Latin (CC,S,R,J)", "???", "Potagal, Margaret and Potagal, Michael", "---"]
-["Heat", "816", "06@Sunday 5:59 PM", "Fordney Foundation Open Events YH AM/AM Int'l Latin (CC,S,R,PD,J)", "???", "Potagal, Margaret and Potagal, Michael", "---"]
+["Heat", "726", "06@Sunday 2:17 PM", "Fordney Foundation Open Events YH AM/AM Int'l Ballroom (W,T,VW,F,Q)", "397", "Potagal, Michael and Potagal, Margaret", 3]
+["Heat", "748", "06@Sunday 3:17 PM", "Collegiate Open Events AM/AM Int'l Ballroom (W,T,VW,F,Q)", "397", "Potagal, Michael and Potagal, Margaret", 2]
+["Heat", "815", "06@Sunday 5:48 PM", "Amateur PreChamp 4-Dance Events YH Int'l Latin (CC,S,R,J)", "397", "Potagal, Michael and Potagal, Margaret", 1]
+["Heat", "816", "06@Sunday 5:59 PM", "Fordney Foundation Open Events YH AM/AM Int'l Latin (CC,S,R,PD,J)", "397", "Potagal, Michael and Potagal, Margaret", 2]
 Dancer:Potagal, Michael:404:Heats:4
 ["Heat", "726", "06@Sunday 2:17 PM", "Fordney Foundation Open Events YH AM/AM Int'l Ballroom (W,T,VW,F,Q)", "???", "Potagal, Michael and Potagal, Margaret", "---"]
 ["Heat", "748", "06@Sunday 3:17 PM", "Collegiate Open Events AM/AM Int'l Ballroom (W,T,VW,F,Q)", "???", "Potagal, Michael and Potagal, Margaret", "---"]
@@ -8554,8 +8554,8 @@ Dancer:Ridge, Gale:238:Heats:17
 ["Heat", "609", "05@Sunday 8:27 AM", "Closed Bronze 3-Dance Events S1 Int'l Ballroom (W,T,Q)", "???", "Ridge, Gale and Surowiec, Robert", "---"]
 ["Heat", "612", "05@Sunday 8:40 AM", "Closed Bronze Scholarship Events S1 Int'l Ballroom (W,T,Q)", "???", "Ridge, Gale and Surowiec, Robert", "---"]
 Dancer:Roberge, Sarah-Eve:367:Heats:2
-["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "???", "Roberge, Sarah-Eve and Test, Jonathan", "---"]
-["Heat", "277", "02@Friday 7:53 PM", "Amateur Rising Star Events A Int'l Ballroom (W,T,VW,F,Q)", "???", "Roberge, Sarah-Eve and Test, Jonathan", "---"]
+["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "421", "Test, Jonathan and Roberge, Sarah-Eve", 5]
+["Heat", "277", "02@Friday 7:53 PM", "Amateur Rising Star Events A Int'l Ballroom (W,T,VW,F,Q)", "421", "Test, Jonathan and Roberge, Sarah-Eve", 1]
 Dancer:Robinson-Harris, Tracey:499:Heats:14
 ["Heat", "382", "03@Saturday 10:29 AM", "Closed Syllabus Int'l 10-Dance S1 (CC,S,R,PD,J,W,T,VW,F,Q)", "???", "Robinson-Harris, Tracey and Shiloshvili, Thomas", "---"]
 ["Heat", "339", "03@Saturday 9:09 AM", "Int'l Latin Single Dance L-B2 Full Gold Int'l Cha Cha", "???", "Robinson-Harris, Tracey and Shiloshvili, Thomas", "---"]
@@ -9035,7 +9035,7 @@ Dancer:Shi, Lucas:689:Heats:9
 ["Heat", "784", "06@Sunday 4:37 PM", "YH Int'l Latin Single Dance AC-P1 Closed Bronze Int'l Samba", "???", "Shi, Lucas and Zvenigorodsky, Sophia", "---"]
 ["Heat", "785", "06@Sunday 4:39 PM", "YH Int'l Latin Single Dance AC-P1 Closed Bronze Int'l Rumba", "???", "Shi, Lucas and Zvenigorodsky, Sophia", "---"]
 ["Heat", "786", "06@Sunday 4:40 PM", "YH Int'l Latin Single Dance AC-P1 Closed Bronze Int'l Jive", "???", "Shi, Lucas and Zvenigorodsky, Sophia", "---"]
-["Heat", "809", "06@Sunday 5:27 PM", "Youth Amateur 3-Dance Events Closed Bronze P1 Int'l Latin (CC,R,J)", "???", "Shi, Lucas and Zvenigorodsky, Sophia", "---"]
+["Heat", "809", "06@Sunday 5:27 PM", "Youth Amateur 3-Dance Events Closed Bronze P1 Int'l Latin (CC,R,J)", "460", "Shi, Lucas and Zvenigorodsky, Sophia", 1]
 Dancer:Shiller, Artem:18:Heats:2
 ["Pro heat", "4", "02@Friday 10:10 PM", "Professional Open Events Amer. Rhythm (CC,R,SW,B,M)", "???", "Shiller, Artem and Shiller, Ginny Ray", "---"]
 ["Pro heat", "6", "04@Saturday 7:40 PM", "Professional Rising Star Events Amer. Rhythm (CC,R,SW,B,M)", "???", "Shiller, Artem and Shiller, Ginny Ray", "---"]
@@ -9149,7 +9149,7 @@ Dancer:Shvetsov, Artur:347:Heats:11
 ["Heat", "800", "06@Sunday 5:01 PM", "YH Int'l Latin Single Dance L-P2 Open Silver Int'l Samba", "???", "Shvetsov, Artur and Xia, Lucy", "---"]
 ["Heat", "801", "06@Sunday 5:03 PM", "YH Int'l Latin Single Dance L-P2 Open Silver Int'l Rumba", "???", "Shvetsov, Artur and Xia, Lucy", "---"]
 ["Heat", "803", "06@Sunday 5:06 PM", "YH Int'l Latin Single Dance L-P2 Open Silver Int'l Jive", "???", "Shvetsov, Artur and Xia, Lucy", "---"]
-["Heat", "809", "06@Sunday 5:27 PM", "Youth Amateur 4-Dance Events Closed Silver P1 Int'l Latin (CC,S,R,J)", "???", "Shvetsov, Artur and Xia, Lucy", "---"]
+["Heat", "809", "06@Sunday 5:27 PM", "Youth Amateur 4-Dance Events Closed Silver P1 Int'l Latin (CC,S,R,J)", "171", "Shvetsov, Artur and Xia, Lucy", 1]
 Dancer:Silverstein, Carol:340:Heats:12
 ["Heat", "155", "01@Friday 12:56 PM", "American Rhythm Single Dance L-B2 Open Gold Amer. Cha Cha", "???", "Silverstein, Carol and Hauer, Matthew", "---"]
 ["Heat", "156", "01@Friday 12:57 PM", "American Rhythm Single Dance L-B2 Open Gold Amer. Rumba", "???", "Silverstein, Carol and Hauer, Matthew", "---"]
@@ -9610,7 +9610,7 @@ Dancer:Stefanskiy, Yury:26:Heats:33
 ["Heat", "371", "03@Saturday 9:50 AM", "Int'l Latin Single Dance L-B1 Int. Silver Int'l Rumba", "???", "Stefanskiy, Yury and Morrissette, Adele", "---"]
 ["Heat", "373", "03@Saturday 9:53 AM", "Int'l Latin Single Dance L-B1 Int. Silver Int'l Jive", "???", "Stefanskiy, Yury and Morrissette, Adele", "---"]
 Dancer:Ste-Marie, Lucie:312:Heats:1
-["Heat", "278", "02@Friday 8:20 PM", "Amateur Events S4 Int'l Latin Championship (CC,S,R,PD,J)", "???", "Ste-Marie, Lucie and Ste-Marie, Pierre", "---"]
+["Heat", "278", "02@Friday 8:20 PM", "Amateur Events S4 Int'l Latin Championship (CC,S,R,PD,J)", "416", "Ste-Marie, Lucie and Ste-Marie, Pierre", 1]
 Dancer:Ste-Marie, Pierre:311:Heats:1
 ["Heat", "278", "02@Friday 8:20 PM", "Amateur Events S4 Int'l Latin Championship (CC,S,R,PD,J)", "???", "Ste-Marie, Pierre and Ste-Marie, Lucie", "---"]
 Dancer:Stoeckel, Marie:243:Heats:16
@@ -9631,8 +9631,8 @@ Dancer:Stoeckel, Marie:243:Heats:16
 ["Heat", "635", "05@Sunday 9:29 AM", "Int'l Ballroom Single Dance L-B2 Int. Silver Int'l Foxtrot", "???", "Stoeckel, Marie and Martinez Campos, Ramon", "---"]
 ["Heat", "636", "05@Sunday 9:31 AM", "Int'l Ballroom Single Dance L-B2 Int. Silver Int'l Quickstep", "???", "Stoeckel, Marie and Martinez Campos, Ramon", "---"]
 Dancer:Straley, Alex:48:Heats:2
-["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "???", "Straley, Alex and Wills, Amelia", "---"]
-["Heat", "277", "02@Friday 7:53 PM", "Amateur Rising Star Events A Int'l Ballroom (W,T,VW,F,Q)", "???", "Straley, Alex and Wills, Amelia", "---"]
+["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "417", "Straley, Alex and Wills, Amelia", "Semis"]
+["Heat", "277", "02@Friday 7:53 PM", "Amateur Rising Star Events A Int'l Ballroom (W,T,VW,F,Q)", "417", "Straley, Alex and Wills, Amelia", 4]
 Dancer:Stratton, Carol:117:Heats:10
 ["Heat", "651", "05@Sunday 10:01 AM", "Int'l Ballroom Single Dance L-C1 Int. Silver Int'l Waltz", "???", "Stratton, Carol and Plumley, Cris", "---"]
 ["Heat", "652", "05@Sunday 10:02 AM", "Int'l Ballroom Single Dance L-C1 Int. Silver Int'l Tango", "???", "Stratton, Carol and Plumley, Cris", "---"]
@@ -9694,12 +9694,12 @@ Dancer:Sulin, Olivia:618:Heats:48
 ["Heat", "548", "03@Saturday 5:06 PM", "WDSS 4-Dance Events Closed Silver A Amer. Smooth (W,T,F,VW)", "???", "Sulin, Olivia and DeSouza, Marcio", "---"]
 ["Heat", "551", "03@Saturday 5:24 PM", "Closed Silver Scholarship Events A Amer. Smooth (W,T,F,VW)", "???", "Sulin, Olivia and DeSouza, Marcio", "---"]
 Dancer:Sun, Brandon:458:Heats:6
-["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "Sun, Brandon and Wainapel, Samantha", "---"]
+["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "418", "Sun, Brandon and Wainapel, Samantha", "Semis"]
 ["Heat", "683", "06@Sunday 12:04 PM", "Amateur 2-Dance Events (1) Closed Bronze A Amer. Smooth (W,T)", "???", "Sun, Brandon and Wainapel, Samantha", "---"]
 ["Heat", "684", "06@Sunday 12:07 PM", "Amateur 2-Dance Events (2) Closed Bronze A Amer. Smooth (F,VW)", "???", "Sun, Brandon and Wainapel, Samantha", "---"]
 ["Heat", "719", "06@Sunday 1:43 PM", "Amateur 2-Dance Events (1) Closed Bronze A Int'l Ballroom (W,Q)", "???", "Sun, Brandon and Wainapel, Samantha", "---"]
 ["Heat", "720", "06@Sunday 1:46 PM", "Amateur 2-Dance Events (2) Closed Bronze A Int'l Ballroom (T,F)", "???", "Sun, Brandon and Wainapel, Samantha", "---"]
-["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "???", "Sun, Brandon and Wainapel, Samantha", "---"]
+["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "418", "Sun, Brandon and Wainapel, Samantha", "Semis"]
 Dancer:Sun-Friedman, Daniel:398:Heats:9
 ["Heat", "702", "06@Sunday 12:52 PM", "YH Int'l Ballroom Single Dance AC-mGYH PreSilver Int'l Waltz", "???", "Sun-Friedman, Daniel and Lisna, Svitlana", "---"]
 ["Heat", "703", "06@Sunday 12:53 PM", "YH Int'l Ballroom Single Dance AC-mGYH PreSilver Int'l Tango", "???", "Sun-Friedman, Daniel and Lisna, Svitlana", "---"]
@@ -9819,9 +9819,9 @@ Dancer:Takhtarov, Emily:595:Heats:12
 ["Heat", "377", "03@Saturday 9:58 AM", "Int'l Latin Single Dance L-A1 Op. Advanced Int'l Paso Doble", "???", "Takhtarov, Emily and Malakhov, Nikita", "---"]
 ["Heat", "378", "03@Saturday 9:59 AM", "Int'l Latin Single Dance L-A1 Op. Advanced Int'l Jive", "???", "Takhtarov, Emily and Malakhov, Nikita", "---"]
 Dancer:Tang, Kaifeng:427:Heats:3
-["Heat", "767", "06@Sunday 3:57 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Rhythm (CC,R,SW)", "???", "Tang, Kaifeng and Tu, Yejun", "---"]
-["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "???", "Tang, Kaifeng and Tu, Yejun", "---"]
-["Heat", "817", "06@Sunday 6:06 PM", "Amateur Gold 4-Dance Events A Int'l Latin (CC,S,R,J)", "???", "Tang, Kaifeng and Tu, Yejun", "---"]
+["Heat", "767", "06@Sunday 3:57 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Rhythm (CC,R,SW)", "420", "Tang, Kaifeng and Tu, Yejun", 1]
+["Heat", "808", "06@Sunday 5:23 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Latin (CC,R,J)", "420", "Tang, Kaifeng and Tu, Yejun", 3]
+["Heat", "817", "06@Sunday 6:06 PM", "Amateur Gold 4-Dance Events A Int'l Latin (CC,S,R,J)", "420", "Tang, Kaifeng and Tu, Yejun", 2]
 Dancer:Tao, Vivian:465:Heats:12
 ["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "Tao, Vivian and Luo, Max", "---"]
 ["Heat", "693", "06@Sunday 12:25 PM", "Amateur 2-Dance Events (1) Closed Silver A Amer. Smooth (W,T)", "???", "Tao, Vivian and Luo, Max", "---"]
@@ -10755,7 +10755,7 @@ Dancer:Xiao, Rudi:391:Heats:7
 ["Heat", "761", "06@Sunday 3:47 PM", "YH Int'l Latin Single Dance AC-mLJ1 Open Bronze Int'l Rumba", "???", "Xiao, Rudi and Vitenko, Andriy", "---"]
 ["Heat", "762", "06@Sunday 3:49 PM", "YH Int'l Latin Single Dance AC-mLJ1 Open Bronze Int'l Jive", "???", "Xiao, Rudi and Vitenko, Andriy", "---"]
 Dancer:Xie, Zhuoshi:39:Heats:1
-["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "???", "Xie, Zhuoshi and Zhang, Alec Zhiwei", "---"]
+["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "432", "Zhang, Alec Zhiwei and Xie, Zhuoshi", 3]
 Dancer:Xu, Yimeng:452:Heats:2
 ["Heat", "723", "06@Sunday 2:05 PM", "Amateur PreChamp 4-Dance Events A Int'l Ballroom (W,T,F,Q)", "???", "Xu, Yimeng and Chan, Danica", "---"]
 ["Heat", "748", "06@Sunday 3:17 PM", "Collegiate Open Events AM/AM Int'l Ballroom (W,T,VW,F,Q)", "???", "Xu, Yimeng and Chan, Danica", "---"]
@@ -10871,4 +10871,156 @@ Dancer:Zaramella, Andrea:614:Heats:13
 ["Heat", "595", "05@Sunday 7:44 AM", "Int'l Ballroom Single Dance L-B2 Full Bronze Int'l Foxtrot", "???", "Zaramella, Andrea and Rollings, Erica", "---"]
 ["Heat", "596", "05@Sunday 7:45 AM", "Int'l Ballroom Single Dance L-B2 Full Bronze Int'l Quickstep", "???", "Zaramella, Andrea and Rollings, Erica", "---"]
 ["Heat", "602", "05@Sunday 7:54 AM", "Int'l Ballroom Single Dance L-B2 Int. Bronze Int'l Waltz", "???", "Zaramella, Andrea and Rollings, Erica", "---"]
-["Heat", "603", "05@Sunday 7:55 AM"
+["Heat", "603", "05@Sunday 7:55 AM", "Int'l Ballroom Single Dance L-B2 Int. Bronze Int'l Tango", "???", "Zaramella, Andrea and Rollings, Erica", "---"]
+["Heat", "604", "05@Sunday 7:56 AM", "Int'l Ballroom Single Dance L-B2 Int. Bronze Int'l Viennese Waltz", "???", "Zaramella, Andrea and Rollings, Erica", "---"]
+["Heat", "605", "05@Sunday 7:58 AM", "Int'l Ballroom Single Dance L-B2 Int. Bronze Int'l Foxtrot", "???", "Zaramella, Andrea and Rollings, Erica", "---"]
+["Heat", "606", "05@Sunday 7:59 AM", "Int'l Ballroom Single Dance L-B2 Int. Bronze Int'l Quickstep", "???", "Zaramella, Andrea and Rollings, Erica", "---"]
+["Heat", "607", "05@Sunday 8:18 AM", "WDSS 3-Dance Events Closed Bronze S1 Int'l Ballroom (W,T,Q)", "???", "Zaramella, Andrea and Rollings, Erica", "---"]
+["Heat", "609", "05@Sunday 8:27 AM", "Closed Bronze 3-Dance Events S1 Int'l Ballroom (W,T,Q)", "???", "Zaramella, Andrea and Rollings, Erica", "---"]
+["Heat", "612", "05@Sunday 8:40 AM", "Closed Bronze Scholarship Events S1 Int'l Ballroom (W,T,Q)", "???", "Zaramella, Andrea and Rollings, Erica", "---"]
+Dancer:Zejda, Jiri:96:Heats:33
+["Heat", "386", "03@Saturday 10:51 AM", "Closed Silver Scholarship Events B Int'l Latin (CC,S,R,J)", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "334", "03@Saturday 9:02 AM", "Int'l Latin Single Dance L-A2 PreSilver Int'l Cha Cha", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "335", "03@Saturday 9:03 AM", "Int'l Latin Single Dance L-A2 PreSilver Int'l Samba", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "336", "03@Saturday 9:05 AM", "Int'l Latin Single Dance L-A2 PreSilver Int'l Rumba", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "337", "03@Saturday 9:06 AM", "Int'l Latin Single Dance L-A2 PreSilver Int'l Paso Doble", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "338", "03@Saturday 9:07 AM", "Int'l Latin Single Dance L-A2 PreSilver Int'l Jive", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "354", "03@Saturday 9:28 AM", "Int'l Latin Single Dance L-A2 Full Silver Int'l Cha Cha", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "355", "03@Saturday 9:29 AM", "Int'l Latin Single Dance L-A2 Full Silver Int'l Samba", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "356", "03@Saturday 9:31 AM", "Int'l Latin Single Dance L-A2 Full Silver Int'l Rumba", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "357", "03@Saturday 9:32 AM", "Int'l Latin Single Dance L-A2 Full Silver Int'l Paso Doble", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "358", "03@Saturday 9:33 AM", "Int'l Latin Single Dance L-A2 Full Silver Int'l Jive", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "650", "05@Sunday 10:00 AM", "Int'l Ballroom Single Dance L-B2 Full Gold Int'l Quickstep", "???", "Zejda, Jiri and Ma, Lesley (Shou-Ing)", "---"]
+["Heat", "661", "05@Sunday 10:15 AM", "Int'l Ballroom Single Dance L-B2 Int. Gold Int'l Waltz", "???", "Zejda, Jiri and Ma, Lesley (Shou-Ing)", "---"]
+["Heat", "662", "05@Sunday 10:16 AM", "Int'l Ballroom Single Dance L-B2 Int. Gold Int'l Tango", "???", "Zejda, Jiri and Ma, Lesley (Shou-Ing)", "---"]
+["Heat", "663", "05@Sunday 10:17 AM", "Int'l Ballroom Single Dance L-B2 Int. Gold Int'l Viennese Waltz", "???", "Zejda, Jiri and Ma, Lesley (Shou-Ing)", "---"]
+["Heat", "664", "05@Sunday 10:19 AM", "Int'l Ballroom Single Dance L-B2 Int. Gold Int'l Foxtrot", "???", "Zejda, Jiri and Ma, Lesley (Shou-Ing)", "---"]
+["Heat", "665", "05@Sunday 10:20 AM", "Int'l Ballroom Single Dance L-B2 Int. Gold Int'l Quickstep", "???", "Zejda, Jiri and Ma, Lesley (Shou-Ing)", "---"]
+["Heat", "674", "05@Sunday 11:07 AM", "Closed Silver Scholarship Events B Int'l Ballroom (W,T,F,Q)", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "676", "05@Sunday 11:26 AM", "Closed Gold 5-Dance Scholarship Events S1 Int'l Ballroom (W,T,VW,F,Q)", "???", "Zejda, Jiri and Ma, Lesley (Shou-Ing)", "---"]
+["Heat", "618", "05@Sunday 9:07 AM", "Int'l Ballroom Single Dance L-A2 Full Silver Int'l Waltz", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "619", "05@Sunday 9:08 AM", "Int'l Ballroom Single Dance L-A2 Full Silver Int'l Tango", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "620", "05@Sunday 9:09 AM", "Int'l Ballroom Single Dance L-A2 Full Silver Int'l Viennese Waltz", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "621", "05@Sunday 9:11 AM", "Int'l Ballroom Single Dance L-A2 Full Silver Int'l Foxtrot", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "622", "05@Sunday 9:12 AM", "Int'l Ballroom Single Dance L-A2 Full Silver Int'l Quickstep", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "637", "05@Sunday 9:42 AM", "Int'l Ballroom Single Dance L-A2 PreSilver Int'l Waltz", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "638", "05@Sunday 9:44 AM", "Int'l Ballroom Single Dance L-A2 PreSilver Int'l Tango", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "639", "05@Sunday 9:45 AM", "Int'l Ballroom Single Dance L-A2 PreSilver Int'l Viennese Waltz", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "640", "05@Sunday 9:46 AM", "Int'l Ballroom Single Dance L-A2 PreSilver Int'l Foxtrot", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "641", "05@Sunday 9:48 AM", "Int'l Ballroom Single Dance L-A2 PreSilver Int'l Quickstep", "???", "Zejda, Jiri and Ellis, Tina", "---"]
+["Heat", "646", "05@Sunday 9:54 AM", "Int'l Ballroom Single Dance L-B2 Full Gold Int'l Waltz", "???", "Zejda, Jiri and Ma, Lesley (Shou-Ing)", "---"]
+["Heat", "647", "05@Sunday 9:56 AM", "Int'l Ballroom Single Dance L-B2 Full Gold Int'l Tango", "???", "Zejda, Jiri and Ma, Lesley (Shou-Ing)", "---"]
+["Heat", "648", "05@Sunday 9:57 AM", "Int'l Ballroom Single Dance L-B2 Full Gold Int'l Viennese Waltz", "???", "Zejda, Jiri and Ma, Lesley (Shou-Ing)", "---"]
+["Heat", "649", "05@Sunday 9:58 AM", "Int'l Ballroom Single Dance L-B2 Full Gold Int'l Foxtrot", "???", "Zejda, Jiri and Ma, Lesley (Shou-Ing)", "---"]
+Dancer:Zhang, Alec Zhiwei:38:Heats:1
+["Heat", "280", "02@Friday 10:00 PM", "Amateur Events A Int'l Ballroom Championship (W,T,VW,F,Q)", "???", "Zhang, Alec Zhiwei and Xie, Zhuoshi", "---"]
+Dancer:Zhang, Mengke:662:Heats:2
+["Heat", "812", "06@Sunday 5:39 PM", "Amateur Novice 3-Dance Events A Int'l Latin (CC,S,R)", "???", "Zhang, Mengke and Branch, Matthew", "---"]
+["Heat", "817A", "06@Sunday 6:12 PM", "Amateur PreChamp 4-Dance Events A Int'l Latin (CC,S,R,J)", "???", "Zhang, Mengke and Branch, Matthew", "---"]
+Dancer:Zhang, Sonia:647:Heats:6
+["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "Zhang, Sonia and Doost, Hamid", "---"]
+["Heat", "693", "06@Sunday 12:25 PM", "Amateur 2-Dance Events (1) Closed Silver A Amer. Smooth (W,T)", "???", "Zhang, Sonia and Doost, Hamid", "---"]
+["Heat", "694", "06@Sunday 12:28 PM", "Amateur 2-Dance Events (2) Closed Silver A Amer. Smooth (F,VW)", "???", "Zhang, Sonia and Doost, Hamid", "---"]
+["Heat", "722", "06@Sunday 1:56 PM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)", "???", "Zhang, Sonia and Doost, Hamid", "---"]
+["Heat", "727", "06@Sunday 2:11 PM", "Amateur 2-Dance Events (1) Closed Silver A Int'l Ballroom (W,Q)", "???", "Zhang, Sonia and Doost, Hamid", "---"]
+["Heat", "728", "06@Sunday 2:14 PM", "Amateur 2-Dance Events (2) Closed Silver A Int'l Ballroom (T,F)", "???", "Zhang, Sonia and Doost, Hamid", "---"]
+Dancer:Zhang, Ying:95:Heats:2
+["Heat", "679", "06@Sunday 11:54 AM", "Amateur PreChamp 4-Dance Events A Amer. Smooth (W,T,F,VW)", "???", "Zhang, Ying and Beal, Aaron", "---"]
+["Heat", "707", "06@Sunday 12:59 PM", "Amateur Novice 3-Dance Events A Amer. Smooth (W,T,F)", "???", "Zhang, Ying and Beal, Aaron", "---"]
+Dancer:Zhang, Zilin:546:Heats:13
+["Heat", "685", "06@Sunday 12:10 PM", "Solo Star Ballroom Single Dances L-P2 PreBronze Int'l Waltz", "???", "Zhang, Zilin", "---"]
+["Heat", "687", "06@Sunday 12:13 PM", "Solo Star Ballroom Single Dances L-P2 PreBronze Int'l Quickstep", "???", "Zhang, Zilin", "---"]
+["Heat", "699", "06@Sunday 12:48 PM", "Solo Star Ballroom Single Dances L-P2 Closed Bronze Int'l Waltz", "???", "Zhang, Zilin", "---"]
+["Heat", "701", "06@Sunday 12:50 PM", "Solo Star Ballroom Single Dances L-P2 Closed Bronze Int'l Quickstep", "???", "Zhang, Zilin", "---"]
+["Heat", "759", "06@Sunday 3:45 PM", "Solo Star Latin Single Dances L-P2 PreBronze Int'l Cha Cha", "???", "Zhang, Zilin", "---"]
+["Heat", "760", "06@Sunday 3:46 PM", "Solo Star Latin Single Dances L-P2 PreBronze Int'l Samba", "???", "Zhang, Zilin", "---"]
+["Heat", "761", "06@Sunday 3:47 PM", "Solo Star Latin Single Dances L-P2 PreBronze Int'l Rumba", "???", "Zhang, Zilin", "---"]
+["Heat", "762", "06@Sunday 3:49 PM", "Solo Star Latin Single Dances L-P2 PreBronze Int'l Jive", "???", "Zhang, Zilin", "---"]
+["Heat", "795", "06@Sunday 4:53 PM", "Solo Star Latin Single Dances L-P2 Closed Bronze Int'l Cha Cha", "???", "Zhang, Zilin", "---"]
+["Heat", "796", "06@Sunday 4:54 PM", "Solo Star Latin Single Dances L-P2 Closed Bronze Int'l Samba", "???", "Zhang, Zilin", "---"]
+["Heat", "797", "06@Sunday 4:56 PM", "Solo Star Latin Single Dances L-P2 Closed Bronze Int'l Rumba", "???", "Zhang, Zilin", "---"]
+["Heat", "798", "06@Sunday 4:57 PM", "Solo Star Latin Single Dances L-P2 Closed Bronze Int'l Jive", "???", "Zhang, Zilin", "---"]
+["Heat", "809", "06@Sunday 5:27 PM", "Solo Star 3-Dance Multi-Dances Closed Bronze P2 Ladies Int'l Latin (CC,R,J)", "???", "Zhang, Zilin", "---"]
+Dancer:Zheng, Jenny:437:Heats:3
+["Heat", "678", "06@Sunday 11:45 AM", "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)", "???", "Zheng, Jenny and Kim, Hyun Jung", "---"]
+["Heat", "693", "06@Sunday 12:25 PM", "Amateur 2-Dance Events (1) Closed Silver A Amer. Smooth (W,T)", "???", "Zheng, Jenny and Kim, Hyun Jung", "---"]
+["Heat", "694", "06@Sunday 12:28 PM", "Amateur 2-Dance Events (2) Closed Silver A Amer. Smooth (F,VW)", "???", "Zheng, Jenny and Kim, Hyun Jung", "---"]
+Dancer:Zhou, Irene:145:Heats:4
+["Heat", "759", "06@Sunday 3:45 PM", "YH Int'l Latin Single Dance AC-P2 PreBronze Int'l Cha Cha", "???", "Zhou, Irene and Milshteyn, Lenny", "---"]
+["Heat", "760", "06@Sunday 3:46 PM", "YH Int'l Latin Single Dance AC-P2 PreBronze Int'l Samba", "???", "Zhou, Irene and Milshteyn, Lenny", "---"]
+["Heat", "761", "06@Sunday 3:47 PM", "YH Int'l Latin Single Dance AC-P2 PreBronze Int'l Rumba", "???", "Zhou, Irene and Milshteyn, Lenny", "---"]
+["Heat", "762", "06@Sunday 3:49 PM", "YH Int'l Latin Single Dance AC-P2 PreBronze Int'l Jive", "???", "Zhou, Irene and Milshteyn, Lenny", "---"]
+Dancer:Zhukovskyi, Nikita:596:Heats:1
+["Pro heat", "8", "04@Saturday 9:18 PM", "Professional Cabaret OP  Cabaret", "???", "Zhukovskyi, Nikita and Boiko, Angelina", "---"]
+Dancer:Zinshtein, Ronen:60:Heats:48
+["Heat", "650", "05@Sunday 10:00 AM", "Int'l Ballroom Single Dance L-B1 Full Gold Int'l Quickstep", "???", "Zinshtein, Ronen and Rahardja, Sainah", "---"]
+["Heat", "651", "05@Sunday 10:01 AM", "Int'l Ballroom Single Dance L-C1 Op. Advanced Int'l Waltz", "???", "Zinshtein, Ronen and Zonce, Christine", "---"]
+["Heat", "652", "05@Sunday 10:02 AM", "Int'l Ballroom Single Dance L-C1 Op. Advanced Int'l Tango", "???", "Zinshtein, Ronen and Zonce, Christine", "---"]
+["Heat", "654", "05@Sunday 10:05 AM", "Int'l Ballroom Single Dance L-C1 Op. Advanced Int'l Foxtrot", "???", "Zinshtein, Ronen and Zonce, Christine", "---"]
+["Heat", "656", "05@Sunday 10:08 AM", "Int'l Ballroom Single Dance L-B1 Open Gold Int'l Waltz", "???", "Zinshtein, Ronen and Rahardja, Sainah", "---"]
+["Heat", "657", "05@Sunday 10:09 AM", "Int'l Ballroom Single Dance L-B1 Open Gold Int'l Tango", "???", "Zinshtein, Ronen and Rahardja, Sainah", "---"]
+["Heat", "658", "05@Sunday 10:11 AM", "Int'l Ballroom Single Dance L-B1 Open Gold Int'l Viennese Waltz", "???", "Zinshtein, Ronen and Rahardja, Sainah", "---"]
+["Heat", "659", "05@Sunday 10:12 AM", "Int'l Ballroom Single Dance L-B1 Open Gold Int'l Foxtrot", "???", "Zinshtein, Ronen and Rahardja, Sainah", "---"]
+["Heat", "660", "05@Sunday 10:13 AM", "Int'l Ballroom Single Dance L-B1 Open Gold Int'l Quickstep", "???", "Zinshtein, Ronen and Rahardja, Sainah", "---"]
+["Heat", "661", "05@Sunday 10:15 AM", "Int'l Ballroom Single Dance L-B2 Int. Gold Int'l Waltz", "???", "Zinshtein, Ronen and Larkin, Hallie", "---"]
+["Heat", "662", "05@Sunday 10:16 AM", "Int'l Ballroom Single Dance L-B2 Int. Gold Int'l Tango", "???", "Zinshtein, Ronen and Larkin, Hallie", "---"]
+["Heat", "663", "05@Sunday 10:17 AM", "Int'l Ballroom Single Dance L-B2 Int. Gold Int'l Viennese Waltz", "???", "Zinshtein, Ronen and Larkin, Hallie", "---"]
+["Heat", "664", "05@Sunday 10:19 AM", "Int'l Ballroom Single Dance L-B2 Int. Gold Int'l Foxtrot", "???", "Zinshtein, Ronen and Larkin, Hallie", "---"]
+["Heat", "665", "05@Sunday 10:20 AM", "Int'l Ballroom Single Dance L-B2 Int. Gold Int'l Quickstep", "???", "Zinshtein, Ronen and Larkin, Hallie", "---"]
+["Heat", "666", "05@Sunday 10:21 AM", "Int'l Ballroom Single Dance L-B2 Gold Star Int'l Waltz", "???", "Zinshtein, Ronen and Rabinow, Clare", "---"]
+["Heat", "667", "05@Sunday 10:23 AM", "Int'l Ballroom Single Dance L-B2 Gold Star Int'l Tango", "???", "Zinshtein, Ronen and Rabinow, Clare", "---"]
+["Heat", "668", "05@Sunday 10:24 AM", "Int'l Ballroom Single Dance L-B2 Gold Star Int'l Viennese Waltz", "???", "Zinshtein, Ronen and Rabinow, Clare", "---"]
+["Heat", "669", "05@Sunday 10:25 AM", "Int'l Ballroom Single Dance L-B2 Gold Star Int'l Foxtrot", "???", "Zinshtein, Ronen and Rabinow, Clare", "---"]
+["Heat", "670", "05@Sunday 10:27 AM", "Int'l Ballroom Single Dance L-B2 Gold Star Int'l Quickstep", "???", "Zinshtein, Ronen and Rabinow, Clare", "---"]
+["Heat", "674", "05@Sunday 11:07 AM", "Open Advanced 5-Dance Scholarship Events S1 Int'l Ballroom (W,T,VW,F,Q)", "???", "Zinshtein, Ronen and Rabinow, Clare", "---"]
+["Heat", "675", "05@Sunday 11:13 AM", "Open Advanced 5-Dance Scholarship Events C Int'l Ballroom (W,T,VW,F,Q)", "???", "Zinshtein, Ronen and Rahardja, Sainah", "---"]
+["Heat", "676", "05@Sunday 11:26 AM", "Closed Gold 5-Dance Scholarship Events S1 Int'l Ballroom (W,T,VW,F,Q)", "???", "Zinshtein, Ronen and Larkin, Hallie", "---"]
+["Heat", "582", "05@Sunday 7:27 AM", "Int'l Ballroom Single Dance L-B2 Newcomer II Int'l Waltz", "???", "Zinshtein, Ronen and Poorvu, Nancy", "---"]
+["Heat", "583", "05@Sunday 7:28 AM", "Int'l Ballroom Single Dance L-B2 Newcomer II Int'l Tango", "???", "Zinshtein, Ronen and Poorvu, Nancy", "---"]
+["Heat", "584", "05@Sunday 7:29 AM", "Int'l Ballroom Single Dance L-B2 Newcomer II Int'l Viennese Waltz", "???", "Zinshtein, Ronen and Poorvu, Nancy", "---"]
+["Heat", "586", "05@Sunday 7:32 AM", "Int'l Ballroom Single Dance L-B2 Newcomer II Int'l Quickstep", "???", "Zinshtein, Ronen and Poorvu, Nancy", "---"]
+["Heat", "592", "05@Sunday 7:40 AM", "Int'l Ballroom Single Dance L-B2 Newcomer I Int'l Waltz", "???", "Zinshtein, Ronen and Poorvu, Nancy", "---"]
+["Heat", "593", "05@Sunday 7:41 AM", "Int'l Ballroom Single Dance L-B2 Newcomer I Int'l Tango", "???", "Zinshtein, Ronen and Poorvu, Nancy", "---"]
+["Heat", "594", "05@Sunday 7:43 AM", "Int'l Ballroom Single Dance L-B2 Newcomer I Int'l Viennese Waltz", "???", "Zinshtein, Ronen and Poorvu, Nancy", "---"]
+["Heat", "596", "05@Sunday 7:45 AM", "Int'l Ballroom Single Dance L-B2 Newcomer I Int'l Quickstep", "???", "Zinshtein, Ronen and Poorvu, Nancy", "---"]
+["Heat", "607", "05@Sunday 8:18 AM", "Newcomer 3-Dance Events S1 Int'l Ballroom (W,T,Q)", "???", "Zinshtein, Ronen and Poorvu, Nancy", "---"]
+["Heat", "611", "05@Sunday 8:36 AM", "Newcomer Scholarship Events S1 Int'l Ballroom (W,T,Q)", "???", "Zinshtein, Ronen and Poorvu, Nancy", "---"]
+["Heat", "613", "05@Sunday 9:00 AM", "Int'l Ballroom Single Dance L-B2 Op. Advanced Int'l Waltz", "???", "Zinshtein, Ronen and Rabinow, Clare", "---"]
+["Heat", "614", "05@Sunday 9:01 AM", "Int'l Ballroom Single Dance L-B2 Op. Advanced Int'l Tango", "???", "Zinshtein, Ronen and Rabinow, Clare", "---"]
+["Heat", "615", "05@Sunday 9:02 AM", "Int'l Ballroom Single Dance L-B2 Op. Advanced Int'l Viennese Waltz", "???", "Zinshtein, Ronen and Rabinow, Clare", "---"]
+["Heat", "616", "05@Sunday 9:04 AM", "Int'l Ballroom Single Dance L-B2 Op. Advanced Int'l Foxtrot", "???", "Zinshtein, Ronen and Rabinow, Clare", "---"]
+["Heat", "617", "05@Sunday 9:05 AM", "Int'l Ballroom Single Dance L-B2 Op. Advanced Int'l Quickstep", "???", "Zinshtein, Ronen and Rabinow, Clare", "---"]
+["Heat", "618", "05@Sunday 9:07 AM", "Int'l Ballroom Single Dance L-C1 Gold Star Int'l Waltz", "???", "Zinshtein, Ronen and Zonce, Christine", "---"]
+["Heat", "619", "05@Sunday 9:08 AM", "Int'l Ballroom Single Dance L-C1 Gold Star Int'l Tango", "???", "Zinshtein, Ronen and Zonce, Christine", "---"]
+["Heat", "621", "05@Sunday 9:11 AM", "Int'l Ballroom Single Dance L-C1 Gold Star Int'l Foxtrot", "???", "Zinshtein, Ronen and Zonce, Christine", "---"]
+["Heat", "628", "05@Sunday 9:20 AM", "Int'l Ballroom Single Dance L-C1 Open Gold Int'l Waltz", "???", "Zinshtein, Ronen and Zonce, Christine", "---"]
+["Heat", "629", "05@Sunday 9:21 AM", "Int'l Ballroom Single Dance L-C1 Open Gold Int'l Tango", "???", "Zinshtein, Ronen and Zonce, Christine", "---"]
+["Heat", "631", "05@Sunday 9:24 AM", "Int'l Ballroom Single Dance L-C1 Open Gold Int'l Foxtrot", "???", "Zinshtein, Ronen and Zonce, Christine", "---"]
+["Heat", "632", "05@Sunday 9:25 AM", "Int'l Ballroom Single Dance L-C1 Open Gold Int'l Quickstep", "???", "Zinshtein, Ronen and Zonce, Christine", "---"]
+["Heat", "646", "05@Sunday 9:54 AM", "Int'l Ballroom Single Dance L-B1 Full Gold Int'l Waltz", "???", "Zinshtein, Ronen and Rahardja, Sainah", "---"]
+["Heat", "647", "05@Sunday 9:56 AM", "Int'l Ballroom Single Dance L-B1 Full Gold Int'l Tango", "???", "Zinshtein, Ronen and Rahardja, Sainah", "---"]
+["Heat", "648", "05@Sunday 9:57 AM", "Int'l Ballroom Single Dance L-B1 Full Gold Int'l Viennese Waltz", "???", "Zinshtein, Ronen and Rahardja, Sainah", "---"]
+["Heat", "649", "05@Sunday 9:58 AM", "Int'l Ballroom Single Dance L-B1 Full Gold Int'l Foxtrot", "???", "Zinshtein, Ronen and Rahardja, Sainah", "---"]
+Dancer:Zonce, Christine:61:Heats:10
+["Heat", "651", "05@Sunday 10:01 AM", "Int'l Ballroom Single Dance L-C1 Op. Advanced Int'l Waltz", "???", "Zonce, Christine and Zinshtein, Ronen", "---"]
+["Heat", "652", "05@Sunday 10:02 AM", "Int'l Ballroom Single Dance L-C1 Op. Advanced Int'l Tango", "???", "Zonce, Christine and Zinshtein, Ronen", "---"]
+["Heat", "654", "05@Sunday 10:05 AM", "Int'l Ballroom Single Dance L-C1 Op. Advanced Int'l Foxtrot", "???", "Zonce, Christine and Zinshtein, Ronen", "---"]
+["Heat", "618", "05@Sunday 9:07 AM", "Int'l Ballroom Single Dance L-C1 Gold Star Int'l Waltz", "???", "Zonce, Christine and Zinshtein, Ronen", "---"]
+["Heat", "619", "05@Sunday 9:08 AM", "Int'l Ballroom Single Dance L-C1 Gold Star Int'l Tango", "???", "Zonce, Christine and Zinshtein, Ronen", "---"]
+["Heat", "621", "05@Sunday 9:11 AM", "Int'l Ballroom Single Dance L-C1 Gold Star Int'l Foxtrot", "???", "Zonce, Christine and Zinshtein, Ronen", "---"]
+["Heat", "628", "05@Sunday 9:20 AM", "Int'l Ballroom Single Dance L-C1 Open Gold Int'l Waltz", "???", "Zonce, Christine and Zinshtein, Ronen", "---"]
+["Heat", "629", "05@Sunday 9:21 AM", "Int'l Ballroom Single Dance L-C1 Open Gold Int'l Tango", "???", "Zonce, Christine and Zinshtein, Ronen", "---"]
+["Heat", "631", "05@Sunday 9:24 AM", "Int'l Ballroom Single Dance L-C1 Open Gold Int'l Foxtrot", "???", "Zonce, Christine and Zinshtein, Ronen", "---"]
+["Heat", "632", "05@Sunday 9:25 AM", "Int'l Ballroom Single Dance L-C1 Open Gold Int'l Quickstep", "???", "Zonce, Christine and Zinshtein, Ronen", "---"]
+Dancer:Zubrowska Di Brino, Bianka:377:Heats:1
+["Pro heat", "5", "02@Friday 10:22 PM", "Professional Open Events Int'l Ballroom (W,T,VW,F,Q)", "???", "Zubrowska Di Brino, Bianka and Di Brino, Stefano", "---"]
+Dancer:Zvenigorodsky, Sophia:690:Heats:9
+["Heat", "749", "06@Sunday 3:25 PM", "YH Int'l Latin Single Dance AC-P1 PreBronze Int'l Cha Cha", "???", "Zvenigorodsky, Sophia and Shi, Lucas", "---"]
+["Heat", "750", "06@Sunday 3:26 PM", "YH Int'l Latin Single Dance AC-P1 PreBronze Int'l Samba", "???", "Zvenigorodsky, Sophia and Shi, Lucas", "---"]
+["Heat", "751", "06@Sunday 3:27 PM", "YH Int'l Latin Single Dance AC-P1 PreBronze Int'l Rumba", "???", "Zvenigorodsky, Sophia and Shi, Lucas", "---"]
+["Heat", "752", "06@Sunday 3:29 PM", "YH Int'l Latin Single Dance AC-P1 PreBronze Int'l Jive", "???", "Zvenigorodsky, Sophia and Shi, Lucas", "---"]
+["Heat", "783", "06@Sunday 4:36 PM", "YH Int'l Latin Single Dance AC-P1 Closed Bronze Int'l Cha Cha", "???", "Zvenigorodsky, Sophia and Shi, Lucas", "---"]
+["Heat", "784", "06@Sunday 4:37 PM", "YH Int'l Latin Single Dance AC-P1 Closed Bronze Int'l Samba", "???", "Zvenigorodsky, Sophia and Shi, Lucas", "---"]
+["Heat", "785", "06@Sunday 4:39 PM", "YH Int'l Latin Single Dance AC-P1 Closed Bronze Int'l Rumba", "???", "Zvenigorodsky, Sophia and Shi, Lucas", "---"]
+["Heat", "786", "06@Sunday 4:40 PM", "YH Int'l Latin Single Dance AC-P1 Closed Bronze Int'l Jive", "???", "Zvenigorodsky, Sophia and Shi, Lucas", "---"]
+["Heat", "809", "06@Sunday 5:27 PM", "Youth Amateur 3-Dance Events Closed Bronze P1 Int'l Latin (CC,R,J)", "???", "Zvenigorodsky, Sophia and Shi, Lucas", "---"]
