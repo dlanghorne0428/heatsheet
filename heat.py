@@ -254,8 +254,15 @@ class Heat_Report():
     def __init__(self):
         self.entries = list()
         
-    def append(self, h):
-        self.entries.append(h)
+    def append(self, h, remove_duplicates=True):
+        if remove_duplicates:
+            for e in self.entries:
+                if e.shirt_number == h.shirt_number:
+                    break
+            else:
+                self.entries.append(h)
+        else:
+            self.entries.append(h)
         
     def sort(self):
         self.entries.sort()

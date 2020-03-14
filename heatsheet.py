@@ -960,44 +960,6 @@ class HelloFrame(wx.Frame):
         return order[index]       
             
 
-    def OnCompProHeats(self, event):
-        '''This method generates a mini-program for all the pro heats.'''
-        self.list_ctrl.DeleteAllItems()
-        self.report_title = "All Pro Heats"
-        self.heat_type = "Pro"     
-                     
-        # for each pro heat, find the couples and populate the GUI
-        for num in range(1, self.heatlist.max_pro_heat_num + 1):
-            if type(self.heatlist) is CompMngrHeatlist:
-                h = CompMngrHeat(category="Pro heat", number=num)
-            elif type(self.heatlist) is CompOrgHeat:
-                h = CompOrgHeat(category="Pro heat", number=num)
-            else:
-                h = NdcaPremHeat(category="Pro heat", number=num)
-                                
-            competitors = self.heatlist.list_of_couples_in_heat(h)
-            if len(competitors) > 0:
-                h.info = competitors[0][3]  
-                self.current_couples_list = self.load_ranking_file_for_heat(h)
-                
-                for c in competitors:
-                    couple_name = c[5]
-                    new_couple_name = self.FindMatchingCouple(couple_name, self.heat_type)  
-                    c[5] = new_couple_name
-                    self.list_ctrl.Append(c)
-                self.list_ctrl.Append(dummy_heat_info())
-                
-        # enable the buttons that process the results and get rankings
-        self.butt_rslt.Enable()
-        self.butt_rslt_url.Enable()
-        self.butt_rslt_ndca.Enable()
-        self.butt_rslt_co.Enable()
-        self.butt_rank.Enable()
-        
-        # save list of instructors
-        self.instructors.save_to_file("./data/" + str(self.curr_date.year) + "/Rankings/professionals.txt")
- 
- 
     def Create_New_ProAm_Couple(self, couple_name, heat_type):
         leader = get_name(couple_name)
         follower = get_name(couple_name, False) 
@@ -1034,6 +996,36 @@ class HelloFrame(wx.Frame):
                 student_name = self.Find_Name_From_Database(student_name, dancer_type=Dancer_Type.JUNIOR_STUDENT)        
 
         return student_name + " and " + instructor_name
+
+
+    def Create_New_Amateur_Couple(self, couple_name, heat_type):
+        if heat_type == "Amateur":
+            database_names = self.adult_amateurs.names
+            dancer_type = Dancer_Type.ADULT_AMATEUR
+        else:
+            database_names = self.junior_amateurs.names
+            dancer_type = Dancer_Type.JUNIOR_AMATEUR
+            
+        leader = get_name(couple_name)
+        follower = get_name(couple_name, False) 
+        
+        if leader not in database_names:
+            leader = self.Find_Name_From_Database(leader, dancer_type)
+        if follower not in database_names:
+            follower = self.Find_Name_From_Database(follower, dancer_type)
+            
+        order = list()
+        order.append(leader + " and " + follower)
+        order.append(follower + " and " + leader)
+        # determine who is the leader of this couple
+        message = "Select the leader/follower order of this couple and Press OK. If no match, Press Cancel."
+        md = wx.SingleChoiceDialog(self, message, caption="Who's the leader?", choices=order, 
+                                   style=wx.DEFAULT_DIALOG_STYLE | wx.RESIZE_BORDER | wx.OK | wx.CENTRE) 
+        if md.ShowModal() == wx.ID_OK:
+            index = md.GetSelection()
+        else:
+            index = 0
+        return order[index] 
     
     
     def FindMatchingCouple(self, couple_name, heat_type):
@@ -1080,41 +1072,64 @@ class HelloFrame(wx.Frame):
         else:
             return alias_couple        
  
- 
-    def FindProAmMultiDances(self):
+        
+    def is_matching_heat(self, e):
+        if self.heat_type in ["Amateur", "Jr.Amateur"]:
+            return e.multi_dance() and e.amateur_heat()
+        elif self.heat_type in ["Pro-Am", "Jr.Pro-Am"]:
+            return e.multi_dance() and not e.amateur_heat()
+        elif self.heat_type == "Pro":
+            return True
+        else:
+            return False 
+
+
+    def find_matching_heats(self):
         '''This method generates a mini-program for all the pro/am multi-dance heats.'''
         self.list_ctrl.DeleteAllItems()
-        self.report_title = "All Pro-Am Multi Dance Heats"
         
-        # for each non-pro multi-dance heat, find the couples and populate the GUI
-        for num in self.heatlist.multi_dance_heat_numbers:
+        # range of heat numbers depend on heat type
+        if self.heat_type == "Pro":
+            heat_range = range(1, self.heatlist.max_pro_heat_num + 1)
+            heat_category = "Pro heat"
+        else:
+            heat_range = self.heatlist.multi_dance_heat_numbers
+            heat_category = "Heat"
+            
+        # do not include entries with the same shirt number
+        remove_duplicates = True   
+        
+        # for each heat in range, find the couples and populate the GUI
+        for num in heat_range:
             if type(self.heatlist) is CompMngrHeatlist:
-                h = CompMngrHeat(category="Heat", number=num)
-            elif type(self.heatlist) is CompOrgHeat:
-                h = CompOrgHeat(category="Heat", number=num)
+                h = CompMngrHeat(category=heat_category, number=num)
+            elif type(self.heatlist) is CompOrgHeatlist:
+                h = CompOrgHeat(category=heat_category, number=num)
+            elif type(self.heatlist) is NdcaPremHeatlist:
+                h = NdcaPremHeat(category=heat_category, number=num)
+                remove_duplicates = False   # Ndca Premier does not include shirt numbers in their heatlist
             else:
-                h = NdcaPremHeat(category="Heat", number=num)
+                h = Heat()
+                h.set_category(heat_category)
+                h.heat_number = num
                 
-            #competitors = self.heatlist.list_of_couples_in_heat(h, sortby="info")                   
-            #if len(competitors) > 0:
-            report = self.heatlist.build_heat_report(h, sorted=True, heat_type=self.heat_type)
+            report = self.heatlist.build_heat_report(h, sorted=True, heat_type=self.heat_type, 
+                                                     remove_duplicates=remove_duplicates)
             if report.length() > 0:
                 multi_dance_entry_found = False
                 self.current_couples_list = self.load_ranking_file_for_heat(report.entry())
-                
                 for index in range(report.length()):
                     e = report.entry(index)
                     couple_name = e.dancer + " and " + e.partner
-                    if e.multi_dance() and not e.amateur_heat(): 
+                    if self.is_matching_heat(e): 
                         multi_dance_entry_found = True
-                        
-                        #self.current_couples_list = self.load_ranking_file_for_heat(e)
                         new_couple_name = self.FindMatchingCouple(couple_name, self.heat_type)
-                        
                         info_list = e.info_list()
                         info_list[5] = new_couple_name
                         self.list_ctrl.Append(info_list)
-                if multi_dance_entry_found:
+                
+                # put a blank line between heats, pro cabaret is not multi dance        
+                if self.heat_type == "Pro" or multi_dance_entry_found:
                     self.list_ctrl.Append(dummy_heat_info())
                 
         # enable the buttons that process the results and get rankings
@@ -1122,95 +1137,40 @@ class HelloFrame(wx.Frame):
         self.butt_rslt_url.Enable()
         self.butt_rslt_ndca.Enable()
         self.butt_rslt_co.Enable()
-        #self.butt_rank.Enable() 
-        
-        
+        if self.heat_type == "Pro":
+            self.butt_rank.Enable() 
+            self.instructors.save_to_file("./data/" + str(self.curr_date.year) + "/Rankings/professionals.txt") 
+ 
+ 
+    def OnCompProHeats(self, event):
+        '''This method generates a mini-program for all the pro heats.'''
+        self.report_title = "All Pro Heats"
+        self.heat_type = "Pro"     
+        self.find_matching_heats()
+
+            
     def OnAdultProAmMultiDances(self, event):
         self.heat_type = "Pro-Am"
-        self.FindProAmMultiDances()
+        self.report_title = "All Pro-Am Multi Dance Heats"
+        self.find_matching_heats()
         
  
     def OnJuniorProAmMultiDances(self, event):
         self.heat_type = "Jr.Pro-Am"
-        self.FindProAmMultiDances()
-        
-        
-    def Create_New_Amateur_Couple(self, couple_name, heat_type):
-        if heat_type == "Amateur":
-            database_names = self.adult_amateurs.names
-            dancer_type = Dancer_Type.ADULT_AMATEUR
-        else:
-            database_names = self.junior_amateurs.names
-            dancer_type = Dancer_Type.JUNIOR_AMATEUR
-            
-        leader = get_name(couple_name)
-        follower = get_name(couple_name, False) 
-        
-        if leader not in database_names:
-            leader = self.Find_Name_From_Database(leader, dancer_type)
-        if follower not in database_names:
-            follower = self.Find_Name_From_Database(follower, dancer_type)
-            
-        order = list()
-        order.append(leader + " and " + follower)
-        order.append(follower + " and " + leader)
-        # determine who is the leader of this couple
-        message = "Select the leader/follower order of this couple and Press OK. If no match, Press Cancel."
-        md = wx.SingleChoiceDialog(self, message, caption="Who's the leader?", choices=order, 
-                                   style=wx.DEFAULT_DIALOG_STYLE | wx.RESIZE_BORDER | wx.OK | wx.CENTRE) 
-        if md.ShowModal() == wx.ID_OK:
-            index = md.GetSelection()
-        else:
-            index = 0
-        return order[index]    
-        
-    
-    def FindAmAmMultiDances(self):
-        '''This method generates a mini-program for all the amateur multi-dance heats.'''
-        self.list_ctrl.DeleteAllItems()
-        self.report_title = "All Amateur Multi Dance Heats"
-        
-        # for each amateur multi-dance heat, find the couples and populate the GUI
-        for num in self.heatlist.multi_dance_heat_numbers:
-            if type(self.heatlist) is CompMngrHeatlist:
-                h = CompMngrHeat(category="Heat", number=num)
-            elif type(self.heatlist) is CompOrgHeat:
-                h = CompOrgHeat(category="Heat", number=num)
-            else:
-                h = NdcaPremHeat(category="Heat", number=num)
-                
-            report = self.heatlist.build_heat_report(h, sorted=True, heat_type=self.heat_type)
-            if report.length() > 0:
-                multi_dance_entry_found = False
-                self.current_couples_list = self.load_ranking_file_for_heat(report.entry())
-                for index in range(report.length()):
-                    e = report.entry(index)
-                    couple_name = e.dancer + " and " + e.partner
-                    if e.multi_dance() and e.amateur_heat(): 
-                        multi_dance_entry_found = True
-                        new_couple_name = self.FindMatchingCouple(couple_name, self.heat_type)
-                        info_list = e.info_list()
-                        info_list[5] = new_couple_name                  
-                        self.list_ctrl.Append(info_list)
-
-                if multi_dance_entry_found:
-                    self.list_ctrl.Append(dummy_heat_info())
-                    
-        # enable the buttons that process the results and get rankings
-        self.butt_rslt.Enable()
-        self.butt_rslt_url.Enable()
-        self.butt_rslt_ndca.Enable()
-        self.butt_rslt_co.Enable()
-        
+        self.report_title = "All Junior Pro-Am Multi Dance Heats"
+        self.find_matching_heats()       
+ 
  
     def OnAdultAmAmMultiDances(self, event):
         self.heat_type = "Amateur"
-        self.FindAmAmMultiDances()
+        self.report_title = "All Amateur Multi Dance Heats"
+        self.find_matching_heats()
         
  
     def OnJuniorAmAmMultiDances(self, event):
         self.heat_type = "Jr.Amateur"
-        self.FindAmAmMultiDances() 
+        self.report_title = "All Junior Amateur Multi Dance Heats"
+        self.find_matching_heats()
         
     
     def ChangeColumnTitle(self, col_index, title):
@@ -1279,19 +1239,22 @@ class HelloFrame(wx.Frame):
     
     def Process_Result(self, num):
         Results_Column = 6 
+        remove_duplicates = True
         if type(self.heatlist) is CompMngrHeatlist:
             h = CompMngrHeat(category=self.heat_category, number=num)
         elif type(self.heatlist) is CompOrgHeatlist:
             h = CompOrgHeat(category=self.heat_category, number=num)
         elif type(self.heatlist) is NdcaPremHeatlist:
             h = NdcaPremHeat(category=self.heat_category, number=num) 
+            remove_duplicates = False
         else:
             h = Heat()
             h.category = self.heat_category
             h.heat_number = num
             
         # get a heat report with the entries from the heatlist
-        report = self.heatlist.build_heat_report(h, sorted=True, heat_type=self.heat_type)   
+        report = self.heatlist.build_heat_report(h, sorted=True, heat_type=self.heat_type, 
+                                                 remove_duplicates=remove_duplicates)   
         
         if report.length() > 0:
             
@@ -1532,17 +1495,24 @@ class HelloFrame(wx.Frame):
             self.heat_numbers = self.heatlist.multi_dance_heat_numbers
             self.heat_category = "Heat"
 
+        remove_duplicates = True
         # loop through all the pro heats
         for num in self.heat_numbers:
             if type(self.heatlist) is CompMngrHeatlist:
                 h = CompMngrHeat(category=self.heat_category, number=num)
-            elif type(self.heatlist) is CompOrgHeat:
+            elif type(self.heatlist) is CompOrgHeatlist:
                 h = CompOrgHeat(category=self.heat_category, number=num)
-            else: 
+            elif type(self.heatlist) is NdcaPremHeatlist:
                 h = NdcaPremHeat(category=self.heat_category, number=num)  
+                remove_duplicates = False
+            else:
+                h = Heat()
+                h.set_category(heat_category)
+                h.heat_number = num
             
             # get a heat report with the entries from the heatlist
-            report = self.heatlist.build_heat_report(h, sorted=True)
+            report = self.heatlist.build_heat_report(h, sorted=True, heat_type=self.heat_type, 
+                                                     remove_duplicates=remove_duplicates)
             if report.length() > 0:
                 
                 # find the style of this heat and sort the appropriate ranking database

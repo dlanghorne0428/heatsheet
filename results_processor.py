@@ -149,12 +149,21 @@ class Results_Processor():
             elif looking_for_recall_column:
                 if "<tr>" in line:
                     count = 0
+                # this should only be true on sheets that don't identify the semi-final heat
+                elif "<td>" in line and "Result" in line:
+                    looking_for_recall_column = False
+                    result = "Finals"
                 elif "<td>" in line and "Recall" in line:
                     recall_column = count
                     accum_column = recall_column - 1
                     looking_for_eliminations = True
                     looking_for_recall_column = False
                     count = 0
+                    if rounds =="F":
+                        temp_result = "Semis"
+                        result_index = -2
+                        rounds = "S"     
+                        print("Found Semis unexpectedly")
                 elif "<td>" in line:
                     count += 1
             
@@ -197,12 +206,14 @@ class Results_Processor():
                                         # If the couple was not recalled, their result is the round 
                                         # in which they were eliminated
                                         e.result = temp_result
+                                        #print("New elimination:", e.dancer, e.partner, e.result)
                                                            
                                         # Lookup their points, and exit the loop 
                                         e.points = calc_points(level, result_index, rounds=rounds, accum=accum)
                                         break
                                     
                                     elif e.result == temp_result:
+                                        #print("Already eliminated:", e.dancer, e.partner)
                                         break                                
                                     else:
                                         print(e.heat_number, "Same name - skipping:", e.dancer, e.partner, e.result, couple_names, result_index, accum)                                  
@@ -219,6 +230,7 @@ class Results_Processor():
                                 late_entry.info = heat_info_from_scoresheet
                                 late_entry.result = temp_result
                                 late_entry.points = calc_points(level, result_index, rounds=rounds, accum=accum)
+                                print("Late Entry Eliminated:", e.dancer, e.partner, e.result)
                                 
                                 # Add that structure back to the heat report to show it on the GUI.
                                 # Use the code field to indicate that this was a late entry.
@@ -261,8 +273,10 @@ class Results_Processor():
                             if e.shirt_number == shirt_number:
                                 if e.result is None:
                                     e.result = result_place
+                                    #print("New result:", e.dancer, e.partner, e.result)
                                     break
                                 elif e.result == result_place:
+                                    #print("Same result:", e.dancer, e.partner, e.result)
                                     break
                                 else:
                                     print(e.heat_number, "Same name - skipping:", e.dancer, e.partner, e.result, couple_names, result_place)
@@ -336,11 +350,13 @@ class Results_Processor():
             
             # If this check is true, we found the Final results for this heat
             elif heat_string in line and ("<p>" in line or "<h3>" in line):   # and "Final" in line:
-                result = "Finals"
                 heat_info_from_scoresheet = self.get_heat_info(line, heat_string, "Final")                
                 # if this is a single dance event, we can look for the results now
                 if event == "Single Dance":
+                    result = "Finals"
                     looking_for_result_column = True
+                else:
+                    looking_for_recall_column = True  # this may not be the final on some websites
                     
             # If this is the Final of a Multi-Dance event, we process the Final Summary
             elif result == "Finals" and "Final summary" in line and ("<p>" in line or "<h3>" in line):
@@ -364,6 +380,7 @@ class Results_Processor():
             if entry.result is None:
                 # get the scoresheet for this entry and process it
                 self.response = self.get_scoresheet(entry)
+                print("Reading Scoresheet for heat:", entry.heat_number, entry.dancer)
                 result = self.process_response(heat_report, entry)
                 
         if sorted:
