@@ -117,25 +117,25 @@ class Heatlist():
     
     # given a heat, this method returns a heat report, which is a list of 
     # all entries in the heat. This list can optionally be sorted by shirt number
-    def build_heat_report(self, heat, sorted=False, heat_type="pro"):
+    def build_heat_report(self, heat, sorted=False, heat_type="pro", remove_duplicates=True):
         report = Heat_Report()
         for c in self.couples:
             for ht in c.heats:
                 if heat == ht:
                     if heat_type == "Amateur":
                         if ht.multi_dance() and ht.amateur_heat() and not ht.junior_heat():
-                            report.append(ht)
+                            report.append(ht, remove_duplicates=remove_duplicates)
                     elif heat_type == "Jr.Amateur":
                         if ht.multi_dance() and ht.amateur_heat() and ht.junior_heat():
-                            report.append(ht)                    
+                            report.append(ht, remove_duplicates=remove_duplicates)                    
                     elif heat_type == "Pro-Am":
                         if ht.multi_dance() and not ht.amateur_heat() and not ht.junior_heat():
-                            report.append(ht)   
+                            report.append(ht, remove_duplicates=remove_duplicates)   
                     elif heat_type == "Jr.Pro-Am":
                         if ht.multi_dance() and not ht.amateur_heat() and ht.junior_heat():
-                            report.append(ht)                       
+                            report.append(ht, remove_duplicates=remove_duplicates)                       
                     else:  # pro heat
-                        report.append(ht)
+                        report.append(ht, remove_duplicates=remove_duplicates)
         if sorted:
             report.sort()
         return report
