@@ -97,16 +97,11 @@ class HelloFrame(wx.Frame):
         self.Bind(wx.EVT_BUTTON, self.OnSaveAs, self.butt_save)
         
         # Create a label for grabbing the results
-        st_rslt = wx.StaticText(pnl, label="Rankings/Results", pos=(825, 30))
+        st_rslt = wx.StaticText(pnl, label="Results", pos=(835, 55))
         st_rslt.SetFont(font)
-    
-        # Create a button to get the rankings
-        self.butt_rank = wx.Button(pnl, label="Get Rankings", pos=(825, 60))
-        self.Bind(wx.EVT_BUTTON, self.OnGetRankings, self.butt_rank)  
-
 
         # Create a button to get the results from a file
-        self.butt_rslt = wx.Button(pnl, label="Get Results", pos=(825, 85))
+        self.butt_rslt = wx.Button(pnl, label="Get Results From File", pos=(825, 85))
         self.Bind(wx.EVT_BUTTON, self.OnGetResults, self.butt_rslt)  
         
         # Create a button to get the results from a Comp_Mngr URL
@@ -132,7 +127,7 @@ class HelloFrame(wx.Frame):
         self.list_ctrl.AppendColumn("Info", format=wx.LIST_FORMAT_LEFT, width=288)
         self.list_ctrl.AppendColumn("Shirt #", format=wx.LIST_FORMAT_CENTER, width=60)      
         self.list_ctrl.AppendColumn("Dancers", format=wx.LIST_FORMAT_LEFT, width=288)
-        self.list_ctrl.AppendColumn("Results", format=wx.LIST_FORMAT_CENTER, width=72)
+        self.list_ctrl.AppendColumn("Rankings", format=wx.LIST_FORMAT_LEFT, width=72)
 
         # create a menu bar
         self.makeMenuBar()
@@ -355,7 +350,7 @@ class HelloFrame(wx.Frame):
         self.butt_rslt_url.Disable()
         self.butt_rslt_co.Disable()
         self.butt_rslt_ndca.Disable()
-        self.butt_rank.Disable()
+#        self.butt_rank.Disable()
         self.heat_cat.Clear()
         self.heat_selection.SetMax(1)
         self.list_ctrl.DeleteAllItems()
@@ -1084,9 +1079,26 @@ class HelloFrame(wx.Frame):
             return False 
 
 
+    def ranking_for_couple(self, couple_names):
+        self.current_couples_list.sort_couples(key1="avg_pts", key2="total_pts", reverse=True)
+        index = self.current_couples_list.find_couple(couple_names)
+        if index > -1:
+            c = self.current_couples_list.get_couple_at_index(index)
+            # get the ranking for the couple, which may include ties.
+            rank = self.current_couples_list.find_highest_rank(index)
+            rank += " (" + str(c["avg_pts"]) + ")"
+        else:
+            # couple not found in the ranking database
+            rank = "Unknown"    
+        return rank
+    
+
     def find_matching_heats(self):
         '''This method generates a mini-program for all the pro/am multi-dance heats.'''
         self.list_ctrl.DeleteAllItems()
+        
+        Results_Column = 6   # this should be based on the list_ctrl layout somehow
+        self.ChangeColumnTitle(Results_Column, "Rankings")        
         
         # range of heat numbers depend on heat type
         if self.heat_type == "Pro":
@@ -1126,6 +1138,7 @@ class HelloFrame(wx.Frame):
                         new_couple_name = self.FindMatchingCouple(couple_name, self.heat_type)
                         info_list = e.info_list()
                         info_list[5] = new_couple_name
+                        info_list[6] = self.ranking_for_couple(new_couple_name)
                         self.list_ctrl.Append(info_list)
                 
                 # put a blank line between heats, pro cabaret is not multi dance        
@@ -1137,8 +1150,8 @@ class HelloFrame(wx.Frame):
         self.butt_rslt_url.Enable()
         self.butt_rslt_ndca.Enable()
         self.butt_rslt_co.Enable()
+#        self.butt_rank.Enable() 
         if self.heat_type == "Pro":
-            self.butt_rank.Enable() 
             self.instructors.save_to_file("./data/" + str(self.curr_date.year) + "/Rankings/professionals.txt") 
  
  
@@ -1435,128 +1448,7 @@ class HelloFrame(wx.Frame):
                 output_filename = fd.GetPath()
                 self.ProcessScoresheet(url, output_filename)
             
-
-    def find_matching_couple_in_ranking(self, c):
-        '''
-        This method attempts to find the couple in the current ranking database.
-        If found, the entry index of the couple is returned.
-        If not found, -1 is returned.
-        '''
-        index = -1
-        attempt = 0
-        while index == -1:
-            attempt += 1
-            if attempt == 1:
-                couple_names = c.dancer + " and " + c.partner
-                index = self.current_couples.find_couple(couple_names)
-            elif attempt == 2:
-                couple_names = c.partner + " and " +  c.dancer
-                index = self.current_couples.find_couple(couple_names)
-            elif attempt == 3:
-                couple_names = c.dancer + " and " + c.partner
-                index = self.current_couples.find_couple_by_dancer(couple_names, last_name_only=True)
-            elif attempt == 4:
-                index = self.current_couples.find_couple_by_partner(couple_names, last_name_only=True)            
-            elif attempt == 5:
-                couple_names = c.partner + " and " + c.dancer
-                index = self.current_couples.find_couple_by_dancer(couple_names, last_name_only=True)
-            elif attempt == 6:
-                index = self.current_couples.find_couple_by_partner(couple_names, last_name_only=True)    
-            else:
-                break
         
-        return index
-    
-    
-    def OnGetRankings(self, event):
-        ''' 
-        This method populates the list control in the GUI with the ranking values
-        of the current couples in all the pro heats.
-        '''
-        Name_Column = 5
-        Ranking_Column = 6  
-        self.ChangeColumnTitle(Ranking_Column, "Ranking")
-        item_index = 0
-        
-        folder_name = "./data/" + str(self.curr_date.year) + "/Rankings/" + self.heat_type
-        
-        # open the five ranking files
-        self.smooth_couples = RankingDataFile(folder_name + "/smooth_rankings.json")
-        self.rhythm_couples = RankingDataFile(folder_name + "/rhythm_rankings.json")
-        self.standard_couples = RankingDataFile(folder_name + "/standard_rankings.json")
-        self.latin_couples = RankingDataFile(folder_name + "/latin_rankings.json")
-        self.nightclub_couples = RankingDataFile(folder_name + "/nightclub_rankings.json")
-        self.showdance_couples = RankingDataFile(folder_name + "/cabaret_showdance_rankings.json")         
-
-        if self.heat_type == "Pro":
-            self.heat_numbers = range(1, self.heatlist.max_pro_heat_num + 1)
-            self.heat_category = "Pro heat"            
-        else:
-            self.heat_numbers = self.heatlist.multi_dance_heat_numbers
-            self.heat_category = "Heat"
-
-        remove_duplicates = True
-        # loop through all the pro heats
-        for num in self.heat_numbers:
-            if type(self.heatlist) is CompMngrHeatlist:
-                h = CompMngrHeat(category=self.heat_category, number=num)
-            elif type(self.heatlist) is CompOrgHeatlist:
-                h = CompOrgHeat(category=self.heat_category, number=num)
-            elif type(self.heatlist) is NdcaPremHeatlist:
-                h = NdcaPremHeat(category=self.heat_category, number=num)  
-                remove_duplicates = False
-            else:
-                h = Heat()
-                h.set_category(heat_category)
-                h.heat_number = num
-            
-            # get a heat report with the entries from the heatlist
-            report = self.heatlist.build_heat_report(h, sorted=True, heat_type=self.heat_type, 
-                                                     remove_duplicates=remove_duplicates)
-            if report.length() > 0:
-                
-                # find the style of this heat and sort the appropriate ranking database
-                style = dance_style(report.description())
-                if "Smooth" == style:
-                    self.current_couples = self.smooth_couples
-                elif "Rhythm" == style:
-                    self.current_couples = self.rhythm_couples
-                elif "Latin" == style:
-                    self.current_couples = self.latin_couples
-                elif "Standard" == style:
-                    self.current_couples = self.standard_couples   
-                elif "Nightclub" == style:
-                    self.current_couples = self.nightclub_couples                      
-                else:
-                    self.current_couples = self.showdance_couples
-                    
-                self.current_couples.sort_couples(key1="avg_pts", key2="total_pts", reverse=True)
-                
-                # for each entry in the current heat
-                for i in range(report.length()):
-                    e = report.entry(i)
-                    # find the couple in the database and get the name as stored in the database
-                    rank = "0"
-                    index = self.find_matching_couple_in_ranking(e)
-                    if index > -1:
-                        db_name = self.current_couples.get_name_at_index(index)
-                        # get the ranking for the couple, which may include ties.
-                        rank = self.current_couples.find_highest_rank(index)
-                    if rank == "0":
-                        # couple not found in the ranking database
-                        self.list_ctrl.SetItem(item_index, Ranking_Column, "Unknown")
-                    else:
-                        # update the couple name in the heatlist for future use
-                        c = self.heatlist.find_couple(e.dancer + " and " + e.partner)
-                        if c is not None and c.pair_name != db_name:
-                            c.update_names(db_name)
-                        # update the ranking and the couple name in the GUI
-                        self.list_ctrl.SetItem(item_index, Ranking_Column, rank)
-                        self.list_ctrl.SetItem(item_index, Name_Column, db_name)
-                    item_index += 1
-                item_index += 1
-                
-    
     def OnRescoreComp(self, event):
         '''This method rescores the competition results in the selected file.'''
         fd = wx.FileDialog(self, "Open a Results File", self.folder_name, "./data/" + str(self.curr_date.year) + "/Comps")
