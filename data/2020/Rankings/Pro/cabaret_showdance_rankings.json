@@ -39,6 +39,19 @@
     "avg_pts": 18.0
   },
   {
+    "name": "Pilipenchuk, Nikolai and Hudson, Sarika",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "'Your're The One That I Want'",
+        "place": "1",
+        "points": 18.0
+      }
+    ],
+    "total_pts": 18.0,
+    "avg_pts": 18.0
+  },
+  {
     "name": "Jensen, Shane and Jensen, Shannon",
     "results": [
       {
@@ -52,10 +65,16 @@
         "info": "Professional Cabaret",
         "place": "1",
         "points": 18.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "'Unsteady'",
+        "place": "1",
+        "points": 18.0
       }
     ],
-    "total_pts": 33.0,
-    "avg_pts": 16.5
+    "total_pts": 51.0,
+    "avg_pts": 17.0
   },
   {
     "name": "Kudashev, Ivan and Sokolova, Ksusha",
@@ -127,31 +146,6 @@
     "avg_pts": 15.8
   },
   {
-    "name": "Smith, Craig and Harvey, Andrea",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "info": "Professional Cabaret",
-        "place": "3",
-        "points": 7.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "Professional Theater Arts/Cabaret",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "Open Professional Cabaret/Exhibition Championship",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 46.5,
-    "avg_pts": 15.5
-  },
-  {
     "name": "Batih, Nazar and Cantley, Mariko",
     "results": [
       {
@@ -184,6 +178,37 @@
     "avg_pts": 15.0
   },
   {
+    "name": "Smith, Craig and Harvey, Andrea",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "info": "Professional Cabaret",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Professional Theater Arts/Cabaret",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "Open Professional Cabaret/Exhibition Championship",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "'Falling'",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 58.5,
+    "avg_pts": 14.62
+  },
+  {
     "name": "Lockhart, Ryan and Newman, Danelle",
     "results": [
       {
@@ -207,6 +232,19 @@
     ],
     "total_pts": 37.5,
     "avg_pts": 12.5
+  },
+  {
+    "name": "Falcon, Alejandro and Falcon, Lucelia",
+    "results": [
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "Professional Cabaret Solo\r",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
   },
   {
     "name": "Nunez, Antonio and Kashkina, Ksenia",
@@ -235,11 +273,11 @@
     "avg_pts": 12.0
   },
   {
-    "name": "Tsorokean, Alyenendrov and Tsorokean, Maria",
+    "name": "Puzhevich, Igor and Puzhevich, Anastasia",
     "results": [
       {
-        "comp_name": "Florida Superstars",
-        "info": "Professional Cabaret",
+        "comp_name": "2020 First Coast Classic",
+        "info": "'Money'",
         "place": "2",
         "points": 12.0
       }
@@ -248,11 +286,11 @@
     "avg_pts": 12.0
   },
   {
-    "name": "Falcon, Alejandro and Falcon, Lucelia",
+    "name": "Tsorokean, Alyenendrov and Tsorokean, Maria",
     "results": [
       {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "Professional Cabaret Solo\r",
+        "comp_name": "Florida Superstars",
+        "info": "Professional Cabaret",
         "place": "2",
         "points": 12.0
       }
@@ -443,6 +481,32 @@
       {
         "comp_name": "Nashville Starz Dance Spectacular",
         "info": "Professional Exhibition  Open Variable",
+        "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 7.0,
+    "avg_pts": 7.0
+  },
+  {
+    "name": "Smirnov, Aleksei and Smirnova, Daria",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "'Shallow'",
+        "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 7.0,
+    "avg_pts": 7.0
+  },
+  {
+    "name": "Kantin, Anthony and Williams, Olivia",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "'A Storm Is Coming'",
         "place": "3",
         "points": 7.0
       }
@@ -692,12 +756,6 @@
   },
   {
     "name": "Panesi, Maximiliano and Delano, Valentina",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Puzhevich, Igor and Puzhevich, Anastasia",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0

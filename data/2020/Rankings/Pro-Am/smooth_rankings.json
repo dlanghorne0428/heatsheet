@@ -227,25 +227,6 @@
     "avg_pts": 27.5
   },
   {
-    "name": "Luthy, Pat and Popov, Vladimir",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-SR2 Senior American Smooth Open Advanced Championship (W/T/F/VW)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-SR2 Senior American Smooth Open Advanced Scholarship (W/T/F/VW)",
-        "place": "1",
-        "points": 35.0
-      }
-    ],
-    "total_pts": 55.0,
-    "avg_pts": 27.5
-  },
-  {
     "name": "Conklyn, Liz and Michalski, Dariusz",
     "results": [
       {
@@ -257,6 +238,25 @@
       {
         "comp_name": "vegasopen2020[mikal%20watkins]",
         "info": "L-SR2 Pro/Am  Senior Open Smooth Scholarship (W/T/F/VW)\r",
+        "place": "1",
+        "points": 35.0
+      }
+    ],
+    "total_pts": 55.0,
+    "avg_pts": 27.5
+  },
+  {
+    "name": "Luthy, Pat and Popov, Vladimir",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-SR2 Senior American Smooth Open Advanced Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-SR2 Senior American Smooth Open Advanced Scholarship (W/T/F/VW)",
         "place": "1",
         "points": 35.0
       }
@@ -574,55 +574,6 @@
     ],
     "total_pts": 25.0,
     "avg_pts": 25.0
-  },
-  {
-    "name": "Jollay, Kay and Alekseev, Aleksei",
-    "results": [
-      {
-        "comp_name": "Majesty Dancesport",
-        "info": "L-C Closed Smooth 3-Dance Challenge (W/T/F)",
-        "place": "2",
-        "points": 28.0
-      },
-      {
-        "comp_name": "Majesty Dancesport",
-        "info": "L-C Open Smooth 3-Dance Challenge (W/T/F)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "Majesty Dancesport",
-        "info": "L-B American Smooth Scholarship (W/T/F/VW)",
-        "place": "2",
-        "points": 28.0
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "G-SR Closed Silver <272>Pro-Am American Smooth 3-Dance Championship (W/T/FT)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "G-SR <236>Pro-Am American Smooth Closed Silver 4-Dance Scholarship (W/T/FT/VW)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "G-SR1 <266>Pro-Am American Smooth Open Senior Championship (W/T/FT/VW)",
-        "place": "2",
-        "points": 24.0
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "G-SR <246>Pro-Am Open American Smooth 4-Dance Scholarship (W/T/FT/VW)",
-        "place": "4",
-        "points": 22.5
-      }
-    ],
-    "total_pts": 171.5,
-    "avg_pts": 24.5
   },
   {
     "name": "Davies, Darla and Maranto, Jim",
@@ -1258,6 +1209,79 @@
     "avg_pts": 20.71
   },
   {
+    "name": "Jollay, Kay and Alekseev, Aleksei",
+    "results": [
+      {
+        "comp_name": "Majesty Dancesport",
+        "info": "L-C Closed Smooth 3-Dance Challenge (W/T/F)",
+        "place": "2",
+        "points": 28.0
+      },
+      {
+        "comp_name": "Majesty Dancesport",
+        "info": "L-C Open Smooth 3-Dance Challenge (W/T/F)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "Majesty Dancesport",
+        "info": "L-B American Smooth Scholarship (W/T/F/VW)",
+        "place": "2",
+        "points": 28.0
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "G-SR Closed Silver <272>Pro-Am American Smooth 3-Dance Championship (W/T/FT)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "G-SR <236>Pro-Am American Smooth Closed Silver 4-Dance Scholarship (W/T/FT/VW)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "G-SR1 <266>Pro-Am American Smooth Open Senior Championship (W/T/FT/VW)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "G-SR <246>Pro-Am Open American Smooth 4-Dance Scholarship (W/T/FT/VW)",
+        "place": "4",
+        "points": 22.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Silver 2-Dance (W/T)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Silver 3-Dance (W/T/F)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Silver 4-Dance (W/T/F/VW)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Open Silver Scholarship (W/T/F/VW)",
+        "place": "3",
+        "points": 22.75
+      }
+    ],
+    "total_pts": 227.25,
+    "avg_pts": 20.66
+  },
+  {
     "name": "Howell, Kathy and Cawston, Martin",
     "results": [
       {
@@ -1711,6 +1735,25 @@
     "avg_pts": 19.38
   },
   {
+    "name": "Artinian, Jacqueline and Suakjian, Kris",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-A Pro/Am Closed Silver Smooth Scholarship & Best of the Best (W/T/FT/VW)\r",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-A Pro/Am Open Smooth Scholarship & Best of the Best (W/T/FT/VW)\r",
+        "place": "2",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 38.0,
+    "avg_pts": 19.0
+  },
+  {
     "name": "Burney, Kim and Skriptsov, Aleksandr",
     "results": [
       {
@@ -1742,29 +1785,22 @@
         "info": "L-C <236>Pro-Am American Smooth Closed Silver 4-Dance Scholarship (W/T/FT/VW)",
         "place": "1",
         "points": 30.0
-      }
-    ],
-    "total_pts": 95.0,
-    "avg_pts": 19.0
-  },
-  {
-    "name": "Artinian, Jacqueline and Suakjian, Kris",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-A Pro/Am Closed Silver Smooth Scholarship & Best of the Best (W/T/FT/VW)\r",
-        "place": "1",
-        "points": 18.0
       },
       {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-A Pro/Am Open Smooth Scholarship & Best of the Best (W/T/FT/VW)\r",
-        "place": "2",
-        "points": 20.0
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Silver 4-Dance (W/T/F/VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B World Master's Pro/Am Smooth Open Silver Scholarship (W/T/F/VW)",
+        "place": "1",
+        "points": 22.5
       }
     ],
-    "total_pts": 38.0,
-    "avg_pts": 19.0
+    "total_pts": 132.5,
+    "avg_pts": 18.93
   },
   {
     "name": "Dills, Suzanne and Malamov, Atanas",
@@ -1841,6 +1877,43 @@
     ],
     "total_pts": 37.5,
     "avg_pts": 18.75
+  },
+  {
+    "name": "Cruickshank, Susan and Alekseev, Aleksei",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Gold 2-Dance (W/T)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Gold 3-Dance (W/T/F)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Silver 4-Dance (W/T/F/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Pro/Am Smooth Dancesport Series (W/T/F/VW)",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Gold Advanced Scholarship (W/T/F/VW)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 93.0,
+    "avg_pts": 18.6
   },
   {
     "name": "Hill-Mitchell, Audria and Perzhu, Peter",
@@ -2079,6 +2152,43 @@
     "avg_pts": 18.12
   },
   {
+    "name": "Childs, Sally and Holmes, Jay",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Silver 3-Dance (W/T/F)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Silver 3-Dance (W/T/F)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Silver 4-Dance (W/T/F/VW)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Silver 4-Dance (W/T/F/VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Open Silver Scholarship (W/T/F/VW)",
+        "place": "1",
+        "points": 35.0
+      }
+    ],
+    "total_pts": 90.5,
+    "avg_pts": 18.1
+  },
+  {
     "name": "Fuke, Miko and Ruddick, Scott",
     "results": [
       {
@@ -2148,6 +2258,25 @@
         "info": "L-B American Smooth Silver Scholarship (W/T/F/VW)",
         "place": "2",
         "points": 16.0
+      }
+    ],
+    "total_pts": 36.0,
+    "avg_pts": 18.0
+  },
+  {
+    "name": "Eicher, Diane and Wiatrowski, Radek",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Pro/Am Open Senior 70+ Smooth Championship (W/T/F)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Silver First Coast Pro/Am Open Senior 70+ Smooth Scholarship (W/T/F)",
+        "place": "2",
+        "points": 20.0
       }
     ],
     "total_pts": 36.0,
@@ -2492,6 +2621,19 @@
     "avg_pts": 17.5
   },
   {
+    "name": "Walden, Susan and Glessner, John",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Gold Advanced Scholarship (W/T/F/VW)",
+        "place": "2",
+        "points": 17.5
+      }
+    ],
+    "total_pts": 17.5,
+    "avg_pts": 17.5
+  },
+  {
     "name": "Ayres, Jill and Petrulevicius, Auris",
     "results": [
       {
@@ -2806,6 +2948,31 @@
     "avg_pts": 16.75
   },
   {
+    "name": "Kurzeja, Carolyn and Nagibin, Roman",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Pro/Am Open Senior 70+ Smooth Championship (W/T/F)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Silver First Coast Pro/Am Open Senior 70+ Smooth Scholarship (W/T/F)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Open Silver Scholarship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 50.25,
+    "avg_pts": 16.75
+  },
+  {
     "name": "Lambros, Gabriella and Wiatrowski, Radek",
     "results": [
       {
@@ -3102,25 +3269,6 @@
     "avg_pts": 16.25
   },
   {
-    "name": "Markell, Judi and Cherdantsau, Pavel",
-    "results": [
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-SR1 Open Senior Smooth (W/T/F)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-SR1 Platinum Open Smooth Scholarship (W/T/F/VW)",
-        "place": "3",
-        "points": 16.25
-      }
-    ],
-    "total_pts": 32.25,
-    "avg_pts": 16.12
-  },
-  {
     "name": "Eggert, Janice and Zakrzewski, Mariusz",
     "results": [
       {
@@ -3257,6 +3405,37 @@
     ],
     "total_pts": 79.5,
     "avg_pts": 15.9
+  },
+  {
+    "name": "Markell, Judi and Cherdantsau, Pavel",
+    "results": [
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-SR1 Open Senior Smooth (W/T/F)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-SR1 Platinum Open Smooth Scholarship (W/T/F/VW)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Gold Championship (W/T/F/VW)",
+        "place": "1",
+        "points": 18.75
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Gold Advanced Scholarship (W/T/F/VW)",
+        "place": "3",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 63.5,
+    "avg_pts": 15.88
   },
   {
     "name": "Tsao, Maggie and Kutepov, Denis",
@@ -3832,6 +4011,25 @@
     "avg_pts": 14.75
   },
   {
+    "name": "Bavaud, Annabel and Donelan, Dustin",
+    "results": [
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-C Open Smooth (W/T/F/VW)\r",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-C Global BOTB DSS Pro/Am  Open Smooth Scholarship (W/T/F/VW)\r",
+        "place": "4",
+        "points": 17.5
+      }
+    ],
+    "total_pts": 29.5,
+    "avg_pts": 14.75
+  },
+  {
     "name": "Kazlova, Yuliya and Coberg, Bryan",
     "results": [
       {
@@ -3883,25 +4081,6 @@
         "info": "L-B World Pro/Am Open Smooth DanceSport Series (W/T/FT/VW)",
         "place": "2",
         "points": 7.0
-      }
-    ],
-    "total_pts": 29.5,
-    "avg_pts": 14.75
-  },
-  {
-    "name": "Bavaud, Annabel and Donelan, Dustin",
-    "results": [
-      {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-C Open Smooth (W/T/F/VW)\r",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-C Global BOTB DSS Pro/Am  Open Smooth Scholarship (W/T/F/VW)\r",
-        "place": "4",
-        "points": 17.5
       }
     ],
     "total_pts": 29.5,
@@ -4505,6 +4684,25 @@
     "avg_pts": 14.12
   },
   {
+    "name": "Johnson, Susan and Alday, Allan",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Silver 3-Dance (W/T/F)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Open Silver Scholarship (W/T/F/VW)",
+        "place": "5",
+        "points": 14.0
+      }
+    ],
+    "total_pts": 28.0,
+    "avg_pts": 14.0
+  },
+  {
     "name": "Russo, Cheryle and Tilford, Josh",
     "results": [
       {
@@ -4574,6 +4772,61 @@
     "avg_pts": 13.8
   },
   {
+    "name": "Liesenfelt, Rhonda and Meshkov, Ruslan",
+    "results": [
+      {
+        "comp_name": "Palm Beach Classic 2020",
+        "info": "L-C Closed Silver American Smooth Challenge (W/T/F)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "Palm Beach Classic 2020",
+        "info": "L-C Open Silver American Smooth Challenge (W/T/F)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-SR1 Closed Senior  Silver Smooth (W/T/F)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-SR1 Open Senior Smooth (W/T/F)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-SR1 Closed Silver Smooth Scholarship (W/T/F/VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Silver 4-Dance (W/T/F/VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Silver 4-Dance (W/T/F/VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Open Silver Scholarship (W/T/F/VW)",
+        "place": "2",
+        "points": 28.0
+      }
+    ],
+    "total_pts": 110.0,
+    "avg_pts": 13.75
+  },
+  {
     "name": "Dunaif, Andrea and Tuft, Travis",
     "results": [
       {
@@ -4606,6 +4859,25 @@
         "info": "L-A Global BOTB DSS Pro/Am  Open Smooth Scholarship (W/T/F/VW)\r",
         "place": "2",
         "points": 15.0
+      }
+    ],
+    "total_pts": 27.5,
+    "avg_pts": 13.75
+  },
+  {
+    "name": "Martin, Rhonda and Vlasov, Misha",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Silver 4-Dance (W/T/F/VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Open Silver Scholarship (W/T/F/VW)",
+        "place": "4",
+        "points": 17.5
       }
     ],
     "total_pts": 27.5,
@@ -4744,6 +5016,25 @@
         "info": "L-SR2 Senior American Smooth Open Advanced Scholarship (W/T/F/VW)",
         "place": "5",
         "points": 14.0
+      }
+    ],
+    "total_pts": 27.0,
+    "avg_pts": 13.5
+  },
+  {
+    "name": "Martin, Heidi and Vegas, Nichy",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B World Pro/Am Smooth Dancesport Series (W/T/F/VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B World Master's Pro/Am Smooth Gold Advanced Scholarship (W/T/F/VW)",
+        "place": "1",
+        "points": 15.0
       }
     ],
     "total_pts": 27.0,
@@ -5936,37 +6227,6 @@
     "avg_pts": 12.33
   },
   {
-    "name": "Sutton, Debra and Barsukov, Sergey",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "info": "L-C Gold American Smooth Open Championship(W/T/F/VW)",
-        "place": "5",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "info": "L-C Open American Smooth Scholarship(W/T/F/VW)",
-        "place": "6",
-        "points": 12.25
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "L-C <246>Pro-Am Open American Smooth 4-Dance Scholarship (W/T/FT/VW)",
-        "place": "5",
-        "points": 14.0
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "L-C <262>Pro-Am American Smooth Open Dancesport Series Qualifier (W/T/FT/VW)",
-        "place": "3",
-        "points": 13.0
-      }
-    ],
-    "total_pts": 49.25,
-    "avg_pts": 12.31
-  },
-  {
     "name": "Eberle, Mark and Kark, Alyssa",
     "results": [
       {
@@ -5992,6 +6252,37 @@
         "info": "G-B MIB Tour \"All in\" Open Smooth Scholarship (W/T/F/VW)\r",
         "place": "4",
         "points": 12.5
+      }
+    ],
+    "total_pts": 49.25,
+    "avg_pts": 12.31
+  },
+  {
+    "name": "Sutton, Debra and Barsukov, Sergey",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "info": "L-C Gold American Smooth Open Championship(W/T/F/VW)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "info": "L-C Open American Smooth Scholarship(W/T/F/VW)",
+        "place": "6",
+        "points": 12.25
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "L-C <246>Pro-Am Open American Smooth 4-Dance Scholarship (W/T/FT/VW)",
+        "place": "5",
+        "points": 14.0
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "L-C <262>Pro-Am American Smooth Open Dancesport Series Qualifier (W/T/FT/VW)",
+        "place": "3",
+        "points": 13.0
       }
     ],
     "total_pts": 49.25,
@@ -6377,25 +6668,6 @@
     "avg_pts": 12.0
   },
   {
-    "name": "Sulin, Olivia and DeSouza, Marcio",
-    "results": [
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "WDSS 4-Dance Events Closed Silver A Amer. Smooth (W,T,F,VW)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Closed Silver Scholarship Events A Amer. Smooth (W,T,F,VW)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 24.0,
-    "avg_pts": 12.0
-  },
-  {
     "name": "Hays, Carolyn and Vanderzell, David",
     "results": [
       {
@@ -6409,6 +6681,44 @@
         "info": "L-SR2 Pro/Am  Senior Open Smooth Scholarship (W/T/F/VW)\r",
         "place": "5",
         "points": 14.0
+      }
+    ],
+    "total_pts": 24.0,
+    "avg_pts": 12.0
+  },
+  {
+    "name": "Pierce, Alyson and Kohlhaas, Kris",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A Open Smooth Silver 2-Dance (W/T)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A Open Smooth Silver 3-Dance (W/T/F)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 24.0,
+    "avg_pts": 12.0
+  },
+  {
+    "name": "Sulin, Olivia and DeSouza, Marcio",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "WDSS 4-Dance Events Closed Silver A Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Closed Silver Scholarship Events A Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 15.0
       }
     ],
     "total_pts": 24.0,
@@ -7004,37 +7314,6 @@
     "avg_pts": 11.62
   },
   {
-    "name": "Thomas, Mary and Alekseev, Aleksei",
-    "results": [
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "G-C Closed Silver <272>Pro-Am American Smooth 3-Dance Championship (W/T/FT)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "L-C <236>Pro-Am American Smooth Closed Silver 4-Dance Scholarship (W/T/FT/VW)",
-        "place": "3",
-        "points": 19.5
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "L-C <246>Pro-Am Open American Smooth 4-Dance Scholarship (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 4.55
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "L-C <262>Pro-Am American Smooth Open Dancesport Series Qualifier (W/T/FT/VW)",
-        "place": "4",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 46.05,
-    "avg_pts": 11.51
-  },
-  {
     "name": "Duenas, Jackie and Nunez, Antonio",
     "results": [
       {
@@ -7214,6 +7493,31 @@
     ],
     "total_pts": 22.75,
     "avg_pts": 11.38
+  },
+  {
+    "name": "Miles, Donna and Holmes, Jay",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Bronze 3-Dance (W/T/F)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Bronze 4-Dance (W/T/F/VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Closed Bronze Scholarship (W/T/F/VW)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 34.0,
+    "avg_pts": 11.33
   },
   {
     "name": "Wherry, Roseann and Polak, Petr",
@@ -7598,41 +7902,59 @@
     "avg_pts": 11.09
   },
   {
-    "name": "O'Flanagan, Maureen and Meshkov, Ruslan",
+    "name": "Thomas, Mary and Alekseev, Aleksei",
     "results": [
       {
-        "comp_name": "Palm Beach Classic 2020",
-        "info": "L-C Open Gold American Smooth Challenge (W/T/F)",
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "G-C Closed Silver <272>Pro-Am American Smooth 3-Dance Championship (W/T/FT)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "L-C <236>Pro-Am American Smooth Closed Silver 4-Dance Scholarship (W/T/FT/VW)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "L-C <246>Pro-Am Open American Smooth 4-Dance Scholarship (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 4.55
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "L-C <262>Pro-Am American Smooth Open Dancesport Series Qualifier (W/T/FT/VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B Closed Smooth Silver 2-Dance (W/T)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B Closed Smooth Silver 3-Dance (W/T/F)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B Closed Smooth Silver 4-Dance (W/T/F/VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A World Master's Pro/Am Smooth Open Silver Scholarship (W/T/F/VW)",
         "place": "1",
         "points": 15.0
-      },
-      {
-        "comp_name": "Palm Beach Classic 2020",
-        "info": "L-C 4-Dance American Smooth Scholarship (W/T/F/VW)",
-        "place": "2",
-        "points": 15.0
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-C WDSS Open Smooth (W/T/F/V)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-C PDC Open Smooth Challenge (W/T/F/VW)",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-SR1 Platinum Open Smooth Scholarship (W/T/F/VW)",
-        "place": "5",
-        "points": 10.0
       }
     ],
-    "total_pts": 55.0,
-    "avg_pts": 11.0
+    "total_pts": 88.05,
+    "avg_pts": 11.01
   },
   {
     "name": "Browning, Dan and Hudson, Michelle",
@@ -7935,41 +8257,29 @@
     "avg_pts": 10.83
   },
   {
-    "name": "Liesenfelt, Rhonda and Meshkov, Ruslan",
+    "name": "Terrell, Eric and Skriptsova, Aida",
     "results": [
       {
-        "comp_name": "Palm Beach Classic 2020",
-        "info": "L-C Closed Silver American Smooth Challenge (W/T/F)",
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A Newcomer Bronze Pro/Am Newcomer Smooth Scholarship (W/T/F)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "G-A Pro/Am Gentlemen's Smooth Bronze Scholarship (W/T/F/VW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A World Master's Pro/Am Smooth Closed Bronze Scholarship (W/T/F/VW)",
         "place": "1",
         "points": 13.5
-      },
-      {
-        "comp_name": "Palm Beach Classic 2020",
-        "info": "L-C Open Silver American Smooth Challenge (W/T/F)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-SR1 Closed Senior  Silver Smooth (W/T/F)",
-        "place": "3",
-        "points": 7.5
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-SR1 Open Senior Smooth (W/T/F)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-SR1 Closed Silver Smooth Scholarship (W/T/F/VW)",
-        "place": "4",
-        "points": 10.0
       }
     ],
-    "total_pts": 54.0,
-    "avg_pts": 10.8
+    "total_pts": 32.5,
+    "avg_pts": 10.83
   },
   {
     "name": "Cowpland, Paula and Shelkovyy, Yuriy",
@@ -8088,6 +8398,43 @@
     ],
     "total_pts": 21.5,
     "avg_pts": 10.75
+  },
+  {
+    "name": "Fisher, JoAnne and Turiashvili, Kakha",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Closed Bronze Scholarship Events S1 Amer. Smooth (W,T,F)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Closed Bronze Scholarship Events S2 Amer. Smooth (W,T,F)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Pro/Am Open Senior 70+ Smooth Championship (W/T/F)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Bronze First Coast Pro/Am Open Senior 70+ Smooth Scholarship (W/T/F)",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Closed Bronze Scholarship (W/T/F/VW)",
+        "place": "4",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 53.5,
+    "avg_pts": 10.7
   },
   {
     "name": "Burt, David and Ray, Lynnsay",
@@ -8496,6 +8843,43 @@
     "avg_pts": 10.46
   },
   {
+    "name": "Blau, Daniel and Kao, Kadrit",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Silver 4-Dance (W/T/F/VW)",
+        "place": "6",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Silver 4-Dance (W/T/F/VW)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Pro/Am Smooth Dancesport Series (W/T/F/VW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "G-B Pro/Am Gentlemen's Smooth Silver Scholarship (W/T/F/VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B World Master's Pro/Am Smooth Open Silver Scholarship (W/T/F/VW)",
+        "place": "2",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 52.25,
+    "avg_pts": 10.45
+  },
+  {
     "name": "Muller, Cynthia and Escolme, Andrew",
     "results": [
       {
@@ -8652,29 +9036,53 @@
     "avg_pts": 10.38
   },
   {
-    "name": "Bohr, Sarah and Cherdantsau, Pavel",
+    "name": "O'Flanagan, Maureen and Meshkov, Ruslan",
     "results": [
       {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-SR1 Closed Senior  Silver Smooth (W/T/F)",
+        "comp_name": "Palm Beach Classic 2020",
+        "info": "L-C Open Gold American Smooth Challenge (W/T/F)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Palm Beach Classic 2020",
+        "info": "L-C 4-Dance American Smooth Scholarship (W/T/F/VW)",
         "place": "2",
-        "points": 10.5
+        "points": 15.0
       },
       {
         "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-C WDSS Closed Silver Smooth (W/T/F/VW)",
+        "info": "L-C WDSS Open Smooth (W/T/F/V)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-C PDC Open Smooth Challenge (W/T/F/VW)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-SR1 Platinum Open Smooth Scholarship (W/T/F/VW)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Gold Championship (W/T/F/VW)",
+        "place": "2",
+        "points": 8.75
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Gold Advanced Scholarship (W/T/F/VW)",
         "place": "4",
-        "points": 7.5
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-SR1 Closed Silver Smooth Scholarship (W/T/F/VW)",
-        "place": "3",
-        "points": 13.0
+        "points": 8.75
       }
     ],
-    "total_pts": 31.0,
-    "avg_pts": 10.33
+    "total_pts": 72.5,
+    "avg_pts": 10.36
   },
   {
     "name": "Ferreira, Paula and Fernandez, Roberto",
@@ -8806,6 +9214,86 @@
     ],
     "total_pts": 30.9,
     "avg_pts": 10.3
+  },
+  {
+    "name": "Hoey, Josee and Hyskell, Brent",
+    "results": [
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-S1 Open Bronze Smooth (W/T/F)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-S1 Closed Bronze Smooth Scholarship (W/T/F)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-S1 Open Rising Star Smooth (W/T/F/VW)",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Bronze 2-Dance (W/T)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Bronze 3-Dance (W/T/F)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Bronze 4-Dance (W/T/F/VW)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Closed Bronze Scholarship (W/T/F/VW)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 71.75,
+    "avg_pts": 10.25
+  },
+  {
+    "name": "Smart, Dawn and Wiatrowski, Radek",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "info": "L-C Silver Open American Smooth 2 Dance Championship(W/T)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "info": "L-C Silver Open American Smooth 3 Dance Championship(W/T/FT)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Silver 2-Dance (W/T)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Silver 3-Dance (W/T/F)",
+        "place": "4",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 41.0,
+    "avg_pts": 10.25
   },
   {
     "name": "Wen, Lita and Burlo, Leonid",
@@ -9399,6 +9887,43 @@
     "avg_pts": 9.88
   },
   {
+    "name": "Bohr, Sarah and Cherdantsau, Pavel",
+    "results": [
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-SR1 Closed Senior  Silver Smooth (W/T/F)",
+        "place": "2",
+        "points": 10.5
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-C WDSS Closed Silver Smooth (W/T/F/VW)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-SR1 Closed Silver Smooth Scholarship (W/T/F/VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Silver 4-Dance (W/T/F/VW)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Open Silver Scholarship (W/T/F/VW)",
+        "place": "6",
+        "points": 12.25
+      }
+    ],
+    "total_pts": 49.25,
+    "avg_pts": 9.85
+  },
+  {
     "name": "Brown, Bonnie and Gavryliv, Myroslav",
     "results": [
       {
@@ -9518,6 +10043,25 @@
     "avg_pts": 9.75
   },
   {
+    "name": "Gambit, Marnie and Zakrzewski, Mariusz",
+    "results": [
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-B Rising Star Open Smooth (W/T/F/VW)\r",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-B Global BOTB DSS Pro/Am  Open Smooth Scholarship (W/T/F/VW)\r",
+        "place": "4",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 19.5,
+    "avg_pts": 9.75
+  },
+  {
     "name": "Garcia, Ruben and Kudelko, Kristina",
     "results": [
       {
@@ -9606,25 +10150,6 @@
         "comp_name": "Texas Challenge DanceSport",
         "info": "L-C American Smooth Open Scholarships (W/T/F/VW)",
         "place": "3",
-        "points": 12.5
-      }
-    ],
-    "total_pts": 19.5,
-    "avg_pts": 9.75
-  },
-  {
-    "name": "Gambit, Marnie and Zakrzewski, Mariusz",
-    "results": [
-      {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-B Rising Star Open Smooth (W/T/F/VW)\r",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-B Global BOTB DSS Pro/Am  Open Smooth Scholarship (W/T/F/VW)\r",
-        "place": "4",
         "points": 12.5
       }
     ],
@@ -9840,25 +10365,6 @@
         "info": "ProAm Scholarship Bronze GL B Amer. Smooth (W,T,F)",
         "place": "2",
         "points": 12.0
-      }
-    ],
-    "total_pts": 19.0,
-    "avg_pts": 9.5
-  },
-  {
-    "name": "Smart, Dawn and Wiatrowski, Radek",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "info": "L-C Silver Open American Smooth 2 Dance Championship(W/T)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "info": "L-C Silver Open American Smooth 3 Dance Championship(W/T/FT)",
-        "place": "2",
-        "points": 7.0
       }
     ],
     "total_pts": 19.0,
@@ -10139,6 +10645,31 @@
     "avg_pts": 9.25
   },
   {
+    "name": "Jordan, Donna and Skriptsov, Aleksandr",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Bronze 2-Dance (W/T)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Bronze 3-Dance (W/T/F)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Closed Bronze Scholarship (W/T/F/VW)",
+        "place": "3",
+        "points": 9.75
+      }
+    ],
+    "total_pts": 27.75,
+    "avg_pts": 9.25
+  },
+  {
     "name": "Moseley, Alec and Sartori, Jessica",
     "results": [
       {
@@ -10330,6 +10861,37 @@
     ],
     "total_pts": 45.5,
     "avg_pts": 9.1
+  },
+  {
+    "name": "Hutton, Marge and Lukic, Zeljko Jake",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Pro/Am Open Senior 70+ Smooth Championship (W/T/F)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Pro/Am Smooth Dancesport Series (W/T/F/VW)",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Silver First Coast Pro/Am Open Senior 70+ Smooth Scholarship (W/T/F)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Open Silver Scholarship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 2.8
+      }
+    ],
+    "total_pts": 36.05,
+    "avg_pts": 9.01
   },
   {
     "name": "Joffrion, Bradley and McConnell, Cherish",
@@ -10554,12 +11116,38 @@
     "avg_pts": 9.0
   },
   {
+    "name": "Otasevic, Natalia and Lukic, Zeljko Jake",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B World Master's Pro/Am Smooth Closed Bronze Scholarship (W/T/F/VW)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 9.0
+  },
+  {
     "name": "Pavlova, Galina and Pavlov, Youriy",
     "results": [
       {
         "comp_name": "City Lights Open",
         "info": "L-A Closed Bronze Smooth Scholarship (W/T/F)",
         "place": "2",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Reed, James and Novak, Ashley",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "G-C Pro/Am Gentlemen's Smooth Bronze Scholarship (W/T/F/VW)",
+        "place": "1",
         "points": 9.0
       }
     ],
@@ -11137,31 +11725,6 @@
     "avg_pts": 8.69
   },
   {
-    "name": "Hoey, Josee and Hyskell, Brent",
-    "results": [
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-S1 Open Bronze Smooth (W/T/F)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-S1 Closed Bronze Smooth Scholarship (W/T/F)",
-        "place": "5",
-        "points": 10.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-S1 Open Rising Star Smooth (W/T/F/VW)",
-        "place": "4",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 26.0,
-    "avg_pts": 8.67
-  },
-  {
     "name": "Lu, Vivian and Burlo, Leonid",
     "results": [
       {
@@ -11348,6 +11911,55 @@
     ],
     "total_pts": 25.75,
     "avg_pts": 8.58
+  },
+  {
+    "name": "Gentling, Sharon and Dahl, Gary",
+    "results": [
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-C Closed Silver Smooth (W/T/F)",
+        "place": "Semis",
+        "points": 1.25
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-S1 Closed Silver Smooth (W/T/F)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-S1 Open Silver Smooth (W/T/F)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-C Cl. Silver Best of the Best Smooth (W/T/F)",
+        "place": "6",
+        "points": 5.25
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-C Closed Silver Smooth Scholarship (W/T/F)",
+        "place": "Semis",
+        "points": 1.2
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "ProAm Closed Silver Scholarship SR Amer. Smooth (W,T,F,VW)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Silver 3-Dance (W/T/F)",
+        "place": "3",
+        "points": 9.75
+      }
+    ],
+    "total_pts": 59.95,
+    "avg_pts": 8.56
   },
   {
     "name": "Pitzer, Kristi and Jafari, Dadbeh",
@@ -11721,49 +12333,6 @@
     ],
     "total_pts": 16.75,
     "avg_pts": 8.38
-  },
-  {
-    "name": "Gentling, Sharon and Dahl, Gary",
-    "results": [
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-C Closed Silver Smooth (W/T/F)",
-        "place": "Semis",
-        "points": 1.25
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-S1 Closed Silver Smooth (W/T/F)",
-        "place": "2",
-        "points": 20.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-S1 Open Silver Smooth (W/T/F)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-C Cl. Silver Best of the Best Smooth (W/T/F)",
-        "place": "6",
-        "points": 5.25
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-C Closed Silver Smooth Scholarship (W/T/F)",
-        "place": "Semis",
-        "points": 1.2
-      },
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "ProAm Closed Silver Scholarship SR Amer. Smooth (W,T,F,VW)",
-        "place": "6",
-        "points": 10.5
-      }
-    ],
-    "total_pts": 50.2,
-    "avg_pts": 8.37
   },
   {
     "name": "Anderson, Kristen and Welch, Benjamin",
@@ -12876,6 +13445,25 @@
     "avg_pts": 7.75
   },
   {
+    "name": "Collins, Janet and Alday, Allan",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Bronze 2-Dance (W/T)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Silver First Coast Pro/Am Open Senior 70+ Smooth Scholarship (W/T/F)",
+        "place": "5",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 15.25,
+    "avg_pts": 7.62
+  },
+  {
     "name": "Lokenvitz, Nikki and Pasqualetto, Derek",
     "results": [
       {
@@ -12983,25 +13571,6 @@
         "info": "L-SR 1 Closed Bronze Smooth Scholarship (W/T/F)",
         "place": "4",
         "points": 7.5
-      }
-    ],
-    "total_pts": 15.0,
-    "avg_pts": 7.5
-  },
-  {
-    "name": "Fisher, JoAnne and Turiashvili, Kakha",
-    "results": [
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Closed Bronze Scholarship Events S1 Amer. Smooth (W,T,F)",
-        "place": "5",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Closed Bronze Scholarship Events S2 Amer. Smooth (W,T,F)",
-        "place": "2",
-        "points": 9.0
       }
     ],
     "total_pts": 15.0,
@@ -13333,6 +13902,31 @@
     "avg_pts": 7.43
   },
   {
+    "name": "Lehosit, Ren\u00e9e and Divovic, Muhidin",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Silver 3-Dance (W/T/F)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Silver 4-Dance (W/T/F/VW)",
+        "place": "7",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B World Master's Pro/Am Smooth Open Silver Scholarship (W/T/F/VW)",
+        "place": "3",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 22.25,
+    "avg_pts": 7.42
+  },
+  {
     "name": "Nydes, Katherine and Black, Lawrence",
     "results": [
       {
@@ -13462,6 +14056,43 @@
     ],
     "total_pts": 14.75,
     "avg_pts": 7.38
+  },
+  {
+    "name": "O'Brien, Carol and Hyskell, Brent",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Silver 2-Dance (W/T)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Silver 3-Dance (W/T/F)",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Silver 4-Dance (W/T/F/VW)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Silver First Coast Pro/Am Open Senior 70+ Smooth Scholarship (W/T/F)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Open Silver Scholarship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 0.35
+      }
+    ],
+    "total_pts": 36.85,
+    "avg_pts": 7.37
   },
   {
     "name": "Parmes, Penelope and White, Rachel",
@@ -14036,6 +14667,19 @@
     "avg_pts": 7.0
   },
   {
+    "name": "King, Bella and Lukic, Zeljko Jake",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A Newcomer Bronze Pro/Am Newcomer Smooth Scholarship (W/T/F)",
+        "place": "2",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 7.0,
+    "avg_pts": 7.0
+  },
+  {
     "name": "Lai, Sandy and Bianchini, Brent",
     "results": [
       {
@@ -14282,6 +14926,31 @@
     "avg_pts": 6.9
   },
   {
+    "name": "Keeling, Susan and Kohlhaas, Kris",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Bronze 2-Dance (W/T)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Bronze 3-Dance (W/T/F)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Newcomer Bronze Pro/Am Newcomer Smooth Scholarship (W/T/F)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 20.5,
+    "avg_pts": 6.83
+  },
+  {
     "name": "Sajona, Fel and Lopez, Josie",
     "results": [
       {
@@ -14305,6 +14974,37 @@
     ],
     "total_pts": 20.5,
     "avg_pts": 6.83
+  },
+  {
+    "name": "Keeling, Jim and Atkinson, Rachel",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Bronze 2-Dance (W/T)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Bronze 3-Dance (W/T/F)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Newcomer Bronze Pro/Am Newcomer Smooth Scholarship (W/T/F)",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Bronze First Coast Pro/Am Open Senior 70+ Smooth Scholarship (W/T/F)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 27.0,
+    "avg_pts": 6.75
   },
   {
     "name": "Niikura, Kazue and Sinitsa, Max",
@@ -15023,6 +15723,31 @@
     "avg_pts": 6.2
   },
   {
+    "name": "Clements, Greg and Pyrgiel, Monika",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Pro/Am Open Senior 70+ Smooth Championship (W/T/F)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Newcomer Bronze Pro/Am Newcomer Smooth Scholarship (W/T/F)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Bronze First Coast Pro/Am Open Senior 70+ Smooth Scholarship (W/T/F)",
+        "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 18.5,
+    "avg_pts": 6.17
+  },
+  {
     "name": "Swensen, Chris and Welch, Benjamin",
     "results": [
       {
@@ -15369,25 +16094,6 @@
     "avg_pts": 6.0
   },
   {
-    "name": "Gingery, Don and Beletsky, Aggie",
-    "results": [
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "L-SR1 Closed Bronze Smooth 3 Dance (W/T/FT)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "G-B Gents Only Pro/Am Bronze Smooth 3 Dance (W/T/FT)",
-        "place": "1",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 12.0,
-    "avg_pts": 6.0
-  },
-  {
     "name": "Johnson, Allen and Sanchez, Vanessa",
     "results": [
       {
@@ -15540,6 +16246,19 @@
       {
         "comp_name": "Nashville Starz Dance Spectacular",
         "info": "ProAm Closed Bronze Scholarship SR Amer. Smooth (W,T,F)",
+        "place": "5",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Kelly, Barbe and Glessner, John",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Closed Bronze Scholarship (W/T/F/VW)",
         "place": "5",
         "points": 6.0
       }
@@ -15863,6 +16582,31 @@
     "avg_pts": 5.71
   },
   {
+    "name": "Baker, Callie and Kohlhaas, Kris",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A Closed Smooth Bronze 2-Dance (W/T)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A Closed Smooth Bronze 3-Dance (W/T/F)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A Newcomer Bronze Pro/Am Newcomer Smooth Scholarship (W/T/F)",
+        "place": "3",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 17.0,
+    "avg_pts": 5.67
+  },
+  {
     "name": "Pollak, Barbara and Simler, Nathan",
     "results": [
       {
@@ -16096,6 +16840,187 @@
     "avg_pts": 5.58
   },
   {
+    "name": "Krieger, Elaine and McKeever, Michael",
+    "results": [
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-B Closed Bronze Smooth (W/T/F)",
+        "place": "Semis",
+        "points": 0.6
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-C Closed Bronze Smooth (W/T/F)",
+        "place": "6",
+        "points": 3.5
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-C Open Bronze Smooth (W/T/F)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-B Open Bronze Smooth (W/T/F)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-B Closed Bronze Smooth Scholarship (W/T/F)",
+        "place": "Semis",
+        "points": 0.5
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-C Closed Bronze Smooth Scholarship (W/T/F)",
+        "place": "6",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-B WDSS Closed Bronze Smooth (W/T/F)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-C WDSS Closed Bronze Smooth (W/T/F)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-C PDC Closed Bronze Smooth Challenge (W/T/F)",
+        "place": "4",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-C Closed Bronze Smooth Scholarship (W/T/F)",
+        "place": "4",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-B Closed Bronze Smooth Scholarship (W/T/F)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Closed Bronze 3-Dance Events C Amer. Smooth (W,T,F)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Closed Bronze 3-Dance Events B Amer. Smooth (W,T,F)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "WDSS 3-Dance Events Closed Bronze B Amer. Smooth (W,T,F)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "WDSS 3-Dance Events Closed Bronze C Amer. Smooth (W,T,F)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Closed Bronze Scholarship Events C Amer. Smooth (W,T,F)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Closed Bronze Scholarship Events B Amer. Smooth (W,T,F)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "G-C Closed Bronze <272>Pro-Am American Smooth 3-Dance Championship (W/T/FT)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "L-B Closed Bronze <272>Pro-Am American Smooth 3-Dance Championship (W/T/FT)",
+        "place": "3",
+        "points": 5.0
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "G-C <232>Pro-Am American Smooth Closed Bronze 3-Dance Scholarship (W/T/FT)",
+        "place": "Semis",
+        "points": 1.5
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "L-B <232>Pro-Am American Smooth Closed Bronze 3-Dance Scholarship (W/T/FT)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "L-C Open Bronze <272>Pro-Am American Smooth 3-Dance Championship (W/T/FT)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B Closed Smooth Bronze 2-Dance (W/T)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Bronze 2-Dance (W/T)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B Closed Smooth Bronze 3-Dance (W/T/F)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Bronze 3-Dance (W/T/F)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Bronze 4-Dance (W/T/F/VW)",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Bronze 4-Dance (W/T/F/VW)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A World Master's Pro/Am Smooth Closed Bronze Scholarship (W/T/F/VW)",
+        "place": "2",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 160.6,
+    "avg_pts": 5.54
+  },
+  {
     "name": "Kniejski, Bob and Chube, Dasha",
     "results": [
       {
@@ -16301,6 +17226,43 @@
     "avg_pts": 5.42
   },
   {
+    "name": "Camm, Linda and Penney, Justin",
+    "results": [
+      {
+        "comp_name": "Palm Beach Classic 2020",
+        "info": "L-D Closed Silver American Smooth Challenge (W/T)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Palm Beach Classic 2020",
+        "info": "L-D Closed Silver American Smooth Challenge (W/T/F)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Majesty Dancesport",
+        "info": "L-C Closed Smooth 3-Dance Challenge (W/T/F)",
+        "place": "Semis",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Silver 2-Dance (W/T)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Silver 3-Dance (W/T/F)",
+        "place": "5",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 27.0,
+    "avg_pts": 5.4
+  },
+  {
     "name": "Barr, Marty and Baker, Brian",
     "results": [
       {
@@ -16361,31 +17323,6 @@
     ],
     "total_pts": 26.3,
     "avg_pts": 5.26
-  },
-  {
-    "name": "Camm, Linda and Penney, Justin",
-    "results": [
-      {
-        "comp_name": "Palm Beach Classic 2020",
-        "info": "L-D Closed Silver American Smooth Challenge (W/T)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Palm Beach Classic 2020",
-        "info": "L-D Closed Silver American Smooth Challenge (W/T/F)",
-        "place": "3",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Majesty Dancesport",
-        "info": "L-C Closed Smooth 3-Dance Challenge (W/T/F)",
-        "place": "Semis",
-        "points": 5.25
-      }
-    ],
-    "total_pts": 15.75,
-    "avg_pts": 5.25
   },
   {
     "name": "Barr, Brenda and Anderson, Scott",
@@ -16489,6 +17426,32 @@
       {
         "comp_name": "caopen20[suzanne nyemchek]",
         "info": "G-SR1 Closed Silver Pro/Am Gentlemen Smooth Championship (W/T/FT/VW)\r",
+        "place": "3",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 5.25,
+    "avg_pts": 5.25
+  },
+  {
+    "name": "Grubbs, Reid and Kantin, Anthony",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A World Master's Pro/Am Smooth Closed Bronze Scholarship (W/T/F/VW)",
+        "place": "3",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 5.25,
+    "avg_pts": 5.25
+  },
+  {
+    "name": "Hamm, Dorothy and Kantin, Anthony",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Smooth Bronze 4-Dance (W/T/F/VW)",
         "place": "3",
         "points": 5.25
       }
@@ -16955,145 +17918,6 @@
     "avg_pts": 5.02
   },
   {
-    "name": "Krieger, Elaine and McKeever, Michael",
-    "results": [
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-B Closed Bronze Smooth (W/T/F)",
-        "place": "Semis",
-        "points": 0.6
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-C Closed Bronze Smooth (W/T/F)",
-        "place": "6",
-        "points": 3.5
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-C Open Bronze Smooth (W/T/F)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-B Open Bronze Smooth (W/T/F)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-B Closed Bronze Smooth Scholarship (W/T/F)",
-        "place": "Semis",
-        "points": 0.5
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-C Closed Bronze Smooth Scholarship (W/T/F)",
-        "place": "6",
-        "points": 5.25
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-B WDSS Closed Bronze Smooth (W/T/F)",
-        "place": "2",
-        "points": 3.5
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-C WDSS Closed Bronze Smooth (W/T/F)",
-        "place": "3",
-        "points": 3.5
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-C PDC Closed Bronze Smooth Challenge (W/T/F)",
-        "place": "4",
-        "points": 3.5
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-C Closed Bronze Smooth Scholarship (W/T/F)",
-        "place": "4",
-        "points": 5.25
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-B Closed Bronze Smooth Scholarship (W/T/F)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Closed Bronze 3-Dance Events C Amer. Smooth (W,T,F)",
-        "place": "2",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Closed Bronze 3-Dance Events B Amer. Smooth (W,T,F)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "WDSS 3-Dance Events Closed Bronze B Amer. Smooth (W,T,F)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "WDSS 3-Dance Events Closed Bronze C Amer. Smooth (W,T,F)",
-        "place": "2",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Closed Bronze Scholarship Events C Amer. Smooth (W,T,F)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Closed Bronze Scholarship Events B Amer. Smooth (W,T,F)",
-        "place": "5",
-        "points": 6.0
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "G-C Closed Bronze <272>Pro-Am American Smooth 3-Dance Championship (W/T/FT)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "L-B Closed Bronze <272>Pro-Am American Smooth 3-Dance Championship (W/T/FT)",
-        "place": "3",
-        "points": 5.0
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "G-C <232>Pro-Am American Smooth Closed Bronze 3-Dance Scholarship (W/T/FT)",
-        "place": "Semis",
-        "points": 1.5
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "L-B <232>Pro-Am American Smooth Closed Bronze 3-Dance Scholarship (W/T/FT)",
-        "place": "3",
-        "points": 7.5
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "L-C Open Bronze <272>Pro-Am American Smooth 3-Dance Championship (W/T/FT)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 110.1,
-    "avg_pts": 5.0
-  },
-  {
     "name": "Ngo, Ernest and Kudelko, Kristina",
     "results": [
       {
@@ -17212,6 +18036,37 @@
     ],
     "total_pts": 4.9,
     "avg_pts": 4.9
+  },
+  {
+    "name": "Gingery, Don and Beletsky, Aggie",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-SR1 Closed Bronze Smooth 3 Dance (W/T/FT)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "G-B Gents Only Pro/Am Bronze Smooth 3 Dance (W/T/FT)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Bronze 2-Dance (W/T)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Bronze 3-Dance (W/T/F)",
+        "place": "6",
+        "points": 3.5
+      }
+    ],
+    "total_pts": 19.5,
+    "avg_pts": 4.88
   },
   {
     "name": "Hartman, Jayme and Lyons, Rae",
@@ -17724,6 +18579,25 @@
         "comp_name": "Golden Star Dancesport Championships",
         "info": "L-C Closed Bronze American Smooth Scholarship (W/T/F)",
         "place": "2",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 8.75,
+    "avg_pts": 4.38
+  },
+  {
+    "name": "Marder, Laura and Vlasov, Misha",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Smooth Bronze 4-Dance (W/T/F/VW)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Smooth Closed Bronze Scholarship (W/T/F/VW)",
+        "place": "6",
         "points": 5.25
       }
     ],
@@ -18467,6 +19341,19 @@
         "comp_name": "vegasopen2020[mikal%20watkins]",
         "info": "L-B Bronze Smooth (W/T/F) Closed Multi-Dance Challenge\r",
         "place": "6",
+        "points": 3.5
+      }
+    ],
+    "total_pts": 3.5,
+    "avg_pts": 3.5
+  },
+  {
+    "name": "Ramsawak, Brandon and Bembry, Torie",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A Newcomer Bronze Pro/Am Newcomer Smooth Scholarship (W/T/F)",
+        "place": "4",
         "points": 3.5
       }
     ],
@@ -19833,6 +20720,19 @@
     "avg_pts": 0.4
   },
   {
+    "name": "Bashaw, Donna Ruth and Falcon, Alejandro",
+    "results": [
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-SR2 Pro/Am  Senior Open Smooth Scholarship (W/T/F/VW)\r",
+        "place": "Semis",
+        "points": 0.35
+      }
+    ],
+    "total_pts": 0.35,
+    "avg_pts": 0.35
+  },
+  {
     "name": "Boswell, Karen and Gallagher, Nicholas",
     "results": [
       {
@@ -19891,19 +20791,6 @@
         "comp_name": "NYDF 2019",
         "info": "L-SR American Smooth Bronze Scholarship (W/T/F)",
         "place": "quarters",
-        "points": 0.35
-      }
-    ],
-    "total_pts": 0.35,
-    "avg_pts": 0.35
-  },
-  {
-    "name": "Bashaw, Donna Ruth and Falcon, Alejandro",
-    "results": [
-      {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-SR2 Pro/Am  Senior Open Smooth Scholarship (W/T/F/VW)\r",
-        "place": "Semis",
         "points": 0.35
       }
     ],
@@ -21162,12 +22049,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Blau, Daniel and Kao, Kadrit",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Bleggi, Dr. Al and Rudenco, Elena",
     "results": [],
     "total_pts": 0,
@@ -21996,12 +22877,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Childs, Sally and Holmes, Jay",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Chinn, Jeff and Tsorokean, Maria",
     "results": [],
     "total_pts": 0,
@@ -22447,12 +23322,6 @@
   },
   {
     "name": "Crosson, Jen and Folker, Ian",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Cruickshank, Susan and Alekseev, Aleksei",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -23143,12 +24012,6 @@
   },
   {
     "name": "Eggertsen, Robilyn and Schwartz, Robert",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Eicher, Diane and Wiatrowski, Radek",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -24564,12 +25427,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Hamm, Dorothy and Kantin, Anthony",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Hammond, Ed and Klyuchnyk, Oksana",
     "results": [],
     "total_pts": 0,
@@ -25248,12 +26105,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Hutton, Marge and Lukic, Zeljko Jake",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Hyatt, Melissa and Whitmer, Daniel",
     "results": [],
     "total_pts": 0,
@@ -25513,12 +26364,6 @@
   },
   {
     "name": "Johnson, Franklin and Portarescu, Raisa",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Johnson, Susan and Alday, Allan",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -26029,12 +26874,6 @@
   },
   {
     "name": "Kuroda, Yasuko and Abdullin, Ilya",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Kurzeja, Carolyn and Nagibin, Roman",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -26946,12 +27785,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Marder, Laura and Vlasov, Misha",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Marino, Sandy and Tilford, Josh",
     "results": [],
     "total_pts": 0,
@@ -27012,19 +27845,7 @@
     "avg_pts": 0
   },
   {
-    "name": "Martin, Heidi and Vegas, Nichy",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Martin, Otto and Strojek-Maguire, Agnieszka",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Martin, Rhonda and Vlasov, Misha",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -27499,12 +28320,6 @@
   },
   {
     "name": "Mihevic, Jason and Howard, Leisa",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Miles, Donna and Holmes, Jay",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -28194,12 +29009,6 @@
     "avg_pts": 0
   },
   {
-    "name": "O'Brien, Carol and Hyskell, Brent",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "O'Dell, Charlane and Panko, Devon",
     "results": [],
     "total_pts": 0,
@@ -28315,12 +29124,6 @@
   },
   {
     "name": "Ostresh, Sandie and Amadis, Germine",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Otasevic, Natalia and Lukic, Zeljko Jake",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -28657,12 +29460,6 @@
   },
   {
     "name": "Phillips, Sherman and Krienke, Amber",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Pierce, Alyson and Kohlhaas, Kris",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -29065,12 +29862,6 @@
   },
   {
     "name": "Reed, Gail and Jaksevicius, Danas",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Reed, James and Novak, Ashley",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0

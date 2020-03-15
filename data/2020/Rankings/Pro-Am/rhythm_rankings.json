@@ -346,25 +346,6 @@
     "avg_pts": 21.95
   },
   {
-    "name": "O'Flanagan, Maureen and Meshkov, Ruslan",
-    "results": [
-      {
-        "comp_name": "Palm Beach Classic 2020",
-        "info": "L-C Open Gold American Rhythm Challenge (CC/R/SW)",
-        "place": "1",
-        "points": 18.75
-      },
-      {
-        "comp_name": "Palm Beach Classic 2020",
-        "info": "G-C 5-Dance American Rhythm Scholarship (CC/R/SW/B/M)",
-        "place": "1",
-        "points": 25.0
-      }
-    ],
-    "total_pts": 43.75,
-    "avg_pts": 21.88
-  },
-  {
     "name": "Beaudoen, Val and Tkachenko, Viktor",
     "results": [
       {
@@ -455,6 +436,25 @@
       }
     ],
     "total_pts": 107.5,
+    "avg_pts": 21.5
+  },
+  {
+    "name": "Johnson, Susan and Alday, Allan",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Silver 3-Dance (C/R/SW)",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Rhythm Open Silver Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 43.0,
     "avg_pts": 21.5
   },
   {
@@ -857,41 +857,29 @@
     "avg_pts": 19.21
   },
   {
-    "name": "Kennedy, Nichelle and Nashev, Aleks",
+    "name": "Anderson, Wendy and Tregubov, Anton",
     "results": [
       {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-B Open Gold Rhythm (C/R/SW/B/M)",
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Silver 5-Dance (C/R/SW/B/M)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B World Master's Pro/Am Rhythm Open Silver Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 22.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Pro/Am Rhythm Dancesport Series (C/R/SW/B/M)",
         "place": "1",
         "points": 15.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-B Open World Pro/Am Dancesport Series Rhythm (C/R/SW/B/M)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-B Open Rhythm Scholarship (C/R/SW/B/M)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "ProAm WDSS Open Open B Amer. Rhythm (CC,R,SW,B,M)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "ProAm Open Scholarship B Amer. Rhythm (CC,R,SW,B,M)",
-        "place": "1",
-        "points": 25.0
       }
     ],
-    "total_pts": 95.0,
-    "avg_pts": 19.0
+    "total_pts": 57.5,
+    "avg_pts": 19.17
   },
   {
     "name": "Black, Valerie and Cardoso, Martin",
@@ -949,6 +937,55 @@
     ],
     "total_pts": 38.0,
     "avg_pts": 19.0
+  },
+  {
+    "name": "Kennedy, Nichelle and Nashev, Aleks",
+    "results": [
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-B Open Gold Rhythm (C/R/SW/B/M)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-B Open World Pro/Am Dancesport Series Rhythm (C/R/SW/B/M)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-B Open Rhythm Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "ProAm WDSS Open Open B Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "ProAm Open Scholarship B Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B Open Rhythm Gold Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 18.75
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B World Master's Pro/Am Rhythm Gold Advanced Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 18.75
+      }
+    ],
+    "total_pts": 132.5,
+    "avg_pts": 18.93
   },
   {
     "name": "Kireyko, Veronika and Vasco, Daniel",
@@ -1103,6 +1140,37 @@
     "avg_pts": 18.5
   },
   {
+    "name": "O'Flanagan, Maureen and Meshkov, Ruslan",
+    "results": [
+      {
+        "comp_name": "Palm Beach Classic 2020",
+        "info": "L-C Open Gold American Rhythm Challenge (CC/R/SW)",
+        "place": "1",
+        "points": 18.75
+      },
+      {
+        "comp_name": "Palm Beach Classic 2020",
+        "info": "G-C 5-Dance American Rhythm Scholarship (CC/R/SW/B/M)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Gold Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Rhythm Gold Advanced Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 73.75,
+    "avg_pts": 18.44
+  },
+  {
     "name": "Colon, Beatriz and Balasanyan, Hayk",
     "results": [
       {
@@ -1250,9 +1318,15 @@
         "info": "L-SR2 Senior American Rhythm Open Advanced Scholarship (C/R/SW/B/M)",
         "place": "1",
         "points": 25.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Pro/Am Open Senior 70+ Rhythm Championship (C/R/SW)",
+        "place": "1",
+        "points": 18.0
       }
     ],
-    "total_pts": 326.0,
+    "total_pts": 344.0,
     "avg_pts": 18.11
   },
   {
@@ -1303,6 +1377,19 @@
       }
     ],
     "total_pts": 36.0,
+    "avg_pts": 18.0
+  },
+  {
+    "name": "Blair, Esperanza and Paramonov, Andre",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Gold First Coast Pro/Am Open Senior 70+ Rhythm Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 18.0
+      }
+    ],
+    "total_pts": 18.0,
     "avg_pts": 18.0
   },
   {
@@ -1601,25 +1688,6 @@
     "avg_pts": 16.88
   },
   {
-    "name": "Mersich, Dawn and Munson, Todd",
-    "results": [
-      {
-        "comp_name": "Denver Dancesport Jam",
-        "info": "ProAm Multi-Dance Open B Ladies Amer. Rhythm (CC,R,SW,B,M)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Denver Dancesport Jam",
-        "info": "ProAm Scholarship Open GL Amer. Rhythm (CC,R,SW,B,M)",
-        "place": "1",
-        "points": 18.75
-      }
-    ],
-    "total_pts": 33.75,
-    "avg_pts": 16.88
-  },
-  {
     "name": "Glover, Kim and Gatlin, Jeremy",
     "results": [
       {
@@ -1631,6 +1699,25 @@
       {
         "comp_name": "vegasopen2020[mikal%20watkins]",
         "info": "L-B Global BOTB DSS Pro/Am Open Rhythm Scholarship (C/R/SW/B/M)\r",
+        "place": "1",
+        "points": 18.75
+      }
+    ],
+    "total_pts": 33.75,
+    "avg_pts": 16.88
+  },
+  {
+    "name": "Mersich, Dawn and Munson, Todd",
+    "results": [
+      {
+        "comp_name": "Denver Dancesport Jam",
+        "info": "ProAm Multi-Dance Open B Ladies Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Denver Dancesport Jam",
+        "info": "ProAm Scholarship Open GL Amer. Rhythm (CC,R,SW,B,M)",
         "place": "1",
         "points": 18.75
       }
@@ -2289,6 +2376,25 @@
     "avg_pts": 15.25
   },
   {
+    "name": "Martin, Rhonda and Vlasov, Misha",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Silver 5-Dance (C/R/SW/B/M)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Rhythm Open Silver Scholarship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 17.5
+      }
+    ],
+    "total_pts": 30.5,
+    "avg_pts": 15.25
+  },
+  {
     "name": "Rolison, Barbara and Padlivakhin, Andrei",
     "results": [
       {
@@ -2807,6 +2913,37 @@
     ],
     "total_pts": 29.25,
     "avg_pts": 14.62
+  },
+  {
+    "name": "Stone, Donna and Paramonov, Andre",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Silver 3-Dance (C/R/SW)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Silver 3-Dance (C/R/SW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Pro/Am Open Senior 70+ Rhythm Championship (C/R/SW)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Silver First Coast Pro/Am Open Senior 70+ Rhythm Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 58.0,
+    "avg_pts": 14.5
   },
   {
     "name": "Wittig, Larry and Camarda, Caitlin",
@@ -3673,6 +3810,25 @@
     "avg_pts": 13.5
   },
   {
+    "name": "Mitchell, Clay and Buchana, Amanda",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A Open Rhythm Silver 3-Dance (C/R/SW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "G-A Pro/Am Gentlemen's Rhythm Silver Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 27.0,
+    "avg_pts": 13.5
+  },
+  {
     "name": "Howard, Helen and Shevelev, Kirill",
     "results": [
       {
@@ -4145,6 +4301,43 @@
     "avg_pts": 12.71
   },
   {
+    "name": "Politzer, Nancy and Paramonov, Andre",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Silver 2-Dance (C/R)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Bronze 3-Dance (C/R/SW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Silver 2-Dance (C/R)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Bronze 3-Dance (C/R/SW)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Bronze First Coast Pro/Am Open Senior 70+ Rhythm Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 18.0
+      }
+    ],
+    "total_pts": 63.25,
+    "avg_pts": 12.65
+  },
+  {
     "name": "Flack, Sue and Neil, Michael",
     "results": [
       {
@@ -4270,6 +4463,19 @@
     "avg_pts": 12.5
   },
   {
+    "name": "Burnett, Arielle and Gilchrist, Joshua",
+    "results": [
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-A Global BOTB DSS Pro/Am Open Rhythm Scholarship (C/R/SW/B/M)\r",
+        "place": "4",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 12.5,
+    "avg_pts": 12.5
+  },
+  {
     "name": "Gately, Celia and Grigoryev, Anton",
     "results": [
       {
@@ -4348,12 +4554,12 @@
     "avg_pts": 12.5
   },
   {
-    "name": "Burnett, Arielle and Gilchrist, Joshua",
+    "name": "Lott, Linda and Kulpin, Ilya",
     "results": [
       {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-A Global BOTB DSS Pro/Am Open Rhythm Scholarship (C/R/SW/B/M)\r",
-        "place": "4",
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Silver First Coast Pro/Am Open Senior 70+ Rhythm Scholarship (C/R/SW)",
+        "place": "3",
         "points": 12.5
       }
     ],
@@ -4515,6 +4721,31 @@
       }
     ],
     "total_pts": 48.0,
+    "avg_pts": 12.0
+  },
+  {
+    "name": "West, Janice and Vlasov, Misha",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Silver 2-Dance (C/R)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Silver 3-Dance (C/R/SW)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Silver 5-Dance (C/R/SW/B/M)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 36.0,
     "avg_pts": 12.0
   },
   {
@@ -5146,31 +5377,6 @@
     "avg_pts": 11.33
   },
   {
-    "name": "Baginski, Jane and Rivera, Eddie",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "info": "L-C Gold American Rhythm Open Championship(C/R/SW/B/M)",
-        "place": "2",
-        "points": 8.75
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "info": "L-C American Rhythm Dancesport Series(C/R/SW/B/M)",
-        "place": "2",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "info": "L-C Open American Rhythm Scholarship(C/R/SW/B/M)",
-        "place": "3",
-        "points": 16.25
-      }
-    ],
-    "total_pts": 34.0,
-    "avg_pts": 11.33
-  },
-  {
     "name": "Fuentes, Dorothy and Zapata, Fonzie",
     "results": [
       {
@@ -5361,6 +5567,25 @@
     "avg_pts": 11.3
   },
   {
+    "name": "Childs, Sally and Holmes, Jay",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Silver 5-Dance (C/R/SW/B/M)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Rhythm Open Silver Scholarship (C/R/SW/B/M)",
+        "place": "3",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 22.5,
+    "avg_pts": 11.25
+  },
+  {
     "name": "Andrasik, Tetiana and Zapata, Fonzie",
     "results": [
       {
@@ -5474,6 +5699,43 @@
     ],
     "total_pts": 44.25,
     "avg_pts": 11.06
+  },
+  {
+    "name": "Blau, Daniel and Atkinson, Rachel",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Silver 5-Dance (C/R/SW/B/M)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Silver 5-Dance (C/R/SW/B/M)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B World Master's Pro/Am Rhythm Open Silver Scholarship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Pro/Am Rhythm Dancesport Series (C/R/SW/B/M)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "G-B Pro/Am Gentlemen's Rhythm Silver Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 55.25,
+    "avg_pts": 11.05
   },
   {
     "name": "Ziecik, Mike and Lukina, Yuliya",
@@ -5870,6 +6132,31 @@
     ],
     "total_pts": 42.75,
     "avg_pts": 10.69
+  },
+  {
+    "name": "Miles, Donna and Holmes, Jay",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Bronze 3-Dance (C/R/SW)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Bronze 5-Dance (C/R/SW/B/M)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Rhythm Closed Bronze Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 32.0,
+    "avg_pts": 10.67
   },
   {
     "name": "Cecil, Mary Beth and Karchanov, Konstantin",
@@ -6447,6 +6734,43 @@
     "avg_pts": 10.33
   },
   {
+    "name": "Baginski, Jane and Rivera, Eddie",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "info": "L-C Gold American Rhythm Open Championship(C/R/SW/B/M)",
+        "place": "2",
+        "points": 8.75
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "info": "L-C American Rhythm Dancesport Series(C/R/SW/B/M)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "info": "L-C Open American Rhythm Scholarship(C/R/SW/B/M)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B Open Rhythm Gold Championship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 8.75
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B World Master's Pro/Am Rhythm Gold Advanced Scholarship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 51.5,
+    "avg_pts": 10.3
+  },
+  {
     "name": "Rocha, Rosemary and Anderson, Scott",
     "results": [
       {
@@ -6647,6 +6971,31 @@
     ],
     "total_pts": 212.5,
     "avg_pts": 10.12
+  },
+  {
+    "name": "Collins, Janet and Alday, Allan",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Bronze 3-Dance (C/R/SW)",
+        "place": "4",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Bronze 2-Dance (C/R)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Silver First Coast Pro/Am Open Senior 70+ Rhythm Scholarship (C/R/SW)",
+        "place": "2",
+        "points": 17.5
+      }
+    ],
+    "total_pts": 30.25,
+    "avg_pts": 10.08
   },
   {
     "name": "Fuller, Mary and DiTommaso, Tommy",
@@ -6924,6 +7273,61 @@
     ],
     "total_pts": 10.0,
     "avg_pts": 10.0
+  },
+  {
+    "name": "Hoey, Josee and Hyskell, Brent",
+    "results": [
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-S1 Open Bronze Rhythm (C/R/SW)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-S1 Closed Bronze Rhythm Scholarship (C/R/SW)",
+        "place": "6",
+        "points": 8.75
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-S1 Open Rising Star Rhythm (C/R/SW/B/M)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-S1 Open Rhythm Scholarship (C/R/SW/B/M)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Bronze 3-Dance (C/R/SW)",
+        "place": "2",
+        "points": 10.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Bronze 5-Dance (C/R/SW/B/M)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Bronze 2-Dance (C/R)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Rhythm Closed Bronze Scholarship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 79.75,
+    "avg_pts": 9.97
   },
   {
     "name": "Brandon, Kim and Colac, Nicolae",
@@ -7458,6 +7862,25 @@
       }
     ],
     "total_pts": 37.5,
+    "avg_pts": 9.38
+  },
+  {
+    "name": "Colon, Jose Ricardo and Rivera, Eddie",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A Closed Rhythm Bronze 3-Dance (C/R/SW)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A World Master's Pro/Am Rhythm Closed Bronze Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 18.75,
     "avg_pts": 9.38
   },
   {
@@ -8138,6 +8561,19 @@
       {
         "comp_name": "vegasopen2020[mikal%20watkins]",
         "info": "L-A Rising Star Closed Silver Rhythm (C/R/SW/B)\r",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Reed, James and Novak, Ashley",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "G-C Pro/Am Gentlemen's Rhythm Bronze Scholarship (C/R/SW/B/M)",
         "place": "1",
         "points": 9.0
       }
@@ -9021,6 +9457,25 @@
     "avg_pts": 8.0
   },
   {
+    "name": "Boyazis, Tanya and Kulpin, Ilya",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A Open Rhythm Bronze 3-Dance (C/R/SW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A Open Rhythm Silver 3-Dance (C/R/SW)",
+        "place": "2",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 16.0,
+    "avg_pts": 8.0
+  },
+  {
     "name": "Powell, Helen and Kerekes, Tibor",
     "results": [
       {
@@ -9124,6 +9579,49 @@
     "avg_pts": 8.0
   },
   {
+    "name": "Belcher, Christine and Camardese, Adriano",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Bronze 2-Dance (C/R)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Bronze 3-Dance (C/R/SW)",
+        "place": "3",
+        "points": 7.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Bronze 3-Dance (C/R/SW)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Bronze 2-Dance (C/R)",
+        "place": "2",
+        "points": 10.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Newcomer Bronze Pro/Am Newcomer Rhythm Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Rhythm Closed Bronze Scholarship (C/R/SW/B/M)",
+        "place": "4",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 47.5,
+    "avg_pts": 7.92
+  },
+  {
     "name": "Kidwell, Tiffany and Dunn, Brent",
     "results": [
       {
@@ -9206,6 +9704,25 @@
         "info": "L-SR Pro/Am Open Senior American Rhythm Scholarship (C/R/SW)",
         "place": "2",
         "points": 8.75
+      }
+    ],
+    "total_pts": 15.75,
+    "avg_pts": 7.88
+  },
+  {
+    "name": "Marder, Laura and Vlasov, Misha",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Bronze 5-Dance (C/R/SW/B/M)",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Rhythm Closed Bronze Scholarship (C/R/SW/B/M)",
+        "place": "3",
+        "points": 9.75
       }
     ],
     "total_pts": 15.75,
@@ -9311,37 +9828,6 @@
     "avg_pts": 7.76
   },
   {
-    "name": "Hoey, Josee and Hyskell, Brent",
-    "results": [
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-S1 Open Bronze Rhythm (C/R/SW)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-S1 Closed Bronze Rhythm Scholarship (C/R/SW)",
-        "place": "6",
-        "points": 8.75
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-S1 Open Rising Star Rhythm (C/R/SW/B/M)",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-S1 Open Rhythm Scholarship (C/R/SW/B/M)",
-        "place": "5",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 31.0,
-    "avg_pts": 7.75
-  },
-  {
     "name": "Severance, Heather and Donelan, Dustin",
     "results": [
       {
@@ -9359,6 +9845,43 @@
     ],
     "total_pts": 15.5,
     "avg_pts": 7.75
+  },
+  {
+    "name": "O'Brien, Carol and Hyskell, Brent",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Silver 2-Dance (C/R)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Silver 3-Dance (C/R/SW)",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Silver 5-Dance (C/R/SW/B/M)",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Rhythm Open Silver Scholarship (C/R/SW/B/M)",
+        "place": "4",
+        "points": 8.75
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Silver First Coast Pro/Am Open Senior 70+ Rhythm Scholarship (C/R/SW)",
+        "place": "4",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 38.5,
+    "avg_pts": 7.7
   },
   {
     "name": "Ferrington, Len and Peterson, Grace",
@@ -9659,6 +10182,19 @@
     "avg_pts": 7.5
   },
   {
+    "name": "King, Bella and Lukic, Zeljko Jake",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A Newcomer Bronze Pro/Am Newcomer Rhythm Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
+  },
+  {
     "name": "Pope, Doug and Baker, Amy",
     "results": [
       {
@@ -9829,6 +10365,31 @@
     ],
     "total_pts": 14.75,
     "avg_pts": 7.38
+  },
+  {
+    "name": "Lehosit, Ren\u00e9e and Divovic, Muhidin",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Silver 3-Dance (C/R/SW)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Silver 5-Dance (C/R/SW/B/M)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B World Master's Pro/Am Rhythm Open Silver Scholarship (C/R/SW/B/M)",
+        "place": "3",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 22.0,
+    "avg_pts": 7.33
   },
   {
     "name": "Moore, Rebecca and Labrado, Rafael",
@@ -10379,6 +10940,19 @@
     "avg_pts": 7.0
   },
   {
+    "name": "Bifulco, Barbara and Kulpin, Ilya",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Pro/Am Open Senior 70+ Rhythm Championship (C/R/SW)",
+        "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 7.0,
+    "avg_pts": 7.0
+  },
+  {
     "name": "Blackwell, Amy and Skrypnyk, Oleg",
     "results": [
       {
@@ -10509,6 +11083,19 @@
     "avg_pts": 7.0
   },
   {
+    "name": "Ostresh, Sandie and Ivanov, Alexander",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Bronze First Coast Pro/Am Open Senior 70+ Rhythm Scholarship (C/R/SW)",
+        "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 7.0,
+    "avg_pts": 7.0
+  },
+  {
     "name": "Parker, Penny and Muller, Jari",
     "results": [
       {
@@ -10541,6 +11128,19 @@
         "comp_name": "Nashville Starz Dance Spectacular",
         "info": "ProAm Closed Silver Scholarship A Amer. Rhythm (CC,R,SW,M)",
         "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 7.0,
+    "avg_pts": 7.0
+  },
+  {
+    "name": "Swanson, Catherine and Ivanov, Alexander",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Newcomer Bronze Pro/Am Newcomer Rhythm Scholarship (C/R/SW)",
+        "place": "2",
         "points": 7.0
       }
     ],
@@ -11418,6 +12018,37 @@
     "avg_pts": 6.02
   },
   {
+    "name": "Keeling, Jim and Kao, Kadrit",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Bronze 2-Dance (C/R)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Bronze 3-Dance (C/R/SW)",
+        "place": "6",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Newcomer Bronze Pro/Am Newcomer Rhythm Scholarship (C/R/SW)",
+        "place": "4",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Bronze First Coast Pro/Am Open Senior 70+ Rhythm Scholarship (C/R/SW)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 24.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Barr, Connie and Beybutyan, Arko",
     "results": [
       {
@@ -11565,6 +12196,19 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Fernandez, Lucia and Lukic, Zeljko Jake",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B Newcomer Bronze Pro/Am Newcomer Rhythm Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Friedman, Jennie and Forte, Danilo",
     "results": [
       {
@@ -11597,6 +12241,19 @@
         "comp_name": "Florida Superstars",
         "info": "L-SR2 Bronze Closed American Rhythm 2 Dance Championship(C/R)",
         "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Kelly, Barbe and Glessner, John",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Rhythm Closed Bronze Scholarship (C/R/SW/B/M)",
+        "place": "5",
         "points": 6.0
       }
     ],
@@ -11863,6 +12520,31 @@
     "avg_pts": 5.5
   },
   {
+    "name": "Keeling, Susan and Kohlhaas, Kris",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Bronze 2-Dance (C/R)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Bronze 3-Dance (C/R/SW)",
+        "place": "4",
+        "points": 5.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Newcomer Bronze Pro/Am Newcomer Rhythm Scholarship (C/R/SW)",
+        "place": "3",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 16.5,
+    "avg_pts": 5.5
+  },
+  {
     "name": "Anderson, Gwen and Timar, Krisztian",
     "results": [
       {
@@ -11958,31 +12640,6 @@
     "avg_pts": 5.5
   },
   {
-    "name": "Gingery, Don and Beletsky, Aggie",
-    "results": [
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "L-SR1 Closed Bronze Rhythm 3 Dance (CC/R/SW)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "G-B Gents Only Pro/Am Bronze Rhythm 3 Dance (CC/R/SW)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "G-SR Closed Bronze <271>Pro-Am American Rhythm 3-Dance Championship (C/R/SW)",
-        "place": "5",
-        "points": 4.0
-      }
-    ],
-    "total_pts": 16.0,
-    "avg_pts": 5.33
-  },
-  {
     "name": "Baker, John and McEowen, Brianna",
     "results": [
       {
@@ -12008,6 +12665,19 @@
         "comp_name": "The Snow Ball 2020",
         "info": "AP- Closed Silver Rhythm (C/R/SW)",
         "place": "2",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 5.25,
+    "avg_pts": 5.25
+  },
+  {
+    "name": "Bifulco, Barbara and Vlasov, Misha",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Bronze 2-Dance (C/R)",
+        "place": "4",
         "points": 5.25
       }
     ],
@@ -12195,6 +12865,199 @@
     ],
     "total_pts": 5.25,
     "avg_pts": 5.25
+  },
+  {
+    "name": "Krieger, Elaine and McKeever, Michael",
+    "results": [
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-B Open Bronze Rhythm (C/R/SW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-C Closed Bronze Rhythm (C/R/SW)",
+        "place": "Semis",
+        "points": 0.8
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-B Closed Bronze Rhythm (C/R/SW)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-C Open Bronze Rhythm (C/R/SW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-B Cl. Bronze Best of the Best Rhythm (C/R/SW)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-C Cl. Bronze Best of the Best Rhythm (C/R/SW)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-C Closed Bronze Rhythm Scholarship (C/R/SW)",
+        "place": "Semis",
+        "points": 0.25
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-B Closed Bronze Rhythm Scholarship (C/R/SW)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-C WDSS Bronze Rhythm Multi-Dance (C/R/SW)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-B WDSS Bronze Rhythm Multi-Dance (C/R/SW)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-C PDC Closed Bronze Rhythm Challenge (C/R/SW)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-C Closed Bronze Rhythm Scholarship (C/R/SW)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-B Closed Bronze Rhythm Scholarship (C/R/SW)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "WDSS 3-Dance Events Closed Bronze C Amer. Rhythm (CC,R,SW)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Closed Bronze 3-Dance Events B Amer. Rhythm (CC,R,SW)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Closed Bronze 3-Dance Events C Amer. Rhythm (CC,R,SW)",
+        "place": "3",
+        "points": 5.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "WDSS 3-Dance Events Closed Bronze B Amer. Rhythm (CC,R,SW)",
+        "place": "4",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Closed Bronze Scholarship Events C Amer. Rhythm (CC,R,SW)",
+        "place": "4",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Closed Bronze Scholarship Events B Amer. Rhythm (CC,R,SW)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "L-B Closed Bronze <271>Pro-Am American Rhythm 3-Dance Championship (C/R/SW)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "G-C Closed Bronze <271>Pro-Am American Rhythm 3-Dance Championship (C/R/SW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "G-C <231>Pro-Am American Rhythm Closed Bronze 3-Dance Scholarship (C/R/SW)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "L-B <231>Pro-Am American Rhythm Closed Bronze 3-Dance Scholarship (C/R/SW)",
+        "place": "4",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B Closed Rhythm Bronze 2-Dance (C/R)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Bronze 2-Dance (C/R)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B Closed Rhythm Bronze 3-Dance (C/R/SW)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Bronze 3-Dance (C/R/SW)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Bronze 5-Dance (C/R/SW/B/M)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Rhythm Bronze 5-Dance (C/R/SW/B/M)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A World Master's Pro/Am Rhythm Closed Bronze Scholarship (C/R/SW/B/M)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B World Master's Pro/Am Rhythm Closed Bronze Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 162.05,
+    "avg_pts": 5.23
   },
   {
     "name": "Steier, Ping and Sida, Rastio",
@@ -12646,151 +13509,6 @@
     "avg_pts": 4.83
   },
   {
-    "name": "Krieger, Elaine and McKeever, Michael",
-    "results": [
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-B Open Bronze Rhythm (C/R/SW)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-C Closed Bronze Rhythm (C/R/SW)",
-        "place": "Semis",
-        "points": 0.8
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-B Closed Bronze Rhythm (C/R/SW)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-C Open Bronze Rhythm (C/R/SW)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-B Cl. Bronze Best of the Best Rhythm (C/R/SW)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-C Cl. Bronze Best of the Best Rhythm (C/R/SW)",
-        "place": "5",
-        "points": 4.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-C Closed Bronze Rhythm Scholarship (C/R/SW)",
-        "place": "Semis",
-        "points": 0.25
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-B Closed Bronze Rhythm Scholarship (C/R/SW)",
-        "place": "5",
-        "points": 6.0
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-C WDSS Bronze Rhythm Multi-Dance (C/R/SW)",
-        "place": "3",
-        "points": 3.5
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-B WDSS Bronze Rhythm Multi-Dance (C/R/SW)",
-        "place": "2",
-        "points": 3.5
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-C PDC Closed Bronze Rhythm Challenge (C/R/SW)",
-        "place": "3",
-        "points": 3.5
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-C Closed Bronze Rhythm Scholarship (C/R/SW)",
-        "place": "3",
-        "points": 5.25
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-B Closed Bronze Rhythm Scholarship (C/R/SW)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "WDSS 3-Dance Events Closed Bronze C Amer. Rhythm (CC,R,SW)",
-        "place": "2",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Closed Bronze 3-Dance Events B Amer. Rhythm (CC,R,SW)",
-        "place": "3",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Closed Bronze 3-Dance Events C Amer. Rhythm (CC,R,SW)",
-        "place": "3",
-        "points": 5.0
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "WDSS 3-Dance Events Closed Bronze B Amer. Rhythm (CC,R,SW)",
-        "place": "4",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Closed Bronze Scholarship Events C Amer. Rhythm (CC,R,SW)",
-        "place": "4",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Closed Bronze Scholarship Events B Amer. Rhythm (CC,R,SW)",
-        "place": "5",
-        "points": 6.0
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "L-B Closed Bronze <271>Pro-Am American Rhythm 3-Dance Championship (C/R/SW)",
-        "place": "2",
-        "points": 3.5
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "G-C Closed Bronze <271>Pro-Am American Rhythm 3-Dance Championship (C/R/SW)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "G-C <231>Pro-Am American Rhythm Closed Bronze 3-Dance Scholarship (C/R/SW)",
-        "place": "5",
-        "points": 6.0
-      },
-      {
-        "comp_name": "heritage2020[joy hillary]",
-        "info": "L-B <231>Pro-Am American Rhythm Closed Bronze 3-Dance Scholarship (C/R/SW)",
-        "place": "4",
-        "points": 5.25
-      }
-    ],
-    "total_pts": 110.55,
-    "avg_pts": 4.81
-  },
-  {
     "name": "Bartley, Barb and Glosson, Sherrad",
     "results": [
       {
@@ -12884,6 +13602,43 @@
     ],
     "total_pts": 9.25,
     "avg_pts": 4.62
+  },
+  {
+    "name": "Gingery, Don and Beletsky, Aggie",
+    "results": [
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-SR1 Closed Bronze Rhythm 3 Dance (CC/R/SW)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "G-B Gents Only Pro/Am Bronze Rhythm 3 Dance (CC/R/SW)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "heritage2020[joy hillary]",
+        "info": "G-SR Closed Bronze <271>Pro-Am American Rhythm 3-Dance Championship (C/R/SW)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Bronze 2-Dance (C/R)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Rhythm Bronze 3-Dance (C/R/SW)",
+        "place": "7",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 23.0,
+    "avg_pts": 4.6
   },
   {
     "name": "Kuoch, Leyla and Placidi, Stefano",
@@ -12986,6 +13741,31 @@
     ],
     "total_pts": 8.75,
     "avg_pts": 4.38
+  },
+  {
+    "name": "Baker, Callie and Kohlhaas, Kris",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A Closed Rhythm Bronze 2-Dance (C/R)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A Closed Rhythm Bronze 3-Dance (C/R/SW)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A Newcomer Bronze Pro/Am Newcomer Rhythm Scholarship (C/R/SW)",
+        "place": "2",
+        "points": 3.5
+      }
+    ],
+    "total_pts": 13.0,
+    "avg_pts": 4.33
   },
   {
     "name": "Moskowitz, Kris and Perez, Miguel",
@@ -15327,12 +16107,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Blair, Esperanza and Paramonov, Andre",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Blaney, Susan and Stutts, Eddie",
     "results": [],
     "total_pts": 0,
@@ -15352,12 +16126,6 @@
   },
   {
     "name": "Blasius, Sheree and Spalding, Christopher",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Blau, Daniel and Atkinson, Rachel",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -16053,12 +16821,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Childs, Sally and Holmes, Jay",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Chipman, Helen and Gorjatsev, Kirill",
     "results": [],
     "total_pts": 0,
@@ -16174,12 +16936,6 @@
   },
   {
     "name": "Colon, Jose Ricardo and Espinosa, Jailene",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Colon, Jose Ricardo and Rivera, Eddie",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -18783,12 +19539,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Johnson, Susan and Alday, Allan",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Jones, Eden and Gannon, Colton",
     "results": [],
     "total_pts": 0,
@@ -20037,12 +20787,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Marder, Laura and Vlasov, Misha",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Marie, Ann and Aleman, Caleb",
     "results": [],
     "total_pts": 0,
@@ -20098,12 +20842,6 @@
   },
   {
     "name": "Martin, Rene'e and Green, Jonathan",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Martin, Rhonda and Vlasov, Misha",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -20505,12 +21243,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Miles, Donna and Holmes, Jay",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Miller, Barbara and Kliphuis, Hans",
     "results": [],
     "total_pts": 0,
@@ -20608,12 +21340,6 @@
   },
   {
     "name": "Miretsky, Natalia and Obreja, Sorin",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Mitchell, Clay and Buchana, Amanda",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -21052,12 +21778,6 @@
   },
   {
     "name": "Nurches, Sue and Sylvestre, Anderson",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "O'Brien, Carol and Hyskell, Brent",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -21627,12 +22347,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Politzer, Nancy and Paramonov, Andre",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Polyachenko, Evgenia and Welly, Jonathan",
     "results": [],
     "total_pts": 0,
@@ -21898,12 +22612,6 @@
   },
   {
     "name": "Reed, Gail and Jaksevicius, Danas",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Reed, James and Novak, Ashley",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -23235,12 +23943,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Stone, Donna and Paramonov, Andre",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Stone, Rella and Yates, John",
     "results": [],
     "total_pts": 0,
@@ -24232,12 +24934,6 @@
   },
   {
     "name": "Wernz, Robinette and Bush, Pierre",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "West, Janice and Vlasov, Misha",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0

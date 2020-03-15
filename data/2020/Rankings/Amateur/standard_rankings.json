@@ -744,25 +744,6 @@
     "avg_pts": 13.0
   },
   {
-    "name": "Sanchez-Torres, Anthony and Sanchez-Torres, Marina",
-    "results": [
-      {
-        "comp_name": "California Chic Classic 2020",
-        "info": "AC- Masters Amateur International Ballroom  Competition (Over 50  (W/T/F/Q)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "City Lights Open",
-        "info": "AC- SR 2 Open Amateur Ballroom Scholarship (W/T/VW/FT/QS)",
-        "place": "3",
-        "points": 16.25
-      }
-    ],
-    "total_pts": 26.0,
-    "avg_pts": 13.0
-  },
-  {
     "name": "Hopkin, Jaren and Smith, Vashti",
     "results": [
       {
@@ -776,6 +757,25 @@
         "info": "AC- Amateur Open International Ballroom Scholarships (W/T/VW/F/Q)\r",
         "place": "2",
         "points": 20.0
+      }
+    ],
+    "total_pts": 26.0,
+    "avg_pts": 13.0
+  },
+  {
+    "name": "Sanchez-Torres, Anthony and Sanchez-Torres, Marina",
+    "results": [
+      {
+        "comp_name": "California Chic Classic 2020",
+        "info": "AC- Masters Amateur International Ballroom  Competition (Over 50  (W/T/F/Q)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC- SR 2 Open Amateur Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 16.25
       }
     ],
     "total_pts": 26.0,
@@ -1171,6 +1171,19 @@
     "avg_pts": 10.5
   },
   {
+    "name": "Cozzens, Michael and Smith, Hannah",
+    "results": [
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "AC- Amateur Open International Ballroom Scholarships (W/T/VW/F/Q)\r",
+        "place": "5",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 10.0,
+    "avg_pts": 10.0
+  },
+  {
     "name": "Liu, Chung-You and Liu, Yuan-Yuan",
     "results": [
       {
@@ -1189,19 +1202,6 @@
       {
         "comp_name": "Eastern United States Dancesport Championships",
         "info": "Collegiate 3-Dance Closed Syllabus Events AM/AM Int'l Ballroom (W,T,Q)",
-        "place": "5",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 10.0,
-    "avg_pts": 10.0
-  },
-  {
-    "name": "Cozzens, Michael and Smith, Hannah",
-    "results": [
-      {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "AC- Amateur Open International Ballroom Scholarships (W/T/VW/F/Q)\r",
         "place": "5",
         "points": 10.0
       }

@@ -253,11 +253,11 @@
     "avg_pts": 25.0
   },
   {
-    "name": "Xu, Vera and Proskurin, Vitalii",
+    "name": "Hornlien, Holli and Nazarov, Evgeny",
     "results": [
       {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-A Pro/Am Open Latin Scholarship & Best of the Best (C/S/R/PD/J)\r",
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-C Global BOTB DSS Pro/Am Open Latin Scholarship (C/S/R/PD/J)\r",
         "place": "1",
         "points": 25.0
       }
@@ -266,11 +266,11 @@
     "avg_pts": 25.0
   },
   {
-    "name": "Hornlien, Holli and Nazarov, Evgeny",
+    "name": "Xu, Vera and Proskurin, Vitalii",
     "results": [
       {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-C Global BOTB DSS Pro/Am Open Latin Scholarship (C/S/R/PD/J)\r",
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-A Pro/Am Open Latin Scholarship & Best of the Best (C/S/R/PD/J)\r",
         "place": "1",
         "points": 25.0
       }
@@ -1010,6 +1010,25 @@
     "avg_pts": 17.5
   },
   {
+    "name": "Lamden, Evelyn and Vasco, Daniel",
+    "results": [
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-SR1 Open Latin (C/S/R/P/J)\r",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-SR1 Pro/Am Senior Open Latin Scholarship (C/S/R/J)\r",
+        "place": "2",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 35.0,
+    "avg_pts": 17.5
+  },
+  {
     "name": "McMahan, True and Hopwood, Joseph",
     "results": [
       {
@@ -1042,25 +1061,6 @@
         "info": "L-SR2 DCT Senior Open Latin Scholarship (C/S/R/J)\r",
         "place": "1",
         "points": 25.0
-      }
-    ],
-    "total_pts": 35.0,
-    "avg_pts": 17.5
-  },
-  {
-    "name": "Lamden, Evelyn and Vasco, Daniel",
-    "results": [
-      {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-SR1 Open Latin (C/S/R/P/J)\r",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-SR1 Pro/Am Senior Open Latin Scholarship (C/S/R/J)\r",
-        "place": "2",
-        "points": 20.0
       }
     ],
     "total_pts": 35.0,
@@ -1502,25 +1502,6 @@
     "avg_pts": 15.75
   },
   {
-    "name": "Markell, Judi and Cherdantsau, Pavel",
-    "results": [
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-SR1 Closed Senior Silver Latin (C/R/J)",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-SR1 Closed Silver Latin Scholarship (C/S/R/J)",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 31.25,
-    "avg_pts": 15.62
-  },
-  {
     "name": "Lekht, Alice and Derimov, Igor",
     "results": [
       {
@@ -1621,31 +1602,6 @@
     "avg_pts": 15.33
   },
   {
-    "name": "Goddard, Joan and Escolme, Andrew",
-    "results": [
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "L-C Open Latin Scholarship (C/S/R/P/J)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "City Lights Open",
-        "info": "L-C World Pro/Am Latin DanceSport Series (CC/S/R/PD/J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "City Lights Open",
-        "info": "L-SR 1 Open Latin Scholarship (CC/S/R/PD/J)",
-        "place": "1",
-        "points": 18.75
-      }
-    ],
-    "total_pts": 45.75,
-    "avg_pts": 15.25
-  },
-  {
     "name": "Fuchs, Elizabeth and Borbon, Brent",
     "results": [
       {
@@ -1663,6 +1619,31 @@
       {
         "comp_name": "vegasopen2020[mikal%20watkins]",
         "info": "L-A Global BOTB DSS Pro/Am Open Latin Scholarship (C/S/R/PD/J)\r",
+        "place": "1",
+        "points": 18.75
+      }
+    ],
+    "total_pts": 45.75,
+    "avg_pts": 15.25
+  },
+  {
+    "name": "Goddard, Joan and Escolme, Andrew",
+    "results": [
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "L-C Open Latin Scholarship (C/S/R/P/J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-C World Pro/Am Latin DanceSport Series (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "L-SR 1 Open Latin Scholarship (CC/S/R/PD/J)",
         "place": "1",
         "points": 18.75
       }
@@ -1865,6 +1846,25 @@
       {
         "comp_name": "Texas Challenge DanceSport",
         "info": "L-B Open Gold Pro/Am International Latin Closed 4 Dance (CC/S/R/PD/J)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 30.0,
+    "avg_pts": 15.0
+  },
+  {
+    "name": "Caracciolo, Dianne and Klyukin, Yevgeny",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Open Latin Gold Championship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Latin Gold Advanced Scholarship (C/S/R/PD/J)",
         "place": "1",
         "points": 15.0
       }
@@ -2352,6 +2352,31 @@
     "avg_pts": 14.17
   },
   {
+    "name": "Markell, Judi and Cherdantsau, Pavel",
+    "results": [
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-SR1 Closed Senior Silver Latin (C/R/J)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-SR1 Closed Silver Latin Scholarship (C/S/R/J)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Latin Silver 5-Dance (C/S/R/PD/J)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 42.5,
+    "avg_pts": 14.17
+  },
+  {
     "name": "Hou, Stewart and Baker, Amy",
     "results": [
       {
@@ -2396,25 +2421,6 @@
     "avg_pts": 14.12
   },
   {
-    "name": "Smith, Gisele and Kisialiou, Ihar",
-    "results": [
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-SR1 Open Senior Latin (C/R/J)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "2020 Platinum DanceSport Classic",
-        "info": "L-SR1 Platinum Open Latin Scholarship (C/S/R/P/J)",
-        "place": "3",
-        "points": 16.25
-      }
-    ],
-    "total_pts": 28.25,
-    "avg_pts": 14.12
-  },
-  {
     "name": "Schueler, Bonnie and Stoynov, Simeon",
     "results": [
       {
@@ -2426,6 +2432,25 @@
       {
         "comp_name": "vegasopen2020[mikal%20watkins]",
         "info": "L-C Global BOTB DSS Pro/Am Open Latin Scholarship (C/S/R/PD/J)\r",
+        "place": "3",
+        "points": 16.25
+      }
+    ],
+    "total_pts": 28.25,
+    "avg_pts": 14.12
+  },
+  {
+    "name": "Smith, Gisele and Kisialiou, Ihar",
+    "results": [
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-SR1 Open Senior Latin (C/R/J)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2020 Platinum DanceSport Classic",
+        "info": "L-SR1 Platinum Open Latin Scholarship (C/S/R/P/J)",
         "place": "3",
         "points": 16.25
       }
@@ -2716,6 +2741,25 @@
     "avg_pts": 13.5
   },
   {
+    "name": "Anest, Kris and Kraev, Decho",
+    "results": [
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-C Closed Gold International Latin (CC/S/R/PD/J)\r",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-C Closed Gold International Latin Scholarship (CC/S/R/PD/J)\r",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 27.0,
+    "avg_pts": 13.5
+  },
+  {
     "name": "Berman, Michael and Chyslova, Daria",
     "results": [
       {
@@ -2906,17 +2950,17 @@
     "avg_pts": 13.5
   },
   {
-    "name": "Anest, Kris and Kraev, Decho",
+    "name": "Vlasova, Tatiana and Alekseev, Aleksei",
     "results": [
       {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-C Closed Gold International Latin (CC/S/R/PD/J)\r",
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A World Pro/Am Latin Dancesport Series (C/S/R/PD/J)",
         "place": "1",
         "points": 12.0
       },
       {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-C Closed Gold International Latin Scholarship (CC/S/R/PD/J)\r",
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A World Master's Pro/Am Latin Gold Advanced Scholarship (C/S/R/PD/J)",
         "place": "1",
         "points": 15.0
       }
@@ -3996,6 +4040,19 @@
     "avg_pts": 12.0
   },
   {
+    "name": "Wixson, Elisabeth and Vdovichenko, Vitaliy",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Pro/Am Open Senior 70+ Latin Championship (C/S/J)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 12.0
+  },
+  {
     "name": "Thomas, Mary and Alekseev, Aleksei",
     "results": [
       {
@@ -4287,6 +4344,25 @@
         "info": "L-B International Latin Silver Scholarship (C/S/R/J)",
         "place": "5",
         "points": 12.0
+      }
+    ],
+    "total_pts": 22.0,
+    "avg_pts": 11.0
+  },
+  {
+    "name": "Allen, Ron and Buchana, Amanda",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Pro/Am Open Senior 70+ Latin Championship (C/S/J)",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "G- Silver First Coast Pro/Am Open Senior 70+ Latin Scholarship (C/S/R)",
+        "place": "1",
+        "points": 15.0
       }
     ],
     "total_pts": 22.0,
@@ -5390,6 +5466,25 @@
     "avg_pts": 10.17
   },
   {
+    "name": "Miles, Donna and Holmes, Jay",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Latin Bronze 3-Dance (C/R/J)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Latin Closed Bronze Scholarship (C/S/R/PD/J)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 20.25,
+    "avg_pts": 10.12
+  },
+  {
     "name": "Hart, Karen and Timar, Krisztian",
     "results": [
       {
@@ -6218,6 +6313,31 @@
     "avg_pts": 9.12
   },
   {
+    "name": "Ellmer, Chelsey and Klyukin, Yevgeny",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B Closed Latin Silver 3-Dance (C/R/P)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B Closed Latin Silver 2-Dance (S/P)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B Closed Latin Silver 5-Dance (C/S/R/PD/J)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 27.0,
+    "avg_pts": 9.0
+  },
+  {
     "name": "Ho, Loretta and Jamiolkowski, Luciano H.",
     "results": [
       {
@@ -6423,6 +6543,19 @@
       {
         "comp_name": "vegasopen2020[mikal%20watkins]",
         "info": "L-A Bronze Latin (C/S/R) Open Multi-Dance Challenge\r",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Howington, Jane and Cherdantsau, Pavel",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B World Master's Pro/Am Latin Closed Bronze Scholarship (C/S/R/PD/J)",
         "place": "1",
         "points": 9.0
       }
@@ -6796,6 +6929,79 @@
     ],
     "total_pts": 17.0,
     "avg_pts": 8.5
+  },
+  {
+    "name": "Fisher, JoAnne and Turiashvili, Kakha",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "L-C Closed Bronze International Latin Championship (C/R/J)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "L-SR1 Closed Bronze International Latin Championship (C/R/J)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "L-SR2 Closed Bronze International Latin Championship (C/R/J)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "L-SR1 Closed SR International Latin Scholarship (C/R/J)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "L-SR2 Closed SR International Latin Scholarship (C/R/J)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "L-C Closed Bronze International Latin Scholarship (C/R/J)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Closed Bronze Scholarship Events S1 Int'l Latin (CC,R,J)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Closed Bronze Scholarship Events S2 Int'l Latin (CC,R,J)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Pro/Am Open Senior 70+ Latin Championship (C/S/J)",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Bronze First Coast Pro/Am Open Senior 70+ Latin Scholarship (C/S/R)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C World Master's Pro/Am Latin Closed Bronze Scholarship (C/S/R/PD/J)",
+        "place": "2",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 91.75,
+    "avg_pts": 8.34
   },
   {
     "name": "Wiredja, Waty and Astakhov, Oleg",
@@ -7786,6 +7992,31 @@
     "avg_pts": 7.75
   },
   {
+    "name": "Ballard, Susan and Vdovichenko, Vitaliy",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Latin Silver 2-Dance (S/P)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Latin Silver 5-Dance (C/S/R/PD/J)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Latin Silver 3-Dance (C/R/P)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 23.25,
+    "avg_pts": 7.75
+  },
+  {
     "name": "Kelly, Diane and Hammaker, Micah",
     "results": [
       {
@@ -8376,61 +8607,6 @@
     ],
     "total_pts": 21.25,
     "avg_pts": 7.08
-  },
-  {
-    "name": "Fisher, JoAnne and Turiashvili, Kakha",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "L-C Closed Bronze International Latin Championship (C/R/J)",
-        "place": "3",
-        "points": 3.5
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "L-SR1 Closed Bronze International Latin Championship (C/R/J)",
-        "place": "1",
-        "points": 6.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "L-SR2 Closed Bronze International Latin Championship (C/R/J)",
-        "place": "1",
-        "points": 7.5
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "L-SR1 Closed SR International Latin Scholarship (C/R/J)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "L-SR2 Closed SR International Latin Scholarship (C/R/J)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "L-C Closed Bronze International Latin Scholarship (C/R/J)",
-        "place": "3",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Closed Bronze Scholarship Events S1 Int'l Latin (CC,R,J)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Closed Bronze Scholarship Events S2 Int'l Latin (CC,R,J)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 56.5,
-    "avg_pts": 7.06
   },
   {
     "name": "Berenji, Manijeh and Escolme, Andrew",
@@ -9721,6 +9897,19 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Roger, Janet and Vdovichenko, Vitaliy",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Latin Bronze 3-Dance (C/R/J)",
+        "place": "2",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Evans, Joanna and Nazarov, Evgeny",
     "results": [
       {
@@ -10333,10 +10522,40 @@
         "info": "G-B <233>Pro-Am International Latin Closed Bronze 3-Dance Scholarship (C/S/R)",
         "place": "4",
         "points": 5.25
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Latin Bronze 3-Dance (C/R/J)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B Closed Latin Bronze 3-Dance (C/R/J)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Latin Bronze 2-Dance (C/R)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-C Closed Latin Bronze 5-Dance (C/S/R/PD/J)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-B Closed Latin Bronze 2-Dance (C/R)",
+        "place": "1",
+        "points": 6.0
       }
     ],
-    "total_pts": 103.25,
-    "avg_pts": 4.92
+    "total_pts": 130.75,
+    "avg_pts": 5.03
   },
   {
     "name": "Zaleske, David and Kudryashova, Irina",
@@ -11827,12 +12046,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Allen, Ron and Buchana, Amanda",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Allnatt, Kaili and Belverio, Joshua",
     "results": [],
     "total_pts": 0,
@@ -12032,12 +12245,6 @@
   },
   {
     "name": "Ballada, Isabella and Way, Armen",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Ballard, Susan and Vdovichenko, Vitaliy",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -12680,12 +12887,6 @@
   },
   {
     "name": "Cao, Millie and Kapitanchuk, Maksym",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Caracciolo, Dianne and Klyukin, Yevgeny",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -13706,12 +13907,6 @@
   },
   {
     "name": "Eller, Mary and Gott, Philip",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Ellmer, Chelsey and Klyukin, Yevgeny",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -14834,12 +15029,6 @@
   },
   {
     "name": "Howe, Andy and Pedeferri, Jaime",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Howington, Jane and Cherdantsau, Pavel",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -16778,12 +16967,6 @@
   },
   {
     "name": "Milanowski, Monica and Rybczynski, Erwin",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Miles, Donna and Holmes, Jay",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -19375,12 +19558,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Vlasova, Tatiana and Alekseev, Aleksei",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Vlva, Luna and Burazer, Kristijan",
     "results": [],
     "total_pts": 0,
@@ -19670,12 +19847,6 @@
   },
   {
     "name": "Wittig, Larry and Foster, Caitlin Rose",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Wixson, Elisabeth and Vdovichenko, Vitaliy",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
