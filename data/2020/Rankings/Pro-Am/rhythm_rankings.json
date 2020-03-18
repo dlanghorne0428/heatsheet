@@ -1757,6 +1757,25 @@
     "avg_pts": 16.75
   },
   {
+    "name": "Stuart, Jana and Labrado, Rafael",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Silver Closed Rhythm Championships(CC/R/SW)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Silver Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 33.5,
+    "avg_pts": 16.75
+  },
+  {
     "name": "Fantuzzi, Jackie and Kerekes, Tibor",
     "results": [
       {
@@ -2045,49 +2064,6 @@
     ],
     "total_pts": 31.5,
     "avg_pts": 15.75
-  },
-  {
-    "name": "Carlos, Ligaya and Donelan, Dustin",
-    "results": [
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-C Closed Silver Rhythm (C/R/SW)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-C Cl. Silver Best of the Best Rhythm (C/R/SW)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-C Closed Silver Rhythm Scholarship (C/R/SW)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-C Silver Rhythm (C/R/SW/B) Closed Multi-Dance Challenge\r",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-C Pro/Am DSS Closed Silver Rhythm Scholarship(C/R/SW/B)\r",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-B Rising Star Open  Rhythm (CC/R/SW/B/M)\r",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 94.0,
-    "avg_pts": 15.67
   },
   {
     "name": "Ballard, Marie and Maviyildiz, Zeki",
@@ -2858,6 +2834,25 @@
     "avg_pts": 14.67
   },
   {
+    "name": "Ball, Ali and Francoviglia, Johnny",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "A Silver Closed Rhythm Championships(CC/R/SW)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "A Silver Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 18.0
+      }
+    ],
+    "total_pts": 29.25,
+    "avg_pts": 14.62
+  },
+  {
     "name": "Bender, Arlene and Escolme, Andrew",
     "results": [
       {
@@ -3456,6 +3451,37 @@
     "avg_pts": 14.0
   },
   {
+    "name": "Lakas, Kelly and Grytsak, Evgenii",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "WDSS 5-Dance Events Op. Advanced B Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Open Advanced 5-Dance Scholarship Events B Amer. Rhythm (CC,R,SW,B,M)",
+        "place": "3",
+        "points": 8.75
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "B World Pro/Am  Rhythm DanceSport Series (C/R/SW/B/M)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "B Open Pro/Am  Rhythm Scholarship (CC/R/SW/B/M)",
+        "place": "1",
+        "points": 22.5
+      }
+    ],
+    "total_pts": 55.25,
+    "avg_pts": 13.81
+  },
+  {
     "name": "Akiba, Lorraine and Alvarez, David",
     "results": [
       {
@@ -3574,6 +3600,61 @@
     ],
     "total_pts": 27.5,
     "avg_pts": 13.75
+  },
+  {
+    "name": "Carlos, Ligaya and Donelan, Dustin",
+    "results": [
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-C Closed Silver Rhythm (C/R/SW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-C Cl. Silver Best of the Best Rhythm (C/R/SW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-C Closed Silver Rhythm Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-C Silver Rhythm (C/R/SW/B) Closed Multi-Dance Challenge\r",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-C Pro/Am DSS Closed Silver Rhythm Scholarship(C/R/SW/B)\r",
+        "place": "6",
+        "points": 7.0
+      },
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-B Rising Star Open  Rhythm (CC/R/SW/B/M)\r",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C World Pro/Am  Rhythm DanceSport Series (C/R/SW/B/M)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "B Open Pro/Am  Rhythm Scholarship (CC/R/SW/B/M)",
+        "place": "3",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 109.75,
+    "avg_pts": 13.72
   },
   {
     "name": "Loeb, Michelle and Khutsidze, Aleko",
@@ -3810,25 +3891,6 @@
     "avg_pts": 13.5
   },
   {
-    "name": "Mitchell, Clay and Buchana, Amanda",
-    "results": [
-      {
-        "comp_name": "2020 First Coast Classic",
-        "info": "L-A Open Rhythm Silver 3-Dance (C/R/SW)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "2020 First Coast Classic",
-        "info": "G-A Pro/Am Gentlemen's Rhythm Silver Scholarship (C/R/SW/B/M)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 27.0,
-    "avg_pts": 13.5
-  },
-  {
     "name": "Howard, Helen and Shevelev, Kirill",
     "results": [
       {
@@ -3860,6 +3922,25 @@
         "comp_name": "caopen20[suzanne nyemchek]",
         "info": "L-SR2 DCT Senior Closed Silver Rhythm Scholarship (CC/R/SW)\r",
         "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 27.0,
+    "avg_pts": 13.5
+  },
+  {
+    "name": "Mitchell, Clay and Buchana, Amanda",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L-A Open Rhythm Silver 3-Dance (C/R/SW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "G-A Pro/Am Gentlemen's Rhythm Silver Scholarship (C/R/SW/B/M)",
+        "place": "1",
         "points": 12.0
       }
     ],
@@ -4012,6 +4093,31 @@
         "info": "Open Advanced 5-Dance Scholarship Events S1 Amer. Rhythm (CC,R,SW,B,M)",
         "place": "3",
         "points": 12.5
+      }
+    ],
+    "total_pts": 39.5,
+    "avg_pts": 13.17
+  },
+  {
+    "name": "Vaughn, Brenda and Baker, Brian",
+    "results": [
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-SR Pro/Am DSS Closed Silver Rhythm Scholarship(C/R/SW/B)\r",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Silver Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": " DCT Senior Silver Rhythm Scholarhsip(CC/R/SW)",
+        "place": "1",
+        "points": 13.5
       }
     ],
     "total_pts": 39.5,
@@ -4176,19 +4282,6 @@
     "avg_pts": 13.0
   },
   {
-    "name": "Vaughn, Brenda and Baker, Brian",
-    "results": [
-      {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-SR Pro/Am DSS Closed Silver Rhythm Scholarship(C/R/SW/B)\r",
-        "place": "3",
-        "points": 13.0
-      }
-    ],
-    "total_pts": 13.0,
-    "avg_pts": 13.0
-  },
-  {
     "name": "Ventura, Anna Marie and Aquilino, Barney",
     "results": [
       {
@@ -4200,6 +4293,25 @@
     ],
     "total_pts": 13.0,
     "avg_pts": 13.0
+  },
+  {
+    "name": "Bishop, Rebecca and Makhaye, Senzo",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "B World Pro/Am  Rhythm DanceSport Series (C/R/SW/B/M)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "A Open Pro/Am  Rhythm Scholarship (CC/R/SW/B/M)",
+        "place": "1",
+        "points": 18.75
+      }
+    ],
+    "total_pts": 25.75,
+    "avg_pts": 12.88
   },
   {
     "name": "Koranovic, Zorana and Rodriguez, Nicolas",
@@ -4233,10 +4345,16 @@
         "info": "L-A Pro/Am Closed Silver Rhythm Scholarship & Best of the Best (CC/R/SW/B)\r",
         "place": "2",
         "points": 12.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "A+ Silver Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 12.0
       }
     ],
-    "total_pts": 64.5,
-    "avg_pts": 12.9
+    "total_pts": 76.5,
+    "avg_pts": 12.75
   },
   {
     "name": "King, Tim and Toth, Maggie",
@@ -4425,6 +4543,25 @@
     "avg_pts": 12.5
   },
   {
+    "name": "Smith, Nancy and Hopkins, Hays",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Silver Closed Rhythm Championships(CC/R/SW)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Silver Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 25.0,
+    "avg_pts": 12.5
+  },
+  {
     "name": "Strom, Susan and Bersten, Gene",
     "results": [
       {
@@ -4502,6 +4639,19 @@
     "avg_pts": 12.5
   },
   {
+    "name": "Lott, Linda and Kulpin, Ilya",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "L- Silver First Coast Pro/Am Open Senior 70+ Rhythm Scholarship (C/R/SW)",
+        "place": "3",
+        "points": 12.5
+      }
+    ],
+    "total_pts": 12.5,
+    "avg_pts": 12.5
+  },
+  {
     "name": "Marcus, Linda and Smith, Brian",
     "results": [
       {
@@ -4547,19 +4697,6 @@
         "comp_name": "Boston Dancesport Cup",
         "info": "L-B Bronze Rhythm Scholarship (C/R/SW)",
         "place": "4",
-        "points": 12.5
-      }
-    ],
-    "total_pts": 12.5,
-    "avg_pts": 12.5
-  },
-  {
-    "name": "Lott, Linda and Kulpin, Ilya",
-    "results": [
-      {
-        "comp_name": "2020 First Coast Classic",
-        "info": "L- Silver First Coast Pro/Am Open Senior 70+ Rhythm Scholarship (C/R/SW)",
-        "place": "3",
         "points": 12.5
       }
     ],
@@ -4647,6 +4784,37 @@
     ],
     "total_pts": 24.5,
     "avg_pts": 12.25
+  },
+  {
+    "name": "Mallinckrodt, PJ and Makhaye, Senzo",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "info": "L-C Gold Open American Rhythm 3 Dance Championship(C/R/SW)",
+        "place": "2",
+        "points": 8.75
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "info": "L-C Open American Rhythm Scholarship(C/R/SW/B/M)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C World Pro/Am  Rhythm DanceSport Series (C/R/SW/B/M)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "B Open Pro/Am  Rhythm Scholarship (CC/R/SW/B/M)",
+        "place": "2",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 48.75,
+    "avg_pts": 12.19
   },
   {
     "name": "Collins, Connie and Volynskiy, Pavel",
@@ -5296,6 +5464,43 @@
     "avg_pts": 11.5
   },
   {
+    "name": "Moore, Rebecca and Labrado, Rafael",
+    "results": [
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-S1 Newcomer Bronze Rhythm (C/R/SW)",
+        "place": "1",
+        "points": 4.5
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-S1 Closed Bronze Rhythm (C/R/SW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-S1 Closed Bronze Rhythm Scholarship (C/R/SW)",
+        "place": "7",
+        "points": 7.5
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Closed Rhythm Championships(CC/R/SW)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 57.0,
+    "avg_pts": 11.4
+  },
+  {
     "name": "Danial, Reem and Bratt, Gordon",
     "results": [
       {
@@ -5586,6 +5791,25 @@
     "avg_pts": 11.25
   },
   {
+    "name": "Kangas, Deborah and Francoviglia, Johnny",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "A Bronze Closed Rhythm Championships(CC/R/SW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "A Bronze Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 13.5
+      }
+    ],
+    "total_pts": 22.5,
+    "avg_pts": 11.25
+  },
+  {
     "name": "Andrasik, Tetiana and Zapata, Fonzie",
     "results": [
       {
@@ -5617,6 +5841,19 @@
       {
         "comp_name": "Aloha Ball",
         "info": "Pro Am closed Bronze Scholarship closed Bronze C Amer. Rhythm (CC,R,SW)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 11.25,
+    "avg_pts": 11.25
+  },
+  {
+    "name": "Spurlock, Yvonne and Labrado, Rafael",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "B Silver Closed Rhythm Championships(CC/R/SW)",
         "place": "1",
         "points": 11.25
       }
@@ -6697,6 +6934,55 @@
     "avg_pts": 10.38
   },
   {
+    "name": "Pope, Lynette and Baker, Brian",
+    "results": [
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-C Closed Bronze Rhythm (C/R/SW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AP-C Closed Bronze Rhythm Scholarship (C/R/SW)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "ProAm Closed Bronze Scholarship C Amer. Rhythm (CC,R,SW)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-C Bronze Rhythm (C/R/SW) Closed Multi-Dance Challenge\r",
+        "place": "Semis",
+        "points": 0.6
+      },
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-C Pro/Am DSS Closed Bronze Rhythm Scholarship (C/R/SW)\r",
+        "place": "Semis",
+        "points": 2.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Closed Rhythm Championships(CC/R/SW)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "3",
+        "points": 16.25
+      }
+    ],
+    "total_pts": 72.35,
+    "avg_pts": 10.34
+  },
+  {
     "name": "Cintron, Carmen and Shiller, Artem",
     "results": [
       {
@@ -7617,43 +7903,6 @@
     "avg_pts": 9.62
   },
   {
-    "name": "Pope, Lynette and Baker, Brian",
-    "results": [
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-C Closed Bronze Rhythm (C/R/SW)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-C Closed Bronze Rhythm Scholarship (C/R/SW)",
-        "place": "3",
-        "points": 16.25
-      },
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "ProAm Closed Bronze Scholarship C Amer. Rhythm (CC,R,SW)",
-        "place": "3",
-        "points": 16.25
-      },
-      {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-C Bronze Rhythm (C/R/SW) Closed Multi-Dance Challenge\r",
-        "place": "Semis",
-        "points": 0.6
-      },
-      {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-C Pro/Am DSS Closed Bronze Rhythm Scholarship (C/R/SW)\r",
-        "place": "Semis",
-        "points": 2.0
-      }
-    ],
-    "total_pts": 48.1,
-    "avg_pts": 9.62
-  },
-  {
     "name": "Caplin, Candace and Dutra, Ronny",
     "results": [
       {
@@ -7916,25 +8165,6 @@
         "info": "L-B American Rhythm Open Advanced Scholarship (C/R/SW/B/M)",
         "place": "6",
         "points": 8.75
-      }
-    ],
-    "total_pts": 18.75,
-    "avg_pts": 9.38
-  },
-  {
-    "name": "Mallinckrodt, PJ and Makhaye, Senzo",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "info": "L-C Gold Open American Rhythm 3 Dance Championship(C/R/SW)",
-        "place": "2",
-        "points": 8.75
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "info": "L-C Open American Rhythm Scholarship(C/R/SW/B/M)",
-        "place": "5",
-        "points": 10.0
       }
     ],
     "total_pts": 18.75,
@@ -8465,6 +8695,19 @@
     "avg_pts": 9.0
   },
   {
+    "name": "Reed, James and Novak, Ashley",
+    "results": [
+      {
+        "comp_name": "2020 First Coast Classic",
+        "info": "G-C Pro/Am Gentlemen's Rhythm Bronze Scholarship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 9.0
+  },
+  {
     "name": "Sachdeva, Palkin and Escolme, Andrew",
     "results": [
       {
@@ -8569,12 +8812,12 @@
     "avg_pts": 9.0
   },
   {
-    "name": "Reed, James and Novak, Ashley",
+    "name": "Fors, Kathy and Labrado, Rafael",
     "results": [
       {
-        "comp_name": "2020 First Coast Classic",
-        "info": "G-C Pro/Am Gentlemen's Rhythm Bronze Scholarship (C/R/SW/B/M)",
-        "place": "1",
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": " DCT Senior Silver Rhythm Scholarhsip(CC/R/SW)",
+        "place": "2",
         "points": 9.0
       }
     ],
@@ -8620,25 +8863,6 @@
         "info": "AP-B Closed Bronze Rhythm Scholarship (C/R/SW)",
         "place": "3",
         "points": 9.75
-      }
-    ],
-    "total_pts": 17.75,
-    "avg_pts": 8.88
-  },
-  {
-    "name": "Lakas, Kelly and Grytsak, Evgenii",
-    "results": [
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "WDSS 5-Dance Events Op. Advanced B Amer. Rhythm (CC,R,SW,B,M)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Open Advanced 5-Dance Scholarship Events B Amer. Rhythm (CC,R,SW,B,M)",
-        "place": "3",
-        "points": 8.75
       }
     ],
     "total_pts": 17.75,
@@ -8914,6 +9138,19 @@
     "avg_pts": 8.75
   },
   {
+    "name": "Thompson, Faith and Nyemchek, David",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "A Open Pro/Am  Rhythm Scholarship (CC/R/SW/B/M)",
+        "place": "2",
+        "points": 8.75
+      }
+    ],
+    "total_pts": 8.75,
+    "avg_pts": 8.75
+  },
+  {
     "name": "Morrissette, Adele and Stefanskiy, Yury",
     "results": [
       {
@@ -9053,6 +9290,25 @@
       }
     ],
     "total_pts": 34.5,
+    "avg_pts": 8.62
+  },
+  {
+    "name": "Dikeman, Carol and Labrado, Rafael",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "A Silver Closed Rhythm Championships(CC/R/SW)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "A Silver Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "2",
+        "points": 12.0
+      }
+    ],
+    "total_pts": 17.25,
     "avg_pts": 8.62
   },
   {
@@ -9205,6 +9461,37 @@
     ],
     "total_pts": 25.0,
     "avg_pts": 8.33
+  },
+  {
+    "name": "Fieldman, Elaine and Kish, Blake",
+    "results": [
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "ProAm Closed Bronze Scholarship SR Amer. Rhythm (CC,R,SW)",
+        "place": "6",
+        "points": 5.25
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-SR Bronze Closed Rhythm Championships(CC/R/SW)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": " DCT Senior Bronze Rhythm Scholarhsip(CC/R/SW)",
+        "place": "2",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 33.25,
+    "avg_pts": 8.31
   },
   {
     "name": "Billistrand, Justin and Stojkovic, Jelena",
@@ -9511,6 +9798,19 @@
       }
     ],
     "total_pts": 16.0,
+    "avg_pts": 8.0
+  },
+  {
+    "name": "Gagnon, Karen and Hernandez, Peter",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Silver Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "5",
+        "points": 8.0
+      }
+    ],
+    "total_pts": 8.0,
     "avg_pts": 8.0
   },
   {
@@ -10054,6 +10354,25 @@
     "avg_pts": 7.5
   },
   {
+    "name": "McFadden, Jennie and Fitzgerald, Michael",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "A Bronze Closed Rhythm Championships(CC/R/SW)",
+        "place": "2",
+        "points": 6.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "A Bronze Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "2",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 7.5
+  },
+  {
     "name": "Miller, Glenn and Arutsiunian, Anna",
     "results": [
       {
@@ -10273,6 +10592,67 @@
     "avg_pts": 7.5
   },
   {
+    "name": "Blakeslee, Jan and Gronek, Jean-Paul",
+    "results": [
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "ProAm Closed Silver Scholarship SR Amer. Rhythm (CC,R,SW,M)",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-SR1 World Pro/Am Silver Rhythm DanceSport Series (CC/R/SW/B)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-SR1 Closed Silver Rhythm 4 Dance (CC/R/SW/B)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Maryland DanceSport Championships",
+        "info": "L-SR Pro/Am Closed Silver Rhythm Scholarship (CC/R/SW/B)",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-SR1 Closed Silver Pro/Am 3-dance Rhythm Championship (CC/R/SW)\r",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-SR1 DCT Senior Closed Silver Rhythm Scholarship (CC/R/SW)\r",
+        "place": "3",
+        "points": 7.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-SR Silver Closed Rhythm Championships(CC/R/SW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-SR Silver Closed Rhythm Championships (C/R/SW/B/M)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": " DCT Senior Silver Rhythm Scholarhsip(CC/R/SW)",
+        "place": "3",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 66.75,
+    "avg_pts": 7.42
+  },
+  {
     "name": "Godfrey, Elizabeth and St. Hilaire, FitzGerald",
     "results": [
       {
@@ -10348,6 +10728,55 @@
     "avg_pts": 7.42
   },
   {
+    "name": "Ames, Natalie and Makhaye, Senzo",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "info": "L-C Bronze Closed American Rhythm 2 Dance Championship(C/R)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "info": "L-C Bronze American Rhythm Dancesport Closed Championship(C/R/SW/B/M)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "info": "L-C American Rhythm Dancesport Series(C/R/SW/B/M)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "info": "L-C Bronze Closed American Rhythm Scholarship(C/R/SW/B/M)",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "Florida Superstars",
+        "info": "L-C Bronze Open American Rhythm 3 Dance Championship(C/R/SW)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Closed Rhythm Championships(CC/R/SW)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "2",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 51.75,
+    "avg_pts": 7.39
+  },
+  {
     "name": "Cadd, Carolyn and Gazda, Vadim",
     "results": [
       {
@@ -10390,74 +10819,6 @@
     ],
     "total_pts": 22.0,
     "avg_pts": 7.33
-  },
-  {
-    "name": "Moore, Rebecca and Labrado, Rafael",
-    "results": [
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-S1 Newcomer Bronze Rhythm (C/R/SW)",
-        "place": "1",
-        "points": 4.5
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-S1 Closed Bronze Rhythm (C/R/SW)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AP-S1 Closed Bronze Rhythm Scholarship (C/R/SW)",
-        "place": "7",
-        "points": 7.5
-      }
-    ],
-    "total_pts": 22.0,
-    "avg_pts": 7.33
-  },
-  {
-    "name": "Blakeslee, Jan and Gronek, Jean-Paul",
-    "results": [
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "ProAm Closed Silver Scholarship SR Amer. Rhythm (CC,R,SW,M)",
-        "place": "3",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "L-SR1 World Pro/Am Silver Rhythm DanceSport Series (CC/R/SW/B)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "L-SR1 Closed Silver Rhythm 4 Dance (CC/R/SW/B)",
-        "place": "3",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Maryland DanceSport Championships",
-        "info": "L-SR Pro/Am Closed Silver Rhythm Scholarship (CC/R/SW/B)",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-SR1 Closed Silver Pro/Am 3-dance Rhythm Championship (CC/R/SW)\r",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-SR1 DCT Senior Closed Silver Rhythm Scholarship (CC/R/SW)\r",
-        "place": "3",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 43.5,
-    "avg_pts": 7.25
   },
   {
     "name": "Jones, Marsha and Botello, Eric",
@@ -10652,6 +11013,37 @@
     "avg_pts": 7.11
   },
   {
+    "name": "Kelly, Tracy and Brown, Matt",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-B Closed Silver Pro/Am 3-dance Rhythm Championship (CC/R/SW)\r",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-C Closed Silver Pro/Am 3-dance Rhythm Championship (CC/R/SW)\r",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-B Pro/Am Closed Silver Rhythm Scholarship & Best of the Best (CC/R/SW/B)\r",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "L-C Pro/Am Closed Silver Rhythm Scholarship & Best of the Best (CC/R/SW/B)\r",
+        "place": "4",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 28.25,
+    "avg_pts": 7.06
+  },
+  {
     "name": "Lundeen, Sarah and Welch, Benjamin",
     "results": [
       {
@@ -10683,41 +11075,22 @@
         "info": "L-C Pro/Am Closed Bronze Rhythm Scholarship & Best of the Best (CC/R/SW)\r",
         "place": "4",
         "points": 5.25
-      }
-    ],
-    "total_pts": 35.5,
-    "avg_pts": 7.1
-  },
-  {
-    "name": "Kelly, Tracy and Brown, Matt",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-B Closed Silver Pro/Am 3-dance Rhythm Championship (CC/R/SW)\r",
-        "place": "2",
-        "points": 5.25
       },
       {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-C Closed Silver Pro/Am 3-dance Rhythm Championship (CC/R/SW)\r",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-B Pro/Am Closed Silver Rhythm Scholarship & Best of the Best (CC/R/SW/B)\r",
-        "place": "2",
-        "points": 7.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "L-C Pro/Am Closed Silver Rhythm Scholarship & Best of the Best (CC/R/SW/B)\r",
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Closed Rhythm Championships(CC/R/SW)",
         "place": "4",
-        "points": 7.0
+        "points": 5.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "6",
+        "points": 8.75
       }
     ],
-    "total_pts": 28.25,
-    "avg_pts": 7.06
+    "total_pts": 49.25,
+    "avg_pts": 7.04
   },
   {
     "name": "Korpman, Thelma and Vanderzell, David",
@@ -11228,25 +11601,25 @@
     "avg_pts": 6.86
   },
   {
-    "name": "Fukunaga, Ed and Judd, Shelley",
+    "name": "Annable, Kristine and Clark, Gage",
     "results": [
       {
-        "comp_name": "Denver Dancesport Jam",
-        "info": "ProAm Multi-Dance Bronze C Men Amer. Rhythm (CC,R,SW)",
-        "place": "1",
-        "points": 6.0
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Silver Closed Rhythm Championships(CC/R/SW)",
+        "place": "3",
+        "points": 5.25
       },
       {
-        "comp_name": "Denver Dancesport Jam",
-        "info": "ProAm Multi-Dance Bronze GL C Amer. Rhythm (CC,R,SW)",
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "B Silver Closed Rhythm Championships(CC/R/SW)",
         "place": "2",
-        "points": 7.0
+        "points": 5.25
       },
       {
-        "comp_name": "Denver Dancesport Jam",
-        "info": "ProAm Scholarship Bronze GL C Amer. Rhythm (CC,R,SW)",
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Silver Pro/Am Rhythm Closed Scholarship (C/R/SW)",
         "place": "4",
-        "points": 7.5
+        "points": 10.0
       }
     ],
     "total_pts": 20.5,
@@ -11372,6 +11745,25 @@
     "avg_pts": 6.75
   },
   {
+    "name": "Solomon, Nancy and Francoviglia, Johnny",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-SR Bronze Closed Rhythm Championships(CC/R/SW)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": " DCT Senior Bronze Rhythm Scholarhsip(CC/R/SW)",
+        "place": "3",
+        "points": 6.5
+      }
+    ],
+    "total_pts": 13.5,
+    "avg_pts": 6.75
+  },
+  {
     "name": "Wong, Vera and Meshkov, Ruslan",
     "results": [
       {
@@ -11426,6 +11818,55 @@
     ],
     "total_pts": 13.25,
     "avg_pts": 6.62
+  },
+  {
+    "name": "Fukunaga, Ed and Judd, Shelley",
+    "results": [
+      {
+        "comp_name": "Denver Dancesport Jam",
+        "info": "ProAm Multi-Dance Bronze C Men Amer. Rhythm (CC,R,SW)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "Denver Dancesport Jam",
+        "info": "ProAm Multi-Dance Bronze GL C Amer. Rhythm (CC,R,SW)",
+        "place": "2",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Denver Dancesport Jam",
+        "info": "ProAm Scholarship Bronze GL C Amer. Rhythm (CC,R,SW)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "G-SR Bronze Closed Rhythm Championships(CC/R/SW)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Gents Only Closed Rhythm Championships(CC/R/SW)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "Semis",
+        "points": 2.25
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": " DCT Senior Bronze Rhythm Scholarhsip(CC/R/SW)",
+        "place": "1",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 46.25,
+    "avg_pts": 6.61
   },
   {
     "name": "Saglimbene, Phyllis and Vasicek, Tomas",
@@ -11506,6 +11947,25 @@
       }
     ],
     "total_pts": 19.5,
+    "avg_pts": 6.5
+  },
+  {
+    "name": "Frager, Jared and Wilder, Maysen",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "A Bronze Gents Only Closed Rhythm Championships(CC/R/SW)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "A Silver Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "3",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 13.0,
     "avg_pts": 6.5
   },
   {
@@ -12087,25 +12547,6 @@
     "avg_pts": 6.0
   },
   {
-    "name": "Loving, Ada and Munson, Todd",
-    "results": [
-      {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-SR2 Bronze Rhythm (C/R/SW) Closed Multi-Dance Challenge\r",
-        "place": "1",
-        "points": 10.0
-      },
-      {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "L-SR Pro/Am DSS Closed Bronze Rhythm Scholarship (C/R/SW)\r",
-        "place": "Semis",
-        "points": 2.0
-      }
-    ],
-    "total_pts": 12.0,
-    "avg_pts": 6.0
-  },
-  {
     "name": "Marcus, Jennifer and Beybutyan, Arko",
     "results": [
       {
@@ -12188,6 +12629,19 @@
       {
         "comp_name": "Eastern United States Dancesport Championships",
         "info": "Newcomer Scholarship Events A Amer. Rhythm (CC,R,SW)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
+    "name": "Eggert, Maria and Nyemchek, David",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "A DCT Newcomer Rhythm Scholarship (CC/R/SW)",
         "place": "1",
         "points": 6.0
       }
@@ -12483,6 +12937,31 @@
     "avg_pts": 5.62
   },
   {
+    "name": "Hurley, Traci and Munson, Todd",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Closed Rhythm Championships(CC/R/SW)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-B DCT Newcomer Rhythm Scholarship (CC/R/SW)",
+        "place": "1",
+        "points": 7.5
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "B Bronze Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "2",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 16.75,
+    "avg_pts": 5.58
+  },
+  {
     "name": "Mattachione, Faye and Valdman, Timor",
     "results": [
       {
@@ -12640,6 +13119,55 @@
     "avg_pts": 5.5
   },
   {
+    "name": "Cusick, Barbara and Lopez, Jesse",
+    "results": [
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "ProAm Closed Bronze Scholarship C Amer. Rhythm (CC,R,SW)",
+        "place": "Semis",
+        "points": 0.75
+      },
+      {
+        "comp_name": "Nashville Starz Dance Spectacular",
+        "info": "ProAm Closed Bronze Scholarship B Amer. Rhythm (CC,R,SW)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Closed Rhythm Championships(CC/R/SW)",
+        "place": "6",
+        "points": 3.5
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "B Bronze Closed Rhythm Championships(CC/R/SW)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-C Bronze Closed Rhythm Championships (C/R/SW/B/M)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "Semis",
+        "points": 0.75
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "B Bronze Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 37.25,
+    "avg_pts": 5.32
+  },
+  {
     "name": "Baker, John and McEowen, Brianna",
     "results": [
       {
@@ -12690,19 +13218,6 @@
       {
         "comp_name": "NYDF 2019",
         "info": "L-A American Rhythm Bronze Scholarship (C/R/SW)",
-        "place": "6",
-        "points": 5.25
-      }
-    ],
-    "total_pts": 5.25,
-    "avg_pts": 5.25
-  },
-  {
-    "name": "Fieldman, Elaine and Kish, Blake",
-    "results": [
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "ProAm Closed Bronze Scholarship SR Amer. Rhythm (CC,R,SW)",
         "place": "6",
         "points": 5.25
       }
@@ -13154,41 +13669,47 @@
     "avg_pts": 5.1
   },
   {
-    "name": "Ames, Natalie and Makhaye, Senzo",
+    "name": "Ames, Brian and Strojek-Maguire, Agnieszka",
     "results": [
       {
-        "comp_name": "Florida Superstars",
-        "info": "L-C Bronze Closed American Rhythm 2 Dance Championship(C/R)",
+        "comp_name": "NYDF 2019",
+        "info": "L-SR American Rhythm Bronze Championship (C/R/SW)",
+        "place": "Semis",
+        "points": 0.8
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "G-C Gentlemen's American Rhythm Bronze Championship (C/R/SW)",
+        "place": "3",
+        "points": 5.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "L-C American Rhythm Bronze Scholarship (C/R/SW)",
+        "place": "quarters",
+        "points": 2.45
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "G-C Bronze Closed Rhythm Championships(CC/R/SW)",
         "place": "1",
         "points": 6.0
       },
       {
-        "comp_name": "Florida Superstars",
-        "info": "L-C Bronze American Rhythm Dancesport Closed Championship(C/R/SW/B/M)",
-        "place": "3",
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Gents Only Closed Rhythm Championships(CC/R/SW)",
+        "place": "2",
         "points": 3.5
       },
       {
-        "comp_name": "Florida Superstars",
-        "info": "L-C American Rhythm Dancesport Series(C/R/SW/B/M)",
-        "place": "3",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "info": "L-C Bronze Closed American Rhythm Scholarship(C/R/SW/B/M)",
-        "place": "2",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Florida Superstars",
-        "info": "L-C Bronze Open American Rhythm 3 Dance Championship(C/R/SW)",
-        "place": "3",
-        "points": 5.25
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "4",
+        "points": 12.5
       }
     ],
-    "total_pts": 25.25,
-    "avg_pts": 5.05
+    "total_pts": 30.25,
+    "avg_pts": 5.04
   },
   {
     "name": "Firlus, Tracey and Pruitt, Jared",
@@ -13428,25 +13949,6 @@
     "avg_pts": 4.88
   },
   {
-    "name": "Cusick, Barbara and Lopez, Jesse",
-    "results": [
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "ProAm Closed Bronze Scholarship C Amer. Rhythm (CC,R,SW)",
-        "place": "Semis",
-        "points": 0.75
-      },
-      {
-        "comp_name": "Nashville Starz Dance Spectacular",
-        "info": "ProAm Closed Bronze Scholarship B Amer. Rhythm (CC,R,SW)",
-        "place": "2",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 9.75,
-    "avg_pts": 4.88
-  },
-  {
     "name": "Ford, April and Wayne, Christopher",
     "results": [
       {
@@ -13660,6 +14162,25 @@
     "avg_pts": 4.5
   },
   {
+    "name": "Stetz, Saundra and MacAuley, Jim",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-SR Bronze Closed Rhythm Championships(CC/R/SW)",
+        "place": "3",
+        "points": 5.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": " DCT Senior Bronze Rhythm Scholarhsip(CC/R/SW)",
+        "place": "5",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 9.0,
+    "avg_pts": 4.5
+  },
+  {
     "name": "Ball, Sarah and Koguashvili, Gigo",
     "results": [
       {
@@ -13743,6 +14264,25 @@
     "avg_pts": 4.38
   },
   {
+    "name": "Williamson, Abby and Lopez, Jesse",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "A Bronze Closed Rhythm Championships(CC/R/SW)",
+        "place": "3",
+        "points": 3.5
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "A Bronze Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "3",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 8.75,
+    "avg_pts": 4.38
+  },
+  {
     "name": "Baker, Callie and Kohlhaas, Kris",
     "results": [
       {
@@ -13791,6 +14331,37 @@
     ],
     "total_pts": 13.0,
     "avg_pts": 4.33
+  },
+  {
+    "name": "Loving, Ada and Munson, Todd",
+    "results": [
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-SR2 Bronze Rhythm (C/R/SW) Closed Multi-Dance Challenge\r",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "L-SR Pro/Am DSS Closed Bronze Rhythm Scholarship (C/R/SW)\r",
+        "place": "Semis",
+        "points": 2.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Pro/Am Rhythm Closed Scholarship (C/R/SW)",
+        "place": "Semis",
+        "points": 0.25
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": " DCT Senior Bronze Rhythm Scholarhsip(CC/R/SW)",
+        "place": "4",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 17.25,
+    "avg_pts": 4.31
   },
   {
     "name": "Axilrod, Peter and Gray, Anne",
@@ -14246,6 +14817,19 @@
     "avg_pts": 3.5
   },
   {
+    "name": "Bagwell, Joyce and Munson, Todd",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-SR Bronze Closed Rhythm Championships(CC/R/SW)",
+        "place": "4",
+        "points": 3.5
+      }
+    ],
+    "total_pts": 3.5,
+    "avg_pts": 3.5
+  },
+  {
     "name": "Cassidy, Vincent and Toth, Maggie",
     "results": [
       {
@@ -14304,6 +14888,19 @@
         "comp_name": "Texas Challenge DanceSport",
         "info": "L-B Closed Bronze Pro/Am American Rhythm 3 Dance Championship (CC/R/SW)",
         "place": "4",
+        "points": 3.5
+      }
+    ],
+    "total_pts": 3.5,
+    "avg_pts": 3.5
+  },
+  {
+    "name": "Pashea, Carol and Makhaye, Senzo",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-B DCT Newcomer Rhythm Scholarship (CC/R/SW)",
+        "place": "2",
         "points": 3.5
       }
     ],
@@ -14589,31 +15186,6 @@
     ],
     "total_pts": 5.85,
     "avg_pts": 2.92
-  },
-  {
-    "name": "Ames, Brian and Strojek-Maguire, Agnieszka",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-SR American Rhythm Bronze Championship (C/R/SW)",
-        "place": "Semis",
-        "points": 0.8
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "G-C Gentlemen's American Rhythm Bronze Championship (C/R/SW)",
-        "place": "3",
-        "points": 5.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "L-C American Rhythm Bronze Scholarship (C/R/SW)",
-        "place": "quarters",
-        "points": 2.45
-      }
-    ],
-    "total_pts": 8.25,
-    "avg_pts": 2.75
   },
   {
     "name": "Cary, Larry and Ledogar, Karolina",
@@ -15561,12 +16133,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Annable, Kristine and Clark, Gage",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Anthony, Steve and Reni, Gioia",
     "results": [],
     "total_pts": 0,
@@ -15742,12 +16308,6 @@
   },
   {
     "name": "Bales, Nathan and Nielsen, Rebecca",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Ball, Ali and Francoviglia, Johnny",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -16078,12 +16638,6 @@
   },
   {
     "name": "Bird, Judy and Drobny, Mario",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Bishop, Rebecca and Makhaye, Senzo",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -17541,12 +18095,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Dikeman, Carol and Labrado, Rafael",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Dikeman, Deanna and Pavlov, Atanas",
     "results": [],
     "total_pts": 0,
@@ -18141,12 +18689,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Frager, Jared and Wilder, Maysen",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Francoviglia, Rene and Francoviglia, Johnny",
     "results": [],
     "total_pts": 0,
@@ -18286,12 +18828,6 @@
   },
   {
     "name": "Gackenheimer, Lois and Rakita, Danilo",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Gagnon, Karen and Hernandez, Peter",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -19606,12 +20142,6 @@
   },
   {
     "name": "Kakade, Neera and Pasqualetto, Derek",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Kangas, Deborah and Francoviglia, Johnny",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -22107,12 +22637,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Pashea, Carol and Makhaye, Senzo",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Patel, Nilam and Perez, Heriberto",
     "results": [],
     "total_pts": 0,
@@ -23649,12 +24173,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Smith, Nancy and Hopkins, Hays",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Smith, Patricia and Ivanov, Alexander",
     "results": [],
     "total_pts": 0,
@@ -23668,12 +24186,6 @@
   },
   {
     "name": "Snyder, Ellen and Padlivakhin, Andrei",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Solomon, Nancy and Francoviglia, Johnny",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -23776,12 +24288,6 @@
   },
   {
     "name": "Springer, Lois and Korshunov, Sergey",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Spurlock, Yvonne and Labrado, Rafael",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -23998,12 +24504,6 @@
   },
   {
     "name": "Stryzeck, Joy and Johnson, Dusty",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Stuart, Jana and Labrado, Rafael",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -24262,12 +24762,6 @@
   },
   {
     "name": "Thomas, Sharon and Hummel, DJ",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Thompson, Faith and Nyemchek, David",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0

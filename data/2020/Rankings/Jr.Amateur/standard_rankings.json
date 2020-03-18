@@ -1,5 +1,75 @@
 [
   {
+    "name": "Ford, Parley and Thompson, Elisabeth",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "1",
+        "points": 55.0
+      }
+    ],
+    "total_pts": 55.0,
+    "avg_pts": 55.0
+  },
+  {
+    "name": "Baker, Bronson and Haslam, Jiaxin",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "3",
+        "points": 35.75
+      }
+    ],
+    "total_pts": 35.75,
+    "avg_pts": 35.75
+  },
+  {
+    "name": "Fox, Blake and Ascione, Nicole",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-Y Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "2",
+        "points": 44.0
+      }
+    ],
+    "total_pts": 59.0,
+    "avg_pts": 29.5
+  },
+  {
+    "name": "Bleykhman, Nickolas and Joly, Alissa",
+    "results": [
+      {
+        "comp_name": "Florida Superstars",
+        "info": "AC-JNR2 International Ballroom Open Championship(W/T/VW/F/Q)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 40.0
+      }
+    ],
+    "total_pts": 82.0,
+    "avg_pts": 27.33
+  },
+  {
     "name": "Smits, Kristers and Shlimovich, Elizabeth",
     "results": [
       {
@@ -19,47 +89,17 @@
     "avg_pts": 25.0
   },
   {
-    "name": "Kolmykov, Leo and Andreyev, Daria",
+    "name": "Valentine, Matthew and Wanlass, Emily",
     "results": [
       {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR1 Open Championship International Ballroom  (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR JR International Ballroom Scholarships (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-PT2 Closed International Ballroom Championships (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT1&2 Pre-Teen Closed International Ballroom Grand Slam (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 25.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J1 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 24.0
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "5",
+        "points": 22.0
       }
     ],
-    "total_pts": 144.0,
-    "avg_pts": 24.0
+    "total_pts": 22.0,
+    "avg_pts": 22.0
   },
   {
     "name": "Danchev, Sava and Rainyte, Emma",
@@ -85,44 +125,6 @@
     ],
     "total_pts": 65.0,
     "avg_pts": 21.67
-  },
-  {
-    "name": "Bleykhman, Nickolas and Joly, Alissa",
-    "results": [
-      {
-        "comp_name": "Florida Superstars",
-        "info": "AC-JNR2 International Ballroom Open Championship(W/T/VW/F/Q)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 30.0
-      }
-    ],
-    "total_pts": 42.0,
-    "avg_pts": 21.0
-  },
-  {
-    "name": "Novikov, Daniel and Vishnevskiy, Mishella",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC-Y Amateur Junior I Ballroom Championship, Fordney (W/T/VW/FT/QS)\r",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC-Y Amateur Junior Ballroom Grand Slam Scholarship, Fordney (W/T/VW/FT/QS)\r",
-        "place": "1",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 40.0,
-    "avg_pts": 20.0
   },
   {
     "name": "Pavlyk, Andrew and Sydor, Melania",
@@ -188,6 +190,161 @@
     "avg_pts": 19.5
   },
   {
+    "name": "Bankhead, Porter and McAllister, Ashlyn",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "6",
+        "points": 19.25
+      }
+    ],
+    "total_pts": 19.25,
+    "avg_pts": 19.25
+  },
+  {
+    "name": "Zakirzyanov, Kirill and Snitko, Valerie",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR1 Open Championship International Ballroom  (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-PT2 Closed International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT1&2 Pre-Teen Closed International Ballroom Grand Slam (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 30.0
+      }
+    ],
+    "total_pts": 94.25,
+    "avg_pts": 18.85
+  },
+  {
+    "name": "Zajac, Karol and Zajaczkowski, Julia",
+    "results": [
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "AC-YTH Junior Amateur Open Gold Ballroom 5-Dance (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 18.75
+      }
+    ],
+    "total_pts": 18.75,
+    "avg_pts": 18.75
+  },
+  {
+    "name": "Kolmykov, Leo and Andreyev, Daria",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR1 Open Championship International Ballroom  (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR JR International Ballroom Scholarships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-PT2 Closed International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT1&2 Pre-Teen Closed International Ballroom Grand Slam (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 25.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J1 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.3
+      }
+    ],
+    "total_pts": 144.6,
+    "avg_pts": 18.07
+  },
+  {
+    "name": "Kuznetsov, Eric and Feldman, Isabelle",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR2 Open Championship International Ballroom  (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR JR International Ballroom Scholarships (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 1.1
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "2",
+        "points": 32.0
+      }
+    ],
+    "total_pts": 88.85,
+    "avg_pts": 17.77
+  },
+  {
     "name": "Zaytsev, Nathan and Mugin, Annika",
     "results": [
       {
@@ -249,122 +406,28 @@
         "info": "AC-J1 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
         "place": "1",
         "points": 30.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 2",
+        "points": 3.85
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
       }
     ],
-    "total_pts": 190.25,
-    "avg_pts": 19.02
-  },
-  {
-    "name": "Zajac, Karol and Zajaczkowski, Julia",
-    "results": [
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "AC-YTH Junior Amateur Open Gold Ballroom 5-Dance (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 18.75
-      }
-    ],
-    "total_pts": 18.75,
-    "avg_pts": 18.75
-  },
-  {
-    "name": "Kuznetsov, Eric and Feldman, Isabelle",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR2 Open Championship International Ballroom  (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR JR International Ballroom Scholarships (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 16.25
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 19.5
-      }
-    ],
-    "total_pts": 55.75,
-    "avg_pts": 18.58
-  },
-  {
-    "name": "Fridman, Ilan and Zarkhin, Zlata",
-    "results": [
-      {
-        "comp_name": "Chicago All Stars Dancesport",
-        "info": "AC-JR Open Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 12.5
-      },
-      {
-        "comp_name": "Chicago All Stars Dancesport",
-        "info": "AC-J1 Fordney Foundation Intl Ballroom Open Championship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "Chicago All Stars Dancesport",
-        "info": "AC-JR Open Ballroom Grand Slam (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "AC-J1 Junior Amateur Open Gold Ballroom 5-Dance (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 22.5
-      },
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "AC-J1 Open Fordney Foundation Dancesport Series International Ballroom Best of the Best(W/T/VW/F/Q)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "AC-J2 Open Fordney Foundation Dancesport Series International Ballroom Best of the Best(W/T/VW/F/Q)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "AC-J1 Junior Amateur Open Ballroom Scholarship (W/T/VW/FT/QS)",
-        "place": "1",
-        "points": 22.5
-      }
-    ],
-    "total_pts": 121.5,
-    "avg_pts": 17.36
-  },
-  {
-    "name": "Budagovskiy, Kirill and Martirossian, Ani",
-    "results": [
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "AC-J2 Open Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR JR International Ballroom Scholarships (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 20.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "6",
-        "points": 10.5
-      }
-    ],
-    "total_pts": 50.5,
-    "avg_pts": 16.83
+    "total_pts": 224.5,
+    "avg_pts": 17.27
   },
   {
     "name": "Sick, Alexander and Khoroshevtseva, Alena",
@@ -411,37 +474,6 @@
     "avg_pts": 16.25
   },
   {
-    "name": "Zakirzyanov, Kirill and Snitko, Valerie",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR1 Open Championship International Ballroom  (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-PT2 Closed International Ballroom Championships (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 20.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 16.25
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT1&2 Pre-Teen Closed International Ballroom Grand Slam (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 20.0
-      }
-    ],
-    "total_pts": 64.25,
-    "avg_pts": 16.06
-  },
-  {
     "name": "Matusovsky, Matthew and Klavansky, Nicole",
     "results": [
       {
@@ -474,6 +506,49 @@
     "avg_pts": 15.75
   },
   {
+    "name": "Moldavsky, Zorik and Bankova, Alice",
+    "results": [
+      {
+        "comp_name": "California Chic Classic 2020",
+        "info": "AC-JR Junior International Ballroom  Scholarship  (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 17.5
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-JR2 Ballroom 5 Dance (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-Y Youth Open Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 8.75
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-Y JR 2 Open Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 8.75
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "3",
+        "points": 26.0
+      }
+    ],
+    "total_pts": 94.0,
+    "avg_pts": 15.67
+  },
+  {
     "name": "Lozovnoy, Mark and Lozovnoy, Nina",
     "results": [
       {
@@ -493,24 +568,11 @@
     "avg_pts": 15.38
   },
   {
-    "name": "Fox, Blake and Ascione, Nicole",
+    "name": "Bezzant, Matthew and Keck, Serena",
     "results": [
       {
-        "comp_name": "NYDF 2019",
-        "info": "AC-Y Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 15.0,
-    "avg_pts": 15.0
-  },
-  {
-    "name": "Karasik, Jacob and Kwan, Jaslyn",
-    "results": [
-      {
-        "comp_name": "City Lights Open",
-        "info": "AC-PT2 Pre Teen 2 Closed Ballroom(W/T/VW/FT/QS)",
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "AC-Y Amateur Open Int'l Ballroom  (W/T/VW/F/Q)\r",
         "place": "1",
         "points": 15.0
       }
@@ -532,17 +594,23 @@
     "avg_pts": 15.0
   },
   {
-    "name": "Bezzant, Matthew and Keck, Serena",
+    "name": "Glukhovskiy, Yanni and Seleznyova, Julia",
     "results": [
       {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "AC-Y Amateur Open Int'l Ballroom  (W/T/VW/F/Q)\r",
-        "place": "1",
-        "points": 15.0
+        "comp_name": "NYDF 2019",
+        "info": "AC-Y Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 2.1
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "4",
+        "points": 27.5
       }
     ],
-    "total_pts": 15.0,
-    "avg_pts": 15.0
+    "total_pts": 29.6,
+    "avg_pts": 14.8
   },
   {
     "name": "Kolovyansky, Samuel and Kolovyansky, Alexis",
@@ -582,10 +650,53 @@
         "info": "AC-J1 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
         "place": "4",
         "points": 15.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "4",
+        "points": 15.0
       }
     ],
-    "total_pts": 87.0,
-    "avg_pts": 14.5
+    "total_pts": 102.0,
+    "avg_pts": 14.57
+  },
+  {
+    "name": "Goncharov, Aleksiy and Shyvilka, Hanna",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR2 Pre-Championship International Ballroom 4-Dance  (W/T/F/Q)",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR2 Open Championship International Ballroom  (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J2 Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "4",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 72.0,
+    "avg_pts": 14.4
   },
   {
     "name": "Zhukov, Yegor and Cherkas, Adyson",
@@ -643,10 +754,100 @@
         "info": "AC-J1 Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
         "place": "7",
         "points": 4.5
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "7",
+        "points": 9.0
       }
     ],
-    "total_pts": 124.25,
-    "avg_pts": 13.81
+    "total_pts": 157.25,
+    "avg_pts": 14.3
+  },
+  {
+    "name": "Liu, Brian and Gorokhov, Lily",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "2",
+        "points": 14.0
+      }
+    ],
+    "total_pts": 14.0,
+    "avg_pts": 14.0
+  },
+  {
+    "name": "Fisher, Talan and Brunson, Mina",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "Semis",
+        "points": 13.75
+      }
+    ],
+    "total_pts": 13.75,
+    "avg_pts": 13.75
+  },
+  {
+    "name": "Larsen, Joshua and Huston, Savannah",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "Semis",
+        "points": 13.75
+      }
+    ],
+    "total_pts": 13.75,
+    "avg_pts": 13.75
+  },
+  {
+    "name": "Leonard, Jack and Gunnell, Tiawna",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "Semis",
+        "points": 13.75
+      }
+    ],
+    "total_pts": 13.75,
+    "avg_pts": 13.75
+  },
+  {
+    "name": "Shepherd, Maklain and Davis, Maddison",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "Semis",
+        "points": 13.75
+      }
+    ],
+    "total_pts": 13.75,
+    "avg_pts": 13.75
+  },
+  {
+    "name": "Turner, Casey and Yardley, Jacie",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "Semis",
+        "points": 13.75
+      }
+    ],
+    "total_pts": 13.75,
+    "avg_pts": 13.75
   },
   {
     "name": "Koniecko, Adam and Pawlusiewicz, Maya",
@@ -668,41 +869,65 @@
     "avg_pts": 13.62
   },
   {
-    "name": "Moldavsky, Zorik and Bankova, Alice",
+    "name": "Fridman, Ilan and Zarkhin, Zlata",
     "results": [
       {
-        "comp_name": "California Chic Classic 2020",
-        "info": "AC-JR Junior International Ballroom  Scholarship  (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 17.5
+        "comp_name": "Chicago All Stars Dancesport",
+        "info": "AC-JR Open Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 12.5
       },
       {
-        "comp_name": "City Lights Open",
-        "info": "AC-JR2 Ballroom 5 Dance (W/T/VW/F/Q)",
+        "comp_name": "Chicago All Stars Dancesport",
+        "info": "AC-J1 Fordney Foundation Intl Ballroom Open Championship (W/T/VW/F/Q)",
         "place": "2",
-        "points": 9.0
+        "points": 14.0
       },
       {
-        "comp_name": "City Lights Open",
-        "info": "AC-Y Youth Open Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 8.75
+        "comp_name": "Chicago All Stars Dancesport",
+        "info": "AC-JR Open Ballroom Grand Slam (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 10.0
       },
       {
-        "comp_name": "City Lights Open",
-        "info": "AC-Y JR 2 Open Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 8.75
+        "comp_name": "Indiana Challenge",
+        "info": "AC-J1 Junior Amateur Open Gold Ballroom 5-Dance (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 22.5
       },
       {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 24.0
+        "comp_name": "Indiana Challenge",
+        "info": "AC-J1 Open Fordney Foundation Dancesport Series International Ballroom Best of the Best(W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "AC-J2 Open Fordney Foundation Dancesport Series International Ballroom Best of the Best(W/T/VW/F/Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "AC-J1 Junior Amateur Open Ballroom Scholarship (W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 22.5
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
       }
     ],
-    "total_pts": 68.0,
-    "avg_pts": 13.6
+    "total_pts": 122.2,
+    "avg_pts": 13.58
   },
   {
     "name": "Zajac, Karol and Kolodziejczyk, Olivia",
@@ -761,111 +986,6 @@
     "avg_pts": 13.56
   },
   {
-    "name": "de la Rosa, Brando and Saidkariev, Naeema",
-    "results": [
-      {
-        "comp_name": "California Chic Classic 2020",
-        "info": "AC-PT 2 Pre-Teen 2 Pre-Champ International Ballroom (W/T/Q)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "California Chic Classic 2020",
-        "info": "AC-PT 2 Pre-Teen 2 International Ballroom Scholarship (W/T/F/Q)",
-        "place": "2",
-        "points": 17.5
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC-Y Amateur PreTeen II PreChamp Ballroom (W/T/QS)\r",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC-Y Amateur PreTeen II Closed Ballroom Championship, Fordney (W/T/VW/FT/QS)\r",
-        "place": "3",
-        "points": 9.75
-      }
-    ],
-    "total_pts": 54.25,
-    "avg_pts": 13.56
-  },
-  {
-    "name": "Goncharov, Aleksiy and Shyvilka, Hanna",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR2 Pre-Championship International Ballroom 4-Dance  (W/T/F/Q)",
-        "place": "2",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR2 Open Championship International Ballroom  (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J2 Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 52.0,
-    "avg_pts": 13.0
-  },
-  {
-    "name": "Uzalp, Deniz and Storchevaya, Katya",
-    "results": [
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "AC-PT2 Open Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "AC-PT2 Closed Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 9.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-PT2 Closed International Ballroom Championships (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 16.25
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-PT2 PT2 Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 18.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 10.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT1&2 Pre-Teen Closed International Ballroom Grand Slam (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 12.5
-      }
-    ],
-    "total_pts": 77.75,
-    "avg_pts": 12.96
-  },
-  {
     "name": "Krive, Daniel and Anbainder, Maya",
     "results": [
       {
@@ -915,35 +1035,60 @@
     "avg_pts": 12.86
   },
   {
-    "name": "Chen, Brandon and Moudry, Isabella",
+    "name": "Budagovskiy, Kirill and Martirossian, Ani",
     "results": [
       {
-        "comp_name": "City Lights Open",
-        "info": "AC-PT1 Pre Teen 1 Closed Ballroom(W/T/VW/FT/QS)",
+        "comp_name": "Boston Dancesport Cup",
+        "info": "AC-J2 Open Championship (W/T/VW/F/Q)",
         "place": "1",
-        "points": 11.25
+        "points": 20.0
       },
       {
-        "comp_name": "City Lights Open",
-        "info": "AC-PT1 Pre Teen 1 Closed Ballroom(W/T/FT/QS)",
-        "place": "1",
-        "points": 13.5
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC-Y Amateur PreTeen I Closed Ballroom Championship, Fordney (W/T/FT/QS)\r",
-        "place": "1",
-        "points": 13.5
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC-Y Amateur PreTeen II Closed Ballroom Championship, Fordney (W/T/VW/FT/QS)\r",
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR JR International Ballroom Scholarships (W/T/VW/F/Q)",
         "place": "2",
-        "points": 12.0
+        "points": 20.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
       }
     ],
-    "total_pts": 50.25,
-    "avg_pts": 12.56
+    "total_pts": 50.9,
+    "avg_pts": 12.72
+  },
+  {
+    "name": "Mattos, Anthony and Kats, Sarah",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC-Y Amateur Junior II Ballroom Championship, Fordney (W/T/VW/FT/QS)\r",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC-Y Amateur Junior Ballroom Grand Slam Scholarship, Fordney (W/T/VW/FT/QS)\r",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "5",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 38.0,
+    "avg_pts": 12.67
   },
   {
     "name": "Matusovskiy, Matthew and Klavansky, Nicole",
@@ -965,90 +1110,23 @@
     "avg_pts": 12.5
   },
   {
-    "name": "Parrot, David and Pravdin, Genna",
+    "name": "Matthew, Kai and Denysovets, Vlada",
     "results": [
       {
-        "comp_name": "City Lights Open",
-        "info": "AC-PT2 Pre Teen 2 Closed Ballroom(W/T/QS)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "City Lights Open",
-        "info": "AC-PT2 Pre Teen 2 Closed Ballroom(W/T/FT/QS)",
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
         "place": "2",
-        "points": 12.0
+        "points": 24.0
       },
       {
-        "comp_name": "City Lights Open",
-        "info": "AC-PT2 Pre Teen 2 Closed Ballroom(W/T/VW/FT/QS)",
-        "place": "3",
-        "points": 9.75
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
       }
     ],
-    "total_pts": 36.75,
-    "avg_pts": 12.25
-  },
-  {
-    "name": "Berg, Jake and Gulchin, Julia",
-    "results": [
-      {
-        "comp_name": "California Chic Classic 2020",
-        "info": "AC-JR Junior Pre-Champ International Ballroom (W/T/Q)",
-        "place": "1",
-        "points": 13.5
-      },
-      {
-        "comp_name": "California Chic Classic 2020",
-        "info": "AC-JR Junior International Ballroom  Scholarship  (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 12.5
-      },
-      {
-        "comp_name": "City Lights Open",
-        "info": "AC-JR1 JR 1 Pre-Champ Ballroom (W/T/QS)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "City Lights Open",
-        "info": "AC-JR1 Ballroom 5 Dance (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 7.5
-      },
-      {
-        "comp_name": "City Lights Open",
-        "info": "AC-JR2 JR 2 Pre-Champ Ballroom (W/T/QS)",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "City Lights Open",
-        "info": "AC-Y JR 1 Open Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 16.25
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J1 Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J2 Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
-        "place": "2",
-        "points": 12.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J1 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 109.0,
-    "avg_pts": 12.11
+    "total_pts": 24.4,
+    "avg_pts": 12.2
   },
   {
     "name": "Kalenyuk, Oleksandr and Sarram, Ava",
@@ -1109,65 +1187,139 @@
     "avg_pts": 12.0
   },
   {
-    "name": "Makogon, Lukas and Kreczman, Amelia",
+    "name": "Mingioni, Max and Estrina, Zoe",
     "results": [
       {
-        "comp_name": "The Snow Ball 2020",
-        "info": "YY-J1 PreChamp 3-Dance Ballroom (W/T/Q)",
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-PT2 Closed International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-PT1 Closed International Ballroom Championships (W/T/VW/F/Q)",
         "place": "1",
         "points": 13.5
       },
       {
-        "comp_name": "The Snow Ball 2020",
-        "info": "YY-J1 Open Fordney Fdtn 5-Dance Ballroom (W/T/VW/F/Q)",
+        "comp_name": "Chicago All Stars Dancesport",
+        "info": "AC-PT Closed Ballroom Grand Slam (W/T/VW/F/Q)",
         "place": "1",
-        "points": 18.0
+        "points": 11.25
       },
       {
-        "comp_name": "The Snow Ball 2020",
-        "info": "YY-J2 Open Fordney Fdtn 5-Dance Ballroom (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 12.0
+        "comp_name": "Chicago All Stars Dancesport",
+        "info": "AC-PT1 Fordney Foundation Intl Ballroom Closed Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 11.25
       },
       {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR2 Pre-Championship International Ballroom 4-Dance  (W/T/F/Q)",
-        "place": "3",
-        "points": 5.25
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR2 Open Championship International Ballroom  (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 8.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR JR International Ballroom Scholarships (W/T/VW/F/Q)",
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
         "place": "8",
         "points": 6.25
       },
       {
-        "comp_name": "Chicago All Stars Dancesport",
-        "info": "AC-JR Open Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 16.25
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT1&2 Pre-Teen Closed International Ballroom Grand Slam (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 4.25
       },
       {
-        "comp_name": "Chicago All Stars Dancesport",
-        "info": "AC-J2 Fordney Foundation Intl Ballroom Open Championship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 14.0
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT1 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 13.5
       },
       {
-        "comp_name": "Chicago All Stars Dancesport",
-        "info": "AC-JR Open Ballroom Grand Slam (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 13.0
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "4",
+        "points": 15.0
       }
     ],
-    "total_pts": 106.25,
+    "total_pts": 107.5,
+    "avg_pts": 11.94
+  },
+  {
+    "name": "Parrot, David and Pravdin, Genna",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-PT2 Pre Teen 2 Closed Ballroom(W/T/QS)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-PT2 Pre Teen 2 Closed Ballroom(W/T/FT/QS)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-PT2 Pre Teen 2 Closed Ballroom(W/T/VW/FT/QS)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "6",
+        "points": 10.5
+      }
+    ],
+    "total_pts": 47.25,
     "avg_pts": 11.81
+  },
+  {
+    "name": "Dorfman, Samuel Nicholas and Rakov, Avita",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR1 Open Championship International Ballroom  (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR JR International Ballroom Scholarships (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J1 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 6.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 70.5,
+    "avg_pts": 11.75
   },
   {
     "name": "Berenshteyn, Maksim and Petrenko, Katerina",
@@ -1195,31 +1347,6 @@
     "avg_pts": 11.75
   },
   {
-    "name": "Kalachev, Matvey and Markova, Sasha",
-    "results": [
-      {
-        "comp_name": "City Lights Open",
-        "info": "AC-JR1 Ballroom 5 Dance (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "City Lights Open",
-        "info": "AC-Y JR 1 Open Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 12.5
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC-Y Amateur Junior I Ballroom Championship, Fordney (W/T/VW/FT/QS)\r",
-        "place": "3",
-        "points": 13.0
-      }
-    ],
-    "total_pts": 35.25,
-    "avg_pts": 11.75
-  },
-  {
     "name": "Kaczmarski, Michael and Ludwiczewski, Veronica",
     "results": [
       {
@@ -1237,6 +1364,177 @@
     ],
     "total_pts": 23.5,
     "avg_pts": 11.75
+  },
+  {
+    "name": "Chin, Maxwell and Stein, Margarita",
+    "results": [
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "AC-J2 Open Championship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "AC-Y Open Championship (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR2 Open Championship International Ballroom  (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR JR International Ballroom Scholarships (W/T/VW/F/Q)",
+        "place": "6",
+        "points": 8.75
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 7.5
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "6",
+        "points": 14.0
+      }
+    ],
+    "total_pts": 70.25,
+    "avg_pts": 11.71
+  },
+  {
+    "name": "Uzalp, Deniz and Storchevaya, Katya",
+    "results": [
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "AC-PT2 Open Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "AC-PT2 Closed Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-PT2 Closed International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-PT2 PT2 Open Amateur International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT1&2 Pre-Teen Closed International Ballroom Grand Slam (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 92.75,
+    "avg_pts": 11.59
+  },
+  {
+    "name": "Berg, Jake and Gulchin, Julia",
+    "results": [
+      {
+        "comp_name": "California Chic Classic 2020",
+        "info": "AC-JR Junior Pre-Champ International Ballroom (W/T/Q)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "California Chic Classic 2020",
+        "info": "AC-JR Junior International Ballroom  Scholarship  (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 12.5
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-JR1 JR 1 Pre-Champ Ballroom (W/T/QS)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-JR1 Ballroom 5 Dance (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-JR2 JR 2 Pre-Champ Ballroom (W/T/QS)",
+        "place": "1",
+        "points": 11.25
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-Y JR 1 Open Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J1 Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J2 Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J1 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 127.0,
+    "avg_pts": 11.55
   },
   {
     "name": "Long, Misha and Bersten, Isabella",
@@ -1301,147 +1599,133 @@
     "avg_pts": 11.38
   },
   {
-    "name": "Chin, Maxwell and Stein, Margarita",
+    "name": "Billian, Dimitri and Lavko, Brittany",
     "results": [
       {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "AC-J2 Open Championship (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 14.0
-      },
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "AC-Y Open Championship (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
         "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR2 Open Championship International Ballroom  (W/T/VW/F/Q)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR JR International Ballroom Scholarships (W/T/VW/F/Q)",
+        "info": "AC-Y Open Championship International Ballroom  (W/T/VW/F/Q)",
         "place": "6",
-        "points": 8.75
+        "points": 7.0
       },
       {
         "comp_name": "NYDF 2019",
-        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "info": "AC-Y Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
+        "place": "2",
+        "points": 12.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
         "place": "Semis",
-        "points": 7.5
+        "points": 13.75
       }
     ],
-    "total_pts": 56.25,
-    "avg_pts": 11.25
+    "total_pts": 32.75,
+    "avg_pts": 10.92
   },
   {
-    "name": "Dorfman, Samuel Nicholas and Rakov, Avita",
+    "name": "de la Rosa, Brando and Saidkariev, Naeema",
     "results": [
       {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR1 Open Championship International Ballroom  (W/T/VW/F/Q)",
+        "comp_name": "California Chic Classic 2020",
+        "info": "AC-PT 2 Pre-Teen 2 Pre-Champ International Ballroom (W/T/Q)",
         "place": "2",
-        "points": 16.0
+        "points": 12.0
       },
       {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR JR International Ballroom Scholarships (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 12.5
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J1 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 45.0,
-    "avg_pts": 11.25
-  },
-  {
-    "name": "Abaya, Brandon and Kim, Nastya",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC-Y Amateur Junior I Ballroom Championship, Fordney (W/T/VW/FT/QS)\r",
-        "place": "5",
-        "points": 8.0
+        "comp_name": "California Chic Classic 2020",
+        "info": "AC-PT 2 Pre-Teen 2 International Ballroom Scholarship (W/T/F/Q)",
+        "place": "2",
+        "points": 17.5
       },
       {
         "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC-Y Amateur PreTeen II Closed Ballroom Championship, Fordney (W/T/VW/FT/QS)\r",
+        "info": "AC-Y Amateur PreTeen II PreChamp Ballroom (W/T/QS)\r",
         "place": "1",
         "points": 15.0
       },
       {
         "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC-Y Amateur PreTeen Ballroom Grand Slam Scholarship, Fordney (W/T/VW/FT/QS)\r",
-        "place": "2",
-        "points": 14.0
+        "info": "AC-Y Amateur PreTeen II Closed Ballroom Championship, Fordney (W/T/VW/FT/QS)\r",
+        "place": "3",
+        "points": 9.75
       },
       {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC-Y Amateur Junior Ballroom Grand Slam Scholarship, Fordney (W/T/VW/FT/QS)\r",
-        "place": "4",
-        "points": 7.0
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.3
       }
     ],
-    "total_pts": 44.0,
-    "avg_pts": 11.0
+    "total_pts": 54.55,
+    "avg_pts": 10.91
   },
   {
-    "name": "Mattos, Anthony and Kats, Sarah",
+    "name": "Makogon, Lukas and Kreczman, Amelia",
     "results": [
       {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC-Y Amateur Junior II Ballroom Championship, Fordney (W/T/VW/FT/QS)\r",
+        "comp_name": "The Snow Ball 2020",
+        "info": "YY-J1 PreChamp 3-Dance Ballroom (W/T/Q)",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "YY-J1 Open Fordney Fdtn 5-Dance Ballroom (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 18.0
+      },
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "YY-J2 Open Fordney Fdtn 5-Dance Ballroom (W/T/VW/F/Q)",
         "place": "2",
         "points": 12.0
       },
       {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC-Y Amateur Junior Ballroom Grand Slam Scholarship, Fordney (W/T/VW/FT/QS)\r",
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR2 Pre-Championship International Ballroom 4-Dance  (W/T/F/Q)",
         "place": "3",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 22.0,
-    "avg_pts": 11.0
-  },
-  {
-    "name": "Heyman, Leonardo and Kostanyan, Miya",
-    "results": [
+        "points": 5.25
+      },
       {
         "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-PT2 Closed International Ballroom Championships (W/T/VW/F/Q)",
+        "info": "AC-JR2 Open Championship International Ballroom  (W/T/VW/F/Q)",
         "place": "5",
-        "points": 10.0
+        "points": 8.0
       },
       {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 12.5
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR JR International Ballroom Scholarships (W/T/VW/F/Q)",
+        "place": "8",
+        "points": 6.25
       },
       {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT1&2 Pre-Teen Closed International Ballroom Grand Slam (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 10.0
+        "comp_name": "Chicago All Stars Dancesport",
+        "info": "AC-JR Open Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 16.25
+      },
+      {
+        "comp_name": "Chicago All Stars Dancesport",
+        "info": "AC-J2 Fordney Foundation Intl Ballroom Open Championship (W/T/VW/F/Q)",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "Chicago All Stars Dancesport",
+        "info": "AC-JR Open Ballroom Grand Slam (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
       }
     ],
-    "total_pts": 32.5,
-    "avg_pts": 10.83
+    "total_pts": 106.65,
+    "avg_pts": 10.67
   },
   {
     "name": "Affonso, Christopher and Hatleberg, Holly",
@@ -1457,6 +1741,25 @@
         "info": "Amateur PreChamp 4-Dance Events J2 Int'l Ballroom (W,T,F,Q)",
         "place": "1",
         "points": 9.0
+      }
+    ],
+    "total_pts": 21.0,
+    "avg_pts": 10.5
+  },
+  {
+    "name": "Payton, Samuel and Heinz, Ashley",
+    "results": [
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "AC-JR2 Amateur Pre-Champ Ballroom (W/T/Q)\r",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "AC-JR2 Amateur Open Int'l Ballroom  (W/T/VW/F/Q)\r",
+        "place": "1",
+        "points": 12.0
       }
     ],
     "total_pts": 21.0,
@@ -1501,72 +1804,47 @@
     "avg_pts": 10.5
   },
   {
-    "name": "Payton, Samuel and Heinz, Ashley",
+    "name": "Chen, Brandon and Moudry, Isabella",
     "results": [
       {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "AC-JR2 Amateur Pre-Champ Ballroom (W/T/Q)\r",
+        "comp_name": "City Lights Open",
+        "info": "AC-PT1 Pre Teen 1 Closed Ballroom(W/T/VW/FT/QS)",
         "place": "1",
-        "points": 9.0
+        "points": 11.25
       },
       {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "AC-JR2 Amateur Open Int'l Ballroom  (W/T/VW/F/Q)\r",
+        "comp_name": "City Lights Open",
+        "info": "AC-PT1 Pre Teen 1 Closed Ballroom(W/T/FT/QS)",
         "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC-Y Amateur PreTeen I Closed Ballroom Championship, Fordney (W/T/FT/QS)\r",
+        "place": "1",
+        "points": 13.5
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC-Y Amateur PreTeen II Closed Ballroom Championship, Fordney (W/T/VW/FT/QS)\r",
+        "place": "2",
         "points": 12.0
-      }
-    ],
-    "total_pts": 21.0,
-    "avg_pts": 10.5
-  },
-  {
-    "name": "Mingioni, Max and Estrina, Zoe",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-PT2 Closed International Ballroom Championships (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 12.5
       },
       {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-PT1 Closed International Ballroom Championships (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 13.5
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "3",
+        "points": 10.0
       },
       {
-        "comp_name": "Chicago All Stars Dancesport",
-        "info": "AC-PT Closed Ballroom Grand Slam (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "Chicago All Stars Dancesport",
-        "info": "AC-PT1 Fordney Foundation Intl Ballroom Closed Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 11.25
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "8",
-        "points": 6.25
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT1&2 Pre-Teen Closed International Ballroom Grand Slam (W/T/VW/F/Q)",
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
         "place": "Semis",
-        "points": 4.25
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT1 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 13.5
+        "points": 2.4
       }
     ],
-    "total_pts": 72.5,
-    "avg_pts": 10.36
+    "total_pts": 62.65,
+    "avg_pts": 10.44
   },
   {
     "name": "Kuehn, Frankie and Simanovich, Valarie",
@@ -1586,6 +1864,37 @@
     ],
     "total_pts": 20.5,
     "avg_pts": 10.25
+  },
+  {
+    "name": "Novikov, Daniel and Vishnevskiy, Mishella",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC-Y Amateur Junior I Ballroom Championship, Fordney (W/T/VW/FT/QS)\r",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC-Y Amateur Junior Ballroom Grand Slam Scholarship, Fordney (W/T/VW/FT/QS)\r",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 40.7,
+    "avg_pts": 10.18
   },
   {
     "name": "Camaya, Jude and Reardon, Meghan",
@@ -1682,6 +1991,25 @@
     "avg_pts": 10.0
   },
   {
+    "name": "Kotlyar, Matthew and Kim, Chanelle",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 0.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "3",
+        "points": 19.5
+      }
+    ],
+    "total_pts": 19.75,
+    "avg_pts": 9.88
+  },
+  {
     "name": "Busche, Michael and Yalnin, Arielle",
     "results": [
       {
@@ -1737,19 +2065,6 @@
       {
         "comp_name": "California Chic Classic 2020",
         "info": "AC-JR Junior Silver/Gold Int'l Ballroom (W/T/Q)",
-        "place": "3",
-        "points": 9.75
-      }
-    ],
-    "total_pts": 9.75,
-    "avg_pts": 9.75
-  },
-  {
-    "name": "Evstigneev, Kristian and Shapsis, Alisa",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-Y Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
         "place": "3",
         "points": 9.75
       }
@@ -1832,68 +2147,6 @@
     "avg_pts": 9.64
   },
   {
-    "name": "Shtern, Daniel and Ayzerov, Avital",
-    "results": [
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "AC-J2 Open Championship (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 10.0
-      },
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "AC-J1 Open Championship (W/T/VW/F/Q)",
-        "place": "1",
-        "points": 12.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR1 Open Championship International Ballroom  (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR JR International Ballroom Scholarships (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 10.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J1 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 7.2
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 5.4
-      }
-    ],
-    "total_pts": 57.6,
-    "avg_pts": 9.6
-  },
-  {
-    "name": "Billian, Dimitri and Lavko, Brittany",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-Y Open Championship International Ballroom  (W/T/VW/F/Q)",
-        "place": "6",
-        "points": 7.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-Y Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
-        "place": "2",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 19.0,
-    "avg_pts": 9.5
-  },
-  {
     "name": "Palti, Jacob and Krzosek, Sophia",
     "results": [
       {
@@ -1971,6 +2224,19 @@
       }
     ],
     "total_pts": 36.0,
+    "avg_pts": 9.0
+  },
+  {
+    "name": "Badalbayev, Ilyah and Rabinovich, Ariana",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "7",
+        "points": 9.0
+      }
+    ],
+    "total_pts": 9.0,
     "avg_pts": 9.0
   },
   {
@@ -2052,6 +2318,37 @@
     "avg_pts": 9.0
   },
   {
+    "name": "Kalachev, Matvey and Markova, Sasha",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-JR1 Ballroom 5 Dance (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-Y JR 1 Open Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC-Y Amateur Junior I Ballroom Championship, Fordney (W/T/VW/FT/QS)\r",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.3
+      }
+    ],
+    "total_pts": 35.55,
+    "avg_pts": 8.89
+  },
+  {
     "name": "Ginzburg, Vlad and Brouillard, Eva",
     "results": [
       {
@@ -2102,25 +2399,6 @@
     "avg_pts": 8.75
   },
   {
-    "name": "Yankelevich, Tom and Folmer, Victoria",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "6",
-        "points": 8.75
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT1&2 Pre-Teen Closed International Ballroom Grand Slam (W/T/VW/F/Q)",
-        "place": "6",
-        "points": 8.75
-      }
-    ],
-    "total_pts": 17.5,
-    "avg_pts": 8.75
-  },
-  {
     "name": "Kowalik, Marcin and Nowak, Veronica",
     "results": [
       {
@@ -2132,6 +2410,61 @@
     ],
     "total_pts": 8.75,
     "avg_pts": 8.75
+  },
+  {
+    "name": "Shtern, Daniel and Ayzerov, Avital",
+    "results": [
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "AC-J2 Open Championship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "AC-J1 Open Championship (W/T/VW/F/Q)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR1 Open Championship International Ballroom  (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR JR International Ballroom Scholarships (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J1 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 7.2
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 5.4
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 68.5,
+    "avg_pts": 8.56
   },
   {
     "name": "Kois, Sebastian and Bugara, Karolina",
@@ -2151,6 +2484,173 @@
     ],
     "total_pts": 17.0,
     "avg_pts": 8.5
+  },
+  {
+    "name": "Goodrich, Justin and Wilcox, Eleanor",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "quarters",
+        "points": 8.25
+      }
+    ],
+    "total_pts": 8.25,
+    "avg_pts": 8.25
+  },
+  {
+    "name": "Gordon, Robert and Ripplinger, Kelli",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "quarters",
+        "points": 8.25
+      }
+    ],
+    "total_pts": 8.25,
+    "avg_pts": 8.25
+  },
+  {
+    "name": "Holyoak, Taylor and Johnson, Nikki",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "quarters",
+        "points": 8.25
+      }
+    ],
+    "total_pts": 8.25,
+    "avg_pts": 8.25
+  },
+  {
+    "name": "Horne, Bronson and Anderson, Paige",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "quarters",
+        "points": 8.25
+      }
+    ],
+    "total_pts": 8.25,
+    "avg_pts": 8.25
+  },
+  {
+    "name": "Horne, Carson and Baines, Chloe",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "quarters",
+        "points": 8.25
+      }
+    ],
+    "total_pts": 8.25,
+    "avg_pts": 8.25
+  },
+  {
+    "name": "Phillips, Jaxon and Hrouda, Nichole",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "quarters",
+        "points": 8.25
+      }
+    ],
+    "total_pts": 8.25,
+    "avg_pts": 8.25
+  },
+  {
+    "name": "Reynolds, Bentley and White, Xavonne",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "quarters",
+        "points": 8.25
+      }
+    ],
+    "total_pts": 8.25,
+    "avg_pts": 8.25
+  },
+  {
+    "name": "Rudshteyn, Bryan and Tsidulko, Elizabeth",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "quarters",
+        "points": 8.25
+      }
+    ],
+    "total_pts": 8.25,
+    "avg_pts": 8.25
+  },
+  {
+    "name": "Woolston, Bronson and Riffle, Rylie",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "quarters",
+        "points": 8.25
+      }
+    ],
+    "total_pts": 8.25,
+    "avg_pts": 8.25
+  },
+  {
+    "name": "Heyman, Leonardo and Kostanyan, Miya",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-PT2 Closed International Ballroom Championships (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 12.5
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT1&2 Pre-Teen Closed International Ballroom Grand Slam (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.3
+      }
+    ],
+    "total_pts": 32.8,
+    "avg_pts": 8.2
+  },
+  {
+    "name": "Evstigneev, Kristian and Shapsis, Alisa",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-Y Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 2",
+        "points": 6.6
+      }
+    ],
+    "total_pts": 16.35,
+    "avg_pts": 8.18
   },
   {
     "name": "Khelmer, Brian and Sherman, Emma",
@@ -2215,44 +2715,6 @@
     "avg_pts": 8.0
   },
   {
-    "name": "Novikov, Michael and Dragunov, Dasha",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC-Y Amateur PreTeen I Closed Ballroom Championship, Fordney (W/T/FT/QS)\r",
-        "place": "2",
-        "points": 9.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC-Y Amateur PreTeen Ballroom Grand Slam Scholarship, Fordney (W/T/VW/FT/QS)\r",
-        "place": "4",
-        "points": 7.0
-      }
-    ],
-    "total_pts": 16.0,
-    "avg_pts": 8.0
-  },
-  {
-    "name": "Rome, Mark and Zhukova, Olga",
-    "results": [
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "AC-J2 Open Championship (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 7.0
-      },
-      {
-        "comp_name": "Boston Dancesport Cup",
-        "info": "AC-J2 Pre-Champ (W/T/F/Q)",
-        "place": "1",
-        "points": 9.0
-      }
-    ],
-    "total_pts": 16.0,
-    "avg_pts": 8.0
-  },
-  {
     "name": "Medvid, Roman and Antonov, Veronica",
     "results": [
       {
@@ -2283,6 +2745,25 @@
     ],
     "total_pts": 15.75,
     "avg_pts": 7.88
+  },
+  {
+    "name": "Karasik, Jacob and Kwan, Jaslyn",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-PT2 Pre Teen 2 Closed Ballroom(W/T/VW/FT/QS)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.3
+      }
+    ],
+    "total_pts": 15.3,
+    "avg_pts": 7.65
   },
   {
     "name": "Meyerzon, Mark and Yudilevich, Mia",
@@ -2335,6 +2816,49 @@
     ],
     "total_pts": 7.5,
     "avg_pts": 7.5
+  },
+  {
+    "name": "Abaya, Brandon and Kim, Nastya",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC-Y Amateur Junior I Ballroom Championship, Fordney (W/T/VW/FT/QS)\r",
+        "place": "5",
+        "points": 8.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC-Y Amateur PreTeen II Closed Ballroom Championship, Fordney (W/T/VW/FT/QS)\r",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC-Y Amateur PreTeen Ballroom Grand Slam Scholarship, Fordney (W/T/VW/FT/QS)\r",
+        "place": "2",
+        "points": 14.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC-Y Amateur Junior Ballroom Grand Slam Scholarship, Fordney (W/T/VW/FT/QS)\r",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.3
+      }
+    ],
+    "total_pts": 44.6,
+    "avg_pts": 7.43
   },
   {
     "name": "Tartar, Sebastian and Prokop, Julia",
@@ -2450,47 +2974,23 @@
     "avg_pts": 7.12
   },
   {
-    "name": "Raksin, Arye and Mishuris, Simone",
+    "name": "Zenger, MaCade and Wilson, Sara",
     "results": [
       {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR1 Open Championship International Ballroom  (W/T/VW/F/Q)",
-        "place": "4",
-        "points": 10.0
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "quarters",
+        "points": 8.25
       },
       {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-JR JR International Ballroom Scholarships (W/T/VW/F/Q)",
-        "place": "7",
-        "points": 7.5
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J1 Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J2 Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J1 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
         "place": "Semis",
-        "points": 4.5
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 0.9
+        "points": 6.0
       }
     ],
-    "total_pts": 42.4,
-    "avg_pts": 7.07
+    "total_pts": 14.25,
+    "avg_pts": 7.12
   },
   {
     "name": "Krive, Aidan and Pazin, Daniela",
@@ -2527,25 +3027,6 @@
       }
     ],
     "total_pts": 35.0,
-    "avg_pts": 7.0
-  },
-  {
-    "name": "Braverman, Artem and Young, Allison",
-    "results": [
-      {
-        "comp_name": "City Lights Open",
-        "info": "AC-JR1 Ballroom 5 Dance (W/T/VW/F/Q)",
-        "place": "6",
-        "points": 5.25
-      },
-      {
-        "comp_name": "City Lights Open",
-        "info": "AC-Y JR 1 Open Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "6",
-        "points": 8.75
-      }
-    ],
-    "total_pts": 14.0,
     "avg_pts": 7.0
   },
   {
@@ -2612,6 +3093,25 @@
     "avg_pts": 6.3
   },
   {
+    "name": "Tran, Jericho and Philmore, Aurelia",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "quarters",
+        "points": 8.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 12.25,
+    "avg_pts": 6.12
+  },
+  {
     "name": "Ginzburg, Nikita and Vladimirov, Alissa",
     "results": [
       {
@@ -2631,6 +3131,19 @@
     "avg_pts": 6.12
   },
   {
+    "name": "Gardner, Lincoln and Waite, Paris",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 2",
+        "points": 6.05
+      }
+    ],
+    "total_pts": 6.05,
+    "avg_pts": 6.05
+  },
+  {
     "name": "Kernan, Joseph and Sinelnikov, Maya",
     "results": [
       {
@@ -2644,25 +3157,6 @@
         "info": "AC-Y Amateur PreTeen II Closed Ballroom Championship, Fordney (W/T/VW/FT/QS)\r",
         "place": "5",
         "points": 6.0
-      }
-    ],
-    "total_pts": 12.0,
-    "avg_pts": 6.0
-  },
-  {
-    "name": "Rabinovich, Paul and Ilieva, Raya",
-    "results": [
-      {
-        "comp_name": "City Lights Open",
-        "info": "AC-JR1 Ballroom 5 Dance (W/T/VW/F/Q)",
-        "place": "7",
-        "points": 4.5
-      },
-      {
-        "comp_name": "City Lights Open",
-        "info": "AC-Y JR 1 Open Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "7",
-        "points": 7.5
       }
     ],
     "total_pts": 12.0,
@@ -2734,6 +3228,19 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Judd, Caleb and Christensen, Kyra",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Kelley, Quentin and Ax, Katia",
     "results": [
       {
@@ -2773,65 +3280,48 @@
     "avg_pts": 6.0
   },
   {
-    "name": "Ghishan, Anthony and Vilderman, Maria",
+    "name": "Yankelevich, Tom and Folmer, Victoria",
     "results": [
       {
-        "comp_name": "California Chic Classic 2020",
-        "info": "AC-JR Junior Pre-Champ International Ballroom (W/T/Q)",
-        "place": "3",
-        "points": 5.25
-      },
-      {
-        "comp_name": "California Chic Classic 2020",
-        "info": "AC-JR Junior International Ballroom  Scholarship  (W/T/VW/F/Q)",
-        "place": "4",
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "6",
         "points": 8.75
       },
       {
-        "comp_name": "City Lights Open",
-        "info": "AC-JR1 JR 1 Pre-Champ Ballroom (W/T/QS)",
-        "place": "3",
-        "points": 9.75
-      },
-      {
-        "comp_name": "City Lights Open",
-        "info": "AC-JR1 Ballroom 5 Dance (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 6.0
-      },
-      {
-        "comp_name": "City Lights Open",
-        "info": "AC-Y JR 1 Open Ballroom Scholarship (W/T/VW/F/Q)",
-        "place": "5",
-        "points": 10.0
-      },
-      {
         "comp_name": "NYDF 2019",
-        "info": "AC-J1 Junior & Youth International Ballroom Novice (W/T/Q)",
-        "place": "2",
-        "points": 1.75
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J2 Junior & Youth International Ballroom Novice (W/T/Q)",
-        "place": "1",
-        "points": 4.5
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J1 Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
+        "info": "AC-PT1&2 Pre-Teen Closed International Ballroom Grand Slam (W/T/VW/F/Q)",
         "place": "6",
-        "points": 5.25
+        "points": 8.75
       },
       {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J1 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
         "place": "Semis",
-        "points": 1.2
+        "points": 0.3
       }
     ],
-    "total_pts": 52.45,
-    "avg_pts": 5.83
+    "total_pts": 17.8,
+    "avg_pts": 5.93
+  },
+  {
+    "name": "Humphrey, Jaxon and Bazinet, Zoe",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "quarters",
+        "points": 8.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 3.2
+      }
+    ],
+    "total_pts": 11.45,
+    "avg_pts": 5.72
   },
   {
     "name": "Potagal, Michael and Potagal, Margaret",
@@ -2865,6 +3355,31 @@
     "avg_pts": 5.7
   },
   {
+    "name": "Braverman, Artem and Young, Allison",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-JR1 Ballroom 5 Dance (W/T/VW/F/Q)",
+        "place": "6",
+        "points": 5.25
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-Y JR 1 Open Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "6",
+        "points": 8.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 17.0,
+    "avg_pts": 5.67
+  },
+  {
     "name": "Khelmer, Samuel and Guzman, Alisa",
     "results": [
       {
@@ -2884,42 +3399,109 @@
     "avg_pts": 5.62
   },
   {
-    "name": "Shishkin, Nikita and Neminov, Isabella",
+    "name": "Raksin, Arye and Mishuris, Simone",
     "results": [
       {
-        "comp_name": "California Chic Classic 2020",
-        "info": "AC-PT 2 Pre-Teen 2 Pre-Champ International Ballroom (W/T/Q)",
-        "place": "5",
-        "points": 6.0
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR1 Open Championship International Ballroom  (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 10.0
       },
       {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC-Y Amateur PreTeen 1 PreChamp Ballroom (W/T/QS)\r",
-        "place": "4",
-        "points": 5.25
-      }
-    ],
-    "total_pts": 11.25,
-    "avg_pts": 5.62
-  },
-  {
-    "name": "Shvartsman, Alex and Doliwa, Sophia",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-JR JR International Ballroom Scholarships (W/T/VW/F/Q)",
         "place": "7",
         "points": 7.5
       },
       {
         "comp_name": "NYDF 2019",
-        "info": "AC-PT1&2 Pre-Teen Closed International Ballroom Grand Slam (W/T/VW/F/Q)",
+        "info": "AC-J1 Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J2 Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J1 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
         "place": "Semis",
-        "points": 3.75
+        "points": 4.5
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 0.9
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 1.8
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
       }
     ],
-    "total_pts": 11.25,
-    "avg_pts": 5.62
+    "total_pts": 44.6,
+    "avg_pts": 5.58
+  },
+  {
+    "name": "Rome, Mark and Zhukova, Olga",
+    "results": [
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "AC-J2 Open Championship (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "Boston Dancesport Cup",
+        "info": "AC-J2 Pre-Champ (W/T/F/Q)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 16.4,
+    "avg_pts": 5.47
+  },
+  {
+    "name": "Novikov, Michael and Dragunov, Dasha",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC-Y Amateur PreTeen I Closed Ballroom Championship, Fordney (W/T/FT/QS)\r",
+        "place": "2",
+        "points": 9.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC-Y Amateur PreTeen Ballroom Grand Slam Scholarship, Fordney (W/T/VW/FT/QS)\r",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.3
+      }
+    ],
+    "total_pts": 16.3,
+    "avg_pts": 5.43
   },
   {
     "name": "Kuznetsov, Nick and Grijuc, Denisse",
@@ -2986,19 +3568,6 @@
     "avg_pts": 5.25
   },
   {
-    "name": "Kim, Arthur and Abaya, Ella",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC-Y Amateur PreTeen II PreChamp Ballroom (W/T/QS)\r",
-        "place": "6",
-        "points": 5.25
-      }
-    ],
-    "total_pts": 5.25,
-    "avg_pts": 5.25
-  },
-  {
     "name": "Rubashevsky, Danya and Cherenshchikova, Alice",
     "results": [
       {
@@ -3038,6 +3607,79 @@
     "avg_pts": 5.25
   },
   {
+    "name": "Ghishan, Anthony and Vilderman, Maria",
+    "results": [
+      {
+        "comp_name": "California Chic Classic 2020",
+        "info": "AC-JR Junior Pre-Champ International Ballroom (W/T/Q)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "California Chic Classic 2020",
+        "info": "AC-JR Junior International Ballroom  Scholarship  (W/T/VW/F/Q)",
+        "place": "4",
+        "points": 8.75
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-JR1 JR 1 Pre-Champ Ballroom (W/T/QS)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-JR1 Ballroom 5 Dance (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-Y JR 1 Open Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "5",
+        "points": 10.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J1 Junior & Youth International Ballroom Novice (W/T/Q)",
+        "place": "2",
+        "points": 1.75
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J2 Junior & Youth International Ballroom Novice (W/T/Q)",
+        "place": "1",
+        "points": 4.5
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J1 Junior & Youth International Ballroom Pre-Championship (W/T/F/Q)",
+        "place": "6",
+        "points": 5.25
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J1 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 1.2
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 2.7
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 2.0
+      }
+    ],
+    "total_pts": 57.15,
+    "avg_pts": 5.2
+  },
+  {
     "name": "Kue, Carter and Kue, Caidance",
     "results": [
       {
@@ -3055,6 +3697,19 @@
     ],
     "total_pts": 10.25,
     "avg_pts": 5.12
+  },
+  {
+    "name": "Theobald, Andy and McPhearson, Makelle",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 2",
+        "points": 4.95
+      }
+    ],
+    "total_pts": 4.95,
+    "avg_pts": 4.95
   },
   {
     "name": "Chang, Yufeng and Abulgazieva, Alia",
@@ -3138,6 +3793,224 @@
     "avg_pts": 4.25
   },
   {
+    "name": "Rabinovich, Paul and Ilieva, Raya",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-JR1 Ballroom 5 Dance (W/T/VW/F/Q)",
+        "place": "7",
+        "points": 4.5
+      },
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC-Y JR 1 Open Ballroom Scholarship (W/T/VW/F/Q)",
+        "place": "7",
+        "points": 7.5
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.3
+      }
+    ],
+    "total_pts": 12.3,
+    "avg_pts": 4.1
+  },
+  {
+    "name": "Trukhin, Daniel and Heifez, Valerie",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-Y Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 3.9
+      }
+    ],
+    "total_pts": 3.9,
+    "avg_pts": 3.9
+  },
+  {
+    "name": "Shishkin, Nikita and Neminov, Isabella",
+    "results": [
+      {
+        "comp_name": "California Chic Classic 2020",
+        "info": "AC-PT 2 Pre-Teen 2 Pre-Champ International Ballroom (W/T/Q)",
+        "place": "5",
+        "points": 6.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC-Y Amateur PreTeen 1 PreChamp Ballroom (W/T/QS)\r",
+        "place": "4",
+        "points": 5.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.3
+      }
+    ],
+    "total_pts": 11.55,
+    "avg_pts": 3.85
+  },
+  {
+    "name": "Shvartsman, Alex and Doliwa, Sophia",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "7",
+        "points": 7.5
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT1&2 Pre-Teen Closed International Ballroom Grand Slam (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 3.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.3
+      }
+    ],
+    "total_pts": 11.55,
+    "avg_pts": 3.85
+  },
+  {
+    "name": "Brooks, Jason and Sterling, Carlie",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 2",
+        "points": 3.85
+      }
+    ],
+    "total_pts": 3.85,
+    "avg_pts": 3.85
+  },
+  {
+    "name": "Ford, Willard and Kwak, Ocean",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 2",
+        "points": 3.85
+      }
+    ],
+    "total_pts": 3.85,
+    "avg_pts": 3.85
+  },
+  {
+    "name": "Golding, Samuel and Holmes, Elena",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 2",
+        "points": 3.85
+      }
+    ],
+    "total_pts": 3.85,
+    "avg_pts": 3.85
+  },
+  {
+    "name": "Hanson, Max and Peterson, Lauren",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 2",
+        "points": 3.85
+      }
+    ],
+    "total_pts": 3.85,
+    "avg_pts": 3.85
+  },
+  {
+    "name": "Hillman, Conner and Nelson, Savannah",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 2",
+        "points": 3.85
+      }
+    ],
+    "total_pts": 3.85,
+    "avg_pts": 3.85
+  },
+  {
+    "name": "Jones, Cristian and Ercanbrack, Emilee",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 2",
+        "points": 3.85
+      }
+    ],
+    "total_pts": 3.85,
+    "avg_pts": 3.85
+  },
+  {
+    "name": "Neumarker, Marek and Somerville, Sierra",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 2",
+        "points": 3.85
+      }
+    ],
+    "total_pts": 3.85,
+    "avg_pts": 3.85
+  },
+  {
+    "name": "Sherman, Caleb and Stevenson, Savanna",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 2",
+        "points": 3.85
+      }
+    ],
+    "total_pts": 3.85,
+    "avg_pts": 3.85
+  },
+  {
+    "name": "Whetton, Ethan and Cox, Haven",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 2",
+        "points": 3.85
+      }
+    ],
+    "total_pts": 3.85,
+    "avg_pts": 3.85
+  },
+  {
+    "name": "Worley, Devin and Miles, Kelly",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 2",
+        "points": 3.85
+      }
+    ],
+    "total_pts": 3.85,
+    "avg_pts": 3.85
+  },
+  {
     "name": "Martynenko, Ivan and Talis, Anna",
     "results": [
       {
@@ -3163,23 +4036,16 @@
         "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
         "place": "Semis",
         "points": 0.9
-      }
-    ],
-    "total_pts": 16.5,
-    "avg_pts": 4.12
-  },
-  {
-    "name": "Trukhin, Daniel and Heifez, Valerie",
-    "results": [
+      },
       {
-        "comp_name": "NYDF 2019",
-        "info": "AC-Y Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
         "place": "Semis",
-        "points": 3.9
+        "points": 1.8
       }
     ],
-    "total_pts": 3.9,
-    "avg_pts": 3.9
+    "total_pts": 18.3,
+    "avg_pts": 3.66
   },
   {
     "name": "Cherepakhin, Nathan and Munoz, Valentina",
@@ -3247,6 +4113,107 @@
     "avg_pts": 3.5
   },
   {
+    "name": "Shneerson, Alexander and Komashinskaya, Elisaveta",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 3.3
+      }
+    ],
+    "total_pts": 3.3,
+    "avg_pts": 3.3
+  },
+  {
+    "name": "Lott, Anthony and Slater, Julie",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 2",
+        "points": 5.5
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.8
+      }
+    ],
+    "total_pts": 6.3,
+    "avg_pts": 3.15
+  },
+  {
+    "name": "Ziering, Max and Kozoubei, Lucille",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 0.5
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT1&2 Pre-Teen Closed International Ballroom Grand Slam (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 0.25
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-PT1 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "3",
+        "points": 5.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "4",
+        "points": 7.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 2.7
+      }
+    ],
+    "total_pts": 15.7,
+    "avg_pts": 3.14
+  },
+  {
+    "name": "Derenstein, Alexander and Bensman, Elise",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 3.0,
+    "avg_pts": 3.0
+  },
+  {
+    "name": "Purcell, Jax and McOmber, Kennidy",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 2",
+        "points": 3.85
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 2.0
+      }
+    ],
+    "total_pts": 5.85,
+    "avg_pts": 2.92
+  },
+  {
     "name": "Chang, Yuyang and Collins, Rebecca",
     "results": [
       {
@@ -3278,6 +4245,194 @@
     "avg_pts": 2.88
   },
   {
+    "name": "Kim, Arthur and Abaya, Ella",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC-Y Amateur PreTeen II PreChamp Ballroom (W/T/QS)\r",
+        "place": "6",
+        "points": 5.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.3
+      }
+    ],
+    "total_pts": 5.55,
+    "avg_pts": 2.77
+  },
+  {
+    "name": "Barlow, Kaleb and Harris, Hannah Elaine",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 2.75,
+    "avg_pts": 2.75
+  },
+  {
+    "name": "Burns, Spencer and Gunnell, Tiffany",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 2.75,
+    "avg_pts": 2.75
+  },
+  {
+    "name": "Gee, Marco and Mattson, Hannah",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 2.75,
+    "avg_pts": 2.75
+  },
+  {
+    "name": "Harris, Traedon and Evans, Kaylyn",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 2.75,
+    "avg_pts": 2.75
+  },
+  {
+    "name": "Hodges, Edison and Hodges, Emma",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 2.75,
+    "avg_pts": 2.75
+  },
+  {
+    "name": "Huber, Benjamin and Radford, Sarah",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 2.75,
+    "avg_pts": 2.75
+  },
+  {
+    "name": "Kennedy, Conner and Cash, Parker",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 2.75,
+    "avg_pts": 2.75
+  },
+  {
+    "name": "Lemmon, William and Oliverson, Katelyn",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 2.75,
+    "avg_pts": 2.75
+  },
+  {
+    "name": "Maner, Brandon and Meganhardt, Zetta",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 2.75,
+    "avg_pts": 2.75
+  },
+  {
+    "name": "Reed, Sam and Wight, Daphne",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 2.75,
+    "avg_pts": 2.75
+  },
+  {
+    "name": "Smith, Max and Adams, Nina",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 2.75,
+    "avg_pts": 2.75
+  },
+  {
+    "name": "Travis, Colin and Tiberius, Mariah",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 2.75,
+    "avg_pts": 2.75
+  },
+  {
+    "name": "Wiser, Kade and Campbell, Jenna",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 2.75,
+    "avg_pts": 2.75
+  },
+  {
     "name": "Shafran, Alec and Nikolaev, Nicole",
     "results": [
       {
@@ -3297,42 +4452,36 @@
     "avg_pts": 2.38
   },
   {
-    "name": "Glukhovskiy, Yanni and Seleznyova, Julia",
+    "name": "Keck, Dallin and Cole, Arynne",
     "results": [
       {
-        "comp_name": "NYDF 2019",
-        "info": "AC-Y Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
         "place": "Semis",
-        "points": 2.1
+        "points": 0.6
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 4.0
       }
     ],
-    "total_pts": 2.1,
-    "avg_pts": 2.1
+    "total_pts": 4.6,
+    "avg_pts": 2.3
   },
   {
-    "name": "Ziering, Max and Kozoubei, Lucille",
+    "name": "Porter, Quincy and Pope, Alysse",
     "results": [
       {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 0.5
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT1&2 Pre-Teen Closed International Ballroom Grand Slam (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 0.25
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT1 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "3",
-        "points": 5.25
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 2.2
       }
     ],
-    "total_pts": 6.0,
-    "avg_pts": 2.0
+    "total_pts": 2.2,
+    "avg_pts": 2.2
   },
   {
     "name": "Rovinsky, Joshua and Abramov, Sofia",
@@ -3348,23 +4497,17 @@
     "avg_pts": 1.75
   },
   {
-    "name": "Boudzko, Anton and Botchev, Kalina",
+    "name": "Topham, Brayden and Depew, Jenessa",
     "results": [
       {
-        "comp_name": "NYDF 2019",
-        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 2.1
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-Y Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
-        "place": "Semis",
-        "points": 1.2
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 1.6
       }
     ],
-    "total_pts": 3.3,
-    "avg_pts": 1.65
+    "total_pts": 1.6,
+    "avg_pts": 1.6
   },
   {
     "name": "Levin, Max and Muravchik, Avigail",
@@ -3380,10 +4523,92 @@
         "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
         "place": "Semis",
         "points": 0.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 1.5
       }
     ],
-    "total_pts": 3.25,
-    "avg_pts": 1.62
+    "total_pts": 4.75,
+    "avg_pts": 1.58
+  },
+  {
+    "name": "Rutten, Dino and Tseytlin, Lora",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 2.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 3.15,
+    "avg_pts": 1.57
+  },
+  {
+    "name": "Boudzko, Anton and Botchev, Kalina",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-J2 Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 2.1
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-Y Junior & Youth International Ballroom Championship (W/T/VW/F/Q)",
+        "place": "Semis",
+        "points": 1.2
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 3.7,
+    "avg_pts": 1.23
+  },
+  {
+    "name": "Callister, Andrew and Holt, Keira",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 1.2
+      }
+    ],
+    "total_pts": 1.2,
+    "avg_pts": 1.2
+  },
+  {
+    "name": "Kim, Ruslan and Gershaft, Sophia",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 1.1
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 1.5,
+    "avg_pts": 0.75
   },
   {
     "name": "Lesesne, Christopher and Krivosheev, Anastasia",
@@ -3399,17 +4624,120 @@
     "avg_pts": 0.75
   },
   {
-    "name": "Kotlyar, Matthew and Kim, Chanelle",
+    "name": "Johnson, Nate and Cleaver, Londyn",
     "results": [
       {
-        "comp_name": "NYDF 2019",
-        "info": "AC-PT2 Pre-Teen Closed International Ballroom Championship (W/T/VW/F/Q)",
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
         "place": "Semis",
-        "points": 0.25
+        "points": 0.3
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.8
       }
     ],
-    "total_pts": 0.25,
-    "avg_pts": 0.25
+    "total_pts": 1.1,
+    "avg_pts": 0.55
+  },
+  {
+    "name": "Gerlach, Rex and Lundberg, Sage",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 0.55
+      }
+    ],
+    "total_pts": 0.55,
+    "avg_pts": 0.55
+  },
+  {
+    "name": "Jolley, Prince and Houghton, Claire",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Youth Pre-Championship Ballroom  (W,T,Q)",
+        "place": "round 1",
+        "points": 0.55
+      }
+    ],
+    "total_pts": 0.55,
+    "avg_pts": 0.55
+  },
+  {
+    "name": "Baker, Carson and Heiner, Kate",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 0.4,
+    "avg_pts": 0.4
+  },
+  {
+    "name": "Garner, Traven and Moyle, McKenna",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 0.4,
+    "avg_pts": 0.4
+  },
+  {
+    "name": "Gribanovsky, Pavlik and Poda, Alexandra",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 0.4,
+    "avg_pts": 0.4
+  },
+  {
+    "name": "Lander, Liran and Shvartsman, Julia",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior I Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Junior II Ballroom Competition  (W,T,VW,F,Q)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 0.7,
+    "avg_pts": 0.35
+  },
+  {
+    "name": "Tkatch, Evan and Lin, Vicky",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Pre-Teen II Ballroom Competition   (W,T,VW,F,Q)",
+        "place": "Semis",
+        "points": 0.3
+      }
+    ],
+    "total_pts": 0.3,
+    "avg_pts": 0.3
   },
   {
     "name": "Stompel, Samuel and Birger, Anastasia",
@@ -3467,12 +4795,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Badalbayev, Ilyah and Rabinovich, Ariana",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Bader and Rubinshetyn",
     "results": [],
     "total_pts": 0,
@@ -3504,18 +4826,6 @@
   },
   {
     "name": "Bakatov, Artyom and Kliger, Sarah",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Baker, Bronson and Haslam, Jiaxin",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Bankhead, Porter and McAllister, Ashlyn",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -3719,12 +5029,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Derenstein, Alexander and Bensman, Elise",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Deriy, Euhen and Lozynska, Solomia",
     "results": [],
     "total_pts": 0,
@@ -3761,19 +5065,7 @@
     "avg_pts": 0
   },
   {
-    "name": "Fisher, Talan and Brunson, Mina",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Ford, Parley and Shepherd, Zaylie",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Ford, Parley and Thompson, Elisabeth",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -3821,12 +5113,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Gribanovsky, Pavlik and Poda, Alexandra",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Griffin, Erik and Marriott, Sophia",
     "results": [],
     "total_pts": 0,
@@ -3846,12 +5132,6 @@
   },
   {
     "name": "Hollister, Davis and Funk, Natalie",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Horne, Carson and Baines, Chloe",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -3912,12 +5192,6 @@
   },
   {
     "name": "Jenkins, Denis and Kublan, Leyla",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Judd, Caleb and Christensen, Kyra",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -4103,12 +5377,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Lander, Liran and Shvartsman, Julia",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Lander, Liran and Stanevicius, Isabella",
     "results": [],
     "total_pts": 0,
@@ -4145,12 +5413,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Leonard, Jack and Gunnell, Tiawna",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Levenkov, Michael and Bates, Kyera",
     "results": [],
     "total_pts": 0,
@@ -4176,12 +5438,6 @@
   },
   {
     "name": "Linnik and Vaskoyskava",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Liu, Brian and Gorokhov, Lily",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -4235,7 +5491,7 @@
     "avg_pts": 0
   },
   {
-    "name": "Maier, Ben and Maier, Lucy",
+    "name": "Maier, Benson and Maier, Lucy",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -4266,12 +5522,6 @@
   },
   {
     "name": "Martynenko, Ivan and Dargis, Daniela",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Matthew, Kai and Denysovets, Vlada",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -4433,12 +5683,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Phillips, Jaxon and Hrouda, Nichole",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Popper, Sean and Myrkin, Emily",
     "results": [],
     "total_pts": 0,
@@ -4464,12 +5708,6 @@
   },
   {
     "name": "Pudov, Ivan and Moisa, Alexandra",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Purcell, Jax and McOmber, Kennidy",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -4529,12 +5767,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Rutten, Dino and Tseytlin, Lora",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Rybczynski, Oskar and Kochanska, Yulia",
     "results": [],
     "total_pts": 0,
@@ -4577,12 +5809,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Shepherd, Maklain and Davis, Maddison",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Shiloshvili, Sean and Frumkin, Elizabeth",
     "results": [],
     "total_pts": 0,
@@ -4590,12 +5816,6 @@
   },
   {
     "name": "Shimelfarb, Ari and Baranovsky, Nicole",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Shneerson, Alexander and Komashinskaya, Elisaveta",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -4721,12 +5941,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Tkatch, Evan and Lin, Vicky",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Tran, Liam and Koltun, Lisa",
     "results": [],
     "total_pts": 0,
@@ -4740,12 +5954,6 @@
   },
   {
     "name": "Tseytlin, Anton and Bakhmetyeva, Maria",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Turner, Casey and Yardley, Jacie",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -4805,12 +6013,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Whetton, Ethan and Cox, Haven",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Woodman, Elijah and Rivera, Amry",
     "results": [],
     "total_pts": 0,
@@ -4860,12 +6062,6 @@
   },
   {
     "name": "Zbranek and Budyk",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Zenger, MaCade and Wilson, Sara",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0

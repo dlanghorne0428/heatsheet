@@ -1,5 +1,31 @@
 [
   {
+    "name": "Duncan, Misha and Evans, Jordan",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "1",
+        "points": 35.0
+      }
+    ],
+    "total_pts": 35.0,
+    "avg_pts": 35.0
+  },
+  {
+    "name": "Keck, Brandon and Keck, Serena",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "2",
+        "points": 32.0
+      }
+    ],
+    "total_pts": 32.0,
+    "avg_pts": 32.0
+  },
+  {
     "name": "Firestein, Max and Mtchedlidze, Nicole",
     "results": [
       {
@@ -7,10 +33,29 @@
         "info": "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)",
         "place": "1",
         "points": 20.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "1",
+        "points": 40.0
       }
     ],
-    "total_pts": 20.0,
-    "avg_pts": 20.0
+    "total_pts": 60.0,
+    "avg_pts": 30.0
+  },
+  {
+    "name": "Martirosyan, Emil and Zilbervarg, Galit",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "3",
+        "points": 26.0
+      }
+    ],
+    "total_pts": 26.0,
+    "avg_pts": 26.0
   },
   {
     "name": "Knighton, Jai and Knighton, Brittany",
@@ -20,10 +65,66 @@
         "info": "Amateur Open Scholarships A Amer. Rhythm (CC,R,SW,B,M)",
         "place": "1",
         "points": 18.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "2",
+        "points": 28.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "5",
+        "points": 16.0
       }
     ],
-    "total_pts": 18.75,
-    "avg_pts": 18.75
+    "total_pts": 62.75,
+    "avg_pts": 20.92
+  },
+  {
+    "name": "Moe, Tristan and George, Margaret",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "3",
+        "points": 22.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "6",
+        "points": 14.0
+      }
+    ],
+    "total_pts": 36.75,
+    "avg_pts": 18.38
+  },
+  {
+    "name": "Malyava, Andrew and Shtern, Nicole",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Rhythm Championship (C/R/SW/B/M)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "4",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 48.0,
+    "avg_pts": 16.0
   },
   {
     "name": "Gorman, Dan and Gilbert, Nan",
@@ -76,25 +177,6 @@
     ],
     "total_pts": 15.0,
     "avg_pts": 15.0
-  },
-  {
-    "name": "Malyava, Andrew and Shtern, Nicole",
-    "results": [
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Rhythm Championship (C/R/SW/B/M)",
-        "place": "1",
-        "points": 12.0
-      }
-    ],
-    "total_pts": 28.0,
-    "avg_pts": 14.0
   },
   {
     "name": "Gad, Aniket and Carzis, Electra",
@@ -184,6 +266,25 @@
     ],
     "total_pts": 47.75,
     "avg_pts": 11.94
+  },
+  {
+    "name": "Edwards, Matthew and Podzikowski, Kelani",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "4",
+        "points": 17.5
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "Semis",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 23.5,
+    "avg_pts": 11.75
   },
   {
     "name": "Beiruti, Izaac and Beiruti, Erika",
@@ -282,6 +383,37 @@
     "avg_pts": 8.67
   },
   {
+    "name": "Wardle, Derek and Moore, Skylar",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC- Amateur Novice Rhythm (CC/R)\r",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC- Amateur Pre-Championship Rhythm (C/R/SW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "5",
+        "points": 14.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "Semis",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 32.0,
+    "avg_pts": 8.0
+  },
+  {
     "name": "Shah, Fahmil and Alam, Tanzeem",
     "results": [
       {
@@ -325,6 +457,19 @@
     ],
     "total_pts": 7.5,
     "avg_pts": 7.5
+  },
+  {
+    "name": "Collins, Larry and Andersen, Deborah",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "Semis",
+        "points": 7.2
+      }
+    ],
+    "total_pts": 7.2,
+    "avg_pts": 7.2
   },
   {
     "name": "Kniejski, Bob and Kniejski, Wini",
@@ -378,6 +523,25 @@
     "avg_pts": 7.0
   },
   {
+    "name": "Karuthi, Alvin and Karanovic, Zorana",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-A Amateur American Rhythm Pre-Championship 3-Dance (C/R/SW)",
+        "place": "1",
+        "points": 9.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-A+ Silver Amateur American Rhythm Novice 2-Dance (C/R)",
+        "place": "1",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Ryan, Gerald and Meier, Megan",
     "results": [
       {
@@ -416,19 +580,19 @@
     "avg_pts": 6.0
   },
   {
-    "name": "Wardle, Derek and Moore, Skylar",
+    "name": "Whittum, Terry and Jordan, Patty",
     "results": [
       {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Amateur Novice Rhythm (CC/R)\r",
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-SR Bronze Closed Rhythm Championships(CC/R/SW)",
         "place": "1",
-        "points": 3.0
+        "points": 6.0
       },
       {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Amateur Pre-Championship Rhythm (C/R/SW)",
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-C Bronze Closed Rhythm Championships(CC/R/SW)",
         "place": "1",
-        "points": 9.0
+        "points": 6.0
       }
     ],
     "total_pts": 12.0,
@@ -441,19 +605,6 @@
         "comp_name": "Texas Challenge DanceSport",
         "info": "AC-C Closed Bronze Pro/Am American Rhythm 3 Dance Championship (CC/R/SW)",
         "place": "1",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 6.0,
-    "avg_pts": 6.0
-  },
-  {
-    "name": "Jones, Alex and Fiallo, Katie",
-    "results": [
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)",
-        "place": "7",
         "points": 6.0
       }
     ],
@@ -513,6 +664,76 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Peterson, Jonathan and Peterson, Avanlee",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "Semis",
+        "points": 5.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "Semis",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 11.25,
+    "avg_pts": 5.62
+  },
+  {
+    "name": "Stone, Patrick and Hemphill, Carlye",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "Semis",
+        "points": 5.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "Semis",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 11.25,
+    "avg_pts": 5.62
+  },
+  {
+    "name": "Williams, Quinton and Monsivais, Zoe",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "Semis",
+        "points": 5.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "Semis",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 11.25,
+    "avg_pts": 5.62
+  },
+  {
+    "name": "Bustos, Lucas and Sonnenberg, Maya",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "Semis",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 5.25,
+    "avg_pts": 5.25
+  },
+  {
     "name": "Foster, Adam and Matthews, Nora",
     "results": [
       {
@@ -524,6 +745,82 @@
     ],
     "total_pts": 5.25,
     "avg_pts": 5.25
+  },
+  {
+    "name": "Truong, Takara and Morales, Anna",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "Semis",
+        "points": 5.25
+      }
+    ],
+    "total_pts": 5.25,
+    "avg_pts": 5.25
+  },
+  {
+    "name": "Golding, Samuel and Holmes, Elena",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "Semis",
+        "points": 5.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "quarters",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 9.25,
+    "avg_pts": 4.62
+  },
+  {
+    "name": "Pryor, Weston and Pettis-Londo\u00f1o, Susana",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "Semis",
+        "points": 5.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "quarters",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 9.25,
+    "avg_pts": 4.62
+  },
+  {
+    "name": "Jones, Alex and Fiallo, Katie",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Amateur Events A Amer. Rhythm Championship (CC,R,SW,B,M)",
+        "place": "7",
+        "points": 6.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "Semis",
+        "points": 5.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "quarters",
+        "points": 2.4
+      }
+    ],
+    "total_pts": 13.65,
+    "avg_pts": 4.55
   },
   {
     "name": "Morningstar, Max and Wainapel, Samantha",
@@ -577,6 +874,56 @@
     "avg_pts": 3.75
   },
   {
+    "name": "Dahlke, Braydon and Ray, Miriam",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "quarters",
+        "points": 3.5
+      }
+    ],
+    "total_pts": 3.5,
+    "avg_pts": 3.5
+  },
+  {
+    "name": "Sturgeon, Steve and Cunningham, Pat",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-C Silver Amateur American Rhythm Novice 2-Dance (C/R)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-C Silver Amateur American Rhythm Novice 2-Dance (SW/B)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-C Gold Amateur American Rhythm Novice 2-Dance (C/R)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-C Gold Amateur American Rhythm Novice 2-Dance (SW/B)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-C Gold Amateur American Rhythm Novice 2-Dance (M/S)",
+        "place": "1",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 3.0
+  },
+  {
     "name": "Gould, Ivan and Gould, Sharon",
     "results": [
       {
@@ -613,6 +960,198 @@
     ],
     "total_pts": 6.0,
     "avg_pts": 3.0
+  },
+  {
+    "name": "Montano, Anthony and Scott, Courtney",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "quarters",
+        "points": 1.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "quarters",
+        "points": 4.0
+      }
+    ],
+    "total_pts": 5.75,
+    "avg_pts": 2.88
+  },
+  {
+    "name": "Back, Jayden and Rokobuludrau, Shalia",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "quarters",
+        "points": 2.8
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "quarters",
+        "points": 1.6
+      }
+    ],
+    "total_pts": 4.4,
+    "avg_pts": 2.2
+  },
+  {
+    "name": "Merrick, Aiden and Campbell, Jenna",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "quarters",
+        "points": 1.75
+      }
+    ],
+    "total_pts": 1.75,
+    "avg_pts": 1.75
+  },
+  {
+    "name": "Reid, John and Tessem, Lily",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "quarters",
+        "points": 1.4
+      }
+    ],
+    "total_pts": 1.4,
+    "avg_pts": 1.4
+  },
+  {
+    "name": "Theurer, Brandon and Bailey, Alice",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "quarters",
+        "points": 2.1
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 2.5,
+    "avg_pts": 1.25
+  },
+  {
+    "name": "DeBoor, Michael and Collins, Paige",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "quarters",
+        "points": 0.7
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "quarters",
+        "points": 1.2
+      }
+    ],
+    "total_pts": 1.9,
+    "avg_pts": 0.95
+  },
+  {
+    "name": "Wood, Joseph and Hassel, Sarah",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "quarters",
+        "points": 0.35
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "quarters",
+        "points": 1.2
+      }
+    ],
+    "total_pts": 1.55,
+    "avg_pts": 0.78
+  },
+  {
+    "name": "Neumarker, Marek and Somerville, Sierra",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "quarters",
+        "points": 1.05
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 1.45,
+    "avg_pts": 0.72
+  },
+  {
+    "name": "Forsgren, Alexander and Bassett, Jenny",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "quarters",
+        "points": 0.7
+      }
+    ],
+    "total_pts": 0.7,
+    "avg_pts": 0.7
+  },
+  {
+    "name": "Edwards, Jacob and Wakefield, Brynnly",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 0.4,
+    "avg_pts": 0.4
+  },
+  {
+    "name": "Snow, Stephen and Wurtz, Addison",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Rhythm Championship  (CC,R,SW,B,M)",
+        "place": "quarters",
+        "points": 0.4
+      }
+    ],
+    "total_pts": 0.4,
+    "avg_pts": 0.4
+  },
+  {
+    "name": "Curtis, Tyler and Skolmoski, Emma",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Rhythm  (CC,B,M)",
+        "place": "quarters",
+        "points": 0.35
+      }
+    ],
+    "total_pts": 0.35,
+    "avg_pts": 0.35
   },
   {
     "name": "Akahoshi, Dean and Clement, Melissa",
@@ -796,12 +1335,6 @@
   },
   {
     "name": "Easton, Audrey and Easton, George",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Edwards, Matthew and Podzikowski, Kelani",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -1071,12 +1604,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Moe, Tristan and George, Margaret",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Morales, Carson and McClung, Julia",
     "results": [],
     "total_pts": 0,
@@ -1240,12 +1767,6 @@
   },
   {
     "name": "Stockdale, Amber and Stockdale, Uriah",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Stone, Patrick and Hemphill, Carlye",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0

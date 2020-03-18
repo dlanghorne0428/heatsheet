@@ -125,25 +125,6 @@
     "avg_pts": 23.0
   },
   {
-    "name": "Rivers, Jason and Davis, Jennifer",
-    "results": [
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
-        "place": "1",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "Open Professional American Smooth (W/T/FT/VW)",
-        "place": "2",
-        "points": 24.0
-      }
-    ],
-    "total_pts": 44.0,
-    "avg_pts": 22.0
-  },
-  {
     "name": "Tomaszewski, Marcin and Casanave, Zhenia",
     "results": [
       {
@@ -419,25 +400,6 @@
     "avg_pts": 16.5
   },
   {
-    "name": "Steffes, Jake and Cole, Jaclyn",
-    "results": [
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
-        "place": "3",
-        "points": 13.0
-      },
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "Open Professional American Smooth (W/T/FT/VW)",
-        "place": "3",
-        "points": 19.5
-      }
-    ],
-    "total_pts": 32.5,
-    "avg_pts": 16.25
-  },
-  {
     "name": "Nalyvaychuk, Vladyslav and Nalyvaychuk, Brianna",
     "results": [
       {
@@ -542,10 +504,22 @@
         "info": "Professional American Smooth Championships (W/T/F/VW)",
         "place": "Semis",
         "points": 6.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Rising Star American Smooth Championship (W/T/FT/VW)",
+        "place": "1",
+        "points": 10.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Open American Smooth Championship (W/T/FT/VW)",
+        "place": "1",
+        "points": 20.0
       }
     ],
-    "total_pts": 152.5,
-    "avg_pts": 15.25
+    "total_pts": 182.5,
+    "avg_pts": 15.21
   },
   {
     "name": "Zhyvkov, Tykhon and Zhyvkov, Yana",
@@ -571,6 +545,37 @@
     ],
     "total_pts": 45.0,
     "avg_pts": 15.0
+  },
+  {
+    "name": "Rivers, Jason and Davis, Jennifer",
+    "results": [
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
+        "place": "1",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "Open Professional American Smooth (W/T/FT/VW)",
+        "place": "2",
+        "points": 24.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Rising Star American Smooth Championship (W/T/FT/VW)",
+        "place": "5",
+        "points": 4.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Open American Smooth Championship (W/T/FT/VW)",
+        "place": "4",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 58.0,
+    "avg_pts": 14.5
   },
   {
     "name": "Dogoter, Igor and Gorshkova, Natalia",
@@ -651,37 +656,6 @@
     ],
     "total_pts": 81.0,
     "avg_pts": 13.5
-  },
-  {
-    "name": "Morth, Jay and Trinidad, Samantha",
-    "results": [
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "PP- Professional Rising Star American Smooth (W/T/F/VW)",
-        "place": "4",
-        "points": 10.0
-      },
-      {
-        "comp_name": "The Snow Ball 2020",
-        "info": "PP- Open Professional American Smooth (W/T/F/VW)",
-        "place": "6",
-        "points": 10.5
-      },
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
-        "place": "2",
-        "points": 16.0
-      },
-      {
-        "comp_name": "Indiana Challenge",
-        "info": "Open Professional American Smooth (W/T/FT/VW)",
-        "place": "4",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 51.5,
-    "avg_pts": 12.88
   },
   {
     "name": "Rozenfeld, Evgenii and Shumakher, Mariia",
@@ -796,6 +770,37 @@
     "avg_pts": 12.0
   },
   {
+    "name": "Volodko, Dmitriy and Barantsova, Oksana",
+    "results": [
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "Open Professional American Smooth (W/T/FT/VW)",
+        "place": "5",
+        "points": 12.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Rising Star American Smooth Championship (W/T/FT/VW)",
+        "place": "2",
+        "points": 8.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Open American Smooth Championship (W/T/FT/VW)",
+        "place": "2",
+        "points": 16.0
+      }
+    ],
+    "total_pts": 46.0,
+    "avg_pts": 11.5
+  },
+  {
     "name": "Pohybil, Dmytro and Kushnir, Alona",
     "results": [
       {
@@ -840,22 +845,46 @@
     "avg_pts": 11.17
   },
   {
-    "name": "Volodko, Dmitriy and Barantsova, Oksana",
+    "name": "Morth, Jay and Trinidad, Samantha",
     "results": [
       {
-        "comp_name": "Indiana Challenge",
-        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
+        "comp_name": "The Snow Ball 2020",
+        "info": "PP- Professional Rising Star American Smooth (W/T/F/VW)",
         "place": "4",
         "points": 10.0
       },
       {
+        "comp_name": "The Snow Ball 2020",
+        "info": "PP- Open Professional American Smooth (W/T/F/VW)",
+        "place": "6",
+        "points": 10.5
+      },
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
+        "place": "2",
+        "points": 16.0
+      },
+      {
         "comp_name": "Indiana Challenge",
         "info": "Open Professional American Smooth (W/T/FT/VW)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Rising Star American Smooth Championship (W/T/FT/VW)",
+        "place": "3",
+        "points": 6.5
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Open American Smooth Championship (W/T/FT/VW)",
         "place": "5",
-        "points": 12.0
+        "points": 8.0
       }
     ],
-    "total_pts": 22.0,
+    "total_pts": 66.0,
     "avg_pts": 11.0
   },
   {
@@ -883,6 +912,37 @@
     ],
     "total_pts": 10.5,
     "avg_pts": 10.5
+  },
+  {
+    "name": "Steffes, Jake and Cole, Jaclyn",
+    "results": [
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "Professional Rising Star American Smooth (W/T/FT/VW)",
+        "place": "3",
+        "points": 13.0
+      },
+      {
+        "comp_name": "Indiana Challenge",
+        "info": "Open Professional American Smooth (W/T/FT/VW)",
+        "place": "3",
+        "points": 19.5
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Rising Star American Smooth Championship (W/T/FT/VW)",
+        "place": "7",
+        "points": 3.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Open American Smooth Championship (W/T/FT/VW)",
+        "place": "7",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 41.5,
+    "avg_pts": 10.38
   },
   {
     "name": "Elser, David and Krug, Elizabeth",
@@ -982,6 +1042,31 @@
     ],
     "total_pts": 51.5,
     "avg_pts": 8.58
+  },
+  {
+    "name": "Silantev, Anton and Akopova, Olga",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "Open Professional Smooth Championship (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 1.8
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "Professional Rising Star Smooth Championship (W/T/FT/VW)",
+        "place": "4",
+        "points": 10.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Open American Smooth Championship (W/T/FT/VW)",
+        "place": "3",
+        "points": 13.0
+      }
+    ],
+    "total_pts": 24.8,
+    "avg_pts": 8.27
   },
   {
     "name": "Elsbury, Alexander and Gallagher, Grace",
@@ -1360,25 +1445,6 @@
     "avg_pts": 6.0
   },
   {
-    "name": "Silantev, Anton and Akopova, Olga",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "Open Professional Smooth Championship (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 1.8
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "Professional Rising Star Smooth Championship (W/T/FT/VW)",
-        "place": "4",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 11.8,
-    "avg_pts": 5.9
-  },
-  {
     "name": "Micic, Marko and Belyavtseva, Anna",
     "results": [
       {
@@ -1408,6 +1474,25 @@
     ],
     "total_pts": 22.5,
     "avg_pts": 5.62
+  },
+  {
+    "name": "Heggie, Dillon and Alanis, Dominique",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Rising Star American Smooth Championship (W/T/FT/VW)",
+        "place": "6",
+        "points": 3.5
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Open American Smooth Championship (W/T/FT/VW)",
+        "place": "6",
+        "points": 7.0
+      }
+    ],
+    "total_pts": 10.5,
+    "avg_pts": 5.25
   },
   {
     "name": "Wilson, Jacob and Jacobs, Karen",
@@ -1485,6 +1570,25 @@
         "info": "Open Professional American Smooth Championship(W/T/FT/VW)",
         "place": "7",
         "points": 6.0
+      }
+    ],
+    "total_pts": 9.5,
+    "avg_pts": 4.75
+  },
+  {
+    "name": "Pohl, Zachary and Freilich, Ariel",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "Rising Star Professional American Smooth (W/T/F/VW)",
+        "place": "Semis",
+        "points": 4.5
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "Professional Rising Star American Smooth Championship (W/T/FT/VW)",
+        "place": "4",
+        "points": 5.0
       }
     ],
     "total_pts": 9.5,
@@ -1582,19 +1686,6 @@
       }
     ],
     "total_pts": 9.0,
-    "avg_pts": 4.5
-  },
-  {
-    "name": "Pohl, Zachary and Freilich, Ariel",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "Rising Star Professional American Smooth (W/T/F/VW)",
-        "place": "Semis",
-        "points": 4.5
-      }
-    ],
-    "total_pts": 4.5,
     "avg_pts": 4.5
   },
   {
@@ -1823,12 +1914,12 @@
     "avg_pts": 4.0
   },
   {
-    "name": "Walker, Derek and Gentry, Rebecca",
+    "name": "Andreev, Pavel and Babina, Irina",
     "results": [
       {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "Rising Star American Smooth (W/T/F/VW)",
-        "place": "6",
+        "comp_name": "2020 First Coast Classic",
+        "info": "Rising Star Professional American Smooth (W/T/F/VW)",
+        "place": "4",
         "points": 3.5
       }
     ],
@@ -1836,12 +1927,12 @@
     "avg_pts": 3.5
   },
   {
-    "name": "Andreev, Pavel and Babina, Irina",
+    "name": "Walker, Derek and Gentry, Rebecca",
     "results": [
       {
-        "comp_name": "2020 First Coast Classic",
-        "info": "Rising Star Professional American Smooth (W/T/F/VW)",
-        "place": "4",
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "Rising Star American Smooth (W/T/F/VW)",
+        "place": "6",
         "points": 3.5
       }
     ],
@@ -2512,12 +2603,6 @@
   },
   {
     "name": "Hannigan, Dave and Kosheleva, Yulia",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Heggie, Dillon and Alanis, Dominique",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0

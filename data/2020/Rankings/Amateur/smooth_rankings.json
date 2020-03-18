@@ -1,18 +1,5 @@
 [
   {
-    "name": "Anderson, Landon and Gasinski, Hannah",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "1",
-        "points": 40.0
-      }
-    ],
-    "total_pts": 40.0,
-    "avg_pts": 40.0
-  },
-  {
     "name": "Keck, Brandon and Keck, Serena",
     "results": [
       {
@@ -26,65 +13,64 @@
         "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
         "place": "2",
         "points": 32.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "1",
+        "points": 50.0
       }
     ],
-    "total_pts": 77.0,
-    "avg_pts": 38.5
+    "total_pts": 127.0,
+    "avg_pts": 42.33
   },
   {
-    "name": "Stevenson, Nathan and Harding, Rachel",
+    "name": "Anderson, Landon and Gasinski, Hannah",
     "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
-        "place": "2",
-        "points": 36.0
-      },
       {
         "comp_name": "NYDF 2019",
         "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "3",
-        "points": 26.0
-      }
-    ],
-    "total_pts": 62.0,
-    "avg_pts": 31.0
-  },
-  {
-    "name": "Lee, Adam and Ma, Rachel",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
         "place": "1",
-        "points": 35.0
+        "points": 40.0
       },
       {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
-        "place": "5",
-        "points": 18.0
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "2",
+        "points": 40.0
       }
     ],
-    "total_pts": 53.0,
-    "avg_pts": 26.5
+    "total_pts": 80.0,
+    "avg_pts": 40.0
   },
   {
-    "name": "Diao, James and Wu, Gloria",
+    "name": "Benson, Jacob and Cox, Katey",
     "results": [
       {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)",
-        "place": "1",
-        "points": 25.0
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "2",
+        "points": 36.0
       }
     ],
-    "total_pts": 25.0,
-    "avg_pts": 25.0
+    "total_pts": 36.0,
+    "avg_pts": 36.0
   },
   {
-    "name": "Maier, Ben and Thompson, Elisabeth",
+    "name": "Maier, Benson and Thompson, Elisabeth",
     "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "1",
+        "points": 55.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "Semis",
+        "points": 12.5
+      },
       {
         "comp_name": "caopen20[suzanne nyemchek]",
         "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
@@ -104,8 +90,78 @@
         "points": 15.0
       }
     ],
-    "total_pts": 67.0,
-    "avg_pts": 22.33
+    "total_pts": 134.5,
+    "avg_pts": 26.9
+  },
+  {
+    "name": "Young, Joe and Smith, DeeDee",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "1",
+        "points": 45.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "Semis",
+        "points": 13.75
+      }
+    ],
+    "total_pts": 58.75,
+    "avg_pts": 29.38
+  },
+  {
+    "name": "Woolston, Bronson and Riffle, Rylie",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "3",
+        "points": 29.25
+      }
+    ],
+    "total_pts": 29.25,
+    "avg_pts": 29.25
+  },
+  {
+    "name": "Stevenson, Nathan and Harding, Rachel",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
+        "place": "2",
+        "points": 36.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "3",
+        "points": 26.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "6",
+        "points": 17.5
+      }
+    ],
+    "total_pts": 79.5,
+    "avg_pts": 26.5
+  },
+  {
+    "name": "Diao, James and Wu, Gloria",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 25.0,
+    "avg_pts": 25.0
   },
   {
     "name": "McShinsky, Robert and Harding, Jenna",
@@ -127,61 +183,103 @@
         "info": "AC- Amateur Open Smooth Scholarships (W/T/F/VW)\r",
         "place": "1",
         "points": 22.5
-      }
-    ],
-    "total_pts": 65.0,
-    "avg_pts": 21.67
-  },
-  {
-    "name": "Torres, Steve and Barron, Nicole",
-    "results": [
-      {
-        "comp_name": "Golden Star Dancesport Championships",
-        "info": "AC-A Open American Smooth Championships (W/T/F/VW)",
-        "place": "1",
-        "points": 12.0
       },
       {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Amateur Events A Amer. Smooth Championship (W,T,F,VW)",
-        "place": "1",
-        "points": 30.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "Semis",
-        "points": 10.0
-      }
-    ],
-    "total_pts": 52.0,
-    "avg_pts": 17.33
-  },
-  {
-    "name": "Rao, Arjun and Liu, Rachel",
-    "results": [
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)",
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
         "place": "3",
-        "points": 16.25
+        "points": 32.5
       }
     ],
-    "total_pts": 16.25,
-    "avg_pts": 16.25
+    "total_pts": 97.5,
+    "avg_pts": 24.38
   },
   {
-    "name": "Carter, McCarty and Ralph, Carli Treu",
+    "name": "Baker, Bronson and Haslam, Jiaxin",
     "results": [
       {
         "comp_name": "caopen20[suzanne nyemchek]",
         "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
-        "place": "6",
-        "points": 15.75
+        "place": "Semis",
+        "points": 6.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "2",
+        "points": 44.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "Semis",
+        "points": 10.0
       }
     ],
-    "total_pts": 15.75,
-    "avg_pts": 15.75
+    "total_pts": 60.75,
+    "avg_pts": 20.25
+  },
+  {
+    "name": "Lee, Adam and Ma, Rachel",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
+        "place": "1",
+        "points": 35.0
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
+        "place": "5",
+        "points": 18.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "6",
+        "points": 19.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "quarters",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 79.75,
+    "avg_pts": 19.94
+  },
+  {
+    "name": "Beach, Logan and Wright, Melina",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 6.75
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "5",
+        "points": 16.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "3",
+        "points": 35.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "5",
+        "points": 20.0
+      }
+    ],
+    "total_pts": 78.5,
+    "avg_pts": 19.62
   },
   {
     "name": "Buss, Carston and Bramwell, Liesel",
@@ -209,10 +307,73 @@
         "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
         "place": "Semis",
         "points": 6.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "4",
+        "points": 27.5
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "quarters",
+        "points": 7.5
       }
     ],
-    "total_pts": 62.5,
-    "avg_pts": 15.62
+    "total_pts": 97.5,
+    "avg_pts": 16.25
+  },
+  {
+    "name": "Rao, Arjun and Liu, Rachel",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)",
+        "place": "3",
+        "points": 16.25
+      }
+    ],
+    "total_pts": 16.25,
+    "avg_pts": 16.25
+  },
+  {
+    "name": "Kyle, Thomas and Croghan, Jane",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "5",
+        "points": 22.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "Semis",
+        "points": 10.0
+      }
+    ],
+    "total_pts": 32.0,
+    "avg_pts": 16.0
+  },
+  {
+    "name": "Fox, Blake and Ascione, Nicole",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 6.4
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "4",
+        "points": 25.0
+      }
+    ],
+    "total_pts": 31.4,
+    "avg_pts": 15.7
   },
   {
     "name": "Forestier, and Baginski, Jane",
@@ -252,6 +413,81 @@
     ],
     "total_pts": 15.0,
     "avg_pts": 15.0
+  },
+  {
+    "name": "Torres, Steve and Barron, Nicole",
+    "results": [
+      {
+        "comp_name": "Golden Star Dancesport Championships",
+        "info": "AC-A Open American Smooth Championships (W/T/F/VW)",
+        "place": "1",
+        "points": 12.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Amateur Events A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "1",
+        "points": 30.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "Semis",
+        "points": 10.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "quarters",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 59.5,
+    "avg_pts": 14.88
+  },
+  {
+    "name": "Lam, Van and desJardins-Park, Caroline",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)",
+        "place": "2",
+        "points": 20.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Amateur Gold 4-Dance Events A Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 15.0
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Amateur Novice 3-Dance Events A Amer. Smooth (W,T,F)",
+        "place": "1",
+        "points": 4.5
+      },
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Collegiate Open Events AM/AM Amer. Smooth (W,T,F,VW)",
+        "place": "1",
+        "points": 15.0
+      }
+    ],
+    "total_pts": 54.5,
+    "avg_pts": 13.62
+  },
+  {
+    "name": "Chauchereau, Benjamin and Borcea, Jaquelyn",
+    "results": [
+      {
+        "comp_name": "California Chic Classic 2020",
+        "info": "AC- Under 21 - American Smooth (W/T/F/VW)",
+        "place": "1",
+        "points": 13.5
+      }
+    ],
+    "total_pts": 13.5,
+    "avg_pts": 13.5
   },
   {
     "name": "Antipin, Maksim and Antipin, Angela",
@@ -303,73 +539,41 @@
         "info": "AC-A <406>Amateur American Smooth Open 4-Dance Championship (W/T/F/VW)",
         "place": "1",
         "points": 12.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "Semis",
+        "points": 13.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "quarters",
+        "points": 5.0
       }
     ],
-    "total_pts": 114.75,
-    "avg_pts": 14.34
+    "total_pts": 133.5,
+    "avg_pts": 13.35
   },
   {
-    "name": "Lam, Van and desJardins-Park, Caroline",
-    "results": [
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Collegiate 3-Dance Closed Syllabus Events AM/AM Amer. Smooth (W,T,F)",
-        "place": "2",
-        "points": 20.0
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Amateur Gold 4-Dance Events A Amer. Smooth (W,T,F,VW)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Amateur Novice 3-Dance Events A Amer. Smooth (W,T,F)",
-        "place": "1",
-        "points": 4.5
-      },
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Collegiate Open Events AM/AM Amer. Smooth (W,T,F,VW)",
-        "place": "1",
-        "points": 15.0
-      }
-    ],
-    "total_pts": 54.5,
-    "avg_pts": 13.62
-  },
-  {
-    "name": "Fisher, Talan and Brunson, Mina",
+    "name": "Carter, McCarty and Ralph, Carli Treu",
     "results": [
       {
         "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Amateur Novice Smooth (W/FT)",
-        "place": "1",
-        "points": 15.0
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
+        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
         "place": "6",
-        "points": 12.25
-      }
-    ],
-    "total_pts": 27.25,
-    "avg_pts": 13.62
-  },
-  {
-    "name": "Chauchereau, Benjamin and Borcea, Jaquelyn",
-    "results": [
+        "points": 15.75
+      },
       {
-        "comp_name": "California Chic Classic 2020",
-        "info": "AC- Under 21 - American Smooth (W/T/F/VW)",
-        "place": "1",
-        "points": 13.5
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "Semis",
+        "points": 10.0
       }
     ],
-    "total_pts": 13.5,
-    "avg_pts": 13.5
+    "total_pts": 25.75,
+    "avg_pts": 12.88
   },
   {
     "name": "Lee, Patrick and Mattox, Carly",
@@ -383,6 +587,25 @@
     ],
     "total_pts": 12.5,
     "avg_pts": 12.5
+  },
+  {
+    "name": "Williams, Quinton and Heath, Lauren",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "6",
+        "points": 15.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "quarters",
+        "points": 8.25
+      }
+    ],
+    "total_pts": 24.0,
+    "avg_pts": 12.0
   },
   {
     "name": "Doraski, Flora and Doraski, Joe",
@@ -442,7 +665,103 @@
     "avg_pts": 11.94
   },
   {
-    "name": "Beach, Logan and Wright, Melina",
+    "name": "Burns, Spencer and Gunnell, Tiffany",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "Semis",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 11.25,
+    "avg_pts": 11.25
+  },
+  {
+    "name": "Golding, Samuel and Holmes, Elena",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "Semis",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 11.25,
+    "avg_pts": 11.25
+  },
+  {
+    "name": "Horne, Bronson and Anderson, Paige",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "Semis",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 11.25,
+    "avg_pts": 11.25
+  },
+  {
+    "name": "Horne, Carson and Baines, Chloe",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "Semis",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 11.25,
+    "avg_pts": 11.25
+  },
+  {
+    "name": "Kouri, Tom and Kouri, Patty",
+    "results": [
+      {
+        "comp_name": "The Snow Ball 2020",
+        "info": "AA-S3 Closed Silver Smooth (W/T/F)",
+        "place": "1",
+        "points": 11.25
+      }
+    ],
+    "total_pts": 11.25,
+    "avg_pts": 11.25
+  },
+  {
+    "name": "Luhman, Brian and Koda, Alexis",
+    "results": [
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC-A American Smooth Pre-Championship (W/T/F/VW)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "4",
+        "points": 22.5
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "quarters",
+        "points": 8.25
+      }
+    ],
+    "total_pts": 44.5,
+    "avg_pts": 11.12
+  },
+  {
+    "name": "Cole, Ashton and Simkins, Mason",
     "results": [
       {
         "comp_name": "caopen20[suzanne nyemchek]",
@@ -453,12 +772,37 @@
       {
         "comp_name": "NYDF 2019",
         "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "5",
-        "points": 16.0
+        "place": "6",
+        "points": 14.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "Semis",
+        "points": 12.5
       }
     ],
-    "total_pts": 22.75,
-    "avg_pts": 11.38
+    "total_pts": 33.25,
+    "avg_pts": 11.08
+  },
+  {
+    "name": "Anderson, Jacob and Stirland, Laura",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "5",
+        "points": 18.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 2",
+        "points": 3.85
+      }
+    ],
+    "total_pts": 21.85,
+    "avg_pts": 10.93
   },
   {
     "name": "Chiou, Justin and Bundus, Hannah",
@@ -474,23 +818,22 @@
         "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
         "place": "quarters",
         "points": 4.0
-      }
-    ],
-    "total_pts": 22.75,
-    "avg_pts": 11.38
-  },
-  {
-    "name": "Kouri, Tom and Kouri, Patty",
-    "results": [
+      },
       {
-        "comp_name": "The Snow Ball 2020",
-        "info": "AA-S3 Closed Silver Smooth (W/T/F)",
-        "place": "1",
-        "points": 11.25
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "Semis",
+        "points": 13.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "quarters",
+        "points": 7.0
       }
     ],
-    "total_pts": 11.25,
-    "avg_pts": 11.25
+    "total_pts": 43.5,
+    "avg_pts": 10.88
   },
   {
     "name": "Hoffman, Shanden and Sulik, Sabrina",
@@ -518,10 +861,22 @@
         "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
         "place": "quarters",
         "points": 4.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "Semis",
+        "points": 13.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "quarters",
+        "points": 6.5
       }
     ],
-    "total_pts": 43.25,
-    "avg_pts": 10.81
+    "total_pts": 63.5,
+    "avg_pts": 10.58
   },
   {
     "name": "Chiriboga, Leonardo and Castro, Yaireth",
@@ -575,23 +930,29 @@
     "avg_pts": 10.5
   },
   {
-    "name": "Cole, Ashton and Simkins, Mason",
+    "name": "Fisher, Talan and Brunson, Mina",
     "results": [
       {
         "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 6.75
+        "info": "AC- Amateur Novice Smooth (W/FT)",
+        "place": "1",
+        "points": 15.0
       },
       {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
         "place": "6",
-        "points": 14.0
+        "points": 12.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 2",
+        "points": 3.15
       }
     ],
-    "total_pts": 20.75,
-    "avg_pts": 10.38
+    "total_pts": 30.4,
+    "avg_pts": 10.13
   },
   {
     "name": "Doost, Hamid and Zhang, Sonia",
@@ -607,42 +968,67 @@
     "avg_pts": 10.0
   },
   {
-    "name": "Woyak, Daniel and Ly, Monica",
+    "name": "Davis, Derrick and Munson, Peyton",
     "results": [
       {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Amateur Events A Amer. Smooth Championship (W,T,F,VW)",
-        "place": "4",
-        "points": 15.0
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
+        "place": "Semis",
+        "points": 6.75
       },
       {
         "comp_name": "NYDF 2019",
         "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "quarters",
-        "points": 4.0
-      }
-    ],
-    "total_pts": 19.0,
-    "avg_pts": 9.5
-  },
-  {
-    "name": "Cook, Nathan and Barrett, Taylor",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
-        "place": "5",
-        "points": 14.0
+        "place": "Semis",
+        "points": 10.0
       },
       {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
-        "place": "quarters",
-        "points": 4.5
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "Semis",
+        "points": 12.5
       }
     ],
-    "total_pts": 18.5,
-    "avg_pts": 9.25
+    "total_pts": 29.25,
+    "avg_pts": 9.75
+  },
+  {
+    "name": "Rallison, Matthew and Musig, Tayva",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "Semis",
+        "points": 11.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "quarters",
+        "points": 8.25
+      }
+    ],
+    "total_pts": 19.5,
+    "avg_pts": 9.75
+  },
+  {
+    "name": "Migliore, Trevor and Patterson, Breanna",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "Semis",
+        "points": 13.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "quarters",
+        "points": 5.5
+      }
+    ],
+    "total_pts": 19.25,
+    "avg_pts": 9.62
   },
   {
     "name": "Peterson, Robb and James, Laurie",
@@ -735,30 +1121,23 @@
     "avg_pts": 9.0
   },
   {
-    "name": "Coker, Adam and Pope, Natalie",
+    "name": "Phippen, Jackson and Casper, Kiaya",
     "results": [
       {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "AC- Amateur Open Smooth Scholarships (W/T/F/VW)\r",
-        "place": "3",
-        "points": 8.75
-      }
-    ],
-    "total_pts": 8.75,
-    "avg_pts": 8.75
-  },
-  {
-    "name": "Disbrow, Jason and Do, Michelle",
-    "results": [
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "7",
+        "points": 13.5
+      },
       {
-        "comp_name": "City Lights Open",
-        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
-        "place": "2",
-        "points": 8.75
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 2",
+        "points": 4.4
       }
     ],
-    "total_pts": 8.75,
-    "avg_pts": 8.75
+    "total_pts": 17.9,
+    "avg_pts": 8.95
   },
   {
     "name": "Namburi, Praneeth and Allaway, Emily",
@@ -799,23 +1178,111 @@
     "avg_pts": 8.67
   },
   {
-    "name": "Davis, Derrick and Munson, Peyton",
+    "name": "Cook, Nathan and Barrett, Taylor",
     "results": [
       {
         "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
-        "place": "Semis",
-        "points": 6.75
+        "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
+        "place": "5",
+        "points": 14.0
       },
       {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
+        "place": "quarters",
+        "points": 4.5
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "quarters",
+        "points": 8.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "quarters",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 34.25,
+    "avg_pts": 8.56
+  },
+  {
+    "name": "Millett, Connor and Rasmussen, Rebecca",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
         "place": "Semis",
-        "points": 10.0
+        "points": 11.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 2",
+        "points": 5.5
       }
     ],
     "total_pts": 16.75,
     "avg_pts": 8.38
+  },
+  {
+    "name": "Larsen, Joshua and Lusk, Hannah",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "quarters",
+        "points": 8.25
+      }
+    ],
+    "total_pts": 8.25,
+    "avg_pts": 8.25
+  },
+  {
+    "name": "Phillips, Jaxon and Meganhardt, Zetta",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "quarters",
+        "points": 8.25
+      }
+    ],
+    "total_pts": 8.25,
+    "avg_pts": 8.25
+  },
+  {
+    "name": "Woyak, Daniel and Ly, Monica",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Amateur Events A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "4",
+        "points": 15.0
+      },
+      {
+        "comp_name": "NYDF 2019",
+        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "place": "quarters",
+        "points": 4.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "quarters",
+        "points": 8.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "quarters",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 32.25,
+    "avg_pts": 8.06
   },
   {
     "name": "Kniejski, Bob and Kniejski, Wini",
@@ -862,31 +1329,6 @@
     "avg_pts": 7.88
   },
   {
-    "name": "Cometa, George and Wills, Amelia",
-    "results": [
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Amateur Events A Amer. Smooth Championship (W,T,F,VW)",
-        "place": "5",
-        "points": 12.0
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-A American Smooth Pre-Championship (W/T/F/VW)",
-        "place": "4",
-        "points": 7.5
-      },
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
-        "place": "quarters",
-        "points": 3.6
-      }
-    ],
-    "total_pts": 23.1,
-    "avg_pts": 7.7
-  },
-  {
     "name": "Tong, William and Dagle, Alicia",
     "results": [
       {
@@ -904,6 +1346,25 @@
     ],
     "total_pts": 15.2,
     "avg_pts": 7.6
+  },
+  {
+    "name": "Holt, Anthony and Antonelli, Toni Nicole",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "quarters",
+        "points": 6.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "quarters",
+        "points": 8.25
+      }
+    ],
+    "total_pts": 15.0,
+    "avg_pts": 7.5
   },
   {
     "name": "Morano, Kevin and Morano, Lisa",
@@ -957,6 +1418,25 @@
     "avg_pts": 7.5
   },
   {
+    "name": "Coker, Adam and Pope, Natalie",
+    "results": [
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "AC- Amateur Open Smooth Scholarships (W/T/F/VW)\r",
+        "place": "3",
+        "points": 8.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "quarters",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 14.75,
+    "avg_pts": 7.38
+  },
+  {
     "name": "Van Horn, Martin and Van Horn, Lisa",
     "results": [
       {
@@ -976,23 +1456,41 @@
     "avg_pts": 7.38
   },
   {
-    "name": "Luhman, Brian and Koda, Alexis",
+    "name": "Cometa, George and Wills, Amelia",
     "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Amateur Events A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "5",
+        "points": 12.0
+      },
       {
         "comp_name": "NYDF 2019",
         "info": "AC-A American Smooth Pre-Championship (W/T/F/VW)",
-        "place": "3",
-        "points": 9.75
+        "place": "4",
+        "points": 7.5
       },
       {
         "comp_name": "NYDF 2019",
         "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
         "place": "quarters",
-        "points": 4.0
+        "points": 3.6
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "quarters",
+        "points": 8.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "quarters",
+        "points": 5.0
       }
     ],
-    "total_pts": 13.75,
-    "avg_pts": 6.88
+    "total_pts": 36.35,
+    "avg_pts": 7.27
   },
   {
     "name": "Kyle, TJ and Croghan, Jane",
@@ -1033,12 +1531,77 @@
     "avg_pts": 6.75
   },
   {
-    "name": "Baker, Bronson and Haslam, Jiaxin",
+    "name": "Barlow, Kaleb and Harris, Hannah Elaine",
     "results": [
       {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
-        "place": "Semis",
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "quarters",
+        "points": 6.75
+      }
+    ],
+    "total_pts": 6.75,
+    "avg_pts": 6.75
+  },
+  {
+    "name": "Gee, Marco and Mattson, Hannah",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "quarters",
+        "points": 6.75
+      }
+    ],
+    "total_pts": 6.75,
+    "avg_pts": 6.75
+  },
+  {
+    "name": "Lyon, Tallon and Martin, Chloe",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "quarters",
+        "points": 6.75
+      }
+    ],
+    "total_pts": 6.75,
+    "avg_pts": 6.75
+  },
+  {
+    "name": "McCubbin, Joshua and Hathaway, Cambree",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "quarters",
+        "points": 6.75
+      }
+    ],
+    "total_pts": 6.75,
+    "avg_pts": 6.75
+  },
+  {
+    "name": "Olson, Michael and Miyazaki, Catherine",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "quarters",
+        "points": 6.75
+      }
+    ],
+    "total_pts": 6.75,
+    "avg_pts": 6.75
+  },
+  {
+    "name": "Reid, John and Tessem, Lily",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "quarters",
         "points": 6.75
       }
     ],
@@ -1057,6 +1620,25 @@
     ],
     "total_pts": 6.75,
     "avg_pts": 6.75
+  },
+  {
+    "name": "Stone, Patrick and Hemphill, Carlye",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "quarters",
+        "points": 8.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "quarters",
+        "points": 5.0
+      }
+    ],
+    "total_pts": 13.25,
+    "avg_pts": 6.62
   },
   {
     "name": "Kiang, Michael and Liao, Isabel Jiah-Yih",
@@ -1103,17 +1685,35 @@
     "avg_pts": 6.47
   },
   {
-    "name": "Fox, Blake and Ascione, Nicole",
+    "name": "Espiritu, Joseph and Podzikowski, Kelani",
     "results": [
       {
-        "comp_name": "NYDF 2019",
-        "info": "AC- Open Amateur American Smooth Championship (W/T/F/VW)",
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
         "place": "Semis",
-        "points": 6.4
+        "points": 5.25
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
+        "place": "quarters",
+        "points": 0.9
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "Semis",
+        "points": 11.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "quarters",
+        "points": 8.25
       }
     ],
-    "total_pts": 6.4,
-    "avg_pts": 6.4
+    "total_pts": 25.65,
+    "avg_pts": 6.41
   },
   {
     "name": "Latham, Grant and Flink, Leah",
@@ -1154,6 +1754,25 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Whittum, Terry and Jordan, Patty",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-C Bronze Closed Smooth Championships (W/T/FT)",
+        "place": "1",
+        "points": 6.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-SR Bronze Closed Smooth Championships (W/T/FT)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Combs, Jared and Slater, Heather",
     "results": [
       {
@@ -1173,19 +1792,6 @@
         "comp_name": "Texas Challenge DanceSport",
         "info": "AC-C Closed Bronze Pro/Am American Smooth 3 Dance Championship (W/T/FT)",
         "place": "1",
-        "points": 6.0
-      }
-    ],
-    "total_pts": 6.0,
-    "avg_pts": 6.0
-  },
-  {
-    "name": "Portas, Kirk and Carlowicz, Agnes",
-    "results": [
-      {
-        "comp_name": "NYDF 2019",
-        "info": "AC-A American Smooth Pre-Championship (W/T/F/VW)",
-        "place": "5",
         "points": 6.0
       }
     ],
@@ -1219,6 +1825,25 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Smith, Zachary and Maier, Lucy",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
+        "place": "quarters",
+        "points": 3.5
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "quarters",
+        "points": 8.25
+      }
+    ],
+    "total_pts": 11.75,
+    "avg_pts": 5.88
+  },
+  {
     "name": "Rogers, Edward and Rogers, Trisha",
     "results": [
       {
@@ -1238,17 +1863,67 @@
     "avg_pts": 5.85
   },
   {
-    "name": "Bankhead, Porter and McAllister, Ashlyn",
+    "name": "Theobald, Andy and McPhearson, Makelle",
     "results": [
       {
         "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC- Amateur Novice Smooth (W/FT)",
+        "place": "3",
+        "points": 9.75
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
         "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
-        "place": "Semis",
-        "points": 5.25
+        "place": "quarters",
+        "points": 0.7
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "quarters",
+        "points": 6.75
       }
     ],
-    "total_pts": 5.25,
-    "avg_pts": 5.25
+    "total_pts": 17.2,
+    "avg_pts": 5.73
+  },
+  {
+    "name": "Knighton, Brittany and Knighton, Jai",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "quarters",
+        "points": 8.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "round 1",
+        "points": 2.5
+      }
+    ],
+    "total_pts": 10.75,
+    "avg_pts": 5.38
+  },
+  {
+    "name": "Sweat, Tyler and Pettis-Londo\u00f1o, Susana",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "quarters",
+        "points": 6.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 2",
+        "points": 3.85
+      }
+    ],
+    "total_pts": 10.6,
+    "avg_pts": 5.3
   },
   {
     "name": "Carlson, John and Kudalis, Maryann",
@@ -1316,36 +1991,73 @@
     "avg_pts": 5.25
   },
   {
-    "name": "Schuman, Hayden and Wanlass, Emily",
+    "name": "Portas, Kirk and Carlowicz, Agnes",
     "results": [
       {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
-        "place": "Semis",
-        "points": 5.25
-      }
-    ],
-    "total_pts": 5.25,
-    "avg_pts": 5.25
-  },
-  {
-    "name": "Theobald, Andy and McPhearson, Makelle",
-    "results": [
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Amateur Novice Smooth (W/FT)",
-        "place": "3",
-        "points": 9.75
+        "comp_name": "NYDF 2019",
+        "info": "AC-A American Smooth Pre-Championship (W/T/F/VW)",
+        "place": "5",
+        "points": 6.0
       },
       {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
         "place": "quarters",
-        "points": 0.7
+        "points": 6.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 2.75
       }
     ],
-    "total_pts": 10.45,
-    "avg_pts": 5.22
+    "total_pts": 15.5,
+    "avg_pts": 5.17
+  },
+  {
+    "name": "Disbrow, Jason and Do, Michelle",
+    "results": [
+      {
+        "comp_name": "City Lights Open",
+        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
+        "place": "2",
+        "points": 8.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 2",
+        "points": 3.85
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "round 1",
+        "points": 2.5
+      }
+    ],
+    "total_pts": 15.1,
+    "avg_pts": 5.03
+  },
+  {
+    "name": "Lee, Damon and Nielsen, Sophie",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "quarters",
+        "points": 6.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 9.5,
+    "avg_pts": 4.75
   },
   {
     "name": "Beal, Aaron and Zhang, Ying",
@@ -1418,36 +2130,36 @@
     "avg_pts": 4.5
   },
   {
-    "name": "Wardle, Derek and Moore, Skylar",
+    "name": "Brooks, Jason and Hrouda, Nichole",
     "results": [
       {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Amateur Novice Smooth (W/FT)",
-        "place": "4",
-        "points": 7.5
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
-        "place": "quarters",
-        "points": 1.4
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 2",
+        "points": 4.4
       }
     ],
-    "total_pts": 8.9,
-    "avg_pts": 4.45
+    "total_pts": 4.4,
+    "avg_pts": 4.4
   },
   {
-    "name": "Claeys, Keith and Ning, Shen",
+    "name": "Heaton, Alex and Bernardi, Julia",
     "results": [
       {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Amateur Events A Amer. Smooth Championship (W,T,F,VW)",
-        "place": "Semis",
-        "points": 4.2
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 2",
+        "points": 3.15
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 2",
+        "points": 5.5
       }
     ],
-    "total_pts": 4.2,
-    "avg_pts": 4.2
+    "total_pts": 8.65,
+    "avg_pts": 4.33
   },
   {
     "name": "Sawyer, Nick and Albain, Christine",
@@ -1488,19 +2200,120 @@
     "avg_pts": 4.03
   },
   {
-    "name": "Cox, Easton and Lawrence, Jessica",
+    "name": "Bankhead, Porter and McAllister, Ashlyn",
     "results": [
       {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "AC- Amateur Novice Smooth (W/T/F)\r",
-        "place": "3",
-        "points": 1.75
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
+        "place": "Semis",
+        "points": 5.25
       },
       {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "AC- Amateur Pre-Champ Smooth (W/T/F/VW)\r",
-        "place": "2",
-        "points": 5.25
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "round 1",
+        "points": 2.5
+      }
+    ],
+    "total_pts": 7.75,
+    "avg_pts": 3.88
+  },
+  {
+    "name": "Kennedy, Conner and Cash, Parker",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 2",
+        "points": 3.85
+      }
+    ],
+    "total_pts": 3.85,
+    "avg_pts": 3.85
+  },
+  {
+    "name": "Chambers, Matt and Chambers, Kelly",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 2",
+        "points": 4.95
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "round 1",
+        "points": 2.5
+      }
+    ],
+    "total_pts": 7.45,
+    "avg_pts": 3.73
+  },
+  {
+    "name": "Chen, Sean and Gong, Mengsha",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 2",
+        "points": 4.95
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "round 1",
+        "points": 2.5
+      }
+    ],
+    "total_pts": 7.45,
+    "avg_pts": 3.73
+  },
+  {
+    "name": "Wardle, Derek and Moore, Skylar",
+    "results": [
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC- Amateur Novice Smooth (W/FT)",
+        "place": "4",
+        "points": 7.5
+      },
+      {
+        "comp_name": "caopen20[suzanne nyemchek]",
+        "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
+        "place": "quarters",
+        "points": 1.4
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 2",
+        "points": 3.15
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 14.8,
+    "avg_pts": 3.7
+  },
+  {
+    "name": "Christensen, Bryce and Jorgensen, Caroline",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 2",
+        "points": 3.15
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 2",
+        "points": 3.85
       }
     ],
     "total_pts": 7.0,
@@ -1526,17 +2339,130 @@
     "avg_pts": 3.5
   },
   {
-    "name": "Smith, Zachary and Maier, Lucy",
+    "name": "Leonard, Jack and Bell, Theresa",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 2",
+        "points": 3.15
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 2",
+        "points": 3.85
+      }
+    ],
+    "total_pts": 7.0,
+    "avg_pts": 3.5
+  },
+  {
+    "name": "Hunt, Mason and Mecham, Kiara",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 2",
+        "points": 3.15
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 2",
+        "points": 3.85
+      }
+    ],
+    "total_pts": 7.0,
+    "avg_pts": 3.5
+  },
+  {
+    "name": "Burt, Jordan and Stewart, Megan",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 2",
+        "points": 4.4
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "round 1",
+        "points": 2.5
+      }
+    ],
+    "total_pts": 6.9,
+    "avg_pts": 3.45
+  },
+  {
+    "name": "Schuman, Hayden and Wanlass, Emily",
     "results": [
       {
         "comp_name": "caopen20[suzanne nyemchek]",
         "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
-        "place": "quarters",
-        "points": 3.5
+        "place": "Semis",
+        "points": 5.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 1.65
       }
     ],
-    "total_pts": 3.5,
-    "avg_pts": 3.5
+    "total_pts": 6.9,
+    "avg_pts": 3.45
+  },
+  {
+    "name": "Cox, Easton and Lawrence, Jessica",
+    "results": [
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "AC- Amateur Novice Smooth (W/T/F)\r",
+        "place": "3",
+        "points": 1.75
+      },
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "AC- Amateur Pre-Champ Smooth (W/T/F/VW)\r",
+        "place": "2",
+        "points": 5.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 2",
+        "points": 3.15
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 12.9,
+    "avg_pts": 3.23
+  },
+  {
+    "name": "Wear, Ben and Gunnell, Whitney",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 2",
+        "points": 3.85
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "round 1",
+        "points": 2.5
+      }
+    ],
+    "total_pts": 6.35,
+    "avg_pts": 3.17
   },
   {
     "name": "McCann, Colton and Lindbeck, Madeline",
@@ -1558,23 +2484,100 @@
     "avg_pts": 3.17
   },
   {
-    "name": "Espiritu, Joseph and Podzikowski, Kelani",
+    "name": "Christensen, Natali and Worley, Devin",
     "results": [
       {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
-        "place": "Semis",
-        "points": 5.25
-      },
-      {
-        "comp_name": "caopen20[suzanne nyemchek]",
-        "info": "AC- Open Amateur Smooth Scholarship (W/T/FT/VW)",
-        "place": "quarters",
-        "points": 0.9
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 2",
+        "points": 3.15
       }
     ],
-    "total_pts": 6.15,
-    "avg_pts": 3.08
+    "total_pts": 3.15,
+    "avg_pts": 3.15
+  },
+  {
+    "name": "England, Mitchell and Wheelhouse, Kathryn",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 2",
+        "points": 3.15
+      }
+    ],
+    "total_pts": 3.15,
+    "avg_pts": 3.15
+  },
+  {
+    "name": "Jones, Cristian and Ercanbrack, Emilee",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 2",
+        "points": 3.15
+      }
+    ],
+    "total_pts": 3.15,
+    "avg_pts": 3.15
+  },
+  {
+    "name": "Madsen, Isaac and Hanks, Grace",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 2",
+        "points": 3.15
+      }
+    ],
+    "total_pts": 3.15,
+    "avg_pts": 3.15
+  },
+  {
+    "name": "Smith, Tyler B and Dighans, Emily",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 2",
+        "points": 3.15
+      }
+    ],
+    "total_pts": 3.15,
+    "avg_pts": 3.15
+  },
+  {
+    "name": "Sturgeon, Steve and Cunningham, Pat",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-C Silver Amateur American Smooth Novice 2-Dance (W/T)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-C Silver Amateur American Smooth Novice 2-Dance (F/VW)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-C Gold Amateur American Smooth Novice 2-Dance (W/T)",
+        "place": "1",
+        "points": 3.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "AC-C Gold Amateur American Smooth Novice 2-Dance (F/VW)",
+        "place": "1",
+        "points": 3.0
+      }
+    ],
+    "total_pts": 12.0,
+    "avg_pts": 3.0
   },
   {
     "name": "Gould, Ivan and Gould, Sharon",
@@ -1628,17 +2631,137 @@
     "avg_pts": 3.0
   },
   {
-    "name": "Stowell, Sam and Barker, Jenica",
+    "name": "Bowman, Kyle and Bassett, Jenny",
     "results": [
       {
-        "comp_name": "vegasopen2020[mikal%20watkins]",
-        "info": "AC- Amateur Novice Smooth (W/T/F)\r",
-        "place": "2",
-        "points": 3.0
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 2",
+        "points": 3.15
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 2.75
       }
     ],
-    "total_pts": 3.0,
-    "avg_pts": 3.0
+    "total_pts": 5.9,
+    "avg_pts": 2.95
+  },
+  {
+    "name": "Maner, Brandon and Jones, Sydney",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 2",
+        "points": 3.15
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 5.9,
+    "avg_pts": 2.95
+  },
+  {
+    "name": "Theurer, Brandon and Bailey, Alice",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 2",
+        "points": 3.15
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 5.9,
+    "avg_pts": 2.95
+  },
+  {
+    "name": "Harris, Traedon and Evans, Kaylyn",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 1.8
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 2",
+        "points": 3.85
+      }
+    ],
+    "total_pts": 5.65,
+    "avg_pts": 2.83
+  },
+  {
+    "name": "Peterson, Anthony and Gibbons, Megan",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 1.8
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 2",
+        "points": 3.85
+      }
+    ],
+    "total_pts": 5.65,
+    "avg_pts": 2.83
+  },
+  {
+    "name": "Claeys, Keith and Ning, Shen",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Amateur Events A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "Semis",
+        "points": 4.2
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 1.35
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 8.3,
+    "avg_pts": 2.77
+  },
+  {
+    "name": "Koyle, Jared and Randall, Amalie",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 2.75,
+    "avg_pts": 2.75
   },
   {
     "name": "Shepard, Joseph and Harding, Alexandra",
@@ -1654,10 +2777,98 @@
         "info": "AC- Amateur Pre-Championship Smooth (W/T/FT)",
         "place": "quarters",
         "points": 0.7
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 2.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 2.75
       }
     ],
-    "total_pts": 5.95,
-    "avg_pts": 2.98
+    "total_pts": 10.95,
+    "avg_pts": 2.74
+  },
+  {
+    "name": "Stowell, Sam and Barker, Jenica",
+    "results": [
+      {
+        "comp_name": "vegasopen2020[mikal%20watkins]",
+        "info": "AC- Amateur Novice Smooth (W/T/F)\r",
+        "place": "2",
+        "points": 3.0
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 2.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 8.0,
+    "avg_pts": 2.67
+  },
+  {
+    "name": "Collins, Larry and Andersen, Deborah",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 2.75
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "round 1",
+        "points": 2.5
+      }
+    ],
+    "total_pts": 5.25,
+    "avg_pts": 2.62
+  },
+  {
+    "name": "Anderson, Eli and Bingham, Emma",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 2.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 2.75
+      }
+    ],
+    "total_pts": 5.0,
+    "avg_pts": 2.5
+  },
+  {
+    "name": "Mason, Hunter and McMullin, Alayna",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 2.25
+      }
+    ],
+    "total_pts": 2.25,
+    "avg_pts": 2.25
   },
   {
     "name": "Mischo, Seth and Chalmers, Rebecca",
@@ -1673,6 +2884,58 @@
     "avg_pts": 2.25
   },
   {
+    "name": "Patrick, Jacob and Cox, Haven",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 2.25
+      }
+    ],
+    "total_pts": 2.25,
+    "avg_pts": 2.25
+  },
+  {
+    "name": "Robison, Jason and Miles, Kelly",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 2.25
+      }
+    ],
+    "total_pts": 2.25,
+    "avg_pts": 2.25
+  },
+  {
+    "name": "Shippen, Garrett and Ferguson, Akira",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 2.25
+      }
+    ],
+    "total_pts": 2.25,
+    "avg_pts": 2.25
+  },
+  {
+    "name": "Belka, Spencer and Hassel, Sarah",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 2.2
+      }
+    ],
+    "total_pts": 2.2,
+    "avg_pts": 2.2
+  },
+  {
     "name": "Luo, Max and Tao, Vivian",
     "results": [
       {
@@ -1686,6 +2949,38 @@
     "avg_pts": 2.0
   },
   {
+    "name": "Richards, Charles and Richards, Jessica",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 2",
+        "points": 3.15
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 0.55
+      }
+    ],
+    "total_pts": 3.7,
+    "avg_pts": 1.85
+  },
+  {
+    "name": "Peay, Davis and Oliveira, Rebecca",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 1.8
+      }
+    ],
+    "total_pts": 1.8,
+    "avg_pts": 1.8
+  },
+  {
     "name": "Ma, Ming Wei and Liang, Maria",
     "results": [
       {
@@ -1697,6 +2992,25 @@
     ],
     "total_pts": 1.75,
     "avg_pts": 1.75
+  },
+  {
+    "name": "Schultz, Allen and Edwards, Ashley",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 2.25
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 1.1
+      }
+    ],
+    "total_pts": 3.35,
+    "avg_pts": 1.68
   },
   {
     "name": "Tran-Faypon, Jericho and LeBlanc, Zoe",
@@ -1716,6 +3030,44 @@
     ],
     "total_pts": 3.2,
     "avg_pts": 1.6
+  },
+  {
+    "name": "DeBoor, Michael and Collins, Paige",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 0.9
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 2.2
+      }
+    ],
+    "total_pts": 3.1,
+    "avg_pts": 1.55
+  },
+  {
+    "name": "Medlin, Jonathan and allert, Malin",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 0.55
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "U.S. National Amateur Smooth Championship  (W,T,F,VW)",
+        "place": "round 1",
+        "points": 2.5
+      }
+    ],
+    "total_pts": 3.05,
+    "avg_pts": 1.52
   },
   {
     "name": "Salazar, Nino and Atwater, Emily",
@@ -1756,6 +3108,64 @@
     "avg_pts": 1.47
   },
   {
+    "name": "Amador, Christopher and Phippen, Xandri",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 1.35
+      }
+    ],
+    "total_pts": 1.35,
+    "avg_pts": 1.35
+  },
+  {
+    "name": "Clair, Jason and McMullin, Grace",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 1.35
+      }
+    ],
+    "total_pts": 1.35,
+    "avg_pts": 1.35
+  },
+  {
+    "name": "Winward, Bridger and Monsivais, Zoe",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 1.35
+      }
+    ],
+    "total_pts": 1.35,
+    "avg_pts": 1.35
+  },
+  {
+    "name": "Jones, Alex and Fiallo, Katie",
+    "results": [
+      {
+        "comp_name": "Eastern United States Dancesport Championships",
+        "info": "Amateur Events A Amer. Smooth Championship (W,T,F,VW)",
+        "place": "Semis",
+        "points": 0.3
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 2.25
+      }
+    ],
+    "total_pts": 2.55,
+    "avg_pts": 1.27
+  },
+  {
     "name": "Kim, Hyun Jung and Zheng, Jenny",
     "results": [
       {
@@ -1780,6 +3190,25 @@
     ],
     "total_pts": 1.25,
     "avg_pts": 1.25
+  },
+  {
+    "name": "Forsgren, Alexander and Price, Margaret",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 0.45
+      },
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Pre-Championship Smooth  (W,T,F)",
+        "place": "round 1",
+        "points": 1.65
+      }
+    ],
+    "total_pts": 2.1,
+    "avg_pts": 1.05
   },
   {
     "name": "Goodrich, Justin and Wilcox, Eleanor",
@@ -1840,6 +3269,19 @@
     "avg_pts": 0.47
   },
   {
+    "name": "Back, Jayden and Rokobuludrau, Shalia",
+    "results": [
+      {
+        "comp_name": "U.S. National Amateur Dancesport Championships",
+        "info": "Adult Novice Smooth  (W,F)",
+        "place": "round 1",
+        "points": 0.45
+      }
+    ],
+    "total_pts": 0.45,
+    "avg_pts": 0.45
+  },
+  {
     "name": "Peacock, Adam M and Raynor, Andrea",
     "results": [
       {
@@ -1864,19 +3306,6 @@
     ],
     "total_pts": 0.35,
     "avg_pts": 0.35
-  },
-  {
-    "name": "Jones, Alex and Fiallo, Katie",
-    "results": [
-      {
-        "comp_name": "Eastern United States Dancesport Championships",
-        "info": "Amateur Events A Amer. Smooth Championship (W,T,F,VW)",
-        "place": "Semis",
-        "points": 0.3
-      }
-    ],
-    "total_pts": 0.3,
-    "avg_pts": 0.3
   },
   {
     "name": "DeBoer, Michael and Collins, Paige",
@@ -1956,12 +3385,6 @@
   },
   {
     "name": "Ames, Robert and Hanson-Ames, Bonnie",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Anderson, Jacob and Stirland, Laura",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -2105,12 +3528,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Burt, Jordan and Stewart, Megan",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Busche, Michael and Chatterjee, Fiona",
     "results": [],
     "total_pts": 0,
@@ -2147,19 +3564,7 @@
     "avg_pts": 0
   },
   {
-    "name": "Chen, Sean and Gong, Mengsha",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Chisholm, Brian and Katz, Linda",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Christensen, Bryce and Jorgensen, Caroline",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -2417,12 +3822,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Holt, Anthony and Antonelli, Toni Nicole",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Hooker, William and Collins, Robyn",
     "results": [],
     "total_pts": 0,
@@ -2514,12 +3913,6 @@
   },
   {
     "name": "Knight, Austin and Jorgensen, Brittany",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Knighton, Brittany and Knighton, Jai",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -2645,12 +4038,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Migliore, Trevor and Patterson, Breanna",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Morton, Mike and Bront, Julia",
     "results": [],
     "total_pts": 0,
@@ -2705,12 +4092,6 @@
     "avg_pts": 0
   },
   {
-    "name": "Peterson, Anthony and Gibbons, Megan",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
     "name": "Phatak, Shirish and Levy, Stacy",
     "results": [],
     "total_pts": 0,
@@ -2718,12 +4099,6 @@
   },
   {
     "name": "Phillips, Jaxon and Peregrine, Raleigh",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Phippen, Jackson and Casper, Kiaya",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -2766,12 +4141,6 @@
   },
   {
     "name": "Ready, Terry and Tod, Marty",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Richards, Charles and Richards, Jessica",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -2898,12 +4267,6 @@
   },
   {
     "name": "Stockdale, Amber and Stockdale, Uriah",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Stone, Patrick and Hemphill, Carlye",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -3042,12 +4405,6 @@
   },
   {
     "name": "Yelin, Boris and Hutter, Amanda",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Young, Joe and Smith, DeeDee",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0

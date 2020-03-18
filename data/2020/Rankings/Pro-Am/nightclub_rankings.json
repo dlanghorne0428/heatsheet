@@ -416,10 +416,16 @@
         "info": "L-B Closed Silver Nightclub Championship (WCS/NC2/HU)\r",
         "place": "2",
         "points": 9.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "SR Silver Closed Night Club 3 Dance (Salsa/Merengue/WC)",
+        "place": "1",
+        "points": 9.0
       }
     ],
-    "total_pts": 32.25,
-    "avg_pts": 8.06
+    "total_pts": 41.25,
+    "avg_pts": 8.25
   },
   {
     "name": "Moore, Rebecca and Labrado, Rafael",
@@ -429,10 +435,16 @@
         "info": "AP-S1 Closed Bronze Nightclub (WC/N2/H)",
         "place": "2",
         "points": 8.0
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "B Bronze Closed Night Club 3 Dance (Salsa/Merengue/WC)",
+        "place": "1",
+        "points": 7.5
       }
     ],
-    "total_pts": 8.0,
-    "avg_pts": 8.0
+    "total_pts": 15.5,
+    "avg_pts": 7.75
   },
   {
     "name": "Hammersly, Katherine and Kashkina, Ksenia",
@@ -454,6 +466,19 @@
         "comp_name": "Golden Star Dancesport Championships",
         "info": "L-B1 Full Silver Club 3 Dance (Hustle,Merengue,Salsa)",
         "place": "4",
+        "points": 7.5
+      }
+    ],
+    "total_pts": 7.5,
+    "avg_pts": 7.5
+  },
+  {
+    "name": "Loving, Ada and Munson, Todd",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-SR Bronze Closed Night Club 3 Dance (Salsa/Merengue/WC)",
+        "place": "1",
         "points": 7.5
       }
     ],
@@ -718,6 +743,19 @@
     "avg_pts": 6.0
   },
   {
+    "name": "Williamson, Abby and Lopez, Jesse",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "A Bronze Closed Night Club 3 Dance (Salsa/Merengue/WC)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 6.0,
+    "avg_pts": 6.0
+  },
+  {
     "name": "Zavodchikov, Natalia and Demidov, Dmitry",
     "results": [
       {
@@ -768,6 +806,25 @@
     ],
     "total_pts": 5.0,
     "avg_pts": 5.0
+  },
+  {
+    "name": "Cusick, Barbara and Lopez, Jesse",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "B Bronze Closed Night Club 3 Dance (Salsa/Merengue/WC)",
+        "place": "2",
+        "points": 3.5
+      },
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "C Bronze Closed Night Club 3 Dance (Salsa/Merengue/WC)",
+        "place": "1",
+        "points": 6.0
+      }
+    ],
+    "total_pts": 9.5,
+    "avg_pts": 4.75
   },
   {
     "name": "Tanzer, Laraine and Poloyapoy, Jerswin",
@@ -859,6 +916,19 @@
       {
         "comp_name": "caopen20[suzanne nyemchek]",
         "info": "L-B Closed Bronze Nightclub Championship (WCS/NC2/HU)\r",
+        "place": "2",
+        "points": 3.5
+      }
+    ],
+    "total_pts": 3.5,
+    "avg_pts": 3.5
+  },
+  {
+    "name": "Pashea, Carol and Makhaye, Senzo",
+    "results": [
+      {
+        "comp_name": "St. Louis Star Ball Championship",
+        "info": "L-SR Bronze Closed Night Club 3 Dance (Salsa/Merengue/WC)",
         "place": "2",
         "points": 3.5
       }
@@ -1154,12 +1224,6 @@
   },
   {
     "name": "Craycraft, Carroll and Tsorokean, Maria",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Cusick, Barbara and Lopez, Jesse",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
@@ -1676,12 +1740,6 @@
   },
   {
     "name": "Lovett, Stephanie and Hindi, Chip",
-    "results": [],
-    "total_pts": 0,
-    "avg_pts": 0
-  },
-  {
-    "name": "Loving, Ada and Munson, Todd",
     "results": [],
     "total_pts": 0,
     "avg_pts": 0
