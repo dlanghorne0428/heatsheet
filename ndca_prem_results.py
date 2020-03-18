@@ -1,11 +1,14 @@
 import requests
 from calc_points import calc_points
-from dancer import format_name
+from dancer import Dancer
 from heat import Heat, Heat_Report
-from ndca_prem_heatlist import get_name
 from dancer_list import Dancer_List, Dancer_Type
 
 class NdcaPremEvent():
+    '''An event is basically the description of a heat.
+       For example, L-A1 Bronze Smooth 3-Dance Challenge (W/T/F).
+       There may be more than one event in a given heat of a competition.
+       This class stores the name and ID number of an event.'''
     def __init__(self, line):
         fields = line.split(">")
         # extract the event id for future use
@@ -16,15 +19,24 @@ class NdcaPremEvent():
         
         
 class NdcaPremResults():
-    
+    '''This class processes the results from the NDCA Premier site...'''
     def __init__(self):
-        self.categories = []
-        self.comp_id = None
+        # Keep a list of event objects (ID and name)
         self.events = []
+        
+        # Event results are categorized, for example "Professional Couple American Smooth"
+        # Keep a list of those categories.
+        self.categories = []
+        
+        # save the competition ID in order to request results for a given dancer
+        self.comp_id = None
+
+        # build a list of instructors 
         self.instructors = Dancer_List(dancer_type=Dancer_Type.PRO)
         
         
     def order_pro_am_couple(self, entry):
+        '''This method uses the list of instructors to put the student first.'''
         if entry.dancer in self.instructors.names:
             entry.swap_names()
         elif entry.partner not in self.instructors.names:
@@ -32,9 +44,11 @@ class NdcaPremResults():
             
         
     def get_comp_name(self, comp_id):
+        '''This method obtains the name of the competition based on the ID.'''
         url = "http://www.ndcapremier.com/scripts/compyears.asp?cyi=" + comp_id
         response = requests.get(url)
         lines = response.text.splitlines()
+        # the comp name is enclosed in an HTML tag
         for l in lines:
             start_pos = l.find("<comp_name>")
             if start_pos > -1:
@@ -46,10 +60,14 @@ class NdcaPremResults():
     
     
     def temp_result(self, rounds, accum_value):
+        '''This method builds a temporary result string based on the round that
+           the couple was eliminated and the number of recall votes'''
         if rounds == "S":
             return "Semis-" + accum_value
         elif rounds == "Q":
             return "quarters-" + accum_value
+        elif rounds == "R3":
+            return "round 3-" + accum_value    
         elif rounds == "R2":
             return "round 2-" + accum_value
         else:
@@ -57,6 +75,11 @@ class NdcaPremResults():
     
     
     def process_scoresheet_for_event(self, heat_report, event_id):
+        '''This is the method that requests and processes the scoresheet for a 
+           particular event. On the NDCA Premier site, the scoresheets are 
+           organized by event, not by dancer name.'''
+        
+        # on the NDCA Premier site, the Final round comes first.
         looking_for_final_round = True
         looking_for_final_summary = False
         looking_for_final_dance = False
@@ -68,25 +91,30 @@ class NdcaPremResults():
         process_finalists = False
         looking_for_semifinal = False
         total_entries = 0
+        
+        # build the URL based on comp ID and event ID
         url = "http://www.ndcapremier.com/scripts/results.asp?cyi=" + self.comp_id + "&event=" + event_id
-        # this should be based on event id
+        # get the number of dances in this event. For example W,T,F is 3 dances.
         num_dances = heat_report.description().count(",") + 1
         
+        # request the scoresheet and split the response into lines
         response = requests.get(url)
         lines = response.text.splitlines()
         i = 0
+        
+        # loop through all the lines
         while i < len(lines): 
             l = lines[i]
             if looking_for_final_round:
                 if 'class="roundHeader"' in l:
-                    #print(l)
+                    # once the find the title with the final results, look for the summary.
                     looking_for_final_summary = True
                     looking_for_final_round = False
                 else:
                     i += 1
             elif looking_for_final_summary:
                 if "Final Summary" in l:
-                    #print(l)
+                    # once the summary header is found, look for the result columen
                     looking_for_final_summary = False
                     looking_for_result_column = True
                     col_count = 0
@@ -94,50 +122,64 @@ class NdcaPremResults():
                     i += 1
             elif looking_for_result_column:
                 fields = l.split("</th>")
+                # count the number of columns until the result column is found
                 col_count += len(fields) - 1
                 if "Final Result" in l:
-                    #print("Result Column is ", col_count)
+                    # once the result column is found, process each finalist
                     looking_for_result_column = False
                     looking_for_finalists = True
                 else:
                     i += 1
             elif looking_for_recall_column:
+                # when looking for recalls, determine the number of columns
                 fields = l.split("</th>")
                 recall_column = len(fields) - 2
                 accum_column = recall_column - 1
-                #print("Recall Column is ", recall_column)
                 i += 1
                 looking_for_recall_column = False
+                # start looking for couples that were eliminated in the current round
                 looking_for_eliminations = True
             elif looking_for_finalists:
-                # skip the first field, it is not a row
+                # skip the first field, it closes out the previous header row
                 rows = fields[-1].split("</tr>")[1:]
+                # once the closing table tag is found we have one row per couple
                 if "</table>" in rows[-1]:
                     rows = rows[:-1]
                     looking_for_finalists = False
+                    # after processing the final results, look for possible semifinal
                     looking_for_semifinal = True
                 else:
                     i += 1
+                # loop through all the couples
                 for r in rows: 
+                    # split the row into columns
                     fields = r.split("</td>")
+                    # get the couple name and number from the first column
                     couple_field = fields[0].split("<td>")[1]
+                    # get the result info from the last column
                     result_field = fields[col_count-1].split("<td>")[1]
                     try:
                         result_place = int(result_field)
                     except:
                         result_place = None
                     total_entries += 1
+                    
+                    # find the couple's shirt number
                     sub_fields = couple_field.split(" &amp; ")
                     first_space = sub_fields[0].find(" ")
                     shirt_number = sub_fields[0][:first_space]
+                    
+                    # find the names of the couple and format them
                     dancer_name_list = list()
                     dancer_name = sub_fields[0][first_space+1:]
                     for s in range(1, len(dancer_name.split())):
-                        dancer_name_list.append(format_name(dancer_name, split_on=s))
+                        dancer_name_list.append(Dancer.format_name(dancer_name, split_on=s))
                     partner_name_list = list()
                     partner_name = sub_fields[1]
                     for s in range(1, len(partner_name.split())):
-                        partner_name_list.append(format_name(partner_name, split_on=s))                
+                        partner_name_list.append(Dancer.format_name(partner_name, split_on=s)) 
+                        
+                    # look for this couple in the heat report and add the result and shirt number
                     for index in range(heat_report.length()):
                         entry = heat_report.entry(index)
                         if entry.dancer in dancer_name_list:
@@ -157,6 +199,7 @@ class NdcaPremResults():
                                 entry.result = result_place
                             break
                     else:
+                        # couple not found, add a late entry to the heat report
                         h = heat_report.build_late_entry()
                         h.dancer = dancer_name_list[0]
                         h.partner = partner_name_list[0]
@@ -165,7 +208,9 @@ class NdcaPremResults():
                         h.result = result_place
                         h.code = "LATE"
                         heat_report.append(h)
+                        
             elif looking_for_semifinal:
+                # if we find a semifinal, set the rounds and look for the results of this round
                 if 'class="roundHeader"' in l:
                     print("Found semi-final")
                     heat_report.set_rounds("S")
@@ -175,6 +220,7 @@ class NdcaPremResults():
                 else:
                     i += 1           
             elif looking_for_quarterfinal:
+                # if we find a quarter final, set the rounds and look for the results of this round
                 if 'class="roundHeader"' in l:
                     print("Found quarter-final")
                     heat_report.set_rounds("Q")
@@ -184,7 +230,14 @@ class NdcaPremResults():
                 else:
                     i += 1        
             elif looking_for_prelim_round:
-                if 'class="roundHeader">Second' in l:
+                # if we find an earlier round, set the rounds and look for the results of this round
+                if 'class="roundHeader">Third' in l:
+                    print("Found Third Round")
+                    heat_report.set_rounds("R3")
+                    looking_for_prelim_round = False
+                    looking_for_final_dance = True
+                    dance_count = 0                
+                elif 'class="roundHeader">Second' in l:
                     print("Found Second Round")
                     heat_report.set_rounds("R2")
                     looking_for_prelim_round = False
@@ -192,8 +245,10 @@ class NdcaPremResults():
                     dance_count = 0
                 elif 'class="roundHeader">First' in l:
                     print("Found First Round")
-                    if heat_report.rounds() == "R2":
-                        heat_report.set_rounds("R21")
+                    if heat_report.rounds() == "R3":
+                        heat_report.set_rounds("R321")
+                    elif heat_report.rounds() == "R2":
+                        heat_report.set_rounds("R21")   
                     else:
                         heat_report.set_rounds("R1")
                     looking_for_prelim_round = False
@@ -204,45 +259,58 @@ class NdcaPremResults():
             elif looking_for_final_dance:
                 if 'class="eventResults"' in l:
                     dance_count += 1
+                # TODO: some prelim rounds may not dance all the dances. Need to handle this.
                 if dance_count == num_dances:
-                    #print(l)
                     looking_for_final_dance = False
                     looking_for_recall_column = True
                 i += 1
             elif looking_for_eliminations:
+                # once we find the results of an early round, look for earlier rounds
                 if "</table>" in l:
                     looking_for_eliminations = False
                     if heat_report.rounds() == "S":
                         looking_for_quarterfinal = True
                     elif heat_report.rounds() == "Q":
                         looking_for_prelim_round = True
+                    elif heat_report.rounds() == "R3":
+                        looking_for_prelim_round = True                    
                     elif heat_report.rounds() == "R2":
                         looking_for_prelim_round = True
                 else:
+                    # process the result of the next couple
                     fields = l.split("</td>")
+                    # get the couple name and shirt number
                     couple_field = fields[0].split("<td>")[1]
+                    # determine if the couple was recalled
                     recall_place = fields[recall_column].split("<td>")[1]
                     if recall_place != "Recall":
+                        # if the couple was not recalled determine how many votes they got
                         accum_value = fields[accum_column].split("<td>")[1]
+                        
+                        # extract the shirt number
                         sub_fields = couple_field.split(" &amp; ")
                         first_space = sub_fields[0].find(" ")
                         shirt_number = sub_fields[0][:first_space]
+                        
+                        # extract the names of the couple
                         dancer_name_list = list()
                         dancer_name = sub_fields[0][first_space+1:]
                         for s in range(1, len(dancer_name.split())):
-                            dancer_name_list.append(format_name(dancer_name, split_on=s))
+                            dancer_name_list.append(Dancer.format_name(dancer_name, split_on=s))
                         partner_name_list = list()
                         partner_name = sub_fields[1]
                         for s in range(1, len(partner_name.split())):
-                            partner_name_list.append(format_name(partner_name, split_on=s))                       
-                        #dancer = get_name(sub_fields[0][first_space+1:])
-                        #partner = get_name(sub_fields[1])
+                            partner_name_list.append(Dancer.format_name(partner_name, split_on=s)) 
+                            
+                        # look for the couple in the heat report
                         for index in range(heat_report.length()):
                             entry = heat_report.entry(index)
                             if entry.dancer in dancer_name_list:
                                 entry.shirt_number = shirt_number
+                                # put the couple names in the right order
                                 if entry.category == "Heat" and not entry.amateur_heat():
                                     self.order_pro_am_couple(entry)
+                                # if the couple already has a result, they were not recalled so don't overwrite it
                                 if entry.result is None:
                                     entry.result = self.temp_result(heat_report.rounds(), accum_value)
                                 break
@@ -256,6 +324,7 @@ class NdcaPremResults():
                                     entry.result = self.temp_result(heat_report.rounds(), accum_value)
                                 break                        
                         else:
+                            # if no matching couple, add a late entry to the heat report
                             h = heat_report.build_late_entry()
                             h.dancer = dancer_name_list[0]
                             h.partner = partner_name_list[0]
@@ -264,17 +333,19 @@ class NdcaPremResults():
                             if h.result is None:
                                 h.result = self.temp_result(heat_report.rounds(), accum_value)
                             h.code = "LATE"
-                            #h.points = calc_points(h.level, -2, rounds="S", accum=int(accum_value))
                             heat_report.append(h)
                     i += 1
             else:
                 i+= 1
 
-             
+        # entire scoresheet was processed
+        # ensure each entry in the report knows how many prelim rounds were danced
         for index in range(heat_report.length()):
             e = heat_report.entry(index)
             if e.result is None:
                 e.rounds = heat_report.rounds()
+        
+        # for each entry in the heat report, extract the recall votes and calculate the points
         for index in range(heat_report.length()):
             e = heat_report.entry(index)
             if e.points is None and e.result is not None:
@@ -289,6 +360,10 @@ class NdcaPremResults():
                     accum_value = e.result[len("quarters-"):]
                     e.result = "quarters"
                     placement = -1
+                elif e.result.startswith("round 3-"):
+                    accum_value = e.result[len("round 3-"):]
+                    e.result = "round 3"
+                    placement = -3                
                 elif e.result.startswith("round 2-"):
                     accum_value = e.result[len("round 2-"):]
                     e.result = "round 2"
@@ -303,18 +378,21 @@ class NdcaPremResults():
     
     
     def determine_heat_results(self, heat_report):
+        '''This method obtains the results for all events in the given heat report.'''
+        # build a list of events mentioned in this heat report.
         event_names = list()
         for index in range(heat_report.length()):
             if heat_report.description(index) not in event_names:
                 event_names.append(heat_report.description(index))
+        # process the scoresheet for each of those events.
         for event_name in event_names:
             for e in self.events:
                 if e.name == event_name:
                     self.process_scoresheet_for_event(heat_report, e.id)
 
             
-            
     def event_id(self, title):
+        '''This method returns an event ID for the specified event title.'''
         for e in self.events:
             if e.name == title:
                 return e.id
@@ -323,21 +401,24 @@ class NdcaPremResults():
                 
 
     def open(self, url):
+        '''This method opens the results page for a competition on the NDCA Premier site
+           It extracts all the event names and associated IDs.'''
         #extract comp name and comp_id from URL
         start_pos = url.find("cyi=") + len("cyi=")
         self.comp_id = url[start_pos:]
         self.comp_name = self.get_comp_name(self.comp_id)
+        # request that page
         url = "http://www.ndcapremier.com/scripts/event_categories.asp?cyi=" + self.comp_id
         response = requests.get(url)
+        # split the response into event categories
         categories = response.text.split("</a>")
         for cat_link in categories:
             if len(cat_link) > 0:
                 start_pos = cat_link.find("style=") + len("style=") + 1
                 end_pos = cat_link.find('">', start_pos)
                 category = cat_link[start_pos:end_pos]
-                # this limits the result processing to pro events
-                #if "Professional" in category:
                 self.categories.append(category)
+        # build a list of events, by looping through the event categories.
         for cat in self.categories:
             url = "http://www.ndcapremier.com/scripts/event_list.asp?cyi=" + self.comp_id + "&cat=" + cat
             response = requests.get(url)
@@ -347,7 +428,9 @@ class NdcaPremResults():
                     event = NdcaPremEvent(e)
                     self.events.append(event)
                     
+                    
     def close(self):
+        '''This method performs any cleanup processing required.'''    
         pass
 
 

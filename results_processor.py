@@ -1,20 +1,21 @@
 from calc_points import calc_points
 
 
-# This is a base class for processing scoresheets
 class Results_Processor():
+    '''This is a base class for processing scoresheets.'''
 
     def __init__(self):
         ''' Initialize the class.'''
         # the URL will contain the address of the server.
         self.url = ""
-        
+        # this counts the number of couples entered in an event.
+        # note that there may be multiple "events" in a given heat.
         self.entries_in_event = 0
     
+    
     def get_table_data(self, line):
-        '''In the scoresheet results for a competitor, the data we want
-        is stored in table cells. Find the <td> tags to extract the data.
-        '''
+        '''In the scoresheet results for a competitor, the data we want is stored 
+           in table cells. Find the <td> tags to extract the data.'''
         start_pos = line.find("<td>") + len("<td>")
         end_pos = line.find("<", start_pos)
         name = line[start_pos:end_pos]
@@ -24,8 +25,7 @@ class Results_Processor():
     def get_shirt_number(self, competitor):
         '''The scoresheet results list the shirt number of the couple,
            followed by a space, then the couple names. This routine
-           extracts and returns the shirt number. 
-        '''
+           extracts and returns the shirt number.'''
         fields = competitor.split()
         if len(fields) != 2:
             print("error", fields)
@@ -38,8 +38,7 @@ class Results_Processor():
            that indicates Final, Semi-final, etc. 
            heat_string contains the category and the number
            trailer contains the expected trailer.
-           Return everything between the heat_string and the trailer
-        '''
+           Return everything between the heat_string and the trailer.'''
         extended_trailer = " - " + trailer
         start_pos = line.find(heat_string) + len(heat_string)
         end_pos = line.find(extended_trailer)
@@ -57,9 +56,8 @@ class Results_Processor():
 
     def get_couple_names(self, competitor):
         '''The scoresheet results list the shirt number of the couple,
-           followed by a space, then the couple names. This routine
-           extracts and returns the couple names as an 2-elem array of strings. 
-        '''        
+           followed by a space, then the couple names. This routine extracts
+           and returns the couple names as an 2-elem array of strings.'''        
         couple_names = []
         entrant_fields = competitor.split()
         # if there is a space in one of the names, there are more than 2 fields
@@ -83,12 +81,10 @@ class Results_Processor():
         return couple_names
 
 
-
     def process_response(self, heat_report, entry):
         '''This routine processes the response returned by the form submittal.
            It is the scoresheet results for a single dancer.
-           We use this to extract the results of the heat we are interested in 
-        '''    
+           We use this to extract the results of the heat we are interested in .'''    
         # Build the string to find the results for the heat we want.
         # For example: Pro Heat 5:
         # need the colon directly after the number, to distinguish 5 from 51, etc.
@@ -142,7 +138,7 @@ class Results_Processor():
                 elif "<td>" in line:
                     count += 1
                     
-            # If we are processing the semi-final or quarter-final results,
+            # If we are processing the preliminary round results,
             # we look for the Recall column in the results of the last dance.
             # The logic is basically the same as looking for results, except
             # when we find that column, the next state is looking_for_eliminations
@@ -167,7 +163,7 @@ class Results_Processor():
                 elif "<td>" in line:
                     count += 1
             
-            # If we are processing the semi-final or quarter-final results,
+            # If we are processing the preliminary round results,
             # we want to know which entries were not recalled to the next round.
             elif looking_for_eliminations:
                 if "<td>" in line:
@@ -179,6 +175,8 @@ class Results_Processor():
                         count += 1
                         
                     elif count == accum_column:
+                        # This column indicates how many recall votes a couple received.
+                        # If the couple was not recalled, this number affects their points for the heat.
                         try:
                             accum = int(self.get_table_data(line))
                         except:
@@ -206,14 +204,12 @@ class Results_Processor():
                                         # If the couple was not recalled, their result is the round 
                                         # in which they were eliminated
                                         e.result = temp_result
-                                        #print("New elimination:", e.dancer, e.partner, e.result)
                                                            
                                         # Lookup their points, and exit the loop 
                                         e.points = calc_points(level, result_index, rounds=rounds, accum=accum)
                                         break
                                     
                                     elif e.result == temp_result:
-                                        #print("Already eliminated:", e.dancer, e.partner)
                                         break                                
                                     else:
                                         print(e.heat_number, "Same name - skipping:", e.dancer, e.partner, e.result, couple_names, result_index, accum)                                  
@@ -273,10 +269,8 @@ class Results_Processor():
                             if e.shirt_number == shirt_number:
                                 if e.result is None:
                                     e.result = result_place
-                                    #print("New result:", e.dancer, e.partner, e.result)
                                     break
                                 elif e.result == result_place:
-                                    #print("Same result:", e.dancer, e.partner, e.result)
                                     break
                                 else:
                                     print(e.heat_number, "Same name - skipping:", e.dancer, e.partner, e.result, couple_names, result_place)
@@ -302,7 +296,6 @@ class Results_Processor():
                 # When we see the closing table tag, we are done with this heat. 
                 elif "</table>" in line:
                     looking_for_finalists = False
-                    #print("Heat", heat_report.heat_number(), "Heat Report length", heat_report.length(), "Entries in Event", self.entries_in_event)
                     total_entries = self.entries_in_event 
                     for index in range(heat_report.length()):
                         e = heat_report.entry(index)
@@ -329,6 +322,14 @@ class Results_Processor():
                 heat_info_from_scoresheet = self.get_heat_info(line, heat_string, "Second Round")
                 looking_for_recall_column = True  # enter the next state
                     
+            # If this check is true, we found third round results for this heat
+            elif heat_string in line and "Third Round" in line and ("<p>" in line or "<h3>" in line):
+                temp_result = "round 3"    # indicate which round we are in
+                result_index = -53        # use this to pull values from the points table
+                rounds = "R321"
+                heat_info_from_scoresheet = self.get_heat_info(line, heat_string, "Third Round")
+                looking_for_recall_column = True  # enter the next state
+                
             # If this check is true, we found quarter-final results for this heat
             elif heat_string in line and "QUARTER-FINAL" in line.upper() and ("<p>" in line or "<h3>" in line):
                 temp_result = "quarters"    # indicate which round we are in
@@ -364,15 +365,14 @@ class Results_Processor():
                     looking_for_result_column = True
                     
         # Return which level of results we were able to find on this dancer's scoresheet
-        # If they were eliminated in the semi-finals, the final results will not appear,
+        # If they were eliminated before the finals, the final results will not appear,
         # and the calling routine will have to try another dancer to get those.
         return result
 
 
     def determine_heat_results(self, heat_report, sorted=True):
         '''This routine extracts the results for a given heat. 
-           A heat report is passed in with the entries from the heatsheet.
-        '''            
+           A heat report is passed in with the entries from the heatsheet.'''            
         # loop through the entries in the heat
         for index in range(heat_report.length()):
             entry = heat_report.entry(index)

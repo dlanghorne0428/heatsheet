@@ -3,7 +3,6 @@ import json
 from operator import itemgetter
 
 from comp_results_file import Comp_Results_File
-from heat import is_junior_heat
 
 
 def get_name(couple_names, dancer=True):
@@ -61,11 +60,9 @@ class RankingDataFile():
         
         
     def add_result_to_couple(self, index, result):
-        '''
-        This routine checks the couple at the specified index.
-        If this result is not in their list, it is added, and the 
-        points are recalculated.
-        '''
+        '''This routine checks the couple at the specified index.
+           If this result is not in their list, it is added, and the 
+           points are recalculated.'''
         couple = self.info[index]
         # make sure this is a new result
         if result in couple["results"]:
@@ -95,23 +92,12 @@ class RankingDataFile():
         couple["avg_pts"] = 0
         
     
-    def is_junior(self, index):
-        couple = self.info[index]
-        for r in couple["results"]:
-            if is_junior_heat(r["info"]):
-                return True
-        else:
-            return False
-        
-    
     def find_highest_rank(self, index):
-        '''
-        This routine is called on a list of couples sorted by ranking.
-        It starts at the given index and moves upward in the list to 
-        see if the couple at that index is tied with any couples listed above.
-        If ties are found, it returns the highest index as a string, with a
-        T- prefix to indicate a tie.
-        '''
+        '''This routine is called on a list of couples sorted by ranking.
+           It starts at the given index and moves upward in the list to 
+           see if the couple at that index is tied with any couples listed above.
+           If ties are found, it returns the highest index as a string, with a
+           T- prefix to indicate a tie.'''
         tie_found = False
         while index > 0:
             if self.info[index-1]["avg_pts"] == self.info[index]["avg_pts"]:
@@ -127,11 +113,9 @@ class RankingDataFile():
 
     
     def find_couple_by_dancer(self, couple_name, start=0, last_name_only=False):
-        ''' 
-        This routine searches the list for the specified couple 
-        based on the dancer's name only, with an option to only
-        consider the last name.
-        '''        
+        '''This routine searches the list for the specified couple 
+           based on the dancer's name only, with an option to only
+           consider the last name.'''        
         if last_name_only:
             dancer_name = get_last_name(couple_name)
         else:
@@ -151,11 +135,9 @@ class RankingDataFile():
         
     
     def find_couple_by_partner(self, couple_name, start=0, last_name_only=False):
-        ''' 
-        This routine searches the list for the specified couple 
-        based on the partner's name only, with an option to only
-        consider the last name.
-        '''            
+        '''This routine searches the list for the specified couple 
+           based on the partner's name only, with an option to only
+           consider the last name.'''            
         if last_name_only:
             partner_name = get_last_name(couple_name, False)
         else:
@@ -226,11 +208,8 @@ class RankingDataFile():
     
 
     def find_couple(self, couple_name):
-        ''' 
-        This routine searches the list for the specified couple 
-        based on the entire name.
-        '''
-
+        '''This routine searches the list for the specified couple 
+           based on the entire name.'''
         index = -1
         for i in self.info:
             index += 1
@@ -243,10 +222,8 @@ class RankingDataFile():
     
     
     def format_item_as_columns(self, index):
-        '''
-        This method returns the data for the couple at the specified index as a list.
-        It is meant to be called by the GUI.
-        '''
+        '''This method returns the data for the couple at the specified index as a list.
+           It is meant to be called by the GUI.'''
         info_list = [index+1]  # first column is the index
         info_list.append(self.info[index]["name"])  # then the name
         info_list.append(len(self.info[index]["results"])) # then how many events

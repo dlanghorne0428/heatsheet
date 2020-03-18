@@ -1,12 +1,61 @@
 
+def pro_heat_level(info):
+    '''Based on the information about this pro heat, return the level.
+       The level is the number of points awarded to the winner, if there
+       is only a final round. Bonus points are awarded for prelim rounds.'''
+    if type(info) == int:
+        return info
+    if "Rising Star" in info or "RS" in info:
+        return 10  #"Rising Star"
+    elif "Novice" in info or "Basics" in info or "Pre-Champ" in info:
+        return 5   #"Novice"
+    else:
+        return 20  #"Open"  
+    
+    
+def extra_points(info, check_for_open=True):
+    '''Based on the information about this  heat, return the number
+       of extra points based on specific key words'''    
+    value = 0
+    if check_for_open and "Open" in info:
+        value += 5
+    if "Scholarship" in info or "Scolarship" in info:
+        value += 5
+    return value    
+
+    
+def non_pro_heat_level(info, multi_dance=True):
+    '''Based on the information about this heat, return the level.
+       The level is the number of points awarded to the winner, if there
+       is only a final round. Bonus points are awarded for prelim rounds.'''
+    if "Newcomer" in info or "Novice" in info:
+        return 5 + extra_points(info)
+    elif "Bronze" in info:
+        return 10 + extra_points(info)
+    elif "Silver" in info:
+        return 15 + extra_points(info)
+    elif "Gold" in info:
+        return 20 + extra_points(info)
+    elif "Closed" in info or "Challenge" in info:
+        return 15 + extra_points(info)
+    elif "Open" in info or "World" in info:
+        return 20 + extra_points(info, check_for_open=False)
+    elif "Pre-Champ" in info or "PreChamp" in info or "Pre Champ" in info:
+        return 15 
+    elif "Champ" in info or "Grand Slam" in info or "Competition" in info:
+        return 20  
+    elif "Scholar" in info:
+        return 25
+    else:
+        if multi_dance:
+            print("Unknown level for heat", info)
+        return 15
 
 
 def calc_points(level, placement, num_competitors = 6, rounds = "F", accum = 0):
-    '''
-    Point values are awarded based on the level of the event (Open, Rising Star, Novice) 
-    and the number of rounds (Final only, Semi-Final, and Quarter-Final).
-    Extra points are awarded for events that had prelim rounds.
-    '''    
+    '''Point values are awarded based on the level of the event (Open, Rising Star, Novice) 
+       and the number of rounds (Final only, Semi-Final, and Quarter-Final).
+       Extra points are awarded for events that had prelim rounds.'''    
     place = placement - 1
     max_pts = level
     if num_competitors >= 5:
@@ -46,7 +95,21 @@ def calc_points(level, placement, num_competitors = 6, rounds = "F", accum = 0):
             elif placement == -10: # round 1
                 percent = min(5, max(1, accum))              
             else:
-                percent = percent_table[place]     
+                percent = percent_table[place]   
+        elif rounds == "R321":
+            max_pts = level + 50
+            if placement == -2: # semis
+                percent = min(30, max(25, accum))
+            elif placement == -1: # quarters
+                percent = min(23, max(19, accum))
+            elif placement == -3: # third round
+                percent = min(17, max(13, accum))            
+            elif placement == -5: # round 2
+                percent = min(11, max(7, accum))            
+            elif placement == -10: # round 1
+                percent = min(5, max(1, accum))              
+            else:
+                percent = percent_table[place]             
         else:
             if num_competitors >= 10:
                 max_pts = level + 10

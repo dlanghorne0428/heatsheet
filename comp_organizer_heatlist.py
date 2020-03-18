@@ -6,38 +6,20 @@ from heat import Heat, Heat_Report
 from heatlist import Heatlist
 
 
-def get_name(line):
-    '''This method converts the dancer's name into last, first format.'''
-    first_space_pos = line.find(" ")
-    return line[first_space_pos+1:] + ", " + line[:first_space_pos]  
-
-def get_partner(line):
-    '''This method searches for the partner's name on the given line.'''
-    if "class='partner'" in line:
-        start_pos = line.find("with ") + len("with ")
-        substr = line[start_pos:]
-        stripped = substr.strip()
-        return stripped
-
-        #return line[start_pos:-1]
-    else:
-        return None
-
-
 class CompOrgHeat(Heat):
-    '''
-    This is a derived class for reading Heat information from a website in CompOrganizer format.
-    It derives from the generic Heat class and presents the same interface.
-    Only the constructor that reads in the information is unique.
-    '''
+    '''This is a derived class for reading Heat information from a website in CompOrganizer format.
+       It derives from the generic Heat class and presents the same interface.
+       Only the constructor that reads in the information is unique.'''
     def __init__(self, items="", item_index=0, dancer=None, partner=None, category="", number=0):
         super().__init__()
+        # populate the category and heat number if provided
         if len(category) > 0:
             self.category = category
         if number != 0:
             self.heat_number = number
+        # if a list of items is provided, parse the information
         if len(items) > 0:
-            # parse the info from the item list, starting with the session 
+            # Start with the session 
             start_pos = items[item_index].find("-sess") + len("-sess") + 2
             self.session = items[item_index][start_pos:]
             
@@ -49,6 +31,7 @@ class CompOrgHeat(Heat):
                 index += 1
                 if index == len(number_string):
                     break
+            # get the heat category 
             category_string = number_string[:index]
             if category_string == "Solo ":
                 self.category = "Solo"
@@ -79,8 +62,9 @@ class CompOrgHeat(Heat):
                 if len(time_fields) == 4:
                     self.rounds = "Q"  # start with quarter-final
                 else:
-                    self.rounds = "S"  # start with semi-final            
-                self.time = time_fields[0] + "-" + self.rounds  # truncate "Later rounds" from time string
+                    self.rounds = "S"  # start with semi-final     
+                # truncate "Later rounds" from time string
+                self.time = time_fields[0] + "-" + self.rounds  
             else:
                 self.time = heat_time + "-" + self.rounds
             
@@ -112,11 +96,9 @@ class CompOrgHeat(Heat):
         
     
 class CompOrgDancer(Dancer):
-    '''
-    This is a derived class for reading Dancer information from a website in CompOrganizer format.
-    It derives from the generic Dancer class and presents the same interface.
-    Only the constructor that reads in the information is unique.
-    '''    
+    '''This is a derived class for reading Dancer information from a website in CompOrganizer format.
+       It derives from the generic Dancer class and presents the same interface.
+       Only the constructor that reads in the information is unique.'''    
     def __init__(self, line):
         super().__init__()
         
@@ -125,37 +107,45 @@ class CompOrgDancer(Dancer):
         end_pos = line.find('"', start_pos)
         self.code = line[start_pos:end_pos]
         
-        # find the dancer's name
-        start_pos = line.find('"name":"') + len('"name":"')
-        end_pos = line.find('"', start_pos)        
-        self.name = get_name(line[start_pos:end_pos])
+        if self.code != "0":       
+            # find the dancer's name
+            start_pos = line.find('"name":"') + len('"name":"')
+            end_pos = line.find('"', start_pos)        
+            #self.name = Dancer.format_name(line[start_pos:end_pos]]
+            self.name = line[start_pos:end_pos]
         
 
 class CompOrgHeatlist(Heatlist):
-    '''
-    This is a derived class for reading Heatlist information from a website in CompOrganizer format.
-    It derives from the generic Heatlist class and presents the same interface.
-    '''     
+    '''This is a derived class for reading Heatlist information from a website in CompOrganizer format.
+       It derives from the generic Heatlist class and presents the same interface.
+       The class overrides the following methods:
+       - open()
+       - get_next_dancer()
+       - complete_processing()
+       '''     
     def __init__(self):
         '''This method initializes the class'''
         super().__init__()
         self.base_url = None
         
-
-    def get_age_division(self, line):
-        '''
-        This method looks for an age division on the given line. 
-        Return it or None if no age division found
-        '''
-        prefixes = ("L-", "G-", "AC-", "Professional", "AM/AM", "Amateur", "Youth", "MF-", "M/F")  # valid prefixes for division
-        return super().get_age_division(line, prefixes)
+            
+    ############### EXTRACTION ROUTINES  #################################################
+    # the following helper methods extract specific data items from the website
+    ######################################################################################     
+    def get_partner(self, line):
+        '''This method searches for the partner's name on the given line.'''
+        if "class='partner'" in line:
+            start_pos = line.find("with ") + len("with ")
+            substr = line[start_pos:]
+            stripped = substr.strip()
+            return stripped
+        else:
+            return None    
     
-        
+    
     def get_heats_for_dancer(self, dancer, heat_data):
-        '''
-        This method extracts heat information from the heat_data read in from a URL.
-        The information is saved into the specified dancer object.
-        '''
+        '''This method extracts heat information from the heat_data.
+           The information is saved into the specified dancer object.'''
         # all the heat information is in a series of table data cells.
         # split them into a list
         items = heat_data.split("</td>")
@@ -165,16 +155,15 @@ class CompOrgHeatlist(Heatlist):
         # process all the list items
         while item_index < len(items):
             # check if this item specifies a partner name
-            p = get_partner(items[item_index])
+            p = self.get_partner(items[item_index])
             if p is not None:
                 partner = p
-                #print(dancer.name, "and", partner)
                 # partner found, go to next item
                 item_index += 1
+                # if partner string is empty, set couple to None
                 if len(partner) == 0:
                     couple = None
-                else:
-                    # create a couple object for this dancer and partner 
+                else: # create a couple object for this dancer and partner 
                     couple = Couple(dancer.name, partner)
                     new_couple = True  # assume this is a new couple
                     for c in self.couples:
@@ -182,7 +171,7 @@ class CompOrgHeatlist(Heatlist):
                             new_couple = False
                             couple = c   # set the couple variable to the existing couple object
                             break
-                    #if this actually is a new couple, add them to the couples list
+                    # if this actually is a new couple, add them to the couples list
                     if new_couple:
                         self.couples.append(couple)
             # no partner, check if this item has the start of a new heat
@@ -218,7 +207,6 @@ class CompOrgHeatlist(Heatlist):
                         self.max_heat_num = max(h.heat_number, self.max_heat_num)
                         if h.multi_dance():
                             self.add_multi_dance_heat(h.heat_number)
-                            self.add_event(h.info)
                 
                 # add this heat to both the dancer and couple objects
                 dancer.add_heat(h)
@@ -228,32 +216,13 @@ class CompOrgHeatlist(Heatlist):
             else:
                 # try the next item
                 item_index += 1  
-            
-    
-    def get_next_dancer(self, index):
-        '''This method reads the heat information for the dancer at the given index.'''
-        d = self.dancers[index]
-        url = self.base_url + "&competitor=" + d.code
-        response = requests.get(url)
-        self.get_heats_for_dancer(d, response.text)
-        return d.name
-            
-    
-    def complete_processing(self):
-        '''
-        This method sorts data structures after all the heat information 
-        has been obtained from the website.
-        '''
-        self.formations.sort()
-        self.solos.sort()
-        self.age_divisions.sort()   
-        self.multi_dance_heat_numbers.sort()
-        
-        
+                
+
+    ############### OVERRIDDEN METHODS  #######################################################
+    # the following methods override the parent class to obtain data from the website
+    ###########################################################################################     
     def open(self, url):
-        '''
-        This method obtains the name of the competition and a list of all the dancers.
-        '''
+        '''This method obtains the name of the competition and a list of all the dancers.'''
         #extract comp name from URL
         response = requests.get(url)
         lines = response.text.splitlines()
@@ -263,7 +232,6 @@ class CompOrgHeatlist(Heatlist):
                 # var cmid = "beachbash2019";
                 # extract the name from between the quotes
                 self.comp_name = l.split('= "')[1][:-2]
-                #print(self.comp_name)
                 break
 
         end_pos = url.find("/pages")        
@@ -285,6 +253,24 @@ class CompOrgHeatlist(Heatlist):
             except:
                 print("Invalid competitor", d.name, d.code)
         
+
+    def get_next_dancer(self, index):
+        '''This method reads the heat information for the dancer at the given index.'''
+        d = self.dancers[index]
+        url = self.base_url + "&competitor=" + d.code
+        response = requests.get(url)
+        self.get_heats_for_dancer(d, response.text)
+        return d.name
+
+
+    def complete_processing(self):
+        '''This method sorts data structures after all the heat information 
+           has been obtained from the website.'''
+        self.formations.sort()
+        self.solos.sort()
+        self.age_divisions.sort()   
+        self.multi_dance_heat_numbers.sort()
+
        
             
 '''Main program'''

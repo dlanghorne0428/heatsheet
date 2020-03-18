@@ -1,10 +1,10 @@
 import json
 from operator import itemgetter
 
-from heat import Heat, Heat_Report, prefix_removed
+from heat import Heat, Heat_Report
 
 
-''' This module writes the results of a competition to a JSON file.
+''' This module reads and writes the results of a competition to a JSON file.
     There are three classes: 
     Comp_Result: the results for the entire competition.
                  It has a name and a list of Heat Results  
@@ -19,8 +19,7 @@ from heat import Heat, Heat_Report, prefix_removed
 class Entry_Result():
     ''' This class is basically a simple dictionary.
         The use of a single attribute as the dictionary is ugly,
-        but this needs to be JSON serializable.
-    '''
+        but this needs to be JSON serializable.'''
     def __init__(self):
         self.entry = dict()
         self.entry["couple"] = "Thing, One and Thing, Two"
@@ -36,17 +35,12 @@ class Entry_Result():
     def set_points(self, p):
         self.entry["points"] = p
         
-    #def format_as_columns(self):
-        #info_list = [self.entry["couple"]]
-        #info_list.append(self.entry["place"])
-        #return info_list
         
 
 class Heat_Result():
     ''' This class is basically a simple dictionary.
         The use of a single attribute as the dictionary is ugly,
-        but this needs to be JSON serializable.
-    '''    
+        but this needs to be JSON serializable.'''    
     def __init__(self):
         self.heat = dict()
         self.heat["number"] = 0
@@ -71,8 +65,7 @@ class Heat_Result():
 
 class Comp_Results_File():
     ''' Here is the class for the Comp_Results_File
-        It supports reading and writing of the results for a single competition.
-    '''
+        It supports reading and writing of the results for a single competition.'''
     def __init__(self, filename, mode="r"):
         self.filename = filename
         self.mode = mode
@@ -102,14 +95,14 @@ class Comp_Results_File():
     def save_heat(self, heat_report):
         ''' add a set of heat results to the structure.'''        
         index = 0 
-        current_info = heat_report.description()
+        current_info = heat_report.entry(index).info_no_prefix()
         heat_result = Heat_Result()
         heat_result.set_title(current_info)
         heat_result.set_heat_number(heat_report.heat_number())   
         
         while index < heat_report.length():
             e = heat_report.entry(index)
-            if prefix_removed(e.info) != prefix_removed(current_info):
+            if e.info_no_prefix() != current_info:
                 if heat_result.length() > 0:
                     heat_result.sort_entries()
                     self.info["heats"].append(heat_result.heat)
@@ -145,14 +138,14 @@ class Comp_Results_File():
     
     
     def num_heats(self):
+        '''This method returns the number of heats in the data structure.'''
         return len(self.info["heats"])
         
     
     def close(self):
         ''' If the file is open for writing, dump the 
             data structure to the file.
-            In both read and write modes, close the file.
-        '''
+            In both read and write modes, close the file.'''
         if self.mode.upper().startswith("W"):
             json.dump(self.info, self.fp, indent=2)
         self.fp.close()

@@ -14,9 +14,9 @@ import yattag
 from enum import Enum
 from datetime import date
 
-from calc_points import calc_points
-from dancer import format_name
-from heat import Heat, Heat_Report, dummy_heat_info, non_pro_heat_level
+from calc_points import calc_points, non_pro_heat_level
+from dancer import Dancer
+from heat import Heat, Heat_Report
 from heatlist import Heatlist
 from ndca_prem_heatlist import NdcaPremHeatlist, NdcaPremHeat
 from ndca_prem_results import NdcaPremResults
@@ -26,7 +26,7 @@ from comp_mngr_heatlist import CompMngrHeatlist, CompMngrHeat
 from comp_mngr_results import CompMngrResults
 from comp_results_file import Comp_Results_File
 from season_ranking import RankingDataFile, get_name, swap_names
-from heat import is_amateur_heat, is_junior_heat, is_multi_dance, dance_style
+from heat import dance_style
 from dancer_list import Dancer_List, Dancer_Type
 
 
@@ -43,9 +43,7 @@ class TimerState(Enum):
     RESCORE_RESULTS = 3
 
 class HelloFrame(wx.Frame):
-    '''
-    The main frame for the application
-    '''
+    ''' The main frame for the GUI application.'''
 
     def __init__(self, *args, **kw):
         # ensure the parent's __init__ is called
@@ -159,11 +157,9 @@ class HelloFrame(wx.Frame):
 
 
     def makeMenuBar(self):
-        '''
-        A menu bar is composed of menus, which are composed of menu items.
-        This method builds a set of menus and binds handlers to be called
-        when the menu item is selected.
-        '''
+        '''A menu bar is composed of menus, which are composed of menu items.
+           This method builds a set of menus and binds handlers to be called
+           when the menu item is selected.'''
 
         self.ID_FILE_OPEN_URL = 90
         self.ID_FILE_OPEN_NDCA = 91
@@ -549,7 +545,7 @@ class HelloFrame(wx.Frame):
             # save the current folder name for other files
             self.folder_name = get_folder_name(filename)
             self.heatlist = CompMngrHeatlist()
-            self.heatlist.open(filename)
+            self.heatlist.open(filename)          
             self.timer_state = TimerState.READ_DANCER
             self.Initialize_Timer_and_ProgressBar()       
             
@@ -621,11 +617,11 @@ class HelloFrame(wx.Frame):
             for d in self.heatlist.dancers:
                 name_fields = d.name.split()
                 if len(name_fields) == 2:
-                    d.name = format_name(d.name)
+                    d.name = Dancer.format_name(d.name)
                 else:
                     name_choices = list()
                     for s in range(1, len(name_fields)):
-                        name_choices.append(format_name(d.name, split_on=s))
+                        name_choices.append(Dancer.format_name(d.name, split_on=s))
                     md = wx.SingleChoiceDialog(self, d.name, caption="Select Name Format", choices=name_choices)
                     if md.ShowModal() == wx.ID_OK:
                         # let user decide how to split the name
@@ -646,6 +642,19 @@ class HelloFrame(wx.Frame):
             url = text_dialog.GetValue() 
             self.heatlist = CompOrgHeatlist()    
             self.heatlist.open(url)
+            for d in self.heatlist.dancers:
+                name_fields = d.name.split()
+                if len(name_fields) <= 2:
+                    d.name = Dancer.format_name(d.name)
+                else:
+                    name_choices = list()
+                    for s in range(1, len(name_fields)):
+                        name_choices.append(Dancer.format_name(d.name, split_on=s))
+                    md = wx.SingleChoiceDialog(self, d.name, caption="Select Name Format", choices=name_choices)
+                    if md.ShowModal() == wx.ID_OK:
+                        # let user decide how to split the name
+                        choice_index = md.GetSelection()
+                        d.name = name_choices[choice_index]        
             self.timer_state = TimerState.READ_DANCER
             self.Initialize_Timer_and_ProgressBar()
                 
@@ -798,7 +807,6 @@ class HelloFrame(wx.Frame):
         
         # populate the GUI with this heat information
         for h in heat_list:
-#            data = h.info_list(dancer_name)
             data = h.info_list()
             self.list_ctrl.Append(data)
         self.report_title = "Heat List for " + dancer_name
@@ -842,7 +850,7 @@ class HelloFrame(wx.Frame):
             # populate the GUI, add a separator after each heat
             for c in competitors:
                 self.list_ctrl.Append(c)
-            self.list_ctrl.Append(dummy_heat_info())
+            self.list_ctrl.Append(Heat.dummy_info())
             
         self.report_title = "Mini-Program for " + dancer_name
 
@@ -865,7 +873,7 @@ class HelloFrame(wx.Frame):
                 competitors = self.heatlist.list_of_couples_in_heat(h, sortby="info")
                 for c in competitors:
                     self.list_ctrl.Append(c)
-                self.list_ctrl.Append(dummy_heat_info())
+                self.list_ctrl.Append(Heat.dummy_info())
                 
             self.report_title = "Mini-Program for " + couple_name
 
@@ -1143,7 +1151,7 @@ class HelloFrame(wx.Frame):
                 
                 # put a blank line between heats, pro cabaret is not multi dance        
                 if self.heat_type == "Pro" or multi_dance_entry_found:
-                    self.list_ctrl.Append(dummy_heat_info())
+                    self.list_ctrl.Append(Heat.dummy_info())
                 
         # enable the buttons that process the results and get rankings
         self.butt_rslt.Enable()
@@ -1201,12 +1209,12 @@ class HelloFrame(wx.Frame):
             return None
         if h.category == "Pro heat":
             folder_name += "Pro"
-        elif is_amateur_heat(h.info):
-            if is_junior_heat(h.info):
+        elif h.amateur_heat():
+            if h.junior_heat():
                 folder_name += "Jr.Amateur"
             else:
                 folder_name += "Amateur"
-        elif is_junior_heat(h.info):
+        elif h.junior_heat():
             folder_name += "Jr.Pro-Am"
         else:
             folder_name += "Pro-Am"
@@ -1481,7 +1489,7 @@ class HelloFrame(wx.Frame):
                     if e["place"] == "Semis" or e["place"] == "quarters" or e["place"] == "round 1":
                         scoresheet_needed = True                 
                     self.list_ctrl.Append(info_list)
-                self.list_ctrl.Append(dummy_heat_info())
+                self.list_ctrl.Append(Heat.dummy_info())
             if scoresheet_needed: 
                 # prompt the user to enter a URL 
                 text_dialog = wx.TextEntryDialog(self, "Enter the URL for results at NDCA Premier")

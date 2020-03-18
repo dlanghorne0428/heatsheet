@@ -12,7 +12,7 @@ from datetime import date
 
 from season_ranking import RankingDataFile, get_last_name, get_name
 from comp_results_file import Comp_Results_File
-from heat import dance_style, pro_heat_level, is_amateur_heat
+from heat import dance_style
 from dancer_list import Dancer_List
 
 ''' These are the separate dance styles being ranked '''

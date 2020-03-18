@@ -2,26 +2,15 @@ import requests
 import html
 
 from couple import Couple
-from dancer import Dancer, format_name
+from dancer import Dancer
 from heat import Heat, Heat_Report
 from heatlist import Heatlist
 
 
-def get_name(line):
-    '''This method converts the dancer's name into last, first format.'''
-    fields = line.split()
-    if len(fields) > 2:
-        print("Name split problem", line)
-    first_space_pos = line.find(" ")
-    return line[first_space_pos+1:] + ", " + line[:first_space_pos]  
-
-
 class NdcaPremHeat(Heat):
-    '''
-    This is a derived class for reading Heat information from a website in NdcaPremier format.
-    It derives from the generic Heat class and presents the same interface.
-    Only the constructor that reads in the information is unique.
-    '''    
+    '''This is a derived class for reading Heat information from the NdcaPremier website.
+       It derives from the generic Heat class and presents the same interface.
+       Only the constructor that reads in the information is unique.'''    
     def __init__(self, line="", dancer=None, partner=None, category="", number=0):
         super().__init__()
         if len(category) > 0:
@@ -93,17 +82,14 @@ class NdcaPremHeat(Heat):
         
     
 class NdcaPremDancer(Dancer):
-    '''
-    This is a derived class for reading Dancer information from a website in NdcaPremier format.
-    It derives from the generic Dancer class and presents the same interface.
-    Only the constructor that reads in the information is unique.
-    ''' 
+    '''This is a derived class for reading Dancer information from the NdcaPremier website.
+       It derives from the generic Dancer class and presents the same interface.
+       Only the constructor that reads in the information is unique.''' 
     def __init__(self, line):
         super().__init__()
         
         # find the dancer's name
         fields = line.split(">")
-        #self.name = get_name(fields[1])
         self.name = fields[1]
         
         # find the ID code for this dancer
@@ -112,14 +98,19 @@ class NdcaPremDancer(Dancer):
         
 
 class NdcaPremHeatlist(Heatlist):
-    '''
-    This is a derived class for reading Heatlist information from a website in NdcaPremier format.
-    It derives from the generic Heatlist class and presents the same interface.
-    '''      
+    '''This is a derived class for reading Heatlist information from the NdcaPremier website.
+       It derives from the generic Heatlist class and presents the same interface.
+       The class overrides the following methods:
+       - open()
+       - get_next_dancer()
+       - complete_processing()
+       '''      
     def __init__(self):
         super().__init__()
         
-        
+    ############### EXTRACTION ROUTINES  #################################################
+    # the following helper methods extract specific data items from the NdcaPremier site
+    ######################################################################################
     def get_comp_name(self, comp_id):
         '''This method obtains the name of the competition based on the ID found on the website.'''
         url = "http://www.ndcapremier.com/scripts/compyears.asp?cyi=" + comp_id
@@ -145,7 +136,7 @@ class NdcaPremHeatlist(Heatlist):
                     name = f[start_pos:-5]
                     name_fields = name.split()
                     for f in range(1, len(name_fields)):
-                        name_scramble = format_name(name, split_on=f)
+                        name_scramble = Dancer.format_name(name, split_on=f)
                         for d in self.dancers:
                             if d.name == name_scramble:
                                 return d.name
@@ -153,22 +144,11 @@ class NdcaPremHeatlist(Heatlist):
                     return "Unknown"
         else:
             return None
-        
-        
-    def get_age_division(self, line):
-        '''
-        This method looks for an age division on the given line. 
-        Return it or None if no age division found
-        '''    
-        prefixes = ("L-", "G-", "AC-", "Professional", "AM/AM", "Amateur", "Youth", "MF-", "M/F")  # valid prefixes for division
-        return super().get_age_division(line, prefixes)
-    
-        
+
+            
     def get_heats_for_dancer(self, dancer, heat_data):
-        '''
-        This method extracts heat information from the heat_data read in from a URL.
-        The information is saved into the specified dancer object.
-        '''        
+        '''This method extracts heat information from the heat_data read in from a URL.
+        The information is saved into the specified dancer object.'''        
         fields = heat_data.split("<table>")
         # isolate the list of heats
         if len(fields)  == 2:
@@ -219,8 +199,7 @@ class NdcaPremHeatlist(Heatlist):
                     else:
                         self.max_heat_num = max(h.heat_number, self.max_heat_num)
                         if h.multi_dance():
-                            self.add_multi_dance_heat(h.heat_number) 
-                            self.add_event(h.info)                        
+                            self.add_multi_dance_heat(h.heat_number)                     
                     
                     # determine the age division of this heat
                     age = self.get_age_division(h.info)
@@ -240,33 +219,13 @@ class NdcaPremHeatlist(Heatlist):
     
         else:
             print("Error parsing heat data")   
-             
-    
-    def get_next_dancer(self, index):
-        '''This method reads the heat information for the dancer at the given index.'''        
-        d = self.dancers[index]
-        url = "http://ndcapremier.com/scripts/heatlists.asp?cyi=" + self.comp_id + "&id=" + d.code + "&type=competitor"
-        response = requests.get(url)
-        self.get_heats_for_dancer(d, response.text) 
-        return d.name
-    
-    
-    def complete_processing(self):
-        '''
-        This method sorts data structures after all the heat information 
-        has been obtained from the website.
-        '''    
-        self.formations.sort()
-        self.solos.sort()
-        self.age_divisions.sort()    
-        self.multi_dance_heat_numbers.sort()
-        self.event_titles.sort()
-    
-        
+
+
+    ############### OVERRIDDEN METHODS  #######################################################
+    # the following methods override the parent class to obtain data from the  NdcaPremier site
+    ###########################################################################################
     def open(self, url):
-        '''
-        This method obtains the name of the competition and a list of all the dancers.
-        '''    
+        '''This method obtains the name of the competition and a list of all the dancers.'''    
         #extract comp name and comp_id from URL
         start_pos = url.find("cyi=") + len("cyi=")
         self.comp_id = url[start_pos:]
@@ -278,19 +237,34 @@ class NdcaPremHeatlist(Heatlist):
         competitors = response.text.split("</a>")
         for c in range(len(competitors) - 1): 
             if 'class="team"' in competitors[c]: 
-                #print(c)
                 continue
             safe = html.unescape(competitors[c])
-            #print(competitors[c], safe)
-            d = NdcaPremDancer(safe) # competitors[c])
-            #print(d.name, d.code)
+            d = NdcaPremDancer(safe) 
             try:
                 code_num = int(d.code)
                 if d.code != "0":
                     self.dancers.append(d)
             except:
-                print("Invalid competitor", d.name, d.code)
-             
+                print("Invalid competitor", d.name, d.code)     
+                
+    
+    def get_next_dancer(self, index):
+        '''This method reads the heat information for the dancer at the given index.'''        
+        d = self.dancers[index]
+        url = "http://ndcapremier.com/scripts/heatlists.asp?cyi=" + self.comp_id + "&id=" + d.code + "&type=competitor"
+        response = requests.get(url)
+        self.get_heats_for_dancer(d, response.text) 
+        return d.name
+    
+    
+    def complete_processing(self):
+        '''This method sorts data structures after all the heat information has been 
+           obtained from the website.'''    
+        self.formations.sort()
+        self.solos.sort()
+        self.age_divisions.sort()    
+        self.multi_dance_heat_numbers.sort()
+    
 
             
 '''Main program'''

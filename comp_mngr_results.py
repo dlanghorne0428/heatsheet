@@ -2,25 +2,26 @@ import requests
 from results_processor import Results_Processor
 
 
-
-# This class parses a Comp_Mngr scoresheet and extract results of the competition
 class CompMngrResults(Results_Processor):
+    '''This class is derived from a Results_Processor base class.
+       It parses a CompMngr scoresheet and extracts the results of the competition.'''
 
     def __init__(self):
         ''' Initialize the scoresheet class.
             The scoresheet is basically a large HTML form that allows you to
-            request the results for a competitor.
-        '''
+            request the results for a competitor.'''
         super().__init__()
         # the payload will contain the form values that we submit to obtain 
         # the results. Initially it is empty
         self.payload = dict()
     
-
+    
+    ############### EXTRACTION ROUTINES  #################################################
+    # the following methods extract specific data items from the top level scoresheet
+    ######################################################################################
     def find_url(self, line):
         ''' In the Comp Manager scoresheet HTML file format, the URL can be found
-            on a line containing the key 'action='
-        '''    
+            on a line containing the key "action=" '''    
         fields = line.split()
         for f in fields:
             if "action=" in f:
@@ -30,8 +31,7 @@ class CompMngrResults(Results_Processor):
     def find_payload_field(self, line):
         ''' In the Comp Manager scoresheet HTML file format, the values that get
             submitted to the form are found on lines containing "name=" and "value="
-            Extract those pairs and store them in the payload dictionary
-        '''    
+            Extract those pairs and store them in the payload dictionary.'''    
         key = None
         value = None
         start_pos = line.find("name=") + len("name=") + 1
@@ -43,10 +43,14 @@ class CompMngrResults(Results_Processor):
         self.payload[key] = value
 
 
+    ############### PRIMARY ROUTINES  ####################################################
+    # the following methods are called from the main GUI program.
+    ######################################################################################
     def open(self, filename):
-        '''This routine opens a scoresheet from the given filename.
+        '''This routine opens a top-level scoresheet from the given filename.
            The scoresheet has been saved to a file by the calling routine.
-        '''        
+           It saves information such that we can request results for any
+           dancer in the competition'''        
         # open the file and loop through all the lines
         fhand = open(filename,encoding="utf-8")
         for line in fhand:
@@ -61,7 +65,8 @@ class CompMngrResults(Results_Processor):
         
 
     def get_scoresheet(self, entry):
-        '''This routine obtains the scoresheet results for the dancer in this entry. '''
+        '''This routine obtains the scoresheet results for the dancer in this entry
+           and returns it to the calling routine for processing.'''
         # build the payload.
         search_string = entry.code + "=" + entry.dancer
         self.payload["PERSON_LIST"] = search_string
