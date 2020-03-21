@@ -28,11 +28,43 @@ def dance_style(s):
 class Heat_Summary(list):
     '''This class is used for printing heat information to a file
        or displaying it in a GUI list control.'''
+    
+    NUM_COLUMNS = 7
+    CATEGORY_COLUMN = 0
+    HEAT_NUM_COLUMN = 1
+    TIME_COLUMN = 2
+    INFO_COLUMN = 3
+    SHIRT_NUM_COLUMN = 4
+    NAMES_COLUMN = 5
+    RESULT_RANK_COLUMN = 6
+    
     def __init__(self, *args):
         list.__init__(self, *args)
-        # if heat_info is None:
+        # the default heat summary is all blanks
+        for i in range(Heat_Summary.NUM_COLUMNS):
+            self.append("---")
             
+    def of_heat(self, h):
+        '''Build a Heat_Summary list object from heat h.'''
+        self[Heat_Summary.CATEGORY_COLUMN] = h.category
+        self[Heat_Summary.HEAT_NUM_COLUMN] = str(h.heat_number) + h.extra
+        self[Heat_Summary.TIME_COLUMN] = h.session + "@" + h.time
+        self[Heat_Summary.INFO_COLUMN] = h.info        
+        self[Heat_Summary.SHIRT_NUM_COLUMN] = h.shirt_number
 
+        dancer_info = ""
+        if h.partner is not None:
+            dancer_info = h.dancer + " and " + h.partner
+        else:
+            dancer_info = h.dancer
+        self[Heat_Summary.NAMES_COLUMN] = dancer_info
+
+        # placeholder for results
+        if h.result is None:
+            self[Heat_Summary.RESULT_RANK_COLUMN] = "---"
+        else:
+            self[Heat_Summary.RESULT_RANK_COLUMN] = h.result        
+            
 
 class Heat():
     '''This class stores information about a single heat for one dancer or couple.'''
@@ -91,64 +123,46 @@ class Heat():
         self.dancer = self.partner
         self.partner = temp    
         
-    
-    def dummy_info():
-        summary = list()
-        for i in range(7):
-            summary.append("---")
-        return summary
-
         
-    def info_list(self):
-        summary = list()
-        summary.append(self.category)
-        summary.append(str(self.heat_number) + self.extra)
-        summary.append(self.session + "@" + self.time)
-        summary.append(self.info)        
-        summary.append(self.shirt_number)
-
-        dancer_info = ""
-        if self.partner is not None:
-            dancer_info = self.dancer + " and " + self.partner
-        else:
-            dancer_info = self.dancer
-        summary.append(dancer_info)
-
-        # placeholder for results
-        if self.result is None:
-            summary.append("---")
-        else:
-            summary.append(self.result)
+    def heat_summary(self):
+        '''Create a Heat_Summary object from the current heat.'''
+        summary = Heat_Summary()
+        summary.of_heat(self)
         return summary
     
     
-    def populate(self, info_list, dancer_code=0):
-        self.category = info_list[0]
+    def populate(self, summary, dancer_code=0):
+        '''populate the current heat from the Heat_Summary list and optional dancer code.'''
+        self.category = summary[Heat_Summary.CATEGORY_COLUMN]
         
         #extract heat number and extra info, if any
         try:
-            self.heat_number = int(info_list[1])
+            self.heat_number = int(summary[Heat_Summary.HEAT_NUM_COLUMN])
         except:
             end_index = 0
-            while info_list[1][end_index].isdigit():
+            while summary[Heat_Summary.HEAT_NUM_COLUMN][end_index].isdigit():
                 end_index += 1
-            self.heat_number = int(info_list[1][:end_index])
-            self.extra = info_list[1][end_index:]
+            self.heat_number = int(summary[Heat_Summary.HEAT_NUM_COLUMN][:end_index])
+            self.extra = summary[Heat_Summary.HEAT_NUM_COLUMN][end_index:]
         
-        time_fields = info_list[2].split("@")
+        # extract the heat time information
+        time_fields = summary[Heat_Summary.TIME_COLUMN].split("@")
         self.session = time_fields[0]
         self.time = time_fields[1]
         
-        self.info = info_list[3]
+        # extract the heat description
+        self.info = summary[Heat_Summary.INFO_COLUMN]
         self.set_level()
-        self.shirt_number = info_list[4]
         
-        couple_fields = info_list[5].split(" and ")
+        # extract the shirt number of the couple and the names
+        self.shirt_number = summary[Heat_Summary.SHIRT_NUM_COLUMN]
+        couple_fields = summary[Heat_Summary.NAMES_COLUMN].split(" and ")
         self.dancer = couple_fields[0]
-        self.code = dancer_code
         if len(couple_fields) == 2:
             self.partner = couple_fields[1]
 
+        self.code = dancer_code
+        
 
     def info_no_prefix(self):
         '''This function strips off the common prefixes used in heat descriptions.

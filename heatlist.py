@@ -1,6 +1,6 @@
 import json
 from operator import itemgetter
-from heat import Heat, Heat_Report
+from heat import Heat, Heat_Report, Heat_Summary
 from dancer import Dancer
 from couple import Couple
 
@@ -97,7 +97,7 @@ class Heatlist():
         for d in self.dancers:
             for ht in d.heats:
                 if heat == ht:
-                    output_list.append(ht.info_list())
+                    output_list.append(ht.heat_summary())
                     break
         return output_list
 
@@ -112,7 +112,7 @@ class Heatlist():
         for c in self.couples:
             for ht in c.heats:
                 if heat == ht:
-                    output_list.append(ht.info_list())
+                    output_list.append(ht.heat_summary())
                     break
         output_list.sort(key=itemgetter(sort_col))
         return output_list
@@ -289,7 +289,7 @@ class Heatlist():
         for d in self.dancers:
             fp.write("Dancer:" + d.name + ":" + d.code + ":Heats:" + str(len(d.heats)) + "\n")
             for h in d.heats:
-                json.dump(h.info_list(), fp)
+                json.dump(h.heat_summary(), fp)
                 fp.write("\n")
         fp.close()
 
