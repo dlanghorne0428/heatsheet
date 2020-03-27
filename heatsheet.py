@@ -709,6 +709,12 @@ class HelloFrame(wx.Frame):
         ''' Re-initalize the competition file and reset all the controls.'''
         self.heatlist = None
         self.scoresheet = None
+        # save all the dancer lists to files
+        self.instructors.save_to_file("./data/" + str(self.curr_date.year) + "/Rankings/professionals.txt") 
+        self.adult_students.save_to_file("./data/" + str(self.curr_date.year) + "/Rankings/adult_students.txt") 
+        self.junior_students.save_to_file("./data/" + str(self.curr_date.year) + "/Rankings/junior_students.txt") 
+        self.adult_amateurs.save_to_file("./data/" + str(self.curr_date.year) + "/Rankings/adult_amateurs.txt") 
+        self.junior_amateurs.save_to_file("./data/" + str(self.curr_date.year) + "/Rankings/junior_amateurs.txt")         
         self.preOpenProcess()
 
 
